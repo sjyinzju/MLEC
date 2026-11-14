@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "ROUNDING_ONLY": 626,
+    "EXACT_MATCH": 13344,
+    "VALUE_CONFLICT": 592,
+    "DATED_PUBLICATION_VERSION_DIFFERENCE": 281,
+    "SEMANTIC_ERROR": 268
+  },
+  "same_time_certified_conflict_ids": [],
+  "warning": "Different source values are never silently overwritten or automatically declared genuine revisions"
+}

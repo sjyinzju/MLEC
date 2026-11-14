@@ -1,0 +1,349 @@
+{
+  "database": "E:/QuantData/quant.duckdb",
+  "before": [
+    1207971840,
+    1792542101125321600
+  ],
+  "after": [
+    1207971840,
+    1792542101125321600
+  ],
+  "unchanged": true,
+  "registered_active_tables": [
+    {
+      "endpoint": "adj_factor",
+      "parts": 262,
+      "rows": 12428062.0
+    },
+    {
+      "endpoint": "balancesheet",
+      "parts": 55,
+      "rows": 317073.0
+    },
+    {
+      "endpoint": "block_trade",
+      "parts": 311,
+      "rows": 562051.0
+    },
+    {
+      "endpoint": "bse_mapping",
+      "parts": 2,
+      "rows": 496.0
+    },
+    {
+      "endpoint": "cashflow",
+      "parts": 110,
+      "rows": 315612.0
+    },
+    {
+      "endpoint": "cn_cpi",
+      "parts": 13,
+      "rows": 141.0
+    },
+    {
+      "endpoint": "cn_gdp",
+      "parts": 12,
+      "rows": 46.0
+    },
+    {
+      "endpoint": "cn_m",
+      "parts": 13,
+      "rows": 141.0
+    },
+    {
+      "endpoint": "cn_pmi",
+      "parts": 13,
+      "rows": 142.0
+    },
+    {
+      "endpoint": "cn_ppi",
+      "parts": 13,
+      "rows": 141.0
+    },
+    {
+      "endpoint": "cn_schedule",
+      "parts": 2,
+      "rows": 159.0
+    },
+    {
+      "endpoint": "daily",
+      "parts": 312,
+      "rows": 11914518.0
+    },
+    {
+      "endpoint": "daily_basic",
+      "parts": 311,
+      "rows": 11824246.0
+    },
+    {
+      "endpoint": "daily_info",
+      "parts": 311,
+      "rows": 55720.0
+    },
+    {
+      "endpoint": "disclosure_date",
+      "parts": 158,
+      "rows": 300415.0
+    },
+    {
+      "endpoint": "dividend",
+      "parts": 62,
+      "rows": 212987.0
+    },
+    {
+      "endpoint": "etf_limit",
+      "parts": 194,
+      "rows": 2293124.0
+    },
+    {
+      "endpoint": "express",
+      "parts": 29,
+      "rows": 20609.0
+    },
+    {
+      "endpoint": "fina_audit",
+      "parts": 62,
+      "rows": 63516.0
+    },
+    {
+      "endpoint": "fina_indicator",
+      "parts": 130,
+      "rows": 389530.0
+    },
+    {
+      "endpoint": "fina_mainbz",
+      "parts": 150,
+      "rows": 1780812.0
+    },
+    {
+      "endpoint": "forecast",
+      "parts": 53,
+      "rows": 83958.0
+    },
+    {
+      "endpoint": "fund_adj",
+      "parts": 311,
+      "rows": 3016390.0
+    },
+    {
+      "endpoint": "fund_basic",
+      "parts": 4,
+      "rows": 5824.0
+    },
+    {
+      "endpoint": "fund_daily",
+      "parts": 311,
+      "rows": 2827513.0
+    },
+    {
+      "endpoint": "fund_div",
+      "parts": 36,
+      "rows": 4083.0
+    },
+    {
+      "endpoint": "fund_nav",
+      "parts": 18,
+      "rows": 3040262.0
+    },
+    {
+      "endpoint": "fund_share",
+      "parts": 42,
+      "rows": 2058878.0
+    },
+    {
+      "endpoint": "gz_index",
+      "parts": 21,
+      "rows": 644.0
+    },
+    {
+      "endpoint": "hsgt_top10",
+      "parts": 321,
+      "rows": 50550.0
+    },
+    {
+      "endpoint": "income",
+      "parts": 70,
+      "rows": 304380.0
+    },
+    {
+      "endpoint": "index_basic",
+      "parts": 1,
+      "rows": 21208.0
+    },
+    {
+      "endpoint": "index_classify",
+      "parts": 1,
+      "rows": 1740.0
+    },
+    {
+      "endpoint": "index_daily",
+      "parts": 113,
+      "rows": 23785592.0
+    },
+    {
+      "endpoint": "index_dailybasic",
+      "parts": 312,
+      "rows": 41293.0
+    },
+    {
+      "endpoint": "index_member_all",
+      "parts": 149,
+      "rows": 7943.0
+    },
+    {
+      "endpoint": "index_weight",
+      "parts": 24,
+      "rows": 864616.0
+    },
+    {
+      "endpoint": "margin",
+      "parts": 311,
+      "rows": 6660.0
+    },
+    {
+      "endpoint": "margin_detail",
+      "parts": 405,
+      "rows": 6556733.0
+    },
+    {
+      "endpoint": "margin_secs",
+      "parts": 412,
+      "rows": 7978603.0
+    },
+    {
+      "endpoint": "moneyflow",
+      "parts": 413,
+      "rows": 11571464.0
+    },
+    {
+      "endpoint": "namechange",
+      "parts": 7,
+      "rows": 14226.0
+    },
+    {
+      "endpoint": "new_share",
+      "parts": 2,
+      "rows": 3275.0
+    },
+    {
+      "endpoint": "pledge_detail",
+      "parts": 56,
+      "rows": 220409.0
+    },
+    {
+      "endpoint": "pledge_stat",
+      "parts": 88,
+      "rows": 1647811.0
+    },
+    {
+      "endpoint": "repurchase",
+      "parts": 22,
+      "rows": 63587.0
+    },
+    {
+      "endpoint": "sf_month",
+      "parts": 13,
+      "rows": 141.0
+    },
+    {
+      "endpoint": "share_float",
+      "parts": 156,
+      "rows": 6303604.0
+    },
+    {
+      "endpoint": "shibor",
+      "parts": 21,
+      "rows": 2932.0
+    },
+    {
+      "endpoint": "shibor_lpr",
+      "parts": 17,
+      "rows": 365.0
+    },
+    {
+      "endpoint": "shibor_quote",
+      "parts": 15,
+      "rows": 5830.0
+    },
+    {
+      "endpoint": "stk_holdernumber",
+      "parts": 89,
+      "rows": 473196.0
+    },
+    {
+      "endpoint": "stk_holdertrade",
+      "parts": 21,
+      "rows": 162160.0
+    },
+    {
+      "endpoint": "stk_limit",
+      "parts": 311,
+      "rows": 12198498.0
+    },
+    {
+      "endpoint": "stk_managers",
+      "parts": 98,
+      "rows": 363487.0
+    },
+    {
+      "endpoint": "stk_rewards",
+      "parts": 208,
+      "rows": 1645115.0
+    },
+    {
+      "endpoint": "stk_seasoned",
+      "parts": 21,
+      "rows": 9825.0
+    },
+    {
+      "endpoint": "stock_basic",
+      "parts": 4,
+      "rows": 11814.0
+    },
+    {
+      "endpoint": "stock_company",
+      "parts": 6,
+      "rows": 12588.0
+    },
+    {
+      "endpoint": "suspend_d",
+      "parts": 311,
+      "rows": 334892.0
+    },
+    {
+      "endpoint": "sz_daily_info",
+      "parts": 311,
+      "rows": 41832.0
+    },
+    {
+      "endpoint": "top10_floatholders",
+      "parts": 113,
+      "rows": 2098029.0
+    },
+    {
+      "endpoint": "top10_holders",
+      "parts": 132,
+      "rows": 2319216.0
+    },
+    {
+      "endpoint": "top_inst",
+      "parts": 331,
+      "rows": 2407943.0
+    },
+    {
+      "endpoint": "top_list",
+      "parts": 311,
+      "rows": 200470.0
+    },
+    {
+      "endpoint": "trade_cal",
+      "parts": 2,
+      "rows": 10280.0
+    },
+    {
+      "endpoint": "wz_index",
+      "parts": 21,
+      "rows": 2730.0
+    }
+  ]
+}

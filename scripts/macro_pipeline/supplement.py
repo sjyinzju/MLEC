@@ -186,8 +186,11 @@ def official_facts():
                 if m:add('rmb_loans_ytd_flow',float(m[1])*(10000 if m[2]=='万亿元' else 1),'ytd_flow','亿元',pd.Timestamp(end.year,1,1))
     return output
 
-def archive_facts():
-    output=[];now=pd.Timestamp.now(tz=TZ)
+def archive_facts(retrieval_times=None):
+    output=[];retrieval_times=retrieval_times or {}
+    def retrieved_time(path):
+        pinned=retrieval_times.get(path.relative_to(ROOT).as_posix())
+        return pd.Timestamp(pinned) if pinned else pd.Timestamp(path.stat().st_mtime,unit='s',tz='UTC').tz_convert(TZ)
     jobs={
       'RPT_ECONOMY_RMB_LOAN':{'RMB_LOAN':('new_rmb_loans','flow','亿元'),'RMB_LOAN_ACCUMULATE':('rmb_loans_ytd_flow','ytd_flow','亿元')},
       'RPT_ECONOMY_INDUS_GROW':{'BASE_SAME':('industrial_va_yoy','yoy','%'),'BASE_ACCUMULATE':('industrial_va_ytd_yoy','ytd_yoy','%')},
@@ -197,7 +200,7 @@ def archive_facts():
         path=BASE/f'third_party_sources/eastmoney/{report}.parquet'
         if not path.exists():continue
         # Retrieval timestamp is pinned to raw artifact creation, not every normalization run.
-        retrieved=pd.Timestamp(path.stat().st_mtime,unit='s',tz='UTC').tz_convert(TZ)
+        retrieved=retrieved_time(path)
         for row in pd.read_parquet(path).to_dict('records'):
             day=pd.Timestamp(row.get('REPORT_DATE',row.get('TRADE_DATE')))
             end=day if report=='RPTA_WEB_RATE' else day+pd.offsets.MonthEnd(0)
@@ -224,7 +227,7 @@ def archive_facts():
                     output.append(fact(sid,float(row[col]),day,day,release,retrieved,'https://www.chinamoney.com.cn/chinese/'+('bkshibor/' if name=='shibor' else 'sddsintigy/'),path.relative_to(ROOT).as_posix(),'level','%','D','conservative_release_reconstructed',note='Official historical fixing; available after quotation day end; no historical correction log. '+('CFETS 11:30 mean government yield curve; not ChinaBond' if name=='govyield' else 'Shibor fixing; tenor explicitly identified by series_id')))
     path=BASE/'source_references/safe_xlsx.xlsx'
     if path.exists():
-        df=pd.read_excel(path);retrieved=pd.Timestamp(path.stat().st_mtime,unit='s',tz='UTC').tz_convert(TZ)
+        df=pd.read_excel(path);retrieved=retrieved_time(path)
         for date,value in df.iloc[:,:2].itertuples(index=False,name=None):
             day=pd.to_datetime(date,errors='coerce')
             if pd.isna(day) or day.year<2014:continue
@@ -233,7 +236,7 @@ def archive_facts():
     path=BASE/'source_references/safe_2026.html'
     if path.exists():
         soup=BeautifulSoup(path.read_bytes(),'lxml');table=soup.select_one('#InfoTable')
-        retrieved=pd.Timestamp(path.stat().st_mtime,unit='s',tz='UTC').tz_convert(TZ)
+        retrieved=retrieved_time(path)
         for tr in table.find_all('tr'):
             cells=[td.get_text(strip=True) for td in tr.find_all('td')]
             if len(cells)<2 or not re.match(r'^2026-\d{2}-\d{2}$',cells[0]):continue
@@ -241,4 +244,4 @@ def archive_facts():
             output.append(fact('usdcny_fixing',float(cells[1])/100,day,day,release,retrieved,'https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do',path.relative_to(ROOT).as_posix(),'level','CNY/USD','D','conservative_release_reconstructed',note='SAFE 2026 dated USD fixing per 100 USD divided by 100; no correction log'))
     return output
 
-def build():return official_facts()+archive_facts()
+def build(retrieval_times=None):return official_facts()+archive_facts(retrieval_times)

@@ -1,0 +1,227 @@
+[
+  {
+    "period": "2020-03",
+    "url": "https://finance.caixin.com/m/2020-04-10/101541000.html",
+    "publication_date": "2020-04-10",
+    "date_literal": "2020年04月10日",
+    "patterns": {
+      "tsf_month_flow": "；新增社会融资规模(?P<sign>减少|负增长)?(?P<number>-?\\d+(?:\\.\\d+)?)(?P<unit>万亿(?:元)?|亿(?:元)?)"
+    }
+  },
+  {
+    "period": "2024-02",
+    "url": "http://finance.people.com.cn/n1/2024/0316/c1004-40196944.html",
+    "publication_date": "2024-03-16",
+    "date_literal": "2024年03月16日",
+    "patterns": {
+      "tsf_month_flow": "具体到2月份，当月新增社融(?P<sign>减少|负增长)?(?P<number>-?\\d+(?:\\.\\d+)?)(?P<unit>万亿(?:元)?|亿(?:元)?)"
+    }
+  },
+  {
+    "period": "2024-03",
+    "url": "https://www.thepaper.cn/newsDetail_forward_27017210",
+    "publication_date": "2024-04-15",
+    "date_literal": "2024-04-15"
+  },
+  {
+    "period": "2024-04",
+    "url": "https://jrj.wuhan.gov.cn/ynzx_57/xwzx/202405/t20240513_2401073.shtml",
+    "publication_date": "2024-05-13",
+    "date_literal": "2024-05-13"
+  },
+  {
+    "period": "2024-05",
+    "url": "https://indices.cnfin.com/ztzs/wenzixiangqingye/detail/20240621/4065175_1.html",
+    "publication_date": "2024-06-21",
+    "date_literal": "2024年06月21日"
+  },
+  {
+    "period": "2024-06",
+    "url": "https://www.thepaper.cn/newsDetail_forward_28050227",
+    "patterns": {
+      "tsf_month_flow": "6月新增人民币贷款2.13万亿元，社融增加(?P<sign>减少|负增长)?(?P<number>-?\\d+(?:\\.\\d+)?)(?P<unit>万亿(?:元)?|亿(?:元)?)"
+    }
+  },
+  {
+    "period": "2024-07",
+    "url": "https://www.jiemian.com/article/11552867.html",
+    "publication_date": "2024-08-14",
+    "date_literal": "2024/08/14"
+  },
+  {
+    "period": "2024-08",
+    "url": "https://www.yicai.com/news/102274863.html",
+    "publication_date": "2024-09-14",
+    "date_literal": "2024-09-14"
+  },
+  {
+    "period": "2024-09",
+    "url": "https://www.jiemian.com/article/11826255.html",
+    "publication_date": "2024-10-14",
+    "date_literal": "2024/10/14"
+  },
+  {
+    "period": "2024-10",
+    "url": "https://finance.caixin.com/2024-11-11/102256237.html",
+    "publication_date": "2024-11-11",
+    "date_literal": "2024年11月11日"
+  },
+  {
+    "period": "2024-11",
+    "url": "https://finance.caixin.com/m/2024-12-13/102267848.html",
+    "publication_date": "2024-12-13",
+    "date_literal": "2024年12月13日"
+  },
+  {
+    "period": "2024-12",
+    "url": "https://www.thepaper.cn/newsDetail_forward_29927101"
+  },
+  {
+    "period": "2024-03",
+    "url": "https://www.jxfund.cn/html/report/24060079-1.htm",
+    "publication_date": "2024-04-15",
+    "date_literal": "2024-04-15"
+  },
+  {
+    "period": "2025-02",
+    "url": "https://m.thepaper.cn/newsDetail_forward_30396050",
+    "patterns": {
+      "tsf_month_flow": "2月人民币贷款增加1.01万亿元，社融增加(?P<sign>减少|负增长)?(?P<number>-?\\d+(?:\\.\\d+)?)(?P<unit>万亿(?:元)?|亿(?:元)?)"
+    }
+  },
+  {
+    "period": "2025-03",
+    "url": "https://www.cnfin.com/hb-lb/detail/20250414/4216586_1.html",
+    "publication_date": "2025-04-14",
+    "date_literal": "2025年04月14日"
+  },
+  {
+    "period": "2025-04",
+    "url": "https://finance.caixin.com/m/2025-05-14/102319704.html",
+    "publication_date": "2025-05-14",
+    "date_literal": "2025年05月14日"
+  },
+  {
+    "period": "2025-05",
+    "url": "https://finance.caixin.com/2025-06-14/102330347.html",
+    "publication_date": "2025-06-14",
+    "date_literal": "2025年06月14日"
+  },
+  {
+    "period": "2025-05",
+    "url": "https://finance.sina.cn/2025-06-14/detail-inezzfqn5596245.d.html?cid=79649&node_id=79649&vt=4",
+    "publication_date": "2025-06-14",
+    "date_literal": "2025-06-14"
+  },
+  {
+    "period": "2025-06",
+    "url": "https://finance.caixin.com/2025-07-14/102341065.html",
+    "publication_date": "2025-07-14",
+    "date_literal": "2025年07月14日"
+  },
+  {
+    "period": "2025-07",
+    "url": "https://finance.caixin.com/2025-08-13/102351666.html",
+    "publication_date": "2025-08-13",
+    "date_literal": "2025年08月13日"
+  },
+  {
+    "period": "2025-08",
+    "url": "https://finance.caixin.com/m/2025-09-12/102361920.html",
+    "publication_date": "2025-09-12",
+    "date_literal": "2025年09月12日",
+    "patterns": {
+      "new_rmb_loans": "8月新增信贷“转正”录得(?P<sign>减少|负增长)?(?P<number>-?\\d+(?:\\.\\d+)?)(?P<unit>万亿(?:元)?|亿(?:元)?)"
+    }
+  },
+  {
+    "period": "2025-09",
+    "url": "https://finance.caixin.com/2025-10-15/102372067.html",
+    "publication_date": "2025-10-15",
+    "date_literal": "2025年10月15日"
+  },
+  {
+    "period": "2025-10",
+    "url": "https://finance.caixin.com/2025-11-13/102382490.html",
+    "publication_date": "2025-11-13",
+    "date_literal": "2025年11月13日"
+  },
+  {
+    "period": "2025-11",
+    "url": "https://finance.caixin.com/2025-12-12/102392833.html",
+    "publication_date": "2025-12-12",
+    "date_literal": "2025年12月12日"
+  },
+  {
+    "period": "2025-12",
+    "url": "https://finance.caixin.com/2026-01-15/102404101.html",
+    "publication_date": "2026-01-15",
+    "date_literal": "2026年01月15日"
+  },
+  {
+    "period": "2026-02",
+    "url": "https://finance.caixin.com/2026-03-13/102422735.html",
+    "publication_date": "2026-03-13",
+    "date_literal": "2026年03月13日"
+  },
+  {
+    "period": "2026-03",
+    "url": "https://finance.caixin.com/m/2026-04-13/102433653.html",
+    "publication_date": "2026-04-13",
+    "date_literal": "2026年04月13日",
+    "patterns": {
+      "new_rmb_loans": "3月新增信贷(?P<sign>减少|负增长)?(?P<number>-?\\d+(?:\\.\\d+)?)(?P<unit>万亿(?:元)?|亿(?:元)?)"
+    }
+  },
+  {
+    "period": "2026-04",
+    "url": "https://finance.caixin.com/2026-05-14/102444085.html",
+    "publication_date": "2026-05-14",
+    "date_literal": "2026年05月14日"
+  },
+  {
+    "period": "2026-05",
+    "url": "https://finance.caixin.com/2026-06-12/102453771.html",
+    "publication_date": "2026-06-12",
+    "date_literal": "2026年06月12日"
+  },
+  {
+    "period": "2026-06",
+    "url": "https://finance.caixin.com/2026-07-15/102464533.html",
+    "publication_date": "2026-07-15",
+    "date_literal": "2026年07月15日"
+  },
+  {
+    "period": "2026-07",
+    "url": "https://finance.caixin.com/2026-08-14/102474246.html",
+    "publication_date": "2026-08-14",
+    "date_literal": "2026年08月14日",
+    "patterns": {
+      "new_rmb_loans": "单月人民币贷款(?P<sign>减少|负增长)?(?P<number>-?\\d+(?:\\.\\d+)?)(?P<unit>万亿(?:元)?|亿(?:元)?)"
+    }
+  },
+  {
+    "period": "2026-08",
+    "url": "https://finance.caixin.com/2026-09-14/102484845.html",
+    "publication_date": "2026-09-14",
+    "date_literal": "2026年09月14日"
+  },
+  {
+    "period": "2025-01",
+    "url": "https://www.china-cba.net/Index/show/catid/33/id/44605.html",
+    "publication_date": "2025-02-14",
+    "date_literal": "2025-02-14"
+  },
+  {
+    "period": "2025-06",
+    "url": "https://app.dahecube.com/nweb/news/20250714/241246n5613a7414ae.htm?artid=241246",
+    "publication_date": "2025-07-14",
+    "date_literal": "2025-07-14"
+  },
+  {
+    "period": "2026-09",
+    "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/845424646181/index.phtml",
+    "publication_date": "2026-10-15",
+    "date_literal": "2026-10-15"
+  }
+]

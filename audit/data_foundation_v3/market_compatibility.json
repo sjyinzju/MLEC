@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "replayed_tables": {
+    "market_observations_daily": 2850,
+    "state_labels_daily": 2850,
+    "risk_episodes": 67,
+    "market_features_weekly": 599,
+    "future_outcomes_weekly": 599,
+    "prediction_targets_weekly": 1797,
+    "sample_to_event": 903,
+    "fold_membership": 71544
+  },
+  "thresholds": "read frozen values; no threshold re-estimation",
+  "writes_to_old_outputs": false,
+  "lossless_timestamp_resolution_casts": [
+    {
+      "table": "market_features_weekly",
+      "column": "measurement_standard_available_at",
+      "from": "datetime64[us, Asia/Shanghai]",
+      "to": "datetime64[ns, Asia/Shanghai]"
+    },
+    {
+      "table": "prediction_targets_weekly",
+      "column": "measurement_standard_available_at",
+      "from": "datetime64[us, Asia/Shanghai]",
+      "to": "datetime64[ns, Asia/Shanghai]"
+    },
+    {
+      "table": "fold_manifest",
+      "column": "evaluation_start",
+      "from": "datetime64[us]",
+      "to": "datetime64[ns]"
+    },
+    {
+      "table": "fold_manifest",
+      "column": "evaluation_end",
+      "from": "datetime64[us]",
+      "to": "datetime64[ns]"
+    }
+  ]
+}

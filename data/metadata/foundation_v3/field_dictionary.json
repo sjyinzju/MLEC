@@ -1,0 +1,207 @@
+[
+  {
+    "field": "series_id",
+    "dtype": "str",
+    "meaning": "经济指标标识；月度/累计、币种、M1制度及社融统计范围分别建序列。社融未认证旧汇编独立为scope_unverified。"
+  },
+  {
+    "field": "series_name",
+    "dtype": "str",
+    "meaning": "中文指标名称；精确口径见 series_catalog 与逐条 adjustment_note。"
+  },
+  {
+    "field": "series_group",
+    "dtype": "str",
+    "meaning": "growth/prices/credit/rates/external 五个事先声明的经济信息组。"
+  },
+  {
+    "field": "value",
+    "dtype": "float64",
+    "meaning": "float64 标准化数值；百分比 7 表示 7%，不是 0.07；原缺失不填零。"
+  },
+  {
+    "field": "unit",
+    "dtype": "str",
+    "meaning": "标准化单位：%、index、亿元、万亿元、亿美元、CNY/USD、percentage_points。"
+  },
+  {
+    "field": "currency",
+    "dtype": "str",
+    "meaning": "USD/CNY/NA；人民币与美元贸易同比是不同序列。"
+  },
+  {
+    "field": "frequency",
+    "dtype": "str",
+    "meaning": "D/M/Q，保留原始统计频率；LPR 为按月报价制度，实际报价日在 observation_date。"
+  },
+  {
+    "field": "measure_type",
+    "dtype": "str",
+    "meaning": "level/yoy/mom/ytd_yoy/stock/flow/ytd_flow/spread，禁止累计值冒充单月流量。"
+  },
+  {
+    "field": "period_start",
+    "dtype": "datetime64[us]",
+    "meaning": "统计区间开始日，日期而非发布时刻；累计指标为当年1月1日。"
+  },
+  {
+    "field": "period_end",
+    "dtype": "datetime64[us]",
+    "meaning": "统计区间结束日；月末、季末或报价日。"
+  },
+  {
+    "field": "observation_date",
+    "dtype": "datetime64[us]",
+    "meaning": "原始观察日/报价日；与公告可得时刻分离。"
+  },
+  {
+    "field": "release_at",
+    "dtype": "datetime64[ns, Asia/Shanghai]",
+    "meaning": "已核查公告日期按日终解释的时区时间；未知可为空，不声称日终是实际首发钟点。"
+  },
+  {
+    "field": "research_available_at",
+    "dtype": "datetime64[ns, Asia/Shanghai]",
+    "meaning": "研究使用闸门，Asia/Shanghai；必须不晚于预测 asof_time。未认证版本只能从采集时起使用。"
+  },
+  {
+    "field": "release_time_basis",
+    "dtype": "str",
+    "meaning": "发布时间规则及证据类型；原始公告、转载日终、报价日终和采集时点分开。"
+  },
+  {
+    "field": "vintage_id",
+    "dtype": "str",
+    "meaning": "来源版本标识；同一观察期多个版本同时保留。"
+  },
+  {
+    "field": "revision_status",
+    "dtype": "str",
+    "meaning": "公告版本、转载或事后观察等状态；不同数值不自动解释为真实统计修订。"
+  },
+  {
+    "field": "source_name",
+    "dtype": "str",
+    "meaning": "机构/来源说明；官方历史报价与原始公告不是同一种证据。"
+  },
+  {
+    "field": "source_url",
+    "dtype": "str",
+    "meaning": "事实所在原文或附件URL；附件的公告页由 publication_date_evidence 指向。"
+  },
+  {
+    "field": "source_record_id",
+    "dtype": "str",
+    "meaning": "每条来源、指标、观察期、值/版本的唯一键；不因多源同值而删除证据。"
+  },
+  {
+    "field": "retrieved_at",
+    "dtype": "datetime64[ns, Asia/Shanghai]",
+    "meaning": "来源快照取得时刻，Asia/Shanghai；旧档案的取得时刻由固定映射保存。"
+  },
+  {
+    "field": "value_quality",
+    "dtype": "str",
+    "meaning": "数值核查方式：原文、表头、提供商字段映射等。"
+  },
+  {
+    "field": "time_quality",
+    "dtype": "str",
+    "meaning": "公告日期或时刻的证据等级。"
+  },
+  {
+    "field": "vintage_quality",
+    "dtype": "str",
+    "meaning": "原公告、转载、报价无更正日志或仅现行历史汇编等等级。"
+  },
+  {
+    "field": "quality_status",
+    "dtype": "str",
+    "meaning": "strict_pit_eligible/conservative_release_reconstructed/latest_vintage_reconstructed/blocked；不是完整率状态。"
+  },
+  {
+    "field": "adjustment_note",
+    "dtype": "str",
+    "meaning": "原文口径、单位换算、修正与使用限制；不得忽略。"
+  },
+  {
+    "field": "original_series_id",
+    "dtype": "str",
+    "meaning": "旧交付指标标识（如存在）；用于追溯错误映射。"
+  },
+  {
+    "field": "original_value",
+    "dtype": "float64",
+    "meaning": "旧交付数值（如存在）；修正后仍保留原始证据。"
+  },
+  {
+    "field": "claimed_available_at",
+    "dtype": "str",
+    "meaning": "原交付声称或被拒绝的可得日期；不用于历史筛选。"
+  },
+  {
+    "field": "evidence_path",
+    "dtype": "str",
+    "meaning": "仓库内不可变原始内容路径；哈希见 source_manifest。"
+  },
+  {
+    "field": "source_class",
+    "dtype": "str",
+    "meaning": "dated_official_bulletin、official_quote_history、contemporaneous_reprint、dated_official_republication、historical_candidate_archive 等。"
+  },
+  {
+    "field": "publication_date_evidence",
+    "dtype": "str",
+    "meaning": "证明本条日期的目录、原文或转载快照路径。"
+  },
+  {
+    "field": "reported_quantum",
+    "dtype": "float64",
+    "meaning": "原文最小舍入单位（可空），仅用于解释合理舍入差异；不会改写原值。"
+  },
+  {
+    "field": "extracted_text",
+    "dtype": "str",
+    "meaning": "具体匹配的原文字段（可空）；原始完整内容始终保留。"
+  },
+  {
+    "field": "extraction_method",
+    "dtype": "str",
+    "meaning": "数值提取方式；assistant_visual_review表示逐图核对表头、币种、正负号和期间，未直接采用OCR输出。"
+  },
+  {
+    "field": "extraction_evidence",
+    "dtype": "str",
+    "meaning": "图像转录快照路径，逐张绑定原图SHA256和页面日期证据，可离线重建。"
+  },
+  {
+    "field": "parent_record_ids",
+    "dtype": "str",
+    "meaning": "派生记录的父来源ID JSON列表；一月累计恒等式1个父项，期限利差2个父项。"
+  },
+  {
+    "field": "concept_id",
+    "dtype": "str",
+    "meaning": "经济概念标识；把不同社融统计范围映射回原需求，但不拼接数值或跨范围计算变化。"
+  },
+  {
+    "field": "statistical_scope_id",
+    "dtype": "str",
+    "meaning": "社融四次扩围的五段定义、scope_unverified或as_registered；证据见tsf_scope_evidence.json。"
+  },
+  {
+    "field": "source_id",
+    "dtype": "str",
+    "meaning": "来源URL的稳定标识；来源登记表使用复合键保留类别。"
+  },
+  {
+    "field": "certification_status",
+    "dtype": "str",
+    "meaning": "ACCEPTED/SEMANTIC_ERROR/VINTAGE_UNVERIFIED/VALUE_CONFLICT 等准入状态。"
+  },
+  {
+    "field": "data_foundation_version",
+    "dtype": "str",
+    "meaning": "本次治理版本 data-foundation-v3.0.0。"
+  }
+]

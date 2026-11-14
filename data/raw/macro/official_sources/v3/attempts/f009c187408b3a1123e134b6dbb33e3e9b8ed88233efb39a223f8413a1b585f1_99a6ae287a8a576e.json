@@ -1,0 +1,20 @@
+{
+  "request_id": "f009c187408b3a1123e134b6dbb33e3e9b8ed88233efb39a223f8413a1b585f1",
+  "url": "https://www.safe.gov.cn/internet_app/search",
+  "params": {
+    "q": "外汇储备规模",
+    "siteid": "safe",
+    "order": "releasetime",
+    "p": 14
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-14T20:41:24.039513+08:00",
+  "source_class": "official",
+  "http_status": 200,
+  "final_url": "https://www.safe.gov.cn/internet_app/search?q=%E5%A4%96%E6%B1%87%E5%82%A8%E5%A4%87%E8%A7%84%E6%A8%A1&siteid=safe&order=releasetime&p=14",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/macro/official_sources/v3/objects/5aa0f1f60fd726facd5a4ec53e6458c75eaa0322cd7f257a198bf04d141cdab0.html",
+  "sha256": "332cf943f4a9d67b7fcfd670a19abdb70f5b0686c4ec7452a765c0ad961eef04",
+  "bytes": 40267
+}

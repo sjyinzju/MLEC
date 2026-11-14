@@ -1,0 +1,25 @@
+{
+  "request_id": "089a9f99e0da97c1fd8d97f1cce835e972252b4213b80241e7e94328a7982dff",
+  "url": "https://api.so-gov.cn/query/s",
+  "params": {
+    "siteCode": "bm36000002",
+    "qt": "国民经济",
+    "page": 18,
+    "pageSize": 20,
+    "keyPlace": 1,
+    "timeOption": 2,
+    "startDateStr": "2023-01-01",
+    "endDateStr": "2023-12-31",
+    "sort": "dateDesc"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-14T20:42:50.676891+08:00",
+  "source_class": "official",
+  "http_status": 200,
+  "final_url": "https://api.so-gov.cn/query/s",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/macro/official_sources/v3/objects/77abc5a65f86c311b199c2211dd5a40f2617bb9d515c2e9d7b9d749fa775b23c.json",
+  "sha256": "e0aea4f866022608b0fd7e738c6b8bb0696bab262b79688a453f5f90f83f92a6",
+  "bytes": 85769
+}

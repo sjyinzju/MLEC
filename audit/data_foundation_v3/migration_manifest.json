@@ -1,0 +1,824 @@
+{
+  "files": [
+    {
+      "old_path": "中国宏观经济信息对A股市场风险状态的增量预警价值_课题设计与分工_v1.0.docx",
+      "new_path": "docs/research_design/中国宏观经济信息对A股市场风险状态的增量预警价值_课题设计与分工_v1.0.docx",
+      "sha256": "f3515a35f7872c04d4247b90e5d734479b2701a33f4bd900eaf5ad07e7f3bdc7",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/.DS_Store",
+      "new_path": "docs/course/lecture03/.DS_Store",
+      "sha256": "3c346c6db94dd96f6963f7928df2e14212cb383b492e8c88e094891232ace761",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.DS_Store",
+      "new_path": "docs/course/lecture03/knn/.DS_Store",
+      "sha256": "2bd16fe13d46ab8862348cdc90ea6890119b65aa38b8e5db63e9ec9e87508c7c",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rhistory",
+      "new_path": "docs/course/lecture03/knn/.Rhistory",
+      "sha256": "5b0bec23b01ae2d1d692dfec4652ba12b8d99a8f04d2035d3de6a0b15fdfe43f",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/knn_glass.R",
+      "new_path": "docs/course/lecture03/knn/knn_glass.R",
+      "sha256": "055c60bb2755854caa35b06b44c3454f09a1c43c9788a2e36a81ef098cc7e150",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/knn_mixture.R",
+      "new_path": "docs/course/lecture03/knn/knn_mixture.R",
+      "sha256": "7b03e899831c2406b88530bf5a3cfb65b3159cdfa9ad9a12812214f35659d736",
+      "operation": "verified_move_and_portable_path_update",
+      "original_archive": "docs/archive/course_original/knn_mixture.R",
+      "new_sha256": "9e4274aa425347c6f1b3250a56006e1a06223ec42cd8364d63c295da978420fb"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/mixture.RData",
+      "new_path": "data/archive/course_examples/lecture03/knn/mixture.RData",
+      "sha256": "e0c2eb807da34e29e673ada979e581d2e08cd9f2167ea256e4375d926c5cd95e",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/.DS_Store",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/.DS_Store",
+      "sha256": "5b791e2fcc5c68429ee45a83a84d60f80f3e03078ce84c01698e07999d557228",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/.DS_Store",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/.DS_Store",
+      "sha256": "3c0b1b006420d5553f7d976996a3f919cab21645abcf725d4c92e9ffd4dffb1d",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/persistent-state",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/persistent-state",
+      "sha256": "a54515e6bd5b2c4fda17cf07c720913bad1c871ffddecfd8db890693ecf8b4e0",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/rmd-outputs",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/rmd-outputs",
+      "sha256": "7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/saved_source_markers",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/saved_source_markers",
+      "sha256": "943cf5311c54c71f50cdf4d28d072c70ec8785a4b2b73bcc2000e6f1cf1dfc31",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/after_restart_command",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/after_restart_command",
+      "sha256": "ca45f28249b059a7076b850d4d8c04646d8f072429126f58bed72b75d7fd39eb",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/built_package_path",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/built_package_path",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/console_actions",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/console_actions",
+      "sha256": "3f5e56d7c8d3f80949f4fb3cec62246e23b371827a190ddd417932cf24e89cc8",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/environment",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/environment",
+      "sha256": "f0f3f60d44a205822716e06783ffe8204681dda27561b3078e44a6a8a71f5d35",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/environment_vars",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/environment_vars",
+      "sha256": "a008654adf1fcb1e6d8b8d9881019218178f714741058a0eeff7f91adba292d5",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/history",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/history",
+      "sha256": "0191bccf2f4519cf6d35a41fb4d61c79ef5606a68c878271b599d397d94b89ad",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/libpaths",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/libpaths",
+      "sha256": "d1cab9be0d89936d53e8f0799b729bdada70d640f5ea9829acbce35825d56658",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/options",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/options",
+      "sha256": "cb737727bf1305ce5cdae6bbd55c5ccfc47c2646efbe293cc86aeed1a5c421e4",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/rversion",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/rversion",
+      "sha256": "0a4916248fed4910ec12d5908ec15dde25bb57dd565f279c24bbf62ff37af70f",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/settings",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/settings",
+      "sha256": "0046735f27f68d97007287b8acc6f5940ce3aa112d0a1841f48b382b6d95c483",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir/empty.png",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir/empty.png",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir/INDEX",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir/INDEX",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/source-pane.pper",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/pcs/source-pane.pper",
+      "sha256": "d3a99880b45660498bf535569917d35e828a53122b48d4bb9d197a21c2cad4c9",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/windowlayoutstate.pper",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/pcs/windowlayoutstate.pper",
+      "sha256": "e16d65ae0eaae573ddd4fb891655eb7dff3b7b6f607c1a094cd7906117c76a85",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/workbench-pane.pper",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/pcs/workbench-pane.pper",
+      "sha256": "07e4ed709c32b1addc8de9c116086021dc4578eb31c1fd5d15ff64e2a794de0d",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/1358572E",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/1358572E",
+      "sha256": "e1b1071981767743a301a047c5cba085fd6bb866929c50713e5f18f3e4600e1c",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/1EAC134D",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/1EAC134D",
+      "sha256": "9198e55dc22131a6a0920c04113e609afcccb491fe7a465df8f8bbff4f07d3bc",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/866CCEDE",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/866CCEDE",
+      "sha256": "a92913e77c8e07943f6aedf65e408580be71bc9fd40363a7ae1395172fcdfe61",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/92D31D17",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/92D31D17",
+      "sha256": "9198e55dc22131a6a0920c04113e609afcccb491fe7a465df8f8bbff4f07d3bc",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/C782CBCF",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/C782CBCF",
+      "sha256": "9198e55dc22131a6a0920c04113e609afcccb491fe7a465df8f8bbff4f07d3bc",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/C94C35DA",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/C94C35DA",
+      "sha256": "d83589b123bfb6ad13050d425506e30154fe3e0172f25e5431d84cc7db232e91",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/CED375E6",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/CED375E6",
+      "sha256": "b499e9c818be0eb9a2a5160fbf7551208dae630956410f23415c78ba616b7883",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/E30980DB",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/E30980DB",
+      "sha256": "5e225f29952566b46e8b83e170ee1ea37e46381b22b4fd80c20ea0f308123495",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/E86737F9",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/E86737F9",
+      "sha256": "932e5fe2cd99b3f8b80569f01f59bd89352241880d0b4a1476f0c8d3d82e3eb0",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/INDEX",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/prop/INDEX",
+      "sha256": "44a973d1b849b32b4500959d4dff78d66b8cde68578c3b9b7cb133f4f45111ba",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/4BA81F97",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/4BA81F97",
+      "sha256": "f1567af077411825d2daa4cc3a75a22925755be4262f52f7454332edc05087f8",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/4BA81F97-contents",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/4BA81F97-contents",
+      "sha256": "45c1b0523c12c8b30607794a7e68d2a7385e9139b163efe0cd14ec2d4c833f91",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/A8949DE1-contents",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/A8949DE1-contents",
+      "sha256": "bc07bb5bc974f5e69550b1fa54e4e2d37bacc5df3270966b20faee50d1d3270e",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/B131C958-contents",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/B131C958-contents",
+      "sha256": "fa04f66b8e791e70d864aa5543062b59ce50c83625a22858fd57c000d850a549",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/E49242A8-contents",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/E49242A8-contents",
+      "sha256": "f84319a607e6145034deaba440e41cb51f7251c8c38b06449399b5a5559e7896",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/lock_file",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/lock_file",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/restart_file",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/restart_file",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/shared/.DS_Store",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/shared/.DS_Store",
+      "sha256": "3ef70e00a1c0d50d0752ccd103906124e18c72ec71c7c831de18c8f0347bd118",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/shared/notebooks/patch-chunk-names",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/shared/notebooks/patch-chunk-names",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/shared/notebooks/paths",
+      "new_path": "docs/course/lecture03/knn/.Rproj.user/shared/notebooks/paths",
+      "sha256": "2568afa6fe075eab0e48d73ace9e417f58cabf4688016a953f37dab79e825a66",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/R_basic/.Rhistory",
+      "new_path": "docs/course/lecture03/R_basic/.Rhistory",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/R_basic/R_basic.R",
+      "new_path": "docs/course/lecture03/R_basic/R_basic.R",
+      "sha256": "9cb104f7f2c1d39943fd4466a3e0d60d66c6b8c4294ad6160924712600701781",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/svm/.DS_Store",
+      "new_path": "docs/course/lecture03/svm/.DS_Store",
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/datacodes_lec3/svm/svm_digit_recognition.R",
+      "new_path": "docs/course/lecture03/svm/svm_digit_recognition.R",
+      "sha256": "1db83145f5ef478449ed765052ed7ad13567e5891578a7ee2034e4463a626ccc",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/._.DS_Store",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/._.DS_Store",
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/._.DS_Store",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/._.DS_Store",
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/._.Rhistory",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/._.Rhistory",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/._.Rproj.user",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/._.Rproj.user",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/._knn_glass.R",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/._knn_glass.R",
+      "sha256": "53542db94cf795977ad95f115bfd2b4bc8e32cd0d471ab4ac4fbd3eac243d39d",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/._knn_mixture.R",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/._knn_mixture.R",
+      "sha256": "26e9b1546a09c4e496a751542288150ba6a842e0ccdd1e168537ff9a1eedafc9",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/._mixture.RData",
+      "new_path": "data/archive/course_examples/lecture03/__MACOSX/datacodes_lec3/knn/._mixture.RData",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/._.DS_Store",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/._.DS_Store",
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/._BD60ADE6",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/._BD60ADE6",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/._shared",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/._shared",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._.DS_Store",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._.DS_Store",
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._bibliography-index",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._bibliography-index",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._ctx",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._ctx",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._explorer-cache",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._explorer-cache",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._pcs",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._pcs",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._persistent-state",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._persistent-state",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._presentation",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._presentation",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._profiles-cache",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._profiles-cache",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._rmd-outputs",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._rmd-outputs",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._saved_source_markers",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._saved_source_markers",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._sources",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._sources",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._tutorial",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._tutorial",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._viewer-cache",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/._viewer-cache",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/._ctx-16939",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/._ctx-16939",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._after_restart_command",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._after_restart_command",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._built_package_path",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._built_package_path",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._console_actions",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._console_actions",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._environment",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._environment",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._environment_vars",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._environment_vars",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._history",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._history",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._libpaths",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._libpaths",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._options",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._options",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._plots_dir",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._plots_dir",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._rversion",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._rversion",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._settings",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/._settings",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir/._empty.png",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir/._empty.png",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir/._INDEX",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir/._INDEX",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/._source-pane.pper",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/._source-pane.pper",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/._windowlayoutstate.pper",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/._windowlayoutstate.pper",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/._workbench-pane.pper",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs/._workbench-pane.pper",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/._per",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/._per",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/._prop",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/._prop",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/._session-ed77e152",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/._session-ed77e152",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/per/._t",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/per/._t",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/per/._u",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/per/._u",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._1358572E",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._1358572E",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._1EAC134D",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._1EAC134D",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._866CCEDE",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._866CCEDE",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._92D31D17",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._92D31D17",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._C782CBCF",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._C782CBCF",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._C94C35DA",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._C94C35DA",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._CED375E6",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._CED375E6",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._E30980DB",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._E30980DB",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._E86737F9",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._E86737F9",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._INDEX",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop/._INDEX",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._4BA81F97",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._4BA81F97",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._4BA81F97-contents",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._4BA81F97-contents",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._A8949DE1-contents",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._A8949DE1-contents",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._B131C958-contents",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._B131C958-contents",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._E49242A8-contents",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._E49242A8-contents",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._lock_file",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._lock_file",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._restart_file",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152/._restart_file",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/._.DS_Store",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/._.DS_Store",
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/._notebooks",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/._notebooks",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/notebooks/._patch-chunk-names",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/notebooks/._patch-chunk-names",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/notebooks/._paths",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/notebooks/._paths",
+      "sha256": "8d8b2c8a3a49196c207df557928fe1f6a04af7b8fb79ced2238f3346479d0188",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/R_basic/._.Rhistory",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/R_basic/._.Rhistory",
+      "sha256": "4048bf838261b9b1988612efee0456c624abed7fc6fd8ec4f0f710a3dd525aa3",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/R_basic/._R_basic.R",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/R_basic/._R_basic.R",
+      "sha256": "1b10525a0468ea3aeac8a4b5550d57c62bb51736252426332e25c9e6409fe72c",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/svm/._.DS_Store",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/svm/._.DS_Store",
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "datacodes_lec3/__MACOSX/datacodes_lec3/svm/._svm_digit_recognition.R",
+      "new_path": "docs/course/lecture03/__MACOSX/datacodes_lec3/svm/._svm_digit_recognition.R",
+      "sha256": "0bac79787585905ffd95b7b9c138079bdeec4c1d12869fa2f894133bfdea3bc2",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "deliverables/macro_data_quality.md",
+      "new_path": "docs/archive/legacy_deliverables_pointers/macro_data_quality.md",
+      "sha256": "e871ce97d26771228c1e5736470003732fdfa478da36546733deb2825e902677",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "deliverables/manual_sources.md",
+      "new_path": "docs/archive/legacy_deliverables_pointers/manual_sources.md",
+      "sha256": "7b9a690942c328ccb23588f4139b60d7f3f463ef59e73f8438b6ddff53a371d6",
+      "operation": "verified_copy_then_remove_original"
+    },
+    {
+      "old_path": "deliverables/README.md",
+      "new_path": "docs/archive/legacy_deliverables_pointers/README.md",
+      "sha256": "20d9198a66956ee6caa13a6c814f5ad474635d5ba9695c7e9235c22f14210f9a",
+      "operation": "verified_copy_then_remove_original"
+    }
+  ],
+  "empty_directories_removed": [
+    "data_raw",
+    "deliverables",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/bibliography-index",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/explorer-cache",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/presentation",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/profiles-cache",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/per/t",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/per/u",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/per",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/tutorial",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6/viewer-cache",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/BD60ADE6",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/shared/notebooks",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user/shared",
+    "datacodes_lec3/datacodes_lec3/knn/.Rproj.user",
+    "datacodes_lec3/datacodes_lec3/knn",
+    "datacodes_lec3/datacodes_lec3/R_basic",
+    "datacodes_lec3/datacodes_lec3/svm",
+    "datacodes_lec3/datacodes_lec3",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939/plots_dir",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx/ctx-16939",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/ctx",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/pcs",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/per",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/prop",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources/session-ed77e152",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6/sources",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/BD60ADE6",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared/notebooks",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user/shared",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn/.Rproj.user",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/knn",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/R_basic",
+    "datacodes_lec3/__MACOSX/datacodes_lec3/svm",
+    "datacodes_lec3/__MACOSX/datacodes_lec3",
+    "datacodes_lec3/__MACOSX",
+    "datacodes_lec3"
+  ],
+  "frozen_metadata_copies": [
+    {
+      "source": "audit/research_v2/sse_calendar.parquet",
+      "data_path": "data/metadata/market/sse_calendar.parquet",
+      "sha256": "281b909951afcd940ce31d1027446310e3678ef8670cdad80663b1d5a3d99614",
+      "reason": "New data-only pipeline authority; original audit snapshot retained for frozen compatibility"
+    },
+    {
+      "source": "audit/research_v2/fold_manifest.parquet",
+      "data_path": "data/metadata/market/fold_manifest.parquet",
+      "sha256": "a334c51cb832ec9a7cf8bb13415c839f85e79c20fdd0a96611384ff26509010f",
+      "reason": "New data-only pipeline authority; original audit snapshot retained for frozen compatibility"
+    }
+  ],
+  "documentation_archives": [
+    {
+      "original_path": "README.md",
+      "archive_path": "docs/archive/README_before_data_foundation_v3.md",
+      "sha256": "1387e68c43d594a168cfa0eb48cc598bd0593c1dc2bff4b0ea7bf5481b817ecd",
+      "operation": "byte_identical_original_preserved_before_v3_documentation_replacement"
+    },
+    {
+      "original_path": "docs/data_dictionary.md",
+      "archive_path": "docs/archive/data_dictionary_before_v3.md",
+      "sha256": "b8192baa931c6002835987238ba0e73142eb58670cf76e61b157367443357fcf",
+      "operation": "byte_identical_original_preserved_before_v3_documentation_replacement"
+    }
+  ]
+}

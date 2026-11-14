@@ -1,0 +1,25 @@
+{
+  "request_id": "86ec344204203affb96d64c0645317e2b8925ecd01da1172f47caf6f1a6032cf",
+  "url": "https://api.so-gov.cn/query/s",
+  "params": {
+    "siteCode": "bm36000002",
+    "qt": "固定资产投资",
+    "page": 2,
+    "pageSize": 20,
+    "keyPlace": 1,
+    "timeOption": 2,
+    "startDateStr": "2016-01-01",
+    "endDateStr": "2016-12-31",
+    "sort": "dateDesc"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-14T20:18:49.721684+08:00",
+  "source_class": "official",
+  "http_status": 200,
+  "final_url": "https://api.so-gov.cn/query/s",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/macro/official_sources/v3/objects/8242cbbbb2b1cc46dfbe8fa085365746a4b30b0752d771ac742885864631fa29.json",
+  "sha256": "f8703d3ebcd21e963a0b574cb905690969912de5bcf51db7b29a240dd8488ac7",
+  "bytes": 96643
+}

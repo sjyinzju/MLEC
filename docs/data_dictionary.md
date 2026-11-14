@@ -1,48 +1,113 @@
-# 研究数据字典
+# 数据字段与指标字典
 
-## 数据集及主键
+| field                     | dtype                         | meaning                                                                                                                                   |
+|:--------------------------|:------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
+| series_id                 | str                           | 经济指标标识；月度/累计、币种、M1制度及社融统计范围分别建序列。社融未认证旧汇编独立为scope_unverified。                                   |
+| series_name               | str                           | 中文指标名称；精确口径见 series_catalog 与逐条 adjustment_note。                                                                          |
+| series_group              | str                           | growth/prices/credit/rates/external 五个事先声明的经济信息组。                                                                            |
+| value                     | float64                       | float64 标准化数值；百分比 7 表示 7%，不是 0.07；原缺失不填零。                                                                           |
+| unit                      | str                           | 标准化单位：%、index、亿元、万亿元、亿美元、CNY/USD、percentage_points。                                                                  |
+| currency                  | str                           | USD/CNY/NA；人民币与美元贸易同比是不同序列。                                                                                              |
+| frequency                 | str                           | D/M/Q，保留原始统计频率；LPR 为按月报价制度，实际报价日在 observation_date。                                                              |
+| measure_type              | str                           | level/yoy/mom/ytd_yoy/stock/flow/ytd_flow/spread，禁止累计值冒充单月流量。                                                                |
+| period_start              | datetime64[us]                | 统计区间开始日，日期而非发布时刻；累计指标为当年1月1日。                                                                                  |
+| period_end                | datetime64[us]                | 统计区间结束日；月末、季末或报价日。                                                                                                      |
+| observation_date          | datetime64[us]                | 原始观察日/报价日；与公告可得时刻分离。                                                                                                   |
+| release_at                | datetime64[ns, Asia/Shanghai] | 已核查公告日期按日终解释的时区时间；未知可为空，不声称日终是实际首发钟点。                                                                |
+| research_available_at     | datetime64[ns, Asia/Shanghai] | 研究使用闸门，Asia/Shanghai；必须不晚于预测 asof_time。未认证版本只能从采集时起使用。                                                     |
+| release_time_basis        | str                           | 发布时间规则及证据类型；原始公告、转载日终、报价日终和采集时点分开。                                                                      |
+| vintage_id                | str                           | 来源版本标识；同一观察期多个版本同时保留。                                                                                                |
+| revision_status           | str                           | 公告版本、转载或事后观察等状态；不同数值不自动解释为真实统计修订。                                                                        |
+| source_name               | str                           | 机构/来源说明；官方历史报价与原始公告不是同一种证据。                                                                                     |
+| source_url                | str                           | 事实所在原文或附件URL；附件的公告页由 publication_date_evidence 指向。                                                                    |
+| source_record_id          | str                           | 每条来源、指标、观察期、值/版本的唯一键；不因多源同值而删除证据。                                                                         |
+| retrieved_at              | datetime64[ns, Asia/Shanghai] | 来源快照取得时刻，Asia/Shanghai；旧档案的取得时刻由固定映射保存。                                                                         |
+| value_quality             | str                           | 数值核查方式：原文、表头、提供商字段映射等。                                                                                              |
+| time_quality              | str                           | 公告日期或时刻的证据等级。                                                                                                                |
+| vintage_quality           | str                           | 原公告、转载、报价无更正日志或仅现行历史汇编等等级。                                                                                      |
+| quality_status            | str                           | strict_pit_eligible/conservative_release_reconstructed/latest_vintage_reconstructed/blocked；不是完整率状态。                             |
+| adjustment_note           | str                           | 原文口径、单位换算、修正与使用限制；不得忽略。                                                                                            |
+| original_series_id        | str                           | 旧交付指标标识（如存在）；用于追溯错误映射。                                                                                              |
+| original_value            | float64                       | 旧交付数值（如存在）；修正后仍保留原始证据。                                                                                              |
+| claimed_available_at      | str                           | 原交付声称或被拒绝的可得日期；不用于历史筛选。                                                                                            |
+| evidence_path             | str                           | 仓库内不可变原始内容路径；哈希见 source_manifest。                                                                                        |
+| source_class              | str                           | dated_official_bulletin、official_quote_history、contemporaneous_reprint、dated_official_republication、historical_candidate_archive 等。 |
+| publication_date_evidence | str                           | 证明本条日期的目录、原文或转载快照路径。                                                                                                  |
+| reported_quantum          | float64                       | 原文最小舍入单位（可空），仅用于解释合理舍入差异；不会改写原值。                                                                          |
+| extracted_text            | str                           | 具体匹配的原文字段（可空）；原始完整内容始终保留。                                                                                        |
+| extraction_method         | str                           | 数值提取方式；assistant_visual_review表示逐图核对表头、币种、正负号和期间，未直接采用OCR输出。                                            |
+| extraction_evidence       | str                           | 图像转录快照路径，逐张绑定原图SHA256和页面日期证据，可离线重建。                                                                          |
+| parent_record_ids         | str                           | 派生记录的父来源ID JSON列表；一月累计恒等式1个父项，期限利差2个父项。                                                                     |
+| concept_id                | str                           | 经济概念标识；把不同社融统计范围映射回原需求，但不拼接数值或跨范围计算变化。                                                              |
+| statistical_scope_id      | str                           | 社融四次扩围的五段定义、scope_unverified或as_registered；证据见tsf_scope_evidence.json。                                                  |
+| source_id                 | str                           | 来源URL的稳定标识；来源登记表使用复合键保留类别。                                                                                         |
+| certification_status      | str                           | ACCEPTED/SEMANTIC_ERROR/VINTAGE_UNVERIFIED/VALUE_CONFLICT 等准入状态。                                                                    |
+| data_foundation_version   | str                           | 本次治理版本 data-foundation-v3.0.0。                                                                                                     |
 
-| 权威路径 | 角色 / 键 |
-|---|---|
-| data/raw/macro/original_submissions/v1 | 原交付字节快照，包含原数据、元数据、旧报告 |
-| data/raw/macro/original_submissions/peer_scripts | 相邻目录找到的八个同伴脚本，原样留存 |
-| data/raw/macro/official_sources | 公告正文、官方索引日期、金融报价原响应 |
-| data/raw/macro/third_party_sources | 本地 QuantData 只读提取与公开历史响应 |
-| data/standardized/macro/macro_facts.parquet | 一条指标、统计期间、版本、来源事实 |
-| data/standardized/macro/macro_vintages.parquet | 同事实版本键对应原值和修订状态 |
-| data/standardized/macro/macro_release_events.parquet | 同版本键对应发布日期与研究可得时间 |
-| data/metadata/data_lineage.parquet | 来源 URL、原值、证据路径和转换说明 |
-| data/features/macro_weekly.parquet | sample_id 唯一，周度宏观宽表 |
-| data/features/macro_availability.parquet | sample_id + series_id；输入证据 ID、可得时间、缺失原因 |
-| data/datasets/main_v1 | 样本、市场/宏观特征、目标分别储存 |
-| data/datasets/common_*_v1/common_samples.parquet | 各宏观组的共同样本资格，M 与 M+Z 同时使用 |
+完整候选指标（未据模型结果筛选）：
 
-事实自然键为 `(series_id, period_start, period_end)`，版本键追加 `(vintage_id, source_record_id)`。自然键可有多个合法修订；版本键不得重复。同一版本时间存在不同可信值时验收失败，不能凭行顺序选择。
+| series_id                        | series_name                                                     | series_group   | unit              | currency   | frequency   | measure_type   | required_start   | original_regime_start                                       |
+|:---------------------------------|:----------------------------------------------------------------|:---------------|:------------------|:-----------|:------------|:---------------|:-----------------|:------------------------------------------------------------|
+| pmi_mfg                          | 制造业PMI                                                       | growth         | index             | NA         | M           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| pmi_new_orders                   | 制造业PMI新订单指数                                             | growth         | index             | NA         | M           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| pmi_nonmfg                       | 非制造业商务活动指数                                            | growth         | index             | NA         | M           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| industrial_va_yoy                | 规模以上工业增加值当月实际同比                                  | growth         | %                 | NA         | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| industrial_va_ytd_yoy            | 规模以上工业增加值累计实际同比                                  | growth         | %                 | NA         | M           | ytd_yoy        | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| retail_sales_yoy                 | 社会消费品零售总额当月名义同比                                  | growth         | %                 | NA         | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| retail_sales_ytd_yoy             | 社会消费品零售总额累计名义同比                                  | growth         | %                 | NA         | M           | ytd_yoy        | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| gdp_real_yoy                     | GDP单季实际同比                                                 | growth         | %                 | NA         | Q           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| gdp_real_ytd_yoy                 | GDP累计实际同比                                                 | growth         | %                 | NA         | Q           | ytd_yoy        | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| fai_ytd_yoy                      | 全国固定资产投资（不含农户）累计名义同比                        | growth         | %                 | NA         | M           | ytd_yoy        | 2014-01-01       | 2011-01-01                                                  |
+| cpi_yoy                          | 居民消费价格同比                                                | prices         | %                 | NA         | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| cpi_mom                          | 居民消费价格环比                                                | prices         | %                 | NA         | M           | mom            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| core_cpi_yoy                     | 扣除食品能源的核心CPI同比                                       | prices         | %                 | NA         | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| ppi_yoy                          | 工业生产者出厂价格同比                                          | prices         | %                 | NA         | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| ppi_mom                          | 工业生产者出厂价格环比                                          | prices         | %                 | NA         | M           | mom            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| m2_yoy                           | 广义货币M2同比（各期可比口径）                                  | credit         | %                 | CNY        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| m1_yoy                           | 狭义货币M1同比（2024年底前口径）                                | credit         | %                 | CNY        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| m1_new_yoy                       | 狭义货币M1同比（2025年起新口径）                                | credit         | %                 | CNY        | M           | yoy            | 2025-01-01       | 2025-01-01                                                  |
+| tsf_stock                        | 社会融资规模存量（各期统计范围）（2019年12月扩围后）            | credit         | 万亿元            | CNY        | M           | stock          | 2019-12-01       | 2019-12-01                                                  |
+| tsf_stock_yoy                    | 社会融资规模存量可比同比（2019年12月扩围后）                    | credit         | %                 | CNY        | M           | yoy            | 2019-12-01       | 2019-12-01                                                  |
+| tsf_month_flow                   | 社会融资规模当月增量（2019年12月扩围后）                        | credit         | 亿元              | CNY        | M           | flow           | 2019-12-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_ytd_flow                     | 社会融资规模年初累计增量（2019年12月扩围后）                    | credit         | 亿元              | CNY        | M           | ytd_flow       | 2019-12-01       | earlier_history_in_raw; not asserted first-ever publication |
+| new_rmb_loans                    | 金融机构人民币贷款当月增加                                      | credit         | 亿元              | CNY        | M           | flow           | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| rmb_loans_ytd_flow               | 金融机构人民币贷款年初累计增加                                  | credit         | 亿元              | CNY        | M           | ytd_flow       | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| rmb_loan_balance_yoy             | 金融机构人民币贷款余额可比同比                                  | credit         | %                 | CNY        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock__scope_pre_201807      | 社会融资规模存量（各期统计范围）（2018年7月扩围前）             | credit         | 万亿元            | CNY        | M           | stock          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock__scope_201807          | 社会融资规模存量（各期统计范围）（加入存款类机构ABS及贷款核销） | credit         | 万亿元            | CNY        | M           | stock          | 2018-07-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock__scope_201809          | 社会融资规模存量（各期统计范围）（再加入地方政府专项债券）      | credit         | 万亿元            | CNY        | M           | stock          | 2018-09-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock__scope_201909          | 社会融资规模存量（各期统计范围）（再加入交易所企业ABS）         | credit         | 万亿元            | CNY        | M           | stock          | 2019-09-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock__scope_unverified      | 社会融资规模存量（各期统计范围）（历史统计范围未认证，仅候选）  | credit         | 万亿元            | CNY        | M           | stock          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock_yoy__scope_pre_201807  | 社会融资规模存量可比同比（2018年7月扩围前）                     | credit         | %                 | CNY        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock_yoy__scope_201807      | 社会融资规模存量可比同比（加入存款类机构ABS及贷款核销）         | credit         | %                 | CNY        | M           | yoy            | 2018-07-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock_yoy__scope_201809      | 社会融资规模存量可比同比（再加入地方政府专项债券）              | credit         | %                 | CNY        | M           | yoy            | 2018-09-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock_yoy__scope_201909      | 社会融资规模存量可比同比（再加入交易所企业ABS）                 | credit         | %                 | CNY        | M           | yoy            | 2019-09-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_stock_yoy__scope_unverified  | 社会融资规模存量可比同比（历史统计范围未认证，仅候选）          | credit         | %                 | CNY        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_month_flow__scope_pre_201807 | 社会融资规模当月增量（2018年7月扩围前）                         | credit         | 亿元              | CNY        | M           | flow           | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_month_flow__scope_201807     | 社会融资规模当月增量（加入存款类机构ABS及贷款核销）             | credit         | 亿元              | CNY        | M           | flow           | 2018-07-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_month_flow__scope_201809     | 社会融资规模当月增量（再加入地方政府专项债券）                  | credit         | 亿元              | CNY        | M           | flow           | 2018-09-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_month_flow__scope_201909     | 社会融资规模当月增量（再加入交易所企业ABS）                     | credit         | 亿元              | CNY        | M           | flow           | 2019-09-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_month_flow__scope_unverified | 社会融资规模当月增量（历史统计范围未认证，仅候选）              | credit         | 亿元              | CNY        | M           | flow           | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_ytd_flow__scope_pre_201807   | 社会融资规模年初累计增量（2018年7月扩围前）                     | credit         | 亿元              | CNY        | M           | ytd_flow       | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_ytd_flow__scope_201807       | 社会融资规模年初累计增量（加入存款类机构ABS及贷款核销）         | credit         | 亿元              | CNY        | M           | ytd_flow       | 2018-07-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_ytd_flow__scope_201809       | 社会融资规模年初累计增量（再加入地方政府专项债券）              | credit         | 亿元              | CNY        | M           | ytd_flow       | 2018-09-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_ytd_flow__scope_201909       | 社会融资规模年初累计增量（再加入交易所企业ABS）                 | credit         | 亿元              | CNY        | M           | ytd_flow       | 2019-09-01       | earlier_history_in_raw; not asserted first-ever publication |
+| tsf_ytd_flow__scope_unverified   | 社会融资规模年初累计增量（历史统计范围未认证，仅候选）          | credit         | 亿元              | CNY        | M           | ytd_flow       | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| shibor_on                        | Shibor隔夜定盘                                                  | rates          | %                 | NA         | D           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| shibor_1w                        | Shibor1周期限定盘                                               | rates          | %                 | NA         | D           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| shibor_3m                        | Shibor3个月期限定盘                                             | rates          | %                 | NA         | D           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| dr007                            | 存款类机构以利率债质押7天回购成交加权利率                       | rates          | %                 | NA         | D           | level          | 2014-12-15       | 2014-12-15                                                  |
+| cgb_1y                           | CFETS11:30国债收益率曲线1年期                                   | rates          | %                 | NA         | D           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| cgb_10y                          | CFETS11:30国债收益率曲线10年期                                  | rates          | %                 | NA         | D           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| term_spread_10y_1y               | 同一CFETS曲线10年减1年期限利差                                  | rates          | percentage_points | NA         | D           | spread         | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| lpr_1y                           | 2019年8月新机制1年期LPR                                         | rates          | %                 | NA         | M           | level          | 2019-08-20       | 2019-08-20                                                  |
+| usdcny_fixing                    | 美元兑人民币中间价                                              | external       | CNY/USD           | CNY        | D           | level          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| exports_yoy                      | 海关货物出口当月美元值同比                                      | external       | %                 | USD        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| imports_yoy                      | 海关货物进口当月美元值同比                                      | external       | %                 | USD        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| fx_reserves                      | 国家外汇储备余额                                                | external       | 亿美元            | USD        | M           | stock          | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| exports_cny_yoy                  | 海关货物出口当月人民币值同比                                    | external       | %                 | CNY        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| imports_cny_yoy                  | 海关货物进口当月人民币值同比                                    | external       | %                 | CNY        | M           | yoy            | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| exports_cny_ytd_yoy              | 海关货物出口累计人民币值同比                                    | external       | %                 | CNY        | M           | ytd_yoy        | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
+| imports_cny_ytd_yoy              | 海关货物进口累计人民币值同比                                    | external       | %                 | CNY        | M           | ytd_yoy        | 2014-01-01       | earlier_history_in_raw; not asserted first-ever publication |
 
-## 事实字段
-
-| 字段 | 含义 |
-|---|---|
-| series_id / series_name / series_group | 唯一经济口径及经济分组 |
-| value / unit / currency | 原口径数值、单位、币种；百分数保留 2.0 表示 2%，不转为 0.02 |
-| frequency / measure_type | D/M/Q；level/yoy/mom/ytd_yoy/flow/ytd_flow/stock |
-| period_start / period_end / observation_date | 经济统计期间；日频保留报价原日期 |
-| release_at | 官方公告日期的日末或报价日的日末；未知则缺失 |
-| research_available_at | 实际准入时间；未知历史版本以获取时间限制，不回填 |
-| release_time_basis | 发布时间证据或保守规则 |
-| retrieved_at | 此次获取时间，不是历史发布日期 |
-| vintage_id / revision_status | 公告或档案版本；不以下载年份假装初次值 |
-| source_name / source_url / source_record_id | 可追踪来源与稳定记录身份 |
-| value_quality / time_quality / vintage_quality / quality_status | 数值、时间、版本、准入等级分别记录 |
-| adjustment_note / evidence_path | 转换理由、可核对的原始文件 |
-| original_series_id / original_value / claimed_available_at | 原交付主张保留，修复可追溯 |
-
-全部可得时间是 Asia/Shanghai 时区。统计期间为无时区的日期。GDP 季度与累计同比、工业/零售当月与累计同比、贷款单月与累计流量使用不同序列。M1 在 2025 年新定义另列 `m1_new_yoy`。国债曲线是 CFETS 11:30 报价均值；汇率 `usdcny_fixing` 是 CNY/USD，来源为 SAFE 每 100 美元折人民币，除以 100。
-
-每条序列的单位、起止期间、缺口、质量状态见 `data/metadata/macro_feature_catalog.csv` 和 `macro_acceptance_catalog.csv`；所有原始文件哈希见 `raw_source_registry.json`。
-
-## 样本与目标
-
-`sample_id/asof_date/asof_time/horizon/risk_set/target_valid/label_available_at` 直接复用冻结市场表。预测时点为完整 SSE 交易周最后开放日 18:00。目标 `y_new_episode_next20`；训练标签须在 fit_cutoff 前成熟。2023+ 新建标签表为空，原市场文件不改动。市场特征只允许冻结白名单 25 项；未来风险观测、事件 ID、目标有效性等只作元数据，不入 X。
-
-宏观派生列命名 `z__<series>__latest/previous/change/age_days`；日频另有 `mean_5d/mean_20d`。先在统计期间内按可得时间选版本，再选最新统计期间；报价均值使用最近已知报价时点之前的 5/20 个 SSE 开放日，窗口不完整则缺失。禁止向后填充。
+特征名为 `macro__{series_id}__{latest|previous|change|days_since_release}`。previous 是前一个不同观察期，不是同一期前一个修订。change 是上述两期可得数值之差；累计流量跨年为NA，社融不同范围各自取前值，禁止跨段差分。days_since_release按秒除86400。资格表保留 sample_id/horizon、risk_set、target_valid、label_available_at 和缺失系列JSON；eligible要求所选latest齐备，eligible_all_features进一步要求所有派生字段齐备。

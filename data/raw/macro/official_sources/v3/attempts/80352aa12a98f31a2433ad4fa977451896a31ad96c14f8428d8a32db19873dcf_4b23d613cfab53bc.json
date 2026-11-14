@@ -1,0 +1,10 @@
+{
+  "request_id": "80352aa12a98f31a2433ad4fa977451896a31ad96c14f8428d8a32db19873dcf",
+  "url": "https://gdfs.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/302277/302276/index.html",
+  "params": null,
+  "method": "GET",
+  "retrieved_at": "2026-11-14T20:44:04.647906+08:00",
+  "source_class": "official",
+  "status": "failed",
+  "error": "SSLError: HTTPSConnectionPool(host='gdfs.customs.gov.cn', port=443): Max retries exceeded with url: /customs/302249/zfxxgk/2799825/302274/302277/302276/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate"
+}

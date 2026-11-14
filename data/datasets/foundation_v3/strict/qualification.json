@@ -1,0 +1,52 @@
+{
+  "basis": "100% accepted or structurally absent required periods from frozen research start 2015; no model results read",
+  "coverage_qualified_series": [
+    "core_cpi_yoy",
+    "cpi_mom",
+    "cpi_yoy",
+    "fai_ytd_yoy",
+    "gdp_real_yoy",
+    "gdp_real_ytd_yoy",
+    "industrial_va_yoy",
+    "industrial_va_ytd_yoy",
+    "m1_yoy",
+    "pmi_mfg",
+    "pmi_new_orders",
+    "pmi_nonmfg",
+    "ppi_mom",
+    "ppi_yoy",
+    "retail_sales_yoy",
+    "retail_sales_ytd_yoy",
+    "tsf_month_flow__scope_201807",
+    "tsf_month_flow__scope_201809",
+    "tsf_month_flow__scope_201909",
+    "tsf_month_flow__scope_pre_201807",
+    "tsf_stock__scope_201807",
+    "tsf_stock__scope_201809",
+    "tsf_stock__scope_201909",
+    "tsf_stock_yoy__scope_201807",
+    "tsf_stock_yoy__scope_201809",
+    "tsf_stock_yoy__scope_201909",
+    "tsf_ytd_flow__scope_201909"
+  ],
+  "stable_series": [
+    "core_cpi_yoy",
+    "cpi_mom",
+    "cpi_yoy",
+    "fai_ytd_yoy",
+    "gdp_real_yoy",
+    "gdp_real_ytd_yoy",
+    "industrial_va_yoy",
+    "industrial_va_ytd_yoy",
+    "pmi_mfg",
+    "pmi_new_orders",
+    "pmi_nonmfg",
+    "ppi_mom",
+    "ppi_yoy",
+    "retail_sales_yoy",
+    "retail_sales_ytd_yoy"
+  ],
+  "static_pool_exclusions": [
+    "old/new M1 and post-2019 LPR require a separately chosen period/definition; no splicing"
+  ]
+}

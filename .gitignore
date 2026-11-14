@@ -58,3 +58,7 @@ Desktop.ini
 /data/raw/macro/source_references/*.txt
 /data/raw/macro/source_references/*.js
 /audit/framework/matplotlib_cache/
+
+# Immutable public v3 response payloads remain local; hashes and request ledger tracked.
+/data/raw/macro/official_sources/v3/objects/
+/audit/data_foundation_v3/*.log

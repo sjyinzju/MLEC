@@ -1,0 +1,84 @@
+{
+  "version": "data-foundation-v3.0.0",
+  "selection_basis": "economic groups, declared before any new model work",
+  "groups": {
+    "growth": [
+      "pmi_mfg",
+      "pmi_new_orders",
+      "pmi_nonmfg",
+      "industrial_va_yoy",
+      "industrial_va_ytd_yoy",
+      "retail_sales_yoy",
+      "retail_sales_ytd_yoy",
+      "gdp_real_yoy",
+      "gdp_real_ytd_yoy",
+      "fai_ytd_yoy"
+    ],
+    "prices": [
+      "cpi_yoy",
+      "cpi_mom",
+      "core_cpi_yoy",
+      "ppi_yoy",
+      "ppi_mom"
+    ],
+    "credit": [
+      "m2_yoy",
+      "m1_yoy",
+      "m1_new_yoy",
+      "tsf_stock",
+      "tsf_stock_yoy",
+      "tsf_month_flow",
+      "tsf_ytd_flow",
+      "new_rmb_loans",
+      "rmb_loans_ytd_flow",
+      "rmb_loan_balance_yoy",
+      "tsf_stock__scope_pre_201807",
+      "tsf_stock__scope_201807",
+      "tsf_stock__scope_201809",
+      "tsf_stock__scope_201909",
+      "tsf_stock__scope_unverified",
+      "tsf_stock_yoy__scope_pre_201807",
+      "tsf_stock_yoy__scope_201807",
+      "tsf_stock_yoy__scope_201809",
+      "tsf_stock_yoy__scope_201909",
+      "tsf_stock_yoy__scope_unverified",
+      "tsf_month_flow__scope_pre_201807",
+      "tsf_month_flow__scope_201807",
+      "tsf_month_flow__scope_201809",
+      "tsf_month_flow__scope_201909",
+      "tsf_month_flow__scope_unverified",
+      "tsf_ytd_flow__scope_pre_201807",
+      "tsf_ytd_flow__scope_201807",
+      "tsf_ytd_flow__scope_201809",
+      "tsf_ytd_flow__scope_201909",
+      "tsf_ytd_flow__scope_unverified"
+    ],
+    "rates": [
+      "shibor_on",
+      "shibor_1w",
+      "shibor_3m",
+      "dr007",
+      "cgb_1y",
+      "cgb_10y",
+      "term_spread_10y_1y",
+      "lpr_1y"
+    ],
+    "external": [
+      "usdcny_fixing",
+      "exports_yoy",
+      "imports_yoy",
+      "fx_reserves",
+      "exports_cny_yoy",
+      "imports_cny_yoy",
+      "exports_cny_ytd_yoy",
+      "imports_cny_ytd_yoy"
+    ]
+  },
+  "quality_levels": [
+    "strict",
+    "conservative",
+    "latest_at_retrieval"
+  ],
+  "custom_selection": "CLI --series comma-separated IDs or --groups comma-separated group names; supports any subset and combination",
+  "dataset_policy": "Keep every frozen sample; explicit per-set eligibility, no complete-case deletion; M and M+Z must reuse the identical eligibility manifest"
+}

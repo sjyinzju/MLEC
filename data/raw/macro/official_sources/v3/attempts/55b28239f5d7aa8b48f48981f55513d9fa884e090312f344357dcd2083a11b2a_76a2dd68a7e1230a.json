@@ -1,0 +1,10 @@
+{
+  "request_id": "55b28239f5d7aa8b48f48981f55513d9fa884e090312f344357dcd2083a11b2a",
+  "url": "https://www.mofcom.gov.cn/tjsh/qgjckqktj/art/2021/art_8a369c2f412d4cee87b277b569297481.html",
+  "params": null,
+  "method": "GET",
+  "retrieved_at": "2026-11-14T21:36:56.251930+08:00",
+  "source_class": "official",
+  "status": "failed",
+  "error": "ProxyError: HTTPSConnectionPool(host='www.mofcom.gov.cn', port=443): Max retries exceeded with url: /tjsh/qgjckqktj/art/2021/art_8a369c2f412d4cee87b277b569297481.html (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new c"
+}

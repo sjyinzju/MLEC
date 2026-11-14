@@ -1,0 +1,25 @@
+{
+  "request_id": "205b8fe69d483da9c2b336ab315d0595b79823b0a401617cd21c5aa48ebbf86d",
+  "url": "https://api.so-gov.cn/query/s",
+  "params": {
+    "siteCode": "bm36000002",
+    "qt": "国民经济运行",
+    "page": 9,
+    "pageSize": 20,
+    "keyPlace": 1,
+    "timeOption": 2,
+    "startDateStr": "2020-01-01",
+    "endDateStr": "2020-12-31",
+    "sort": "dateDesc"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-14T20:19:22.279238+08:00",
+  "source_class": "official",
+  "http_status": 200,
+  "final_url": "https://api.so-gov.cn/query/s",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/macro/official_sources/v3/objects/a5c6823612a2690bf6f8d7b574cc31c3cc81f845f196192751e3b2bc5f74b788.json",
+  "sha256": "028e6601e889d8e359ba5d4b8a53fa6249c51a8f002b811676efa65171e4b44a",
+  "bytes": 66500
+}

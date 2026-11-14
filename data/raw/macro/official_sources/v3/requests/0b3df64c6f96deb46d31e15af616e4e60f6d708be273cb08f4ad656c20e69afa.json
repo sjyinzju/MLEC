@@ -1,0 +1,10 @@
+{
+  "request_id": "0b3df64c6f96deb46d31e15af616e4e60f6d708be273cb08f4ad656c20e69afa",
+  "url": "https://finance.people.com.cn/bank/n/2015/0811/c202331-27442434.html",
+  "params": null,
+  "method": "GET",
+  "retrieved_at": "2026-11-14T20:32:39.187725+08:00",
+  "source_class": "contemporaneous_reprint",
+  "status": "failed",
+  "error": "SSLError: HTTPSConnectionPool(host='finance.people.com.cn', port=443): Max retries exceeded with url: /bank/n/2015/0811/c202331-27442434.html (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'finance.pe"
+}

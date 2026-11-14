@@ -58,7 +58,7 @@ def validate_facts(f):
     assert strict.vintage_quality.eq('announcement_value_verified').all()
     assert np.isfinite(strict.value).all()
 
-def build():
+def build(write_outputs=True,retrieval_times=None):
     raw=pd.read_parquet(RAW/'deliverables/macro_raw.parquet')
     titles=pd.read_csv(RAW/'data_raw/nbs_list_items.csv').drop_duplicates('url').set_index('url')
     manifest=ROOT/'data/raw/macro/official_sources/page_manifest.json'
@@ -164,7 +164,7 @@ def build():
                     source_record_id=r['_row_hash']+'-'+col,retrieved_at=retrieved,value_quality='mapped_provider_field',time_quality='unknown',vintage_quality='observed_only',quality_status='latest_vintage_reconstructed',adjustment_note='Source field '+col+'; not certified first-release history',original_series_id=sid,original_value=r[col],claimed_available_at='',evidence_path=path.relative_to(ROOT).as_posix()))
     from scripts.macro_pipeline.supplement import build as supplement
     print('Submission normalized:',len(facts),flush=True)
-    facts.extend(supplement())
+    facts.extend(supplement(retrieval_times=retrieval_times))
     print('Combined macro facts:',len(facts),flush=True)
     f=pd.DataFrame(facts)
     # One source/period/measure/vintage fact; separately extracted identical body values
@@ -182,7 +182,9 @@ def build():
     for c in ['release_at','research_available_at','retrieved_at']: f[c]=pd.to_datetime(f[c],utc=True).dt.tz_convert(TZ)
     key=['series_id','period_start','period_end','vintage_id','source_record_id']
     f=f.drop_duplicates(key).sort_values(['series_id','period_end','research_available_at','source_record_id'])
-    validate_facts(f);save_frame(OUT/'macro_facts.parquet',f)
+    validate_facts(f)
+    if not write_outputs:return f
+    save_frame(OUT/'macro_facts.parquet',f)
     save_frame(OUT/'macro_vintages.parquet',f[key+['revision_status','vintage_quality','retrieved_at','value']])
     save_frame(OUT/'macro_release_events.parquet',f[key+['release_at','research_available_at','release_time_basis','time_quality']])
     save_frame(ROOT/'data/metadata/data_lineage.parquet',f[key+['source_name','source_url','evidence_path','original_series_id','original_value','adjustment_note']])

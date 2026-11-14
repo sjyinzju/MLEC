@@ -1,0 +1,24 @@
+{
+  "request_id": "849f73d30b02355e0e805a0bdf5a2fb51750e68ba95f10eeabf701e37c3347f9",
+  "url": "https://www.mofcom.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit",
+  "params": {
+    "parseType": "bulidstatic",
+    "webId": "8f43c7ad3afc411fb56f281724b73708",
+    "tplSetId": "52551ea0e2c14bca8c84792f7aa37ead",
+    "pageType": "column",
+    "tagId": "分页列表",
+    "editType": "null",
+    "pageId": "6a39fc0c66944aeeac568029ce86424a",
+    "paramJson": "{\"pageNo\":8,\"pageSize\":15}"
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-14T22:46:27.988439+08:00",
+  "source_class": "official",
+  "http_status": 200,
+  "final_url": "https://www.mofcom.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit?parseType=bulidstatic&webId=8f43c7ad3afc411fb56f281724b73708&tplSetId=52551ea0e2c14bca8c84792f7aa37ead&pageType=column&tagId=%E5%88%86%E9%A1%B5%E5%88%97%E8%A1%A8&editType=null&pageId=6a39fc0c66944aeeac568029ce86424a&paramJson=%7B%22pageNo%22%3A8%2C%22pageSize%22%3A15%7D",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/macro/official_sources/v3/objects/aaf5196b282df2180d6fa68bf8d0014c3ac2f27b2767cc16c955544c33c075f3.json",
+  "sha256": "361abc5980db80ab99755a5610e184cc5cdcf915e0a94af91c31a29d82021276",
+  "bytes": 4810
+}
