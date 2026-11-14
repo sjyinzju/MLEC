@@ -1,0 +1,10 @@
+{
+  "run_id": "dev-e47c442b6de1233e",
+  "offline_data_rebuild": "exact SHA256 match",
+  "checked_artifacts": 22,
+  "model_replay": "PASS: exact prediction and metric SHA256; all model/calibrator bytes identical",
+  "prediction_hash_before": "710c6f056af41d6f14f06cd19866389d701144e90f833fd03aca148d629c390d",
+  "metrics_hash_before": "f25478e3974357c3551e591e13e3505a021cc3d744fee9a1f80b96ce2ed9a781",
+  "model_artifacts_checked": 408,
+  "model_hash_manifest": "audit/framework/model_replay_hashes.json"
+}

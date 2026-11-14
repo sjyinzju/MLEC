@@ -1,0 +1,3001 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 43,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [],
+    "sceneRelatedInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 11.077766,
+        "id": "17c7bac6-aa0a-43d8-916a-8c910a526039",
+        "name": "GDP",
+        "siteCode": "bm36000002",
+        "relatedWords": [
+          "GDP",
+          "CPI",
+          "国内生产总值",
+          "PMI",
+          "平均工资",
+          "居民消费价格指数",
+          "地区生产总值"
+        ],
+        "customTitle": "",
+        "customContent": "",
+        "rank": 10
+      }
+    ],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 7.084771,
+        "id": "e582caf3-819f-4710-a3f3-6b59a4ae750e",
+        "name": "国民经济核算",
+        "siteCode": "bm36000002",
+        "templateType": "统计局",
+        "data": {
+          "arrList": [
+            {
+              "tab": "国内生产总值",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div>"
+            },
+            {
+              "tab": "指标解释",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div>"
+            },
+            {
+              "tab": "指标QA",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div>"
+            }
+          ]
+        },
+        "template": "<div class=\"personalization-list-div\">\n    <div class=\"personalization-list-choose\">\n                    <div class=\"item-personalization-choose on \">国内生产总值 </div>\n            <div class=\"item-personalization-choose  \">指标解释 </div>\n            <div class=\"item-personalization-choose  \">指标QA </div>\n    </div>\n    <div class=\"personalization-list-content\">\n            <div class=\"item-personalization-content on\"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div></div>\n    </div>\n</div>\n\n\n<script>\n    $('.item-personalization-choose').click(function () {\n        $(this).addClass('on').siblings().removeClass('on');\n        console.log($(this).index())\n        var index = $(this).index();\n        $('.item-personalization-content').eq(index).addClass('on').siblings().removeClass('on');\n    });\n\n</script>\n\n<style>\n    * {\n        margin: 0;\n        padding: 0;\n    }\n.trs_editor_view  a,.trs_editor_view  a span {\n    vertical-align: top;\n    color: #0077ff !important;\n    text-decoration: underline;\n}\n   .personalization-list-choose {\n        display: flex;\n        align-items: center;\n        margin-bottom: 20px;\n        overflow-x: auto;\n    }\n\n    .personalization-list-choose .item-personalization-choose {\n    margin-bottom: 7px;\n      color: #333333;\n      background: #efefef;\n      border: 1px solid #efefef;\n      white-space: nowrap;\n      padding: 10px;\n      border-radius: 5px;\n      font-size: 16px;\n      font-family: Microsoft YaHei;\n      font-weight: 400;\n      line-height: 20px;\n      margin-right: 10px;\n      cursor: pointer;\n      flex-shrink: 0;\n    }\n\n    .personalization-list-choose .on {\n      color: #1685e6;\n      border: 1px solid #1685e6;\n      background: #fff;\n      white-space: nowrap;\n    }\n\n    .item-personalization-content {\n        display: none;\n    }\n\n    .personalization-list-content .on {\n        display: block;\n    }\n\n.personalization-list-content{\n    line-height: 34px;\nmin-height:200px;\nmax-height:500px;\n    overflow-y: auto;\nmargin-bottom: 20px;\n}\n#q2 {\n    color: #3285e4;\n  \n    font-weight: bold;\n}\n</style>",
+        "css": "",
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "798EB2AFF5B1C2ADA8E9F1A1D0A378A1",
+      "timestamp": 1793773978000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "798EB2AFF5B1C2ADA8E9F1A1D0A378A1",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【《求是》发表毛盛勇署名文章：怎么看当前我国经济形势和发展走向】2026年前三季度，我国经济顶住压力保持平稳运行，国内生产总值（GDP）同比增长4.6%，呈现动能向新、结构向优的发展态势。前三季度的经济成绩单充分说明，我国经济基础稳、优势多、韧性强、潜能大，实现“十五五”开局之年经济社会发 ...展开全文c",
+        "title": "【《求是》发表毛盛勇署名文章：怎么看当前我国经济形势和发展走向】2026年前三季度，我国经济顶住压力保持平稳运行，<em>国内生产总值</em>（GDP）同比增长4.6%，呈现动能向新、结构向优的发展态势。前三季度的经济成绩单充分说明，我国经济基础稳、优势多、韧性强、潜能大，实现“十五五”开局之年经济社会发 ...展开全文c",
+        "url": "https://weibo.com/3919628624/RpOUu5mOX?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发表毛盛勇署名文章：怎么看当前我国经济形势和发展走向】2026年前三季度，我国经济顶住压力保持平稳运行，<em>国内生产总值</em>（GDP）同比增长4.6%，呈现动能向新、结构向优的发展态势。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1793773978000,
+        "docDate": "2026-11-04",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "506BA68F83210D9C08BF1EB2D2E7A7DB",
+        "md5Url": "C17441FB388D29D0186B510DE62A10A1",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发表毛盛勇署名文章：怎么看当前我国经济形势和发展走向】2026年前三季度，我国经济顶住压力保持平稳运行，<em>国内生产总值</em>（GDP）同比增长4.6%，呈现动能向新、结构向优的发展态势。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1793773978,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C17441FB388D29D0186B510DE62A10A1",
+          "DRETITLE": "求是 发表毛盛勇署名文章 怎么看当前我国经济形势和发展走向 2026年前三季度 我国经济顶住压力保持平稳运行 国内生产总值 GDP 同比增长4 6 呈现动能向新 结构向优的发展态势 前三季度的经济成绩单充分说明 我国经济基础稳 优势多 韧性强 潜能大 实现 十五五 开局之年经济社会发 展开全文c",
+          "URL": "https://weibo.com/3919628624/RpOUu5mOX?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "506BA68F83210D9C08BF1EB2D2E7A7DB",
+          "DRETITLEO": "【《求是》发表毛盛勇署名文章：怎么看当前我国经济形势和发展走向】2026年前三季度，我国经济顶住压力保持平稳运行，国内生产总值（GDP）同比增长4.6%，呈现动能向新、结构向优的发展态势。前三季度的经济成绩单充分说明，我国经济基础稳、优势多、韧性强、潜能大，实现“十五五”开局之年经济社会发 ...展开全文c",
+          "QUICKDESCRIPTION": "求是 发表毛盛勇署名文章 怎么看当前我国经济形势和发展走向 2026年前三季度 我国经济顶住压力保持平稳运行 国内生产总值 GDP 同比增长4 6 呈现动能向新 结构向优的发展态势 前三季度的经济成绩单充分说明 我国经济基础稳 优势多 韧性强 潜能大 实现 十五五 开局之年经济社会发 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AC03273EC914F3775F1E20C5810F8688",
+      "timestamp": 1793351732000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AC03273EC914F3775F1E20C5810F8688",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统统告诉你# 【GDP研究所：如何正确使用GDP数据?】关于统计，你是否充满好奇？别着急，你想知道的“统统告诉你”。本期我们来聊一聊，如何正确使用GDP→O网页链接",
+        "title": "#统统告诉你# 【GDP研究所：如何正确使用GDP数据?】关于统计，你是否充满好奇？别着急，你想知道的“统统告诉你”。本期我们来聊一聊，如何正确使用GDP→O网页链接",
+        "url": "https://weibo.com/3919628624/Rp4PZgGNS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "统统告诉你 【GDP研究所：如何正确使用GDP数据 】关于统计，你是否充满好奇 别着急，你想知道的“统统告诉你”。 本期我们来聊一聊，如何正确使用GDP O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1793351732000,
+        "docDate": "2026-10-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "B58BAA1135872C1586A1372F7AE0A4D7",
+        "md5Url": "44391C41BC04586A1AAAE1DD82B6FF1A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统统告诉你 【GDP研究所：如何正确使用GDP数据 】关于统计，你是否充满好奇 别着急，你想知道的“统统告诉你”。 本期我们来聊一聊，如何正确使用GDP O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1793351732,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "44391C41BC04586A1AAAE1DD82B6FF1A",
+          "DRETITLE": "统统告诉你 GDP研究所 如何正确使用GDP数据 关于统计 你是否充满好奇 别着急 你想知道的 统统告诉你 本期我们来聊一聊 如何正确使用GDP→O网页链接",
+          "URL": "https://weibo.com/3919628624/Rp4PZgGNS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B58BAA1135872C1586A1372F7AE0A4D7",
+          "DRETITLEO": "#统统告诉你# 【GDP研究所：如何正确使用GDP数据?】关于统计，你是否充满好奇？别着急，你想知道的“统统告诉你”。本期我们来聊一聊，如何正确使用GDP→O网页链接",
+          "QUICKDESCRIPTION": "统统告诉你 GDP研究所 如何正确使用GDP数据 关于统计 你是否充满好奇 别着急 你想知道的 统统告诉你 本期我们来聊一聊 如何正确使用GDP O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "09B330CB3929D43A673D5405EA54E5CC",
+      "timestamp": 1793347200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "09B330CB3929D43A673D5405EA54E5CC",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【统统告诉你】GDP研究所：如何正确使用GDP数据?",
+        "title": "【统统告诉你】GDP研究所：如何正确使用GDP数据?",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651700157&idx=1&sn=690fd7a3db9f5271e019a5da62bebba2",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "关于统计 你是否充满好奇 别着急 你想知道的 “统统告诉你” 本期我们来聊一聊 热门话题 GDP 如何正确使用GDP数据 GDP作为衡量经济活动的核心指标，是评估经济实力和增长态势的重要工具，但是GDP核算只是国民经济核算体系中的一个重要组成部分，它并不能用来衡量对生态环境的影响、财富的积累、社会福利福祉等方面。 在分析经济运行状况时，要正确理解、使用这一指标。 一、GDP的用途和局限 第一，GDP可以反映一个国家或地区的经济发展规模，判断其经济总体实力和经济发展的快慢。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1793347200000,
+        "docDate": "2026-10-30",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/qingbo/tongjiweixun/CA10BBCA90E5C032C2958F59F35B0D6E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "7E591D772385B5ED8376946BBE2D7F00",
+        "md5Url": "CA10BBCA90E5C032C2958F59F35B0D6E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "关于统计 你是否充满好奇 别着急 你想知道的 “统统告诉你” 本期我们来聊一聊 热门话题 GDP 如何正确使用GDP数据 GDP作为衡量经济活动的核心指标，是评估经济实力和增长态势的重要工具，但是GDP核算只是国民经济核算体系中的一个重要组成部分，它并不能用来衡量对生态环境的影响、财富的积累、社会福利福祉等方面。 在分析经济运行状况时，要正确理解、使用这一指标。 一、GDP的用途和局限 第一，GDP可以反映一个国家或地区的经济发展规模，判断其经济总体实力和经济发展的快慢。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651700157&idx=1&sn=690fd7a3db9f5271e019a5da62bebba2",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【统统告诉你】GDP研究所：如何正确使用GDP数据?",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "OSSIMG": [
+            "cloudspider/img/qingbo/tongjiweixun/CA10BBCA90E5C032C2958F59F35B0D6E.png"
+          ],
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1793347200,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "CA10BBCA90E5C032C2958F59F35B0D6E",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "统统告诉你 GDP研究所 如何正确使用GDP数据",
+          "MD5TITLE": "7E591D772385B5ED8376946BBE2D7F00",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C1654A160A8491DA79571BEEF5512DCA",
+      "timestamp": 1792462553000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C1654A160A8491DA79571BEEF5512DCA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【能源供给保障坚实有力 绿色低碳转型加快推进】前三季度，中东地缘冲突持续演变，全球能源市场剧烈波动，国内迎峰度夏高温用电负荷攀升，面对复杂局面，各地区各部门坚决贯彻落实党中央、国务院决策部署，统筹能源安全保障和绿色低碳转型，能源生产总体稳中有升，清洁能源装机与发电占比不 ...展开全文c",
+        "title": "#权威解读# 【能源供给保障坚实有力 绿色低碳转型加快推进】前三季度，中东地缘冲突持续演变，全球能源市场剧烈波动，<em>国内</em>迎峰度夏高温用电负荷攀升，面对复杂局面，各地区各部门坚决贯彻落实党中央、国务院决策部署，统筹能源安全保障和绿色低碳转型，能源<em>生产</em>总体稳中有升，清洁能源装机与发电占比不 ...展开全文c",
+        "url": "https://weibo.com/3919628624/RnvOGpQrZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【能源供给保障坚实有力 绿色低碳转型加快推进】前三季度，中东地缘冲突持续演变，全球能源市场剧烈波动，<em>国内</em>迎峰度夏高温用电负荷攀升，面对复杂局面，各地区各部门坚决贯彻落实党中央、国务院决策部署，统筹能源安全保障和绿色低碳转型，能源<em>生产</em>总体稳中有升，清洁能源装机与发电占比不 ...展开全文c 权威解读 【能源供给保障坚实有力 绿色低碳转型加快推进】前三季度，中东地缘冲突持续演变，全球能源市场剧烈波动，<em>国内</em>迎峰度夏高温用电负荷攀升，面对复杂局面，各地区各部门坚决贯彻落实党中央、国务院决策部署，统筹能源安全保障和绿色低碳转型，能源<em>生产</em>总体稳中有升，清洁能源装机与发电占比不 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1792462553000,
+        "docDate": "2026-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "4F40883422E2FD66C9D27887F25299B3",
+        "md5Url": "A1F82E82F89DFFD0CACC4DF42342E6C7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【能源供给保障坚实有力 绿色低碳转型加快推进】前三季度，中东地缘冲突持续演变，全球能源市场剧烈波动，<em>国内</em>迎峰度夏高温用电负荷攀升，面对复杂局面，各地区各部门坚决贯彻落实党中央、国务院决策部署，统筹能源安全保障和绿色低碳转型，能源<em>生产</em>总体稳中有升，清洁能源装机与发电占比不 ...展开全文c 权威解读 【能源供给保障坚实有力 绿色低碳转型加快推进】前三季度，中东地缘冲突持续演变，全球能源市场剧烈波动，<em>国内</em>迎峰度夏高温用电负荷攀升，面对复杂局面，各地区各部门坚决贯彻落实党中央、国务院决策部署，统筹能源安全保障和绿色低碳转型，能源<em>生产</em>总体稳中有升，清洁能源装机与发电占比不 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1792462553,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "A1F82E82F89DFFD0CACC4DF42342E6C7",
+          "DRETITLE": "权威解读 能源供给保障坚实有力 绿色低碳转型加快推进 前三季度 中东地缘冲突持续演变 全球能源市场剧烈波动 国内迎峰度夏高温用电负荷攀升 面对复杂局面 各地区各部门坚决贯彻落实党中央 国务院决策部署 统筹能源安全保障和绿色低碳转型 能源生产总体稳中有升 清洁能源装机与发电占比不 展开全文c",
+          "URL": "https://weibo.com/3919628624/RnvOGpQrZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4F40883422E2FD66C9D27887F25299B3",
+          "DRETITLEO": "#权威解读# 【能源供给保障坚实有力 绿色低碳转型加快推进】前三季度，中东地缘冲突持续演变，全球能源市场剧烈波动，国内迎峰度夏高温用电负荷攀升，面对复杂局面，各地区各部门坚决贯彻落实党中央、国务院决策部署，统筹能源安全保障和绿色低碳转型，能源生产总体稳中有升，清洁能源装机与发电占比不 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 能源供给保障坚实有力 绿色低碳转型加快推进 前三季度 中东地缘冲突持续演变 全球能源市场剧烈波动 国内迎峰度夏高温用电负荷攀升 面对复杂局面 各地区各部门坚决贯彻落实党中央 国务院决策部署 统筹能源安全保障和绿色低碳转型 能源生产总体稳中有升 清洁能源装机与发电占比不 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "43C47B43820980DA4AD180F45E0590FE",
+      "timestamp": 1792462506000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "43C47B43820980DA4AD180F45E0590FE",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【工业经济稳中有升 高质量发展稳步推进】前三季度，面对复杂多变的国内外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业生产稳中有升，装备制造业占比持续提升，新质生产力培育壮大，企业利润两位数增长，工业企业出口高位加快，工 ...展开全文c",
+        "title": "#权威解读# 【工业经济稳中有升 高质量发展稳步推进】前三季度，面对复杂多变的<em>国内</em>外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业<em>生产</em>稳中有升，装备制造业占比持续提升，新质<em>生产</em>力培育壮大，企业利润两位数增长，工业企业出口高位加快，工 ...展开全文c",
+        "url": "https://weibo.com/3919628624/RnvOmD0oM?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【工业经济稳中有升 高质量发展稳步推进】前三季度，面对复杂多变的<em>国内</em>外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业<em>生产</em>稳中有升，装备制造业占比持续提升，新质<em>生产</em>力培育壮大，企业利润两位数增长，工业企业出口高位加快，工 ...展开全文c 权威解读 【工业经济稳中有升 高质量发展稳步推进】前三季度，面对复杂多变的<em>国内</em>外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业<em>生产</em>稳中有升，装备制造业占比持续提升，新质<em>生产</em>力培育壮大，企业利润两位数增长，工业企业出口高位加快，工 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1792462506000,
+        "docDate": "2026-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "796020681EAD7FC78C8F48B374BD5056",
+        "md5Url": "2F0D40670B8C527F7AEB60FA8EB09646",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【工业经济稳中有升 高质量发展稳步推进】前三季度，面对复杂多变的<em>国内</em>外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业<em>生产</em>稳中有升，装备制造业占比持续提升，新质<em>生产</em>力培育壮大，企业利润两位数增长，工业企业出口高位加快，工 ...展开全文c 权威解读 【工业经济稳中有升 高质量发展稳步推进】前三季度，面对复杂多变的<em>国内</em>外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业<em>生产</em>稳中有升，装备制造业占比持续提升，新质<em>生产</em>力培育壮大，企业利润两位数增长，工业企业出口高位加快，工 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1792462506,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2F0D40670B8C527F7AEB60FA8EB09646",
+          "DRETITLE": "权威解读 工业经济稳中有升 高质量发展稳步推进 前三季度 面对复杂多变的国内外形势 在以习近平同志为核心的党中央坚强领导下 各地区各部门认真落实更加积极有为的宏观政策 全国工业生产稳中有升 装备制造业占比持续提升 新质生产力培育壮大 企业利润两位数增长 工业企业出口高位加快 工 展开全文c",
+          "URL": "https://weibo.com/3919628624/RnvOmD0oM?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "796020681EAD7FC78C8F48B374BD5056",
+          "DRETITLEO": "#权威解读# 【工业经济稳中有升 高质量发展稳步推进】前三季度，面对复杂多变的国内外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业生产稳中有升，装备制造业占比持续提升，新质生产力培育壮大，企业利润两位数增长，工业企业出口高位加快，工 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 工业经济稳中有升 高质量发展稳步推进 前三季度 面对复杂多变的国内外形势 在以习近平同志为核心的党中央坚强领导下 各地区各部门认真落实更加积极有为的宏观政策 全国工业生产稳中有升 装备制造业占比持续提升 新质生产力培育壮大 企业利润两位数增长 工业企业出口高位加快 工 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C03222B7E798F79AA1EC6C9C95F844A9",
+      "timestamp": 1792461342000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C03222B7E798F79AA1EC6C9C95F844A9",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2026年三季度国内生产总值初步核算结果】根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。详情请见：O网页链接",
+        "title": "#数据发布# 【2026年三季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。详情请见：O网页链接",
+        "url": "https://weibo.com/3919628624/RnvGusL6T?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2026年三季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 数据发布 【2026年三季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1792461342000,
+        "docDate": "2026-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "8484BE90181557B94E56421476AF8490",
+        "md5Url": "8B9E61A42698C985F2C3BF9AA35CB37C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2026年三季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 数据发布 【2026年三季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1792461342,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8B9E61A42698C985F2C3BF9AA35CB37C",
+          "DRETITLE": "数据发布 2026年三季度国内生产总值初步核算结果 根据有关基础资料和国内生产总值 GDP 核算方法 经初步核算 我国2026年三季度GDP核算结果如下 详情请见 O网页链接",
+          "URL": "https://weibo.com/3919628624/RnvGusL6T?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8484BE90181557B94E56421476AF8490",
+          "DRETITLEO": "#数据发布# 【2026年三季度国内生产总值初步核算结果】根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。详情请见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2026年三季度国内生产总值初步核算结果 根据有关基础资料和国内生产总值 GDP 核算方法 经初步核算 我国2026年三季度GDP核算结果如下 详情请见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "644A0D472E7D5E80AF9D16A4CF2389A1",
+      "timestamp": 1792461139000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "644A0D472E7D5E80AF9D16A4CF2389A1",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2026年三季度国内生产总值初步核算结果",
+        "title": "【数据发布】2026年三季度<em>国内生产总值</em>初步核算结果",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651699941&idx=1&sn=4adb37e026606d8efb1b9685130f3fea",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1792461139000,
+        "docDate": "2026-10-20",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/qingbo/tongjiweixun/16C06DEEFB7E75CDBE18F9B5CC5F91B2.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "C14CD942B15C5A5DBAFB328044580EDF",
+        "md5Url": "16C06DEEFB7E75CDBE18F9B5CC5F91B2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651699941&idx=1&sn=4adb37e026606d8efb1b9685130f3fea",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【数据发布】2026年三季度国内生产总值初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "OSSIMG": [
+            "cloudspider/img/qingbo/tongjiweixun/16C06DEEFB7E75CDBE18F9B5CC5F91B2.png"
+          ],
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1792461139,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "16C06DEEFB7E75CDBE18F9B5CC5F91B2",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "数据发布 2026年三季度国内生产总值初步核算结果",
+          "MD5TITLE": "C14CD942B15C5A5DBAFB328044580EDF",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F5F83578BE4258A4B79EDC954EDA20F6",
+      "timestamp": 1792459800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F5F83578BE4258A4B79EDC954EDA20F6",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2026年三季度国内生产总值初步核算结果",
+        "title": "2026年三季度<em>国内生产总值</em>初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202610/P020261020311865714947.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1792459800000,
+        "docDate": "2026-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "713E833A8EE266E940C085EA38B41653",
+        "md5Url": "F5F83578BE4258A4B79EDC954EDA20F6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2026年三季度国内生产总值初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202610/P020261020311865714947.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1792459800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F5F83578BE4258A4B79EDC954EDA20F6",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2026年三季度国内生产总值初步核算结果",
+          "MD5TITLE": "713E833A8EE266E940C085EA38B41653",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。   表1　2026年三季度GDP初步核算数据     绝对额（亿元） 比上年同期增长（%） 三季度 前三季度 三季度 前三季度 GDP 375367 1071071 4.5 4.6 第一产业 27472 58994 3.6 3.7 第二产业 133349 383822 3.4 3.8 第三产业 214546 628255 5.2 5.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A0EDEF5715355ADCB9844A944CDF1302",
+      "timestamp": 1788225109000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A0EDEF5715355ADCB9844A944CDF1302",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统统告诉你#【谁是经济增长的“扛把子”？】你或许常看到这样的新闻：一季度GDP增长4.8%，其中消费贡献了3.9个百分点，投资拉动了1.2个百分点……这其中，有两个高频词汇：“贡献”与“拉动”，它们常用来解释谁是经济增长的“扛把子”？到底是谁呢？详情戳链接👉O网页链接",
+        "title": "#统统告诉你#【谁是经济增长的“扛把子”？】你或许常看到这样的新闻：一季度GDP增长4.8%，其中消费贡献了3.9个百分点，投资拉动了1.2个百分点……这其中，有两个高频词汇：“贡献”与“拉动”，它们常用来解释谁是经济增长的“扛把子”？到底是谁呢？详情戳链接👉O网页链接",
+        "url": "https://weibo.com/3919628624/Rg3sltA76?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "统统告诉你 【谁是经济增长的“扛把子” 】你或许常看到这样的新闻：一季度GDP增长4.8%，其中消费贡献了3.9个百分点，投资拉动了1.2个百分点 这其中，有两个高频词汇：“贡献”与“拉动”，它们常用来解释谁是经济增长的“扛把子” 到底是谁呢 详情戳链接 O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1788225109000,
+        "docDate": "2026-09-01",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "772BE552C6D9A1E186B5D3662F192AF4",
+        "md5Url": "3C4C5043456560DE0E8D6FEB0C864EAC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统统告诉你 【谁是经济增长的“扛把子” 】你或许常看到这样的新闻：一季度GDP增长4.8%，其中消费贡献了3.9个百分点，投资拉动了1.2个百分点 这其中，有两个高频词汇：“贡献”与“拉动”，它们常用来解释谁是经济增长的“扛把子” 到底是谁呢 详情戳链接 O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1788225109,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3C4C5043456560DE0E8D6FEB0C864EAC",
+          "DRETITLE": "统统告诉你 谁是经济增长的 扛把子 你或许常看到这样的新闻 一季度GDP增长4 8 其中消费贡献了3 9个百分点 投资拉动了1 2个百分点 这其中 有两个高频词汇 贡献 与 拉动 它们常用来解释谁是经济增长的 扛把子 到底是谁呢 详情戳链接👉O网页链接",
+          "URL": "https://weibo.com/3919628624/Rg3sltA76?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "772BE552C6D9A1E186B5D3662F192AF4",
+          "DRETITLEO": "#统统告诉你#【谁是经济增长的“扛把子”？】你或许常看到这样的新闻：一季度GDP增长4.8%，其中消费贡献了3.9个百分点，投资拉动了1.2个百分点……这其中，有两个高频词汇：“贡献”与“拉动”，它们常用来解释谁是经济增长的“扛把子”？到底是谁呢？详情戳链接👉O网页链接",
+          "QUICKDESCRIPTION": "统统告诉你 谁是经济增长的 扛把子 你或许常看到这样的新闻 一季度GDP增长4 8 其中消费贡献了3 9个百分点 投资拉动了1 2个百分点 这其中 有两个高频词汇 贡献 与 拉动 它们常用来解释谁是经济增长的 扛把子 到底是谁呢 详情戳链接 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D54C3B4405E0B1288988444CFE640326",
+      "timestamp": 1786550400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D54C3B4405E0B1288988444CFE640326",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "在支出法GDP核算中，利用商品房投资完成额计算固定资本形成总额时，由于存在购买者价格与生产者价格的差异，需将商品房销售增值计入固定资本形成总额。想请教： 1.商品房销售增值的具体计算方式？ 2.该部分增值的确认时间，是与固定资产投资确认时点同步计入，还是按竣工时间、抑或实际销售时间？",
+        "title": "在支出法GDP核算中，利用商品房投资完成额计算固定资本形成总额时，由于存在购买者价格与<em>生产</em>者价格的差异，需将商品房销售增值计入固定资本形成总额。想请教： 1.商品房销售增值的具体计算方式？ 2.该部分增值的确认时间，是与固定资产投资确认时点同步计入，还是按竣工时间、抑或实际销售时间？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202609/t20260903_1965189.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "商品房销售增值根据商品房销售相关指标和商品房峻工相关指标计算得到，按照权责发生制原则进行记录。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1786550400000,
+        "docDate": "2026-08-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "81BEFF51BFE1BEA0974FE0C324F46950",
+        "md5Url": "D54C3B4405E0B1288988444CFE640326",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "商品房销售增值根据商品房销售相关指标和商品房峻工相关指标计算得到，按照权责发生制原则进行记录。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局国民经济核算司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202609/t20260903_1965189.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "在支出法GDP核算中，利用商品房投资完成额计算固定资本形成总额时，由于存在购买者价格与生产者价格的差异，需将商品房销售增值计入固定资本形成总额。想请教： 1.商品房销售增值的具体计算方式？ 2.该部分增值的确认时间，是与固定资产投资确认时点同步计入，还是按竣工时间、抑或实际销售时间？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1786550400,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D54C3B4405E0B1288988444CFE640326",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "在支出法GDP核算中 利用商品房投资完成额计算固定资本形成总额时 由于存在购买者价格与生产者价格的差异 需将商品房销售增值计入固定资本形成总额 想请教 1 商品房销售增值的具体计算方式 2 该部分增值的确认时间 是与固定资产投资确认时点同步计入 还是按竣工时间 抑或实际销售时间",
+          "MD5TITLE": "81BEFF51BFE1BEA0974FE0C324F46950",
+          "QUICKDESCRIPTION": "商品房销售增值根据商品房销售相关指标和商品房峻工相关指标计算得到，按照权责发生制原则进行记录。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "59C7108390B9579122D65D1A2AEA7240",
+      "timestamp": 1786242114000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "59C7108390B9579122D65D1A2AEA7240",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2026年7月份CPI保持温和上涨 PPI同比涨幅有所回落】7月份，受国际输入性因素影响，居民消费价格指数（CPI）环比下降0.1%，同比上涨0.5%，扣除食品和能源价格的核心CPI环比上涨0.3%，同比上涨0.9%，CPI总体保持温和上涨。国内部分行业需求增加，但受输入性和季节性等因素影响，工业生产者 ...展开全文c",
+        "title": "#权威解读# 【2026年7月份CPI保持温和上涨 PPI同比涨幅有所回落】7月份，受国际输入性因素影响，居民消费价格指数（CPI）环比下降0.1%，同比上涨0.5%，扣除食品和能源价格的核心CPI环比上涨0.3%，同比上涨0.9%，CPI总体保持温和上涨。<em>国内</em>部分行业需求增加，但受输入性和季节性等因素影响，工业<em>生产</em>者 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Rcz5nl4Yi?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2026年7月份CPI保持温和上涨 PPI同比涨幅有所回落】7月份，受国际输入性因素影响，居民消费价格指数（CPI）环比下降0.1%，同比上涨0.5%，扣除食品和能源价格的核心CPI环比上涨0.3%，同比上涨0.9%，CPI总体保持温和上涨。<em>国内</em>部分行业需求增加，但受输入性和季节性等因素影响，工业<em>生产</em>者 ...展开全文c <em>国内</em>部分行业需求增加，但受输入性和季节性等因素影响，工业<em>生产</em>者 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1786242114000,
+        "docDate": "2026-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "FEE8DDD558EA499B75F74D616E15283C",
+        "md5Url": "5B6A877963E5A1760B2B60793E3422EA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2026年7月份CPI保持温和上涨 PPI同比涨幅有所回落】7月份，受国际输入性因素影响，居民消费价格指数（CPI）环比下降0.1%，同比上涨0.5%，扣除食品和能源价格的核心CPI环比上涨0.3%，同比上涨0.9%，CPI总体保持温和上涨。<em>国内</em>部分行业需求增加，但受输入性和季节性等因素影响，工业<em>生产</em>者 ...展开全文c <em>国内</em>部分行业需求增加，但受输入性和季节性等因素影响，工业<em>生产</em>者 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1786242114,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "5B6A877963E5A1760B2B60793E3422EA",
+          "DRETITLE": "权威解读 2026年7月份CPI保持温和上涨 PPI同比涨幅有所回落 7月份 受国际输入性因素影响 居民消费价格指数 CPI 环比下降0 1 同比上涨0 5 扣除食品和能源价格的核心CPI环比上涨0 3 同比上涨0 9 CPI总体保持温和上涨 国内部分行业需求增加 但受输入性和季节性等因素影响 工业生产者 展开全文c",
+          "URL": "https://weibo.com/3919628624/Rcz5nl4Yi?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FEE8DDD558EA499B75F74D616E15283C",
+          "DRETITLEO": "#权威解读# 【2026年7月份CPI保持温和上涨 PPI同比涨幅有所回落】7月份，受国际输入性因素影响，居民消费价格指数（CPI）环比下降0.1%，同比上涨0.5%，扣除食品和能源价格的核心CPI环比上涨0.3%，同比上涨0.9%，CPI总体保持温和上涨。国内部分行业需求增加，但受输入性和季节性等因素影响，工业生产者 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2026年7月份CPI保持温和上涨 PPI同比涨幅有所回落 7月份 受国际输入性因素影响 居民消费价格指数 CPI 环比下降0 1 同比上涨0 5 扣除食品和能源价格的核心CPI环比上涨0 3 同比上涨0 9 CPI总体保持温和上涨 国内部分行业需求增加 但受输入性和季节性等因素影响 工业生产者 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "74D24044AAAD64F77B4BFF596579051F",
+      "timestamp": 1785935316000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "74D24044AAAD64F77B4BFF596579051F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统统告诉你# 【GDP研究所：三大核算改革任务进展如何？】党的十八届三中全会提出三项重大国民经济核算改革任务，当前这三大核算改革任务进展如何？戳链接看看！O网页链接",
+        "title": "#统统告诉你# 【GDP研究所：三大核算改革任务进展如何？】党的十八届三中全会提出三项重大国民经济核算改革任务，当前这三大核算改革任务进展如何？戳链接看看！O网页链接",
+        "url": "https://weibo.com/3919628624/Rc1BT0FWp?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "统统告诉你 【GDP研究所：三大核算改革任务进展如何 】党的十八届三中全会提出三项重大国民经济核算改革任务，当前这三大核算改革任务进展如何 戳链接看看！...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1785935316000,
+        "docDate": "2026-08-05",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "0AF882646E557514DDE994978EAAF76E",
+        "md5Url": "B203D190D0AB076D3EABF0736E07FA52",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统统告诉你 【GDP研究所：三大核算改革任务进展如何 】党的十八届三中全会提出三项重大国民经济核算改革任务，当前这三大核算改革任务进展如何 戳链接看看！...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1785935316,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "B203D190D0AB076D3EABF0736E07FA52",
+          "DRETITLE": "统统告诉你 GDP研究所 三大核算改革任务进展如何 党的十八届三中全会提出三项重大国民经济核算改革任务 当前这三大核算改革任务进展如何 戳链接看看 O网页链接",
+          "URL": "https://weibo.com/3919628624/Rc1BT0FWp?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "0AF882646E557514DDE994978EAAF76E",
+          "DRETITLEO": "#统统告诉你# 【GDP研究所：三大核算改革任务进展如何？】党的十八届三中全会提出三项重大国民经济核算改革任务，当前这三大核算改革任务进展如何？戳链接看看！O网页链接",
+          "QUICKDESCRIPTION": "统统告诉你 GDP研究所 三大核算改革任务进展如何 党的十八届三中全会提出三项重大国民经济核算改革任务 当前这三大核算改革任务进展如何 戳链接看看 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5095E3000F39F745A0102752F5D12A87",
+      "timestamp": 1785892830000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5095E3000F39F745A0102752F5D12A87",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【统统告诉你】GDP研究所：三大核算改革任务进展如何?",
+        "title": "【统统告诉你】GDP研究所：三大核算改革任务进展如何?",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651696720&idx=1&sn=853defa40fe767c4886a06fe8dbcc196",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "经过6年多的充分准备—— 2020年1月首次开展季度地区<em>生产</em><em>总值</em>统一核算，标志地区<em>生产</em><em>总值</em>统一核算改革正式落地 2020年下半年开展了2019年地区<em>生产</em><em>总值</em>最终核实，即首次实施常规年度地区<em>生产</em><em>总值</em>统一核算 2024年下半年开展了第五次全国经济普查年度地区<em>生产</em><em>总值</em>最终核实，即首次实施普查年度地区<em>生产</em><em>总值</em>统一核算，标志统一核算改革完成全周期全流程闭环 至此，地区<em>生产</em><em>总值</em>统一核算改革全面完成，逐步探索形成了一套切实可行的地区<em>生产</em><em>总值</em>统一核算工作机制，构建起了较为系统完整的地区<em>生产</em><em>总值</em>统一核算工作框架，为后续常规性开展地区<em>生产</em><em>总值</em>统一核算工作奠定了坚实基础。 经过6年多的充分准备—— 2020年1月首次开展季度地区<em>生产</em><em>总值</em>统一核算，标志地区<em>生产</em><em>总值</em>统一核算改革正式落地 2020年下半年开展了2019年地区<em>生产</em><em>总值</em>最终核实，即首次实施常规年度地区<em>生产</em><em>总值</em>统一核算 2024年下半年开展了第五次全国经济普查年度地区<em>生产</em><em>总值</em>最终核实，即首次实施普查年度地区<em>生产</em><em>总值</em>统一核算，标志统一核算改革完成全周期全流程闭环 至此，地区<em>生产</em><em>总值</em>统一核算改革全面完成，逐步探索形成了一套切实可行的地区<em>生产</em><em>总值</em>统一核算工作机制，构建起了较为系统完整的地区<em>生产</em><em>总值</em>统一核算工作框架，为后续常规性开展地区<em>生产</em><em>总值</em>统一核算工作奠定了坚实基础。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1785892830000,
+        "docDate": "2026-08-05",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/qingbo/tongjiweixun/0F26AB034F0DFCF8FDABF0DF2CD4A77F.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "802B12A98CFFBB27BEC59EF9CE4E20E2",
+        "md5Url": "0F26AB034F0DFCF8FDABF0DF2CD4A77F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "经过6年多的充分准备—— 2020年1月首次开展季度地区<em>生产</em><em>总值</em>统一核算，标志地区<em>生产</em><em>总值</em>统一核算改革正式落地 2020年下半年开展了2019年地区<em>生产</em><em>总值</em>最终核实，即首次实施常规年度地区<em>生产</em><em>总值</em>统一核算 2024年下半年开展了第五次全国经济普查年度地区<em>生产</em><em>总值</em>最终核实，即首次实施普查年度地区<em>生产</em><em>总值</em>统一核算，标志统一核算改革完成全周期全流程闭环 至此，地区<em>生产</em><em>总值</em>统一核算改革全面完成，逐步探索形成了一套切实可行的地区<em>生产</em><em>总值</em>统一核算工作机制，构建起了较为系统完整的地区<em>生产</em><em>总值</em>统一核算工作框架，为后续常规性开展地区<em>生产</em><em>总值</em>统一核算工作奠定了坚实基础。 经过6年多的充分准备—— 2020年1月首次开展季度地区<em>生产</em><em>总值</em>统一核算，标志地区<em>生产</em><em>总值</em>统一核算改革正式落地 2020年下半年开展了2019年地区<em>生产</em><em>总值</em>最终核实，即首次实施常规年度地区<em>生产</em><em>总值</em>统一核算 2024年下半年开展了第五次全国经济普查年度地区<em>生产</em><em>总值</em>最终核实，即首次实施普查年度地区<em>生产</em><em>总值</em>统一核算，标志统一核算改革完成全周期全流程闭环 至此，地区<em>生产</em><em>总值</em>统一核算改革全面完成，逐步探索形成了一套切实可行的地区<em>生产</em><em>总值</em>统一核算工作机制，构建起了较为系统完整的地区<em>生产</em><em>总值</em>统一核算工作框架，为后续常规性开展地区<em>生产</em><em>总值</em>统一核算工作奠定了坚实基础。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651696720&idx=1&sn=853defa40fe767c4886a06fe8dbcc196",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【统统告诉你】GDP研究所：三大核算改革任务进展如何?",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "OSSIMG": [
+            "cloudspider/img/qingbo/tongjiweixun/0F26AB034F0DFCF8FDABF0DF2CD4A77F.png"
+          ],
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1785892830,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "0F26AB034F0DFCF8FDABF0DF2CD4A77F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "统统告诉你 GDP研究所 三大核算改革任务进展如何",
+          "MD5TITLE": "802B12A98CFFBB27BEC59EF9CE4E20E2",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B1B6D012889444B06797D09F366A6B37",
+      "timestamp": 1785738332000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B1B6D012889444B06797D09F366A6B37",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【当我妈问我为什么又点外卖，我反手甩出了国家统计局的数据】点外卖、网约车出行、直播间购物......看似是普通的民生消费小事，其实每一次下单、每一笔消费，都在悄悄为我国数字经济添砖加瓦，助力GDP稳步增长！O网页链接 L中国统计的微博视频",
+        "title": "【当我妈问我为什么又点外卖，我反手甩出了国家统计局的数据】点外卖、网约车出行、直播间购物......看似是普通的民生消费小事，其实每一次下单、每一笔消费，都在悄悄为我国数字经济添砖加瓦，助力GDP稳步增长！O网页链接 L中国统计的微博视频",
+        "url": "https://weibo.com/3919628624/RbG7hDn7s?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "当我妈问我为什么又点外卖，我反手甩出了国家统计局的数据】点外卖、网约车出行、直播间购物......看似是普通的民生消费小事，其实每一次下单、每一笔消费，都在悄悄为我国数字经济添砖加瓦，助力GDP稳步增长！O网页链接 L中国统计的微博视频...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1785738332000,
+        "docDate": "2026-08-03",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "99F4623A6237D5F96A2760FC3FE3A253",
+        "md5Url": "BB35B05A98D10180C74ABACA066E4ACD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "当我妈问我为什么又点外卖，我反手甩出了国家统计局的数据】点外卖、网约车出行、直播间购物......看似是普通的民生消费小事，其实每一次下单、每一笔消费，都在悄悄为我国数字经济添砖加瓦，助力GDP稳步增长！O网页链接 L中国统计的微博视频...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1785738332,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "BB35B05A98D10180C74ABACA066E4ACD",
+          "DRETITLE": "当我妈问我为什么又点外卖 我反手甩出了国家统计局的数据 点外卖 网约车出行 直播间购物 看似是普通的民生消费小事 其实每一次下单 每一笔消费 都在悄悄为我国数字经济添砖加瓦 助力GDP稳步增长 O网页链接 L中国统计的微博视频",
+          "URL": "https://weibo.com/3919628624/RbG7hDn7s?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "99F4623A6237D5F96A2760FC3FE3A253",
+          "DRETITLEO": "【当我妈问我为什么又点外卖，我反手甩出了国家统计局的数据】点外卖、网约车出行、直播间购物......看似是普通的民生消费小事，其实每一次下单、每一笔消费，都在悄悄为我国数字经济添砖加瓦，助力GDP稳步增长！O网页链接 L中国统计的微博视频",
+          "QUICKDESCRIPTION": "当我妈问我为什么又点外卖 我反手甩出了国家统计局的数据 点外卖 网约车出行 直播间购物 看似是普通的民生消费小事 其实每一次下单 每一笔消费 都在悄悄为我国数字经济添砖加瓦 助力GDP稳步增长 O网页链接 L中国统计的微博视频",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D5EE496C0908B863EB83A0DE719A163D",
+      "timestamp": 1785394800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D5EE496C0908B863EB83A0DE719A163D",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年我国“三新”经济增加值占国内生产总值比重为18.39%",
+        "title": "2025年我国“三新”经济增加值占<em>国内生产总值</em>比重为18.39%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260730_1964247.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2025年我国“三新”经济增加值为257869亿元，按现价计算，比上年增长6.2%，高于同期<em>国内生产总值</em>（GDP）现价增速2.2个百分点；占GDP的比重为18.39%，比上年提高0.38个百分点。 “三新”经济增加值占<em>国内生产总值</em>比重 “三新”经济增加值占<em>国内生产总值</em>比重，利用当年“三新”经济增加值和<em>国内生产总值</em>初步核算数计算。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2025年我国“三新”经济增加值为257869亿元，按现价计算，比上年增长6.2%，高于同期<em>国内生产总值</em>（GDP）现价增速2.2个百分点；占GDP的比重为18.39%，比上年提高0.38个百分点。 “三新”经济增加值占<em>国内生产总值</em>比重 “三新”经济增加值占<em>国内生产总值</em>比重，利用当年“三新”经济增加值和<em>国内生产总值</em>初步核算数计算。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1785394800000,
+        "docDate": "2026-07-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "6A9619C7009C68F79E7C34DD0389C092",
+        "md5Url": "D5EE496C0908B863EB83A0DE719A163D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2025年我国“三新”经济增加值为257869亿元，按现价计算，比上年增长6.2%，高于同期<em>国内生产总值</em>（GDP）现价增速2.2个百分点；占GDP的比重为18.39%，比上年提高0.38个百分点。 “三新”经济增加值占<em>国内生产总值</em>比重 “三新”经济增加值占<em>国内生产总值</em>比重，利用当年“三新”经济增加值和<em>国内生产总值</em>初步核算数计算。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202607/t20260730_1964247.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年我国“三新”经济增加值占国内生产总值比重为18.39%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1785394800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D5EE496C0908B863EB83A0DE719A163D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年我国 三新 经济增加值占国内生产总值比重为18 39",
+          "MD5TITLE": "6A9619C7009C68F79E7C34DD0389C092",
+          "QUICKDESCRIPTION": "　　2025年我国“三新”经济增加值为257869亿元，按现价计算，比上年增长6.2%，高于同期国内生产总值（GDP）现价增速2.2个百分点；占GDP的比重为18.39%，比上年提高0.38个百分点。   2025年“三新”经济增加值核算结果   产业 增加值 （亿元） 现价增速 （%） 构成 （%） “三新”经济 257869 6.2 100.0 第一产业 9865 4.0 3.8 第二产业 106304 5.8 41.2 第三产业 141700 6.6 55.0   　　附注：   　　1.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BCCC366ADBD007347BB818A098F4BEF4",
+      "timestamp": 1785290220000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BCCC366ADBD007347BB818A098F4BEF4",
+        "titleLabel": {
+          "value": "部门统计调查项目",
+          "location": 0
+        },
+        "titleO": "海洋生产总值核算制度",
+        "title": "海洋<em>生产</em><em>总值</em>核算制度",
+        "url": "https://www.stats.gov.cn/fw/bmdcxmsp/bmzd/202607/t20260729_1964231.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "数据发布 全国海洋<em>生产</em><em>总值</em>核算数据由自然资源部对外发布，海洋<em>生产</em><em>总值</em>核算年度数据通过《中国海洋经济统计公报》或其他形式对外发布共享。 季报综合表内容包括：沿海地区<em>生产</em><em>总值</em>、海洋经济分产业产值、涉海行业（规模以上）营业收入。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1785290220000,
+        "docDate": "2026-07-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/fw/bmdcxmsp/bmzd/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "1EA32F04B0B34F04D1931E6AC4FB5044",
+        "md5Url": "BCCC366ADBD007347BB818A098F4BEF4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 全国海洋<em>生产</em><em>总值</em>核算数据由自然资源部对外发布，海洋<em>生产</em><em>总值</em>核算年度数据通过《中国海洋经济统计公报》或其他形式对外发布共享。 季报综合表内容包括：沿海地区<em>生产</em><em>总值</em>、海洋经济分产业产值、涉海行业（规模以上）营业收入。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/fw/bmdcxmsp/bmzd/202607/t20260729_1964231.html",
+          "C1": [
+            "服务"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "海洋生产总值核算制度",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/fw/bmdcxmsp/bmzd/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1785290220,
+          "L1": [
+            "制度政策"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "部门统计调查项目"
+          ],
+          "L3": [
+            "部门制度"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "BCCC366ADBD007347BB818A098F4BEF4",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "海洋生产总值核算制度",
+          "MD5TITLE": "1EA32F04B0B34F04D1931E6AC4FB5044",
+          "QUICKDESCRIPTION": "　　一、调查目的 　　为及时、全面反映我国海洋经济的发展规模、结构等方面的情况，科学、准确地体现海洋经济对国民经济的贡献程度，为各级政府制定海洋政策、进行海洋管理、宏观调控海洋经济提供依据。特制定本统计调查制度。 　　二、调查内容 　　本制度主要内容包括季报综合表和年报综合表两部分。季报综合表内容包括：沿海地区生产总值、海洋经济分产业产值、涉海行业（规模以上）营业收入。年报综合表内容包括：涉海工业（规模以上）总产值、涉海国民经济行业增加值、沿海地区投入产出表（基本流量表）。 　　三、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FBDE90281534E38BAED006290560B6EB",
+      "timestamp": 1784597899000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FBDE90281534E38BAED006290560B6EB",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统统告诉你# 【GDP研究所：这两个“价”千万别比错！】你有没有这样的经历？看统计数据时“2025年国内生产总值1401879亿元比上年增长5.0%”，心里一盘算：“不对啊，2024年GDP是1348066亿，这明明增长了4%左右，怎么是5.0%呢？”难道算错了？当然不是。关键，就藏在两个词里——“现价”和“不变价” ...展开全文c",
+        "title": "#统统告诉你# 【GDP研究所：这两个“价”千万别比错！】你有没有这样的经历？看统计数据时“2025年<em>国内生产总值</em>1401879亿元比上年增长5.0%”，心里一盘算：“不对啊，2024年GDP是1348066亿，这明明增长了4%左右，怎么是5.0%呢？”难道算错了？当然不是。关键，就藏在两个词里——“现价”和“不变价” ...展开全文c",
+        "url": "https://weibo.com/3919628624/R9FGfs45N?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "统统告诉你 【GDP研究所：这两个“价”千万别比错！】你有没有这样的经历 看统计数据时“2025年<em>国内生产总值</em>1401879亿元比上年增长5.0%”，心里一盘算：“不对啊，2024年GDP是1348066亿，这明明增长了4%左右，怎么是5.0%呢 ”难道算错了 当然不是。 你有没有这样的经历 看统计数据时“2025年<em>国内生产总值</em>1401879亿元比上年增长5.0%”，心里一盘算：“不对啊，2024年GDP是1348066亿，这明明增长了4%左右，怎么是5.0%呢 ”难道算错了 当然不是。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1784597899000,
+        "docDate": "2026-07-21",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "B7D9B0F24F4BF1FFCF66B293B6BE1A91",
+        "md5Url": "2D6C5005EFC54252B533E73D39FF458E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统统告诉你 【GDP研究所：这两个“价”千万别比错！】你有没有这样的经历 看统计数据时“2025年<em>国内生产总值</em>1401879亿元比上年增长5.0%”，心里一盘算：“不对啊，2024年GDP是1348066亿，这明明增长了4%左右，怎么是5.0%呢 ”难道算错了 当然不是。 你有没有这样的经历 看统计数据时“2025年<em>国内生产总值</em>1401879亿元比上年增长5.0%”，心里一盘算：“不对啊，2024年GDP是1348066亿，这明明增长了4%左右，怎么是5.0%呢 ”难道算错了 当然不是。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1784597899,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2D6C5005EFC54252B533E73D39FF458E",
+          "DRETITLE": "统统告诉你 GDP研究所 这两个 价 千万别比错 你有没有这样的经历 看统计数据时 2025年国内生产总值1401879亿元比上年增长5 0 心里一盘算 不对啊 2024年GDP是1348066亿 这明明增长了4 左右 怎么是5 0 呢 难道算错了 当然不是 关键 就藏在两个词里 现价 和 不变价 展开全文c",
+          "URL": "https://weibo.com/3919628624/R9FGfs45N?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B7D9B0F24F4BF1FFCF66B293B6BE1A91",
+          "DRETITLEO": "#统统告诉你# 【GDP研究所：这两个“价”千万别比错！】你有没有这样的经历？看统计数据时“2025年国内生产总值1401879亿元比上年增长5.0%”，心里一盘算：“不对啊，2024年GDP是1348066亿，这明明增长了4%左右，怎么是5.0%呢？”难道算错了？当然不是。关键，就藏在两个词里——“现价”和“不变价” ...展开全文c",
+          "QUICKDESCRIPTION": "统统告诉你 GDP研究所 这两个 价 千万别比错 你有没有这样的经历 看统计数据时 2025年国内生产总值1401879亿元比上年增长5 0 心里一盘算 不对啊 2024年GDP是1348066亿 这明明增长了4 左右 怎么是5 0 呢 难道算错了 当然不是 关键 就藏在两个词里 现价 和 不变价 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "34FDD14A49D837BB1F030A08958B360F",
+      "timestamp": 1784595626000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "34FDD14A49D837BB1F030A08958B360F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【统统告诉你】GDP研究所：这两个“价”千万别比错！",
+        "title": "【统统告诉你】GDP研究所：这两个“价”千万别比错！",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651696119&idx=1&sn=9ac144ef54a3c485f5ebcfaddac3dd40",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "“名义增速”vs“实际增速” 回到开头 2025年全国GDP是1401879亿 2024年全国GDP是1348066亿 （1401879-1348066） 1348066 4.0% 这样直接计算出的4.0%增速是以现价计算的，包含了价格和物量的影响，为名义增速。 为此，可以采取固定一个基期的价格，用这个统一的价格来计算不同时期的GDP，这样算出来的就是不变价GDP，然后把两个不同时期的不变价GDP直接比较，结果即是在同一价格水平下物量的增长情况，即经济实际增长情况。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1784595626000,
+        "docDate": "2026-07-21",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/qingbo/tongjiweixun/EAB990B4B3C1B28C372B4D76829E77CF.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "53A0E830945A74D659156B95AFB48BAA",
+        "md5Url": "EAB990B4B3C1B28C372B4D76829E77CF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "“名义增速”vs“实际增速” 回到开头 2025年全国GDP是1401879亿 2024年全国GDP是1348066亿 （1401879-1348066） 1348066 4.0% 这样直接计算出的4.0%增速是以现价计算的，包含了价格和物量的影响，为名义增速。 为此，可以采取固定一个基期的价格，用这个统一的价格来计算不同时期的GDP，这样算出来的就是不变价GDP，然后把两个不同时期的不变价GDP直接比较，结果即是在同一价格水平下物量的增长情况，即经济实际增长情况。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651696119&idx=1&sn=9ac144ef54a3c485f5ebcfaddac3dd40",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【统统告诉你】GDP研究所：这两个“价”千万别比错！",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "OSSIMG": [
+            "cloudspider/img/qingbo/tongjiweixun/EAB990B4B3C1B28C372B4D76829E77CF.png"
+          ],
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1784595626,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "EAB990B4B3C1B28C372B4D76829E77CF",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "统统告诉你 GDP研究所 这两个 价 千万别比错",
+          "MD5TITLE": "53A0E830945A74D659156B95AFB48BAA",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8223499878B8835700088A7A9FAE961B",
+      "timestamp": 1784168601000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8223499878B8835700088A7A9FAE961B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2026年二季度和上半年国内生产总值初步核算结果",
+        "title": "【数据发布】2026年二季度和上半年<em>国内生产总值</em>初步核算结果",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651696048&idx=1&sn=19ac38b76fbbe6dfa8b0f77769a1dd4b",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附注 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1784168601000,
+        "docDate": "2026-07-16",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/qingbo/tongjiweixun/D6A5FD1693321DEBB5D9D99679502D17.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "7B68F0BD639235A6504C54EF5BBA4B14",
+        "md5Url": "D6A5FD1693321DEBB5D9D99679502D17",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附注 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651696048&idx=1&sn=19ac38b76fbbe6dfa8b0f77769a1dd4b",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【数据发布】2026年二季度和上半年国内生产总值初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "OSSIMG": [
+            "cloudspider/img/qingbo/tongjiweixun/D6A5FD1693321DEBB5D9D99679502D17.png"
+          ],
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1784168601,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D6A5FD1693321DEBB5D9D99679502D17",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "数据发布 2026年二季度和上半年国内生产总值初步核算结果",
+          "MD5TITLE": "7B68F0BD639235A6504C54EF5BBA4B14",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3AFAD7FAD3EEE6F36BCEC36D81510D1D",
+      "timestamp": 1784165400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3AFAD7FAD3EEE6F36BCEC36D81510D1D",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2026年二季度和上半年国内生产总值初步核算结果",
+        "title": "2026年二季度和上半年<em>国内生产总值</em>初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202607/P020260716316145659920.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1784165400000,
+        "docDate": "2026-07-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "57670BB9B4E5DC58B2F59EA2A519577A",
+        "md5Url": "3AFAD7FAD3EEE6F36BCEC36D81510D1D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2026年二季度和上半年国内生产总值初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202607/P020260716316145659920.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1784165400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "3AFAD7FAD3EEE6F36BCEC36D81510D1D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2026年二季度和上半年国内生产总值初步核算结果",
+          "MD5TITLE": "57670BB9B4E5DC58B2F59EA2A519577A",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。   表1　 2026年二季度和上半年GDP初步核算数据     绝对额（亿元） 比上年同期增长（%） 二季度 上半年 二季度 上半年 GDP 361511 695704 4.3 4.7 第一产业 19581 31522 3.7 3.7 第二产业 134338 250473 3.0 3.9 第三产业 207592 413709 5.1 5.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": [
+    {
+      "version": "V_7_0",
+      "id": "5939C10ECCBD8444C466C0BF15439F0A",
+      "titleLabel": {
+        "value": "最新发布和解读聚合",
+        "location": 0
+      },
+      "titleO": "2026年三季度国内生产总值初步核算结果",
+      "title": "2026年三季度<em>国内生产总值</em>初步核算结果",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261020_1965658.html",
+      "siteLabel": {
+        "value": "国家统计局",
+        "location": 1
+      },
+      "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+      "formatRows": null,
+      "aiFormatRows": null,
+      "dreDate": 1792425600000,
+      "docDate": "2026-10-20",
+      "includeImg": false,
+      "picUrl": null,
+      "parentUrl": "https://www.stats.gov.cn/sj/zxfbhjd/",
+      "weight": 191.86825561523438,
+      "dbName": "machining_search_stats_label",
+      "fileType": "html",
+      "combins": 0,
+      "md5Title": "713E833A8EE266E940C085EA38B41653",
+      "md5Url": "5939C10ECCBD8444C466C0BF15439F0A",
+      "banshi": false,
+      "online": 0,
+      "myValues": {
+        "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "INCLUDEIMAGE": "0",
+        "DOMAINSITENAME": "国家统计局河南调查总队",
+        "URL": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261020_1965658.html",
+        "C1": [
+          "数据"
+        ],
+        "C2": [
+          ""
+        ],
+        "C3": [
+          ""
+        ],
+        "DRETITLEO": "2026年三季度国内生产总值初步核算结果",
+        "C4": [
+          ""
+        ],
+        "C5": [
+          ""
+        ],
+        "C6": [
+          ""
+        ],
+        "XIANG": "",
+        "C7": [
+          ""
+        ],
+        "C8": [
+          ""
+        ],
+        "SHI": "",
+        "C9": [
+          ""
+        ],
+        "ATTACHMENTS": {
+          "https://www.stats.gov.cn/sj/zxfbhjd/202610/P020261020311865714947.xlsx": "相关数据表"
+        },
+        "DOMAINSITE": "stats.gov.cn",
+        "PARENTURL": "https://www.stats.gov.cn/sj/zxfbhjd/",
+        "CUN": "",
+        "WEBSITENAME": "国家统计局",
+        "DREDATE": 1792425600,
+        "L1": [
+          "数据"
+        ],
+        "CHANNEL2": "",
+        "L2": [
+          "最新发布和解读聚合"
+        ],
+        "L3": [
+          ""
+        ],
+        "L4": [
+          ""
+        ],
+        "L5": [
+          ""
+        ],
+        "L6": [
+          ""
+        ],
+        "FILETYPE": ".html",
+        "L7": [
+          ""
+        ],
+        "DREDBNAME": "machining_search_stats_label",
+        "N9": 1,
+        "L8": [
+          ""
+        ],
+        "MD5URL": "5939C10ECCBD8444C466C0BF15439F0A",
+        "L9": [
+          ""
+        ],
+        "DRETITLE": "2026年三季度国内生产总值初步核算结果",
+        "MD5TITLE": "713E833A8EE266E940C085EA38B41653",
+        "QUICKDESCRIPTION": "　　根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2026年三季度GDP核算结果如下。   表1　2026年三季度GDP初步核算数据     绝对额（亿元） 比上年同期增长（%） 三季度 前三季度 三季度 前三季度 GDP 375367 1071071 4.5 4.6 第一产业 27472 58994 3.6 3.7 第二产业 133349 383822 3.4 3.8 第三产业 214546 628255 5.2 5.",
+        "XIAN": "",
+        "SHENG": "全国",
+        "WEBSITE": "www.stats.gov.cn"
+      },
+      "formatValues": null,
+      "num": null,
+      "dataType": [],
+      "type": 1
+    },
+    {
+      "version": "V_7_0",
+      "id": "9F9E07D2C1FDB4DB1C37C3D8D3FF6C37",
+      "titleLabel": {
+        "value": "主动公开",
+        "location": 0
+      },
+      "titleO": "2026年二季度和上半年国内生产总值初步核算结果",
+      "title": "2026年二季度和上半年<em>国内生产总值</em>初步核算结果",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202607/t20260716_1964142.html",
+      "siteLabel": {
+        "value": "国家统计局",
+        "location": 1
+      },
+      "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+      "formatRows": [
+        {
+          "row": 1,
+          "col": [
+            {
+              "text": "发布机构：",
+              "field": "DOCPUBNAME",
+              "value": "国家统计局",
+              "sort": 2,
+              "dateField": false,
+              "empty": false
+            }
+          ],
+          "empty": false
+        },
+        {
+          "row": 2,
+          "col": [
+            {
+              "text": "文件有效性：",
+              "field": "DOCZT",
+              "value": "有效",
+              "sort": 2,
+              "dateField": false,
+              "empty": false
+            }
+          ],
+          "empty": false
+        },
+        {
+          "row": 4,
+          "col": [
+            {
+              "text": "附  件：",
+              "field": "ATTACHMENTS",
+              "value": {
+                "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202607/P020260716316145659920.xlsx": "相关数据表"
+              },
+              "sort": 1,
+              "dateField": false,
+              "empty": false
+            }
+          ],
+          "empty": false
+        },
+        {
+          "row": 5,
+          "col": [
+            {
+              "text": "摘  要：",
+              "field": "SUMMARY",
+              "value": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+              "sort": 1,
+              "dateField": false,
+              "empty": false
+            }
+          ],
+          "empty": false
+        }
+      ],
+      "aiFormatRows": null,
+      "dreDate": 1784131260000,
+      "docDate": "2026-07-16",
+      "includeImg": false,
+      "picUrl": null,
+      "parentUrl": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/index_5.html",
+      "weight": 173.96530151367188,
+      "dbName": "machining_search_stats_label",
+      "fileType": "html",
+      "combins": 0,
+      "md5Title": "57670BB9B4E5DC58B2F59EA2A519577A",
+      "md5Url": "9F9E07D2C1FDB4DB1C37C3D8D3FF6C37",
+      "banshi": false,
+      "online": 0,
+      "myValues": {
+        "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（https //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "INCLUDEIMAGE": "0",
+        "DOMAINSITENAME": "国家统计局河南调查总队",
+        "DOCPUBNAME": "国家统计局",
+        "URL": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202607/t20260716_1964142.html",
+        "C1": [
+          "信息公开"
+        ],
+        "C2": [
+          "主题分类"
+        ],
+        "C3": [
+          ""
+        ],
+        "DRETITLEO": "2026年二季度和上半年国内生产总值初步核算结果",
+        "C4": [
+          ""
+        ],
+        "C5": [
+          "信息公开"
+        ],
+        "C6": [
+          ""
+        ],
+        "XIANG": "",
+        "C7": [
+          ""
+        ],
+        "C8": [
+          ""
+        ],
+        "SHI": "",
+        "C9": [
+          ""
+        ],
+        "ATTACHMENTS": {
+          "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202607/P020260716316145659920.xlsx": "相关数据表"
+        },
+        "DOMAINSITE": "stats.gov.cn",
+        "PARENTURL": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/index_5.html",
+        "CUN": "",
+        "WEBSITENAME": "国家统计局",
+        "DREDATE": 1784131260,
+        "L1": [
+          "信息公开"
+        ],
+        "CHANNEL2": "",
+        "L2": [
+          "主动公开"
+        ],
+        "L3": [
+          "数据发布"
+        ],
+        "L4": [
+          ""
+        ],
+        "L5": [
+          ""
+        ],
+        "L6": [
+          ""
+        ],
+        "DOCIDENTIFIRE": "410A04-0402-202607-0015",
+        "FILETYPE": ".html",
+        "L7": [
+          ""
+        ],
+        "DREDBNAME": "machining_search_stats_label",
+        "N9": 1,
+        "L8": [
+          ""
+        ],
+        "MD5URL": "9F9E07D2C1FDB4DB1C37C3D8D3FF6C37",
+        "L9": [
+          ""
+        ],
+        "DRETITLE": "2026年二季度和上半年国内生产总值初步核算结果",
+        "MD5TITLE": "57670BB9B4E5DC58B2F59EA2A519577A",
+        "QUICKDESCRIPTION": "　　根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2026年二季度和上半年GDP核算结果如下。   表1　 2026年二季度和上半年GDP初步核算数据     绝对额（亿元） 比上年同期增长（%） 二季度 上半年 二季度 上半年 GDP 361511 695704 4.3 4.7 第一产业 19581 31522 3.7 3.7 第二产业 134338 250473 3.0 3.9 第三产业 207592 413709 5.1 5.",
+        "DOCZT": "有效",
+        "XIAN": "",
+        "SHENG": "全国",
+        "DOCPUBDATE": "2026年07月16日",
+        "WEBSITE": "www.stats.gov.cn"
+      },
+      "formatValues": {
+        "DOCPUBDATE": "2026-07-16"
+      },
+      "num": null,
+      "dataType": [],
+      "type": 0
+    },
+    {
+      "version": "V_7_0",
+      "id": "D5EE496C0908B863EB83A0DE719A163D",
+      "titleLabel": {
+        "value": "最新发布",
+        "location": 0
+      },
+      "titleO": "2025年我国“三新”经济增加值占国内生产总值比重为18.39%",
+      "title": "2025年我国“三新”经济增加值占<em>国内生产总值</em>比重为18.39%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260730_1964247.html",
+      "siteLabel": {
+        "value": "国家统计局",
+        "location": 1
+      },
+      "summary": "2025年我国“三新”经济增加值为257869亿元，按现价计算，比上年增长6.2%，高于同期<em>国内生产总值</em>（GDP）现价增速2.2个百分点；占GDP的比重为18.39%，比上年提高0.38个百分点。 “三新”经济增加值占<em>国内生产总值</em>比重 “三新”经济增加值占<em>国内生产总值</em>比重，利用当年“三新”经济增加值和<em>国内生产总值</em>初步核算数计算。...",
+      "formatRows": [
+        {
+          "row": 5,
+          "col": [
+            {
+              "text": "摘  要：",
+              "field": "SUMMARY",
+              "value": "2025年我国“三新”经济增加值为257869亿元，按现价计算，比上年增长6.2%，高于同期<em>国内生产总值</em>（GDP）现价增速2.2个百分点；占GDP的比重为18.39%，比上年提高0.38个百分点。 “三新”经济增加值占<em>国内生产总值</em>比重 “三新”经济增加值占<em>国内生产总值</em>比重，利用当年“三新”经济增加值和<em>国内生产总值</em>初步核算数计算。...",
+              "sort": 1,
+              "dateField": false,
+              "empty": false
+            }
+          ],
+          "empty": false
+        }
+      ],
+      "aiFormatRows": null,
+      "dreDate": 1785394800000,
+      "docDate": "2026-07-30",
+      "includeImg": false,
+      "picUrl": null,
+      "parentUrl": "https://www.stats.gov.cn/sj/zxfb/",
+      "weight": 170.54576110839844,
+      "dbName": "machining_search_stats_label",
+      "fileType": "html",
+      "combins": 0,
+      "md5Title": "6A9619C7009C68F79E7C34DD0389C092",
+      "md5Url": "D5EE496C0908B863EB83A0DE719A163D",
+      "banshi": false,
+      "online": 0,
+      "myValues": {
+        "SUMMARY": "2025年我国“三新”经济增加值为257869亿元，按现价计算，比上年增长6.2%，高于同期<em>国内生产总值</em>（GDP）现价增速2.2个百分点；占GDP的比重为18.39%，比上年提高0.38个百分点。 “三新”经济增加值占<em>国内生产总值</em>比重 “三新”经济增加值占<em>国内生产总值</em>比重，利用当年“三新”经济增加值和<em>国内生产总值</em>初步核算数计算。...",
+        "INCLUDEIMAGE": "0",
+        "DOMAINSITENAME": "国家统计局河南调查总队",
+        "URL": "https://www.stats.gov.cn/sj/zxfb/202607/t20260730_1964247.html",
+        "C1": [
+          "数据"
+        ],
+        "C2": [
+          ""
+        ],
+        "C3": [
+          ""
+        ],
+        "DRETITLEO": "2025年我国“三新”经济增加值占国内生产总值比重为18.39%",
+        "C4": [
+          ""
+        ],
+        "C5": [
+          ""
+        ],
+        "C6": [
+          ""
+        ],
+        "XIANG": "",
+        "C7": [
+          ""
+        ],
+        "C8": [
+          ""
+        ],
+        "SHI": "",
+        "C9": [
+          ""
+        ],
+        "DOMAINSITE": "stats.gov.cn",
+        "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/",
+        "CUN": "",
+        "WEBSITENAME": "国家统计局",
+        "DREDATE": 1785394800,
+        "L1": [
+          "统计数据"
+        ],
+        "CHANNEL2": "",
+        "L2": [
+          "最新发布"
+        ],
+        "L3": [
+          ""
+        ],
+        "L4": [
+          ""
+        ],
+        "L5": [
+          ""
+        ],
+        "L6": [
+          ""
+        ],
+        "FILETYPE": ".html",
+        "L7": [
+          ""
+        ],
+        "DREDBNAME": "machining_search_stats_label",
+        "N9": 1,
+        "L8": [
+          ""
+        ],
+        "MD5URL": "D5EE496C0908B863EB83A0DE719A163D",
+        "L9": [
+          ""
+        ],
+        "DRETITLE": "2025年我国 三新 经济增加值占国内生产总值比重为18 39",
+        "MD5TITLE": "6A9619C7009C68F79E7C34DD0389C092",
+        "QUICKDESCRIPTION": "　　2025年我国“三新”经济增加值为257869亿元，按现价计算，比上年增长6.2%，高于同期国内生产总值（GDP）现价增速2.2个百分点；占GDP的比重为18.39%，比上年提高0.38个百分点。   2025年“三新”经济增加值核算结果   产业 增加值 （亿元） 现价增速 （%） 构成 （%） “三新”经济 257869 6.2 100.0 第一产业 9865 4.0 3.8 第二产业 106304 5.8 41.2 第三产业 141700 6.6 55.0   　　附注：   　　1.",
+        "XIAN": "",
+        "SHENG": "全国",
+        "WEBSITE": "www.stats.gov.cn"
+      },
+      "formatValues": null,
+      "num": null,
+      "dataType": [],
+      "type": 0
+    },
+    {
+      "version": "V_7_0",
+      "id": "BCCC366ADBD007347BB818A098F4BEF4",
+      "titleLabel": {
+        "value": "部门统计调查项目",
+        "location": 0
+      },
+      "titleO": "海洋生产总值核算制度",
+      "title": "海洋<em>生产</em><em>总值</em>核算制度",
+      "url": "https://www.stats.gov.cn/fw/bmdcxmsp/bmzd/202607/t20260729_1964231.html",
+      "siteLabel": {
+        "value": "国家统计局",
+        "location": 1
+      },
+      "summary": "数据发布 全国海洋<em>生产</em><em>总值</em>核算数据由自然资源部对外发布，海洋<em>生产</em><em>总值</em>核算年度数据通过《中国海洋经济统计公报》或其他形式对外发布共享。 季报综合表内容包括：沿海地区<em>生产</em><em>总值</em>、海洋经济分产业产值、涉海行业（规模以上）营业收入。...",
+      "formatRows": null,
+      "aiFormatRows": null,
+      "dreDate": 1785290220000,
+      "docDate": "2026-07-29",
+      "includeImg": false,
+      "picUrl": null,
+      "parentUrl": "https://www.stats.gov.cn/fw/bmdcxmsp/bmzd/",
+      "weight": 37.84986877441406,
+      "dbName": "machining_search_stats_label",
+      "fileType": "html",
+      "combins": 0,
+      "md5Title": "1EA32F04B0B34F04D1931E6AC4FB5044",
+      "md5Url": "BCCC366ADBD007347BB818A098F4BEF4",
+      "banshi": false,
+      "online": 0,
+      "myValues": {
+        "SUMMARY": "数据发布 全国海洋<em>生产</em><em>总值</em>核算数据由自然资源部对外发布，海洋<em>生产</em><em>总值</em>核算年度数据通过《中国海洋经济统计公报》或其他形式对外发布共享。 季报综合表内容包括：沿海地区<em>生产</em><em>总值</em>、海洋经济分产业产值、涉海行业（规模以上）营业收入。...",
+        "INCLUDEIMAGE": "0",
+        "DOMAINSITENAME": "国家统计局河南调查总队",
+        "URL": "https://www.stats.gov.cn/fw/bmdcxmsp/bmzd/202607/t20260729_1964231.html",
+        "C1": [
+          "服务"
+        ],
+        "C2": [
+          ""
+        ],
+        "C3": [
+          ""
+        ],
+        "DRETITLEO": "海洋生产总值核算制度",
+        "C4": [
+          ""
+        ],
+        "C5": [
+          ""
+        ],
+        "C6": [
+          ""
+        ],
+        "XIANG": "",
+        "C7": [
+          ""
+        ],
+        "C8": [
+          ""
+        ],
+        "SHI": "",
+        "C9": [
+          ""
+        ],
+        "DOMAINSITE": "stats.gov.cn",
+        "PARENTURL": "https://www.stats.gov.cn/fw/bmdcxmsp/bmzd/",
+        "CUN": "",
+        "WEBSITENAME": "国家统计局",
+        "DREDATE": 1785290220,
+        "L1": [
+          "制度政策"
+        ],
+        "CHANNEL2": "",
+        "L2": [
+          "部门统计调查项目"
+        ],
+        "L3": [
+          "部门制度"
+        ],
+        "L4": [
+          ""
+        ],
+        "L5": [
+          ""
+        ],
+        "L6": [
+          ""
+        ],
+        "FILETYPE": ".html",
+        "L7": [
+          ""
+        ],
+        "DREDBNAME": "machining_search_stats_label",
+        "N9": 1,
+        "L8": [
+          ""
+        ],
+        "MD5URL": "BCCC366ADBD007347BB818A098F4BEF4",
+        "L9": [
+          ""
+        ],
+        "DRETITLE": "海洋生产总值核算制度",
+        "MD5TITLE": "1EA32F04B0B34F04D1931E6AC4FB5044",
+        "QUICKDESCRIPTION": "　　一、调查目的 　　为及时、全面反映我国海洋经济的发展规模、结构等方面的情况，科学、准确地体现海洋经济对国民经济的贡献程度，为各级政府制定海洋政策、进行海洋管理、宏观调控海洋经济提供依据。特制定本统计调查制度。 　　二、调查内容 　　本制度主要内容包括季报综合表和年报综合表两部分。季报综合表内容包括：沿海地区生产总值、海洋经济分产业产值、涉海行业（规模以上）营业收入。年报综合表内容包括：涉海工业（规模以上）总产值、涉海国民经济行业增加值、沿海地区投入产出表（基本流量表）。 　　三、",
+        "XIAN": "",
+        "SHENG": "全国",
+        "WEBSITE": "www.stats.gov.cn"
+      },
+      "formatValues": null,
+      "num": null,
+      "dataType": [],
+      "type": 1
+    },
+    {
+      "version": "V_7_0",
+      "id": "D54C3B4405E0B1288988444CFE640326",
+      "titleLabel": {
+        "value": "留言咨询",
+        "location": 0
+      },
+      "titleO": "在支出法GDP核算中，利用商品房投资完成额计算固定资本形成总额时，由于存在购买者价格与生产者价格的差异，需将商品房销售增值计入固定资本形成总额。想请教： 1.商品房销售增值的具体计算方式？ 2.该部分增值的确认时间，是与固定资产投资确认时点同步计入，还是按竣工时间、抑或实际销售时间？",
+      "title": "在支出法GDP核算中，利用商品房投资完成额计算固定资本形成总额时，由于存在购买者价格与<em>生产</em>者价格的差异，需将商品房销售增值计入固定资本形成总额。想请教： 1.商品房销售增值的具体计算方式？ 2.该部分增值的确认时间，是与固定资产投资确认时点同步计入，还是按竣工时间、抑或实际销售时间？",
+      "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202609/t20260903_1965189.html",
+      "siteLabel": {
+        "value": "国家统计局",
+        "location": 1
+      },
+      "summary": "商品房销售增值根据商品房销售相关指标和商品房峻工相关指标计算得到，按照权责发生制原则进行记录。...",
+      "formatRows": null,
+      "aiFormatRows": null,
+      "dreDate": 1786550400000,
+      "docDate": "2026-08-13",
+      "includeImg": false,
+      "picUrl": null,
+      "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/",
+      "weight": 15.548023223876953,
+      "dbName": "machining_search_stats_label",
+      "fileType": "html",
+      "combins": 0,
+      "md5Title": "81BEFF51BFE1BEA0974FE0C324F46950",
+      "md5Url": "D54C3B4405E0B1288988444CFE640326",
+      "banshi": false,
+      "online": 0,
+      "myValues": {
+        "SUMMARY": "商品房销售增值根据商品房销售相关指标和商品房峻工相关指标计算得到，按照权责发生制原则进行记录。...",
+        "INCLUDEIMAGE": "0",
+        "DOMAINSITENAME": "国家统计局河南调查总队",
+        "DOCPUBNAME": "国家统计局国民经济核算司",
+        "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202609/t20260903_1965189.html",
+        "C1": [
+          "互动"
+        ],
+        "C2": [
+          ""
+        ],
+        "C3": [
+          ""
+        ],
+        "DRETITLEO": "在支出法GDP核算中，利用商品房投资完成额计算固定资本形成总额时，由于存在购买者价格与生产者价格的差异，需将商品房销售增值计入固定资本形成总额。想请教： 1.商品房销售增值的具体计算方式？ 2.该部分增值的确认时间，是与固定资产投资确认时点同步计入，还是按竣工时间、抑或实际销售时间？",
+        "C4": [
+          ""
+        ],
+        "C5": [
+          ""
+        ],
+        "C6": [
+          ""
+        ],
+        "XIANG": "",
+        "C7": [
+          ""
+        ],
+        "C8": [
+          ""
+        ],
+        "SHI": "",
+        "C9": [
+          ""
+        ],
+        "DOMAINSITE": "stats.gov.cn",
+        "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/",
+        "CUN": "",
+        "WEBSITENAME": "国家统计局",
+        "DREDATE": 1786550400,
+        "L1": [
+          "互动"
+        ],
+        "CHANNEL2": "",
+        "L2": [
+          "留言咨询"
+        ],
+        "L3": [
+          "咨询公开"
+        ],
+        "L4": [
+          ""
+        ],
+        "L5": [
+          ""
+        ],
+        "L6": [
+          ""
+        ],
+        "FILETYPE": ".html",
+        "L7": [
+          ""
+        ],
+        "DREDBNAME": "machining_search_stats_label",
+        "N9": 1,
+        "L8": [
+          ""
+        ],
+        "MD5URL": "D54C3B4405E0B1288988444CFE640326",
+        "L9": [
+          ""
+        ],
+        "DRETITLE": "在支出法GDP核算中 利用商品房投资完成额计算固定资本形成总额时 由于存在购买者价格与生产者价格的差异 需将商品房销售增值计入固定资本形成总额 想请教 1 商品房销售增值的具体计算方式 2 该部分增值的确认时间 是与固定资产投资确认时点同步计入 还是按竣工时间 抑或实际销售时间",
+        "MD5TITLE": "81BEFF51BFE1BEA0974FE0C324F46950",
+        "QUICKDESCRIPTION": "商品房销售增值根据商品房销售相关指标和商品房峻工相关指标计算得到，按照权责发生制原则进行记录。",
+        "XIAN": "",
+        "SHENG": "全国",
+        "WEBSITE": "www.stats.gov.cn"
+      },
+      "formatValues": null,
+      "num": null,
+      "dataType": [],
+      "type": 1
+    }
+  ],
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 16,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 12,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 17,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 12,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 20,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 31,
+          "children": null,
+          "key": ""
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {
+    "统计新闻": [
+      {
+        "version": "V_8_0",
+        "id": "A99C310BFBD6024762E6D98DB857D3E0",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局公告",
+        "title": "国家统计局公告",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251231_1962216.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2026年第1号   　　为真实准确地监测和反映我国的就业状况，为党和政府制定就业政策、完善就业服务、保障和改善民生提供基础依据，根据国家统计调查制度安排，国家统计局今年将继续组织开展劳动力调查。现将有关事项公告如下：   　　一、调查范围：我国31个省（自治区、直辖市）的城镇和乡村地域。   　　二、调查登记对象：国家统计局按照抽样方法抽中的本社区（村）家庭户和集体户。应在被抽中户中登记的人是：   　　（一）调查时点居住在本户的人；   　　（二）本户户籍人口中，外出不满半年的人。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1767231000000,
+        "docDate": "2026-01-01",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_3.html",
+        "weight": 0.016393442,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "7E9C83BEFF284316784A2FE387C36211",
+        "md5Url": "A99C310BFBD6024762E6D98DB857D3E0",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "2026年第1号   　　为真实准确地监测和反映我国的就业状况，为党和政府制定就业政策、完善就业服务、保障和改善民生提供基础依据，根据国家统计调查制度安排，国家统计局今年将继续组织开展劳动力调查。现将有关事项公告如下：   　　一、调查范围：我国31个省（自治区、直辖市）的城镇和乡村地域。   　　二、调查登记对象：国家统计局按照抽样方法抽中的本社区（村）家庭户和集体户。应在被抽中户中登记的人是：   　　（一）调查时点居住在本户的人；   　　（二）本户户籍人口中，外出不满半年的人。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251231_1962216.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_3.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1767231000,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A99C310BFBD6024762E6D98DB857D3E0",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局公告",
+          "MD5TITLE": "7E9C83BEFF284316784A2FE387C36211",
+          "QUICKDESCRIPTION": "2026年第1号   　　为真实准确地监测和反映我国的就业状况，为党和政府制定就业政策、完善就业服务、保障和改善民生提供基础依据，根据国家统计调查制度安排，国家统计局今年将继续组织开展劳动力调查。现将有关事项公告如下：   　　一、调查范围：我国31个省（自治区、直辖市）的城镇和乡村地域。   　　二、调查登记对象：国家统计局按照抽样方法抽中的本社区（村）家庭户和集体户。应在被抽中户中登记的人是：   　　（一）调查时点居住在本户的人；   　　（二）本户户籍人口中，外出不满半年的人。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [
+          "NEWS"
+        ],
+        "type": 1
+      }
+    ]
+  }
+}

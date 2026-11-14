@@ -1,0 +1,958 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 28,
+  "currentHits": 8,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "社会消费品零售总额",
+    "originQt": "社会消费品零售总额",
+    "showQt": "社会消费品零售总额",
+    "encodeQt": "%E7%A4%BE%E4%BC%9A%E6%B6%88%E8%B4%B9%E5%93%81%E9%9B%B6%E5%94%AE%E6%80%BB%E9%A2%9D",
+    "qtPasser": "社会消费品零售总额",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "社会": "NN"
+      },
+      {
+        "消费品": "NN"
+      },
+      {
+        "零售": "NN"
+      },
+      {
+        "总额": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "社会消费品零售总额": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "社会",
+      "零售",
+      "消费品",
+      "总额",
+      "社会消费品零售总额"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E090B2DA6D1CC54AFFB75792F0872A92",
+      "timestamp": 1431495000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E090B2DA6D1CC54AFFB75792F0872A92",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2015年4月份社会消费品零售总额增长10.0%",
+        "title": "2015年4月份<em>社会消费品零售总额</em>增长10.0%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898785.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1431495000000,
+        "docDate": "2015-05-13",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/942872042A4AB1C0CA40945BE7C4CFBD.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_34.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "68B6C72582FE56CC90F79212A151F314",
+        "md5Url": "E090B2DA6D1CC54AFFB75792F0872A92",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898785.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2015年4月份社会消费品零售总额增长10.0%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/942872042A4AB1C0CA40945BE7C4CFBD.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_34.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1431495000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E090B2DA6D1CC54AFFB75792F0872A92",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2015年4月份社会消费品零售总额增长10 0",
+          "MD5TITLE": "68B6C72582FE56CC90F79212A151F314",
+          "QUICKDESCRIPTION": "2015年4月份社会消费品零售总额增长10.0% 2015/05/13 13:30 | Aa 字体： 小 中 大 | 　　2015年4月份，社会消费品零售总额22387亿元，同比名义增长10.0%（扣除价格因素实际增长9.9%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额10564亿元，增长6.7%。 　　2015年1-4月份，社会消费品零售总额93102亿元，同比名义增长10.4%。其中，限额以上单位消费品零售额43015亿元，增长7.5%。 　　按经营单位所在地分，4月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "857023288F4969CA28C28AE734E71ABB",
+      "timestamp": 1429064004000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "857023288F4969CA28C28AE734E71ABB",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【市场销售稳定增长】一季度，社会消费品零售总额70715亿元，同比名义增长10.6%（实际增长10.8%）。3月份，社会消费品零售总额同比名义增长10.2%（实际增长10.2%），环比增长0.71%。一季度，全国网上商品和服",
+        "title": "#发布会微直播#【市场销售稳定增长】一季度，<em>社会消费品零售总额</em>70715亿元，同比名义增长10.6%（实际增长10.8%）。3月份，<em>社会消费品零售总额</em>同比名义增长10.2%（实际增长10.2%），环比增长0.71%。一季度，全国网上商品和服",
+        "url": "https://weibo.com/3919628624/Cdm9ZDvW8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【市场销售稳定增长】一季度，<em>社会消费品零售总额</em>70715亿元，同比名义增长10.6%（实际增长10.8%）。 发布会微直播 【市场销售稳定增长】一季度，<em>社会消费品零售总额</em>70715亿元，同比名义增长10.6%（实际增长10.8%）。3月份，<em>社会消费品零售总额</em>同比名义增长10.2%（实际增长10.2%），环比增长0.71%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1429064004000,
+        "docDate": "2015-04-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "19F1EECA2EFE468E66C09D73EA448138",
+        "md5Url": "AAB96ECB1E515DD8B9601D1DF3D30085",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【市场销售稳定增长】一季度，<em>社会消费品零售总额</em>70715亿元，同比名义增长10.6%（实际增长10.8%）。 发布会微直播 【市场销售稳定增长】一季度，<em>社会消费品零售总额</em>70715亿元，同比名义增长10.6%（实际增长10.8%）。3月份，<em>社会消费品零售总额</em>同比名义增长10.2%（实际增长10.2%），环比增长0.71%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1429064004,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "AAB96ECB1E515DD8B9601D1DF3D30085",
+          "DRETITLE": "发布会微直播 市场销售稳定增长 一季度 社会消费品零售总额70715亿元 同比名义增长10 6 实际增长10 8 3月份 社会消费品零售总额同比名义增长10 2",
+          "URL": "https://weibo.com/3919628624/Cdm9ZDvW8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "19F1EECA2EFE468E66C09D73EA448138",
+          "DRETITLEO": "#发布会微直播#【市场销售稳定增长】一季度，社会消费品零售总额70715亿元，同比名义增长10.6%（实际增长10.8%）。3月份，社会消费品零售总额同比名义增长10.2%（实际增长10.2%），环比增长0.71%。一季度，全国网上商品和服",
+          "QUICKDESCRIPTION": "发布会微直播 市场销售稳定增长 一季度 社会消费品零售总额70715亿元 同比名义增长10 6 实际增长10 8 3月份 社会消费品零售总额同比名义增长10 2 实际增长10 2 环比增长0 71 一季度 全国网上商品和服务零售额7607亿元 同比增长41 3 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C1CFC666FCECA477B4D21B8C17957326",
+      "timestamp": 1429063200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C1CFC666FCECA477B4D21B8C17957326",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2015年3月份社会消费品零售总额增长10.2%",
+        "title": "2015年3月份<em>社会消费品零售总额</em>增长10.2%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898758.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1429063200000,
+        "docDate": "2015-04-15",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/4840B8E397B5FF0171C38C4593948F2E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_35.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "E8A05271DAEE381F644629AC2EAB3138",
+        "md5Url": "C1CFC666FCECA477B4D21B8C17957326",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898758.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2015年3月份社会消费品零售总额增长10.2%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/4840B8E397B5FF0171C38C4593948F2E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_35.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1429063200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C1CFC666FCECA477B4D21B8C17957326",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2015年3月份社会消费品零售总额增长10 2",
+          "MD5TITLE": "E8A05271DAEE381F644629AC2EAB3138",
+          "QUICKDESCRIPTION": "2015年3月份社会消费品零售总额增长10.2% 2015/04/15 10:00 | Aa 字体： 小 中 大 | 　　2015年3月份，社会消费品零售总额22723亿元，同比名义增长10.2%（扣除价格因素实际增长10.2%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额10834亿元，增长7.1%。 　　2015年1-3月份，社会消费品零售总额70715亿元，同比名义增长10.6%。其中，限额以上单位消费品零售额32472亿元，增长7.8%。 　　按经营单位所在地分，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "19A7A263F892B06B4C56D3C7C71B6725",
+      "timestamp": 1426053206000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "19A7A263F892B06B4C56D3C7C71B6725",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2015年1-2月份社会消费品零售总额增长10.7%】2015年1-2月份，社会消费品零售总额47993亿元，同比名义增长10.7%（扣除价格因素实际增长11.0%）。其中，限额以上单位消费品零售额21840亿元，增长8.1%",
+        "title": "#数据发布#【2015年1-2月份<em>社会消费品零售总额</em>增长10.7%】2015年1-2月份，<em>社会消费品零售总额</em>47993亿元，同比名义增长10.7%（扣除价格因素实际增长11.0%）。其中，限额以上单位<em>消费品</em><em>零售</em>额21840亿元，增长8.1%",
+        "url": "https://weibo.com/3919628624/C83DW4MTs?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2015年1-2月份<em>社会消费品零售总额</em>增长10.7%】2015年1-2月份，<em>社会消费品零售总额</em>47993亿元，同比名义增长10.7%（扣除价格因素实际增长11.0%）。 数据发布 【2015年1-2月份<em>社会消费品零售总额</em>增长10.7%】2015年1-2月份，<em>社会消费品零售总额</em>47993亿元，同比名义增长10.7%（扣除价格因素实际增长11.0%）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1426053206000,
+        "docDate": "2015-03-11",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "6EB1FB9AE1DACBCE8B9456F981647E62",
+        "md5Url": "82D9691EDFD1968D96EDABA6DB5D8E2E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2015年1-2月份<em>社会消费品零售总额</em>增长10.7%】2015年1-2月份，<em>社会消费品零售总额</em>47993亿元，同比名义增长10.7%（扣除价格因素实际增长11.0%）。 数据发布 【2015年1-2月份<em>社会消费品零售总额</em>增长10.7%】2015年1-2月份，<em>社会消费品零售总额</em>47993亿元，同比名义增长10.7%（扣除价格因素实际增长11.0%）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1426053206,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "82D9691EDFD1968D96EDABA6DB5D8E2E",
+          "DRETITLE": "数据发布 2015年1-2月份社会消费品零售总额增长10 7 2015年1-2月份 社会消费品零售总额47993亿元 同比名义增长10 7 扣除价格因素实际增长",
+          "URL": "https://weibo.com/3919628624/C83DW4MTs?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "6EB1FB9AE1DACBCE8B9456F981647E62",
+          "DRETITLEO": "#数据发布#【2015年1-2月份社会消费品零售总额增长10.7%】2015年1-2月份，社会消费品零售总额47993亿元，同比名义增长10.7%（扣除价格因素实际增长11.0%）。其中，限额以上单位消费品零售额21840亿元，增长8.1%",
+          "QUICKDESCRIPTION": "数据发布 2015年1-2月份社会消费品零售总额增长10 7 2015年1-2月份 社会消费品零售总额47993亿元 同比名义增长10 7 扣除价格因素实际增长11 0 其中 限额以上单位消费品零售额21840亿元 增长8 1 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DA299D32ABF649EA773DE017F6DAA7FB",
+      "timestamp": 1426051800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DA299D32ABF649EA773DE017F6DAA7FB",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2015年1-2月份社会消费品零售总额增长10.7%",
+        "title": "2015年1-2月份<em>社会消费品零售总额</em>增长10.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898731.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1426051800000,
+        "docDate": "2015-03-11",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/C8DD4F770B2B267C3958939E06455F68.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_37.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "A8C3C82339EE162FBB7FD03998A6F094",
+        "md5Url": "DA299D32ABF649EA773DE017F6DAA7FB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。 网上商品和服务<em>零售</em>额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务<em>零售</em>额，即网上商品和服务<em>零售</em>额 网上商品<em>零售</em>额+网上服务<em>零售</em>额。 <em>社会消费品零售总额</em>包括网上商品<em>零售</em>额，不包括网上服务<em>零售</em>额。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898731.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2015年1-2月份社会消费品零售总额增长10.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/C8DD4F770B2B267C3958939E06455F68.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_37.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1426051800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "DA299D32ABF649EA773DE017F6DAA7FB",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2015年1-2月份社会消费品零售总额增长10 7",
+          "MD5TITLE": "A8C3C82339EE162FBB7FD03998A6F094",
+          "QUICKDESCRIPTION": "2015年1-2月份社会消费品零售总额增长10.7% 2015/03/11 13:30 | Aa 字体： 小 中 大 | 　　2015年1-2月份，社会消费品零售总额47993亿元，同比名义增长10.7%（扣除价格因素实际增长11.0%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额21840亿元，增长8.1%。 　　按经营单位所在地分，1-2月份，城镇消费品零售额41135亿元，同比增长10.6%；乡村消费品零售额6858亿元，增长11.6%。 　　按消费类型分，1-2月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "987D73C1AF6C4521F8DA6D591EF6377B",
+      "timestamp": 1421720396000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "987D73C1AF6C4521F8DA6D591EF6377B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【市场销售稳定增长】全年社会消费品零售总额262394亿元，比上年名义增长12.0%（实际增长10.9%）。其中限额以上单位消费品零售额增长9.3%。全年全国网上零售额比上年增长49.7%。12月，社会消费品零售总额同比名义",
+        "title": "#发布会微直播#【市场销售稳定增长】全年<em>社会消费品零售总额</em>262394亿元，比上年名义增长12.0%（实际增长10.9%）。其中限额以上单位<em>消费品</em><em>零售</em>额增长9.3%。全年全国网上<em>零售</em>额比上年增长49.7%。12月，<em>社会消费品零售总额</em>同比名义",
+        "url": "https://weibo.com/3919628624/C0qSrjWuY?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "其中限额以上单位<em>消费品</em><em>零售</em>额增长9.3%。全年全国网上<em>零售</em>额比上年增长49.7%。 发布会微直播 【市场销售稳定增长】全年<em>社会消费品零售总额</em>262394亿元，比上年名义增长12.0%（实际增长10.9%）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1421720396000,
+        "docDate": "2015-01-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "3005E1FA7669A2AF2C247F7AA12F3D57",
+        "md5Url": "53434878CA25EFCDD311707846E75FC7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "其中限额以上单位<em>消费品</em><em>零售</em>额增长9.3%。全年全国网上<em>零售</em>额比上年增长49.7%。 发布会微直播 【市场销售稳定增长】全年<em>社会消费品零售总额</em>262394亿元，比上年名义增长12.0%（实际增长10.9%）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1421720396,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "53434878CA25EFCDD311707846E75FC7",
+          "DRETITLE": "发布会微直播 市场销售稳定增长 全年社会消费品零售总额262394亿元 比上年名义增长12 0 实际增长10 9 其中限额以上单位消费品零售额增长9 3 全年全",
+          "URL": "https://weibo.com/3919628624/C0qSrjWuY?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "3005E1FA7669A2AF2C247F7AA12F3D57",
+          "DRETITLEO": "#发布会微直播#【市场销售稳定增长】全年社会消费品零售总额262394亿元，比上年名义增长12.0%（实际增长10.9%）。其中限额以上单位消费品零售额增长9.3%。全年全国网上零售额比上年增长49.7%。12月，社会消费品零售总额同比名义",
+          "QUICKDESCRIPTION": "发布会微直播 市场销售稳定增长 全年社会消费品零售总额262394亿元 比上年名义增长12 0 实际增长10 9 其中限额以上单位消费品零售额增长9 3 全年全国网上零售额比上年增长49 7 12月 社会消费品零售总额同比名义增长11 9 实际增长11 5 环比增长1 01 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "054D4A6F9E91AD0DE8DC9B0CBA1676FB",
+      "timestamp": 1421719200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "054D4A6F9E91AD0DE8DC9B0CBA1676FB",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2014年12月份社会消费品零售总额增长11.9%",
+        "title": "2014年12月份<em>社会消费品零售总额</em>增长11.9%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898679.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "商品和服务包括实物商品、虚拟商品和服务类商品。网上<em>零售</em>额与<em>社会消费品零售总额</em>两个指标的口径和标准有很大区别，网上<em>零售</em>额包括的虚拟商品和服务类商品，以及少部分用于生产经营用或被转卖的商品不统计在<em>社会消费品零售总额</em>中，两者不是完全的包含与被包含关系。 商品和服务包括实物商品、虚拟商品和服务类商品。网上<em>零售</em>额与<em>社会消费品零售总额</em>两个指标的口径和标准有很大区别，网上<em>零售</em>额包括的虚拟商品和服务类商品，以及少部分用于生产经营用或被转卖的商品不统计在<em>社会消费品零售总额</em>中，两者不是完全的包含与被包含关系。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "商品和服务包括实物商品、虚拟商品和服务类商品。网上<em>零售</em>额与<em>社会消费品零售总额</em>两个指标的口径和标准有很大区别，网上<em>零售</em>额包括的虚拟商品和服务类商品，以及少部分用于生产经营用或被转卖的商品不统计在<em>社会消费品零售总额</em>中，两者不是完全的包含与被包含关系。 商品和服务包括实物商品、虚拟商品和服务类商品。网上<em>零售</em>额与<em>社会消费品零售总额</em>两个指标的口径和标准有很大区别，网上<em>零售</em>额包括的虚拟商品和服务类商品，以及少部分用于生产经营用或被转卖的商品不统计在<em>社会消费品零售总额</em>中，两者不是完全的包含与被包含关系。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1421719200000,
+        "docDate": "2015-01-20",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/9CA931E56CFE6630ABE79E9EA2A21D4B.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_39.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "9A5DE7C9F0F0B05AE436865420D9CF19",
+        "md5Url": "054D4A6F9E91AD0DE8DC9B0CBA1676FB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "商品和服务包括实物商品、虚拟商品和服务类商品。网上<em>零售</em>额与<em>社会消费品零售总额</em>两个指标的口径和标准有很大区别，网上<em>零售</em>额包括的虚拟商品和服务类商品，以及少部分用于生产经营用或被转卖的商品不统计在<em>社会消费品零售总额</em>中，两者不是完全的包含与被包含关系。 商品和服务包括实物商品、虚拟商品和服务类商品。网上<em>零售</em>额与<em>社会消费品零售总额</em>两个指标的口径和标准有很大区别，网上<em>零售</em>额包括的虚拟商品和服务类商品，以及少部分用于生产经营用或被转卖的商品不统计在<em>社会消费品零售总额</em>中，两者不是完全的包含与被包含关系。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898679.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2014年12月份社会消费品零售总额增长11.9%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/9CA931E56CFE6630ABE79E9EA2A21D4B.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_39.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1421719200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "054D4A6F9E91AD0DE8DC9B0CBA1676FB",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2014年12月份社会消费品零售总额增长11 9",
+          "MD5TITLE": "9A5DE7C9F0F0B05AE436865420D9CF19",
+          "QUICKDESCRIPTION": "2014年12月份社会消费品零售总额增长11.9% 2015/01/20 10:00 | Aa 字体： 小 中 大 | 　　2014年12月份，社会消费品零售总额25801亿元，同比名义增长11.9%（扣除价格因素实际增长11.5%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额14274亿元，增长9.4%。2014年全年，社会消费品零售总额262394亿元，同比名义增长12.0%，实际增长10.9%。其中，限额以上单位消费品零售额133179亿元，增长9.3%。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6DA24CB4DD1D2D28A2F7047411C6620B",
+      "timestamp": 1420424651000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6DA24CB4DD1D2D28A2F7047411C6620B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据可视化#【社会消费品零售总额数据可视化图表】全国2014年1-11月，社会消费品零售总额同比和环比增长怎么样？数值在不同行业中表现如何？答案都在交互式图表中 ，动动手指，数据也鲜活，快同小编一起感受更加生动的数据吧 O网页链接",
+        "title": "#数据可视化#【<em>社会消费品零售总额</em>数据可视化图表】全国2014年1-11月，<em>社会消费品零售总额</em>同比和环比增长怎么样？数值在不同行业中表现如何？答案都在交互式图表中 ，动动手指，数据也鲜活，快同小编一起感受更加生动的数据吧 O网页链接",
+        "url": "https://weibo.com/3919628624/BE6X2qESM?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据可视化 【<em>社会消费品零售总额</em>数据可视化图表】全国2014年1-11月，<em>社会消费品零售总额</em>同比和环比增长怎么样 数值在不同行业中表现如何 答案都在交互式图表中 ，动动手指，数据也鲜活，快同小编一起感受更加生动的数据吧 O网页链接 数据可视化 【<em>社会消费品零售总额</em>数据可视化图表】全国2014年1-11月，<em>社会消费品零售总额</em>同比和环比增长怎么样 数值在不同行业中表现如何 答案都在交互式图表中 ，动动手指，数据也鲜活，快同小编一起感受更加生动的数据吧 O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1420424651000,
+        "docDate": "2015-01-05",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "33B025511366B7B3DBC0678B7635E043",
+        "md5Url": "9F74022885BDAF3220B67218E116BD62",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据可视化 【<em>社会消费品零售总额</em>数据可视化图表】全国2014年1-11月，<em>社会消费品零售总额</em>同比和环比增长怎么样 数值在不同行业中表现如何 答案都在交互式图表中 ，动动手指，数据也鲜活，快同小编一起感受更加生动的数据吧 O网页链接 数据可视化 【<em>社会消费品零售总额</em>数据可视化图表】全国2014年1-11月，<em>社会消费品零售总额</em>同比和环比增长怎么样 数值在不同行业中表现如何 答案都在交互式图表中 ，动动手指，数据也鲜活，快同小编一起感受更加生动的数据吧 O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1420424651,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "9F74022885BDAF3220B67218E116BD62",
+          "DRETITLE": "数据可视化 社会消费品零售总额数据可视化图表 全国2014年1-11月 社会消费品零售总额同比和环比增长怎么样 数值在不同行业中表现如何 答案都在交互式图表中 ",
+          "URL": "https://weibo.com/3919628624/BE6X2qESM?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "33B025511366B7B3DBC0678B7635E043",
+          "DRETITLEO": "#数据可视化#【社会消费品零售总额数据可视化图表】全国2014年1-11月，社会消费品零售总额同比和环比增长怎么样？数值在不同行业中表现如何？答案都在交互式图表中 ，动动手指，数据也鲜活，快同小编一起感受更加生动的数据吧 O网页链接",
+          "QUICKDESCRIPTION": "数据可视化 社会消费品零售总额数据可视化图表 全国2014年1-11月 社会消费品零售总额同比和环比增长怎么样 数值在不同行业中表现如何 答案都在交互式图表中 动动手指 数据也鲜活 快同小编一起感受更加生动的数据吧 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 17,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 17,
+          "children": null,
+          "key": "贸易"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 17,
+          "children": null,
+          "key": ""
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

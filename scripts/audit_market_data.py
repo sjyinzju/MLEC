@@ -13,7 +13,7 @@ import duckdb
 import pyarrow.parquet as pq
 
 ROOT = Path(r'E:\QuantData')
-OUT = Path(r'E:\MLEC\audit')
+OUT = Path(__file__).resolve().parents[1]/'audit'
 (OUT / 'datasets').mkdir(exist_ok=True)
 (OUT / 'temp').mkdir(exist_ok=True)
 DEFS = {r[0]: r for r in json.loads((OUT/'catalog_definitions.json').read_text())}
@@ -40,7 +40,7 @@ con.execute("SET TimeZone='UTC'")
 con.execute("SET threads=1")
 con.execute("SET memory_limit='2GB'")
 con.execute("SET preserve_insertion_order=false")
-con.execute("SET temp_directory='E:/MLEC/audit/temp'")
+con.execute("SET temp_directory='"+str(Path(__file__).resolve().parents[1]/"audit"/"temp").replace("'","''")+"'")
 started=dt.datetime.now(dt.timezone.utc).isoformat()
 source_before=(ROOT/'quant.duckdb').stat()
 tables={r[0] for r in con.execute('SHOW TABLES').fetchall()}

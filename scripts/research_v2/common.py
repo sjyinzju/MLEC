@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 import pyarrow
 
-BASE = Path(r'E:\MLEC')
+BASE = Path(__file__).resolve().parents[2]
 SOURCE = Path(r'E:\QuantData')
 CONFIG = BASE/'config/research_v2'
 DATA = BASE/'data/research_v2'
@@ -87,7 +87,7 @@ def log(stage,**kwargs):
     print(stage,json.dumps(kwargs,ensure_ascii=False,default=str),flush=True)
 def db():
     c=duckdb.connect();c.execute('SET threads=1');c.execute("SET memory_limit='1GB'")
-    c.execute("SET temp_directory='E:/MLEC/audit/research_v2/temp'")
+    c.execute('SET temp_directory='+qs(str(AUDIT/'temp')))
     c.execute('SET preserve_insertion_order=false');return c
 def qs(s):return "'"+str(s).replace("'","''")+"'"
 def source(ep):

@@ -1,0 +1,358 @@
+[
+  {
+    "path": "data/research_v2/dimension_labels_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/fold_membership.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/future_outcomes_weekly.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/market_daily_clean.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/market_features_weekly.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/market_features_weekly_with_proxies.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/market_observations_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/prediction_targets_weekly.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/risk_episodes.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sample_to_event.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/exit10/prediction_targets_weekly.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/exit10/risk_episodes.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/exit10/state_labels_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/exit3/prediction_targets_weekly.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/exit3/risk_episodes.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/exit3/state_labels_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/q75/prediction_targets_weekly.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/q75/risk_episodes.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/q75/state_labels_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/q85/prediction_targets_weekly.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/q85/risk_episodes.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/q85/state_labels_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/terminal_drawdown/prediction_targets_weekly.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/terminal_drawdown/risk_episodes.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/sensitivity/terminal_drawdown/state_labels_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/state_labels_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_market_proxies_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2015.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2016.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2017.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2018.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2019.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2020.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2021.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2022.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2023.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2024.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2025.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "data/research_v2/stock_proxy_inputs/2026.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/dimension_label_specs.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/feature_specs.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/feature_whitelist.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/label_specs.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/paired_prediction_schema.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/protocol_hash.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/proxy_thresholds.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/research_config.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/sensitivity/exit10.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/sensitivity/exit3.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/sensitivity/h40.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/sensitivity/h5.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/sensitivity/q75.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/sensitivity/q85.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/sensitivity/terminal_drawdown.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/thresholds.json",
+    "unchanged": true
+  },
+  {
+    "path": "config/research_v2/time_splits.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/available_code_mapping.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/boundary_purged.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/checkpoint_core.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/checkpoint_extensions.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/delivery_artifact_manifest.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/dependency_checks.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/dimension_availability.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/environment.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/field_dictionary.csv",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/fold_manifest.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/independent_stock_boundary_checks.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/logs/pipeline.jsonl",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/logs/unit_tests.log",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/output_coverage.csv",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/output_hashes.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/queries.jsonl",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/reference_development_statistics.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/research_manifest.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/return_consistency.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/sample_count_chain.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/sample_exclusions.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/sensitivity_reference_development.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/source_manifest.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/source_version.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/sse_calendar.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/stock_certification_daily.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/stock_code_listing_issues.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/stock_exclusions.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/stock_master_scope.parquet",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/stock_scope_certification.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/temporary_files.json",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/unit_tests.xml",
+    "unchanged": true
+  },
+  {
+    "path": "audit/research_v2/validation_checks.json",
+    "unchanged": true
+  }
+]

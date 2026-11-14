@@ -1,0 +1,34 @@
+{
+  "run_id": "dev-e47c442b6de1233e",
+  "documents": {
+    "reports/data_quality/macro_reconciliation.md": "834d6ca4d9558dbd398db59f37f04a5a52ca73998a8057eb61d2b82f7fa5ad4f",
+    "reports/data_quality/macro_coverage.md": "08f4203d59a9f5048fd49a7181fca4be66c09aa3ecf72f41cfdc2401ca633371",
+    "reports/data_quality/macro_pit_validation.md": "7dd6edf6c55e50d2b0f8c06c132d22ee2873ed3fa27012e82a9da582a51b2f6c",
+    "reports/data_quality/joint_dataset_quality.md": "5d9b22a53f63522c48cee028db31879e21f71807178a1bf6b489dbd619682d2d",
+    "reports/benchmark/benchmark_protocol.md": "66a573f23b62145852c1381fd896047f360bcbb80e6d0f3d272ca6166905c7fe",
+    "reports/benchmark/development_results.md": "b65553733e3bbb993b1bcfff7b49dfb74f0a980f183cafc0a39ebd16430a8b24",
+    "reports/benchmark/probability_evaluation.md": "4ff6d75a1cc5b2206aa36d2f801b059439699a0d6504a0cfcbd0e70902e85345",
+    "reports/benchmark/event_warning_evaluation.md": "da3a9bb8fbf45e5dae7b4be59e6116259d6b67a5498e4b130980c46cb2a35b3a",
+    "docs/data_dictionary.md": "b8192baa931c6002835987238ba0e73142eb58670cf76e61b157367443357fcf",
+    "docs/feature_set_registry.md": "e7b2ba4ec7450acf9e50513daf83795bb84f8ae43e30e1acee72a46315279e46",
+    "docs/experiment_framework.md": "9e456549fe1e2339cda09e438cda756f7bd3325808f6f47ff3b27f2d32237c68",
+    "docs/reproducibility.md": "7c9c7610bce4ecb492b81cd329b6b73d81129d8268ba79511f3fc9afacad1e58",
+    "docs/research_limitations.md": "6337e1e1726620ec9e9d0ad14b09fd70bba60ba35cebcec229df242e22334283"
+  },
+  "model_data_artifacts": {
+    "data\\datasets\\common_core_v1\\common_samples.parquet": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
+    "data\\datasets\\common_credit_v1\\common_samples.parquet": "c46dcd2a37c0fc7235a66d84cc448e4485a6e9d282d825cb79ea878fba7f75f9",
+    "data\\datasets\\common_external_v1\\common_samples.parquet": "18f7ea05aa59069b524420a6b6bdf40f47df2adf33f74c21e94f368b30e3067c",
+    "data\\datasets\\common_full_eligible_v1\\common_samples.parquet": "1a1a0c8a4e71bb582f0dd99c8ff7b8c479373ead3fc2d15107103866e92c8568",
+    "data\\datasets\\common_growth_v1\\common_samples.parquet": "31adeea66cb1cb2149ba3f6fbaa9415bbd1f0d48b303686e71644f7effe7369a",
+    "data\\datasets\\common_prices_v1\\common_samples.parquet": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
+    "data\\datasets\\common_rates_fx_v1\\common_samples.parquet": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
+    "data\\datasets\\main_v1\\common_samples.parquet": "463578b1f3c4bdcb4d3fa16ec44fe40b19ba2fed2d4829d6f1bf6441707a59f8",
+    "data\\datasets\\main_v1\\labels.parquet": "eb27fadd3d3b39672bfcb2a07351a12bb4b0d93842af7c16b60936f4b87ce74f",
+    "data\\datasets\\main_v1\\macro_features.parquet": "638c05f92132bc5f1698082152e0041a772d085d37ccb504cfd1aabac0e86304",
+    "data\\datasets\\main_v1\\market_features.parquet": "5d9c9a1d9eca23043b7c4ce55e4af7ae69eb2c14137919fe0ec4d7d7047e0f6f",
+    "data\\datasets\\main_v1\\sample_manifest.parquet": "463578b1f3c4bdcb4d3fa16ec44fe40b19ba2fed2d4829d6f1bf6441707a59f8",
+    "data\\features\\macro_availability.parquet": "1514fd9397147e08d50d5f30ad306759614c6e5fce06cb5dd1c30b06ccf6057d",
+    "data\\standardized\\macro\\macro_facts.parquet": "29962c24297c0897711b368cfa0a55c50e1d1bb510426546c96c3f502c1ad6d7"
+  }
+}

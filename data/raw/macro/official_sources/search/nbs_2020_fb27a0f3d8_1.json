@@ -1,0 +1,2061 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 71,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "居民消费价格",
+    "originQt": "居民消费价格",
+    "showQt": "居民消费价格",
+    "encodeQt": "%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "居民消费价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "居民": "NN"
+      },
+      {
+        "消费": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "居民消费价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "居民消费价格",
+      "居民",
+      "消费",
+      "价格"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 12.348472,
+        "id": "600d4753-4a79-4ba8-824e-0b300d4015ee",
+        "name": "各种价格指数",
+        "showTitle": "",
+        "url": "https://file.so-gov.cn/wedatas/pro/custom/906fb12c3e74bdd5225a8b50343f17bc/",
+        "iframeHeight": 422,
+        "sourceUrl": "",
+        "source": "<div class=\"laiyuan\" style=\"font-size: 16px;text-align: right;\">来源：   <a href=\"https://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0901&sj=2022\" target=\"_blank\">国家数据</a></div>",
+        "h5": 0,
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A9FAE364DFC11CE81FA272F2366EF411",
+      "timestamp": 1608107940000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A9FAE364DFC11CE81FA272F2366EF411",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 11月份居民消费价格同比下降0.5% 食品价格下降是居民消费价格下降主因",
+        "title": "《新闻直播间》国家统计局 11月份<em>居民消费价格</em>同比下降0.5% 食品<em>价格</em>下降是<em>居民消费价格</em>下降主因",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914204.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 11月份<em>居民消费价格</em>同比下降0.5% 食品<em>价格</em>下降是<em>居民消费价格</em>下降主因...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1608107940000,
+        "docDate": "2020-12-16",
+        "includeImg": true,
+        "picUrl": "img?reference=A9FAE364DFC11CE81FA272F2366EF411&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_65.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "8204E841A9E55AE26C9D603F160A7E94",
+        "md5Url": "A9FAE364DFC11CE81FA272F2366EF411",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 11月份<em>居民消费价格</em>同比下降0.5% 食品<em>价格</em>下降是<em>居民消费价格</em>下降主因...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914204.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局 11月份居民消费价格同比下降0.5% 食品价格下降是居民消费价格下降主因",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_65.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1608107940,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A9FAE364DFC11CE81FA272F2366EF411",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 11月份居民消费价格同比下降0 5 食品价格下降是居民消费价格下降主因",
+          "MD5TITLE": "8204E841A9E55AE26C9D603F160A7E94",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局 11月份居民消费价格同比下降0.5% 食品价格下降是居民消费价格下降主因",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0F5F4DE83EF69BF34A5C605C4EDE62E4",
+      "timestamp": 1607483340000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0F5F4DE83EF69BF34A5C605C4EDE62E4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2020年11月份居民消费价格同比下降0.5%",
+        "title": "【数据发布】2020年11月份<em>居民消费价格</em>同比下降0.5%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651355348&idx=1&sn=f1b807fffb6a6dd4b5b8b2020c88fac8&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比下降0.7%，影响CPI（<em>居民消费价格</em>指数）下降约0.24个百分点。 其中，城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降2.0%，非食品<em>价格</em>下降0.1%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.3%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1607483340000,
+        "docDate": "2020-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "4D3550ED9E630E0C6612EF75F7C13499",
+        "md5Url": "B964BACD3071B3D914AA898F10431FD6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比下降0.7%，影响CPI（<em>居民消费价格</em>指数）下降约0.24个百分点。 其中，城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降2.0%，非食品<em>价格</em>下降0.1%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1607483340,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "B964BACD3071B3D914AA898F10431FD6",
+          "DRETITLE": "数据发布 2020年11月份居民消费价格同比下降0 5",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651355348&idx=1&sn=f1b807fffb6a6dd4b5b8b2020c88fac8&scene=0",
+          "MD5TITLE": "4D3550ED9E630E0C6612EF75F7C13499",
+          "DRETITLEO": "【数据发布】2020年11月份居民消费价格同比下降0.5%",
+          "QUICKDESCRIPTION": "2020年11月份 全国居民消费价格同比下降0 5  其中 城市下降0 4  农村下降0 8  食品价格下降2 0  非食品价格下降0 1  消费品价格下降1 0  服务价格上涨0 3  扣除食品和能源价格的核心CPI同比上涨0 5  1-",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C051BE0623544A2AB3A8040484C19A91",
+      "timestamp": 1607478405000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C051BE0623544A2AB3A8040484C19A91",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2020年11月份CPI同比下降 PPI同比降幅收窄】国家统计局今天发布了2020年11月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司高级统计师董莉娟进行了解读。 详见：O网",
+        "title": "#权威解读# 【2020年11月份CPI同比下降 PPI同比降幅收窄】国家统计局今天发布了2020年11月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。对此，国家统计局城市司高级统计师董莉娟进行了解读。 详见：O网",
+        "url": "https://weibo.com/3919628624/JxDijk4XS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2020年11月份CPI同比下降 PPI同比降幅收窄】国家统计局今天发布了2020年11月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1607478405000,
+        "docDate": "2020-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "0060D21368B3B7E5C1CDA170399A1A86",
+        "md5Url": "85F68AC30E3FE3ED42B26E0D5D344494",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2020年11月份CPI同比下降 PPI同比降幅收窄】国家统计局今天发布了2020年11月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1607478405,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "85F68AC30E3FE3ED42B26E0D5D344494",
+          "DRETITLE": "权威解读 2020年11月份CPI同比下降 PPI同比降幅收窄 国家统计局今天发布了2020年11月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格",
+          "URL": "https://weibo.com/3919628624/JxDijk4XS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "0060D21368B3B7E5C1CDA170399A1A86",
+          "DRETITLEO": "#权威解读# 【2020年11月份CPI同比下降 PPI同比降幅收窄】国家统计局今天发布了2020年11月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司高级统计师董莉娟进行了解读。 详见：O网",
+          "QUICKDESCRIPTION": "权威解读 2020年11月份CPI同比下降 PPI同比降幅收窄 国家统计局今天发布了2020年11月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司高级统计师董莉娟进行了解读 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D6DE5102A88995C1579BF035CFC09B48",
+      "timestamp": 1607478120000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D6DE5102A88995C1579BF035CFC09B48",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2020年11月份居民消费价格同比下降0.5%】 2020年11月份，全国居民消费价格同比下降0.5%。其中，城市下降0.4%，农村下降0.8%；食品价格下降2.0%，非食品价格下降0.1%；消费品价格下降1.0%，服务价格",
+        "title": "#数据发布# 【2020年11月份<em>居民消费价格</em>同比下降0.5%】 2020年11月份，全国<em>居民消费价格</em>同比下降0.5%。其中，城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降2.0%，非食品<em>价格</em>下降0.1%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>",
+        "url": "https://weibo.com/3919628624/JxDgnDwuC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降2.0%，非食品<em>价格</em>下降0.1%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.3%。 数据发布 【2020年11月份<em>居民消费价格</em>同比下降0.5%】 2020年11月份，全国<em>居民消费价格</em>同比下降0.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1607478120000,
+        "docDate": "2020-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "39BCF15723D19542F5716D385690CDC4",
+        "md5Url": "0F95E73A833CFD140CA55DA64B1DFE19",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降2.0%，非食品<em>价格</em>下降0.1%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.3%。 数据发布 【2020年11月份<em>居民消费价格</em>同比下降0.5%】 2020年11月份，全国<em>居民消费价格</em>同比下降0.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1607478120,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "0F95E73A833CFD140CA55DA64B1DFE19",
+          "DRETITLE": "数据发布 2020年11月份居民消费价格同比下降0 5 2020年11月份 全国居民消费价格同比下降0 5 其中 城市下降0 4 农村下降0 8 食品价格下降2",
+          "URL": "https://weibo.com/3919628624/JxDgnDwuC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "39BCF15723D19542F5716D385690CDC4",
+          "DRETITLEO": "#数据发布# 【2020年11月份居民消费价格同比下降0.5%】 2020年11月份，全国居民消费价格同比下降0.5%。其中，城市下降0.4%，农村下降0.8%；食品价格下降2.0%，非食品价格下降0.1%；消费品价格下降1.0%，服务价格",
+          "QUICKDESCRIPTION": "数据发布 2020年11月份居民消费价格同比下降0 5 2020年11月份 全国居民消费价格同比下降0 5 其中 城市下降0 4 农村下降0 8 食品价格下降2 0 非食品价格下降0 1 消费品价格下降1 0 服务价格上涨0 3 扣除食品和能源价格的核心CPI同比上涨0 5 1 11月 全国居民消费价格比去年同 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D2A29007561FCE3ED67DF15A3DC7FF0A",
+      "timestamp": 1607477400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D2A29007561FCE3ED67DF15A3DC7FF0A",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2020年11月份居民消费价格同比下降0.5%",
+        "title": "2020年11月份<em>居民消费价格</em>同比下降0.5%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900924.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1607477400000,
+        "docDate": "2020-12-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/B8F67ED37638F0C7BF79FCFE64F97440.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_14.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "94732FBD0FFDEAE74F34108E8836B05C",
+        "md5Url": "D2A29007561FCE3ED67DF15A3DC7FF0A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900924.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2020年11月份居民消费价格同比下降0.5%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/B8F67ED37638F0C7BF79FCFE64F97440.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_14.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1607477400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D2A29007561FCE3ED67DF15A3DC7FF0A",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2020年11月份居民消费价格同比下降0 5",
+          "MD5TITLE": "94732FBD0FFDEAE74F34108E8836B05C",
+          "QUICKDESCRIPTION": "2020年11月份居民消费价格同比下降0.5% 2020/12/09 09:30 | Aa 字体： 小 中 大 | 　　2020年11月份，全国居民消费价格同比下降0.5%。其中，城市下降0.4%，农村下降0.8%；食品价格下降2.0%，非食品价格下降0.1%；消费品价格下降1.0%，服务价格上涨0.3%。扣除食品和能源价格的核心CPI同比上涨0.5%。1—11月，全国居民消费价格比去年同期上涨2.7%。 　　11月份，全国居民消费价格环比下降0.6%。其中，城市下降0.6%，农村下降0.6%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E72671CAA51849780C9E4B22C61CC9AE",
+      "timestamp": 1604995920000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E72671CAA51849780C9E4B22C61CC9AE",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 10月份居民消费价格同比上涨0.5%",
+        "title": "《新闻直播间》国家统计局 10月份<em>居民消费价格</em>同比上涨0.5%",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914196.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 10月份<em>居民消费价格</em>同比上涨0.5%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1604995920000,
+        "docDate": "2020-11-10",
+        "includeImg": true,
+        "picUrl": "img?reference=E72671CAA51849780C9E4B22C61CC9AE&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_66.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "5A396592978C35A02AF7B3AF9E430170",
+        "md5Url": "E72671CAA51849780C9E4B22C61CC9AE",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 10月份<em>居民消费价格</em>同比上涨0.5%...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914196.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局 10月份居民消费价格同比上涨0.5%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_66.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1604995920,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E72671CAA51849780C9E4B22C61CC9AE",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 10月份居民消费价格同比上涨0 5",
+          "MD5TITLE": "5A396592978C35A02AF7B3AF9E430170",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局 10月份居民消费价格同比上涨0.5%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5461588AF6788B72A9CDE397554BA4EE",
+      "timestamp": 1604976660000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5461588AF6788B72A9CDE397554BA4EE",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2020年10月份居民消费价格同比上涨0.5%",
+        "title": "【数据发布】2020年10月份<em>居民消费价格</em>同比上涨0.5%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651347360&idx=1&sn=735390b6cefafd522645fd1b6c5cfb44&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.3%。 其中，城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.3%。1—10月，全国<em>居民消费价格</em>比去年同期上涨3.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1604976660000,
+        "docDate": "2020-11-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "F041E4D005E12EE95864E2ADCF62D66E",
+        "md5Url": "8893673E3209D2D251BDDC4932EBB851",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.3%。 其中，城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.3%。1—10月，全国<em>居民消费价格</em>比去年同期上涨3.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1604976660,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "8893673E3209D2D251BDDC4932EBB851",
+          "DRETITLE": "数据发布 2020年10月份居民消费价格同比上涨0 5",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651347360&idx=1&sn=735390b6cefafd522645fd1b6c5cfb44&scene=0",
+          "MD5TITLE": "F041E4D005E12EE95864E2ADCF62D66E",
+          "DRETITLEO": "【数据发布】2020年10月份居民消费价格同比上涨0.5%",
+          "QUICKDESCRIPTION": "2020年10月份 全国居民消费价格同比上涨0 5  其中 城市上涨0 5  农村上涨0 4  食品价格上涨2 2  非食品价格持平 消费品价格上涨0 6  服务价格上涨0 3  1 10月 全国居民消费价格比去年同期上涨3 0   10月份 全国居民消费价格环比下降0 3  其中 城市下降0 3  农村下降0 5  食品价格下降1 8  非食品价格上涨0 1  消费品价格下降0 6  服务价格上涨0 1   一 各类商品及服务价格同比变动情况 10月份 食品烟酒类价格同比上涨2 4  影响CP",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A6D4225598242AC636649B3A2B2EB10C",
+      "timestamp": 1604975375000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A6D4225598242AC636649B3A2B2EB10C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2020年10月份居民消费价格同比上涨0.5%】 2020年10月份，全国居民消费价格同比上涨0.5%。其中，城市上涨0.5%，农村上涨0.4%；食品价格上涨2.2%，非食品价格持平；消费品价格上涨0.6%，服务价格上涨0.",
+        "title": "#数据发布# 【2020年10月份<em>居民消费价格</em>同比上涨0.5%】 2020年10月份，全国<em>居民消费价格</em>同比上涨0.5%。其中，城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.",
+        "url": "https://weibo.com/3919628624/JtebirzsU?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.3%。 其中，城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.3%。1—10月，全国<em>居民消费价格</em>比去年同期上涨3.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1604975375000,
+        "docDate": "2020-11-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "3015EE1C4BEDBC98DF9FA6548F54CD5B",
+        "md5Url": "695E8D60A7D686A8E3AD30B70B18D547",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.3%。 其中，城市上涨0.5%，农村上涨0.4%；食品<em>价格</em>上涨2.2%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.3%。1—10月，全国<em>居民消费价格</em>比去年同期上涨3.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1604975375,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "695E8D60A7D686A8E3AD30B70B18D547",
+          "DRETITLE": "数据发布 2020年10月份居民消费价格同比上涨0 5 2020年10月份 全国居民消费价格同比上涨0 5 其中 城市上涨0 5 农村上涨0 4 食品价格上涨2",
+          "URL": "https://weibo.com/3919628624/JtebirzsU?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "3015EE1C4BEDBC98DF9FA6548F54CD5B",
+          "DRETITLEO": "#数据发布# 【2020年10月份居民消费价格同比上涨0.5%】 2020年10月份，全国居民消费价格同比上涨0.5%。其中，城市上涨0.5%，农村上涨0.4%；食品价格上涨2.2%，非食品价格持平；消费品价格上涨0.6%，服务价格上涨0.",
+          "QUICKDESCRIPTION": "数据发布 2020年10月份居民消费价格同比上涨0 5 2020年10月份 全国居民消费价格同比上涨0 5 其中 城市上涨0 5 农村上涨0 4 食品价格上涨2 2 非食品价格持平 消费品价格上涨0 6 服务价格上涨0 3 1 10月 全国居民消费价格比去年同期上涨3 0 10月份 全国居民消费价格环比下降 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5A58D411FE85B871E382CFA67BD8C0E4",
+      "timestamp": 1604971800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5A58D411FE85B871E382CFA67BD8C0E4",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2020年10月份居民消费价格同比上涨0.5%",
+        "title": "2020年10月份<em>居民消费价格</em>同比上涨0.5%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900902.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1604971800000,
+        "docDate": "2020-11-10",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/3784C8E16BE075B13DE12B86992C32CE.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_15.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "452D91553E1A0F94E5C82B749B50BE3D",
+        "md5Url": "5A58D411FE85B871E382CFA67BD8C0E4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900902.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2020年10月份居民消费价格同比上涨0.5%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/3784C8E16BE075B13DE12B86992C32CE.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_15.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1604971800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "5A58D411FE85B871E382CFA67BD8C0E4",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2020年10月份居民消费价格同比上涨0 5",
+          "MD5TITLE": "452D91553E1A0F94E5C82B749B50BE3D",
+          "QUICKDESCRIPTION": "2020年10月份居民消费价格同比上涨0.5% 2020/11/10 09:30 | Aa 字体： 小 中 大 | 　　2020年10月份，全国居民消费价格同比上涨0.5%。其中，城市上涨0.5%，农村上涨0.4%；食品价格上涨2.2%，非食品价格持平；消费品价格上涨0.6%，服务价格上涨0.3%。1—10月，全国居民消费价格比去年同期上涨3.0%。 　　10月份，全国居民消费价格环比下降0.3%。其中，城市下降0.3%，农村下降0.5%；食品价格下降1.8%，非食品价格上涨0.1%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0ABA1134BEC75F117DBEA58C9071F825",
+      "timestamp": 1603161540000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0ABA1134BEC75F117DBEA58C9071F825",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "方晓丹：居民收入实际增速由负转正 居民消费支出稳定恢复",
+        "title": "方晓丹：<em>居民</em>收入实际增速由负转正 <em>居民</em><em>消费</em>支出稳定恢复",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896411.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "主要是全国夏粮产量再创新高，玉米、蔬菜<em>价格</em>同比上涨，人均农业经营净收入增速由降转增；生猪、牛羊等畜产品<em>价格</em>持续高位运行，人均牧业经营净收入快速增长。 五、<em>居民</em><em>消费</em>支出稳定恢复，农村<em>居民</em><em>消费</em>支出名义增速由降转增 随着新冠肺炎疫情得到有效控制，经济社会秩序加快恢复，<em>居民</em><em>消费</em>增速有所回升。 五、<em>居民</em><em>消费</em>支出稳定恢复，农村<em>居民</em><em>消费</em>支出名义增速由降转增 随着新冠肺炎疫情得到有效控制，经济社会秩序加快恢复，<em>居民</em><em>消费</em>增速有所回升。前三季度，全国<em>居民</em>人均<em>消费</em>支出14923元，比上年同期名义下降3.5%，扣除<em>价格</em>因素，实际下降6.6%，名义降幅和实际降幅分别比上半年收窄2.4和2.7个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1603161540000,
+        "docDate": "2020-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_55.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "458A5E5F990084CC346E83A7FDDB8AE2",
+        "md5Url": "0ABA1134BEC75F117DBEA58C9071F825",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "主要是全国夏粮产量再创新高，玉米、蔬菜<em>价格</em>同比上涨，人均农业经营净收入增速由降转增；生猪、牛羊等畜产品<em>价格</em>持续高位运行，人均牧业经营净收入快速增长。 五、<em>居民</em><em>消费</em>支出稳定恢复，农村<em>居民</em><em>消费</em>支出名义增速由降转增 随着新冠肺炎疫情得到有效控制，经济社会秩序加快恢复，<em>居民</em><em>消费</em>增速有所回升。 五、<em>居民</em><em>消费</em>支出稳定恢复，农村<em>居民</em><em>消费</em>支出名义增速由降转增 随着新冠肺炎疫情得到有效控制，经济社会秩序加快恢复，<em>居民</em><em>消费</em>增速有所回升。前三季度，全国<em>居民</em>人均<em>消费</em>支出14923元，比上年同期名义下降3.5%，扣除<em>价格</em>因素，实际下降6.6%，名义降幅和实际降幅分别比上半年收窄2.4和2.7个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896411.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "方晓丹：居民收入实际增速由负转正 居民消费支出稳定恢复",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_55.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1603161540,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "0ABA1134BEC75F117DBEA58C9071F825",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "方晓丹 居民收入实际增速由负转正 居民消费支出稳定恢复",
+          "MD5TITLE": "458A5E5F990084CC346E83A7FDDB8AE2",
+          "QUICKDESCRIPTION": "　　前三季度，各地区各部门扎实做好“六稳”工作、全面落实“六保”任务，统筹推进疫情防控和经济社会发展工作，经济社会加快恢复，民生得到有效保障。居民收入名义增速稳定回升，实际增速由负转正；居民消费支出逐步恢复。 　　一、居民收入实际增速由负转正，农村居民收入增长快于城镇居民 　　前三季度，全国居民人均可支配收入23781元，比上年同期名义增长3.9%，名义增速比上半年回升1.5个百分点；扣除价格因素的实际增速年内首次转正，实际增速由上半年的下降1.3%转为增长0.6%。 　　分城乡看，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "99477D7A2920140C845378A8E47A7FDA",
+      "timestamp": 1603073550000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "99477D7A2920140C845378A8E47A7FDA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2020年前三季度居民收入和消费支出情况】 前三季度，全国居民人均可支配收入23781元，比上年同期名义增长3.9%，扣除价格因素，实际增长0.6%。其中，城镇居民人均可支配收入32821元，增长（以下如无特别说明，均为",
+        "title": "#发布会微直播# 【2020年前三季度<em>居民</em>收入和<em>消费</em>支出情况】 前三季度，全国<em>居民</em>人均可支配收入23781元，比上年同期名义增长3.9%，扣除<em>价格</em>因素，实际增长0.6%。其中，城镇<em>居民</em>人均可支配收入32821元，增长（以下如无特别说明，均为",
+        "url": "https://weibo.com/3919628624/JpSFrlBGq?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2020年前三季度<em>居民</em>收入和<em>消费</em>支出情况】 前三季度，全国<em>居民</em>人均可支配收入23781元，比上年同期名义增长3.9%，扣除<em>价格</em>因素，实际增长0.6%。 发布会微直播 【2020年前三季度<em>居民</em>收入和<em>消费</em>支出情况】 前三季度，全国<em>居民</em>人均可支配收入23781元，比上年同期名义增长3.9%，扣除<em>价格</em>因素，实际增长0.6%。其中，城镇<em>居民</em>人均可支配收入32821元，增长（以下如无特别说明，均为同比名义增速）2.8%，扣除<em>价格</em>因素，实际下降0.3%；农村<em>居民</em>人均 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1603073550000,
+        "docDate": "2020-10-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "13E69749D2C5A3BA8320E0D352475661",
+        "md5Url": "E67C09C174B5BD064EBF67589C02AE85",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2020年前三季度<em>居民</em>收入和<em>消费</em>支出情况】 前三季度，全国<em>居民</em>人均可支配收入23781元，比上年同期名义增长3.9%，扣除<em>价格</em>因素，实际增长0.6%。 发布会微直播 【2020年前三季度<em>居民</em>收入和<em>消费</em>支出情况】 前三季度，全国<em>居民</em>人均可支配收入23781元，比上年同期名义增长3.9%，扣除<em>价格</em>因素，实际增长0.6%。其中，城镇<em>居民</em>人均可支配收入32821元，增长（以下如无特别说明，均为同比名义增速）2.8%，扣除<em>价格</em>因素，实际下降0.3%；农村<em>居民</em>人均 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1603073550,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E67C09C174B5BD064EBF67589C02AE85",
+          "DRETITLE": "发布会微直播 2020年前三季度居民收入和消费支出情况 前三季度 全国居民人均可支配收入23781元 比上年同期名义增长3 9 扣除价格因素 实际增长0 6 其",
+          "URL": "https://weibo.com/3919628624/JpSFrlBGq?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "13E69749D2C5A3BA8320E0D352475661",
+          "DRETITLEO": "#发布会微直播# 【2020年前三季度居民收入和消费支出情况】 前三季度，全国居民人均可支配收入23781元，比上年同期名义增长3.9%，扣除价格因素，实际增长0.6%。其中，城镇居民人均可支配收入32821元，增长（以下如无特别说明，均为",
+          "QUICKDESCRIPTION": "发布会微直播 2020年前三季度居民收入和消费支出情况 前三季度 全国居民人均可支配收入23781元 比上年同期名义增长3 9 扣除价格因素 实际增长0 6 其中 城镇居民人均可支配收入32821元 增长 以下如无特别说明 均为同比名义增速 2 8 扣除价格因素 实际下降0 3 农村居民人均 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FFB7CB052E24F6CA841F5D98BCFE3F7C",
+      "timestamp": 1603073381000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FFB7CB052E24F6CA841F5D98BCFE3F7C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2020年9月份社会消费品零售总额增长3.3%】 9月份，社会消费品零售总额35295亿元，同比增长3.3%（扣除价格因素实际增长2.4%，以下均为名义增长）。其中，除汽车以外的消费品零售额31428亿元，增长2.4%。",
+        "title": "#发布会微直播# 【2020年9月份社会<em>消费</em>品零售总额增长3.3%】 9月份，社会<em>消费</em>品零售总额35295亿元，同比增长3.3%（扣除<em>价格</em>因素实际增长2.4%，以下均为名义增长）。其中，除汽车以外的<em>消费</em>品零售额31428亿元，增长2.4%。",
+        "url": "https://weibo.com/3919628624/JpSEiohSm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2020年9月份社会<em>消费</em>品零售总额增长3.3%】 9月份，社会<em>消费</em>品零售总额35295亿元，同比增长3.3%（扣除<em>价格</em>因素实际增长2.4%，以下均为名义增长）。 发布会微直播 【2020年9月份社会<em>消费</em>品零售总额增长3.3%】 9月份，社会<em>消费</em>品零售总额35295亿元，同比增长3.3%（扣除<em>价格</em>因素实际增长2.4%，以下均为名义增长）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1603073381000,
+        "docDate": "2020-10-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2D7B24EA0C39546A4431D690D56890FE",
+        "md5Url": "1D05461904243D52BE8D42C61FDF26CA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2020年9月份社会<em>消费</em>品零售总额增长3.3%】 9月份，社会<em>消费</em>品零售总额35295亿元，同比增长3.3%（扣除<em>价格</em>因素实际增长2.4%，以下均为名义增长）。 发布会微直播 【2020年9月份社会<em>消费</em>品零售总额增长3.3%】 9月份，社会<em>消费</em>品零售总额35295亿元，同比增长3.3%（扣除<em>价格</em>因素实际增长2.4%，以下均为名义增长）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1603073381,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1D05461904243D52BE8D42C61FDF26CA",
+          "DRETITLE": "发布会微直播 2020年9月份社会消费品零售总额增长3 3 9月份 社会消费品零售总额35295亿元 同比增长3 3 扣除价格因素实际增长2 4 以下均为名义增",
+          "URL": "https://weibo.com/3919628624/JpSEiohSm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2D7B24EA0C39546A4431D690D56890FE",
+          "DRETITLEO": "#发布会微直播# 【2020年9月份社会消费品零售总额增长3.3%】 9月份，社会消费品零售总额35295亿元，同比增长3.3%（扣除价格因素实际增长2.4%，以下均为名义增长）。其中，除汽车以外的消费品零售额31428亿元，增长2.4%。",
+          "QUICKDESCRIPTION": "发布会微直播 2020年9月份社会消费品零售总额增长3 3 9月份 社会消费品零售总额35295亿元 同比增长3 3 扣除价格因素实际增长2 4 以下均为名义增长 其中 除汽车以外的消费品零售额31428亿元 增长2 4 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F4DA451FA11E7EC082B19DAE626F9436",
+      "timestamp": 1603072800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F4DA451FA11E7EC082B19DAE626F9436",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2020年前三季度居民收入和消费支出情况",
+        "title": "2020年前三季度<em>居民</em>收入和<em>消费</em>支出情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900876.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "图1 2020年前三季度<em>居民</em>人均可支配收入平均数与中位数 按收入来源分，前三季度，全国<em>居民</em>人均工资性收入13486元，增长3.6%，占可支配收入的比重为56.7%；人均经营净收入3680元，下降2.0%，占可支配收入的比重为15.5%；人均财产净收入2090元，增长7.2%，占可支配收入的比重为8.8%；人均转移净收入4525元，增长8.9%，占可支配收入的比重为19.0%。 二、<em>居民</em><em>消费</em>支出情况 前三季度，全国<em>居民</em>人均<em>消费</em>支出14923元，比上年同期名义下降3.5%，扣除<em>价格</em>因素，实际下降6.6%。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "图1 2020年前三季度<em>居民</em>人均可支配收入平均数与中位数 按收入来源分，前三季度，全国<em>居民</em>人均工资性收入13486元，增长3.6%，占可支配收入的比重为56.7%；人均经营净收入3680元，下降2.0%，占可支配收入的比重为15.5%；人均财产净收入2090元，增长7.2%，占可支配收入的比重为8.8%；人均转移净收入4525元，增长8.9%，占可支配收入的比重为19.0%。 二、<em>居民</em><em>消费</em>支出情况 前三季度，全国<em>居民</em>人均<em>消费</em>支出14923元，比上年同期名义下降3.5%，扣除<em>价格</em>因素，实际下降6.6%。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1603072800000,
+        "docDate": "2020-10-19",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/A0CB87E395182A4150095284C054BF60.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_16.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "EF5EA9B4C75654766D6493F73AE3BA3D",
+        "md5Url": "F4DA451FA11E7EC082B19DAE626F9436",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "图1 2020年前三季度<em>居民</em>人均可支配收入平均数与中位数 按收入来源分，前三季度，全国<em>居民</em>人均工资性收入13486元，增长3.6%，占可支配收入的比重为56.7%；人均经营净收入3680元，下降2.0%，占可支配收入的比重为15.5%；人均财产净收入2090元，增长7.2%，占可支配收入的比重为8.8%；人均转移净收入4525元，增长8.9%，占可支配收入的比重为19.0%。 二、<em>居民</em><em>消费</em>支出情况 前三季度，全国<em>居民</em>人均<em>消费</em>支出14923元，比上年同期名义下降3.5%，扣除<em>价格</em>因素，实际下降6.6%。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900876.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2020年前三季度居民收入和消费支出情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/A0CB87E395182A4150095284C054BF60.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_16.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1603072800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F4DA451FA11E7EC082B19DAE626F9436",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2020年前三季度居民收入和消费支出情况",
+          "MD5TITLE": "EF5EA9B4C75654766D6493F73AE3BA3D",
+          "QUICKDESCRIPTION": "2020年前三季度居民收入和消费支出情况 2020/10/19 10:00 | Aa 字体： 小 中 大 | 　　一、居民收入情况 　　前三季度，全国居民人均可支配收入23781元，比上年同期名义增长3.9%，扣除价格因素，实际增长0.6%。其中，城镇居民人均可支配收入32821元，增长（以下如无特别说明，均为同比名义增速）2.8%，扣除价格因素，实际下降0.3%；农村居民人均可支配收入12297元，增长5.8%，扣除价格因素，实际增长1.6%。 　　前三季度，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "400F3F9442386D24851641AC99418600",
+      "timestamp": 1602729600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "400F3F9442386D24851641AC99418600",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2020年9月份居民消费价格同比上涨1.7%",
+        "title": "【数据发布】2020年9月份<em>居民消费价格</em>同比上涨1.7%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651340084&idx=1&sn=f0844596111970aabc1a6177a576fdbb&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%。 其中，城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%。1—9月，全国<em>居民消费价格</em>比去年同期上涨3.3%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1602729600000,
+        "docDate": "2020-10-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "EF8004AE0E6899B839FAF1F1BB2B5653",
+        "md5Url": "2E3676ACBAAB495C31C407340D7763F6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%。 其中，城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%。1—9月，全国<em>居民消费价格</em>比去年同期上涨3.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1602729600,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "2E3676ACBAAB495C31C407340D7763F6",
+          "DRETITLE": "数据发布 2020年9月份居民消费价格同比上涨1 7",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651340084&idx=1&sn=f0844596111970aabc1a6177a576fdbb&scene=0",
+          "MD5TITLE": "EF8004AE0E6899B839FAF1F1BB2B5653",
+          "DRETITLEO": "【数据发布】2020年9月份居民消费价格同比上涨1.7%",
+          "QUICKDESCRIPTION": "2020年9月份 全国居民消费价格同比上涨1 7  其中 城市上涨1 6  农村上涨2 1  食品价格上涨7 9  非食品价格持平 消费品价格上涨2 6  服务价格上涨0 2  1 9月 全国居民消费价格比去年同期上涨3 3   9月份 全国居民消费价格环比上涨0 2  其中 城市上涨0 2  农村上涨0 2  食品价格上涨0 4  非食品价格上涨0 2  消费品价格上涨0 2  服务价格上涨0 3   一 各类商品及服务价格同比变动情况 9月份 食品烟酒类价格同比上涨6 4  影响CPI 居民",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "879E18EEA36B1351F9F1C006F20B7A02",
+      "timestamp": 1602726311000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "879E18EEA36B1351F9F1C006F20B7A02",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2020年9月份居民消费价格同比上涨1.7%】 2020年9月份，全国居民消费价格同比上涨1.7%。其中，城市上涨1.6%，农村上涨2.1%；食品价格上涨7.9%，非食品价格持平；消费品价格上涨2.6%，服务价格上涨0.2%",
+        "title": "#数据发布# 【2020年9月份<em>居民消费价格</em>同比上涨1.7%】 2020年9月份，全国<em>居民消费价格</em>同比上涨1.7%。其中，城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%",
+        "url": "https://weibo.com/3919628624/JpgMmxdIN?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%。 其中，城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%。1—9月，全国<em>居民消费价格</em>比去年同期上涨3.3%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1602726311000,
+        "docDate": "2020-10-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "07CEA8ED26AF18E73FC0BFCEC94A750C",
+        "md5Url": "E6090FA51BF60F1C2C05198DF93CBF0F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%。 其中，城市上涨1.6%，农村上涨2.1%；食品<em>价格</em>上涨7.9%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>上涨2.6%，服务<em>价格</em>上涨0.2%。1—9月，全国<em>居民消费价格</em>比去年同期上涨3.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1602726311,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E6090FA51BF60F1C2C05198DF93CBF0F",
+          "DRETITLE": "数据发布 2020年9月份居民消费价格同比上涨1 7 2020年9月份 全国居民消费价格同比上涨1 7 其中 城市上涨1 6 农村上涨2 1 食品价格上涨7 9",
+          "URL": "https://weibo.com/3919628624/JpgMmxdIN?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "07CEA8ED26AF18E73FC0BFCEC94A750C",
+          "DRETITLEO": "#数据发布# 【2020年9月份居民消费价格同比上涨1.7%】 2020年9月份，全国居民消费价格同比上涨1.7%。其中，城市上涨1.6%，农村上涨2.1%；食品价格上涨7.9%，非食品价格持平；消费品价格上涨2.6%，服务价格上涨0.2%",
+          "QUICKDESCRIPTION": "数据发布 2020年9月份居民消费价格同比上涨1 7 2020年9月份 全国居民消费价格同比上涨1 7 其中 城市上涨1 6 农村上涨2 1 食品价格上涨7 9 非食品价格持平 消费品价格上涨2 6 服务价格上涨0 2 1 9月 全国居民消费价格比去年同期上涨3 3 9月份 全国居民消费价 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0DA84F85D76C8B12469CEF799A8790FF",
+      "timestamp": 1602725400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0DA84F85D76C8B12469CEF799A8790FF",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2020年9月份居民消费价格同比上涨1.7%",
+        "title": "2020年9月份<em>居民消费价格</em>同比上涨1.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900867.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1602725400000,
+        "docDate": "2020-10-15",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/278068B4F9309941B9737655694B7EAC.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_16.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "E6E1424E779EF590AD4FC743AAC53D60",
+        "md5Url": "0DA84F85D76C8B12469CEF799A8790FF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900867.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2020年9月份居民消费价格同比上涨1.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/278068B4F9309941B9737655694B7EAC.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_16.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1602725400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "0DA84F85D76C8B12469CEF799A8790FF",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2020年9月份居民消费价格同比上涨1 7",
+          "MD5TITLE": "E6E1424E779EF590AD4FC743AAC53D60",
+          "QUICKDESCRIPTION": "2020年9月份居民消费价格同比上涨1.7% 2020/10/15 09:30 | Aa 字体： 小 中 大 | 　　2020年9月份，全国居民消费价格同比上涨1.7%。其中，城市上涨1.6%，农村上涨2.1%；食品价格上涨7.9%，非食品价格持平；消费品价格上涨2.6%，服务价格上涨0.2%。1—9月，全国居民消费价格比去年同期上涨3.3%。 　　9月份，全国居民消费价格环比上涨0.2%。其中，城市上涨0.2%，农村上涨0.2%；食品价格上涨0.4%，非食品价格上涨0.2%；消费品价格上涨0.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EC162768C4AD9F762F4C663B0FC4B2E8",
+      "timestamp": 1600163409000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EC162768C4AD9F762F4C663B0FC4B2E8",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【8月份社会消费品零售总额增速年内首次转正——国家统计局贸易外经司统计师张敏解读8月份社会消费品零售总额数据】 随着我国疫情防控取得重大战略成果，居民生活和市场活力加快恢复，消费潜力持续释放，消费市场不断复苏，社会消费品零售总",
+        "title": "#权威解读# 【8月份社会<em>消费</em>品零售总额增速年内首次转正——国家统计局贸易外经司统计师张敏解读8月份社会<em>消费</em>品零售总额数据】 随着我国疫情防控取得重大战略成果，<em>居民</em>生活和市场活力加快恢复，<em>消费</em>潜力持续释放，<em>消费</em>市场不断复苏，社会<em>消费</em>品零售总",
+        "url": "https://weibo.com/3919628624/JkL8jwKiJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【8月份社会<em>消费</em>品零售总额增速年内首次转正——国家统计局贸易外经司统计师张敏解读8月份社会<em>消费</em>品零售总额数据】 随着我国疫情防控取得重大战略成果，<em>居民</em>生活和市场活力加快恢复，<em>消费</em>潜力持续释放，<em>消费</em>市场不断复苏，社会<em>消费</em>品零售总额增速年内首次转正，商品零售加快增长，餐饮收入 ... 权威解读 【8月份社会<em>消费</em>品零售总额增速年内首次转正——国家统计局贸易外经司统计师张敏解读8月份社会<em>消费</em>品零售总额数据】 随着我国疫情防控取得重大战略成果，<em>居民</em>生活和市场活力加快恢复，<em>消费</em>潜力持续释放，<em>消费</em>市场不断复苏，社会<em>消费</em>品零售总额增速年内首次转正，商品零售加快增长，餐饮收入 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1600163409000,
+        "docDate": "2020-09-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "18DB0444D9FB23E748B74D40D15502C5",
+        "md5Url": "1D7285ABC473541A85BA7686CF8BD9F0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【8月份社会<em>消费</em>品零售总额增速年内首次转正——国家统计局贸易外经司统计师张敏解读8月份社会<em>消费</em>品零售总额数据】 随着我国疫情防控取得重大战略成果，<em>居民</em>生活和市场活力加快恢复，<em>消费</em>潜力持续释放，<em>消费</em>市场不断复苏，社会<em>消费</em>品零售总额增速年内首次转正，商品零售加快增长，餐饮收入 ... 权威解读 【8月份社会<em>消费</em>品零售总额增速年内首次转正——国家统计局贸易外经司统计师张敏解读8月份社会<em>消费</em>品零售总额数据】 随着我国疫情防控取得重大战略成果，<em>居民</em>生活和市场活力加快恢复，<em>消费</em>潜力持续释放，<em>消费</em>市场不断复苏，社会<em>消费</em>品零售总额增速年内首次转正，商品零售加快增长，餐饮收入 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1600163409,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1D7285ABC473541A85BA7686CF8BD9F0",
+          "DRETITLE": "权威解读 8月份社会消费品零售总额增速年内首次转正 国家统计局贸易外经司统计师张敏解读8月份社会消费品零售总额数据 随着我国疫情防控取得重大战略成果 居民生活和",
+          "URL": "https://weibo.com/3919628624/JkL8jwKiJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "18DB0444D9FB23E748B74D40D15502C5",
+          "DRETITLEO": "#权威解读# 【8月份社会消费品零售总额增速年内首次转正——国家统计局贸易外经司统计师张敏解读8月份社会消费品零售总额数据】 随着我国疫情防控取得重大战略成果，居民生活和市场活力加快恢复，消费潜力持续释放，消费市场不断复苏，社会消费品零售总",
+          "QUICKDESCRIPTION": "权威解读 8月份社会消费品零售总额增速年内首次转正 国家统计局贸易外经司统计师张敏解读8月份社会消费品零售总额数据 随着我国疫情防控取得重大战略成果 居民生活和市场活力加快恢复 消费潜力持续释放 消费市场不断复苏 社会消费品零售总额增速年内首次转正 商品零售加快增长 餐饮收入 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "52814B5A92EAD8F78E5D76E6E19075AC",
+      "timestamp": 1600099200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "52814B5A92EAD8F78E5D76E6E19075AC",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "福建省农村居民消费水平水平和城镇居民消费水平。",
+        "title": "福建省农村<em>居民</em><em>消费</em>水平水平和城镇<em>居民</em><em>消费</em>水平。",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953607.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "有关<em>居民</em>收支数据请您查阅我局网站—数据查询（国家数据）—地区数据—分省年度数据—人民生活，可自行设定地区和年份： http //data.stats.gov.cn。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1600099200000,
+        "docDate": "2020-09-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_62.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "5287119306545973CCD0AF05A2C7EFC3",
+        "md5Url": "52814B5A92EAD8F78E5D76E6E19075AC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "有关<em>居民</em>收支数据请您查阅我局网站—数据查询（国家数据）—地区数据—分省年度数据—人民生活，可自行设定地区和年份： http //data.stats.gov.cn。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局统计资料管理中心",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953607.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "福建省农村居民消费水平水平和城镇居民消费水平。",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_62.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1600099200,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "52814B5A92EAD8F78E5D76E6E19075AC",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "福建省农村居民消费水平水平和城镇居民消费水平",
+          "MD5TITLE": "5287119306545973CCD0AF05A2C7EFC3",
+          "QUICKDESCRIPTION": "有关居民收支数据请您查阅我局网站—数据查询（国家数据）—地区数据—分省年度数据—人民生活，可自行设定地区和年份： http://data.stats.gov.cn。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2D341EAEE83A3432BF3FDCFFA854F262",
+      "timestamp": 1599627180000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2D341EAEE83A3432BF3FDCFFA854F262",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2020年8月份居民消费价格同比上涨2.4%",
+        "title": "【数据发布】2020年8月份<em>居民消费价格</em>同比上涨2.4%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651333604&idx=1&sn=dda3c638505eb3c132ad7013a315abb2&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "城市上涨2.1%，农村上涨3.2%；食品<em>价格</em>上涨11.2%，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨3.9%，服务<em>价格</em>下降0.1%。1—8月，全国<em>居民消费价格</em>比去年同期上涨3.5%。 一、各类商品及服务<em>价格</em>同比变动情况 8月份，食品烟酒类<em>价格</em>同比上涨8.8%，影响CPI（<em>居民消费价格</em>指数）上涨约2.71个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1599627180000,
+        "docDate": "2020-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "6A8B92E22DF14136C397E6BD52DFF584",
+        "md5Url": "E646BCE7DCA375FE8A6503F37DE7B760",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨2.1%，农村上涨3.2%；食品<em>价格</em>上涨11.2%，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨3.9%，服务<em>价格</em>下降0.1%。1—8月，全国<em>居民消费价格</em>比去年同期上涨3.5%。 一、各类商品及服务<em>价格</em>同比变动情况 8月份，食品烟酒类<em>价格</em>同比上涨8.8%，影响CPI（<em>居民消费价格</em>指数）上涨约2.71个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1599627180,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "E646BCE7DCA375FE8A6503F37DE7B760",
+          "DRETITLE": "数据发布 2020年8月份居民消费价格同比上涨2 4",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651333604&idx=1&sn=dda3c638505eb3c132ad7013a315abb2&scene=0",
+          "MD5TITLE": "6A8B92E22DF14136C397E6BD52DFF584",
+          "DRETITLEO": "【数据发布】2020年8月份居民消费价格同比上涨2.4%",
+          "QUICKDESCRIPTION": "2020年8月份 全国居民消费价格同比上涨2 4  其中 城市上涨2 1  农村上涨3 2  食品价格上涨11 2  非食品价格上涨0 1  消费品价格上涨3 9  服务价格下降0 1  1 8月 全国居民消费价格比去年同期上涨3 5   8月份 全国居民消费价格环比上涨0 4  其中 城市上涨0 4  农村上涨0 4  食品价格上涨1 4  非食品价格上涨0 1  消费品价格上涨0 6  服务价格持平  一 各类商品及服务价格同比变动情况 8月份 食品烟酒类价格同比上涨8 8  影响CPI 居",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BC96BA9D3FF5DDA6C111CAF3CA54C110",
+      "timestamp": 1599618102000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BC96BA9D3FF5DDA6C111CAF3CA54C110",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2020年8月份居民消费价格同比上涨2.4%】 2020年8月份，全国居民消费价格同比上涨2.4%。其中，城市上涨2.1%，农村上涨3.2%；食品价格上涨11.2%，非食品价格上涨0.1%；消费品价格上涨3.9%，服务价格下",
+        "title": "#数据发布# 【2020年8月份<em>居民消费价格</em>同比上涨2.4%】 2020年8月份，全国<em>居民消费价格</em>同比上涨2.4%。其中，城市上涨2.1%，农村上涨3.2%；食品<em>价格</em>上涨11.2%，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨3.9%，服务<em>价格</em>下",
+        "url": "https://weibo.com/3919628624/JjNDjoi69?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市上涨2.1%，农村上涨3.2%；食品<em>价格</em>上涨11.2%，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨3.9%，服务<em>价格</em>下降0.1%。1—8月，全国<em>居民消费价格</em>比去年同期上涨3.5%。 其中，城市上涨2.1%，农村上涨3.2%；食品<em>价格</em>上涨11.2%，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨3.9%，服务<em>价格</em>下降0.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1599618102000,
+        "docDate": "2020-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "136168AE2F01D00FD273DC545CCA6A6A",
+        "md5Url": "83F340694341A0563B0908360D30BF12",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨2.1%，农村上涨3.2%；食品<em>价格</em>上涨11.2%，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨3.9%，服务<em>价格</em>下降0.1%。1—8月，全国<em>居民消费价格</em>比去年同期上涨3.5%。 其中，城市上涨2.1%，农村上涨3.2%；食品<em>价格</em>上涨11.2%，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨3.9%，服务<em>价格</em>下降0.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1599618102,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "83F340694341A0563B0908360D30BF12",
+          "DRETITLE": "数据发布 2020年8月份居民消费价格同比上涨2 4 2020年8月份 全国居民消费价格同比上涨2 4 其中 城市上涨2 1 农村上涨3 2 食品价格上涨11 ",
+          "URL": "https://weibo.com/3919628624/JjNDjoi69?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "136168AE2F01D00FD273DC545CCA6A6A",
+          "DRETITLEO": "#数据发布# 【2020年8月份居民消费价格同比上涨2.4%】 2020年8月份，全国居民消费价格同比上涨2.4%。其中，城市上涨2.1%，农村上涨3.2%；食品价格上涨11.2%，非食品价格上涨0.1%；消费品价格上涨3.9%，服务价格下",
+          "QUICKDESCRIPTION": "数据发布 2020年8月份居民消费价格同比上涨2 4 2020年8月份 全国居民消费价格同比上涨2 4 其中 城市上涨2 1 农村上涨3 2 食品价格上涨11 2 非食品价格上涨0 1 消费品价格上涨3 9 服务价格下降0 1 1 8月 全国居民消费价格比去年同期上涨3 5 8月份 全国居民消费价格环比上 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 37,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 13,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 26,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 6,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 27,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 13,
+          "children": null,
+          "key": "住户调查"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "农业"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 41,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 7,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

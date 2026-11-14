@@ -1,0 +1,2328 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 42,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "工业生产者出厂价格",
+    "originQt": "工业生产者出厂价格",
+    "showQt": "工业生产者出厂价格",
+    "encodeQt": "%E5%B7%A5%E4%B8%9A%E7%94%9F%E4%BA%A7%E8%80%85%E5%87%BA%E5%8E%82%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "工业生产者出厂价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "工业": "NN"
+      },
+      {
+        "生产者": "NN"
+      },
+      {
+        "出厂": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "工业": "NN"
+      },
+      {
+        "生产者": "NN"
+      },
+      {
+        "出厂价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "出厂",
+      "出厂价格",
+      "生产者",
+      "价格",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [
+      {
+        "forceStatus": 0,
+        "score": 0.5230583,
+        "id": "4f55a39a-f59d-420b-b7a8-6c1bfa8aa42d",
+        "name": "工业品出厂价格指数",
+        "showTitle": "工业品出厂价格指数",
+        "vectorTitleo": "",
+        "sort": 10,
+        "type": 0,
+        "subjectType": 0,
+        "subjectPicInfoList": [
+          {
+            "imgUrl": "https://file.so-gov.cn/cps/pro/bm36000002/sceneSubject/6e9e3201717f4b9c82fa29aeb9eea74f.png",
+            "title": "工业品出厂价格指数",
+            "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/search?s=%E5%B7%A5%E4%B8%9A%E5%93%81%E5%87%BA%E5%8E%82%E4%BB%B7%E6%A0%BC%E6%8C%87%E6%95%B0"
+          }
+        ],
+        "staticHtml": "<div style=\"text-indent:0px;\">\n      <a href=\"javascript:void('0');\" onclick=\"ask('PPI统计中是否包含增值税？');\">PPI统计中是否包含增值税？</a>\n</div>",
+        "rightDocList": [
+          {
+            "id": "DF2DA041DA8F6C4ADD3537D73139743A",
+            "title": "工业生产者出厂价格指数（PPI）是如何编制的",
+            "url": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903637.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1740708000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "工业生产者出厂价格是工业企业产品第一次出售时的价格，通过编制工业生产者出厂价格指数，可以客观准确地反映各工业行业产品价格水平及其变化趋势和变动幅度，为国民经济核算、宏观经济分析和调控、理顺价格体系等提供可靠的依据。 一、工业生产者出厂价格指数（PPI）的基本概念 生产者价格指数（Producer Price Index，简称PPI），理论上应涵盖所有产业，即包括农业生产者价格指数、工业生产者价格指数和服务业生产者价格指数等指数。由于历史及技术原因，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "AD00B9714CE50C4F2C7E80F447B83520",
+            "md5Url": "DF2DA041DA8F6C4ADD3537D73139743A",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "E0483BD48506F9505E881202D505E6F1",
+            "title": "工业生产增长速度的基础数据来源",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202412/t20241220_1957812.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1735524000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、调查对象和调查方法 调查对象为规模以上工业企业，2022年底约有47万家，分布在全国31个省（区、市）。月度调查中的“工业产销总值及主要产品产量”和年度调查中的“财务状况（成本费用）”报表均为全面调查。 二、组织实施机构及调查工作流程 规模以上工业在月度中实行全面调查，调查的组织实施机构是国家统计局和地方各级统计局。 调查工作流程分为报表制度布置和数据采集两个阶段。国家统计局于每年9—10月对各省（区、市）就下一年度规模以上工业企业调查及其报表制度进行布置和培训，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "FB50E73F8AE51C3120DCAC33E5AE5DE1",
+            "md5Url": "E0483BD48506F9505E881202D505E6F1",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "90571C6D714A30A80596175AC118CDF7",
+            "title": "工业生产增长速度的计算方法",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202410/t20241025_1957170.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1730340000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、基本情况 工业生产增长速度的计算由国家统计局组织实施。国家统计局负责制定工业生产增长速度的计算方法，确定调查范围和调查频率，并按月计算和公布工业生产增长速度。省及省以下各级的工业生产增长速度由当地统计局按照国家统一的计算方法计算，并经上一级统计局审核评估后对外发布。 工业生产增长速度是对工业生产增减变化的反映，其计算必须依赖于能够反映工业生产总体的一个总量指标。为了与国民经济核算相衔接，目前，采用工业增加值作为计算工业生产增长速度的总量指标。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "8FCD3F255E06AE691F7FBDEC394DF8D1",
+            "md5Url": "90571C6D714A30A80596175AC118CDF7",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "F60E9552C88A450513F1E58593E41190",
+            "title": "什么是工业生产者出厂价格指数（PPI）",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gyscz/202409/t20240910_1956355.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1726192800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、工业生产者出厂价格指数（PPI）的基本定义 工业生产者出厂价格指数指一定时期内工业企业产品第一次出售时的出厂价格总水平的变动趋势和变动幅度的相对数，一般称为PPI（Producer  Price  Index）。此外，在价格统计工作中，我国也编制工业生产者购进价格指数，该指数是反映工业企业作为中间投入的原材料、燃料、动力购进价格总水平的变动趋势和变动幅度的相对数。在实际工作中，也将工业生产者出厂价格指数和购进价格指数统称为PPI。 二、",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "E1DE6DB4685755E1D89416810DC58A0D",
+            "md5Url": "F60E9552C88A450513F1E58593E41190",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "6FECD29E87747A93A1C5A3246002318F",
+            "title": "什么是工业生产增长速度",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202409/t20240909_1956328.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1726192800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、工业生产增长速度的基本含义 工业生产增长速度也称工业增加值增长速度，简称工业增长速度，它是以工业增加值作为总量指标计算出来的，反映一定时期全国或某一地区工业生产增减变动的相对数，通常以百分数表示。例如，2022年9月，全国规模以上工业增加值同比增长6.3％。 由于工业统计调查的范围和频率不同，工业增长速度又分为全部工业增长速度和规模以上工业增长速度。全部工业增长速度，其统计范围为全部工业，按季度和年度统计、计算和公布。规模以上工业增长速度，其统计范围为规模以上工业，按月度统计、计算和公布。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "30EEAF41F25C97C35B66FCDEB94354BF",
+            "md5Url": "6FECD29E87747A93A1C5A3246002318F",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          }
+        ],
+        "categoryEntityList": [
+          {
+            "id": "6f25314bf88babf1776fcb6d9d82adfd",
+            "title": "最新发布",
+            "moreUrl": "",
+            "showType": 4,
+            "documentList": [
+              {
+                "id": "0C147E00072495038CE339BD347D2E32",
+                "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794619800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年11月上旬与10月下旬相比，16种产品价格上涨，32种下降，2种持平。   2026年11月上旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌（元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3152.4 -14.9 -0.5 线材（Φ8—10mm，HPB300） 吨 3362.0 -16.3 -",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "E4E7F75CDA2C0294B0608E0C91078463",
+                "md5Url": "0C147E00072495038CE339BD347D2E32",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "6DCFE4F391E0FE0FF31459E2695F78D1",
+                "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794187800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "　　2026年10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。工业生产者购进价格同比上涨7.9%，环比上涨1.1%。1—10月平均，工业生产者出厂价格比上年同期上涨2.7%，工业生产者购进价格上涨4.0%。       　　一、工业生产者价格同比变动情况   　　10月份，工业生产者出厂价格中，生产资料价格同比上涨7.4%，影响工业生产者出厂价格总水平上涨约5.77个百分点。其中，采掘工业价格上涨27.9%，原材料工业价格上涨11.6%，加工工业价格上涨3.5%。",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "E85CA4688422DED5A953E2CA35D40574",
+                "md5Url": "6DCFE4F391E0FE0FF31459E2695F78D1",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "57D8D6B92920D65FBED7937A9FC1186F",
+                "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261103_1965738.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793755800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月下旬与10月中旬相比，17种产品价格上涨，28种下降，5种持平。   2026年10月下旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌（元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3167.3 -20.5 -0.6 线材（Φ8—10mm，HPB300） 吨 3378.3 -8.6 -0.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "40FBF558A7A508963F27D79AB6379831",
+                "md5Url": "57D8D6B92920D65FBED7937A9FC1186F",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "21C7D6402D6EF55694724FB53D277B5A",
+                "title": "2026年10月中国采购经理指数运行情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793410200000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "国家统计局服务业调查中心 中国物流与采购联合会   　　一、中国制造业采购经理指数运行情况   　　10月份，制造业采购经理指数（PMI）为49.3%，比上月下降0.8个百分点，制造业景气水平有所回落。     　　从企业规模看，大型企业PMI为50.2%，比上月下降0.4个百分点，仍高于临界点；中、小型企业PMI分别为48.4%和47.5%，比上月下降1.3个和1.4个百分点，低于临界点。   　　从分类指数看，构成制造业PMI的5个分类指数中，供应商配送时间指数高于临界点；生产指数、",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "66D0E44955328647F9DC27AFF3CE40B2",
+                "md5Url": "21C7D6402D6EF55694724FB53D277B5A",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "3AEE791EFCDA99E03582F094E9537DBB",
+                "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792805400000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月中旬与9月下旬相比，22种产品价格上涨，25种下降，3种持平。   2026年10月中旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌 （元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3187.8 11.9 0.4 线材（Φ8—10mm，HPB300） 吨 3386.9 15.9 0.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "34444A80F2294C3BB21D1EB47060A5C7",
+                "md5Url": "3AEE791EFCDA99E03582F094E9537DBB",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              }
+            ],
+            "icon": "",
+            "mainSearchCombin": 0
+          },
+          {
+            "id": "fef04e61f58b30914f80ddf405445c23",
+            "title": "数据解读",
+            "moreUrl": "",
+            "showType": 4,
+            "documentList": [
+              {
+                "id": "178365D48F4B2547A95AEDA1F0A1491F",
+                "title": "国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794187800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "2026年10月份CPI同比继续上涨 PPI环比涨幅回落   ——国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据   　　10月份，居民消费价格指数（CPI）环比持平；同比上涨0.7%，涨幅比上月回落0.2个百分点；扣除食品和能源价格的核心CPI同比上涨0.8%，涨幅比上月回落0.2个百分点。工业生产者出厂价格指数（PPI）环比上涨0.7%，涨幅比上月回落0.5个百分点；同比上涨5.7%，涨幅比上月扩大0.7个百分点。   　　一、CPI同比继续上涨   　　从环比看，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "68BB7E79F853ABE2FEAF1A358F87C5AC",
+                "md5Url": "178365D48F4B2547A95AEDA1F0A1491F",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "B9787B39A3BBCC3A81DDF337323EA576",
+                "title": "国家统计局服务业调查中心首席统计师霍丽慧解读2026年10月中国采购经理指数",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793410200000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "10月份采购经理指数有所回落   ——国家统计局服务业调查中心首席统计师霍丽慧解读2026年10月中国采购经理指数   　　2026年10月31日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数。对此，国家统计局服务业调查中心首席统计师霍丽慧进行了解读。   　　10月份，制造业采购经理指数、非制造业商务活动指数和综合PMI产出指数分别为49.3%、49.7%和49.7%，比上月下降0.8个、0.5个和1.0个百分点，经济景气水平较上月回落。   　　一、",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "FBA2471FC7F74EE3CC56070E65ED9A7D",
+                "md5Url": "B9787B39A3BBCC3A81DDF337323EA576",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "03344909B5B360F5F1661595C1521DA2",
+                "title": "沈赟：前三季度CPI保持温和上涨 PPI波动上行",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965630.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792461600000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "　　今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，着力发挥宏观政策效能，内需潜力持续释放，新质生产力加快发展，市场运行总体平稳，消费领域价格保持温和上涨，生产领域价格波动上行。   　　一、消费领域价格保持温和上涨   　　前三季度，CPI比上年同期上涨0.9%，涨幅比上半年回落0.1个百分点，但明显高于上年同期和上年全年。分月看，1、2月份，受春节错月等因素影响，CPI同比分别上涨0.2%和1.3%；3—6月份，CPI同比涨幅总体稳定，保持在1.0%—1.2%之间；7月份，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "D7F4DB2DB771FD8233482D2966F1B4E1",
+                "md5Url": "03344909B5B360F5F1661595C1521DA2",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "2D141FD773DFC351EDD75A4DCDC1EBD5",
+                "title": "国家统计局副局长就2026年前三季度国民经济运行情况答记者问",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965653.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792401120000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "（2026年10月19日）     　　总台央视记者：   　　今年是“十五五”开局之年，前三季度的经济表现对于实现全年发展目标有着至关重要的意义。请问您如何评价前三季度国民经济运行情况，经济运行呈现出哪些新的亮点，还面临哪些压力和挑战？谢谢。     　　毛盛勇：   　　谢谢您的提问。从刚才介绍的前三季度经济运行主要指标数据来看，有以下特点：   　　第一，运行平稳。从经济增长看，前三季度国内生产总值超过107万亿元，同比增速为4.6%，符合全年经济增长预期目标。根据一些国际机构的预测，4.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "527E835EA89536990DDB50139672448F",
+                "md5Url": "2D141FD773DFC351EDD75A4DCDC1EBD5",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "2972678D0152EFF7C41BA86B7D8006C7",
+                "title": "国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261014_1965475.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1791941400000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "2026年9月份CPI、PPI同比涨幅均扩大   ——国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据   　　9月份，居民消费价格指数（CPI）环比上涨0.2%，涨幅比上月回落0.2个百分点；同比上涨0.9%，涨幅比上月扩大0.1个百分点；扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。工业生产者出厂价格指数（PPI）环比上涨1.2%，涨幅比上月扩大0.8个百分点；同比上涨5.0%，涨幅比上月扩大1.2个百分点。   　　一、CPI环比涨幅回落，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "10282FEB2F2C97CA5FC2ACAC8B63F08B",
+                "md5Url": "2972678D0152EFF7C41BA86B7D8006C7",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              }
+            ],
+            "icon": "",
+            "mainSearchCombin": 0
+          }
+        ]
+      }
+    ],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 13.708876,
+        "id": "600d4753-4a79-4ba8-824e-0b300d4015ee",
+        "name": "各种价格指数",
+        "showTitle": "",
+        "url": "https://file.so-gov.cn/wedatas/pro/custom/906fb12c3e74bdd5225a8b50343f17bc/",
+        "iframeHeight": 422,
+        "sourceUrl": "",
+        "source": "<div class=\"laiyuan\" style=\"font-size: 16px;text-align: right;\">来源：   <a href=\"https://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0901&sj=2022\" target=\"_blank\">国家数据</a></div>",
+        "h5": 0,
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7ECE1C652FCD32B1ACE609A16C0FFC3C",
+      "timestamp": 1575943710000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7ECE1C652FCD32B1ACE609A16C0FFC3C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2019年11月份工业生产者出厂价格同比下降1.4%】2019年11月份，全国工业生产者出厂价格同比下降1.4%，环比下降0.1%；工业生产者购进价格同比下降2.2%，环比下降0.1%。1—11月平均，工业生产者出厂价格比去年",
+        "title": "#数据发布#【2019年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.4%】2019年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.4%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.2%，环比下降0.1%。1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年",
+        "url": "https://weibo.com/3919628624/Ik5UdwPGs?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.7%。 数据发布 【2019年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.4%】2019年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.4%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.2%，环比下降0.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1575943710000,
+        "docDate": "2019-12-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "8134245AB8ACB5C4D1FC48602691B912",
+        "md5Url": "F91EBF11A941DD87747F93D1FA4E6F56",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.7%。 数据发布 【2019年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.4%】2019年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.4%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.2%，环比下降0.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1575943710,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F91EBF11A941DD87747F93D1FA4E6F56",
+          "DRETITLE": "数据发布 2019年11月份工业生产者出厂价格同比下降1 4 2019年11月份 全国工业生产者出厂价格同比下降1 4 环比下降0 1 工业生产者购进价格同比下",
+          "URL": "https://weibo.com/3919628624/Ik5UdwPGs?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8134245AB8ACB5C4D1FC48602691B912",
+          "DRETITLEO": "#数据发布#【2019年11月份工业生产者出厂价格同比下降1.4%】2019年11月份，全国工业生产者出厂价格同比下降1.4%，环比下降0.1%；工业生产者购进价格同比下降2.2%，环比下降0.1%。1—11月平均，工业生产者出厂价格比去年",
+          "QUICKDESCRIPTION": "数据发布 2019年11月份工业生产者出厂价格同比下降1 4 2019年11月份 全国工业生产者出厂价格同比下降1 4 环比下降0 1 工业生产者购进价格同比下降2 2 环比下降0 1 1 11月平均 工业生产者出厂价格比去年同期下降0 3 工业生产者购进价格下降0 7 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0E99C5B6331EF8F889C3CE71239EC20C",
+      "timestamp": 1575941400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0E99C5B6331EF8F889C3CE71239EC20C",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年11月份工业生产者出厂价格同比下降1.4%",
+        "title": "2019年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.4%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900553.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.7%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.5%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.84个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨7.2%，建筑材料及非金属类<em>价格</em>上涨2.9%；化工原料类<em>价格</em>下降8.4%，燃料动力类<em>价格</em>下降5.8%，有色金属材料及电线类<em>价格</em>下降2.3%，黑色金属材料类<em>价格</em>下降0.5%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.15个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.7%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.5%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.84个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨7.2%，建筑材料及非金属类<em>价格</em>上涨2.9%；化工原料类<em>价格</em>下降8.4%，燃料动力类<em>价格</em>下降5.8%，有色金属材料及电线类<em>价格</em>下降2.3%，黑色金属材料类<em>价格</em>下降0.5%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.15个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1575941400000,
+        "docDate": "2019-12-10",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/4FEE67435B45C1496CE971E94C228BA4.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_28.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "3E11BD71BC09D1BFC6B914535B91438C",
+        "md5Url": "0E99C5B6331EF8F889C3CE71239EC20C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.7%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.5%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.84个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨7.2%，建筑材料及非金属类<em>价格</em>上涨2.9%；化工原料类<em>价格</em>下降8.4%，燃料动力类<em>价格</em>下降5.8%，有色金属材料及电线类<em>价格</em>下降2.3%，黑色金属材料类<em>价格</em>下降0.5%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.15个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900553.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年11月份工业生产者出厂价格同比下降1.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/4FEE67435B45C1496CE971E94C228BA4.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_28.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1575941400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "0E99C5B6331EF8F889C3CE71239EC20C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年11月份工业生产者出厂价格同比下降1 4",
+          "MD5TITLE": "3E11BD71BC09D1BFC6B914535B91438C",
+          "QUICKDESCRIPTION": "2019年11月份工业生产者出厂价格同比下降1.4% 2019/12/10 09:30 | Aa 字体： 小 中 大 | 　　2019年11月份，全国工业生产者出厂价格同比下降1.4%，环比下降0.1%；工业生产者购进价格同比下降2.2%，环比下降0.1%。1—11月平均，工业生产者出厂价格比去年同期下降0.3%，工业生产者购进价格下降0.7%。 一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比下降2.5%，降幅比上月收窄0.1个百分点，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7671620805988262C6E49411ED60005B",
+      "timestamp": 1573263432000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7671620805988262C6E49411ED60005B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2019年10月份CPI和PPI有涨有跌】国家统计局今天发布了2019年10月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。详见O网页链接",
+        "title": "#权威解读# 【2019年10月份CPI和PPI有涨有跌】国家统计局今天发布了2019年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。详见O网页链接",
+        "url": "https://weibo.com/3919628624/Ifns7u9Cv?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2019年10月份CPI和PPI有涨有跌】国家统计局今天发布了2019年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1573263432000,
+        "docDate": "2019-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "F1209C9B229FA20694C2854E11E0E588",
+        "md5Url": "4B37BF4400A19293CB87C65490058109",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2019年10月份CPI和PPI有涨有跌】国家统计局今天发布了2019年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1573263432,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4B37BF4400A19293CB87C65490058109",
+          "DRETITLE": "权威解读 2019年10月份CPI和PPI有涨有跌 国家统计局今天发布了2019年10月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 ",
+          "URL": "https://weibo.com/3919628624/Ifns7u9Cv?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "F1209C9B229FA20694C2854E11E0E588",
+          "DRETITLEO": "#权威解读# 【2019年10月份CPI和PPI有涨有跌】国家统计局今天发布了2019年10月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。详见O网页链接",
+          "QUICKDESCRIPTION": "权威解读 2019年10月份CPI和PPI有涨有跌 国家统计局今天发布了2019年10月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司高级统计师沈赟进行了解读 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F721EADBEB67077278FDCA0708F08E7A",
+      "timestamp": 1573263284000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F721EADBEB67077278FDCA0708F08E7A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2019年10月份工业生产者出厂价格同比下降1.6%】2019年10月份，全国工业生产者出厂价格同比下降1.6%，环比上涨0.1%；工业生产者购进价格同比下降2.1%，环比上涨0.2%。1—10月平均，工业生产者出厂价格比去年",
+        "title": "#数据发布#【2019年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.6%】2019年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.6%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.1%，环比上涨0.2%。1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年",
+        "url": "https://weibo.com/3919628624/Ifnr7rate?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.5%。 数据发布 【2019年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.6%】2019年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.6%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.1%，环比上涨0.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1573263284000,
+        "docDate": "2019-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "339B3C215F35C188A3680C09D91FF4A8",
+        "md5Url": "0CC24ED0DD7D688FD769A8C4AAF6B03C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.5%。 数据发布 【2019年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.6%】2019年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.6%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.1%，环比上涨0.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1573263284,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "0CC24ED0DD7D688FD769A8C4AAF6B03C",
+          "DRETITLE": "数据发布 2019年10月份工业生产者出厂价格同比下降1 6 2019年10月份 全国工业生产者出厂价格同比下降1 6 环比上涨0 1 工业生产者购进价格同比下",
+          "URL": "https://weibo.com/3919628624/Ifnr7rate?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "339B3C215F35C188A3680C09D91FF4A8",
+          "DRETITLEO": "#数据发布#【2019年10月份工业生产者出厂价格同比下降1.6%】2019年10月份，全国工业生产者出厂价格同比下降1.6%，环比上涨0.1%；工业生产者购进价格同比下降2.1%，环比上涨0.2%。1—10月平均，工业生产者出厂价格比去年",
+          "QUICKDESCRIPTION": "数据发布 2019年10月份工业生产者出厂价格同比下降1 6 2019年10月份 全国工业生产者出厂价格同比下降1 6 环比上涨0 1 工业生产者购进价格同比下降2 1 环比上涨0 2 1 10月平均 工业生产者出厂价格比去年同期下降0 2 工业生产者购进价格下降0 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F13AD1703050AEA37F9012C27A290BAC",
+      "timestamp": 1573263000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F13AD1703050AEA37F9012C27A290BAC",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年10月份工业生产者出厂价格同比下降1.6%",
+        "title": "2019年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.6%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900505.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.6%，降幅比上月扩大0.6个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.95个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨6.3%，建筑材料及非金属类<em>价格</em>上涨3.1%，黑色金属材料类<em>价格</em>上涨0.8%；化工原料类<em>价格</em>下降8.5%，燃料动力类<em>价格</em>下降5.5%，有色金属材料及电线类<em>价格</em>下降2.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比持平。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.6%，降幅比上月扩大0.6个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.95个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨6.3%，建筑材料及非金属类<em>价格</em>上涨3.1%，黑色金属材料类<em>价格</em>上涨0.8%；化工原料类<em>价格</em>下降8.5%，燃料动力类<em>价格</em>下降5.5%，有色金属材料及电线类<em>价格</em>下降2.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比持平。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1573263000000,
+        "docDate": "2019-11-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/B33AC93D29B95632B26A4CDB882C2216.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_30.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "52E6B42B2F104B25388EBFCEEB6F69BA",
+        "md5Url": "F13AD1703050AEA37F9012C27A290BAC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期下降0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.6%，降幅比上月扩大0.6个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.95个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨6.3%，建筑材料及非金属类<em>价格</em>上涨3.1%，黑色金属材料类<em>价格</em>上涨0.8%；化工原料类<em>价格</em>下降8.5%，燃料动力类<em>价格</em>下降5.5%，有色金属材料及电线类<em>价格</em>下降2.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比持平。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900505.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年10月份工业生产者出厂价格同比下降1.6%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/B33AC93D29B95632B26A4CDB882C2216.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_30.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1573263000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F13AD1703050AEA37F9012C27A290BAC",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年10月份工业生产者出厂价格同比下降1 6",
+          "MD5TITLE": "52E6B42B2F104B25388EBFCEEB6F69BA",
+          "QUICKDESCRIPTION": "2019年10月份工业生产者出厂价格同比下降1.6% 2019/11/09 09:30 | Aa 字体： 小 中 大 | 　　2019年10月份，全国工业生产者出厂价格同比下降1.6%，环比上涨0.1%；工业生产者购进价格同比下降2.1%，环比上涨0.2%。1—10月平均，工业生产者出厂价格比去年同期下降0.2%，工业生产者购进价格下降0.5%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比下降2.6%，降幅比上月扩大0.6个百分点，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B16C9687D904FA09B1BEB7A150CEB4E6",
+      "timestamp": 1571107560000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B16C9687D904FA09B1BEB7A150CEB4E6",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2019年9月份工业生产者出厂价格同比下降1.2%",
+        "title": "【数据发布】2019年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.2%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651321023&idx=2&sn=d982e442812897d27e50c7d16ffe6081&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.0%，降幅比上月扩大0.7个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.52个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1571107560000,
+        "docDate": "2019-10-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "1BE1A4CE8AC60A77D2F9A366B210DC01",
+        "md5Url": "0131F53F049E2FC176921766C33CA568",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.0%，降幅比上月扩大0.7个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.52个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1571107560,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "0131F53F049E2FC176921766C33CA568",
+          "DRETITLE": "数据发布 2019年9月份工业生产者出厂价格同比下降1 2",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651321023&idx=2&sn=d982e442812897d27e50c7d16ffe6081&scene=0",
+          "MD5TITLE": "1BE1A4CE8AC60A77D2F9A366B210DC01",
+          "DRETITLEO": "【数据发布】2019年9月份工业生产者出厂价格同比下降1.2%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8BA4EDA8BF762AB18FDEAB931BA8D8D3",
+      "timestamp": 1571103430000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8BA4EDA8BF762AB18FDEAB931BA8D8D3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【2019年9月份CPI环比同比涨幅略有扩大 PPI环比微涨】国家统计局今天发布了2019年9月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。详见O网页链",
+        "title": "#权威解读#【2019年9月份CPI环比同比涨幅略有扩大 PPI环比微涨】国家统计局今天发布了2019年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。详见O网页链",
+        "url": "https://weibo.com/3919628624/IbzLH6THu?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2019年9月份CPI环比同比涨幅略有扩大 PPI环比微涨】国家统计局今天发布了2019年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1571103430000,
+        "docDate": "2019-10-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "E6BF30FCB56131DC322792B2CFCCCF30",
+        "md5Url": "64161E4795CD6DBCEDDD50980CCF5FBB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2019年9月份CPI环比同比涨幅略有扩大 PPI环比微涨】国家统计局今天发布了2019年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1571103430,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "64161E4795CD6DBCEDDD50980CCF5FBB",
+          "DRETITLE": "权威解读 2019年9月份CPI环比同比涨幅略有扩大 PPI环比微涨 国家统计局今天发布了2019年9月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂",
+          "URL": "https://weibo.com/3919628624/IbzLH6THu?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E6BF30FCB56131DC322792B2CFCCCF30",
+          "DRETITLEO": "#权威解读#【2019年9月份CPI环比同比涨幅略有扩大 PPI环比微涨】国家统计局今天发布了2019年9月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司高级统计师沈赟进行了解读。详见O网页链",
+          "QUICKDESCRIPTION": "权威解读 2019年9月份CPI环比同比涨幅略有扩大 PPI环比微涨 国家统计局今天发布了2019年9月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司高级统计师沈赟进行了解读 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A4108D8B7690B1C50A9B5C842389F656",
+      "timestamp": 1571103307000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A4108D8B7690B1C50A9B5C842389F656",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2019年9月份工业生产者出厂价格同比下降1.2%】2019年9月份，全国工业生产者出厂价格同比下降1.2%，环比上涨0.1%；工业生产者购进价格同比下降1.7%，环比上涨0.2%。1—9月平均，工业生产者出厂价格与去年同期持",
+        "title": "#数据发布#【2019年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.2%】2019年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.2%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降1.7%，环比上涨0.2%。1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持",
+        "url": "https://weibo.com/3919628624/IbzKRp3M1?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 数据发布 【2019年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.2%】2019年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.2%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降1.7%，环比上涨0.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1571103307000,
+        "docDate": "2019-10-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "006E63D2EDDC048E6EF4E2D4DA75205A",
+        "md5Url": "7D7EB27C411D70064A526336DA517DAA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 数据发布 【2019年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.2%】2019年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.2%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降1.7%，环比上涨0.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1571103307,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "7D7EB27C411D70064A526336DA517DAA",
+          "DRETITLE": "数据发布 2019年9月份工业生产者出厂价格同比下降1 2 2019年9月份 全国工业生产者出厂价格同比下降1 2 环比上涨0 1 工业生产者购进价格同比下降1",
+          "URL": "https://weibo.com/3919628624/IbzKRp3M1?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "006E63D2EDDC048E6EF4E2D4DA75205A",
+          "DRETITLEO": "#数据发布#【2019年9月份工业生产者出厂价格同比下降1.2%】2019年9月份，全国工业生产者出厂价格同比下降1.2%，环比上涨0.1%；工业生产者购进价格同比下降1.7%，环比上涨0.2%。1—9月平均，工业生产者出厂价格与去年同期持",
+          "QUICKDESCRIPTION": "数据发布 2019年9月份工业生产者出厂价格同比下降1 2 2019年9月份 全国工业生产者出厂价格同比下降1 2 环比上涨0 1 工业生产者购进价格同比下降1 7 环比上涨0 2 1 9月平均 工业生产者出厂价格与去年同期持平 工业生产者购进价格下降0 3 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D8167C5B3D8C9476065FE651C16FA5B2",
+      "timestamp": 1571103000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D8167C5B3D8C9476065FE651C16FA5B2",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年9月份工业生产者出厂价格同比下降1.2%",
+        "title": "2019年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.2%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900469.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.0%，降幅比上月扩大0.7个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.52个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.0%，降幅比上月扩大0.7个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.52个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1571103000000,
+        "docDate": "2019-10-15",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/DEBB4271CD40436E0D05761B0F6D4700.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_32.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "8FC1F5DAF65A326078234310F060B840",
+        "md5Url": "D8167C5B3D8C9476065FE651C16FA5B2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>与去年同期持平，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降2.0%，降幅比上月扩大0.7个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.52个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900469.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年9月份工业生产者出厂价格同比下降1.2%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/DEBB4271CD40436E0D05761B0F6D4700.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_32.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1571103000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D8167C5B3D8C9476065FE651C16FA5B2",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年9月份工业生产者出厂价格同比下降1 2",
+          "MD5TITLE": "8FC1F5DAF65A326078234310F060B840",
+          "QUICKDESCRIPTION": "2019年9月份工业生产者出厂价格同比下降1.2% 2019/10/15 09:30 | Aa 字体： 小 中 大 | 　　2019年9月份，全国工业生产者出厂价格同比下降1.2%，环比上涨0.1%；工业生产者购进价格同比下降1.7%，环比上涨0.2%。1—9月平均，工业生产者出厂价格与去年同期持平，工业生产者购进价格下降0.3%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比下降2.0%，降幅比上月扩大0.7个百分点，影响工业生产者出厂价格总水平下降约1.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1401956BFEE3580E06BC1DA0F76AC335",
+      "timestamp": 1568080860000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1401956BFEE3580E06BC1DA0F76AC335",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2019年8月份工业生产者出厂价格同比下降0.8%",
+        "title": "【数据发布】2019年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651320584&idx=2&sn=8bc8d699d563d0f9e6e63c955ee4d73d&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.2%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降1.3%，降幅比上月扩大0.6个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.98个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类、建筑材料及非金属类<em>价格</em>均上涨3.8%，农副产品类<em>价格</em>上涨2.9%；化工原料类<em>价格</em>下降6.8%，燃料动力类<em>价格</em>下降3.2%，有色金属材料及电线类<em>价格</em>下降2.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.2%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.12个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1568080860000,
+        "docDate": "2019-09-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "1F50CF518B5F427E69037C10949009C7",
+        "md5Url": "0FC3FE7040A63747D3B5DBCDBF65641F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.2%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降1.3%，降幅比上月扩大0.6个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.98个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类、建筑材料及非金属类<em>价格</em>均上涨3.8%，农副产品类<em>价格</em>上涨2.9%；化工原料类<em>价格</em>下降6.8%，燃料动力类<em>价格</em>下降3.2%，有色金属材料及电线类<em>价格</em>下降2.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.2%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.12个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1568080860,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "0FC3FE7040A63747D3B5DBCDBF65641F",
+          "DRETITLE": "数据发布 2019年8月份工业生产者出厂价格同比下降0 8",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651320584&idx=2&sn=8bc8d699d563d0f9e6e63c955ee4d73d&scene=0",
+          "MD5TITLE": "1F50CF518B5F427E69037C10949009C7",
+          "DRETITLEO": "【数据发布】2019年8月份工业生产者出厂价格同比下降0.8%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "281903EDA4441B89ECBF0235FDF09037",
+      "timestamp": 1568079420000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "281903EDA4441B89ECBF0235FDF09037",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2019年8月份工业生产者出厂价格同比下降0.8%】2019年8月份，全国工业生产者出厂价格同比下降0.8%，环比下降0.1%；工业生产者购进价格同比下降1.3%，环比下降0.2%。1—8月平均，工业生产者出厂价格比去年同期上",
+        "title": "#数据发布#【2019年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%】2019年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降1.3%，环比下降0.2%。1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上",
+        "url": "https://weibo.com/3919628624/I6fOflI0v?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.2%。 数据发布 【2019年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%】2019年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降1.3%，环比下降0.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1568079420000,
+        "docDate": "2019-09-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "ED9A10280777582539E10722FE045C38",
+        "md5Url": "88482CC35EE7BF4F7BB0E954A5F69EAA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.2%。 数据发布 【2019年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%】2019年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降1.3%，环比下降0.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1568079420,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "88482CC35EE7BF4F7BB0E954A5F69EAA",
+          "DRETITLE": "数据发布 2019年8月份工业生产者出厂价格同比下降0 8 2019年8月份 全国工业生产者出厂价格同比下降0 8 环比下降0 1 工业生产者购进价格同比下降1",
+          "URL": "https://weibo.com/3919628624/I6fOflI0v?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "ED9A10280777582539E10722FE045C38",
+          "DRETITLEO": "#数据发布#【2019年8月份工业生产者出厂价格同比下降0.8%】2019年8月份，全国工业生产者出厂价格同比下降0.8%，环比下降0.1%；工业生产者购进价格同比下降1.3%，环比下降0.2%。1—8月平均，工业生产者出厂价格比去年同期上",
+          "QUICKDESCRIPTION": "数据发布 2019年8月份工业生产者出厂价格同比下降0 8 2019年8月份 全国工业生产者出厂价格同比下降0 8 环比下降0 1 工业生产者购进价格同比下降1 3 环比下降0 2 1 8月平均 工业生产者出厂价格比去年同期上涨0 1 工业生产者购进价格下降0 2 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9730A331F48F7090F7B6F9614BFE68DE",
+      "timestamp": 1568079000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9730A331F48F7090F7B6F9614BFE68DE",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年8月份工业生产者出厂价格同比下降0.8%",
+        "title": "2019年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900444.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.2%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降1.3%，降幅比上月扩大0.6个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.98个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类、建筑材料及非金属类<em>价格</em>均上涨3.8%，农副产品类<em>价格</em>上涨2.9%；化工原料类<em>价格</em>下降6.8%，燃料动力类<em>价格</em>下降3.2%，有色金属材料及电线类<em>价格</em>下降2.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.2%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.12个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.2%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降1.3%，降幅比上月扩大0.6个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.98个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类、建筑材料及非金属类<em>价格</em>均上涨3.8%，农副产品类<em>价格</em>上涨2.9%；化工原料类<em>价格</em>下降6.8%，燃料动力类<em>价格</em>下降3.2%，有色金属材料及电线类<em>价格</em>下降2.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.2%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.12个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1568079000000,
+        "docDate": "2019-09-10",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/57AB8ADC89FC0E9BA33E07B4477FCD7E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_33.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "B2521BE17632BBB41C36E06741C7DD88",
+        "md5Url": "9730A331F48F7090F7B6F9614BFE68DE",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降0.2%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降1.3%，降幅比上月扩大0.6个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.98个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类、建筑材料及非金属类<em>价格</em>均上涨3.8%，农副产品类<em>价格</em>上涨2.9%；化工原料类<em>价格</em>下降6.8%，燃料动力类<em>价格</em>下降3.2%，有色金属材料及电线类<em>价格</em>下降2.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.2%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.12个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900444.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年8月份工业生产者出厂价格同比下降0.8%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/57AB8ADC89FC0E9BA33E07B4477FCD7E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_33.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1568079000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "9730A331F48F7090F7B6F9614BFE68DE",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年8月份工业生产者出厂价格同比下降0 8",
+          "MD5TITLE": "B2521BE17632BBB41C36E06741C7DD88",
+          "QUICKDESCRIPTION": "2019年8月份工业生产者出厂价格同比下降0.8% 2019/09/10 09:30 | Aa 字体： 小 中 大 | 　　2019年8月份，全国工业生产者出厂价格同比下降0.8%，环比下降0.1%；工业生产者购进价格同比下降1.3%，环比下降0.2%。1—8月平均，工业生产者出厂价格比去年同期上涨0.1%，工业生产者购进价格下降0.2%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比下降1.3%，降幅比上月扩大0.6个百分点，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1FCA201AEB8657E1F360B50ED66EE602",
+      "timestamp": 1565315820000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1FCA201AEB8657E1F360B50ED66EE602",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2019年7月份工业生产者出厂价格同比下降0.3%",
+        "title": "【数据发布】2019年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.3%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651320200&idx=2&sn=a360f46ca2bb829dcd7bb8d9be6b7fea&chksm=bd1113858a669a93b5291224eac8613788ee817af77e7b0dbe8f014dc39536ddebfe1ccb5ee6&scene=27",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>持平。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.7%，降幅比上月扩大0.4个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.51个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>同比上涨5.7%，建筑材料及非金属类<em>价格</em>上涨3.9%，农副产品类<em>价格</em>上涨2.4%；化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降2.5%，燃料动力类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1565315820000,
+        "docDate": "2019-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "D5AD9E9A3ADE3D61A10C64B87317A4F7",
+        "md5Url": "037989DAB0E430C1FEE5E17782F002BD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>持平。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.7%，降幅比上月扩大0.4个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.51个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>同比上涨5.7%，建筑材料及非金属类<em>价格</em>上涨3.9%，农副产品类<em>价格</em>上涨2.4%；化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降2.5%，燃料动力类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1565315820,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "037989DAB0E430C1FEE5E17782F002BD",
+          "DRETITLE": "数据发布 2019年7月份工业生产者出厂价格同比下降0 3",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651320200&idx=2&sn=a360f46ca2bb829dcd7bb8d9be6b7fea&chksm=bd1113858a669a93b5291224eac8613788ee817af77e7b0dbe8f014dc39536ddebfe1ccb5ee6&scene=27",
+          "MD5TITLE": "D5AD9E9A3ADE3D61A10C64B87317A4F7",
+          "DRETITLEO": "【数据发布】2019年7月份工业生产者出厂价格同比下降0.3%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "57040DBA323BB04600ADF63F4A3D237A",
+      "timestamp": 1565314639000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "57040DBA323BB04600ADF63F4A3D237A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【2019年7月份CPI和PPI总体平稳 略有升降】国家统计局今天发布了2019年7月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司处长董雅秀进行了解读。详见O网页链接",
+        "title": "#权威解读#【2019年7月份CPI和PPI总体平稳 略有升降】国家统计局今天发布了2019年7月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司处长董雅秀进行了解读。详见O网页链接",
+        "url": "https://weibo.com/3919628624/I1o8uaVej?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2019年7月份CPI和PPI总体平稳 略有升降】国家统计局今天发布了2019年7月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司处长董雅秀进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1565314639000,
+        "docDate": "2019-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "D6368D65FAABE07071AC1B6E01D55979",
+        "md5Url": "E4B78DFD08689714DF6DDC8C72736139",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2019年7月份CPI和PPI总体平稳 略有升降】国家统计局今天发布了2019年7月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司处长董雅秀进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1565314639,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E4B78DFD08689714DF6DDC8C72736139",
+          "DRETITLE": "权威解读 2019年7月份CPI和PPI总体平稳 略有升降 国家统计局今天发布了2019年7月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 ",
+          "URL": "https://weibo.com/3919628624/I1o8uaVej?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D6368D65FAABE07071AC1B6E01D55979",
+          "DRETITLEO": "#权威解读#【2019年7月份CPI和PPI总体平稳 略有升降】国家统计局今天发布了2019年7月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司处长董雅秀进行了解读。详见O网页链接",
+          "QUICKDESCRIPTION": "权威解读 2019年7月份CPI和PPI总体平稳 略有升降 国家统计局今天发布了2019年7月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司处长董雅秀进行了解读 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "93D8C72F5A02577FEF6C1B346CB62E40",
+      "timestamp": 1565314561000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "93D8C72F5A02577FEF6C1B346CB62E40",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2019年7月份工业生产者出厂价格同比下降0.3%】2019年7月份，全国工业生产者出厂价格同比下降0.3%，环比下降0.2%；工业生产者购进价格同比下降0.6%，环比下降0.2%。1—7月平均，工业生产者出厂价格比去年同期上",
+        "title": "#数据发布#【2019年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.3%】2019年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.3%，环比下降0.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.6%，环比下降0.2%。1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上",
+        "url": "https://weibo.com/3919628624/I1o7XnqRF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>持平。 数据发布 【2019年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.3%】2019年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.3%，环比下降0.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.6%，环比下降0.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1565314561000,
+        "docDate": "2019-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "494EE530B024468993A13AD13E38EA40",
+        "md5Url": "805C8A22FD56AE7501D351830B40E505",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>持平。 数据发布 【2019年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.3%】2019年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.3%，环比下降0.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.6%，环比下降0.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1565314561,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "805C8A22FD56AE7501D351830B40E505",
+          "DRETITLE": "数据发布 2019年7月份工业生产者出厂价格同比下降0 3 2019年7月份 全国工业生产者出厂价格同比下降0 3 环比下降0 2 工业生产者购进价格同比下降0",
+          "URL": "https://weibo.com/3919628624/I1o7XnqRF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "494EE530B024468993A13AD13E38EA40",
+          "DRETITLEO": "#数据发布#【2019年7月份工业生产者出厂价格同比下降0.3%】2019年7月份，全国工业生产者出厂价格同比下降0.3%，环比下降0.2%；工业生产者购进价格同比下降0.6%，环比下降0.2%。1—7月平均，工业生产者出厂价格比去年同期上",
+          "QUICKDESCRIPTION": "数据发布 2019年7月份工业生产者出厂价格同比下降0 3 2019年7月份 全国工业生产者出厂价格同比下降0 3 环比下降0 2 工业生产者购进价格同比下降0 6 环比下降0 2 1 7月平均 工业生产者出厂价格比去年同期上涨0 2 工业生产者购进价格持平 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7E89DF8B75CA4B4649FC1429A6E8523D",
+      "timestamp": 1565314200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7E89DF8B75CA4B4649FC1429A6E8523D",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年7月份工业生产者出厂价格同比下降0.3%",
+        "title": "2019年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.3%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900410.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>持平。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.7%，降幅比上月扩大0.4个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.51个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>同比上涨5.7%，建筑材料及非金属类<em>价格</em>上涨3.9%，农副产品类<em>价格</em>上涨2.4%；化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降2.5%，燃料动力类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>持平。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.7%，降幅比上月扩大0.4个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.51个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>同比上涨5.7%，建筑材料及非金属类<em>价格</em>上涨3.9%，农副产品类<em>价格</em>上涨2.4%；化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降2.5%，燃料动力类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1565314200000,
+        "docDate": "2019-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_34.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "55BBCB338FF33BCE6ECE5F3C05039599",
+        "md5Url": "7E89DF8B75CA4B4649FC1429A6E8523D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>持平。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.7%，降幅比上月扩大0.4个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.51个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>同比上涨5.7%，建筑材料及非金属类<em>价格</em>上涨3.9%，农副产品类<em>价格</em>上涨2.4%；化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降2.5%，燃料动力类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，降幅比上月收窄0.1个百分点，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900410.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年7月份工业生产者出厂价格同比下降0.3%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_34.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1565314200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "7E89DF8B75CA4B4649FC1429A6E8523D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年7月份工业生产者出厂价格同比下降0 3",
+          "MD5TITLE": "55BBCB338FF33BCE6ECE5F3C05039599",
+          "QUICKDESCRIPTION": "2019年7月份工业生产者出厂价格同比下降0.3% 2019/08/09 09:30 | Aa 字体： 小 中 大 | 　　2019年7月份，全国工业生产者出厂价格同比下降0.3%，环比下降0.2%；工业生产者购进价格同比下降0.6%，环比下降0.2%。1—7月平均，工业生产者出厂价格比去年同期上涨0.2%，工业生产者购进价格持平。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比下降0.7%，降幅比上月扩大0.4个百分点，影响工业生产者出厂价格总水平下降约0.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "460B79CA3E30282FC6C511341B36EFE8",
+      "timestamp": 1563159193000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "460B79CA3E30282FC6C511341B36EFE8",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【答记者问】如何看待工业品出厂价格走势？针对央广记者提问，新闻发言人毛盛勇正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+        "title": "#发布会微直播#【答记者问】如何看待<em>工业</em>品<em>出厂价格</em>走势？针对央广记者提问，新闻发言人毛盛勇正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+        "url": "https://weibo.com/3919628624/HDypcsDcP?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】如何看待<em>工业</em>品<em>出厂价格</em>走势 针对央广记者提问，新闻发言人毛盛勇正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1563159193000,
+        "docDate": "2019-07-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "26710A14F107C2DF168DF185AA356D71",
+        "md5Url": "2B195DE042776DC3EDC1D4258C35883F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】如何看待<em>工业</em>品<em>出厂价格</em>走势 针对央广记者提问，新闻发言人毛盛勇正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1563159193,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2B195DE042776DC3EDC1D4258C35883F",
+          "DRETITLE": "发布会微直播 答记者问 如何看待工业品出厂价格走势 针对央广记者提问 新闻发言人毛盛勇正在回答 直播详见O网页链接 也可以关注国家统计局官方微信 统计微讯 稍晚",
+          "URL": "https://weibo.com/3919628624/HDypcsDcP?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "26710A14F107C2DF168DF185AA356D71",
+          "DRETITLEO": "#发布会微直播#【答记者问】如何看待工业品出厂价格走势？针对央广记者提问，新闻发言人毛盛勇正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 如何看待工业品出厂价格走势 针对央广记者提问 新闻发言人毛盛勇正在回答 直播详见O网页链接 也可以关注国家统计局官方微信 统计微讯 稍晚会有实录放出",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D243AEDAC0A2542839288DA59FCC33E8",
+      "timestamp": 1562726400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D243AEDAC0A2542839288DA59FCC33E8",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2019年6月份工业生产者出厂价格同比持平",
+        "title": "【数据发布】2019年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比持平",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651319709&idx=2&sn=2933ca3972e06326e8529cef71049f2c&chksm=bd1111908a669886551b141544508c7232d9a7c8acf8284b0515e96a21c63ea45c8d811a5dc5&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.22个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1562726400000,
+        "docDate": "2019-07-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "DEACAB10E7349AA19720FF6D91C2641E",
+        "md5Url": "7A145BE479071C02C018C90F5538E2D8",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.22个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1562726400,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "7A145BE479071C02C018C90F5538E2D8",
+          "DRETITLE": "数据发布 2019年6月份工业生产者出厂价格同比持平",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651319709&idx=2&sn=2933ca3972e06326e8529cef71049f2c&chksm=bd1111908a669886551b141544508c7232d9a7c8acf8284b0515e96a21c63ea45c8d811a5dc5&scene=0",
+          "MD5TITLE": "DEACAB10E7349AA19720FF6D91C2641E",
+          "DRETITLEO": "【数据发布】2019年6月份工业生产者出厂价格同比持平",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8A429CAED1483ABB183A70AC0F1544F5",
+      "timestamp": 1562722625000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8A429CAED1483ABB183A70AC0F1544F5",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2019年6月份工业生产者出厂价格同比持平】2019年6月份，全国工业生产者出厂价格同比持平，环比下降0.3%；工业生产者购进价格同比下降0.3%，环比下降0.1%。上半年，工业生产者出厂价格比去年同期上涨0.3%，工业生产者",
+        "title": "#数据发布#【2019年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比持平】2019年6月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比持平，环比下降0.3%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.3%，环比下降0.1%。上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>",
+        "url": "https://weibo.com/3919628624/HCMLOxp6e?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2019年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比持平】2019年6月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比持平，环比下降0.3%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.3%，环比下降0.1%。 上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1562722625000,
+        "docDate": "2019-07-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "0DB5A3106B03386973508EFDDC9C7157",
+        "md5Url": "CC7100501204D49773E6F5C02FE56EFC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2019年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比持平】2019年6月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比持平，环比下降0.3%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.3%，环比下降0.1%。 上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1562722625,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "CC7100501204D49773E6F5C02FE56EFC",
+          "DRETITLE": "数据发布 2019年6月份工业生产者出厂价格同比持平 2019年6月份 全国工业生产者出厂价格同比持平 环比下降0 3 工业生产者购进价格同比下降0 3 环比下",
+          "URL": "https://weibo.com/3919628624/HCMLOxp6e?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "0DB5A3106B03386973508EFDDC9C7157",
+          "DRETITLEO": "#数据发布#【2019年6月份工业生产者出厂价格同比持平】2019年6月份，全国工业生产者出厂价格同比持平，环比下降0.3%；工业生产者购进价格同比下降0.3%，环比下降0.1%。上半年，工业生产者出厂价格比去年同期上涨0.3%，工业生产者",
+          "QUICKDESCRIPTION": "数据发布 2019年6月份工业生产者出厂价格同比持平 2019年6月份 全国工业生产者出厂价格同比持平 环比下降0 3 工业生产者购进价格同比下降0 3 环比下降0 1 上半年 工业生产者出厂价格比去年同期上涨0 3 工业生产者购进价格上涨0 1 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9F2CEB6F203428D8663C9D718D74C98B",
+      "timestamp": 1562722200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9F2CEB6F203428D8663C9D718D74C98B",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年6月份工业生产者出厂价格同比持平",
+        "title": "2019年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比持平",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900360.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.22个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.22个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1562722200000,
+        "docDate": "2019-07-10",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/0DA7AE0455994FBBB07AB1A46F6F6C38.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_36.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "662FBAF10B24D71F895A27DABC481743",
+        "md5Url": "9F2CEB6F203428D8663C9D718D74C98B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨0.3%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨0.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.22个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900360.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年6月份工业生产者出厂价格同比持平",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/0DA7AE0455994FBBB07AB1A46F6F6C38.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_36.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1562722200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "9F2CEB6F203428D8663C9D718D74C98B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年6月份工业生产者出厂价格同比持平",
+          "MD5TITLE": "662FBAF10B24D71F895A27DABC481743",
+          "QUICKDESCRIPTION": "2019年6月份工业生产者出厂价格同比持平 2019/07/10 09:30 | Aa 字体： 小 中 大 | 　　2019年6月份，全国工业生产者出厂价格同比持平，环比下降0.3%；工业生产者购进价格同比下降0.3%，环比下降0.1%。上半年，工业生产者出厂价格比去年同期上涨0.3%，工业生产者购进价格上涨0.1%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比下降0.3%，影响工业生产者出厂价格总水平下降约0.22个百分点。其中，采掘工业价格上涨4.5%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 17,
+          "children": null,
+          "key": "价格"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 17,
+          "children": null,
+          "key": ""
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

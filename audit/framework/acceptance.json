@@ -1,0 +1,60 @@
+{
+  "run_id": "dev-e47c442b6de1233e",
+  "G1": {
+    "status": "PASS",
+    "evidence": "89 frozen market/protocol artifacts unchanged"
+  },
+  "G2": {
+    "status": "PASS_CORE",
+    "evidence": "2014-12 to 2022-12 core monthly coverage; semantic regression tests; no accepted same-time conflicts"
+  },
+  "G3": {
+    "status": "QUALIFIED_PASS",
+    "evidence": "Dated official announcements plus official financial quote archives at end-of-day; correction vintages unavailable for quotes; full strict PIT not claimed"
+  },
+  "G4": {
+    "status": "PASS",
+    "evidence": "Exact shared sample/label/fold/asof/cutoff/version checks in 40 paired comparisons and 16 core ablations"
+  },
+  "G5": {
+    "status": "PASS_WITH_PROTOCOL_LIMITATIONS",
+    "evidence": "Train-only preprocessing, mature labels, future perturbation, historical truncation and release tests; frozen original reference thresholds retained"
+  },
+  "G6": {
+    "status": "PASS",
+    "algorithms": 4,
+    "outer_fits": 204,
+    "development_predictions": 6036,
+    "final_period_predictions": 0
+  },
+  "G7": {
+    "status": "PASS",
+    "evidence": "22 data/config artifact hashes; identical 6036 predictions, metric JSON and 408 model/calibrator files on rerun"
+  },
+  "G8": {
+    "status": "PASS",
+    "evidence": "Only 2020-2022 predictions; heldout labels redacted in modeling dataset; loader/CLI block final folds"
+  },
+  "G9": {
+    "status": "PASS_WITH_DISCLOSED_GAPS",
+    "evidence": "All 13 required documents, executable pipelines, schema/feature/source registries and missing-period reports present"
+  },
+  "G10": {
+    "status": "PASS_SCOPED_INTEGRITY",
+    "evidence": "Original submission hashes and 8 peer scripts verified; QuantData registry and 88 extracted source files unchanged; no remote push"
+  },
+  "tests": {
+    "passed": 56,
+    "failures": 0,
+    "errors": 0
+  },
+  "remaining": [
+    "DR007 long history unverified",
+    "Export/import publication vintages unverified",
+    "2025-01 M2 original announcement missing from current PBOC index",
+    "Some extension monthly flows and cumulative releases lack accepted coverage",
+    "Financial fixing correction vintages absent",
+    "Full external raw market collection not rerun",
+    "Final out-of-time model/threshold/robustness choices not yet frozen"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "data/datasets/common_core_without_credit_v1/common_samples.parquet",
+    "sha256": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
+    "reason": "generated during setup; ablations now share the exact core sample manifest"
+  },
+  {
+    "path": "data/datasets/common_core_without_growth_v1/common_samples.parquet",
+    "sha256": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
+    "reason": "generated during setup; ablations now share the exact core sample manifest"
+  },
+  {
+    "path": "data/datasets/common_core_without_prices_v1/common_samples.parquet",
+    "sha256": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
+    "reason": "generated during setup; ablations now share the exact core sample manifest"
+  },
+  {
+    "path": "data/datasets/common_core_without_rates_fx_v1/common_samples.parquet",
+    "sha256": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
+    "reason": "generated during setup; ablations now share the exact core sample manifest"
+  }
+]

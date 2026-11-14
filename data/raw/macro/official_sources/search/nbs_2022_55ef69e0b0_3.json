@@ -1,0 +1,1476 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 71,
+  "currentHits": 16,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BB48760DD430A4A349CD4B9803BF5E70",
+      "timestamp": 1657935000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BB48760DD430A4A349CD4B9803BF5E70",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年二季度和上半年国内生产总值初步核算结果",
+        "title": "2022年二季度和上半年<em>国内生产总值</em>初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901532.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年二季度和上半年 GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203609034675487.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年二季度和上半年 GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1657935000000,
+        "docDate": "2022-07-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_53.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "7EE06B291057A14AB5BB4BDC9708CC8A",
+        "md5Url": "BB48760DD430A4A349CD4B9803BF5E70",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年二季度和上半年 GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901532.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年二季度和上半年国内生产总值初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203609034675487.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_53.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1657935000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "BB48760DD430A4A349CD4B9803BF5E70",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年二季度和上半年国内生产总值初步核算结果",
+          "MD5TITLE": "7EE06B291057A14AB5BB4BDC9708CC8A",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2022年二季度和上半年 GDP核算结果如下。 表1　2022年二季度和上半年GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 二季度 上半年 二季度 上半年 GDP 292464 562642 0.4 2.5 第一产业 18183 29137 4.4 5.0 第二产业 122450 228636 0.9 3.2 第三产业 151831 304868 -0.4 1.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3FEE8D5C6EB0F1A1FA867C3614302C35",
+      "timestamp": 1657853743000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3FEE8D5C6EB0F1A1FA867C3614302C35",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【答记者问】针对日本朝日新闻记者提出的如果没有新冠疫情的影响，中国经济潜在增长率大概是多少？您如何看待下半年的经济恢复对实现全年5.5%GDP增长目标的可能性的问题，付凌晖正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出，敬请期待～ ...展开全文c",
+        "title": "#发布会微直播# 【答记者问】针对日本朝日新闻记者提出的如果没有新冠疫情的影响，中国经济潜在增长率大概是多少？您如何看待下半年的经济恢复对实现全年5.5%GDP增长目标的可能性的问题，付凌晖正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出，敬请期待～ ...展开全文c",
+        "url": "https://weibo.com/3919628624/LCmZ9sdGl?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对日本朝日新闻记者提出的如果没有新冠疫情的影响，中国经济潜在增长率大概是多少 您如何看待下半年的经济恢复对实现全年5.5%GDP增长目标的可能性的问题，付凌晖正在回答。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1657853743000,
+        "docDate": "2022-07-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "F1A7467C98A6B80DEB9B2F83BA259C1D",
+        "md5Url": "ECA68F648D2146B875FB574BE3B5FDE0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对日本朝日新闻记者提出的如果没有新冠疫情的影响，中国经济潜在增长率大概是多少 您如何看待下半年的经济恢复对实现全年5.5%GDP增长目标的可能性的问题，付凌晖正在回答。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1657853743,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "ECA68F648D2146B875FB574BE3B5FDE0",
+          "DRETITLE": "发布会微直播 答记者问 针对日本朝日新闻记者提出的如果没有新冠疫情的影响 中国经济潜在增长率大概是多少 您如何看待下半年的经济恢复对实现全年5 5 GDP增长目标的可能性的问题 付凌晖正在回答 更多直播内容详情 O网页链接 稍晚会有实录放出 敬请期待～ 展开全文c",
+          "URL": "https://weibo.com/3919628624/LCmZ9sdGl?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "F1A7467C98A6B80DEB9B2F83BA259C1D",
+          "DRETITLEO": "#发布会微直播# 【答记者问】针对日本朝日新闻记者提出的如果没有新冠疫情的影响，中国经济潜在增长率大概是多少？您如何看待下半年的经济恢复对实现全年5.5%GDP增长目标的可能性的问题，付凌晖正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出，敬请期待～ ...展开全文c",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对日本朝日新闻记者提出的如果没有新冠疫情的影响 中国经济潜在增长率大概是多少 您如何看待下半年的经济恢复对实现全年5 5 GDP增长目标的可能性的问题 付凌晖正在回答 更多直播内容详情 O网页链接 稍晚会有实录放出 敬请期待 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F9E4E81BE8A6ABADE24C956E01994BB1",
+      "timestamp": 1657762989000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F9E4E81BE8A6ABADE24C956E01994BB1",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【国家统计局农村司司长王贵荣解读夏粮生产情况】 2022年我国夏粮生产喜获丰收 今年以来，在以习近平同志为核心的党中央坚强领导下，各地区各部门高度重视粮食生产，严格落实粮食安全党政同责，持续加大对粮食生产的支持力度，克服冬小麦晚播、农资价格上涨和国内疫情多点散发等不利因素 ...展开全文c",
+        "title": "#权威解读# 【国家统计局农村司司长王贵荣解读夏粮<em>生产</em>情况】 2022年我国夏粮<em>生产</em>喜获丰收 今年以来，在以习近平同志为核心的党中央坚强领导下，各地区各部门高度重视粮食<em>生产</em>，严格落实粮食安全党政同责，持续加大对粮食<em>生产</em>的支持力度，克服冬小麦晚播、农资价格上涨和<em>国内</em>疫情多点散发等不利因素 ...展开全文c",
+        "url": "https://weibo.com/3919628624/LCd5cxaLF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【国家统计局农村司司长王贵荣解读夏粮<em>生产</em>情况】 2022年我国夏粮<em>生产</em>喜获丰收 今年以来，在以习近平同志为核心的党中央坚强领导下，各地区各部门高度重视粮食<em>生产</em>，严格落实粮食安全党政同责，持续加大对粮食<em>生产</em>的支持力度，克服冬小麦晚播、农资价格上涨和<em>国内</em>疫情多点散发等不利因素 ... 权威解读 【国家统计局农村司司长王贵荣解读夏粮<em>生产</em>情况】 2022年我国夏粮<em>生产</em>喜获丰收 今年以来，在以习近平同志为核心的党中央坚强领导下，各地区各部门高度重视粮食<em>生产</em>，严格落实粮食安全党政同责，持续加大对粮食<em>生产</em>的支持力度，克服冬小麦晚播、农资价格上涨和<em>国内</em>疫情多点散发等不利因素 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1657762989000,
+        "docDate": "2022-07-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "B1549140DA5AFFA3E6A52D42AE6CC5EF",
+        "md5Url": "DA5771127291CD2E9B2098C10BBA7222",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【国家统计局农村司司长王贵荣解读夏粮<em>生产</em>情况】 2022年我国夏粮<em>生产</em>喜获丰收 今年以来，在以习近平同志为核心的党中央坚强领导下，各地区各部门高度重视粮食<em>生产</em>，严格落实粮食安全党政同责，持续加大对粮食<em>生产</em>的支持力度，克服冬小麦晚播、农资价格上涨和<em>国内</em>疫情多点散发等不利因素 ... 权威解读 【国家统计局农村司司长王贵荣解读夏粮<em>生产</em>情况】 2022年我国夏粮<em>生产</em>喜获丰收 今年以来，在以习近平同志为核心的党中央坚强领导下，各地区各部门高度重视粮食<em>生产</em>，严格落实粮食安全党政同责，持续加大对粮食<em>生产</em>的支持力度，克服冬小麦晚播、农资价格上涨和<em>国内</em>疫情多点散发等不利因素 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1657762989,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "DA5771127291CD2E9B2098C10BBA7222",
+          "DRETITLE": "权威解读 国家统计局农村司司长王贵荣解读夏粮生产情况 2022年我国夏粮生产喜获丰收 今年以来 在以习近平同志为核心的党中央坚强领导下 各地区各部门高度重视粮食生产 严格落实粮食安全党政同责 持续加大对粮食生产的支持力度 克服冬小麦晚播 农资价格上涨和国内疫情多点散发等不利因素 展开全文c",
+          "URL": "https://weibo.com/3919628624/LCd5cxaLF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B1549140DA5AFFA3E6A52D42AE6CC5EF",
+          "DRETITLEO": "#权威解读# 【国家统计局农村司司长王贵荣解读夏粮生产情况】 2022年我国夏粮生产喜获丰收 今年以来，在以习近平同志为核心的党中央坚强领导下，各地区各部门高度重视粮食生产，严格落实粮食安全党政同责，持续加大对粮食生产的支持力度，克服冬小麦晚播、农资价格上涨和国内疫情多点散发等不利因素 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 国家统计局农村司司长王贵荣解读夏粮生产情况 2022年我国夏粮生产喜获丰收 今年以来 在以习近平同志为核心的党中央坚强领导下 各地区各部门高度重视粮食生产 严格落实粮食安全党政同责 持续加大对粮食生产的支持力度 克服冬小麦晚播 农资价格上涨和国内疫情多点散发等不利因素 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AC569968774C606478F1E1EC5159DDFA",
+      "timestamp": 1657123200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AC569968774C606478F1E1EC5159DDFA",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "为什么分省季度GDP的总和与国家季度的GDP数无法对应？",
+        "title": "为什么分省季度GDP的总和与国家季度的GDP数无法对应？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953798.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "由于驻外使领馆、部分不宜划分地区的保密单位和总部经济、军队武警等活动仅核算在全国，未核算到地区，因此地区<em>生产</em><em>总值</em>汇总数不会与<em>国内生产总值</em>完全相等，前者会略小于后者。 从国际上看，实行统一核算体制的国家，也是将一些经济活动仅核算在全国，不分至地区，从而地区<em>生产</em><em>总值</em>汇总数略小于<em>国内生产总值</em>。以美国为例，其2018年各州地区<em>生产</em><em>总值</em>汇总数比<em>国内生产总值</em>小1168亿美元，两者差率为0.6%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1657123200000,
+        "docDate": "2022-07-07",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_50.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "DBB917BEA154E3E76768A30A0FE4CA8E",
+        "md5Url": "AC569968774C606478F1E1EC5159DDFA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "由于驻外使领馆、部分不宜划分地区的保密单位和总部经济、军队武警等活动仅核算在全国，未核算到地区，因此地区<em>生产</em><em>总值</em>汇总数不会与<em>国内生产总值</em>完全相等，前者会略小于后者。 从国际上看，实行统一核算体制的国家，也是将一些经济活动仅核算在全国，不分至地区，从而地区<em>生产</em><em>总值</em>汇总数略小于<em>国内生产总值</em>。以美国为例，其2018年各州地区<em>生产</em><em>总值</em>汇总数比<em>国内生产总值</em>小1168亿美元，两者差率为0.6%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局国民经济核算司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953798.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "为什么分省季度GDP的总和与国家季度的GDP数无法对应？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_50.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1657123200,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "AC569968774C606478F1E1EC5159DDFA",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "为什么分省季度GDP的总和与国家季度的GDP数无法对应",
+          "MD5TITLE": "DBB917BEA154E3E76768A30A0FE4CA8E",
+          "QUICKDESCRIPTION": "由于驻外使领馆、部分不宜划分地区的保密单位和总部经济、军队武警等活动仅核算在全国，未核算到地区，因此地区生产总值汇总数不会与国内生产总值完全相等，前者会略小于后者。从国际上看，实行统一核算体制的国家，也是将一些经济活动仅核算在全国，不分至地区，从而地区生产总值汇总数略小于国内生产总值。以美国为例，其2018年各州地区生产总值汇总数比国内生产总值小1168亿美元，两者差率为0.6%。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "385638F12D42F1AC743684703811DA8F",
+      "timestamp": 1655277382000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "385638F12D42F1AC743684703811DA8F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【5月份工业生产呈恢复性增长】——国家统计局工业司副司长汤魏巍解读5月份工业生产数据 5月份，在党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，国内疫情防控形势总体向好，复工复产和物流保通保畅扎实推进，重点产业链供应链有序恢复，出口大幅回升，工业生产稳步恢复 ...展开全文c",
+        "title": "#权威解读# 【5月份工业<em>生产</em>呈恢复性增长】——国家统计局工业司副司长汤魏巍解读5月份工业<em>生产</em>数据 5月份，在党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，<em>国内</em>疫情防控形势总体向好，复工复产和物流保通保畅扎实推进，重点产业链供应链有序恢复，出口大幅回升，工业<em>生产</em>稳步恢复 ...展开全文c",
+        "url": "https://weibo.com/3919628624/LxPS3rn0P?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【5月份工业<em>生产</em>呈恢复性增长】——国家统计局工业司副司长汤魏巍解读5月份工业<em>生产</em>数据 5月份，在党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，<em>国内</em>疫情防控形势总体向好，复工复产和物流保通保畅扎实推进，重点产业链供应链有序恢复，出口大幅回升，工业<em>生产</em>稳步恢复 ... 权威解读 【5月份工业<em>生产</em>呈恢复性增长】——国家统计局工业司副司长汤魏巍解读5月份工业<em>生产</em>数据 5月份，在党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，<em>国内</em>疫情防控形势总体向好，复工复产和物流保通保畅扎实推进，重点产业链供应链有序恢复，出口大幅回升，工业<em>生产</em>稳步恢复 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1655277382000,
+        "docDate": "2022-06-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "60B8D4B19B8D6AD941E1E08ED9744BD2",
+        "md5Url": "8EDBDBAFC62C9133CE3E8F369546F5EA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【5月份工业<em>生产</em>呈恢复性增长】——国家统计局工业司副司长汤魏巍解读5月份工业<em>生产</em>数据 5月份，在党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，<em>国内</em>疫情防控形势总体向好，复工复产和物流保通保畅扎实推进，重点产业链供应链有序恢复，出口大幅回升，工业<em>生产</em>稳步恢复 ... 权威解读 【5月份工业<em>生产</em>呈恢复性增长】——国家统计局工业司副司长汤魏巍解读5月份工业<em>生产</em>数据 5月份，在党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，<em>国内</em>疫情防控形势总体向好，复工复产和物流保通保畅扎实推进，重点产业链供应链有序恢复，出口大幅回升，工业<em>生产</em>稳步恢复 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1655277382,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8EDBDBAFC62C9133CE3E8F369546F5EA",
+          "DRETITLE": "权威解读 5月份工业生产呈恢复性增长 国家统计局工业司副司长汤魏巍解读5月份工业生产数据 5月份 在党中央坚强领导下 各地区各部门高效统筹疫情防控和经济社会发展 国内疫情防控形势总体向好 复工复产和物流保通保畅扎实推进 重点产业链供应链有序恢复 出口大幅回升 工业生产稳步恢复 展开全文c",
+          "URL": "https://weibo.com/3919628624/LxPS3rn0P?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "60B8D4B19B8D6AD941E1E08ED9744BD2",
+          "DRETITLEO": "#权威解读# 【5月份工业生产呈恢复性增长】——国家统计局工业司副司长汤魏巍解读5月份工业生产数据 5月份，在党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，国内疫情防控形势总体向好，复工复产和物流保通保畅扎实推进，重点产业链供应链有序恢复，出口大幅回升，工业生产稳步恢复 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 5月份工业生产呈恢复性增长 国家统计局工业司副司长汤魏巍解读5月份工业生产数据 5月份 在党中央坚强领导下 各地区各部门高效统筹疫情防控和经济社会发展 国内疫情防控形势总体向好 复工复产和物流保通保畅扎实推进 重点产业链供应链有序恢复 出口大幅回升 工业生产稳步恢复 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0B4B002696DF93D5751BA02212E84094",
+      "timestamp": 1655258602000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0B4B002696DF93D5751BA02212E84094",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【5月份国民经济运行呈现恢复势头】5月份，面对复杂严峻的国际环境和国内疫情带来的严重冲击，在以习近平同志为核心的党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，着力稳定宏观经济大盘，国内疫情防控形势总体向好，生产需求逐步恢复，就业物价总体稳定，主要指标 ...展开全文c",
+        "title": "#发布会微直播# 【5月份国民经济运行呈现恢复势头】5月份，面对复杂严峻的国际环境和<em>国内</em>疫情带来的严重冲击，在以习近平同志为核心的党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，着力稳定宏观经济大盘，<em>国内</em>疫情防控形势总体向好，<em>生产</em>需求逐步恢复，就业物价总体稳定，主要指标 ...展开全文c",
+        "url": "https://weibo.com/3919628624/LxNP0pXrd?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【5月份国民经济运行呈现恢复势头】5月份，面对复杂严峻的国际环境和<em>国内</em>疫情带来的严重冲击，在以习近平同志为核心的党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，着力稳定宏观经济大盘，<em>国内</em>疫情防控形势总体向好，<em>生产</em>需求逐步恢复，就业物价总体稳定，主要指标 ... 发布会微直播 【5月份国民经济运行呈现恢复势头】5月份，面对复杂严峻的国际环境和<em>国内</em>疫情带来的严重冲击，在以习近平同志为核心的党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，着力稳定宏观经济大盘，<em>国内</em>疫情防控形势总体向好，<em>生产</em>需求逐步恢复，就业物价总体稳定，主要指标 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1655258602000,
+        "docDate": "2022-06-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "E18903785C275A3D88694F53FDB9DFC7",
+        "md5Url": "5A9BEAC1564BB217CC257C00E0CF2C8A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【5月份国民经济运行呈现恢复势头】5月份，面对复杂严峻的国际环境和<em>国内</em>疫情带来的严重冲击，在以习近平同志为核心的党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，着力稳定宏观经济大盘，<em>国内</em>疫情防控形势总体向好，<em>生产</em>需求逐步恢复，就业物价总体稳定，主要指标 ... 发布会微直播 【5月份国民经济运行呈现恢复势头】5月份，面对复杂严峻的国际环境和<em>国内</em>疫情带来的严重冲击，在以习近平同志为核心的党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，着力稳定宏观经济大盘，<em>国内</em>疫情防控形势总体向好，<em>生产</em>需求逐步恢复，就业物价总体稳定，主要指标 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1655258602,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "5A9BEAC1564BB217CC257C00E0CF2C8A",
+          "DRETITLE": "发布会微直播 5月份国民经济运行呈现恢复势头 5月份 面对复杂严峻的国际环境和国内疫情带来的严重冲击 在以习近平同志为核心的党中央坚强领导下 各地区各部门高效统筹疫情防控和经济社会发展 着力稳定宏观经济大盘 国内疫情防控形势总体向好 生产需求逐步恢复 就业物价总体稳定 主要指标 展开全文c",
+          "URL": "https://weibo.com/3919628624/LxNP0pXrd?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E18903785C275A3D88694F53FDB9DFC7",
+          "DRETITLEO": "#发布会微直播# 【5月份国民经济运行呈现恢复势头】5月份，面对复杂严峻的国际环境和国内疫情带来的严重冲击，在以习近平同志为核心的党中央坚强领导下，各地区各部门高效统筹疫情防控和经济社会发展，着力稳定宏观经济大盘，国内疫情防控形势总体向好，生产需求逐步恢复，就业物价总体稳定，主要指标 ...展开全文c",
+          "QUICKDESCRIPTION": "发布会微直播 5月份国民经济运行呈现恢复势头 5月份 面对复杂严峻的国际环境和国内疫情带来的严重冲击 在以习近平同志为核心的党中央坚强领导下 各地区各部门高效统筹疫情防控和经济社会发展 着力稳定宏观经济大盘 国内疫情防控形势总体向好 生产需求逐步恢复 就业物价总体稳定 主要指标 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "886A9254A33A3DCE1958FF1DD5F7413D",
+      "timestamp": 1653615737000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "886A9254A33A3DCE1958FF1DD5F7413D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【工业企业利润短期承压明显 积极因素支撑利润有望恢复】——国家统计局工业司高级统计师朱虹解读工业企业利润数据 4月份，国内部分地区疫情散发多发，给工业企业生产经营造成较大冲击，工业企业利润出现下降。面对严峻复杂形势，各地区、各部门认真贯彻落实党中央、国务院各项决策部署，积 ...展开全文c",
+        "title": "#权威解读# 【工业企业利润短期承压明显 积极因素支撑利润有望恢复】——国家统计局工业司高级统计师朱虹解读工业企业利润数据 4月份，<em>国内</em>部分地区疫情散发多发，给工业企业<em>生产</em>经营造成较大冲击，工业企业利润出现下降。面对严峻复杂形势，各地区、各部门认真贯彻落实党中央、国务院各项决策部署，积 ...展开全文c",
+        "url": "https://weibo.com/3919628624/LuUz19s7P?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【工业企业利润短期承压明显 积极因素支撑利润有望恢复】——国家统计局工业司高级统计师朱虹解读工业企业利润数据 4月份，<em>国内</em>部分地区疫情散发多发，给工业企业<em>生产</em>经营造成较大冲击，工业企业利润出现下降。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1653615737000,
+        "docDate": "2022-05-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "3F0473B391345C53D53FF775D39966DD",
+        "md5Url": "DDC3206B2DD4DEC7F7AE2B917F0ED4F3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【工业企业利润短期承压明显 积极因素支撑利润有望恢复】——国家统计局工业司高级统计师朱虹解读工业企业利润数据 4月份，<em>国内</em>部分地区疫情散发多发，给工业企业<em>生产</em>经营造成较大冲击，工业企业利润出现下降。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1653615737,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "DDC3206B2DD4DEC7F7AE2B917F0ED4F3",
+          "DRETITLE": "权威解读 工业企业利润短期承压明显 积极因素支撑利润有望恢复 国家统计局工业司高级统计师朱虹解读工业企业利润数据 4月份 国内部分地区疫情散发多发 给工业企业生产经营造成较大冲击 工业企业利润出现下降 面对严峻复杂形势 各地区 各部门认真贯彻落实党中央 国务院各项决策部署 积 展开全文c",
+          "URL": "https://weibo.com/3919628624/LuUz19s7P?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "3F0473B391345C53D53FF775D39966DD",
+          "DRETITLEO": "#权威解读# 【工业企业利润短期承压明显 积极因素支撑利润有望恢复】——国家统计局工业司高级统计师朱虹解读工业企业利润数据 4月份，国内部分地区疫情散发多发，给工业企业生产经营造成较大冲击，工业企业利润出现下降。面对严峻复杂形势，各地区、各部门认真贯彻落实党中央、国务院各项决策部署，积 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 工业企业利润短期承压明显 积极因素支撑利润有望恢复 国家统计局工业司高级统计师朱虹解读工业企业利润数据 4月份 国内部分地区疫情散发多发 给工业企业生产经营造成较大冲击 工业企业利润出现下降 面对严峻复杂形势 各地区 各部门认真贯彻落实党中央 国务院各项决策部署 积 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EE6613387AAE30FDB0F82B63A52E6EEF",
+      "timestamp": 1652668787000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EE6613387AAE30FDB0F82B63A52E6EEF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【答记者问】针对澎湃新闻记者提出的目前部分人对我国今年GDP增速5.5%的目标看衰，认为我国今年GDP增速将在4.2%-4.8%之间，您如何看待这一情况的问题，付凌晖正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出",
+        "title": "#发布会微直播# 【答记者问】针对澎湃新闻记者提出的目前部分人对我国今年GDP增速5.5%的目标看衰，认为我国今年GDP增速将在4.2%-4.8%之间，您如何看待这一情况的问题，付凌晖正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出",
+        "url": "https://weibo.com/3919628624/LtfeTnk5u?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对澎湃新闻记者提出的目前部分人对我国今年GDP增速5.5%的目标看衰，认为我国今年GDP增速将在4.2%-4.8%之间，您如何看待这一情况的问题，付凌晖正在回答。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1652668787000,
+        "docDate": "2022-05-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "C2D17E48F90499CB74F9F0D1FA253430",
+        "md5Url": "3D4B97F77E7B62096C624611F129CA93",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对澎湃新闻记者提出的目前部分人对我国今年GDP增速5.5%的目标看衰，认为我国今年GDP增速将在4.2%-4.8%之间，您如何看待这一情况的问题，付凌晖正在回答。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1652668787,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3D4B97F77E7B62096C624611F129CA93",
+          "DRETITLE": "发布会微直播 答记者问 针对澎湃新闻记者提出的目前部分人对我国今年GDP增速5 5 的目标看衰 认为我国今年GDP增速将在4 2 -4 8 之间 您如何看待这一",
+          "URL": "https://weibo.com/3919628624/LtfeTnk5u?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "C2D17E48F90499CB74F9F0D1FA253430",
+          "DRETITLEO": "#发布会微直播# 【答记者问】针对澎湃新闻记者提出的目前部分人对我国今年GDP增速5.5%的目标看衰，认为我国今年GDP增速将在4.2%-4.8%之间，您如何看待这一情况的问题，付凌晖正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对澎湃新闻记者提出的目前部分人对我国今年GDP增速5 5 的目标看衰 认为我国今年GDP增速将在4 2 -4 8 之间 您如何看待这一情况的问题 付凌晖正在回答 更多直播内容详情 O网页链接 稍晚会有实录放出 敬请期待",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5D604CE773DBC8F9C5BA70B8BC469E5E",
+      "timestamp": 1650335220000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5D604CE773DBC8F9C5BA70B8BC469E5E",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2022年一季度国内生产总值初步核算结果",
+        "title": "【数据发布】2022年一季度<em>国内生产总值</em>初步核算结果",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651454413&idx=1&sn=28b6b1d510958c8a9178dba40a5c374f&chksm=bd1f07c08a688ed6b3330aa742f07f8722ea16e709cd267aded3d09a1772b4fa75dc724d184e&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1650335220000,
+        "docDate": "2022-04-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "6BBEAB8B9DCB2E2CC51F936C45A977E1",
+        "md5Url": "AA9FC7FA48AC859A3D520B7FA3291214",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1650335220,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "AA9FC7FA48AC859A3D520B7FA3291214",
+          "DRETITLE": "数据发布 2022年一季度国内生产总值初步核算结果",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651454413&idx=1&sn=28b6b1d510958c8a9178dba40a5c374f&chksm=bd1f07c08a688ed6b3330aa742f07f8722ea16e709cd267aded3d09a1772b4fa75dc724d184e&scene=0",
+          "MD5TITLE": "6BBEAB8B9DCB2E2CC51F936C45A977E1",
+          "DRETITLEO": "【数据发布】2022年一季度国内生产总值初步核算结果",
+          "QUICKDESCRIPTION": "根据有关基础资料和国内生产总值 GDP 核算方法 经初步核算 我国2022年一季度 GDP核算结果如下 注 1 绝对额按现价计算 增长速度按不变价计算 2 三次产业分类依据国家统计局2018年修订的 三次产业划分规定 3 行业分类采用 国民经济行业分类 GB T 4754 2017 4 本表GDP总量数据中 有的不等于各产业 行业 之和 是由于数值修约误差所致 未作机械调整 其他相关核算结果详见国家统计局数据库 http data stats gov cn 附件 中国GDP季度核算说明 1 季度",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D79567127759BBFF9AFA4BA1037E7B33",
+      "timestamp": 1650332118000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D79567127759BBFF9AFA4BA1037E7B33",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年一季度国内生产总值初步核算结果】根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 详见：O网页链接",
+        "title": "#数据发布# 【2022年一季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Lp8hjlEIf?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2022年一季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 数据发布 【2022年一季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1650332118000,
+        "docDate": "2022-04-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "8490480ABF7A190D45BD50DDE56A4378",
+        "md5Url": "C95EA38DD421C2DEAB7B2BA804A7F519",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2022年一季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 数据发布 【2022年一季度<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1650332118,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C95EA38DD421C2DEAB7B2BA804A7F519",
+          "DRETITLE": "数据发布 2022年一季度国内生产总值初步核算结果 根据有关基础资料和国内生产总值 GDP 核算方法 经初步核算 我国2022年一季度 GDP核算结果如下 详见",
+          "URL": "https://weibo.com/3919628624/Lp8hjlEIf?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8490480ABF7A190D45BD50DDE56A4378",
+          "DRETITLEO": "#数据发布# 【2022年一季度国内生产总值初步核算结果】根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2022年一季度国内生产总值初步核算结果 根据有关基础资料和国内生产总值 GDP 核算方法 经初步核算 我国2022年一季度 GDP核算结果如下 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "05E4637CC2E49947D2953CB85E5FEE99",
+      "timestamp": 1650331800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "05E4637CC2E49947D2953CB85E5FEE99",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年一季度国内生产总值初步核算结果",
+        "title": "2022年一季度<em>国内生产总值</em>初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901436.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203608377326672.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1650331800000,
+        "docDate": "2022-04-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_56.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "60B48DE1EBB60A3847D4E33C2B610142",
+        "md5Url": "05E4637CC2E49947D2953CB85E5FEE99",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901436.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年一季度国内生产总值初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203608377326672.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_56.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1650331800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "05E4637CC2E49947D2953CB85E5FEE99",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年一季度国内生产总值初步核算结果",
+          "MD5TITLE": "60B48DE1EBB60A3847D4E33C2B610142",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2022年一季度 GDP核算结果如下。 表1　 2022年一季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） GDP 270178 4.8 第一产业 10954 6.0 第二产业 106187 5.8 第三产业 153037 4.0 　 　 农林牧渔业 11570 6.1 工业 93551 6.4 #制造业 78098 6.1 建筑业 13029 1.4 批发和零售业 25920 3.9 交通运输、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "42B500EC96FF825C7BF8B93C49E809EF",
+      "timestamp": 1650250887000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "42B500EC96FF825C7BF8B93C49E809EF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【答记者问】针对记者提出的目前国内的农业生产情况如何，能否满足人们生产生活需要的问题，付凌晖正在回答。更多直播内容详情： O网页链接稍晚会有实录放出，敬请期待～",
+        "title": "#发布会微直播# 【答记者问】针对记者提出的目前<em>国内</em>的农业<em>生产</em>情况如何，能否满足人们<em>生产</em>生活需要的问题，付凌晖正在回答。更多直播内容详情： O网页链接稍晚会有实录放出，敬请期待～",
+        "url": "https://weibo.com/3919628624/LoZpN7Kbf?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对记者提出的目前<em>国内</em>的农业<em>生产</em>情况如何，能否满足人们<em>生产</em>生活需要的问题，付凌晖正在回答。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1650250887000,
+        "docDate": "2022-04-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "B5FF7AC2D7C98DE526D6D1FF320D5545",
+        "md5Url": "4DBF406B47F3EF6AA2EBC16EF756EBF4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对记者提出的目前<em>国内</em>的农业<em>生产</em>情况如何，能否满足人们<em>生产</em>生活需要的问题，付凌晖正在回答。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1650250887,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4DBF406B47F3EF6AA2EBC16EF756EBF4",
+          "DRETITLE": "发布会微直播 答记者问 针对记者提出的目前国内的农业生产情况如何 能否满足人们生产生活需要的问题 付凌晖正在回答 更多直播内容详情 O网页链接稍晚会有实录放出 ",
+          "URL": "https://weibo.com/3919628624/LoZpN7Kbf?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B5FF7AC2D7C98DE526D6D1FF320D5545",
+          "DRETITLEO": "#发布会微直播# 【答记者问】针对记者提出的目前国内的农业生产情况如何，能否满足人们生产生活需要的问题，付凌晖正在回答。更多直播内容详情： O网页链接稍晚会有实录放出，敬请期待～",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对记者提出的目前国内的农业生产情况如何 能否满足人们生产生活需要的问题 付凌晖正在回答 更多直播内容详情 O网页链接稍晚会有实录放出 敬请期待",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "575754B37513CDFED62D7A83F3A0748D",
+      "timestamp": 1647309718000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "575754B37513CDFED62D7A83F3A0748D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【1-2月份国民经济恢复好于预期】1-2月份，面对复杂严峻的国际环境和国内疫情散发等多重考验，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，科学统筹疫情防控和经济社会发展，坚持稳字当头、稳中求进，国民经济持续稳定恢复，生产需求较 ...展开全文c",
+        "title": "#发布会微直播# 【1-2月份国民经济恢复好于预期】1-2月份，面对复杂严峻的国际环境和<em>国内</em>疫情散发等多重考验，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，科学统筹疫情防控和经济社会发展，坚持稳字当头、稳中求进，国民经济持续稳定恢复，<em>生产</em>需求较 ...展开全文c",
+        "url": "https://weibo.com/3919628624/LjOuL39qj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【1-2月份国民经济恢复好于预期】1-2月份，面对复杂严峻的国际环境和<em>国内</em>疫情散发等多重考验，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，科学统筹疫情防控和经济社会发展，坚持稳字当头、稳中求进，国民经济持续稳定恢复，<em>生产</em>需求较 ... 发布会微直播 【1-2月份国民经济恢复好于预期】1-2月份，面对复杂严峻的国际环境和<em>国内</em>疫情散发等多重考验，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，科学统筹疫情防控和经济社会发展，坚持稳字当头、稳中求进，国民经济持续稳定恢复，<em>生产</em>需求较 ... 展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1647309718000,
+        "docDate": "2022-03-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "87781D3749A522A1F250ABE2C3FA87A0",
+        "md5Url": "618B46564E1CA209FD3C384642965A4D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【1-2月份国民经济恢复好于预期】1-2月份，面对复杂严峻的国际环境和<em>国内</em>疫情散发等多重考验，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，科学统筹疫情防控和经济社会发展，坚持稳字当头、稳中求进，国民经济持续稳定恢复，<em>生产</em>需求较 ... 发布会微直播 【1-2月份国民经济恢复好于预期】1-2月份，面对复杂严峻的国际环境和<em>国内</em>疫情散发等多重考验，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，科学统筹疫情防控和经济社会发展，坚持稳字当头、稳中求进，国民经济持续稳定恢复，<em>生产</em>需求较 ... 展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1647309718,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "618B46564E1CA209FD3C384642965A4D",
+          "DRETITLE": "发布会微直播 1-2月份国民经济恢复好于预期 1-2月份 面对复杂严峻的国际环境和国内疫情散发等多重考验 在以习近平同志为核心的党中央坚强领导下 各地区各部门认真贯彻落实党中央 国务院决策部署 科学统筹疫情防控和经济社会发展 坚持稳字当头 稳中求进 国民经济持续稳定恢复 生产需求较 展开全文c",
+          "URL": "https://weibo.com/3919628624/LjOuL39qj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "87781D3749A522A1F250ABE2C3FA87A0",
+          "DRETITLEO": "#发布会微直播# 【1-2月份国民经济恢复好于预期】1-2月份，面对复杂严峻的国际环境和国内疫情散发等多重考验，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，科学统筹疫情防控和经济社会发展，坚持稳字当头、稳中求进，国民经济持续稳定恢复，生产需求较 ...展开全文c",
+          "QUICKDESCRIPTION": "发布会微直播 1-2月份国民经济恢复好于预期 1-2月份 面对复杂严峻的国际环境和国内疫情散发等多重考验 在以习近平同志为核心的党中央坚强领导下 各地区各部门认真贯彻落实党中央 国务院决策部署 科学统筹疫情防控和经济社会发展 坚持稳字当头 稳中求进 国民经济持续稳定恢复 生产需求较 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5EDA1D77293E5C3616C6A2260778C94D",
+      "timestamp": 1643165580000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5EDA1D77293E5C3616C6A2260778C94D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2021年我国R&D经费为2.79万亿 与GDP之比达2.44%",
+        "title": "【数据发布】2021年我国R&D经费为2.79万亿 与GDP之比达2.44%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651423247&idx=1&sn=effd4de23a8e1a1ef60e13c0d47015b3&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "初步测算，2021年我国全社会研究与试验发展（R D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R D经费与<em>国内生产总值</em>（GDP）之比达到2.44%，比上年提高0.03个百分点[1]。 图1 2016-2021年全国R D经费及投入强度情况 图2 2016-2021年全国基础研究经费及占R D经费比重情况 注：[1]根据国家统计局对2020年GDP最终核实结果，2020年R D经费与GDP之比即投入强度相应修订为2.41%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1643165580000,
+        "docDate": "2022-01-26",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "08C462E1A7D2636DD5DDE16E108B2FB9",
+        "md5Url": "F2EB997DA603F72C351FAE7CB94469AF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "初步测算，2021年我国全社会研究与试验发展（R D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R D经费与<em>国内生产总值</em>（GDP）之比达到2.44%，比上年提高0.03个百分点[1]。 图1 2016-2021年全国R D经费及投入强度情况 图2 2016-2021年全国基础研究经费及占R D经费比重情况 注：[1]根据国家统计局对2020年GDP最终核实结果，2020年R D经费与GDP之比即投入强度相应修订为2.41%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1643165580,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "F2EB997DA603F72C351FAE7CB94469AF",
+          "DRETITLE": "数据发布 2021年我国R D经费为2 79万亿 与GDP之比达2 44",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651423247&idx=1&sn=effd4de23a8e1a1ef60e13c0d47015b3&scene=0",
+          "MD5TITLE": "08C462E1A7D2636DD5DDE16E108B2FB9",
+          "DRETITLEO": "【数据发布】2021年我国R&D经费为2.79万亿 与GDP之比达2.44%",
+          "QUICKDESCRIPTION": "初步测算 2021年我国全社会研究与试验发展 R D 经费投入为27864亿元 比上年增长14 2 扣除价格因素 实际增长9 4 R D经费与国内生产总值 GDP 之比达到2 44 比上年提高0 03个百分点 1 其中 基础研究经费为1696亿元 增长15 6 增速比全社会R D经费快1 4个百分点 占R D经费比重为6 09 比上年提高0 08个百分点 图1 2016-2021年全国R D经费及投入强度情况 图2 2016-",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "582AEB6AA9A515048593929D4CC3BC83",
+      "timestamp": 1643161279000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "582AEB6AA9A515048593929D4CC3BC83",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2021年我国R&D经费投入保持较快增长】——国家统计局社科文司统计师张启龙解读相关数据 2021年，我国科技创新能力持续增强，全社会研究与试验发展（R&D）经费投入保持较快增长，R&D经费与GDP之比持续提升。 详见：O网页链接",
+        "title": "#权威解读# 【2021年我国R&D经费投入保持较快增长】——国家统计局社科文司统计师张启龙解读相关数据 2021年，我国科技创新能力持续增强，全社会研究与试验发展（R&D）经费投入保持较快增长，R&D经费与GDP之比持续提升。 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/LcvQxsdgJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2021年我国R D经费投入保持较快增长】——国家统计局社科文司统计师张启龙解读相关数据 2021年，我国科技创新能力持续增强，全社会研究与试验发展（R D）经费投入保持较快增长，R D经费与GDP之比持续提升。 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1643161279000,
+        "docDate": "2022-01-26",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "1463DA6B627D73EB27A157AD7043CBB9",
+        "md5Url": "8785FFB26F9766DD04EF49CDCDB7C6EE",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2021年我国R D经费投入保持较快增长】——国家统计局社科文司统计师张启龙解读相关数据 2021年，我国科技创新能力持续增强，全社会研究与试验发展（R D）经费投入保持较快增长，R D经费与GDP之比持续提升。 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1643161279,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8785FFB26F9766DD04EF49CDCDB7C6EE",
+          "DRETITLE": "权威解读 2021年我国R D经费投入保持较快增长 国家统计局社科文司统计师张启龙解读相关数据 2021年 我国科技创新能力持续增强 全社会研究与试验发展 R D 经费投入保持较快增长 R D经费与GDP之比持续提升 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/LcvQxsdgJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1463DA6B627D73EB27A157AD7043CBB9",
+          "DRETITLEO": "#权威解读# 【2021年我国R&D经费投入保持较快增长】——国家统计局社科文司统计师张启龙解读相关数据 2021年，我国科技创新能力持续增强，全社会研究与试验发展（R&D）经费投入保持较快增长，R&D经费与GDP之比持续提升。 详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 2021年我国R D经费投入保持较快增长 国家统计局社科文司统计师张启龙解读相关数据 2021年 我国科技创新能力持续增强 全社会研究与试验发展 R D 经费投入保持较快增长 R D经费与GDP之比持续提升 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2F58E58987AA00E1D7174391ED1CB636",
+      "timestamp": 1643161042000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2F58E58987AA00E1D7174391ED1CB636",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2021年我国R&D经费为2.79万亿 与GDP之比达2.44%】初步测算，2021年我国全社会研究与试验发展（R&D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R&D经费与国内生产总值",
+        "title": "#数据发布# 【2021年我国R&D经费为2.79万亿 与GDP之比达2.44%】初步测算，2021年我国全社会研究与试验发展（R&D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R&D经费与<em>国内生产总值</em>",
+        "url": "https://weibo.com/3919628624/LcvOW7UXA?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2021年我国R D经费为2.79万亿 与GDP之比达2.44%】初步测算，2021年我国全社会研究与试验发展（R D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R D经费与<em>国内生产总值</em>（GDP）之比达到2.44%，比上年提高0.03个百分点[1]。 数据发布 【2021年我国R D经费为2.79万亿 与GDP之比达2.44%】初步测算，2021年我国全社会研究与试验发展（R D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R D经费与<em>国内生产总值</em>（GDP）之比达到2.44%，比上年提高0.03个百分点[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1643161042000,
+        "docDate": "2022-01-26",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "5322FBBB4DC00D8E07DC64A4AB9EBFD7",
+        "md5Url": "E1F110FEEC2458F34B53B29B0C00D49E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2021年我国R D经费为2.79万亿 与GDP之比达2.44%】初步测算，2021年我国全社会研究与试验发展（R D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R D经费与<em>国内生产总值</em>（GDP）之比达到2.44%，比上年提高0.03个百分点[1]。 数据发布 【2021年我国R D经费为2.79万亿 与GDP之比达2.44%】初步测算，2021年我国全社会研究与试验发展（R D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R D经费与<em>国内生产总值</em>（GDP）之比达到2.44%，比上年提高0.03个百分点[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1643161042,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E1F110FEEC2458F34B53B29B0C00D49E",
+          "DRETITLE": "数据发布 2021年我国R D经费为2 79万亿 与GDP之比达2 44 初步测算 2021年我国全社会研究与试验发展 R D 经费投入为27864亿元 比上年",
+          "URL": "https://weibo.com/3919628624/LcvOW7UXA?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "5322FBBB4DC00D8E07DC64A4AB9EBFD7",
+          "DRETITLEO": "#数据发布# 【2021年我国R&D经费为2.79万亿 与GDP之比达2.44%】初步测算，2021年我国全社会研究与试验发展（R&D）经费投入为27864亿元，比上年增长14.2%，扣除价格因素，实际增长9.4%；R&D经费与国内生产总值",
+          "QUICKDESCRIPTION": "数据发布 2021年我国R D经费为2 79万亿 与GDP之比达2 44 初步测算 2021年我国全社会研究与试验发展 R D 经费投入为27864亿元 比上年增长14 2 扣除价格因素 实际增长9 4 R D经费与国内生产总值 GDP 之比达到2 44 比上年提高0 03个百分点 1 其中 基础研究经费为1696亿元 增长15 6 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 20,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 11,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 32,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "科技"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "住户调查"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 30,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "专题"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

@@ -1,0 +1,2163 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 69,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "居民消费价格",
+    "originQt": "居民消费价格",
+    "showQt": "居民消费价格",
+    "encodeQt": "%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "居民消费价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "居民": "NN"
+      },
+      {
+        "消费": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "居民消费价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "居民消费价格",
+      "居民",
+      "消费",
+      "价格"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 12.350975,
+        "id": "600d4753-4a79-4ba8-824e-0b300d4015ee",
+        "name": "各种价格指数",
+        "showTitle": "",
+        "url": "https://file.so-gov.cn/wedatas/pro/custom/906fb12c3e74bdd5225a8b50343f17bc/",
+        "iframeHeight": 422,
+        "sourceUrl": "",
+        "source": "<div class=\"laiyuan\" style=\"font-size: 16px;text-align: right;\">来源：   <a href=\"https://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0901&sj=2022\" target=\"_blank\">国家数据</a></div>",
+        "h5": 0,
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "59F845B5E04578073ED2E7C63D4BD649",
+      "timestamp": 1765333043000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "59F845B5E04578073ED2E7C63D4BD649",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2025年11月份居民消费价格同比上涨0.7%",
+        "title": "【数据发布】2025年11月份<em>居民消费价格</em>同比上涨0.7%",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651688878&idx=1&sn=dbf829d0378f6a36d9fd9c619fb9ad16",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比上涨0.3%，影响CPI（<em>居民消费价格</em>指数）上涨约0.09个百分点。 其中，城市上涨0.7%，农村上涨0.4%；食品<em>价格</em>上涨0.2%，非食品<em>价格</em>上涨0.8%；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.7%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1765333043000,
+        "docDate": "2025-12-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "BC7E7F74A02346144266B2181A973605",
+        "md5Url": "A95E1AE67FA2E88D63E49867E196E553",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比上涨0.3%，影响CPI（<em>居民消费价格</em>指数）上涨约0.09个百分点。 其中，城市上涨0.7%，农村上涨0.4%；食品<em>价格</em>上涨0.2%，非食品<em>价格</em>上涨0.8%；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.7%。...",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651688878&idx=1&sn=dbf829d0378f6a36d9fd9c619fb9ad16",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【数据发布】2025年11月份居民消费价格同比上涨0.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1765333043,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A95E1AE67FA2E88D63E49867E196E553",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "【数据发布】2025年11月份居民消费价格同比上涨0.7%",
+          "MD5TITLE": "BC7E7F74A02346144266B2181A973605",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FBA17A355C564362D54042FF7208026C",
+      "timestamp": 1765333039000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FBA17A355C564362D54042FF7208026C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2025年11月份CPI同比涨幅扩大 核心CPI继续上涨】2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份，居民消费持续恢复，居民消费价格指数（CPI）环比略降0.1%，同比上涨0.7%，扣除食品和能源价格的核心CPI同比上涨1.2%。受国内部分行业供需结构优化、国际大宗商品价格传导等因素影响， ...展开全文c",
+        "title": "#权威解读# 【2025年11月份CPI同比涨幅扩大 核心CPI继续上涨】2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份，<em>居民</em><em>消费</em>持续恢复，<em>居民消费价格</em>指数（CPI）环比略降0.1%，同比上涨0.7%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%。受国内部分行业供需结构优化、国际大宗商品<em>价格</em>传导等因素影响， ...展开全文c",
+        "url": "https://weibo.com/3919628624/QhJ5FtDH5?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2025年11月份CPI同比涨幅扩大 核心CPI继续上涨】2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份，<em>居民</em><em>消费</em>持续恢复，<em>居民消费价格</em>指数（CPI）环比略降0.1%，同比上涨0.7%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%。 权威解读 【2025年11月份CPI同比涨幅扩大 核心CPI继续上涨】2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份，<em>居民</em><em>消费</em>持续恢复，<em>居民消费价格</em>指数（CPI）环比略降0.1%，同比上涨0.7%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1765333039000,
+        "docDate": "2025-12-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "4270AD2382E446B1B188E689285DCBD1",
+        "md5Url": "CFB8F1A6FBF7652EF0FAEABED25D91EA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2025年11月份CPI同比涨幅扩大 核心CPI继续上涨】2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份，<em>居民</em><em>消费</em>持续恢复，<em>居民消费价格</em>指数（CPI）环比略降0.1%，同比上涨0.7%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%。 权威解读 【2025年11月份CPI同比涨幅扩大 核心CPI继续上涨】2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份，<em>居民</em><em>消费</em>持续恢复，<em>居民消费价格</em>指数（CPI）环比略降0.1%，同比上涨0.7%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1765333039,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "CFB8F1A6FBF7652EF0FAEABED25D91EA",
+          "DRETITLE": "权威解读 2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份 居民消费持续恢复 居民消费价格指数 CPI 环比略降0 1 同比上涨0 7 扣除食品和能源价格的核心CPI同比上涨1 2 受国内部分行业供需结构优化 国际大宗商品价格传导等因素影响 展开全文c",
+          "URL": "https://weibo.com/3919628624/QhJ5FtDH5?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4270AD2382E446B1B188E689285DCBD1",
+          "DRETITLEO": "#权威解读# 【2025年11月份CPI同比涨幅扩大 核心CPI继续上涨】2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份，居民消费持续恢复，居民消费价格指数（CPI）环比略降0.1%，同比上涨0.7%，扣除食品和能源价格的核心CPI同比上涨1.2%。受国内部分行业供需结构优化、国际大宗商品价格传导等因素影响， ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 2025年11月份CPI同比涨幅扩大 核心CPI继续上涨 11月份 居民消费持续恢复 居民消费价格指数 CPI 环比略降0 1 同比上涨0 7 扣除食品和能源价格的核心CPI同比上涨1 2 受国内部分行业供需结构优化 国际大宗商品价格传导等因素影响 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "656F67E9CFE23B4139259127FDCDD1E7",
+      "timestamp": 1765332895000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "656F67E9CFE23B4139259127FDCDD1E7",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2025年11月份居民消费价格同比上涨0.7%】2025年11月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.4%；食品价格上涨0.2%，非食品价格上涨0.8%；消费品价格上涨0.6%，服务价格上涨0.7%。1—11月平均，全国居民消费价格与上年同期持平。详见：O网页链接",
+        "title": "#数据发布# 【2025年11月份<em>居民消费价格</em>同比上涨0.7%】2025年11月份，全国<em>居民消费价格</em>同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.4%；食品<em>价格</em>上涨0.2%，非食品<em>价格</em>上涨0.8%；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.7%。1—11月平均，全国<em>居民消费价格</em>与上年同期持平。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/QhJ4HyWcW?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市上涨0.7%，农村上涨0.4%；食品<em>价格</em>上涨0.2%，非食品<em>价格</em>上涨0.8%；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.7%。 数据发布 【2025年11月份<em>居民消费价格</em>同比上涨0.7%】2025年11月份，全国<em>居民消费价格</em>同比上涨0.7%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1765332895000,
+        "docDate": "2025-12-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "02E09C9D1B22815B0D9024C7C39670C7",
+        "md5Url": "EDEF3F9FED7B98464AFC3C395E48E4C9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨0.7%，农村上涨0.4%；食品<em>价格</em>上涨0.2%，非食品<em>价格</em>上涨0.8%；<em>消费</em>品<em>价格</em>上涨0.6%，服务<em>价格</em>上涨0.7%。 数据发布 【2025年11月份<em>居民消费价格</em>同比上涨0.7%】2025年11月份，全国<em>居民消费价格</em>同比上涨0.7%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1765332895,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "EDEF3F9FED7B98464AFC3C395E48E4C9",
+          "DRETITLE": "数据发布 2025年11月份居民消费价格同比上涨0 7 2025年11月份 全国居民消费价格同比上涨0 7 其中 城市上涨0 7 农村上涨0 4 食品价格上涨0 2 非食品价格上涨0 8 消费品价格上涨0 6 服务价格上涨0 7 1 11月平均 全国居民消费价格与上年同期持平 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/QhJ4HyWcW?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "02E09C9D1B22815B0D9024C7C39670C7",
+          "DRETITLEO": "#数据发布# 【2025年11月份居民消费价格同比上涨0.7%】2025年11月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.4%；食品价格上涨0.2%，非食品价格上涨0.8%；消费品价格上涨0.6%，服务价格上涨0.7%。1—11月平均，全国居民消费价格与上年同期持平。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2025年11月份居民消费价格同比上涨0 7 2025年11月份 全国居民消费价格同比上涨0 7 其中 城市上涨0 7 农村上涨0 4 食品价格上涨0 2 非食品价格上涨0 8 消费品价格上涨0 6 服务价格上涨0 7 1 11月平均 全国居民消费价格与上年同期持平 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1E7640C73142E5FB47B241424F7A699F",
+      "timestamp": 1765330200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1E7640C73142E5FB47B241424F7A699F",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年11月份居民消费价格同比上涨0.7%",
+        "title": "2025年11月份<em>居民消费价格</em>同比上涨0.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251210_1962015.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比上涨0.3%，影响CPI（<em>居民消费价格</em>指数）上涨约0.09个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202512/P020251210332636080485.xlsx": "CPI附表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比上涨0.3%，影响CPI（<em>居民消费价格</em>指数）上涨约0.09个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1765330200000,
+        "docDate": "2025-12-10",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/6518E5CE9F4970F3DDE329BBF691147F.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_7.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "1DE41EC60ABAD32E5431CA692C76F215",
+        "md5Url": "1E7640C73142E5FB47B241424F7A699F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比上涨0.3%，影响CPI（<em>居民消费价格</em>指数）上涨约0.09个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202512/t20251210_1962015.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年11月份居民消费价格同比上涨0.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/6518E5CE9F4970F3DDE329BBF691147F.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202512/P020251210332636080485.xlsx": "CPI附表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_7.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1765330200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "1E7640C73142E5FB47B241424F7A699F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年11月份居民消费价格同比上涨0 7",
+          "MD5TITLE": "1DE41EC60ABAD32E5431CA692C76F215",
+          "QUICKDESCRIPTION": "　　2025年11月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.4%；食品价格上涨0.2%，非食品价格上涨0.8%；消费品价格上涨0.6%，服务价格上涨0.7%。1—11月平均，全国居民消费价格与上年同期持平。   　　11月份，全国居民消费价格环比下降0.1%。其中，城市下降0.1%，农村持平；食品价格上涨0.5%，非食品价格下降0.2%；消费品价格上涨0.1%，服务价格下降0.4%。     　　一、各类商品及服务价格同比变动情况   　　11月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "37A7BBF5E34AD12ADB101176EFDDB3D4",
+      "timestamp": 1762742610000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "37A7BBF5E34AD12ADB101176EFDDB3D4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统统告诉你#【丰收季，解码CPI篮子里的鲜果价格】瓜果飘香的金秋，当您挑选着琳琅满目的应季鲜果时，CPI（居民消费价格指数）调查的价格调查员正穿梭于集市商超，追踪第一手鲜果行情。想知道您关心的“果篮子”价格从何而来？请紧随他们的脚步一同解码~O网页链接",
+        "title": "#统统告诉你#【丰收季，解码CPI篮子里的鲜果<em>价格</em>】瓜果飘香的金秋，当您挑选着琳琅满目的应季鲜果时，CPI（<em>居民消费价格</em>指数）调查的<em>价格</em>调查员正穿梭于集市商超，追踪第一手鲜果行情。想知道您关心的“果篮子”<em>价格</em>从何而来？请紧随他们的脚步一同解码~O网页链接",
+        "url": "https://weibo.com/3919628624/Qdarp2yRw?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "统统告诉你 【丰收季，解码CPI篮子里的鲜果<em>价格</em>】瓜果飘香的金秋，当您挑选着琳琅满目的应季鲜果时，CPI（<em>居民消费价格</em>指数）调查的<em>价格</em>调查员正穿梭于集市商超，追踪第一手鲜果行情。 统统告诉你 【丰收季，解码CPI篮子里的鲜果<em>价格</em>】瓜果飘香的金秋，当您挑选着琳琅满目的应季鲜果时，CPI（<em>居民消费价格</em>指数）调查的<em>价格</em>调查员正穿梭于集市商超，追踪第一手鲜果行情。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1762742610000,
+        "docDate": "2025-11-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "02FB592BC4AB37B78FB1C69635F50FEF",
+        "md5Url": "37584BD07E0E050C60A68A56738DCA57",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统统告诉你 【丰收季，解码CPI篮子里的鲜果<em>价格</em>】瓜果飘香的金秋，当您挑选着琳琅满目的应季鲜果时，CPI（<em>居民消费价格</em>指数）调查的<em>价格</em>调查员正穿梭于集市商超，追踪第一手鲜果行情。 统统告诉你 【丰收季，解码CPI篮子里的鲜果<em>价格</em>】瓜果飘香的金秋，当您挑选着琳琅满目的应季鲜果时，CPI（<em>居民消费价格</em>指数）调查的<em>价格</em>调查员正穿梭于集市商超，追踪第一手鲜果行情。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1762742610,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "37584BD07E0E050C60A68A56738DCA57",
+          "DRETITLE": "统统告诉你 丰收季 解码CPI篮子里的鲜果价格 瓜果飘香的金秋 当您挑选着琳琅满目的应季鲜果时 CPI 居民消费价格指数 调查的价格调查员正穿梭于集市商超 追踪第一手鲜果行情 想知道您关心的 果篮子 价格从何而来 请紧随他们的脚步一同解码~O网页链接",
+          "URL": "https://weibo.com/3919628624/Qdarp2yRw?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "02FB592BC4AB37B78FB1C69635F50FEF",
+          "DRETITLEO": "#统统告诉你#【丰收季，解码CPI篮子里的鲜果价格】瓜果飘香的金秋，当您挑选着琳琅满目的应季鲜果时，CPI（居民消费价格指数）调查的价格调查员正穿梭于集市商超，追踪第一手鲜果行情。想知道您关心的“果篮子”价格从何而来？请紧随他们的脚步一同解码~O网页链接",
+          "QUICKDESCRIPTION": "统统告诉你 丰收季 解码CPI篮子里的鲜果价格 瓜果飘香的金秋 当您挑选着琳琅满目的应季鲜果时 CPI 居民消费价格指数 调查的价格调查员正穿梭于集市商超 追踪第一手鲜果行情 想知道您关心的 果篮子 价格从何而来 请紧随他们的脚步一同解码 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4FCDF73C09EFF8C458169D561B0110AF",
+      "timestamp": 1762654845000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4FCDF73C09EFF8C458169D561B0110AF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2025年10月份CPI由降转涨 PPI降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份，扩内需等政策措施持续显效，叠加国庆、中秋长假带动，居民消费价格指数（CPI）环比上涨0.2%，同比上涨0.2%，扣除食品和能源价格的核心CPI同比上涨1.2%，涨幅连续第6个月 ...展开全文c",
+        "title": "#权威解读# 【2025年10月份CPI由降转涨 PPI降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份，扩内需等政策措施持续显效，叠加国庆、中秋长假带动，<em>居民消费价格</em>指数（CPI）环比上涨0.2%，同比上涨0.2%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%，涨幅连续第6个月 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Qd0RFr9FF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2025年10月份CPI由降转涨 PPI降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份，扩内需等政策措施持续显效，叠加国庆、中秋长假带动，<em>居民消费价格</em>指数（CPI）环比上涨0.2%，同比上涨0.2%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%，涨幅连续第6个月 ...展开全文c 权威解读 【2025年10月份CPI由降转涨 PPI降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份，扩内需等政策措施持续显效，叠加国庆、中秋长假带动，<em>居民消费价格</em>指数（CPI）环比上涨0.2%，同比上涨0.2%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%，涨幅连续第6个月 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1762654845000,
+        "docDate": "2025-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "EE8C2459535E0FEE2C8C9F8AB52883A3",
+        "md5Url": "30F5392464D4B6406CFFFFAD4A04AD19",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2025年10月份CPI由降转涨 PPI降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份，扩内需等政策措施持续显效，叠加国庆、中秋长假带动，<em>居民消费价格</em>指数（CPI）环比上涨0.2%，同比上涨0.2%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%，涨幅连续第6个月 ...展开全文c 权威解读 【2025年10月份CPI由降转涨 PPI降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份，扩内需等政策措施持续显效，叠加国庆、中秋长假带动，<em>居民消费价格</em>指数（CPI）环比上涨0.2%，同比上涨0.2%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.2%，涨幅连续第6个月 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1762654845,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "30F5392464D4B6406CFFFFAD4A04AD19",
+          "DRETITLE": "权威解读 2025年10月份CPI由降转涨 PPI降幅收窄 国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份 扩内需等政策措施持续显效 叠加国庆 中秋长假带动 居民消费价格指数 CPI 环比上涨0 2 同比上涨0 2 扣除食品和能源价格的核心CPI同比上涨1 2 涨幅连续第6个月 展开全文c",
+          "URL": "https://weibo.com/3919628624/Qd0RFr9FF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "EE8C2459535E0FEE2C8C9F8AB52883A3",
+          "DRETITLEO": "#权威解读# 【2025年10月份CPI由降转涨 PPI降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份，扩内需等政策措施持续显效，叠加国庆、中秋长假带动，居民消费价格指数（CPI）环比上涨0.2%，同比上涨0.2%，扣除食品和能源价格的核心CPI同比上涨1.2%，涨幅连续第6个月 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2025年10月份CPI由降转涨 PPI降幅收窄 国家统计局城市司首席统计师董莉娟解读2025年10月份CPI和PPI数据 10月份 扩内需等政策措施持续显效 叠加国庆 中秋长假带动 居民消费价格指数 CPI 环比上涨0 2 同比上涨0 2 扣除食品和能源价格的核心CPI同比上涨1 2 涨幅连续第6个月 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4407E0D8473CD8E25DFF14C977C876D0",
+      "timestamp": 1762654818000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4407E0D8473CD8E25DFF14C977C876D0",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2025年10月份居民消费价格同比上涨0.2%】2025年10月份，全国居民消费价格同比上涨0.2%。其中，城市上涨0.3%，农村下降0.2%；食品价格下降2.9%，非食品价格上涨0.9%；消费品价格下降0.2%，服务价格上涨0.8%。1—10月平均，全国居民消费价格比上年同期下降0.1%。详见： ...展开全文c",
+        "title": "#数据发布# 【2025年10月份<em>居民消费价格</em>同比上涨0.2%】2025年10月份，全国<em>居民消费价格</em>同比上涨0.2%。其中，城市上涨0.3%，农村下降0.2%；食品<em>价格</em>下降2.9%，非食品<em>价格</em>上涨0.9%；<em>消费</em>品<em>价格</em>下降0.2%，服务<em>价格</em>上涨0.8%。1—10月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Qd0RugPBD?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市上涨0.3%，农村下降0.2%；食品<em>价格</em>下降2.9%，非食品<em>价格</em>上涨0.9%；<em>消费</em>品<em>价格</em>下降0.2%，服务<em>价格</em>上涨0.8%。 数据发布 【2025年10月份<em>居民消费价格</em>同比上涨0.2%】2025年10月份，全国<em>居民消费价格</em>同比上涨0.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1762654818000,
+        "docDate": "2025-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "9676BE87ACDE4B8F63A043238EC1B808",
+        "md5Url": "EF5A18A2ABF2DD09381FA000123408FD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨0.3%，农村下降0.2%；食品<em>价格</em>下降2.9%，非食品<em>价格</em>上涨0.9%；<em>消费</em>品<em>价格</em>下降0.2%，服务<em>价格</em>上涨0.8%。 数据发布 【2025年10月份<em>居民消费价格</em>同比上涨0.2%】2025年10月份，全国<em>居民消费价格</em>同比上涨0.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1762654818,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "EF5A18A2ABF2DD09381FA000123408FD",
+          "DRETITLE": "数据发布 2025年10月份居民消费价格同比上涨0 2 2025年10月份 全国居民消费价格同比上涨0 2 其中 城市上涨0 3 农村下降0 2 食品价格下降2 9 非食品价格上涨0 9 消费品价格下降0 2 服务价格上涨0 8 1 10月平均 全国居民消费价格比上年同期下降0 1 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Qd0RugPBD?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "9676BE87ACDE4B8F63A043238EC1B808",
+          "DRETITLEO": "#数据发布# 【2025年10月份居民消费价格同比上涨0.2%】2025年10月份，全国居民消费价格同比上涨0.2%。其中，城市上涨0.3%，农村下降0.2%；食品价格下降2.9%，非食品价格上涨0.9%；消费品价格下降0.2%，服务价格上涨0.8%。1—10月平均，全国居民消费价格比上年同期下降0.1%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2025年10月份居民消费价格同比上涨0 2 2025年10月份 全国居民消费价格同比上涨0 2 其中 城市上涨0 3 农村下降0 2 食品价格下降2 9 非食品价格上涨0 9 消费品价格下降0 2 服务价格上涨0 8 1 10月平均 全国居民消费价格比上年同期下降0 1 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9819702936BD89FE2AD92D18512794E0",
+      "timestamp": 1762651800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9819702936BD89FE2AD92D18512794E0",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年10月份居民消费价格同比上涨0.2%",
+        "title": "2025年10月份<em>居民消费价格</em>同比上涨0.2%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202511/t20251109_1961826.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 10月份，食品烟酒类<em>价格</em>同比下降1.6%，影响CPI（<em>居民消费价格</em>指数）下降约0.46个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202511/P020251109334031246265.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 10月份，食品烟酒类<em>价格</em>同比下降1.6%，影响CPI（<em>居民消费价格</em>指数）下降约0.46个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1762651800000,
+        "docDate": "2025-11-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/478409C504DAFB9CEF5F31FCFBC5E643.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_8.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "4580AD68155B88C9A3C371271B2C5969",
+        "md5Url": "9819702936BD89FE2AD92D18512794E0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 10月份，食品烟酒类<em>价格</em>同比下降1.6%，影响CPI（<em>居民消费价格</em>指数）下降约0.46个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202511/t20251109_1961826.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年10月份居民消费价格同比上涨0.2%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/478409C504DAFB9CEF5F31FCFBC5E643.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202511/P020251109334031246265.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_8.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1762651800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "9819702936BD89FE2AD92D18512794E0",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年10月份居民消费价格同比上涨0 2",
+          "MD5TITLE": "4580AD68155B88C9A3C371271B2C5969",
+          "QUICKDESCRIPTION": "　　2025年10月份，全国居民消费价格同比上涨0.2%。其中，城市上涨0.3%，农村下降0.2%；食品价格下降2.9%，非食品价格上涨0.9%；消费品价格下降0.2%，服务价格上涨0.8%。1—10月平均，全国居民消费价格比上年同期下降0.1%。   　　10月份，全国居民消费价格环比上涨0.2%。其中，城市上涨0.2%，农村上涨0.1%；食品价格上涨0.3%，非食品价格上涨0.2%；消费品价格上涨0.2%，服务价格上涨0.2%。     　　一、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C94A414D965847EF71BA8425440C6157",
+      "timestamp": 1760929690000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C94A414D965847EF71BA8425440C6157",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【王有捐：前三季度核心CPI持续回升 PPI降幅有所收窄】今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为的宏观政策，纵深推进全国统一大市场建设，消费领域价格保持平稳，核心CPI持续回升，生产领域价格降幅有所收窄。详见：O网页链接",
+        "title": "#权威解读# 【王有捐：前三季度核心CPI持续回升 PPI降幅有所收窄】今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为的宏观政策，纵深推进全国统一大市场建设，<em>消费</em>领域<em>价格</em>保持平稳，核心CPI持续回升，生产领域<em>价格</em>降幅有所收窄。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Q9YCZgZXm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【王有捐：前三季度核心CPI持续回升 PPI降幅有所收窄】今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为的宏观政策，纵深推进全国统一大市场建设，<em>消费</em>领域<em>价格</em>保持平稳，核心CPI持续回升，生产领域<em>价格</em>降幅有所收窄。 权威解读 【王有捐：前三季度核心CPI持续回升 PPI降幅有所收窄】今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为的宏观政策，纵深推进全国统一大市场建设，<em>消费</em>领域<em>价格</em>保持平稳，核心CPI持续回升，生产领域<em>价格</em>降幅有所收窄。详见：O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1760929690000,
+        "docDate": "2025-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "72766B21CD1AE2985CE429BC49BA7176",
+        "md5Url": "9447103A265CB3824CC7841E7FED7818",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【王有捐：前三季度核心CPI持续回升 PPI降幅有所收窄】今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为的宏观政策，纵深推进全国统一大市场建设，<em>消费</em>领域<em>价格</em>保持平稳，核心CPI持续回升，生产领域<em>价格</em>降幅有所收窄。 权威解读 【王有捐：前三季度核心CPI持续回升 PPI降幅有所收窄】今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为的宏观政策，纵深推进全国统一大市场建设，<em>消费</em>领域<em>价格</em>保持平稳，核心CPI持续回升，生产领域<em>价格</em>降幅有所收窄。详见：O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1760929690,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "9447103A265CB3824CC7841E7FED7818",
+          "DRETITLE": "权威解读 王有捐 前三季度核心CPI持续回升 PPI降幅有所收窄 今年以来 各地区各部门认真贯彻落实党中央 国务院决策部署 加紧实施更加积极有为的宏观政策 纵深推进全国统一大市场建设 消费领域价格保持平稳 核心CPI持续回升 生产领域价格降幅有所收窄 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/Q9YCZgZXm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "72766B21CD1AE2985CE429BC49BA7176",
+          "DRETITLEO": "#权威解读# 【王有捐：前三季度核心CPI持续回升 PPI降幅有所收窄】今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为的宏观政策，纵深推进全国统一大市场建设，消费领域价格保持平稳，核心CPI持续回升，生产领域价格降幅有所收窄。详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 王有捐 前三季度核心CPI持续回升 PPI降幅有所收窄 今年以来 各地区各部门认真贯彻落实党中央 国务院决策部署 加紧实施更加积极有为的宏观政策 纵深推进全国统一大市场建设 消费领域价格保持平稳 核心CPI持续回升 生产领域价格降幅有所收窄 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4BC2D9E59680D437B07F3F6AA9D4A47B",
+      "timestamp": 1760929664000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4BC2D9E59680D437B07F3F6AA9D4A47B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【张毅：前三季度居民收入和消费支出稳定增长】前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，居民收入和消费支出稳定增长。详见： ...展开全文c",
+        "title": "#权威解读# 【张毅：前三季度<em>居民</em>收入和<em>消费</em>支出稳定增长】前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，<em>居民</em>收入和<em>消费</em>支出稳定增长。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Q9YCOfuvc?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【张毅：前三季度<em>居民</em>收入和<em>消费</em>支出稳定增长】前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，<em>居民</em>收入和<em>消费</em>支出稳定增长。 权威解读 【张毅：前三季度<em>居民</em>收入和<em>消费</em>支出稳定增长】前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，<em>居民</em>收入和<em>消费</em>支出稳定增长。详见： ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1760929664000,
+        "docDate": "2025-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "A7996AB56B6F629C125C35686E54B9AB",
+        "md5Url": "C6C2ADADF950BE0A2DA0427A96F4DF91",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【张毅：前三季度<em>居民</em>收入和<em>消费</em>支出稳定增长】前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，<em>居民</em>收入和<em>消费</em>支出稳定增长。 权威解读 【张毅：前三季度<em>居民</em>收入和<em>消费</em>支出稳定增长】前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，<em>居民</em>收入和<em>消费</em>支出稳定增长。详见： ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1760929664,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C6C2ADADF950BE0A2DA0427A96F4DF91",
+          "DRETITLE": "权威解读 张毅 前三季度居民收入和消费支出稳定增长 前三季度 各地区各部门认真贯彻落实党中央 国务院决策部署 加紧实施更加积极有为宏观政策 着力稳就业 稳企业 稳市场 稳预期 国民经济运行总体平稳 就业形势总体稳定 民生保障有力有效 居民收入和消费支出稳定增长 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Q9YCOfuvc?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A7996AB56B6F629C125C35686E54B9AB",
+          "DRETITLEO": "#权威解读# 【张毅：前三季度居民收入和消费支出稳定增长】前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，居民收入和消费支出稳定增长。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 张毅 前三季度居民收入和消费支出稳定增长 前三季度 各地区各部门认真贯彻落实党中央 国务院决策部署 加紧实施更加积极有为宏观政策 着力稳就业 稳企业 稳市场 稳预期 国民经济运行总体平稳 就业形势总体稳定 民生保障有力有效 居民收入和消费支出稳定增长 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B4A7A17BD963C8FF511B31395FC86F17",
+      "timestamp": 1760929256000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B4A7A17BD963C8FF511B31395FC86F17",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2025年前三季度居民收入和消费支出情况】前三季度，全国居民人均可支配收入32509元，比上年同期名义增长5.1%，扣除价格因素，实际增长5.2%。分城乡看，城镇居民人均可支配收入42991元，增长（以下如无特别说明，均为同比名义增长）4.4%，扣除价格因素，实际增长4.5%；农村居民人均可支配 ...展开全文c",
+        "title": "#数据发布# 【2025年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。分城乡看，城镇<em>居民</em>人均可支配收入42991元，增长（以下如无特别说明，均为同比名义增长）4.4%，扣除<em>价格</em>因素，实际增长4.5%；农村<em>居民</em>人均可支配 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Q9YA3beqN?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2025年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。 数据发布 【2025年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。分城乡看，城镇<em>居民</em>人均可支配收入42991元，增长（以下如无特别说明，均为同比名义增长）4.4%，扣除<em>价格</em>因素，实际增长4.5%；农村<em>居民</em>人均可支配 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1760929256000,
+        "docDate": "2025-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "C977CB7AB7A3BCA8F33C52B1FFBE0CE1",
+        "md5Url": "55F43CFA2DF09559D0ED40A9833CD5F5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2025年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。 数据发布 【2025年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。分城乡看，城镇<em>居民</em>人均可支配收入42991元，增长（以下如无特别说明，均为同比名义增长）4.4%，扣除<em>价格</em>因素，实际增长4.5%；农村<em>居民</em>人均可支配 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1760929256,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "55F43CFA2DF09559D0ED40A9833CD5F5",
+          "DRETITLE": "数据发布 2025年前三季度居民收入和消费支出情况 前三季度 全国居民人均可支配收入32509元 比上年同期名义增长5 1 扣除价格因素 实际增长5 2 分城乡看 城镇居民人均可支配收入42991元 增长 以下如无特别说明 均为同比名义增长 4 4 扣除价格因素 实际增长4 5 农村居民人均可支配 展开全文c",
+          "URL": "https://weibo.com/3919628624/Q9YA3beqN?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "C977CB7AB7A3BCA8F33C52B1FFBE0CE1",
+          "DRETITLEO": "#数据发布# 【2025年前三季度居民收入和消费支出情况】前三季度，全国居民人均可支配收入32509元，比上年同期名义增长5.1%，扣除价格因素，实际增长5.2%。分城乡看，城镇居民人均可支配收入42991元，增长（以下如无特别说明，均为同比名义增长）4.4%，扣除价格因素，实际增长4.5%；农村居民人均可支配 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2025年前三季度居民收入和消费支出情况 前三季度 全国居民人均可支配收入32509元 比上年同期名义增长5 1 扣除价格因素 实际增长5 2 分城乡看 城镇居民人均可支配收入42991元 增长 以下如无特别说明 均为同比名义增长 4 4 扣除价格因素 实际增长4 5 农村居民人均可支配 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4579BD65108FD0E782DC683C304C7BC3",
+      "timestamp": 1760925600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4579BD65108FD0E782DC683C304C7BC3",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年前三季度居民收入和消费支出情况",
+        "title": "2025年前三季度<em>居民</em>收入和<em>消费</em>支出情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202510/t20251020_1961604.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 图2 2025年前三季度<em>居民</em>人均<em>消费</em>支出及构成 表1 2025年前三季度全国<em>居民</em>收支主要数据 指标 绝对量（元） 同比增长（%） （括号内为实际增速） （一）全国<em>居民</em>人均可支配收入 32509 5.1（5.2） 按常住地分： 城镇<em>居民</em> 42991 4.4（4.5） 农村<em>居民</em> 17686 5.7（6.0） 按收入来源分： 工资性收入 18659 5.4 经营净收入 5199 5.3 财产净收入 2628 1.7 转移净收入 6023 5.3 （二）全国<em>居民</em>人均可支配收入中位数 27149 4.5 按常住地分： 城镇<em>居民</em> 38224 3.9 农村<em>居民</em> 15036 5.1 （三）全国<em>居民</em>人均<em>消费</em>支出 21575 4.6（4.7） 按常住地分： 城镇<em>居民</em> 26510 3.8（3.9） 农村<em>居民</em> 14597 5.5（5.8） 按<em>消费</em>类别分： 食品烟酒 6359 2.5 衣着 1126 1.6 居住 4665 2.3 生活用品及服务 1224 9.6 交通通信 3103 8.3 教育文化娱乐 2531 10.3 医疗保健 1928 1.5 其他用品及服务 639 10.3 注 ①<em>居民</em>人均可支配收入名义增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入-1） 100%；<em>居民</em>人均可支配收入实际增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入/报告期<em>居民消费价格</em>指数 100-1） 100%。 ②全国<em>居民</em>人均收支数据是根据全国十六万户抽样调查基础数据，依据每个样本户所代表的户数加权汇总而成。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202510/P020251020323914334260.xls": "JMSZ"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 图2 2025年前三季度<em>居民</em>人均<em>消费</em>支出及构成 表1 2025年前三季度全国<em>居民</em>收支主要数据 指标 绝对量（元） 同比增长（%） （括号内为实际增速） （一）全国<em>居民</em>人均可支配收入 32509 5.1（5.2） 按常住地分： 城镇<em>居民</em> 42991 4.4（4.5） 农村<em>居民</em> 17686 5.7（6.0） 按收入来源分： 工资性收入 18659 5.4 经营净收入 5199 5.3 财产净收入 2628 1.7 转移净收入 6023 5.3 （二）全国<em>居民</em>人均可支配收入中位数 27149 4.5 按常住地分： 城镇<em>居民</em> 38224 3.9 农村<em>居民</em> 15036 5.1 （三）全国<em>居民</em>人均<em>消费</em>支出 21575 4.6（4.7） 按常住地分： 城镇<em>居民</em> 26510 3.8（3.9） 农村<em>居民</em> 14597 5.5（5.8） 按<em>消费</em>类别分： 食品烟酒 6359 2.5 衣着 1126 1.6 居住 4665 2.3 生活用品及服务 1224 9.6 交通通信 3103 8.3 教育文化娱乐 2531 10.3 医疗保健 1928 1.5 其他用品及服务 639 10.3 注 ①<em>居民</em>人均可支配收入名义增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入-1） 100%；<em>居民</em>人均可支配收入实际增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入/报告期<em>居民消费价格</em>指数 100-1） 100%。 ②全国<em>居民</em>人均收支数据是根据全国十六万户抽样调查基础数据，依据每个样本户所代表的户数加权汇总而成。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1760925600000,
+        "docDate": "2025-10-20",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/6C4FE8D91261650834906D6A7437FA82.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_9.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "912D9E948D65861D75E95921DC754757",
+        "md5Url": "4579BD65108FD0E782DC683C304C7BC3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 图2 2025年前三季度<em>居民</em>人均<em>消费</em>支出及构成 表1 2025年前三季度全国<em>居民</em>收支主要数据 指标 绝对量（元） 同比增长（%） （括号内为实际增速） （一）全国<em>居民</em>人均可支配收入 32509 5.1（5.2） 按常住地分： 城镇<em>居民</em> 42991 4.4（4.5） 农村<em>居民</em> 17686 5.7（6.0） 按收入来源分： 工资性收入 18659 5.4 经营净收入 5199 5.3 财产净收入 2628 1.7 转移净收入 6023 5.3 （二）全国<em>居民</em>人均可支配收入中位数 27149 4.5 按常住地分： 城镇<em>居民</em> 38224 3.9 农村<em>居民</em> 15036 5.1 （三）全国<em>居民</em>人均<em>消费</em>支出 21575 4.6（4.7） 按常住地分： 城镇<em>居民</em> 26510 3.8（3.9） 农村<em>居民</em> 14597 5.5（5.8） 按<em>消费</em>类别分： 食品烟酒 6359 2.5 衣着 1126 1.6 居住 4665 2.3 生活用品及服务 1224 9.6 交通通信 3103 8.3 教育文化娱乐 2531 10.3 医疗保健 1928 1.5 其他用品及服务 639 10.3 注 ①<em>居民</em>人均可支配收入名义增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入-1） 100%；<em>居民</em>人均可支配收入实际增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入/报告期<em>居民消费价格</em>指数 100-1） 100%。 ②全国<em>居民</em>人均收支数据是根据全国十六万户抽样调查基础数据，依据每个样本户所代表的户数加权汇总而成。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202510/t20251020_1961604.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年前三季度居民收入和消费支出情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/6C4FE8D91261650834906D6A7437FA82.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202510/P020251020323914334260.xls": "JMSZ"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_9.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1760925600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "4579BD65108FD0E782DC683C304C7BC3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年前三季度居民收入和消费支出情况",
+          "MD5TITLE": "912D9E948D65861D75E95921DC754757",
+          "QUICKDESCRIPTION": "　　一、居民收入情况   　　前三季度，全国居民人均可支配收入32509元，比上年同期名义增长5.1%，扣除价格因素，实际增长5.2%。分城乡看，城镇居民人均可支配收入42991元，增长（以下如无特别说明，均为同比名义增长）4.4%，扣除价格因素，实际增长4.5%；农村居民人均可支配收入17686元，增长5.7%，扣除价格因素，实际增长6.0%。   　　按收入来源分，前三季度，全国居民人均工资性收入18659元，增长5.4%，占可支配收入的比重为57.4%；人均经营净收入5199元，增长5.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FE85AB65DCC11EBF4B8C5A18EB288720",
+      "timestamp": 1760925600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FE85AB65DCC11EBF4B8C5A18EB288720",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "张毅：前三季度居民收入和消费支出稳定增长",
+        "title": "张毅：前三季度<em>居民</em>收入和<em>消费</em>支出稳定增长",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202510/t20251020_1961615.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，<em>居民</em>收入和<em>消费</em>支出稳定增长。 一、<em>居民</em>收入平稳增长，农村<em>居民</em>收入增长继续快于城镇<em>居民</em> 前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。 一、<em>居民</em>收入平稳增长，农村<em>居民</em>收入增长继续快于城镇<em>居民</em> 前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1760925600000,
+        "docDate": "2025-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_7.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "F753C36A3E07DAAB769DA7B5F0D3BD29",
+        "md5Url": "FE85AB65DCC11EBF4B8C5A18EB288720",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，<em>居民</em>收入和<em>消费</em>支出稳定增长。 一、<em>居民</em>收入平稳增长，农村<em>居民</em>收入增长继续快于城镇<em>居民</em> 前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。 一、<em>居民</em>收入平稳增长，农村<em>居民</em>收入增长继续快于城镇<em>居民</em> 前三季度，全国<em>居民</em>人均可支配收入32509元，比上年同期名义增长5.1%，扣除<em>价格</em>因素，实际增长5.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202510/t20251020_1961615.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "张毅：前三季度居民收入和消费支出稳定增长",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_7.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1760925600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "FE85AB65DCC11EBF4B8C5A18EB288720",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "张毅 前三季度居民收入和消费支出稳定增长",
+          "MD5TITLE": "F753C36A3E07DAAB769DA7B5F0D3BD29",
+          "QUICKDESCRIPTION": "　　前三季度，各地区各部门认真贯彻落实党中央、国务院决策部署，加紧实施更加积极有为宏观政策，着力稳就业、稳企业、稳市场、稳预期，国民经济运行总体平稳，就业形势总体稳定，民生保障有力有效，居民收入和消费支出稳定增长。   　　一、居民收入平稳增长，农村居民收入增长继续快于城镇居民   　　前三季度，全国居民人均可支配收入32509元，比上年同期名义增长5.1%，扣除价格因素，实际增长5.2%。分城乡看，城镇居民人均可支配收入42991元，比上年同期名义增长4.4%，扣除价格因素，实际增长4.5%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4757E44B4C587FE46237019D4E470BE3",
+      "timestamp": 1760494364000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4757E44B4C587FE46237019D4E470BE3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄】——国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份，消费市场运行总体平稳，居民消费价格指数（CPI）环比上涨0.1%，同比下降0.3%，扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅连续第5个月扩大。全国 ...展开全文c",
+        "title": "#权威解读# 【2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄】——国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比上涨0.1%，同比下降0.3%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.0%，涨幅连续第5个月扩大。全国 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Q9d809Xk1?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄】——国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比上涨0.1%，同比下降0.3%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.0%，涨幅连续第5个月扩大。 权威解读 【2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄】——国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比上涨0.1%，同比下降0.3%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.0%，涨幅连续第5个月扩大。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1760494364000,
+        "docDate": "2025-10-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "A171210A77538C2D401F847FF1F8D2D3",
+        "md5Url": "D4EF5CA526AC1513725B4164903508BD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄】——国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比上涨0.1%，同比下降0.3%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.0%，涨幅连续第5个月扩大。 权威解读 【2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄】——国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比上涨0.1%，同比下降0.3%，扣除食品和能源<em>价格</em>的核心CPI同比上涨1.0%，涨幅连续第5个月扩大。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1760494364,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D4EF5CA526AC1513725B4164903508BD",
+          "DRETITLE": "权威解读 2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄 国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份 消费市场运行总体平稳 居民消费价格指数 CPI 环比上涨0 1 同比下降0 3 扣除食品和能源价格的核心CPI同比上涨1 0 涨幅连续第5个月扩大 全国 展开全文c",
+          "URL": "https://weibo.com/3919628624/Q9d809Xk1?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A171210A77538C2D401F847FF1F8D2D3",
+          "DRETITLEO": "#权威解读# 【2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄】——国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份，消费市场运行总体平稳，居民消费价格指数（CPI）环比上涨0.1%，同比下降0.3%，扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅连续第5个月扩大。全国 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2025年9月份核心CPI同比涨幅持续扩大 PPI同比降幅继续收窄 国家统计局城市司首席统计师董莉娟解读2025年9月份CPI和PPI数据 9月份 消费市场运行总体平稳 居民消费价格指数 CPI 环比上涨0 1 同比下降0 3 扣除食品和能源价格的核心CPI同比上涨1 0 涨幅连续第5个月扩大 全国 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C012C102BEC0888694A6220CAE0726DD",
+      "timestamp": 1760494114000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C012C102BEC0888694A6220CAE0726DD",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%】2025年9月份，全国居民消费价格同比下降0.3%。其中，城市下降0.2%，农村下降0.5%；食品价格下降4.4%，非食品价格上涨0.7%；消费品价格下降0.8%，服务价格上涨0.6%。1—9月平均，全国居民消费价格比上年同期下降0.1%。详见： ...展开全文c",
+        "title": "#数据发布# 【2025年9月份<em>居民消费价格</em>同比下降0.3% 环比上涨0.1%】2025年9月份，全国<em>居民消费价格</em>同比下降0.3%。其中，城市下降0.2%，农村下降0.5%；食品<em>价格</em>下降4.4%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.8%，服务<em>价格</em>上涨0.6%。1—9月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Q9d6jmwxn?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市下降0.2%，农村下降0.5%；食品<em>价格</em>下降4.4%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.8%，服务<em>价格</em>上涨0.6%。1—9月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。 其中，城市下降0.2%，农村下降0.5%；食品<em>价格</em>下降4.4%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.8%，服务<em>价格</em>上涨0.6%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1760494114000,
+        "docDate": "2025-10-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "DCA23BB1911D02204034FBF86BB1278B",
+        "md5Url": "78E2B189698503D248538122247048C3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市下降0.2%，农村下降0.5%；食品<em>价格</em>下降4.4%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.8%，服务<em>价格</em>上涨0.6%。1—9月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。 其中，城市下降0.2%，农村下降0.5%；食品<em>价格</em>下降4.4%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.8%，服务<em>价格</em>上涨0.6%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1760494114,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "78E2B189698503D248538122247048C3",
+          "DRETITLE": "数据发布 2025年9月份居民消费价格同比下降0 3 环比上涨0 1 2025年9月份 全国居民消费价格同比下降0 3 其中 城市下降0 2 农村下降0 5 食品价格下降4 4 非食品价格上涨0 7 消费品价格下降0 8 服务价格上涨0 6 1 9月平均 全国居民消费价格比上年同期下降0 1 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Q9d6jmwxn?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "DCA23BB1911D02204034FBF86BB1278B",
+          "DRETITLEO": "#数据发布# 【2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%】2025年9月份，全国居民消费价格同比下降0.3%。其中，城市下降0.2%，农村下降0.5%；食品价格下降4.4%，非食品价格上涨0.7%；消费品价格下降0.8%，服务价格上涨0.6%。1—9月平均，全国居民消费价格比上年同期下降0.1%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2025年9月份居民消费价格同比下降0 3 环比上涨0 1 2025年9月份 全国居民消费价格同比下降0 3 其中 城市下降0 2 农村下降0 5 食品价格下降4 4 非食品价格上涨0 7 消费品价格下降0 8 服务价格上涨0 6 1 9月平均 全国居民消费价格比上年同期下降0 1 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CEA98AC85AF4503F9BF2B59EAB3AA649",
+      "timestamp": 1760491800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CEA98AC85AF4503F9BF2B59EAB3AA649",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%",
+        "title": "2025年9月份<em>居民消费价格</em>同比下降0.3% 环比上涨0.1%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202510/t20251015_1961521.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.2%，农村下降0.5%；食品<em>价格</em>下降4.4%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.8%，服务<em>价格</em>上涨0.6%。1—9月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202510/P020251015330699097892.xlsx": "CPI表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.2%，农村下降0.5%；食品<em>价格</em>下降4.4%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.8%，服务<em>价格</em>上涨0.6%。1—9月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1760491800000,
+        "docDate": "2025-10-15",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/1581A016BCC3FDCFC21CEA7BEAC30491.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_9.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "D4AA6A252F3012CF77F9D3CC99D052BF",
+        "md5Url": "CEA98AC85AF4503F9BF2B59EAB3AA649",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.2%，农村下降0.5%；食品<em>价格</em>下降4.4%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.8%，服务<em>价格</em>上涨0.6%。1—9月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202510/t20251015_1961521.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/1581A016BCC3FDCFC21CEA7BEAC30491.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202510/P020251015330699097892.xlsx": "CPI表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_9.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1760491800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "CEA98AC85AF4503F9BF2B59EAB3AA649",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年9月份居民消费价格同比下降0 3 环比上涨0 1",
+          "MD5TITLE": "D4AA6A252F3012CF77F9D3CC99D052BF",
+          "QUICKDESCRIPTION": "　　2025年9月份，全国居民消费价格同比下降0.3%。其中，城市下降0.2%，农村下降0.5%；食品价格下降4.4%，非食品价格上涨0.7%；消费品价格下降0.8%，服务价格上涨0.6%。1—9月平均，全国居民消费价格比上年同期下降0.1%。   　　9月份，全国居民消费价格环比上涨0.1%。其中，城市持平，农村上涨0.2%；食品价格上涨0.7%，非食品价格下降0.1%；消费品价格上涨0.3%，服务价格下降0.3%。     　　一、各类商品及服务价格同比变动情况   　　9月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2D5A48CFE7026CC0DEADC55C6BCCEDF8",
+      "timestamp": 1759161600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2D5A48CFE7026CC0DEADC55C6BCCEDF8",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "居民人均食品消费量来源于全国住户收支与生活状况调查,主要使用记账方式采集，记录家庭日常购买的食品消费数量。请问这种统计规模与方法量化的人均家庭食品消费总量以及粮、油、菜、肉、蛋、奶、水产品等食品类型消费量的误差分别是多少？",
+        "title": "<em>居民</em>人均食品<em>消费</em>量来源于全国住户收支与生活状况调查,主要使用记账方式采集，记录家庭日常购买的食品<em>消费</em>数量。请问这种统计规模与方法量化的人均家庭食品<em>消费</em>总量以及粮、油、菜、肉、蛋、奶、水产品等食品类型<em>消费</em>量的误差分别是多少？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202511/t20251105_1961803.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "该调查的抽样目标是：在95%的置信度下，全国<em>居民</em>及全国分城乡<em>居民</em>人均可支配收入和<em>消费</em>支出抽样误差控制在1%以内，主要收入项和<em>消费</em>项的抽样误差控制在3%以内。 <em>居民</em>人均食品<em>消费</em>量数据来源于全国住户收支与生活状况调查。该调查的抽样目标是：在95%的置信度下，全国<em>居民</em>及全国分城乡<em>居民</em>人均可支配收入和<em>消费</em>支出抽样误差控制在1%以内，主要收入项和<em>消费</em>项的抽样误差控制在3%以内。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1759161600000,
+        "docDate": "2025-09-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_4.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "9AC5F4FDC099E145F2BA8C4424503E7F",
+        "md5Url": "2D5A48CFE7026CC0DEADC55C6BCCEDF8",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "该调查的抽样目标是：在95%的置信度下，全国<em>居民</em>及全国分城乡<em>居民</em>人均可支配收入和<em>消费</em>支出抽样误差控制在1%以内，主要收入项和<em>消费</em>项的抽样误差控制在3%以内。 <em>居民</em>人均食品<em>消费</em>量数据来源于全国住户收支与生活状况调查。该调查的抽样目标是：在95%的置信度下，全国<em>居民</em>及全国分城乡<em>居民</em>人均可支配收入和<em>消费</em>支出抽样误差控制在1%以内，主要收入项和<em>消费</em>项的抽样误差控制在3%以内。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局住户调查司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202511/t20251105_1961803.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "居民人均食品消费量来源于全国住户收支与生活状况调查,主要使用记账方式采集，记录家庭日常购买的食品消费数量。请问这种统计规模与方法量化的人均家庭食品消费总量以及粮、油、菜、肉、蛋、奶、水产品等食品类型消费量的误差分别是多少？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_4.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1759161600,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "2D5A48CFE7026CC0DEADC55C6BCCEDF8",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "居民人均食品消费量来源于全国住户收支与生活状况调查 主要使用记账方式采集 记录家庭日常购买的食品消费数量 请问这种统计规模与方法量化的人均家庭食品消费总量以及粮 油 菜 肉 蛋 奶 水产品等食品类型消费量的误差分别是多少",
+          "MD5TITLE": "9AC5F4FDC099E145F2BA8C4424503E7F",
+          "QUICKDESCRIPTION": "居民人均食品消费量数据来源于全国住户收支与生活状况调查。该调查的抽样目标是：在95%的置信度下，全国居民及全国分城乡居民人均可支配收入和消费支出抽样误差控制在1%以内，主要收入项和消费项的抽样误差控制在3%以内。关于人均家庭食品消费量，没有误差相关数据。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A0687ACAB0256AB908D442141CAC28A3",
+      "timestamp": 1757469150000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A0687ACAB0256AB908D442141CAC28A3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2025年8月份核心CPI继续回升 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份，消费市场运行总体平稳，居民消费价格指数（CPI）环比持平，同比下降0.4%，扣除食品和能源价格的核心CPI同比上涨0.9%，涨幅连续第4个月扩大。国内市场竞争秩序持续 ...展开全文c",
+        "title": "#权威解读# 【2025年8月份核心CPI继续回升 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比持平，同比下降0.4%，扣除食品和能源<em>价格</em>的核心CPI同比上涨0.9%，涨幅连续第4个月扩大。国内市场竞争秩序持续 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Q3T2plMmy?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2025年8月份核心CPI继续回升 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比持平，同比下降0.4%，扣除食品和能源<em>价格</em>的核心CPI同比上涨0.9%，涨幅连续第4个月扩大。 权威解读 【2025年8月份核心CPI继续回升 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比持平，同比下降0.4%，扣除食品和能源<em>价格</em>的核心CPI同比上涨0.9%，涨幅连续第4个月扩大。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1757469150000,
+        "docDate": "2025-09-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "DCFEB3E82D110F9040F0AE7D724EBF1D",
+        "md5Url": "E9FC2261E453A2270E3B86C1CD670EB1",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2025年8月份核心CPI继续回升 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比持平，同比下降0.4%，扣除食品和能源<em>价格</em>的核心CPI同比上涨0.9%，涨幅连续第4个月扩大。 权威解读 【2025年8月份核心CPI继续回升 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份，<em>消费</em>市场运行总体平稳，<em>居民消费价格</em>指数（CPI）环比持平，同比下降0.4%，扣除食品和能源<em>价格</em>的核心CPI同比上涨0.9%，涨幅连续第4个月扩大。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1757469150,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E9FC2261E453A2270E3B86C1CD670EB1",
+          "DRETITLE": "权威解读 2025年8月份核心CPI继续回升 PPI同比降幅收窄 国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份 消费市场运行总体平稳 居民消费价格指数 CPI 环比持平 同比下降0 4 扣除食品和能源价格的核心CPI同比上涨0 9 涨幅连续第4个月扩大 国内市场竞争秩序持续 展开全文c",
+          "URL": "https://weibo.com/3919628624/Q3T2plMmy?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "DCFEB3E82D110F9040F0AE7D724EBF1D",
+          "DRETITLEO": "#权威解读# 【2025年8月份核心CPI继续回升 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份，消费市场运行总体平稳，居民消费价格指数（CPI）环比持平，同比下降0.4%，扣除食品和能源价格的核心CPI同比上涨0.9%，涨幅连续第4个月扩大。国内市场竞争秩序持续 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2025年8月份核心CPI继续回升 PPI同比降幅收窄 国家统计局城市司首席统计师董莉娟解读2025年8月份CPI和PPI数据 8月份 消费市场运行总体平稳 居民消费价格指数 CPI 环比持平 同比下降0 4 扣除食品和能源价格的核心CPI同比上涨0 9 涨幅连续第4个月扩大 国内市场竞争秩序持续 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C9236706073EA6B5108A3ABB9FBAB5DA",
+      "timestamp": 1757469004000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C9236706073EA6B5108A3ABB9FBAB5DA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2025年8月份居民消费价格同比下降0.4% 环比持平】2025年8月份，全国居民消费价格同比下降0.4%。其中，城市下降0.3%，农村下降0.6%；食品价格下降4.3%，非食品价格上涨0.5%；消费品价格下降1.0%，服务价格上涨0.6%。1—8月平均，全国居民消费价格比上年同期下降0.1%。详见： ...展开全文c",
+        "title": "#数据发布# 【2025年8月份<em>居民消费价格</em>同比下降0.4% 环比持平】2025年8月份，全国<em>居民消费价格</em>同比下降0.4%。其中，城市下降0.3%，农村下降0.6%；食品<em>价格</em>下降4.3%，非食品<em>价格</em>上涨0.5%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.6%。1—8月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Q3T1qB8hA?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市下降0.3%，农村下降0.6%；食品<em>价格</em>下降4.3%，非食品<em>价格</em>上涨0.5%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.6%。1—8月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。 其中，城市下降0.3%，农村下降0.6%；食品<em>价格</em>下降4.3%，非食品<em>价格</em>上涨0.5%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.6%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1757469004000,
+        "docDate": "2025-09-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "770D33AC5C0F56B237CAC0A1BC655230",
+        "md5Url": "2EAA07422DB506BA574504B07A60C348",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市下降0.3%，农村下降0.6%；食品<em>价格</em>下降4.3%，非食品<em>价格</em>上涨0.5%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.6%。1—8月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。 其中，城市下降0.3%，农村下降0.6%；食品<em>价格</em>下降4.3%，非食品<em>价格</em>上涨0.5%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.6%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1757469004,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2EAA07422DB506BA574504B07A60C348",
+          "DRETITLE": "数据发布 2025年8月份居民消费价格同比下降0 4 环比持平 2025年8月份 全国居民消费价格同比下降0 4 其中 城市下降0 3 农村下降0 6 食品价格下降4 3 非食品价格上涨0 5 消费品价格下降1 0 服务价格上涨0 6 1 8月平均 全国居民消费价格比上年同期下降0 1 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Q3T1qB8hA?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "770D33AC5C0F56B237CAC0A1BC655230",
+          "DRETITLEO": "#数据发布# 【2025年8月份居民消费价格同比下降0.4% 环比持平】2025年8月份，全国居民消费价格同比下降0.4%。其中，城市下降0.3%，农村下降0.6%；食品价格下降4.3%，非食品价格上涨0.5%；消费品价格下降1.0%，服务价格上涨0.6%。1—8月平均，全国居民消费价格比上年同期下降0.1%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2025年8月份居民消费价格同比下降0 4 环比持平 2025年8月份 全国居民消费价格同比下降0 4 其中 城市下降0 3 农村下降0 6 食品价格下降4 3 非食品价格上涨0 5 消费品价格下降1 0 服务价格上涨0 6 1 8月平均 全国居民消费价格比上年同期下降0 1 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CE0DF24A1D6080A91F01907608D6306E",
+      "timestamp": 1757467800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CE0DF24A1D6080A91F01907608D6306E",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年8月份居民消费价格同比下降0.4% 环比持平",
+        "title": "2025年8月份<em>居民消费价格</em>同比下降0.4% 环比持平",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202509/t20250910_1961112.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.3%，农村下降0.6%；食品<em>价格</em>下降4.3%，非食品<em>价格</em>上涨0.5%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.6%。1—8月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202509/P020250910328585149109.xlsx": "CPI表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.3%，农村下降0.6%；食品<em>价格</em>下降4.3%，非食品<em>价格</em>上涨0.5%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.6%。1—8月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1757467800000,
+        "docDate": "2025-09-10",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/4342B654672085DEACA9D7CD2BC1B387.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_11.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "5E133C70D82B0F66C66E29B4AFE28DCF",
+        "md5Url": "CE0DF24A1D6080A91F01907608D6306E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.3%，农村下降0.6%；食品<em>价格</em>下降4.3%，非食品<em>价格</em>上涨0.5%；<em>消费</em>品<em>价格</em>下降1.0%，服务<em>价格</em>上涨0.6%。1—8月平均，全国<em>居民消费价格</em>比上年同期下降0.1%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202509/t20250910_1961112.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年8月份居民消费价格同比下降0.4% 环比持平",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/4342B654672085DEACA9D7CD2BC1B387.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202509/P020250910328585149109.xlsx": "CPI表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_11.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1757467800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "CE0DF24A1D6080A91F01907608D6306E",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年8月份居民消费价格同比下降0 4 环比持平",
+          "MD5TITLE": "5E133C70D82B0F66C66E29B4AFE28DCF",
+          "QUICKDESCRIPTION": "　　2025年8月份，全国居民消费价格同比下降0.4%。其中，城市下降0.3%，农村下降0.6%；食品价格下降4.3%，非食品价格上涨0.5%；消费品价格下降1.0%，服务价格上涨0.6%。1—8月平均，全国居民消费价格比上年同期下降0.1%。   　　8月份，全国居民消费价格环比持平。其中，城市持平，农村上涨0.1%；食品价格上涨0.5%，非食品价格下降0.1%；消费品价格上涨0.1%，服务价格持平。     　　一、各类商品及服务价格同比变动情况   　　8月份，食品烟酒类价格同比下降2.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 54,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 23,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 42,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 33,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 25,
+          "children": null,
+          "key": "住户调查"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 63,
+          "children": null,
+          "key": ""
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

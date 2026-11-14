@@ -1,0 +1,2221 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 78,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [],
+    "sceneRelatedInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 11.077766,
+        "id": "17c7bac6-aa0a-43d8-916a-8c910a526039",
+        "name": "GDP",
+        "siteCode": "bm36000002",
+        "relatedWords": [
+          "GDP",
+          "CPI",
+          "国内生产总值",
+          "PMI",
+          "平均工资",
+          "居民消费价格指数",
+          "地区生产总值"
+        ],
+        "customTitle": "",
+        "customContent": "",
+        "rank": 10
+      }
+    ],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 7.084771,
+        "id": "e582caf3-819f-4710-a3f3-6b59a4ae750e",
+        "name": "国民经济核算",
+        "siteCode": "bm36000002",
+        "templateType": "统计局",
+        "data": {
+          "arrList": [
+            {
+              "tab": "国内生产总值",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div>"
+            },
+            {
+              "tab": "指标解释",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div>"
+            },
+            {
+              "tab": "指标QA",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div>"
+            }
+          ]
+        },
+        "template": "<div class=\"personalization-list-div\">\n    <div class=\"personalization-list-choose\">\n                    <div class=\"item-personalization-choose on \">国内生产总值 </div>\n            <div class=\"item-personalization-choose  \">指标解释 </div>\n            <div class=\"item-personalization-choose  \">指标QA </div>\n    </div>\n    <div class=\"personalization-list-content\">\n            <div class=\"item-personalization-content on\"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div></div>\n    </div>\n</div>\n\n\n<script>\n    $('.item-personalization-choose').click(function () {\n        $(this).addClass('on').siblings().removeClass('on');\n        console.log($(this).index())\n        var index = $(this).index();\n        $('.item-personalization-content').eq(index).addClass('on').siblings().removeClass('on');\n    });\n\n</script>\n\n<style>\n    * {\n        margin: 0;\n        padding: 0;\n    }\n.trs_editor_view  a,.trs_editor_view  a span {\n    vertical-align: top;\n    color: #0077ff !important;\n    text-decoration: underline;\n}\n   .personalization-list-choose {\n        display: flex;\n        align-items: center;\n        margin-bottom: 20px;\n        overflow-x: auto;\n    }\n\n    .personalization-list-choose .item-personalization-choose {\n    margin-bottom: 7px;\n      color: #333333;\n      background: #efefef;\n      border: 1px solid #efefef;\n      white-space: nowrap;\n      padding: 10px;\n      border-radius: 5px;\n      font-size: 16px;\n      font-family: Microsoft YaHei;\n      font-weight: 400;\n      line-height: 20px;\n      margin-right: 10px;\n      cursor: pointer;\n      flex-shrink: 0;\n    }\n\n    .personalization-list-choose .on {\n      color: #1685e6;\n      border: 1px solid #1685e6;\n      background: #fff;\n      white-space: nowrap;\n    }\n\n    .item-personalization-content {\n        display: none;\n    }\n\n    .personalization-list-content .on {\n        display: block;\n    }\n\n.personalization-list-content{\n    line-height: 34px;\nmin-height:200px;\nmax-height:500px;\n    overflow-y: auto;\nmargin-bottom: 20px;\n}\n#q2 {\n    color: #3285e4;\n  \n    font-weight: bold;\n}\n</style>",
+        "css": "",
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "69D7D45D02CA2B1169A36862ADB772A5",
+      "timestamp": 1577635200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "69D7D45D02CA2B1169A36862ADB772A5",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "辽宁省各区县城市GDP及人口数据",
+        "title": "辽宁省各区县城市GDP及人口数据",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953488.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "有关辽宁省各区县城市GDP及人口数据请您参考《中国县域统计年鉴（县市卷）》。 有关辽宁省各区县城市GDP及人口数据请您参考《中国县域统计年鉴（县市卷）》。中国统计资料馆收存和管理<em>国内</em>外统计资料，承担统计资料的无偿服务工作，欢迎您来馆查阅资料。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1577635200000,
+        "docDate": "2019-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_53.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "4331BD34B3B015AC374DEA73B4D67BD8",
+        "md5Url": "69D7D45D02CA2B1169A36862ADB772A5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "有关辽宁省各区县城市GDP及人口数据请您参考《中国县域统计年鉴（县市卷）》。 有关辽宁省各区县城市GDP及人口数据请您参考《中国县域统计年鉴（县市卷）》。中国统计资料馆收存和管理<em>国内</em>外统计资料，承担统计资料的无偿服务工作，欢迎您来馆查阅资料。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局统计资料管理中心",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953488.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "辽宁省各区县城市GDP及人口数据",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_53.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1577635200,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "69D7D45D02CA2B1169A36862ADB772A5",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "辽宁省各区县城市GDP及人口数据",
+          "MD5TITLE": "4331BD34B3B015AC374DEA73B4D67BD8",
+          "QUICKDESCRIPTION": "有关辽宁省各区县城市GDP及人口数据请您参考 中国县域统计年鉴 县市卷 中国统计资料馆收存和管理国内外统计资料 承担统计资料的无偿服务工作 欢迎您来馆查阅资料 http www stats gov cn fw zgtjzlg",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8D577EE44D7AD98DEEC993E0C384E4F6",
+      "timestamp": 1577411685000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8D577EE44D7AD98DEEC993E0C384E4F6",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#媒体聚焦#【国家统计局有关负责人就地区生产总值统一核算改革有关问题答记者问】11月11日，国家统计局召开地区生产总值统一核算改革动员部署会议，深入贯彻落实党中央、国务院关于实施地区生产总值统一核算改革的决策部署，动员安排实施地区生产总值统",
+        "title": "#媒体聚焦#【国家统计局有关负责人就地区<em>生产</em><em>总值</em>统一核算改革有关问题答记者问】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，深入贯彻落实党中央、国务院关于实施地区<em>生产</em><em>总值</em>统一核算改革的决策部署，动员安排实施地区<em>生产</em><em>总值</em>统",
+        "url": "https://weibo.com/3919628624/ImG5575oP?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "媒体聚焦 【国家统计局有关负责人就地区<em>生产</em><em>总值</em>统一核算改革有关问题答记者问】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，深入贯彻落实党中央、国务院关于实施地区<em>生产</em><em>总值</em>统一核算改革的决策部署，动员安排实施地区<em>生产</em><em>总值</em>统一核算改革。 媒体聚焦 【国家统计局有关负责人就地区<em>生产</em><em>总值</em>统一核算改革有关问题答记者问】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，深入贯彻落实党中央、国务院关于实施地区<em>生产</em><em>总值</em>统一核算改革的决策部署，动员安排实施地区<em>生产</em><em>总值</em>统一核算改革。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1577411685000,
+        "docDate": "2019-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "F82AE17148C2089EDE55300F5FA8F165",
+        "md5Url": "AF85E90E5354F1B2864D5CA6B1BEA7BC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "媒体聚焦 【国家统计局有关负责人就地区<em>生产</em><em>总值</em>统一核算改革有关问题答记者问】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，深入贯彻落实党中央、国务院关于实施地区<em>生产</em><em>总值</em>统一核算改革的决策部署，动员安排实施地区<em>生产</em><em>总值</em>统一核算改革。 媒体聚焦 【国家统计局有关负责人就地区<em>生产</em><em>总值</em>统一核算改革有关问题答记者问】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，深入贯彻落实党中央、国务院关于实施地区<em>生产</em><em>总值</em>统一核算改革的决策部署，动员安排实施地区<em>生产</em><em>总值</em>统一核算改革。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1577411685,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "AF85E90E5354F1B2864D5CA6B1BEA7BC",
+          "DRETITLE": "媒体聚焦 国家统计局有关负责人就地区生产总值统一核算改革有关问题答记者问 11月11日 国家统计局召开地区生产总值统一核算改革动员部署会议 深入贯彻落实党中央 ",
+          "URL": "https://weibo.com/3919628624/ImG5575oP?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "F82AE17148C2089EDE55300F5FA8F165",
+          "DRETITLEO": "#媒体聚焦#【国家统计局有关负责人就地区生产总值统一核算改革有关问题答记者问】11月11日，国家统计局召开地区生产总值统一核算改革动员部署会议，深入贯彻落实党中央、国务院关于实施地区生产总值统一核算改革的决策部署，动员安排实施地区生产总值统",
+          "QUICKDESCRIPTION": "媒体聚焦 国家统计局有关负责人就地区生产总值统一核算改革有关问题答记者问 11月11日 国家统计局召开地区生产总值统一核算改革动员部署会议 深入贯彻落实党中央 国务院关于实施地区生产总值统一核算改革的决策部署 动员安排实施地区生产总值统一核算改革 近日 中国信息报 记者就地区生产 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "93B0196AE74323D87A1CCF29FD583D14",
+      "timestamp": 1577410200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "93B0196AE74323D87A1CCF29FD583D14",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局有关负责人就地区生产总值统一核算改革有关问题答记者问",
+        "title": "国家统计局有关负责人就地区<em>生产</em><em>总值</em>统一核算改革有关问题答记者问",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896273.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "实施地区<em>生产</em><em>总值</em>统一核算改革的背景和重大意义是什么 有关负责人：<em>生产</em><em>总值</em>是国际上通行的、用于衡量一个国家或地区经济运行规模的宏观经济指标，是宏观经济决策的重要依据，是监测经济高质量发展的重要手段。<em>生产</em><em>总值</em>在国家层面称为<em>国内生产总值</em>（GDP），在地区层面称为地区<em>生产</em><em>总值</em>（地区GDP）。 <em>生产</em><em>总值</em>在国家层面称为<em>国内生产总值</em>（GDP），在地区层面称为地区<em>生产</em><em>总值</em>（地区GDP）。 自1985年我国建立<em>生产</em><em>总值</em>核算制度以来，一直采取分级核算制度，即国家统计局核算<em>国内生产总值</em>，各省（自治区、直辖市）统计局核算本地区<em>生产</em><em>总值</em>。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1577410200000,
+        "docDate": "2019-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_1000_1.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "5A676F179017B26C37FDEEE3662AE8BD",
+        "md5Url": "93B0196AE74323D87A1CCF29FD583D14",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "实施地区<em>生产</em><em>总值</em>统一核算改革的背景和重大意义是什么 有关负责人：<em>生产</em><em>总值</em>是国际上通行的、用于衡量一个国家或地区经济运行规模的宏观经济指标，是宏观经济决策的重要依据，是监测经济高质量发展的重要手段。<em>生产</em><em>总值</em>在国家层面称为<em>国内生产总值</em>（GDP），在地区层面称为地区<em>生产</em><em>总值</em>（地区GDP）。 <em>生产</em><em>总值</em>在国家层面称为<em>国内生产总值</em>（GDP），在地区层面称为地区<em>生产</em><em>总值</em>（地区GDP）。 自1985年我国建立<em>生产</em><em>总值</em>核算制度以来，一直采取分级核算制度，即国家统计局核算<em>国内生产总值</em>，各省（自治区、直辖市）统计局核算本地区<em>生产</em><em>总值</em>。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896273.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局有关负责人就地区生产总值统一核算改革有关问题答记者问",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_1000_1.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1577410200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "93B0196AE74323D87A1CCF29FD583D14",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局有关负责人就地区生产总值统一核算改革有关问题答记者问",
+          "MD5TITLE": "5A676F179017B26C37FDEEE3662AE8BD",
+          "QUICKDESCRIPTION": "　　编者按：11月11日，国家统计局召开地区生产总值统一核算改革动员部署会议，深入贯彻落实党中央、国务院关于实施地区生产总值统一核算改革的决策部署，动员安排实施地区生产总值统一核算改革。近日，《中国信息报》记者就地区生产总值统一核算改革有关问题采访了国家统计局有关负责人。 　　记者：实施地区生产总值统一核算改革的背景和重大意义是什么？ 　　有关负责人：生产总值是国际上通行的、用于衡量一个国家或地区经济运行规模的宏观经济指标，是宏观经济决策的重要依据，是监测经济高质量发展的重要手段。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "79A9C48085F0C7D415E0C610E2E976CD",
+      "timestamp": 1577030400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "79A9C48085F0C7D415E0C610E2E976CD",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "陕西省2019年上半年gdp是多少",
+        "title": "陕西省2019年上半年gdp是多少",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953484.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "有关2019年陕西省上半年GDP数据请您参考我局网站—数据查询（国家数据）—地区数据—分省季度数据—国民经济核算： http //data.stats.gov.cn/easyquery.htm cn E0102...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1577030400000,
+        "docDate": "2019-12-23",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_54.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "CB8D123C83B322BE07963359A0C376F9",
+        "md5Url": "79A9C48085F0C7D415E0C610E2E976CD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "有关2019年陕西省上半年GDP数据请您参考我局网站—数据查询（国家数据）—地区数据—分省季度数据—国民经济核算： http //data.stats.gov.cn/easyquery.htm cn E0102...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局统计资料管理中心",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953484.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "陕西省2019年上半年gdp是多少",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_54.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1577030400,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "79A9C48085F0C7D415E0C610E2E976CD",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "陕西省2019年上半年gdp是多少",
+          "MD5TITLE": "CB8D123C83B322BE07963359A0C376F9",
+          "QUICKDESCRIPTION": "有关2019年陕西省上半年GDP数据请您参考我局网站 数据查询 国家数据 地区数据 分省季度数据 国民经济核算 http data stats gov cn easyquery htm cn E0102",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CFC3ACC4D9F3B8309CFDC76C55C156D6",
+      "timestamp": 1576462877000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CFC3ACC4D9F3B8309CFDC76C55C156D6",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【答记者问】针对路透社记者关于第四季度GDP能否高于6%的提问，国家统计局新闻发言人付凌晖正在回答，直播详见 O国务院新闻办公室定于2019年12月16日（星期一...，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录",
+        "title": "#发布会微直播#【答记者问】针对路透社记者关于第四季度GDP能否高于6%的提问，国家统计局新闻发言人付凌晖正在回答，直播详见 O国务院新闻办公室定于2019年12月16日（星期一...，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录",
+        "url": "https://weibo.com/3919628624/Il0yoqwnO?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对路透社记者关于第四季度GDP能否高于6%的提问，国家统计局新闻发言人付凌晖正在回答，直播详见 O国务院新闻办公室定于2019年12月16日（星期一......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1576462877000,
+        "docDate": "2019-12-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "61FDBBB76E179950C117A84FCBE57A0D",
+        "md5Url": "B0B2EA86B7EC0DD832DCF8BE5DB9D105",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对路透社记者关于第四季度GDP能否高于6%的提问，国家统计局新闻发言人付凌晖正在回答，直播详见 O国务院新闻办公室定于2019年12月16日（星期一......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1576462877,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "B0B2EA86B7EC0DD832DCF8BE5DB9D105",
+          "DRETITLE": "发布会微直播 答记者问 针对路透社记者关于第四季度GDP能否高于6 的提问 国家统计局新闻发言人付凌晖正在回答 直播详见 O国务院新闻办公室定于2019年12月",
+          "URL": "https://weibo.com/3919628624/Il0yoqwnO?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "61FDBBB76E179950C117A84FCBE57A0D",
+          "DRETITLEO": "#发布会微直播#【答记者问】针对路透社记者关于第四季度GDP能否高于6%的提问，国家统计局新闻发言人付凌晖正在回答，直播详见 O国务院新闻办公室定于2019年12月16日（星期一...，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对路透社记者关于第四季度GDP能否高于6 的提问 国家统计局新闻发言人付凌晖正在回答 直播详见 O国务院新闻办公室定于2019年12月16日 星期一 也可以关注国家统计局官方微信 统计微讯 稍晚会有实录放出",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7A5F94EEC3CAF19067F27130D39C5291",
+      "timestamp": 1575873897000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7A5F94EEC3CAF19067F27130D39C5291",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 欧元区11月份CPI同比上涨1.0%；欧元区10月份失业率降至7.5%；英国11月份消费者信心指数跌至-14；澳大利亚第三季度GDP环比增长0.4%；印度第三季度GDP同比增长4.5%；南非第三季度GDP环比折年率下降0.",
+        "title": "#国际数据速递# 欧元区11月份CPI同比上涨1.0%；欧元区10月份失业率降至7.5%；英国11月份消费者信心指数跌至-14；澳大利亚第三季度GDP环比增长0.4%；印度第三季度GDP同比增长4.5%；南非第三季度GDP环比折年率下降0.",
+        "url": "https://weibo.com/3919628624/IjYhW5CdL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 欧元区11月份CPI同比上涨1.0%；欧元区10月份失业率降至7.5%；英国11月份消费者信心指数跌至-14；澳大利亚第三季度GDP环比增长0.4%；印度第三季度GDP同比增长4.5%；南非第三季度GDP环比折年率下降0.6% 国际数据速递 欧元区11月份CPI同比上涨1.0%；欧元区10月份失业率降至7.5%；英国11月份消费者信心指数跌至-14；澳大利亚第三季度GDP环比增长0.4%；印度第三季度GDP同比增长4.5%；南非第三季度GDP环比折年率下降0.6%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1575873897000,
+        "docDate": "2019-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "00FC6A3C03442F9A2D16747529529A60",
+        "md5Url": "7388A829585008C5D2F63FB8736278DC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 欧元区11月份CPI同比上涨1.0%；欧元区10月份失业率降至7.5%；英国11月份消费者信心指数跌至-14；澳大利亚第三季度GDP环比增长0.4%；印度第三季度GDP同比增长4.5%；南非第三季度GDP环比折年率下降0.6% 国际数据速递 欧元区11月份CPI同比上涨1.0%；欧元区10月份失业率降至7.5%；英国11月份消费者信心指数跌至-14；澳大利亚第三季度GDP环比增长0.4%；印度第三季度GDP同比增长4.5%；南非第三季度GDP环比折年率下降0.6%...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1575873897,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "7388A829585008C5D2F63FB8736278DC",
+          "DRETITLE": "国际数据速递 欧元区11月份CPI同比上涨1 0 欧元区10月份失业率降至7 5 英国11月份消费者信心指数跌至-14 澳大利亚第三季度GDP环比增长0 4 印",
+          "URL": "https://weibo.com/3919628624/IjYhW5CdL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "00FC6A3C03442F9A2D16747529529A60",
+          "DRETITLEO": "#国际数据速递# 欧元区11月份CPI同比上涨1.0%；欧元区10月份失业率降至7.5%；英国11月份消费者信心指数跌至-14；澳大利亚第三季度GDP环比增长0.4%；印度第三季度GDP同比增长4.5%；南非第三季度GDP环比折年率下降0.",
+          "QUICKDESCRIPTION": "国际数据速递 欧元区11月份CPI同比上涨1 0 欧元区10月份失业率降至7 5 英国11月份消费者信心指数跌至-14 澳大利亚第三季度GDP环比增长0 4 印度第三季度GDP同比增长4 5 南非第三季度GDP环比折年率下降0 6",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B7E2EA09586148878DC14C84852F735C",
+      "timestamp": 1575542371000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B7E2EA09586148878DC14C84852F735C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统计法|微视频#【喂，傅总，你上头条了~】 GDP、CPI、PMI这些词儿 经常被大伙儿挂在嘴边 从中央到地方 从各级政府到社会公众 从企业到个人 对各类政府统计数据都格外关注...展开全文c",
+        "title": "#统计法|微视频#【喂，傅总，你上头条了~】 GDP、CPI、PMI这些词儿 经常被大伙儿挂在嘴边 从中央到地方 从各级政府到社会公众 从企业到个人 对各类政府统计数据都格外关注...展开全文c",
+        "url": "https://weibo.com/3919628624/Ijo79FxvL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "统计法 微视频 【喂，傅总，你上头条了 】 GDP、CPI、PMI这些词儿 经常被大伙儿挂在嘴边 从中央到地方 从各级政府到社会公众 从企业到个人 对各类政府统计数据都格外关注......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1575542371000,
+        "docDate": "2019-12-05",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "DC3277629EB848A40E65910EC4B7806A",
+        "md5Url": "911022BE7D903367F3271F503F5A970A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统计法 微视频 【喂，傅总，你上头条了 】 GDP、CPI、PMI这些词儿 经常被大伙儿挂在嘴边 从中央到地方 从各级政府到社会公众 从企业到个人 对各类政府统计数据都格外关注......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1575542371,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "911022BE7D903367F3271F503F5A970A",
+          "DRETITLE": "统计法 微视频 喂 傅总 你上头条了~ GDP CPI PMI这些词儿 经常被大伙儿挂在嘴边 从中央到地方 从各级政府到社会公众 从企业到个人 对各类政府统计数",
+          "URL": "https://weibo.com/3919628624/Ijo79FxvL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "DC3277629EB848A40E65910EC4B7806A",
+          "DRETITLEO": "#统计法|微视频#【喂，傅总，你上头条了~】 GDP、CPI、PMI这些词儿 经常被大伙儿挂在嘴边 从中央到地方 从各级政府到社会公众 从企业到个人 对各类政府统计数据都格外关注...展开全文c",
+          "QUICKDESCRIPTION": "统计法 微视频 喂 傅总 你上头条了 GDP CPI PMI这些词儿 经常被大伙儿挂在嘴边 从中央到地方 从各级政府到社会公众 从企业到个人 对各类政府统计数据都格外关注 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D01FBF6A49744F3432A32231B0696BF4",
+      "timestamp": 1574994579000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D01FBF6A49744F3432A32231B0696BF4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 美国11月份综合PMI升至51.9；美国第三季度GDP环比折年率上修至2.1%；欧元区11月份综合PMI降至50.3；英国11月份综合PMI降至48.5；日本11月份综合PMI升至49.9；巴西10月份经常账户赤字扩大至7",
+        "title": "#国际数据速递# 美国11月份综合PMI升至51.9；美国第三季度GDP环比折年率上修至2.1%；欧元区11月份综合PMI降至50.3；英国11月份综合PMI降至48.5；日本11月份综合PMI升至49.9；巴西10月份经常账户赤字扩大至7",
+        "url": "https://weibo.com/3919628624/IiqllfkMj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 美国11月份综合PMI升至51.9；美国第三季度GDP环比折年率上修至2.1%；欧元区11月份综合PMI降至50.3；英国11月份综合PMI降至48.5；日本11月份综合PMI升至49.9；巴西10月份经常账户赤字扩大至79亿美元。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1574994579000,
+        "docDate": "2019-11-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "073CA8039CB7805A25B938889F471AFE",
+        "md5Url": "6D794279CEC8EE2DACCE72065C381291",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 美国11月份综合PMI升至51.9；美国第三季度GDP环比折年率上修至2.1%；欧元区11月份综合PMI降至50.3；英国11月份综合PMI降至48.5；日本11月份综合PMI升至49.9；巴西10月份经常账户赤字扩大至79亿美元。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1574994579,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "6D794279CEC8EE2DACCE72065C381291",
+          "DRETITLE": "国际数据速递 美国11月份综合PMI升至51 9 美国第三季度GDP环比折年率上修至2 1 欧元区11月份综合PMI降至50 3 英国11月份综合PMI降至48",
+          "URL": "https://weibo.com/3919628624/IiqllfkMj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "073CA8039CB7805A25B938889F471AFE",
+          "DRETITLEO": "#国际数据速递# 美国11月份综合PMI升至51.9；美国第三季度GDP环比折年率上修至2.1%；欧元区11月份综合PMI降至50.3；英国11月份综合PMI降至48.5；日本11月份综合PMI升至49.9；巴西10月份经常账户赤字扩大至7",
+          "QUICKDESCRIPTION": "国际数据速递 美国11月份综合PMI升至51 9 美国第三季度GDP环比折年率上修至2 1 欧元区11月份综合PMI降至50 3 英国11月份综合PMI降至48 5 日本11月份综合PMI升至49 9 巴西10月份经常账户赤字扩大至79亿美元",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EEE9D37C66509550953BB3542478FEB4",
+      "timestamp": 1574647543000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EEE9D37C66509550953BB3542478FEB4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 美国10月份工业产出环比下降0.8%；美国10月份PPI同比上涨1.1%；欧元区9月份货物贸易顺差缩窄至183亿欧元；德国第三季度GDP环比增长0.1%；意大利9月份货物贸易顺差扩大至27.8亿欧元；日本10月份货物贸易顺",
+        "title": "#国际数据速递# 美国10月份工业产出环比下降0.8%；美国10月份PPI同比上涨1.1%；欧元区9月份货物贸易顺差缩窄至183亿欧元；德国第三季度GDP环比增长0.1%；意大利9月份货物贸易顺差扩大至27.8亿欧元；日本10月份货物贸易顺",
+        "url": "https://weibo.com/3919628624/IhOtEfgqk?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 美国10月份工业产出环比下降0.8%；美国10月份PPI同比上涨1.1%；欧元区9月份货物贸易顺差缩窄至183亿欧元；德国第三季度GDP环比增长0.1%；意大利9月份货物贸易顺差扩大至27.8亿欧元；日本10月份货物贸易顺差173亿日元...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1574647543000,
+        "docDate": "2019-11-25",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "E363D67C08A25D8919AD8B05ABC277E3",
+        "md5Url": "BBE0B54C09944E82FA023A556A8E2C3B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 美国10月份工业产出环比下降0.8%；美国10月份PPI同比上涨1.1%；欧元区9月份货物贸易顺差缩窄至183亿欧元；德国第三季度GDP环比增长0.1%；意大利9月份货物贸易顺差扩大至27.8亿欧元；日本10月份货物贸易顺差173亿日元...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1574647543,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "BBE0B54C09944E82FA023A556A8E2C3B",
+          "DRETITLE": "国际数据速递 美国10月份工业产出环比下降0 8 美国10月份PPI同比上涨1 1 欧元区9月份货物贸易顺差缩窄至183亿欧元 德国第三季度GDP环比增长0 1",
+          "URL": "https://weibo.com/3919628624/IhOtEfgqk?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E363D67C08A25D8919AD8B05ABC277E3",
+          "DRETITLEO": "#国际数据速递# 美国10月份工业产出环比下降0.8%；美国10月份PPI同比上涨1.1%；欧元区9月份货物贸易顺差缩窄至183亿欧元；德国第三季度GDP环比增长0.1%；意大利9月份货物贸易顺差扩大至27.8亿欧元；日本10月份货物贸易顺",
+          "QUICKDESCRIPTION": "国际数据速递 美国10月份工业产出环比下降0 8 美国10月份PPI同比上涨1 1 欧元区9月份货物贸易顺差缩窄至183亿欧元 德国第三季度GDP环比增长0 1 意大利9月份货物贸易顺差扩大至27 8亿欧元 日本10月份货物贸易顺差173亿日元",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "12E351EA3F929FC81E280D9A933294AF",
+      "timestamp": 1574386860000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "12E351EA3F929FC81E280D9A933294AF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#答记者问#【国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访】2019年11月22日，国家统计局发布了《国家统计局关于修订2018年国内生产总值数据的公告》，局核算司负责人就此接受了《中国信息报》专访。详见O网页链接",
+        "title": "#答记者问#【国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访】2019年11月22日，国家统计局发布了《国家统计局关于修订2018年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。详见O网页链接",
+        "url": "https://weibo.com/3919628624/Ihm281T7s?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "答记者问 【国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访】2019年11月22日，国家统计局发布了《国家统计局关于修订2018年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。 答记者问 【国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访】2019年11月22日，国家统计局发布了《国家统计局关于修订2018年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1574386860000,
+        "docDate": "2019-11-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "3BDE81C069B469D2B5C1AED0FCD818F2",
+        "md5Url": "F333A062A0C019529F17E3DB41C41588",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "答记者问 【国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访】2019年11月22日，国家统计局发布了《国家统计局关于修订2018年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。 答记者问 【国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访】2019年11月22日，国家统计局发布了《国家统计局关于修订2018年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1574386860,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F333A062A0C019529F17E3DB41C41588",
+          "DRETITLE": "答记者问 国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访 2019年11月22日 国家统计局发布了 国家统计局关于修订2018年国内生产",
+          "URL": "https://weibo.com/3919628624/Ihm281T7s?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "3BDE81C069B469D2B5C1AED0FCD818F2",
+          "DRETITLEO": "#答记者问#【国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访】2019年11月22日，国家统计局发布了《国家统计局关于修订2018年国内生产总值数据的公告》，局核算司负责人就此接受了《中国信息报》专访。详见O网页链接",
+          "QUICKDESCRIPTION": "答记者问 国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访 2019年11月22日 国家统计局发布了 国家统计局关于修订2018年国内生产总值数据的公告 局核算司负责人就此接受了 中国信息报 专访 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C4A80EE05F0CF3996EF5BB59AFAE6F60",
+      "timestamp": 1574386795000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C4A80EE05F0CF3996EF5BB59AFAE6F60",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【国家统计局关于修订2018年国内生产总值数据的公告】依据我国国内生产总值（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年国内生产总值初步核算数进行了修订。主要结果为：2018年国内生产总值为919281亿元，",
+        "title": "#数据发布#【国家统计局关于修订2018年<em>国内生产总值</em>数据的公告】依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。主要结果为：2018年<em>国内生产总值</em>为919281亿元，",
+        "url": "https://weibo.com/3919628624/Ihm1GcDpC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【国家统计局关于修订2018年<em>国内生产总值</em>数据的公告】依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。 数据发布 【国家统计局关于修订2018年<em>国内生产总值</em>数据的公告】依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。主要结果为：2018年<em>国内生产总值</em>为919281亿元，比初步核算数增加18972亿元，增幅为2.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1574386795000,
+        "docDate": "2019-11-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "890C8992AE9B620272C2B0A5B6DBE380",
+        "md5Url": "C5AEDEC2965E9576E1A82B3269DC059C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【国家统计局关于修订2018年<em>国内生产总值</em>数据的公告】依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。 数据发布 【国家统计局关于修订2018年<em>国内生产总值</em>数据的公告】依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。主要结果为：2018年<em>国内生产总值</em>为919281亿元，比初步核算数增加18972亿元，增幅为2.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1574386795,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C5AEDEC2965E9576E1A82B3269DC059C",
+          "DRETITLE": "数据发布 国家统计局关于修订2018年国内生产总值数据的公告 依据我国国内生产总值 GDP 核算制度和第四次全国经济普查结果 国家统计局对2018年国内生产总值",
+          "URL": "https://weibo.com/3919628624/Ihm1GcDpC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "890C8992AE9B620272C2B0A5B6DBE380",
+          "DRETITLEO": "#数据发布#【国家统计局关于修订2018年国内生产总值数据的公告】依据我国国内生产总值（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年国内生产总值初步核算数进行了修订。主要结果为：2018年国内生产总值为919281亿元，",
+          "QUICKDESCRIPTION": "数据发布 国家统计局关于修订2018年国内生产总值数据的公告 依据我国国内生产总值 GDP 核算制度和第四次全国经济普查结果 国家统计局对2018年国内生产总值初步核算数进行了修订 主要结果为 2018年国内生产总值为919281亿元 比初步核算数增加18972亿元 增幅为2 1 修订后的第一产业增加值为 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D09AD71D996B90CE3F2AE7DC436C8D77",
+      "timestamp": 1574386200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D09AD71D996B90CE3F2AE7DC436C8D77",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "国家统计局关于修订2018年国内生产总值数据的公告",
+        "title": "国家统计局关于修订2018年<em>国内生产总值</em>数据的公告",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900533.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "国家统计局关于修订2018年<em>国内生产总值</em>数据的公告 2019/11/22 09 30 Aa 字体： 小 中 大 依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。 国家统计局 2019年11月22日 依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "国家统计局关于修订2018年<em>国内生产总值</em>数据的公告 2019/11/22 09 30 Aa 字体： 小 中 大 依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。 国家统计局 2019年11月22日 依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1574386200000,
+        "docDate": "2019-11-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_29.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "7C9E06CC0ECCF3A13E61F0C9416AC343",
+        "md5Url": "D09AD71D996B90CE3F2AE7DC436C8D77",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国家统计局关于修订2018年<em>国内生产总值</em>数据的公告 2019/11/22 09 30 Aa 字体： 小 中 大 依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。 国家统计局 2019年11月22日 依据我国<em>国内生产总值</em>（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年<em>国内生产总值</em>初步核算数进行了修订。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900533.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局关于修订2018年国内生产总值数据的公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_29.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1574386200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D09AD71D996B90CE3F2AE7DC436C8D77",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局关于修订2018年国内生产总值数据的公告",
+          "MD5TITLE": "7C9E06CC0ECCF3A13E61F0C9416AC343",
+          "QUICKDESCRIPTION": "国家统计局关于修订2018年国内生产总值数据的公告 2019/11/22 09:30 | Aa 字体： 小 中 大 | 依据我国国内生产总值（GDP）核算制度和第四次全国经济普查结果，国家统计局对2018年国内生产总值初步核算数进行了修订。主要结果为：2018年国内生产总值为919281亿元，比初步核算数增加18972亿元，增幅为2.1%。修订后的第一产业增加值为64745亿元，比重为7.0%；第二产业增加值为364835亿元，比重为39.7%；第三产业增加值为489701亿元，比重为53.3%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9F7A02A93AA92C5F7444CE9A48BABE80",
+      "timestamp": 1574386200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9F7A02A93AA92C5F7444CE9A48BABE80",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访",
+        "title": "国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896261.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "从2020年初开始，国家统计局将正式实施地区<em>生产</em><em>总值</em>统一核算改革，统一核算2019年<em>国内生产总值</em>和地区<em>生产</em><em>总值</em>，实现地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>基本衔接。 从2020年初开始，国家统计局将正式实施地区<em>生产</em><em>总值</em>统一核算改革，统一核算2019年<em>国内生产总值</em>和地区<em>生产</em><em>总值</em>，实现地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>基本衔接。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1574386200000,
+        "docDate": "2019-11-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_1000_2.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "F3799F70C7DFE73405D9B87841B24EB8",
+        "md5Url": "9F7A02A93AA92C5F7444CE9A48BABE80",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "从2020年初开始，国家统计局将正式实施地区<em>生产</em><em>总值</em>统一核算改革，统一核算2019年<em>国内生产总值</em>和地区<em>生产</em><em>总值</em>，实现地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>基本衔接。 从2020年初开始，国家统计局将正式实施地区<em>生产</em><em>总值</em>统一核算改革，统一核算2019年<em>国内生产总值</em>和地区<em>生产</em><em>总值</em>，实现地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>基本衔接。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896261.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_1000_2.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1574386200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "9F7A02A93AA92C5F7444CE9A48BABE80",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访",
+          "MD5TITLE": "F3799F70C7DFE73405D9B87841B24EB8",
+          "QUICKDESCRIPTION": "国家统计局核算司负责人就2018年GDP数据修订问题接受中国信息报专访 2019/11/22 09:30 | Aa 字体： 小 中 大 | 　　2019年11月22日，国家统计局发布了《国家统计局关于修订2018年国内生产总值数据的公告》，局核算司负责人就此接受了《中国信息报》专访。 　　记者：四经普后为什么要对2018年全国GDP数据进行修订？主要依据有哪些？ 　　核算司负责人：根据我国现行的国民经济核算制度，我国年度GDP要进行两次核算。第一次为GDP初步核算。受资料来源限制，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FEC26F841D313C14C68ADEF88573B564",
+      "timestamp": 1574217986000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FEC26F841D313C14C68ADEF88573B564",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【答记者问】针对南华早报记者关于GDP的修订幅度相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+        "title": "#发布会微直播#【答记者问】针对南华早报记者关于GDP的修订幅度相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+        "url": "https://weibo.com/3919628624/Ih3BGsIZq?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对南华早报记者关于GDP的修订幅度相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1574217986000,
+        "docDate": "2019-11-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "4C9255163787277347AEDE0326B9FA0D",
+        "md5Url": "08236F4DA18A1442F5CB0B2D649E383D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对南华早报记者关于GDP的修订幅度相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1574217986,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "08236F4DA18A1442F5CB0B2D649E383D",
+          "DRETITLE": "发布会微直播 答记者问 针对南华早报记者关于GDP的修订幅度相关问题的提问 国务院第四次全国经济普查领导小组办公室副主任 国家统计局副局长李晓超正在回答 直播详",
+          "URL": "https://weibo.com/3919628624/Ih3BGsIZq?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4C9255163787277347AEDE0326B9FA0D",
+          "DRETITLEO": "#发布会微直播#【答记者问】针对南华早报记者关于GDP的修订幅度相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对南华早报记者关于GDP的修订幅度相关问题的提问 国务院第四次全国经济普查领导小组办公室副主任 国家统计局副局长李晓超正在回答 直播详见O网页链接 也可以关注国家统计局官方微信 统计微讯 稍晚会有实录放出",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DE9E999DB520CFB008931002929AE32C",
+      "timestamp": 1574217333000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DE9E999DB520CFB008931002929AE32C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【答记者问】针对中新社记者关于2018年以及历史的GDP统计数据修订以及GDP统一核算改革进展相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见O网页链接，也可以关注国家统",
+        "title": "#发布会微直播#【答记者问】针对中新社记者关于2018年以及历史的GDP统计数据修订以及GDP统一核算改革进展相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见O网页链接，也可以关注国家统",
+        "url": "https://weibo.com/3919628624/Ih3xgw8VB?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对中新社记者关于2018年以及历史的GDP统计数据修订以及GDP统一核算改革进展相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1574217333000,
+        "docDate": "2019-11-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "990B1665D99933B783C2418D1DBB16CE",
+        "md5Url": "D47A64315C1FC68F7574B7C14AEB5842",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对中新社记者关于2018年以及历史的GDP统计数据修订以及GDP统一核算改革进展相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1574217333,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D47A64315C1FC68F7574B7C14AEB5842",
+          "DRETITLE": "发布会微直播 答记者问 针对中新社记者关于2018年以及历史的GDP统计数据修订以及GDP统一核算改革进展相关问题的提问 国务院第四次全国经济普查领导小组办公室",
+          "URL": "https://weibo.com/3919628624/Ih3xgw8VB?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "990B1665D99933B783C2418D1DBB16CE",
+          "DRETITLEO": "#发布会微直播#【答记者问】针对中新社记者关于2018年以及历史的GDP统计数据修订以及GDP统一核算改革进展相关问题的提问，国务院第四次全国经济普查领导小组办公室副主任、国家统计局副局长李晓超正在回答，直播详见O网页链接，也可以关注国家统",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对中新社记者关于2018年以及历史的GDP统计数据修订以及GDP统一核算改革进展相关问题的提问 国务院第四次全国经济普查领导小组办公室副主任 国家统计局副局长李晓超正在回答 直播详见O网页链接 也可以关注国家统计局官方微信 统计微讯 稍晚会有实录放出 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EBECE14DB04C022E6286B0E88DFF45A6",
+      "timestamp": 1574075656000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EBECE14DB04C022E6286B0E88DFF45A6",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 美国10月份CPI同比上涨1.8%；欧元区11月份经济景气指数升至-1；德国9月份货物和服务贸易顺差缩减至192亿欧元；英国第三季度GDP环比增长0.3%；日本第三季度GDP环比折年率增长0.2%；印度10月份CPI同比上",
+        "title": "#国际数据速递# 美国10月份CPI同比上涨1.8%；欧元区11月份经济景气指数升至-1；德国9月份货物和服务贸易顺差缩减至192亿欧元；英国第三季度GDP环比增长0.3%；日本第三季度GDP环比折年率增长0.2%；印度10月份CPI同比上",
+        "url": "https://weibo.com/3919628624/IgO4PnHJH?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 美国10月份CPI同比上涨1.8%；欧元区11月份经济景气指数升至-1；德国9月份货物和服务贸易顺差缩减至192亿欧元；英国第三季度GDP环比增长0.3%；日本第三季度GDP环比折年率增长0.2%；印度10月份CPI同比上涨4.62% 详见 O【国际数据】美国10月份CPI同比上涨1.8%等...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1574075656000,
+        "docDate": "2019-11-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "190C22A901CE4A962683196B17A89919",
+        "md5Url": "6AB698F1D5836151631625005E00F0AA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 美国10月份CPI同比上涨1.8%；欧元区11月份经济景气指数升至-1；德国9月份货物和服务贸易顺差缩减至192亿欧元；英国第三季度GDP环比增长0.3%；日本第三季度GDP环比折年率增长0.2%；印度10月份CPI同比上涨4.62% 详见 O【国际数据】美国10月份CPI同比上涨1.8%等...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1574075656,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "6AB698F1D5836151631625005E00F0AA",
+          "DRETITLE": "国际数据速递 美国10月份CPI同比上涨1 8 欧元区11月份经济景气指数升至-1 德国9月份货物和服务贸易顺差缩减至192亿欧元 英国第三季度GDP环比增长0",
+          "URL": "https://weibo.com/3919628624/IgO4PnHJH?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "190C22A901CE4A962683196B17A89919",
+          "DRETITLEO": "#国际数据速递# 美国10月份CPI同比上涨1.8%；欧元区11月份经济景气指数升至-1；德国9月份货物和服务贸易顺差缩减至192亿欧元；英国第三季度GDP环比增长0.3%；日本第三季度GDP环比折年率增长0.2%；印度10月份CPI同比上",
+          "QUICKDESCRIPTION": "国际数据速递 美国10月份CPI同比上涨1 8 欧元区11月份经济景气指数升至-1 德国9月份货物和服务贸易顺差缩减至192亿欧元 英国第三季度GDP环比增长0 3 日本第三季度GDP环比折年率增长0 2 印度10月份CPI同比上涨4 62 详见O 国际数据 美国10月份CPI同比上涨1 8 等",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DDA8C2BBD02A8FBA335B78A1BE2F6B80",
+      "timestamp": 1573699738000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DDA8C2BBD02A8FBA335B78A1BE2F6B80",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【答记者问】针对央广记者关于GDP统一核算在四经普中如何体现和核心CPI的相关提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+        "title": "#发布会微直播#【答记者问】针对央广记者关于GDP统一核算在四经普中如何体现和核心CPI的相关提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+        "url": "https://weibo.com/3919628624/Ig93JsFfO?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对央广记者关于GDP统一核算在四经普中如何体现和核心CPI的相关提问，新闻发言人刘爱华正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1573699738000,
+        "docDate": "2019-11-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "7FCF6A2BB0BE99856B3F2FC98EC6C576",
+        "md5Url": "08A1F9310771994EFEEF4C7D0EECCC92",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对央广记者关于GDP统一核算在四经普中如何体现和核心CPI的相关提问，新闻发言人刘爱华正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1573699738,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "08A1F9310771994EFEEF4C7D0EECCC92",
+          "DRETITLE": "发布会微直播 答记者问 针对央广记者关于GDP统一核算在四经普中如何体现和核心CPI的相关提问 新闻发言人刘爱华正在回答 直播详见O网页链接 也可以关注国家统计",
+          "URL": "https://weibo.com/3919628624/Ig93JsFfO?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "7FCF6A2BB0BE99856B3F2FC98EC6C576",
+          "DRETITLEO": "#发布会微直播#【答记者问】针对央广记者关于GDP统一核算在四经普中如何体现和核心CPI的相关提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对央广记者关于GDP统一核算在四经普中如何体现和核心CPI的相关提问 新闻发言人刘爱华正在回答 直播详见O网页链接 也可以关注国家统计局官方微信 统计微讯 稍晚会有实录放出",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2E5AD8DE51E7D93CF35BF7530F81B473",
+      "timestamp": 1573699442000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2E5AD8DE51E7D93CF35BF7530F81B473",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【答记者问】针对凤凰卫视记者关于中美贸易战等不确定因素，四季度经济是否有进一步下滑的趋势和GDP统一核算改革背景和目的等相关提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会",
+        "title": "#发布会微直播#【答记者问】针对凤凰卫视记者关于中美贸易战等不确定因素，四季度经济是否有进一步下滑的趋势和GDP统一核算改革背景和目的等相关提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会",
+        "url": "https://weibo.com/3919628624/Ig91JnAAW?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对凤凰卫视记者关于中美贸易战等不确定因素，四季度经济是否有进一步下滑的趋势和GDP统一核算改革背景和目的等相关提问，新闻发言人刘爱华正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1573699442000,
+        "docDate": "2019-11-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "84B78DCE49D7D5A9B96922425471A2C9",
+        "md5Url": "E30F1038079E6874C9741C253804E0CF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对凤凰卫视记者关于中美贸易战等不确定因素，四季度经济是否有进一步下滑的趋势和GDP统一核算改革背景和目的等相关提问，新闻发言人刘爱华正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1573699442,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E30F1038079E6874C9741C253804E0CF",
+          "DRETITLE": "发布会微直播 答记者问 针对凤凰卫视记者关于中美贸易战等不确定因素 四季度经济是否有进一步下滑的趋势和GDP统一核算改革背景和目的等相关提问 新闻发言人刘爱华正",
+          "URL": "https://weibo.com/3919628624/Ig91JnAAW?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "84B78DCE49D7D5A9B96922425471A2C9",
+          "DRETITLEO": "#发布会微直播#【答记者问】针对凤凰卫视记者关于中美贸易战等不确定因素，四季度经济是否有进一步下滑的趋势和GDP统一核算改革背景和目的等相关提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对凤凰卫视记者关于中美贸易战等不确定因素 四季度经济是否有进一步下滑的趋势和GDP统一核算改革背景和目的等相关提问 新闻发言人刘爱华正在回答 直播详见O网页链接 也可以关注国家统计局官方微信 统计微讯 稍晚会有实录放出",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0D220954072EDB69966B12FD31F0588A",
+      "timestamp": 1573698655000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0D220954072EDB69966B12FD31F0588A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【答记者问】针对路透社记者关于GDP未来是否有破6可能的提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+        "title": "#发布会微直播#【答记者问】针对路透社记者关于GDP未来是否有破6可能的提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+        "url": "https://weibo.com/3919628624/Ig8Wploaq?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对路透社记者关于GDP未来是否有破6可能的提问，新闻发言人刘爱华正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1573698655000,
+        "docDate": "2019-11-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "EDF4840A625EC7AF972BCD2C904760D7",
+        "md5Url": "4C843A70CDCC05000D6057C78092E6D4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对路透社记者关于GDP未来是否有破6可能的提问，新闻发言人刘爱华正在回答，直播详见 O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1573698655,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4C843A70CDCC05000D6057C78092E6D4",
+          "DRETITLE": "发布会微直播 答记者问 针对路透社记者关于GDP未来是否有破6可能的提问 新闻发言人刘爱华正在回答 直播详见O网页链接 也可以关注国家统计局官方微信 统计微讯 ",
+          "URL": "https://weibo.com/3919628624/Ig8Wploaq?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "EDF4840A625EC7AF972BCD2C904760D7",
+          "DRETITLEO": "#发布会微直播#【答记者问】针对路透社记者关于GDP未来是否有破6可能的提问，新闻发言人刘爱华正在回答，直播详见O网页链接，也可以关注国家统计局官方微信——统计微讯，稍晚会有实录放出。",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对路透社记者关于GDP未来是否有破6可能的提问 新闻发言人刘爱华正在回答 直播详见O网页链接 也可以关注国家统计局官方微信 统计微讯 稍晚会有实录放出",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "597A4389E95D0264D4136A260292067A",
+      "timestamp": 1573626146000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "597A4389E95D0264D4136A260292067A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统计快讯#【国家统计局召开地区生产总值统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区生产总值统一核算改革】11月11日，国家统计局召开地区生产总值统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要",
+        "title": "#统计快讯#【国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区<em>生产</em><em>总值</em>统一核算改革】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要",
+        "url": "https://weibo.com/3919628624/Ig11ThkbN?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "统计快讯 【国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区<em>生产</em><em>总值</em>统一核算改革】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要指示批示精神，深入贯彻落实党中央、国务院关于实施 ... 统计快讯 【国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区<em>生产</em><em>总值</em>统一核算改革】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要指示批示精神，深入贯彻落实党中央、国务院关于实施 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1573626146000,
+        "docDate": "2019-11-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "4E79C75CBE9EE0179E5E86B6D168D088",
+        "md5Url": "FC3FC212AE7F049A693B8AD36A9BA17D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统计快讯 【国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区<em>生产</em><em>总值</em>统一核算改革】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要指示批示精神，深入贯彻落实党中央、国务院关于实施 ... 统计快讯 【国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区<em>生产</em><em>总值</em>统一核算改革】11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要指示批示精神，深入贯彻落实党中央、国务院关于实施 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1573626146,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "FC3FC212AE7F049A693B8AD36A9BA17D",
+          "DRETITLE": "统计快讯 国家统计局召开地区生产总值统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区生产总值统一核算改革 11月11日 国家统计局召开地区",
+          "URL": "https://weibo.com/3919628624/Ig11ThkbN?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4E79C75CBE9EE0179E5E86B6D168D088",
+          "DRETITLEO": "#统计快讯#【国家统计局召开地区生产总值统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区生产总值统一核算改革】11月11日，国家统计局召开地区生产总值统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要",
+          "QUICKDESCRIPTION": "统计快讯 国家统计局召开地区生产总值统一核算改革动员部署会议 宁吉喆强调深入贯彻中央决策部署 扎实推进地区生产总值统一核算改革 11月11日 国家统计局召开地区生产总值统一核算改革动员部署会议 认真学习贯彻习近平总书记关于统计工作的重要指示批示精神 深入贯彻落实党中央 国务院关于实施 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 10,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 7,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 6,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 7,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 24,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 23,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {
+    "统计新闻": [
+      {
+        "version": "V_8_0",
+        "id": "4D92B65BB4CBA059107B32B72F13A297",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局召开地区生产总值统一核算改革动员部署会议",
+        "title": "国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tjdt/202302/t20230202_1894503.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要指示批示精神，深入贯彻落实党中央、国务院关于实施地区<em>生产</em><em>总值</em>统一核算改革的决策部署，动员安排实施地区<em>生产</em><em>总值</em>统一核算改革任务。国家发展改革委副主任兼国家统计局局长、党组书记宁吉喆出席会议并讲话。国家统计局党组成员、副局长李晓超主持。 　　宁吉喆指出，自1985年我国建立核算制度以来，我国<em>国内生产总值</em>和地区<em>生产</em><em>总值</em>采取分级核算制度，即国家统计局核算<em>国内生产总值</em>，...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1573606860000,
+        "docDate": "2019-11-13",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/10AF3DD82DA1FF2F16E53449AC8D47AE.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tjdt/index_62.html",
+        "weight": 0.016393442,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "A945FEE5031D3B5C1D044B7D4A9E3850",
+        "md5Url": "4D92B65BB4CBA059107B32B72F13A297",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "11月11日，国家统计局召开地区<em>生产</em><em>总值</em>统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要指示批示精神，深入贯彻落实党中央、国务院关于实施地区<em>生产</em><em>总值</em>统一核算改革的决策部署，动员安排实施地区<em>生产</em><em>总值</em>统一核算改革任务。国家发展改革委副主任兼国家统计局局长、党组书记宁吉喆出席会议并讲话。国家统计局党组成员、副局长李晓超主持。 　　宁吉喆指出，自1985年我国建立核算制度以来，我国<em>国内生产总值</em>和地区<em>生产</em><em>总值</em>采取分级核算制度，即国家统计局核算<em>国内生产总值</em>，...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tjdt/202302/t20230202_1894503.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局召开地区生产总值统一核算改革动员部署会议",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/10AF3DD82DA1FF2F16E53449AC8D47AE.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tjdt/index_62.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1573606860,
+          "L1": [
+            "统计党建"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "统计动态"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "4D92B65BB4CBA059107B32B72F13A297",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局召开地区生产总值统一核算改革动员部署会议",
+          "MD5TITLE": "A945FEE5031D3B5C1D044B7D4A9E3850",
+          "QUICKDESCRIPTION": "　　11月11日，国家统计局召开地区生产总值统一核算改革动员部署会议，认真学习贯彻习近平总书记关于统计工作的重要指示批示精神，深入贯彻落实党中央、国务院关于实施地区生产总值统一核算改革的决策部署，动员安排实施地区生产总值统一核算改革任务。国家发展改革委副主任兼国家统计局局长、党组书记宁吉喆出席会议并讲话。国家统计局党组成员、副局长李晓超主持。 　　宁吉喆指出，自1985年我国建立核算制度以来，我国国内生产总值和地区生产总值采取分级核算制度，即国家统计局核算国内生产总值，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [
+          "NEWS"
+        ],
+        "type": 1
+      },
+      {
+        "version": "V_8_0",
+        "id": "A987BAF6290C4A0A5D4B0FCDFD783C72",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局2018年度部门决算",
+        "title": "国家统计局2018年度部门决算",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894061.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "见附件。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1563523200000,
+        "docDate": "2019-07-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_39.html",
+        "weight": 0.016129032,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "311B8D28D4CB76A3856230D6401E845B",
+        "md5Url": "A987BAF6290C4A0A5D4B0FCDFD783C72",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "见附件。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894061.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局2018年度部门决算",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/P020250102562666351315.pdf": "· 国家统计局2018年度部门决算.pdf",
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/P020230202402261901345.pdf": "· 国家统计局部门决算公开(2018).pdf"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_39.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1563523200,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A987BAF6290C4A0A5D4B0FCDFD783C72",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局2018年度部门决算",
+          "MD5TITLE": "311B8D28D4CB76A3856230D6401E845B",
+          "QUICKDESCRIPTION": "　　见附件。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      {
+        "version": "V_8_0",
+        "id": "EC5BC75EF0DDB594913E2E2A8934B279",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "部长通道：我国的国民经济核算科学可靠、真实可比",
+        "title": "部长通道：我国的国民经济核算科学可靠、真实可比",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tjdt/202302/t20230202_1894397.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》“部长通道” 中国信息报记者向宁吉喆提问] 　　3月12日，2019年全国两会第四场“部长通道”在人民大会堂举行。部长们在这里直面热点，回应关切。 　　（3月12日，十三届全国人大二次会议在北京人民大会堂举行第三次全体会议。这是国家统计局局长宁吉喆在“部长通道”接受采访。 新华社记者殷刚 摄） 　　中国信息报记者：统计数据越来越受到人们的关注。比如GDP，人们不仅关注数据本身，也更关注它的计算过程和方法。请问宁局长，...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1552377120000,
+        "docDate": "2019-03-12",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/38AFDB8483BA93B17BA03747D0F82F3D.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tjdt/index_64.html",
+        "weight": 0.015873017,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "B6739B016B7DE4AFCA0DCACB684E6478",
+        "md5Url": "EC5BC75EF0DDB594913E2E2A8934B279",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "新闻直播间》“部长通道” 中国信息报记者向宁吉喆提问] 　　3月12日，2019年全国两会第四场“部长通道”在人民大会堂举行。部长们在这里直面热点，回应关切。 　　（3月12日，十三届全国人大二次会议在北京人民大会堂举行第三次全体会议。这是国家统计局局长宁吉喆在“部长通道”接受采访。 新华社记者殷刚 摄） 　　中国信息报记者：统计数据越来越受到人们的关注。比如GDP，人们不仅关注数据本身，也更关注它的计算过程和方法。请问宁局长，...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tjdt/202302/t20230202_1894397.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "部长通道：我国的国民经济核算科学可靠、真实可比",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/38AFDB8483BA93B17BA03747D0F82F3D.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tjdt/index_64.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1552377120,
+          "L1": [
+            "统计党建"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "统计动态"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "EC5BC75EF0DDB594913E2E2A8934B279",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "部长通道 我国的国民经济核算科学可靠 真实可比",
+          "MD5TITLE": "B6739B016B7DE4AFCA0DCACB684E6478",
+          "QUICKDESCRIPTION": "[video:《新闻直播间》“部长通道” 中国信息报记者向宁吉喆提问] 　　3月12日，2019年全国两会第四场“部长通道”在人民大会堂举行。部长们在这里直面热点，回应关切。 　　（3月12日，十三届全国人大二次会议在北京人民大会堂举行第三次全体会议。这是国家统计局局长宁吉喆在“部长通道”接受采访。 新华社记者殷刚 摄） 　　中国信息报记者：统计数据越来越受到人们的关注。比如GDP，人们不仅关注数据本身，也更关注它的计算过程和方法。请问宁局长，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [
+          "NEWS"
+        ],
+        "type": 1
+      }
+    ]
+  }
+}

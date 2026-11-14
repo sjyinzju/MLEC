@@ -1,0 +1,612 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 104,
+  "currentHits": 4,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "规模以上工业增加值",
+    "originQt": "规模以上工业增加值",
+    "showQt": "规模以上工业增加值",
+    "encodeQt": "%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E5%A2%9E%E5%8A%A0%E5%80%BC",
+    "qtPasser": "规模以上工业增加值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "规模": "NN"
+      },
+      {
+        "以上": "LC"
+      },
+      {
+        "工业": "NN"
+      },
+      {
+        "增加值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "规模以上": "LC"
+      },
+      {
+        "工业增加值": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "工业增加值",
+      "规模以上",
+      "规模",
+      "以上",
+      "增加值",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3B5D040F39DC540285DD144FDADF219F",
+      "timestamp": 1675042200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3B5D040F39DC540285DD144FDADF219F",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年全国规模以上文化及相关产业企业营业收入增长0.9%",
+        "title": "2022年全国<em>规模以上</em>文化及相关产业企业营业收入增长0.9%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901733.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "据对全国6.9万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2022年，文化企业实现营业收入121805亿元，按可比口径计算（详见附注2），比上年增长0.9%[1]。 分业态看，文化新业态特征较为明显的16个行业小类[2]实现营业收入43860亿元，比上年增长5.3%，快于全部<em>规模以上</em>文化企业4.4个百分点。 分行业类别看，新闻信息服务营业收入14464亿元，比上年增长3.3%；内容创作生产26168亿元，增长3.4%；创意设计服务19486亿元，下降0.2%；文化传播渠道13128亿元，下降1.0%；文化投资运营504亿元，增长3.2%；文化娱乐休闲服务1141亿元，下降14.7%；文化辅助生产和中介服务16516亿元，下降0.6%；文化装备生产6904亿元，增长2.1%；文化消费终端生产23494亿元，增长0.3%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610933041384.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "据对全国6.9万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2022年，文化企业实现营业收入121805亿元，按可比口径计算（详见附注2），比上年增长0.9%[1]。 分业态看，文化新业态特征较为明显的16个行业小类[2]实现营业收入43860亿元，比上年增长5.3%，快于全部<em>规模以上</em>文化企业4.4个百分点。 分行业类别看，新闻信息服务营业收入14464亿元，比上年增长3.3%；内容创作生产26168亿元，增长3.4%；创意设计服务19486亿元，下降0.2%；文化传播渠道13128亿元，下降1.0%；文化投资运营504亿元，增长3.2%；文化娱乐休闲服务1141亿元，下降14.7%；文化辅助生产和中介服务16516亿元，下降0.6%；文化装备生产6904亿元，增长2.1%；文化消费终端生产23494亿元，增长0.3%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1675042200000,
+        "docDate": "2023-01-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_46.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "85D8A9E1DDEAFAE841FA101601031F51",
+        "md5Url": "3B5D040F39DC540285DD144FDADF219F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "据对全国6.9万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2022年，文化企业实现营业收入121805亿元，按可比口径计算（详见附注2），比上年增长0.9%[1]。 分业态看，文化新业态特征较为明显的16个行业小类[2]实现营业收入43860亿元，比上年增长5.3%，快于全部<em>规模以上</em>文化企业4.4个百分点。 分行业类别看，新闻信息服务营业收入14464亿元，比上年增长3.3%；内容创作生产26168亿元，增长3.4%；创意设计服务19486亿元，下降0.2%；文化传播渠道13128亿元，下降1.0%；文化投资运营504亿元，增长3.2%；文化娱乐休闲服务1141亿元，下降14.7%；文化辅助生产和中介服务16516亿元，下降0.6%；文化装备生产6904亿元，增长2.1%；文化消费终端生产23494亿元，增长0.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901733.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年全国规模以上文化及相关产业企业营业收入增长0.9%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610933041384.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_46.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1675042200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "3B5D040F39DC540285DD144FDADF219F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年全国规模以上文化及相关产业企业营业收入增长0 9",
+          "MD5TITLE": "85D8A9E1DDEAFAE841FA101601031F51",
+          "QUICKDESCRIPTION": "　　据对全国6.9万家规模以上文化及相关产业企业（以下简称“文化企业”）调查，2022年，文化企业实现营业收入121805亿元，按可比口径计算（详见附注2），比上年增长0.9%[1]。 　　分业态看，文化新业态特征较为明显的16个行业小类[2]实现营业收入43860亿元，比上年增长5.3%，快于全部规模以上文化企业4.4个百分点。 　　分行业类别看，新闻信息服务营业收入14464亿元，比上年增长3.3%；内容创作生产26168亿元，增长3.4%；创意设计服务19486亿元，下降0.2%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "36B918333B13E7BE32858D98EFC393BD",
+      "timestamp": 1673921437000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "36B918333B13E7BE32858D98EFC393BD",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2022年12月份能源生产情况】12月份，规模以上工业原煤、原油、天然气和电力生产同比保持增长。与11月份相比，原煤、原油、天然气增速有所放缓，电力增速加快。详见：O网页链接",
+        "title": "#发布会微直播# 【2022年12月份能源生产情况】12月份，<em>规模以上</em><em>工业</em>原煤、原油、天然气和电力生产同比保持增长。与11月份相比，原煤、原油、天然气增速有所放缓，电力增速加快。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/MoGISFHgQ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2022年12月份能源生产情况】12月份，<em>规模以上</em><em>工业</em>原煤、原油、天然气和电力生产同比保持增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1673921437000,
+        "docDate": "2023-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "36BDE00C025620EFEF3AEB3792D43112",
+        "md5Url": "EA0B6F37ED98F5CA5A706DAA56E29215",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2022年12月份能源生产情况】12月份，<em>规模以上</em><em>工业</em>原煤、原油、天然气和电力生产同比保持增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1673921437,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "EA0B6F37ED98F5CA5A706DAA56E29215",
+          "DRETITLE": "发布会微直播 2022年12月份能源生产情况 12月份 规模以上工业原煤 原油 天然气和电力生产同比保持增长 与11月份相比 原煤 原油 天然气增速有所放缓 电力增速加快 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/MoGISFHgQ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "36BDE00C025620EFEF3AEB3792D43112",
+          "DRETITLEO": "#发布会微直播# 【2022年12月份能源生产情况】12月份，规模以上工业原煤、原油、天然气和电力生产同比保持增长。与11月份相比，原煤、原油、天然气增速有所放缓，电力增速加快。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2022年12月份能源生产情况 12月份 规模以上工业原煤 原油 天然气和电力生产同比保持增长 与11月份相比 原煤 原油 天然气增速有所放缓 电力增速加快 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8D5A3EE107B9462C9819EB1FB2B12353",
+      "timestamp": 1673921123000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8D5A3EE107B9462C9819EB1FB2B12353",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2022年12月份规模以上工业增加值增长1.3%】12月份，规模以上工业增加值同比实际增长1.3%（增加值增速均为扣除价格因素的实际增长率）。从环比看，12月份，规模以上工业增加值比上月增长0.06%。2022年，规模以上工业增加值比上年增长3.6%。详见：O网页链接",
+        "title": "#发布会微直播# 【2022年12月份<em>规模以上</em><em>工业增加值</em>增长1.3%】12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，12月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.06%。2022年，<em>规模以上</em><em>工业增加值</em>比上年增长3.6%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/MoGGLdn81?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2022年12月份<em>规模以上</em><em>工业增加值</em>增长1.3%】12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 发布会微直播 【2022年12月份<em>规模以上</em><em>工业增加值</em>增长1.3%】12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1673921123000,
+        "docDate": "2023-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "E4C4B99D8E0CCC8EB96D4C2FE3129DA7",
+        "md5Url": "45550C2D231EB8D7B89785E1D35DE808",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2022年12月份<em>规模以上</em><em>工业增加值</em>增长1.3%】12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 发布会微直播 【2022年12月份<em>规模以上</em><em>工业增加值</em>增长1.3%】12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1673921123,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "45550C2D231EB8D7B89785E1D35DE808",
+          "DRETITLE": "发布会微直播 2022年12月份规模以上工业增加值增长1 3 12月份 规模以上工业增加值同比实际增长1 3 增加值增速均为扣除价格因素的实际增长率 从环比看 12月份 规模以上工业增加值比上月增长0 06 2022年 规模以上工业增加值比上年增长3 6 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/MoGGLdn81?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E4C4B99D8E0CCC8EB96D4C2FE3129DA7",
+          "DRETITLEO": "#发布会微直播# 【2022年12月份规模以上工业增加值增长1.3%】12月份，规模以上工业增加值同比实际增长1.3%（增加值增速均为扣除价格因素的实际增长率）。从环比看，12月份，规模以上工业增加值比上月增长0.06%。2022年，规模以上工业增加值比上年增长3.6%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2022年12月份规模以上工业增加值增长1 3 12月份 规模以上工业增加值同比实际增长1 3 增加值增速均为扣除价格因素的实际增长率 从环比看 12月份 规模以上工业增加值比上月增长0 06 2022年 规模以上工业增加值比上年增长3 6 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D4F6168053628C304065093588B7E472",
+      "timestamp": 1673920800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D4F6168053628C304065093588B7E472",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年12月份规模以上工业增加值增长1.3%",
+        "title": "2022年12月份<em>规模以上</em><em>工业增加值</em>增长1.3%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901710.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，12月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.06%。2022年，<em>规模以上</em><em>工业增加值</em>比上年增长3.6%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610805543076.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，12月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.06%。2022年，<em>规模以上</em><em>工业增加值</em>比上年增长3.6%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1673920800000,
+        "docDate": "2023-01-17",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/2BD7D86A2BAF4836D6C99BD39D59CAA5.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_46.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "0A187E0F6C90B2318A55F2C65DE6EFD1",
+        "md5Url": "D4F6168053628C304065093588B7E472",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 12月份，<em>规模以上</em><em>工业增加值</em>同比实际增长1.3%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，12月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.06%。2022年，<em>规模以上</em><em>工业增加值</em>比上年增长3.6%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901710.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年12月份规模以上工业增加值增长1.3%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/2BD7D86A2BAF4836D6C99BD39D59CAA5.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610805543076.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_46.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1673920800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D4F6168053628C304065093588B7E472",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年12月份规模以上工业增加值增长1 3",
+          "MD5TITLE": "0A187E0F6C90B2318A55F2C65DE6EFD1",
+          "QUICKDESCRIPTION": "　　12月份，规模以上工业增加值同比实际增长1.3%（增加值增速均为扣除价格因素的实际增长率）。从环比看，12月份，规模以上工业增加值比上月增长0.06%。2022年，规模以上工业增加值比上年增长3.6%。 　　分三大门类看，12月份，采矿业增加值同比增长4.9%，制造业增长0.2%，电力、热力、燃气及水生产和供应业增长7.0%。 　　分经济类型看，12月份，国有控股企业增加值同比增长1.9%；股份制企业增长3.5%，外商及港澳台商投资企业下降7.5%；私营企业增长0.5%。 　　分行业看，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 21,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 11,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 22,
+          "children": null,
+          "key": "工业"
+        },
+        {
+          "val": 22,
+          "children": null,
+          "key": "能源"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "农业"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 67,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

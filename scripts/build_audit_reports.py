@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import pyarrow.parquet as pq
 
-BASE=Path(r'E:\MLEC');A=BASE/'audit';R=BASE/'reports'
+BASE=Path(__file__).resolve().parents[1];A=BASE/'audit';R=BASE/'reports'
 def load(name):return json.loads((A/name).read_text(encoding='utf-8'))
 def readcsv(name):return list(csv.DictReader((A/name).open(encoding='utf-8-sig',newline='')))
 def writecsv(name,rows):

@@ -1,0 +1,1473 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 52,
+  "currentHits": 12,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AD691DAED77B5713C5942BCF189E331F",
+      "timestamp": 1741190400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AD691DAED77B5713C5942BCF189E331F",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "《中国城市统计年鉴2018》的地区生产总值和地区生产总值构成，为什么只有市辖区而没有全市的统计数据？",
+        "title": "《中国城市统计年鉴2018》的地区<em>生产</em><em>总值</em>和地区<em>生产</em><em>总值</em>构成，为什么只有市辖区而没有全市的统计数据？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202504/t20250430_1959544.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "由于截稿前全市地区<em>生产</em><em>总值</em>及构成数据收集情况不理想，所以未收入当年年鉴。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1741190400000,
+        "docDate": "2025-03-06",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_7.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "F2F78C64A6B0AC0F9788D304A38F67EB",
+        "md5Url": "AD691DAED77B5713C5942BCF189E331F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "由于截稿前全市地区<em>生产</em><em>总值</em>及构成数据收集情况不理想，所以未收入当年年鉴。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局城市社会经济调查司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202504/t20250430_1959544.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "《中国城市统计年鉴2018》的地区生产总值和地区生产总值构成，为什么只有市辖区而没有全市的统计数据？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_7.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1741190400,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "AD691DAED77B5713C5942BCF189E331F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "中国城市统计年鉴2018 的地区生产总值和地区生产总值构成 为什么只有市辖区而没有全市的统计数据",
+          "MD5TITLE": "F2F78C64A6B0AC0F9788D304A38F67EB",
+          "QUICKDESCRIPTION": "由于截稿前全市地区生产总值及构成数据收集情况不理想，所以未收入当年年鉴。可以通过各地统计公报或年鉴获取该部分数据。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8DB89D6B39CDFDDC9D18ACED22424618",
+      "timestamp": 1740708000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8DB89D6B39CDFDDC9D18ACED22424618",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "什么是GDP缩减指数",
+        "title": "什么是GDP缩减指数",
+        "url": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903780.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "GDP缩减指数的基本概念 GDP缩减指数又称GDP平减指数，是指未剔除价格变动的GDP与剔除价格变动的GDP之比，即现价GDP（或称为名义GDP）与不变价GDP（或称为实际GDP）之比，公式为： GDP缩减指数 现价GDP 不变价GDP 100 GDP缩减指数本质上是一种价格指数，能够更加准确地反映一般物价水平走向，是对价格水平的宏观测度。 一、GDP缩减指数的基本概念 GDP缩减指数又称GDP平减指数，是指未剔除价格变动的GDP与剔除价格变动的GDP之比，即现价GDP（或称为名义GDP）与不变价GDP（或称为实际GDP）之比，公式为： GDP缩减指数 现价GDP 不变价GDP 100 GDP缩减指数本质上是一种价格指数，能够更加准确地反映一般物价水平走向，是对价格水平的宏观测度。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1740708000000,
+        "docDate": "2025-02-28",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzb/index_1.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "9174305D26B57B99E241DC9C9369C405",
+        "md5Url": "8DB89D6B39CDFDDC9D18ACED22424618",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "GDP缩减指数的基本概念 GDP缩减指数又称GDP平减指数，是指未剔除价格变动的GDP与剔除价格变动的GDP之比，即现价GDP（或称为名义GDP）与不变价GDP（或称为实际GDP）之比，公式为： GDP缩减指数 现价GDP 不变价GDP 100 GDP缩减指数本质上是一种价格指数，能够更加准确地反映一般物价水平走向，是对价格水平的宏观测度。 一、GDP缩减指数的基本概念 GDP缩减指数又称GDP平减指数，是指未剔除价格变动的GDP与剔除价格变动的GDP之比，即现价GDP（或称为名义GDP）与不变价GDP（或称为实际GDP）之比，公式为： GDP缩减指数 现价GDP 不变价GDP 100 GDP缩减指数本质上是一种价格指数，能够更加准确地反映一般物价水平走向，是对价格水平的宏观测度。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903780.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "什么是GDP缩减指数",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzb/index_1.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1740708000,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "基本统计知识问答"
+          ],
+          "L4": [
+            "统计指标"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "8DB89D6B39CDFDDC9D18ACED22424618",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "什么是GDP缩减指数",
+          "MD5TITLE": "9174305D26B57B99E241DC9C9369C405",
+          "QUICKDESCRIPTION": "GDP是指一个国家或地区所有常住单位在一定时期内生产活动的最终成果，GDP缩减指数反映的是生产活动产出的最终货物和服务的总体价格变动幅度，主要用于分析价格总水平的变化，是最宏观、最综合的价格指数指标。 一、GDP缩减指数的基本概念 GDP缩减指数又称GDP平减指数，是指未剔除价格变动的GDP与剔除价格变动的GDP之比，即现价GDP（或称为名义GDP）与不变价GDP（或称为实际GDP）之比，公式为： GDP缩减指数＝现价GDP÷不变价GDP×100 GDP缩减指数本质上是一种价格指数，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5E06C940BDE70E1A554A99C8DDC1F415",
+      "timestamp": 1740624930000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5E06C940BDE70E1A554A99C8DDC1F415",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统统告诉你# 【GDP研究所：带你了解“既熟悉又陌生”的ta】对于很多人来说，GDP“既熟悉又陌生”，大家都很关注它，但真要搞清楚，其实不容易。让我们一起来梳理一下GDP的相关知识吧→O【统统告诉你】GDP研究所：带你了解“既熟悉又...",
+        "title": "#统统告诉你# 【GDP研究所：带你了解“既熟悉又陌生”的ta】对于很多人来说，GDP“既熟悉又陌生”，大家都很关注它，但真要搞清楚，其实不容易。让我们一起来梳理一下GDP的相关知识吧→O【统统告诉你】GDP研究所：带你了解“既熟悉又...",
+        "url": "https://weibo.com/3919628624/PgcztpIxF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "让我们一起来梳理一下GDP的相关知识吧 O【统统告诉你】GDP研究所：带你了解“既熟悉又... 统统告诉你 【GDP研究所：带你了解“既熟悉又陌生”的ta】对于很多人来说，GDP“既熟悉又陌生”，大家都很关注它，但真要搞清楚，其实不容易。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1740624930000,
+        "docDate": "2025-02-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "4E60749E3B101C56C91CAEA9A0990E8C",
+        "md5Url": "D429D40EA783E155A674D3A537EE0B6C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "让我们一起来梳理一下GDP的相关知识吧 O【统统告诉你】GDP研究所：带你了解“既熟悉又... 统统告诉你 【GDP研究所：带你了解“既熟悉又陌生”的ta】对于很多人来说，GDP“既熟悉又陌生”，大家都很关注它，但真要搞清楚，其实不容易。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1740624930,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D429D40EA783E155A674D3A537EE0B6C",
+          "DRETITLE": "统统告诉你 GDP研究所 带你了解 既熟悉又陌生 的ta 对于很多人来说 GDP 既熟悉又陌生 大家都很关注它 但真要搞清楚 其实不容易 让我们一起来梳理一下GDP的相关知识吧→O 统统告诉你 GDP研究所 带你了解 既熟悉又",
+          "URL": "https://weibo.com/3919628624/PgcztpIxF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4E60749E3B101C56C91CAEA9A0990E8C",
+          "DRETITLEO": "#统统告诉你# 【GDP研究所：带你了解“既熟悉又陌生”的ta】对于很多人来说，GDP“既熟悉又陌生”，大家都很关注它，但真要搞清楚，其实不容易。让我们一起来梳理一下GDP的相关知识吧→O【统统告诉你】GDP研究所：带你了解“既熟悉又...",
+          "QUICKDESCRIPTION": "统统告诉你 GDP研究所 带你了解 既熟悉又陌生 的ta 对于很多人来说 GDP 既熟悉又陌生 大家都很关注它 但真要搞清楚 其实不容易 让我们一起来梳理一下GDP的相关知识吧 O 统统告诉你 GDP研究所 带你了解 既熟悉又",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BEFCF9F8E9AE051B48C25A573C0C095D",
+      "timestamp": 1740535200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BEFCF9F8E9AE051B48C25A573C0C095D",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "如何正确解读GDP数据",
+        "title": "如何正确解读GDP数据",
+        "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/202502/t20250226_1958799.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "解读GDP的注意事项 （一）使用GDP数据时，要注意是现价数据还是不变价数据 一般而言，国家统计局公布的GDP总量是以现价GDP计算的，即按照当年价格核算的GDP，而公布的GDP增速是以不变价GDP计算的，即按照参考年度价格核算的GDP。 一、解读GDP的注意事项 （一）使用GDP数据时，要注意是现价数据还是不变价数据 一般而言，国家统计局公布的GDP总量是以现价GDP计算的，即按照当年价格核算的GDP，而公布的GDP增速是以不变价GDP计算的，即按照参考年度价格核算的GDP。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1740535200000,
+        "docDate": "2025-02-26",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/3B795D2A2BECAE8FF5E762E25EC09975.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "BA4D36EF08B6F6607DF198F621B43454",
+        "md5Url": "BEFCF9F8E9AE051B48C25A573C0C095D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "解读GDP的注意事项 （一）使用GDP数据时，要注意是现价数据还是不变价数据 一般而言，国家统计局公布的GDP总量是以现价GDP计算的，即按照当年价格核算的GDP，而公布的GDP增速是以不变价GDP计算的，即按照参考年度价格核算的GDP。 一、解读GDP的注意事项 （一）使用GDP数据时，要注意是现价数据还是不变价数据 一般而言，国家统计局公布的GDP总量是以现价GDP计算的，即按照当年价格核算的GDP，而公布的GDP增速是以不变价GDP计算的，即按照参考年度价格核算的GDP。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/202502/t20250226_1958799.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "如何正确解读GDP数据",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/3B795D2A2BECAE8FF5E762E25EC09975.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1740535200,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "主要统计指标诠释"
+          ],
+          "L4": [
+            "国内(地区)生产总值"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "BEFCF9F8E9AE051B48C25A573C0C095D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "如何正确解读GDP数据",
+          "MD5TITLE": "BA4D36EF08B6F6607DF198F621B43454",
+          "QUICKDESCRIPTION": "一、解读GDP的注意事项 （一）使用GDP数据时，要注意是现价数据还是不变价数据 一般而言，国家统计局公布的GDP总量是以现价GDP计算的，即按照当年价格核算的GDP，而公布的GDP增速是以不变价GDP计算的，即按照参考年度价格核算的GDP。我国采用固定基期方法核算不变价GDP，目前每5年更换一次基期，2021年以来，不变价GDP参考的是2020年度的价格。 （二）使用GDP数据时，要注意数据的来源和版本 一是要注意所使用数据的核算方法。从理论上，生产法、收入法、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "257A5BDD4609DB0C8728397D52D2608C",
+      "timestamp": 1740535200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "257A5BDD4609DB0C8728397D52D2608C",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "正确解读单位GDP能耗数据",
+        "title": "正确解读单位GDP能耗数据",
+        "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwgn/202502/t20250226_1958802.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "正确理解单位GDP能耗与相关指标之间的关系 单位GDP能耗与单位工业增加值能耗、单位GDP电耗等指标关系密切。 由于能耗的核算范围包括全部三次产业的<em>生产</em>、经营及其他活动用能，也包括居民生活用能，而农林牧渔业、建筑业和服务业相对工业单位产出能耗较低，居民生活不直接创造GDP，所以单位GDP能耗下降率一般小于单位工业增加值能耗下降率。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1740535200000,
+        "docDate": "2025-02-26",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/4E0DD60BEF40CF10425119855B925F57.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwgn/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "3DF96AF8BC0E1677DBE803338039F558",
+        "md5Url": "257A5BDD4609DB0C8728397D52D2608C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "正确理解单位GDP能耗与相关指标之间的关系 单位GDP能耗与单位工业增加值能耗、单位GDP电耗等指标关系密切。 由于能耗的核算范围包括全部三次产业的<em>生产</em>、经营及其他活动用能，也包括居民生活用能，而农林牧渔业、建筑业和服务业相对工业单位产出能耗较低，居民生活不直接创造GDP，所以单位GDP能耗下降率一般小于单位工业增加值能耗下降率。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwgn/202502/t20250226_1958802.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "正确解读单位GDP能耗数据",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/4E0DD60BEF40CF10425119855B925F57.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwgn/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1740535200,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "主要统计指标诠释"
+          ],
+          "L4": [
+            "单位国内(地区)生产总值能耗"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "257A5BDD4609DB0C8728397D52D2608C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "正确解读单位GDP能耗数据",
+          "MD5TITLE": "3DF96AF8BC0E1677DBE803338039F558",
+          "QUICKDESCRIPTION": "一、解读单位GDP能耗数据的注意事项 （一）正确理解单位GDP能耗指标内涵 单位GDP能耗是强度指标，因能源消费构成、产业、行业结构等不同，会导致不同国家、不同地区该指标在不同的发展阶段有一定差异。不能单纯看该项指标数据的高低、大小，还要客观地分析其指标含义及影响变化因素。当一个国家（地区）经济处于快速发展时期，基础建设投资对高耗能产品的需求旺盛，会表现出单位GDP能耗较高。当一个国家（地区）完成了工业化和城镇化进程，经济增长主要靠高新技术产业和服务业拉动时，单位GDP能耗则处于较低水平。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DC906E88492DD1AE990AE1F2105F21AA",
+      "timestamp": 1737856800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DC906E88492DD1AE990AE1F2105F21AA",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "如何理解GDP、国民总收入（GNI）的区别和联系",
+        "title": "如何理解GDP、国民总收入（GNI）的区别和联系",
+        "url": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903832.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "GDP与GNI的基本概念 <em>国内生产总值</em>（Gross Domestic Product，简称GDP），是指一个国家或地区所有常住单位在一定时期内<em>生产</em>活动的最终成果，等于所有常住单位创造的增加值之和。可见，GDP强调<em>国内</em><em>生产</em>，体现的是增加值的<em>生产</em>创造。 国民总收入（Gross National Income，简称GNI），是指一个国家或地区所有常住单位在一定时期内收入初次分配的最终结果，等于所有常住单位的初次分配收入之和。 两者既有密切联系，又有一定区别，用途都非常广泛。 一、GDP与GNI的基本概念 <em>国内生产总值</em>（Gross Domestic Product，简称GDP），是指一个国家或地区所有常住单位在一定时期内<em>生产</em>活动的最终成果，等于所有常住单位创造的增加值之和。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1737856800000,
+        "docDate": "2025-01-26",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/98F8D5658491E384BFA46B1A9973FBA9.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzb/index_2.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "FE64CC54F6FF5C8D64BEC9396FBCFC87",
+        "md5Url": "DC906E88492DD1AE990AE1F2105F21AA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "GDP与GNI的基本概念 <em>国内生产总值</em>（Gross Domestic Product，简称GDP），是指一个国家或地区所有常住单位在一定时期内<em>生产</em>活动的最终成果，等于所有常住单位创造的增加值之和。可见，GDP强调<em>国内</em><em>生产</em>，体现的是增加值的<em>生产</em>创造。 国民总收入（Gross National Income，简称GNI），是指一个国家或地区所有常住单位在一定时期内收入初次分配的最终结果，等于所有常住单位的初次分配收入之和。 两者既有密切联系，又有一定区别，用途都非常广泛。 一、GDP与GNI的基本概念 <em>国内生产总值</em>（Gross Domestic Product，简称GDP），是指一个国家或地区所有常住单位在一定时期内<em>生产</em>活动的最终成果，等于所有常住单位创造的增加值之和。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903832.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "如何理解GDP、国民总收入（GNI）的区别和联系",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/98F8D5658491E384BFA46B1A9973FBA9.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzb/index_2.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1737856800,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "基本统计知识问答"
+          ],
+          "L4": [
+            "统计指标"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "DC906E88492DD1AE990AE1F2105F21AA",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "如何理解GDP 国民总收入 GNI 的区别和联系",
+          "MD5TITLE": "FE64CC54F6FF5C8D64BEC9396FBCFC87",
+          "QUICKDESCRIPTION": "国内生产总值和国民总收入是衡量一个国家（地区）经济状况和发展水平的两个重要总量指标。两者既有密切联系，又有一定区别，用途都非常广泛。 一、GDP与GNI的基本概念 国内生产总值（Gross　Domestic　Product，简称GDP），是指一个国家或地区所有常住单位在一定时期内生产活动的最终成果，等于所有常住单位创造的增加值之和。可见，GDP强调国内生产，体现的是增加值的生产创造。 国民总收入（Gross　National　Income，简称GNI），",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C75FCCE41C5A63C8CF91B97E752AA630",
+      "timestamp": 1737856800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C75FCCE41C5A63C8CF91B97E752AA630",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "GDP数据为什么要修订",
+        "title": "GDP数据为什么要修订",
+        "url": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903737.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "对GDP数据进行修订是国际通行做法。世界各国GDP数据都不是一锤定音，都根据更加完整、可靠的基础数据不断修订。 GDP当期数据修订主要是在获得更全面更翔实的当期基础资料后，对原有GDP数据所做的修订；GDP历史数据修订一般是根据经济普查资料或因核算方法发生重大改变时，对以前年度和季度的GDP数据所做的修订。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1737856800000,
+        "docDate": "2025-01-26",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzb/index_2.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "17E92D1271E8D993439C4AB96625179C",
+        "md5Url": "C75FCCE41C5A63C8CF91B97E752AA630",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "对GDP数据进行修订是国际通行做法。世界各国GDP数据都不是一锤定音，都根据更加完整、可靠的基础数据不断修订。 GDP当期数据修订主要是在获得更全面更翔实的当期基础资料后，对原有GDP数据所做的修订；GDP历史数据修订一般是根据经济普查资料或因核算方法发生重大改变时，对以前年度和季度的GDP数据所做的修订。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903737.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "GDP数据为什么要修订",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzb/index_2.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1737856800,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "基本统计知识问答"
+          ],
+          "L4": [
+            "统计指标"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C75FCCE41C5A63C8CF91B97E752AA630",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "GDP数据为什么要修订",
+          "MD5TITLE": "17E92D1271E8D993439C4AB96625179C",
+          "QUICKDESCRIPTION": "对GDP数据进行修订是国际通行做法。世界各国GDP数据都不是一锤定音，都根据更加完整、可靠的基础数据不断修订。GDP的数据修订包括当期（当季、当年）数据修订和历史数据修订。GDP当期数据修订主要是在获得更全面更翔实的当期基础资料后，对原有GDP数据所做的修订；GDP历史数据修订一般是根据经济普查资料或因核算方法发生重大改变时，对以前年度和季度的GDP数据所做的修订。 一、GDP数据修订的原因 在各国GDP核算中，GDP的初步核算数据通常更注重时效性，优先考虑基础数据的可获得性，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4366836F7B2B4E9B1886E968FC666AC5",
+      "timestamp": 1737684000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4366836F7B2B4E9B1886E968FC666AC5",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "什么是国内生产总值（GDP）",
+        "title": "什么是<em>国内生产总值</em>（GDP）",
+        "url": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903699.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "<em>国内生产总值</em>，是国际上通行的、用于衡量一个国家（或地区）经济运行规模的宏观经济指标，其在政治、经济、外交、研究等领域具有广泛应用。 一、<em>国内生产总值</em>的基本概念 <em>国内生产总值</em>是指一个国家或地区所有常住单位在一定时期内<em>生产</em>活动的最终成果。 从价值创造看，它是所有常住单位在一定时期内<em>生产</em>的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形成看，它是所有常住单位在一定时期内形成的劳动者报酬、<em>生产</em>税净额、固定资产折旧、营业盈余等各项收入之和；从最终使用看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。 二、<em>国内生产总值</em>的三种核算方法 GDP上述三种表现形式分别通过<em>生产</em>法、收入法和支出法来核算，三种方法分别从<em>生产</em>、分配、使用三个方面反映<em>生产</em>活动的最终成果。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1737684000000,
+        "docDate": "2025-01-24",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzb/index_2.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "C339C4B4949289E3A4C220F0C052F3DA",
+        "md5Url": "4366836F7B2B4E9B1886E968FC666AC5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "<em>国内生产总值</em>，是国际上通行的、用于衡量一个国家（或地区）经济运行规模的宏观经济指标，其在政治、经济、外交、研究等领域具有广泛应用。 一、<em>国内生产总值</em>的基本概念 <em>国内生产总值</em>是指一个国家或地区所有常住单位在一定时期内<em>生产</em>活动的最终成果。 从价值创造看，它是所有常住单位在一定时期内<em>生产</em>的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形成看，它是所有常住单位在一定时期内形成的劳动者报酬、<em>生产</em>税净额、固定资产折旧、营业盈余等各项收入之和；从最终使用看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。 二、<em>国内生产总值</em>的三种核算方法 GDP上述三种表现形式分别通过<em>生产</em>法、收入法和支出法来核算，三种方法分别从<em>生产</em>、分配、使用三个方面反映<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903699.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "什么是国内生产总值（GDP）",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzb/index_2.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1737684000,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "基本统计知识问答"
+          ],
+          "L4": [
+            "统计指标"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "4366836F7B2B4E9B1886E968FC666AC5",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "什么是国内生产总值 GDP",
+          "MD5TITLE": "C339C4B4949289E3A4C220F0C052F3DA",
+          "QUICKDESCRIPTION": "国内生产总值，是国际上通行的、用于衡量一个国家（或地区）经济运行规模的宏观经济指标，其在政治、经济、外交、研究等领域具有广泛应用。 一、国内生产总值的基本概念 国内生产总值是指一个国家或地区所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形式，即价值创造、收入形成和最终使用。从价值创造看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形成看，它是所有常住单位在一定时期内形成的劳动者报酬、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5A67C532B5C1ECCCB87464638E0BEF0A",
+      "timestamp": 1737164492000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5A67C532B5C1ECCCB87464638E0BEF0A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2024年四季度和全年国内生产总值初步核算结果】根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。详见：O网页链接",
+        "title": "#数据发布# 【2024年四季度和全年<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Pa6ZAE2C3?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2024年四季度和全年<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。 数据发布 【2024年四季度和全年<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1737164492000,
+        "docDate": "2025-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "B716E6820BF9A1B0CFD7C838974FEE22",
+        "md5Url": "B9D8518E3FF5696C3D1CB007A72D9E05",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2024年四季度和全年<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。 数据发布 【2024年四季度和全年<em>国内生产总值</em>初步核算结果】根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1737164492,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "B9D8518E3FF5696C3D1CB007A72D9E05",
+          "DRETITLE": "数据发布 2024年四季度和全年国内生产总值初步核算结果 根据有关基础资料和国内生产总值 GDP 核算方法 经初步核算 我国2024年四季度和全年GDP核算结果如下 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/Pa6ZAE2C3?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B716E6820BF9A1B0CFD7C838974FEE22",
+          "DRETITLEO": "#数据发布# 【2024年四季度和全年国内生产总值初步核算结果】根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2024年四季度和全年国内生产总值初步核算结果 根据有关基础资料和国内生产总值 GDP 核算方法 经初步核算 我国2024年四季度和全年GDP核算结果如下 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "27C95615BCD664BB4953E70C042E26CA",
+      "timestamp": 1737163800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "27C95615BCD664BB4953E70C042E26CA",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2024年四季度和全年国内生产总值初步核算结果",
+        "title": "2024年四季度和全年<em>国内生产总值</em>初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250118_1958363.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202501/P020250118328634481920.xlsx": "gdp"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1737163800000,
+        "docDate": "2025-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_18.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "A7F392FA9493D144A3C9F64562E2FD9A",
+        "md5Url": "27C95615BCD664BB4953E70C042E26CA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和<em>国内生产总值</em>（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202501/t20250118_1958363.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2024年四季度和全年国内生产总值初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202501/P020250118328634481920.xlsx": "gdp"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_18.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1737163800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "27C95615BCD664BB4953E70C042E26CA",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2024年四季度和全年国内生产总值初步核算结果",
+          "MD5TITLE": "A7F392FA9493D144A3C9F64562E2FD9A",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国内生产总值（GDP）核算方法，经初步核算，我国2024年四季度和全年GDP核算结果如下。   表1　2024年四季度和全年GDP初步核算数据     绝对额（亿元） 比上年同期增长（%） 四季度 全年 四季度 全年 GDP 373726 1349084 5.4 5.0 第一产业 34050 91414 3.7 3.5 第二产业 135595 492087 5.2 5.3 第三产业 204081 765583 5.8 5.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6739766E514DA1084EF2A2C899E06C53",
+      "timestamp": 1737114630000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6739766E514DA1084EF2A2C899E06C53",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2024年中国经济怎么看？国家统计局相关负责人权威解读→】1月17日，2024年度国民经济运行情况发布，2024年国内生产总值首次突破130万亿元，达到1349084亿元，同比增长5.0%。2024年中国经济怎么看？国家统计局相关负责人为您权威解读→O网页链接",
+        "title": "#权威解读# 【2024年中国经济怎么看？国家统计局相关负责人权威解读→】1月17日，2024年度国民经济运行情况发布，2024年<em>国内生产总值</em>首次突破130万亿元，达到1349084亿元，同比增长5.0%。2024年中国经济怎么看？国家统计局相关负责人为您权威解读→O网页链接",
+        "url": "https://weibo.com/3919628624/Pa1yhc9lB?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2024年中国经济怎么看 国家统计局相关负责人权威解读 】1月17日，2024年度国民经济运行情况发布，2024年<em>国内生产总值</em>首次突破130万亿元，达到1349084亿元，同比增长5.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1737114630000,
+        "docDate": "2025-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "1120C8DA1BFF70E6E85D9B213BA7E0ED",
+        "md5Url": "862E3786B8D64D95C426309E847F17E0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2024年中国经济怎么看 国家统计局相关负责人权威解读 】1月17日，2024年度国民经济运行情况发布，2024年<em>国内生产总值</em>首次突破130万亿元，达到1349084亿元，同比增长5.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1737114630,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "862E3786B8D64D95C426309E847F17E0",
+          "DRETITLE": "权威解读 2024年中国经济怎么看 国家统计局相关负责人权威解读→ 1月17日 2024年度国民经济运行情况发布 2024年国内生产总值首次突破130万亿元 达到1349084亿元 同比增长5 0 2024年中国经济怎么看 国家统计局相关负责人为您权威解读→O网页链接",
+          "URL": "https://weibo.com/3919628624/Pa1yhc9lB?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1120C8DA1BFF70E6E85D9B213BA7E0ED",
+          "DRETITLEO": "#权威解读# 【2024年中国经济怎么看？国家统计局相关负责人权威解读→】1月17日，2024年度国民经济运行情况发布，2024年国内生产总值首次突破130万亿元，达到1349084亿元，同比增长5.0%。2024年中国经济怎么看？国家统计局相关负责人为您权威解读→O网页链接",
+          "QUICKDESCRIPTION": "权威解读 2024年中国经济怎么看 国家统计局相关负责人权威解读 1月17日 2024年度国民经济运行情况发布 2024年国内生产总值首次突破130万亿元 达到1349084亿元 同比增长5 0 2024年中国经济怎么看 国家统计局相关负责人为您权威解读 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A25229A0B0059B9A416099E4406180A9",
+      "timestamp": 1737113291000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A25229A0B0059B9A416099E4406180A9",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【#2024年中国经济怎么看#？国家统计局相关负责人权威解读→】1月17日，2024年度国民经济运行情况发布。2024年#国内生产总值首次突破130万亿元#，达到1349084亿元，按不变价格计算，比上年增长5.0%。2024年中国经济怎么看？国家统计局相关负责人为您权威解读→O网页链接",
+        "title": "【#2024年中国经济怎么看#？国家统计局相关负责人权威解读→】1月17日，2024年度国民经济运行情况发布。2024年#<em>国内生产总值</em>首次突破130万亿元#，达到1349084亿元，按不变价格计算，比上年增长5.0%。2024年中国经济怎么看？国家统计局相关负责人为您权威解读→O网页链接",
+        "url": "https://weibo.com/3919628624/Pa1pdsdL1?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "2024年中国经济怎么看 国家统计局相关负责人权威解读 】1月17日，2024年度国民经济运行情况发布。2024年 <em>国内生产总值</em>首次突破130万亿元 ，达到1349084亿元，按不变价格计算，比上年增长5.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1737113291000,
+        "docDate": "2025-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "72E5704F9D226B9FD9B1EF3B109DBD4E",
+        "md5Url": "7050B3636CE050257D567A0AEC0BD16E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2024年中国经济怎么看 国家统计局相关负责人权威解读 】1月17日，2024年度国民经济运行情况发布。2024年 <em>国内生产总值</em>首次突破130万亿元 ，达到1349084亿元，按不变价格计算，比上年增长5.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1737113291,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "7050B3636CE050257D567A0AEC0BD16E",
+          "DRETITLE": "2024年中国经济怎么看 国家统计局相关负责人权威解读→ 1月17日 2024年度国民经济运行情况发布 2024年 国内生产总值首次突破130万亿元 达到1349084亿元 按不变价格计算 比上年增长5 0 2024年中国经济怎么看 国家统计局相关负责人为您权威解读→O网页链接",
+          "URL": "https://weibo.com/3919628624/Pa1pdsdL1?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "72E5704F9D226B9FD9B1EF3B109DBD4E",
+          "DRETITLEO": "【#2024年中国经济怎么看#？国家统计局相关负责人权威解读→】1月17日，2024年度国民经济运行情况发布。2024年#国内生产总值首次突破130万亿元#，达到1349084亿元，按不变价格计算，比上年增长5.0%。2024年中国经济怎么看？国家统计局相关负责人为您权威解读→O网页链接",
+          "QUICKDESCRIPTION": "2024年中国经济怎么看 国家统计局相关负责人权威解读 1月17日 2024年度国民经济运行情况发布 2024年 国内生产总值首次突破130万亿元 达到1349084亿元 按不变价格计算 比上年增长5 0 2024年中国经济怎么看 国家统计局相关负责人为您权威解读 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 23,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 15,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 14,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 13,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 6,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 36,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "工业"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "住户调查"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 41,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "专题"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

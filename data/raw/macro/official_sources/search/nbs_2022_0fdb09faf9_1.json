@@ -1,0 +1,2385 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 66,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "工业生产者出厂价格",
+    "originQt": "工业生产者出厂价格",
+    "showQt": "工业生产者出厂价格",
+    "encodeQt": "%E5%B7%A5%E4%B8%9A%E7%94%9F%E4%BA%A7%E8%80%85%E5%87%BA%E5%8E%82%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "工业生产者出厂价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "工业": "NN"
+      },
+      {
+        "生产者": "NN"
+      },
+      {
+        "出厂": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "工业": "NN"
+      },
+      {
+        "生产者": "NN"
+      },
+      {
+        "出厂价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "出厂",
+      "出厂价格",
+      "生产者",
+      "价格",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [
+      {
+        "forceStatus": 0,
+        "score": 0.5230583,
+        "id": "4f55a39a-f59d-420b-b7a8-6c1bfa8aa42d",
+        "name": "工业品出厂价格指数",
+        "showTitle": "工业品出厂价格指数",
+        "vectorTitleo": "",
+        "sort": 10,
+        "type": 0,
+        "subjectType": 0,
+        "subjectPicInfoList": [
+          {
+            "imgUrl": "https://file.so-gov.cn/cps/pro/bm36000002/sceneSubject/6e9e3201717f4b9c82fa29aeb9eea74f.png",
+            "title": "工业品出厂价格指数",
+            "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/search?s=%E5%B7%A5%E4%B8%9A%E5%93%81%E5%87%BA%E5%8E%82%E4%BB%B7%E6%A0%BC%E6%8C%87%E6%95%B0"
+          }
+        ],
+        "staticHtml": "<div style=\"text-indent:0px;\">\n      <a href=\"javascript:void('0');\" onclick=\"ask('PPI统计中是否包含增值税？');\">PPI统计中是否包含增值税？</a>\n</div>",
+        "rightDocList": [
+          {
+            "id": "DF2DA041DA8F6C4ADD3537D73139743A",
+            "title": "工业生产者出厂价格指数（PPI）是如何编制的",
+            "url": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903637.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1740708000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "工业生产者出厂价格是工业企业产品第一次出售时的价格，通过编制工业生产者出厂价格指数，可以客观准确地反映各工业行业产品价格水平及其变化趋势和变动幅度，为国民经济核算、宏观经济分析和调控、理顺价格体系等提供可靠的依据。 一、工业生产者出厂价格指数（PPI）的基本概念 生产者价格指数（Producer Price Index，简称PPI），理论上应涵盖所有产业，即包括农业生产者价格指数、工业生产者价格指数和服务业生产者价格指数等指数。由于历史及技术原因，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "AD00B9714CE50C4F2C7E80F447B83520",
+            "md5Url": "DF2DA041DA8F6C4ADD3537D73139743A",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "E0483BD48506F9505E881202D505E6F1",
+            "title": "工业生产增长速度的基础数据来源",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202412/t20241220_1957812.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1735524000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、调查对象和调查方法 调查对象为规模以上工业企业，2022年底约有47万家，分布在全国31个省（区、市）。月度调查中的“工业产销总值及主要产品产量”和年度调查中的“财务状况（成本费用）”报表均为全面调查。 二、组织实施机构及调查工作流程 规模以上工业在月度中实行全面调查，调查的组织实施机构是国家统计局和地方各级统计局。 调查工作流程分为报表制度布置和数据采集两个阶段。国家统计局于每年9—10月对各省（区、市）就下一年度规模以上工业企业调查及其报表制度进行布置和培训，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "FB50E73F8AE51C3120DCAC33E5AE5DE1",
+            "md5Url": "E0483BD48506F9505E881202D505E6F1",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "90571C6D714A30A80596175AC118CDF7",
+            "title": "工业生产增长速度的计算方法",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202410/t20241025_1957170.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1730340000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、基本情况 工业生产增长速度的计算由国家统计局组织实施。国家统计局负责制定工业生产增长速度的计算方法，确定调查范围和调查频率，并按月计算和公布工业生产增长速度。省及省以下各级的工业生产增长速度由当地统计局按照国家统一的计算方法计算，并经上一级统计局审核评估后对外发布。 工业生产增长速度是对工业生产增减变化的反映，其计算必须依赖于能够反映工业生产总体的一个总量指标。为了与国民经济核算相衔接，目前，采用工业增加值作为计算工业生产增长速度的总量指标。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "8FCD3F255E06AE691F7FBDEC394DF8D1",
+            "md5Url": "90571C6D714A30A80596175AC118CDF7",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "F60E9552C88A450513F1E58593E41190",
+            "title": "什么是工业生产者出厂价格指数（PPI）",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gyscz/202409/t20240910_1956355.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1726192800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、工业生产者出厂价格指数（PPI）的基本定义 工业生产者出厂价格指数指一定时期内工业企业产品第一次出售时的出厂价格总水平的变动趋势和变动幅度的相对数，一般称为PPI（Producer  Price  Index）。此外，在价格统计工作中，我国也编制工业生产者购进价格指数，该指数是反映工业企业作为中间投入的原材料、燃料、动力购进价格总水平的变动趋势和变动幅度的相对数。在实际工作中，也将工业生产者出厂价格指数和购进价格指数统称为PPI。 二、",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "E1DE6DB4685755E1D89416810DC58A0D",
+            "md5Url": "F60E9552C88A450513F1E58593E41190",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "6FECD29E87747A93A1C5A3246002318F",
+            "title": "什么是工业生产增长速度",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202409/t20240909_1956328.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1726192800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、工业生产增长速度的基本含义 工业生产增长速度也称工业增加值增长速度，简称工业增长速度，它是以工业增加值作为总量指标计算出来的，反映一定时期全国或某一地区工业生产增减变动的相对数，通常以百分数表示。例如，2022年9月，全国规模以上工业增加值同比增长6.3％。 由于工业统计调查的范围和频率不同，工业增长速度又分为全部工业增长速度和规模以上工业增长速度。全部工业增长速度，其统计范围为全部工业，按季度和年度统计、计算和公布。规模以上工业增长速度，其统计范围为规模以上工业，按月度统计、计算和公布。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "30EEAF41F25C97C35B66FCDEB94354BF",
+            "md5Url": "6FECD29E87747A93A1C5A3246002318F",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          }
+        ],
+        "categoryEntityList": [
+          {
+            "id": "6f25314bf88babf1776fcb6d9d82adfd",
+            "title": "最新发布",
+            "moreUrl": "",
+            "showType": 4,
+            "documentList": [
+              {
+                "id": "0C147E00072495038CE339BD347D2E32",
+                "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794619800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年11月上旬与10月下旬相比，16种产品价格上涨，32种下降，2种持平。   2026年11月上旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌（元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3152.4 -14.9 -0.5 线材（Φ8—10mm，HPB300） 吨 3362.0 -16.3 -",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "E4E7F75CDA2C0294B0608E0C91078463",
+                "md5Url": "0C147E00072495038CE339BD347D2E32",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "6DCFE4F391E0FE0FF31459E2695F78D1",
+                "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794187800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "　　2026年10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。工业生产者购进价格同比上涨7.9%，环比上涨1.1%。1—10月平均，工业生产者出厂价格比上年同期上涨2.7%，工业生产者购进价格上涨4.0%。       　　一、工业生产者价格同比变动情况   　　10月份，工业生产者出厂价格中，生产资料价格同比上涨7.4%，影响工业生产者出厂价格总水平上涨约5.77个百分点。其中，采掘工业价格上涨27.9%，原材料工业价格上涨11.6%，加工工业价格上涨3.5%。",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "E85CA4688422DED5A953E2CA35D40574",
+                "md5Url": "6DCFE4F391E0FE0FF31459E2695F78D1",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "57D8D6B92920D65FBED7937A9FC1186F",
+                "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261103_1965738.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793755800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月下旬与10月中旬相比，17种产品价格上涨，28种下降，5种持平。   2026年10月下旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌（元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3167.3 -20.5 -0.6 线材（Φ8—10mm，HPB300） 吨 3378.3 -8.6 -0.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "40FBF558A7A508963F27D79AB6379831",
+                "md5Url": "57D8D6B92920D65FBED7937A9FC1186F",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "21C7D6402D6EF55694724FB53D277B5A",
+                "title": "2026年10月中国采购经理指数运行情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793410200000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "国家统计局服务业调查中心 中国物流与采购联合会   　　一、中国制造业采购经理指数运行情况   　　10月份，制造业采购经理指数（PMI）为49.3%，比上月下降0.8个百分点，制造业景气水平有所回落。     　　从企业规模看，大型企业PMI为50.2%，比上月下降0.4个百分点，仍高于临界点；中、小型企业PMI分别为48.4%和47.5%，比上月下降1.3个和1.4个百分点，低于临界点。   　　从分类指数看，构成制造业PMI的5个分类指数中，供应商配送时间指数高于临界点；生产指数、",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "66D0E44955328647F9DC27AFF3CE40B2",
+                "md5Url": "21C7D6402D6EF55694724FB53D277B5A",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "3AEE791EFCDA99E03582F094E9537DBB",
+                "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792805400000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月中旬与9月下旬相比，22种产品价格上涨，25种下降，3种持平。   2026年10月中旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌 （元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3187.8 11.9 0.4 线材（Φ8—10mm，HPB300） 吨 3386.9 15.9 0.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "34444A80F2294C3BB21D1EB47060A5C7",
+                "md5Url": "3AEE791EFCDA99E03582F094E9537DBB",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              }
+            ],
+            "icon": "",
+            "mainSearchCombin": 0
+          },
+          {
+            "id": "fef04e61f58b30914f80ddf405445c23",
+            "title": "数据解读",
+            "moreUrl": "",
+            "showType": 4,
+            "documentList": [
+              {
+                "id": "178365D48F4B2547A95AEDA1F0A1491F",
+                "title": "国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794187800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "2026年10月份CPI同比继续上涨 PPI环比涨幅回落   ——国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据   　　10月份，居民消费价格指数（CPI）环比持平；同比上涨0.7%，涨幅比上月回落0.2个百分点；扣除食品和能源价格的核心CPI同比上涨0.8%，涨幅比上月回落0.2个百分点。工业生产者出厂价格指数（PPI）环比上涨0.7%，涨幅比上月回落0.5个百分点；同比上涨5.7%，涨幅比上月扩大0.7个百分点。   　　一、CPI同比继续上涨   　　从环比看，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "68BB7E79F853ABE2FEAF1A358F87C5AC",
+                "md5Url": "178365D48F4B2547A95AEDA1F0A1491F",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "B9787B39A3BBCC3A81DDF337323EA576",
+                "title": "国家统计局服务业调查中心首席统计师霍丽慧解读2026年10月中国采购经理指数",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793410200000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "10月份采购经理指数有所回落   ——国家统计局服务业调查中心首席统计师霍丽慧解读2026年10月中国采购经理指数   　　2026年10月31日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数。对此，国家统计局服务业调查中心首席统计师霍丽慧进行了解读。   　　10月份，制造业采购经理指数、非制造业商务活动指数和综合PMI产出指数分别为49.3%、49.7%和49.7%，比上月下降0.8个、0.5个和1.0个百分点，经济景气水平较上月回落。   　　一、",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "FBA2471FC7F74EE3CC56070E65ED9A7D",
+                "md5Url": "B9787B39A3BBCC3A81DDF337323EA576",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "03344909B5B360F5F1661595C1521DA2",
+                "title": "沈赟：前三季度CPI保持温和上涨 PPI波动上行",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965630.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792461600000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "　　今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，着力发挥宏观政策效能，内需潜力持续释放，新质生产力加快发展，市场运行总体平稳，消费领域价格保持温和上涨，生产领域价格波动上行。   　　一、消费领域价格保持温和上涨   　　前三季度，CPI比上年同期上涨0.9%，涨幅比上半年回落0.1个百分点，但明显高于上年同期和上年全年。分月看，1、2月份，受春节错月等因素影响，CPI同比分别上涨0.2%和1.3%；3—6月份，CPI同比涨幅总体稳定，保持在1.0%—1.2%之间；7月份，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "D7F4DB2DB771FD8233482D2966F1B4E1",
+                "md5Url": "03344909B5B360F5F1661595C1521DA2",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "2D141FD773DFC351EDD75A4DCDC1EBD5",
+                "title": "国家统计局副局长就2026年前三季度国民经济运行情况答记者问",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965653.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792401120000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "（2026年10月19日）     　　总台央视记者：   　　今年是“十五五”开局之年，前三季度的经济表现对于实现全年发展目标有着至关重要的意义。请问您如何评价前三季度国民经济运行情况，经济运行呈现出哪些新的亮点，还面临哪些压力和挑战？谢谢。     　　毛盛勇：   　　谢谢您的提问。从刚才介绍的前三季度经济运行主要指标数据来看，有以下特点：   　　第一，运行平稳。从经济增长看，前三季度国内生产总值超过107万亿元，同比增速为4.6%，符合全年经济增长预期目标。根据一些国际机构的预测，4.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "527E835EA89536990DDB50139672448F",
+                "md5Url": "2D141FD773DFC351EDD75A4DCDC1EBD5",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "2972678D0152EFF7C41BA86B7D8006C7",
+                "title": "国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261014_1965475.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1791941400000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "2026年9月份CPI、PPI同比涨幅均扩大   ——国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据   　　9月份，居民消费价格指数（CPI）环比上涨0.2%，涨幅比上月回落0.2个百分点；同比上涨0.9%，涨幅比上月扩大0.1个百分点；扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。工业生产者出厂价格指数（PPI）环比上涨1.2%，涨幅比上月扩大0.8个百分点；同比上涨5.0%，涨幅比上月扩大1.2个百分点。   　　一、CPI环比涨幅回落，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "10282FEB2F2C97CA5FC2ACAC8B63F08B",
+                "md5Url": "2972678D0152EFF7C41BA86B7D8006C7",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              }
+            ],
+            "icon": "",
+            "mainSearchCombin": 0
+          }
+        ]
+      }
+    ],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 13.708876,
+        "id": "600d4753-4a79-4ba8-824e-0b300d4015ee",
+        "name": "各种价格指数",
+        "showTitle": "",
+        "url": "https://file.so-gov.cn/wedatas/pro/custom/906fb12c3e74bdd5225a8b50343f17bc/",
+        "iframeHeight": 422,
+        "sourceUrl": "",
+        "source": "<div class=\"laiyuan\" style=\"font-size: 16px;text-align: right;\">来源：   <a href=\"https://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0901&sj=2022\" target=\"_blank\">国家数据</a></div>",
+        "h5": 0,
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4B38A6A41E8BCE17650B333EC5278A5C",
+      "timestamp": 1670553180000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4B38A6A41E8BCE17650B333EC5278A5C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2022年11月份工业生产者出厂价格同比下降1.3% 环比上涨0.1%",
+        "title": "【数据发布】2022年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.1%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651506193&idx=2&sn=6c883ab6f6a6d9a0b576e93f4603aeca&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨6.7%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.72个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>下降11.5%，建筑材料及非金属类<em>价格</em>下降6.5%，化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降4.1%；农副产品类<em>价格</em>上涨9.5%，燃料动力类<em>价格</em>上涨4.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>持平，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.03个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1670553180000,
+        "docDate": "2022-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "3813B78C7B19D5068C5627CA6C279F45",
+        "md5Url": "6A301750205A1F4DF4D40FFF920189A4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨6.7%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.72个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>下降11.5%，建筑材料及非金属类<em>价格</em>下降6.5%，化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降4.1%；农副产品类<em>价格</em>上涨9.5%，燃料动力类<em>价格</em>上涨4.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>持平，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.03个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1670553180,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "6A301750205A1F4DF4D40FFF920189A4",
+          "DRETITLE": "数据发布 2022年11月份工业生产者出厂价格同比下降1 3 环比上涨0 1",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651506193&idx=2&sn=6c883ab6f6a6d9a0b576e93f4603aeca&scene=0",
+          "MD5TITLE": "3813B78C7B19D5068C5627CA6C279F45",
+          "DRETITLEO": "【数据发布】2022年11月份工业生产者出厂价格同比下降1.3% 环比上涨0.1%",
+          "QUICKDESCRIPTION": "2022年11月份 全国工业生产者出厂价格同比下降1 3 环比上涨0 1 工业生产者购进价格同比下降0 6 环比持平 1 11月平均 工业生产者出厂价格比去年同期上涨4 6 工业生产者购进价格上涨6 7 一 工业生产者价格同比变动情况 工业生产者出厂价格中 生产资料价格下降2 3 影响工业生产者出厂价格总水平下降约1 72个百分点 其中 采掘工业价格下降3 9 原材料工业价格上涨0 3 加工工业价格下降3 2 生活资料价格上涨2 0 影响工业生产者出厂价格总水平上涨约0 46个百分点 其中 食品",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D9EA95A18110AD9D9E852A52FF8E3B47",
+      "timestamp": 1670549837000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D9EA95A18110AD9D9E852A52FF8E3B47",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2022年11月份CPI同比涨幅回落 PPI同比继续下降】——国家统计局城市司首席统计师董莉娟解读2022年11月份CPI和PPI数据 国家统计局今天发布了2022年11月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见： ...展开全文c",
+        "title": "#权威解读# 【2022年11月份CPI同比涨幅回落 PPI同比继续下降】——国家统计局城市司首席统计师董莉娟解读2022年11月份CPI和PPI数据 国家统计局今天发布了2022年11月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/MiKPZlnPj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2022年11月份CPI同比涨幅回落 PPI同比继续下降】——国家统计局城市司首席统计师董莉娟解读2022年11月份CPI和PPI数据 国家统计局今天发布了2022年11月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1670549837000,
+        "docDate": "2022-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "D507041326364862F34DFDED0B3FFA2E",
+        "md5Url": "E01E7C76A0CFB2DFC146227207323067",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2022年11月份CPI同比涨幅回落 PPI同比继续下降】——国家统计局城市司首席统计师董莉娟解读2022年11月份CPI和PPI数据 国家统计局今天发布了2022年11月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1670549837,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E01E7C76A0CFB2DFC146227207323067",
+          "DRETITLE": "权威解读 2022年11月份CPI同比涨幅回落 PPI同比继续下降 国家统计局城市司首席统计师董莉娟解读2022年11月份CPI和PPI数据 国家统计局今天发布了2022年11月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/MiKPZlnPj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D507041326364862F34DFDED0B3FFA2E",
+          "DRETITLEO": "#权威解读# 【2022年11月份CPI同比涨幅回落 PPI同比继续下降】——国家统计局城市司首席统计师董莉娟解读2022年11月份CPI和PPI数据 国家统计局今天发布了2022年11月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2022年11月份CPI同比涨幅回落 PPI同比继续下降 国家统计局城市司首席统计师董莉娟解读2022年11月份CPI和PPI数据 国家统计局今天发布了2022年11月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "055B164220F2E7913FB152898C4E819F",
+      "timestamp": 1670549742000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "055B164220F2E7913FB152898C4E819F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年11月份工业生产者出厂价格同比下降1.3% 环比上涨0.1%】2022年11月份，全国工业生产者出厂价格同比下降1.3%，环比上涨0.1%；工业生产者购进价格同比下降0.6%，环比持平。1—11月平均，工业生产者出厂价格比去年同期上涨4.6%，工业生产者购进价格上涨6.7%。详见： ...展开全文c",
+        "title": "#数据发布# 【2022年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.1%】2022年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.6%，环比持平。1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨6.7%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/MiKPlrRAT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨6.7%。 数据发布 【2022年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.1%】2022年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.6%，环比持平。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1670549742000,
+        "docDate": "2022-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "1FA6F79C849D3266E8F03B90FD58B904",
+        "md5Url": "387ACD7E84685DBB60CD1FD0123C69FD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨6.7%。 数据发布 【2022年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.1%】2022年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3%，环比上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.6%，环比持平。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1670549742,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "387ACD7E84685DBB60CD1FD0123C69FD",
+          "DRETITLE": "数据发布 2022年11月份工业生产者出厂价格同比下降1 3 环比上涨0 1 2022年11月份 全国工业生产者出厂价格同比下降1 3 环比上涨0 1 工业生产者购进价格同比下降0 6 环比持平 1 11月平均 工业生产者出厂价格比去年同期上涨4 6 工业生产者购进价格上涨6 7 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/MiKPlrRAT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1FA6F79C849D3266E8F03B90FD58B904",
+          "DRETITLEO": "#数据发布# 【2022年11月份工业生产者出厂价格同比下降1.3% 环比上涨0.1%】2022年11月份，全国工业生产者出厂价格同比下降1.3%，环比上涨0.1%；工业生产者购进价格同比下降0.6%，环比持平。1—11月平均，工业生产者出厂价格比去年同期上涨4.6%，工业生产者购进价格上涨6.7%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2022年11月份工业生产者出厂价格同比下降1 3 环比上涨0 1 2022年11月份 全国工业生产者出厂价格同比下降1 3 环比上涨0 1 工业生产者购进价格同比下降0 6 环比持平 1 11月平均 工业生产者出厂价格比去年同期上涨4 6 工业生产者购进价格上涨6 7 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "847145476070FC871505481856A0123D",
+      "timestamp": 1670549400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "847145476070FC871505481856A0123D",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年11月份工业生产者出厂价格同比下降1.3% 环比上涨0.1%",
+        "title": "2022年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.1%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901671.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨6.7%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.72个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>下降11.5%，建筑材料及非金属类<em>价格</em>下降6.5%，化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降4.1%；农副产品类<em>价格</em>上涨9.5%，燃料动力类<em>价格</em>上涨4.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>持平，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.03个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610496174521.xlsx": "点击下载：相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨6.7%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.72个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>下降11.5%，建筑材料及非金属类<em>价格</em>下降6.5%，化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降4.1%；农副产品类<em>价格</em>上涨9.5%，燃料动力类<em>价格</em>上涨4.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>持平，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.03个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1670549400000,
+        "docDate": "2022-12-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/F48816001D51940C19A2D048C7A4279E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_48.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "4F5E3614AB8E90AC5686BAB66407AFCF",
+        "md5Url": "847145476070FC871505481856A0123D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨6.7%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.72个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，黑色金属材料类<em>价格</em>下降11.5%，建筑材料及非金属类<em>价格</em>下降6.5%，化工原料类<em>价格</em>下降5.4%，有色金属材料及电线类<em>价格</em>下降4.1%；农副产品类<em>价格</em>上涨9.5%，燃料动力类<em>价格</em>上涨4.3%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>持平，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.03个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901671.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年11月份工业生产者出厂价格同比下降1.3% 环比上涨0.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/F48816001D51940C19A2D048C7A4279E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610496174521.xlsx": "点击下载：相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_48.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1670549400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "847145476070FC871505481856A0123D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年11月份工业生产者出厂价格同比下降1 3 环比上涨0 1",
+          "MD5TITLE": "4F5E3614AB8E90AC5686BAB66407AFCF",
+          "QUICKDESCRIPTION": "　　2022年11月份，全国工业生产者出厂价格同比下降1.3%，环比上涨0.1%；工业生产者购进价格同比下降0.6%，环比持平。1—11月平均，工业生产者出厂价格比去年同期上涨4.6%，工业生产者购进价格上涨6.7%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格下降2.3%，影响工业生产者出厂价格总水平下降约1.72个百分点。其中，采掘工业价格下降3.9%，原材料工业价格上涨0.3%，加工工业价格下降3.2%。生活资料价格上涨2.0%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "90C6B7CA81BD2311510855EA90FC5248",
+      "timestamp": 1668388140000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "90C6B7CA81BD2311510855EA90FC5248",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 10月工业生产者出厂价格指数同比降1.3％",
+        "title": "《新闻直播间》国家统计局 10月<em>工业</em><em>生产者</em><em>出厂价格</em>指数同比降1.3％",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914374.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 10月<em>工业</em><em>生产者</em><em>出厂价格</em>指数同比降1.3...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1668388140000,
+        "docDate": "2022-11-14",
+        "includeImg": true,
+        "picUrl": "img?reference=90C6B7CA81BD2311510855EA90FC5248&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_38.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "7D78D61396B108ACE96994E5ABBD9DB0",
+        "md5Url": "90C6B7CA81BD2311510855EA90FC5248",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 10月<em>工业</em><em>生产者</em><em>出厂价格</em>指数同比降1.3...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914374.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局 10月工业生产者出厂价格指数同比降1.3％",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_38.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1668388140,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "90C6B7CA81BD2311510855EA90FC5248",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 10月工业生产者出厂价格指数同比降1 3",
+          "MD5TITLE": "7D78D61396B108ACE96994E5ABBD9DB0",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局 10月工业生产者出厂价格指数同比降1.3％",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7B555801B620162C036422581043DDEC",
+      "timestamp": 1667960280000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7B555801B620162C036422581043DDEC",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2022年10月份工业生产者出厂价格同比下降1.3% 环比上涨0.2%",
+        "title": "【数据发布】2022年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.2%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651502055&idx=2&sn=32e57159b220b8600a04927ccef6fe00&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨7.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.81个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨11.1%，燃料动力类<em>价格</em>上涨7.3%；黑色金属材料类<em>价格</em>下降12.3%，建筑材料及非金属类<em>价格</em>下降5.1%，有色金属材料及电线类<em>价格</em>下降4.9%，化工原料类<em>价格</em>下降2.8%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.07个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1667960280000,
+        "docDate": "2022-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "EE59F9A701C5E3D01982C894EA7251EA",
+        "md5Url": "ADF2DA9AA01224560B4698B68F25FB65",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨7.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.81个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨11.1%，燃料动力类<em>价格</em>上涨7.3%；黑色金属材料类<em>价格</em>下降12.3%，建筑材料及非金属类<em>价格</em>下降5.1%，有色金属材料及电线类<em>价格</em>下降4.9%，化工原料类<em>价格</em>下降2.8%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.07个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1667960280,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "ADF2DA9AA01224560B4698B68F25FB65",
+          "DRETITLE": "数据发布 2022年10月份工业生产者出厂价格同比下降1 3 环比上涨0 2",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651502055&idx=2&sn=32e57159b220b8600a04927ccef6fe00&scene=0",
+          "MD5TITLE": "EE59F9A701C5E3D01982C894EA7251EA",
+          "DRETITLEO": "【数据发布】2022年10月份工业生产者出厂价格同比下降1.3% 环比上涨0.2%",
+          "QUICKDESCRIPTION": "2022年10月份 全国工业生产者出厂价格同比下降1 3 环比上涨0 2 工业生产者购进价格同比上涨0 3 环比上涨0 3 1 10月平均 工业生产者出厂价格比去年同期上涨5 2 工业生产者购进价格上涨7 5 一 工业生产者价格同比变动情况 工业生产者出厂价格中 生产资料价格下降2 5 影响工业生产者出厂价格总水平下降约1 81个百分点 其中 采掘工业价格下降6 7 原材料工业价格上涨1 2 加工工业价格下降3 5 生活资料价格上涨2 2 影响工业生产者出厂价格总水平上涨约0 51个百分点 其中",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "22E389010761197C3E988F7C27985ED5",
+      "timestamp": 1667958221000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "22E389010761197C3E988F7C27985ED5",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2022年10月份CPI同比涨幅回落　PPI同比由涨转降】——国家统计局城市司首席统计师董莉娟解读2022年10月份CPI和PPI数据 国家统计局今天发布了2022年10月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见： ...展开全文c",
+        "title": "#权威解读# 【2022年10月份CPI同比涨幅回落　PPI同比由涨转降】——国家统计局城市司首席统计师董莉娟解读2022年10月份CPI和PPI数据 国家统计局今天发布了2022年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Mec3H177O?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2022年10月份CPI同比涨幅回落 PPI同比由涨转降】——国家统计局城市司首席统计师董莉娟解读2022年10月份CPI和PPI数据 国家统计局今天发布了2022年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1667958221000,
+        "docDate": "2022-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "D48CB2BFA565A94E56FF414783C74526",
+        "md5Url": "9785A6CBBAB49F118176875BFC5479DA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2022年10月份CPI同比涨幅回落 PPI同比由涨转降】——国家统计局城市司首席统计师董莉娟解读2022年10月份CPI和PPI数据 国家统计局今天发布了2022年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1667958221,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "9785A6CBBAB49F118176875BFC5479DA",
+          "DRETITLE": "权威解读 2022年10月份CPI同比涨幅回落 PPI同比由涨转降 国家统计局城市司首席统计师董莉娟解读2022年10月份CPI和PPI数据 国家统计局今天发布了2022年10月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Mec3H177O?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D48CB2BFA565A94E56FF414783C74526",
+          "DRETITLEO": "#权威解读# 【2022年10月份CPI同比涨幅回落　PPI同比由涨转降】——国家统计局城市司首席统计师董莉娟解读2022年10月份CPI和PPI数据 国家统计局今天发布了2022年10月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2022年10月份CPI同比涨幅回落 PPI同比由涨转降 国家统计局城市司首席统计师董莉娟解读2022年10月份CPI和PPI数据 国家统计局今天发布了2022年10月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E7FB94E59EACB3BBAB6F3A97A8AB75F6",
+      "timestamp": 1667958015000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E7FB94E59EACB3BBAB6F3A97A8AB75F6",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年10月份工业生产者出厂价格同比下降1.3% 环比上涨0.2%】2022年10月份，全国工业生产者出厂价格同比下降1.3%，环比上涨0.2%；工业生产者购进价格同比上涨0.3%，环比上涨0.3%。1—10月平均，工业生产者出厂价格比去年同期上涨5.2%，工业生产者购进价格上涨7.5%。详见： ...展开全文c",
+        "title": "#数据发布# 【2022年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.2%】2022年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3%，环比上涨0.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨0.3%，环比上涨0.3%。1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨7.5%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Mec2imSmh?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨7.5%。 数据发布 【2022年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.2%】2022年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3%，环比上涨0.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨0.3%，环比上涨0.3%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1667958015000,
+        "docDate": "2022-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "36141F289EAD40FE40F8AFCAA61D5BAE",
+        "md5Url": "29A032C3B0296149B4965FAB801E6945",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨7.5%。 数据发布 【2022年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.2%】2022年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3%，环比上涨0.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨0.3%，环比上涨0.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1667958015,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "29A032C3B0296149B4965FAB801E6945",
+          "DRETITLE": "数据发布 2022年10月份工业生产者出厂价格同比下降1 3 环比上涨0 2 2022年10月份 全国工业生产者出厂价格同比下降1 3 环比上涨0 2 工业生产者购进价格同比上涨0 3 环比上涨0 3 1 10月平均 工业生产者出厂价格比去年同期上涨5 2 工业生产者购进价格上涨7 5 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Mec2imSmh?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "36141F289EAD40FE40F8AFCAA61D5BAE",
+          "DRETITLEO": "#数据发布# 【2022年10月份工业生产者出厂价格同比下降1.3% 环比上涨0.2%】2022年10月份，全国工业生产者出厂价格同比下降1.3%，环比上涨0.2%；工业生产者购进价格同比上涨0.3%，环比上涨0.3%。1—10月平均，工业生产者出厂价格比去年同期上涨5.2%，工业生产者购进价格上涨7.5%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2022年10月份工业生产者出厂价格同比下降1 3 环比上涨0 2 2022年10月份 全国工业生产者出厂价格同比下降1 3 环比上涨0 2 工业生产者购进价格同比上涨0 3 环比上涨0 3 1 10月平均 工业生产者出厂价格比去年同期上涨5 2 工业生产者购进价格上涨7 5 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C7A1D9CE99BEE4E0CFFE44E7D923AAAA",
+      "timestamp": 1667957400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C7A1D9CE99BEE4E0CFFE44E7D923AAAA",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年10月份工业生产者出厂价格同比下降1.3% 环比上涨0.2%",
+        "title": "2022年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.3% 环比上涨0.2%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901648.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨7.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.81个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨11.1%，燃料动力类<em>价格</em>上涨7.3%；黑色金属材料类<em>价格</em>下降12.3%，建筑材料及非金属类<em>价格</em>下降5.1%，有色金属材料及电线类<em>价格</em>下降4.9%，化工原料类<em>价格</em>下降2.8%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.07个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610294530331.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨7.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.81个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨11.1%，燃料动力类<em>价格</em>上涨7.3%；黑色金属材料类<em>价格</em>下降12.3%，建筑材料及非金属类<em>价格</em>下降5.1%，有色金属材料及电线类<em>价格</em>下降4.9%，化工原料类<em>价格</em>下降2.8%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.07个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1667957400000,
+        "docDate": "2022-11-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/965895809CB4B320F14996AEBC67CAD2.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_49.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "38B28B0EA42CF32CF21AFF0AF3DD51CE",
+        "md5Url": "C7A1D9CE99BEE4E0CFFE44E7D923AAAA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.2%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨7.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.81个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，农副产品类<em>价格</em>上涨11.1%，燃料动力类<em>价格</em>上涨7.3%；黑色金属材料类<em>价格</em>下降12.3%，建筑材料及非金属类<em>价格</em>下降5.1%，有色金属材料及电线类<em>价格</em>下降4.9%，化工原料类<em>价格</em>下降2.8%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.07个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901648.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年10月份工业生产者出厂价格同比下降1.3% 环比上涨0.2%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/965895809CB4B320F14996AEBC67CAD2.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610294530331.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_49.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1667957400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C7A1D9CE99BEE4E0CFFE44E7D923AAAA",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年10月份工业生产者出厂价格同比下降1 3 环比上涨0 2",
+          "MD5TITLE": "38B28B0EA42CF32CF21AFF0AF3DD51CE",
+          "QUICKDESCRIPTION": "　　2022年10月份，全国工业生产者出厂价格同比下降1.3%，环比上涨0.2%；工业生产者购进价格同比上涨0.3%，环比上涨0.3%。1—10月平均，工业生产者出厂价格比去年同期上涨5.2%，工业生产者购进价格上涨7.5%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格下降2.5%，影响工业生产者出厂价格总水平下降约1.81个百分点。其中，采掘工业价格下降6.7%，原材料工业价格上涨1.2%，加工工业价格下降3.5%。生活资料价格上涨2.2%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "51B63D233AC1827DAC3F948787AD150C",
+      "timestamp": 1665714900000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "51B63D233AC1827DAC3F948787AD150C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2022年9月份工业生产者出厂价格同比上涨0.9% 环比下降0.1%",
+        "title": "【数据发布】2022年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9% 环比下降0.1%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651496506&idx=2&sn=f937af056e7f8cfe5e05f8ff68d14bcd&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.49个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨14.3%，农副产品类<em>价格</em>上涨9.1%，化工原料类<em>价格</em>上涨1.6%；黑色金属材料类<em>价格</em>下降11.7%，有色金属材料及电线类<em>价格</em>下降2.9%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.18个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1665714900000,
+        "docDate": "2022-10-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "EF03B1FEA5FDF7D920205A2590EDA161",
+        "md5Url": "C16F3F7BA11992D5B5A595A6ED8545A0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.49个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨14.3%，农副产品类<em>价格</em>上涨9.1%，化工原料类<em>价格</em>上涨1.6%；黑色金属材料类<em>价格</em>下降11.7%，有色金属材料及电线类<em>价格</em>下降2.9%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.18个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1665714900,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "C16F3F7BA11992D5B5A595A6ED8545A0",
+          "DRETITLE": "数据发布 2022年9月份工业生产者出厂价格同比上涨0 9 环比下降0 1",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651496506&idx=2&sn=f937af056e7f8cfe5e05f8ff68d14bcd&scene=0",
+          "MD5TITLE": "EF03B1FEA5FDF7D920205A2590EDA161",
+          "DRETITLEO": "【数据发布】2022年9月份工业生产者出厂价格同比上涨0.9% 环比下降0.1%",
+          "QUICKDESCRIPTION": "2022年9月份 全国工业生产者出厂价格同比上涨0 9 环比下降0 1 工业生产者购进价格同比上涨2 6 环比下降0 5 1 9月平均 工业生产者出厂价格比去年同期上涨5 9 工业生产者购进价格上涨8 3 一 工业生产者价格同比变动情况 工业生产者出厂价格中 生产资料价格上涨0 6 影响工业生产者出厂价格总水平上涨约0 49个百分点 其中 采掘工业价格上涨3 5 原材料工业价格上涨5 8 加工工业价格下降1 9 生活资料价格上涨1 8 影响工业生产者出厂价格总水平上涨约0 41个百分点 其中 食",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "01EC98FB1A1F91C583740F20B0FA46B3",
+      "timestamp": 1665711681000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "01EC98FB1A1F91C583740F20B0FA46B3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2022年9月份CPI同比涨幅有所扩大　PPI同比涨幅继续回落】——国家统计局城市司首席统计师董莉娟解读2022年9月份CPI和PPI数据 国家统计局今天发布了2022年9月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见 ...展开全文c",
+        "title": "#权威解读# 【2022年9月份CPI同比涨幅有所扩大　PPI同比涨幅继续回落】——国家统计局城市司首席统计师董莉娟解读2022年9月份CPI和PPI数据 国家统计局今天发布了2022年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见 ...展开全文c",
+        "url": "https://weibo.com/3919628624/MaeVPyNrE?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2022年9月份CPI同比涨幅有所扩大 PPI同比涨幅继续回落】——国家统计局城市司首席统计师董莉娟解读2022年9月份CPI和PPI数据 国家统计局今天发布了2022年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1665711681000,
+        "docDate": "2022-10-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "5FDBC8410BA0C9364EBF6DFD0392FA9D",
+        "md5Url": "F6031D8143E8EDA64D2CA5C23D550F75",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2022年9月份CPI同比涨幅有所扩大 PPI同比涨幅继续回落】——国家统计局城市司首席统计师董莉娟解读2022年9月份CPI和PPI数据 国家统计局今天发布了2022年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1665711681,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F6031D8143E8EDA64D2CA5C23D550F75",
+          "DRETITLE": "权威解读 2022年9月份CPI同比涨幅有所扩大 PPI同比涨幅继续回落 国家统计局城市司首席统计师董莉娟解读2022年9月份CPI和PPI数据 国家统计局今天发布了2022年9月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/MaeVPyNrE?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "5FDBC8410BA0C9364EBF6DFD0392FA9D",
+          "DRETITLEO": "#权威解读# 【2022年9月份CPI同比涨幅有所扩大　PPI同比涨幅继续回落】——国家统计局城市司首席统计师董莉娟解读2022年9月份CPI和PPI数据 国家统计局今天发布了2022年9月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。 详见 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2022年9月份CPI同比涨幅有所扩大 PPI同比涨幅继续回落 国家统计局城市司首席统计师董莉娟解读2022年9月份CPI和PPI数据 国家统计局今天发布了2022年9月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D2190154E880D20E8534CA0005AB815B",
+      "timestamp": 1665711601000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D2190154E880D20E8534CA0005AB815B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年9月份工业生产者出厂价格同比上涨0.9% 环比下降0.1%】2022年9月份，全国工业生产者出厂价格同比上涨0.9%，环比下降0.1%；工业生产者购进价格同比上涨2.6%，环比下降0.5%。1—9月平均，工业生产者出厂价格比去年同期上涨5.9%，工业生产者购进价格上涨8.3%。详见： ...展开全文c",
+        "title": "#数据发布# 【2022年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9% 环比下降0.1%】2022年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨2.6%，环比下降0.5%。1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/MaeVi78w6?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 数据发布 【2022年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9% 环比下降0.1%】2022年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨2.6%，环比下降0.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1665711601000,
+        "docDate": "2022-10-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "F6378D69FCC6FDE973EC3AF4D5ACF33C",
+        "md5Url": "F5BE1D2B0CB9EC2389D53047B01898E7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 数据发布 【2022年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9% 环比下降0.1%】2022年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨2.6%，环比下降0.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1665711601,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F5BE1D2B0CB9EC2389D53047B01898E7",
+          "DRETITLE": "数据发布 2022年9月份工业生产者出厂价格同比上涨0 9 环比下降0 1 2022年9月份 全国工业生产者出厂价格同比上涨0 9 环比下降0 1 工业生产者购进价格同比上涨2 6 环比下降0 5 1 9月平均 工业生产者出厂价格比去年同期上涨5 9 工业生产者购进价格上涨8 3 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/MaeVi78w6?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "F6378D69FCC6FDE973EC3AF4D5ACF33C",
+          "DRETITLEO": "#数据发布# 【2022年9月份工业生产者出厂价格同比上涨0.9% 环比下降0.1%】2022年9月份，全国工业生产者出厂价格同比上涨0.9%，环比下降0.1%；工业生产者购进价格同比上涨2.6%，环比下降0.5%。1—9月平均，工业生产者出厂价格比去年同期上涨5.9%，工业生产者购进价格上涨8.3%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2022年9月份工业生产者出厂价格同比上涨0 9 环比下降0 1 2022年9月份 全国工业生产者出厂价格同比上涨0 9 环比下降0 1 工业生产者购进价格同比上涨2 6 环比下降0 5 1 9月平均 工业生产者出厂价格比去年同期上涨5 9 工业生产者购进价格上涨8 3 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "10CA933EC24A2A87FE94D316891C313B",
+      "timestamp": 1665711601000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "10CA933EC24A2A87FE94D316891C313B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年9月份工业生产者出厂价格同比上涨0.9% 环比下降0.1%】2022年9月份，全国工业生产者出厂价格同比上涨0.9%，环比下降0.1%；工业生产者购进价格同比上涨2.6%，环比下降0.5%。1—9月平均，工业生产者",
+        "title": "#数据发布# 【2022年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9% 环比下降0.1%】2022年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨2.6%，环比下降0.5%。1—9月平均，<em>工业</em><em>生产者</em>",
+        "url": "https://weibo.com/3919628624/MaeVi78w6?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 数据发布 【2022年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9% 环比下降0.1%】2022年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨2.6%，环比下降0.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1665711601000,
+        "docDate": "2022-10-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "1FDFB8EC9A970002DD6AE064E9A12BBE",
+        "md5Url": "F5BE1D2B0CB9EC2389D53047B01898E7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 数据发布 【2022年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9% 环比下降0.1%】2022年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9%，环比下降0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨2.6%，环比下降0.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1665711601,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F5BE1D2B0CB9EC2389D53047B01898E7",
+          "DRETITLE": "数据发布 2022年9月份工业生产者出厂价格同比上涨0 9 环比下降0 1 2022年9月份 全国工业生产者出厂价格同比上涨0 9 环比下降0 1 工业生产者购",
+          "URL": "https://weibo.com/3919628624/MaeVi78w6?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1FDFB8EC9A970002DD6AE064E9A12BBE",
+          "DRETITLEO": "#数据发布# 【2022年9月份工业生产者出厂价格同比上涨0.9% 环比下降0.1%】2022年9月份，全国工业生产者出厂价格同比上涨0.9%，环比下降0.1%；工业生产者购进价格同比上涨2.6%，环比下降0.5%。1—9月平均，工业生产者",
+          "QUICKDESCRIPTION": "数据发布 2022年9月份工业生产者出厂价格同比上涨0 9 环比下降0 1 2022年9月份 全国工业生产者出厂价格同比上涨0 9 环比下降0 1 工业生产者购进价格同比上涨2 6 环比下降0 5 1 9月平均 工业生产者出厂价格比去年同期上涨5 9 工业生产者购进价格上涨8 3 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DA16CE3E9102067B0A59A89B692535A6",
+      "timestamp": 1665711000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DA16CE3E9102067B0A59A89B692535A6",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年9月份工业生产者出厂价格同比上涨0.9% 环比下降0.1%",
+        "title": "2022年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨0.9% 环比下降0.1%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901614.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.49个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨14.3%，农副产品类<em>价格</em>上涨9.1%，化工原料类<em>价格</em>上涨1.6%；黑色金属材料类<em>价格</em>下降11.7%，有色金属材料及电线类<em>价格</em>下降2.9%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.18个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610059696201.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.49个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨14.3%，农副产品类<em>价格</em>上涨9.1%，化工原料类<em>价格</em>上涨1.6%；黑色金属材料类<em>价格</em>下降11.7%，有色金属材料及电线类<em>价格</em>下降2.9%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.18个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1665711000000,
+        "docDate": "2022-10-14",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/E7295227B61F67F72F5A33AD66686CCD.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_50.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "F335C72A89BF0DCE00EF9C71D4183A9D",
+        "md5Url": "DA16CE3E9102067B0A59A89B692535A6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨5.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨8.3%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.49个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨14.3%，农副产品类<em>价格</em>上涨9.1%，化工原料类<em>价格</em>上涨1.6%；黑色金属材料类<em>价格</em>下降11.7%，有色金属材料及电线类<em>价格</em>下降2.9%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.18个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901614.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年9月份工业生产者出厂价格同比上涨0.9% 环比下降0.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/E7295227B61F67F72F5A33AD66686CCD.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610059696201.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_50.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1665711000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "DA16CE3E9102067B0A59A89B692535A6",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年9月份工业生产者出厂价格同比上涨0 9 环比下降0 1",
+          "MD5TITLE": "F335C72A89BF0DCE00EF9C71D4183A9D",
+          "QUICKDESCRIPTION": "　　2022年9月份，全国工业生产者出厂价格同比上涨0.9%，环比下降0.1%；工业生产者购进价格同比上涨2.6%，环比下降0.5%。1—9月平均，工业生产者出厂价格比去年同期上涨5.9%，工业生产者购进价格上涨8.3%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格上涨0.6%，影响工业生产者出厂价格总水平上涨约0.49个百分点。其中，采掘工业价格上涨3.5%，原材料工业价格上涨5.8%，加工工业价格下降1.9%。生活资料价格上涨1.8%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "84E8E51A0B3A7A26AB0EFE06F0A4D15E",
+      "timestamp": 1662693180000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "84E8E51A0B3A7A26AB0EFE06F0A4D15E",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%",
+        "title": "【数据发布】2022年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3% 环比下降1.2%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651489321&idx=2&sn=55bdcaac761762c2802d14d64265f89b&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨2.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约1.87个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨19.5%，化工原料类<em>价格</em>上涨4.5%；黑色金属材料类<em>价格</em>下降10.8%，有色金属材料及电线类<em>价格</em>下降0.6%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降1.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.18个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1662693180000,
+        "docDate": "2022-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "56989F3355C7B67E1090935F21C61790",
+        "md5Url": "F63164470ED74DEE0CC2480C0E4BF6B6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨2.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约1.87个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨19.5%，化工原料类<em>价格</em>上涨4.5%；黑色金属材料类<em>价格</em>下降10.8%，有色金属材料及电线类<em>价格</em>下降0.6%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降1.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.18个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1662693180,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "F63164470ED74DEE0CC2480C0E4BF6B6",
+          "DRETITLE": "数据发布 2022年8月份工业生产者出厂价格同比上涨2 3 环比下降1 2",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651489321&idx=2&sn=55bdcaac761762c2802d14d64265f89b&scene=0",
+          "MD5TITLE": "56989F3355C7B67E1090935F21C61790",
+          "DRETITLEO": "【数据发布】2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%",
+          "QUICKDESCRIPTION": "2022年8月份 全国工业生产者出厂价格同比上涨2 3 环比下降1 2 工业生产者购进价格同比上涨4 2 环比下降1 4 1 8月平均 工业生产者出厂价格比去年同期上涨6 6 工业生产者购进价格上涨9 1 一 工业生产者价格同比变动情况 工业生产者出厂价格中 生产资料价格上涨2 4 影响工业生产者出厂价格总水平上涨约1 87个百分点 其中 采掘工业价格上涨10 1 原材料工业价格上涨7 8 加工工业价格下降0 7 生活资料价格上涨1 6 影响工业生产者出厂价格总水平上涨约0 38个百分点 其中 ",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "13465347294A08C5B001BE0750B327AB",
+      "timestamp": 1662689753000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "13465347294A08C5B001BE0750B327AB",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2022年8月份CPI和PPI同比涨幅均有回落】——国家统计局城市司首席统计师董莉娟解读2022年8月份CPI和PPI数据 国家统计局今天发布了2022年8月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "title": "#权威解读# 【2022年8月份CPI和PPI同比涨幅均有回落】——国家统计局城市司首席统计师董莉娟解读2022年8月份CPI和PPI数据 国家统计局今天发布了2022年8月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/M4VctbNtk?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2022年8月份CPI和PPI同比涨幅均有回落】——国家统计局城市司首席统计师董莉娟解读2022年8月份CPI和PPI数据 国家统计局今天发布了2022年8月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1662689753000,
+        "docDate": "2022-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "40D2D7A4F68FF5CE859A0EA110FFDEFA",
+        "md5Url": "3C94A55D7280F62BB42B0FD07E68E55B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2022年8月份CPI和PPI同比涨幅均有回落】——国家统计局城市司首席统计师董莉娟解读2022年8月份CPI和PPI数据 国家统计局今天发布了2022年8月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1662689753,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3C94A55D7280F62BB42B0FD07E68E55B",
+          "DRETITLE": "权威解读 2022年8月份CPI和PPI同比涨幅均有回落 国家统计局城市司首席统计师董莉娟解读2022年8月份CPI和PPI数据 国家统计局今天发布了2022年8月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/M4VctbNtk?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "40D2D7A4F68FF5CE859A0EA110FFDEFA",
+          "DRETITLEO": "#权威解读# 【2022年8月份CPI和PPI同比涨幅均有回落】——国家统计局城市司首席统计师董莉娟解读2022年8月份CPI和PPI数据 国家统计局今天发布了2022年8月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2022年8月份CPI和PPI同比涨幅均有回落 国家统计局城市司首席统计师董莉娟解读2022年8月份CPI和PPI数据 国家统计局今天发布了2022年8月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D78626BE29BFEE60E99DBF6F89B7560C",
+      "timestamp": 1662689466000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D78626BE29BFEE60E99DBF6F89B7560C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%】2022年8月份，全国工业生产者出厂价格同比上涨2.3%，环比下降1.2%；工业生产者购进价格同比上涨4.2%，环比下降1.4%。1—8月平均，工业生产者出厂价格比去年同期上涨6.6%，工业生产者购进价格上涨9.1%。详见： ...展开全文c",
+        "title": "#数据发布# 【2022年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3% 环比下降1.2%】2022年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3%，环比下降1.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.2%，环比下降1.4%。1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/M4VawD3vh?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 数据发布 【2022年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3% 环比下降1.2%】2022年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3%，环比下降1.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.2%，环比下降1.4%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1662689466000,
+        "docDate": "2022-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "6611BE65633FE0915E3E2B792C5D0736",
+        "md5Url": "8388DCA9BF76C9374C22895438C88BB9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 数据发布 【2022年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3% 环比下降1.2%】2022年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3%，环比下降1.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.2%，环比下降1.4%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1662689466,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8388DCA9BF76C9374C22895438C88BB9",
+          "DRETITLE": "数据发布 2022年8月份工业生产者出厂价格同比上涨2 3 环比下降1 2 2022年8月份 全国工业生产者出厂价格同比上涨2 3 环比下降1 2 工业生产者购进价格同比上涨4 2 环比下降1 4 1 8月平均 工业生产者出厂价格比去年同期上涨6 6 工业生产者购进价格上涨9 1 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/M4VawD3vh?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "6611BE65633FE0915E3E2B792C5D0736",
+          "DRETITLEO": "#数据发布# 【2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%】2022年8月份，全国工业生产者出厂价格同比上涨2.3%，环比下降1.2%；工业生产者购进价格同比上涨4.2%，环比下降1.4%。1—8月平均，工业生产者出厂价格比去年同期上涨6.6%，工业生产者购进价格上涨9.1%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2022年8月份工业生产者出厂价格同比上涨2 3 环比下降1 2 2022年8月份 全国工业生产者出厂价格同比上涨2 3 环比下降1 2 工业生产者购进价格同比上涨4 2 环比下降1 4 1 8月平均 工业生产者出厂价格比去年同期上涨6 6 工业生产者购进价格上涨9 1 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E175848B2D847E4AC3E96439E3EC292E",
+      "timestamp": 1662689466000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E175848B2D847E4AC3E96439E3EC292E",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%】2022年8月份，全国工业生产者出厂价格同比上涨2.3%，环比下降1.2%；工业生产者购进价格同比上涨4.2%，环比下降1.4%。1—8月平均，工业生产者",
+        "title": "#数据发布# 【2022年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3% 环比下降1.2%】2022年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3%，环比下降1.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.2%，环比下降1.4%。1—8月平均，<em>工业</em><em>生产者</em>",
+        "url": "https://weibo.com/3919628624/M4VawD3vh?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 数据发布 【2022年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3% 环比下降1.2%】2022年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3%，环比下降1.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.2%，环比下降1.4%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1662689466000,
+        "docDate": "2022-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "74277D221802CFB7C47786CE3E019758",
+        "md5Url": "8388DCA9BF76C9374C22895438C88BB9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 数据发布 【2022年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3% 环比下降1.2%】2022年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3%，环比下降1.2%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.2%，环比下降1.4%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1662689466,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8388DCA9BF76C9374C22895438C88BB9",
+          "DRETITLE": "数据发布 2022年8月份工业生产者出厂价格同比上涨2 3 环比下降1 2 2022年8月份 全国工业生产者出厂价格同比上涨2 3 环比下降1 2 工业生产者购",
+          "URL": "https://weibo.com/3919628624/M4VawD3vh?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "74277D221802CFB7C47786CE3E019758",
+          "DRETITLEO": "#数据发布# 【2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%】2022年8月份，全国工业生产者出厂价格同比上涨2.3%，环比下降1.2%；工业生产者购进价格同比上涨4.2%，环比下降1.4%。1—8月平均，工业生产者",
+          "QUICKDESCRIPTION": "数据发布 2022年8月份工业生产者出厂价格同比上涨2 3 环比下降1 2 2022年8月份 全国工业生产者出厂价格同比上涨2 3 环比下降1 2 工业生产者购进价格同比上涨4 2 环比下降1 4 1 8月平均 工业生产者出厂价格比去年同期上涨6 6 工业生产者购进价格上涨9 1 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C5A60BE8661E336732AE82BE7EAC0F6D",
+      "timestamp": 1662687000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C5A60BE8661E336732AE82BE7EAC0F6D",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%",
+        "title": "2022年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.3% 环比下降1.2%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901571.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨2.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约1.87个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨19.5%，化工原料类<em>价格</em>上涨4.5%；黑色金属材料类<em>价格</em>下降10.8%，有色金属材料及电线类<em>价格</em>下降0.6%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降1.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.18个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203609675947254.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨2.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约1.87个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨19.5%，化工原料类<em>价格</em>上涨4.5%；黑色金属材料类<em>价格</em>下降10.8%，有色金属材料及电线类<em>价格</em>下降0.6%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降1.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.18个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1662687000000,
+        "docDate": "2022-09-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/242AA1F8759B12FA4B4A79A998531D78.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_51.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "4972FE31DF0BF7D671A2A4D97087DFAC",
+        "md5Url": "C5A60BE8661E336732AE82BE7EAC0F6D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨6.6%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨9.1%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨2.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约1.87个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，燃料动力类<em>价格</em>上涨19.5%，化工原料类<em>价格</em>上涨4.5%；黑色金属材料类<em>价格</em>下降10.8%，有色金属材料及电线类<em>价格</em>下降0.6%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降1.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.18个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901571.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/242AA1F8759B12FA4B4A79A998531D78.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203609675947254.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_51.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1662687000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C5A60BE8661E336732AE82BE7EAC0F6D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年8月份工业生产者出厂价格同比上涨2 3 环比下降1 2",
+          "MD5TITLE": "4972FE31DF0BF7D671A2A4D97087DFAC",
+          "QUICKDESCRIPTION": "　　2022年8月份，全国工业生产者出厂价格同比上涨2.3%，环比下降1.2%；工业生产者购进价格同比上涨4.2%，环比下降1.4%。1—8月平均，工业生产者出厂价格比去年同期上涨6.6%，工业生产者购进价格上涨9.1%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格上涨2.4%，影响工业生产者出厂价格总水平上涨约1.87个百分点。其中，采掘工业价格上涨10.1%，原材料工业价格上涨7.8%，加工工业价格下降0.7%。生活资料价格上涨1.6%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CDE2AA77A1752B588E7CCE74990ABA4B",
+      "timestamp": 1660579200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CDE2AA77A1752B588E7CCE74990ABA4B",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "工业生产者出厂价格中耐用消费品和一般日用品各包括哪些内容？",
+        "title": "<em>工业</em><em>生产者</em><em>出厂价格</em>中耐用消费品和一般日用品各包括哪些内容？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953807.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "<em>工业</em><em>生产者</em><em>出厂价格</em>统计调查涵盖1300多个基本分类的<em>工业</em>产品，根据产品用途，各基本分类可划分为生产资料和生活资料两类，其中生产资料又分为采掘、原材料、加工三类，生活资料分为食品、衣着、一般日用品、耐用消费品四类。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1660579200000,
+        "docDate": "2022-08-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_49.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "435A608F7BC33004B6E9BEA585FB8629",
+        "md5Url": "CDE2AA77A1752B588E7CCE74990ABA4B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "<em>工业</em><em>生产者</em><em>出厂价格</em>统计调查涵盖1300多个基本分类的<em>工业</em>产品，根据产品用途，各基本分类可划分为生产资料和生活资料两类，其中生产资料又分为采掘、原材料、加工三类，生活资料分为食品、衣着、一般日用品、耐用消费品四类。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局城市社会经济调查司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953807.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "工业生产者出厂价格中耐用消费品和一般日用品各包括哪些内容？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_49.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1660579200,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "CDE2AA77A1752B588E7CCE74990ABA4B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "工业生产者出厂价格中耐用消费品和一般日用品各包括哪些内容",
+          "MD5TITLE": "435A608F7BC33004B6E9BEA585FB8629",
+          "QUICKDESCRIPTION": "工业生产者出厂价格统计调查涵盖1300多个基本分类的工业产品，根据产品用途，各基本分类可划分为生产资料和生活资料两类，其中生产资料又分为采掘、原材料、加工三类，生活资料分为食品、衣着、一般日用品、耐用消费品四类。耐用消费品主要包含家用电器、家具、汽车等产品。一般日用品主要包含玩具、体育用品、工艺美术用品、日用塑料用品、家居用品等产品，涵盖除食品、服装、耐用消费品外的其他生活资料产品。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 24,
+          "children": null,
+          "key": "价格"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 26,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

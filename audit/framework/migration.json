@@ -1,0 +1,98 @@
+[
+  {
+    "old_path": "data_raw/cm_dr007_daily.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/data_raw/cm_dr007_daily.csv",
+    "sha256": "8779323af0ad68ce3661e2fa06262d518b74309699c131ac532202dd10897e39",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "data_raw/cm_lpr_monthly.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/data_raw/cm_lpr_monthly.csv",
+    "sha256": "f179a6e05fc7e57e1b016ac196115cc79f184c3a3d054c1ccfb006c201b83597",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "data_raw/cm_shibor_daily.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/data_raw/cm_shibor_daily.csv",
+    "sha256": "8b9623ff8354ccb77b7d32aaaf4e63cb78f3f3b482e0d183f0473625ca4ba398",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "data_raw/em_series.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/data_raw/em_series.csv",
+    "sha256": "ec39f772219e017f28ee3685651d205e758697ceaa80679211ca0870fccd8ef4",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "data_raw/nbs_list_items.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/data_raw/nbs_list_items.csv",
+    "sha256": "baae9ce0ad405c5d294a83126f10398328cda4a28f3aa3337a9759e62d26151d",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "data_raw/nbs_series.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/data_raw/nbs_series.csv",
+    "sha256": "140536ccdf7f479bacab0d1bb802d5576f5dd4d3da8055a9323899ad861cb883",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "data_raw/pboc_series.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/data_raw/pboc_series.csv",
+    "sha256": "f15398349f3ec2a727b6c5e23e0aab93edb054303ccf3296bc38f486c418eb4c",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "deliverables/build_info.json",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/build_info.json",
+    "sha256": "d177253852cbcb29b662be9f858e49edb02c52fbd0c7fc46eaca1f42556c573c",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "deliverables/crosscheck_official_vs_eastmoney.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/crosscheck_official_vs_eastmoney.csv",
+    "sha256": "2d417310e58b6bb00616c8e0772b91bac3b71762e280cd128ab20a2251d641c1",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "deliverables/macro_data_quality.md",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/macro_data_quality.md",
+    "sha256": "22b15107e974ac3d2afc92eb63694e131a6721aeea104a55d76bfa8012b70021",
+    "action": "verified_copy; legacy retained until reference audit"
+  },
+  {
+    "old_path": "deliverables/macro_metadata.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/macro_metadata.csv",
+    "sha256": "174b48e2aefed0788aebdda73c8e6c194126e2ba2b4244d1f868284429595696",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "deliverables/macro_raw.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/macro_raw.csv",
+    "sha256": "a4670d0369e95ce5928eeca96e8cc635e7c53888b1d11b050487ae2e97bf62b6",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "deliverables/macro_raw.parquet",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/macro_raw.parquet",
+    "sha256": "956d4cd1d6a7905181d91f789e1c2ffcfbdffe17110f980a5a10705482b1e94e",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "deliverables/macro_release_calendar.csv",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/macro_release_calendar.csv",
+    "sha256": "deb04caa23164a350c0c779a64ef74bcb6ee7fead0361a93d14c53c9c4c22304",
+    "action": "verified_copy_then_removed_legacy_file; recover_from_canonical_snapshot"
+  },
+  {
+    "old_path": "deliverables/manual_sources.md",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/manual_sources.md",
+    "sha256": "417852157e79a847f425d99bf9ba7ae735d347ba9c4ecbf3cf8ecc604e1e2cbb",
+    "action": "verified_copy; legacy retained until reference audit"
+  },
+  {
+    "old_path": "deliverables/README.md",
+    "canonical_snapshot": "data/raw/macro/original_submissions/v1/deliverables/README.md",
+    "sha256": "07db2091302067f444d9e59db66971afa05a99e3f006e560a70fc0a845b04598",
+    "action": "verified_copy; legacy retained until reference audit"
+  }
+]

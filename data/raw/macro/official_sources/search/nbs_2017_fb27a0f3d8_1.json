@@ -1,0 +1,2181 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 68,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "居民消费价格",
+    "originQt": "居民消费价格",
+    "showQt": "居民消费价格",
+    "encodeQt": "%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "居民消费价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "居民": "NN"
+      },
+      {
+        "消费": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "居民消费价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "居民消费价格",
+      "居民",
+      "消费",
+      "价格"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 12.350975,
+        "id": "600d4753-4a79-4ba8-824e-0b300d4015ee",
+        "name": "各种价格指数",
+        "showTitle": "",
+        "url": "https://file.so-gov.cn/wedatas/pro/custom/906fb12c3e74bdd5225a8b50343f17bc/",
+        "iframeHeight": 422,
+        "sourceUrl": "",
+        "source": "<div class=\"laiyuan\" style=\"font-size: 16px;text-align: right;\">来源：   <a href=\"https://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0901&sj=2022\" target=\"_blank\">国家数据</a></div>",
+        "h5": 0,
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7E5FE758932825C28655A645993782DC",
+      "timestamp": 1513217715000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7E5FE758932825C28655A645993782DC",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2017年11月份社会消费品零售总额增长10.2%】2017年11月份，社会消费品零售总额34108亿元，同比名义增长10.2%（扣除价格因素实际增长8.8%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额",
+        "title": "#发布会微直播#【2017年11月份社会<em>消费</em>品零售总额增长10.2%】2017年11月份，社会<em>消费</em>品零售总额34108亿元，同比名义增长10.2%（扣除<em>价格</em>因素实际增长8.8%，以下除特殊说明外均为名义增长）。其中，限额以上单位<em>消费</em>品零售额",
+        "url": "https://weibo.com/3919628624/FzA3qrm00?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2017年11月份社会<em>消费</em>品零售总额增长10.2%】2017年11月份，社会<em>消费</em>品零售总额34108亿元，同比名义增长10.2%（扣除<em>价格</em>因素实际增长8.8%，以下除特殊说明外均为名义增长）。 发布会微直播 【2017年11月份社会<em>消费</em>品零售总额增长10.2%】2017年11月份，社会<em>消费</em>品零售总额34108亿元，同比名义增长10.2%（扣除<em>价格</em>因素实际增长8.8%，以下除特殊说明外均为名义增长）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1513217715000,
+        "docDate": "2017-12-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "AF90B5362C3EBA8A03133AA3EB2C9403",
+        "md5Url": "E6B2ED74E3D4E8EA8BA0460799622868",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2017年11月份社会<em>消费</em>品零售总额增长10.2%】2017年11月份，社会<em>消费</em>品零售总额34108亿元，同比名义增长10.2%（扣除<em>价格</em>因素实际增长8.8%，以下除特殊说明外均为名义增长）。 发布会微直播 【2017年11月份社会<em>消费</em>品零售总额增长10.2%】2017年11月份，社会<em>消费</em>品零售总额34108亿元，同比名义增长10.2%（扣除<em>价格</em>因素实际增长8.8%，以下除特殊说明外均为名义增长）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1513217715,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E6B2ED74E3D4E8EA8BA0460799622868",
+          "DRETITLE": "发布会微直播 2017年11月份社会消费品零售总额增长10 2 2017年11月份 社会消费品零售总额34108亿元 同比名义增长10 2 扣除价格因素实际增长",
+          "URL": "https://weibo.com/3919628624/FzA3qrm00?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "AF90B5362C3EBA8A03133AA3EB2C9403",
+          "DRETITLEO": "#发布会微直播#【2017年11月份社会消费品零售总额增长10.2%】2017年11月份，社会消费品零售总额34108亿元，同比名义增长10.2%（扣除价格因素实际增长8.8%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额",
+          "QUICKDESCRIPTION": "发布会微直播 2017年11月份社会消费品零售总额增长10 2 2017年11月份 社会消费品零售总额34108亿元 同比名义增长10 2 扣除价格因素实际增长8 8 以下除特殊说明外均为名义增长 其中 限额以上单位消费品零售额15779亿元 增长7 8 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E2E1E2FC905855878BDC8526AC21A77C",
+      "timestamp": 1512802800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E2E1E2FC905855878BDC8526AC21A77C",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》统计局 全国居民消费价格与工业生产者出厂价格 11月同比涨幅均回落 物价平稳",
+        "title": "《新闻直播间》统计局 全国<em>居民消费价格</em>与工业生产者出厂<em>价格</em> 11月同比涨幅均回落 物价平稳",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914009.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》统计局 全国<em>居民消费价格</em>与工业生产者出厂<em>价格</em> 11月同比涨幅均回落 物价平稳...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1512802800000,
+        "docDate": "2017-12-09",
+        "includeImg": true,
+        "picUrl": "img?reference=E2E1E2FC905855878BDC8526AC21A77C&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_96.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "F8EB9BCBAF22CB0E5913878F96AD9FB7",
+        "md5Url": "E2E1E2FC905855878BDC8526AC21A77C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》统计局 全国<em>居民消费价格</em>与工业生产者出厂<em>价格</em> 11月同比涨幅均回落 物价平稳...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914009.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》统计局 全国居民消费价格与工业生产者出厂价格 11月同比涨幅均回落 物价平稳",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_96.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1512802800,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E2E1E2FC905855878BDC8526AC21A77C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 统计局 全国居民消费价格与工业生产者出厂价格 11月同比涨幅均回落 物价平稳",
+          "MD5TITLE": "F8EB9BCBAF22CB0E5913878F96AD9FB7",
+          "QUICKDESCRIPTION": "《新闻直播间》统计局 全国居民消费价格与工业生产者出厂价格 11月同比涨幅均回落 物价平稳",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B4C0CBA56C5FA32BFBEDCFE192B52DB4",
+      "timestamp": 1512783533000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B4C0CBA56C5FA32BFBEDCFE192B52DB4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【2017年11月份CPI、PPI同比涨幅均有所回落】今天发布的2017年11月份全国居民消费价格指数（CPI）和工业生产者出厂价格指数（PPI）数据显示，CPI环比持平，同比上涨1.7%；PPI环比上涨0.5%，同比上涨5.8",
+        "title": "#权威解读#【2017年11月份CPI、PPI同比涨幅均有所回落】今天发布的2017年11月份全国<em>居民消费价格</em>指数（CPI）和工业生产者出厂<em>价格</em>指数（PPI）数据显示，CPI环比持平，同比上涨1.7%；PPI环比上涨0.5%，同比上涨5.8",
+        "url": "https://weibo.com/3919628624/FyOGbmweV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2017年11月份CPI、PPI同比涨幅均有所回落】今天发布的2017年11月份全国<em>居民消费价格</em>指数（CPI）和工业生产者出厂<em>价格</em>指数（PPI）数据显示，CPI环比持平，同比上涨1.7%；PPI环比上涨0.5%，同比上涨5.8%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1512783533000,
+        "docDate": "2017-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "867018972A600ACBDE0DE5F2AAB604F4",
+        "md5Url": "79491E6F65CE4F4B82EF2C6563D8F799",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2017年11月份CPI、PPI同比涨幅均有所回落】今天发布的2017年11月份全国<em>居民消费价格</em>指数（CPI）和工业生产者出厂<em>价格</em>指数（PPI）数据显示，CPI环比持平，同比上涨1.7%；PPI环比上涨0.5%，同比上涨5.8%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1512783533,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "79491E6F65CE4F4B82EF2C6563D8F799",
+          "DRETITLE": "权威解读 2017年11月份CPI PPI同比涨幅均有所回落 今天发布的2017年11月份全国居民消费价格指数 CPI 和工业生产者出厂价格指数 PPI 数据显",
+          "URL": "https://weibo.com/3919628624/FyOGbmweV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "867018972A600ACBDE0DE5F2AAB604F4",
+          "DRETITLEO": "#权威解读#【2017年11月份CPI、PPI同比涨幅均有所回落】今天发布的2017年11月份全国居民消费价格指数（CPI）和工业生产者出厂价格指数（PPI）数据显示，CPI环比持平，同比上涨1.7%；PPI环比上涨0.5%，同比上涨5.8",
+          "QUICKDESCRIPTION": "权威解读 2017年11月份CPI PPI同比涨幅均有所回落 今天发布的2017年11月份全国居民消费价格指数 CPI 和工业生产者出厂价格指数 PPI 数据显示 CPI环比持平 同比上涨1 7 PPI环比上涨0 5 同比上涨5 8 对此 国家统计局城市司高级统计师绳国庆进行了解读 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B5780AEDFB282935C32571F51ECBD20F",
+      "timestamp": 1512783398000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B5780AEDFB282935C32571F51ECBD20F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2017年11月份居民消费价格同比上涨1.7%】2017年11月，全国居民消费价格同比上涨1.7%。其中城市上涨1.8%，农村上涨1.5%；食品价格下降1.1%，非食品价格上涨2.5%；消费品价格上涨0.9%，服务价格上涨3.",
+        "title": "#数据发布#【2017年11月份<em>居民消费价格</em>同比上涨1.7%】2017年11月，全国<em>居民消费价格</em>同比上涨1.7%。其中城市上涨1.8%，农村上涨1.5%；食品<em>价格</em>下降1.1%，非食品<em>价格</em>上涨2.5%；<em>消费</em>品<em>价格</em>上涨0.9%，服务<em>价格</em>上涨3.",
+        "url": "https://weibo.com/3919628624/FyOFgCk8r?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "其中城市上涨1.8%，农村上涨1.5%；食品<em>价格</em>下降1.1%，非食品<em>价格</em>上涨2.5%；<em>消费</em>品<em>价格</em>上涨0.9%，服务<em>价格</em>上涨3.1%。 数据发布 【2017年11月份<em>居民消费价格</em>同比上涨1.7%】2017年11月，全国<em>居民消费价格</em>同比上涨1.7%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1512783398000,
+        "docDate": "2017-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "0E9EDCD2402B6AFA6BC3CFE513BAE934",
+        "md5Url": "91864E3943997EA742D3C93D13510061",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "其中城市上涨1.8%，农村上涨1.5%；食品<em>价格</em>下降1.1%，非食品<em>价格</em>上涨2.5%；<em>消费</em>品<em>价格</em>上涨0.9%，服务<em>价格</em>上涨3.1%。 数据发布 【2017年11月份<em>居民消费价格</em>同比上涨1.7%】2017年11月，全国<em>居民消费价格</em>同比上涨1.7%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1512783398,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "91864E3943997EA742D3C93D13510061",
+          "DRETITLE": "数据发布 2017年11月份居民消费价格同比上涨1 7 2017年11月 全国居民消费价格同比上涨1 7 其中城市上涨1 8 农村上涨1 5 食品价格下降1 1",
+          "URL": "https://weibo.com/3919628624/FyOFgCk8r?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "0E9EDCD2402B6AFA6BC3CFE513BAE934",
+          "DRETITLEO": "#数据发布#【2017年11月份居民消费价格同比上涨1.7%】2017年11月，全国居民消费价格同比上涨1.7%。其中城市上涨1.8%，农村上涨1.5%；食品价格下降1.1%，非食品价格上涨2.5%；消费品价格上涨0.9%，服务价格上涨3.",
+          "QUICKDESCRIPTION": "数据发布 2017年11月份居民消费价格同比上涨1 7 2017年11月 全国居民消费价格同比上涨1 7 其中城市上涨1 8 农村上涨1 5 食品价格下降1 1 非食品价格上涨2 5 消费品价格上涨0 9 服务价格上涨3 1 1-11月平均 全国居民消费价格总水平比去年同期上涨1 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F716BA7FB21CAE33C6B5ED14759D1971",
+      "timestamp": 1512783000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F716BA7FB21CAE33C6B5ED14759D1971",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2017年11月份居民消费价格同比上涨1.7%",
+        "title": "2017年11月份<em>居民消费价格</em>同比上涨1.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899756.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "统计范围 全国<em>居民消费价格</em>指数（CPI）涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2、统计范围 全国<em>居民消费价格</em>指数（CPI）涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "统计范围 全国<em>居民消费价格</em>指数（CPI）涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2、统计范围 全国<em>居民消费价格</em>指数（CPI）涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1512783000000,
+        "docDate": "2017-12-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/EC4779FC89A3451033B4820D50FFE86E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_58.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "99D3A054EB74C2C1342ACAD6792D72E1",
+        "md5Url": "F716BA7FB21CAE33C6B5ED14759D1971",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统计范围 全国<em>居民消费价格</em>指数（CPI）涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。 2、统计范围 全国<em>居民消费价格</em>指数（CPI）涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、其他用品和服务等8大类、262个基本分类的商品与服务<em>价格</em>。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899756.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2017年11月份居民消费价格同比上涨1.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/EC4779FC89A3451033B4820D50FFE86E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_58.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1512783000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F716BA7FB21CAE33C6B5ED14759D1971",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2017年11月份居民消费价格同比上涨1 7",
+          "MD5TITLE": "99D3A054EB74C2C1342ACAD6792D72E1",
+          "QUICKDESCRIPTION": "2017年11月份居民消费价格同比上涨1.7% 2017/12/09 09:30 | Aa 字体： 小 中 大 | 　　2017年11月份，全国居民消费价格同比上涨1.7%。其中，城市上涨1.8%，农村上涨1.5%；食品价格下降1.1%，非食品价格上涨2.5%；消费品价格上涨0.9%，服务价格上涨3.1%。1-11月平均，全国居民消费价格总水平比去年同期上涨1.5%。 　　11月份，全国居民消费价格环比持平。其中，城市和农村均持平；食品价格下降0.5%，非食品价格上涨0.1%；消费品价格上涨0.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C1D4D6465C04508A665D6311A088EC9B",
+      "timestamp": 1510210800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C1D4D6465C04508A665D6311A088EC9B",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 10月份居民消费价格小幅上涨",
+        "title": "《新闻直播间》国家统计局 10月份<em>居民消费价格</em>小幅上涨",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914003.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 10月份<em>居民消费价格</em>小幅上涨...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1510210800000,
+        "docDate": "2017-11-09",
+        "includeImg": true,
+        "picUrl": "img?reference=C1D4D6465C04508A665D6311A088EC9B&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_97.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "5BDC4945E29060C567014BF6C68FA741",
+        "md5Url": "C1D4D6465C04508A665D6311A088EC9B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 10月份<em>居民消费价格</em>小幅上涨...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914003.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局 10月份居民消费价格小幅上涨",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_97.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1510210800,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C1D4D6465C04508A665D6311A088EC9B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 10月份居民消费价格小幅上涨",
+          "MD5TITLE": "5BDC4945E29060C567014BF6C68FA741",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局 10月份居民消费价格小幅上涨",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "17265BEA1DDA6FE61B6AD27F7450E3EA",
+      "timestamp": 1510191654000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "17265BEA1DDA6FE61B6AD27F7450E3EA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2017年10月份居民消费价格同比上涨1.9%】其中，城市上涨1.9%，农村上涨1.7%；食品价格下降0.4%，非食品价格上涨2.4%；消费品价格上涨1.1%，服务价格上涨3.2%。1-10月平均，全国居民消费价格总水平比去年",
+        "title": "#数据发布#【2017年10月份<em>居民消费价格</em>同比上涨1.9%】其中，城市上涨1.9%，农村上涨1.7%；食品<em>价格</em>下降0.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨1.1%，服务<em>价格</em>上涨3.2%。1-10月平均，全国<em>居民消费价格</em>总水平比去年",
+        "url": "https://weibo.com/3919628624/FufS6qeaL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2017年10月份<em>居民消费价格</em>同比上涨1.9%】其中，城市上涨1.9%，农村上涨1.7%；食品<em>价格</em>下降0.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨1.1%，服务<em>价格</em>上涨3.2%。 数据发布 【2017年10月份<em>居民消费价格</em>同比上涨1.9%】其中，城市上涨1.9%，农村上涨1.7%；食品<em>价格</em>下降0.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨1.1%，服务<em>价格</em>上涨3.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1510191654000,
+        "docDate": "2017-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "4C699FA3A985A131F4D502F8D010982E",
+        "md5Url": "B85E2AE1CA0DBC2F09B57FC2374C0A87",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2017年10月份<em>居民消费价格</em>同比上涨1.9%】其中，城市上涨1.9%，农村上涨1.7%；食品<em>价格</em>下降0.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨1.1%，服务<em>价格</em>上涨3.2%。 数据发布 【2017年10月份<em>居民消费价格</em>同比上涨1.9%】其中，城市上涨1.9%，农村上涨1.7%；食品<em>价格</em>下降0.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨1.1%，服务<em>价格</em>上涨3.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1510191654,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "B85E2AE1CA0DBC2F09B57FC2374C0A87",
+          "DRETITLE": "数据发布 2017年10月份居民消费价格同比上涨1 9 其中 城市上涨1 9 农村上涨1 7 食品价格下降0 4 非食品价格上涨2 4 消费品价格上涨1 1 服",
+          "URL": "https://weibo.com/3919628624/FufS6qeaL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4C699FA3A985A131F4D502F8D010982E",
+          "DRETITLEO": "#数据发布#【2017年10月份居民消费价格同比上涨1.9%】其中，城市上涨1.9%，农村上涨1.7%；食品价格下降0.4%，非食品价格上涨2.4%；消费品价格上涨1.1%，服务价格上涨3.2%。1-10月平均，全国居民消费价格总水平比去年",
+          "QUICKDESCRIPTION": "数据发布 2017年10月份居民消费价格同比上涨1 9 其中 城市上涨1 9 农村上涨1 7 食品价格下降0 4 非食品价格上涨2 4 消费品价格上涨1 1 服务价格上涨3 2 1-10月平均 全国居民消费价格总水平比去年同期上涨1 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3AB323CEE19B412AF29C465B97FE9FD2",
+      "timestamp": 1510191000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3AB323CEE19B412AF29C465B97FE9FD2",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2017年10月份居民消费价格同比上涨1.9%",
+        "title": "2017年10月份<em>居民消费价格</em>同比上涨1.9%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899722.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "城市上涨0.1%，农村上涨0.2%；食品<em>价格</em>持平，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨0.2%，服务<em>价格</em>下降0.1%。 其中，城市上涨0.1%，农村上涨0.2%；食品<em>价格</em>持平，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨0.2%，服务<em>价格</em>下降0.1%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "城市上涨0.1%，农村上涨0.2%；食品<em>价格</em>持平，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨0.2%，服务<em>价格</em>下降0.1%。 其中，城市上涨0.1%，农村上涨0.2%；食品<em>价格</em>持平，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨0.2%，服务<em>价格</em>下降0.1%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1510191000000,
+        "docDate": "2017-11-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/90566746AA7848C9BE950AC524BC38E0.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_59.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "6171E941FD52EB60A6CC25E7B04CFBC7",
+        "md5Url": "3AB323CEE19B412AF29C465B97FE9FD2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨0.1%，农村上涨0.2%；食品<em>价格</em>持平，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨0.2%，服务<em>价格</em>下降0.1%。 其中，城市上涨0.1%，农村上涨0.2%；食品<em>价格</em>持平，非食品<em>价格</em>上涨0.1%；<em>消费</em>品<em>价格</em>上涨0.2%，服务<em>价格</em>下降0.1%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899722.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2017年10月份居民消费价格同比上涨1.9%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/90566746AA7848C9BE950AC524BC38E0.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_59.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1510191000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "3AB323CEE19B412AF29C465B97FE9FD2",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2017年10月份居民消费价格同比上涨1 9",
+          "MD5TITLE": "6171E941FD52EB60A6CC25E7B04CFBC7",
+          "QUICKDESCRIPTION": "2017年10月份居民消费价格同比上涨1.9% 2017/11/09 09:30 | Aa 字体： 小 中 大 | 　　2017年10月份，全国居民消费价格同比上涨1.9%。其中，城市上涨1.9%，农村上涨1.7%；食品价格下降0.4%，非食品价格上涨2.4%；消费品价格上涨1.1%，服务价格上涨3.2%。1-10月平均，全国居民消费价格总水平比去年同期上涨1.5%。 　　10月份，全国居民消费价格环比上涨0.1%。其中，城市上涨0.1%，农村上涨0.2%；食品价格持平，非食品价格上涨0.1%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BE14DFCDD8B3C749D117F6A16B68727D",
+      "timestamp": 1508480941000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BE14DFCDD8B3C749D117F6A16B68727D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【王萍萍：居民收入继续较快增长 消费结构不断优化升级】前三季度，全国居民收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长；居民消费增长总体平稳，消费结构不断优化升级，农村居民消费增长快于城镇居民消费增长",
+        "title": "#权威解读#【王萍萍：<em>居民</em>收入继续较快增长 <em>消费</em>结构不断优化升级】前三季度，全国<em>居民</em>收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长；<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级，农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长",
+        "url": "https://weibo.com/3919628624/Frfd7pLzZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【王萍萍：<em>居民</em>收入继续较快增长 <em>消费</em>结构不断优化升级】前三季度，全国<em>居民</em>收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长；<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级，农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长。详见 O网页链接 权威解读 【王萍萍：<em>居民</em>收入继续较快增长 <em>消费</em>结构不断优化升级】前三季度，全国<em>居民</em>收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长；<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级，农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1508480941000,
+        "docDate": "2017-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "836EFE0A171BD065D2D4F7BA7801AC79",
+        "md5Url": "85B4B6D260A60A001AA5DFD05D668EE9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【王萍萍：<em>居民</em>收入继续较快增长 <em>消费</em>结构不断优化升级】前三季度，全国<em>居民</em>收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长；<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级，农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长。详见 O网页链接 权威解读 【王萍萍：<em>居民</em>收入继续较快增长 <em>消费</em>结构不断优化升级】前三季度，全国<em>居民</em>收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长；<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级，农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1508480941,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "85B4B6D260A60A001AA5DFD05D668EE9",
+          "DRETITLE": "权威解读 王萍萍 居民收入继续较快增长 消费结构不断优化升级 前三季度 全国居民收入继续保持较快增长 增速既快于上年同期和上半年 也快于今年同期GDP增长 居民",
+          "URL": "https://weibo.com/3919628624/Frfd7pLzZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "836EFE0A171BD065D2D4F7BA7801AC79",
+          "DRETITLEO": "#权威解读#【王萍萍：居民收入继续较快增长 消费结构不断优化升级】前三季度，全国居民收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长；居民消费增长总体平稳，消费结构不断优化升级，农村居民消费增长快于城镇居民消费增长",
+          "QUICKDESCRIPTION": "权威解读 王萍萍 居民收入继续较快增长 消费结构不断优化升级 前三季度 全国居民收入继续保持较快增长 增速既快于上年同期和上半年 也快于今年同期GDP增长 居民消费增长总体平稳 消费结构不断优化升级 农村居民消费增长快于城镇居民消费增长 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D539F9F0D01F88CB0E7E27655B6E1BEE",
+      "timestamp": 1508478960000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D539F9F0D01F88CB0E7E27655B6E1BEE",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "王萍萍：居民收入继续较快增长 消费结构不断优化升级",
+        "title": "王萍萍：<em>居民</em>收入继续较快增长 <em>消费</em>结构不断优化升级",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1895922.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "今年前三季度，全国<em>居民</em>收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长，其中农村<em>居民</em>收入增长快于城镇<em>居民</em>收入增长；<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级，农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长。 三、<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级 农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长。前三季度，全国<em>居民</em>人均<em>消费</em>支出13162元，同比名义增长7.5%，扣除<em>价格</em>因素影响，实际增长5.9%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1508478960000,
+        "docDate": "2017-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_1000_25.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "D51D7225860226208CC9128572E2ECBE",
+        "md5Url": "D539F9F0D01F88CB0E7E27655B6E1BEE",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "今年前三季度，全国<em>居民</em>收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长，其中农村<em>居民</em>收入增长快于城镇<em>居民</em>收入增长；<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级，农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长。 三、<em>居民</em><em>消费</em>增长总体平稳，<em>消费</em>结构不断优化升级 农村<em>居民</em><em>消费</em>增长快于城镇<em>居民</em><em>消费</em>增长。前三季度，全国<em>居民</em>人均<em>消费</em>支出13162元，同比名义增长7.5%，扣除<em>价格</em>因素影响，实际增长5.9%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1895922.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "王萍萍：居民收入继续较快增长 消费结构不断优化升级",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_1000_25.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1508478960,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D539F9F0D01F88CB0E7E27655B6E1BEE",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "王萍萍 居民收入继续较快增长 消费结构不断优化升级",
+          "MD5TITLE": "D51D7225860226208CC9128572E2ECBE",
+          "QUICKDESCRIPTION": "　　今年前三季度，全国居民收入继续保持较快增长，增速既快于上年同期和上半年，也快于今年同期GDP增长，其中农村居民收入增长快于城镇居民收入增长；居民消费增长总体平稳，消费结构不断优化升级，农村居民消费增长快于城镇居民消费增长。 　　一、居民收入增长继续快于经济增长，城乡居民收入差距缩小 　　居民收入快于经济增长。前三季度，全国居民人均可支配收入19342元，比上年同期名义增长9.1%，扣除价格因素影响，实际增长7.5%，实际增速比上年同期加快1.2个百分点，比上半年加快0.2个百分点。前三季度，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B755AD27CC2CBBC3356D1AC7B851E463",
+      "timestamp": 1508382455000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B755AD27CC2CBBC3356D1AC7B851E463",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2017年前三季度居民收入和消费支出情况】2017年前三季度，全国居民人均可支配收入19342元，比上年同期名义增长9.1%。详见O网页链接",
+        "title": "#发布会微直播#【2017年前三季度<em>居民</em>收入和<em>消费</em>支出情况】2017年前三季度，全国<em>居民</em>人均可支配收入19342元，比上年同期名义增长9.1%。详见O网页链接",
+        "url": "https://weibo.com/3919628624/Fr4sRpuGX?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2017年前三季度<em>居民</em>收入和<em>消费</em>支出情况】2017年前三季度，全国<em>居民</em>人均可支配收入19342元，比上年同期名义增长9.1%。 发布会微直播 【2017年前三季度<em>居民</em>收入和<em>消费</em>支出情况】2017年前三季度，全国<em>居民</em>人均可支配收入19342元，比上年同期名义增长9.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1508382455000,
+        "docDate": "2017-10-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "9885F47CF6F6CB01E658DD13F4D02E6A",
+        "md5Url": "3B9D92FA04ADF7949E5FD3AAB64925C3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2017年前三季度<em>居民</em>收入和<em>消费</em>支出情况】2017年前三季度，全国<em>居民</em>人均可支配收入19342元，比上年同期名义增长9.1%。 发布会微直播 【2017年前三季度<em>居民</em>收入和<em>消费</em>支出情况】2017年前三季度，全国<em>居民</em>人均可支配收入19342元，比上年同期名义增长9.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1508382455,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3B9D92FA04ADF7949E5FD3AAB64925C3",
+          "DRETITLE": "发布会微直播 2017年前三季度居民收入和消费支出情况 2017年前三季度 全国居民人均可支配收入19342元 比上年同期名义增长9 1 详见O网页链接",
+          "URL": "https://weibo.com/3919628624/Fr4sRpuGX?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "9885F47CF6F6CB01E658DD13F4D02E6A",
+          "DRETITLEO": "#发布会微直播#【2017年前三季度居民收入和消费支出情况】2017年前三季度，全国居民人均可支配收入19342元，比上年同期名义增长9.1%。详见O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2017年前三季度居民收入和消费支出情况 2017年前三季度 全国居民人均可支配收入19342元 比上年同期名义增长9 1 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D07A29582B9D9A5B2BAC200A2D9CBC13",
+      "timestamp": 1508379025000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D07A29582B9D9A5B2BAC200A2D9CBC13",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2017年9月份社会消费品零售总额增长10.3%】2017年9月份，社会消费品零售总额30870亿元，同比名义增长10.3%（扣除价格因素实际增长9.3%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额14",
+        "title": "#发布会微直播#【2017年9月份社会<em>消费</em>品零售总额增长10.3%】2017年9月份，社会<em>消费</em>品零售总额30870亿元，同比名义增长10.3%（扣除<em>价格</em>因素实际增长9.3%，以下除特殊说明外均为名义增长）。其中，限额以上单位<em>消费</em>品零售额14",
+        "url": "https://weibo.com/3919628624/Fr45EBWce?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2017年9月份社会<em>消费</em>品零售总额增长10.3%】2017年9月份，社会<em>消费</em>品零售总额30870亿元，同比名义增长10.3%（扣除<em>价格</em>因素实际增长9.3%，以下除特殊说明外均为名义增长）。 发布会微直播 【2017年9月份社会<em>消费</em>品零售总额增长10.3%】2017年9月份，社会<em>消费</em>品零售总额30870亿元，同比名义增长10.3%（扣除<em>价格</em>因素实际增长9.3%，以下除特殊说明外均为名义增长）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1508379025000,
+        "docDate": "2017-10-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "D0CA1777689F67EF0A92B3765AEF4007",
+        "md5Url": "B1197489D73F6E40912A8BDBB1EE3025",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2017年9月份社会<em>消费</em>品零售总额增长10.3%】2017年9月份，社会<em>消费</em>品零售总额30870亿元，同比名义增长10.3%（扣除<em>价格</em>因素实际增长9.3%，以下除特殊说明外均为名义增长）。 发布会微直播 【2017年9月份社会<em>消费</em>品零售总额增长10.3%】2017年9月份，社会<em>消费</em>品零售总额30870亿元，同比名义增长10.3%（扣除<em>价格</em>因素实际增长9.3%，以下除特殊说明外均为名义增长）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1508379025,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "B1197489D73F6E40912A8BDBB1EE3025",
+          "DRETITLE": "发布会微直播 2017年9月份社会消费品零售总额增长10 3 2017年9月份 社会消费品零售总额30870亿元 同比名义增长10 3 扣除价格因素实际增长9 ",
+          "URL": "https://weibo.com/3919628624/Fr45EBWce?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D0CA1777689F67EF0A92B3765AEF4007",
+          "DRETITLEO": "#发布会微直播#【2017年9月份社会消费品零售总额增长10.3%】2017年9月份，社会消费品零售总额30870亿元，同比名义增长10.3%（扣除价格因素实际增长9.3%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额14",
+          "QUICKDESCRIPTION": "发布会微直播 2017年9月份社会消费品零售总额增长10 3 2017年9月份 社会消费品零售总额30870亿元 同比名义增长10 3 扣除价格因素实际增长9 3 以下除特殊说明外均为名义增长 其中 限额以上单位消费品零售额14630亿元 增长7 8 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "28455272B44AC5E83BFD83403AC848AB",
+      "timestamp": 1508378400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "28455272B44AC5E83BFD83403AC848AB",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2017年前三季度居民收入和消费支出情况",
+        "title": "2017年前三季度<em>居民</em>收入和<em>消费</em>支出情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899690.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1508378400000,
+        "docDate": "2017-10-19",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/78A81FEC50CE666872A3792C924D28B2.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_61.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "727A6EC025A70778116A7D8941FAE8B5",
+        "md5Url": "28455272B44AC5E83BFD83403AC848AB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899690.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2017年前三季度居民收入和消费支出情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/78A81FEC50CE666872A3792C924D28B2.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_61.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1508378400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "28455272B44AC5E83BFD83403AC848AB",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2017年前三季度居民收入和消费支出情况",
+          "MD5TITLE": "727A6EC025A70778116A7D8941FAE8B5",
+          "QUICKDESCRIPTION": "2017年前三季度居民收入和消费支出情况 2017/10/19 10:00 | Aa 字体： 小 中 大 | 　　一、居民收入情况 　　2017年前三季度，全国居民人均可支配收入19342元，比上年同期名义增长9.1%，扣除价格因素，实际增长7.5%。其中，城镇居民人均可支配收入27430元，增长8.3%（以下如无特别说明，均为同比名义增长），扣除价格因素，实际增长6.6%；农村居民人均可支配收入9778元，增长8.7%，扣除价格因素，实际增长7.5%。 　　前三季度，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "93AA4C7DC1B8EADB73F540B01470055B",
+      "timestamp": 1508137200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "93AA4C7DC1B8EADB73F540B01470055B",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局：9月居民消费价格同比涨1.6％",
+        "title": "《新闻直播间》国家统计局：9月<em>居民消费价格</em>同比涨1.6％",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1913995.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局：9月<em>居民消费价格</em>同比涨1.6...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1508137200000,
+        "docDate": "2017-10-16",
+        "includeImg": true,
+        "picUrl": "img?reference=93AA4C7DC1B8EADB73F540B01470055B&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_98.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "8DB7214E411CEB1D92CFF51C00F5028D",
+        "md5Url": "93AA4C7DC1B8EADB73F540B01470055B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局：9月<em>居民消费价格</em>同比涨1.6...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1913995.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局：9月居民消费价格同比涨1.6％",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_98.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1508137200,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "93AA4C7DC1B8EADB73F540B01470055B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 9月居民消费价格同比涨1 6",
+          "MD5TITLE": "8DB7214E411CEB1D92CFF51C00F5028D",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局：9月居民消费价格同比涨1.6％",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "23D763C10F2D77A0295C75849DA82D84",
+      "timestamp": 1508117748000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "23D763C10F2D77A0295C75849DA82D84",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【2017年9月份CPI、PPI稳中略涨】今天发布的2017年9月份全国居民消费价格指数（CPI）和工业生产者出厂价格指数（PPI）数据显示，CPI同比上涨1.6%，环比上涨0.5%；PPI同比上涨6.9%，环比上涨1.0%。对",
+        "title": "#权威解读#【2017年9月份CPI、PPI稳中略涨】今天发布的2017年9月份全国<em>居民消费价格</em>指数（CPI）和工业生产者出厂<em>价格</em>指数（PPI）数据显示，CPI同比上涨1.6%，环比上涨0.5%；PPI同比上涨6.9%，环比上涨1.0%。对",
+        "url": "https://weibo.com/3919628624/FqBA7fRCP?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2017年9月份CPI、PPI稳中略涨】今天发布的2017年9月份全国<em>居民消费价格</em>指数（CPI）和工业生产者出厂<em>价格</em>指数（PPI）数据显示，CPI同比上涨1.6%，环比上涨0.5%；PPI同比上涨6.9%，环比上涨1.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1508117748000,
+        "docDate": "2017-10-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "48B752EE3589F48E6801FD98596EBB3F",
+        "md5Url": "8F66C8BA6028C9703216BAE59D5C3815",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2017年9月份CPI、PPI稳中略涨】今天发布的2017年9月份全国<em>居民消费价格</em>指数（CPI）和工业生产者出厂<em>价格</em>指数（PPI）数据显示，CPI同比上涨1.6%，环比上涨0.5%；PPI同比上涨6.9%，环比上涨1.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1508117748,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8F66C8BA6028C9703216BAE59D5C3815",
+          "DRETITLE": "权威解读 2017年9月份CPI PPI稳中略涨 今天发布的2017年9月份全国居民消费价格指数 CPI 和工业生产者出厂价格指数 PPI 数据显示 CPI同比",
+          "URL": "https://weibo.com/3919628624/FqBA7fRCP?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "48B752EE3589F48E6801FD98596EBB3F",
+          "DRETITLEO": "#权威解读#【2017年9月份CPI、PPI稳中略涨】今天发布的2017年9月份全国居民消费价格指数（CPI）和工业生产者出厂价格指数（PPI）数据显示，CPI同比上涨1.6%，环比上涨0.5%；PPI同比上涨6.9%，环比上涨1.0%。对",
+          "QUICKDESCRIPTION": "权威解读 2017年9月份CPI PPI稳中略涨 今天发布的2017年9月份全国居民消费价格指数 CPI 和工业生产者出厂价格指数 PPI 数据显示 CPI同比上涨1 6 环比上涨0 5 PPI同比上涨6 9 环比上涨1 0 对此 国家统计局城市司高级统计师绳国庆进行了解读 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C207C1C3967E88461308C7C4DEEC2701",
+      "timestamp": 1508117613000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C207C1C3967E88461308C7C4DEEC2701",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2017年9月份居民消费价格同比上涨1.6%】2017年9月，全国居民消费价格同比上涨1.6%。其中，城市上涨1.7%，农村上涨1.4%；食品价格下降1.4%，非食品价格上涨2.4%；消费品价格上涨0.7%，服务价格上涨3.3",
+        "title": "#数据发布#【2017年9月份<em>居民消费价格</em>同比上涨1.6%】2017年9月，全国<em>居民消费价格</em>同比上涨1.6%。其中，城市上涨1.7%，农村上涨1.4%；食品<em>价格</em>下降1.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨0.7%，服务<em>价格</em>上涨3.3",
+        "url": "https://weibo.com/3919628624/FqBzcy2k7?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市上涨1.7%，农村上涨1.4%；食品<em>价格</em>下降1.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨0.7%，服务<em>价格</em>上涨3.3%。1-9月平均全国<em>居民消费价格</em>总水平比去年同期上涨1.5%。 其中，城市上涨1.7%，农村上涨1.4%；食品<em>价格</em>下降1.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨0.7%，服务<em>价格</em>上涨3.3%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1508117613000,
+        "docDate": "2017-10-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "CC293DC2188E291038081796F19B7AC2",
+        "md5Url": "67560CB35AB1F3F8F1E56AF5514EA36F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨1.7%，农村上涨1.4%；食品<em>价格</em>下降1.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨0.7%，服务<em>价格</em>上涨3.3%。1-9月平均全国<em>居民消费价格</em>总水平比去年同期上涨1.5%。 其中，城市上涨1.7%，农村上涨1.4%；食品<em>价格</em>下降1.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨0.7%，服务<em>价格</em>上涨3.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1508117613,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "67560CB35AB1F3F8F1E56AF5514EA36F",
+          "DRETITLE": "数据发布 2017年9月份居民消费价格同比上涨1 6 2017年9月 全国居民消费价格同比上涨1 6 其中 城市上涨1 7 农村上涨1 4 食品价格下降1 4 ",
+          "URL": "https://weibo.com/3919628624/FqBzcy2k7?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "CC293DC2188E291038081796F19B7AC2",
+          "DRETITLEO": "#数据发布#【2017年9月份居民消费价格同比上涨1.6%】2017年9月，全国居民消费价格同比上涨1.6%。其中，城市上涨1.7%，农村上涨1.4%；食品价格下降1.4%，非食品价格上涨2.4%；消费品价格上涨0.7%，服务价格上涨3.3",
+          "QUICKDESCRIPTION": "数据发布 2017年9月份居民消费价格同比上涨1 6 2017年9月 全国居民消费价格同比上涨1 6 其中 城市上涨1 7 农村上涨1 4 食品价格下降1 4 非食品价格上涨2 4 消费品价格上涨0 7 服务价格上涨3 3 1-9月平均全国居民消费价格总水平比去年同期上涨1 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A0FE606783FF55E74A5FB378567EB4F3",
+      "timestamp": 1508117400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A0FE606783FF55E74A5FB378567EB4F3",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2017年9月份居民消费价格同比上涨1.6%",
+        "title": "2017年9月份<em>居民消费价格</em>同比上涨1.6%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899681.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "城市上涨1.7%，农村上涨1.4%；食品<em>价格</em>下降1.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨0.7%，服务<em>价格</em>上涨3.3%。1-9月平均，全国<em>居民消费价格</em>总水平比去年同期上涨1.5%。 其中，医疗保健、居住、交通和通信<em>价格</em>分别上涨1.8%、0.3%和0.1%，其他用品和服务、生活用品及服务<em>价格</em>分别上涨0.2%和0.1%；衣着、教育文化和娱乐<em>价格</em>均上涨0.9%。 2017年9月<em>居民消费价格</em>主要数据 9月 1-9月 环比涨跌幅（%） 同比涨跌幅（%） 同比涨跌幅（%） <em>居民消费价格</em> 0.5 1.6 1.5 其中：城市 0.5 1.7 1.6 农村 0.6 1.4 1.1 其中：食品 0.5 -1.4 -1.7 非食品 0.5 2.4 2.3 其中：<em>消费</em>品 0.4 0.7 0.6 服务 0.7 3.3 2.9 其中：不包括食品和能源 0.5 2.3 2.1 其中：不包括鲜菜和鲜果 0.5 1.8 1.7 按类别分 一、食品烟酒 0.4 -0.4 -0.6 粮 食 0.1 1.7 1.5 食 用 油 -0.1 -1.0 0.0 鲜 菜 -0.1 -1.0 -8.8 畜 肉 类 0.9 -7.5 -5.0 其中：猪 肉 1.0 -12.4 -8.7 牛 肉 0.5 0.9 0.3 羊 肉 3.0 6.2 1.3 水 产 品 -1.8 2.5 4.6 蛋 类 5.3 3.7 -7.5 奶 类 0.2 0.4 0.0 鲜 果 1.9 -3.0 4.1 烟 草 0.0 -0.1 -0.2 酒 类 0.1 2.7 2.0 二、衣着 0.9 1.3 1.3 服 装 0.9 1.4 1.3 衣着加工服务费 0.3 3.7 4.1 鞋 类 0.9 1.0 1.1 三、居住 0.3 2.8 2.5 租赁房房租 0.3 2.9 2.9 水电燃料 0.5 2.3 1.8 四、生活用品及服务 0.1 1.4 0.9 家用器具 -0.2 1.0 0.1 家庭服务 0.2 4.3 4.2 五、交通和通信 0.1 0.5 1.1 交通工具 0.1 -1.5 -1.5 交通工具用燃料 1.0 5.1 10.2 交通工具使用和维修 0.4 2.0 1.8 通信工具 -0.1 -2.2 -3.3 通信服务 -0.1 -0.2 -0.2 邮递服务 0.0 2.2 1.2 六、教育文化和娱乐 0.9 2.3 2.5 教育服务 1.6 2.7 3.2 旅 游 0.1 3.8 3.9 七、医疗保健 1.8 7.6 5.7 中 药 0.3 5.8 5.8 西 药 0.4 6.1 6.2 医疗服务 2.7 9.2 5.8 八、其他用品和服务 0.2 1.4 2.6 附注 1、指标解释 <em>居民消费价格</em>指数（Consumer Price Index，简称CPI）是度量<em>居民</em>生活<em>消费</em>品和服务<em>价格</em>水平随着时间变动的相对数，综合反映<em>居民</em>购买的生活<em>消费</em>品和服务<em>价格</em>水平的变动情况。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "城市上涨1.7%，农村上涨1.4%；食品<em>价格</em>下降1.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨0.7%，服务<em>价格</em>上涨3.3%。1-9月平均，全国<em>居民消费价格</em>总水平比去年同期上涨1.5%。 其中，医疗保健、居住、交通和通信<em>价格</em>分别上涨1.8%、0.3%和0.1%，其他用品和服务、生活用品及服务<em>价格</em>分别上涨0.2%和0.1%；衣着、教育文化和娱乐<em>价格</em>均上涨0.9%。 2017年9月<em>居民消费价格</em>主要数据 9月 1-9月 环比涨跌幅（%） 同比涨跌幅（%） 同比涨跌幅（%） <em>居民消费价格</em> 0.5 1.6 1.5 其中：城市 0.5 1.7 1.6 农村 0.6 1.4 1.1 其中：食品 0.5 -1.4 -1.7 非食品 0.5 2.4 2.3 其中：<em>消费</em>品 0.4 0.7 0.6 服务 0.7 3.3 2.9 其中：不包括食品和能源 0.5 2.3 2.1 其中：不包括鲜菜和鲜果 0.5 1.8 1.7 按类别分 一、食品烟酒 0.4 -0.4 -0.6 粮 食 0.1 1.7 1.5 食 用 油 -0.1 -1.0 0.0 鲜 菜 -0.1 -1.0 -8.8 畜 肉 类 0.9 -7.5 -5.0 其中：猪 肉 1.0 -12.4 -8.7 牛 肉 0.5 0.9 0.3 羊 肉 3.0 6.2 1.3 水 产 品 -1.8 2.5 4.6 蛋 类 5.3 3.7 -7.5 奶 类 0.2 0.4 0.0 鲜 果 1.9 -3.0 4.1 烟 草 0.0 -0.1 -0.2 酒 类 0.1 2.7 2.0 二、衣着 0.9 1.3 1.3 服 装 0.9 1.4 1.3 衣着加工服务费 0.3 3.7 4.1 鞋 类 0.9 1.0 1.1 三、居住 0.3 2.8 2.5 租赁房房租 0.3 2.9 2.9 水电燃料 0.5 2.3 1.8 四、生活用品及服务 0.1 1.4 0.9 家用器具 -0.2 1.0 0.1 家庭服务 0.2 4.3 4.2 五、交通和通信 0.1 0.5 1.1 交通工具 0.1 -1.5 -1.5 交通工具用燃料 1.0 5.1 10.2 交通工具使用和维修 0.4 2.0 1.8 通信工具 -0.1 -2.2 -3.3 通信服务 -0.1 -0.2 -0.2 邮递服务 0.0 2.2 1.2 六、教育文化和娱乐 0.9 2.3 2.5 教育服务 1.6 2.7 3.2 旅 游 0.1 3.8 3.9 七、医疗保健 1.8 7.6 5.7 中 药 0.3 5.8 5.8 西 药 0.4 6.1 6.2 医疗服务 2.7 9.2 5.8 八、其他用品和服务 0.2 1.4 2.6 附注 1、指标解释 <em>居民消费价格</em>指数（Consumer Price Index，简称CPI）是度量<em>居民</em>生活<em>消费</em>品和服务<em>价格</em>水平随着时间变动的相对数，综合反映<em>居民</em>购买的生活<em>消费</em>品和服务<em>价格</em>水平的变动情况。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1508117400000,
+        "docDate": "2017-10-16",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/F0C04CA5E10CA52357433A86C2876AB6.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_61.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "BC752D175A5DDCC73649B367AAC76550",
+        "md5Url": "A0FE606783FF55E74A5FB378567EB4F3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨1.7%，农村上涨1.4%；食品<em>价格</em>下降1.4%，非食品<em>价格</em>上涨2.4%；<em>消费</em>品<em>价格</em>上涨0.7%，服务<em>价格</em>上涨3.3%。1-9月平均，全国<em>居民消费价格</em>总水平比去年同期上涨1.5%。 其中，医疗保健、居住、交通和通信<em>价格</em>分别上涨1.8%、0.3%和0.1%，其他用品和服务、生活用品及服务<em>价格</em>分别上涨0.2%和0.1%；衣着、教育文化和娱乐<em>价格</em>均上涨0.9%。 2017年9月<em>居民消费价格</em>主要数据 9月 1-9月 环比涨跌幅（%） 同比涨跌幅（%） 同比涨跌幅（%） <em>居民消费价格</em> 0.5 1.6 1.5 其中：城市 0.5 1.7 1.6 农村 0.6 1.4 1.1 其中：食品 0.5 -1.4 -1.7 非食品 0.5 2.4 2.3 其中：<em>消费</em>品 0.4 0.7 0.6 服务 0.7 3.3 2.9 其中：不包括食品和能源 0.5 2.3 2.1 其中：不包括鲜菜和鲜果 0.5 1.8 1.7 按类别分 一、食品烟酒 0.4 -0.4 -0.6 粮 食 0.1 1.7 1.5 食 用 油 -0.1 -1.0 0.0 鲜 菜 -0.1 -1.0 -8.8 畜 肉 类 0.9 -7.5 -5.0 其中：猪 肉 1.0 -12.4 -8.7 牛 肉 0.5 0.9 0.3 羊 肉 3.0 6.2 1.3 水 产 品 -1.8 2.5 4.6 蛋 类 5.3 3.7 -7.5 奶 类 0.2 0.4 0.0 鲜 果 1.9 -3.0 4.1 烟 草 0.0 -0.1 -0.2 酒 类 0.1 2.7 2.0 二、衣着 0.9 1.3 1.3 服 装 0.9 1.4 1.3 衣着加工服务费 0.3 3.7 4.1 鞋 类 0.9 1.0 1.1 三、居住 0.3 2.8 2.5 租赁房房租 0.3 2.9 2.9 水电燃料 0.5 2.3 1.8 四、生活用品及服务 0.1 1.4 0.9 家用器具 -0.2 1.0 0.1 家庭服务 0.2 4.3 4.2 五、交通和通信 0.1 0.5 1.1 交通工具 0.1 -1.5 -1.5 交通工具用燃料 1.0 5.1 10.2 交通工具使用和维修 0.4 2.0 1.8 通信工具 -0.1 -2.2 -3.3 通信服务 -0.1 -0.2 -0.2 邮递服务 0.0 2.2 1.2 六、教育文化和娱乐 0.9 2.3 2.5 教育服务 1.6 2.7 3.2 旅 游 0.1 3.8 3.9 七、医疗保健 1.8 7.6 5.7 中 药 0.3 5.8 5.8 西 药 0.4 6.1 6.2 医疗服务 2.7 9.2 5.8 八、其他用品和服务 0.2 1.4 2.6 附注 1、指标解释 <em>居民消费价格</em>指数（Consumer Price Index，简称CPI）是度量<em>居民</em>生活<em>消费</em>品和服务<em>价格</em>水平随着时间变动的相对数，综合反映<em>居民</em>购买的生活<em>消费</em>品和服务<em>价格</em>水平的变动情况。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899681.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2017年9月份居民消费价格同比上涨1.6%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/F0C04CA5E10CA52357433A86C2876AB6.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_61.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1508117400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A0FE606783FF55E74A5FB378567EB4F3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2017年9月份居民消费价格同比上涨1 6",
+          "MD5TITLE": "BC752D175A5DDCC73649B367AAC76550",
+          "QUICKDESCRIPTION": "2017年9月份居民消费价格同比上涨1.6% 2017/10/16 09:30 | Aa 字体： 小 中 大 | 　　2017年9月份，全国居民消费价格同比上涨1.6%。其中，城市上涨1.7%，农村上涨1.4%；食品价格下降1.4%，非食品价格上涨2.4%；消费品价格上涨0.7%，服务价格上涨3.3%。1-9月平均，全国居民消费价格总水平比去年同期上涨1.5%。 　　9月份，全国居民消费价格环比上涨0.5%。其中，城市上涨0.5%，农村上涨0.6%；食品价格上涨0.5%，非食品价格上涨0.5%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "24844912A8BB4BBF6A7DBAF8A2FD7B89",
+      "timestamp": 1507615680000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "24844912A8BB4BBF6A7DBAF8A2FD7B89",
+        "titleLabel": {
+          "value": "重大统计工作",
+          "location": 0
+        },
+        "titleO": "6. 统计上如何计算居民的消费账？",
+        "title": "6. 统计上如何计算<em>居民</em>的<em>消费</em>账？",
+        "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/yblh/dczsc/202302/t20230215_1904743.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "统计上如何计算<em>居民</em>的<em>消费</em>账 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 统计上如何计算<em>居民</em>的<em>消费</em>账 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1507615680000,
+        "docDate": "2017-10-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zt_18555/zdtjgz/yblh/dczsc/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "05166B6864943B9EF6BA2E83AB5FB595",
+        "md5Url": "24844912A8BB4BBF6A7DBAF8A2FD7B89",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统计上如何计算<em>居民</em>的<em>消费</em>账 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 统计上如何计算<em>居民</em>的<em>消费</em>账 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zt_18555/zdtjgz/yblh/dczsc/202302/t20230215_1904743.html",
+          "C1": [
+            "专题"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "6. 统计上如何计算居民的消费账？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zt_18555/zdtjgz/yblh/dczsc/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1507615680,
+          "L1": [
+            "专题"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "重大统计工作"
+          ],
+          "L3": [
+            "2017全国住户调查样本轮换"
+          ],
+          "L4": [
+            "住户调查知识窗"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "24844912A8BB4BBF6A7DBAF8A2FD7B89",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "6 统计上如何计算居民的消费账",
+          "MD5TITLE": "05166B6864943B9EF6BA2E83AB5FB595",
+          "QUICKDESCRIPTION": "统计上如何计算居民的消费账？ 　　居民消费支出是指居民用于满足家庭日常生活消费需要的全部支出，既包括现金消费支出，也包括实物消费支出。消费支出包括食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化娱乐、医疗保健以及其他用品和服务八大类。 　　【“剁手族”的消费账单】 　　小明的消费账单里，购买零食、朋友聚餐、换新手机、假期旅行等名目繁多，你知道它们应当如何归类吗？",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7F52BCC0E80F1761E5BE3CBE0DB587EF",
+      "timestamp": 1507599480000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7F52BCC0E80F1761E5BE3CBE0DB587EF",
+        "titleLabel": {
+          "value": "重大统计工作",
+          "location": 0
+        },
+        "titleO": "2016年全国居民人均消费支出及其构成",
+        "title": "2016年全国<em>居民</em>人均<em>消费</em>支出及其构成",
+        "url": "https://www.stats.gov.cn/zt_18555/zdtjgz/yblh/zysj/202302/t20230215_1904761.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "版权所有 国家统计局 联系我们 服务条款 网站地图 地址 北京市西城区月坛南街57号 100826 京ICP备05034670号-2 京公网安备 11040102700142号 网站标识码bm36000002...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1507599480000,
+        "docDate": "2017-10-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zt_18555/zdtjgz/yblh/zysj/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "683DE3FDBEA26CCAC53DE6960BE79BF6",
+        "md5Url": "7F52BCC0E80F1761E5BE3CBE0DB587EF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "版权所有 国家统计局 联系我们 服务条款 网站地图 地址 北京市西城区月坛南街57号 100826 京ICP备05034670号-2 京公网安备 11040102700142号 网站标识码bm36000002...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zt_18555/zdtjgz/yblh/zysj/202302/t20230215_1904761.html",
+          "C1": [
+            "专题"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "2016年全国居民人均消费支出及其构成",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zt_18555/zdtjgz/yblh/zysj/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1507599480,
+          "L1": [
+            "专题"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "重大统计工作"
+          ],
+          "L3": [
+            "2017全国住户调查样本轮换"
+          ],
+          "L4": [
+            "住户调查主要数据"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "7F52BCC0E80F1761E5BE3CBE0DB587EF",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2016年全国居民人均消费支出及其构成",
+          "MD5TITLE": "683DE3FDBEA26CCAC53DE6960BE79BF6",
+          "QUICKDESCRIPTION": "版权所有: 国家统计局  联系我们  服务条款  网站地图 地址: 北京市西城区月坛南街57号 (100826) 京ICP备05034670号-2 京公网安备 11040102700142号 网站标识码bm36000002",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5BE4C0BB440B5CA6F8B5B23796957186",
+      "timestamp": 1505354916000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5BE4C0BB440B5CA6F8B5B23796957186",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2017年8月份社会消费品零售总额增长10.1%】2017年8月份，社会消费品零售总额30330亿元，同比名义增长10.1%（扣除价格因素实际增长8.9%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额13",
+        "title": "#发布会微直播#【2017年8月份社会<em>消费</em>品零售总额增长10.1%】2017年8月份，社会<em>消费</em>品零售总额30330亿元，同比名义增长10.1%（扣除<em>价格</em>因素实际增长8.9%，以下除特殊说明外均为名义增长）。其中，限额以上单位<em>消费</em>品零售额13",
+        "url": "https://weibo.com/3919628624/FlK7xsvHJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2017年8月份社会<em>消费</em>品零售总额增长10.1%】2017年8月份，社会<em>消费</em>品零售总额30330亿元，同比名义增长10.1%（扣除<em>价格</em>因素实际增长8.9%，以下除特殊说明外均为名义增长）。 发布会微直播 【2017年8月份社会<em>消费</em>品零售总额增长10.1%】2017年8月份，社会<em>消费</em>品零售总额30330亿元，同比名义增长10.1%（扣除<em>价格</em>因素实际增长8.9%，以下除特殊说明外均为名义增长）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1505354916000,
+        "docDate": "2017-09-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "A0C222C603953E9AE256C4DD5371F8EE",
+        "md5Url": "DE96B1BB3B8DEC6666B4AF3862BD3454",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2017年8月份社会<em>消费</em>品零售总额增长10.1%】2017年8月份，社会<em>消费</em>品零售总额30330亿元，同比名义增长10.1%（扣除<em>价格</em>因素实际增长8.9%，以下除特殊说明外均为名义增长）。 发布会微直播 【2017年8月份社会<em>消费</em>品零售总额增长10.1%】2017年8月份，社会<em>消费</em>品零售总额30330亿元，同比名义增长10.1%（扣除<em>价格</em>因素实际增长8.9%，以下除特殊说明外均为名义增长）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1505354916,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "DE96B1BB3B8DEC6666B4AF3862BD3454",
+          "DRETITLE": "发布会微直播 2017年8月份社会消费品零售总额增长10 1 2017年8月份 社会消费品零售总额30330亿元 同比名义增长10 1 扣除价格因素实际增长8 ",
+          "URL": "https://weibo.com/3919628624/FlK7xsvHJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A0C222C603953E9AE256C4DD5371F8EE",
+          "DRETITLEO": "#发布会微直播#【2017年8月份社会消费品零售总额增长10.1%】2017年8月份，社会消费品零售总额30330亿元，同比名义增长10.1%（扣除价格因素实际增长8.9%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额13",
+          "QUICKDESCRIPTION": "发布会微直播 2017年8月份社会消费品零售总额增长10 1 2017年8月份 社会消费品零售总额30330亿元 同比名义增长10 1 扣除价格因素实际增长8 9 以下除特殊说明外均为名义增长 其中 限额以上单位消费品零售额13229亿元 增长7 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 20,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 7,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 16,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 16,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 8,
+          "children": null,
+          "key": "住户调查"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 20,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "视频"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "专题"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

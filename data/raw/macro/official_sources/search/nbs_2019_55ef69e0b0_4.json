@@ -1,0 +1,1557 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 78,
+  "currentHits": 18,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0D89281A0ED247AC94184E7A00204C36",
+      "timestamp": 1552015606000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0D89281A0ED247AC94184E7A00204C36",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据#【2019年3月8日】1、美国第四季度GDP环比折年率增长2.6%；2、欧元区1月份失业率持平于7.8%；3、欧元区2月份CPI同比上涨1.5%；4、意大利2018年第四季度GDP环比下降0.1%；5、印度2018年第四季度GD",
+        "title": "#国际数据#【2019年3月8日】1、美国第四季度GDP环比折年率增长2.6%；2、欧元区1月份失业率持平于7.8%；3、欧元区2月份CPI同比上涨1.5%；4、意大利2018年第四季度GDP环比下降0.1%；5、印度2018年第四季度GD",
+        "url": "https://weibo.com/3919628624/HjWuLDFPE?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据 【2019年3月8日】1、美国第四季度GDP环比折年率增长2.6%；2、欧元区1月份失业率持平于7.8%；3、欧元区2月份CPI同比上涨1.5%；4、意大利2018年第四季度GDP环比下降0.1%；5、印度2018年第四季度GDP同比增长6.6%；6、澳大利亚第四季度GDP环比增长0.2%。 国际数据 【2019年3月8日】1、美国第四季度GDP环比折年率增长2.6%；2、欧元区1月份失业率持平于7.8%；3、欧元区2月份CPI同比上涨1.5%；4、意大利2018年第四季度GDP环比下降0.1%；5、印度2018年第四季度GDP同比增长6.6%；6、澳大利亚第四季度GDP环比增长0.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1552015606000,
+        "docDate": "2019-03-08",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "05F099E9A81C789BC226823BB1D5A186",
+        "md5Url": "FCA6AA5E748EC0D6DA1DE4EF678E8871",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据 【2019年3月8日】1、美国第四季度GDP环比折年率增长2.6%；2、欧元区1月份失业率持平于7.8%；3、欧元区2月份CPI同比上涨1.5%；4、意大利2018年第四季度GDP环比下降0.1%；5、印度2018年第四季度GDP同比增长6.6%；6、澳大利亚第四季度GDP环比增长0.2%。 国际数据 【2019年3月8日】1、美国第四季度GDP环比折年率增长2.6%；2、欧元区1月份失业率持平于7.8%；3、欧元区2月份CPI同比上涨1.5%；4、意大利2018年第四季度GDP环比下降0.1%；5、印度2018年第四季度GDP同比增长6.6%；6、澳大利亚第四季度GDP环比增长0.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1552015606,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "FCA6AA5E748EC0D6DA1DE4EF678E8871",
+          "DRETITLE": "国际数据 2019年3月8日 1 美国第四季度GDP环比折年率增长2 6 2 欧元区1月份失业率持平于7 8 3 欧元区2月份CPI同比上涨1 5 4 意大利2",
+          "URL": "https://weibo.com/3919628624/HjWuLDFPE?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "05F099E9A81C789BC226823BB1D5A186",
+          "DRETITLEO": "#国际数据#【2019年3月8日】1、美国第四季度GDP环比折年率增长2.6%；2、欧元区1月份失业率持平于7.8%；3、欧元区2月份CPI同比上涨1.5%；4、意大利2018年第四季度GDP环比下降0.1%；5、印度2018年第四季度GD",
+          "QUICKDESCRIPTION": "国际数据 2019年3月8日 1 美国第四季度GDP环比折年率增长2 6 2 欧元区1月份失业率持平于7 8 3 欧元区2月份CPI同比上涨1 5 4 意大利2018年第四季度GDP环比下降0 1 5 印度2018年第四季度GDP同比增长6 6 6 澳大利亚第四季度GDP环比增长0 2 详见大图",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "018A44226A4FB848B8C8DD1D424BD062",
+      "timestamp": 1550480485000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "018A44226A4FB848B8C8DD1D424BD062",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递#【2019年2月18日】1、美国1月份CPI同比上涨1.6% ；2、欧元区2018年第四季度GDP环比增长0.2%；3、德国2018年第四季度GDP环比持平；4、英国2018年第四季度GDP环比增长0.2% ；5、英国201",
+        "title": "#国际数据速递#【2019年2月18日】1、美国1月份CPI同比上涨1.6% ；2、欧元区2018年第四季度GDP环比增长0.2%；3、德国2018年第四季度GDP环比持平；4、英国2018年第四季度GDP环比增长0.2% ；5、英国201",
+        "url": "https://weibo.com/3919628624/HheZF3thZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【2019年2月18日】1、美国1月份CPI同比上涨1.6% ；2、欧元区2018年第四季度GDP环比增长0.2%；3、德国2018年第四季度GDP环比持平；4、英国2018年第四季度GDP环比增长0.2% ；5、英国2018年12月货物和服务贸易逆差降至32.3亿英镑；6、日本2018年第四季度GDP环比折年率增长1.4% ；7、印度201 ... 国际数据速递 【2019年2月18日】1、美国1月份CPI同比上涨1.6% ；2、欧元区2018年第四季度GDP环比增长0.2%；3、德国2018年第四季度GDP环比持平；4、英国2018年第四季度GDP环比增长0.2% ；5、英国2018年12月货物和服务贸易逆差降至32.3亿英镑；6、日本2018年第四季度GDP环比折年率增长1.4% ；7、印度201 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1550480485000,
+        "docDate": "2019-02-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "197615AA522B9475F9E617AD2575EA0C",
+        "md5Url": "57B4CBFA0224010E4C4E6E27F1275CEE",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【2019年2月18日】1、美国1月份CPI同比上涨1.6% ；2、欧元区2018年第四季度GDP环比增长0.2%；3、德国2018年第四季度GDP环比持平；4、英国2018年第四季度GDP环比增长0.2% ；5、英国2018年12月货物和服务贸易逆差降至32.3亿英镑；6、日本2018年第四季度GDP环比折年率增长1.4% ；7、印度201 ... 国际数据速递 【2019年2月18日】1、美国1月份CPI同比上涨1.6% ；2、欧元区2018年第四季度GDP环比增长0.2%；3、德国2018年第四季度GDP环比持平；4、英国2018年第四季度GDP环比增长0.2% ；5、英国2018年12月货物和服务贸易逆差降至32.3亿英镑；6、日本2018年第四季度GDP环比折年率增长1.4% ；7、印度201 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1550480485,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "57B4CBFA0224010E4C4E6E27F1275CEE",
+          "DRETITLE": "国际数据速递 2019年2月18日 1 美国1月份CPI同比上涨1 6 2 欧元区2018年第四季度GDP环比增长0 2 3 德国2018年第四季度GDP环比持",
+          "URL": "https://weibo.com/3919628624/HheZF3thZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "197615AA522B9475F9E617AD2575EA0C",
+          "DRETITLEO": "#国际数据速递#【2019年2月18日】1、美国1月份CPI同比上涨1.6% ；2、欧元区2018年第四季度GDP环比增长0.2%；3、德国2018年第四季度GDP环比持平；4、英国2018年第四季度GDP环比增长0.2% ；5、英国201",
+          "QUICKDESCRIPTION": "国际数据速递 2019年2月18日 1 美国1月份CPI同比上涨1 6 2 欧元区2018年第四季度GDP环比增长0 2 3 德国2018年第四季度GDP环比持平 4 英国2018年第四季度GDP环比增长0 2 5 英国2018年12月货物和服务贸易逆差降至32 3亿英镑 6 日本2018年第四季度GDP环比折年率增长1 4 7 印度201 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2209325B2D849E32DB001AE2C4D9068D",
+      "timestamp": 1548234880000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2209325B2D849E32DB001AE2C4D9068D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#微科普#【人均GDP超6万，人均可支配收入不到3万，这是为啥？】近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。有网友据此测算我国2018年人均GDP达6.4万元，而统计局公布的全国居民人均可支配收入只有28228",
+        "title": "#微科普#【人均GDP超6万，人均可支配收入不到3万，这是为啥？】近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。有网友据此测算我国2018年人均GDP达6.4万元，而统计局公布的全国居民人均可支配收入只有28228",
+        "url": "https://weibo.com/3919628624/HdhY85UBx?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "微科普 【人均GDP超6万，人均可支配收入不到3万，这是为啥 】近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。 微科普 【人均GDP超6万，人均可支配收入不到3万，这是为啥 】近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548234880000,
+        "docDate": "2019-01-23",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2968649EE80F4D35298D659CA9619E1E",
+        "md5Url": "0202CB1F00B23861A28B72CBAA930DBF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "微科普 【人均GDP超6万，人均可支配收入不到3万，这是为啥 】近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。 微科普 【人均GDP超6万，人均可支配收入不到3万，这是为啥 】近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1548234880,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "0202CB1F00B23861A28B72CBAA930DBF",
+          "DRETITLE": "微科普 人均GDP超6万 人均可支配收入不到3万 这是为啥 近期国家统计局发布了2018年GDP 居民收入等指标数据 深受社会关注 有网友据此测算我国2018年",
+          "URL": "https://weibo.com/3919628624/HdhY85UBx?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2968649EE80F4D35298D659CA9619E1E",
+          "DRETITLEO": "#微科普#【人均GDP超6万，人均可支配收入不到3万，这是为啥？】近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。有网友据此测算我国2018年人均GDP达6.4万元，而统计局公布的全国居民人均可支配收入只有28228",
+          "QUICKDESCRIPTION": "微科普 人均GDP超6万 人均可支配收入不到3万 这是为啥 近期国家统计局发布了2018年GDP 居民收入等指标数据 深受社会关注 有网友据此测算我国2018年人均GDP达6 4万元 而统计局公布的全国居民人均可支配收入只有28228元 为什么人均GDP和人均可支配收入数据差距那么大呢 看这里就够了 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3B0C2DB0BAD5457EF8A1BC07E2FD9273",
+      "timestamp": 1548234540000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3B0C2DB0BAD5457EF8A1BC07E2FD9273",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【微科普】人均GDP超6万，人均可支配收入不到3万，这是为啥？",
+        "title": "【微科普】人均GDP超6万，人均可支配收入不到3万，这是为啥？",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316338&idx=2&sn=3e791976cd47c207bf2df7eaefbb518e&chksm=bd111c7f8a6695698243e5a3f0d8ecf6bbf6c7838da1ad0a2bce5bc2ad27602b37395bd34d8a&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "为什么人均GDP和人均可支配收入数据差距那么大呢 要解释清楚这个问题，首先要厘清人均GDP、人均国民总收入（GNI）、人均可支配收入这三个概念。 GDP是从<em>生产</em>角度核算，反映<em>生产</em>活动的最终成果，强调的是增加值的创造； GNI是从收入分配角度核算，反映初次分配的收入； 居民可支配收入是指居民可用于最终消费支出和储蓄的总和，是衡量居民收入水平的主要指标。 近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548234540000,
+        "docDate": "2019-01-23",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "FD558B978BA349808BF30249E3F150FB",
+        "md5Url": "16F482961D047774BF1C9F3B8A8C2C7D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "为什么人均GDP和人均可支配收入数据差距那么大呢 要解释清楚这个问题，首先要厘清人均GDP、人均国民总收入（GNI）、人均可支配收入这三个概念。 GDP是从<em>生产</em>角度核算，反映<em>生产</em>活动的最终成果，强调的是增加值的创造； GNI是从收入分配角度核算，反映初次分配的收入； 居民可支配收入是指居民可用于最终消费支出和储蓄的总和，是衡量居民收入水平的主要指标。 近期国家统计局发布了2018年GDP、居民收入等指标数据，深受社会关注。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1548234540,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "16F482961D047774BF1C9F3B8A8C2C7D",
+          "DRETITLE": "微科普 人均GDP超6万 人均可支配收入不到3万 这是为啥",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316338&idx=2&sn=3e791976cd47c207bf2df7eaefbb518e&chksm=bd111c7f8a6695698243e5a3f0d8ecf6bbf6c7838da1ad0a2bce5bc2ad27602b37395bd34d8a&scene=0",
+          "MD5TITLE": "FD558B978BA349808BF30249E3F150FB",
+          "DRETITLEO": "【微科普】人均GDP超6万，人均可支配收入不到3万，这是为啥？",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "14AE4A89D5A4E2CE0457762428C00915",
+      "timestamp": 1548121800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "14AE4A89D5A4E2CE0457762428C00915",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2018年四季度和全年国内生产总值（GDP）初步核算结果",
+        "title": "【数据发布】2018年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316232&idx=1&sn=fc5bb6adccc0aaabcc74a5418773d767&chksm=bd111c058a6695135fcfec6e3e9bb505ba547d9bd41e95d15ec220234a35160e6ad2034f4acc&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 这些你可能会喜欢 【数据发布】2018年经济运行保持在合理区间，发展的主要预期目标较好完成 重磅！2018年中国GDP首超90万亿！ 好看请点这里...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548121800000,
+        "docDate": "2019-01-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "8692F1E7C5EDF8518DC93EBD5835E1A5",
+        "md5Url": "1FCC34ADD1A78B1F9A8A00E978A2BC89",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 这些你可能会喜欢 【数据发布】2018年经济运行保持在合理区间，发展的主要预期目标较好完成 重磅！2018年中国GDP首超90万亿！ 好看请点这里...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1548121800,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "1FCC34ADD1A78B1F9A8A00E978A2BC89",
+          "DRETITLE": "数据发布 2018年四季度和全年国内生产总值 GDP 初步核算结果",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316232&idx=1&sn=fc5bb6adccc0aaabcc74a5418773d767&chksm=bd111c058a6695135fcfec6e3e9bb505ba547d9bd41e95d15ec220234a35160e6ad2034f4acc&scene=0",
+          "MD5TITLE": "8692F1E7C5EDF8518DC93EBD5835E1A5",
+          "DRETITLEO": "【数据发布】2018年四季度和全年国内生产总值（GDP）初步核算结果",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FDB5624779B17421E22B9A4DB3A1CF9B",
+      "timestamp": 1548120766000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FDB5624779B17421E22B9A4DB3A1CF9B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年四季度和全年国内生产总值（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年四季度和全年国内生产总值（以下简称GDP）初步核算主要结果如下，详见O网页链接",
+        "title": "#数据发布#【2018年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见O网页链接",
+        "url": "https://weibo.com/3919628624/Hd5w9ahZy?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2018年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见 O网页链接 数据发布 【2018年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见 O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548120766000,
+        "docDate": "2019-01-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2030797EB757A0E4604A3D670CB43B56",
+        "md5Url": "691C1C36C7248422EA19BE147C4866E5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2018年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见 O网页链接 数据发布 【2018年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见 O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1548120766,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "691C1C36C7248422EA19BE147C4866E5",
+          "DRETITLE": "数据发布 2018年四季度和全年国内生产总值 GDP 初步核算结果 根据有关基础资料和国民经济核算方法 我国2018年四季度和全年国内生产总值 以下简称GDP ",
+          "URL": "https://weibo.com/3919628624/Hd5w9ahZy?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2030797EB757A0E4604A3D670CB43B56",
+          "DRETITLEO": "#数据发布#【2018年四季度和全年国内生产总值（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年四季度和全年国内生产总值（以下简称GDP）初步核算主要结果如下，详见O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2018年四季度和全年国内生产总值 GDP 初步核算结果 根据有关基础资料和国民经济核算方法 我国2018年四季度和全年国内生产总值 以下简称GDP 初步核算主要结果如下 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C6C1598D90950D64E66ECEE1C54BB437",
+      "timestamp": 1548120600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C6C1598D90950D64E66ECEE1C54BB437",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年四季度和全年国内生产总值（GDP）初步核算结果",
+        "title": "2018年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900211.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2018年4季度和全年 GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 4季度 1-4季度 4季度 1-4季度 GDP 253599 900309 6.4 6.6 第一产业 24934 64734 3.5 3.5 第二产业 104178 366001 5.8 5.8 第三产业 124486 469575 7.4 7.6 农林牧渔业 25921 67538 3.7 3.6 工业 83967 305160 5.7 6.1 制造业 73083 264820 5.7 6.2 建筑业 20498 61808 6.1 4.5 批发和零售业 23420 84201 5.5 6.2 交通运输、仓储和邮政业 10834 40550 8.7 8.1 住宿和餐饮业 4500 16023 5.8 6.5 金融业 17108 69100 6.3 4.4 房地产业 16207 59846 2.0 3.8 信息传输、软件和信息技术服务业 8588 32431 29.1 30.7 租赁和商务服务业 6772 24427 7.3 8.9 其他服务业 35783 139224 6.4 6.3 注：1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2012年制定的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2011）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2018年4季度和全年 GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 4季度 1-4季度 4季度 1-4季度 GDP 253599 900309 6.4 6.6 第一产业 24934 64734 3.5 3.5 第二产业 104178 366001 5.8 5.8 第三产业 124486 469575 7.4 7.6 农林牧渔业 25921 67538 3.7 3.6 工业 83967 305160 5.7 6.1 制造业 73083 264820 5.7 6.2 建筑业 20498 61808 6.1 4.5 批发和零售业 23420 84201 5.5 6.2 交通运输、仓储和邮政业 10834 40550 8.7 8.1 住宿和餐饮业 4500 16023 5.8 6.5 金融业 17108 69100 6.3 4.4 房地产业 16207 59846 2.0 3.8 信息传输、软件和信息技术服务业 8588 32431 29.1 30.7 租赁和商务服务业 6772 24427 7.3 8.9 其他服务业 35783 139224 6.4 6.3 注：1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2012年制定的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2011）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1548120600000,
+        "docDate": "2019-01-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_42.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "B2DB8915CD5DC2820286D4F3DEC8280E",
+        "md5Url": "C6C1598D90950D64E66ECEE1C54BB437",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和国民经济核算方法，我国2018年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2018年4季度和全年 GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 4季度 1-4季度 4季度 1-4季度 GDP 253599 900309 6.4 6.6 第一产业 24934 64734 3.5 3.5 第二产业 104178 366001 5.8 5.8 第三产业 124486 469575 7.4 7.6 农林牧渔业 25921 67538 3.7 3.6 工业 83967 305160 5.7 6.1 制造业 73083 264820 5.7 6.2 建筑业 20498 61808 6.1 4.5 批发和零售业 23420 84201 5.5 6.2 交通运输、仓储和邮政业 10834 40550 8.7 8.1 住宿和餐饮业 4500 16023 5.8 6.5 金融业 17108 69100 6.3 4.4 房地产业 16207 59846 2.0 3.8 信息传输、软件和信息技术服务业 8588 32431 29.1 30.7 租赁和商务服务业 6772 24427 7.3 8.9 其他服务业 35783 139224 6.4 6.3 注：1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2012年制定的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2011）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900211.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年四季度和全年国内生产总值（GDP）初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_42.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1548120600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C6C1598D90950D64E66ECEE1C54BB437",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年四季度和全年国内生产总值 GDP 初步核算结果",
+          "MD5TITLE": "B2DB8915CD5DC2820286D4F3DEC8280E",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国民经济核算方法，我国2018年四季度和全年国内生产总值（以下简称GDP）初步核算主要结果如下： 表1　 2018年4季度和全年 GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 4季度 1-4季度 4季度 1-4季度 GDP 253599 900309 6.4 6.6 第一产业 24934 64734 3.5 3.5 第二产业 104178 366001 5.8 5.8 第三产业 124486 469575 7.4 7.6 农林牧渔业 25921 67538 3.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9EA2CF10357C8BA6B7AC0FCF3A2BC2FA",
+      "timestamp": 1548058799000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9EA2CF10357C8BA6B7AC0FCF3A2BC2FA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【重磅！2018年中国GDP首超90万亿！】GDP，也就是国内生产总值，它代表着一个国家或地区生产的全部产品和服务的总和。如何看待2018年这个90万亿？一则超有趣的短视频，带你秒懂↓O重磅！2018年中国GDP首超90万亿！ L中国统计的",
+        "title": "【重磅！2018年中国GDP首超90万亿！】GDP，也就是<em>国内生产总值</em>，它代表着一个国家或地区<em>生产</em>的全部产品和服务的总和。如何看待2018年这个90万亿？一则超有趣的短视频，带你秒懂↓O重磅！2018年中国GDP首超90万亿！ L中国统计的",
+        "url": "https://weibo.com/3919628624/HcYKWxZPi?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "2018年中国GDP首超90万亿！】GDP，也就是<em>国内生产总值</em>，它代表着一个国家或地区<em>生产</em>的全部产品和服务的总和。 如何看待2018年这个90万亿 一则超有趣的短视频，带你秒懂 O重磅！2018年中国GDP首超90万亿！ L中国统计的秒拍视频...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548058799000,
+        "docDate": "2019-01-21",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "C30849FC05AB0104EC577DF814A847B9",
+        "md5Url": "B2A994F5C53B85AE9113FC28B8BCD4F9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2018年中国GDP首超90万亿！】GDP，也就是<em>国内生产总值</em>，它代表着一个国家或地区<em>生产</em>的全部产品和服务的总和。 如何看待2018年这个90万亿 一则超有趣的短视频，带你秒懂 O重磅！2018年中国GDP首超90万亿！ L中国统计的秒拍视频...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1548058799,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "B2A994F5C53B85AE9113FC28B8BCD4F9",
+          "DRETITLE": "重磅 2018年中国GDP首超90万亿 GDP 也就是国内生产总值 它代表着一个国家或地区生产的全部产品和服务的总和 如何看待2018年这个90万亿 一则超有趣",
+          "URL": "https://weibo.com/3919628624/HcYKWxZPi?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "C30849FC05AB0104EC577DF814A847B9",
+          "DRETITLEO": "【重磅！2018年中国GDP首超90万亿！】GDP，也就是国内生产总值，它代表着一个国家或地区生产的全部产品和服务的总和。如何看待2018年这个90万亿？一则超有趣的短视频，带你秒懂↓O重磅！2018年中国GDP首超90万亿！ L中国统计的",
+          "QUICKDESCRIPTION": "重磅 2018年中国GDP首超90万亿 GDP 也就是国内生产总值 它代表着一个国家或地区生产的全部产品和服务的总和 如何看待2018年这个90万亿 一则超有趣的短视频 带你秒懂 O重磅 2018年中国GDP首超90万亿 L中国统计的秒拍视频",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BE59686A5DEDD60E46EA3916B1995859",
+      "timestamp": 1548057060000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BE59686A5DEDD60E46EA3916B1995859",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "重磅！2018年中国GDP首超90万亿！",
+        "title": "重磅！2018年中国GDP首超90万亿！",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316205&idx=1&sn=086f879b60aee35a0da973bacee81ba6&chksm=bd1123e08a66aaf63055d9b0375d21e99c6a1490852d28b2639ad7b0d4e9a8bc90ff3754fa80&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "今天上午，国家统计局局长宁吉喆在国新办新闻发布会上公布了2018年成绩单： 初步核算，全年<em>国内生产总值</em>900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。 GDP，也就是<em>国内生产总值</em>，它代表着一个国家或地区<em>生产</em>的全部产品和服务的总和。 今天上午，国家统计局局长宁吉喆在国新办新闻发布会上公布了2018年成绩单： 初步核算，全年<em>国内生产总值</em>900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548057060000,
+        "docDate": "2019-01-21",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "CF9B80C03C08F0F3603DB793BE8C52B9",
+        "md5Url": "6D9A7D08C76A7DBFD6A7FB6A15387AC1",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "今天上午，国家统计局局长宁吉喆在国新办新闻发布会上公布了2018年成绩单： 初步核算，全年<em>国内生产总值</em>900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。 GDP，也就是<em>国内生产总值</em>，它代表着一个国家或地区<em>生产</em>的全部产品和服务的总和。 今天上午，国家统计局局长宁吉喆在国新办新闻发布会上公布了2018年成绩单： 初步核算，全年<em>国内生产总值</em>900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1548057060,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "6D9A7D08C76A7DBFD6A7FB6A15387AC1",
+          "DRETITLE": "重磅 2018年中国GDP首超90万亿",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316205&idx=1&sn=086f879b60aee35a0da973bacee81ba6&chksm=bd1123e08a66aaf63055d9b0375d21e99c6a1490852d28b2639ad7b0d4e9a8bc90ff3754fa80&scene=0",
+          "MD5TITLE": "CF9B80C03C08F0F3603DB793BE8C52B9",
+          "DRETITLEO": "重磅！2018年中国GDP首超90万亿！",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4CDE3AE263FA7F2D02A8B3C3F10DA9C3",
+      "timestamp": 1548046324000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4CDE3AE263FA7F2D02A8B3C3F10DA9C3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【重磅！2018年中国GDP总量突破90万亿元，全年增速6.6%】2018年中国经济如何看？一图带你看懂 ↓",
+        "title": "【重磅！2018年中国GDP总量突破90万亿元，全年增速6.6%】2018年中国经济如何看？一图带你看懂 ↓",
+        "url": "https://weibo.com/3919628624/HcXoxFrS9?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "2018年中国GDP总量突破90万亿元，全年增速6.6%】2018年中国经济如何看 一图带你看懂...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548046324000,
+        "docDate": "2019-01-21",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "8547244BF01C9AFB12820485CA6CA50E",
+        "md5Url": "6DF6E7F3EF6C5F258D56B5A4CB263F1A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2018年中国GDP总量突破90万亿元，全年增速6.6%】2018年中国经济如何看 一图带你看懂...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1548046324,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "6DF6E7F3EF6C5F258D56B5A4CB263F1A",
+          "DRETITLE": "重磅 2018年中国GDP总量突破90万亿元 全年增速6 6 2018年中国经济如何看 一图带你看懂 ↓",
+          "URL": "https://weibo.com/3919628624/HcXoxFrS9?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8547244BF01C9AFB12820485CA6CA50E",
+          "DRETITLEO": "【重磅！2018年中国GDP总量突破90万亿元，全年增速6.6%】2018年中国经济如何看？一图带你看懂 ↓",
+          "QUICKDESCRIPTION": "重磅 2018年中国GDP总量突破90万亿元 全年增速6 6 2018年中国经济如何看 一图带你看懂",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C7C2AD9FE7E999238BE57488695DD833",
+      "timestamp": 1548041852000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C7C2AD9FE7E999238BE57488695DD833",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【重磅！2018年中国GDP总量突破90亿元，全年增速6.6",
+        "title": "【重磅！2018年中国GDP总量突破90亿元，全年增速6.6",
+        "url": "https://weibo.com/3919628624/HcWUicbrH?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "",
+          "location": 1
+        },
+        "summary": "2018年中国GDP总量突破90亿元，全年增速6.6%】2018年中国经济如何看 一图带你看懂...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548041852000,
+        "docDate": "2019-01-21",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2D2B5707C4331BECF7722D2252AE76D5",
+        "md5Url": "82CD3EBD27E30D53839B2FE8E0EB7655",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2018年中国GDP总量突破90亿元，全年增速6.6%】2018年中国经济如何看 一图带你看懂...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1548041852,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "82CD3EBD27E30D53839B2FE8E0EB7655",
+          "DRETITLE": "重磅 2018年中国GDP总量突破90亿元 全年增速6 6",
+          "URL": "https://weibo.com/3919628624/HcWUicbrH?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2D2B5707C4331BECF7722D2252AE76D5",
+          "DRETITLEO": "【重磅！2018年中国GDP总量突破90亿元，全年增速6.6",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "SHENG": "北京市"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EBC5B395358C84712ED66C5BCDCA1CD1",
+      "timestamp": 1548036158000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EBC5B395358C84712ED66C5BCDCA1CD1",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2018年经济运行保持在合理区间 发展的主要预期目标较好完成】初步核算，全年国内生产总值900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。详见O网页链接",
+        "title": "#发布会微直播#【2018年经济运行保持在合理区间 发展的主要预期目标较好完成】初步核算，全年<em>国内生产总值</em>900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。详见O网页链接",
+        "url": "https://weibo.com/3919628624/HcWhMl5ya?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2018年经济运行保持在合理区间 发展的主要预期目标较好完成】初步核算，全年<em>国内生产总值</em>900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1548036158000,
+        "docDate": "2019-01-21",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "9DF8BAB3024D87D484099FEBA4149835",
+        "md5Url": "FEFB62C69CC06FB0837AF3EBAF9F9853",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2018年经济运行保持在合理区间 发展的主要预期目标较好完成】初步核算，全年<em>国内生产总值</em>900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1548036158,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "FEFB62C69CC06FB0837AF3EBAF9F9853",
+          "DRETITLE": "发布会微直播 2018年经济运行保持在合理区间 发展的主要预期目标较好完成 初步核算 全年国内生产总值900309亿元 按可比价格计算 比上年增长6 6 实现了",
+          "URL": "https://weibo.com/3919628624/HcWhMl5ya?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "9DF8BAB3024D87D484099FEBA4149835",
+          "DRETITLEO": "#发布会微直播#【2018年经济运行保持在合理区间 发展的主要预期目标较好完成】初步核算，全年国内生产总值900309亿元，按可比价格计算，比上年增长6.6%，实现了6.5%左右的预期发展目标。详见O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2018年经济运行保持在合理区间 发展的主要预期目标较好完成 初步核算 全年国内生产总值900309亿元 按可比价格计算 比上年增长6 6 实现了6 5 左右的预期发展目标 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "330BACFC0ED58C63BA286D06F994B960",
+      "timestamp": 1547780520000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "330BACFC0ED58C63BA286D06F994B960",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2017年全国旅游及相关产业增加值占国内生产总值的比重为4.53%",
+        "title": "【数据发布】2017年全国旅游及相关产业增加值占<em>国内生产总值</em>的比重为4.53%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316159&idx=2&sn=78f9a484705441c143d52a6bd2494735&chksm=bd1123b28a66aaa4b96a0cc3b7fe61c9232b501ae5a9935d461750a18a65d85ea18171f0a30b&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1547780520000,
+        "docDate": "2019-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "D34DD074ECAAE50D2D99B2ADE3ECF84C",
+        "md5Url": "86F61DAFE158E3BB50793C69EA3906D3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1547780520,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "86F61DAFE158E3BB50793C69EA3906D3",
+          "DRETITLE": "数据发布 2017年全国旅游及相关产业增加值占国内生产总值的比重为4 53",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316159&idx=2&sn=78f9a484705441c143d52a6bd2494735&chksm=bd1123b28a66aaa4b96a0cc3b7fe61c9232b501ae5a9935d461750a18a65d85ea18171f0a30b&scene=0",
+          "MD5TITLE": "D34DD074ECAAE50D2D99B2ADE3ECF84C",
+          "DRETITLEO": "【数据发布】2017年全国旅游及相关产业增加值占国内生产总值的比重为4.53%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3DC330CB23D0C5B1258144004E7293D0",
+      "timestamp": 1547780520000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3DC330CB23D0C5B1258144004E7293D0",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】国家统计局关于2017年国内生产总值（GDP）最终核实的公告",
+        "title": "【数据发布】国家统计局关于2017年<em>国内生产总值</em>（GDP）最终核实的公告",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316159&idx=1&sn=adad74a2e2885ce8c1cd91711d790623&chksm=bd1123b28a66aaa4974b1cd40c7890393c9fba3c623b7f25940159d5236afeb69dc5887af713&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2017年GDP数据进行了最终核实，主要结果如下： 经最终核实，2017年，GDP现价总量为820754亿元，比初步核算数减少了6367亿元；按不变价格计算，比上年增长6.8%，比初步核算数下降0.1个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1547780520000,
+        "docDate": "2019-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "18B17BACCA4924AF361EA75A8F36139B",
+        "md5Url": "2C4F9C6515AB34F131B3FBA28775FD83",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2017年GDP数据进行了最终核实，主要结果如下： 经最终核实，2017年，GDP现价总量为820754亿元，比初步核算数减少了6367亿元；按不变价格计算，比上年增长6.8%，比初步核算数下降0.1个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1547780520,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "2C4F9C6515AB34F131B3FBA28775FD83",
+          "DRETITLE": "数据发布 国家统计局关于2017年国内生产总值 GDP 最终核实的公告",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651316159&idx=1&sn=adad74a2e2885ce8c1cd91711d790623&chksm=bd1123b28a66aaa4974b1cd40c7890393c9fba3c623b7f25940159d5236afeb69dc5887af713&scene=0",
+          "MD5TITLE": "18B17BACCA4924AF361EA75A8F36139B",
+          "DRETITLEO": "【数据发布】国家统计局关于2017年国内生产总值（GDP）最终核实的公告",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "632A83353B1C86E93A53893D93B39015",
+      "timestamp": 1547775969000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "632A83353B1C86E93A53893D93B39015",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2017年全国旅游及相关产业增加值占国内生产总值的比重为4.53%】经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重",
+        "title": "#数据发布#【2017年全国旅游及相关产业增加值占<em>国内生产总值</em>的比重为4.53%】经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重",
+        "url": "https://weibo.com/3919628624/HctTABEFx?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2017年全国旅游及相关产业增加值占<em>国内生产总值</em>的比重为4.53%】经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。 数据发布 【2017年全国旅游及相关产业增加值占<em>国内生产总值</em>的比重为4.53%】经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1547775969000,
+        "docDate": "2019-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "A6593B31F34162E2F8738917C4CFA642",
+        "md5Url": "1FD2F61C3CB7A0973B786B6D35FAD263",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2017年全国旅游及相关产业增加值占<em>国内生产总值</em>的比重为4.53%】经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。 数据发布 【2017年全国旅游及相关产业增加值占<em>国内生产总值</em>的比重为4.53%】经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1547775969,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1FD2F61C3CB7A0973B786B6D35FAD263",
+          "DRETITLE": "数据发布 2017年全国旅游及相关产业增加值占国内生产总值的比重为4 53 经核算 2017年全国旅游及相关产业增加值为37210亿元 比上年增长12 8 未扣",
+          "URL": "https://weibo.com/3919628624/HctTABEFx?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A6593B31F34162E2F8738917C4CFA642",
+          "DRETITLEO": "#数据发布#【2017年全国旅游及相关产业增加值占国内生产总值的比重为4.53%】经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重",
+          "QUICKDESCRIPTION": "数据发布 2017年全国旅游及相关产业增加值占国内生产总值的比重为4 53 经核算 2017年全国旅游及相关产业增加值为37210亿元 比上年增长12 8 未扣除价格因素 下同 比同期GDP现价增速高1 9个百分点 占GDP的比重为4 53 比上年提高0 08个百分点 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A276569D16379ADB7C0A074A17A37D1A",
+      "timestamp": 1547775917000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A276569D16379ADB7C0A074A17A37D1A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【国家统计局关于2017年国内生产总值（GDP）最终核实的公告】按照我国国内生产总值（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年",
+        "title": "#数据发布#【国家统计局关于2017年<em>国内生产总值</em>（GDP）最终核实的公告】按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年",
+        "url": "https://weibo.com/3919628624/HctTf2GOa?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【国家统计局关于2017年<em>国内生产总值</em>（GDP）最终核实的公告】按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 数据发布 【国家统计局关于2017年<em>国内生产总值</em>（GDP）最终核实的公告】按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1547775917000,
+        "docDate": "2019-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "DF552DBDB9AF28404466F8EE11E8B943",
+        "md5Url": "4D13E0F91FF0450AF6CA132A1EEC7EF9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【国家统计局关于2017年<em>国内生产总值</em>（GDP）最终核实的公告】按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 数据发布 【国家统计局关于2017年<em>国内生产总值</em>（GDP）最终核实的公告】按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1547775917,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4D13E0F91FF0450AF6CA132A1EEC7EF9",
+          "DRETITLE": "数据发布 国家统计局关于2017年国内生产总值 GDP 最终核实的公告 按照我国国内生产总值 以下简称GDP 核算和数据发布制度规定 年度GDP核算包括初步核算",
+          "URL": "https://weibo.com/3919628624/HctTf2GOa?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "DF552DBDB9AF28404466F8EE11E8B943",
+          "DRETITLEO": "#数据发布#【国家统计局关于2017年国内生产总值（GDP）最终核实的公告】按照我国国内生产总值（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年",
+          "QUICKDESCRIPTION": "数据发布 国家统计局关于2017年国内生产总值 GDP 最终核实的公告 按照我国国内生产总值 以下简称GDP 核算和数据发布制度规定 年度GDP核算包括初步核算和最终核实两个步骤 近日 根据国家统计局统计年报 财政部财政决算和有关部门年度财务资料等 国家统计局对2017年GDP数据进行了最终核实 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "277A8E5B50DD6F9AEE56AD6068067B38",
+      "timestamp": 1547775000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "277A8E5B50DD6F9AEE56AD6068067B38",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "国家统计局关于2017年国内生产总值（GDP）最终核实的公告",
+        "title": "国家统计局关于2017年<em>国内生产总值</em>（GDP）最终核实的公告",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900201.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1547775000000,
+        "docDate": "2019-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_43.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "40D960790A146DEDDC256DF29246401D",
+        "md5Url": "277A8E5B50DD6F9AEE56AD6068067B38",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900201.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局关于2017年国内生产总值（GDP）最终核实的公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_43.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1547775000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "277A8E5B50DD6F9AEE56AD6068067B38",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局关于2017年国内生产总值 GDP 最终核实的公告",
+          "MD5TITLE": "40D960790A146DEDDC256DF29246401D",
+          "QUICKDESCRIPTION": "　　按照我国国内生产总值（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2017年GDP数据进行了最终核实，主要结果如下： 　　经最终核实，2017年，GDP现价总量为820754亿元，比初步核算数减少了6367亿元；按不变价格计算，比上年增长6.8%，比初步核算数下降0.1个百分点。三次产业和各行业数据见附表。 　　特此公告。 　　附表：",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4692DC033160816F402797D76B423E19",
+      "timestamp": 1547775000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4692DC033160816F402797D76B423E19",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2017年全国旅游及相关产业增加值占国内生产总值的比重为4.53%",
+        "title": "2017年全国旅游及相关产业增加值占<em>国内生产总值</em>的比重为4.53%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900200.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。 旅游及相关产业增加值，指一个国家（或地区）所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动的最终成果。常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。 旅游及相关产业增加值，指一个国家（或地区）所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动的最终成果。常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1547775000000,
+        "docDate": "2019-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_42.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "193348DF6295155DC759147E19E9B82B",
+        "md5Url": "4692DC033160816F402797D76B423E19",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。 旅游及相关产业增加值，指一个国家（或地区）所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动的最终成果。常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900200.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2017年全国旅游及相关产业增加值占国内生产总值的比重为4.53%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_42.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1547775000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "4692DC033160816F402797D76B423E19",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2017年全国旅游及相关产业增加值占国内生产总值的比重为4 53",
+          "MD5TITLE": "193348DF6295155DC759147E19E9B82B",
+          "QUICKDESCRIPTION": "　　经核算，2017年全国旅游及相关产业增加值为37210亿元，比上年增长12.8%（未扣除价格因素，下同），比同期GDP现价增速高1.9个百分点，占GDP的比重为4.53%，比上年提高0.08个百分点。从分行业数据来看，旅游出行服务、旅游餐饮服务、旅游娱乐服务增长较快，增加值增速分别为15.3%、15.1%和17.2%。 2017年全国旅游及相关产业增加值 行业名称 增加值（亿元） 构成（%） 增速（%） 旅游及相关产业 37210 100.0 12.8 　旅游业 34290 92.2 13.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 10,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 7,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 6,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 7,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 24,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 23,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

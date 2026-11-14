@@ -1,0 +1,2078 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 38,
+  "currentHits": 18,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "社会消费品零售总额",
+    "originQt": "社会消费品零售总额",
+    "showQt": "社会消费品零售总额",
+    "encodeQt": "%E7%A4%BE%E4%BC%9A%E6%B6%88%E8%B4%B9%E5%93%81%E9%9B%B6%E5%94%AE%E6%80%BB%E9%A2%9D",
+    "qtPasser": "社会消费品零售总额",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "社会": "NN"
+      },
+      {
+        "消费品": "NN"
+      },
+      {
+        "零售": "NN"
+      },
+      {
+        "总额": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "社会消费品零售总额": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "社会",
+      "零售",
+      "消费品",
+      "总额",
+      "社会消费品零售总额"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "600BAF66ADE52D9406BFD55E1EB81CD2",
+      "timestamp": 1689559200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "600BAF66ADE52D9406BFD55E1EB81CD2",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年上半年社会消费品零售总额增长8.2%",
+        "title": "2023年上半年<em>社会消费品零售总额</em>增长8.2%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230715_1941269.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 上半年，<em>社会消费品零售总额</em>227588亿元，同比增长8.2%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202307/W020230717326841968616.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 上半年，<em>社会消费品零售总额</em>227588亿元，同比增长8.2%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1689559200000,
+        "docDate": "2023-07-17",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/C3BB5114069C709E6AFE32E8657D0D11.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_40.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "2D2179F2D779EC92D917313DB07135B9",
+        "md5Url": "600BAF66ADE52D9406BFD55E1EB81CD2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 上半年，<em>社会消费品零售总额</em>227588亿元，同比增长8.2%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202307/t20230715_1941269.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年上半年社会消费品零售总额增长8.2%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/C3BB5114069C709E6AFE32E8657D0D11.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202307/W020230717326841968616.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_40.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1689559200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "600BAF66ADE52D9406BFD55E1EB81CD2",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年上半年社会消费品零售总额增长8 2",
+          "MD5TITLE": "2D2179F2D779EC92D917313DB07135B9",
+          "QUICKDESCRIPTION": "　　上半年，社会消费品零售总额227588亿元，同比增长8.2%。其中，除汽车以外的消费品零售额205178亿元，增长8.3%。 　　6月份，社会消费品零售总额39951亿元，同比增长3.1%。 　　按经营单位所在地分，上半年，城镇消费品零售额197532亿元，同比增长8.1%；乡村消费品零售额30056亿元，增长8.4%。 　　按消费类型分，上半年，商品零售203259亿元，同比增长6.8%；餐饮收入24329亿元，增长21.4%。 　　按零售业态分，上半年，限额以上零售业单位中便利店、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A49489DD5ADE9BEB80A7AF19B8736D4A",
+      "timestamp": 1686813135000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A49489DD5ADE9BEB80A7AF19B8736D4A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【5月份消费市场保持恢复态势】——国家统计局贸经司统计师付加奇解读5月份社会消费品零售总额数据 5月份，市场销售总体保持恢复态势，商品消费继续增长，餐饮、文化及旅游相关服务消费持续回暖，网络购物占比稳步提升。 详见：O网页链接",
+        "title": "#权威解读# 【5月份消费市场保持恢复态势】——国家统计局贸经司统计师付加奇解读5月份<em>社会消费品零售总额</em>数据 5月份，市场销售总体保持恢复态势，商品消费继续增长，餐饮、文化及旅游相关服务消费持续回暖，网络购物占比稳步提升。 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N5pUZ1ML0?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【5月份消费市场保持恢复态势】——国家统计局贸经司统计师付加奇解读5月份<em>社会消费品零售总额</em>数据 5月份，市场销售总体保持恢复态势，商品消费继续增长，餐饮、文化及旅游相关服务消费持续回暖，网络购物占比稳步提升。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1686813135000,
+        "docDate": "2023-06-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "2787036446D87CEE04F867AEA52234BB",
+        "md5Url": "9C2C4A34F79768DCF41ACF844CBCCB52",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【5月份消费市场保持恢复态势】——国家统计局贸经司统计师付加奇解读5月份<em>社会消费品零售总额</em>数据 5月份，市场销售总体保持恢复态势，商品消费继续增长，餐饮、文化及旅游相关服务消费持续回暖，网络购物占比稳步提升。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1686813135,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "9C2C4A34F79768DCF41ACF844CBCCB52",
+          "DRETITLE": "权威解读 5月份消费市场保持恢复态势 国家统计局贸经司统计师付加奇解读5月份社会消费品零售总额数据 5月份 市场销售总体保持恢复态势 商品消费继续增长 餐饮 文化及旅游相关服务消费持续回暖 网络购物占比稳步提升 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N5pUZ1ML0?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2787036446D87CEE04F867AEA52234BB",
+          "DRETITLEO": "#权威解读# 【5月份消费市场保持恢复态势】——国家统计局贸经司统计师付加奇解读5月份社会消费品零售总额数据 5月份，市场销售总体保持恢复态势，商品消费继续增长，餐饮、文化及旅游相关服务消费持续回暖，网络购物占比稳步提升。 详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 5月份消费市场保持恢复态势 国家统计局贸经司统计师付加奇解读5月份社会消费品零售总额数据 5月份 市场销售总体保持恢复态势 商品消费继续增长 餐饮 文化及旅游相关服务消费持续回暖 网络购物占比稳步提升 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2D6FC866F0161CC5875764E7680DF3F7",
+      "timestamp": 1686812400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2D6FC866F0161CC5875764E7680DF3F7",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局贸经司统计师付加奇解读5月份社会消费品零售总额数据",
+        "title": "国家统计局贸经司统计师付加奇解读5月份<em>社会消费品零售总额</em>数据",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202306/t20230615_1940659.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": null,
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1686812400000,
+        "docDate": "2023-06-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_30.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "2EB0D0F2ECE083DC954489486BCFD43D",
+        "md5Url": "2D6FC866F0161CC5875764E7680DF3F7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": null,
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202306/t20230615_1940659.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局贸经司统计师付加奇解读5月份社会消费品零售总额数据",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_30.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1686812400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "2D6FC866F0161CC5875764E7680DF3F7",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局贸经司统计师付加奇解读5月份社会消费品零售总额数据",
+          "MD5TITLE": "2EB0D0F2ECE083DC954489486BCFD43D",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DA968029B5C04E5615CE0D2CA212A8F9",
+      "timestamp": 1686794780000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DA968029B5C04E5615CE0D2CA212A8F9",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2023年5月份社会消费品零售总额增长12.7%】5月份，社会消费品零售总额37803亿元，同比增长12.7%。其中，除汽车以外的消费品零售额33875亿元，增长11.5%。详见：O网页链接",
+        "title": "#发布会微直播#【2023年5月份<em>社会消费品零售总额</em>增长12.7%】5月份，<em>社会消费品零售总额</em>37803亿元，同比增长12.7%。其中，除汽车以外的<em>消费品</em><em>零售</em>额33875亿元，增长11.5%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N5nUOhMSJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年5月份<em>社会消费品零售总额</em>增长12.7%】5月份，<em>社会消费品零售总额</em>37803亿元，同比增长12.7%。 发布会微直播 【2023年5月份<em>社会消费品零售总额</em>增长12.7%】5月份，<em>社会消费品零售总额</em>37803亿元，同比增长12.7%。其中，除汽车以外的<em>消费品</em><em>零售</em>额33875亿元，增长11.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1686794780000,
+        "docDate": "2023-06-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "63067EB6B9189FD144A6B65641298348",
+        "md5Url": "D828A245D46E151FD3358DA829671304",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年5月份<em>社会消费品零售总额</em>增长12.7%】5月份，<em>社会消费品零售总额</em>37803亿元，同比增长12.7%。 发布会微直播 【2023年5月份<em>社会消费品零售总额</em>增长12.7%】5月份，<em>社会消费品零售总额</em>37803亿元，同比增长12.7%。其中，除汽车以外的<em>消费品</em><em>零售</em>额33875亿元，增长11.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1686794780,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D828A245D46E151FD3358DA829671304",
+          "DRETITLE": "发布会微直播 2023年5月份社会消费品零售总额增长12 7 5月份 社会消费品零售总额37803亿元 同比增长12 7 其中 除汽车以外的消费品零售额33875亿元 增长11 5 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N5nUOhMSJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "63067EB6B9189FD144A6B65641298348",
+          "DRETITLEO": "#发布会微直播#【2023年5月份社会消费品零售总额增长12.7%】5月份，社会消费品零售总额37803亿元，同比增长12.7%。其中，除汽车以外的消费品零售额33875亿元，增长11.5%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2023年5月份社会消费品零售总额增长12 7 5月份 社会消费品零售总额37803亿元 同比增长12 7 其中 除汽车以外的消费品零售额33875亿元 增长11 5 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6390FB625A912C2E20A5F10AF7E331F0",
+      "timestamp": 1686794400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6390FB625A912C2E20A5F10AF7E331F0",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年5月份社会消费品零售总额增长12.7%",
+        "title": "2023年5月份<em>社会消费品零售总额</em>增长12.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230615_1940627.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 5月份，<em>社会消费品零售总额</em>37803亿元，同比增长12.7%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202306/W020230615349343305294.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 5月份，<em>社会消费品零售总额</em>37803亿元，同比增长12.7%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1686794400000,
+        "docDate": "2023-06-15",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/FEF9EC3CE47EF2F78FD472289D7F3A7E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_41.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "3C8F4207FD516EF142F936F590EFC92E",
+        "md5Url": "6390FB625A912C2E20A5F10AF7E331F0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 5月份，<em>社会消费品零售总额</em>37803亿元，同比增长12.7%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202306/t20230615_1940627.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年5月份社会消费品零售总额增长12.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/FEF9EC3CE47EF2F78FD472289D7F3A7E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202306/W020230615349343305294.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_41.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1686794400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "6390FB625A912C2E20A5F10AF7E331F0",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年5月份社会消费品零售总额增长12 7",
+          "MD5TITLE": "3C8F4207FD516EF142F936F590EFC92E",
+          "QUICKDESCRIPTION": "　　5月份，社会消费品零售总额37803亿元，同比增长12.7%。其中，除汽车以外的消费品零售额33875亿元，增长11.5%。 　　1—5月份，社会消费品零售总额187636亿元，同比增长9.3%。其中，除汽车以外的消费品零售额169743亿元，增长9.4%。 　　按经营单位所在地分，5月份，城镇消费品零售额32906亿元，同比增长12.7%；乡村消费品零售额4897亿元，增长12.8%。1—5月份，城镇消费品零售额162968亿元，同比增长9.3%；乡村消费品零售额24668亿元，增长9.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "119C415D81F0072E2E58F8A4BD6ADD39",
+      "timestamp": 1684222335000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "119C415D81F0072E2E58F8A4BD6ADD39",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【4月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读4月份社会消费品零售总额数据 4月份，随着消费市场活力增强，市场销售增速继续加快，升级类消费较快增长，接触型、出行类相关服务消费恢复明显，线上消费占比稳步提高。详见：O网页链接",
+        "title": "#权威解读# 【4月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读4月份<em>社会消费品零售总额</em>数据 4月份，随着消费市场活力增强，市场销售增速继续加快，升级类消费较快增长，接触型、出行类相关服务消费恢复明显，线上消费占比稳步提高。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N0Recx4Se?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【4月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读4月份<em>社会消费品零售总额</em>数据 4月份，随着消费市场活力增强，市场销售增速继续加快，升级类消费较快增长，接触型、出行类相关服务消费恢复明显，线上消费占比稳步提高。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1684222335000,
+        "docDate": "2023-05-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "1926DA19ED059ED693808A9744C86D55",
+        "md5Url": "534E2ECC0EAB0A2BF4CF000CD2333CD4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【4月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读4月份<em>社会消费品零售总额</em>数据 4月份，随着消费市场活力增强，市场销售增速继续加快，升级类消费较快增长，接触型、出行类相关服务消费恢复明显，线上消费占比稳步提高。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1684222335,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "534E2ECC0EAB0A2BF4CF000CD2333CD4",
+          "DRETITLE": "权威解读 4月份消费市场恢复向好 国家统计局贸经司统计师付加奇解读4月份社会消费品零售总额数据 4月份 随着消费市场活力增强 市场销售增速继续加快 升级类消费较快增长 接触型 出行类相关服务消费恢复明显 线上消费占比稳步提高 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N0Recx4Se?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1926DA19ED059ED693808A9744C86D55",
+          "DRETITLEO": "#权威解读# 【4月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读4月份社会消费品零售总额数据 4月份，随着消费市场活力增强，市场销售增速继续加快，升级类消费较快增长，接触型、出行类相关服务消费恢复明显，线上消费占比稳步提高。详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 4月份消费市场恢复向好 国家统计局贸经司统计师付加奇解读4月份社会消费品零售总额数据 4月份 随着消费市场活力增强 市场销售增速继续加快 升级类消费较快增长 接触型 出行类相关服务消费恢复明显 线上消费占比稳步提高 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E7CBEC66539921A91F0BF7A6A6FFF817",
+      "timestamp": 1684220400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E7CBEC66539921A91F0BF7A6A6FFF817",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局贸经司统计师付加奇解读4月份社会消费品零售总额数据",
+        "title": "国家统计局贸经司统计师付加奇解读4月份<em>社会消费品零售总额</em>数据",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202305/t20230516_1939583.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": null,
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1684220400000,
+        "docDate": "2023-05-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_30.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "86D9738B65BBAF329F114618422713CD",
+        "md5Url": "E7CBEC66539921A91F0BF7A6A6FFF817",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": null,
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202305/t20230516_1939583.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局贸经司统计师付加奇解读4月份社会消费品零售总额数据",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_30.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1684220400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E7CBEC66539921A91F0BF7A6A6FFF817",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局贸经司统计师付加奇解读4月份社会消费品零售总额数据",
+          "MD5TITLE": "86D9738B65BBAF329F114618422713CD",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "82248B06850F4CF69AFCA9068C996B0A",
+      "timestamp": 1684203300000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "82248B06850F4CF69AFCA9068C996B0A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2023年4月份社会消费品零售总额增长18.4%】4月份，社会消费品零售总额34910亿元，同比增长18.4%。其中，除汽车以外的消费品零售额31290亿元，增长16.5%。详见：O网页链接",
+        "title": "#发布会微直播# 【2023年4月份<em>社会消费品零售总额</em>增长18.4%】4月份，<em>社会消费品零售总额</em>34910亿元，同比增长18.4%。其中，除汽车以外的<em>消费品</em><em>零售</em>额31290亿元，增长16.5%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N0P9qD3tH?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年4月份<em>社会消费品零售总额</em>增长18.4%】4月份，<em>社会消费品零售总额</em>34910亿元，同比增长18.4%。 发布会微直播 【2023年4月份<em>社会消费品零售总额</em>增长18.4%】4月份，<em>社会消费品零售总额</em>34910亿元，同比增长18.4%。其中，除汽车以外的<em>消费品</em><em>零售</em>额31290亿元，增长16.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1684203300000,
+        "docDate": "2023-05-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "2868B61323E99471053FDBA1F441D1B4",
+        "md5Url": "BCF8659E8F14C15CC65360E4E92A191E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年4月份<em>社会消费品零售总额</em>增长18.4%】4月份，<em>社会消费品零售总额</em>34910亿元，同比增长18.4%。 发布会微直播 【2023年4月份<em>社会消费品零售总额</em>增长18.4%】4月份，<em>社会消费品零售总额</em>34910亿元，同比增长18.4%。其中，除汽车以外的<em>消费品</em><em>零售</em>额31290亿元，增长16.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1684203300,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "BCF8659E8F14C15CC65360E4E92A191E",
+          "DRETITLE": "发布会微直播 2023年4月份社会消费品零售总额增长18 4 4月份 社会消费品零售总额34910亿元 同比增长18 4 其中 除汽车以外的消费品零售额31290亿元 增长16 5 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N0P9qD3tH?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2868B61323E99471053FDBA1F441D1B4",
+          "DRETITLEO": "#发布会微直播# 【2023年4月份社会消费品零售总额增长18.4%】4月份，社会消费品零售总额34910亿元，同比增长18.4%。其中，除汽车以外的消费品零售额31290亿元，增长16.5%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2023年4月份社会消费品零售总额增长18 4 4月份 社会消费品零售总额34910亿元 同比增长18 4 其中 除汽车以外的消费品零售额31290亿元 增长16 5 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EF0D0E257C9877A5F83A915BE6685C43",
+      "timestamp": 1684202400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EF0D0E257C9877A5F83A915BE6685C43",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年4月份社会消费品零售总额增长18.4%",
+        "title": "2023年4月份<em>社会消费品零售总额</em>增长18.4%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230516_1939485.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 4月份，<em>社会消费品零售总额</em>34910亿元，同比增长18.4%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202305/W020230516351212068189.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 4月份，<em>社会消费品零售总额</em>34910亿元，同比增长18.4%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1684202400000,
+        "docDate": "2023-05-16",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/3A1A23BA2C85D624260955BACB65A603.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_42.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "815FE25529A2019B184B929CDED293CD",
+        "md5Url": "EF0D0E257C9877A5F83A915BE6685C43",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 4月份，<em>社会消费品零售总额</em>34910亿元，同比增长18.4%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202305/t20230516_1939485.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年4月份社会消费品零售总额增长18.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/3A1A23BA2C85D624260955BACB65A603.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202305/W020230516351212068189.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_42.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1684202400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "EF0D0E257C9877A5F83A915BE6685C43",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年4月份社会消费品零售总额增长18 4",
+          "MD5TITLE": "815FE25529A2019B184B929CDED293CD",
+          "QUICKDESCRIPTION": "　　4月份，社会消费品零售总额34910亿元，同比增长18.4%。其中，除汽车以外的消费品零售额31290亿元，增长16.5%。 　　1—4月份，社会消费品零售总额149833亿元，同比增长8.5%。其中，除汽车以外的消费品零售额135719亿元，增长9.0%。 　　按经营单位所在地分，4月份，城镇消费品零售额30398亿元，同比增长18.6%；乡村消费品零售额4513亿元，增长17.3%。1—4月份，城镇消费品零售额130062亿元，同比增长8.4%；乡村消费品零售额19771亿元，增长8.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "84AE51C40539516239E2142DE0F35077",
+      "timestamp": 1681783942000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "84AE51C40539516239E2142DE0F35077",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2023年3月份社会消费品零售总额增长10.6%】3月份，社会消费品零售总额37855亿元，同比增长10.6%。其中，除汽车以外的消费品零售额33591亿元，增长10.5%。详见：O网页链接",
+        "title": "#发布会微直播# 【2023年3月份<em>社会消费品零售总额</em>增长10.6%】3月份，<em>社会消费品零售总额</em>37855亿元，同比增长10.6%。其中，除汽车以外的<em>消费品</em><em>零售</em>额33591亿元，增长10.5%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/MCwCMowNj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年3月份<em>社会消费品零售总额</em>增长10.6%】3月份，<em>社会消费品零售总额</em>37855亿元，同比增长10.6%。 发布会微直播 【2023年3月份<em>社会消费品零售总额</em>增长10.6%】3月份，<em>社会消费品零售总额</em>37855亿元，同比增长10.6%。其中，除汽车以外的<em>消费品</em><em>零售</em>额33591亿元，增长10.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1681783942000,
+        "docDate": "2023-04-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "B221FE448F265D1B42D38A6CB86D5848",
+        "md5Url": "4EA4DE4FD385DAD3A5BEA0593CDFB8BB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年3月份<em>社会消费品零售总额</em>增长10.6%】3月份，<em>社会消费品零售总额</em>37855亿元，同比增长10.6%。 发布会微直播 【2023年3月份<em>社会消费品零售总额</em>增长10.6%】3月份，<em>社会消费品零售总额</em>37855亿元，同比增长10.6%。其中，除汽车以外的<em>消费品</em><em>零售</em>额33591亿元，增长10.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1681783942,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4EA4DE4FD385DAD3A5BEA0593CDFB8BB",
+          "DRETITLE": "发布会微直播 2023年3月份社会消费品零售总额增长10 6 3月份 社会消费品零售总额37855亿元 同比增长10 6 其中 除汽车以外的消费品零售额33591亿元 增长10 5 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/MCwCMowNj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B221FE448F265D1B42D38A6CB86D5848",
+          "DRETITLEO": "#发布会微直播# 【2023年3月份社会消费品零售总额增长10.6%】3月份，社会消费品零售总额37855亿元，同比增长10.6%。其中，除汽车以外的消费品零售额33591亿元，增长10.5%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2023年3月份社会消费品零售总额增长10 6 3月份 社会消费品零售总额37855亿元 同比增长10 6 其中 除汽车以外的消费品零售额33591亿元 增长10 5 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AFCE3A4CE92EEE80D2A1778E1F5911F4",
+      "timestamp": 1681783200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AFCE3A4CE92EEE80D2A1778E1F5911F4",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年3月份社会消费品零售总额增长10.6%",
+        "title": "2023年3月份<em>社会消费品零售总额</em>增长10.6%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230418_1938710.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "实物商品网上<em>零售</em>额27835亿元，增长7.3%，占<em>社会消费品零售总额</em>的比重为24.2%；在实物商品网上<em>零售</em>额中，吃类、穿类、用类商品分别增长7.3%、8.6%、6.9%。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202304/W020230418354875277319.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "实物商品网上<em>零售</em>额27835亿元，增长7.3%，占<em>社会消费品零售总额</em>的比重为24.2%；在实物商品网上<em>零售</em>额中，吃类、穿类、用类商品分别增长7.3%、8.6%、6.9%。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1681783200000,
+        "docDate": "2023-04-18",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/60300D784E8E6F7D67A26E45710D45F3.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_43.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "D4896E34DFEE5C31E3DBE251C05C72C7",
+        "md5Url": "AFCE3A4CE92EEE80D2A1778E1F5911F4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "实物商品网上<em>零售</em>额27835亿元，增长7.3%，占<em>社会消费品零售总额</em>的比重为24.2%；在实物商品网上<em>零售</em>额中，吃类、穿类、用类商品分别增长7.3%、8.6%、6.9%。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202304/t20230418_1938710.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年3月份社会消费品零售总额增长10.6%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/60300D784E8E6F7D67A26E45710D45F3.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202304/W020230418354875277319.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_43.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1681783200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "AFCE3A4CE92EEE80D2A1778E1F5911F4",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年3月份社会消费品零售总额增长10 6",
+          "MD5TITLE": "D4896E34DFEE5C31E3DBE251C05C72C7",
+          "QUICKDESCRIPTION": "　　3月份，社会消费品零售总额37855亿元，同比增长10.6%。其中，除汽车以外的消费品零售额33591亿元，增长10.5%。 　　1—3月份，社会消费品零售总额114922亿元，同比增长5.8%。其中，除汽车以外的消费品零售额104094亿元，增长6.8%。 　　按经营单位所在地分，3月份，城镇消费品零售额32868亿元，同比增长10.7%；乡村消费品零售额4987亿元，增长10.0%。1—3月份，城镇消费品零售额99664亿元，同比增长5.7%；乡村消费品零售额15258亿元，增长6.2%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D52BDAAB713C4D8C455E8E704EE20047",
+      "timestamp": 1678864908000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D52BDAAB713C4D8C455E8E704EE20047",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【1—2月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读1—2月份社会消费品零售总额数据 今年以来，在以习近平同志为核心的党中央坚强领导下，疫情防控较快平稳转段，各地区各部门积极推动消费市场有序恢复，商品零售和餐饮等服务消费明显回升。1—2月份，市场销售同比增长，接 ...展开全文c",
+        "title": "#权威解读# 【1—2月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读1—2月份<em>社会消费品零售总额</em>数据 今年以来，在以习近平同志为核心的党中央坚强领导下，疫情防控较快平稳转段，各地区各部门积极推动消费市场有序恢复，商品<em>零售</em>和餐饮等服务消费明显回升。1—2月份，市场销售同比增长，接 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Mxo7v2JcN?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【1—2月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读1—2月份<em>社会消费品零售总额</em>数据 今年以来，在以习近平同志为核心的党中央坚强领导下，疫情防控较快平稳转段，各地区各部门积极推动消费市场有序恢复，商品<em>零售</em>和餐饮等服务消费明显回升。 权威解读 【1—2月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读1—2月份<em>社会消费品零售总额</em>数据 今年以来，在以习近平同志为核心的党中央坚强领导下，疫情防控较快平稳转段，各地区各部门积极推动消费市场有序恢复，商品<em>零售</em>和餐饮等服务消费明显回升。1—2月份，市场销售同比增长，接 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1678864908000,
+        "docDate": "2023-03-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "B6B70F9F608F26A3F5E1F7CC35D25615",
+        "md5Url": "D333CB96DB0D0D013AECE68412D4BBE2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【1—2月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读1—2月份<em>社会消费品零售总额</em>数据 今年以来，在以习近平同志为核心的党中央坚强领导下，疫情防控较快平稳转段，各地区各部门积极推动消费市场有序恢复，商品<em>零售</em>和餐饮等服务消费明显回升。 权威解读 【1—2月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读1—2月份<em>社会消费品零售总额</em>数据 今年以来，在以习近平同志为核心的党中央坚强领导下，疫情防控较快平稳转段，各地区各部门积极推动消费市场有序恢复，商品<em>零售</em>和餐饮等服务消费明显回升。1—2月份，市场销售同比增长，接 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1678864908,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D333CB96DB0D0D013AECE68412D4BBE2",
+          "DRETITLE": "权威解读 1 2月份消费市场恢复向好 国家统计局贸经司统计师付加奇解读1 2月份社会消费品零售总额数据 今年以来 在以习近平同志为核心的党中央坚强领导下 疫情防控较快平稳转段 各地区各部门积极推动消费市场有序恢复 商品零售和餐饮等服务消费明显回升 1 2月份 市场销售同比增长 接 展开全文c",
+          "URL": "https://weibo.com/3919628624/Mxo7v2JcN?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B6B70F9F608F26A3F5E1F7CC35D25615",
+          "DRETITLEO": "#权威解读# 【1—2月份消费市场恢复向好】——国家统计局贸经司统计师付加奇解读1—2月份社会消费品零售总额数据 今年以来，在以习近平同志为核心的党中央坚强领导下，疫情防控较快平稳转段，各地区各部门积极推动消费市场有序恢复，商品零售和餐饮等服务消费明显回升。1—2月份，市场销售同比增长，接 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 1 2月份消费市场恢复向好 国家统计局贸经司统计师付加奇解读1 2月份社会消费品零售总额数据 今年以来 在以习近平同志为核心的党中央坚强领导下 疫情防控较快平稳转段 各地区各部门积极推动消费市场有序恢复 商品零售和餐饮等服务消费明显回升 1 2月份 市场销售同比增长 接 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5EE6FB193E819AE0B4FD97198950B8E2",
+      "timestamp": 1678863600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5EE6FB193E819AE0B4FD97198950B8E2",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局贸经司统计师付加奇解读1—2月份社会消费品零售总额数据",
+        "title": "国家统计局贸经司统计师付加奇解读1—2月份<em>社会消费品零售总额</em>数据",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202303/t20230315_1937245.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": null,
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1678863600000,
+        "docDate": "2023-03-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_32.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "99928AD893E6A4756B449DE2661E5696",
+        "md5Url": "5EE6FB193E819AE0B4FD97198950B8E2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": null,
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202303/t20230315_1937245.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局贸经司统计师付加奇解读1—2月份社会消费品零售总额数据",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_32.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1678863600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "5EE6FB193E819AE0B4FD97198950B8E2",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局贸经司统计师付加奇解读1 2月份社会消费品零售总额数据",
+          "MD5TITLE": "99928AD893E6A4756B449DE2661E5696",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8CB6AA055E6E9C1C326BCD6DF9CE41E3",
+      "timestamp": 1678852029000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8CB6AA055E6E9C1C326BCD6DF9CE41E3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2023年1—2月份社会消费品零售总额增长3.5%】1—2月份，社会消费品零售总额77067亿元，同比增长3.5%。其中，除汽车以外的消费品零售额70409亿元，增长5.0%。详见：O网页链接",
+        "title": "#发布会微直播# 【2023年1—2月份<em>社会消费品零售总额</em>增长3.5%】1—2月份，<em>社会消费品零售总额</em>77067亿元，同比增长3.5%。其中，除汽车以外的<em>消费品</em><em>零售</em>额70409亿元，增长5.0%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/MxmInanOA?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年1—2月份<em>社会消费品零售总额</em>增长3.5%】1—2月份，<em>社会消费品零售总额</em>77067亿元，同比增长3.5%。 发布会微直播 【2023年1—2月份<em>社会消费品零售总额</em>增长3.5%】1—2月份，<em>社会消费品零售总额</em>77067亿元，同比增长3.5%。其中，除汽车以外的<em>消费品</em><em>零售</em>额70409亿元，增长5.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1678852029000,
+        "docDate": "2023-03-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "130C0D953B5DEC3DB5B53469A0EA3280",
+        "md5Url": "4905ED3B7C8AFB05AB1ECF7F1EC8192B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年1—2月份<em>社会消费品零售总额</em>增长3.5%】1—2月份，<em>社会消费品零售总额</em>77067亿元，同比增长3.5%。 发布会微直播 【2023年1—2月份<em>社会消费品零售总额</em>增长3.5%】1—2月份，<em>社会消费品零售总额</em>77067亿元，同比增长3.5%。其中，除汽车以外的<em>消费品</em><em>零售</em>额70409亿元，增长5.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1678852029,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4905ED3B7C8AFB05AB1ECF7F1EC8192B",
+          "DRETITLE": "发布会微直播 2023年1 2月份社会消费品零售总额增长3 5 1 2月份 社会消费品零售总额77067亿元 同比增长3 5 其中 除汽车以外的消费品零售额70409亿元 增长5 0 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/MxmInanOA?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "130C0D953B5DEC3DB5B53469A0EA3280",
+          "DRETITLEO": "#发布会微直播# 【2023年1—2月份社会消费品零售总额增长3.5%】1—2月份，社会消费品零售总额77067亿元，同比增长3.5%。其中，除汽车以外的消费品零售额70409亿元，增长5.0%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2023年1 2月份社会消费品零售总额增长3 5 1 2月份 社会消费品零售总额77067亿元 同比增长3 5 其中 除汽车以外的消费品零售额70409亿元 增长5 0 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "42F5449219707FB3E8081CEE568D9AAC",
+      "timestamp": 1678845600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "42F5449219707FB3E8081CEE568D9AAC",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年1—2月份社会消费品零售总额增长3.5%",
+        "title": "2023年1—2月份<em>社会消费品零售总额</em>增长3.5%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230315_1937198.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "实物商品网上<em>零售</em>额17476亿元，增长5.3%，占<em>社会消费品零售总额</em>的比重为22.7%；在实物商品网上<em>零售</em>额中，吃类、穿类、用类商品分别增长5.3%、4.0%、5.7%。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202303/W020230315366530277103.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "实物商品网上<em>零售</em>额17476亿元，增长5.3%，占<em>社会消费品零售总额</em>的比重为22.7%；在实物商品网上<em>零售</em>额中，吃类、穿类、用类商品分别增长5.3%、4.0%、5.7%。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1678845600000,
+        "docDate": "2023-03-15",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/D71F9A6B1CDFBE01DC17107678A6F483.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_45.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "91EBAB5692588445E37E2B4CE28419CB",
+        "md5Url": "42F5449219707FB3E8081CEE568D9AAC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "实物商品网上<em>零售</em>额17476亿元，增长5.3%，占<em>社会消费品零售总额</em>的比重为22.7%；在实物商品网上<em>零售</em>额中，吃类、穿类、用类商品分别增长5.3%、4.0%、5.7%。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202303/t20230315_1937198.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年1—2月份社会消费品零售总额增长3.5%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/D71F9A6B1CDFBE01DC17107678A6F483.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202303/W020230315366530277103.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_45.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1678845600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "42F5449219707FB3E8081CEE568D9AAC",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年1 2月份社会消费品零售总额增长3 5",
+          "MD5TITLE": "91EBAB5692588445E37E2B4CE28419CB",
+          "QUICKDESCRIPTION": "　　1—2月份，社会消费品零售总额77067亿元，同比增长3.5%。其中，除汽车以外的消费品零售额70409亿元，增长5.0%。 　　按经营单位所在地分，1—2月份，城镇消费品零售额66796亿元，同比增长3.4%；乡村消费品零售额10271亿元，增长4.5%。 　　按消费类型分，1—2月份，商品零售68638亿元，同比增长2.9%；餐饮收入8429亿元，增长9.2%。 　　按零售业态分，1—2月份限额以上零售业单位中的超市、便利店、专业店、百货店零售额同比分别增长2.3%、10.0%、3.6%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C46A640334C26C04253382379D6FB3D3",
+      "timestamp": 1673923983000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C46A640334C26C04253382379D6FB3D3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【答记者问】针对路透社记者提出的数字显示，去年全社会零售总额下降了0.2%，12月当月下降1.8%。想问一下，今年会有哪些有效措施来提振消费，特别是居民消费？另外，三大需求对经济增长的贡献率是怎么样的问题，康义正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出 ...展开全文c",
+        "title": "#发布会微直播# 【答记者问】针对路透社记者提出的数字显示，去年全<em>社会</em><em>零售</em><em>总额</em>下降了0.2%，12月当月下降1.8%。想问一下，今年会有哪些有效措施来提振消费，特别是居民消费？另外，三大需求对经济增长的贡献率是怎么样的问题，康义正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出 ...展开全文c",
+        "url": "https://weibo.com/3919628624/MoH06Dx52?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对路透社记者提出的数字显示，去年全<em>社会</em><em>零售</em><em>总额</em>下降了0.2%，12月当月下降1.8%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1673923983000,
+        "docDate": "2023-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "93F59145EE91CF7ACDCC2D8BE1C7ADEF",
+        "md5Url": "308DE91FBA87BA01FFE3B9778AF0DF26",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对路透社记者提出的数字显示，去年全<em>社会</em><em>零售</em><em>总额</em>下降了0.2%，12月当月下降1.8%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1673923983,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "308DE91FBA87BA01FFE3B9778AF0DF26",
+          "DRETITLE": "发布会微直播 答记者问 针对路透社记者提出的数字显示 去年全社会零售总额下降了0 2 12月当月下降1 8 想问一下 今年会有哪些有效措施来提振消费 特别是居民消费 另外 三大需求对经济增长的贡献率是怎么样的问题 康义正在回答 更多直播内容详情 O网页链接 稍晚会有实录放出 展开全文c",
+          "URL": "https://weibo.com/3919628624/MoH06Dx52?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "93F59145EE91CF7ACDCC2D8BE1C7ADEF",
+          "DRETITLEO": "#发布会微直播# 【答记者问】针对路透社记者提出的数字显示，去年全社会零售总额下降了0.2%，12月当月下降1.8%。想问一下，今年会有哪些有效措施来提振消费，特别是居民消费？另外，三大需求对经济增长的贡献率是怎么样的问题，康义正在回答。更多直播内容详情：O网页链接 稍晚会有实录放出 ...展开全文c",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对路透社记者提出的数字显示 去年全社会零售总额下降了0 2 12月当月下降1 8 想问一下 今年会有哪些有效措施来提振消费 特别是居民消费 另外 三大需求对经济增长的贡献率是怎么样的问题 康义正在回答 更多直播内容详情 O网页链接 稍晚会有实录放出 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AA6B96E738B6232FD790574F96B46349",
+      "timestamp": 1673921398000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AA6B96E738B6232FD790574F96B46349",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2022年12月社会消费品零售总额下降1.8%】12月份，社会消费品零售总额40542亿元，同比下降1.8%。其中，除汽车以外的消费品零售额35438亿元，下降2.6%。详见：O网页链接",
+        "title": "#发布会微直播# 【2022年12月<em>社会消费品零售总额</em>下降1.8%】12月份，<em>社会消费品零售总额</em>40542亿元，同比下降1.8%。其中，除汽车以外的<em>消费品</em><em>零售</em>额35438亿元，下降2.6%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/MoGID4w2k?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2022年12月<em>社会消费品零售总额</em>下降1.8%】12月份，<em>社会消费品零售总额</em>40542亿元，同比下降1.8%。 发布会微直播 【2022年12月<em>社会消费品零售总额</em>下降1.8%】12月份，<em>社会消费品零售总额</em>40542亿元，同比下降1.8%。其中，除汽车以外的<em>消费品</em><em>零售</em>额35438亿元，下降2.6%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1673921398000,
+        "docDate": "2023-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "8C4993B4D456368B10B164E260CB879F",
+        "md5Url": "296CF2EAF0013AE62D1EC102597F668F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2022年12月<em>社会消费品零售总额</em>下降1.8%】12月份，<em>社会消费品零售总额</em>40542亿元，同比下降1.8%。 发布会微直播 【2022年12月<em>社会消费品零售总额</em>下降1.8%】12月份，<em>社会消费品零售总额</em>40542亿元，同比下降1.8%。其中，除汽车以外的<em>消费品</em><em>零售</em>额35438亿元，下降2.6%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1673921398,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "296CF2EAF0013AE62D1EC102597F668F",
+          "DRETITLE": "发布会微直播 2022年12月社会消费品零售总额下降1 8 12月份 社会消费品零售总额40542亿元 同比下降1 8 其中 除汽车以外的消费品零售额35438亿元 下降2 6 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/MoGID4w2k?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8C4993B4D456368B10B164E260CB879F",
+          "DRETITLEO": "#发布会微直播# 【2022年12月社会消费品零售总额下降1.8%】12月份，社会消费品零售总额40542亿元，同比下降1.8%。其中，除汽车以外的消费品零售额35438亿元，下降2.6%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2022年12月社会消费品零售总额下降1 8 12月份 社会消费品零售总额40542亿元 同比下降1 8 其中 除汽车以外的消费品零售额35438亿元 下降2 6 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "633B466E6DF9AE484C69B24915E816AC",
+      "timestamp": 1673920800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "633B466E6DF9AE484C69B24915E816AC",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年12月社会消费品零售总额下降1.8%",
+        "title": "2022年12月<em>社会消费品零售总额</em>下降1.8%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901713.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 12月份，<em>社会消费品零售总额</em>40542亿元，同比下降1.8%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610851953534.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 12月份，<em>社会消费品零售总额</em>40542亿元，同比下降1.8%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1673920800000,
+        "docDate": "2023-01-17",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/FD9A55D135EFA4307662DB2574AE904B.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_46.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "DAA94032417231EBB9AA81BDA7E725E6",
+        "md5Url": "633B466E6DF9AE484C69B24915E816AC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 12月份，<em>社会消费品零售总额</em>40542亿元，同比下降1.8%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901713.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年12月社会消费品零售总额下降1.8%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/FD9A55D135EFA4307662DB2574AE904B.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203610851953534.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_46.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1673920800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "633B466E6DF9AE484C69B24915E816AC",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年12月社会消费品零售总额下降1 8",
+          "MD5TITLE": "DAA94032417231EBB9AA81BDA7E725E6",
+          "QUICKDESCRIPTION": "　　12月份，社会消费品零售总额40542亿元，同比下降1.8%。其中，除汽车以外的消费品零售额35438亿元，下降2.6%。 　　2022年，社会消费品零售总额439733亿元，比上年下降0.2%。其中，除汽车以外的消费品零售额393961亿元，下降0.4%。 　　按经营单位所在地分，12月份，城镇消费品零售额34594亿元，同比下降1.8%；乡村消费品零售额5948亿元，下降1.3%。2022年，城镇消费品零售额380448亿元，比上年下降0.3%；乡村消费品零售额59285亿元，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 31,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 31,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "住户调查"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 31,
+          "children": null,
+          "key": ""
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

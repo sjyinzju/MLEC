@@ -1,0 +1,162 @@
+{
+  "probability_and_events": [
+    {
+      "n": 99,
+      "brier": 0.24526455684144358,
+      "log_loss": 0.7063045810899089,
+      "roc_auc": 0.5167910447761194,
+      "pr_auc": 0.4209718038356453,
+      "auc_reason": null,
+      "confusion_at_0_5": [
+        [
+          56,
+          11
+        ],
+        [
+          23,
+          9
+        ]
+      ],
+      "algorithm": "gradient_boosting",
+      "feature_set": "M",
+      "calibrated_brier": 0.27546047878760765,
+      "brier_lower": 0.1553032853688165,
+      "brier_upper": 0.31657704109223994,
+      "events": 9,
+      "eligible_events": 9,
+      "detected_events": 3,
+      "detection_rate": 0.3333333333333333,
+      "event_wilson_lower": 0.12058159868274293,
+      "event_wilson_upper": 0.6458026525009102,
+      "annual_false_alarm_weeks": {
+        "2020": 1,
+        "2021": 1,
+        "2022": 0
+      },
+      "repeated_alarms": 4,
+      "threshold": 0.69260602155415,
+      "threshold_evaluation": "development-selected, optimistic; freeze before final",
+      "lead_mean": 8.333333333333334,
+      "event_interval_caveat": "few unique events; Wilson assumes independent event detection; descriptive only"
+    },
+    {
+      "n": 99,
+      "brier": 0.22459992848774285,
+      "log_loss": 0.6440827168838718,
+      "roc_auc": 0.3805970149253731,
+      "pr_auc": 0.28034741209083314,
+      "auc_reason": null,
+      "confusion_at_0_5": [
+        [
+          67,
+          0
+        ],
+        [
+          32,
+          0
+        ]
+      ],
+      "algorithm": "historical_rate",
+      "feature_set": "M",
+      "calibrated_brier": 0.22459992848774285,
+      "brier_lower": 0.1404179605136294,
+      "brier_upper": 0.2990414315062865,
+      "events": 9,
+      "eligible_events": 9,
+      "detected_events": 0,
+      "detection_rate": 0.0,
+      "event_wilson_lower": 0.0,
+      "event_wilson_upper": 0.2991527535509594,
+      "annual_false_alarm_weeks": {
+        "2020": 0,
+        "2021": 0,
+        "2022": 0
+      },
+      "repeated_alarms": 0,
+      "threshold": 1.0000000000000002,
+      "threshold_evaluation": "development-selected, optimistic; freeze before final",
+      "lead_mean": null,
+      "event_interval_caveat": "few unique events; Wilson assumes independent event detection; descriptive only"
+    },
+    {
+      "n": 99,
+      "brier": 0.2544646836320998,
+      "log_loss": 0.7074982227870498,
+      "roc_auc": 0.5032649253731343,
+      "pr_auc": 0.4291650604380426,
+      "auc_reason": null,
+      "confusion_at_0_5": [
+        [
+          44,
+          23
+        ],
+        [
+          22,
+          10
+        ]
+      ],
+      "algorithm": "logistic",
+      "feature_set": "M",
+      "calibrated_brier": 0.2691073684435332,
+      "brier_lower": 0.18588585015264714,
+      "brier_upper": 0.3066794790842644,
+      "events": 9,
+      "eligible_events": 9,
+      "detected_events": 3,
+      "detection_rate": 0.3333333333333333,
+      "event_wilson_lower": 0.12058159868274293,
+      "event_wilson_upper": 0.6458026525009102,
+      "annual_false_alarm_weeks": {
+        "2020": 1,
+        "2021": 0,
+        "2022": 0
+      },
+      "repeated_alarms": 1,
+      "threshold": 0.7329829751405869,
+      "threshold_evaluation": "development-selected, optimistic; freeze before final",
+      "lead_mean": 4.666666666666667,
+      "event_interval_caveat": "few unique events; Wilson assumes independent event detection; descriptive only"
+    },
+    {
+      "n": 99,
+      "brier": 0.2839212167934014,
+      "log_loss": 0.7860747461494939,
+      "roc_auc": 0.4039179104477612,
+      "pr_auc": 0.33701815969773397,
+      "auc_reason": null,
+      "confusion_at_0_5": [
+        [
+          48,
+          19
+        ],
+        [
+          20,
+          12
+        ]
+      ],
+      "algorithm": "random_forest",
+      "feature_set": "M",
+      "calibrated_brier": 0.26918480810140716,
+      "brier_lower": 0.21940155034031616,
+      "brier_upper": 0.3338373477367962,
+      "events": 9,
+      "eligible_events": 9,
+      "detected_events": 2,
+      "detection_rate": 0.2222222222222222,
+      "event_wilson_lower": 0.06322376231222723,
+      "event_wilson_upper": 0.5474166563271946,
+      "annual_false_alarm_weeks": {
+        "2020": 0,
+        "2021": 1,
+        "2022": 0
+      },
+      "repeated_alarms": 0,
+      "threshold": 0.7201159530121027,
+      "threshold_evaluation": "development-selected, optimistic; freeze before final",
+      "lead_mean": 4.5,
+      "event_interval_caveat": "few unique events; Wilson assumes independent event detection; descriptive only"
+    }
+  ],
+  "paired": [],
+  "macro_comparison_status": "blocked"
+}

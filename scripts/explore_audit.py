@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 import duckdb
 
-OUT = Path(r'E:\MLEC\audit')
+OUT = Path(__file__).resolve().parents[1]/'audit'
 root = Path(r'E:\QuantData')
 def save(name, obj):
     (OUT / name).write_text(json.dumps(obj, ensure_ascii=False, indent=2, default=str), encoding='utf-8')

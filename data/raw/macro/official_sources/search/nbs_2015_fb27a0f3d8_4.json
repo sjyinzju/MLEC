@@ -1,0 +1,267 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 61,
+  "currentHits": 1,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "居民消费价格",
+    "originQt": "居民消费价格",
+    "showQt": "居民消费价格",
+    "encodeQt": "%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "居民消费价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "居民": "NN"
+      },
+      {
+        "消费": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "居民消费价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "居民消费价格",
+      "居民",
+      "消费",
+      "价格"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8A7A3E5F1621039638468EFDA1838E32",
+      "timestamp": 1420767000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8A7A3E5F1621039638468EFDA1838E32",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2014年12月份居民消费价格变动情况",
+        "title": "2014年12月份<em>居民消费价格</em>变动情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898668.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "城市上涨1.6%，农村上涨1.3%；食品<em>价格</em>上涨2.9%，非食品<em>价格</em>上涨0.8%；<em>消费</em>品<em>价格</em>上涨1.4%，服务<em>价格</em>上涨1.8%。2014年，全国<em>居民消费价格</em>总水平比上年上涨2.0%。 其中，蛋价上涨14.0%，影响<em>居民消费价格</em>总水平上涨约0.12个百分点；鲜果<em>价格</em>上涨10.4%，影响<em>居民消费价格</em>总水平上涨约0.22个百分点；鲜菜<em>价格</em>上涨7.2%，影响<em>居民消费价格</em>总水平上涨约0.22个百分点；粮食<em>价格</em>上涨3.0%，影响<em>居民消费价格</em>总水平上涨约0.09个百分点；水产品<em>价格</em>上涨2.4%，影响<em>居民消费价格</em>总水平上涨约0.06个百分点；肉禽及其制品<em>价格</em>下降0.2%，影响<em>居民消费价格</em>总水平下降约0.02个百分点（猪肉<em>价格</em>下降4.9%，影响<em>居民消费价格</em>总水平下降约0.16个百分点）。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "城市上涨1.6%，农村上涨1.3%；食品<em>价格</em>上涨2.9%，非食品<em>价格</em>上涨0.8%；<em>消费</em>品<em>价格</em>上涨1.4%，服务<em>价格</em>上涨1.8%。2014年，全国<em>居民消费价格</em>总水平比上年上涨2.0%。 其中，蛋价上涨14.0%，影响<em>居民消费价格</em>总水平上涨约0.12个百分点；鲜果<em>价格</em>上涨10.4%，影响<em>居民消费价格</em>总水平上涨约0.22个百分点；鲜菜<em>价格</em>上涨7.2%，影响<em>居民消费价格</em>总水平上涨约0.22个百分点；粮食<em>价格</em>上涨3.0%，影响<em>居民消费价格</em>总水平上涨约0.09个百分点；水产品<em>价格</em>上涨2.4%，影响<em>居民消费价格</em>总水平上涨约0.06个百分点；肉禽及其制品<em>价格</em>下降0.2%，影响<em>居民消费价格</em>总水平下降约0.02个百分点（猪肉<em>价格</em>下降4.9%，影响<em>居民消费价格</em>总水平下降约0.16个百分点）。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1420767000000,
+        "docDate": "2015-01-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/811124EB3ACC3ACC647936EE4D5DBD1E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_39.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "1DC1A255FAB868719339A46C2EA3CEEF",
+        "md5Url": "8A7A3E5F1621039638468EFDA1838E32",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨1.6%，农村上涨1.3%；食品<em>价格</em>上涨2.9%，非食品<em>价格</em>上涨0.8%；<em>消费</em>品<em>价格</em>上涨1.4%，服务<em>价格</em>上涨1.8%。2014年，全国<em>居民消费价格</em>总水平比上年上涨2.0%。 其中，蛋价上涨14.0%，影响<em>居民消费价格</em>总水平上涨约0.12个百分点；鲜果<em>价格</em>上涨10.4%，影响<em>居民消费价格</em>总水平上涨约0.22个百分点；鲜菜<em>价格</em>上涨7.2%，影响<em>居民消费价格</em>总水平上涨约0.22个百分点；粮食<em>价格</em>上涨3.0%，影响<em>居民消费价格</em>总水平上涨约0.09个百分点；水产品<em>价格</em>上涨2.4%，影响<em>居民消费价格</em>总水平上涨约0.06个百分点；肉禽及其制品<em>价格</em>下降0.2%，影响<em>居民消费价格</em>总水平下降约0.02个百分点（猪肉<em>价格</em>下降4.9%，影响<em>居民消费价格</em>总水平下降约0.16个百分点）。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1898668.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2014年12月份居民消费价格变动情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/811124EB3ACC3ACC647936EE4D5DBD1E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_39.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1420767000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "8A7A3E5F1621039638468EFDA1838E32",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2014年12月份居民消费价格变动情况",
+          "MD5TITLE": "1DC1A255FAB868719339A46C2EA3CEEF",
+          "QUICKDESCRIPTION": "2014年12月份居民消费价格变动情况 2015/01/09 09:30 | Aa 字体： 小 中 大 | 　　2014年12月份，全国居民消费价格总水平同比上涨1.5%。其中，城市上涨1.6%，农村上涨1.3%；食品价格上涨2.9%，非食品价格上涨0.8%；消费品价格上涨1.4%，服务价格上涨1.8%。2014年，全国居民消费价格总水平比上年上涨2.0%。 　　12月份，全国居民消费价格总水平环比上涨0.3%。其中，城市上涨0.3%，农村上涨0.3%；食品价格上涨1.2%，非食品价格下降0.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 12,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 12,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 13,
+          "children": null,
+          "key": "价格"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 12,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

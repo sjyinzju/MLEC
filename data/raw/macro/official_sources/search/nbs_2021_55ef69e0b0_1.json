@@ -1,0 +1,1873 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 85,
+  "currentHits": 15,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [],
+    "sceneRelatedInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 10.998716,
+        "id": "17c7bac6-aa0a-43d8-916a-8c910a526039",
+        "name": "GDP",
+        "siteCode": "bm36000002",
+        "relatedWords": [
+          "GDP",
+          "CPI",
+          "国内生产总值",
+          "PMI",
+          "平均工资",
+          "居民消费价格指数",
+          "地区生产总值"
+        ],
+        "customTitle": "",
+        "customContent": "",
+        "rank": 10
+      }
+    ],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 7.0317554,
+        "id": "e582caf3-819f-4710-a3f3-6b59a4ae750e",
+        "name": "国民经济核算",
+        "siteCode": "bm36000002",
+        "templateType": "统计局",
+        "data": {
+          "arrList": [
+            {
+              "tab": "国内生产总值",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div>"
+            },
+            {
+              "tab": "指标解释",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div>"
+            },
+            {
+              "tab": "指标QA",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div>"
+            }
+          ]
+        },
+        "template": "<div class=\"personalization-list-div\">\n    <div class=\"personalization-list-choose\">\n                    <div class=\"item-personalization-choose on \">国内生产总值 </div>\n            <div class=\"item-personalization-choose  \">指标解释 </div>\n            <div class=\"item-personalization-choose  \">指标QA </div>\n    </div>\n    <div class=\"personalization-list-content\">\n            <div class=\"item-personalization-content on\"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div></div>\n    </div>\n</div>\n\n\n<script>\n    $('.item-personalization-choose').click(function () {\n        $(this).addClass('on').siblings().removeClass('on');\n        console.log($(this).index())\n        var index = $(this).index();\n        $('.item-personalization-content').eq(index).addClass('on').siblings().removeClass('on');\n    });\n\n</script>\n\n<style>\n    * {\n        margin: 0;\n        padding: 0;\n    }\n.trs_editor_view  a,.trs_editor_view  a span {\n    vertical-align: top;\n    color: #0077ff !important;\n    text-decoration: underline;\n}\n   .personalization-list-choose {\n        display: flex;\n        align-items: center;\n        margin-bottom: 20px;\n        overflow-x: auto;\n    }\n\n    .personalization-list-choose .item-personalization-choose {\n    margin-bottom: 7px;\n      color: #333333;\n      background: #efefef;\n      border: 1px solid #efefef;\n      white-space: nowrap;\n      padding: 10px;\n      border-radius: 5px;\n      font-size: 16px;\n      font-family: Microsoft YaHei;\n      font-weight: 400;\n      line-height: 20px;\n      margin-right: 10px;\n      cursor: pointer;\n      flex-shrink: 0;\n    }\n\n    .personalization-list-choose .on {\n      color: #1685e6;\n      border: 1px solid #1685e6;\n      background: #fff;\n      white-space: nowrap;\n    }\n\n    .item-personalization-content {\n        display: none;\n    }\n\n    .personalization-list-content .on {\n        display: block;\n    }\n\n.personalization-list-content{\n    line-height: 34px;\nmin-height:200px;\nmax-height:500px;\n    overflow-y: auto;\nmargin-bottom: 20px;\n}\n#q2 {\n    color: #3285e4;\n  \n    font-weight: bold;\n}\n</style>",
+        "css": "",
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9BE2BCCB43A8220BE88729CD6167D98C",
+      "timestamp": 1640828840000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9BE2BCCB43A8220BE88729CD6167D98C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2020年全国专利密集型产业增加值数据公告】 经核算，2020年全国专利密集型产业增加值为121289亿元，比上年增长5.8%（未扣除价格因素，下同），比同期国内生产总值（GDP）现价增速高3.1个百分点；占GDP的比重为11.97%，比上年提高0.35个百分点。 详见：O网页链接",
+        "title": "#数据发布# 【2020年全国专利密集型产业增加值数据公告】 经核算，2020年全国专利密集型产业增加值为121289亿元，比上年增长5.8%（未扣除价格因素，下同），比同期<em>国内生产总值</em>（GDP）现价增速高3.1个百分点；占GDP的比重为11.97%，比上年提高0.35个百分点。 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/L8plAcn3x?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2020年全国专利密集型产业增加值数据公告】 经核算，2020年全国专利密集型产业增加值为121289亿元，比上年增长5.8%（未扣除价格因素，下同），比同期<em>国内生产总值</em>（GDP）现价增速高3.1个百分点；占GDP的比重为11.97%，比上年提高0.35个百分点。 数据发布 【2020年全国专利密集型产业增加值数据公告】 经核算，2020年全国专利密集型产业增加值为121289亿元，比上年增长5.8%（未扣除价格因素，下同），比同期<em>国内生产总值</em>（GDP）现价增速高3.1个百分点；占GDP的比重为11.97%，比上年提高0.35个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1640828840000,
+        "docDate": "2021-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "9FCD766A13000E180C3DBF7005353849",
+        "md5Url": "BAC84C5921C0F0C50CEA17CD863EBE65",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2020年全国专利密集型产业增加值数据公告】 经核算，2020年全国专利密集型产业增加值为121289亿元，比上年增长5.8%（未扣除价格因素，下同），比同期<em>国内生产总值</em>（GDP）现价增速高3.1个百分点；占GDP的比重为11.97%，比上年提高0.35个百分点。 数据发布 【2020年全国专利密集型产业增加值数据公告】 经核算，2020年全国专利密集型产业增加值为121289亿元，比上年增长5.8%（未扣除价格因素，下同），比同期<em>国内生产总值</em>（GDP）现价增速高3.1个百分点；占GDP的比重为11.97%，比上年提高0.35个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1640828840,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "BAC84C5921C0F0C50CEA17CD863EBE65",
+          "DRETITLE": "数据发布 2020年全国专利密集型产业增加值数据公告 经核算 2020年全国专利密集型产业增加值为121289亿元 比上年增长5 8 未扣除价格因素 下同 比同期国内生产总值 GDP 现价增速高3 1个百分点 占GDP的比重为11 97 比上年提高0 35个百分点 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/L8plAcn3x?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "9FCD766A13000E180C3DBF7005353849",
+          "DRETITLEO": "#数据发布# 【2020年全国专利密集型产业增加值数据公告】 经核算，2020年全国专利密集型产业增加值为121289亿元，比上年增长5.8%（未扣除价格因素，下同），比同期国内生产总值（GDP）现价增速高3.1个百分点；占GDP的比重为11.97%，比上年提高0.35个百分点。 详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2020年全国专利密集型产业增加值数据公告 经核算 2020年全国专利密集型产业增加值为121289亿元 比上年增长5 8 未扣除价格因素 下同 比同期国内生产总值 GDP 现价增速高3 1个百分点 占GDP的比重为11 97 比上年提高0 35个百分点 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CBAA7E9511762E1B3838A20E36246E74",
+      "timestamp": 1640745720000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CBAA7E9511762E1B3838A20E36246E74",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2020年全国旅游及相关产业增加值占GDP比重为4.01%",
+        "title": "【数据发布】2020年全国旅游及相关产业增加值占GDP比重为4.01%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651418255&idx=2&sn=62864fda8887c9355b0e82caff7b1f50&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。 旅游及相关产业增加值，指一个国家所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动而创造的增加值。 常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1640745720000,
+        "docDate": "2021-12-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "4113F88C8B3AE9BA8596F6C831244247",
+        "md5Url": "29207ACF17024E5C5BB331B408592C80",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。 旅游及相关产业增加值，指一个国家所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动而创造的增加值。 常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1640745720,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "29207ACF17024E5C5BB331B408592C80",
+          "DRETITLE": "数据发布 2020年全国旅游及相关产业增加值占GDP比重为4 01",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651418255&idx=2&sn=62864fda8887c9355b0e82caff7b1f50&scene=0",
+          "MD5TITLE": "4113F88C8B3AE9BA8596F6C831244247",
+          "DRETITLEO": "【数据发布】2020年全国旅游及相关产业增加值占GDP比重为4.01%",
+          "QUICKDESCRIPTION": "经核算 2020年全国旅游及相关产业增加值为40628亿元 比上年下降9 7 未扣除价格因素 下同 占国内生产总值 GDP 的比重为4 01 比上年下降0 55个百分点 从内部结构看 旅游业增加值为36429亿元 比上年下降10 6 占旅游及相关产业增加值比重为89 7 比上年下降0 9个百分点 旅游相关产业增加值为4199亿元 比上年下降0 8 占旅游及相关产业增加值比重为10 3 比上年上升0 9个百分点 从增长速度看 除政府旅游管理服务增加值比上年增长3 1 外 其他行业增加值均出现下降 ",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EA98C5C3C932F5A98F555B4E340CCDCF",
+      "timestamp": 1640745720000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EA98C5C3C932F5A98F555B4E340CCDCF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2020年全国文化及相关产业增加值占GDP比重为4.43%",
+        "title": "【数据发布】2020年全国文化及相关产业增加值占GDP比重为4.43%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651418255&idx=1&sn=3bdf367b992b08550ac19c8e05aff22c&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。 往期推荐 2019年全国文化及相关产业增加值占GDP比重为4.5% 2018年全国文化及相关产业增加值占GDP比重为4.48% 更多信息和附注 请阅读原文...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1640745720000,
+        "docDate": "2021-12-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "7B5DB5C170E2C3DEB92299A781D10F3A",
+        "md5Url": "E0809E468A54F0A4B12621FEF2AAC99F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。 往期推荐 2019年全国文化及相关产业增加值占GDP比重为4.5% 2018年全国文化及相关产业增加值占GDP比重为4.48% 更多信息和附注 请阅读原文...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1640745720,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "E0809E468A54F0A4B12621FEF2AAC99F",
+          "DRETITLE": "数据发布 2020年全国文化及相关产业增加值占GDP比重为4 43",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651418255&idx=1&sn=3bdf367b992b08550ac19c8e05aff22c&scene=0",
+          "MD5TITLE": "7B5DB5C170E2C3DEB92299A781D10F3A",
+          "DRETITLEO": "【数据发布】2020年全国文化及相关产业增加值占GDP比重为4.43%",
+          "QUICKDESCRIPTION": "经核算 2020年全国文化及相关产业增加值为44945亿元 比上年增长1 3 未扣除价格因素 下同 占国内生产总值 GDP 的比重为4 43 比上年下降0 07个百分点 分行业看 2020年 文化服务业增加值为28874亿元 占文化及相关产业增加值的比重为64 2 比上年提高0 9个百分点 文化制造业增加值为11710亿元 占比为26 1 比上年下降0 8个百分点 文化批发和零售业增加值为4361亿元 占比为9 7 比上年下降0 1个百分点 分领域看 2020年 文化核心领域增加值为31565亿",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EEAFBE2D0CA45F0E3836E998DBCD7AEB",
+      "timestamp": 1640741768000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EEAFBE2D0CA45F0E3836E998DBCD7AEB",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2020年全国文化及相关产业增加值占GDP比重为4.43%】经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占国内生产总值（GDP）的比重为4.43%，比上年下降0.0",
+        "title": "#数据发布# 【2020年全国文化及相关产业增加值占GDP比重为4.43%】经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.0",
+        "url": "https://weibo.com/3919628624/L8fQx6rcS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2020年全国文化及相关产业增加值占GDP比重为4.43%】经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。 数据发布 【2020年全国文化及相关产业增加值占GDP比重为4.43%】经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1640741768000,
+        "docDate": "2021-12-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "FD742467404E057A197B9C49BA679DB9",
+        "md5Url": "9B49C1EC721B3078F39E518BE7047E03",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2020年全国文化及相关产业增加值占GDP比重为4.43%】经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。 数据发布 【2020年全国文化及相关产业增加值占GDP比重为4.43%】经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1640741768,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "9B49C1EC721B3078F39E518BE7047E03",
+          "DRETITLE": "数据发布 2020年全国文化及相关产业增加值占GDP比重为4 43 经核算 2020年全国文化及相关产业增加值为44945亿元 比上年增长1 3 未扣除价格因素",
+          "URL": "https://weibo.com/3919628624/L8fQx6rcS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FD742467404E057A197B9C49BA679DB9",
+          "DRETITLEO": "#数据发布# 【2020年全国文化及相关产业增加值占GDP比重为4.43%】经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占国内生产总值（GDP）的比重为4.43%，比上年下降0.0",
+          "QUICKDESCRIPTION": "数据发布 2020年全国文化及相关产业增加值占GDP比重为4 43 经核算 2020年全国文化及相关产业增加值为44945亿元 比上年增长1 3 未扣除价格因素 下同 占国内生产总值 GDP 的比重为4 43 比上年下降0 07个百分点 分行业看 2020年 文化服务业增加值为28874亿元 占文化及相关产 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "56E1F447267B3B6BD4CC4B97E9A9940F",
+      "timestamp": 1640741607000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "56E1F447267B3B6BD4CC4B97E9A9940F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2020年全国旅游及相关产业增加值占GDP比重为4.01%】经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占国内生产总值（GDP）的比重为4.01%，比上年下降0.55个百分点。 　　从内部结构看，旅游业增加值为36429亿元，比上年下降10.6%；占旅游 ...展开全文c",
+        "title": "#数据发布# 【2020年全国旅游及相关产业增加值占GDP比重为4.01%】经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。 　　从内部结构看，旅游业增加值为36429亿元，比上年下降10.6%；占旅游 ...展开全文c",
+        "url": "https://weibo.com/3919628624/L8fPrtw7r?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2020年全国旅游及相关产业增加值占GDP比重为4.01%】经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。 数据发布 【2020年全国旅游及相关产业增加值占GDP比重为4.01%】经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1640741607000,
+        "docDate": "2021-12-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "FBFD1CA10F0BCA10921954AD69EDB79B",
+        "md5Url": "13F420A7D1127F31D529C65628DAF72A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2020年全国旅游及相关产业增加值占GDP比重为4.01%】经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。 数据发布 【2020年全国旅游及相关产业增加值占GDP比重为4.01%】经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1640741607,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "13F420A7D1127F31D529C65628DAF72A",
+          "DRETITLE": "数据发布 2020年全国旅游及相关产业增加值占GDP比重为4 01 经核算 2020年全国旅游及相关产业增加值为40628亿元 比上年下降9 7 未扣除价格因素 下同 占国内生产总值 GDP 的比重为4 01 比上年下降0 55个百分点 从内部结构看 旅游业增加值为36429亿元 比上年下降10 6 占旅游 展开全文c",
+          "URL": "https://weibo.com/3919628624/L8fPrtw7r?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FBFD1CA10F0BCA10921954AD69EDB79B",
+          "DRETITLEO": "#数据发布# 【2020年全国旅游及相关产业增加值占GDP比重为4.01%】经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占国内生产总值（GDP）的比重为4.01%，比上年下降0.55个百分点。 　　从内部结构看，旅游业增加值为36429亿元，比上年下降10.6%；占旅游 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2020年全国旅游及相关产业增加值占GDP比重为4 01 经核算 2020年全国旅游及相关产业增加值为40628亿元 比上年下降9 7 未扣除价格因素 下同 占国内生产总值 GDP 的比重为4 01 比上年下降0 55个百分点 从内部结构看 旅游业增加值为36429亿元 比上年下降10 6 占旅游 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5D0393A0CFEC4F09C9BBCFF7C8DD30F0",
+      "timestamp": 1640741400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5D0393A0CFEC4F09C9BBCFF7C8DD30F0",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2020年全国旅游及相关产业增加值占GDP比重为4.01%",
+        "title": "2020年全国旅游及相关产业增加值占GDP比重为4.01%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901321.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。 旅游及相关产业增加值，指一个国家所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动而创造的增加值。 常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。 旅游及相关产业增加值，指一个国家所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动而创造的增加值。 常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1640741400000,
+        "docDate": "2021-12-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_60.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "A9CBCBA94E80E541A53F16B5145E94D1",
+        "md5Url": "5D0393A0CFEC4F09C9BBCFF7C8DD30F0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.01%，比上年下降0.55个百分点。 旅游及相关产业增加值，指一个国家所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动而创造的增加值。 常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901321.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2020年全国旅游及相关产业增加值占GDP比重为4.01%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_60.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1640741400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "5D0393A0CFEC4F09C9BBCFF7C8DD30F0",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2020年全国旅游及相关产业增加值占GDP比重为4 01",
+          "MD5TITLE": "A9CBCBA94E80E541A53F16B5145E94D1",
+          "QUICKDESCRIPTION": "　　经核算，2020年全国旅游及相关产业增加值为40628亿元，比上年下降9.7%（未扣除价格因素，下同），占国内生产总值（GDP）的比重为4.01%，比上年下降0.55个百分点。 　　从内部结构看，旅游业增加值为36429亿元，比上年下降10.6%；占旅游及相关产业增加值比重为89.7%，比上年下降0.9个百分点。旅游相关产业增加值为4199亿元，比上年下降0.8%；占旅游及相关产业增加值比重为10.3%，比上年上升0.9个百分点。 　　从增长速度看，除政府旅游管理服务增加值比上年增长3.1%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7BE6BC97CDCAE37B9263FB24CC73273A",
+      "timestamp": 1640741400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7BE6BC97CDCAE37B9263FB24CC73273A",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2020年全国文化及相关产业增加值占GDP比重为4.43%",
+        "title": "2020年全国文化及相关产业增加值占GDP比重为4.43%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901322.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。 按活动性质分，文化及相关产业分为两部分：一是“文化核心领域”，指以文化为核心内容，为直接满足人们的精神需要而进行的创作、制造、传播、展示等文化产品（包括货物和服务）的<em>生产</em>活动；二是“文化相关领域”，指为实现文化产品的<em>生产</em>活动所需的文化辅助<em>生产</em>和中介服务、文化装备<em>生产</em>和文化消费终端<em>生产</em>（包括制造和销售）等活动。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。 按活动性质分，文化及相关产业分为两部分：一是“文化核心领域”，指以文化为核心内容，为直接满足人们的精神需要而进行的创作、制造、传播、展示等文化产品（包括货物和服务）的<em>生产</em>活动；二是“文化相关领域”，指为实现文化产品的<em>生产</em>活动所需的文化辅助<em>生产</em>和中介服务、文化装备<em>生产</em>和文化消费终端<em>生产</em>（包括制造和销售）等活动。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1640741400000,
+        "docDate": "2021-12-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_60.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "85E0FA3680429974F15875B5CC9D3714",
+        "md5Url": "7BE6BC97CDCAE37B9263FB24CC73273A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占<em>国内生产总值</em>（GDP）的比重为4.43%，比上年下降0.07个百分点。 按活动性质分，文化及相关产业分为两部分：一是“文化核心领域”，指以文化为核心内容，为直接满足人们的精神需要而进行的创作、制造、传播、展示等文化产品（包括货物和服务）的<em>生产</em>活动；二是“文化相关领域”，指为实现文化产品的<em>生产</em>活动所需的文化辅助<em>生产</em>和中介服务、文化装备<em>生产</em>和文化消费终端<em>生产</em>（包括制造和销售）等活动。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901322.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2020年全国文化及相关产业增加值占GDP比重为4.43%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_60.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1640741400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "7BE6BC97CDCAE37B9263FB24CC73273A",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2020年全国文化及相关产业增加值占GDP比重为4 43",
+          "MD5TITLE": "85E0FA3680429974F15875B5CC9D3714",
+          "QUICKDESCRIPTION": "　　经核算，2020年全国文化及相关产业增加值为44945亿元，比上年增长1.3%（未扣除价格因素，下同），占国内生产总值（GDP）的比重为4.43%，比上年下降0.07个百分点。 　　分行业看，2020年，文化服务业增加值为28874亿元，占文化及相关产业增加值的比重为64.2%，比上年提高0.9个百分点；文化制造业增加值为11710亿元，占比为26.1%，比上年下降0.8个百分点；文化批发和零售业增加值为4361亿元，占比为9.7%，比上年下降0.1个百分点。 　　分领域看，2020年，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FD2DFBA5403A3E8AC670228C62A11055",
+      "timestamp": 1640220600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FD2DFBA5403A3E8AC670228C62A11055",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 2020年国内生产总值最终核实公告公布",
+        "title": "《新闻直播间》国家统计局 2020年<em>国内生产总值</em>最终核实公告公布",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914311.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 2020年<em>国内生产总值</em>最终核实公告公布...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1640220600000,
+        "docDate": "2021-12-23",
+        "includeImg": true,
+        "picUrl": "img?reference=FD2DFBA5403A3E8AC670228C62A11055&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_48.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "1BDCB5BE63FD316353E9937D5BD6340C",
+        "md5Url": "FD2DFBA5403A3E8AC670228C62A11055",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 2020年<em>国内生产总值</em>最终核实公告公布...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914311.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局 2020年国内生产总值最终核实公告公布",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_48.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1640220600,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "FD2DFBA5403A3E8AC670228C62A11055",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 2020年国内生产总值最终核实公告公布",
+          "MD5TITLE": "1BDCB5BE63FD316353E9937D5BD6340C",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局 2020年国内生产总值最终核实公告公布",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9F2E3FB0403B762219B3ADA74B960F70",
+      "timestamp": 1639730076000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9F2E3FB0403B762219B3ADA74B960F70",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#微科普#【GDP中常提到的现价和不变价究竟是个啥？】 GDP对于大家来说是个很常见的数据，讨论经济问题的时候，时不时都要提到它。 大家有没有注意到，今天国家统计局官网最新数据发布中，我们看到了“现价”和“不变价”。 那么，这两个专业术语是啥意思？ 今天，就跟着小薇小迅一起来了解“现价” 和 ...展开全文c",
+        "title": "#微科普#【GDP中常提到的现价和不变价究竟是个啥？】 GDP对于大家来说是个很常见的数据，讨论经济问题的时候，时不时都要提到它。 大家有没有注意到，今天国家统计局官网最新数据发布中，我们看到了“现价”和“不变价”。 那么，这两个专业术语是啥意思？ 今天，就跟着小薇小迅一起来了解“现价” 和 ...展开全文c",
+        "url": "https://weibo.com/3919628624/L6tsqAPDg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "微科普 【GDP中常提到的现价和不变价究竟是个啥 】 GDP对于大家来说是个很常见的数据，讨论经济问题的时候，时不时都要提到它。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1639730076000,
+        "docDate": "2021-12-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "E54C56DBEDB9C0F17B6D65EA6E23509D",
+        "md5Url": "CE9FB1854BDE6CA941F5D540991CF9FC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "微科普 【GDP中常提到的现价和不变价究竟是个啥 】 GDP对于大家来说是个很常见的数据，讨论经济问题的时候，时不时都要提到它。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1639730076,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "CE9FB1854BDE6CA941F5D540991CF9FC",
+          "DRETITLE": "微科普 GDP中常提到的现价和不变价究竟是个啥 GDP对于大家来说是个很常见的数据 讨论经济问题的时候 时不时都要提到它 大家有没有注意到 今天国家统计局官网最新数据发布中 我们看到了 现价 和 不变价 那么 这两个专业术语是啥意思 今天 就跟着小薇小迅一起来了解 现价 和 展开全文c",
+          "URL": "https://weibo.com/3919628624/L6tsqAPDg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E54C56DBEDB9C0F17B6D65EA6E23509D",
+          "DRETITLEO": "#微科普#【GDP中常提到的现价和不变价究竟是个啥？】 GDP对于大家来说是个很常见的数据，讨论经济问题的时候，时不时都要提到它。 大家有没有注意到，今天国家统计局官网最新数据发布中，我们看到了“现价”和“不变价”。 那么，这两个专业术语是啥意思？ 今天，就跟着小薇小迅一起来了解“现价” 和 ...展开全文c",
+          "QUICKDESCRIPTION": "微科普 GDP中常提到的现价和不变价究竟是个啥 GDP对于大家来说是个很常见的数据 讨论经济问题的时候 时不时都要提到它 大家有没有注意到 今天国家统计局官网最新数据发布中 我们看到了 现价 和 不变价 那么 这两个专业术语是啥意思 今天 就跟着小薇小迅一起来了解 现价 和 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AB69B10433C6791B79AE37BEBA583F03",
+      "timestamp": 1639728600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AB69B10433C6791B79AE37BEBA583F03",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "GDP中常提到的现价和不变价究竟是个啥？",
+        "title": "GDP中常提到的现价和不变价究竟是个啥？",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651416325&idx=1&sn=b641df7fae6ecb76230d44acc2eb7baf&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "对于大家来说 是个很常见的数据 讨论经济问题的时候 时不时都要提到它 大家有没有注意到 今天，国家统计局官网最新数据发布中 我们看到了“ 现价 ”和“ 不变价 ” 也经常看到 这样的注释 那么 这两个专业术语 是啥意思 今天 就跟着小薇小迅 一起来了解 现价 和 不变价 究竟是什么 资料来源：《领导干部统计知识问答（第二版）》 更多推荐 【微科普】GDP是什么 【微科普】《赘婿》里还隐藏着这么多知识点 学到了就点个在看吧 GDP对于大家来说 是个很常见的数据 讨论经济问题的时候 时不时都要提到它 大家有没有注意到 今天，国家统计局官网最新数据发布中 我们看到了“ 现价 ”和“ 不变价 ” 也经常看到 这样的注释 那么 这两个专业术语 是啥意思 今天 就跟着小薇小迅 一起来了解 现价 和 不变价 究竟是什么 资料来源：《领导干部统计知识问答（第二版）》 更多推荐 【微科普】GDP是什么 【微科普】《赘婿》里还隐藏着这么多知识点 学到了就点个在看吧...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1639728600000,
+        "docDate": "2021-12-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "23AB6C61384AD0A51A9595A1BC7E9B23",
+        "md5Url": "FE2B879AEFD583BE28F431D6F2981F45",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "对于大家来说 是个很常见的数据 讨论经济问题的时候 时不时都要提到它 大家有没有注意到 今天，国家统计局官网最新数据发布中 我们看到了“ 现价 ”和“ 不变价 ” 也经常看到 这样的注释 那么 这两个专业术语 是啥意思 今天 就跟着小薇小迅 一起来了解 现价 和 不变价 究竟是什么 资料来源：《领导干部统计知识问答（第二版）》 更多推荐 【微科普】GDP是什么 【微科普】《赘婿》里还隐藏着这么多知识点 学到了就点个在看吧 GDP对于大家来说 是个很常见的数据 讨论经济问题的时候 时不时都要提到它 大家有没有注意到 今天，国家统计局官网最新数据发布中 我们看到了“ 现价 ”和“ 不变价 ” 也经常看到 这样的注释 那么 这两个专业术语 是啥意思 今天 就跟着小薇小迅 一起来了解 现价 和 不变价 究竟是什么 资料来源：《领导干部统计知识问答（第二版）》 更多推荐 【微科普】GDP是什么 【微科普】《赘婿》里还隐藏着这么多知识点 学到了就点个在看吧...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1639728600,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "FE2B879AEFD583BE28F431D6F2981F45",
+          "DRETITLE": "GDP中常提到的现价和不变价究竟是个啥",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651416325&idx=1&sn=b641df7fae6ecb76230d44acc2eb7baf&scene=0",
+          "MD5TITLE": "23AB6C61384AD0A51A9595A1BC7E9B23",
+          "DRETITLEO": "GDP中常提到的现价和不变价究竟是个啥？",
+          "QUICKDESCRIPTION": "GDP对于大家来说 是个很常见的数据 讨论经济问题的时候 时不时都要提到它 大家有没有注意到 今天 国家统计局官网最新数据发布中 我们看到了 现价 和 不变价 也经常看到 这样的注释 那么 这两个专业术语 是啥意思 今天 就跟着小薇小迅一起来了解 现价 和 不变价 究竟是什么 资料来源 领导干部统计知识问答 第二版 更多推荐 微科普 GDP是什么 微科普 赘婿 里还隐藏着这么多知识点 学到了就点个在看吧",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "459EE6D1CE004DF4C8AB030416FBBF2C",
+      "timestamp": 1639710060000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "459EE6D1CE004DF4C8AB030416FBBF2C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】国家统计局关于2020年国内生产总值最终核实的公告",
+        "title": "【数据发布】国家统计局关于2020年<em>国内生产总值</em>最终核实的公告",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651414645&idx=1&sn=e88494a75013b16b300c194bf84554fe&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "从2015年3季度开始，我国季度GDP核算改为分季核算方式，即分别核算1季度，2季度，3季度和4季度GDP数据，再将各季度GDP数据相加得到年度GDP初步核算数。 4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1639710060000,
+        "docDate": "2021-12-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "F480AC04517C891CD0641FF97519604A",
+        "md5Url": "89B5CC48B7D3D9E20407EBC1B55478BA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "从2015年3季度开始，我国季度GDP核算改为分季核算方式，即分别核算1季度，2季度，3季度和4季度GDP数据，再将各季度GDP数据相加得到年度GDP初步核算数。 4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1639710060,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "89B5CC48B7D3D9E20407EBC1B55478BA",
+          "DRETITLE": "数据发布 国家统计局关于2020年国内生产总值最终核实的公告",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651414645&idx=1&sn=e88494a75013b16b300c194bf84554fe&scene=0",
+          "MD5TITLE": "F480AC04517C891CD0641FF97519604A",
+          "DRETITLEO": "【数据发布】国家统计局关于2020年国内生产总值最终核实的公告",
+          "QUICKDESCRIPTION": "按照我国国内生产总值 GDP 核算和数据发布制度规定 年度GDP核算包括初步核算和最终核实两个步骤 近日 根据国家统计局统计年报 财政部财政决算和有关部门年度财务资料等 国家统计局对2020年GDP数据进行了最终核实 主要结果如下 经最终核实 2020年 GDP现价总量为1013567亿元 比初步核算数减少了2419亿元 按不变价格计算 比上年增长2 2 比初步核算数下降0 1个百分点 三次产业和各行业数据见附表 特此公告 附表 2020年GDP最终核实数与初步核算数对比 附件 中国GDP年度核",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A58942DBED073DFF42CAF3BEDA9548B4",
+      "timestamp": 1639707847000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A58942DBED073DFF42CAF3BEDA9548B4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【国家统计局关于2020年国内生产总值最终核实的公告】 按照我国国内生产总值（GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2020年GDP数据进行了最终核实，主要结果如下 ...展开全文c",
+        "title": "#数据发布# 【国家统计局关于2020年<em>国内生产总值</em>最终核实的公告】 按照我国<em>国内生产总值</em>（GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2020年GDP数据进行了最终核实，主要结果如下 ...展开全文c",
+        "url": "https://weibo.com/3919628624/L6r23utlb?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【国家统计局关于2020年<em>国内生产总值</em>最终核实的公告】 按照我国<em>国内生产总值</em>（GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 数据发布 【国家统计局关于2020年<em>国内生产总值</em>最终核实的公告】 按照我国<em>国内生产总值</em>（GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1639707847000,
+        "docDate": "2021-12-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2D6AE19BCAD2FAB820A7A2BBA78F00B6",
+        "md5Url": "67AD04CE4372C6A45C6E2599A387D5F6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【国家统计局关于2020年<em>国内生产总值</em>最终核实的公告】 按照我国<em>国内生产总值</em>（GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 数据发布 【国家统计局关于2020年<em>国内生产总值</em>最终核实的公告】 按照我国<em>国内生产总值</em>（GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1639707847,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "67AD04CE4372C6A45C6E2599A387D5F6",
+          "DRETITLE": "数据发布 国家统计局关于2020年国内生产总值最终核实的公告 按照我国国内生产总值 GDP 核算和数据发布制度规定 年度GDP核算包括初步核算和最终核实两个步骤 近日 根据国家统计局统计年报 财政部财政决算和有关部门年度财务资料等 国家统计局对2020年GDP数据进行了最终核实 主要结果如下 展开全文c",
+          "URL": "https://weibo.com/3919628624/L6r23utlb?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2D6AE19BCAD2FAB820A7A2BBA78F00B6",
+          "DRETITLEO": "#数据发布# 【国家统计局关于2020年国内生产总值最终核实的公告】 按照我国国内生产总值（GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2020年GDP数据进行了最终核实，主要结果如下 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 国家统计局关于2020年国内生产总值最终核实的公告 按照我国国内生产总值 GDP 核算和数据发布制度规定 年度GDP核算包括初步核算和最终核实两个步骤 近日 根据国家统计局统计年报 财政部财政决算和有关部门年度财务资料等 国家统计局对2020年GDP数据进行了最终核实 主要结果如下 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4FD50450B36B6180F5209D3BC9BFF62B",
+      "timestamp": 1639704600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4FD50450B36B6180F5209D3BC9BFF62B",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "国家统计局关于2020年国内生产总值最终核实的公告",
+        "title": "国家统计局关于2020年<em>国内生产总值</em>最终核实的公告",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901314.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "从2015年3季度开始，我国季度GDP核算改为分季核算方式，即分别核算1季度，2季度，3季度和4季度GDP数据，再将各季度GDP数据相加得到年度GDP初步核算数。 4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "从2015年3季度开始，我国季度GDP核算改为分季核算方式，即分别核算1季度，2季度，3季度和4季度GDP数据，再将各季度GDP数据相加得到年度GDP初步核算数。 4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1639704600000,
+        "docDate": "2021-12-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_61.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "58A8691D93C95343FA103823189C3FB0",
+        "md5Url": "4FD50450B36B6180F5209D3BC9BFF62B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "从2015年3季度开始，我国季度GDP核算改为分季核算方式，即分别核算1季度，2季度，3季度和4季度GDP数据，再将各季度GDP数据相加得到年度GDP初步核算数。 4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901314.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局关于2020年国内生产总值最终核实的公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_61.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1639704600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "4FD50450B36B6180F5209D3BC9BFF62B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局关于2020年国内生产总值最终核实的公告",
+          "MD5TITLE": "58A8691D93C95343FA103823189C3FB0",
+          "QUICKDESCRIPTION": "　　按照我国国内生产总值（GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2020年GDP数据进行了最终核实，主要结果如下： 　　经最终核实，2020年，GDP现价总量为1013567亿元，比初步核算数减少了2419亿元；按不变价格计算，比上年增长2.2%，比初步核算数下降0.1个百分点。三次产业和各行业数据见附表。 　　特此公告。 　　附表：",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0990AB36439953EA8DF9D5F25DCED8C3",
+      "timestamp": 1639535899000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0990AB36439953EA8DF9D5F25DCED8C3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【答记者问】针对南华早报记者提出的如何看待2022年政府将GDP增长目标定在5%-5.5%的问题，付凌晖正在回答。更多直播内容详情：O网页链接 O网页链接 稍晚会有实录放出，敬请期待～",
+        "title": "#发布会微直播# 【答记者问】针对南华早报记者提出的如何看待2022年政府将GDP增长目标定在5%-5.5%的问题，付凌晖正在回答。更多直播内容详情：O网页链接 O网页链接 稍晚会有实录放出，敬请期待～",
+        "url": "https://weibo.com/3919628624/L68gP5USl?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对南华早报记者提出的如何看待2022年政府将GDP增长目标定在5%-5.5%的问题，付凌晖正在回答。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1639535899000,
+        "docDate": "2021-12-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "C8890F42D3B27C81128263563E20DBED",
+        "md5Url": "359977DEBC7F464DF541CC8ACDC2F2DD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对南华早报记者提出的如何看待2022年政府将GDP增长目标定在5%-5.5%的问题，付凌晖正在回答。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1639535899,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "359977DEBC7F464DF541CC8ACDC2F2DD",
+          "DRETITLE": "发布会微直播 答记者问 针对南华早报记者提出的如何看待2022年政府将GDP增长目标定在5 -5 5 的问题 付凌晖正在回答 更多直播内容详情 O网页链接 O网",
+          "URL": "https://weibo.com/3919628624/L68gP5USl?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "C8890F42D3B27C81128263563E20DBED",
+          "DRETITLEO": "#发布会微直播# 【答记者问】针对南华早报记者提出的如何看待2022年政府将GDP增长目标定在5%-5.5%的问题，付凌晖正在回答。更多直播内容详情：O网页链接 O网页链接 稍晚会有实录放出，敬请期待～",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对南华早报记者提出的如何看待2022年政府将GDP增长目标定在5 -5 5 的问题 付凌晖正在回答 更多直播内容详情 O网页链接 O网页链接 稍晚会有实录放出 敬请期待",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "79E21E03AF41557057923760CCD9DF1E",
+      "timestamp": 1636945109000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "79E21E03AF41557057923760CCD9DF1E",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【答记者问】针对香港中外新闻社记者提出的2020年中国国内生产总值首次突破了100万亿元大关。今年1-10月，在新冠肺炎疫情肆虐全球、世界经济陷入严重衰退、外部环境更加复杂严峻的情况下，我国国民经济稳定恢复。请问，2021",
+        "title": "#发布会微直播# 【答记者问】针对香港中外新闻社记者提出的2020年中国<em>国内生产总值</em>首次突破了100万亿元大关。今年1-10月，在新冠肺炎疫情肆虐全球、世界经济陷入严重衰退、外部环境更加复杂严峻的情况下，我国国民经济稳定恢复。请问，2021",
+        "url": "https://weibo.com/3919628624/L1zA6DRk1?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】针对香港中外新闻社记者提出的2020年中国<em>国内生产总值</em>首次突破了100万亿元大关。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1636945109000,
+        "docDate": "2021-11-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "05C2966375959B47CC263899EC50308E",
+        "md5Url": "365F88DBB6DB83016BC4209A879915E0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】针对香港中外新闻社记者提出的2020年中国<em>国内生产总值</em>首次突破了100万亿元大关。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1636945109,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "365F88DBB6DB83016BC4209A879915E0",
+          "DRETITLE": "发布会微直播 答记者问 针对香港中外新闻社记者提出的2020年中国国内生产总值首次突破了100万亿元大关 今年1-10月 在新冠肺炎疫情肆虐全球 世界经济陷入严",
+          "URL": "https://weibo.com/3919628624/L1zA6DRk1?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "05C2966375959B47CC263899EC50308E",
+          "DRETITLEO": "#发布会微直播# 【答记者问】针对香港中外新闻社记者提出的2020年中国国内生产总值首次突破了100万亿元大关。今年1-10月，在新冠肺炎疫情肆虐全球、世界经济陷入严重衰退、外部环境更加复杂严峻的情况下，我国国民经济稳定恢复。请问，2021",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 针对香港中外新闻社记者提出的2020年中国国内生产总值首次突破了100万亿元大关 今年1-10月 在新冠肺炎疫情肆虐全球 世界经济陷入严重衰退 外部环境更加复杂严峻的情况下 我国国民经济稳定恢复 请问 2021年的第四季度 在国民经济增长方面还有哪些产业有望拉动的问题 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 27,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 17,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 13,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 9,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 56,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "工业"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "住户调查"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 30,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 23,
+          "children": null,
+          "key": "专题"
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {
+    "统计新闻": [
+      {
+        "version": "V_8_0",
+        "id": "800C0018C63F87D78E895EA393356BD8",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局公告",
+        "title": "国家统计局公告",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894252.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "国家统计局公告 2021年第2号 　　根据《中共中央办公厅、国务院办公厅关于印发〈关于从事<em>生产</em>经营活动事业单位改革的指导意见〉的通知》要求，国家统计局直属事业单位中国统计师事务所（正厅级）进行转企改制。经北京市西城区市场监督管理局核准，2021年9月8日正式注册设立“中国华信统计师事务所有限公司”。 　　公司经营范围包括：统计信息咨询；会议服务；经济贸易咨询；技术咨询；市场调查；数据处理；技术服务；互联网信息服务。 　　特此公告。 　　国家统计局 　　2021年9月24日...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1632487320000,
+        "docDate": "2021-09-24",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_26.html",
+        "weight": 0.016393442,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "7E9C83BEFF284316784A2FE387C36211",
+        "md5Url": "800C0018C63F87D78E895EA393356BD8",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "国家统计局公告 2021年第2号 　　根据《中共中央办公厅、国务院办公厅关于印发〈关于从事<em>生产</em>经营活动事业单位改革的指导意见〉的通知》要求，国家统计局直属事业单位中国统计师事务所（正厅级）进行转企改制。经北京市西城区市场监督管理局核准，2021年9月8日正式注册设立“中国华信统计师事务所有限公司”。 　　公司经营范围包括：统计信息咨询；会议服务；经济贸易咨询；技术咨询；市场调查；数据处理；技术服务；互联网信息服务。 　　特此公告。 　　国家统计局 　　2021年9月24日...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894252.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/P020230202402706942945.pdf": "· 中国华信统计师事务所有限公司.pdf"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_26.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1632487320,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "800C0018C63F87D78E895EA393356BD8",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局公告",
+          "MD5TITLE": "7E9C83BEFF284316784A2FE387C36211",
+          "QUICKDESCRIPTION": "国家统计局公告 2021年第2号 　　根据《中共中央办公厅、国务院办公厅关于印发〈关于从事生产经营活动事业单位改革的指导意见〉的通知》要求，国家统计局直属事业单位中国统计师事务所（正厅级）进行转企改制。经北京市西城区市场监督管理局核准，2021年9月8日正式注册设立“中国华信统计师事务所有限公司”。 　　公司经营范围包括：统计信息咨询；会议服务；经济贸易咨询；技术咨询；市场调查；数据处理；技术服务；互联网信息服务。 　　特此公告。 　　国家统计局 　　2021年9月24日",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [
+          "NEWS"
+        ],
+        "type": 1
+      },
+      {
+        "version": "V_8_0",
+        "id": "CF6728C89C9E1D001F73F78400A2A8F2",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局国际统计信息中心决算(2020)",
+        "title": "国家统计局国际统计信息中心决算(2020)",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894234.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "请见附件。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1627975800000,
+        "docDate": "2021-08-03",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_28.html",
+        "weight": 0.015625,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "4319625BA6CC72DE695EF517DD8A8C88",
+        "md5Url": "CF6728C89C9E1D001F73F78400A2A8F2",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "请见附件。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894234.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局国际统计信息中心决算(2020)",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/P020230202402676168076.pdf": "· 国家统计局国际统计信息中心决算(2020).pdf"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_28.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1627975800,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "CF6728C89C9E1D001F73F78400A2A8F2",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局国际统计信息中心决算 2020",
+          "MD5TITLE": "4319625BA6CC72DE695EF517DD8A8C88",
+          "QUICKDESCRIPTION": "请见附件。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      {
+        "version": "V_8_0",
+        "id": "1E5324F25C1CDBAF8D29F17A0DD3923B",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局服务业调查中心预算（2021）",
+        "title": "国家统计局服务业调查中心预算（2021）",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894197.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "见附件。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1618558200000,
+        "docDate": "2021-04-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_30.html",
+        "weight": 0.015384615,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "05C3FC03584EE87487E12847523F4817",
+        "md5Url": "1E5324F25C1CDBAF8D29F17A0DD3923B",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "见附件。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894197.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局服务业调查中心预算（2021）",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/P020230202402574595945.pdf": "· 国家统计局服务业调查中心预算（2021）.pdf"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_30.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1618558200,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "1E5324F25C1CDBAF8D29F17A0DD3923B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局服务业调查中心预算 2021",
+          "MD5TITLE": "05C3FC03584EE87487E12847523F4817",
+          "QUICKDESCRIPTION": "　　见附件。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      }
+    ]
+  }
+}

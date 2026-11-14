@@ -1,0 +1,2327 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 39,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "工业生产者出厂价格",
+    "originQt": "工业生产者出厂价格",
+    "showQt": "工业生产者出厂价格",
+    "encodeQt": "%E5%B7%A5%E4%B8%9A%E7%94%9F%E4%BA%A7%E8%80%85%E5%87%BA%E5%8E%82%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "工业生产者出厂价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "工业": "NN"
+      },
+      {
+        "生产者": "NN"
+      },
+      {
+        "出厂": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "工业": "NN"
+      },
+      {
+        "生产者": "NN"
+      },
+      {
+        "出厂价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "出厂",
+      "出厂价格",
+      "生产者",
+      "价格",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [
+      {
+        "forceStatus": 0,
+        "score": 0.5230583,
+        "id": "4f55a39a-f59d-420b-b7a8-6c1bfa8aa42d",
+        "name": "工业品出厂价格指数",
+        "showTitle": "工业品出厂价格指数",
+        "vectorTitleo": "",
+        "sort": 10,
+        "type": 0,
+        "subjectType": 0,
+        "subjectPicInfoList": [
+          {
+            "imgUrl": "https://file.so-gov.cn/cps/pro/bm36000002/sceneSubject/6e9e3201717f4b9c82fa29aeb9eea74f.png",
+            "title": "工业品出厂价格指数",
+            "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/search?s=%E5%B7%A5%E4%B8%9A%E5%93%81%E5%87%BA%E5%8E%82%E4%BB%B7%E6%A0%BC%E6%8C%87%E6%95%B0"
+          }
+        ],
+        "staticHtml": "<div style=\"text-indent:0px;\">\n      <a href=\"javascript:void('0');\" onclick=\"ask('PPI统计中是否包含增值税？');\">PPI统计中是否包含增值税？</a>\n</div>",
+        "rightDocList": [
+          {
+            "id": "DF2DA041DA8F6C4ADD3537D73139743A",
+            "title": "工业生产者出厂价格指数（PPI）是如何编制的",
+            "url": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903637.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1740708000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "工业生产者出厂价格是工业企业产品第一次出售时的价格，通过编制工业生产者出厂价格指数，可以客观准确地反映各工业行业产品价格水平及其变化趋势和变动幅度，为国民经济核算、宏观经济分析和调控、理顺价格体系等提供可靠的依据。 一、工业生产者出厂价格指数（PPI）的基本概念 生产者价格指数（Producer Price Index，简称PPI），理论上应涵盖所有产业，即包括农业生产者价格指数、工业生产者价格指数和服务业生产者价格指数等指数。由于历史及技术原因，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "AD00B9714CE50C4F2C7E80F447B83520",
+            "md5Url": "DF2DA041DA8F6C4ADD3537D73139743A",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "E0483BD48506F9505E881202D505E6F1",
+            "title": "工业生产增长速度的基础数据来源",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202412/t20241220_1957812.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1735524000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、调查对象和调查方法 调查对象为规模以上工业企业，2022年底约有47万家，分布在全国31个省（区、市）。月度调查中的“工业产销总值及主要产品产量”和年度调查中的“财务状况（成本费用）”报表均为全面调查。 二、组织实施机构及调查工作流程 规模以上工业在月度中实行全面调查，调查的组织实施机构是国家统计局和地方各级统计局。 调查工作流程分为报表制度布置和数据采集两个阶段。国家统计局于每年9—10月对各省（区、市）就下一年度规模以上工业企业调查及其报表制度进行布置和培训，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "FB50E73F8AE51C3120DCAC33E5AE5DE1",
+            "md5Url": "E0483BD48506F9505E881202D505E6F1",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "90571C6D714A30A80596175AC118CDF7",
+            "title": "工业生产增长速度的计算方法",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202410/t20241025_1957170.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1730340000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、基本情况 工业生产增长速度的计算由国家统计局组织实施。国家统计局负责制定工业生产增长速度的计算方法，确定调查范围和调查频率，并按月计算和公布工业生产增长速度。省及省以下各级的工业生产增长速度由当地统计局按照国家统一的计算方法计算，并经上一级统计局审核评估后对外发布。 工业生产增长速度是对工业生产增减变化的反映，其计算必须依赖于能够反映工业生产总体的一个总量指标。为了与国民经济核算相衔接，目前，采用工业增加值作为计算工业生产增长速度的总量指标。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "8FCD3F255E06AE691F7FBDEC394DF8D1",
+            "md5Url": "90571C6D714A30A80596175AC118CDF7",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "F60E9552C88A450513F1E58593E41190",
+            "title": "什么是工业生产者出厂价格指数（PPI）",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gyscz/202409/t20240910_1956355.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1726192800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、工业生产者出厂价格指数（PPI）的基本定义 工业生产者出厂价格指数指一定时期内工业企业产品第一次出售时的出厂价格总水平的变动趋势和变动幅度的相对数，一般称为PPI（Producer  Price  Index）。此外，在价格统计工作中，我国也编制工业生产者购进价格指数，该指数是反映工业企业作为中间投入的原材料、燃料、动力购进价格总水平的变动趋势和变动幅度的相对数。在实际工作中，也将工业生产者出厂价格指数和购进价格指数统称为PPI。 二、",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "E1DE6DB4685755E1D89416810DC58A0D",
+            "md5Url": "F60E9552C88A450513F1E58593E41190",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "6FECD29E87747A93A1C5A3246002318F",
+            "title": "什么是工业生产增长速度",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202409/t20240909_1956328.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1726192800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、工业生产增长速度的基本含义 工业生产增长速度也称工业增加值增长速度，简称工业增长速度，它是以工业增加值作为总量指标计算出来的，反映一定时期全国或某一地区工业生产增减变动的相对数，通常以百分数表示。例如，2022年9月，全国规模以上工业增加值同比增长6.3％。 由于工业统计调查的范围和频率不同，工业增长速度又分为全部工业增长速度和规模以上工业增长速度。全部工业增长速度，其统计范围为全部工业，按季度和年度统计、计算和公布。规模以上工业增长速度，其统计范围为规模以上工业，按月度统计、计算和公布。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "30EEAF41F25C97C35B66FCDEB94354BF",
+            "md5Url": "6FECD29E87747A93A1C5A3246002318F",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          }
+        ],
+        "categoryEntityList": [
+          {
+            "id": "6f25314bf88babf1776fcb6d9d82adfd",
+            "title": "最新发布",
+            "moreUrl": "",
+            "showType": 4,
+            "documentList": [
+              {
+                "id": "0C147E00072495038CE339BD347D2E32",
+                "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794619800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年11月上旬与10月下旬相比，16种产品价格上涨，32种下降，2种持平。   2026年11月上旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌（元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3152.4 -14.9 -0.5 线材（Φ8—10mm，HPB300） 吨 3362.0 -16.3 -",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "E4E7F75CDA2C0294B0608E0C91078463",
+                "md5Url": "0C147E00072495038CE339BD347D2E32",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "6DCFE4F391E0FE0FF31459E2695F78D1",
+                "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794187800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "　　2026年10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。工业生产者购进价格同比上涨7.9%，环比上涨1.1%。1—10月平均，工业生产者出厂价格比上年同期上涨2.7%，工业生产者购进价格上涨4.0%。       　　一、工业生产者价格同比变动情况   　　10月份，工业生产者出厂价格中，生产资料价格同比上涨7.4%，影响工业生产者出厂价格总水平上涨约5.77个百分点。其中，采掘工业价格上涨27.9%，原材料工业价格上涨11.6%，加工工业价格上涨3.5%。",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "E85CA4688422DED5A953E2CA35D40574",
+                "md5Url": "6DCFE4F391E0FE0FF31459E2695F78D1",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "57D8D6B92920D65FBED7937A9FC1186F",
+                "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261103_1965738.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793755800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月下旬与10月中旬相比，17种产品价格上涨，28种下降，5种持平。   2026年10月下旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌（元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3167.3 -20.5 -0.6 线材（Φ8—10mm，HPB300） 吨 3378.3 -8.6 -0.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "40FBF558A7A508963F27D79AB6379831",
+                "md5Url": "57D8D6B92920D65FBED7937A9FC1186F",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "21C7D6402D6EF55694724FB53D277B5A",
+                "title": "2026年10月中国采购经理指数运行情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793410200000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "国家统计局服务业调查中心 中国物流与采购联合会   　　一、中国制造业采购经理指数运行情况   　　10月份，制造业采购经理指数（PMI）为49.3%，比上月下降0.8个百分点，制造业景气水平有所回落。     　　从企业规模看，大型企业PMI为50.2%，比上月下降0.4个百分点，仍高于临界点；中、小型企业PMI分别为48.4%和47.5%，比上月下降1.3个和1.4个百分点，低于临界点。   　　从分类指数看，构成制造业PMI的5个分类指数中，供应商配送时间指数高于临界点；生产指数、",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "66D0E44955328647F9DC27AFF3CE40B2",
+                "md5Url": "21C7D6402D6EF55694724FB53D277B5A",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "3AEE791EFCDA99E03582F094E9537DBB",
+                "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792805400000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月中旬与9月下旬相比，22种产品价格上涨，25种下降，3种持平。   2026年10月中旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌 （元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3187.8 11.9 0.4 线材（Φ8—10mm，HPB300） 吨 3386.9 15.9 0.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "34444A80F2294C3BB21D1EB47060A5C7",
+                "md5Url": "3AEE791EFCDA99E03582F094E9537DBB",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              }
+            ],
+            "icon": "",
+            "mainSearchCombin": 0
+          },
+          {
+            "id": "fef04e61f58b30914f80ddf405445c23",
+            "title": "数据解读",
+            "moreUrl": "",
+            "showType": 4,
+            "documentList": [
+              {
+                "id": "178365D48F4B2547A95AEDA1F0A1491F",
+                "title": "国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794187800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "2026年10月份CPI同比继续上涨 PPI环比涨幅回落   ——国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据   　　10月份，居民消费价格指数（CPI）环比持平；同比上涨0.7%，涨幅比上月回落0.2个百分点；扣除食品和能源价格的核心CPI同比上涨0.8%，涨幅比上月回落0.2个百分点。工业生产者出厂价格指数（PPI）环比上涨0.7%，涨幅比上月回落0.5个百分点；同比上涨5.7%，涨幅比上月扩大0.7个百分点。   　　一、CPI同比继续上涨   　　从环比看，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "68BB7E79F853ABE2FEAF1A358F87C5AC",
+                "md5Url": "178365D48F4B2547A95AEDA1F0A1491F",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "B9787B39A3BBCC3A81DDF337323EA576",
+                "title": "国家统计局服务业调查中心首席统计师霍丽慧解读2026年10月中国采购经理指数",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793410200000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "10月份采购经理指数有所回落   ——国家统计局服务业调查中心首席统计师霍丽慧解读2026年10月中国采购经理指数   　　2026年10月31日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数。对此，国家统计局服务业调查中心首席统计师霍丽慧进行了解读。   　　10月份，制造业采购经理指数、非制造业商务活动指数和综合PMI产出指数分别为49.3%、49.7%和49.7%，比上月下降0.8个、0.5个和1.0个百分点，经济景气水平较上月回落。   　　一、",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "FBA2471FC7F74EE3CC56070E65ED9A7D",
+                "md5Url": "B9787B39A3BBCC3A81DDF337323EA576",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "03344909B5B360F5F1661595C1521DA2",
+                "title": "沈赟：前三季度CPI保持温和上涨 PPI波动上行",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965630.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792461600000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "　　今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，着力发挥宏观政策效能，内需潜力持续释放，新质生产力加快发展，市场运行总体平稳，消费领域价格保持温和上涨，生产领域价格波动上行。   　　一、消费领域价格保持温和上涨   　　前三季度，CPI比上年同期上涨0.9%，涨幅比上半年回落0.1个百分点，但明显高于上年同期和上年全年。分月看，1、2月份，受春节错月等因素影响，CPI同比分别上涨0.2%和1.3%；3—6月份，CPI同比涨幅总体稳定，保持在1.0%—1.2%之间；7月份，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "D7F4DB2DB771FD8233482D2966F1B4E1",
+                "md5Url": "03344909B5B360F5F1661595C1521DA2",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "2D141FD773DFC351EDD75A4DCDC1EBD5",
+                "title": "国家统计局副局长就2026年前三季度国民经济运行情况答记者问",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965653.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792401120000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "（2026年10月19日）     　　总台央视记者：   　　今年是“十五五”开局之年，前三季度的经济表现对于实现全年发展目标有着至关重要的意义。请问您如何评价前三季度国民经济运行情况，经济运行呈现出哪些新的亮点，还面临哪些压力和挑战？谢谢。     　　毛盛勇：   　　谢谢您的提问。从刚才介绍的前三季度经济运行主要指标数据来看，有以下特点：   　　第一，运行平稳。从经济增长看，前三季度国内生产总值超过107万亿元，同比增速为4.6%，符合全年经济增长预期目标。根据一些国际机构的预测，4.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "527E835EA89536990DDB50139672448F",
+                "md5Url": "2D141FD773DFC351EDD75A4DCDC1EBD5",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "2972678D0152EFF7C41BA86B7D8006C7",
+                "title": "国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261014_1965475.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1791941400000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "2026年9月份CPI、PPI同比涨幅均扩大   ——国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据   　　9月份，居民消费价格指数（CPI）环比上涨0.2%，涨幅比上月回落0.2个百分点；同比上涨0.9%，涨幅比上月扩大0.1个百分点；扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。工业生产者出厂价格指数（PPI）环比上涨1.2%，涨幅比上月扩大0.8个百分点；同比上涨5.0%，涨幅比上月扩大1.2个百分点。   　　一、CPI环比涨幅回落，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "10282FEB2F2C97CA5FC2ACAC8B63F08B",
+                "md5Url": "2972678D0152EFF7C41BA86B7D8006C7",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              }
+            ],
+            "icon": "",
+            "mainSearchCombin": 0
+          }
+        ]
+      }
+    ],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 13.711515,
+        "id": "600d4753-4a79-4ba8-824e-0b300d4015ee",
+        "name": "各种价格指数",
+        "showTitle": "",
+        "url": "https://file.so-gov.cn/wedatas/pro/custom/906fb12c3e74bdd5225a8b50343f17bc/",
+        "iframeHeight": 422,
+        "sourceUrl": "",
+        "source": "<div class=\"laiyuan\" style=\"font-size: 16px;text-align: right;\">来源：   <a href=\"https://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0901&sj=2022\" target=\"_blank\">国家数据</a></div>",
+        "h5": 0,
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "866AA0B501AD4EB2D7ABFB968628A05B",
+      "timestamp": 1544330340000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "866AA0B501AD4EB2D7ABFB968628A05B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2018年11月份工业生产者出厂价格同比上涨2.7%",
+        "title": "【数据发布】2018年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.7%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651315261&idx=2&sn=ccd51f1cbc476a33783f6efe9a2e02e9&chksm=bd1120308a66a926daacf91e5d286b8ee6389933eacba6b7e4a23ea8ed27feaf32947fe958f5&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1-11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.8%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨3.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约2.47个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.3%，燃料动力类<em>价格</em>上涨7.9%，黑色金属材料类<em>价格</em>上涨5.5%；有色金属材料及电线类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.25个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1544330340000,
+        "docDate": "2018-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "B40BC4322A4A406496FDE7DE3E57857B",
+        "md5Url": "E837E638131C4DAA12348F3C36B8BAC7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.8%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨3.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约2.47个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.3%，燃料动力类<em>价格</em>上涨7.9%，黑色金属材料类<em>价格</em>上涨5.5%；有色金属材料及电线类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.25个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1544330340,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "E837E638131C4DAA12348F3C36B8BAC7",
+          "DRETITLE": "数据发布 2018年11月份工业生产者出厂价格同比上涨2 7",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651315261&idx=2&sn=ccd51f1cbc476a33783f6efe9a2e02e9&chksm=bd1120308a66a926daacf91e5d286b8ee6389933eacba6b7e4a23ea8ed27feaf32947fe958f5&scene=0",
+          "MD5TITLE": "B40BC4322A4A406496FDE7DE3E57857B",
+          "DRETITLEO": "【数据发布】2018年11月份工业生产者出厂价格同比上涨2.7%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6C9F0645D96E3DCC714A05D4C3DA4A56",
+      "timestamp": 1544319724000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6C9F0645D96E3DCC714A05D4C3DA4A56",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年11月份工业生产者出厂价格同比上涨2.7%】2018年11月份，全国工业生产者出厂价格同比上涨2.7%，环比下降0.2%。工业生产者购进价格同比上涨3.3%，环比持平。1-11月平均，工业生产者出厂价格比去年同期上涨",
+        "title": "#数据发布#【2018年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.7%】2018年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.7%，环比下降0.2%。<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨3.3%，环比持平。1-11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨",
+        "url": "https://weibo.com/3919628624/H6oM4sRHj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1-11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.8%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 数据发布 【2018年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.7%】2018年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.7%，环比下降0.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1544319724000,
+        "docDate": "2018-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "B3B9316BCCB2F91D28F1698F332B2397",
+        "md5Url": "C4EE3E70F711C0E784A3177284E422CA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.8%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 数据发布 【2018年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.7%】2018年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.7%，环比下降0.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1544319724,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C4EE3E70F711C0E784A3177284E422CA",
+          "DRETITLE": "数据发布 2018年11月份工业生产者出厂价格同比上涨2 7 2018年11月份 全国工业生产者出厂价格同比上涨2 7 环比下降0 2 工业生产者购进价格同比上",
+          "URL": "https://weibo.com/3919628624/H6oM4sRHj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B3B9316BCCB2F91D28F1698F332B2397",
+          "DRETITLEO": "#数据发布#【2018年11月份工业生产者出厂价格同比上涨2.7%】2018年11月份，全国工业生产者出厂价格同比上涨2.7%，环比下降0.2%。工业生产者购进价格同比上涨3.3%，环比持平。1-11月平均，工业生产者出厂价格比去年同期上涨",
+          "QUICKDESCRIPTION": "数据发布 2018年11月份工业生产者出厂价格同比上涨2 7 2018年11月份 全国工业生产者出厂价格同比上涨2 7 环比下降0 2 工业生产者购进价格同比上涨3 3 环比持平 1-11月平均 工业生产者出厂价格比去年同期上涨3 8 工业生产者购进价格上涨4 4 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A108B2B3468BFBA41308E6F4FE117102",
+      "timestamp": 1544319000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A108B2B3468BFBA41308E6F4FE117102",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年11月份工业生产者出厂价格同比上涨2.7%",
+        "title": "2018年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨2.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900163.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1-11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.8%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨3.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约2.47个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.3%，燃料动力类<em>价格</em>上涨7.9%，黑色金属材料类<em>价格</em>上涨5.5%；有色金属材料及电线类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.25个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1-11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.8%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨3.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约2.47个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.3%，燃料动力类<em>价格</em>上涨7.9%，黑色金属材料类<em>价格</em>上涨5.5%；有色金属材料及电线类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.25个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1544319000000,
+        "docDate": "2018-12-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/B4936A87371E8AC6F44C22B4D04BA83E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_44.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "8CBBDE47430D53F3CC247A144E6B8E31",
+        "md5Url": "A108B2B3468BFBA41308E6F4FE117102",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.8%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨3.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约2.47个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.3%，燃料动力类<em>价格</em>上涨7.9%，黑色金属材料类<em>价格</em>上涨5.5%；有色金属材料及电线类<em>价格</em>下降2.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.25个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900163.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年11月份工业生产者出厂价格同比上涨2.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/B4936A87371E8AC6F44C22B4D04BA83E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_44.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1544319000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A108B2B3468BFBA41308E6F4FE117102",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年11月份工业生产者出厂价格同比上涨2 7",
+          "MD5TITLE": "8CBBDE47430D53F3CC247A144E6B8E31",
+          "QUICKDESCRIPTION": "2018年11月份工业生产者出厂价格同比上涨2.7% 2018/12/09 09:30 | Aa 字体： 小 中 大 | 　　2018年11月份，全国工业生产者出厂价格同比上涨2.7%，环比下降0.2%。工业生产者购进价格同比上涨3.3%，环比持平。1-11月平均，工业生产者出厂价格比去年同期上涨3.8%，工业生产者购进价格上涨4.4%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比上涨3.3%，影响工业生产者出厂价格总水平上涨约2.47个百分点。其中，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4C824EA20657BDCC155D019E0FE02AA2",
+      "timestamp": 1542163085000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4C824EA20657BDCC155D019E0FE02AA2",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【答记者问】下阶段物价走势如何？基础设施投资会否对工业生产者出厂价格造成影响？针对经济日报记者的提问，新闻发言人刘爱华正在回答，更多直播内容详见O网页链接。也可以关注——统计微讯，稍晚会有实录放出。",
+        "title": "#发布会微直播# 【答记者问】下阶段物价走势如何？基础设施投资会否对<em>工业</em><em>生产者</em><em>出厂价格</em>造成影响？针对经济日报记者的提问，新闻发言人刘爱华正在回答，更多直播内容详见O网页链接。也可以关注——统计微讯，稍晚会有实录放出。",
+        "url": "https://weibo.com/3919628624/H2Bsouzr4?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【答记者问】下阶段物价走势如何 基础设施投资会否对<em>工业</em><em>生产者</em><em>出厂价格</em>造成影响 针对经济日报记者的提问，新闻发言人刘爱华正在回答，更多直播内容详见 O网页链接。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1542163085000,
+        "docDate": "2018-11-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "1AA1B90F6F1BD49ACC652B2AD895C363",
+        "md5Url": "2348149D38070F8E097D625841E66828",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【答记者问】下阶段物价走势如何 基础设施投资会否对<em>工业</em><em>生产者</em><em>出厂价格</em>造成影响 针对经济日报记者的提问，新闻发言人刘爱华正在回答，更多直播内容详见 O网页链接。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1542163085,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2348149D38070F8E097D625841E66828",
+          "DRETITLE": "发布会微直播 答记者问 下阶段物价走势如何 基础设施投资会否对工业生产者出厂价格造成影响 针对经济日报记者的提问 新闻发言人刘爱华正在回答 更多直播内容详见O网",
+          "URL": "https://weibo.com/3919628624/H2Bsouzr4?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1AA1B90F6F1BD49ACC652B2AD895C363",
+          "DRETITLEO": "#发布会微直播# 【答记者问】下阶段物价走势如何？基础设施投资会否对工业生产者出厂价格造成影响？针对经济日报记者的提问，新闻发言人刘爱华正在回答，更多直播内容详见O网页链接。也可以关注——统计微讯，稍晚会有实录放出。",
+          "QUICKDESCRIPTION": "发布会微直播 答记者问 下阶段物价走势如何 基础设施投资会否对工业生产者出厂价格造成影响 针对经济日报记者的提问 新闻发言人刘爱华正在回答 更多直播内容详见O网页链接 也可以关注 统计微讯 稍晚会有实录放出",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4E4DC885DA5957D58297307EDF581517",
+      "timestamp": 1541728560000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4E4DC885DA5957D58297307EDF581517",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2018年10月份工业生产者出厂价格同比上涨3.3%",
+        "title": "【数据发布】2018年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.3%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314742&idx=2&sn=c2af6fda1304a46c60fad59c6d1e2487&chksm=bd11263b8a66af2d823442d91e48a96e664975da8d32470073c11d29592ab5955e3d365bfd87&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1-10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.18个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.6%，燃料动力类<em>价格</em>上涨9.4%，黑色金属材料类<em>价格</em>上涨5.6%；有色金属材料及电线类<em>价格</em>下降1.7%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.40个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1541728560000,
+        "docDate": "2018-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "8241EE1C5E3193D9EF1DAB868C262ADD",
+        "md5Url": "2E531515EE107A9951222B814C15F4DA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.18个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.6%，燃料动力类<em>价格</em>上涨9.4%，黑色金属材料类<em>价格</em>上涨5.6%；有色金属材料及电线类<em>价格</em>下降1.7%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.40个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1541728560,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "2E531515EE107A9951222B814C15F4DA",
+          "DRETITLE": "数据发布 2018年10月份工业生产者出厂价格同比上涨3 3",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314742&idx=2&sn=c2af6fda1304a46c60fad59c6d1e2487&chksm=bd11263b8a66af2d823442d91e48a96e664975da8d32470073c11d29592ab5955e3d365bfd87&scene=0",
+          "MD5TITLE": "8241EE1C5E3193D9EF1DAB868C262ADD",
+          "DRETITLEO": "【数据发布】2018年10月份工业生产者出厂价格同比上涨3.3%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FF26989F0DCEE12B6B393BFBF0404731",
+      "timestamp": 1541727211000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FF26989F0DCEE12B6B393BFBF0404731",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年10月份工业生产者出厂价格同比上涨3.3%】2018年10月份，全国工业生产者出厂价格同比上涨3.3%，环比上涨0.4%。工业生产者购进价格同比上涨4.0%，环比上涨0.7%。1-10月平均，工业生产者出厂价格比去年",
+        "title": "#数据发布#【2018年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.3%】2018年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.3%，环比上涨0.4%。<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.0%，环比上涨0.7%。1-10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年",
+        "url": "https://weibo.com/3919628624/H1PTHCTz3?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1-10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 数据发布 【2018年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.3%】2018年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.3%，环比上涨0.4%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1541727211000,
+        "docDate": "2018-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "AD180C334CD8216CF2E181B9A9E92A50",
+        "md5Url": "AE90E8881CB71DF36ADFECEEB90E806F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 数据发布 【2018年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.3%】2018年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.3%，环比上涨0.4%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1541727211,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "AE90E8881CB71DF36ADFECEEB90E806F",
+          "DRETITLE": "数据发布 2018年10月份工业生产者出厂价格同比上涨3 3 2018年10月份 全国工业生产者出厂价格同比上涨3 3 环比上涨0 4 工业生产者购进价格同比上",
+          "URL": "https://weibo.com/3919628624/H1PTHCTz3?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "AD180C334CD8216CF2E181B9A9E92A50",
+          "DRETITLEO": "#数据发布#【2018年10月份工业生产者出厂价格同比上涨3.3%】2018年10月份，全国工业生产者出厂价格同比上涨3.3%，环比上涨0.4%。工业生产者购进价格同比上涨4.0%，环比上涨0.7%。1-10月平均，工业生产者出厂价格比去年",
+          "QUICKDESCRIPTION": "数据发布 2018年10月份工业生产者出厂价格同比上涨3 3 2018年10月份 全国工业生产者出厂价格同比上涨3 3 环比上涨0 4 工业生产者购进价格同比上涨4 0 环比上涨0 7 1-10月平均 工业生产者出厂价格比去年同期上涨3 9 工业生产者购进价格上涨4 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FF54CD30CE1105C77923651963117BC0",
+      "timestamp": 1541727000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FF54CD30CE1105C77923651963117BC0",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年10月份工业生产者出厂价格同比上涨3.3%",
+        "title": "2018年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.3%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900133.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1-10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.18个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.6%，燃料动力类<em>价格</em>上涨9.4%，黑色金属材料类<em>价格</em>上涨5.6%；有色金属材料及电线类<em>价格</em>下降1.7%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.40个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1-10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.18个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.6%，燃料动力类<em>价格</em>上涨9.4%，黑色金属材料类<em>价格</em>上涨5.6%；有色金属材料及电线类<em>价格</em>下降1.7%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.40个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1541727000000,
+        "docDate": "2018-11-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/1073D266145457A3DEDCE1EDD1DD4012.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_45.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "78A828C8D65711E940F0D944191E6550",
+        "md5Url": "FF54CD30CE1105C77923651963117BC0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.18个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨9.6%，燃料动力类<em>价格</em>上涨9.4%，黑色金属材料类<em>价格</em>上涨5.6%；有色金属材料及电线类<em>价格</em>下降1.7%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.40个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900133.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年10月份工业生产者出厂价格同比上涨3.3%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/1073D266145457A3DEDCE1EDD1DD4012.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_45.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1541727000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "FF54CD30CE1105C77923651963117BC0",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年10月份工业生产者出厂价格同比上涨3 3",
+          "MD5TITLE": "78A828C8D65711E940F0D944191E6550",
+          "QUICKDESCRIPTION": "2018年10月份工业生产者出厂价格同比上涨3.3% 2018/11/09 09:30 | Aa 字体： 小 中 大 | 　　2018年10月份，全国工业生产者出厂价格同比上涨3.3%，环比上涨0.4%。工业生产者购进价格同比上涨4.0%，环比上涨0.7%。1-10月平均，工业生产者出厂价格比去年同期上涨3.9%，工业生产者购进价格上涨4.5%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比上涨4.2%，影响工业生产者出厂价格总水平上涨约3.18个百分点。其中，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FD89BC1768A046563227769CEE9531CB",
+      "timestamp": 1539654300000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FD89BC1768A046563227769CEE9531CB",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2018年9月份工业生产者出厂价格同比上涨3.6%",
+        "title": "【数据发布】2018年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.6%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314225&idx=2&sn=1fe136891e16dd11fe4540771ef286ef&chksm=bd11243c8a66ad2ac763ca95ad5cba02d91e91f644ba25bb5fd5ffdc552dbcd79f70b106c23d&scene=27",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1-9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.46个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.0%，燃料动力类<em>价格</em>上涨9.2%，黑色金属材料类<em>价格</em>上涨5.1%；有色金属材料及电线类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.54个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1539654300000,
+        "docDate": "2018-10-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "E6170DF67AB5414589B0DAF5C1A94BF7",
+        "md5Url": "EFBDC1E0F08BC669C9A866B25BDF3D01",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.46个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.0%，燃料动力类<em>价格</em>上涨9.2%，黑色金属材料类<em>价格</em>上涨5.1%；有色金属材料及电线类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.54个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1539654300,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "EFBDC1E0F08BC669C9A866B25BDF3D01",
+          "DRETITLE": "数据发布 2018年9月份工业生产者出厂价格同比上涨3 6",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314225&idx=2&sn=1fe136891e16dd11fe4540771ef286ef&chksm=bd11243c8a66ad2ac763ca95ad5cba02d91e91f644ba25bb5fd5ffdc552dbcd79f70b106c23d&scene=27",
+          "MD5TITLE": "E6170DF67AB5414589B0DAF5C1A94BF7",
+          "DRETITLEO": "【数据发布】2018年9月份工业生产者出厂价格同比上涨3.6%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FFE8E7B9890572D77BAA3BCE709BA0FD",
+      "timestamp": 1539653613000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FFE8E7B9890572D77BAA3BCE709BA0FD",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年9月份工业生产者出厂价格同比上涨3.6%】2018年9月份，全国工业生产者出厂价格同比上涨3.6%，环比上涨0.6%。工业生产者购进价格同比上涨4.2%，环比上涨0.6%。1-9月平均，工业生产者出厂价格比去年同期上",
+        "title": "#数据发布#【2018年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.6%】2018年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.6%，环比上涨0.6%。<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.2%，环比上涨0.6%。1-9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上",
+        "url": "https://weibo.com/3919628624/GE967h8ou?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1-9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 数据发布 【2018年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.6%】2018年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.6%，环比上涨0.6%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1539653613000,
+        "docDate": "2018-10-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "25A0646B3F4044F0D2E03DB57E8C3CE7",
+        "md5Url": "F4E6DC3912AFA9141C03C729760FAA11",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 数据发布 【2018年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.6%】2018年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.6%，环比上涨0.6%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1539653613,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F4E6DC3912AFA9141C03C729760FAA11",
+          "DRETITLE": "数据发布 2018年9月份工业生产者出厂价格同比上涨3 6 2018年9月份 全国工业生产者出厂价格同比上涨3 6 环比上涨0 6 工业生产者购进价格同比上涨4",
+          "URL": "https://weibo.com/3919628624/GE967h8ou?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "25A0646B3F4044F0D2E03DB57E8C3CE7",
+          "DRETITLEO": "#数据发布#【2018年9月份工业生产者出厂价格同比上涨3.6%】2018年9月份，全国工业生产者出厂价格同比上涨3.6%，环比上涨0.6%。工业生产者购进价格同比上涨4.2%，环比上涨0.6%。1-9月平均，工业生产者出厂价格比去年同期上",
+          "QUICKDESCRIPTION": "数据发布 2018年9月份工业生产者出厂价格同比上涨3 6 2018年9月份 全国工业生产者出厂价格同比上涨3 6 环比上涨0 6 工业生产者购进价格同比上涨4 2 环比上涨0 6 1-9月平均 工业生产者出厂价格比去年同期上涨4 0 工业生产者购进价格上涨4 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8F74C3E93C050961E99AC58A1A7815F5",
+      "timestamp": 1539653400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8F74C3E93C050961E99AC58A1A7815F5",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年9月份工业生产者出厂价格同比上涨3.6%",
+        "title": "2018年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨3.6%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900101.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1-9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.46个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.0%，燃料动力类<em>价格</em>上涨9.2%，黑色金属材料类<em>价格</em>上涨5.1%；有色金属材料及电线类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.54个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1-9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.46个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.0%，燃料动力类<em>价格</em>上涨9.2%，黑色金属材料类<em>价格</em>上涨5.1%；有色金属材料及电线类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.54个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1539653400000,
+        "docDate": "2018-10-16",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/18C52AF6587D14C6D5EECF130A9B12D6.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_46.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "08CE8B56653021D3ECB03B83EA09C79D",
+        "md5Url": "8F74C3E93C050961E99AC58A1A7815F5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨4.6%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.46个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.0%，燃料动力类<em>价格</em>上涨9.2%，黑色金属材料类<em>价格</em>上涨5.1%；有色金属材料及电线类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.54个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900101.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年9月份工业生产者出厂价格同比上涨3.6%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/18C52AF6587D14C6D5EECF130A9B12D6.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_46.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1539653400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "8F74C3E93C050961E99AC58A1A7815F5",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年9月份工业生产者出厂价格同比上涨3 6",
+          "MD5TITLE": "08CE8B56653021D3ECB03B83EA09C79D",
+          "QUICKDESCRIPTION": "2018年9月份工业生产者出厂价格同比上涨3.6% 2018/10/16 09:30 | Aa 字体： 小 中 大 | 　　2018年9月份，全国工业生产者出厂价格同比上涨3.6%，环比上涨0.6%。工业生产者购进价格同比上涨4.2%，环比上涨0.6%。1-9月平均，工业生产者出厂价格比去年同期上涨4.0%，工业生产者购进价格上涨4.5%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比上涨4.6%，影响工业生产者出厂价格总水平上涨约3.46个百分点。其中，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "574A563DEC4BC87A57A4A43B804A596A",
+      "timestamp": 1536546900000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "574A563DEC4BC87A57A4A43B804A596A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2018年8月份工业生产者出厂价格同比上涨4.1%",
+        "title": "【数据发布】2018年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651313584&idx=2&sn=97eeb4ffa36051ca9862f1a727373004&chksm=bd1129bd8a66a0ab1a4564f3649c22f65eb65435325d1630d82427ecc0d97c10adcfefa43bb5&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1-8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨5.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.91个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.5%，燃料动力类<em>价格</em>上涨9.7%，黑色金属材料类<em>价格</em>上涨6.2%，有色金属材料及电线类<em>价格</em>上涨2.5%；农副产品类<em>价格</em>下降0.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.35个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1536546900000,
+        "docDate": "2018-09-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "CB33F482DB4266A7B0FE24656D19CEA1",
+        "md5Url": "F2D0C1C7ECE27E4F4AE17D90DE62EC08",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨5.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.91个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.5%，燃料动力类<em>价格</em>上涨9.7%，黑色金属材料类<em>价格</em>上涨6.2%，有色金属材料及电线类<em>价格</em>上涨2.5%；农副产品类<em>价格</em>下降0.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.35个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1536546900,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "F2D0C1C7ECE27E4F4AE17D90DE62EC08",
+          "DRETITLE": "数据发布 2018年8月份工业生产者出厂价格同比上涨4 1",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651313584&idx=2&sn=97eeb4ffa36051ca9862f1a727373004&chksm=bd1129bd8a66a0ab1a4564f3649c22f65eb65435325d1630d82427ecc0d97c10adcfefa43bb5&scene=0",
+          "MD5TITLE": "CB33F482DB4266A7B0FE24656D19CEA1",
+          "DRETITLEO": "【数据发布】2018年8月份工业生产者出厂价格同比上涨4.1%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7E0D76B86A659F840765D02B2D085B33",
+      "timestamp": 1536543299000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7E0D76B86A659F840765D02B2D085B33",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年8月份工业生产者出厂价格同比上涨4.1%】2018年8月份，全国工业生产者出厂价格同比上涨4.1%，环比上涨0.4%。工业生产者购进价格同比上涨4.8%，环比上涨0.5%。1-8月平均，工业生产者出厂价格比去年同期上",
+        "title": "#数据发布#【2018年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%】2018年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%，环比上涨0.4%。<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.8%，环比上涨0.5%。1-8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上",
+        "url": "https://weibo.com/3919628624/GyFIPq8sC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1-8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 数据发布 【2018年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%】2018年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%，环比上涨0.4%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1536543299000,
+        "docDate": "2018-09-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "374347AFA9BC31E7494A98F05A102D39",
+        "md5Url": "B8D678411AF1F7FA161286D07638B893",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 数据发布 【2018年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%】2018年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%，环比上涨0.4%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1536543299,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "B8D678411AF1F7FA161286D07638B893",
+          "DRETITLE": "数据发布 2018年8月份工业生产者出厂价格同比上涨4 1 2018年8月份 全国工业生产者出厂价格同比上涨4 1 环比上涨0 4 工业生产者购进价格同比上涨4",
+          "URL": "https://weibo.com/3919628624/GyFIPq8sC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "374347AFA9BC31E7494A98F05A102D39",
+          "DRETITLEO": "#数据发布#【2018年8月份工业生产者出厂价格同比上涨4.1%】2018年8月份，全国工业生产者出厂价格同比上涨4.1%，环比上涨0.4%。工业生产者购进价格同比上涨4.8%，环比上涨0.5%。1-8月平均，工业生产者出厂价格比去年同期上",
+          "QUICKDESCRIPTION": "数据发布 2018年8月份工业生产者出厂价格同比上涨4 1 2018年8月份 全国工业生产者出厂价格同比上涨4 1 环比上涨0 4 工业生产者购进价格同比上涨4 8 环比上涨0 5 1-8月平均 工业生产者出厂价格比去年同期上涨4 0 工业生产者购进价格上涨4 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B8E2E3E84E6CB89F8A3F45D129A4972C",
+      "timestamp": 1536543000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B8E2E3E84E6CB89F8A3F45D129A4972C",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年8月份工业生产者出厂价格同比上涨4.1%",
+        "title": "2018年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900061.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1-8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨5.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.91个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.5%，燃料动力类<em>价格</em>上涨9.7%，黑色金属材料类<em>价格</em>上涨6.2%，有色金属材料及电线类<em>价格</em>上涨2.5%；农副产品类<em>价格</em>下降0.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.35个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1-8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨5.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.91个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.5%，燃料动力类<em>价格</em>上涨9.7%，黑色金属材料类<em>价格</em>上涨6.2%，有色金属材料及电线类<em>价格</em>上涨2.5%；农副产品类<em>价格</em>下降0.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.35个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1536543000000,
+        "docDate": "2018-09-10",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/2D797606DB4548276B9BCACC020B03A0.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_48.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "57884AFB20E890EA7298624318BADCB2",
+        "md5Url": "B8E2E3E84E6CB89F8A3F45D129A4972C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨5.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约3.91个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.5%，燃料动力类<em>价格</em>上涨9.7%，黑色金属材料类<em>价格</em>上涨6.2%，有色金属材料及电线类<em>价格</em>上涨2.5%；农副产品类<em>价格</em>下降0.1%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.35个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900061.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年8月份工业生产者出厂价格同比上涨4.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/2D797606DB4548276B9BCACC020B03A0.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_48.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1536543000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B8E2E3E84E6CB89F8A3F45D129A4972C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年8月份工业生产者出厂价格同比上涨4 1",
+          "MD5TITLE": "57884AFB20E890EA7298624318BADCB2",
+          "QUICKDESCRIPTION": "2018年8月份工业生产者出厂价格同比上涨4.1% 2018/09/10 09:30 | Aa 字体： 小 中 大 | 　　2018年8月份，全国工业生产者出厂价格同比上涨4.1%，环比上涨0.4%。工业生产者购进价格同比上涨4.8%，环比上涨0.5%。1-8月平均，工业生产者出厂价格比去年同期上涨4.0%，工业生产者购进价格上涨4.5%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比上涨5.2%，影响工业生产者出厂价格总水平上涨约3.91个百分点。其中，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2776363E6B92B4A635B931FE21FDD604",
+      "timestamp": 1533778445000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2776363E6B92B4A635B931FE21FDD604",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年7月份工业生产者出厂价格同比上涨4.6%】2018年7月份，全国工业生产者出厂价格同比上涨4.6%，环比上涨0.1%。工业生产者购进价格同比上涨5.2%，环比上涨0.1%。1-7月平均，工业生产者出厂价格比去年同期上",
+        "title": "#数据发布#【2018年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.6%】2018年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.6%，环比上涨0.1%。<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨5.2%，环比上涨0.1%。1-7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上",
+        "url": "https://weibo.com/3919628624/GtO2AaxrS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1-7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 数据发布 【2018年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.6%】2018年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.6%，环比上涨0.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1533778445000,
+        "docDate": "2018-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "AE6DC5357D801235845F09C8B20DD53A",
+        "md5Url": "01F56D69A9E37BB0BCB5FD2BB2654A7A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 数据发布 【2018年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.6%】2018年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.6%，环比上涨0.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1533778445,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "01F56D69A9E37BB0BCB5FD2BB2654A7A",
+          "DRETITLE": "数据发布 2018年7月份工业生产者出厂价格同比上涨4 6 2018年7月份 全国工业生产者出厂价格同比上涨4 6 环比上涨0 1 工业生产者购进价格同比上涨5",
+          "URL": "https://weibo.com/3919628624/GtO2AaxrS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "AE6DC5357D801235845F09C8B20DD53A",
+          "DRETITLEO": "#数据发布#【2018年7月份工业生产者出厂价格同比上涨4.6%】2018年7月份，全国工业生产者出厂价格同比上涨4.6%，环比上涨0.1%。工业生产者购进价格同比上涨5.2%，环比上涨0.1%。1-7月平均，工业生产者出厂价格比去年同期上",
+          "QUICKDESCRIPTION": "数据发布 2018年7月份工业生产者出厂价格同比上涨4 6 2018年7月份 全国工业生产者出厂价格同比上涨4 6 环比上涨0 1 工业生产者购进价格同比上涨5 2 环比上涨0 1 1-7月平均 工业生产者出厂价格比去年同期上涨4 0 工业生产者购进价格上涨4 5 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9E55EBCF48AF6E3C93A30771EE9D1231",
+      "timestamp": 1533778200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9E55EBCF48AF6E3C93A30771EE9D1231",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年7月份工业生产者出厂价格同比上涨4.6%",
+        "title": "2018年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.6%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900019.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1-7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨6.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.50个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.8%，燃料动力类<em>价格</em>上涨9.9%，黑色金属材料类<em>价格</em>上涨7.7%，有色金属材料及电线类<em>价格</em>上涨5.6%；农副产品类<em>价格</em>下降0.7%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.05个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1-7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨6.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.50个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.8%，燃料动力类<em>价格</em>上涨9.9%，黑色金属材料类<em>价格</em>上涨7.7%，有色金属材料及电线类<em>价格</em>上涨5.6%；农副产品类<em>价格</em>下降0.7%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.05个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1533778200000,
+        "docDate": "2018-08-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/829E41276FD424E13FA7F2F6CDCCEAA6.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_49.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "9BBC6F63D25CB9E10DD7A45892B7528E",
+        "md5Url": "9E55EBCF48AF6E3C93A30771EE9D1231",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨4.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.5%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨6.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.50个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.8%，燃料动力类<em>价格</em>上涨9.9%，黑色金属材料类<em>价格</em>上涨7.7%，有色金属材料及电线类<em>价格</em>上涨5.6%；农副产品类<em>价格</em>下降0.7%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.05个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900019.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年7月份工业生产者出厂价格同比上涨4.6%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/829E41276FD424E13FA7F2F6CDCCEAA6.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_49.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1533778200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "9E55EBCF48AF6E3C93A30771EE9D1231",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年7月份工业生产者出厂价格同比上涨4 6",
+          "MD5TITLE": "9BBC6F63D25CB9E10DD7A45892B7528E",
+          "QUICKDESCRIPTION": "2018年7月份工业生产者出厂价格同比上涨4.6% 2018/08/09 09:30 | Aa 字体： 小 中 大 | 　　2018年7月份，全国工业生产者出厂价格同比上涨4.6%，环比上涨0.1%。工业生产者购进价格同比上涨5.2%，环比上涨0.1%。1-7月平均，工业生产者出厂价格比去年同期上涨4.0%，工业生产者购进价格上涨4.5%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比上涨6.0%，影响工业生产者出厂价格总水平上涨约4.50个百分点。其中，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9E99C1CEEF75C70102F4FF96E39EB02F",
+      "timestamp": 1531190280000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9E99C1CEEF75C70102F4FF96E39EB02F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2018年6月份工业生产者出厂价格同比上涨4.7%",
+        "title": "【数据发布】2018年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.7%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651312661&idx=2&sn=2ceaf57acf5a5e47ce3697f2d558b5c0&chksm=bd112e188a66a70e7d7dee6d5188aa65ff6fbd03f025e57900266baf16b8238364416197f715&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨6.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.61个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.9%，黑色金属材料类和燃料动力类<em>价格</em>均上涨8.1%，有色金属材料及电线类<em>价格</em>上涨7.9%；农副产品类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.32个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1531190280000,
+        "docDate": "2018-07-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "785544412169B2F850F2269C9DABF2A9",
+        "md5Url": "0F9B08865DEDC7393356E86F2F387EC2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨6.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.61个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.9%，黑色金属材料类和燃料动力类<em>价格</em>均上涨8.1%，有色金属材料及电线类<em>价格</em>上涨7.9%；农副产品类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.32个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1531190280,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "0F9B08865DEDC7393356E86F2F387EC2",
+          "DRETITLE": "数据发布 2018年6月份工业生产者出厂价格同比上涨4 7",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651312661&idx=2&sn=2ceaf57acf5a5e47ce3697f2d558b5c0&chksm=bd112e188a66a70e7d7dee6d5188aa65ff6fbd03f025e57900266baf16b8238364416197f715&scene=0",
+          "MD5TITLE": "785544412169B2F850F2269C9DABF2A9",
+          "DRETITLEO": "【数据发布】2018年6月份工业生产者出厂价格同比上涨4.7%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AFB4CEC6BED56A2A9543C67E3D74B451",
+      "timestamp": 1531186498000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AFB4CEC6BED56A2A9543C67E3D74B451",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年6月份工业生产者出厂价格同比上涨4.7%】2018年6月份，全国工业生产者出厂价格同比上涨4.7%，环比上涨0.3%。工业生产者购进价格同比上涨5.1%，环比上涨0.4%。上半年，工业生产者出厂价格比去年同期上涨3.",
+        "title": "#数据发布#【2018年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.7%】2018年6月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.7%，环比上涨0.3%。<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨5.1%，环比上涨0.4%。上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.",
+        "url": "https://weibo.com/3919628624/Gpfe2iqEq?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 数据发布 【2018年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.7%】2018年6月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.7%，环比上涨0.3%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1531186498000,
+        "docDate": "2018-07-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "16CBE723D43F0657453E18D22B27B0AE",
+        "md5Url": "3898EFB577421EA3E612C91969DAF8A0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 数据发布 【2018年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.7%】2018年6月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.7%，环比上涨0.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1531186498,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3898EFB577421EA3E612C91969DAF8A0",
+          "DRETITLE": "数据发布 2018年6月份工业生产者出厂价格同比上涨4 7 2018年6月份 全国工业生产者出厂价格同比上涨4 7 环比上涨0 3 工业生产者购进价格同比上涨5",
+          "URL": "https://weibo.com/3919628624/Gpfe2iqEq?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "16CBE723D43F0657453E18D22B27B0AE",
+          "DRETITLEO": "#数据发布#【2018年6月份工业生产者出厂价格同比上涨4.7%】2018年6月份，全国工业生产者出厂价格同比上涨4.7%，环比上涨0.3%。工业生产者购进价格同比上涨5.1%，环比上涨0.4%。上半年，工业生产者出厂价格比去年同期上涨3.",
+          "QUICKDESCRIPTION": "数据发布 2018年6月份工业生产者出厂价格同比上涨4 7 2018年6月份 全国工业生产者出厂价格同比上涨4 7 环比上涨0 3 工业生产者购进价格同比上涨5 1 环比上涨0 4 上半年 工业生产者出厂价格比去年同期上涨3 9 工业生产者购进价格上涨4 4 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "63BA900ACB4EC2F2A8B22584E9508648",
+      "timestamp": 1531186200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "63BA900ACB4EC2F2A8B22584E9508648",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年6月份工业生产者出厂价格同比上涨4.7%",
+        "title": "2018年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899984.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨6.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.61个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.9%，黑色金属材料类和燃料动力类<em>价格</em>均上涨8.1%，有色金属材料及电线类<em>价格</em>上涨7.9%；农副产品类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.32个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨6.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.61个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.9%，黑色金属材料类和燃料动力类<em>价格</em>均上涨8.1%，有色金属材料及电线类<em>价格</em>上涨7.9%；农副产品类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.32个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1531186200000,
+        "docDate": "2018-07-10",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/EA2FDBD1CABEDFE5D9A9F6FA57F8D6C9.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_50.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "3D8C0D2FD425BD4342DA25DDB7B8100E",
+        "md5Url": "63BA900ACB4EC2F2A8B22584E9508648",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "上半年，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.4%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨6.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.61个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨10.9%，黑色金属材料类和燃料动力类<em>价格</em>均上涨8.1%，有色金属材料及电线类<em>价格</em>上涨7.9%；农副产品类<em>价格</em>下降0.4%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.32个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899984.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年6月份工业生产者出厂价格同比上涨4.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/EA2FDBD1CABEDFE5D9A9F6FA57F8D6C9.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_50.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1531186200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "63BA900ACB4EC2F2A8B22584E9508648",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年6月份工业生产者出厂价格同比上涨4 7",
+          "MD5TITLE": "3D8C0D2FD425BD4342DA25DDB7B8100E",
+          "QUICKDESCRIPTION": "2018年6月份工业生产者出厂价格同比上涨4.7% 2018/07/10 09:30 | Aa 字体： 小 中 大 | 　　2018年6月份，全国工业生产者出厂价格同比上涨4.7%，环比上涨0.3%。工业生产者购进价格同比上涨5.1%，环比上涨0.4%。上半年，工业生产者出厂价格比去年同期上涨3.9%，工业生产者购进价格上涨4.4%。 　　一、工业生产者价格同比变动情况 　　工业生产者出厂价格中，生产资料价格同比上涨6.1%，影响工业生产者出厂价格总水平上涨约4.61个百分点。其中，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A371DF43F575102C36456C69781CC75D",
+      "timestamp": 1528511700000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A371DF43F575102C36456C69781CC75D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2018年5月份工业生产者出厂价格同比上涨4.1%",
+        "title": "【数据发布】2018年5月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651312278&idx=2&sn=147606888fdd6d04fdd1271f6fa7cec3&chksm=bd112c9b8a66a58d6916594fca8e9f0c8d9933d5c1bc81318e22433ce66564031d0812fa2f67&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1-5月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.7%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.2%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨5.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.07个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨11.1%，木材及纸浆类<em>价格</em>上涨7.8%，有色金属材料及电线类<em>价格</em>上涨7.6%，黑色金属材料类<em>价格</em>上涨6.6%，燃料动力类<em>价格</em>上涨5.5%；农副产品类<em>价格</em>下降0.9%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.38个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1528511700000,
+        "docDate": "2018-06-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "0588EDC7E95065C0EF9B4DC0DE0C761C",
+        "md5Url": "A657FA4160586F535666D7D9AE81D93E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-5月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.7%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.2%。 一、<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>同比上涨5.4%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约4.07个百分点。 <em>工业</em><em>生产者</em>购进<em>价格</em>中，建筑材料及非金属类<em>价格</em>同比上涨11.1%，木材及纸浆类<em>价格</em>上涨7.8%，有色金属材料及电线类<em>价格</em>上涨7.6%，黑色金属材料类<em>价格</em>上涨6.6%，燃料动力类<em>价格</em>上涨5.5%；农副产品类<em>价格</em>下降0.9%。 二、<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>环比上涨0.5%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.38个百分点。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1528511700,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "A657FA4160586F535666D7D9AE81D93E",
+          "DRETITLE": "数据发布 2018年5月份工业生产者出厂价格同比上涨4 1",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651312278&idx=2&sn=147606888fdd6d04fdd1271f6fa7cec3&chksm=bd112c9b8a66a58d6916594fca8e9f0c8d9933d5c1bc81318e22433ce66564031d0812fa2f67&scene=0",
+          "MD5TITLE": "0588EDC7E95065C0EF9B4DC0DE0C761C",
+          "DRETITLEO": "【数据发布】2018年5月份工业生产者出厂价格同比上涨4.1%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A8260DB1B3813BBBFA965709D57A2D5B",
+      "timestamp": 1528508337000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A8260DB1B3813BBBFA965709D57A2D5B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年5月份工业生产者出厂价格同比上涨4.1%】2018年5月份，全国工业生产者出厂价格同比上涨4.1%，环比上涨0.4%。工业生产者购进价格同比上涨4.3%，环比上涨0.3%。1-5月平均，工业生产者出厂价格比去年同期上",
+        "title": "#数据发布#【2018年5月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%】2018年5月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%，环比上涨0.4%。<em>工业</em><em>生产者</em>购进<em>价格</em>同比上涨4.3%，环比上涨0.3%。1-5月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上",
+        "url": "https://weibo.com/3919628624/Gkx0gc1Cc?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1-5月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.7%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.2%。 数据发布 【2018年5月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%】2018年5月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%，环比上涨0.4%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1528508337000,
+        "docDate": "2018-06-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "5EA3FAE0B8D65C5933B76F9D37936411",
+        "md5Url": "C9FF1651B5C7AD009FEC1E07D76F5678",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-5月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比去年同期上涨3.7%，<em>工业</em><em>生产者</em>购进<em>价格</em>上涨4.2%。 数据发布 【2018年5月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%】2018年5月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比上涨4.1%，环比上涨0.4%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1528508337,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C9FF1651B5C7AD009FEC1E07D76F5678",
+          "DRETITLE": "数据发布 2018年5月份工业生产者出厂价格同比上涨4 1 2018年5月份 全国工业生产者出厂价格同比上涨4 1 环比上涨0 4 工业生产者购进价格同比上涨4",
+          "URL": "https://weibo.com/3919628624/Gkx0gc1Cc?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "5EA3FAE0B8D65C5933B76F9D37936411",
+          "DRETITLEO": "#数据发布#【2018年5月份工业生产者出厂价格同比上涨4.1%】2018年5月份，全国工业生产者出厂价格同比上涨4.1%，环比上涨0.4%。工业生产者购进价格同比上涨4.3%，环比上涨0.3%。1-5月平均，工业生产者出厂价格比去年同期上",
+          "QUICKDESCRIPTION": "数据发布 2018年5月份工业生产者出厂价格同比上涨4 1 2018年5月份 全国工业生产者出厂价格同比上涨4 1 环比上涨0 4 工业生产者购进价格同比上涨4 3 环比上涨0 3 1-5月平均 工业生产者出厂价格比去年同期上涨3 7 工业生产者购进价格上涨4 2 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 12,
+          "children": null,
+          "key": "价格"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 12,
+          "children": null,
+          "key": ""
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

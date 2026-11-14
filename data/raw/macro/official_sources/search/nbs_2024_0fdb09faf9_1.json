@@ -1,0 +1,2480 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 47,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "工业生产者出厂价格",
+    "originQt": "工业生产者出厂价格",
+    "showQt": "工业生产者出厂价格",
+    "encodeQt": "%E5%B7%A5%E4%B8%9A%E7%94%9F%E4%BA%A7%E8%80%85%E5%87%BA%E5%8E%82%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "工业生产者出厂价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "工业": "NN"
+      },
+      {
+        "生产者": "NN"
+      },
+      {
+        "出厂": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "工业": "NN"
+      },
+      {
+        "生产者": "NN"
+      },
+      {
+        "出厂价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "出厂",
+      "出厂价格",
+      "生产者",
+      "价格",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [
+      {
+        "forceStatus": 0,
+        "score": 0.5230583,
+        "id": "4f55a39a-f59d-420b-b7a8-6c1bfa8aa42d",
+        "name": "工业品出厂价格指数",
+        "showTitle": "工业品出厂价格指数",
+        "vectorTitleo": "",
+        "sort": 10,
+        "type": 0,
+        "subjectType": 0,
+        "subjectPicInfoList": [
+          {
+            "imgUrl": "https://file.so-gov.cn/cps/pro/bm36000002/sceneSubject/6e9e3201717f4b9c82fa29aeb9eea74f.png",
+            "title": "工业品出厂价格指数",
+            "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/search?s=%E5%B7%A5%E4%B8%9A%E5%93%81%E5%87%BA%E5%8E%82%E4%BB%B7%E6%A0%BC%E6%8C%87%E6%95%B0"
+          }
+        ],
+        "staticHtml": "<div style=\"text-indent:0px;\">\n      <a href=\"javascript:void('0');\" onclick=\"ask('PPI统计中是否包含增值税？');\">PPI统计中是否包含增值税？</a>\n</div>",
+        "rightDocList": [
+          {
+            "id": "DF2DA041DA8F6C4ADD3537D73139743A",
+            "title": "工业生产者出厂价格指数（PPI）是如何编制的",
+            "url": "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903637.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1740708000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "工业生产者出厂价格是工业企业产品第一次出售时的价格，通过编制工业生产者出厂价格指数，可以客观准确地反映各工业行业产品价格水平及其变化趋势和变动幅度，为国民经济核算、宏观经济分析和调控、理顺价格体系等提供可靠的依据。 一、工业生产者出厂价格指数（PPI）的基本概念 生产者价格指数（Producer Price Index，简称PPI），理论上应涵盖所有产业，即包括农业生产者价格指数、工业生产者价格指数和服务业生产者价格指数等指数。由于历史及技术原因，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "AD00B9714CE50C4F2C7E80F447B83520",
+            "md5Url": "DF2DA041DA8F6C4ADD3537D73139743A",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "E0483BD48506F9505E881202D505E6F1",
+            "title": "工业生产增长速度的基础数据来源",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202412/t20241220_1957812.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1735524000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、调查对象和调查方法 调查对象为规模以上工业企业，2022年底约有47万家，分布在全国31个省（区、市）。月度调查中的“工业产销总值及主要产品产量”和年度调查中的“财务状况（成本费用）”报表均为全面调查。 二、组织实施机构及调查工作流程 规模以上工业在月度中实行全面调查，调查的组织实施机构是国家统计局和地方各级统计局。 调查工作流程分为报表制度布置和数据采集两个阶段。国家统计局于每年9—10月对各省（区、市）就下一年度规模以上工业企业调查及其报表制度进行布置和培训，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "FB50E73F8AE51C3120DCAC33E5AE5DE1",
+            "md5Url": "E0483BD48506F9505E881202D505E6F1",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "90571C6D714A30A80596175AC118CDF7",
+            "title": "工业生产增长速度的计算方法",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202410/t20241025_1957170.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1730340000000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、基本情况 工业生产增长速度的计算由国家统计局组织实施。国家统计局负责制定工业生产增长速度的计算方法，确定调查范围和调查频率，并按月计算和公布工业生产增长速度。省及省以下各级的工业生产增长速度由当地统计局按照国家统一的计算方法计算，并经上一级统计局审核评估后对外发布。 工业生产增长速度是对工业生产增减变化的反映，其计算必须依赖于能够反映工业生产总体的一个总量指标。为了与国民经济核算相衔接，目前，采用工业增加值作为计算工业生产增长速度的总量指标。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "8FCD3F255E06AE691F7FBDEC394DF8D1",
+            "md5Url": "90571C6D714A30A80596175AC118CDF7",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "F60E9552C88A450513F1E58593E41190",
+            "title": "什么是工业生产者出厂价格指数（PPI）",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gyscz/202409/t20240910_1956355.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1726192800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、工业生产者出厂价格指数（PPI）的基本定义 工业生产者出厂价格指数指一定时期内工业企业产品第一次出售时的出厂价格总水平的变动趋势和变动幅度的相对数，一般称为PPI（Producer  Price  Index）。此外，在价格统计工作中，我国也编制工业生产者购进价格指数，该指数是反映工业企业作为中间投入的原材料、燃料、动力购进价格总水平的变动趋势和变动幅度的相对数。在实际工作中，也将工业生产者出厂价格指数和购进价格指数统称为PPI。 二、",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "E1DE6DB4685755E1D89416810DC58A0D",
+            "md5Url": "F60E9552C88A450513F1E58593E41190",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "6FECD29E87747A93A1C5A3246002318F",
+            "title": "什么是工业生产增长速度",
+            "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gysczzsd/202409/t20240909_1956328.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1726192800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "一、工业生产增长速度的基本含义 工业生产增长速度也称工业增加值增长速度，简称工业增长速度，它是以工业增加值作为总量指标计算出来的，反映一定时期全国或某一地区工业生产增减变动的相对数，通常以百分数表示。例如，2022年9月，全国规模以上工业增加值同比增长6.3％。 由于工业统计调查的范围和频率不同，工业增长速度又分为全部工业增长速度和规模以上工业增长速度。全部工业增长速度，其统计范围为全部工业，按季度和年度统计、计算和公布。规模以上工业增长速度，其统计范围为规模以上工业，按月度统计、计算和公布。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "30EEAF41F25C97C35B66FCDEB94354BF",
+            "md5Url": "6FECD29E87747A93A1C5A3246002318F",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          }
+        ],
+        "categoryEntityList": [
+          {
+            "id": "6f25314bf88babf1776fcb6d9d82adfd",
+            "title": "最新发布",
+            "moreUrl": "",
+            "showType": 4,
+            "documentList": [
+              {
+                "id": "0C147E00072495038CE339BD347D2E32",
+                "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794619800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年11月上旬与10月下旬相比，16种产品价格上涨，32种下降，2种持平。   2026年11月上旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌（元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3152.4 -14.9 -0.5 线材（Φ8—10mm，HPB300） 吨 3362.0 -16.3 -",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "E4E7F75CDA2C0294B0608E0C91078463",
+                "md5Url": "0C147E00072495038CE339BD347D2E32",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "6DCFE4F391E0FE0FF31459E2695F78D1",
+                "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794187800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "　　2026年10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。工业生产者购进价格同比上涨7.9%，环比上涨1.1%。1—10月平均，工业生产者出厂价格比上年同期上涨2.7%，工业生产者购进价格上涨4.0%。       　　一、工业生产者价格同比变动情况   　　10月份，工业生产者出厂价格中，生产资料价格同比上涨7.4%，影响工业生产者出厂价格总水平上涨约5.77个百分点。其中，采掘工业价格上涨27.9%，原材料工业价格上涨11.6%，加工工业价格上涨3.5%。",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "E85CA4688422DED5A953E2CA35D40574",
+                "md5Url": "6DCFE4F391E0FE0FF31459E2695F78D1",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "57D8D6B92920D65FBED7937A9FC1186F",
+                "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261103_1965738.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793755800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月下旬与10月中旬相比，17种产品价格上涨，28种下降，5种持平。   2026年10月下旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌（元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3167.3 -20.5 -0.6 线材（Φ8—10mm，HPB300） 吨 3378.3 -8.6 -0.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "40FBF558A7A508963F27D79AB6379831",
+                "md5Url": "57D8D6B92920D65FBED7937A9FC1186F",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "21C7D6402D6EF55694724FB53D277B5A",
+                "title": "2026年10月中国采购经理指数运行情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793410200000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "国家统计局服务业调查中心 中国物流与采购联合会   　　一、中国制造业采购经理指数运行情况   　　10月份，制造业采购经理指数（PMI）为49.3%，比上月下降0.8个百分点，制造业景气水平有所回落。     　　从企业规模看，大型企业PMI为50.2%，比上月下降0.4个百分点，仍高于临界点；中、小型企业PMI分别为48.4%和47.5%，比上月下降1.3个和1.4个百分点，低于临界点。   　　从分类指数看，构成制造业PMI的5个分类指数中，供应商配送时间指数高于临界点；生产指数、",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "66D0E44955328647F9DC27AFF3CE40B2",
+                "md5Url": "21C7D6402D6EF55694724FB53D277B5A",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "3AEE791EFCDA99E03582F094E9537DBB",
+                "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
+                "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792805400000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "中国统计信息服务中心　卓创资讯   　　据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年10月中旬与9月下旬相比，22种产品价格上涨，25种下降，3种持平。   2026年10月中旬流通领域重要生产资料市场价格变动情况   产品名称 单位 本期价格（元） 比上期 价格涨跌 （元） 涨跌幅 （%） 一、黑色金属         螺纹钢（Φ20mm，HRB400E） 吨 3187.8 11.9 0.4 线材（Φ8—10mm，HPB300） 吨 3386.9 15.9 0.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "6f25314bf88babf1776fcb6d9d82adfd",
+                "md5Title": "34444A80F2294C3BB21D1EB47060A5C7",
+                "md5Url": "3AEE791EFCDA99E03582F094E9537DBB",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              }
+            ],
+            "icon": "",
+            "mainSearchCombin": 0
+          },
+          {
+            "id": "fef04e61f58b30914f80ddf405445c23",
+            "title": "数据解读",
+            "moreUrl": "",
+            "showType": 4,
+            "documentList": [
+              {
+                "id": "178365D48F4B2547A95AEDA1F0A1491F",
+                "title": "国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202611/t20261109_1965796.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1794187800000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "2026年10月份CPI同比继续上涨 PPI环比涨幅回落   ——国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据   　　10月份，居民消费价格指数（CPI）环比持平；同比上涨0.7%，涨幅比上月回落0.2个百分点；扣除食品和能源价格的核心CPI同比上涨0.8%，涨幅比上月回落0.2个百分点。工业生产者出厂价格指数（PPI）环比上涨0.7%，涨幅比上月回落0.5个百分点；同比上涨5.7%，涨幅比上月扩大0.7个百分点。   　　一、CPI同比继续上涨   　　从环比看，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "68BB7E79F853ABE2FEAF1A358F87C5AC",
+                "md5Url": "178365D48F4B2547A95AEDA1F0A1491F",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "B9787B39A3BBCC3A81DDF337323EA576",
+                "title": "国家统计局服务业调查中心首席统计师霍丽慧解读2026年10月中国采购经理指数",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1793410200000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "10月份采购经理指数有所回落   ——国家统计局服务业调查中心首席统计师霍丽慧解读2026年10月中国采购经理指数   　　2026年10月31日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数。对此，国家统计局服务业调查中心首席统计师霍丽慧进行了解读。   　　10月份，制造业采购经理指数、非制造业商务活动指数和综合PMI产出指数分别为49.3%、49.7%和49.7%，比上月下降0.8个、0.5个和1.0个百分点，经济景气水平较上月回落。   　　一、",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "FBA2471FC7F74EE3CC56070E65ED9A7D",
+                "md5Url": "B9787B39A3BBCC3A81DDF337323EA576",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "03344909B5B360F5F1661595C1521DA2",
+                "title": "沈赟：前三季度CPI保持温和上涨 PPI波动上行",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965630.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792461600000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "　　今年以来，各地区各部门认真贯彻落实党中央、国务院决策部署，着力发挥宏观政策效能，内需潜力持续释放，新质生产力加快发展，市场运行总体平稳，消费领域价格保持温和上涨，生产领域价格波动上行。   　　一、消费领域价格保持温和上涨   　　前三季度，CPI比上年同期上涨0.9%，涨幅比上半年回落0.1个百分点，但明显高于上年同期和上年全年。分月看，1、2月份，受春节错月等因素影响，CPI同比分别上涨0.2%和1.3%；3—6月份，CPI同比涨幅总体稳定，保持在1.0%—1.2%之间；7月份，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "D7F4DB2DB771FD8233482D2966F1B4E1",
+                "md5Url": "03344909B5B360F5F1661595C1521DA2",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "2D141FD773DFC351EDD75A4DCDC1EBD5",
+                "title": "国家统计局副局长就2026年前三季度国民经济运行情况答记者问",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965653.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1792401120000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "（2026年10月19日）     　　总台央视记者：   　　今年是“十五五”开局之年，前三季度的经济表现对于实现全年发展目标有着至关重要的意义。请问您如何评价前三季度国民经济运行情况，经济运行呈现出哪些新的亮点，还面临哪些压力和挑战？谢谢。     　　毛盛勇：   　　谢谢您的提问。从刚才介绍的前三季度经济运行主要指标数据来看，有以下特点：   　　第一，运行平稳。从经济增长看，前三季度国内生产总值超过107万亿元，同比增速为4.6%，符合全年经济增长预期目标。根据一些国际机构的预测，4.",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "527E835EA89536990DDB50139672448F",
+                "md5Url": "2D141FD773DFC351EDD75A4DCDC1EBD5",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              },
+              {
+                "id": "2972678D0152EFF7C41BA86B7D8006C7",
+                "title": "国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据",
+                "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261014_1965475.html",
+                "includeImage": false,
+                "picUrl": null,
+                "docDate": 1791941400000,
+                "docNo": "",
+                "pubName": "",
+                "zcjdMap": {},
+                "dbName": "",
+                "summary": "2026年9月份CPI、PPI同比涨幅均扩大   ——国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据   　　9月份，居民消费价格指数（CPI）环比上涨0.2%，涨幅比上月回落0.2个百分点；同比上涨0.9%，涨幅比上月扩大0.1个百分点；扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。工业生产者出厂价格指数（PPI）环比上涨1.2%，涨幅比上月扩大0.8个百分点；同比上涨5.0%，涨幅比上月扩大1.2个百分点。   　　一、CPI环比涨幅回落，",
+                "bsjgw": "",
+                "serviceType": "",
+                "categoryId": "fef04e61f58b30914f80ddf405445c23",
+                "md5Title": "10282FEB2F2C97CA5FC2ACAC8B63F08B",
+                "md5Url": "2972678D0152EFF7C41BA86B7D8006C7",
+                "banshiUrl": "",
+                "online": 0,
+                "n9": 1,
+                "combins": 1,
+                "myValues": {}
+              }
+            ],
+            "icon": "",
+            "mainSearchCombin": 0
+          }
+        ]
+      }
+    ],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 13.708876,
+        "id": "600d4753-4a79-4ba8-824e-0b300d4015ee",
+        "name": "各种价格指数",
+        "showTitle": "",
+        "url": "https://file.so-gov.cn/wedatas/pro/custom/906fb12c3e74bdd5225a8b50343f17bc/",
+        "iframeHeight": 422,
+        "sourceUrl": "",
+        "source": "<div class=\"laiyuan\" style=\"font-size: 16px;text-align: right;\">来源：   <a href=\"https://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0901&sj=2022\" target=\"_blank\">国家数据</a></div>",
+        "h5": 0,
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4F795811843A2191544F0009679D9A27",
+      "timestamp": 1733709586000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4F795811843A2191544F0009679D9A27",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2024年11月份CPI同比小幅上涨 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年11月份CPI和PPI数据 国家统计局今天发布了2024年11月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "title": "#权威解读# 【2024年11月份CPI同比小幅上涨 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年11月份CPI和PPI数据 国家统计局今天发布了2024年11月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/P4218sVHG?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2024年11月份CPI同比小幅上涨 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年11月份CPI和PPI数据 国家统计局今天发布了2024年11月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1733709586000,
+        "docDate": "2024-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "A3B851A40A2380633E2E27DE626B21F4",
+        "md5Url": "542591967D408EBA0D83D6B02FC778A3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2024年11月份CPI同比小幅上涨 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年11月份CPI和PPI数据 国家统计局今天发布了2024年11月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1733709586,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "542591967D408EBA0D83D6B02FC778A3",
+          "DRETITLE": "权威解读 2024年11月份CPI同比小幅上涨 PPI同比降幅收窄 国家统计局城市司首席统计师董莉娟解读2024年11月份CPI和PPI数据 国家统计局今天发布了2024年11月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/P4218sVHG?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A3B851A40A2380633E2E27DE626B21F4",
+          "DRETITLEO": "#权威解读# 【2024年11月份CPI同比小幅上涨 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年11月份CPI和PPI数据 国家统计局今天发布了2024年11月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2024年11月份CPI同比小幅上涨 PPI同比降幅收窄 国家统计局城市司首席统计师董莉娟解读2024年11月份CPI和PPI数据 国家统计局今天发布了2024年11月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7D5D3A49AC010E3B659A8011F661E207",
+      "timestamp": 1733709515000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7D5D3A49AC010E3B659A8011F661E207",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2024年11月份工业生产者出厂价格同比降幅收窄 环比由降转涨】2024年11月份，全国工业生产者出厂价格同比下降2.5%，降幅比上月收窄0.4个百分点，环比由上月下降0.1%转为上涨0.1%；工业生产者购进价格同比下降2.5%，环比下降0.1%。1—11月平均，工业生产者出厂价格比上年同期下降2.1%，工业 ...展开全文c",
+        "title": "#数据发布# 【2024年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅收窄 环比由降转涨】2024年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.5%，降幅比上月收窄0.4个百分点，环比由上月下降0.1%转为上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.5%，环比下降0.1%。1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.1%，<em>工业</em> ...展开全文c",
+        "url": "https://weibo.com/3919628624/P420EbMXA?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.1%，<em>工业</em> ...展开全文c 数据发布 【2024年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅收窄 环比由降转涨】2024年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.5%，降幅比上月收窄0.4个百分点，环比由上月下降0.1%转为上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.5%，环比下降0.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1733709515000,
+        "docDate": "2024-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "1C77DE70BADD1CA9A0CCC9AC3A1190F1",
+        "md5Url": "CD2049EE9D4A36DFB2B2D520C6BE1A4E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.1%，<em>工业</em> ...展开全文c 数据发布 【2024年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅收窄 环比由降转涨】2024年11月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.5%，降幅比上月收窄0.4个百分点，环比由上月下降0.1%转为上涨0.1%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.5%，环比下降0.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1733709515,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "CD2049EE9D4A36DFB2B2D520C6BE1A4E",
+          "DRETITLE": "数据发布 2024年11月份工业生产者出厂价格同比降幅收窄 环比由降转涨 2024年11月份 全国工业生产者出厂价格同比下降2 5 降幅比上月收窄0 4个百分点 环比由上月下降0 1 转为上涨0 1 工业生产者购进价格同比下降2 5 环比下降0 1 1 11月平均 工业生产者出厂价格比上年同期下降2 1 工业 展开全文c",
+          "URL": "https://weibo.com/3919628624/P420EbMXA?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1C77DE70BADD1CA9A0CCC9AC3A1190F1",
+          "DRETITLEO": "#数据发布# 【2024年11月份工业生产者出厂价格同比降幅收窄 环比由降转涨】2024年11月份，全国工业生产者出厂价格同比下降2.5%，降幅比上月收窄0.4个百分点，环比由上月下降0.1%转为上涨0.1%；工业生产者购进价格同比下降2.5%，环比下降0.1%。1—11月平均，工业生产者出厂价格比上年同期下降2.1%，工业 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2024年11月份工业生产者出厂价格同比降幅收窄 环比由降转涨 2024年11月份 全国工业生产者出厂价格同比下降2 5 降幅比上月收窄0 4个百分点 环比由上月下降0 1 转为上涨0 1 工业生产者购进价格同比下降2 5 环比下降0 1 1 11月平均 工业生产者出厂价格比上年同期下降2 1 工业 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B3D981FC5118CC4A38836A5FBFA5E522",
+      "timestamp": 1733707800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B3D981FC5118CC4A38836A5FBFA5E522",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2024年11月份工业生产者出厂价格同比降幅收窄 环比由降转涨",
+        "title": "2024年11月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅收窄 环比由降转涨",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241209_1957688.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "11月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.9%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约2.12个百分点。 二、11月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.10个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202412/P020241209320605051255.xlsx": "PPI表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "11月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.9%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约2.12个百分点。 二、11月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.10个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1733707800000,
+        "docDate": "2024-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_21.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "6A61EB746148A1109B81522352901EE1",
+        "md5Url": "B3D981FC5118CC4A38836A5FBFA5E522",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "11月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.9%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约2.12个百分点。 二、11月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>上涨0.1%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平上涨约0.10个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202412/t20241209_1957688.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2024年11月份工业生产者出厂价格同比降幅收窄 环比由降转涨",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202412/P020241209320605051255.xlsx": "PPI表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_21.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1733707800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B3D981FC5118CC4A38836A5FBFA5E522",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2024年11月份工业生产者出厂价格同比降幅收窄 环比由降转涨",
+          "MD5TITLE": "6A61EB746148A1109B81522352901EE1",
+          "QUICKDESCRIPTION": "　　2024年11月份，全国工业生产者出厂价格同比下降2.5%，降幅比上月收窄0.4个百分点，环比由上月下降0.1%转为上涨0.1%；工业生产者购进价格同比下降2.5%，环比下降0.1%。1—11月平均，工业生产者出厂价格比上年同期下降2.1%，工业生产者购进价格下降2.2%。       　　一、11月份工业生产者价格同比变动情况   　　工业生产者出厂价格中，生产资料价格下降2.9%，影响工业生产者出厂价格总水平下降约2.12个百分点。其中，采掘工业价格下降4.9%，原材料工业价格下降2.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "91F38DF88A61F3505629ED769F91F3B6",
+      "timestamp": 1731119825000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "91F38DF88A61F3505629ED769F91F3B6",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2024年10月份CPI同比涨幅略有回落 PPI环比降幅明显收窄】——国家统计局城市司首席统计师董莉娟解读2024年10月份CPI和PPI数据 国家统计局今天发布了2024年10月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详 ...展开全文c",
+        "title": "#权威解读# 【2024年10月份CPI同比涨幅略有回落 PPI环比降幅明显收窄】——国家统计局城市司首席统计师董莉娟解读2024年10月份CPI和PPI数据 国家统计局今天发布了2024年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详 ...展开全文c",
+        "url": "https://weibo.com/3919628624/OFqTHvxFz?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2024年10月份CPI同比涨幅略有回落 PPI环比降幅明显收窄】——国家统计局城市司首席统计师董莉娟解读2024年10月份CPI和PPI数据 国家统计局今天发布了2024年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1731119825000,
+        "docDate": "2024-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "5A545D0563B08F982334679461BB3E81",
+        "md5Url": "A46EB1EFEC004E37A4C0422B4F3CB23E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2024年10月份CPI同比涨幅略有回落 PPI环比降幅明显收窄】——国家统计局城市司首席统计师董莉娟解读2024年10月份CPI和PPI数据 国家统计局今天发布了2024年10月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1731119825,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "A46EB1EFEC004E37A4C0422B4F3CB23E",
+          "DRETITLE": "权威解读 2024年10月份CPI同比涨幅略有回落 PPI环比降幅明显收窄 国家统计局城市司首席统计师董莉娟解读2024年10月份CPI和PPI数据 国家统计局今天发布了2024年10月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详 展开全文c",
+          "URL": "https://weibo.com/3919628624/OFqTHvxFz?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "5A545D0563B08F982334679461BB3E81",
+          "DRETITLEO": "#权威解读# 【2024年10月份CPI同比涨幅略有回落 PPI环比降幅明显收窄】——国家统计局城市司首席统计师董莉娟解读2024年10月份CPI和PPI数据 国家统计局今天发布了2024年10月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2024年10月份CPI同比涨幅略有回落 PPI环比降幅明显收窄 国家统计局城市司首席统计师董莉娟解读2024年10月份CPI和PPI数据 国家统计局今天发布了2024年10月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "812FCCE23389477638C0444FA6A59540",
+      "timestamp": 1731119719000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "812FCCE23389477638C0444FA6A59540",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2024年10月份工业生产者出厂价格环比降幅收窄】2024年10月份，全国工业生产者出厂价格同比下降2.9%，工业生产者购进价格同比下降2.7%。工业生产者出厂价格环比下降0.1%，工业生产者购进价格环比下降0.3%，降幅均比上月收窄0.5个百分点。1—10月平均，工业生产者出厂价格和购进价格均比上 ...展开全文c",
+        "title": "#数据发布# 【2024年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>环比降幅收窄】2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。<em>工业</em><em>生产者</em><em>出厂价格</em>环比下降0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>环比下降0.3%，降幅均比上月收窄0.5个百分点。1—10月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>和购进<em>价格</em>均比上 ...展开全文c",
+        "url": "https://weibo.com/3919628624/OFqSZcfVe?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2024年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>环比降幅收窄】2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。 数据发布 【2024年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>环比降幅收窄】2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。<em>工业</em><em>生产者</em><em>出厂价格</em>环比下降0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>环比下降0.3%，降幅均比上月收窄0.5个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1731119719000,
+        "docDate": "2024-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "911FE5CC951560180D2CB84C6BF85872",
+        "md5Url": "90E863FF7575CEE93950E47D11996452",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2024年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>环比降幅收窄】2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。 数据发布 【2024年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>环比降幅收窄】2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。<em>工业</em><em>生产者</em><em>出厂价格</em>环比下降0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>环比下降0.3%，降幅均比上月收窄0.5个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1731119719,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "90E863FF7575CEE93950E47D11996452",
+          "DRETITLE": "数据发布 2024年10月份工业生产者出厂价格环比降幅收窄 2024年10月份 全国工业生产者出厂价格同比下降2 9 工业生产者购进价格同比下降2 7 工业生产者出厂价格环比下降0 1 工业生产者购进价格环比下降0 3 降幅均比上月收窄0 5个百分点 1 10月平均 工业生产者出厂价格和购进价格均比上 展开全文c",
+          "URL": "https://weibo.com/3919628624/OFqSZcfVe?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "911FE5CC951560180D2CB84C6BF85872",
+          "DRETITLEO": "#数据发布# 【2024年10月份工业生产者出厂价格环比降幅收窄】2024年10月份，全国工业生产者出厂价格同比下降2.9%，工业生产者购进价格同比下降2.7%。工业生产者出厂价格环比下降0.1%，工业生产者购进价格环比下降0.3%，降幅均比上月收窄0.5个百分点。1—10月平均，工业生产者出厂价格和购进价格均比上 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2024年10月份工业生产者出厂价格环比降幅收窄 2024年10月份 全国工业生产者出厂价格同比下降2 9 工业生产者购进价格同比下降2 7 工业生产者出厂价格环比下降0 1 工业生产者购进价格环比下降0 3 降幅均比上月收窄0 5个百分点 1 10月平均 工业生产者出厂价格和购进价格均比上 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A08D284A5987B4D88B3C345A18D965F1",
+      "timestamp": 1731115800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A08D284A5987B4D88B3C345A18D965F1",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2024年10月份工业生产者出厂价格环比降幅收窄",
+        "title": "2024年10月份<em>工业</em><em>生产者</em><em>出厂价格</em>环比降幅收窄",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202411/t20241109_1957352.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。 2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。<em>工业</em><em>生产者</em><em>出厂价格</em>环比下降0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>环比下降0.3%，降幅均比上月收窄0.5个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202411/P020241109329441813064.xlsx": "PPI表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。 2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。<em>工业</em><em>生产者</em><em>出厂价格</em>环比下降0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>环比下降0.3%，降幅均比上月收窄0.5个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1731115800000,
+        "docDate": "2024-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_22.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "08FFD8F0185C97E9DA9C5E67F94BC76C",
+        "md5Url": "A08D284A5987B4D88B3C345A18D965F1",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。 2024年10月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.7%。<em>工业</em><em>生产者</em><em>出厂价格</em>环比下降0.1%，<em>工业</em><em>生产者</em>购进<em>价格</em>环比下降0.3%，降幅均比上月收窄0.5个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202411/t20241109_1957352.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2024年10月份工业生产者出厂价格环比降幅收窄",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202411/P020241109329441813064.xlsx": "PPI表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_22.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1731115800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A08D284A5987B4D88B3C345A18D965F1",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2024年10月份工业生产者出厂价格环比降幅收窄",
+          "MD5TITLE": "08FFD8F0185C97E9DA9C5E67F94BC76C",
+          "QUICKDESCRIPTION": "　　2024年10月份，全国工业生产者出厂价格同比下降2.9%，工业生产者购进价格同比下降2.7%。工业生产者出厂价格环比下降0.1%，工业生产者购进价格环比下降0.3%，降幅均比上月收窄0.5个百分点。1—10月平均，工业生产者出厂价格和购进价格均比上年同期下降2.1%。       　　一、10月份工业生产者价格同比变动情况   　　工业生产者出厂价格中，生产资料价格下降3.3%，影响工业生产者出厂价格总水平下降约2.45个百分点。其中，采掘工业价格下降5.1%，原材料工业价格下降4.0%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "61DE63F8DB8C8CDDD565745481F5143C",
+      "timestamp": 1728783658000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "61DE63F8DB8C8CDDD565745481F5143C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2024年9月份CPI环比持平　PPI环比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年9月份CPI和PPI数据 国家统计局今天发布了2024年9月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "title": "#权威解读# 【2024年9月份CPI环比持平　PPI环比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年9月份CPI和PPI数据 国家统计局今天发布了2024年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/OBjZwchoC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2024年9月份CPI环比持平 PPI环比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年9月份CPI和PPI数据 国家统计局今天发布了2024年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1728783658000,
+        "docDate": "2024-10-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "4E25B45D93B604381622180D5BE6F313",
+        "md5Url": "05804CF37F94E9FCB11B9614EC8F8A6E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2024年9月份CPI环比持平 PPI环比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年9月份CPI和PPI数据 国家统计局今天发布了2024年9月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1728783658,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "05804CF37F94E9FCB11B9614EC8F8A6E",
+          "DRETITLE": "权威解读 2024年9月份CPI环比持平 PPI环比降幅收窄 国家统计局城市司首席统计师董莉娟解读2024年9月份CPI和PPI数据 国家统计局今天发布了2024年9月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/OBjZwchoC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4E25B45D93B604381622180D5BE6F313",
+          "DRETITLEO": "#权威解读# 【2024年9月份CPI环比持平　PPI环比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年9月份CPI和PPI数据 国家统计局今天发布了2024年9月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2024年9月份CPI环比持平 PPI环比降幅收窄 国家统计局城市司首席统计师董莉娟解读2024年9月份CPI和PPI数据 国家统计局今天发布了2024年9月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "60DF9F640E8CD4BAB3F221517586BA1C",
+      "timestamp": 1728783559000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "60DF9F640E8CD4BAB3F221517586BA1C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2024年9月份工业生产者出厂价格同比降幅扩大 环比降幅收窄】2024年9月份，全国工业生产者出厂价格同比下降2.8%，环比下降0.6%；工业生产者购进价格同比下降2.2%，环比下降0.8%。1—9月平均，工业生产者出厂价格比上年同期下降2.0%，工业生产者购进价格下降2.1%。详见： ...展开全文c",
+        "title": "#数据发布# 【2024年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅扩大 环比降幅收窄】2024年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.8%，环比下降0.6%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.2%，环比下降0.8%。1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.1%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/OBjYQxmmT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.1%。 数据发布 【2024年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅扩大 环比降幅收窄】2024年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.8%，环比下降0.6%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.2%，环比下降0.8%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1728783559000,
+        "docDate": "2024-10-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "38F5441F8881D49169FFF66ACA749749",
+        "md5Url": "249CBE21BB53A57195626D6DBA21AA33",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.1%。 数据发布 【2024年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅扩大 环比降幅收窄】2024年9月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降2.8%，环比下降0.6%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降2.2%，环比下降0.8%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1728783559,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "249CBE21BB53A57195626D6DBA21AA33",
+          "DRETITLE": "数据发布 2024年9月份工业生产者出厂价格同比降幅扩大 环比降幅收窄 2024年9月份 全国工业生产者出厂价格同比下降2 8 环比下降0 6 工业生产者购进价格同比下降2 2 环比下降0 8 1 9月平均 工业生产者出厂价格比上年同期下降2 0 工业生产者购进价格下降2 1 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/OBjYQxmmT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "38F5441F8881D49169FFF66ACA749749",
+          "DRETITLEO": "#数据发布# 【2024年9月份工业生产者出厂价格同比降幅扩大 环比降幅收窄】2024年9月份，全国工业生产者出厂价格同比下降2.8%，环比下降0.6%；工业生产者购进价格同比下降2.2%，环比下降0.8%。1—9月平均，工业生产者出厂价格比上年同期下降2.0%，工业生产者购进价格下降2.1%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2024年9月份工业生产者出厂价格同比降幅扩大 环比降幅收窄 2024年9月份 全国工业生产者出厂价格同比下降2 8 环比下降0 6 工业生产者购进价格同比下降2 2 环比下降0 8 1 9月平均 工业生产者出厂价格比上年同期下降2 0 工业生产者购进价格下降2 1 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B5C6D520697AFA9D244E9F072B551FAF",
+      "timestamp": 1728783000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B5C6D520697AFA9D244E9F072B551FAF",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2024年9月份工业生产者出厂价格同比降幅扩大 环比降幅收窄",
+        "title": "2024年9月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅扩大 环比降幅收窄",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202410/t20241013_1956898.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "9月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降3.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约2.41个百分点。 二、9月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.8%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.61个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202410/P020241013311261017116.xlsx": "ppi"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "9月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降3.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约2.41个百分点。 二、9月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.8%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.61个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1728783000000,
+        "docDate": "2024-10-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_24.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "FF8FF080D897155C70ED5196FE1675E6",
+        "md5Url": "B5C6D520697AFA9D244E9F072B551FAF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "9月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降3.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约2.41个百分点。 二、9月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.8%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.61个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202410/t20241013_1956898.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2024年9月份工业生产者出厂价格同比降幅扩大 环比降幅收窄",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202410/P020241013311261017116.xlsx": "ppi"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_24.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1728783000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B5C6D520697AFA9D244E9F072B551FAF",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2024年9月份工业生产者出厂价格同比降幅扩大 环比降幅收窄",
+          "MD5TITLE": "FF8FF080D897155C70ED5196FE1675E6",
+          "QUICKDESCRIPTION": "　　2024年9月份，全国工业生产者出厂价格同比下降2.8%，环比下降0.6%；工业生产者购进价格同比下降2.2%，环比下降0.8%。1—9月平均，工业生产者出厂价格比上年同期下降2.0%，工业生产者购进价格下降2.1%。       　　一、9月份工业生产者价格同比变动情况   　　工业生产者出厂价格中，生产资料价格下降3.3%，影响工业生产者出厂价格总水平下降约2.41个百分点。其中，采掘工业价格下降2.5%，原材料工业价格下降3.2%，加工工业价格下降3.3%。生活资料价格下降1.3%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F60E9552C88A450513F1E58593E41190",
+      "timestamp": 1726192800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F60E9552C88A450513F1E58593E41190",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "什么是工业生产者出厂价格指数（PPI）",
+        "title": "什么是<em>工业</em><em>生产者</em><em>出厂价格</em>指数（PPI）",
+        "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gyscz/202409/t20240910_1956355.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "在<em>价格</em>统计工作中，我国也编制<em>工业</em><em>生产者</em>购进<em>价格</em>指数，该指数是反映<em>工业</em>企业作为中间投入的原材料、燃料、动力购进<em>价格</em>总水平的变动趋势和变动幅度的相对数。 一、<em>工业</em><em>生产者</em><em>出厂价格</em>指数（PPI）的基本定义 <em>工业</em><em>生产者</em><em>出厂价格</em>指数指一定时期内<em>工业</em>企业产品第一次出售时的<em>出厂价格</em>总水平的变动趋势和变动幅度的相对数，一般称为PPI（Producer Price Index）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1726192800000,
+        "docDate": "2024-09-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gyscz/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "E1DE6DB4685755E1D89416810DC58A0D",
+        "md5Url": "F60E9552C88A450513F1E58593E41190",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "在<em>价格</em>统计工作中，我国也编制<em>工业</em><em>生产者</em>购进<em>价格</em>指数，该指数是反映<em>工业</em>企业作为中间投入的原材料、燃料、动力购进<em>价格</em>总水平的变动趋势和变动幅度的相对数。 一、<em>工业</em><em>生产者</em><em>出厂价格</em>指数（PPI）的基本定义 <em>工业</em><em>生产者</em><em>出厂价格</em>指数指一定时期内<em>工业</em>企业产品第一次出售时的<em>出厂价格</em>总水平的变动趋势和变动幅度的相对数，一般称为PPI（Producer Price Index）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gyscz/202409/t20240910_1956355.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "什么是工业生产者出厂价格指数（PPI）",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gyscz/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1726192800,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "主要统计指标诠释"
+          ],
+          "L4": [
+            "工业生产者出厂价格指数"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F60E9552C88A450513F1E58593E41190",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "什么是工业生产者出厂价格指数 PPI",
+          "MD5TITLE": "E1DE6DB4685755E1D89416810DC58A0D",
+          "QUICKDESCRIPTION": "一、工业生产者出厂价格指数（PPI）的基本定义 工业生产者出厂价格指数指一定时期内工业企业产品第一次出售时的出厂价格总水平的变动趋势和变动幅度的相对数，一般称为PPI（Producer  Price  Index）。此外，在价格统计工作中，我国也编制工业生产者购进价格指数，该指数是反映工业企业作为中间投入的原材料、燃料、动力购进价格总水平的变动趋势和变动幅度的相对数。在实际工作中，也将工业生产者出厂价格指数和购进价格指数统称为PPI。 二、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C3ADC2E13934118D5EDE8C143E1203D0",
+      "timestamp": 1725897600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C3ADC2E13934118D5EDE8C143E1203D0",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "电力工业生产者出厂价格指数是否只包含电厂上网电价部分？",
+        "title": "电力<em>工业</em><em>生产者</em><em>出厂价格</em>指数是否只包含电厂上网电价部分？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202410/t20241016_1957021.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "电力生产是<em>工业</em><em>生产者</em><em>出厂价格</em>指数中电力、热力生产和供应业大类下的一个行业中类，电力生产<em>价格</em>指数主要反映发电企业上网电价变动情况。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1725897600000,
+        "docDate": "2024-09-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_16.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "C4002853B294D57009B70E5ECC603F1E",
+        "md5Url": "C3ADC2E13934118D5EDE8C143E1203D0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "电力生产是<em>工业</em><em>生产者</em><em>出厂价格</em>指数中电力、热力生产和供应业大类下的一个行业中类，电力生产<em>价格</em>指数主要反映发电企业上网电价变动情况。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局城市社会经济调查司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202410/t20241016_1957021.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "电力工业生产者出厂价格指数是否只包含电厂上网电价部分？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_16.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1725897600,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C3ADC2E13934118D5EDE8C143E1203D0",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "电力工业生产者出厂价格指数是否只包含电厂上网电价部分",
+          "MD5TITLE": "C4002853B294D57009B70E5ECC603F1E",
+          "QUICKDESCRIPTION": "电力生产是工业生产者出厂价格指数中电力、热力生产和供应业大类下的一个行业中类，电力生产价格指数主要反映发电企业上网电价变动情况。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "10CFFC6A9D828D4D9356E6A32134F1FC",
+      "timestamp": 1725846038000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "10CFFC6A9D828D4D9356E6A32134F1FC",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2024年8月份CPI继续回升　PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2024年8月份CPI和PPI数据 国家统计局今天发布了2024年8月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "title": "#权威解读# 【2024年8月份CPI继续回升　PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2024年8月份CPI和PPI数据 国家统计局今天发布了2024年8月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Ow9sva3GP?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2024年8月份CPI继续回升 PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2024年8月份CPI和PPI数据 国家统计局今天发布了2024年8月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1725846038000,
+        "docDate": "2024-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "D9A8F6383784C35990CF86168AB49440",
+        "md5Url": "596A21579B20D76C41B0C473947ADD90",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2024年8月份CPI继续回升 PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2024年8月份CPI和PPI数据 国家统计局今天发布了2024年8月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1725846038,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "596A21579B20D76C41B0C473947ADD90",
+          "DRETITLE": "权威解读 2024年8月份CPI继续回升 PPI有所下降 国家统计局城市司首席统计师董莉娟解读2024年8月份CPI和PPI数据 国家统计局今天发布了2024年8月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Ow9sva3GP?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D9A8F6383784C35990CF86168AB49440",
+          "DRETITLEO": "#权威解读# 【2024年8月份CPI继续回升　PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2024年8月份CPI和PPI数据 国家统计局今天发布了2024年8月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2024年8月份CPI继续回升 PPI有所下降 国家统计局城市司首席统计师董莉娟解读2024年8月份CPI和PPI数据 国家统计局今天发布了2024年8月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E3693AD4C041B7AFE30C58089A06A05B",
+      "timestamp": 1725845990000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E3693AD4C041B7AFE30C58089A06A05B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2024年8月份工业生产者出厂价格同比下降1.8%】2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%；工业生产者购进价格同比下降0.8%，环比下降0.6%。1—8月平均，工业生产者出厂价格比上年同期下降1.9%，工业生产者购进价格下降2.1%。详见：O网页链接",
+        "title": "#数据发布# 【2024年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.8%】2024年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.8%，环比下降0.7%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.8%，环比下降0.6%。1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降1.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.1%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Ow9sb2ibi?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降1.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.1%。 数据发布 【2024年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.8%】2024年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.8%，环比下降0.7%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.8%，环比下降0.6%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1725845990000,
+        "docDate": "2024-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "DEE24BD84720041FF0C4C685780412C6",
+        "md5Url": "718771E3F5B5C7A7ECA60D277565CFC2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降1.9%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.1%。 数据发布 【2024年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.8%】2024年8月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.8%，环比下降0.7%；<em>工业</em><em>生产者</em>购进<em>价格</em>同比下降0.8%，环比下降0.6%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1725845990,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "718771E3F5B5C7A7ECA60D277565CFC2",
+          "DRETITLE": "数据发布 2024年8月份工业生产者出厂价格同比下降1 8 2024年8月份 全国工业生产者出厂价格同比下降1 8 环比下降0 7 工业生产者购进价格同比下降0 8 环比下降0 6 1 8月平均 工业生产者出厂价格比上年同期下降1 9 工业生产者购进价格下降2 1 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/Ow9sb2ibi?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "DEE24BD84720041FF0C4C685780412C6",
+          "DRETITLEO": "#数据发布# 【2024年8月份工业生产者出厂价格同比下降1.8%】2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%；工业生产者购进价格同比下降0.8%，环比下降0.6%。1—8月平均，工业生产者出厂价格比上年同期下降1.9%，工业生产者购进价格下降2.1%。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2024年8月份工业生产者出厂价格同比下降1 8 2024年8月份 全国工业生产者出厂价格同比下降1 8 环比下降0 7 工业生产者购进价格同比下降0 8 环比下降0 6 1 8月平均 工业生产者出厂价格比上年同期下降1 9 工业生产者购进价格下降2 1 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7759931019EE53BE9C8C7FF10B04C0A3",
+      "timestamp": 1725845400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7759931019EE53BE9C8C7FF10B04C0A3",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2024年8月份工业生产者出厂价格同比下降1.8%",
+        "title": "2024年8月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降1.8%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240909_1956310.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "8月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.46个百分点。 二、8月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降1.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.74个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202409/P020240909332238753466.xlsx": "ppibiao"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "8月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.46个百分点。 二、8月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降1.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.74个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1725845400000,
+        "docDate": "2024-09-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_25.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "5906217D3EB37AB15F26E5791E713A47",
+        "md5Url": "7759931019EE53BE9C8C7FF10B04C0A3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "8月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降2.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约1.46个百分点。 二、8月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降1.0%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.74个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202409/t20240909_1956310.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2024年8月份工业生产者出厂价格同比下降1.8%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202409/P020240909332238753466.xlsx": "ppibiao"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_25.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1725845400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "7759931019EE53BE9C8C7FF10B04C0A3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2024年8月份工业生产者出厂价格同比下降1 8",
+          "MD5TITLE": "5906217D3EB37AB15F26E5791E713A47",
+          "QUICKDESCRIPTION": "　　2024年8月份，全国工业生产者出厂价格同比下降1.8%，环比下降0.7%；工业生产者购进价格同比下降0.8%，环比下降0.6%。1—8月平均，工业生产者出厂价格比上年同期下降1.9%，工业生产者购进价格下降2.1%。       　　一、8月份工业生产者价格同比变动情况   　　工业生产者出厂价格中，生产资料价格下降2.0%，影响工业生产者出厂价格总水平下降约1.46个百分点。其中，采掘工业价格上涨0.9%，原材料工业价格下降0.8%，加工工业价格下降2.7%。生活资料价格下降1.1%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "39B09CB901DDC59CD8C0E6D397928ECD",
+      "timestamp": 1723169400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "39B09CB901DDC59CD8C0E6D397928ECD",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2024年7月份工业生产者出厂价格降幅与上月相同",
+        "title": "【数据发布】2024年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>降幅与上月相同",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651637086&idx=2&sn=ac1761f4d92b4ad7de09607df778bda2&chksm=bd1a39538a6db045a2b6fa5acd8aeee05277f4b56993161f929f229c1e5d590324554fc1d204",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "7月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.52个百分点。 二、7月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1723169400000,
+        "docDate": "2024-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "C7E9C901854C013E64FCB05CD5E9CE02",
+        "md5Url": "2FBAFF3EECC01B69FB65AD2BED4D5FD9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "7月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.52个百分点。 二、7月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1723169400,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "2FBAFF3EECC01B69FB65AD2BED4D5FD9",
+          "DRETITLE": "数据发布 2024年7月份工业生产者出厂价格降幅与上月相同",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651637086&idx=2&sn=ac1761f4d92b4ad7de09607df778bda2&chksm=bd1a39538a6db045a2b6fa5acd8aeee05277f4b56993161f929f229c1e5d590324554fc1d204",
+          "MD5TITLE": "C7E9C901854C013E64FCB05CD5E9CE02",
+          "DRETITLEO": "【数据发布】2024年7月份工业生产者出厂价格降幅与上月相同",
+          "QUICKDESCRIPTION": "2024年7月份 全国工业生产者出厂价格同比下降0 8 环比下降0 2 降幅均与上月相同 工业生产者购进价格同比 环比均下降0 1 1 7月平均 工业生产者出厂价格比上年同期下降2 0 工业生产者购进价格下降2 2 一 7月份工业生产者价格同比变动情况 工业生产者出厂价格中 生产资料价格下降0 7 影响工业生产者出厂价格总水平下降约0 52个百分点 其中 采掘工业价格上涨3 5 原材料工业价格上涨1 8 加工工业价格下降2 1 生活资料价格下降1 0 影响工业生产者出厂价格总水平下降约0 26个",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "34FFE041BF0F11F598EC3F136481F1D7",
+      "timestamp": 1723167887000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "34FFE041BF0F11F598EC3F136481F1D7",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2024年7月份CPI同比涨幅扩大　PPI同比降幅与上月相同】——国家统计局城市司首席统计师董莉娟解读2024年7月份CPI和PPI数据 国家统计局今天发布了2024年7月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "title": "#权威解读# 【2024年7月份CPI同比涨幅扩大　PPI同比降幅与上月相同】——国家统计局城市司首席统计师董莉娟解读2024年7月份CPI和PPI数据 国家统计局今天发布了2024年7月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/OrreN2rUg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2024年7月份CPI同比涨幅扩大 PPI同比降幅与上月相同】——国家统计局城市司首席统计师董莉娟解读2024年7月份CPI和PPI数据 国家统计局今天发布了2024年7月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1723167887000,
+        "docDate": "2024-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "AE53CB8FAE4A89C69980B26645AD66C5",
+        "md5Url": "2DD3DF2660B3B4091EF863B43F02F774",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2024年7月份CPI同比涨幅扩大 PPI同比降幅与上月相同】——国家统计局城市司首席统计师董莉娟解读2024年7月份CPI和PPI数据 国家统计局今天发布了2024年7月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1723167887,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2DD3DF2660B3B4091EF863B43F02F774",
+          "DRETITLE": "权威解读 2024年7月份CPI同比涨幅扩大 PPI同比降幅与上月相同 国家统计局城市司首席统计师董莉娟解读2024年7月份CPI和PPI数据 国家统计局今天发布了2024年7月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/OrreN2rUg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "AE53CB8FAE4A89C69980B26645AD66C5",
+          "DRETITLEO": "#权威解读# 【2024年7月份CPI同比涨幅扩大　PPI同比降幅与上月相同】——国家统计局城市司首席统计师董莉娟解读2024年7月份CPI和PPI数据 国家统计局今天发布了2024年7月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2024年7月份CPI同比涨幅扩大 PPI同比降幅与上月相同 国家统计局城市司首席统计师董莉娟解读2024年7月份CPI和PPI数据 国家统计局今天发布了2024年7月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8D7FFE0F9CE1A070CB2024FC9BA70B98",
+      "timestamp": 1723167803000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8D7FFE0F9CE1A070CB2024FC9BA70B98",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2024年7月份工业生产者出厂价格降幅与上月相同】2024年7月份，全国工业生产者出厂价格同比下降0.8%，环比下降0.2%，降幅均与上月相同；工业生产者购进价格同比、环比均下降0.1%。1—7月平均，工业生产者出厂价格比上年同期下降2.0%，工业生产者购进价格下降2.2%。详见： ...展开全文c",
+        "title": "#数据发布# 【2024年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>降幅与上月相同】2024年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%，环比下降0.2%，降幅均与上月相同；<em>工业</em><em>生产者</em>购进<em>价格</em>同比、环比均下降0.1%。1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.2%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Orree3IkW?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.2%。 数据发布 【2024年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>降幅与上月相同】2024年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%，环比下降0.2%，降幅均与上月相同；<em>工业</em><em>生产者</em>购进<em>价格</em>同比、环比均下降0.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1723167803000,
+        "docDate": "2024-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "B093C2191C32CC7656B8258ADADB627F",
+        "md5Url": "89FEB2E4620693F73768FD931BDB9520",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—7月平均，<em>工业</em><em>生产者</em><em>出厂价格</em>比上年同期下降2.0%，<em>工业</em><em>生产者</em>购进<em>价格</em>下降2.2%。 数据发布 【2024年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>降幅与上月相同】2024年7月份，全国<em>工业</em><em>生产者</em><em>出厂价格</em>同比下降0.8%，环比下降0.2%，降幅均与上月相同；<em>工业</em><em>生产者</em>购进<em>价格</em>同比、环比均下降0.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1723167803,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "89FEB2E4620693F73768FD931BDB9520",
+          "DRETITLE": "数据发布 2024年7月份工业生产者出厂价格降幅与上月相同 2024年7月份 全国工业生产者出厂价格同比下降0 8 环比下降0 2 降幅均与上月相同 工业生产者购进价格同比 环比均下降0 1 1 7月平均 工业生产者出厂价格比上年同期下降2 0 工业生产者购进价格下降2 2 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Orree3IkW?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B093C2191C32CC7656B8258ADADB627F",
+          "DRETITLEO": "#数据发布# 【2024年7月份工业生产者出厂价格降幅与上月相同】2024年7月份，全国工业生产者出厂价格同比下降0.8%，环比下降0.2%，降幅均与上月相同；工业生产者购进价格同比、环比均下降0.1%。1—7月平均，工业生产者出厂价格比上年同期下降2.0%，工业生产者购进价格下降2.2%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2024年7月份工业生产者出厂价格降幅与上月相同 2024年7月份 全国工业生产者出厂价格同比下降0 8 环比下降0 2 降幅均与上月相同 工业生产者购进价格同比 环比均下降0 1 1 7月平均 工业生产者出厂价格比上年同期下降2 0 工业生产者购进价格下降2 2 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D307F4DEC8187B604C584DC1E6B106AB",
+      "timestamp": 1723167000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D307F4DEC8187B604C584DC1E6B106AB",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2024年7月份工业生产者出厂价格降幅与上月相同",
+        "title": "2024年7月份<em>工业</em><em>生产者</em><em>出厂价格</em>降幅与上月相同",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202408/t20240809_1955949.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "7月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.52个百分点。 二、7月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202408/P020240809327121995048.xlsx": "PPI表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "7月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.52个百分点。 二、7月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1723167000000,
+        "docDate": "2024-08-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_26.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "3D0B024832E65485F13F05AA5BB8B822",
+        "md5Url": "D307F4DEC8187B604C584DC1E6B106AB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "7月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.7%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.52个百分点。 二、7月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.3%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.23个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202408/t20240809_1955949.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2024年7月份工业生产者出厂价格降幅与上月相同",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202408/P020240809327121995048.xlsx": "PPI表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_26.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1723167000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D307F4DEC8187B604C584DC1E6B106AB",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2024年7月份工业生产者出厂价格降幅与上月相同",
+          "MD5TITLE": "3D0B024832E65485F13F05AA5BB8B822",
+          "QUICKDESCRIPTION": "　　2024年7月份，全国工业生产者出厂价格同比下降0.8%，环比下降0.2%，降幅均与上月相同；工业生产者购进价格同比、环比均下降0.1%。1—7月平均，工业生产者出厂价格比上年同期下降2.0%，工业生产者购进价格下降2.2%。       　　一、7月份工业生产者价格同比变动情况   　　工业生产者出厂价格中，生产资料价格下降0.7%，影响工业生产者出厂价格总水平下降约0.52个百分点。其中，采掘工业价格上涨3.5%，原材料工业价格上涨1.8%，加工工业价格下降2.1%。生活资料价格下降1.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "209C7A758F3F132E8DCA66E065FB0A9E",
+      "timestamp": 1720578660000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "209C7A758F3F132E8DCA66E065FB0A9E",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2024年6月份工业生产者出厂价格同比降幅继续收窄",
+        "title": "【数据发布】2024年6月份<em>工业</em><em>生产者</em><em>出厂价格</em>同比降幅继续收窄",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651631670&idx=2&sn=7ccd826c6f5753766879d5f8b8c9f91e&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "6月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.8%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.57个百分点。 二、6月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.13个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1720578660000,
+        "docDate": "2024-07-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "0974A9D61D82DAE8837B98D7CC39EDA2",
+        "md5Url": "0E7B2F0AEE577FA7D00B74E7B19A2590",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "6月份<em>工业</em><em>生产者</em><em>价格</em>同比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.8%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.57个百分点。 二、6月份<em>工业</em><em>生产者</em><em>价格</em>环比变动情况 <em>工业</em><em>生产者</em><em>出厂价格</em>中，生产资料<em>价格</em>下降0.2%，影响<em>工业</em><em>生产者</em><em>出厂价格</em>总水平下降约0.13个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1720578660,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "0E7B2F0AEE577FA7D00B74E7B19A2590",
+          "DRETITLE": "数据发布 2024年6月份工业生产者出厂价格同比降幅继续收窄",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651631670&idx=2&sn=7ccd826c6f5753766879d5f8b8c9f91e&scene=0",
+          "MD5TITLE": "0974A9D61D82DAE8837B98D7CC39EDA2",
+          "DRETITLEO": "【数据发布】2024年6月份工业生产者出厂价格同比降幅继续收窄",
+          "QUICKDESCRIPTION": "2024年6月份 全国工业生产者出厂价格同比下降0 8 降幅比上月收窄0 6个百分点 环比由上月上涨0 2 转为下降0 2 工业生产者购进价格同比下降0 5 环比上涨0 1 上半年 工业生产者出厂价格比上年同期下降2 1 工业生产者购进价格下降2 6 一 6月份工业生产者价格同比变动情况 工业生产者出厂价格中 生产资料价格下降0 8 影响工业生产者出厂价格总水平下降约0 57个百分点 其中 采掘工业价格上涨2 7 原材料工业价格上涨1 6 加工工业价格下降2 0 生活资料价格下降0 8 影响工业",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "81BACB4DB5B63340A0E20B63EB3D70D3",
+      "timestamp": 1720575443000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "81BACB4DB5B63340A0E20B63EB3D70D3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2024年6月份CPI同比继续上涨　PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年6月份CPI和PPI数据 国家统计局今天发布了2024年6月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "title": "#权威解读# 【2024年6月份CPI同比继续上涨　PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年6月份CPI和PPI数据 国家统计局今天发布了2024年6月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/OmSmT8KRS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2024年6月份CPI同比继续上涨 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年6月份CPI和PPI数据 国家统计局今天发布了2024年6月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1720575443000,
+        "docDate": "2024-07-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "8CCECF375E11AB12189BFC6BA7A17141",
+        "md5Url": "EE0F6A1B3715C2EBB3F8007AE339FE98",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2024年6月份CPI同比继续上涨 PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年6月份CPI和PPI数据 国家统计局今天发布了2024年6月份全国CPI（居民消费<em>价格</em>指数）和PPI（<em>工业</em><em>生产者</em><em>出厂价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1720575443,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "EE0F6A1B3715C2EBB3F8007AE339FE98",
+          "DRETITLE": "权威解读 2024年6月份CPI同比继续上涨 PPI同比降幅收窄 国家统计局城市司首席统计师董莉娟解读2024年6月份CPI和PPI数据 国家统计局今天发布了2024年6月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/OmSmT8KRS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8CCECF375E11AB12189BFC6BA7A17141",
+          "DRETITLEO": "#权威解读# 【2024年6月份CPI同比继续上涨　PPI同比降幅收窄】——国家统计局城市司首席统计师董莉娟解读2024年6月份CPI和PPI数据 国家统计局今天发布了2024年6月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2024年6月份CPI同比继续上涨 PPI同比降幅收窄 国家统计局城市司首席统计师董莉娟解读2024年6月份CPI和PPI数据 国家统计局今天发布了2024年6月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 1,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 27,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 27,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "专题"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

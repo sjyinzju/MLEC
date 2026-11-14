@@ -1,0 +1,2085 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 76,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "居民消费价格",
+    "originQt": "居民消费价格",
+    "showQt": "居民消费价格",
+    "encodeQt": "%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "居民消费价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "居民": "NN"
+      },
+      {
+        "消费": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "居民消费价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "居民消费价格",
+      "居民",
+      "消费",
+      "价格"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 12.350975,
+        "id": "600d4753-4a79-4ba8-824e-0b300d4015ee",
+        "name": "各种价格指数",
+        "showTitle": "",
+        "url": "https://file.so-gov.cn/wedatas/pro/custom/906fb12c3e74bdd5225a8b50343f17bc/",
+        "iframeHeight": 422,
+        "sourceUrl": "",
+        "source": "<div class=\"laiyuan\" style=\"font-size: 16px;text-align: right;\">来源：   <a href=\"https://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0901&sj=2022\" target=\"_blank\">国家数据</a></div>",
+        "h5": 0,
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1CF13A3342B8C39167CAB8F5CC0B0C45",
+      "timestamp": 1702224000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1CF13A3342B8C39167CAB8F5CC0B0C45",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "《中国能源统计年鉴》中分行业能源消费中，“其他”和“居民生活”分别指什么？包含哪些行业呢？",
+        "title": "《中国能源统计年鉴》中分行业能源<em>消费</em>中，“其他”和“<em>居民</em>生活”分别指什么？包含哪些行业呢？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953947.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "其他”是指除交通运输、仓储和邮政业，批发和零售业、住宿和餐饮业以外的服务业<em>消费</em>的能源数量，具体包含国民经济行业分类中的I信息传输、软件和信息技术服务业，J金融业，K房地产业，L租赁和商务服务业，M科学研究和技术服务业，N水利、环境和公共设施管理业，O<em>居民</em>服务、修理和其他服务业，P教育，Q卫生和社会工作，R文化、体育和娱乐业，S公共管理、社会保障和社会组织，T国际组织。 “<em>居民</em>生活”是指本地区城镇、农村<em>居民</em>用于生活<em>消费</em>的各种能源数量。 “其他”是指除交通运输、仓储和邮政业，批发和零售业、住宿和餐饮业以外的服务业<em>消费</em>的能源数量，具体包含国民经济行业分类中的I信息传输、软件和信息技术服务业，J金融业，K房地产业，L租赁和商务服务业，M科学研究和技术服务业，N水利、环境和公共设施管理业，O<em>居民</em>服务、修理和其他服务业，P教育，Q卫生和社会工作，R文化、体育和娱乐业，S公共管理、社会保障和社会组织，T国际组织。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1702224000000,
+        "docDate": "2023-12-11",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_40.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "DB07DF3BD9ABAC2FB20F8570AAA2B956",
+        "md5Url": "1CF13A3342B8C39167CAB8F5CC0B0C45",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "其他”是指除交通运输、仓储和邮政业，批发和零售业、住宿和餐饮业以外的服务业<em>消费</em>的能源数量，具体包含国民经济行业分类中的I信息传输、软件和信息技术服务业，J金融业，K房地产业，L租赁和商务服务业，M科学研究和技术服务业，N水利、环境和公共设施管理业，O<em>居民</em>服务、修理和其他服务业，P教育，Q卫生和社会工作，R文化、体育和娱乐业，S公共管理、社会保障和社会组织，T国际组织。 “<em>居民</em>生活”是指本地区城镇、农村<em>居民</em>用于生活<em>消费</em>的各种能源数量。 “其他”是指除交通运输、仓储和邮政业，批发和零售业、住宿和餐饮业以外的服务业<em>消费</em>的能源数量，具体包含国民经济行业分类中的I信息传输、软件和信息技术服务业，J金融业，K房地产业，L租赁和商务服务业，M科学研究和技术服务业，N水利、环境和公共设施管理业，O<em>居民</em>服务、修理和其他服务业，P教育，Q卫生和社会工作，R文化、体育和娱乐业，S公共管理、社会保障和社会组织，T国际组织。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局能源统计司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953947.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "《中国能源统计年鉴》中分行业能源消费中，“其他”和“居民生活”分别指什么？包含哪些行业呢？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_40.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1702224000,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "1CF13A3342B8C39167CAB8F5CC0B0C45",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "中国能源统计年鉴 中分行业能源消费中 其他 和 居民生活 分别指什么 包含哪些行业呢",
+          "MD5TITLE": "DB07DF3BD9ABAC2FB20F8570AAA2B956",
+          "QUICKDESCRIPTION": "“其他”是指除交通运输、仓储和邮政业，批发和零售业、住宿和餐饮业以外的服务业消费的能源数量，具体包含国民经济行业分类中的I信息传输、软件和信息技术服务业，J金融业，K房地产业，L租赁和商务服务业，M科学研究和技术服务业，N水利、环境和公共设施管理业，O居民服务、修理和其他服务业，P教育，Q卫生和社会工作，R文化、体育和娱乐业，S公共管理、社会保障和社会组织，T国际组织。 “居民生活”是指本地区城镇、农村居民用于生活消费的各种能源数量。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6EE03D8B0E31BDC0D60723EC1F7D2273",
+      "timestamp": 1702088040000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6EE03D8B0E31BDC0D60723EC1F7D2273",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2023年11月份居民消费价格同比下降0.5% 环比下降0.5%",
+        "title": "【数据发布】2023年11月份<em>居民消费价格</em>同比下降0.5% 环比下降0.5%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651581543&idx=1&sn=241741892e67e55c56efe82cd6ea8312&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比下降2.2%，影响CPI（<em>居民消费价格</em>指数）下降约0.64个百分点。 其中，城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降4.2%，非食品<em>价格</em>上涨0.4%；<em>消费</em>品<em>价格</em>下降1.4%，服务<em>价格</em>上涨1.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1702088040000,
+        "docDate": "2023-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "A2E2197B9F1F45614F3061E56039A1CC",
+        "md5Url": "7F1850A1CEBDA7B7C88DFB7EE85DC1A6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比下降2.2%，影响CPI（<em>居民消费价格</em>指数）下降约0.64个百分点。 其中，城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降4.2%，非食品<em>价格</em>上涨0.4%；<em>消费</em>品<em>价格</em>下降1.4%，服务<em>价格</em>上涨1.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1702088040,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "7F1850A1CEBDA7B7C88DFB7EE85DC1A6",
+          "DRETITLE": "数据发布 2023年11月份居民消费价格同比下降0 5 环比下降0 5",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651581543&idx=1&sn=241741892e67e55c56efe82cd6ea8312&scene=0",
+          "MD5TITLE": "A2E2197B9F1F45614F3061E56039A1CC",
+          "DRETITLEO": "【数据发布】2023年11月份居民消费价格同比下降0.5% 环比下降0.5%",
+          "QUICKDESCRIPTION": "2023年11月份 全国居民消费价格同比下降0 5 其中 城市下降0 4 农村下降0 8 食品价格下降4 2 非食品价格上涨0 4 消费品价格下降1 4 服务价格上涨1 0 1 11月平均 全国居民消费价格比上年同期上涨0 3 11月份 全国居民消费价格环比下降0 5 其中 城市下降0 5 农村下降0 4 食品价格下降0 9 非食品价格下降0 4 消费品价格下降0 5 服务价格下降0 4 一 各类商品及服务价格同比变动情况 11月份 食品烟酒类价格同比下降2 2 影响CPI 居民消费价格指数 下",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EBF84A8AEE12A099855BA5CA75CEE0BA",
+      "timestamp": 1702086908000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EBF84A8AEE12A099855BA5CA75CEE0BA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2023年11月份CPI、PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2023年11月份CPI和PPI数据 国家统计局今天发布了2023年11月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见：O网页链接",
+        "title": "#权威解读# 【2023年11月份CPI、PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2023年11月份CPI和PPI数据 国家统计局今天发布了2023年11月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Nwiu9x2G0?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2023年11月份CPI、PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2023年11月份CPI和PPI数据 国家统计局今天发布了2023年11月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1702086908000,
+        "docDate": "2023-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "20811B446F428374C48B02A0D22E85E8",
+        "md5Url": "5C0EECB313A8F6AC743F0EA3954A6FF3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2023年11月份CPI、PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2023年11月份CPI和PPI数据 国家统计局今天发布了2023年11月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1702086908,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "5C0EECB313A8F6AC743F0EA3954A6FF3",
+          "DRETITLE": "权威解读 2023年11月份CPI PPI有所下降 国家统计局城市司首席统计师董莉娟解读2023年11月份CPI和PPI数据 国家统计局今天发布了2023年11月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/Nwiu9x2G0?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "20811B446F428374C48B02A0D22E85E8",
+          "DRETITLEO": "#权威解读# 【2023年11月份CPI、PPI有所下降】——国家统计局城市司首席统计师董莉娟解读2023年11月份CPI和PPI数据 国家统计局今天发布了2023年11月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 2023年11月份CPI PPI有所下降 国家统计局城市司首席统计师董莉娟解读2023年11月份CPI和PPI数据 国家统计局今天发布了2023年11月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "307029BDBB423EC95E4E8ED7B6B9AB12",
+      "timestamp": 1702086742000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "307029BDBB423EC95E4E8ED7B6B9AB12",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年11月份居民消费价格同比下降0.5% 环比下降0.5%】2023年11月份，全国居民消费价格同比下降0.5%。其中，城市下降0.4%，农村下降0.8%；食品价格下降4.2%，非食品价格上涨0.4%；消费品价格下降1.4%，服务价格上涨1.0%。1—11月平均，全国居民消费价格比上年同期上涨0.3%。详见： ...展开全文c",
+        "title": "#数据发布# 【2023年11月份<em>居民消费价格</em>同比下降0.5% 环比下降0.5%】2023年11月份，全国<em>居民消费价格</em>同比下降0.5%。其中，城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降4.2%，非食品<em>价格</em>上涨0.4%；<em>消费</em>品<em>价格</em>下降1.4%，服务<em>价格</em>上涨1.0%。1—11月平均，全国<em>居民消费价格</em>比上年同期上涨0.3%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/Nwit27UMp?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降4.2%，非食品<em>价格</em>上涨0.4%；<em>消费</em>品<em>价格</em>下降1.4%，服务<em>价格</em>上涨1.0%。 数据发布 【2023年11月份<em>居民消费价格</em>同比下降0.5% 环比下降0.5%】2023年11月份，全国<em>居民消费价格</em>同比下降0.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1702086742000,
+        "docDate": "2023-12-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "D1226C51ADDE38A9B008CFF9CC760ACE",
+        "md5Url": "6F2C2E7AA49E4A9035DA8856485768AF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市下降0.4%，农村下降0.8%；食品<em>价格</em>下降4.2%，非食品<em>价格</em>上涨0.4%；<em>消费</em>品<em>价格</em>下降1.4%，服务<em>价格</em>上涨1.0%。 数据发布 【2023年11月份<em>居民消费价格</em>同比下降0.5% 环比下降0.5%】2023年11月份，全国<em>居民消费价格</em>同比下降0.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1702086742,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "6F2C2E7AA49E4A9035DA8856485768AF",
+          "DRETITLE": "数据发布 2023年11月份居民消费价格同比下降0 5 环比下降0 5 2023年11月份 全国居民消费价格同比下降0 5 其中 城市下降0 4 农村下降0 8 食品价格下降4 2 非食品价格上涨0 4 消费品价格下降1 4 服务价格上涨1 0 1 11月平均 全国居民消费价格比上年同期上涨0 3 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/Nwit27UMp?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D1226C51ADDE38A9B008CFF9CC760ACE",
+          "DRETITLEO": "#数据发布# 【2023年11月份居民消费价格同比下降0.5% 环比下降0.5%】2023年11月份，全国居民消费价格同比下降0.5%。其中，城市下降0.4%，农村下降0.8%；食品价格下降4.2%，非食品价格上涨0.4%；消费品价格下降1.4%，服务价格上涨1.0%。1—11月平均，全国居民消费价格比上年同期上涨0.3%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年11月份居民消费价格同比下降0 5 环比下降0 5 2023年11月份 全国居民消费价格同比下降0 5 其中 城市下降0 4 农村下降0 8 食品价格下降4 2 非食品价格上涨0 4 消费品价格下降1 4 服务价格上涨1 0 1 11月平均 全国居民消费价格比上年同期上涨0 3 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D5152E9D9649284E4F9D3EAE4C35E146",
+      "timestamp": 1702085400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D5152E9D9649284E4F9D3EAE4C35E146",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年11月份居民消费价格同比下降0.5% 环比下降0.5%",
+        "title": "2023年11月份<em>居民消费价格</em>同比下降0.5% 环比下降0.5%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231209_1945394.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比下降2.2%，影响CPI（<em>居民消费价格</em>指数）下降约0.64个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202312/W020231209333786492954.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比下降2.2%，影响CPI（<em>居民消费价格</em>指数）下降约0.64个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1702085400000,
+        "docDate": "2023-12-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/44AE19C61D666F680B958F9912645224.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_35.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "F5A10CEEAA8D940B962A0053DED3AB0D",
+        "md5Url": "D5152E9D9649284E4F9D3EAE4C35E146",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 11月份，食品烟酒类<em>价格</em>同比下降2.2%，影响CPI（<em>居民消费价格</em>指数）下降约0.64个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202312/t20231209_1945394.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年11月份居民消费价格同比下降0.5% 环比下降0.5%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/44AE19C61D666F680B958F9912645224.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202312/W020231209333786492954.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_35.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1702085400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D5152E9D9649284E4F9D3EAE4C35E146",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年11月份居民消费价格同比下降0 5 环比下降0 5",
+          "MD5TITLE": "F5A10CEEAA8D940B962A0053DED3AB0D",
+          "QUICKDESCRIPTION": "　　2023年11月份，全国居民消费价格同比下降0.5%。其中，城市下降0.4%，农村下降0.8%；食品价格下降4.2%，非食品价格上涨0.4%；消费品价格下降1.4%，服务价格上涨1.0%。1—11月平均，全国居民消费价格比上年同期上涨0.3%。 　　11月份，全国居民消费价格环比下降0.5%。其中，城市下降0.5%，农村下降0.4%；食品价格下降0.9%，非食品价格下降0.4%；消费品价格下降0.5%，服务价格下降0.4%。 　　一、各类商品及服务价格同比变动情况 　　11月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "64673F2623251CD767F95CE035532E13",
+      "timestamp": 1701742892000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "64673F2623251CD767F95CE035532E13",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#开往四季的列车# 【乘着这趟列车，来一场\"沉浸式\"CPI调查之旅吧！】您了解居民消费价格调查吗？它就是我们通常所说的CPI调查，你想知道CPI背后的故事吗？今天我们就开启沉浸式 “CPI调查之旅” 一起探索CPI的秘密吧！→O乘着这趟列车，来一场\"沉浸式\"CPI调查之旅吧！",
+        "title": "#开往四季的列车# 【乘着这趟列车，来一场\"沉浸式\"CPI调查之旅吧！】您了解<em>居民消费价格</em>调查吗？它就是我们通常所说的CPI调查，你想知道CPI背后的故事吗？今天我们就开启沉浸式 “CPI调查之旅” 一起探索CPI的秘密吧！→O乘着这趟列车，来一场\"沉浸式\"CPI调查之旅吧！",
+        "url": "https://weibo.com/3919628624/NvGWT1URV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "开往四季的列车 【乘着这趟列车，来一场 沉浸式 CPI调查之旅吧！】您了解<em>居民消费价格</em>调查吗 它就是我们通常所说的CPI调查，你想知道CPI背后的故事吗 今天我们就开启沉浸式 “CPI调查之旅” 一起探索CPI的秘密吧！...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1701742892000,
+        "docDate": "2023-12-05",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "FAFC9E1D9C08245B74BC49FEA6D0719D",
+        "md5Url": "0777196DA3A1DF8CAEF7643229DFCDEF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "开往四季的列车 【乘着这趟列车，来一场 沉浸式 CPI调查之旅吧！】您了解<em>居民消费价格</em>调查吗 它就是我们通常所说的CPI调查，你想知道CPI背后的故事吗 今天我们就开启沉浸式 “CPI调查之旅” 一起探索CPI的秘密吧！...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1701742892,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "0777196DA3A1DF8CAEF7643229DFCDEF",
+          "DRETITLE": "开往四季的列车 乘着这趟列车 来一场 沉浸式 CPI调查之旅吧 您了解居民消费价格调查吗 它就是我们通常所说的CPI调查 你想知道CPI背后的故事吗 今天我们就开启沉浸式 CPI调查之旅 一起探索CPI的秘密吧 →O乘着这趟列车 来一场 沉浸式 CPI调查之旅吧",
+          "URL": "https://weibo.com/3919628624/NvGWT1URV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FAFC9E1D9C08245B74BC49FEA6D0719D",
+          "DRETITLEO": "#开往四季的列车# 【乘着这趟列车，来一场\"沉浸式\"CPI调查之旅吧！】您了解居民消费价格调查吗？它就是我们通常所说的CPI调查，你想知道CPI背后的故事吗？今天我们就开启沉浸式 “CPI调查之旅” 一起探索CPI的秘密吧！→O乘着这趟列车，来一场\"沉浸式\"CPI调查之旅吧！",
+          "QUICKDESCRIPTION": "开往四季的列车 乘着这趟列车 来一场 沉浸式 CPI调查之旅吧 您了解居民消费价格调查吗 它就是我们通常所说的CPI调查 你想知道CPI背后的故事吗 今天我们就开启沉浸式 CPI调查之旅 一起探索CPI的秘密吧 O乘着这趟列车 来一场 沉浸式 CPI调查之旅吧",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FD3848E955E9D46C71149A9573604428",
+      "timestamp": 1699495500000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FD3848E955E9D46C71149A9573604428",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2023年10月份居民消费价格同比下降0.2% 环比下降0.1%",
+        "title": "【数据发布】2023年10月份<em>居民消费价格</em>同比下降0.2% 环比下降0.1%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651569572&idx=1&sn=8c9419be573186fd2090c26d49a5131f&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "城市下降0.1%，农村下降0.1%；食品<em>价格</em>下降0.8%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>下降0.1%，服务<em>价格</em>下降0.1%。 一、各类商品及服务<em>价格</em>同比变动情况 10月份，食品烟酒类<em>价格</em>同比下降2.1%，影响CPI（<em>居民消费价格</em>指数）下降约0.61个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1699495500000,
+        "docDate": "2023-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "EE16703ACE19BD1800C17B9F3AC05A75",
+        "md5Url": "176EA3B793668564AF717CE2EDE0DC0B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市下降0.1%，农村下降0.1%；食品<em>价格</em>下降0.8%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>下降0.1%，服务<em>价格</em>下降0.1%。 一、各类商品及服务<em>价格</em>同比变动情况 10月份，食品烟酒类<em>价格</em>同比下降2.1%，影响CPI（<em>居民消费价格</em>指数）下降约0.61个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1699495500,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "176EA3B793668564AF717CE2EDE0DC0B",
+          "DRETITLE": "数据发布 2023年10月份居民消费价格同比下降0 2 环比下降0 1",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651569572&idx=1&sn=8c9419be573186fd2090c26d49a5131f&scene=0",
+          "MD5TITLE": "EE16703ACE19BD1800C17B9F3AC05A75",
+          "DRETITLEO": "【数据发布】2023年10月份居民消费价格同比下降0.2% 环比下降0.1%",
+          "QUICKDESCRIPTION": "2023年10月份 全国居民消费价格同比下降0 2 其中 城市下降0 1 农村下降0 5 食品价格下降4 0 非食品价格上涨0 7 消费品价格下降1 1 服务价格上涨1 2 1 10月平均 全国居民消费价格比上年同期上涨0 4 10月份 全国居民消费价格环比下降0 1 其中 城市下降0 1 农村下降0 1 食品价格下降0 8 非食品价格持平 消费品价格下降0 1 服务价格下降0 1 一 各类商品及服务价格同比变动情况 10月份 食品烟酒类价格同比下降2 1 影响CPI 居民消费价格指数 下降约0",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "64041E033F60B609971715CC0062D290",
+      "timestamp": 1699494006000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "64041E033F60B609971715CC0062D290",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2023年10月份CPI略有下降　PPI环比持平】——国家统计局城市司首席统计师董莉娟解读2023年10月份CPI和PPI数据 国家统计局今天发布了2023年10月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "title": "#权威解读# 【2023年10月份CPI略有下降　PPI环比持平】——国家统计局城市司首席统计师董莉娟解读2023年10月份CPI和PPI数据 国家统计局今天发布了2023年10月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/NrJz9y4K8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2023年10月份CPI略有下降 PPI环比持平】——国家统计局城市司首席统计师董莉娟解读2023年10月份CPI和PPI数据 国家统计局今天发布了2023年10月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1699494006000,
+        "docDate": "2023-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "61CA51A3D5F54B18F81788D7EA173E5D",
+        "md5Url": "F2D4A97A4B0F9C47828D612C12D2281C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2023年10月份CPI略有下降 PPI环比持平】——国家统计局城市司首席统计师董莉娟解读2023年10月份CPI和PPI数据 国家统计局今天发布了2023年10月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1699494006,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F2D4A97A4B0F9C47828D612C12D2281C",
+          "DRETITLE": "权威解读 2023年10月份CPI略有下降 PPI环比持平 国家统计局城市司首席统计师董莉娟解读2023年10月份CPI和PPI数据 国家统计局今天发布了2023年10月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/NrJz9y4K8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "61CA51A3D5F54B18F81788D7EA173E5D",
+          "DRETITLEO": "#权威解读# 【2023年10月份CPI略有下降　PPI环比持平】——国家统计局城市司首席统计师董莉娟解读2023年10月份CPI和PPI数据 国家统计局今天发布了2023年10月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2023年10月份CPI略有下降 PPI环比持平 国家统计局城市司首席统计师董莉娟解读2023年10月份CPI和PPI数据 国家统计局今天发布了2023年10月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2EFF201669CB923B2B3C0A74282D3B1F",
+      "timestamp": 1699493807000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2EFF201669CB923B2B3C0A74282D3B1F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年10月份居民消费价格同比下降0.2% 环比下降0.1%】2023年10月份，全国居民消费价格同比下降0.2%。其中，城市下降0.1%，农村下降0.5%；食品价格下降4.0%，非食品价格上涨0.7%；消费品价格下降1.1%，服务价格上涨1.2%。1—10月平均，全国居民消费价格比上年同期上涨0.4%。详见： ...展开全文c",
+        "title": "#数据发布# 【2023年10月份<em>居民消费价格</em>同比下降0.2% 环比下降0.1%】2023年10月份，全国<em>居民消费价格</em>同比下降0.2%。其中，城市下降0.1%，农村下降0.5%；食品<em>价格</em>下降4.0%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降1.1%，服务<em>价格</em>上涨1.2%。1—10月平均，全国<em>居民消费价格</em>比上年同期上涨0.4%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/NrJxOiTQr?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市下降0.1%，农村下降0.5%；食品<em>价格</em>下降4.0%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降1.1%，服务<em>价格</em>上涨1.2%。 数据发布 【2023年10月份<em>居民消费价格</em>同比下降0.2% 环比下降0.1%】2023年10月份，全国<em>居民消费价格</em>同比下降0.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1699493807000,
+        "docDate": "2023-11-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "D1FCC22E6E207154E8B9C6C467EDAB39",
+        "md5Url": "B51FDBD55D5E783AD190714EAC8AABA7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市下降0.1%，农村下降0.5%；食品<em>价格</em>下降4.0%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降1.1%，服务<em>价格</em>上涨1.2%。 数据发布 【2023年10月份<em>居民消费价格</em>同比下降0.2% 环比下降0.1%】2023年10月份，全国<em>居民消费价格</em>同比下降0.2%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1699493807,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "B51FDBD55D5E783AD190714EAC8AABA7",
+          "DRETITLE": "数据发布 2023年10月份居民消费价格同比下降0 2 环比下降0 1 2023年10月份 全国居民消费价格同比下降0 2 其中 城市下降0 1 农村下降0 5 食品价格下降4 0 非食品价格上涨0 7 消费品价格下降1 1 服务价格上涨1 2 1 10月平均 全国居民消费价格比上年同期上涨0 4 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/NrJxOiTQr?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D1FCC22E6E207154E8B9C6C467EDAB39",
+          "DRETITLEO": "#数据发布# 【2023年10月份居民消费价格同比下降0.2% 环比下降0.1%】2023年10月份，全国居民消费价格同比下降0.2%。其中，城市下降0.1%，农村下降0.5%；食品价格下降4.0%，非食品价格上涨0.7%；消费品价格下降1.1%，服务价格上涨1.2%。1—10月平均，全国居民消费价格比上年同期上涨0.4%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年10月份居民消费价格同比下降0 2 环比下降0 1 2023年10月份 全国居民消费价格同比下降0 2 其中 城市下降0 1 农村下降0 5 食品价格下降4 0 非食品价格上涨0 7 消费品价格下降1 1 服务价格上涨1 2 1 10月平均 全国居民消费价格比上年同期上涨0 4 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F9D8C2C613F94C765632414C1E341C0A",
+      "timestamp": 1699493400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F9D8C2C613F94C765632414C1E341C0A",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年10月份居民消费价格同比下降0.2% 环比下降0.1%",
+        "title": "2023年10月份<em>居民消费价格</em>同比下降0.2% 环比下降0.1%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231109_1944382.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.1%，农村下降0.1%；食品<em>价格</em>下降0.8%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>下降0.1%，服务<em>价格</em>下降0.1%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202311/W020231109335150402967.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.1%，农村下降0.1%；食品<em>价格</em>下降0.8%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>下降0.1%，服务<em>价格</em>下降0.1%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1699493400000,
+        "docDate": "2023-11-09",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/855AF394CC45D3DD65F727EB38636EC4.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_36.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "90B8DA064BF358AE3D91C9C6F47930C8",
+        "md5Url": "F9D8C2C613F94C765632414C1E341C0A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市下降0.1%，农村下降0.1%；食品<em>价格</em>下降0.8%，非食品<em>价格</em>持平；<em>消费</em>品<em>价格</em>下降0.1%，服务<em>价格</em>下降0.1%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202311/t20231109_1944382.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年10月份居民消费价格同比下降0.2% 环比下降0.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/855AF394CC45D3DD65F727EB38636EC4.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202311/W020231109335150402967.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_36.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1699493400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F9D8C2C613F94C765632414C1E341C0A",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年10月份居民消费价格同比下降0 2 环比下降0 1",
+          "MD5TITLE": "90B8DA064BF358AE3D91C9C6F47930C8",
+          "QUICKDESCRIPTION": "　　2023年10月份，全国居民消费价格同比下降0.2%。其中，城市下降0.1%，农村下降0.5%；食品价格下降4.0%，非食品价格上涨0.7%；消费品价格下降1.1%，服务价格上涨1.2%。1—10月平均，全国居民消费价格比上年同期上涨0.4%。 　　10月份，全国居民消费价格环比下降0.1%。其中，城市下降0.1%，农村下降0.1%；食品价格下降0.8%，非食品价格持平；消费品价格下降0.1%，服务价格下降0.1%。 　　一、各类商品及服务价格同比变动情况 10月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "59770BA70396D9DCA23B8B4C956763DA",
+      "timestamp": 1698336000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "59770BA70396D9DCA23B8B4C956763DA",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "哪里可以查询：年度以及月度的社会消费品零售总额的实际增速，扣除价格因素？",
+        "title": "哪里可以查询：年度以及月度的社会<em>消费</em>品零售总额的实际增速，扣除<em>价格</em>因素？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953905.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "社会<em>消费</em>品零售总额扣除<em>价格</em>因素后的实际增速，可通过<em>消费</em>市场数据解读稿知悉。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1698336000000,
+        "docDate": "2023-10-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_43.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "24D02C7A73943D05452CE8E131346484",
+        "md5Url": "59770BA70396D9DCA23B8B4C956763DA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "社会<em>消费</em>品零售总额扣除<em>价格</em>因素后的实际增速，可通过<em>消费</em>市场数据解读稿知悉。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局贸易外经统计司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953905.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "哪里可以查询：年度以及月度的社会消费品零售总额的实际增速，扣除价格因素？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_43.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1698336000,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "59770BA70396D9DCA23B8B4C956763DA",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "哪里可以查询 年度以及月度的社会消费品零售总额的实际增速 扣除价格因素",
+          "MD5TITLE": "24D02C7A73943D05452CE8E131346484",
+          "QUICKDESCRIPTION": "社会消费品零售总额扣除价格因素后的实际增速，可通过消费市场数据解读稿知悉。具体方式为国家统计局网站——“数据”栏目下“数据解读”部分。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "56E23478282A728C6155676D74F61604",
+      "timestamp": 1697683800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "56E23478282A728C6155676D74F61604",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "肖宁：前三季度居民收入平稳增长 消费支出加快恢复",
+        "title": "肖宁：前三季度<em>居民</em>收入平稳增长 <em>消费</em>支出加快恢复",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202310/t20231019_1943747.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "<em>居民</em><em>消费</em>支出加快恢复，服务性<em>消费</em>支出继续保持两位数增长 随着经济持续好转，<em>消费</em>场景不断拓展，<em>消费</em>需求稳步回暖，<em>居民</em><em>消费</em>支出继续恢复。 一、全国<em>居民</em>收入保持稳定增长态势，农村<em>居民</em>收入增速继续快于城镇<em>居民</em> 前三季度，全国<em>居民</em>人均可支配收入29398元，比上年同期名义增长6.3%；扣除<em>价格</em>因素，实际增长5.9%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1697683800000,
+        "docDate": "2023-10-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_26.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "E48FCB895FD595BE85F99E17E71B1633",
+        "md5Url": "56E23478282A728C6155676D74F61604",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "<em>居民</em><em>消费</em>支出加快恢复，服务性<em>消费</em>支出继续保持两位数增长 随着经济持续好转，<em>消费</em>场景不断拓展，<em>消费</em>需求稳步回暖，<em>居民</em><em>消费</em>支出继续恢复。 一、全国<em>居民</em>收入保持稳定增长态势，农村<em>居民</em>收入增速继续快于城镇<em>居民</em> 前三季度，全国<em>居民</em>人均可支配收入29398元，比上年同期名义增长6.3%；扣除<em>价格</em>因素，实际增长5.9%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202310/t20231019_1943747.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "肖宁：前三季度居民收入平稳增长 消费支出加快恢复",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_26.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1697683800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "56E23478282A728C6155676D74F61604",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "肖宁 前三季度居民收入平稳增长 消费支出加快恢复",
+          "MD5TITLE": "E48FCB895FD595BE85F99E17E71B1633",
+          "QUICKDESCRIPTION": "　　前三季度，各地区各部门坚决贯彻落实党中央、国务院决策部署，国民经济持续恢复向好，就业形势总体改善，居民收入保持平稳增长，消费支出加快恢复，服务性消费支出增长较快。 　　一、全国居民收入保持稳定增长态势，农村居民收入增速继续快于城镇居民 　　前三季度，全国居民人均可支配收入29398元，比上年同期名义增长6.3%；扣除价格因素，实际增长5.9%。经济持续恢复，特别是服务业较快增长，保障了城乡居民收入的稳定增长，前三季度居民收入名义和实际增速分别比上年同期快1.0和2.7个百分点。分城乡看，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D4B8E6E2ECEA58770365E8769DE2E9FF",
+      "timestamp": 1697601060000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D4B8E6E2ECEA58770365E8769DE2E9FF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2023年前三季度居民收入和消费支出情况",
+        "title": "【数据发布】2023年前三季度<em>居民</em>收入和<em>消费</em>支出情况",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651566455&idx=6&sn=34e6ae09f023256ec95c61f83a5095a3&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "城镇<em>居民</em>人均可支配收入中位数35242元，增长4.3%，中位数是平均数的89.4%；农村<em>居民</em>人均可支配收入中位数13396元，增长5.7%，中位数是平均数的85.3%。 二、<em>居民</em><em>消费</em>支出情况 前三季度，全国<em>居民</em>人均<em>消费</em>支出19530元，比上年同期名义增长9.2%，扣除<em>价格</em>因素影响，实际增长8.8%。 分城乡看，城镇<em>居民</em>人均<em>消费</em>支出24315元，增长8.6%，扣除<em>价格</em>因素，实际增长8.1%；农村<em>居民</em>人均<em>消费</em>支出12998元，增长9.3%，扣除<em>价格</em>因素，实际增长9.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1697601060000,
+        "docDate": "2023-10-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "32A8FA79A1A928A2C75FF78CBA149A61",
+        "md5Url": "80CBFB7D7EE497D0FD18A31C46ECCD77",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城镇<em>居民</em>人均可支配收入中位数35242元，增长4.3%，中位数是平均数的89.4%；农村<em>居民</em>人均可支配收入中位数13396元，增长5.7%，中位数是平均数的85.3%。 二、<em>居民</em><em>消费</em>支出情况 前三季度，全国<em>居民</em>人均<em>消费</em>支出19530元，比上年同期名义增长9.2%，扣除<em>价格</em>因素影响，实际增长8.8%。 分城乡看，城镇<em>居民</em>人均<em>消费</em>支出24315元，增长8.6%，扣除<em>价格</em>因素，实际增长8.1%；农村<em>居民</em>人均<em>消费</em>支出12998元，增长9.3%，扣除<em>价格</em>因素，实际增长9.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1697601060,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "80CBFB7D7EE497D0FD18A31C46ECCD77",
+          "DRETITLE": "数据发布 2023年前三季度居民收入和消费支出情况",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651566455&idx=6&sn=34e6ae09f023256ec95c61f83a5095a3&scene=0",
+          "MD5TITLE": "32A8FA79A1A928A2C75FF78CBA149A61",
+          "DRETITLEO": "【数据发布】2023年前三季度居民收入和消费支出情况",
+          "QUICKDESCRIPTION": "一 居民收入情况 前三季度 全国居民人均可支配收入29398元 比上年同期名义增长6 3 扣除价格因素 实际增长5 9 分城乡看 城镇居民人均可支配收入39428元 增长 以下如无特别说明 均为同比名义增长 5 2 扣除价格因素 实际增长4 7 农村居民人均可支配收入15705元 增长7 6 扣除价格因素 实际增长7 3 按收入来源分 前三季度 全国居民人均工资性收入16747元 增长6 8 占可支配收入的比重为57 0 人均经营净收入4643元 增长6 7 占可支配收入的比重为15 8 人均财",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6ECE4E7CAB4A37F282CA2EFEB903B145",
+      "timestamp": 1697595061000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6ECE4E7CAB4A37F282CA2EFEB903B145",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2023年前三季度居民收入和消费支出情况】前三季度，全国居民人均可支配收入29398元，比上年同期名义增长6.3%，扣除价格因素，实际增长5.9%。分城乡看，城镇居民人均可支配收入39428元，增长（以下如无特别说明，均为同比名义增长）5.2%，扣除价格因素，实际增长4.7%；农村居民人均可 ...展开全文c",
+        "title": "#发布会微直播# 【2023年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入29398元，比上年同期名义增长6.3%，扣除<em>价格</em>因素，实际增长5.9%。分城乡看，城镇<em>居民</em>人均可支配收入39428元，增长（以下如无特别说明，均为同比名义增长）5.2%，扣除<em>价格</em>因素，实际增长4.7%；农村<em>居民</em>人均可 ...展开全文c",
+        "url": "https://weibo.com/3919628624/NoomMsDfH?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入29398元，比上年同期名义增长6.3%，扣除<em>价格</em>因素，实际增长5.9%。 发布会微直播 【2023年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入29398元，比上年同期名义增长6.3%，扣除<em>价格</em>因素，实际增长5.9%。分城乡看，城镇<em>居民</em>人均可支配收入39428元，增长（以下如无特别说明，均为同比名义增长）5.2%，扣除<em>价格</em>因素，实际增长4.7%；农村<em>居民</em>人均可 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1697595061000,
+        "docDate": "2023-10-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "D2F2FA0A84926AC1BDF31BE837275B4E",
+        "md5Url": "F4FDE5C4F398C32C4A017DD2AFE986BD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入29398元，比上年同期名义增长6.3%，扣除<em>价格</em>因素，实际增长5.9%。 发布会微直播 【2023年前三季度<em>居民</em>收入和<em>消费</em>支出情况】前三季度，全国<em>居民</em>人均可支配收入29398元，比上年同期名义增长6.3%，扣除<em>价格</em>因素，实际增长5.9%。分城乡看，城镇<em>居民</em>人均可支配收入39428元，增长（以下如无特别说明，均为同比名义增长）5.2%，扣除<em>价格</em>因素，实际增长4.7%；农村<em>居民</em>人均可 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1697595061,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F4FDE5C4F398C32C4A017DD2AFE986BD",
+          "DRETITLE": "发布会微直播 2023年前三季度居民收入和消费支出情况 前三季度 全国居民人均可支配收入29398元 比上年同期名义增长6 3 扣除价格因素 实际增长5 9 分城乡看 城镇居民人均可支配收入39428元 增长 以下如无特别说明 均为同比名义增长 5 2 扣除价格因素 实际增长4 7 农村居民人均可 展开全文c",
+          "URL": "https://weibo.com/3919628624/NoomMsDfH?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D2F2FA0A84926AC1BDF31BE837275B4E",
+          "DRETITLEO": "#发布会微直播# 【2023年前三季度居民收入和消费支出情况】前三季度，全国居民人均可支配收入29398元，比上年同期名义增长6.3%，扣除价格因素，实际增长5.9%。分城乡看，城镇居民人均可支配收入39428元，增长（以下如无特别说明，均为同比名义增长）5.2%，扣除价格因素，实际增长4.7%；农村居民人均可 ...展开全文c",
+          "QUICKDESCRIPTION": "发布会微直播 2023年前三季度居民收入和消费支出情况 前三季度 全国居民人均可支配收入29398元 比上年同期名义增长6 3 扣除价格因素 实际增长5 9 分城乡看 城镇居民人均可支配收入39428元 增长 以下如无特别说明 均为同比名义增长 5 2 扣除价格因素 实际增长4 7 农村居民人均可 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4DB5290441A254B1766D6C3A0F1BF2F1",
+      "timestamp": 1697594400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4DB5290441A254B1766D6C3A0F1BF2F1",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年前三季度居民收入和消费支出情况",
+        "title": "2023年前三季度<em>居民</em>收入和<em>消费</em>支出情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231018_1943659.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 ②<em>居民</em>人均可支配收入名义增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入-1） 100%；<em>居民</em>人均可支配收入实际增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入/报告期<em>居民消费价格</em>指数 100-1） 100%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202310/W020231018334142619260.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 ②<em>居民</em>人均可支配收入名义增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入-1） 100%；<em>居民</em>人均可支配收入实际增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入/报告期<em>居民消费价格</em>指数 100-1） 100%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1697594400000,
+        "docDate": "2023-10-18",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/9D5A05E38264CEBCBB0F8C3992143984.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_37.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "4821850607006726FF3B9200C01287B4",
+        "md5Url": "4DB5290441A254B1766D6C3A0F1BF2F1",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。 ②<em>居民</em>人均可支配收入名义增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入-1） 100%；<em>居民</em>人均可支配收入实际增速 （报告期<em>居民</em>人均可支配收入/基期<em>居民</em>人均可支配收入/报告期<em>居民消费价格</em>指数 100-1） 100%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202310/t20231018_1943659.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年前三季度居民收入和消费支出情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/9D5A05E38264CEBCBB0F8C3992143984.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202310/W020231018334142619260.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_37.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1697594400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "4DB5290441A254B1766D6C3A0F1BF2F1",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年前三季度居民收入和消费支出情况",
+          "MD5TITLE": "4821850607006726FF3B9200C01287B4",
+          "QUICKDESCRIPTION": "　　一、居民收入情况 　　前三季度，全国居民人均可支配收入29398元，比上年同期名义增长6.3%，扣除价格因素，实际增长5.9%。分城乡看，城镇居民人均可支配收入39428元，增长（以下如无特别说明，均为同比名义增长）5.2%，扣除价格因素，实际增长4.7%；农村居民人均可支配收入15705元，增长7.6%，扣除价格因素，实际增长7.3%。 　　按收入来源分，前三季度，全国居民人均工资性收入16747元，增长6.8%，占可支配收入的比重为57.0%；人均经营净收入4643元，增长6.7%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8054B03B90326D7E79CBE01C41AF2D3A",
+      "timestamp": 1697163960000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8054B03B90326D7E79CBE01C41AF2D3A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2023年9月份居民消费价格同比持平 环比上涨0.2%",
+        "title": "【数据发布】2023年9月份<em>居民消费价格</em>同比持平 环比上涨0.2%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651566024&idx=1&sn=4b4a40089eb1b162d2463ab008f858c5&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "各类商品及服务<em>价格</em>同比变动情况 9月份，食品烟酒类<em>价格</em>同比下降1.5%，影响CPI（<em>居民消费价格</em>指数）下降约0.44个百分点。 其中，城市上涨0.1%，农村下降0.3%；食品<em>价格</em>下降3.2%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.9%，服务<em>价格</em>上涨1.3%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1697163960000,
+        "docDate": "2023-10-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "0935D6D896FA17F793A968B80415DE4B",
+        "md5Url": "BA08528548CE3939A340F25BF5499BAA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "各类商品及服务<em>价格</em>同比变动情况 9月份，食品烟酒类<em>价格</em>同比下降1.5%，影响CPI（<em>居民消费价格</em>指数）下降约0.44个百分点。 其中，城市上涨0.1%，农村下降0.3%；食品<em>价格</em>下降3.2%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.9%，服务<em>价格</em>上涨1.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1697163960,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "BA08528548CE3939A340F25BF5499BAA",
+          "DRETITLE": "数据发布 2023年9月份居民消费价格同比持平 环比上涨0 2",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651566024&idx=1&sn=4b4a40089eb1b162d2463ab008f858c5&scene=0",
+          "MD5TITLE": "0935D6D896FA17F793A968B80415DE4B",
+          "DRETITLEO": "【数据发布】2023年9月份居民消费价格同比持平 环比上涨0.2%",
+          "QUICKDESCRIPTION": "2023年9月份 全国居民消费价格同比持平 其中 城市上涨0 1 农村下降0 3 食品价格下降3 2 非食品价格上涨0 7 消费品价格下降0 9 服务价格上涨1 3 1 9月平均 全国居民消费价格比上年同期上涨0 4 9月份 全国居民消费价格环比上涨0 2 其中 城市上涨0 2 农村上涨0 3 食品价格上涨0 3 非食品价格上涨0 2 消费品价格上涨0 4 服务价格下降0 1 一 各类商品及服务价格同比变动情况 9月份 食品烟酒类价格同比下降1 5 影响CPI 居民消费价格指数 下降约0 44个",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F2B3A733C070260C82F4F498DFE21BC9",
+      "timestamp": 1697161419000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F2B3A733C070260C82F4F498DFE21BC9",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2023年9月份CPI运行平稳　PPI同比降幅收窄　环比均上涨】——国家统计局城市司首席统计师董莉娟解读2023年9月份CPI和PPI数据 国家统计局今天发布了2023年9月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见 ...展开全文c",
+        "title": "#权威解读# 【2023年9月份CPI运行平稳　PPI同比降幅收窄　环比均上涨】——国家统计局城市司首席统计师董莉娟解读2023年9月份CPI和PPI数据 国家统计局今天发布了2023年9月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见 ...展开全文c",
+        "url": "https://weibo.com/3919628624/NnD3bDrEf?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2023年9月份CPI运行平稳 PPI同比降幅收窄 环比均上涨】——国家统计局城市司首席统计师董莉娟解读2023年9月份CPI和PPI数据 国家统计局今天发布了2023年9月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1697161419000,
+        "docDate": "2023-10-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "514FBF3809BD94D20872FAE56730CE8C",
+        "md5Url": "3DFE378AC0AA64377261176D6C6D30D7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2023年9月份CPI运行平稳 PPI同比降幅收窄 环比均上涨】——国家统计局城市司首席统计师董莉娟解读2023年9月份CPI和PPI数据 国家统计局今天发布了2023年9月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1697161419,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3DFE378AC0AA64377261176D6C6D30D7",
+          "DRETITLE": "权威解读 2023年9月份CPI运行平稳 PPI同比降幅收窄 环比均上涨 国家统计局城市司首席统计师董莉娟解读2023年9月份CPI和PPI数据 国家统计局今天发布了2023年9月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/NnD3bDrEf?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "514FBF3809BD94D20872FAE56730CE8C",
+          "DRETITLEO": "#权威解读# 【2023年9月份CPI运行平稳　PPI同比降幅收窄　环比均上涨】——国家统计局城市司首席统计师董莉娟解读2023年9月份CPI和PPI数据 国家统计局今天发布了2023年9月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司首席统计师董莉娟进行了解读。详见 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2023年9月份CPI运行平稳 PPI同比降幅收窄 环比均上涨 国家统计局城市司首席统计师董莉娟解读2023年9月份CPI和PPI数据 国家统计局今天发布了2023年9月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司首席统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CF037EC2098E7C16A0251DB3A31F5B4A",
+      "timestamp": 1697161163000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CF037EC2098E7C16A0251DB3A31F5B4A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年9月份居民消费价格同比持平 环比上涨0.2%】2023年9月份，全国居民消费价格同比持平。其中，城市上涨0.1%，农村下降0.3%；食品价格下降3.2%，非食品价格上涨0.7%；消费品价格下降0.9%，服务价格上涨1.3%。1—9月平均，全国居民消费价格比上年同期上涨0.4%。详见： ...展开全文c",
+        "title": "#数据发布# 【2023年9月份<em>居民消费价格</em>同比持平 环比上涨0.2%】2023年9月份，全国<em>居民消费价格</em>同比持平。其中，城市上涨0.1%，农村下降0.3%；食品<em>价格</em>下降3.2%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.9%，服务<em>价格</em>上涨1.3%。1—9月平均，全国<em>居民消费价格</em>比上年同期上涨0.4%。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/NnD1skrLZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市上涨0.1%，农村下降0.3%；食品<em>价格</em>下降3.2%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.9%，服务<em>价格</em>上涨1.3%。 数据发布 【2023年9月份<em>居民消费价格</em>同比持平 环比上涨0.2%】2023年9月份，全国<em>居民消费价格</em>同比持平。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1697161163000,
+        "docDate": "2023-10-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "34581F0F4B8C244BF660AB53824ADD59",
+        "md5Url": "08105FBB0810E150C5BD1A38E8C6E5FF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨0.1%，农村下降0.3%；食品<em>价格</em>下降3.2%，非食品<em>价格</em>上涨0.7%；<em>消费</em>品<em>价格</em>下降0.9%，服务<em>价格</em>上涨1.3%。 数据发布 【2023年9月份<em>居民消费价格</em>同比持平 环比上涨0.2%】2023年9月份，全国<em>居民消费价格</em>同比持平。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1697161163,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "08105FBB0810E150C5BD1A38E8C6E5FF",
+          "DRETITLE": "数据发布 2023年9月份居民消费价格同比持平 环比上涨0 2 2023年9月份 全国居民消费价格同比持平 其中 城市上涨0 1 农村下降0 3 食品价格下降3 2 非食品价格上涨0 7 消费品价格下降0 9 服务价格上涨1 3 1 9月平均 全国居民消费价格比上年同期上涨0 4 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/NnD1skrLZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "34581F0F4B8C244BF660AB53824ADD59",
+          "DRETITLEO": "#数据发布# 【2023年9月份居民消费价格同比持平 环比上涨0.2%】2023年9月份，全国居民消费价格同比持平。其中，城市上涨0.1%，农村下降0.3%；食品价格下降3.2%，非食品价格上涨0.7%；消费品价格下降0.9%，服务价格上涨1.3%。1—9月平均，全国居民消费价格比上年同期上涨0.4%。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年9月份居民消费价格同比持平 环比上涨0 2 2023年9月份 全国居民消费价格同比持平 其中 城市上涨0 1 农村下降0 3 食品价格下降3 2 非食品价格上涨0 7 消费品价格下降0 9 服务价格上涨1 3 1 9月平均 全国居民消费价格比上年同期上涨0 4 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "68AF90355A222F117606E694CD460007",
+      "timestamp": 1697160600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "68AF90355A222F117606E694CD460007",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年9月份居民消费价格同比持平 环比上涨0.2%",
+        "title": "2023年9月份<em>居民消费价格</em>同比持平 环比上涨0.2%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943548.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 9月份，食品烟酒类<em>价格</em>同比下降1.5%，影响CPI（<em>居民消费价格</em>指数）下降约0.44个百分点。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202310/W020231013332004797948.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 9月份，食品烟酒类<em>价格</em>同比下降1.5%，影响CPI（<em>居民消费价格</em>指数）下降约0.44个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1697160600000,
+        "docDate": "2023-10-13",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/C7D4B456AEC47FDCB3CBB3156D903FF8.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_37.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "7E5B35D9D5C897E2DC5CDE067CB17E28",
+        "md5Url": "68AF90355A222F117606E694CD460007",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 一、各类商品及服务<em>价格</em>同比变动情况 9月份，食品烟酒类<em>价格</em>同比下降1.5%，影响CPI（<em>居民消费价格</em>指数）下降约0.44个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943548.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年9月份居民消费价格同比持平 环比上涨0.2%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/C7D4B456AEC47FDCB3CBB3156D903FF8.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202310/W020231013332004797948.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_37.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1697160600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "68AF90355A222F117606E694CD460007",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年9月份居民消费价格同比持平 环比上涨0 2",
+          "MD5TITLE": "7E5B35D9D5C897E2DC5CDE067CB17E28",
+          "QUICKDESCRIPTION": "　　2023年9月份，全国居民消费价格同比持平。其中，城市上涨0.1%，农村下降0.3%；食品价格下降3.2%，非食品价格上涨0.7%；消费品价格下降0.9%，服务价格上涨1.3%。1—9月平均，全国居民消费价格比上年同期上涨0.4%。 　　9月份，全国居民消费价格环比上涨0.2%。其中，城市上涨0.2%，农村上涨0.3%；食品价格上涨0.3%，非食品价格上涨0.2%；消费品价格上涨0.4%，服务价格下降0.1%。 　　一、各类商品及服务价格同比变动情况 9月份，食品烟酒类价格同比下降1.5%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AE2809179C075B0B1E2F3DC46C105306",
+      "timestamp": 1695351366000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AE2809179C075B0B1E2F3DC46C105306",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#中国经济# 【中国经济高质量发展大势没有变】今年以来，部分经济指标有所波动，居民消费价格低位运行，外部环境更趋复杂严峻，引发了一些社会舆论对中国经济恢复和发展前景的担忧，国外唱衰中国的种种论调沉渣泛起。看待中国经济形势，应结合发展阶段变化，全面地看、辩证地看，既要看“形”也要看“ ...展开全文c",
+        "title": "#中国经济# 【中国经济高质量发展大势没有变】今年以来，部分经济指标有所波动，<em>居民消费价格</em>低位运行，外部环境更趋复杂严峻，引发了一些社会舆论对中国经济恢复和发展前景的担忧，国外唱衰中国的种种论调沉渣泛起。看待中国经济形势，应结合发展阶段变化，全面地看、辩证地看，既要看“形”也要看“ ...展开全文c",
+        "url": "https://weibo.com/3919628624/NkryarGp2?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "中国经济 【中国经济高质量发展大势没有变】今年以来，部分经济指标有所波动，<em>居民消费价格</em>低位运行，外部环境更趋复杂严峻，引发了一些社会舆论对中国经济恢复和发展前景的担忧，国外唱衰中国的种种论调沉渣泛起。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1695351366000,
+        "docDate": "2023-09-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "FFA5BBC65808AE4A6AEA141CCC082349",
+        "md5Url": "D0369ECC1A819259ADAB8077EFEF354D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "中国经济 【中国经济高质量发展大势没有变】今年以来，部分经济指标有所波动，<em>居民消费价格</em>低位运行，外部环境更趋复杂严峻，引发了一些社会舆论对中国经济恢复和发展前景的担忧，国外唱衰中国的种种论调沉渣泛起。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1695351366,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D0369ECC1A819259ADAB8077EFEF354D",
+          "DRETITLE": "中国经济 中国经济高质量发展大势没有变 今年以来 部分经济指标有所波动 居民消费价格低位运行 外部环境更趋复杂严峻 引发了一些社会舆论对中国经济恢复和发展前景的担忧 国外唱衰中国的种种论调沉渣泛起 看待中国经济形势 应结合发展阶段变化 全面地看 辩证地看 既要看 形 也要看 展开全文c",
+          "URL": "https://weibo.com/3919628624/NkryarGp2?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FFA5BBC65808AE4A6AEA141CCC082349",
+          "DRETITLEO": "#中国经济# 【中国经济高质量发展大势没有变】今年以来，部分经济指标有所波动，居民消费价格低位运行，外部环境更趋复杂严峻，引发了一些社会舆论对中国经济恢复和发展前景的担忧，国外唱衰中国的种种论调沉渣泛起。看待中国经济形势，应结合发展阶段变化，全面地看、辩证地看，既要看“形”也要看“ ...展开全文c",
+          "QUICKDESCRIPTION": "中国经济 中国经济高质量发展大势没有变 今年以来 部分经济指标有所波动 居民消费价格低位运行 外部环境更趋复杂严峻 引发了一些社会舆论对中国经济恢复和发展前景的担忧 国外唱衰中国的种种论调沉渣泛起 看待中国经济形势 应结合发展阶段变化 全面地看 辩证地看 既要看 形 也要看 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 42,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 15,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 30,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 25,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 17,
+          "children": null,
+          "key": "住户调查"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 44,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "视频"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "专题"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

@@ -3,11 +3,11 @@ import json
 from pathlib import Path
 import duckdb
 
-A=Path(r'E:\MLEC\audit');snap=json.loads((A/'active_file_snapshot.json').read_text())
+A=Path(__file__).resolve().parents[1]/'audit';snap=json.loads((A/'active_file_snapshot.json').read_text())
 def qs(v):return "'"+str(v).replace("'","''")+"'"
 def src(ep):return 'read_parquet(['+','.join(qs(r[0]) for r in snap[ep])+'],union_by_name=true,hive_partitioning=false)'
 def save(name,obj):(A/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2,default=str),encoding='utf-8')
-c=duckdb.connect();c.execute("SET threads=1");c.execute("SET memory_limit='768MB'");c.execute("SET temp_directory='E:/MLEC/audit/temp_anomalies'")
+c=duckdb.connect();c.execute("SET threads=1");c.execute("SET memory_limit='768MB'");c.execute("SET temp_directory='"+str(Path(__file__).resolve().parents[1]/"audit"/"temp_anomalies").replace("'","''")+"'")
 save('zero_index_close_details.json',c.execute(f"SELECT ts_code,count(DISTINCT trade_date),min(trade_date),max(trade_date) FROM {src('index_daily')} WHERE close=0 GROUP BY 1 ORDER BY 2 DESC").fetchall())
 invalid=[]
 for ep,col in [('disclosure_date','modify_date'),('pledge_detail','start_date'),('pledge_detail','end_date'),('pledge_detail','release_date')]:

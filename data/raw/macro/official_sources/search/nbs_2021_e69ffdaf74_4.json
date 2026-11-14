@@ -1,0 +1,1870 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 107,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "采购经理指数",
+    "originQt": "采购经理指数",
+    "showQt": "采购经理指数",
+    "encodeQt": "%E9%87%87%E8%B4%AD%E7%BB%8F%E7%90%86%E6%8C%87%E6%95%B0",
+    "qtPasser": "采购经理指数",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "采购": "NN"
+      },
+      {
+        "经理": "NN"
+      },
+      {
+        "指数": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "采购经理指数": "NN"
+      }
+    ],
+    "synonymHs": {
+      "采购经理指数": "PMI,pmi"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "采购经理指数",
+      "采购",
+      "指数",
+      "经理"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BA3902B860C99053C9B8AF6743AE02F9",
+      "timestamp": 1625018520000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BA3902B860C99053C9B8AF6743AE02F9",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2021年6月中国采购经理指数运行情况",
+        "title": "【数据发布】2021年6月中国<em>采购经理指数</em>运行情况",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651391494&idx=1&sn=2c6b2466395d1126d66679c0f053bbeb&chksm=bd1ffa0b8a68731dc9425fcae176d36a44f1db73a2ff553d1ead46606b63644948b54b97bfd8&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "中国综合PMI产出<em>指数</em>运行情况 6月份，综合PMI产出<em>指数</em>为52.9%，比上月回落1.3个百分点，表明我国企业生产经营活动总体扩张步伐有所放缓。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 6月份，中国制造业<em>采购经理指数</em>（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1625018520000,
+        "docDate": "2021-06-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "22EB37B0FA2B4E107E1CAB688B63D7ED",
+        "md5Url": "785DD41F7BAC8F12B6105CBE276D9E20",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "中国综合PMI产出<em>指数</em>运行情况 6月份，综合PMI产出<em>指数</em>为52.9%，比上月回落1.3个百分点，表明我国企业生产经营活动总体扩张步伐有所放缓。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 6月份，中国制造业<em>采购经理指数</em>（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1625018520,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "785DD41F7BAC8F12B6105CBE276D9E20",
+          "DRETITLE": "数据发布 2021年6月中国采购经理指数运行情况",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651391494&idx=1&sn=2c6b2466395d1126d66679c0f053bbeb&chksm=bd1ffa0b8a68731dc9425fcae176d36a44f1db73a2ff553d1ead46606b63644948b54b97bfd8&scene=0",
+          "MD5TITLE": "22EB37B0FA2B4E107E1CAB688B63D7ED",
+          "DRETITLEO": "【数据发布】2021年6月中国采购经理指数运行情况",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 一 中国制造业采购经理指数运行情况 6月份 中国制造业采购经理指数 PMI 为50 9 较上月微落0 1个百分点 继续位于临界点以上 制造业延续稳定扩张态势 从企业规模看 大 中型企业PMI分别为51 7 和50 8 比上月回落0 1和0 3个百分点 均高于临界点 小型企业PMI为49 1 比上月回升0 3个百分点 低于临界点 从分类指数看 在构成制造业PMI的5个分类指数中 生产指数和新订单指数均高于临界点 原材料库存指数 从业人员指数和供应商配",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F19DA05D2CDB2602A118010992C64947",
+      "timestamp": 1625018520000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F19DA05D2CDB2602A118010992C64947",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【权威解读】6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓",
+        "title": "【权威解读】6月份中国制造业<em>采购经理指数</em>基本持平 非制造业商务活动<em>指数</em>扩张有所放缓",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651391494&idx=2&sn=373ae3ed40648ceb698adbbcb658aee8&chksm=bd1ffa0b8a68731dcb4b459d7c021543680334859d7ba6775e5a8e0c250c75001a12dcf40124&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "6月份，中国制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为50.9%、53.5%和52.9%，比上月回落0.1、1.7和1.3个百分点，但均持续位于临界点以上，我国经济运行继续保持扩张态势。 三、综合PMI产出<em>指数</em>继续保持扩张 6月份，综合PMI产出<em>指数</em>为52.9%，低于上月1.3个百分点，表明我国企业生产经营活动总体保持扩张，但力度有所减弱。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1625018520000,
+        "docDate": "2021-06-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "19703A7162CB7606C392602EE4AFF0AE",
+        "md5Url": "A3EB9FD3522B0B5C66A8BACC8DB00CAF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "6月份，中国制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为50.9%、53.5%和52.9%，比上月回落0.1、1.7和1.3个百分点，但均持续位于临界点以上，我国经济运行继续保持扩张态势。 三、综合PMI产出<em>指数</em>继续保持扩张 6月份，综合PMI产出<em>指数</em>为52.9%，低于上月1.3个百分点，表明我国企业生产经营活动总体保持扩张，但力度有所减弱。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1625018520,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "A3EB9FD3522B0B5C66A8BACC8DB00CAF",
+          "DRETITLE": "权威解读 6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651391494&idx=2&sn=373ae3ed40648ceb698adbbcb658aee8&chksm=bd1ffa0b8a68731dcb4b459d7c021543680334859d7ba6775e5a8e0c250c75001a12dcf40124&scene=0",
+          "MD5TITLE": "19703A7162CB7606C392602EE4AFF0AE",
+          "DRETITLEO": "【权威解读】6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓",
+          "QUICKDESCRIPTION": "6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓 国家统计局服务业调查中心 高级统计师赵庆河解读 2021年6月中国采购经理指数 2021年6月30日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数 对此 国家统计局服务业调查中心高级统计师赵庆河进行了解读 6月份 中国制造业采购经理指数 非制造业商务活动指数和综合PMI产出指数分别为50 9 53 5 和52 9 比上月回落0 1 1 7和1 3个百分点 但均持续位于临界点以上 我国经济运行继续保持扩张",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C00C42E68519C611DAA5A3B5D47BD60F",
+      "timestamp": 1625016063000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C00C42E68519C611DAA5A3B5D47BD60F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓】——国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国采购经理指数 详见：O网页链接",
+        "title": "#权威解读# 【6月份中国制造业<em>采购经理指数</em>基本持平 非制造业商务活动<em>指数</em>扩张有所放缓】——国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国<em>采购经理指数</em> 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Kmxqmgin8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【6月份中国制造业<em>采购经理指数</em>基本持平 非制造业商务活动<em>指数</em>扩张有所放缓】——国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【6月份中国制造业<em>采购经理指数</em>基本持平 非制造业商务活动<em>指数</em>扩张有所放缓】——国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国<em>采购经理指数</em> 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1625016063000,
+        "docDate": "2021-06-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "140848F35096DA9C4D89A3DD4E9313D9",
+        "md5Url": "DDA65FC9C773160C9F7A9B6576495337",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【6月份中国制造业<em>采购经理指数</em>基本持平 非制造业商务活动<em>指数</em>扩张有所放缓】——国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【6月份中国制造业<em>采购经理指数</em>基本持平 非制造业商务活动<em>指数</em>扩张有所放缓】——国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国<em>采购经理指数</em> 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1625016063,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "DDA65FC9C773160C9F7A9B6576495337",
+          "DRETITLE": "权威解读 6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓 国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国采购经理指数 详",
+          "URL": "https://weibo.com/3919628624/Kmxqmgin8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "140848F35096DA9C4D89A3DD4E9313D9",
+          "DRETITLEO": "#权威解读# 【6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓】——国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国采购经理指数 详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓 国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国采购经理指数 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D4987D690F83D103BF8F9F50899D8D72",
+      "timestamp": 1625015855000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D4987D690F83D103BF8F9F50899D8D72",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2021年6月中国采购经理指数运行情况】6月份，中国制造业采购经理指数（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。详见：O网页链接",
+        "title": "#数据发布# 【2021年6月中国<em>采购经理指数</em>运行情况】6月份，中国制造业<em>采购经理指数</em>（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/KmxoXoRjn?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2021年6月中国<em>采购经理指数</em>运行情况】6月份，中国制造业<em>采购经理指数</em>（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。 数据发布 【2021年6月中国<em>采购经理指数</em>运行情况】6月份，中国制造业<em>采购经理指数</em>（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1625015855000,
+        "docDate": "2021-06-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "A607642F7A4768255FE829D31635A121",
+        "md5Url": "EC4060FA2FF03C8AB49E50442709AF1C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2021年6月中国<em>采购经理指数</em>运行情况】6月份，中国制造业<em>采购经理指数</em>（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。 数据发布 【2021年6月中国<em>采购经理指数</em>运行情况】6月份，中国制造业<em>采购经理指数</em>（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1625015855,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "EC4060FA2FF03C8AB49E50442709AF1C",
+          "DRETITLE": "数据发布 2021年6月中国采购经理指数运行情况 6月份 中国制造业采购经理指数 PMI 为50 9 较上月微落0 1个百分点 继续位于临界点以上 制造业延续稳",
+          "URL": "https://weibo.com/3919628624/KmxoXoRjn?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A607642F7A4768255FE829D31635A121",
+          "DRETITLEO": "#数据发布# 【2021年6月中国采购经理指数运行情况】6月份，中国制造业采购经理指数（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2021年6月中国采购经理指数运行情况 6月份 中国制造业采购经理指数 PMI 为50 9 较上月微落0 1个百分点 继续位于临界点以上 制造业延续稳定扩张态势 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "534BBEC84312AFAF16302688B0346EB3",
+      "timestamp": 1625014800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "534BBEC84312AFAF16302688B0346EB3",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2021年6月中国采购经理指数运行情况",
+        "title": "2021年6月中国<em>采购经理指数</em>运行情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901142.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送时间 2020年6月 50.9 53.9 51.4 47.6 49.1 50.5 2020年7月 51.1 54.0 51.7 47.9 49.3 50.4 2020年8月 51.0 53.5 52.0 47.3 49.4 50.4 2020年9月 51.5 54.0 52.8 48.5 49.6 50.7 2020年10月 51.4 53.9 52.8 48.0 49.3 50.6 2020年11月 52.1 54.7 53.9 48.6 49.5 50.1 2020年12月 51.9 54.2 53.6 48.6 49.6 49.9 2021年1月 51.3 53.5 52.3 49.0 48.4 48.8 2021年2月 50.6 51.9 51.5 47.7 48.1 47.9 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营活动预期 2020年6月 42.6 47.0 51.8 56.8 52.4 46.8 44.8 57.5 2020年7月 48.4 49.1 52.4 58.1 52.2 47.6 45.6 57.8 2020年8月 49.1 49.0 51.7 58.3 53.2 47.1 46.0 58.6 2020年9月 50.8 50.4 53.6 58.5 52.5 48.4 46.1 58.7 2020年10月 51.0 50.8 53.1 58.8 53.2 44.9 47.2 59.3 2020年11月 51.5 50.9 53.7 62.6 56.5 45.7 46.7 60.1 2020年12月 51.3 50.4 53.2 68.0 58.9 46.2 47.1 59.8 2021年1月 50.2 49.8 52.0 67.1 57.2 49.0 47.3 57.9 2021年2月 48.8 49.6 51.6 66.7 58.5 48.0 46.1 59.2 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 二、中国非制造业<em>采购经理指数</em>运行情况 6月份，非制造业商务活动<em>指数</em>为53.5%，较上月回落1.7个百分点，非制造业扩张力度有所减弱。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送时间 2020年6月 50.9 53.9 51.4 47.6 49.1 50.5 2020年7月 51.1 54.0 51.7 47.9 49.3 50.4 2020年8月 51.0 53.5 52.0 47.3 49.4 50.4 2020年9月 51.5 54.0 52.8 48.5 49.6 50.7 2020年10月 51.4 53.9 52.8 48.0 49.3 50.6 2020年11月 52.1 54.7 53.9 48.6 49.5 50.1 2020年12月 51.9 54.2 53.6 48.6 49.6 49.9 2021年1月 51.3 53.5 52.3 49.0 48.4 48.8 2021年2月 50.6 51.9 51.5 47.7 48.1 47.9 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营活动预期 2020年6月 42.6 47.0 51.8 56.8 52.4 46.8 44.8 57.5 2020年7月 48.4 49.1 52.4 58.1 52.2 47.6 45.6 57.8 2020年8月 49.1 49.0 51.7 58.3 53.2 47.1 46.0 58.6 2020年9月 50.8 50.4 53.6 58.5 52.5 48.4 46.1 58.7 2020年10月 51.0 50.8 53.1 58.8 53.2 44.9 47.2 59.3 2020年11月 51.5 50.9 53.7 62.6 56.5 45.7 46.7 60.1 2020年12月 51.3 50.4 53.2 68.0 58.9 46.2 47.1 59.8 2021年1月 50.2 49.8 52.0 67.1 57.2 49.0 47.3 57.9 2021年2月 48.8 49.6 51.6 66.7 58.5 48.0 46.1 59.2 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 二、中国非制造业<em>采购经理指数</em>运行情况 6月份，非制造业商务活动<em>指数</em>为53.5%，较上月回落1.7个百分点，非制造业扩张力度有所减弱。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1625014800000,
+        "docDate": "2021-06-30",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/D0214749946D48E3BC2C4F60958620A7.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_5.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "141FEB7E0F5BEC9194B8CEA56853E969",
+        "md5Url": "534BBEC84312AFAF16302688B0346EB3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送时间 2020年6月 50.9 53.9 51.4 47.6 49.1 50.5 2020年7月 51.1 54.0 51.7 47.9 49.3 50.4 2020年8月 51.0 53.5 52.0 47.3 49.4 50.4 2020年9月 51.5 54.0 52.8 48.5 49.6 50.7 2020年10月 51.4 53.9 52.8 48.0 49.3 50.6 2020年11月 52.1 54.7 53.9 48.6 49.5 50.1 2020年12月 51.9 54.2 53.6 48.6 49.6 49.9 2021年1月 51.3 53.5 52.3 49.0 48.4 48.8 2021年2月 50.6 51.9 51.5 47.7 48.1 47.9 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营活动预期 2020年6月 42.6 47.0 51.8 56.8 52.4 46.8 44.8 57.5 2020年7月 48.4 49.1 52.4 58.1 52.2 47.6 45.6 57.8 2020年8月 49.1 49.0 51.7 58.3 53.2 47.1 46.0 58.6 2020年9月 50.8 50.4 53.6 58.5 52.5 48.4 46.1 58.7 2020年10月 51.0 50.8 53.1 58.8 53.2 44.9 47.2 59.3 2020年11月 51.5 50.9 53.7 62.6 56.5 45.7 46.7 60.1 2020年12月 51.3 50.4 53.2 68.0 58.9 46.2 47.1 59.8 2021年1月 50.2 49.8 52.0 67.1 57.2 49.0 47.3 57.9 2021年2月 48.8 49.6 51.6 66.7 58.5 48.0 46.1 59.2 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 二、中国非制造业<em>采购经理指数</em>运行情况 6月份，非制造业商务活动<em>指数</em>为53.5%，较上月回落1.7个百分点，非制造业扩张力度有所减弱。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901142.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2021年6月中国采购经理指数运行情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/D0214749946D48E3BC2C4F60958620A7.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_5.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1625014800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "534BBEC84312AFAF16302688B0346EB3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2021年6月中国采购经理指数运行情况",
+          "MD5TITLE": "141FEB7E0F5BEC9194B8CEA56853E969",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 　　一、中国制造业采购经理指数运行情况 　　6月份，中国制造业采购经理指数（PMI）为50.9%，较上月微落0.1个百分点，继续位于临界点以上，制造业延续稳定扩张态势。 　　从企业规模看，大、中型企业PMI分别为51.7%和50.8%，比上月回落0.1和0.3个百分点，均高于临界点；小型企业PMI为49.1%，比上月回升0.3个百分点，低于临界点。 　　从分类指数看，在构成制造业PMI的5个分类指数中，生产指数和新订单指数均高于临界点，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "17DCAB80C383B10CF1B37CAC90C9AEF9",
+      "timestamp": 1625014800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "17DCAB80C383B10CF1B37CAC90C9AEF9",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国采购经理指数",
+        "title": "国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国<em>采购经理指数</em>",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896504.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "6月份，中国制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为50.9%、53.5%和52.9%，比上月回落0.1、1.7和1.3个百分点，但均持续位于临界点以上，我国经济运行继续保持扩张态势。 三、综合PMI产出<em>指数</em>继续保持扩张 6月份，综合PMI产出<em>指数</em>为52.9%，低于上月1.3个百分点，表明我国企业生产经营活动总体保持扩张，但力度有所减弱。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1625014800000,
+        "docDate": "2021-06-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_49.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "EAEA0827CA4A55CE12E77D83BA210DF7",
+        "md5Url": "17DCAB80C383B10CF1B37CAC90C9AEF9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "6月份，中国制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为50.9%、53.5%和52.9%，比上月回落0.1、1.7和1.3个百分点，但均持续位于临界点以上，我国经济运行继续保持扩张态势。 三、综合PMI产出<em>指数</em>继续保持扩张 6月份，综合PMI产出<em>指数</em>为52.9%，低于上月1.3个百分点，表明我国企业生产经营活动总体保持扩张，但力度有所减弱。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896504.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国采购经理指数",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_49.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1625014800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "17DCAB80C383B10CF1B37CAC90C9AEF9",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国采购经理指数",
+          "MD5TITLE": "EAEA0827CA4A55CE12E77D83BA210DF7",
+          "QUICKDESCRIPTION": "6月份中国制造业采购经理指数基本持平 非制造业商务活动指数扩张有所放缓 ——国家统计局服务业调查中心高级统计师赵庆河解读2021年6月中国采购经理指数 　　2021年6月30日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数。对此，国家统计局服务业调查中心高级统计师赵庆河进行了解读。 　　6月份，中国制造业采购经理指数、非制造业商务活动指数和综合PMI产出指数分别为50.9%、53.5%和52.9%，比上月回落0.1、1.7和1.3个百分点，但均持续位于临界点以上，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B88DA04EF516772614999F0A3741334B",
+      "timestamp": 1622679360000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B88DA04EF516772614999F0A3741334B",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》5月份中国制造业采购经理指数公布 保持稳定较上月微落0.1个百分点",
+        "title": "《新闻直播间》5月份中国制造业<em>采购经理指数</em>公布 保持稳定较上月微落0.1个百分点",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914248.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》5月份中国制造业<em>采购经理指数</em>公布 保持稳定较上月微落0.1个百分点...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1622679360000,
+        "docDate": "2021-06-03",
+        "includeImg": true,
+        "picUrl": "img?reference=B88DA04EF516772614999F0A3741334B&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_58.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "F1B187F67944877B04E6CEBB77B3D55F",
+        "md5Url": "B88DA04EF516772614999F0A3741334B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》5月份中国制造业<em>采购经理指数</em>公布 保持稳定较上月微落0.1个百分点...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914248.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》5月份中国制造业采购经理指数公布 保持稳定较上月微落0.1个百分点",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_58.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1622679360,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B88DA04EF516772614999F0A3741334B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 5月份中国制造业采购经理指数公布 保持稳定较上月微落0 1个百分点",
+          "MD5TITLE": "F1B187F67944877B04E6CEBB77B3D55F",
+          "QUICKDESCRIPTION": "《新闻直播间》5月份中国制造业采购经理指数公布 保持稳定较上月微落0.1个百分点",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7EEB4BB377A736C8A3DAC8D05A59634D",
+      "timestamp": 1622447723000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7EEB4BB377A736C8A3DAC8D05A59634D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#图解# 【一图轻松看懂2021年5月PMI数据~】",
+        "title": "#图解# 【一图轻松看懂2021年5月PMI数据~】",
+        "url": "https://weibo.com/3919628624/Ki1bwoU7N?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "图解 【一图轻松看懂2021年5月PMI数据 】...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1622447723000,
+        "docDate": "2021-05-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "74AB901DAC174394A3070CCB7C78DDEA",
+        "md5Url": "2FB1DC31A0CF390458BA8B6B94BDF489",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "图解 【一图轻松看懂2021年5月PMI数据 】...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1622447723,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2FB1DC31A0CF390458BA8B6B94BDF489",
+          "DRETITLE": "图解 一图轻松看懂2021年5月PMI数据~",
+          "URL": "https://weibo.com/3919628624/Ki1bwoU7N?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "74AB901DAC174394A3070CCB7C78DDEA",
+          "DRETITLEO": "#图解# 【一图轻松看懂2021年5月PMI数据~】",
+          "QUICKDESCRIPTION": "图解 一图轻松看懂2021年5月PMI数据",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0B644270AB3979AEB6D14DDB952DC184",
+      "timestamp": 1622430720000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0B644270AB3979AEB6D14DDB952DC184",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【权威解读】5月份中国制造业采购经理指数和非制造业商务活动指数继续位于扩张区间",
+        "title": "【权威解读】5月份中国制造业<em>采购经理指数</em>和非制造业商务活动<em>指数</em>继续位于扩张区间",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651385033&idx=2&sn=417ae447cc2d0d412902bb1140decccc&chksm=bd1e10c48a6999d2ccd420d0a68430e9c4f26cd47993c06a351d81a2562765413cbb95af1d0d&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "从市场需求和用工情况看，新订单<em>指数</em>和从业人员<em>指数</em>分别为53.8%和53.0%，高于上月1.4和2.0个百分点，表明企业新签订工程合同量明显增加，劳动力需求上升，建筑业扩张动力增强。 三、综合PMI产出<em>指数</em>有所上升 5月份，综合PMI产出<em>指数</em>为54.2%，高于上月0.4个百分点，表明我国企业生产经营活动总体延续稳步扩张态势。 一、制造业<em>采购经理指数</em>基本持平 5月份，制造业<em>采购经理指数</em>与上月相比变化不大，景气度继续高于2019年和2020年同期，制造业延续稳定扩张态势。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1622430720000,
+        "docDate": "2021-05-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "DD18AFC813D62AC164F9EDC9735606A3",
+        "md5Url": "716C64971EC0CBA39258E0D4F05EFE6E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "从市场需求和用工情况看，新订单<em>指数</em>和从业人员<em>指数</em>分别为53.8%和53.0%，高于上月1.4和2.0个百分点，表明企业新签订工程合同量明显增加，劳动力需求上升，建筑业扩张动力增强。 三、综合PMI产出<em>指数</em>有所上升 5月份，综合PMI产出<em>指数</em>为54.2%，高于上月0.4个百分点，表明我国企业生产经营活动总体延续稳步扩张态势。 一、制造业<em>采购经理指数</em>基本持平 5月份，制造业<em>采购经理指数</em>与上月相比变化不大，景气度继续高于2019年和2020年同期，制造业延续稳定扩张态势。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1622430720,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "716C64971EC0CBA39258E0D4F05EFE6E",
+          "DRETITLE": "权威解读 5月份中国制造业采购经理指数和非制造业商务活动指数继续位于扩张区间",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651385033&idx=2&sn=417ae447cc2d0d412902bb1140decccc&chksm=bd1e10c48a6999d2ccd420d0a68430e9c4f26cd47993c06a351d81a2562765413cbb95af1d0d&scene=0",
+          "MD5TITLE": "DD18AFC813D62AC164F9EDC9735606A3",
+          "DRETITLEO": "【权威解读】5月份中国制造业采购经理指数和非制造业商务活动指数继续位于扩张区间",
+          "QUICKDESCRIPTION": "5月份中国制造业采购经理指数 和非制造业商务活动指数 继续位于扩张区间 国家统计局服务业调查中心 高级统计师赵庆河解读2021年5月中国采购经理指数 2021年5月31日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数 对此 国家统计局服务业调查中心高级统计师赵庆河进行了解读 5月份 中国制造业采购经理指数为51 0 比上月微落0 1个百分点 非制造业商务活动指数和综合PMI产出指数分别为55 2 和54 2 比上月上升0 3和0 4个百分点 我国经济总体继续保持平稳扩张 一",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2772F911F75A8683A7356CCD838A43FB",
+      "timestamp": 1622430720000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2772F911F75A8683A7356CCD838A43FB",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2021年5月中国采购经理指数运行情况",
+        "title": "【数据发布】2021年5月中国<em>采购经理指数</em>运行情况",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651385033&idx=1&sn=434632ba939a144ac97aae57035bd5b4&chksm=bd1e10c48a6999d2b28d9c81918446aecc80da861520f0c47c8ffc078b1c13b636a8fe5313f5&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "中国综合PMI产出<em>指数</em>运行情况 5月份，综合PMI产出<em>指数</em>为54.2%，比上月上升0.4个百分点，表明我国企业生产经营活动总体延续稳步扩张态势。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 5 月份，中国制造业采 购<em>经理</em><em>指数</em>（ PMI ）为 51.0% ，微低于上月 0.1 个百分点，继续位于临界点以上，制造业保持平稳扩张。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1622430720000,
+        "docDate": "2021-05-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "4781A71C37528294B779E1B76688BBC3",
+        "md5Url": "501ABA3AA6938E93160E3F4904C36DDE",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "中国综合PMI产出<em>指数</em>运行情况 5月份，综合PMI产出<em>指数</em>为54.2%，比上月上升0.4个百分点，表明我国企业生产经营活动总体延续稳步扩张态势。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 5 月份，中国制造业采 购<em>经理</em><em>指数</em>（ PMI ）为 51.0% ，微低于上月 0.1 个百分点，继续位于临界点以上，制造业保持平稳扩张。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1622430720,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "501ABA3AA6938E93160E3F4904C36DDE",
+          "DRETITLE": "数据发布 2021年5月中国采购经理指数运行情况",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651385033&idx=1&sn=434632ba939a144ac97aae57035bd5b4&chksm=bd1e10c48a6999d2b28d9c81918446aecc80da861520f0c47c8ffc078b1c13b636a8fe5313f5&scene=0",
+          "MD5TITLE": "4781A71C37528294B779E1B76688BBC3",
+          "DRETITLEO": "【数据发布】2021年5月中国采购经理指数运行情况",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 一 中国制造业采购经理指数运行情况 5月份 中国制造业采购经理指数 PMI 为51 0 微低于上月0 1个百分点 继续位于临界点以上 制造业保持平稳扩张 从企业规模看 大 中型企业PMI分别为51 8 和51 1 比上月上升0 1和0 8个百分点 均高于临界点 小型企业PMI为48 8 比上月下降2 0个百分点 低于临界点 从分类指数看 在构成制造业PMI的5个分类指数中 生产指数和新订单指数均高于临界点 原材料库存指数 从业人员指数和供应商配送时",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "128EBE15B48F45DFA6B39406E8EA2ED8",
+      "timestamp": 1622423686000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "128EBE15B48F45DFA6B39406E8EA2ED8",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数】5月份中国制造业采购经理指数和非制造业商务活动指数继续位于扩张区间——国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数 详",
+        "title": "#权威解读# 【国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em>】5月份中国制造业<em>采购经理指数</em>和非制造业商务活动<em>指数</em>继续位于扩张区间——国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em> 详",
+        "url": "https://weibo.com/3919628624/KhYyUwmLC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em>】5月份中国制造业<em>采购经理指数</em>和非制造业商务活动<em>指数</em>继续位于扩张区间——国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em>】5月份中国制造业<em>采购经理指数</em>和非制造业商务活动<em>指数</em>继续位于扩张区间——国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em> 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1622423686000,
+        "docDate": "2021-05-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "A28AE8C0B3C471B47D8D729C62301C6D",
+        "md5Url": "5B9B99951183F0C97EEB1669F9914903",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em>】5月份中国制造业<em>采购经理指数</em>和非制造业商务活动<em>指数</em>继续位于扩张区间——国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em>】5月份中国制造业<em>采购经理指数</em>和非制造业商务活动<em>指数</em>继续位于扩张区间——国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em> 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1622423686,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "5B9B99951183F0C97EEB1669F9914903",
+          "DRETITLE": "权威解读 国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数 5月份中国制造业采购经理指数和非制造业商务活动指数继续位于扩张区间 国家统",
+          "URL": "https://weibo.com/3919628624/KhYyUwmLC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A28AE8C0B3C471B47D8D729C62301C6D",
+          "DRETITLEO": "#权威解读# 【国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数】5月份中国制造业采购经理指数和非制造业商务活动指数继续位于扩张区间——国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数 详",
+          "QUICKDESCRIPTION": "权威解读 国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数 5月份中国制造业采购经理指数和非制造业商务活动指数继续位于扩张区间 国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6F60B7410F7AA908C6D17DB140F35FA6",
+      "timestamp": 1622423576000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6F60B7410F7AA908C6D17DB140F35FA6",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2021年5月中国采购经理指数运行情况】5月份，中国制造业采购经理指数（PMI）为51.0%，微低于上月0.1个百分点，继续位于临界点以上，制造业保持平稳扩张。详见：O网页链接",
+        "title": "#数据发布# 【2021年5月中国<em>采购经理指数</em>运行情况】5月份，中国制造业<em>采购经理指数</em>（PMI）为51.0%，微低于上月0.1个百分点，继续位于临界点以上，制造业保持平稳扩张。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/KhYyb18jb?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2021年5月中国<em>采购经理指数</em>运行情况】5月份，中国制造业<em>采购经理指数</em>（PMI）为51.0%，微低于上月0.1个百分点，继续位于临界点以上，制造业保持平稳扩张。 数据发布 【2021年5月中国<em>采购经理指数</em>运行情况】5月份，中国制造业<em>采购经理指数</em>（PMI）为51.0%，微低于上月0.1个百分点，继续位于临界点以上，制造业保持平稳扩张。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1622423576000,
+        "docDate": "2021-05-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "93118DF630C3D3F1B1C9ECB131E47E38",
+        "md5Url": "A230D622EC9B4E5FD861F624E00C0C0B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2021年5月中国<em>采购经理指数</em>运行情况】5月份，中国制造业<em>采购经理指数</em>（PMI）为51.0%，微低于上月0.1个百分点，继续位于临界点以上，制造业保持平稳扩张。 数据发布 【2021年5月中国<em>采购经理指数</em>运行情况】5月份，中国制造业<em>采购经理指数</em>（PMI）为51.0%，微低于上月0.1个百分点，继续位于临界点以上，制造业保持平稳扩张。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1622423576,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "A230D622EC9B4E5FD861F624E00C0C0B",
+          "DRETITLE": "数据发布 2021年5月中国采购经理指数运行情况 5月份 中国制造业采购经理指数 PMI 为51 0 微低于上月0 1个百分点 继续位于临界点以上 制造业保持平",
+          "URL": "https://weibo.com/3919628624/KhYyb18jb?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "93118DF630C3D3F1B1C9ECB131E47E38",
+          "DRETITLEO": "#数据发布# 【2021年5月中国采购经理指数运行情况】5月份，中国制造业采购经理指数（PMI）为51.0%，微低于上月0.1个百分点，继续位于临界点以上，制造业保持平稳扩张。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2021年5月中国采购经理指数运行情况 5月份 中国制造业采购经理指数 PMI 为51 0 微低于上月0 1个百分点 继续位于临界点以上 制造业保持平稳扩张 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BB9EA7C3C37243C51F5EE26F68D22CFD",
+      "timestamp": 1622422800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BB9EA7C3C37243C51F5EE26F68D22CFD",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数",
+        "title": "国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国<em>采购经理指数</em>",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896496.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "从市场需求和用工情况看，新订单<em>指数</em>和从业人员<em>指数</em>分别为53.8%和53.0%，高于上月1.4和2.0个百分点，表明企业新签订工程合同量明显增加，劳动力需求上升，建筑业扩张动力增强。 三、综合PMI产出<em>指数</em>有所上升 5月份，综合PMI产出<em>指数</em>为54.2%，高于上月0.4个百分点，表明我国企业生产经营活动总体延续稳步扩张态势。 一、制造业<em>采购经理指数</em>基本持平 5月份，制造业<em>采购经理指数</em>与上月相比变化不大，景气度继续高于2019年和2020年同期，制造业延续稳定扩张态势。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1622422800000,
+        "docDate": "2021-05-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_50.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "B5DE9F9D6ADCAAFC49C45C63CFBB60A9",
+        "md5Url": "BB9EA7C3C37243C51F5EE26F68D22CFD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "从市场需求和用工情况看，新订单<em>指数</em>和从业人员<em>指数</em>分别为53.8%和53.0%，高于上月1.4和2.0个百分点，表明企业新签订工程合同量明显增加，劳动力需求上升，建筑业扩张动力增强。 三、综合PMI产出<em>指数</em>有所上升 5月份，综合PMI产出<em>指数</em>为54.2%，高于上月0.4个百分点，表明我国企业生产经营活动总体延续稳步扩张态势。 一、制造业<em>采购经理指数</em>基本持平 5月份，制造业<em>采购经理指数</em>与上月相比变化不大，景气度继续高于2019年和2020年同期，制造业延续稳定扩张态势。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896496.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_50.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1622422800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "BB9EA7C3C37243C51F5EE26F68D22CFD",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数",
+          "MD5TITLE": "B5DE9F9D6ADCAAFC49C45C63CFBB60A9",
+          "QUICKDESCRIPTION": "5月份中国制造业采购经理指数和非制造业商务活动指数继续位于扩张区间 ——国家统计局服务业调查中心高级统计师赵庆河解读2021年5月中国采购经理指数 　　2021年5月31日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数。对此，国家统计局服务业调查中心高级统计师赵庆河进行了解读。 　　5月份，中国制造业采购经理指数为51.0%，比上月微落0.1个百分点；非制造业商务活动指数和综合PMI产出指数分别为55.2%和54.2%，比上月上升0.3和0.4个百分点，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7653E5091422E825772DE194E23B805D",
+      "timestamp": 1622422800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7653E5091422E825772DE194E23B805D",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2021年5月中国采购经理指数运行情况",
+        "title": "2021年5月中国<em>采购经理指数</em>运行情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901116.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送时间 2020年5月 50.6 53.2 50.9 47.3 49.4 50.5 2020年6月 50.9 53.9 51.4 47.6 49.1 50.5 2020年7月 51.1 54.0 51.7 47.9 49.3 50.4 2020年8月 51.0 53.5 52.0 47.3 49.4 50.4 2020年9月 51.5 54.0 52.8 48.5 49.6 50.7 2020年10月 51.4 53.9 52.8 48.0 49.3 50.6 2020年11月 52.1 54.7 53.9 48.6 49.5 50.1 2020年12月 51.9 54.2 53.6 48.6 49.6 49.9 2021年1月 51.3 53.5 52.3 49.0 48.4 48.8 2021年2月 50.6 51.9 51.5 47.7 48.1 47.9 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营活动预期 2020年5月 35.3 45.3 50.8 51.6 48.7 47.3 44.1 57.9 2020年6月 42.6 47.0 51.8 56.8 52.4 46.8 44.8 57.5 2020年7月 48.4 49.1 52.4 58.1 52.2 47.6 45.6 57.8 2020年8月 49.1 49.0 51.7 58.3 53.2 47.1 46.0 58.6 2020年9月 50.8 50.4 53.6 58.5 52.5 48.4 46.1 58.7 2020年10月 51.0 50.8 53.1 58.8 53.2 44.9 47.2 59.3 2020年11月 51.5 50.9 53.7 62.6 56.5 45.7 46.7 60.1 2020年12月 51.3 50.4 53.2 68.0 58.9 46.2 47.1 59.8 2021年1月 50.2 49.8 52.0 67.1 57.2 49.0 47.3 57.9 2021年2月 48.8 49.6 51.6 66.7 58.5 48.0 46.1 59.2 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 二、中国非制造业<em>采购经理指数</em>运行情况 5月份，非制造业商务活动<em>指数</em>为55.2%，较上月上升0.3个百分点，非制造业扩张步伐有所加快。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送时间 2020年5月 50.6 53.2 50.9 47.3 49.4 50.5 2020年6月 50.9 53.9 51.4 47.6 49.1 50.5 2020年7月 51.1 54.0 51.7 47.9 49.3 50.4 2020年8月 51.0 53.5 52.0 47.3 49.4 50.4 2020年9月 51.5 54.0 52.8 48.5 49.6 50.7 2020年10月 51.4 53.9 52.8 48.0 49.3 50.6 2020年11月 52.1 54.7 53.9 48.6 49.5 50.1 2020年12月 51.9 54.2 53.6 48.6 49.6 49.9 2021年1月 51.3 53.5 52.3 49.0 48.4 48.8 2021年2月 50.6 51.9 51.5 47.7 48.1 47.9 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营活动预期 2020年5月 35.3 45.3 50.8 51.6 48.7 47.3 44.1 57.9 2020年6月 42.6 47.0 51.8 56.8 52.4 46.8 44.8 57.5 2020年7月 48.4 49.1 52.4 58.1 52.2 47.6 45.6 57.8 2020年8月 49.1 49.0 51.7 58.3 53.2 47.1 46.0 58.6 2020年9月 50.8 50.4 53.6 58.5 52.5 48.4 46.1 58.7 2020年10月 51.0 50.8 53.1 58.8 53.2 44.9 47.2 59.3 2020年11月 51.5 50.9 53.7 62.6 56.5 45.7 46.7 60.1 2020年12月 51.3 50.4 53.2 68.0 58.9 46.2 47.1 59.8 2021年1月 50.2 49.8 52.0 67.1 57.2 49.0 47.3 57.9 2021年2月 48.8 49.6 51.6 66.7 58.5 48.0 46.1 59.2 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 二、中国非制造业<em>采购经理指数</em>运行情况 5月份，非制造业商务活动<em>指数</em>为55.2%，较上月上升0.3个百分点，非制造业扩张步伐有所加快。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1622422800000,
+        "docDate": "2021-05-31",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/D6D47BA5A1A9EF9CA5B651904F8BC5CF.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_6.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "CEAFC67D0BE7D02DFFA178866A7ABF72",
+        "md5Url": "7653E5091422E825772DE194E23B805D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送时间 2020年5月 50.6 53.2 50.9 47.3 49.4 50.5 2020年6月 50.9 53.9 51.4 47.6 49.1 50.5 2020年7月 51.1 54.0 51.7 47.9 49.3 50.4 2020年8月 51.0 53.5 52.0 47.3 49.4 50.4 2020年9月 51.5 54.0 52.8 48.5 49.6 50.7 2020年10月 51.4 53.9 52.8 48.0 49.3 50.6 2020年11月 52.1 54.7 53.9 48.6 49.5 50.1 2020年12月 51.9 54.2 53.6 48.6 49.6 49.9 2021年1月 51.3 53.5 52.3 49.0 48.4 48.8 2021年2月 50.6 51.9 51.5 47.7 48.1 47.9 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营活动预期 2020年5月 35.3 45.3 50.8 51.6 48.7 47.3 44.1 57.9 2020年6月 42.6 47.0 51.8 56.8 52.4 46.8 44.8 57.5 2020年7月 48.4 49.1 52.4 58.1 52.2 47.6 45.6 57.8 2020年8月 49.1 49.0 51.7 58.3 53.2 47.1 46.0 58.6 2020年9月 50.8 50.4 53.6 58.5 52.5 48.4 46.1 58.7 2020年10月 51.0 50.8 53.1 58.8 53.2 44.9 47.2 59.3 2020年11月 51.5 50.9 53.7 62.6 56.5 45.7 46.7 60.1 2020年12月 51.3 50.4 53.2 68.0 58.9 46.2 47.1 59.8 2021年1月 50.2 49.8 52.0 67.1 57.2 49.0 47.3 57.9 2021年2月 48.8 49.6 51.6 66.7 58.5 48.0 46.1 59.2 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 二、中国非制造业<em>采购经理指数</em>运行情况 5月份，非制造业商务活动<em>指数</em>为55.2%，较上月上升0.3个百分点，非制造业扩张步伐有所加快。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901116.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2021年5月中国采购经理指数运行情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/D6D47BA5A1A9EF9CA5B651904F8BC5CF.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_6.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1622422800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "7653E5091422E825772DE194E23B805D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2021年5月中国采购经理指数运行情况",
+          "MD5TITLE": "CEAFC67D0BE7D02DFFA178866A7ABF72",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 　　一、中国制造业采购经理指数运行情况 　　5月份，中国制造业采购经理指数（PMI）为51.0%，微低于上月0.1个百分点，继续位于临界点以上，制造业保持平稳扩张。 　　从企业规模看，大、中型企业PMI分别为51.8%和51.1%，比上月上升0.1和0.8个百分点，均高于临界点；小型企业PMI为48.8%，比上月下降2.0个百分点，低于临界点。 　　从分类指数看，在构成制造业PMI的5个分类指数中，生产指数和新订单指数均高于临界点，原材料库存指数、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "582234827D19556069B8FCE7F3BD9A38",
+      "timestamp": 1619752380000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "582234827D19556069B8FCE7F3BD9A38",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【图解】一图轻松看懂2021年4月PMI数据~",
+        "title": "【图解】一图轻松看懂2021年4月PMI数据~",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651379551&idx=1&sn=4291c664ee1f73f961e468ede0f2fbe1&chksm=bd1e2b528a69a24403b9c9e5cf5be0e72f4aeae39717f4d5a9dbeee90ac7cbcb7c95ad407855&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "往期推荐 【数据发布】2021年4月中国<em>采购经理指数</em>运行情况 【权威解读】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平 点赞、在看 你最好看 往期推荐 【数据发布】2021年4月中国<em>采购经理指数</em>运行情况 【权威解读】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平 点赞、在看 你最好看...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1619752380000,
+        "docDate": "2021-04-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 2,
+        "md5Title": "655B0E94D8D60A6A049FB3859115A448",
+        "md5Url": "E54ACA4446F0123BDC35E5E4FBD31E37",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "往期推荐 【数据发布】2021年4月中国<em>采购经理指数</em>运行情况 【权威解读】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平 点赞、在看 你最好看 往期推荐 【数据发布】2021年4月中国<em>采购经理指数</em>运行情况 【权威解读】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平 点赞、在看 你最好看...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1619752380,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "E54ACA4446F0123BDC35E5E4FBD31E37",
+          "DRETITLE": "图解 一图轻松看懂2021年4月PMI数据~",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651379551&idx=1&sn=4291c664ee1f73f961e468ede0f2fbe1&chksm=bd1e2b528a69a24403b9c9e5cf5be0e72f4aeae39717f4d5a9dbeee90ac7cbcb7c95ad407855&scene=0",
+          "MD5TITLE": "655B0E94D8D60A6A049FB3859115A448",
+          "DRETITLEO": "【图解】一图轻松看懂2021年4月PMI数据~",
+          "QUICKDESCRIPTION": "往期推荐 数据发布 2021年4月中国采购经理指数运行情况 权威解读 4月份中国采购经理指数保持在扩张区间 高于近两年同期水平 点赞 在看 你最好看",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D742751603B0A3ED4A7DED6EA9271F8C",
+      "timestamp": 1619746980000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D742751603B0A3ED4A7DED6EA9271F8C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【权威解读】4月份中国采购经理指数保持在扩张区间 高于近两年同期水平",
+        "title": "【权威解读】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651379535&idx=2&sn=79653425751ffd06ce522718919921b9&chksm=bd1e2b428a69a254b80eb27c9dc205b5857e7838d835ee2472aeec5e1d11b82058a44bdb63cd&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "4 月份，中国制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合 PMI 产出<em>指数</em>分别为 51.1% 、 54.9% 和 53.8% ，比上月回落 0.8 、 1.4 和 1.5 个百分点，仍均保持在扩张区间，我国经济运行持续稳定恢复。 从市场预期看，业务活动预期<em>指数</em>为64.8%，连续三个月位于高位景气区间，建筑业企业信心稳定。 三、综合PMI产出<em>指数</em>有所回落 4月份，综合PMI产出<em>指数</em>为53.8%，低于上月1.5个百分点，表明我国企业生产经营活动总体进中有缓。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1619746980000,
+        "docDate": "2021-04-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "D38B2A4EE456EE6BAE17D28D146359E2",
+        "md5Url": "2D6171257DD15C0F929D1EA25A7C278E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "4 月份，中国制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合 PMI 产出<em>指数</em>分别为 51.1% 、 54.9% 和 53.8% ，比上月回落 0.8 、 1.4 和 1.5 个百分点，仍均保持在扩张区间，我国经济运行持续稳定恢复。 从市场预期看，业务活动预期<em>指数</em>为64.8%，连续三个月位于高位景气区间，建筑业企业信心稳定。 三、综合PMI产出<em>指数</em>有所回落 4月份，综合PMI产出<em>指数</em>为53.8%，低于上月1.5个百分点，表明我国企业生产经营活动总体进中有缓。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1619746980,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "2D6171257DD15C0F929D1EA25A7C278E",
+          "DRETITLE": "权威解读 4月份中国采购经理指数保持在扩张区间 高于近两年同期水平",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651379535&idx=2&sn=79653425751ffd06ce522718919921b9&chksm=bd1e2b428a69a254b80eb27c9dc205b5857e7838d835ee2472aeec5e1d11b82058a44bdb63cd&scene=0",
+          "MD5TITLE": "D38B2A4EE456EE6BAE17D28D146359E2",
+          "DRETITLEO": "【权威解读】4月份中国采购经理指数保持在扩张区间 高于近两年同期水平",
+          "QUICKDESCRIPTION": "4月份中国采购经理指数 保持在扩张区间 高于近两年同期水平 国家统计局服务业调查中心 高级统计师赵庆河 解读2021年4月中国采购经理指数 2021年4月30日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数 对此 国家统计局服务业调查中心高级统计师赵庆河进行了解读 4月份 中国制造业采购经理指数 非制造业商务活动指数和综合PMI产出指数分别为51 1 54 9 和53 8 比上月回落0 8 1 4和1 5个百分点 仍均保持在扩张区间 我国经济运行持续稳定恢复 一 制造业采购",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B6DD54ED5105E2F5C270FFB61C8E3ADA",
+      "timestamp": 1619746980000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B6DD54ED5105E2F5C270FFB61C8E3ADA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2021年4月中国采购经理指数运行情况",
+        "title": "【数据发布】2021年4月中国<em>采购经理指数</em>运行情况",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651379535&idx=1&sn=578fa5f6646086b6c0b2502b22815b70&chksm=bd1e2b428a69a2546ea090896839da2a52148bc481c03e8e08d575a67cd00794805d6257f520&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "中国综合PMI产出<em>指数</em>运行情况 4月份，综合PMI产出<em>指数</em>为53.8%，比上月回落1.5个百分点，表明我国企业生产经营活动总体扩张力度减弱。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 4月份，中国制造业<em>采购经理指数</em>（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1619746980000,
+        "docDate": "2021-04-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "F3A21E255B556C95F7B7B71AFA832D1D",
+        "md5Url": "EEBBE48A60CD6AD82C40A4DE826C77D4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "中国综合PMI产出<em>指数</em>运行情况 4月份，综合PMI产出<em>指数</em>为53.8%，比上月回落1.5个百分点，表明我国企业生产经营活动总体扩张力度减弱。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 4月份，中国制造业<em>采购经理指数</em>（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1619746980,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "EEBBE48A60CD6AD82C40A4DE826C77D4",
+          "DRETITLE": "数据发布 2021年4月中国采购经理指数运行情况",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651379535&idx=1&sn=578fa5f6646086b6c0b2502b22815b70&chksm=bd1e2b428a69a2546ea090896839da2a52148bc481c03e8e08d575a67cd00794805d6257f520&scene=0",
+          "MD5TITLE": "F3A21E255B556C95F7B7B71AFA832D1D",
+          "DRETITLEO": "【数据发布】2021年4月中国采购经理指数运行情况",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 一 中国制造业采购经理指数运行情况 4月份 中国制造业采购经理指数 PMI 为51 1 低于上月0 8个百分点 仍高于临界点 制造业继续保持扩张态势 从企业规模看 大 中型企业PMI分别为51 7 和50 3 低于上月1 0和1 3个百分点 小型企业PMI为50 8 高于上月0 4个百分点 从分类指数看 在构成制造业PMI的5个分类指数中 生产指数和新订单指数均高于临界点 原材料库存指数 从业人员指数和供应商配送时间指数均低于临界点 生产指数为52",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B10DF2C2E53C18DF48198969DF48EC29",
+      "timestamp": 1619744783000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B10DF2C2E53C18DF48198969DF48EC29",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数】4月份中国采购经理指数保持在扩张区间 高于近两年同期水平——国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数 详见：O网页",
+        "title": "#权威解读# 【国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em>】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平——国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em> 详见：O网页",
+        "url": "https://weibo.com/3919628624/Kdgg7vGiy?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em>】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平——国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em>】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平——国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em> 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1619744783000,
+        "docDate": "2021-04-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "5D01C9824C0D3D0F66F67CB7A1908D43",
+        "md5Url": "9B91936CC9C21247AFBE301082D405DD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em>】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平——国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em>】4月份中国<em>采购经理指数</em>保持在扩张区间 高于近两年同期水平——国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em> 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1619744783,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "9B91936CC9C21247AFBE301082D405DD",
+          "DRETITLE": "权威解读 国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数 4月份中国采购经理指数保持在扩张区间 高于近两年同期水平 国家统计局服务业",
+          "URL": "https://weibo.com/3919628624/Kdgg7vGiy?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "5D01C9824C0D3D0F66F67CB7A1908D43",
+          "DRETITLEO": "#权威解读# 【国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数】4月份中国采购经理指数保持在扩张区间 高于近两年同期水平——国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数 详见：O网页",
+          "QUICKDESCRIPTION": "权威解读 国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数 4月份中国采购经理指数保持在扩张区间 高于近两年同期水平 国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3EDC0AD6D257562FA86836017DBAFEC5",
+      "timestamp": 1619744611000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3EDC0AD6D257562FA86836017DBAFEC5",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2021年4月中国采购经理指数运行情况】4月份，中国制造业采购经理指数（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。 详见：O网页链接",
+        "title": "#数据发布# 【2021年4月中国<em>采购经理指数</em>运行情况】4月份，中国制造业<em>采购经理指数</em>（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/KdgeXbqOv?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2021年4月中国<em>采购经理指数</em>运行情况】4月份，中国制造业<em>采购经理指数</em>（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。 数据发布 【2021年4月中国<em>采购经理指数</em>运行情况】4月份，中国制造业<em>采购经理指数</em>（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1619744611000,
+        "docDate": "2021-04-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "CB806E9BCACA002F2B0677CE449300E6",
+        "md5Url": "CD29E15827C50C7A23F392BD92CF2A4B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2021年4月中国<em>采购经理指数</em>运行情况】4月份，中国制造业<em>采购经理指数</em>（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。 数据发布 【2021年4月中国<em>采购经理指数</em>运行情况】4月份，中国制造业<em>采购经理指数</em>（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1619744611,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "CD29E15827C50C7A23F392BD92CF2A4B",
+          "DRETITLE": "数据发布 2021年4月中国采购经理指数运行情况 4月份 中国制造业采购经理指数 PMI 为51 1 低于上月0 8个百分点 仍高于临界点 制造业继续保持扩张态",
+          "URL": "https://weibo.com/3919628624/KdgeXbqOv?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "CB806E9BCACA002F2B0677CE449300E6",
+          "DRETITLEO": "#数据发布# 【2021年4月中国采购经理指数运行情况】4月份，中国制造业采购经理指数（PMI）为51.1%，低于上月0.8个百分点，仍高于临界点，制造业继续保持扩张态势。 详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2021年4月中国采购经理指数运行情况 4月份 中国制造业采购经理指数 PMI 为51 1 低于上月0 8个百分点 仍高于临界点 制造业继续保持扩张态势 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1BB3133492B482224703FC65C173EFCD",
+      "timestamp": 1619744400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1BB3133492B482224703FC65C173EFCD",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数",
+        "title": "国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国<em>采购经理指数</em>",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896479.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "4月份，中国制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为51.1%、54.9%和53.8%，比上月回落0.8、1.4和1.5个百分点，仍均保持在扩张区间，我国经济运行持续稳定恢复。 从市场预期看，业务活动预期<em>指数</em>为64.8%，连续三个月位于高位景气区间，建筑业企业信心稳定。 三、综合PMI产出<em>指数</em>有所回落 4月份，综合PMI产出<em>指数</em>为53.8%，低于上月1.5个百分点，表明我国企业生产经营活动总体进中有缓。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1619744400000,
+        "docDate": "2021-04-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_51.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "443858A6CFA25119D1BDFBB3642E8D72",
+        "md5Url": "1BB3133492B482224703FC65C173EFCD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "4月份，中国制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为51.1%、54.9%和53.8%，比上月回落0.8、1.4和1.5个百分点，仍均保持在扩张区间，我国经济运行持续稳定恢复。 从市场预期看，业务活动预期<em>指数</em>为64.8%，连续三个月位于高位景气区间，建筑业企业信心稳定。 三、综合PMI产出<em>指数</em>有所回落 4月份，综合PMI产出<em>指数</em>为53.8%，低于上月1.5个百分点，表明我国企业生产经营活动总体进中有缓。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896479.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_51.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1619744400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "1BB3133492B482224703FC65C173EFCD",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数",
+          "MD5TITLE": "443858A6CFA25119D1BDFBB3642E8D72",
+          "QUICKDESCRIPTION": "4月份中国采购经理指数保持在扩张区间 高于近两年同期水平 ——国家统计局服务业调查中心高级统计师赵庆河解读2021年4月中国采购经理指数 　　2021年4月30日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数。对此，国家统计局服务业调查中心高级统计师赵庆河进行了解读。 　　4月份，中国制造业采购经理指数、非制造业商务活动指数和综合PMI产出指数分别为51.1%、54.9%和53.8%，比上月回落0.8、1.4和1.5个百分点，仍均保持在扩张区间，我国经济运行持续稳定恢复。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 22,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 6,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 48,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 48,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 24,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 24,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "工业"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 48,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

@@ -1,0 +1,1308 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 93,
+  "currentHits": 11,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "居民消费价格",
+    "originQt": "居民消费价格",
+    "showQt": "居民消费价格",
+    "encodeQt": "%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E4%BB%B7%E6%A0%BC",
+    "qtPasser": "居民消费价格",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "居民": "NN"
+      },
+      {
+        "消费": "NN"
+      },
+      {
+        "价格": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "居民消费价格": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "居民消费价格",
+      "居民",
+      "消费",
+      "价格"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "90BD4B3290D3F0519B2CB67977A299CF",
+      "timestamp": 1644975000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "90BD4B3290D3F0519B2CB67977A299CF",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年1月份居民消费价格同比上涨0.9% 环比上涨0.4%",
+        "title": "2022年1月份<em>居民消费价格</em>同比上涨0.9% 环比上涨0.4%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901367.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市上涨1.1%，农村上涨0.4%；食品<em>价格</em>下降3.8%，非食品<em>价格</em>上涨2.0%；<em>消费</em>品<em>价格</em>上涨0.4%，服务<em>价格</em>上涨1.7%。 1月份，全国<em>居民消费价格</em>环比上涨0.4%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203607933109488.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市上涨1.1%，农村上涨0.4%；食品<em>价格</em>下降3.8%，非食品<em>价格</em>上涨2.0%；<em>消费</em>品<em>价格</em>上涨0.4%，服务<em>价格</em>上涨1.7%。 1月份，全国<em>居民消费价格</em>环比上涨0.4%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1644975000000,
+        "docDate": "2022-02-16",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/711FA05EBA9F8A95E63265E2EDE86AA9.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_58.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "BE172C2C407229305565BF4B5D8C99ED",
+        "md5Url": "90BD4B3290D3F0519B2CB67977A299CF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市上涨1.1%，农村上涨0.4%；食品<em>价格</em>下降3.8%，非食品<em>价格</em>上涨2.0%；<em>消费</em>品<em>价格</em>上涨0.4%，服务<em>价格</em>上涨1.7%。 1月份，全国<em>居民消费价格</em>环比上涨0.4%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901367.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年1月份居民消费价格同比上涨0.9% 环比上涨0.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/711FA05EBA9F8A95E63265E2EDE86AA9.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203607933109488.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_58.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1644975000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "90BD4B3290D3F0519B2CB67977A299CF",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年1月份居民消费价格同比上涨0 9 环比上涨0 4",
+          "MD5TITLE": "BE172C2C407229305565BF4B5D8C99ED",
+          "QUICKDESCRIPTION": "　　2022年1月份，全国居民消费价格同比上涨0.9%。其中，城市上涨1.1%，农村上涨0.4%；食品价格下降3.8%，非食品价格上涨2.0%；消费品价格上涨0.4%，服务价格上涨1.7%。 　　1月份，全国居民消费价格环比上涨0.4%。其中，城市上涨0.5%，农村上涨0.3%；食品价格上涨1.4%，非食品价格上涨0.2%；消费品价格上涨0.5%，服务价格上涨0.3%。 　　一、各类商品及服务价格同比变动情况 1月份，食品烟酒类价格同比下降1.8%，影响CPI（居民消费价格指数）下降约0.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B764C28D8F06CB25A88CFC779ED4A66D",
+      "timestamp": 1642472280000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B764C28D8F06CB25A88CFC779ED4A66D",
+        "titleLabel": {
+          "value": "专题活动",
+          "location": 0
+        },
+        "titleO": "方晓丹：居民收入继续稳步增长 居民消费支出持续恢复",
+        "title": "方晓丹：<em>居民</em>收入继续稳步增长 <em>居民</em><em>消费</em>支出持续恢复",
+        "url": "https://www.stats.gov.cn/zt_18555/zthd/lhfw/2022/lh_sjjd/202302/t20230214_1903467.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "<em>居民</em><em>消费</em>支出持续恢复，基本生活<em>消费</em>继续较快增长 <em>居民</em><em>消费</em>支出持续恢复。随着<em>居民</em>收入持续恢复性增长，<em>居民</em><em>消费</em>需求逐步释放，<em>消费</em>支出保持恢复性反弹态势。 <em>居民</em>服务性<em>消费</em>支出恢复性增长，2021年全国<em>居民</em>人均服务性<em>消费</em>支出10645元，比上年增长17.8%，增速快于全国<em>居民</em>人均<em>消费</em>支出4.2个百分点。人均服务性<em>消费</em>支出占<em>居民</em><em>消费</em>支出比重为44.2%，比上年回升1.6个百分点，但仍比2019年低1.7个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1642472280000,
+        "docDate": "2022-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zt_18555/zthd/lhfw/2022/lh_sjjd/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "A8AACE719D9BDB81F12194166BCEC24B",
+        "md5Url": "B764C28D8F06CB25A88CFC779ED4A66D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "<em>居民</em><em>消费</em>支出持续恢复，基本生活<em>消费</em>继续较快增长 <em>居民</em><em>消费</em>支出持续恢复。随着<em>居民</em>收入持续恢复性增长，<em>居民</em><em>消费</em>需求逐步释放，<em>消费</em>支出保持恢复性反弹态势。 <em>居民</em>服务性<em>消费</em>支出恢复性增长，2021年全国<em>居民</em>人均服务性<em>消费</em>支出10645元，比上年增长17.8%，增速快于全国<em>居民</em>人均<em>消费</em>支出4.2个百分点。人均服务性<em>消费</em>支出占<em>居民</em><em>消费</em>支出比重为44.2%，比上年回升1.6个百分点，但仍比2019年低1.7个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zt_18555/zthd/lhfw/2022/lh_sjjd/202302/t20230214_1903467.html",
+          "C1": [
+            "专题"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "方晓丹：居民收入继续稳步增长 居民消费支出持续恢复",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zt_18555/zthd/lhfw/2022/lh_sjjd/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1642472280,
+          "L1": [
+            "专题"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "专题活动"
+          ],
+          "L3": [
+            "2022年全国两会服务"
+          ],
+          "L4": [
+            "数据解读"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B764C28D8F06CB25A88CFC779ED4A66D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "方晓丹 居民收入继续稳步增长 居民消费支出持续恢复",
+          "MD5TITLE": "A8AACE719D9BDB81F12194166BCEC24B",
+          "QUICKDESCRIPTION": "　　2021年，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，扎实做好“六稳”、“六保”工作，国民经济保持稳定发展，基本民生保障有力有效。全国居民人均可支配收入增长与经济增长基本同步，居民消费支出持续恢复，基本生活消费增长较快，实现了稳增长与惠民生的互促共进。 　　一、居民人均可支配收入增长与经济增长基本同步 　　居民收入增长与经济增长基本同步。2021年，全国居民人均可支配收入35128元，比上年名义增长9.1%。扣除价格因素后，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "400688311F0F1E0906D7B4151A9C4B20",
+      "timestamp": 1642385269000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "400688311F0F1E0906D7B4151A9C4B20",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2021年居民收入和消费支出情况】2021年，全国居民人均可支配收入35128元，比上年名义增长9.1%，扣除价格因素，实际增长8.1%；比2019年增长（以下如无特别说明，均为同比名义增速）14.3%，两年平均增长6.",
+        "title": "#发布会微直播# 【2021年<em>居民</em>收入和<em>消费</em>支出情况】2021年，全国<em>居民</em>人均可支配收入35128元，比上年名义增长9.1%，扣除<em>价格</em>因素，实际增长8.1%；比2019年增长（以下如无特别说明，均为同比名义增速）14.3%，两年平均增长6.",
+        "url": "https://weibo.com/3919628624/Lb9aPkrWc?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2021年<em>居民</em>收入和<em>消费</em>支出情况】2021年，全国<em>居民</em>人均可支配收入35128元，比上年名义增长9.1%，扣除<em>价格</em>因素，实际增长8.1%；比2019年增长（以下如无特别说明，均为同比名义增速）14.3%，两年平均增长6.9%，扣除<em>价格</em>因素，两年平均实际增长5.1%。 发布会微直播 【2021年<em>居民</em>收入和<em>消费</em>支出情况】2021年，全国<em>居民</em>人均可支配收入35128元，比上年名义增长9.1%，扣除<em>价格</em>因素，实际增长8.1%；比2019年增长（以下如无特别说明，均为同比名义增速）14.3%，两年平均增长6.9%，扣除<em>价格</em>因素，两年平均实际增长5.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1642385269000,
+        "docDate": "2022-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "BC9B405AD676783CD85FBC04D6BDAC60",
+        "md5Url": "1F54476D4087A167AF5702ED36011FB8",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2021年<em>居民</em>收入和<em>消费</em>支出情况】2021年，全国<em>居民</em>人均可支配收入35128元，比上年名义增长9.1%，扣除<em>价格</em>因素，实际增长8.1%；比2019年增长（以下如无特别说明，均为同比名义增速）14.3%，两年平均增长6.9%，扣除<em>价格</em>因素，两年平均实际增长5.1%。 发布会微直播 【2021年<em>居民</em>收入和<em>消费</em>支出情况】2021年，全国<em>居民</em>人均可支配收入35128元，比上年名义增长9.1%，扣除<em>价格</em>因素，实际增长8.1%；比2019年增长（以下如无特别说明，均为同比名义增速）14.3%，两年平均增长6.9%，扣除<em>价格</em>因素，两年平均实际增长5.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1642385269,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1F54476D4087A167AF5702ED36011FB8",
+          "DRETITLE": "发布会微直播 2021年居民收入和消费支出情况 2021年 全国居民人均可支配收入35128元 比上年名义增长9 1 扣除价格因素 实际增长8 1 比2019年",
+          "URL": "https://weibo.com/3919628624/Lb9aPkrWc?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "BC9B405AD676783CD85FBC04D6BDAC60",
+          "DRETITLEO": "#发布会微直播# 【2021年居民收入和消费支出情况】2021年，全国居民人均可支配收入35128元，比上年名义增长9.1%，扣除价格因素，实际增长8.1%；比2019年增长（以下如无特别说明，均为同比名义增速）14.3%，两年平均增长6.",
+          "QUICKDESCRIPTION": "发布会微直播 2021年居民收入和消费支出情况 2021年 全国居民人均可支配收入35128元 比上年名义增长9 1 扣除价格因素 实际增长8 1 比2019年增长 以下如无特别说明 均为同比名义增速 14 3 两年平均增长6 9 扣除价格因素 两年平均实际增长5 1 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "19948055AB062CE59C3B142B5F858708",
+      "timestamp": 1642385233000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "19948055AB062CE59C3B142B5F858708",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2021年社会消费品零售总额增长12.5%】2021年，社会消费品零售总额440823亿元，比上年增长12.5%，两年平均增速为3.9%。其中，除汽车以外的消费品零售额397037亿元，增长12.9%。扣除价格因素，2021年社会消费品零售总额比上年实际增长10.7%。详见：O网页链接",
+        "title": "#发布会微直播# 【2021年社会<em>消费</em>品零售总额增长12.5%】2021年，社会<em>消费</em>品零售总额440823亿元，比上年增长12.5%，两年平均增速为3.9%。其中，除汽车以外的<em>消费</em>品零售额397037亿元，增长12.9%。扣除<em>价格</em>因素，2021年社会<em>消费</em>品零售总额比上年实际增长10.7%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Lb9aAcZlB?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "除汽车以外的<em>消费</em>品零售额397037亿元，增长12.9%。扣除<em>价格</em>因素，2021年社会<em>消费</em>品零售总额比上年实际增长10.7%。 发布会微直播 【2021年社会<em>消费</em>品零售总额增长12.5%】2021年，社会<em>消费</em>品零售总额440823亿元，比上年增长12.5%，两年平均增速为3.9%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1642385233000,
+        "docDate": "2022-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "60E91D7CBA39AC143FC4CDE8941C4C85",
+        "md5Url": "E22F857F82DF43315E05F9DC61260C53",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "除汽车以外的<em>消费</em>品零售额397037亿元，增长12.9%。扣除<em>价格</em>因素，2021年社会<em>消费</em>品零售总额比上年实际增长10.7%。 发布会微直播 【2021年社会<em>消费</em>品零售总额增长12.5%】2021年，社会<em>消费</em>品零售总额440823亿元，比上年增长12.5%，两年平均增速为3.9%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1642385233,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E22F857F82DF43315E05F9DC61260C53",
+          "DRETITLE": "发布会微直播 2021年社会消费品零售总额增长12 5 2021年 社会消费品零售总额440823亿元 比上年增长12 5 两年平均增速为3 9 其中 除汽车以外的消费品零售额397037亿元 增长12 9 扣除价格因素 2021年社会消费品零售总额比上年实际增长10 7 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/Lb9aAcZlB?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "60E91D7CBA39AC143FC4CDE8941C4C85",
+          "DRETITLEO": "#发布会微直播# 【2021年社会消费品零售总额增长12.5%】2021年，社会消费品零售总额440823亿元，比上年增长12.5%，两年平均增速为3.9%。其中，除汽车以外的消费品零售额397037亿元，增长12.9%。扣除价格因素，2021年社会消费品零售总额比上年实际增长10.7%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2021年社会消费品零售总额增长12 5 2021年 社会消费品零售总额440823亿元 比上年增长12 5 两年平均增速为3 9 其中 除汽车以外的消费品零售额397037亿元 增长12 9 扣除价格因素 2021年社会消费品零售总额比上年实际增长10 7 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "423F796A63B2265F1D44E31FD9EA1DFB",
+      "timestamp": 1642384800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "423F796A63B2265F1D44E31FD9EA1DFB",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2021年居民收入和消费支出情况",
+        "title": "2021年<em>居民</em>收入和<em>消费</em>支出情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901342.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "与2019年相比，全国<em>居民</em>人均可支配收入各项来源两年平均增速分别为：工资性收入增长6.9%，经营净收入增长6.0%，财产净收入增长8.4%，转移净收入增长7.2%。 二、<em>居民</em><em>消费</em>支出情况 2021年，全国<em>居民</em>人均<em>消费</em>支出24100元，比上年名义增长13.6%，扣除<em>价格</em>因素影响，实际增长12.6%；比2019年增长11.8%，两年平均增长5.7%，扣除<em>价格</em>因素，两年平均实际增长4.0%。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "与2019年相比，全国<em>居民</em>人均可支配收入各项来源两年平均增速分别为：工资性收入增长6.9%，经营净收入增长6.0%，财产净收入增长8.4%，转移净收入增长7.2%。 二、<em>居民</em><em>消费</em>支出情况 2021年，全国<em>居民</em>人均<em>消费</em>支出24100元，比上年名义增长13.6%，扣除<em>价格</em>因素影响，实际增长12.6%；比2019年增长11.8%，两年平均增长5.7%，扣除<em>价格</em>因素，两年平均实际增长4.0%。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1642384800000,
+        "docDate": "2022-01-17",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/0DA72F63FBD73BE7484D4B337F7DFFD6.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_59.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "AD534055DA8C29091C915B3B43390E4E",
+        "md5Url": "423F796A63B2265F1D44E31FD9EA1DFB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "与2019年相比，全国<em>居民</em>人均可支配收入各项来源两年平均增速分别为：工资性收入增长6.9%，经营净收入增长6.0%，财产净收入增长8.4%，转移净收入增长7.2%。 二、<em>居民</em><em>消费</em>支出情况 2021年，全国<em>居民</em>人均<em>消费</em>支出24100元，比上年名义增长13.6%，扣除<em>价格</em>因素影响，实际增长12.6%；比2019年增长11.8%，两年平均增长5.7%，扣除<em>价格</em>因素，两年平均实际增长4.0%。 按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。 <em>居民</em><em>消费</em>支出是指<em>居民</em>用于满足家庭日常生活<em>消费</em>需要的全部支出，既包括现金<em>消费</em>支出，也包括实物<em>消费</em>支出。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901342.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2021年居民收入和消费支出情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/0DA72F63FBD73BE7484D4B337F7DFFD6.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_59.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1642384800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "423F796A63B2265F1D44E31FD9EA1DFB",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2021年居民收入和消费支出情况",
+          "MD5TITLE": "AD534055DA8C29091C915B3B43390E4E",
+          "QUICKDESCRIPTION": "　　一、居民收入情况 　　2021年，全国居民人均可支配收入35128元，比上年名义增长9.1%，扣除价格因素，实际增长8.1%；比2019年增长（以下如无特别说明，均为同比名义增速）14.3%，两年平均增长6.9%，扣除价格因素，两年平均实际增长5.1%。 　　分城乡看，城镇居民人均可支配收入47412元，增长8.2%，扣除价格因素，实际增长7.1%；农村居民人均可支配收入18931元，增长10.5%，扣除价格因素，实际增长9.7%。 　　2021年，全国居民人均可支配收入中位数29975元，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DDB563C0F5078D96DD0D6CE34B217F0E",
+      "timestamp": 1642122720000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DDB563C0F5078D96DD0D6CE34B217F0E",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》稳健开局：2021年中国经济年报 2021年居民消费价格比上年上涨0.9%",
+        "title": "《新闻直播间》稳健开局：2021年中国经济年报 2021年<em>居民消费价格</em>比上年上涨0.9%",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914317.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》稳健开局：2021年中国经济年报 2021年<em>居民消费价格</em>比上年上涨0.9%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1642122720000,
+        "docDate": "2022-01-14",
+        "includeImg": true,
+        "picUrl": "img?reference=DDB563C0F5078D96DD0D6CE34B217F0E&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_47.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "436724E884FAF7957BE8F22281A9AF50",
+        "md5Url": "DDB563C0F5078D96DD0D6CE34B217F0E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》稳健开局：2021年中国经济年报 2021年<em>居民消费价格</em>比上年上涨0.9%...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914317.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》稳健开局：2021年中国经济年报 2021年居民消费价格比上年上涨0.9%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_47.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1642122720,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "DDB563C0F5078D96DD0D6CE34B217F0E",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 稳健开局 2021年中国经济年报 2021年居民消费价格比上年上涨0 9",
+          "MD5TITLE": "436724E884FAF7957BE8F22281A9AF50",
+          "QUICKDESCRIPTION": "《新闻直播间》稳健开局：2021年中国经济年报 2021年居民消费价格比上年上涨0.9%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "97B0C7E76C4BC9C925C13A24DA8B06A4",
+      "timestamp": 1641955800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "97B0C7E76C4BC9C925C13A24DA8B06A4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2021年12月份居民消费价格同比上涨1.5% 环比下降0.3%",
+        "title": "【数据发布】2021年12月份<em>居民消费价格</em>同比上涨1.5% 环比下降0.3%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651421217&idx=1&sn=4979a36bd1e57a773a5a4c6d1acf21d1&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "城市上涨1.6%，农村上涨1.2%；食品<em>价格</em>下降1.2%，非食品<em>价格</em>上涨2.1%；<em>消费</em>品<em>价格</em>上涨1.5%，服务<em>价格</em>上涨1.5%。 12月份，全国<em>居民消费价格</em>环比下降0.3%。 其中，城市下降0.3%，农村下降0.3%；食品<em>价格</em>下降0.6%，非食品<em>价格</em>下降0.2%；<em>消费</em>品<em>价格</em>下降0.4%，服务<em>价格</em>持平。 2021年全年，全国<em>居民消费价格</em>比上年上涨0.9%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1641955800000,
+        "docDate": "2022-01-12",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "0FFD96F40C9161AAE1B50EDE9A06A4CD",
+        "md5Url": "2FB4C19D75BA8F20D727CD7634B6C497",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨1.6%，农村上涨1.2%；食品<em>价格</em>下降1.2%，非食品<em>价格</em>上涨2.1%；<em>消费</em>品<em>价格</em>上涨1.5%，服务<em>价格</em>上涨1.5%。 12月份，全国<em>居民消费价格</em>环比下降0.3%。 其中，城市下降0.3%，农村下降0.3%；食品<em>价格</em>下降0.6%，非食品<em>价格</em>下降0.2%；<em>消费</em>品<em>价格</em>下降0.4%，服务<em>价格</em>持平。 2021年全年，全国<em>居民消费价格</em>比上年上涨0.9%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1641955800,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "2FB4C19D75BA8F20D727CD7634B6C497",
+          "DRETITLE": "数据发布 2021年12月份居民消费价格同比上涨1 5 环比下降0 3",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651421217&idx=1&sn=4979a36bd1e57a773a5a4c6d1acf21d1&scene=0",
+          "MD5TITLE": "0FFD96F40C9161AAE1B50EDE9A06A4CD",
+          "DRETITLEO": "【数据发布】2021年12月份居民消费价格同比上涨1.5% 环比下降0.3%",
+          "QUICKDESCRIPTION": "2021年12月份 全国居民消费价格同比上涨1 5 其中 城市上涨1 6 农村上涨1 2 食品价格下降1 2 非食品价格上涨2 1 消费品价格上涨1 5 服务价格上涨1 5 12月份 全国居民消费价格环比下降0 3 其中 城市下降0 3 农村下降0 3 食品价格下降0 6 非食品价格下降0 2 消费品价格下降0 4 服务价格持平 2021年全年 全国居民消费价格比上年上涨0 9 一 各类商品及服务价格同比变动情况 12月份 食品烟酒类价格同比下降0 1 影响CPI 居民消费价格指数 下降约0 0",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F3097BF53A44E3E22B72B248CEDFE830",
+      "timestamp": 1641951682000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F3097BF53A44E3E22B72B248CEDFE830",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2021年12月份CPI和PPI同比涨幅均有所回落】——国家统计局城市司高级统计师董莉娟解读2021年12月份CPI和PPI数据 国家统计局今天发布了2021年12月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司高级统计师董莉娟进行了解读。 详见： ...展开全文c",
+        "title": "#权威解读# 【2021年12月份CPI和PPI同比涨幅均有所回落】——国家统计局城市司高级统计师董莉娟解读2021年12月份CPI和PPI数据 国家统计局今天发布了2021年12月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。对此，国家统计局城市司高级统计师董莉娟进行了解读。 详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/LanRBBrp5?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2021年12月份CPI和PPI同比涨幅均有所回落】——国家统计局城市司高级统计师董莉娟解读2021年12月份CPI和PPI数据 国家统计局今天发布了2021年12月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1641951682000,
+        "docDate": "2022-01-12",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "390C1860AA556C5843D978274E8AB507",
+        "md5Url": "90780B1EB169AAB995DEA13184DBA1FF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2021年12月份CPI和PPI同比涨幅均有所回落】——国家统计局城市司高级统计师董莉娟解读2021年12月份CPI和PPI数据 国家统计局今天发布了2021年12月份全国CPI（<em>居民消费价格</em>指数）和PPI（工业生产者出厂<em>价格</em>指数）数据。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1641951682,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "90780B1EB169AAB995DEA13184DBA1FF",
+          "DRETITLE": "权威解读 2021年12月份CPI和PPI同比涨幅均有所回落 国家统计局城市司高级统计师董莉娟解读2021年12月份CPI和PPI数据 国家统计局今天发布了2021年12月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司高级统计师董莉娟进行了解读 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/LanRBBrp5?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "390C1860AA556C5843D978274E8AB507",
+          "DRETITLEO": "#权威解读# 【2021年12月份CPI和PPI同比涨幅均有所回落】——国家统计局城市司高级统计师董莉娟解读2021年12月份CPI和PPI数据 国家统计局今天发布了2021年12月份全国CPI（居民消费价格指数）和PPI（工业生产者出厂价格指数）数据。对此，国家统计局城市司高级统计师董莉娟进行了解读。 详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2021年12月份CPI和PPI同比涨幅均有所回落 国家统计局城市司高级统计师董莉娟解读2021年12月份CPI和PPI数据 国家统计局今天发布了2021年12月份全国CPI 居民消费价格指数 和PPI 工业生产者出厂价格指数 数据 对此 国家统计局城市司高级统计师董莉娟进行了解读 详见 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "50C92E0648979EFF954BF0FA8A787DD0",
+      "timestamp": 1641951419000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "50C92E0648979EFF954BF0FA8A787DD0",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2021年12月份居民消费价格同比上涨1.5% 环比下降0.3%】2021年12月份，全国居民消费价格同比上涨1.5%。其中，城市上涨1.6%，农村上涨1.2%；食品价格下降1.2%，非食品价格上涨2.1%；消费品价格上涨1.5%，服务价格上涨1.5%。详见：O网页链接",
+        "title": "#数据发布# 【2021年12月份<em>居民消费价格</em>同比上涨1.5% 环比下降0.3%】2021年12月份，全国<em>居民消费价格</em>同比上涨1.5%。其中，城市上涨1.6%，农村上涨1.2%；食品<em>价格</em>下降1.2%，非食品<em>价格</em>上涨2.1%；<em>消费</em>品<em>价格</em>上涨1.5%，服务<em>价格</em>上涨1.5%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/LanPPqCFx?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "城市上涨1.6%，农村上涨1.2%；食品<em>价格</em>下降1.2%，非食品<em>价格</em>上涨2.1%；<em>消费</em>品<em>价格</em>上涨1.5%，服务<em>价格</em>上涨1.5%。 数据发布 【2021年12月份<em>居民消费价格</em>同比上涨1.5% 环比下降0.3%】2021年12月份，全国<em>居民消费价格</em>同比上涨1.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1641951419000,
+        "docDate": "2022-01-12",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "0B8753F445F3974260B09C10E5E4C347",
+        "md5Url": "360040F08501CF3F563ED07691B40F47",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "城市上涨1.6%，农村上涨1.2%；食品<em>价格</em>下降1.2%，非食品<em>价格</em>上涨2.1%；<em>消费</em>品<em>价格</em>上涨1.5%，服务<em>价格</em>上涨1.5%。 数据发布 【2021年12月份<em>居民消费价格</em>同比上涨1.5% 环比下降0.3%】2021年12月份，全国<em>居民消费价格</em>同比上涨1.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1641951419,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "360040F08501CF3F563ED07691B40F47",
+          "DRETITLE": "数据发布 2021年12月份居民消费价格同比上涨1 5 环比下降0 3 2021年12月份 全国居民消费价格同比上涨1 5 其中 城市上涨1 6 农村上涨1 2 食品价格下降1 2 非食品价格上涨2 1 消费品价格上涨1 5 服务价格上涨1 5 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/LanPPqCFx?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "0B8753F445F3974260B09C10E5E4C347",
+          "DRETITLEO": "#数据发布# 【2021年12月份居民消费价格同比上涨1.5% 环比下降0.3%】2021年12月份，全国居民消费价格同比上涨1.5%。其中，城市上涨1.6%，农村上涨1.2%；食品价格下降1.2%，非食品价格上涨2.1%；消费品价格上涨1.5%，服务价格上涨1.5%。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2021年12月份居民消费价格同比上涨1 5 环比下降0 3 2021年12月份 全国居民消费价格同比上涨1 5 其中 城市上涨1 6 农村上涨1 2 食品价格下降1 2 非食品价格上涨2 1 消费品价格上涨1 5 服务价格上涨1 5 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FDFFEE8D4D380399FA2844D7DE05CC67",
+      "timestamp": 1641951000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FDFFEE8D4D380399FA2844D7DE05CC67",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2021年12月份居民消费价格同比上涨1.5% 环比下降0.3%",
+        "title": "2021年12月份<em>居民消费价格</em>同比上涨1.5% 环比下降0.3%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901328.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市上涨1.6%，农村上涨1.2%；食品<em>价格</em>下降1.2%，非食品<em>价格</em>上涨2.1%；<em>消费</em>品<em>价格</em>上涨1.5%，服务<em>价格</em>上涨1.5%。 12月份，全国<em>居民消费价格</em>环比下降0.3%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市上涨1.6%，农村上涨1.2%；食品<em>价格</em>下降1.2%，非食品<em>价格</em>上涨2.1%；<em>消费</em>品<em>价格</em>上涨1.5%，服务<em>价格</em>上涨1.5%。 12月份，全国<em>居民消费价格</em>环比下降0.3%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1641951000000,
+        "docDate": "2022-01-12",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/6A8E5F866D3F192A904794E7A35D2D64.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_60.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "1D69F785D3C8F7924C8DCA6151299E1F",
+        "md5Url": "FDFFEE8D4D380399FA2844D7DE05CC67",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2.统计范围 <em>居民消费价格</em>统计调查涵盖全国城乡<em>居民</em>生活<em>消费</em>的食品烟酒、衣着、居住、生活用品及服务、交通通信、教育文化娱乐、医疗保健、其他用品及服务等8大类、268个基本分类的商品与服务<em>价格</em>。 其中，城市上涨1.6%，农村上涨1.2%；食品<em>价格</em>下降1.2%，非食品<em>价格</em>上涨2.1%；<em>消费</em>品<em>价格</em>上涨1.5%，服务<em>价格</em>上涨1.5%。 12月份，全国<em>居民消费价格</em>环比下降0.3%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901328.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2021年12月份居民消费价格同比上涨1.5% 环比下降0.3%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/6A8E5F866D3F192A904794E7A35D2D64.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_60.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1641951000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "FDFFEE8D4D380399FA2844D7DE05CC67",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2021年12月份居民消费价格同比上涨1 5 环比下降0 3",
+          "MD5TITLE": "1D69F785D3C8F7924C8DCA6151299E1F",
+          "QUICKDESCRIPTION": "　　2021年12月份，全国居民消费价格同比上涨1.5%。其中，城市上涨1.6%，农村上涨1.2%；食品价格下降1.2%，非食品价格上涨2.1%；消费品价格上涨1.5%，服务价格上涨1.5%。 　　12月份，全国居民消费价格环比下降0.3%。其中，城市下降0.3%，农村下降0.3%；食品价格下降0.6%，非食品价格下降0.2%；消费品价格下降0.4%，服务价格持平。 　　2021年全年，全国居民消费价格比上年上涨0.9%。 　　一、各类商品及服务价格同比变动情况 12月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "490FF549A60FAE0C02DA636229ECE703",
+      "timestamp": 1641657600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "490FF549A60FAE0C02DA636229ECE703",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "2005～2021年我国居民消费支出情况",
+        "title": "2005～2021年我国<em>居民</em><em>消费</em>支出情况",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953759.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "请您参考我局网站—数据查询（国家数据）—年度数据—人民生活，可自行设定时间：https://data.stats.gov.cn/。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1641657600000,
+        "docDate": "2022-01-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_52.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "61C3610C43A142BC9982393D0725BDD8",
+        "md5Url": "490FF549A60FAE0C02DA636229ECE703",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "请您参考我局网站—数据查询（国家数据）—年度数据—人民生活，可自行设定时间：https://data.stats.gov.cn/。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局统计资料管理中心",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953759.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2005～2021年我国居民消费支出情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_52.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1641657600,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "490FF549A60FAE0C02DA636229ECE703",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2005～2021年我国居民消费支出情况",
+          "MD5TITLE": "61C3610C43A142BC9982393D0725BDD8",
+          "QUICKDESCRIPTION": "请您参考我局网站—数据查询（国家数据）—年度数据—人民生活，可自行设定时间：https://data.stats.gov.cn/。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 35,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 14,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 24,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 5,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 27,
+          "children": null,
+          "key": "价格"
+        },
+        {
+          "val": 16,
+          "children": null,
+          "key": "住户调查"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "农业"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 43,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "视频"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "专题"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

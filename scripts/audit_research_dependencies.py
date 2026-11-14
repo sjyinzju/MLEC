@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import duckdb
 
-OUT=Path(r'E:\MLEC\audit');ROOT=Path(r'E:\QuantData')
+OUT=Path(__file__).resolve().parents[1]/'audit';ROOT=Path(r'E:\QuantData')
 def save(name,obj):(OUT/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2,default=str),encoding='utf-8')
 def csvout(name,rows):
     if not rows:return
@@ -15,7 +15,7 @@ def csvout(name,rows):
 def qs(v):return "'"+str(v).replace("'","''")+"'"
 snapshot=json.loads((OUT/'active_file_snapshot.json').read_text())
 def src(ep):return 'read_parquet(['+','.join(qs(r[0]) for r in snapshot[ep])+'],union_by_name=true,hive_partitioning=false)'
-c=duckdb.connect();c.execute("SET threads=1");c.execute("SET memory_limit='768MB'");c.execute("SET temp_directory='E:/MLEC/audit/temp_dependencies'")
+c=duckdb.connect();c.execute("SET threads=1");c.execute("SET memory_limit='768MB'");c.execute("SET temp_directory='"+str(Path(__file__).resolve().parents[1]/"audit"/"temp_dependencies").replace("'","''")+"'")
 registry=duckdb.connect(str(ROOT/'quant.duckdb'),read_only=True)
 task=registry.execute("SELECT task_id,status,error_kind,task,rows FROM fetch_tasks WHERE endpoint='index_daily'").fetchall()
 taskcodes=collections.defaultdict(list)

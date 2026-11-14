@@ -1,0 +1,1941 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 96,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "规模以上工业增加值",
+    "originQt": "规模以上工业增加值",
+    "showQt": "规模以上工业增加值",
+    "encodeQt": "%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E5%A2%9E%E5%8A%A0%E5%80%BC",
+    "qtPasser": "规模以上工业增加值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "规模": "NN"
+      },
+      {
+        "以上": "LC"
+      },
+      {
+        "工业": "NN"
+      },
+      {
+        "增加值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "规模以上": "LC"
+      },
+      {
+        "工业增加值": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "工业增加值",
+      "规模以上",
+      "规模",
+      "以上",
+      "增加值",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6F4EB0829E384206ED0399F70CBE218D",
+      "timestamp": 1572139800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6F4EB0829E384206ED0399F70CBE218D",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年1—9月份全国规模以上工业企业利润下降2.1%",
+        "title": "2019年1—9月份全国<em>规模以上</em><em>工业</em>企业利润下降2.1%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900496.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额45933.5亿元，同比下降2.1%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—8月份扩大0.4个百分点。 1—9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额45933.5亿元，同比下降2.1%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—8月份扩大0.4个百分点。 1—9月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额13892.7亿元，同比下降9.6%；股份制企业实现利润总额33721.4亿元，下降1.2%；外商及港澳台商投资企业实现利润总额11341.9亿元，下降4.2%；私营企业实现利润总额12631.6亿元，增长5.4%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额45933.5亿元，同比下降2.1%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—8月份扩大0.4个百分点。 1—9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额45933.5亿元，同比下降2.1%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—8月份扩大0.4个百分点。 1—9月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额13892.7亿元，同比下降9.6%；股份制企业实现利润总额33721.4亿元，下降1.2%；外商及港澳台商投资企业实现利润总额11341.9亿元，下降4.2%；私营企业实现利润总额12631.6亿元，增长5.4%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1572139800000,
+        "docDate": "2019-10-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/AFE3450B095CD4FB32A54BFE0AFC569C.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_31.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "091706F60F88D2E9FBDEA2C345144A74",
+        "md5Url": "6F4EB0829E384206ED0399F70CBE218D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额45933.5亿元，同比下降2.1%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—8月份扩大0.4个百分点。 1—9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额45933.5亿元，同比下降2.1%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—8月份扩大0.4个百分点。 1—9月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额13892.7亿元，同比下降9.6%；股份制企业实现利润总额33721.4亿元，下降1.2%；外商及港澳台商投资企业实现利润总额11341.9亿元，下降4.2%；私营企业实现利润总额12631.6亿元，增长5.4%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900496.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年1—9月份全国规模以上工业企业利润下降2.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/AFE3450B095CD4FB32A54BFE0AFC569C.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_31.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1572139800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "6F4EB0829E384206ED0399F70CBE218D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年1 9月份全国规模以上工业企业利润下降2 1",
+          "MD5TITLE": "091706F60F88D2E9FBDEA2C345144A74",
+          "QUICKDESCRIPTION": "　　1—9月份，全国规模以上工业企业实现利润总额45933.5亿元，同比下降2.1%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—8月份扩大0.4个百分点。 　　1—9月份，规模以上工业企业中，国有控股企业实现利润总额13892.7亿元，同比下降9.6%；股份制企业实现利润总额33721.4亿元，下降1.2%；外商及港澳台商投资企业实现利润总额11341.9亿元，下降4.2%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2010C5C56A890E756B711B77907B4D41",
+      "timestamp": 1571649175000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2010C5C56A890E756B711B77907B4D41",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【张卫华：工业经济平稳运行 结构调整继续推进】1—9月份，全国规模以上工业增加值同比增长5.6%，增速与1—8月份持平。9月份工业生产明显回升，增加值同比增长5.8%，增速比上月加快1.4个百分点。详见O网页链接",
+        "title": "#权威解读# 【张卫华：<em>工业</em>经济平稳运行 结构调整继续推进】1—9月份，全国<em>规模以上</em><em>工业增加值</em>同比增长5.6%，增速与1—8月份持平。9月份<em>工业</em>生产明显回升，<em>增加值</em>同比增长5.8%，增速比上月加快1.4个百分点。详见O网页链接",
+        "url": "https://weibo.com/3919628624/IcxjF94vX?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【张卫华：<em>工业</em>经济平稳运行 结构调整继续推进】1—9月份，全国<em>规模以上</em><em>工业增加值</em>同比增长5.6%，增速与1—8月份持平。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1571649175000,
+        "docDate": "2019-10-21",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "1BA588F220EBB55C9005440E904FBE9E",
+        "md5Url": "E97F41283BCF28D1B1F4EF57E320B351",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【张卫华：<em>工业</em>经济平稳运行 结构调整继续推进】1—9月份，全国<em>规模以上</em><em>工业增加值</em>同比增长5.6%，增速与1—8月份持平。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1571649175,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E97F41283BCF28D1B1F4EF57E320B351",
+          "DRETITLE": "权威解读 张卫华 工业经济平稳运行 结构调整继续推进 1 9月份 全国规模以上工业增加值同比增长5 6 增速与1 8月份持平 9月份工业生产明显回升 增加值同比",
+          "URL": "https://weibo.com/3919628624/IcxjF94vX?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1BA588F220EBB55C9005440E904FBE9E",
+          "DRETITLEO": "#权威解读# 【张卫华：工业经济平稳运行 结构调整继续推进】1—9月份，全国规模以上工业增加值同比增长5.6%，增速与1—8月份持平。9月份工业生产明显回升，增加值同比增长5.8%，增速比上月加快1.4个百分点。详见O网页链接",
+          "QUICKDESCRIPTION": "权威解读 张卫华 工业经济平稳运行 结构调整继续推进 1 9月份 全国规模以上工业增加值同比增长5 6 增速与1 8月份持平 9月份工业生产明显回升 增加值同比增长5 8 增速比上月加快1 4个百分点 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "163290D1AD5C84947DC6E69C1055D812",
+      "timestamp": 1571365682000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "163290D1AD5C84947DC6E69C1055D812",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2019年9月份能源生产情况】9月份，规模以上工业原煤生产放缓，原油、天然气、电力生产加快。详见O网页链接",
+        "title": "#发布会微直播#【2019年9月份能源生产情况】9月份，<em>规模以上</em><em>工业</em>原煤生产放缓，原油、天然气、电力生产加快。详见O网页链接",
+        "url": "https://weibo.com/3919628624/Ic2nPrmFS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2019年9月份能源生产情况】9月份，<em>规模以上</em><em>工业</em>原煤生产放缓，原油、天然气、电力生产加快。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1571365682000,
+        "docDate": "2019-10-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "B9C7B9BE3DFEA548DB2D5E6E74313EAC",
+        "md5Url": "3D7AE10BD1971337603D78FDE4D56D6C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2019年9月份能源生产情况】9月份，<em>规模以上</em><em>工业</em>原煤生产放缓，原油、天然气、电力生产加快。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1571365682,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3D7AE10BD1971337603D78FDE4D56D6C",
+          "DRETITLE": "发布会微直播 2019年9月份能源生产情况 9月份 规模以上工业原煤生产放缓 原油 天然气 电力生产加快 详见O网页链接",
+          "URL": "https://weibo.com/3919628624/Ic2nPrmFS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B9C7B9BE3DFEA548DB2D5E6E74313EAC",
+          "DRETITLEO": "#发布会微直播#【2019年9月份能源生产情况】9月份，规模以上工业原煤生产放缓，原油、天然气、电力生产加快。详见O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2019年9月份能源生产情况 9月份 规模以上工业原煤生产放缓 原油 天然气 电力生产加快 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "69675E91BB78FA2DC24145DECC343FD2",
+      "timestamp": 1571364845000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "69675E91BB78FA2DC24145DECC343FD2",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2019年9月份规模以上工业增加值增长5.8%】2019年9月份，规模以上工业增加值同比实际增长5.8%（以下增加值增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。从环比看，9月份，规模以上工业增加值比上月",
+        "title": "#发布会微直播#【2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8%】2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。从环比看，9月份，<em>规模以上</em><em>工业增加值</em>比上月",
+        "url": "https://weibo.com/3919628624/Ic2iaobxY?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8%】2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。 发布会微直播 【2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8%】2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1571364845000,
+        "docDate": "2019-10-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "209EF1C51E08FE956DF4099948C4B987",
+        "md5Url": "E61C932C1FCEFA91E97E56BEDFC3D364",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8%】2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。 发布会微直播 【2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8%】2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1571364845,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E61C932C1FCEFA91E97E56BEDFC3D364",
+          "DRETITLE": "发布会微直播 2019年9月份规模以上工业增加值增长5 8 2019年9月份 规模以上工业增加值同比实际增长5 8 以下增加值增速均为扣除价格因素的实际增长率 ",
+          "URL": "https://weibo.com/3919628624/Ic2iaobxY?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "209EF1C51E08FE956DF4099948C4B987",
+          "DRETITLEO": "#发布会微直播#【2019年9月份规模以上工业增加值增长5.8%】2019年9月份，规模以上工业增加值同比实际增长5.8%（以下增加值增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。从环比看，9月份，规模以上工业增加值比上月",
+          "QUICKDESCRIPTION": "发布会微直播 2019年9月份规模以上工业增加值增长5 8 2019年9月份 规模以上工业增加值同比实际增长5 8 以下增加值增速均为扣除价格因素的实际增长率 比8月份加快1 4个百分点 从环比看 9月份 规模以上工业增加值比上月增长0 72 1 9月份 规模以上工业增加值同比增长5 6 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CD8CA7634F986770BCFCA35A02F8AEA6",
+      "timestamp": 1571364000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CD8CA7634F986770BCFCA35A02F8AEA6",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年9月份规模以上工业增加值增长5.8%",
+        "title": "2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900472.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8% 2019/10/18 10 00 Aa 字体： 小 中 大 2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。 2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8% 2019/10/18 10 00 Aa 字体： 小 中 大 2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8% 2019/10/18 10 00 Aa 字体： 小 中 大 2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。 2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8% 2019/10/18 10 00 Aa 字体： 小 中 大 2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1571364000000,
+        "docDate": "2019-10-18",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/44C21FACE87475E4EE9A314877EC81CA.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_31.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "EF5E377F081AEE3A95B844DD9DE6C9DC",
+        "md5Url": "CD8CA7634F986770BCFCA35A02F8AEA6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8% 2019/10/18 10 00 Aa 字体： 小 中 大 2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。 2019年9月份<em>规模以上</em><em>工业增加值</em>增长5.8% 2019/10/18 10 00 Aa 字体： 小 中 大 2019年9月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900472.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年9月份规模以上工业增加值增长5.8%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/44C21FACE87475E4EE9A314877EC81CA.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_31.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1571364000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "CD8CA7634F986770BCFCA35A02F8AEA6",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年9月份规模以上工业增加值增长5 8",
+          "MD5TITLE": "EF5E377F081AEE3A95B844DD9DE6C9DC",
+          "QUICKDESCRIPTION": "2019年9月份规模以上工业增加值增长5.8% 2019/10/18 10:00 | Aa 字体： 小 中 大 | 　　2019年9月份，规模以上工业增加值同比实际增长5.8%（以下增加值增速均为扣除价格因素的实际增长率），比8月份加快1.4个百分点。从环比看，9月份，规模以上工业增加值比上月增长0.72%。1—9月份，规模以上工业增加值同比增长5.6%。 　　分三大门类看，9月份，采矿业增加值同比增长8.1%，增速较8月份加快4.4个百分点；制造业增长5.6%，加快1.3个百分点；电力、热力、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "92484CF0CFBEB2CD22036120EFBED79F",
+      "timestamp": 1569548034000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "92484CF0CFBEB2CD22036120EFBED79F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#统计快讯#【2019年1—8月份全国规模以上工业企业利润下降1.7%】1—8月份，全国规模以上工业企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、",
+        "title": "#统计快讯#【2019年1—8月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、",
+        "url": "https://weibo.com/3919628624/I8Q3qASwf?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "统计快讯 【2019年1—8月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 统计快讯 【2019年1—8月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1569548034000,
+        "docDate": "2019-09-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "4E035EFF2D74D47EC46F428050CB0166",
+        "md5Url": "AF993AADD3DF9F5C77F54538835E8A1C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "统计快讯 【2019年1—8月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 统计快讯 【2019年1—8月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1569548034,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "AF993AADD3DF9F5C77F54538835E8A1C",
+          "DRETITLE": "统计快讯 2019年1 8月份全国规模以上工业企业利润下降1 7 1 8月份 全国规模以上工业企业实现利润总额40163 5亿元 同比下降1 7 按可比口径计算",
+          "URL": "https://weibo.com/3919628624/I8Q3qASwf?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4E035EFF2D74D47EC46F428050CB0166",
+          "DRETITLEO": "#统计快讯#【2019年1—8月份全国规模以上工业企业利润下降1.7%】1—8月份，全国规模以上工业企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、",
+          "QUICKDESCRIPTION": "统计快讯 2019年1 8月份全国规模以上工业企业利润下降1 7 1 8月份 全国规模以上工业企业实现利润总额40163 5亿元 同比下降1 7 按可比口径计算 考虑统计制度规定的口径调整 统计执法增强 剔除重复数据 企业改革剥离 四经普单位清查等因素影响 详见附注四 降幅与1 7月份持平 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E2D833B589BC77455B694818C081C3C1",
+      "timestamp": 1569547800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E2D833B589BC77455B694818C081C3C1",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年1—8月份全国规模以上工业企业利润下降1.7%",
+        "title": "2019年1—8月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900462.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 1—8月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额12141.5亿元，同比下降8.6%；股份制企业实现利润总额29581.1亿元，同比持平；外商及港澳台商投资企业实现利润总额9789.6亿元，下降5.8%；私营企业实现利润总额11303.4亿元，增长6.5%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 1—8月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额12141.5亿元，同比下降8.6%；股份制企业实现利润总额29581.1亿元，同比持平；外商及港澳台商投资企业实现利润总额9789.6亿元，下降5.8%；私营企业实现利润总额11303.4亿元，增长6.5%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1569547800000,
+        "docDate": "2019-09-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/8AFB64318F0E6B57FAB6EE8508C020C5.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_32.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "1333EF46D161188351E1E92826D8E1BE",
+        "md5Url": "E2D833B589BC77455B694818C081C3C1",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 1—8月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 1—8月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额12141.5亿元，同比下降8.6%；股份制企业实现利润总额29581.1亿元，同比持平；外商及港澳台商投资企业实现利润总额9789.6亿元，下降5.8%；私营企业实现利润总额11303.4亿元，增长6.5%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900462.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年1—8月份全国规模以上工业企业利润下降1.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/8AFB64318F0E6B57FAB6EE8508C020C5.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_32.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1569547800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E2D833B589BC77455B694818C081C3C1",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年1 8月份全国规模以上工业企业利润下降1 7",
+          "MD5TITLE": "1333EF46D161188351E1E92826D8E1BE",
+          "QUICKDESCRIPTION": "　　1—8月份，全国规模以上工业企业实现利润总额40163.5亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅与1—7月份持平。 　　1—8月份，规模以上工业企业中，国有控股企业实现利润总额12141.5亿元，同比下降8.6%；股份制企业实现利润总额29581.1亿元，同比持平；外商及港澳台商投资企业实现利润总额9789.6亿元，下降5.8%；私营企业实现利润总额11303.4亿元，增长6.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8AFEAE621D2A9CC94CD3D9FED50C0951",
+      "timestamp": 1568618122000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8AFEAE621D2A9CC94CD3D9FED50C0951",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【工业生产稳中趋缓——国家统计局工业司高级统计师江源解读8月份工业生产数据】2019年1—8月份，全国规模以上工业增加值同比实际增长5.6%，大体稳定。其中，8月份增长4.4%，增速较上月回落0.4个百分点。工业生产运行的主要特",
+        "title": "#权威解读#【<em>工业</em>生产稳中趋缓——国家统计局<em>工业</em>司高级统计师江源解读8月份<em>工业</em>生产数据】2019年1—8月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%，大体稳定。其中，8月份增长4.4%，增速较上月回落0.4个百分点。<em>工业</em>生产运行的主要特",
+        "url": "https://weibo.com/3919628624/I7cAzjD9N?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【<em>工业</em>生产稳中趋缓——国家统计局<em>工业</em>司高级统计师江源解读8月份<em>工业</em>生产数据】2019年1—8月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%，大体稳定。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1568618122000,
+        "docDate": "2019-09-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "F63A980B495698A7CED70AA5FBB48883",
+        "md5Url": "F832ECB31A6133B8ED0877AB2CAC87F6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【<em>工业</em>生产稳中趋缓——国家统计局<em>工业</em>司高级统计师江源解读8月份<em>工业</em>生产数据】2019年1—8月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%，大体稳定。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1568618122,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F832ECB31A6133B8ED0877AB2CAC87F6",
+          "DRETITLE": "权威解读 工业生产稳中趋缓 国家统计局工业司高级统计师江源解读8月份工业生产数据 2019年1 8月份 全国规模以上工业增加值同比实际增长5 6 大体稳定 其中",
+          "URL": "https://weibo.com/3919628624/I7cAzjD9N?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "F63A980B495698A7CED70AA5FBB48883",
+          "DRETITLEO": "#权威解读#【工业生产稳中趋缓——国家统计局工业司高级统计师江源解读8月份工业生产数据】2019年1—8月份，全国规模以上工业增加值同比实际增长5.6%，大体稳定。其中，8月份增长4.4%，增速较上月回落0.4个百分点。工业生产运行的主要特",
+          "QUICKDESCRIPTION": "权威解读 工业生产稳中趋缓 国家统计局工业司高级统计师江源解读8月份工业生产数据 2019年1 8月份 全国规模以上工业增加值同比实际增长5 6 大体稳定 其中 8月份增长4 4 增速较上月回落0 4个百分点 工业生产运行的主要特点 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BA008EF4D137DB36138861502D991066",
+      "timestamp": 1568600446000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BA008EF4D137DB36138861502D991066",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2019年8月份规模以上工业增加值增长4.4%】2019年8月份，规模以上工业增加值同比实际增长4.4%（以下增加值增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。从环比看，8月份，规模以上工业增加值比上月",
+        "title": "#发布会微直播#【2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4%】2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。从环比看，8月份，<em>规模以上</em><em>工业增加值</em>比上月",
+        "url": "https://weibo.com/3919628624/I7aEZqalV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4%】2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。 发布会微直播 【2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4%】2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1568600446000,
+        "docDate": "2019-09-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "E6F68B48C9123A226CDA5455645BA621",
+        "md5Url": "EF7E64403E92FF3028D6F20FDF0C005F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4%】2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。 发布会微直播 【2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4%】2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1568600446,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "EF7E64403E92FF3028D6F20FDF0C005F",
+          "DRETITLE": "发布会微直播 2019年8月份规模以上工业增加值增长4 4 2019年8月份 规模以上工业增加值同比实际增长4 4 以下增加值增速均为扣除价格因素的实际增长率 ",
+          "URL": "https://weibo.com/3919628624/I7aEZqalV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E6F68B48C9123A226CDA5455645BA621",
+          "DRETITLEO": "#发布会微直播#【2019年8月份规模以上工业增加值增长4.4%】2019年8月份，规模以上工业增加值同比实际增长4.4%（以下增加值增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。从环比看，8月份，规模以上工业增加值比上月",
+          "QUICKDESCRIPTION": "发布会微直播 2019年8月份规模以上工业增加值增长4 4 2019年8月份 规模以上工业增加值同比实际增长4 4 以下增加值增速均为扣除价格因素的实际增长率 比7月份回落0 4个百分点 从环比看 8月份 规模以上工业增加值比上月增长0 32 1 8月份 规模以上工业增加值同比增长5 6 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "50AD5D80CFA22B9354961419AC0C96AE",
+      "timestamp": 1568600337000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "50AD5D80CFA22B9354961419AC0C96AE",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2019年8月份能源生产情况】8月份，规模以上工业原煤、原油生产放缓，天然气、电力生产加快。其中，8月份，原煤产量3.2亿吨，同比增长5.0%，增速比上月回落7.2个百分点……详见O网页链接",
+        "title": "#发布会微直播#【2019年8月份能源生产情况】8月份，<em>规模以上</em><em>工业</em>原煤、原油生产放缓，天然气、电力生产加快。其中，8月份，原煤产量3.2亿吨，同比增长5.0%，增速比上月回落7.2个百分点……详见O网页链接",
+        "url": "https://weibo.com/3919628624/I7aEfAWbr?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2019年8月份能源生产情况】8月份，<em>规模以上</em><em>工业</em>原煤、原油生产放缓，天然气、电力生产加快。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1568600337000,
+        "docDate": "2019-09-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "9338185F5D7D1FD471DD19F2EAAFDE0F",
+        "md5Url": "04AC72D1325F5ACB98200762C0FFAC77",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2019年8月份能源生产情况】8月份，<em>规模以上</em><em>工业</em>原煤、原油生产放缓，天然气、电力生产加快。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1568600337,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "04AC72D1325F5ACB98200762C0FFAC77",
+          "DRETITLE": "发布会微直播 2019年8月份能源生产情况 8月份 规模以上工业原煤 原油生产放缓 天然气 电力生产加快 其中 8月份 原煤产量3 2亿吨 同比增长5 0 增速",
+          "URL": "https://weibo.com/3919628624/I7aEfAWbr?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "9338185F5D7D1FD471DD19F2EAAFDE0F",
+          "DRETITLEO": "#发布会微直播#【2019年8月份能源生产情况】8月份，规模以上工业原煤、原油生产放缓，天然气、电力生产加快。其中，8月份，原煤产量3.2亿吨，同比增长5.0%，增速比上月回落7.2个百分点……详见O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2019年8月份能源生产情况 8月份 规模以上工业原煤 原油生产放缓 天然气 电力生产加快 其中 8月份 原煤产量3 2亿吨 同比增长5 0 增速比上月回落7 2个百分点 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5D9586C0152EBC01956FE1C73F6C5A06",
+      "timestamp": 1568599200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5D9586C0152EBC01956FE1C73F6C5A06",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年8月份规模以上工业增加值增长4.4%",
+        "title": "2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900448.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4% 2019/09/16 10 00 Aa 字体： 小 中 大 2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。 2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4% 2019/09/16 10 00 Aa 字体： 小 中 大 2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4% 2019/09/16 10 00 Aa 字体： 小 中 大 2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。 2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4% 2019/09/16 10 00 Aa 字体： 小 中 大 2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1568599200000,
+        "docDate": "2019-09-16",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/D5A881507C36C6E0D9DD8EF93681B59C.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_32.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "E982D422E088E4327417E244D31EB958",
+        "md5Url": "5D9586C0152EBC01956FE1C73F6C5A06",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4% 2019/09/16 10 00 Aa 字体： 小 中 大 2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。 2019年8月份<em>规模以上</em><em>工业增加值</em>增长4.4% 2019/09/16 10 00 Aa 字体： 小 中 大 2019年8月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.4%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900448.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年8月份规模以上工业增加值增长4.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/D5A881507C36C6E0D9DD8EF93681B59C.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_32.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1568599200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "5D9586C0152EBC01956FE1C73F6C5A06",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年8月份规模以上工业增加值增长4 4",
+          "MD5TITLE": "E982D422E088E4327417E244D31EB958",
+          "QUICKDESCRIPTION": "2019年8月份规模以上工业增加值增长4.4% 2019/09/16 10:00 | Aa 字体： 小 中 大 | 　　2019年8月份，规模以上工业增加值同比实际增长4.4%（以下增加值增速均为扣除价格因素的实际增长率），比7月份回落0.4个百分点。从环比看，8月份，规模以上工业增加值比上月增长0.32%。1—8月份，规模以上工业增加值同比增长5.6%。 　　分三大门类看，8月份，采矿业增加值同比增长3.7%，增速较7月份回落2.9个百分点；制造业增长4.3%，回落0.2个百分点；电力、热力、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D6C12CDC811BA92EDB9E597B1495DFE2",
+      "timestamp": 1566871740000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D6C12CDC811BA92EDB9E597B1495DFE2",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2019年1—7月份全国规模以上工业企业利润下降1.7%",
+        "title": "【数据发布】2019年1—7月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651320427&idx=1&sn=eae8a759653813d6fed76c9939cd198b&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1 — 7 月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额 34977.0 亿元，同比下降 1.7% （按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比 1 — 6 月份收窄 0.7 个百分点。 1 — 7 月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额 34977.0 亿元，同比下降 1.7% （按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比 1 — 6 月份收窄 0.7 个百分点。 1 — 7 月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额 10837.4 亿元，同比下降 8.1% ；股份制企业实现利润总额 25033.0 亿元，增长 0.6% ；外商及港澳台商投资企业实现利润总额 8502.4 亿元，下降 6.9% ；私营企业实现利润总额 8849.1 亿元，增长 7.0% 。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1566871740000,
+        "docDate": "2019-08-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "82AC79308DA8EBE3CE318B0F6FF62860",
+        "md5Url": "5C08B92E101D97B009B4F49D938C9421",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1 — 7 月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额 34977.0 亿元，同比下降 1.7% （按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比 1 — 6 月份收窄 0.7 个百分点。 1 — 7 月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额 34977.0 亿元，同比下降 1.7% （按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比 1 — 6 月份收窄 0.7 个百分点。 1 — 7 月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额 10837.4 亿元，同比下降 8.1% ；股份制企业实现利润总额 25033.0 亿元，增长 0.6% ；外商及港澳台商投资企业实现利润总额 8502.4 亿元，下降 6.9% ；私营企业实现利润总额 8849.1 亿元，增长 7.0% 。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1566871740,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "5C08B92E101D97B009B4F49D938C9421",
+          "DRETITLE": "数据发布 2019年1 7月份全国规模以上工业企业利润下降1 7",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651320427&idx=1&sn=eae8a759653813d6fed76c9939cd198b&scene=0",
+          "MD5TITLE": "82AC79308DA8EBE3CE318B0F6FF62860",
+          "DRETITLEO": "【数据发布】2019年1—7月份全国规模以上工业企业利润下降1.7%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B9F29FACC602EEEC58F14E3848E4FDB1",
+      "timestamp": 1566869623000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B9F29FACC602EEEC58F14E3848E4FDB1",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2019年1—7月份全国规模以上工业企业利润下降1.7%】1—7月份，全国规模以上工业企业实现利润总额34977.0亿元，同比下降1.7%，降幅比1—6月份收窄0.7个百分点。详见O网页链接",
+        "title": "#数据发布#【2019年1—7月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%，降幅比1—6月份收窄0.7个百分点。详见O网页链接",
+        "url": "https://weibo.com/3919628624/I47NXyBrZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2019年1—7月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%，降幅比1—6月份收窄0.7个百分点。 数据发布 【2019年1—7月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%，降幅比1—6月份收窄0.7个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1566869623000,
+        "docDate": "2019-08-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "B59499005D1541F180A45CBFA0E76B28",
+        "md5Url": "1729AED6F88592BB5BDAB52E577DD2C2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2019年1—7月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%，降幅比1—6月份收窄0.7个百分点。 数据发布 【2019年1—7月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%】1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%，降幅比1—6月份收窄0.7个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1566869623,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1729AED6F88592BB5BDAB52E577DD2C2",
+          "DRETITLE": "数据发布 2019年1 7月份全国规模以上工业企业利润下降1 7 1 7月份 全国规模以上工业企业实现利润总额34977 0亿元 同比下降1 7 降幅比1 6月",
+          "URL": "https://weibo.com/3919628624/I47NXyBrZ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B59499005D1541F180A45CBFA0E76B28",
+          "DRETITLEO": "#数据发布#【2019年1—7月份全国规模以上工业企业利润下降1.7%】1—7月份，全国规模以上工业企业实现利润总额34977.0亿元，同比下降1.7%，降幅比1—6月份收窄0.7个百分点。详见O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2019年1 7月份全国规模以上工业企业利润下降1 7 1 7月份 全国规模以上工业企业实现利润总额34977 0亿元 同比下降1 7 降幅比1 6月份收窄0 7个百分点 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "10ED7F912C71F458B65FD6FE4A5DA7A6",
+      "timestamp": 1566835260000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "10ED7F912C71F458B65FD6FE4A5DA7A6",
+        "titleLabel": {
+          "value": "主动公开",
+          "location": 0
+        },
+        "titleO": "2019年1—7月份全国规模以上工业企业利润下降1.7%",
+        "title": "2019年1—7月份全国<em>规模以上</em><em>工业</em>企业利润下降1.7%",
+        "url": "http://www.stats.gov.cn/xxgk/sjfb/zxfb2020/201908/t20190827_1768092.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—6月份收窄0.7个百分点。 1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—6月份收窄0.7个百分点。 1—7月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额10837.4亿元，同比下降8.1%；股份制企业实现利润总额25033.0亿元，增长0.6%；外商及港澳台商投资企业实现利润总额8502.4亿元，下降6.9%；私营企业实现利润总额8849.1亿元，增长7.0%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—6月份收窄0.7个百分点。 1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—6月份收窄0.7个百分点。 1—7月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额10837.4亿元，同比下降8.1%；股份制企业实现利润总额25033.0亿元，增长0.6%；外商及港澳台商投资企业实现利润总额8502.4亿元，下降6.9%；私营企业实现利润总额8849.1亿元，增长7.0%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1566835260000,
+        "docDate": "2019-08-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/362D1A8C02AB1C1CDFAB3D66855807B5.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "http://www.stats.gov.cn/xxgk/sjfb/zxfb2020/index_46.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "00E030AFA1F25F7498B7B90F9978ED51",
+        "md5Url": "10ED7F912C71F458B65FD6FE4A5DA7A6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—6月份收窄0.7个百分点。 1—7月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额34977.0亿元，同比下降1.7%（按可比口径计算，考虑统计制度规定的口径调整、统计执法增强、剔除重复数据、企业改革剥离、四经普单位清查等因素影响，详见附注四），降幅比1—6月份收窄0.7个百分点。 1—7月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额10837.4亿元，同比下降8.1%；股份制企业实现利润总额25033.0亿元，增长0.6%；外商及港澳台商投资企业实现利润总额8502.4亿元，下降6.9%；私营企业实现利润总额8849.1亿元，增长7.0%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "中华人民共和国国家统计局",
+          "URL": "http://www.stats.gov.cn/xxgk/sjfb/zxfb2020/201908/t20190827_1768092.html",
+          "C1": [
+            "信息公开"
+          ],
+          "C2": [
+            "主题分类"
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年1—7月份全国规模以上工业企业利润下降1.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            "信息公开"
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/362D1A8C02AB1C1CDFAB3D66855807B5.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "http://www.stats.gov.cn/xxgk/sjfb/zxfb2020/index_46.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1566835260,
+          "L1": [
+            "信息公开"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "主动公开"
+          ],
+          "L3": [
+            "数据发布"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "10ED7F912C71F458B65FD6FE4A5DA7A6",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年1 7月份全国规模以上工业企业利润下降1 7",
+          "MD5TITLE": "00E030AFA1F25F7498B7B90F9978ED51",
+          "QUICKDESCRIPTION": "1 7月份 全国规模以上工业企业实现利润总额34977 0亿元 同比下降1 7 按可比口径计算 考虑统计制度规定的口径调整 统计执法增强 剔除重复数据 企业改革剥离 四经普单位清查等因素影响 详见附注四 降幅比1 6月份收窄0 7个百分点 1 7月份 规模以上工业企业中 国有控股企业实现利润总额10837 4亿元 同比下降8 1 股份制企业实现利润总额25033 0亿元 增长0 6 外商及港澳台商投资企业实现利润总额8502 4亿元 下降6 9 私营企业实现利润总额8849 1亿元 增长7 0 ",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A837D446A6C61208DE3F6EE7E7667E9F",
+      "timestamp": 1565766422000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A837D446A6C61208DE3F6EE7E7667E9F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【工业生产基本平稳——国家统计局工业司高级统计师江源解读7月份工业生产数据】2019年1—7月份，全国规模以上工业增加值同比实际增长5.8%，其中，7月份增长4.8%。工业生产运行的主要特点，详见O网页链接",
+        "title": "#权威解读#【<em>工业</em>生产基本平稳——国家统计局<em>工业</em>司高级统计师江源解读7月份<em>工业</em>生产数据】2019年1—7月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%，其中，7月份增长4.8%。<em>工业</em>生产运行的主要特点，详见O网页链接",
+        "url": "https://weibo.com/3919628624/I2bqNy6IF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【<em>工业</em>生产基本平稳——国家统计局<em>工业</em>司高级统计师江源解读7月份<em>工业</em>生产数据】2019年1—7月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%，其中，7月份增长4.8%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1565766422000,
+        "docDate": "2019-08-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "36CF9D953C3C7D02CDC58D3063109950",
+        "md5Url": "4EEADBD1F7421AF9C7403A68D17A1E49",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【<em>工业</em>生产基本平稳——国家统计局<em>工业</em>司高级统计师江源解读7月份<em>工业</em>生产数据】2019年1—7月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长5.8%，其中，7月份增长4.8%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1565766422,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4EEADBD1F7421AF9C7403A68D17A1E49",
+          "DRETITLE": "权威解读 工业生产基本平稳 国家统计局工业司高级统计师江源解读7月份工业生产数据 2019年1 7月份 全国规模以上工业增加值同比实际增长5 8 其中 7月份增",
+          "URL": "https://weibo.com/3919628624/I2bqNy6IF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "36CF9D953C3C7D02CDC58D3063109950",
+          "DRETITLEO": "#权威解读#【工业生产基本平稳——国家统计局工业司高级统计师江源解读7月份工业生产数据】2019年1—7月份，全国规模以上工业增加值同比实际增长5.8%，其中，7月份增长4.8%。工业生产运行的主要特点，详见O网页链接",
+          "QUICKDESCRIPTION": "权威解读 工业生产基本平稳 国家统计局工业司高级统计师江源解读7月份工业生产数据 2019年1 7月份 全国规模以上工业增加值同比实际增长5 8 其中 7月份增长4 8 工业生产运行的主要特点 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3BF550F5A3E9E89303E99B8618BDEF2A",
+      "timestamp": 1565754259000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3BF550F5A3E9E89303E99B8618BDEF2A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2019年7月份能源生产情况】7月份，规模以上工业原煤、原油生产加快，天然气、电力生产放缓。详见O网页链接",
+        "title": "#发布会微直播#【2019年7月份能源生产情况】7月份，<em>规模以上</em><em>工业</em>原煤、原油生产加快，天然气、电力生产放缓。详见O网页链接",
+        "url": "https://weibo.com/3919628624/I2a6wa0cF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2019年7月份能源生产情况】7月份，<em>规模以上</em><em>工业</em>原煤、原油生产加快，天然气、电力生产放缓。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1565754259000,
+        "docDate": "2019-08-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "7709891896885F4E0BF86AF40C16D2C4",
+        "md5Url": "DC95326F80F4D2C285A469CAA480EC36",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2019年7月份能源生产情况】7月份，<em>规模以上</em><em>工业</em>原煤、原油生产加快，天然气、电力生产放缓。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1565754259,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "DC95326F80F4D2C285A469CAA480EC36",
+          "DRETITLE": "发布会微直播 2019年7月份能源生产情况 7月份 规模以上工业原煤 原油生产加快 天然气 电力生产放缓 详见O网页链接",
+          "URL": "https://weibo.com/3919628624/I2a6wa0cF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "7709891896885F4E0BF86AF40C16D2C4",
+          "DRETITLEO": "#发布会微直播#【2019年7月份能源生产情况】7月份，规模以上工业原煤、原油生产加快，天然气、电力生产放缓。详见O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2019年7月份能源生产情况 7月份 规模以上工业原煤 原油生产加快 天然气 电力生产放缓 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4AFDD13B19A0F5CBD5846E6CCE193F53",
+      "timestamp": 1565749332000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4AFDD13B19A0F5CBD5846E6CCE193F53",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2019年7月份规模以上工业增加值增长4.8%】2019年7月份，规模以上工业增加值同比实际增长4.8%（以下增加值增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。从环比看，7月份，规模以上工业增加值比上月",
+        "title": "#发布会微直播#【2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8%】2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。从环比看，7月份，<em>规模以上</em><em>工业增加值</em>比上月",
+        "url": "https://weibo.com/3919628624/I29zc7H1E?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8%】2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。 发布会微直播 【2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8%】2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1565749332000,
+        "docDate": "2019-08-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "537ECA89A868B591B60D73A18C687CA8",
+        "md5Url": "AD47B32E149AD22D69C350622CBDEFF9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8%】2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。 发布会微直播 【2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8%】2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1565749332,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "AD47B32E149AD22D69C350622CBDEFF9",
+          "DRETITLE": "发布会微直播 2019年7月份规模以上工业增加值增长4 8 2019年7月份 规模以上工业增加值同比实际增长4 8 以下增加值增速均为扣除价格因素的实际增长率 ",
+          "URL": "https://weibo.com/3919628624/I29zc7H1E?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "537ECA89A868B591B60D73A18C687CA8",
+          "DRETITLEO": "#发布会微直播#【2019年7月份规模以上工业增加值增长4.8%】2019年7月份，规模以上工业增加值同比实际增长4.8%（以下增加值增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。从环比看，7月份，规模以上工业增加值比上月",
+          "QUICKDESCRIPTION": "发布会微直播 2019年7月份规模以上工业增加值增长4 8 2019年7月份 规模以上工业增加值同比实际增长4 8 以下增加值增速均为扣除价格因素的实际增长率 比6月份回落1 5个百分点 从环比看 7月份 规模以上工业增加值比上月增长0 19 1-7月份 规模以上工业增加值同比增长5 8 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "13FBBED7C13342C0DF7230AB6BE4F50F",
+      "timestamp": 1565748000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "13FBBED7C13342C0DF7230AB6BE4F50F",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年7月份规模以上工业增加值增长4.8%",
+        "title": "2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900419.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8% 2019/08/14 10 00 Aa 字体： 小 中 大 2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。 2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8% 2019/08/14 10 00 Aa 字体： 小 中 大 2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8% 2019/08/14 10 00 Aa 字体： 小 中 大 2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。 2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8% 2019/08/14 10 00 Aa 字体： 小 中 大 2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1565748000000,
+        "docDate": "2019-08-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_34.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "A50BB5991F28E17B09D8AC65B86BBB0A",
+        "md5Url": "13FBBED7C13342C0DF7230AB6BE4F50F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8% 2019/08/14 10 00 Aa 字体： 小 中 大 2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。 2019年7月份<em>规模以上</em><em>工业增加值</em>增长4.8% 2019/08/14 10 00 Aa 字体： 小 中 大 2019年7月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（以下<em>增加值</em>增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900419.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年7月份规模以上工业增加值增长4.8%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_34.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1565748000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "13FBBED7C13342C0DF7230AB6BE4F50F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年7月份规模以上工业增加值增长4 8",
+          "MD5TITLE": "A50BB5991F28E17B09D8AC65B86BBB0A",
+          "QUICKDESCRIPTION": "2019年7月份规模以上工业增加值增长4.8% 2019/08/14 10:00 | Aa 字体： 小 中 大 | 　　2019年7月份，规模以上工业增加值同比实际增长4.8%（以下增加值增速均为扣除价格因素的实际增长率），比6月份回落1.5个百分点。从环比看，7月份，规模以上工业增加值比上月增长0.19%。1-7月份，规模以上工业增加值同比增长5.8%。 　　分三大门类看，7月份，采矿业增加值同比增长6.6%，增速较6月份回落0.7个百分点；制造业增长4.5%，回落1.7个百分点；电力、热力、",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D8391B902C163F71B3FE895B29F78CE9",
+      "timestamp": 1564552920000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D8391B902C163F71B3FE895B29F78CE9",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2019年上半年全国规模以上文化及相关产业企业营业收入增长7.9%",
+        "title": "【数据发布】2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入增长7.9%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651320074&idx=1&sn=b96711a8bacc3db742811c1f4f8c54e0&chksm=bd1113078a669a1172c645c2be7c58e46bf69333960e1d4223d7a0fa5e774e7d5ace9c793dee&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "据对全国<em>规模以上</em>文化及相关产业近5.6万家企业调查，2019年上半年，上述企业实现营业收入40552亿元，按可比口径计算（详见附注6）比上年同期增长7.9%[1]，总体继续保持平稳较快增长。 分领域看，文化核心领域营业收入24391亿元[2]，比上年同期增长11.5%；文化相关领域16161亿元，增长3.0%。 分区域看，东部地区<em>规模以上</em>文化及相关产业企业实现营业收入30586亿元，比上年同期增长6.8%，占全国75.4%；中部、西部和东北地区分别为5771亿元、3806亿元和389亿元，分别增长10.2%、15.6%和下降0.2%，占全国比重分别为14.2%、9.4%和1.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1564552920000,
+        "docDate": "2019-07-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "F782DAC0F36B47302D091B61D9A6A5F6",
+        "md5Url": "0BEC2E6F2607D0C3490EC2D7BCFA1153",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "据对全国<em>规模以上</em>文化及相关产业近5.6万家企业调查，2019年上半年，上述企业实现营业收入40552亿元，按可比口径计算（详见附注6）比上年同期增长7.9%[1]，总体继续保持平稳较快增长。 分领域看，文化核心领域营业收入24391亿元[2]，比上年同期增长11.5%；文化相关领域16161亿元，增长3.0%。 分区域看，东部地区<em>规模以上</em>文化及相关产业企业实现营业收入30586亿元，比上年同期增长6.8%，占全国75.4%；中部、西部和东北地区分别为5771亿元、3806亿元和389亿元，分别增长10.2%、15.6%和下降0.2%，占全国比重分别为14.2%、9.4%和1.0%。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1564552920,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "0BEC2E6F2607D0C3490EC2D7BCFA1153",
+          "DRETITLE": "数据发布 2019年上半年全国规模以上文化及相关产业企业营业收入增长7 9",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651320074&idx=1&sn=b96711a8bacc3db742811c1f4f8c54e0&chksm=bd1113078a669a1172c645c2be7c58e46bf69333960e1d4223d7a0fa5e774e7d5ace9c793dee&scene=0",
+          "MD5TITLE": "F782DAC0F36B47302D091B61D9A6A5F6",
+          "DRETITLEO": "【数据发布】2019年上半年全国规模以上文化及相关产业企业营业收入增长7.9%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8099CFF3645A08ABBC9374FB8234DF19",
+      "timestamp": 1564543497000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8099CFF3645A08ABBC9374FB8234DF19",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【我国文化产业实现平稳较快增长——国家统计局社科文司高级统计师殷国俊解读2019年上半年全国规模以上文化及相关产业企业营业收入数据】日前，国家统计局发布了2019年上半年全国规模以上文化及相关产业企业营业收入数据。对此，国家统计",
+        "title": "#权威解读#【我国文化产业实现平稳较快增长——国家统计局社科文司高级统计师殷国俊解读2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据】日前，国家统计局发布了2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据。对此，国家统计",
+        "url": "https://weibo.com/3919628624/I01ZHChgi?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【我国文化产业实现平稳较快增长——国家统计局社科文司高级统计师殷国俊解读2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据】日前，国家统计局发布了2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据。 权威解读 【我国文化产业实现平稳较快增长——国家统计局社科文司高级统计师殷国俊解读2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据】日前，国家统计局发布了2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1564543497000,
+        "docDate": "2019-07-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "3B3F3F563D53EC307EC9C492E483F050",
+        "md5Url": "D26A3F79012A72FE06890D04E05A422A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【我国文化产业实现平稳较快增长——国家统计局社科文司高级统计师殷国俊解读2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据】日前，国家统计局发布了2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据。 权威解读 【我国文化产业实现平稳较快增长——国家统计局社科文司高级统计师殷国俊解读2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据】日前，国家统计局发布了2019年上半年全国<em>规模以上</em>文化及相关产业企业营业收入数据。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1564543497,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D26A3F79012A72FE06890D04E05A422A",
+          "DRETITLE": "权威解读 我国文化产业实现平稳较快增长 国家统计局社科文司高级统计师殷国俊解读2019年上半年全国规模以上文化及相关产业企业营业收入数据 日前 国家统计局发布了",
+          "URL": "https://weibo.com/3919628624/I01ZHChgi?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "3B3F3F563D53EC307EC9C492E483F050",
+          "DRETITLEO": "#权威解读#【我国文化产业实现平稳较快增长——国家统计局社科文司高级统计师殷国俊解读2019年上半年全国规模以上文化及相关产业企业营业收入数据】日前，国家统计局发布了2019年上半年全国规模以上文化及相关产业企业营业收入数据。对此，国家统计",
+          "QUICKDESCRIPTION": "权威解读 我国文化产业实现平稳较快增长 国家统计局社科文司高级统计师殷国俊解读2019年上半年全国规模以上文化及相关产业企业营业收入数据 日前 国家统计局发布了2019年上半年全国规模以上文化及相关产业企业营业收入数据 对此 国家统计局社科文司高级统计师殷国俊进行了解读 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 13,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 17,
+          "children": null,
+          "key": "工业"
+        },
+        {
+          "val": 17,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 46,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

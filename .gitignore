@@ -47,3 +47,14 @@ Desktop.ini
 # Local archives of directories already stored in this repository
 /data_raw.zip
 /deliverables.zip
+
+# Local optional dependencies and reproducible binary model artifacts
+.local_deps/
+/artifacts/models/
+/audit/framework/*.log
+/data/raw/macro/official_sources/pages/
+/data/raw/macro/original_submissions/packages/
+# Reference implementation downloads are local inspection aids, not dependencies.
+/data/raw/macro/source_references/*.txt
+/data/raw/macro/source_references/*.js
+/audit/framework/matplotlib_cache/

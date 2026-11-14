@@ -1,0 +1,541 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 44,
+  "currentHits": 4,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "社会消费品零售总额",
+    "originQt": "社会消费品零售总额",
+    "showQt": "社会消费品零售总额",
+    "encodeQt": "%E7%A4%BE%E4%BC%9A%E6%B6%88%E8%B4%B9%E5%93%81%E9%9B%B6%E5%94%AE%E6%80%BB%E9%A2%9D",
+    "qtPasser": "社会消费品零售总额",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "社会": "NN"
+      },
+      {
+        "消费品": "NN"
+      },
+      {
+        "零售": "NN"
+      },
+      {
+        "总额": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "社会消费品零售总额": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "社会",
+      "零售",
+      "消费品",
+      "总额",
+      "社会消费品零售总额"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CE11BB2242004EA8C63CA82F889F50C5",
+      "timestamp": 1520992800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CE11BB2242004EA8C63CA82F889F50C5",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年1-2月份社会消费品零售总额增长9.7%",
+        "title": "2018年1-2月份<em>社会消费品零售总额</em>增长9.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899866.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1520992800000,
+        "docDate": "2018-03-14",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/2C6F10195686A3943D5FEFB3E42773FC.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_54.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "B3F75A8052EC88D8C05A2D7D2897A29F",
+        "md5Url": "CE11BB2242004EA8C63CA82F889F50C5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899866.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年1-2月份社会消费品零售总额增长9.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/2C6F10195686A3943D5FEFB3E42773FC.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_54.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1520992800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "CE11BB2242004EA8C63CA82F889F50C5",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年1-2月份社会消费品零售总额增长9 7",
+          "MD5TITLE": "B3F75A8052EC88D8C05A2D7D2897A29F",
+          "QUICKDESCRIPTION": "2018年1-2月份社会消费品零售总额增长9.7% 2018/03/14 10:00 | Aa 字体： 小 中 大 | 　　2018年1-2月份，社会消费品零售总额61082亿元，同比名义增长9.7%。其中，限额以上单位消费品零售额23242亿元，增长8.3%。 　　按经营单位所在地分，1-2月份，城镇消费品零售额52046亿元，同比增长9.6%；乡村消费品零售额9036亿元，增长10.7%。 　　按消费类型分，1-2月份，餐饮收入6613亿元，同比增长10.1%；商品零售54469亿元，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C76326AC61DDA6957AACEE73B5A93AD9",
+      "timestamp": 1516262940000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C76326AC61DDA6957AACEE73B5A93AD9",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2017年12月份社会消费品零售总额增长9.4%",
+        "title": "【数据发布】2017年12月份<em>社会消费品零售总额</em>增长9.4%",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651310052&idx=6&sn=95177b3e3f49fbf89333a18cc423c7c7&chksm=bd113be98a66b2fffc259cbf175c9ff9cbe1feb266e1ca18f00facda604a734e9f5bbee0e5cd&scene=27#wechat_redirect",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "2017年12月份，<em>社会消费品零售总额</em>34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。 其中，限额以上单位<em>消费品</em><em>零售</em>额17409亿元，增长6.7%。 2017年全年，<em>社会消费品零售总额</em>366262亿元，比上年增长10.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1516262940000,
+        "docDate": "2018-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "2D6FD7311DDBBADE5BA2E5A665EFCF30",
+        "md5Url": "7363741A94A6D1432E73A8F8AE07CE74",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2017年12月份，<em>社会消费品零售总额</em>34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。 其中，限额以上单位<em>消费品</em><em>零售</em>额17409亿元，增长6.7%。 2017年全年，<em>社会消费品零售总额</em>366262亿元，比上年增长10.2%。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1516262940,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "7363741A94A6D1432E73A8F8AE07CE74",
+          "DRETITLE": "数据发布 2017年12月份社会消费品零售总额增长9 4",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651310052&idx=6&sn=95177b3e3f49fbf89333a18cc423c7c7&chksm=bd113be98a66b2fffc259cbf175c9ff9cbe1feb266e1ca18f00facda604a734e9f5bbee0e5cd&scene=27#wechat_redirect",
+          "MD5TITLE": "2D6FD7311DDBBADE5BA2E5A665EFCF30",
+          "DRETITLEO": "【数据发布】2017年12月份社会消费品零售总额增长9.4%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DA178A4DAD7097C829DF14AFC7C0B390",
+      "timestamp": 1516259647000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DA178A4DAD7097C829DF14AFC7C0B390",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2017年12月份社会消费品零售总额增长9.4%】2017年12月份，社会消费品零售总额34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。2017年全年，社会消费品零售总额36",
+        "title": "#数据发布#【2017年12月份<em>社会消费品零售总额</em>增长9.4%】2017年12月份，<em>社会消费品零售总额</em>34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。2017年全年，<em>社会消费品零售总额</em>36",
+        "url": "https://weibo.com/3919628624/FEVY7g0Py?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2017年12月份<em>社会消费品零售总额</em>增长9.4%】2017年12月份，<em>社会消费品零售总额</em>34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。 数据发布 【2017年12月份<em>社会消费品零售总额</em>增长9.4%】2017年12月份，<em>社会消费品零售总额</em>34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1516259647000,
+        "docDate": "2018-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "6C1DEE2B6786DA8C78903F3B463F3DE6",
+        "md5Url": "3ADCA3573609F386FEF4ADAB77022BD0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2017年12月份<em>社会消费品零售总额</em>增长9.4%】2017年12月份，<em>社会消费品零售总额</em>34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。 数据发布 【2017年12月份<em>社会消费品零售总额</em>增长9.4%】2017年12月份，<em>社会消费品零售总额</em>34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1516259647,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3ADCA3573609F386FEF4ADAB77022BD0",
+          "DRETITLE": "数据发布 2017年12月份社会消费品零售总额增长9 4 2017年12月份 社会消费品零售总额34734亿元 同比名义增长9 4 扣除价格因素实际增长7 8 ",
+          "URL": "https://weibo.com/3919628624/FEVY7g0Py?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "6C1DEE2B6786DA8C78903F3B463F3DE6",
+          "DRETITLEO": "#数据发布#【2017年12月份社会消费品零售总额增长9.4%】2017年12月份，社会消费品零售总额34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。2017年全年，社会消费品零售总额36",
+          "QUICKDESCRIPTION": "数据发布 2017年12月份社会消费品零售总额增长9 4 2017年12月份 社会消费品零售总额34734亿元 同比名义增长9 4 扣除价格因素实际增长7 8 以下除特殊说明外均为名义增长 2017年全年 社会消费品零售总额366262亿元 比上年增长10 2 其中 限额以上单位消费品零售额160613亿元 增长8 1 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BF5C00276E992787E346787EB5ABFE88",
+      "timestamp": 1516258800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BF5C00276E992787E346787EB5ABFE88",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2017年12月份社会消费品零售总额增长9.4%",
+        "title": "2017年12月份<em>社会消费品零售总额</em>增长9.4%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899819.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1516258800000,
+        "docDate": "2018-01-18",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/EE0BC26441BD1F6824F7B244851B6A83.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_56.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "9C63354B81E7C186D1625C0EF2D0021B",
+        "md5Url": "BF5C00276E992787E346787EB5ABFE88",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。 商品和服务包括实物商品和非实物商品（如虚拟商品、服务类商品等）。 <em>社会消费品零售总额</em>包括实物商品网上<em>零售</em>额，但不包括非实物商品网上<em>零售</em>额。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899819.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2017年12月份社会消费品零售总额增长9.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/EE0BC26441BD1F6824F7B244851B6A83.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_56.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1516258800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "BF5C00276E992787E346787EB5ABFE88",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2017年12月份社会消费品零售总额增长9 4",
+          "MD5TITLE": "9C63354B81E7C186D1625C0EF2D0021B",
+          "QUICKDESCRIPTION": "2017年12月份社会消费品零售总额增长9.4% 2018/01/18 15:00 | Aa 字体： 小 中 大 | 　　2017年12月份，社会消费品零售总额34734亿元，同比名义增长9.4%（扣除价格因素实际增长7.8%，以下除特殊说明外均为名义增长）。其中，限额以上单位消费品零售额17409亿元，增长6.7%。 　　2017年全年，社会消费品零售总额366262亿元，比上年增长10.2%。其中，限额以上单位消费品零售额160613亿元，增长8.1%。 　　按经营单位所在地分，12月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 26,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 26,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "住户调查"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 26,
+          "children": null,
+          "key": ""
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

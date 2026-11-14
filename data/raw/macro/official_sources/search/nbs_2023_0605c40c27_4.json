@@ -1,0 +1,2158 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 104,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "规模以上工业增加值",
+    "originQt": "规模以上工业增加值",
+    "showQt": "规模以上工业增加值",
+    "encodeQt": "%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E5%A2%9E%E5%8A%A0%E5%80%BC",
+    "qtPasser": "规模以上工业增加值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "规模": "NN"
+      },
+      {
+        "以上": "LC"
+      },
+      {
+        "工业": "NN"
+      },
+      {
+        "增加值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "规模以上": "LC"
+      },
+      {
+        "工业增加值": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "工业增加值",
+      "规模以上",
+      "规模",
+      "以上",
+      "增加值",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7BE7CEC9E44DB91C7A5E142C471CBCCD",
+      "timestamp": 1687915800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7BE7CEC9E44DB91C7A5E142C471CBCCD",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年1—5月份全国规模以上工业企业利润下降18.8%",
+        "title": "2023年1—5月份全国<em>规模以上</em><em>工业</em>企业利润下降18.8%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230628_1940873.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—5月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额26688.9亿元，同比下降18.8%，降幅比1—4月份收窄1.8个百分点（按可比口径计算，详见附注二）。 1—5月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额26688.9亿元，同比下降18.8%，降幅比1—4月份收窄1.8个百分点（按可比口径计算，详见附注二）。 1—5月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额9625.1亿元，同比下降17.7%；股份制企业实现利润总额19578.1亿元，下降20.4%；外商及港澳台商投资企业实现利润总额6267.5亿元，下降13.6%；私营企业实现利润总额6837.8亿元，下降21.3%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202306/W020230628336687903759.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—5月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额26688.9亿元，同比下降18.8%，降幅比1—4月份收窄1.8个百分点（按可比口径计算，详见附注二）。 1—5月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额26688.9亿元，同比下降18.8%，降幅比1—4月份收窄1.8个百分点（按可比口径计算，详见附注二）。 1—5月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额9625.1亿元，同比下降17.7%；股份制企业实现利润总额19578.1亿元，下降20.4%；外商及港澳台商投资企业实现利润总额6267.5亿元，下降13.6%；私营企业实现利润总额6837.8亿元，下降21.3%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1687915800000,
+        "docDate": "2023-06-28",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/9BA95A8C0FB8118F8E454DB5103DCC37.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_41.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "9642E9E9286B08BA59B47732C645B4BF",
+        "md5Url": "7BE7CEC9E44DB91C7A5E142C471CBCCD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—5月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额26688.9亿元，同比下降18.8%，降幅比1—4月份收窄1.8个百分点（按可比口径计算，详见附注二）。 1—5月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额26688.9亿元，同比下降18.8%，降幅比1—4月份收窄1.8个百分点（按可比口径计算，详见附注二）。 1—5月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额9625.1亿元，同比下降17.7%；股份制企业实现利润总额19578.1亿元，下降20.4%；外商及港澳台商投资企业实现利润总额6267.5亿元，下降13.6%；私营企业实现利润总额6837.8亿元，下降21.3%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202306/t20230628_1940873.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年1—5月份全国规模以上工业企业利润下降18.8%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/9BA95A8C0FB8118F8E454DB5103DCC37.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202306/W020230628336687903759.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_41.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1687915800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "7BE7CEC9E44DB91C7A5E142C471CBCCD",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年1 5月份全国规模以上工业企业利润下降18 8",
+          "MD5TITLE": "9642E9E9286B08BA59B47732C645B4BF",
+          "QUICKDESCRIPTION": "　　1—5月份，全国规模以上工业企业实现利润总额26688.9亿元，同比下降18.8%，降幅比1—4月份收窄1.8个百分点（按可比口径计算，详见附注二）。 　　1—5月份，规模以上工业企业中，国有控股企业实现利润总额9625.1亿元，同比下降17.7%；股份制企业实现利润总额19578.1亿元，下降20.4%；外商及港澳台商投资企业实现利润总额6267.5亿元，下降13.6%；私营企业实现利润总额6837.8亿元，下降21.3%。 　　1—5月份，采矿业实现利润总额5919.3亿元，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "38FBF4745DC644422A970B3B30EBFB50",
+      "timestamp": 1686794815000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "38FBF4745DC644422A970B3B30EBFB50",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2023年5月份能源生产情况】5月份，规模以上工业主要能源产品生产均保持同比增长。与4月份比，原煤、电力生产略有放缓，原油、天然气生产有所加快。详见：O网页链接",
+        "title": "#发布会微直播# 【2023年5月份能源生产情况】5月份，<em>规模以上</em><em>工业</em>主要能源产品生产均保持同比增长。与4月份比，原煤、电力生产略有放缓，原油、天然气生产有所加快。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N5nV3pfiu?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年5月份能源生产情况】5月份，<em>规模以上</em><em>工业</em>主要能源产品生产均保持同比增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1686794815000,
+        "docDate": "2023-06-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "E2478DB2C6507AE9CB0C84A37D98CA2D",
+        "md5Url": "C5AA60593376346AB10CE159D740362D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年5月份能源生产情况】5月份，<em>规模以上</em><em>工业</em>主要能源产品生产均保持同比增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1686794815,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C5AA60593376346AB10CE159D740362D",
+          "DRETITLE": "发布会微直播 2023年5月份能源生产情况 5月份 规模以上工业主要能源产品生产均保持同比增长 与4月份比 原煤 电力生产略有放缓 原油 天然气生产有所加快 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N5nV3pfiu?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E2478DB2C6507AE9CB0C84A37D98CA2D",
+          "DRETITLEO": "#发布会微直播# 【2023年5月份能源生产情况】5月份，规模以上工业主要能源产品生产均保持同比增长。与4月份比，原煤、电力生产略有放缓，原油、天然气生产有所加快。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2023年5月份能源生产情况 5月份 规模以上工业主要能源产品生产均保持同比增长 与4月份比 原煤 电力生产略有放缓 原油 天然气生产有所加快 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "57F8F72091C4342320A58F7D62C76301",
+      "timestamp": 1686794678000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "57F8F72091C4342320A58F7D62C76301",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2023年5月份规模以上工业增加值增长3.5%】5月份，规模以上工业增加值同比实际增长3.5%（增加值增速均为扣除价格因素的实际增长率）。从环比看，5月份，规模以上工业增加值比上月增长0.63%。1—5月份，规模以上工业增加值同比增长3.6%。详见：O网页链接",
+        "title": "#发布会微直播# 【2023年5月份<em>规模以上</em><em>工业增加值</em>增长3.5%】5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，5月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.63%。1—5月份，<em>规模以上</em><em>工业增加值</em>同比增长3.6%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N5nU7t89M?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年5月份<em>规模以上</em><em>工业增加值</em>增长3.5%】5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 发布会微直播 【2023年5月份<em>规模以上</em><em>工业增加值</em>增长3.5%】5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1686794678000,
+        "docDate": "2023-06-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "8B5DAED13D5F22F7C39C3A87D4548C1C",
+        "md5Url": "0A0A0CFCC84CCF26C853A2315E562764",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年5月份<em>规模以上</em><em>工业增加值</em>增长3.5%】5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 发布会微直播 【2023年5月份<em>规模以上</em><em>工业增加值</em>增长3.5%】5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1686794678,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "0A0A0CFCC84CCF26C853A2315E562764",
+          "DRETITLE": "发布会微直播 2023年5月份规模以上工业增加值增长3 5 5月份 规模以上工业增加值同比实际增长3 5 增加值增速均为扣除价格因素的实际增长率 从环比看 5月份 规模以上工业增加值比上月增长0 63 1 5月份 规模以上工业增加值同比增长3 6 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N5nU7t89M?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8B5DAED13D5F22F7C39C3A87D4548C1C",
+          "DRETITLEO": "#发布会微直播# 【2023年5月份规模以上工业增加值增长3.5%】5月份，规模以上工业增加值同比实际增长3.5%（增加值增速均为扣除价格因素的实际增长率）。从环比看，5月份，规模以上工业增加值比上月增长0.63%。1—5月份，规模以上工业增加值同比增长3.6%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2023年5月份规模以上工业增加值增长3 5 5月份 规模以上工业增加值同比实际增长3 5 增加值增速均为扣除价格因素的实际增长率 从环比看 5月份 规模以上工业增加值比上月增长0 63 1 5月份 规模以上工业增加值同比增长3 6 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "25D7501BF43D05640D42958349782119",
+      "timestamp": 1686794400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "25D7501BF43D05640D42958349782119",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年5月份规模以上工业增加值增长3.5%",
+        "title": "2023年5月份<em>规模以上</em><em>工业增加值</em>增长3.5%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230615_1940626.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，5月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.63%。1—5月份，<em>规模以上</em><em>工业增加值</em>同比增长3.6%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202306/W020230615347392257940.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，5月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.63%。1—5月份，<em>规模以上</em><em>工业增加值</em>同比增长3.6%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1686794400000,
+        "docDate": "2023-06-15",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/29182C7157F42AC76BA72ACD5DC82A42.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_41.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "8EEE5989972CD0889E2E20716E5CD8FF",
+        "md5Url": "25D7501BF43D05640D42958349782119",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 5月份，<em>规模以上</em><em>工业增加值</em>同比实际增长3.5%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，5月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.63%。1—5月份，<em>规模以上</em><em>工业增加值</em>同比增长3.6%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202306/t20230615_1940626.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年5月份规模以上工业增加值增长3.5%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/29182C7157F42AC76BA72ACD5DC82A42.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202306/W020230615347392257940.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_41.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1686794400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "25D7501BF43D05640D42958349782119",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年5月份规模以上工业增加值增长3 5",
+          "MD5TITLE": "8EEE5989972CD0889E2E20716E5CD8FF",
+          "QUICKDESCRIPTION": "　　5月份，规模以上工业增加值同比实际增长3.5%（增加值增速均为扣除价格因素的实际增长率）。从环比看，5月份，规模以上工业增加值比上月增长0.63%。1—5月份，规模以上工业增加值同比增长3.6%。 　　分三大门类看，5月份，采矿业增加值同比下降1.2%，制造业增长4.1%，电力、热力、燃气及水生产和供应业增长4.8%。 　　分经济类型看，5月份，国有控股企业增加值同比增长4.4%；股份制企业增长3.5%，外商及港澳台商投资企业增长4.2%；私营企业增长0.7%。 　　分行业看，5月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A078AF097D0F8F2B7D9E79E7C2A469A9",
+      "timestamp": 1685342280000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A078AF097D0F8F2B7D9E79E7C2A469A9",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 4月份规模以上工业企业营收同比增长3.7％",
+        "title": "《新闻直播间》国家统计局 4月份<em>规模以上</em><em>工业</em>企业营收同比增长3.7％",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202306/t20230601_1940309.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 4月份<em>规模以上</em><em>工业</em>企业营收同比增长3.7...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1685342280000,
+        "docDate": "2023-05-29",
+        "includeImg": true,
+        "picUrl": "img?reference=A078AF097D0F8F2B7D9E79E7C2A469A9&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_24.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "496C491ED479C5E004FE3C0B901DD169",
+        "md5Url": "A078AF097D0F8F2B7D9E79E7C2A469A9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 4月份<em>规模以上</em><em>工业</em>企业营收同比增长3.7...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202306/t20230601_1940309.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局 4月份规模以上工业企业营收同比增长3.7％",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_24.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1685342280,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A078AF097D0F8F2B7D9E79E7C2A469A9",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 4月份规模以上工业企业营收同比增长3 7",
+          "MD5TITLE": "496C491ED479C5E004FE3C0B901DD169",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局 4月份规模以上工业企业营收同比增长3.7％",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3E75CC1CBAF2728B651CC5EAE19642A0",
+      "timestamp": 1685155740000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3E75CC1CBAF2728B651CC5EAE19642A0",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2023年1—4月份全国规模以上工业企业利润下降20.6%",
+        "title": "【数据发布】2023年1—4月份全国<em>规模以上</em><em>工业</em>企业利润下降20.6%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651544701&idx=1&sn=d8ee322c1d607c04c5c01ef202d1d801&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6% （按可比口径计算，详见附注二）。 1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6% （按可比口径计算，详见附注二）。 1—4月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额7579.8亿元，同比下降17.9%；股份制企业实现利润总额14962.4亿元，下降22.0%；外商及港澳台商投资企业实现利润总额4679.9亿元，下降16.2%；私营企业实现利润总额5240.3亿元，下降22.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1685155740000,
+        "docDate": "2023-05-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "B8BCF64FE9CD42FC64D55B813E42556B",
+        "md5Url": "C0E327970195736E5141BA336D1E9008",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6% （按可比口径计算，详见附注二）。 1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6% （按可比口径计算，详见附注二）。 1—4月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额7579.8亿元，同比下降17.9%；股份制企业实现利润总额14962.4亿元，下降22.0%；外商及港澳台商投资企业实现利润总额4679.9亿元，下降16.2%；私营企业实现利润总额5240.3亿元，下降22.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1685155740,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "C0E327970195736E5141BA336D1E9008",
+          "DRETITLE": "数据发布 2023年1 4月份全国规模以上工业企业利润下降20 6",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651544701&idx=1&sn=d8ee322c1d607c04c5c01ef202d1d801&scene=0",
+          "MD5TITLE": "B8BCF64FE9CD42FC64D55B813E42556B",
+          "DRETITLEO": "【数据发布】2023年1—4月份全国规模以上工业企业利润下降20.6%",
+          "QUICKDESCRIPTION": "1 4月份 全国规模以上工业企业实现利润总额20328 8亿元 同比下降20 6 按可比口径计算 详见附注二 1 4月份 规模以上工业企业中 国有控股企业实现利润总额7579 8亿元 同比下降17 9 股份制企业实现利润总额14962 4亿元 下降22 0 外商及港澳台商投资企业实现利润总额4679 9亿元 下降16 2 私营企业实现利润总额5240 3亿元 下降22 5 1 4月份 采矿业实现利润总额4752 4亿元 同比下降12 3 制造业实现利润总额13723 7亿元 下降27 0 电力 ",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A56325E27AFE5F30C5526DC03FFDD4C3",
+      "timestamp": 1685151511000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A56325E27AFE5F30C5526DC03FFDD4C3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年1—4月份全国规模以上工业企业利润下降20.6%】1—4月份，全国规模以上工业企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。详见：O网页链接",
+        "title": "#数据发布# 【2023年1—4月份全国<em>规模以上</em><em>工业</em>企业利润下降20.6%】1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N2uC5l4pj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2023年1—4月份全国<em>规模以上</em><em>工业</em>企业利润下降20.6%】1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 数据发布 【2023年1—4月份全国<em>规模以上</em><em>工业</em>企业利润下降20.6%】1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1685151511000,
+        "docDate": "2023-05-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "2FDDAF873305A3B0114C58B08C42B837",
+        "md5Url": "491AA3FFB3E224BC74070C5946A34F8A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2023年1—4月份全国<em>规模以上</em><em>工业</em>企业利润下降20.6%】1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 数据发布 【2023年1—4月份全国<em>规模以上</em><em>工业</em>企业利润下降20.6%】1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1685151511,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "491AA3FFB3E224BC74070C5946A34F8A",
+          "DRETITLE": "数据发布 2023年1 4月份全国规模以上工业企业利润下降20 6 1 4月份 全国规模以上工业企业实现利润总额20328 8亿元 同比下降20 6 按可比口径计算 详见附注二 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N2uC5l4pj?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2FDDAF873305A3B0114C58B08C42B837",
+          "DRETITLEO": "#数据发布# 【2023年1—4月份全国规模以上工业企业利润下降20.6%】1—4月份，全国规模以上工业企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2023年1 4月份全国规模以上工业企业利润下降20 6 1 4月份 全国规模以上工业企业实现利润总额20328 8亿元 同比下降20 6 按可比口径计算 详见附注二 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "846CA080D49E13CD5464003804BFC4E7",
+      "timestamp": 1685151000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "846CA080D49E13CD5464003804BFC4E7",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年1—4月份全国规模以上工业企业利润下降20.6%",
+        "title": "2023年1—4月份全国<em>规模以上</em><em>工业</em>企业利润下降20.6%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230526_1940198.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 1—4月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额7579.8亿元，同比下降17.9%；股份制企业实现利润总额14962.4亿元，下降22.0%；外商及港澳台商投资企业实现利润总额4679.9亿元，下降16.2%；私营企业实现利润总额5240.3亿元，下降22.5%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202305/W020230527333735637835.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 1—4月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额7579.8亿元，同比下降17.9%；股份制企业实现利润总额14962.4亿元，下降22.0%；外商及港澳台商投资企业实现利润总额4679.9亿元，下降16.2%；私营企业实现利润总额5240.3亿元，下降22.5%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1685151000000,
+        "docDate": "2023-05-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/2A63D89F584C22A389A38C8D8B95F225.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_42.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "AA84150C56AED078C036CA345A0CC2D7",
+        "md5Url": "846CA080D49E13CD5464003804BFC4E7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 1—4月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 1—4月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额7579.8亿元，同比下降17.9%；股份制企业实现利润总额14962.4亿元，下降22.0%；外商及港澳台商投资企业实现利润总额4679.9亿元，下降16.2%；私营企业实现利润总额5240.3亿元，下降22.5%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202305/t20230526_1940198.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年1—4月份全国规模以上工业企业利润下降20.6%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/2A63D89F584C22A389A38C8D8B95F225.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202305/W020230527333735637835.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_42.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1685151000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "846CA080D49E13CD5464003804BFC4E7",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年1 4月份全国规模以上工业企业利润下降20 6",
+          "MD5TITLE": "AA84150C56AED078C036CA345A0CC2D7",
+          "QUICKDESCRIPTION": "　　1—4月份，全国规模以上工业企业实现利润总额20328.8亿元，同比下降20.6%（按可比口径计算，详见附注二）。 　　1—4月份，规模以上工业企业中，国有控股企业实现利润总额7579.8亿元，同比下降17.9%；股份制企业实现利润总额14962.4亿元，下降22.0%；外商及港澳台商投资企业实现利润总额4679.9亿元，下降16.2%；私营企业实现利润总额5240.3亿元，下降22.5%。 　　1—4月份，采矿业实现利润总额4752.4亿元，同比下降12.3%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D1DCAD3F133F9AF94C11A1AC36C56CDA",
+      "timestamp": 1684203340000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D1DCAD3F133F9AF94C11A1AC36C56CDA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2023年4月份能源生产情况】4月份，规模以上工业主要能源产品生产均保持同比增长。与3月份比，原煤、天然气、电力生产加快，原油生产有所放缓。详见：O网页链接",
+        "title": "#发布会微直播# 【2023年4月份能源生产情况】4月份，<em>规模以上</em><em>工业</em>主要能源产品生产均保持同比增长。与3月份比，原煤、天然气、电力生产加快，原油生产有所放缓。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N0P9HtI6w?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年4月份能源生产情况】4月份，<em>规模以上</em><em>工业</em>主要能源产品生产均保持同比增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1684203340000,
+        "docDate": "2023-05-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "027BCAD35B9BBEAEA9C9D524905F768B",
+        "md5Url": "6FF49A002E37E2891054C1EE388A3613",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年4月份能源生产情况】4月份，<em>规模以上</em><em>工业</em>主要能源产品生产均保持同比增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1684203340,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "6FF49A002E37E2891054C1EE388A3613",
+          "DRETITLE": "发布会微直播 2023年4月份能源生产情况 4月份 规模以上工业主要能源产品生产均保持同比增长 与3月份比 原煤 天然气 电力生产加快 原油生产有所放缓 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N0P9HtI6w?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "027BCAD35B9BBEAEA9C9D524905F768B",
+          "DRETITLEO": "#发布会微直播# 【2023年4月份能源生产情况】4月份，规模以上工业主要能源产品生产均保持同比增长。与3月份比，原煤、天然气、电力生产加快，原油生产有所放缓。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2023年4月份能源生产情况 4月份 规模以上工业主要能源产品生产均保持同比增长 与3月份比 原煤 天然气 电力生产加快 原油生产有所放缓 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5B8C5E26E7DF825E5E67FC08A1C07E05",
+      "timestamp": 1684203177000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5B8C5E26E7DF825E5E67FC08A1C07E05",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2023年4月份规模以上工业增加值增长5.6%】4月份，规模以上工业增加值同比实际增长5.6%（增加值增速均为扣除价格因素的实际增长率）。从环比看，4月份，规模以上工业增加值比上月下降0.47%。1—4月份，规模以上工业增加值同比增长3.6%。详见：O网页链接",
+        "title": "#发布会微直播# 【2023年4月份<em>规模以上</em><em>工业增加值</em>增长5.6%】4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，4月份，<em>规模以上</em><em>工业增加值</em>比上月下降0.47%。1—4月份，<em>规模以上</em><em>工业增加值</em>同比增长3.6%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/N0P8BdcMS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2023年4月份<em>规模以上</em><em>工业增加值</em>增长5.6%】4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 发布会微直播 【2023年4月份<em>规模以上</em><em>工业增加值</em>增长5.6%】4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1684203177000,
+        "docDate": "2023-05-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "EF90B6E889177D54ED69888DFA350C81",
+        "md5Url": "6EF28895ECF56024E2F8643F6C9FCFF7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2023年4月份<em>规模以上</em><em>工业增加值</em>增长5.6%】4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 发布会微直播 【2023年4月份<em>规模以上</em><em>工业增加值</em>增长5.6%】4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1684203177,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "6EF28895ECF56024E2F8643F6C9FCFF7",
+          "DRETITLE": "发布会微直播 2023年4月份规模以上工业增加值增长5 6 4月份 规模以上工业增加值同比实际增长5 6 增加值增速均为扣除价格因素的实际增长率 从环比看 4月份 规模以上工业增加值比上月下降0 47 1 4月份 规模以上工业增加值同比增长3 6 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/N0P8BdcMS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "EF90B6E889177D54ED69888DFA350C81",
+          "DRETITLEO": "#发布会微直播# 【2023年4月份规模以上工业增加值增长5.6%】4月份，规模以上工业增加值同比实际增长5.6%（增加值增速均为扣除价格因素的实际增长率）。从环比看，4月份，规模以上工业增加值比上月下降0.47%。1—4月份，规模以上工业增加值同比增长3.6%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2023年4月份规模以上工业增加值增长5 6 4月份 规模以上工业增加值同比实际增长5 6 增加值增速均为扣除价格因素的实际增长率 从环比看 4月份 规模以上工业增加值比上月下降0 47 1 4月份 规模以上工业增加值同比增长3 6 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "00E9548C58D6AC4001025F3AB2B5DA1C",
+      "timestamp": 1684202400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "00E9548C58D6AC4001025F3AB2B5DA1C",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年4月份规模以上工业增加值增长5.6%",
+        "title": "2023年4月份<em>规模以上</em><em>工业增加值</em>增长5.6%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230516_1939487.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，4月份，<em>规模以上</em><em>工业增加值</em>比上月下降0.47%。1—4月份，<em>规模以上</em><em>工业增加值</em>同比增长3.6%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202305/W020230516354656831078.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，4月份，<em>规模以上</em><em>工业增加值</em>比上月下降0.47%。1—4月份，<em>规模以上</em><em>工业增加值</em>同比增长3.6%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1684202400000,
+        "docDate": "2023-05-16",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/0440A893115265104A9FB76F9EB07472.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_42.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "616D5EB27E953F175B4863996FFF3290",
+        "md5Url": "00E9548C58D6AC4001025F3AB2B5DA1C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 4月份，<em>规模以上</em><em>工业增加值</em>同比实际增长5.6%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，4月份，<em>规模以上</em><em>工业增加值</em>比上月下降0.47%。1—4月份，<em>规模以上</em><em>工业增加值</em>同比增长3.6%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202305/t20230516_1939487.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年4月份规模以上工业增加值增长5.6%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/0440A893115265104A9FB76F9EB07472.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202305/W020230516354656831078.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_42.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1684202400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "00E9548C58D6AC4001025F3AB2B5DA1C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年4月份规模以上工业增加值增长5 6",
+          "MD5TITLE": "616D5EB27E953F175B4863996FFF3290",
+          "QUICKDESCRIPTION": "　　4月份，规模以上工业增加值同比实际增长5.6%（增加值增速均为扣除价格因素的实际增长率）。从环比看，4月份，规模以上工业增加值比上月下降0.47%。1—4月份，规模以上工业增加值同比增长3.6%。 　　分三大门类看，4月份，采矿业增加值同比持平，制造业增长6.5%，电力、热力、燃气及水生产和供应业增长4.8%。 　　分经济类型看，4月份，国有控股企业增加值同比增长6.6%；股份制企业增长4.4%，外商及港澳台商投资企业增长11.8%；私营企业增长1.6%。 　　分行业看，4月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F4E5A34593878F2B20571C95BB16AE32",
+      "timestamp": 1683621480000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F4E5A34593878F2B20571C95BB16AE32",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2022年规模以上企业就业人员年平均工资情况",
+        "title": "【数据发布】2022年<em>规模以上</em>企业就业人员年平均工资情况",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651540817&idx=2&sn=5e60ae22d6cad62636f6379392879189&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "2022 年全国<em>规模以上</em>企业就业人员年平均工资为 92492 元，比上年名义增长 5.0% 。 按区域、行业门类、登记注册类型分组的<em>规模以上</em>企业就业人员年平均工资详见表1、表2、表3。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1683621480000,
+        "docDate": "2023-05-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "8569B52194F8928EAF3C2E701E6C0299",
+        "md5Url": "947BFC0197A905B37A1357AB91093343",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2022 年全国<em>规模以上</em>企业就业人员年平均工资为 92492 元，比上年名义增长 5.0% 。 按区域、行业门类、登记注册类型分组的<em>规模以上</em>企业就业人员年平均工资详见表1、表2、表3。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1683621480,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "947BFC0197A905B37A1357AB91093343",
+          "DRETITLE": "数据发布 2022年规模以上企业就业人员年平均工资情况",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651540817&idx=2&sn=5e60ae22d6cad62636f6379392879189&scene=0",
+          "MD5TITLE": "8569B52194F8928EAF3C2E701E6C0299",
+          "DRETITLEO": "【数据发布】2022年规模以上企业就业人员年平均工资情况",
+          "QUICKDESCRIPTION": "2022年全国规模以上企业就业人员年平均工资为92492元 比上年名义增长5 0 其中 中层及以上管理人员189076元 增长4 7 专业技术人员133264元 增长6 6 办事人员和有关人员85881元 增长4 1 社会生产服务和生活服务人员70234元 增长3 3 生产制造及有关人员71147元 增长3 9 按区域 行业门类 登记注册类型分组的规模以上企业就业人员年平均工资详见表1 表2 表3 更多信息和附注 请阅读原文",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "0B2D0D6F96C8869C4FBD1CD416091EC0",
+      "timestamp": 1683617633000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "0B2D0D6F96C8869C4FBD1CD416091EC0",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2022年城镇单位就业人员工资水平保持增长】——国家统计局人口和就业统计司司长王萍萍解读2022年城镇单位就业人员平均工资数据 据国家统计局对138.1万家规模以上企业的联网直报统计和72.1万家规模以下样本单位的调查，2022年全国城镇单位[1]就业人员平均工资[2]保持增长。 　　一、工资 ...展开全文c",
+        "title": "#权威解读# 【2022年城镇单位就业人员工资水平保持增长】——国家统计局人口和就业统计司司长王萍萍解读2022年城镇单位就业人员平均工资数据 据国家统计局对138.1万家<em>规模以上</em>企业的联网直报统计和72.1万家<em>规模</em>以下样本单位的调查，2022年全国城镇单位[1]就业人员平均工资[2]保持增长。 　　一、工资 ...展开全文c",
+        "url": "https://weibo.com/3919628624/MFKHIiqwS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2022年城镇单位就业人员工资水平保持增长】——国家统计局人口和就业统计司司长王萍萍解读2022年城镇单位就业人员平均工资数据 据国家统计局对138.1万家<em>规模以上</em>企业的联网直报统计和72.1万家<em>规模</em>以下样本单位的调查，2022年全国城镇单位[1]就业人员平均工资[2]保持增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1683617633000,
+        "docDate": "2023-05-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "078A25B0DF76B551E87091DE058D3DEA",
+        "md5Url": "85DFBD1C940C4BC7F1C286550CAFB975",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2022年城镇单位就业人员工资水平保持增长】——国家统计局人口和就业统计司司长王萍萍解读2022年城镇单位就业人员平均工资数据 据国家统计局对138.1万家<em>规模以上</em>企业的联网直报统计和72.1万家<em>规模</em>以下样本单位的调查，2022年全国城镇单位[1]就业人员平均工资[2]保持增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1683617633,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "85DFBD1C940C4BC7F1C286550CAFB975",
+          "DRETITLE": "权威解读 2022年城镇单位就业人员工资水平保持增长 国家统计局人口和就业统计司司长王萍萍解读2022年城镇单位就业人员平均工资数据 据国家统计局对138 1万家规模以上企业的联网直报统计和72 1万家规模以下样本单位的调查 2022年全国城镇单位 1 就业人员平均工资 2 保持增长 一 工资 展开全文c",
+          "URL": "https://weibo.com/3919628624/MFKHIiqwS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "078A25B0DF76B551E87091DE058D3DEA",
+          "DRETITLEO": "#权威解读# 【2022年城镇单位就业人员工资水平保持增长】——国家统计局人口和就业统计司司长王萍萍解读2022年城镇单位就业人员平均工资数据 据国家统计局对138.1万家规模以上企业的联网直报统计和72.1万家规模以下样本单位的调查，2022年全国城镇单位[1]就业人员平均工资[2]保持增长。 　　一、工资 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 2022年城镇单位就业人员工资水平保持增长 国家统计局人口和就业统计司司长王萍萍解读2022年城镇单位就业人员平均工资数据 据国家统计局对138 1万家规模以上企业的联网直报统计和72 1万家规模以下样本单位的调查 2022年全国城镇单位 1 就业人员平均工资 2 保持增长 一 工资 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "281B309C21A50C08D03A91F84936A775",
+      "timestamp": 1683617164000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "281B309C21A50C08D03A91F84936A775",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年规模以上企业就业人员年平均工资情况】 2022年全国规模以上企业就业人员年平均工资为92492元，比上年名义增长5.0%。其中，中层及以上管理人员189076元，增长4.7%；专业技术人员133264元，增长6.6%；办事人员和有关人员85881元，增长4.1%；社会生产服务和生活服务人员70234元，增长3 ...展开全文c",
+        "title": "#数据发布# 【2022年<em>规模以上</em>企业就业人员年平均工资情况】 2022年全国<em>规模以上</em>企业就业人员年平均工资为92492元，比上年名义增长5.0%。其中，中层及<em>以上</em>管理人员189076元，增长4.7%；专业技术人员133264元，增长6.6%；办事人员和有关人员85881元，增长4.1%；社会生产服务和生活服务人员70234元，增长3 ...展开全文c",
+        "url": "https://weibo.com/3919628624/MFKExq4mY?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2022年<em>规模以上</em>企业就业人员年平均工资情况】 2022年全国<em>规模以上</em>企业就业人员年平均工资为92492元，比上年名义增长5.0%。 数据发布 【2022年<em>规模以上</em>企业就业人员年平均工资情况】 2022年全国<em>规模以上</em>企业就业人员年平均工资为92492元，比上年名义增长5.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1683617164000,
+        "docDate": "2023-05-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "D258A362F900B0AE3B137DA6C2802CCC",
+        "md5Url": "6CC6553C3EBAC2FFF744C6C9803211C6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2022年<em>规模以上</em>企业就业人员年平均工资情况】 2022年全国<em>规模以上</em>企业就业人员年平均工资为92492元，比上年名义增长5.0%。 数据发布 【2022年<em>规模以上</em>企业就业人员年平均工资情况】 2022年全国<em>规模以上</em>企业就业人员年平均工资为92492元，比上年名义增长5.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1683617164,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "6CC6553C3EBAC2FFF744C6C9803211C6",
+          "DRETITLE": "数据发布 2022年规模以上企业就业人员年平均工资情况 2022年全国规模以上企业就业人员年平均工资为92492元 比上年名义增长5 0 其中 中层及以上管理人员189076元 增长4 7 专业技术人员133264元 增长6 6 办事人员和有关人员85881元 增长4 1 社会生产服务和生活服务人员70234元 增长3 展开全文c",
+          "URL": "https://weibo.com/3919628624/MFKExq4mY?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D258A362F900B0AE3B137DA6C2802CCC",
+          "DRETITLEO": "#数据发布# 【2022年规模以上企业就业人员年平均工资情况】 2022年全国规模以上企业就业人员年平均工资为92492元，比上年名义增长5.0%。其中，中层及以上管理人员189076元，增长4.7%；专业技术人员133264元，增长6.6%；办事人员和有关人员85881元，增长4.1%；社会生产服务和生活服务人员70234元，增长3 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2022年规模以上企业就业人员年平均工资情况 2022年全国规模以上企业就业人员年平均工资为92492元 比上年名义增长5 0 其中 中层及以上管理人员189076元 增长4 7 专业技术人员133264元 增长6 6 办事人员和有关人员85881元 增长4 1 社会生产服务和生活服务人员70234元 增长3 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2D8B58E23F547E705A01AFBA382E974F",
+      "timestamp": 1683615600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2D8B58E23F547E705A01AFBA382E974F",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年规模以上企业就业人员年平均工资情况",
+        "title": "2022年<em>规模以上</em>企业就业人员年平均工资情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230509_1939287.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "<em>以上</em>五类岗位划分依据为人力资源和社会保障部《中华人民共和国职业分类大典（2015年版）》。 2、统计范围 <em>规模以上</em>企业，具体包括：<em>规模以上</em><em>工业</em>（含采矿业，制造业，电力、热力、燃气及水生产和供应业），有资质的建筑业，限额<em>以上</em>批发和零售业，限额<em>以上</em>住宿和餐饮业，有开发经营活动的全部房地产开发经营业，<em>规模以上</em>服务业（含交通运输、仓储和邮政业，信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，以及物业管理、房地产中介服务等行业）共16个行业门类的约138.1万家企业法人单位。 2022年全国<em>规模以上</em>企业就业人员年平均工资为92492元，比上年名义增长5.0%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "<em>以上</em>五类岗位划分依据为人力资源和社会保障部《中华人民共和国职业分类大典（2015年版）》。 2、统计范围 <em>规模以上</em>企业，具体包括：<em>规模以上</em><em>工业</em>（含采矿业，制造业，电力、热力、燃气及水生产和供应业），有资质的建筑业，限额<em>以上</em>批发和零售业，限额<em>以上</em>住宿和餐饮业，有开发经营活动的全部房地产开发经营业，<em>规模以上</em>服务业（含交通运输、仓储和邮政业，信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，以及物业管理、房地产中介服务等行业）共16个行业门类的约138.1万家企业法人单位。 2022年全国<em>规模以上</em>企业就业人员年平均工资为92492元，比上年名义增长5.0%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1683615600000,
+        "docDate": "2023-05-09",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_42.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "F7545BA3B3AE1A1AEA8523023965CDAC",
+        "md5Url": "2D8B58E23F547E705A01AFBA382E974F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "<em>以上</em>五类岗位划分依据为人力资源和社会保障部《中华人民共和国职业分类大典（2015年版）》。 2、统计范围 <em>规模以上</em>企业，具体包括：<em>规模以上</em><em>工业</em>（含采矿业，制造业，电力、热力、燃气及水生产和供应业），有资质的建筑业，限额<em>以上</em>批发和零售业，限额<em>以上</em>住宿和餐饮业，有开发经营活动的全部房地产开发经营业，<em>规模以上</em>服务业（含交通运输、仓储和邮政业，信息传输、软件和信息技术服务业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，以及物业管理、房地产中介服务等行业）共16个行业门类的约138.1万家企业法人单位。 2022年全国<em>规模以上</em>企业就业人员年平均工资为92492元，比上年名义增长5.0%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202305/t20230509_1939287.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年规模以上企业就业人员年平均工资情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_42.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1683615600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "2D8B58E23F547E705A01AFBA382E974F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年规模以上企业就业人员年平均工资情况",
+          "MD5TITLE": "F7545BA3B3AE1A1AEA8523023965CDAC",
+          "QUICKDESCRIPTION": "　　2022年全国规模以上企业就业人员年平均工资为92492元，比上年名义增长5.0%。其中，中层及以上管理人员189076元，增长4.7%；专业技术人员133264元，增长6.6%；办事人员和有关人员85881元，增长4.1%；社会生产服务和生活服务人员70234元，增长3.3%；生产制造及有关人员71147元，增长3.9%。 　　按区域、行业门类、登记注册类型分组的规模以上企业就业人员年平均工资详见表1、表2、表3。 表1　2022年分区域分岗位就业人员年平均工资 单位：",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4976B9B7096CF93B37EF2F3C5EEEFAB2",
+      "timestamp": 1682734680000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4976B9B7096CF93B37EF2F3C5EEEFAB2",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2023年一季度全国规模以上文化及相关产业企业营业收入增长4.0%",
+        "title": "【数据发布】2023年一季度全国<em>规模以上</em>文化及相关产业企业营业收入增长4.0%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651539803&idx=1&sn=52e4eb8f9af870b728a3e50036e2fadf&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0% [1] 。 其中，文化新业态特征较为明显的16个行业小类 [2] 实现营业收入10961亿元，比上年同期增长11.1%，快于全部<em>规模以上</em>文化企业7.1个百分点。 分行业类别看，新闻信息服务营业收入3674亿元，比上年同期增长12.5%；内容创作生产6456亿元，增长5.8%；创意设计服务4499亿元，增长3.9%；文化传播渠道3746亿元，增长14.0%；文化投资运营126亿元，增长12.1%；文化娱乐休闲服务342亿元，增长48.5%；文化辅助生产和中介服务3519亿元，下降4.6%；文化装备生产1346亿元，下降7.9%；文化消费终端生产5108亿元，下降2.4%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1682734680000,
+        "docDate": "2023-04-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "B9C2DFD18455F33BA859067B8488EB66",
+        "md5Url": "46C54FEA51D82AA2BA628CD8E5345111",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0% [1] 。 其中，文化新业态特征较为明显的16个行业小类 [2] 实现营业收入10961亿元，比上年同期增长11.1%，快于全部<em>规模以上</em>文化企业7.1个百分点。 分行业类别看，新闻信息服务营业收入3674亿元，比上年同期增长12.5%；内容创作生产6456亿元，增长5.8%；创意设计服务4499亿元，增长3.9%；文化传播渠道3746亿元，增长14.0%；文化投资运营126亿元，增长12.1%；文化娱乐休闲服务342亿元，增长48.5%；文化辅助生产和中介服务3519亿元，下降4.6%；文化装备生产1346亿元，下降7.9%；文化消费终端生产5108亿元，下降2.4%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1682734680,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "46C54FEA51D82AA2BA628CD8E5345111",
+          "DRETITLE": "数据发布 2023年一季度全国规模以上文化及相关产业企业营业收入增长4 0",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651539803&idx=1&sn=52e4eb8f9af870b728a3e50036e2fadf&scene=0",
+          "MD5TITLE": "B9C2DFD18455F33BA859067B8488EB66",
+          "DRETITLEO": "【数据发布】2023年一季度全国规模以上文化及相关产业企业营业收入增长4.0%",
+          "QUICKDESCRIPTION": "据对全国7 1万家规模以上文化及相关产业企业 以下简称 文化企业 调查 2023年一季度 文化企业实现营业收入28816亿元 按可比口径计算 详见附注2 比上年同期增长4 0 1 其中 文化新业态特征较为明显的16个行业小类 2 实现营业收入10961亿元 比上年同期增长11 1 快于全部规模以上文化企业7 1个百分点 分行业类别看 新闻信息服务营业收入3674亿元 比上年同期增长12 5 内容创作生产6456亿元 增长5 8 创意设计服务4499亿元 增长3 9 文化传播渠道3746亿元 增长",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BA3F496BDB61FCB7B805E9577BB97A05",
+      "timestamp": 1682732128000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BA3F496BDB61FCB7B805E9577BB97A05",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【一季度文化产业平稳回升】——国家统计局社科文司高级统计师张鹏解读2023年一季度全国规模以上文化及相关产业企业数据 详见：O网页链接",
+        "title": "#权威解读# 【一季度文化产业平稳回升】——国家统计局社科文司高级统计师张鹏解读2023年一季度全国<em>规模以上</em>文化及相关产业企业数据 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/MEc5gpW2N?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【一季度文化产业平稳回升】——国家统计局社科文司高级统计师张鹏解读2023年一季度全国<em>规模以上</em>文化及相关产业企业数据 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1682732128000,
+        "docDate": "2023-04-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "1D91B12630FDC9002AF59FECE8373B8B",
+        "md5Url": "C6582D21AE838E6915D5080DEFA7A4B8",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【一季度文化产业平稳回升】——国家统计局社科文司高级统计师张鹏解读2023年一季度全国<em>规模以上</em>文化及相关产业企业数据 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1682732128,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C6582D21AE838E6915D5080DEFA7A4B8",
+          "DRETITLE": "权威解读 一季度文化产业平稳回升 国家统计局社科文司高级统计师张鹏解读2023年一季度全国规模以上文化及相关产业企业数据 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/MEc5gpW2N?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1D91B12630FDC9002AF59FECE8373B8B",
+          "DRETITLEO": "#权威解读# 【一季度文化产业平稳回升】——国家统计局社科文司高级统计师张鹏解读2023年一季度全国规模以上文化及相关产业企业数据 详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 一季度文化产业平稳回升 国家统计局社科文司高级统计师张鹏解读2023年一季度全国规模以上文化及相关产业企业数据 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5EDA239ECDDC90E4BFF716FF585EF141",
+      "timestamp": 1682732032000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5EDA239ECDDC90E4BFF716FF585EF141",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年一季度全国规模以上文化及相关产业企业营业收入增长4.0%】据对全国7.1万家规模以上文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。其中，文化新业态特征较为明显的16个行业 ...展开全文c",
+        "title": "#数据发布# 【2023年一季度全国<em>规模以上</em>文化及相关产业企业营业收入增长4.0%】据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。其中，文化新业态特征较为明显的16个行业 ...展开全文c",
+        "url": "https://weibo.com/3919628624/MEc4Ci6fJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2023年一季度全国<em>规模以上</em>文化及相关产业企业营业收入增长4.0%】据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。 数据发布 【2023年一季度全国<em>规模以上</em>文化及相关产业企业营业收入增长4.0%】据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1682732032000,
+        "docDate": "2023-04-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "D4BA698F977379140BA7853493D32209",
+        "md5Url": "1D836D07310E4BA414B6BBD534CC9065",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2023年一季度全国<em>规模以上</em>文化及相关产业企业营业收入增长4.0%】据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。 数据发布 【2023年一季度全国<em>规模以上</em>文化及相关产业企业营业收入增长4.0%】据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1682732032,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1D836D07310E4BA414B6BBD534CC9065",
+          "DRETITLE": "数据发布 2023年一季度全国规模以上文化及相关产业企业营业收入增长4 0 据对全国7 1万家规模以上文化及相关产业企业 以下简称 文化企业 调查 2023年一季度 文化企业实现营业收入28816亿元 按可比口径计算 详见附注2 比上年同期增长4 0 1 其中 文化新业态特征较为明显的16个行业 展开全文c",
+          "URL": "https://weibo.com/3919628624/MEc4Ci6fJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D4BA698F977379140BA7853493D32209",
+          "DRETITLEO": "#数据发布# 【2023年一季度全国规模以上文化及相关产业企业营业收入增长4.0%】据对全国7.1万家规模以上文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。其中，文化新业态特征较为明显的16个行业 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年一季度全国规模以上文化及相关产业企业营业收入增长4 0 据对全国7 1万家规模以上文化及相关产业企业 以下简称 文化企业 调查 2023年一季度 文化企业实现营业收入28816亿元 按可比口径计算 详见附注2 比上年同期增长4 0 1 其中 文化新业态特征较为明显的16个行业 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3282A12AB820C21069F41C0935E1C31E",
+      "timestamp": 1682731800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3282A12AB820C21069F41C0935E1C31E",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局社科文司高级统计师张鹏解读2023年一季度全国规模以上文化及相关产业企业数据",
+        "title": "国家统计局社科文司高级统计师张鹏解读2023年一季度全国<em>规模以上</em>文化及相关产业企业数据",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202304/t20230429_1939131.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": null,
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1682731800000,
+        "docDate": "2023-04-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_31.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "AD73A9EA83FA365B24FCCBF635140210",
+        "md5Url": "3282A12AB820C21069F41C0935E1C31E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": null,
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202304/t20230429_1939131.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局社科文司高级统计师张鹏解读2023年一季度全国规模以上文化及相关产业企业数据",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_31.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1682731800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "3282A12AB820C21069F41C0935E1C31E",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局社科文司高级统计师张鹏解读2023年一季度全国规模以上文化及相关产业企业数据",
+          "MD5TITLE": "AD73A9EA83FA365B24FCCBF635140210",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6D22E00132C72C94B0CCC6FA99AD658C",
+      "timestamp": 1682731800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6D22E00132C72C94B0CCC6FA99AD658C",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年一季度全国规模以上文化及相关产业企业营业收入增长4.0%",
+        "title": "2023年一季度全国<em>规模以上</em>文化及相关产业企业营业收入增长4.0%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230429_1939130.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。 其中，文化新业态特征较为明显的16个行业小类[2]实现营业收入10961亿元，比上年同期增长11.1%，快于全部<em>规模以上</em>文化企业7.1个百分点。 分行业类别看，新闻信息服务营业收入3674亿元，比上年同期增长12.5%；内容创作生产6456亿元，增长5.8%；创意设计服务4499亿元，增长3.9%；文化传播渠道3746亿元，增长14.0%；文化投资运营126亿元，增长12.1%；文化娱乐休闲服务342亿元，增长48.5%；文化辅助生产和中介服务3519亿元，下降4.6%；文化装备生产1346亿元，下降7.9%；文化消费终端生产5108亿元，下降2.4%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202304/W020230429335212511500.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。 其中，文化新业态特征较为明显的16个行业小类[2]实现营业收入10961亿元，比上年同期增长11.1%，快于全部<em>规模以上</em>文化企业7.1个百分点。 分行业类别看，新闻信息服务营业收入3674亿元，比上年同期增长12.5%；内容创作生产6456亿元，增长5.8%；创意设计服务4499亿元，增长3.9%；文化传播渠道3746亿元，增长14.0%；文化投资运营126亿元，增长12.1%；文化娱乐休闲服务342亿元，增长48.5%；文化辅助生产和中介服务3519亿元，下降4.6%；文化装备生产1346亿元，下降7.9%；文化消费终端生产5108亿元，下降2.4%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1682731800000,
+        "docDate": "2023-04-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_43.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "0762C0B5C98054E5B0629C74C5AE2F45",
+        "md5Url": "6D22E00132C72C94B0CCC6FA99AD658C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "据对全国7.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。 其中，文化新业态特征较为明显的16个行业小类[2]实现营业收入10961亿元，比上年同期增长11.1%，快于全部<em>规模以上</em>文化企业7.1个百分点。 分行业类别看，新闻信息服务营业收入3674亿元，比上年同期增长12.5%；内容创作生产6456亿元，增长5.8%；创意设计服务4499亿元，增长3.9%；文化传播渠道3746亿元，增长14.0%；文化投资运营126亿元，增长12.1%；文化娱乐休闲服务342亿元，增长48.5%；文化辅助生产和中介服务3519亿元，下降4.6%；文化装备生产1346亿元，下降7.9%；文化消费终端生产5108亿元，下降2.4%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202304/t20230429_1939130.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年一季度全国规模以上文化及相关产业企业营业收入增长4.0%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202304/W020230429335212511500.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_43.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1682731800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "6D22E00132C72C94B0CCC6FA99AD658C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年一季度全国规模以上文化及相关产业企业营业收入增长4 0",
+          "MD5TITLE": "0762C0B5C98054E5B0629C74C5AE2F45",
+          "QUICKDESCRIPTION": "　　据对全国7.1万家规模以上文化及相关产业企业（以下简称“文化企业”）调查，2023年一季度，文化企业实现营业收入28816亿元，按可比口径计算（详见附注2），比上年同期增长4.0%[1]。其中，文化新业态特征较为明显的16个行业小类[2]实现营业收入10961亿元，比上年同期增长11.1%，快于全部规模以上文化企业7.1个百分点。 　　分行业类别看，新闻信息服务营业收入3674亿元，比上年同期增长12.5%；内容创作生产6456亿元，增长5.8%；创意设计服务4499亿元，增长3.9%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 21,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 11,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 22,
+          "children": null,
+          "key": "工业"
+        },
+        {
+          "val": 22,
+          "children": null,
+          "key": "能源"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "农业"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 67,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

@@ -1,0 +1,2222 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 66,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "规模以上工业增加值",
+    "originQt": "规模以上工业增加值",
+    "showQt": "规模以上工业增加值",
+    "encodeQt": "%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E5%A2%9E%E5%8A%A0%E5%80%BC",
+    "qtPasser": "规模以上工业增加值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "规模": "NN"
+      },
+      {
+        "以上": "LC"
+      },
+      {
+        "工业": "NN"
+      },
+      {
+        "增加值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "规模以上": "LC"
+      },
+      {
+        "工业增加值": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "工业增加值",
+      "规模以上",
+      "规模",
+      "以上",
+      "增加值",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [
+      {
+        "forceStatus": 0,
+        "score": 6.630397,
+        "id": "f85592f7-8151-4c19-9760-0f97f7d7a6dc",
+        "name": "工业增加值及产量",
+        "showTitle": "工业增加值及产量",
+        "vectorTitleo": "",
+        "sort": 10,
+        "type": 0,
+        "subjectType": 0,
+        "subjectPicInfoList": [
+          {
+            "imgUrl": "https://file.so-gov.cn/cps/pro/bm36000002/sceneSubject/82a23bb2bf1947f5a9402d1c4477506f.png",
+            "title": "工业增加值及其增长速度",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240228_1947915.html"
+          }
+        ],
+        "staticHtml": "",
+        "rightDocList": [
+          {
+            "id": "6DCFE4F391E0FE0FF31459E2695F78D1",
+            "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1794187800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　2026年10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。工业生产者购进价格同比上涨7.9%，环比上涨1.1%。1—10月平均，工业生产者出厂价格比上年同期上涨2.7%，工业生产者购进价格上涨4.0%。       　　一、工业生产者价格同比变动情况   　　10月份，工业生产者出厂价格中，生产资料价格同比上涨7.4%，影响工业生产者出厂价格总水平上涨约5.77个百分点。其中，采掘工业价格上涨27.9%，原材料工业价格上涨11.6%，加工工业价格上涨3.5%。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "E85CA4688422DED5A953E2CA35D40574",
+            "md5Url": "6DCFE4F391E0FE0FF31459E2695F78D1",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "BAD2C669D676997941C58223F9DA1A3B",
+            "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1793064600000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　1—9月份，全国规模以上工业企业实现利润总额60337.4亿元，同比增长15.5%（按可比口径计算，详见附注二）。   　　1—9月份，规模以上工业企业中，国有控股企业实现利润总额19395.5亿元，同比增长13.1%；股份制企业实现利润总额46727.6亿元，增长20.8%；外商及港澳台投资企业实现利润总额13371.4亿元，增长0.5%；私营企业实现利润总额15091.3亿元，增长8.7%。   　　1—9月份，采矿业实现利润总额8813.7亿元，同比增长38.2%；",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "2E4AEF5FEF4A4BB9AC318DA5C8E3060A",
+            "md5Url": "BAD2C669D676997941C58223F9DA1A3B",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "DEEA95494F9A61E47D9E31B0187CAFA9",
+            "title": "国家统计局工业司首席统计师于卫宁解读2026年1—9月份工业企业利润数据",
+            "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261027_1965698.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1793064600000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "1—9月份规模以上工业企业利润较快增长 新动能引领作用明显   ——国家统计局工业司首席统计师于卫宁解读2026年1—9月份工业企业利润数据   　　1—9月份，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，加大宏观政策调节力度，因地制宜培育壮大新质生产力，工业生产稳中有进，规模以上工业企业利润实现较快增长，工业经济高质量发展稳步推进。1—9月份，全国规模以上工业企业利润同比增长15.5%，今年以来持续保持两位数增长。从三大门类看，采矿业利润增长38.",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "3A820766B8E56BCE59574DA94504A624",
+            "md5Url": "DEEA95494F9A61E47D9E31B0187CAFA9",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "E4CF0AEF372778F519D9CA24A9601DD3",
+            "title": "王新：工业经济稳中有升 高质量发展稳步推进",
+            "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965645.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1792461600000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　前三季度，面对复杂多变的国内外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业生产稳中有升，装备制造业占比持续提升，新质生产力培育壮大，企业利润两位数增长，工业企业出口高位加快，工业经济持续向新向优向好发展。   　　一、工业生产稳中向好，产业结构进一步优化   　　工业生产增长加快，多数行业实现增长。前三季度，全国规模以上工业增加值同比增长5.3%，保持较快增长态势。三季度，全国规模以上工业增加值增长5.1%，增速较二季度加快0.",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "3AA771A7DE79DFA1DBEECBD65276DCBB",
+            "md5Url": "E4CF0AEF372778F519D9CA24A9601DD3",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "81E558309CD669AACD921A0D536B1EA5",
+            "title": "2026年三季度全国规模以上工业产能利用率为73.1%",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965611.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1792375200000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　2026年三季度，全国规模以上工业产能利用率为73.1%，比二季度上升0.1个百分点，比上年同期下降1.5个百分点。     　　分三大门类看，2026年三季度，采矿业产能利用率为69.5%，制造业产能利用率为73.3%，电力、热力、燃气及水生产和供应业产能利用率为72.6%。   　　分主要行业看，2026年三季度，煤炭开采和洗选业产能利用率为64.8%，食品制造业为70.8%，纺织业为75.1%，化学原料和化学制品制造业为69.7%，非金属矿物制品业为61.2%，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "D08E637959F61F8B5B692B1617B2A11C",
+            "md5Url": "81E558309CD669AACD921A0D536B1EA5",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "968A01857D7F92FF22936F30DB2426EB",
+            "title": "2026年9月份规模以上工业增加值增长5.5%",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965617.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1792375200000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　9月份，规模以上工业增加值同比实际增长5.5%（增加值增速均为扣除价格因素的实际增长率），增速比上月加快0.3个百分点。从环比看，9月份，规模以上工业增加值比上月增长0.61%。1—9月份，规模以上工业增加值同比增长5.3%。     　　分三大门类看，9月份，采矿业增加值同比增长1.3%，制造业增长6.0%，电力、热力、燃气及水生产和供应业增长5.6%。   　　分经济类型看，9月份，国有控股企业增加值同比增长3.6%；股份制企业增长6.0%，外商及港澳台投资企业增长3.7%；",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "43645E66852744AD54BE615B3B89C84A",
+            "md5Url": "968A01857D7F92FF22936F30DB2426EB",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          }
+        ],
+        "categoryEntityList": []
+      }
+    ],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E7089F44555012CDF23740834A61A584",
+      "timestamp": 1482822000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E7089F44555012CDF23740834A61A584",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》全国规模以上工业企业：前11月实现利润总额同比增9.4%",
+        "title": "《新闻直播间》全国<em>规模以上</em><em>工业</em>企业：前11月实现利润总额同比增9.4%",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1913942.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》全国<em>规模以上</em><em>工业</em>企业：前11月实现利润总额同比增9.4%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1482822000000,
+        "docDate": "2016-12-27",
+        "includeImg": true,
+        "picUrl": "img?reference=E7089F44555012CDF23740834A61A584&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_95.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "934D1AF91525BB30173F7B0CFC86599A",
+        "md5Url": "E7089F44555012CDF23740834A61A584",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》全国<em>规模以上</em><em>工业</em>企业：前11月实现利润总额同比增9.4%...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "中华人民共和国国家统计局",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1913942.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》全国规模以上工业企业：前11月实现利润总额同比增9.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_95.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1482822000,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E7089F44555012CDF23740834A61A584",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 全国规模以上工业企业 前11月实现利润总额同比增9 4",
+          "MD5TITLE": "934D1AF91525BB30173F7B0CFC86599A",
+          "QUICKDESCRIPTION": "《新闻直播间》全国规模以上工业企业：前11月实现利润总额同比增9.4%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F06D84299781E3D9F4EC11EA061A06DE",
+      "timestamp": 1482803479000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F06D84299781E3D9F4EC11EA061A06DE",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2016年1-11月份全国规模以上工业企业利润总额同比增长9.4%】1-11月份，全国规模以上工业企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。详情点击：O网页链接",
+        "title": "#数据发布#【2016年1-11月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长9.4%】1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。详情点击：O网页链接",
+        "url": "https://weibo.com/3919628624/Eo0VeETE2?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2016年1-11月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长9.4%】1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 数据发布 【2016年1-11月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长9.4%】1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1482803479000,
+        "docDate": "2016-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "A586A1A8ADE13C41EF711F795940CC51",
+        "md5Url": "CD3E8A0E5C61B9F394036A9C16AEDD7A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2016年1-11月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长9.4%】1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 数据发布 【2016年1-11月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长9.4%】1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1482803479,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "CD3E8A0E5C61B9F394036A9C16AEDD7A",
+          "DRETITLE": "数据发布 2016年1-11月份全国规模以上工业企业利润总额同比增长9 4 1-11月份 全国规模以上工业企业实现利润总额60334 1亿元 同比增长9 4 增",
+          "URL": "https://weibo.com/3919628624/Eo0VeETE2?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A586A1A8ADE13C41EF711F795940CC51",
+          "DRETITLEO": "#数据发布#【2016年1-11月份全国规模以上工业企业利润总额同比增长9.4%】1-11月份，全国规模以上工业企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。详情点击：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2016年1-11月份全国规模以上工业企业利润总额同比增长9 4 1-11月份 全国规模以上工业企业实现利润总额60334 1亿元 同比增长9 4 增速比1-10月份加快0 8个百分点 详情点击 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5D6DA3A97CC52C44BCAE9355E605BC03",
+      "timestamp": 1482802200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5D6DA3A97CC52C44BCAE9355E605BC03",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2016年1-11月份全国规模以上工业企业利润总额同比增长9.4%",
+        "title": "2016年1-11月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长9.4%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899375.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 1-11月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额10974.9亿元，同比增长8.2%；集体企业实现利润总额420.6亿元，下降3.7%；股份制企业实现利润总额41342.4亿元，增长9.9%；外商及港澳台商投资企业实现利润总额15073.6亿元，增长10.8%；私营企业实现利润总额21169亿元，增长5.9%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 1-11月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额10974.9亿元，同比增长8.2%；集体企业实现利润总额420.6亿元，下降3.7%；股份制企业实现利润总额41342.4亿元，增长9.9%；外商及港澳台商投资企业实现利润总额15073.6亿元，增长10.8%；私营企业实现利润总额21169亿元，增长5.9%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1482802200000,
+        "docDate": "2016-12-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/DD63E5E59B47A17B315262830E44CC2E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_7.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "0AD6D581A13E9BB7966430EA8D49CAD3",
+        "md5Url": "5D6DA3A97CC52C44BCAE9355E605BC03",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 1-11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 1-11月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额10974.9亿元，同比增长8.2%；集体企业实现利润总额420.6亿元，下降3.7%；股份制企业实现利润总额41342.4亿元，增长9.9%；外商及港澳台商投资企业实现利润总额15073.6亿元，增长10.8%；私营企业实现利润总额21169亿元，增长5.9%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899375.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2016年1-11月份全国规模以上工业企业利润总额同比增长9.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/DD63E5E59B47A17B315262830E44CC2E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_7.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1482802200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "5D6DA3A97CC52C44BCAE9355E605BC03",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2016年1-11月份全国规模以上工业企业利润总额同比增长9 4",
+          "MD5TITLE": "0AD6D581A13E9BB7966430EA8D49CAD3",
+          "QUICKDESCRIPTION": "　　1-11月份，全国规模以上工业企业实现利润总额60334.1亿元，同比增长9.4%，增速比1-10月份加快0.8个百分点。 　　1-11月份，规模以上工业企业中，国有控股企业实现利润总额10974.9亿元，同比增长8.2%；集体企业实现利润总额420.6亿元，下降3.7%；股份制企业实现利润总额41342.4亿元，增长9.9%；外商及港澳台商投资企业实现利润总额15073.6亿元，增长10.8%；私营企业实现利润总额21169亿元，增长5.9%。 　　1-11月份，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "97A347318B7A59816042B2000F894AA8",
+      "timestamp": 1481850842000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "97A347318B7A59816042B2000F894AA8",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【11月份原油产量降幅收窄 天然气产量由降转增】11月份，规模以上工业原油产量降幅较10月份收窄，天然气产量由降转增，原油和天然气进口量继续保持快速增长，原油加工量平稳增长，成品油出口快速增长。O网页链接",
+        "title": "#数据发布#【11月份原油产量降幅收窄 天然气产量由降转增】11月份，<em>规模以上</em><em>工业</em>原油产量降幅较10月份收窄，天然气产量由降转增，原油和天然气进口量继续保持快速增长，原油加工量平稳增长，成品油出口快速增长。O网页链接",
+        "url": "https://weibo.com/3919628624/EmkYEjUuQ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【11月份原油产量降幅收窄 天然气产量由降转增】11月份，<em>规模以上</em><em>工业</em>原油产量降幅较10月份收窄，天然气产量由降转增，原油和天然气进口量继续保持快速增长，原油加工量平稳增长，成品油出口快速增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1481850842000,
+        "docDate": "2016-12-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "B0F4304952C73A07032BAFEDC16E4ACE",
+        "md5Url": "6F225366805DD85C9C0389A5D3629471",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【11月份原油产量降幅收窄 天然气产量由降转增】11月份，<em>规模以上</em><em>工业</em>原油产量降幅较10月份收窄，天然气产量由降转增，原油和天然气进口量继续保持快速增长，原油加工量平稳增长，成品油出口快速增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1481850842,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "6F225366805DD85C9C0389A5D3629471",
+          "DRETITLE": "数据发布 11月份原油产量降幅收窄 天然气产量由降转增 11月份 规模以上工业原油产量降幅较10月份收窄 天然气产量由降转增 原油和天然气进口量继续保持快速增长",
+          "URL": "https://weibo.com/3919628624/EmkYEjUuQ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "B0F4304952C73A07032BAFEDC16E4ACE",
+          "DRETITLEO": "#数据发布#【11月份原油产量降幅收窄 天然气产量由降转增】11月份，规模以上工业原油产量降幅较10月份收窄，天然气产量由降转增，原油和天然气进口量继续保持快速增长，原油加工量平稳增长，成品油出口快速增长。O网页链接",
+          "QUICKDESCRIPTION": "数据发布 11月份原油产量降幅收窄 天然气产量由降转增 11月份 规模以上工业原油产量降幅较10月份收窄 天然气产量由降转增 原油和天然气进口量继续保持快速增长 原油加工量平稳增长 成品油出口快速增长 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "409247B686C8A2501C21EEE739A62E6D",
+      "timestamp": 1481850696000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "409247B686C8A2501C21EEE739A62E6D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【11月份工业用电增速略升 发电增速略缓】11月份，全社会用电量增速与上月持平，其中工业用电增速有所加快，第三产业和城乡居民用电增速有所回落。规模以上工业2发电量增速略缓，其中火电增速明显回落，水电增速由降转升，核能、风能和太阳",
+        "title": "#数据发布#【11月份<em>工业</em>用电增速略升 发电增速略缓】11月份，全社会用电量增速与上月持平，其中<em>工业</em>用电增速有所加快，第三产业和城乡居民用电增速有所回落。<em>规模以上</em><em>工业</em>2发电量增速略缓，其中火电增速明显回落，水电增速由降转升，核能、风能和太阳",
+        "url": "https://weibo.com/3919628624/EmkXEy6s4?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【11月份<em>工业</em>用电增速略升 发电增速略缓】11月份，全社会用电量增速与上月持平，其中<em>工业</em>用电增速有所加快，第三产业和城乡居民用电增速有所回落。<em>规模以上</em><em>工业</em>2发电量增速略缓，其中火电增速明显回落，水电增速由降转升，核能、风能和太阳能发电高速增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1481850696000,
+        "docDate": "2016-12-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "7ECF87C26FD7413BC8B0D5BC43E8E19C",
+        "md5Url": "D3CC37B0DE420771264BF8E421EE149D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【11月份<em>工业</em>用电增速略升 发电增速略缓】11月份，全社会用电量增速与上月持平，其中<em>工业</em>用电增速有所加快，第三产业和城乡居民用电增速有所回落。<em>规模以上</em><em>工业</em>2发电量增速略缓，其中火电增速明显回落，水电增速由降转升，核能、风能和太阳能发电高速增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1481850696,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D3CC37B0DE420771264BF8E421EE149D",
+          "DRETITLE": "数据发布 11月份工业用电增速略升 发电增速略缓 11月份 全社会用电量增速与上月持平 其中工业用电增速有所加快 第三产业和城乡居民用电增速有所回落 规模以上工",
+          "URL": "https://weibo.com/3919628624/EmkXEy6s4?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "7ECF87C26FD7413BC8B0D5BC43E8E19C",
+          "DRETITLEO": "#数据发布#【11月份工业用电增速略升 发电增速略缓】11月份，全社会用电量增速与上月持平，其中工业用电增速有所加快，第三产业和城乡居民用电增速有所回落。规模以上工业2发电量增速略缓，其中火电增速明显回落，水电增速由降转升，核能、风能和太阳",
+          "QUICKDESCRIPTION": "数据发布 11月份工业用电增速略升 发电增速略缓 11月份 全社会用电量增速与上月持平 其中工业用电增速有所加快 第三产业和城乡居民用电增速有所回落 规模以上工业2发电量增速略缓 其中火电增速明显回落 水电增速由降转升 核能 风能和太阳能发电高速增长 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1944600052265B29D3971B2C175CEA4B",
+      "timestamp": 1481594877000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1944600052265B29D3971B2C175CEA4B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2016年11月份规模以上工业增加值增长6.2%】2016年11月份，规模以上工业增加值同比实际增长6.2%，较10月份加快0.1个百分点。从环比看，11月份，规模以上工业增加值比上月增长0.51%。1-11月份，规模以上",
+        "title": "#发布会微直播#【2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2%】2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%，较10月份加快0.1个百分点。从环比看，11月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.51%。1-11月份，<em>规模以上</em>",
+        "url": "https://weibo.com/3919628624/ElT32mODL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2%】2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%，较10月份加快0.1个百分点。 发布会微直播 【2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2%】2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%，较10月份加快0.1个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1481594877000,
+        "docDate": "2016-12-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "E57523BA26DDC9A0EBE1AE264585012E",
+        "md5Url": "046E3FF4C830A687E4A777165761A372",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2%】2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%，较10月份加快0.1个百分点。 发布会微直播 【2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2%】2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%，较10月份加快0.1个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1481594877,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "046E3FF4C830A687E4A777165761A372",
+          "DRETITLE": "发布会微直播 2016年11月份规模以上工业增加值增长6 2 2016年11月份 规模以上工业增加值同比实际增长6 2 较10月份加快0 1个百分点 从环比看 ",
+          "URL": "https://weibo.com/3919628624/ElT32mODL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E57523BA26DDC9A0EBE1AE264585012E",
+          "DRETITLEO": "#发布会微直播#【2016年11月份规模以上工业增加值增长6.2%】2016年11月份，规模以上工业增加值同比实际增长6.2%，较10月份加快0.1个百分点。从环比看，11月份，规模以上工业增加值比上月增长0.51%。1-11月份，规模以上",
+          "QUICKDESCRIPTION": "发布会微直播 2016年11月份规模以上工业增加值增长6 2 2016年11月份 规模以上工业增加值同比实际增长6 2 较10月份加快0 1个百分点 从环比看 11月份 规模以上工业增加值比上月增长0 51 1-11月份 规模以上工业增加值同比增长6 0 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "93402D170536C46CA845B9D757EAA99C",
+      "timestamp": 1481594400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "93402D170536C46CA845B9D757EAA99C",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2016年11月份规模以上工业增加值增长6.2%",
+        "title": "2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899357.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2% 2016/12/13 10 00 Aa 字体： 小 中 大 2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），较10月份加快0.1个百分点。 2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2% 2016/12/13 10 00 Aa 字体： 小 中 大 2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），较10月份加快0.1个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2% 2016/12/13 10 00 Aa 字体： 小 中 大 2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），较10月份加快0.1个百分点。 2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2% 2016/12/13 10 00 Aa 字体： 小 中 大 2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），较10月份加快0.1个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1481594400000,
+        "docDate": "2016-12-13",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/DAC8132D48DF1EEB392D4EA11EC1016A.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_8.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "D5D97EB853F2DBA196A6F76007FF5310",
+        "md5Url": "93402D170536C46CA845B9D757EAA99C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2% 2016/12/13 10 00 Aa 字体： 小 中 大 2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），较10月份加快0.1个百分点。 2016年11月份<em>规模以上</em><em>工业增加值</em>增长6.2% 2016/12/13 10 00 Aa 字体： 小 中 大 2016年11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.2%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），较10月份加快0.1个百分点。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899357.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2016年11月份规模以上工业增加值增长6.2%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/DAC8132D48DF1EEB392D4EA11EC1016A.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_8.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1481594400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "93402D170536C46CA845B9D757EAA99C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2016年11月份规模以上工业增加值增长6 2",
+          "MD5TITLE": "D5D97EB853F2DBA196A6F76007FF5310",
+          "QUICKDESCRIPTION": "2016年11月份规模以上工业增加值增长6.2% 2016/12/13 10:00 | Aa 字体： 小 中 大 | 　　2016年11月份，规模以上工业增加值同比实际增长6.2%（下同，增加值增速均为扣除价格因素的实际增长率），较10月份加快0.1个百分点。从环比看，11月份，规模以上工业增加值比上月增长0.51%。1-11月份，规模以上工业增加值同比增长6.0%。 　　分三大门类看，11月份，采矿业增加值同比下降2.9%，制造业增长6.7%，电力、热力、燃气及水生产和供应业增长9.9%。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A4F9B2467ADB461FA54F5CCFEEB39B52",
+      "timestamp": 1480210725000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A4F9B2467ADB461FA54F5CCFEEB39B52",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2016年1-10月份全国规模以上工业企业利润总额同比增长8.6%】1-10月份，规模以上工业企业实现利润总额同比增长8.6%，增速比1-9月份加快0.2个百分点。在41个工业大类行业中，29个行业利润总额同比增加，12个减少",
+        "title": "#数据发布#【2016年1-10月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.6%】1-10月份，<em>规模以上</em><em>工业</em>企业实现利润总额同比增长8.6%，增速比1-9月份加快0.2个百分点。在41个<em>工业</em>大类行业中，29个行业利润总额同比增加，12个减少",
+        "url": "https://weibo.com/3919628624/Ejs1g00LJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2016年1-10月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.6%】1-10月份，<em>规模以上</em><em>工业</em>企业实现利润总额同比增长8.6%，增速比1-9月份加快0.2个百分点。 数据发布 【2016年1-10月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.6%】1-10月份，<em>规模以上</em><em>工业</em>企业实现利润总额同比增长8.6%，增速比1-9月份加快0.2个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1480210725000,
+        "docDate": "2016-11-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "FFF1CF6C437C3C23870E0248E9C41C8D",
+        "md5Url": "3DDFC1898D7B8DEF5305AF5C35A5C863",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2016年1-10月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.6%】1-10月份，<em>规模以上</em><em>工业</em>企业实现利润总额同比增长8.6%，增速比1-9月份加快0.2个百分点。 数据发布 【2016年1-10月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.6%】1-10月份，<em>规模以上</em><em>工业</em>企业实现利润总额同比增长8.6%，增速比1-9月份加快0.2个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1480210725,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3DDFC1898D7B8DEF5305AF5C35A5C863",
+          "DRETITLE": "数据发布 2016年1-10月份全国规模以上工业企业利润总额同比增长8 6 1-10月份 规模以上工业企业实现利润总额同比增长8 6 增速比1-9月份加快0 2",
+          "URL": "https://weibo.com/3919628624/Ejs1g00LJ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FFF1CF6C437C3C23870E0248E9C41C8D",
+          "DRETITLEO": "#数据发布#【2016年1-10月份全国规模以上工业企业利润总额同比增长8.6%】1-10月份，规模以上工业企业实现利润总额同比增长8.6%，增速比1-9月份加快0.2个百分点。在41个工业大类行业中，29个行业利润总额同比增加，12个减少",
+          "QUICKDESCRIPTION": "数据发布 2016年1-10月份全国规模以上工业企业利润总额同比增长8 6 1-10月份 规模以上工业企业实现利润总额同比增长8 6 增速比1-9月份加快0 2个百分点 在41个工业大类行业中 29个行业利润总额同比增加 12个减少 10月份规模以上工业企业实现利润总额同比增长9 8 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "78EFABC55D73C270FEEF6BE8509BCF76",
+      "timestamp": 1480210200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "78EFABC55D73C270FEEF6BE8509BCF76",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2016年1-10月份全国规模以上工业企业利润总额同比增长8.6%",
+        "title": "2016年1-10月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.6%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899344.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1-10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额52567.7亿元，同比增长8.6%，增速比1-9月份加快0.2个百分点。 1-10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额52567.7亿元，同比增长8.6%，增速比1-9月份加快0.2个百分点。 1-10月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额9577亿元，同比增长4.8%；集体企业实现利润总额375.7亿元，下降2.7%；股份制企业实现利润总额36010.7亿元，增长8.9%；外商及港澳台商投资企业实现利润总额13033.3亿元，增长9.6%；私营企业实现利润总额18545.5亿元，增长6.6%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1-10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额52567.7亿元，同比增长8.6%，增速比1-9月份加快0.2个百分点。 1-10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额52567.7亿元，同比增长8.6%，增速比1-9月份加快0.2个百分点。 1-10月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额9577亿元，同比增长4.8%；集体企业实现利润总额375.7亿元，下降2.7%；股份制企业实现利润总额36010.7亿元，增长8.9%；外商及港澳台商投资企业实现利润总额13033.3亿元，增长9.6%；私营企业实现利润总额18545.5亿元，增长6.6%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1480210200000,
+        "docDate": "2016-11-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/58BE703EF9758FEABABF365B3AAA57C0.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_9.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "D79260EA0E9BBB0DC97A965AA3E76726",
+        "md5Url": "78EFABC55D73C270FEEF6BE8509BCF76",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额52567.7亿元，同比增长8.6%，增速比1-9月份加快0.2个百分点。 1-10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额52567.7亿元，同比增长8.6%，增速比1-9月份加快0.2个百分点。 1-10月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额9577亿元，同比增长4.8%；集体企业实现利润总额375.7亿元，下降2.7%；股份制企业实现利润总额36010.7亿元，增长8.9%；外商及港澳台商投资企业实现利润总额13033.3亿元，增长9.6%；私营企业实现利润总额18545.5亿元，增长6.6%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899344.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2016年1-10月份全国规模以上工业企业利润总额同比增长8.6%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/58BE703EF9758FEABABF365B3AAA57C0.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_9.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1480210200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "78EFABC55D73C270FEEF6BE8509BCF76",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2016年1-10月份全国规模以上工业企业利润总额同比增长8 6",
+          "MD5TITLE": "D79260EA0E9BBB0DC97A965AA3E76726",
+          "QUICKDESCRIPTION": "　　1-10月份，全国规模以上工业企业实现利润总额52567.7亿元，同比增长8.6%，增速比1-9月份加快0.2个百分点。 　　1-10月份，规模以上工业企业中，国有控股企业实现利润总额9577亿元，同比增长4.8%；集体企业实现利润总额375.7亿元，下降2.7%；股份制企业实现利润总额36010.7亿元，增长8.9%；外商及港澳台商投资企业实现利润总额13033.3亿元，增长9.6%；私营企业实现利润总额18545.5亿元，增长6.6%。 　　1-10月份，采矿业实现利润总额1138亿元，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8CC9BF9A60A07BA2D84DFB157EE921C3",
+      "timestamp": 1479374519000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8CC9BF9A60A07BA2D84DFB157EE921C3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【10月份发电用电增速较快 生产结构继续优化】10月份，全社会用电量继续保持较快增长，其中工业用电增速显著加快，第三产业和城乡居民用电增速放缓。规模以上工业发电量增速加快，其中火电继续保持较快增长，水电降幅收窄，新能源发电快速增长，电力生产",
+        "title": "【10月份发电用电增速较快 生产结构继续优化】10月份，全社会用电量继续保持较快增长，其中<em>工业</em>用电增速显著加快，第三产业和城乡居民用电增速放缓。<em>规模以上</em><em>工业</em>发电量增速加快，其中火电继续保持较快增长，水电降幅收窄，新能源发电快速增长，电力生产",
+        "url": "https://weibo.com/3919628624/EhYMjdTyp?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "10月份发电用电增速较快 生产结构继续优化】10月份，全社会用电量继续保持较快增长，其中<em>工业</em>用电增速显著加快，第三产业和城乡居民用电增速放缓。<em>规模以上</em><em>工业</em>发电量增速加快，其中火电继续保持较快增长，水电降幅收窄，新能源发电快速增长，电力生产结构进一步优化。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1479374519000,
+        "docDate": "2016-11-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2DBB78DA15C5125BA0FB7EFB95E71A35",
+        "md5Url": "501BEE77E7A85FA8E75A9680B5302BEE",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "10月份发电用电增速较快 生产结构继续优化】10月份，全社会用电量继续保持较快增长，其中<em>工业</em>用电增速显著加快，第三产业和城乡居民用电增速放缓。<em>规模以上</em><em>工业</em>发电量增速加快，其中火电继续保持较快增长，水电降幅收窄，新能源发电快速增长，电力生产结构进一步优化。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1479374519,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "501BEE77E7A85FA8E75A9680B5302BEE",
+          "DRETITLE": "10月份发电用电增速较快 生产结构继续优化 10月份 全社会用电量继续保持较快增长 其中工业用电增速显著加快 第三产业和城乡居民用电增速放缓 规模以上工业发电量",
+          "URL": "https://weibo.com/3919628624/EhYMjdTyp?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2DBB78DA15C5125BA0FB7EFB95E71A35",
+          "DRETITLEO": "【10月份发电用电增速较快 生产结构继续优化】10月份，全社会用电量继续保持较快增长，其中工业用电增速显著加快，第三产业和城乡居民用电增速放缓。规模以上工业发电量增速加快，其中火电继续保持较快增长，水电降幅收窄，新能源发电快速增长，电力生产",
+          "QUICKDESCRIPTION": "10月份发电用电增速较快 生产结构继续优化 10月份 全社会用电量继续保持较快增长 其中工业用电增速显著加快 第三产业和城乡居民用电增速放缓 规模以上工业发电量增速加快 其中火电继续保持较快增长 水电降幅收窄 新能源发电快速增长 电力生产结构进一步优化 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6ED76CBE50F86F2660E4AC40F27B12A2",
+      "timestamp": 1479373560000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6ED76CBE50F86F2660E4AC40F27B12A2",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【10月份原油产量降幅较大 天然气产量有所下降】10月份，规模以上工业原油产量降幅较大，天然气产量有所下降，进口量继续保持快速增长，原油加工量增速加快，成品油出口快速增长。O网页链接",
+        "title": "【10月份原油产量降幅较大 天然气产量有所下降】10月份，<em>规模以上</em><em>工业</em>原油产量降幅较大，天然气产量有所下降，进口量继续保持快速增长，原油加工量增速加快，成品油出口快速增长。O网页链接",
+        "url": "https://weibo.com/3919628624/EhYFP3X3k?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "10月份原油产量降幅较大 天然气产量有所下降】10月份，<em>规模以上</em><em>工业</em>原油产量降幅较大，天然气产量有所下降，进口量继续保持快速增长，原油加工量增速加快，成品油出口快速增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1479373560000,
+        "docDate": "2016-11-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "FC56E049EB530D7976A913AED927AAC0",
+        "md5Url": "606A4EEEF1C9CAAEEF0ADF0B6361F4DB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "10月份原油产量降幅较大 天然气产量有所下降】10月份，<em>规模以上</em><em>工业</em>原油产量降幅较大，天然气产量有所下降，进口量继续保持快速增长，原油加工量增速加快，成品油出口快速增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1479373560,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "606A4EEEF1C9CAAEEF0ADF0B6361F4DB",
+          "DRETITLE": "10月份原油产量降幅较大 天然气产量有所下降 10月份 规模以上工业原油产量降幅较大 天然气产量有所下降 进口量继续保持快速增长 原油加工量增速加快 成品油出口",
+          "URL": "https://weibo.com/3919628624/EhYFP3X3k?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FC56E049EB530D7976A913AED927AAC0",
+          "DRETITLEO": "【10月份原油产量降幅较大 天然气产量有所下降】10月份，规模以上工业原油产量降幅较大，天然气产量有所下降，进口量继续保持快速增长，原油加工量增速加快，成品油出口快速增长。O网页链接",
+          "QUICKDESCRIPTION": "10月份原油产量降幅较大 天然气产量有所下降 10月份 规模以上工业原油产量降幅较大 天然气产量有所下降 进口量继续保持快速增长 原油加工量增速加快 成品油出口快速增长 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B327CD9F96078C0B2D3406CAB2FF310B",
+      "timestamp": 1479109727000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B327CD9F96078C0B2D3406CAB2FF310B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#专家解读#【10月份工业生产平稳增长】国家统计局工业司高级统计师江源解读10月份工业生产数据：10月份，全国规模以上工业增加值同比实际增长6.1%，增速与9月份持平。10月份工业生产总体平稳，但行业间增长分化明显。O网页链接",
+        "title": "#专家解读#【10月份<em>工业</em>生产平稳增长】国家统计局<em>工业</em>司高级统计师江源解读10月份<em>工业</em>生产数据：10月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%，增速与9月份持平。10月份<em>工业</em>生产总体平稳，但行业间增长分化明显。O网页链接",
+        "url": "https://weibo.com/3919628624/EhvSZm9Jm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "专家解读 【10月份<em>工业</em>生产平稳增长】国家统计局<em>工业</em>司高级统计师江源解读10月份<em>工业</em>生产数据：10月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%，增速与9月份持平。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1479109727000,
+        "docDate": "2016-11-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "7B84A475F5ADB2B34F40AD0CC9755B32",
+        "md5Url": "1AAB11F6C37A96CE330AE81E8E4279C6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "专家解读 【10月份<em>工业</em>生产平稳增长】国家统计局<em>工业</em>司高级统计师江源解读10月份<em>工业</em>生产数据：10月份，全国<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%，增速与9月份持平。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1479109727,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1AAB11F6C37A96CE330AE81E8E4279C6",
+          "DRETITLE": "专家解读 10月份工业生产平稳增长 国家统计局工业司高级统计师江源解读10月份工业生产数据 10月份 全国规模以上工业增加值同比实际增长6 1 增速与9月份持平",
+          "URL": "https://weibo.com/3919628624/EhvSZm9Jm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "7B84A475F5ADB2B34F40AD0CC9755B32",
+          "DRETITLEO": "#专家解读#【10月份工业生产平稳增长】国家统计局工业司高级统计师江源解读10月份工业生产数据：10月份，全国规模以上工业增加值同比实际增长6.1%，增速与9月份持平。10月份工业生产总体平稳，但行业间增长分化明显。O网页链接",
+          "QUICKDESCRIPTION": "专家解读 10月份工业生产平稳增长 国家统计局工业司高级统计师江源解读10月份工业生产数据 10月份 全国规模以上工业增加值同比实际增长6 1 增速与9月份持平 10月份工业生产总体平稳 但行业间增长分化明显 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4459093CB11C467ED5365F50F14FD838",
+      "timestamp": 1479089434000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4459093CB11C467ED5365F50F14FD838",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【2016年10月份规模以上工业增加值增长6.1%】2016年10月份，规模以上工业增加值同比实际增长6.1%，与9月份持平。从环比看，10月份，规模以上工业增加值比上月增长0.50%。1-10月份，规模以上工业增加值同比增",
+        "title": "#发布会微直播#【2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1%】2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%，与9月份持平。从环比看，10月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.50%。1-10月份，<em>规模以上</em><em>工业增加值</em>同比增",
+        "url": "https://weibo.com/3919628624/EhtFHo8uK?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1%】2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%，与9月份持平。 发布会微直播 【2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1%】2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%，与9月份持平。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1479089434000,
+        "docDate": "2016-11-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "7B69BEB40ABA749A9B289801F0FCAFAC",
+        "md5Url": "AC9A558F7008E926EEFA248D5E9C480F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1%】2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%，与9月份持平。 发布会微直播 【2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1%】2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%，与9月份持平。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1479089434,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "AC9A558F7008E926EEFA248D5E9C480F",
+          "DRETITLE": "发布会微直播 2016年10月份规模以上工业增加值增长6 1 2016年10月份 规模以上工业增加值同比实际增长6 1 与9月份持平 从环比看 10月份 规模以",
+          "URL": "https://weibo.com/3919628624/EhtFHo8uK?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "7B69BEB40ABA749A9B289801F0FCAFAC",
+          "DRETITLEO": "#发布会微直播#【2016年10月份规模以上工业增加值增长6.1%】2016年10月份，规模以上工业增加值同比实际增长6.1%，与9月份持平。从环比看，10月份，规模以上工业增加值比上月增长0.50%。1-10月份，规模以上工业增加值同比增",
+          "QUICKDESCRIPTION": "发布会微直播 2016年10月份规模以上工业增加值增长6 1 2016年10月份 规模以上工业增加值同比实际增长6 1 与9月份持平 从环比看 10月份 规模以上工业增加值比上月增长0 50 1-10月份 规模以上工业增加值同比增长6 0 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "59905C4669AF771F6DF24B9C490D3EFF",
+      "timestamp": 1479088800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "59905C4669AF771F6DF24B9C490D3EFF",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2016年10月份规模以上工业增加值增长6.1%",
+        "title": "2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899328.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1% 2016/11/14 10 00 Aa 字体： 小 中 大 2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），与9月份持平。 2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1% 2016/11/14 10 00 Aa 字体： 小 中 大 2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），与9月份持平。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1% 2016/11/14 10 00 Aa 字体： 小 中 大 2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），与9月份持平。 2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1% 2016/11/14 10 00 Aa 字体： 小 中 大 2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），与9月份持平。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1479088800000,
+        "docDate": "2016-11-14",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/ACF684A5DA65C98AFAB9009149511E46.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_9.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "39FD269BCD767A4A446A1935BFF28B43",
+        "md5Url": "59905C4669AF771F6DF24B9C490D3EFF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1% 2016/11/14 10 00 Aa 字体： 小 中 大 2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），与9月份持平。 2016年10月份<em>规模以上</em><em>工业增加值</em>增长6.1% 2016/11/14 10 00 Aa 字体： 小 中 大 2016年10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长6.1%（下同，<em>增加值</em>增速均为扣除价格因素的实际增长率），与9月份持平。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899328.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2016年10月份规模以上工业增加值增长6.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/ACF684A5DA65C98AFAB9009149511E46.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_9.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1479088800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "59905C4669AF771F6DF24B9C490D3EFF",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2016年10月份规模以上工业增加值增长6 1",
+          "MD5TITLE": "39FD269BCD767A4A446A1935BFF28B43",
+          "QUICKDESCRIPTION": "2016年10月份规模以上工业增加值增长6.1% 2016/11/14 10:00 | Aa 字体： 小 中 大 | 　　2016年10月份，规模以上工业增加值同比实际增长6.1%（下同，增加值增速均为扣除价格因素的实际增长率），与9月份持平。从环比看，10月份，规模以上工业增加值比上月增长0.50%。1-10月份，规模以上工业增加值同比增长6.0%。 　　分三大门类看，10月份，采矿业增加值同比下降2.2%，制造业增长6.7%，电力、热力、燃气及水生产和供应业增长7.9%。 　　分经济类型看，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C34046FF4871AB5F9D7ADFE41446DA08",
+      "timestamp": 1477878095000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C34046FF4871AB5F9D7ADFE41446DA08",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#最新发布#【2016年前三季度全国规模以上文化及相关产业企业营业收入增长7.0%】据对全国规模以上文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0%(名义增长未扣除价格因素)，",
+        "title": "#最新发布#【2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0%】据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0%(名义增长未扣除价格因素)，",
+        "url": "https://weibo.com/3919628624/EfluZqJPa?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "最新发布 【2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0%】据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，保持较快增长。 最新发布 【2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0%】据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，保持较快增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1477878095000,
+        "docDate": "2016-10-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2DF0F0AF8C006420898118B3039B33F9",
+        "md5Url": "F22B23438D3FB423F2CF0C9280D8027B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "最新发布 【2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0%】据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，保持较快增长。 最新发布 【2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0%】据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，保持较快增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1477878095,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F22B23438D3FB423F2CF0C9280D8027B",
+          "DRETITLE": "最新发布 2016年前三季度全国规模以上文化及相关产业企业营业收入增长7 0 据对全国规模以上文化及相关产业4 9万家企业调查 2016年前三季度 上述企业实现",
+          "URL": "https://weibo.com/3919628624/EfluZqJPa?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2DF0F0AF8C006420898118B3039B33F9",
+          "DRETITLEO": "#最新发布#【2016年前三季度全国规模以上文化及相关产业企业营业收入增长7.0%】据对全国规模以上文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0%(名义增长未扣除价格因素)，",
+          "QUICKDESCRIPTION": "最新发布 2016年前三季度全国规模以上文化及相关产业企业营业收入增长7 0 据对全国规模以上文化及相关产业4 9万家企业调查 2016年前三季度 上述企业实现营业收入55881亿元 比上年同期增长7 0 名义增长未扣除价格因素 保持较快增长 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E409F60CEE1D65C2A306D1C160636DA3",
+      "timestamp": 1477877400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E409F60CEE1D65C2A306D1C160636DA3",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2016年前三季度全国规模以上文化及相关产业企业营业收入增长7.0%",
+        "title": "2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899312.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0% 2016/10/31 09 30 Aa 字体： 小 中 大 据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，增速尽管比上半年回落0.9个百分点，依然保持较快增长。 2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0% 2016/10/31 09 30 Aa 字体： 小 中 大 据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，增速尽管比上半年回落0.9个百分点，依然保持较快增长。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0% 2016/10/31 09 30 Aa 字体： 小 中 大 据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，增速尽管比上半年回落0.9个百分点，依然保持较快增长。 2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0% 2016/10/31 09 30 Aa 字体： 小 中 大 据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，增速尽管比上半年回落0.9个百分点，依然保持较快增长。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1477877400000,
+        "docDate": "2016-10-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_10.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "1FC8437477E2408B8DA9B76E697066FB",
+        "md5Url": "E409F60CEE1D65C2A306D1C160636DA3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0% 2016/10/31 09 30 Aa 字体： 小 中 大 据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，增速尽管比上半年回落0.9个百分点，依然保持较快增长。 2016年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.0% 2016/10/31 09 30 Aa 字体： 小 中 大 据对全国<em>规模以上</em>文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0% 名义增长未扣除价格因素 ，增速尽管比上半年回落0.9个百分点，依然保持较快增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899312.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2016年前三季度全国规模以上文化及相关产业企业营业收入增长7.0%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_10.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1477877400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E409F60CEE1D65C2A306D1C160636DA3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2016年前三季度全国规模以上文化及相关产业企业营业收入增长7 0",
+          "MD5TITLE": "1FC8437477E2408B8DA9B76E697066FB",
+          "QUICKDESCRIPTION": "2016年前三季度全国规模以上文化及相关产业企业营业收入增长7.0% 2016/10/31 09:30 | Aa 字体： 小 中 大 | 　　据对全国规模以上文化及相关产业4.9万家企业调查，2016年前三季度，上述企业实现营业收入55881亿元，比上年同期增长7.0%(名义增长未扣除价格因素)，增速尽管比上半年回落0.9个百分点，依然保持较快增长。 　　文化及相关产业10个行业的营业收入均实现增长，文化服务业快速增长。其中，实现两位数以上增长的4个行业分别是：以“互联网+”",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "770C6BEE19C9F498DD946FF1C26F8277",
+      "timestamp": 1477555200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "770C6BEE19C9F498DD946FF1C26F8277",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局：1-9月规模以上工业企业利润同比增长8.4%",
+        "title": "《新闻直播间》国家统计局：1-9月<em>规模以上</em><em>工业</em>企业利润同比增长8.4%",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1913928.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局：1-9月<em>规模以上</em><em>工业</em>企业利润同比增长8.4%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1477555200000,
+        "docDate": "2016-10-27",
+        "includeImg": true,
+        "picUrl": "img?reference=770C6BEE19C9F498DD946FF1C26F8277&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_98.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "83B6D04A57AEDA929230A678B28B9941",
+        "md5Url": "770C6BEE19C9F498DD946FF1C26F8277",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局：1-9月<em>规模以上</em><em>工业</em>企业利润同比增长8.4%...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "中华人民共和国国家统计局",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1913928.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局：1-9月规模以上工业企业利润同比增长8.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_98.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1477555200,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "770C6BEE19C9F498DD946FF1C26F8277",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 1-9月规模以上工业企业利润同比增长8 4",
+          "MD5TITLE": "83B6D04A57AEDA929230A678B28B9941",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局：1-9月规模以上工业企业利润同比增长8.4%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A9ACCF7EADF93B08359C936E33CAD8AB",
+      "timestamp": 1477534352000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A9ACCF7EADF93B08359C936E33CAD8AB",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【工业利润回归平稳增势】1-9月份，规模以上工业企业利润同比增长8.4%，增速与1-8月份基本持平。国家统计局工业司何平博士解读称，企业效益延续好转态势；供给侧结构性改革成效显现；生产销售放缓，基数效应减弱，致利润增速回落；制约",
+        "title": "#权威解读#【<em>工业</em>利润回归平稳增势】1-9月份，<em>规模以上</em><em>工业</em>企业利润同比增长8.4%，增速与1-8月份基本持平。国家统计局<em>工业</em>司何平博士解读称，企业效益延续好转态势；供给侧结构性改革成效显现；生产销售放缓，基数效应减弱，致利润增速回落；制约",
+        "url": "https://weibo.com/3919628624/EeJZyCIYD?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【<em>工业</em>利润回归平稳增势】1-9月份，<em>规模以上</em><em>工业</em>企业利润同比增长8.4%，增速与1-8月份基本持平。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1477534352000,
+        "docDate": "2016-10-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "C41D38BD624FDE1E37AB3E8D5913C57E",
+        "md5Url": "1E292A91851CACFA8F701AE539541AA9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【<em>工业</em>利润回归平稳增势】1-9月份，<em>规模以上</em><em>工业</em>企业利润同比增长8.4%，增速与1-8月份基本持平。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1477534352,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1E292A91851CACFA8F701AE539541AA9",
+          "DRETITLE": "权威解读 工业利润回归平稳增势 1-9月份 规模以上工业企业利润同比增长8 4 增速与1-8月份基本持平 国家统计局工业司何平博士解读称 企业效益延续好转态势 ",
+          "URL": "https://weibo.com/3919628624/EeJZyCIYD?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "C41D38BD624FDE1E37AB3E8D5913C57E",
+          "DRETITLEO": "#权威解读#【工业利润回归平稳增势】1-9月份，规模以上工业企业利润同比增长8.4%，增速与1-8月份基本持平。国家统计局工业司何平博士解读称，企业效益延续好转态势；供给侧结构性改革成效显现；生产销售放缓，基数效应减弱，致利润增速回落；制约",
+          "QUICKDESCRIPTION": "权威解读 工业利润回归平稳增势 1-9月份 规模以上工业企业利润同比增长8 4 增速与1-8月份基本持平 国家统计局工业司何平博士解读称 企业效益延续好转态势 供给侧结构性改革成效显现 生产销售放缓 基数效应减弱 致利润增速回落 制约效益好转的不利因素依然存在 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F1E04C0C521B09D274A4D29C58373949",
+      "timestamp": 1477532859000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F1E04C0C521B09D274A4D29C58373949",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2016年1-9月份全国规模以上工业企业利润总额同比增长8.4%】1-9月份，全国规模以上工业企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。详情点击 O网页链接",
+        "title": "#数据发布#【2016年1-9月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.4%】1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。详情点击 O网页链接",
+        "url": "https://weibo.com/3919628624/EeJPsudiT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2016年1-9月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.4%】1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 数据发布 【2016年1-9月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.4%】1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1477532859000,
+        "docDate": "2016-10-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "65F12C8659058522073D07B8C2AE2F49",
+        "md5Url": "2B8994E0B3D7F52EA0D96D6DD0A60D0D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2016年1-9月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.4%】1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 数据发布 【2016年1-9月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.4%】1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1477532859,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2B8994E0B3D7F52EA0D96D6DD0A60D0D",
+          "DRETITLE": "数据发布 2016年1-9月份全国规模以上工业企业利润总额同比增长8 4 1-9月份 全国规模以上工业企业实现利润总额46380 6亿元 同比增长8 4 增速与",
+          "URL": "https://weibo.com/3919628624/EeJPsudiT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "65F12C8659058522073D07B8C2AE2F49",
+          "DRETITLEO": "#数据发布#【2016年1-9月份全国规模以上工业企业利润总额同比增长8.4%】1-9月份，全国规模以上工业企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。详情点击 O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2016年1-9月份全国规模以上工业企业利润总额同比增长8 4 1-9月份 全国规模以上工业企业实现利润总额46380 6亿元 同比增长8 4 增速与1-8月份持平 详情点击 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "ADEEA9104D38D391625EAE8DA16E0290",
+      "timestamp": 1477531800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "ADEEA9104D38D391625EAE8DA16E0290",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2016年1-9月份全国规模以上工业企业利润总额同比增长8.4%",
+        "title": "2016年1-9月份全国<em>规模以上</em><em>工业</em>企业利润总额同比增长8.4%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899310.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 1-9月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额8616.4亿元，同比增长2.6%；集体企业实现利润总额327.4亿元，下降2.6%；股份制企业实现利润总额31655.5亿元，增长8.6%；外商及港澳台商投资企业实现利润总额11594.9亿元，增长10.2%；私营企业实现利润总额16232亿元，增长7%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 1-9月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额8616.4亿元，同比增长2.6%；集体企业实现利润总额327.4亿元，下降2.6%；股份制企业实现利润总额31655.5亿元，增长8.6%；外商及港澳台商投资企业实现利润总额11594.9亿元，增长10.2%；私营企业实现利润总额16232亿元，增长7%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1477531800000,
+        "docDate": "2016-10-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/C03810950DF52C410D54907FC7500EAD.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_2000_11.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "C1AD8C811383AA07B9EFA9B2962F532B",
+        "md5Url": "ADEEA9104D38D391625EAE8DA16E0290",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 1-9月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 1-9月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额8616.4亿元，同比增长2.6%；集体企业实现利润总额327.4亿元，下降2.6%；股份制企业实现利润总额31655.5亿元，增长8.6%；外商及港澳台商投资企业实现利润总额11594.9亿元，增长10.2%；私营企业实现利润总额16232亿元，增长7%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899310.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2016年1-9月份全国规模以上工业企业利润总额同比增长8.4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/C03810950DF52C410D54907FC7500EAD.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_2000_11.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1477531800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "ADEEA9104D38D391625EAE8DA16E0290",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2016年1-9月份全国规模以上工业企业利润总额同比增长8 4",
+          "MD5TITLE": "C1AD8C811383AA07B9EFA9B2962F532B",
+          "QUICKDESCRIPTION": "　　1-9月份，全国规模以上工业企业实现利润总额46380.6亿元，同比增长8.4%，增速与1-8月份持平。 　　1-9月份，规模以上工业企业中，国有控股企业实现利润总额8616.4亿元，同比增长2.6%；集体企业实现利润总额327.4亿元，下降2.6%；股份制企业实现利润总额31655.5亿元，增长8.6%；外商及港澳台商投资企业实现利润总额11594.9亿元，增长10.2%；私营企业实现利润总额16232亿元，增长7%。 　　1-9月份，采矿业实现利润总额761.4亿元，同比下降62.1%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 3,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 12,
+          "children": null,
+          "key": "工业"
+        },
+        {
+          "val": 6,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 26,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

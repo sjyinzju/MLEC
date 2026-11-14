@@ -1,0 +1,2271 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 74,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [],
+    "sceneRelatedInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 10.998716,
+        "id": "17c7bac6-aa0a-43d8-916a-8c910a526039",
+        "name": "GDP",
+        "siteCode": "bm36000002",
+        "relatedWords": [
+          "GDP",
+          "CPI",
+          "国内生产总值",
+          "PMI",
+          "平均工资",
+          "居民消费价格指数",
+          "地区生产总值"
+        ],
+        "customTitle": "",
+        "customContent": "",
+        "rank": 10
+      }
+    ],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 7.0317554,
+        "id": "e582caf3-819f-4710-a3f3-6b59a4ae750e",
+        "name": "国民经济核算",
+        "siteCode": "bm36000002",
+        "templateType": "统计局",
+        "data": {
+          "arrList": [
+            {
+              "tab": "国内生产总值",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div>"
+            },
+            {
+              "tab": "指标解释",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div>"
+            },
+            {
+              "tab": "指标QA",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div>"
+            }
+          ]
+        },
+        "template": "<div class=\"personalization-list-div\">\n    <div class=\"personalization-list-choose\">\n                    <div class=\"item-personalization-choose on \">国内生产总值 </div>\n            <div class=\"item-personalization-choose  \">指标解释 </div>\n            <div class=\"item-personalization-choose  \">指标QA </div>\n    </div>\n    <div class=\"personalization-list-content\">\n            <div class=\"item-personalization-content on\"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div></div>\n    </div>\n</div>\n\n\n<script>\n    $('.item-personalization-choose').click(function () {\n        $(this).addClass('on').siblings().removeClass('on');\n        console.log($(this).index())\n        var index = $(this).index();\n        $('.item-personalization-content').eq(index).addClass('on').siblings().removeClass('on');\n    });\n\n</script>\n\n<style>\n    * {\n        margin: 0;\n        padding: 0;\n    }\n.trs_editor_view  a,.trs_editor_view  a span {\n    vertical-align: top;\n    color: #0077ff !important;\n    text-decoration: underline;\n}\n   .personalization-list-choose {\n        display: flex;\n        align-items: center;\n        margin-bottom: 20px;\n        overflow-x: auto;\n    }\n\n    .personalization-list-choose .item-personalization-choose {\n    margin-bottom: 7px;\n      color: #333333;\n      background: #efefef;\n      border: 1px solid #efefef;\n      white-space: nowrap;\n      padding: 10px;\n      border-radius: 5px;\n      font-size: 16px;\n      font-family: Microsoft YaHei;\n      font-weight: 400;\n      line-height: 20px;\n      margin-right: 10px;\n      cursor: pointer;\n      flex-shrink: 0;\n    }\n\n    .personalization-list-choose .on {\n      color: #1685e6;\n      border: 1px solid #1685e6;\n      background: #fff;\n      white-space: nowrap;\n    }\n\n    .item-personalization-content {\n        display: none;\n    }\n\n    .personalization-list-content .on {\n        display: block;\n    }\n\n.personalization-list-content{\n    line-height: 34px;\nmin-height:200px;\nmax-height:500px;\n    overflow-y: auto;\nmargin-bottom: 20px;\n}\n#q2 {\n    color: #3285e4;\n  \n    font-weight: bold;\n}\n</style>",
+        "css": "",
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1A13D2C1EE8C24A8E4EA4D9A18634105",
+      "timestamp": 1545968460000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1A13D2C1EE8C24A8E4EA4D9A18634105",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【国际数据】美国第三季度GDP环比折年率增幅下修至3.4%等",
+        "title": "【国际数据】美国第三季度GDP环比折年率增幅下修至3.4%等",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651315666&idx=2&sn=3237d56cae4e2c8494b0f5ef61646d3b&chksm=bd1121df8a66a8c9a55852ae4b5d8d09fb30452fd8757d5358a71414d2d46f2a462332e59b61&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1美国第三季度GDP环比折年率增幅下修至3.4% 美国商务部经济分析局12月21日发布的数据显示，经季节调整，美国第三季度<em>国内生产总值</em> GDP 环比折年率增幅从3.5%下修为3.4%，预期增长3.5%，第二季度增长4.2%。 1美国第三季度GDP环比折年率增幅下修至3.4% 美国商务部经济分析局12月21日发布的数据显示，经季节调整，美国第三季度<em>国内生产总值</em> GDP 环比折年率增幅从3.5%下修为3.4%，预期增长3.5%，第二季度增长4.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1545968460000,
+        "docDate": "2018-12-28",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "4D7767F3105F5CBDC69D5B2196EFCEF9",
+        "md5Url": "E1D8E53EBF7DB1357E8C94625E1E503E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1美国第三季度GDP环比折年率增幅下修至3.4% 美国商务部经济分析局12月21日发布的数据显示，经季节调整，美国第三季度<em>国内生产总值</em> GDP 环比折年率增幅从3.5%下修为3.4%，预期增长3.5%，第二季度增长4.2%。 1美国第三季度GDP环比折年率增幅下修至3.4% 美国商务部经济分析局12月21日发布的数据显示，经季节调整，美国第三季度<em>国内生产总值</em> GDP 环比折年率增幅从3.5%下修为3.4%，预期增长3.5%，第二季度增长4.2%。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1545968460,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "E1D8E53EBF7DB1357E8C94625E1E503E",
+          "DRETITLE": "国际数据 美国第三季度GDP环比折年率增幅下修至3 4 等",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651315666&idx=2&sn=3237d56cae4e2c8494b0f5ef61646d3b&chksm=bd1121df8a66a8c9a55852ae4b5d8d09fb30452fd8757d5358a71414d2d46f2a462332e59b61&scene=0",
+          "MD5TITLE": "4D7767F3105F5CBDC69D5B2196EFCEF9",
+          "DRETITLEO": "【国际数据】美国第三季度GDP环比折年率增幅下修至3.4%等",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "45D6795A5E9C35EEB1D768F415EC5BAF",
+      "timestamp": 1545959149000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "45D6795A5E9C35EEB1D768F415EC5BAF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递#【2018年12月28日】1、美国第三季度GDP环比折年率增幅下修至3.4%；2、美国第三季度经常账户赤字扩大至1248亿美元；3、欧元区12月份消费者信心指数降至-6.2；4、英国11月份CPI同比上涨2.3%；5、日本1",
+        "title": "#国际数据速递#【2018年12月28日】1、美国第三季度GDP环比折年率增幅下修至3.4%；2、美国第三季度经常账户赤字扩大至1248亿美元；3、欧元区12月份消费者信心指数降至-6.2；4、英国11月份CPI同比上涨2.3%；5、日本1",
+        "url": "https://weibo.com/3919628624/H9hENvLqg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【2018年12月28日】1、美国第三季度GDP环比折年率增幅下修至3.4%；2、美国第三季度经常账户赤字扩大至1248亿美元；3、欧元区12月份消费者信心指数降至-6.2；4、英国11月份CPI同比上涨2.3%；5、日本11月份货物贸易逆差扩大至7373亿日元；6、澳大利亚11月份失业率升至5.1%，详见大图 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1545959149000,
+        "docDate": "2018-12-28",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "292EF911ACC7DA3D9338D216901C11AC",
+        "md5Url": "0111C41C73B903FF66B4E14DDDE69165",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【2018年12月28日】1、美国第三季度GDP环比折年率增幅下修至3.4%；2、美国第三季度经常账户赤字扩大至1248亿美元；3、欧元区12月份消费者信心指数降至-6.2；4、英国11月份CPI同比上涨2.3%；5、日本11月份货物贸易逆差扩大至7373亿日元；6、澳大利亚11月份失业率升至5.1%，详见大图 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1545959149,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "0111C41C73B903FF66B4E14DDDE69165",
+          "DRETITLE": "国际数据速递 2018年12月28日 1 美国第三季度GDP环比折年率增幅下修至3 4 2 美国第三季度经常账户赤字扩大至1248亿美元 3 欧元区12月份消费",
+          "URL": "https://weibo.com/3919628624/H9hENvLqg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "292EF911ACC7DA3D9338D216901C11AC",
+          "DRETITLEO": "#国际数据速递#【2018年12月28日】1、美国第三季度GDP环比折年率增幅下修至3.4%；2、美国第三季度经常账户赤字扩大至1248亿美元；3、欧元区12月份消费者信心指数降至-6.2；4、英国11月份CPI同比上涨2.3%；5、日本1",
+          "QUICKDESCRIPTION": "国际数据速递 2018年12月28日 1 美国第三季度GDP环比折年率增幅下修至3 4 2 美国第三季度经常账户赤字扩大至1248亿美元 3 欧元区12月份消费者信心指数降至-6 2 4 英国11月份CPI同比上涨2 3 5 日本11月份货物贸易逆差扩大至7373亿日元 6 澳大利亚11月份失业率升至5 1 详见大图 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "820AF48F250C6FC83C4303A4D95D9B18",
+      "timestamp": 1543830829000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "820AF48F250C6FC83C4303A4D95D9B18",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 【2018年12月3日】美国第三季度GDP环比折年率增长3.5%等，详见O【国际数据】美国第三季度GDP环比折年率增长3...",
+        "title": "#国际数据速递# 【2018年12月3日】美国第三季度GDP环比折年率增长3.5%等，详见O【国际数据】美国第三季度GDP环比折年率增长3...",
+        "url": "https://weibo.com/3919628624/H5xqHdarm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【2018年12月3日】美国第三季度GDP环比折年率增长3.5%等，详见 O【国际数据】美国第三季度GDP环比折年率增长3... 国际数据速递 【2018年12月3日】美国第三季度GDP环比折年率增长3.5%等，详见 O【国际数据】美国第三季度GDP环比折年率增长3......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1543830829000,
+        "docDate": "2018-12-03",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "4C4C3A8E98E1D0D27985CD9C7AD309EB",
+        "md5Url": "15B2F39BFD368D0CDFA3401D5EACAC4A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【2018年12月3日】美国第三季度GDP环比折年率增长3.5%等，详见 O【国际数据】美国第三季度GDP环比折年率增长3... 国际数据速递 【2018年12月3日】美国第三季度GDP环比折年率增长3.5%等，详见 O【国际数据】美国第三季度GDP环比折年率增长3......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1543830829,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "15B2F39BFD368D0CDFA3401D5EACAC4A",
+          "DRETITLE": "国际数据速递 2018年12月3日 美国第三季度GDP环比折年率增长3 5 等 详见O 国际数据 美国第三季度GDP环比折年率增长3",
+          "URL": "https://weibo.com/3919628624/H5xqHdarm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4C4C3A8E98E1D0D27985CD9C7AD309EB",
+          "DRETITLEO": "#国际数据速递# 【2018年12月3日】美国第三季度GDP环比折年率增长3.5%等，详见O【国际数据】美国第三季度GDP环比折年率增长3...",
+          "QUICKDESCRIPTION": "国际数据速递 2018年12月3日 美国第三季度GDP环比折年率增长3 5 等 详见O 国际数据 美国第三季度GDP环比折年率增长3",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DF61392B788D2AAC49DA4A3BE56A9291",
+      "timestamp": 1543818600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DF61392B788D2AAC49DA4A3BE56A9291",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【国际数据】美国第三季度GDP环比折年率增长3.5%等",
+        "title": "【国际数据】美国第三季度GDP环比折年率增长3.5%等",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651315189&idx=2&sn=c690e6620c9908fd8acd8acce933d2e2&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "1美国第三季度GDP环比折年率增长3.5% 美国商务部经济分析局11月28日发布的修正数据显示，经季节调整，美国第三季度<em>国内生产总值</em> GDP 环比折年率增长3.5%，与初次发布数据相同，预期增长3.6%，第二季度增长4.2%。 1美国第三季度GDP环比折年率增长3.5% 美国商务部经济分析局11月28日发布的修正数据显示，经季节调整，美国第三季度<em>国内生产总值</em> GDP 环比折年率增长3.5%，与初次发布数据相同，预期增长3.6%，第二季度增长4.2%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1543818600000,
+        "docDate": "2018-12-03",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 2,
+        "md5Title": "A9DD17A6BB0647080C09F3AB509BF6D5",
+        "md5Url": "98E4D3D3D11B81E0BDA94459A1B7F2B6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1美国第三季度GDP环比折年率增长3.5% 美国商务部经济分析局11月28日发布的修正数据显示，经季节调整，美国第三季度<em>国内生产总值</em> GDP 环比折年率增长3.5%，与初次发布数据相同，预期增长3.6%，第二季度增长4.2%。 1美国第三季度GDP环比折年率增长3.5% 美国商务部经济分析局11月28日发布的修正数据显示，经季节调整，美国第三季度<em>国内生产总值</em> GDP 环比折年率增长3.5%，与初次发布数据相同，预期增长3.6%，第二季度增长4.2%。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1543818600,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "98E4D3D3D11B81E0BDA94459A1B7F2B6",
+          "DRETITLE": "国际数据 美国第三季度GDP环比折年率增长3 5 等",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651315189&idx=2&sn=c690e6620c9908fd8acd8acce933d2e2&scene=0",
+          "MD5TITLE": "A9DD17A6BB0647080C09F3AB509BF6D5",
+          "DRETITLEO": "【国际数据】美国第三季度GDP环比折年率增长3.5%等",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2472731CCCBF78860ABF8F38A36A9849",
+      "timestamp": 1543220017000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2472731CCCBF78860ABF8F38A36A9849",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#四经普#【明天有大事！邀你来关注】在中国，每一天518万部手机从生产线上亮相；每一天2万家企业诞生；每一天中国创造2266亿元GDP……我们国家每一天都会发生这么大的变化，那一年呢？五年呢？这个答案第四次全国经济普查将会告诉你！明天，第四",
+        "title": "#四经普#【明天有大事！邀你来关注】在中国，每一天518万部手机从<em>生产</em>线上亮相；每一天2万家企业诞生；每一天中国创造2266亿元GDP……我们国家每一天都会发生这么大的变化，那一年呢？五年呢？这个答案第四次全国经济普查将会告诉你！明天，第四",
+        "url": "https://weibo.com/3919628624/H4sMy2X8G?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "邀你来关注】在中国，每一天518万部手机从<em>生产</em>线上亮相；每一天2万家企业诞生；每一天中国创造2266亿元GDP 我们国家每一天都会发生这么大的变化，那一年呢 五年呢 这个答案第四次全国经济普查将会告诉你！ 邀你来关注】在中国，每一天518万部手机从<em>生产</em>线上亮相；每一天2万家企业诞生；每一天中国创造2266亿元GDP 我们国家每一天都会发生这么大的变化，那一年呢 五年呢 这个答案第四次全国经济普查将会告诉你！...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1543220017000,
+        "docDate": "2018-11-26",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "32B57A60194F627AA120F82EAD4E8317",
+        "md5Url": "484DC524A5E3169436CFD7AA0C26D591",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "邀你来关注】在中国，每一天518万部手机从<em>生产</em>线上亮相；每一天2万家企业诞生；每一天中国创造2266亿元GDP 我们国家每一天都会发生这么大的变化，那一年呢 五年呢 这个答案第四次全国经济普查将会告诉你！ 邀你来关注】在中国，每一天518万部手机从<em>生产</em>线上亮相；每一天2万家企业诞生；每一天中国创造2266亿元GDP 我们国家每一天都会发生这么大的变化，那一年呢 五年呢 这个答案第四次全国经济普查将会告诉你！...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1543220017,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "484DC524A5E3169436CFD7AA0C26D591",
+          "DRETITLE": "四经普 明天有大事 邀你来关注 在中国 每一天518万部手机从生产线上亮相 每一天2万家企业诞生 每一天中国创造2266亿元GDP 我们国家每一天都会发生这么大",
+          "URL": "https://weibo.com/3919628624/H4sMy2X8G?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "32B57A60194F627AA120F82EAD4E8317",
+          "DRETITLEO": "#四经普#【明天有大事！邀你来关注】在中国，每一天518万部手机从生产线上亮相；每一天2万家企业诞生；每一天中国创造2266亿元GDP……我们国家每一天都会发生这么大的变化，那一年呢？五年呢？这个答案第四次全国经济普查将会告诉你！明天，第四",
+          "QUICKDESCRIPTION": "四经普 明天有大事 邀你来关注 在中国 每一天518万部手机从生产线上亮相 每一天2万家企业诞生 每一天中国创造2266亿元GDP 我们国家每一天都会发生这么大的变化 那一年呢 五年呢 这个答案第四次全国经济普查将会告诉你 明天 第四次全国经济普查宣传月启动仪式即将举行 快来关注吧 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4E6475E6A1D973E774B68FB37EF88358",
+      "timestamp": 1542866280000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4E6475E6A1D973E774B68FB37EF88358",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2017年我国“三新”经济增加值相当于GDP的比重为15.7%",
+        "title": "【数据发布】2017年我国“三新”经济增加值相当于GDP的比重为15.7%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314958&idx=1&sn=57621bff6246b845c51b114768e4ecb6&chksm=bd1127038a66ae15bbb7d9e0482469a4caeaee1254ea49501c4174a4c26d18846919aef47df1&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "点 蓝字关注我们哦 根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。 按现价计算的增速为14.1%，比同期GDP现价增速高2.9个百分点。 分三次产业来看，第一产业“三新”经济增加值为5998亿元，相当于GDP的比重为0.7%；第二产业“三新”经济增加值为54253亿元，相当于GDP的比重为6.6%；第三产业“三新”经济增加值为69326亿元，相当于GDP的比重为8.4%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1542866280000,
+        "docDate": "2018-11-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "9FBC9BC73BE18A534326A4AA90F49E51",
+        "md5Url": "2C917DFE20FBD48F8008E45F6144614E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "点 蓝字关注我们哦 根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。 按现价计算的增速为14.1%，比同期GDP现价增速高2.9个百分点。 分三次产业来看，第一产业“三新”经济增加值为5998亿元，相当于GDP的比重为0.7%；第二产业“三新”经济增加值为54253亿元，相当于GDP的比重为6.6%；第三产业“三新”经济增加值为69326亿元，相当于GDP的比重为8.4%。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1542866280,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "2C917DFE20FBD48F8008E45F6144614E",
+          "DRETITLE": "数据发布 2017年我国 三新 经济增加值相当于GDP的比重为15 7",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314958&idx=1&sn=57621bff6246b845c51b114768e4ecb6&chksm=bd1127038a66ae15bbb7d9e0482469a4caeaee1254ea49501c4174a4c26d18846919aef47df1&scene=0",
+          "MD5TITLE": "9FBC9BC73BE18A534326A4AA90F49E51",
+          "DRETITLEO": "【数据发布】2017年我国“三新”经济增加值相当于GDP的比重为15.7%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7C3C30A10A81F90AE03EEF8732854CD0",
+      "timestamp": 1542851272000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7C3C30A10A81F90AE03EEF8732854CD0",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2017年我国“三新”经济增加值相当于GDP的比重为15.7%】根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于",
+        "title": "#数据发布# 【2017年我国“三新”经济增加值相当于GDP的比重为15.7%】根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于",
+        "url": "https://weibo.com/3919628624/H3OxZdX8v?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2017年我国“三新”经济增加值相当于GDP的比重为15.7%】根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。 数据发布 【2017年我国“三新”经济增加值相当于GDP的比重为15.7%】根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1542851272000,
+        "docDate": "2018-11-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "FBC2D65A3251D3148280355E66EB1ABD",
+        "md5Url": "FA9C73B13D97FCAB2D09188CCA610154",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2017年我国“三新”经济增加值相当于GDP的比重为15.7%】根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。 数据发布 【2017年我国“三新”经济增加值相当于GDP的比重为15.7%】根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1542851272,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "FA9C73B13D97FCAB2D09188CCA610154",
+          "DRETITLE": "数据发布 2017年我国 三新 经济增加值相当于GDP的比重为15 7 根据 新产业新业态新商业模式统计分类 2018 和 新产业新业态新商业模式增加值核算方法",
+          "URL": "https://weibo.com/3919628624/H3OxZdX8v?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FBC2D65A3251D3148280355E66EB1ABD",
+          "DRETITLEO": "#数据发布# 【2017年我国“三新”经济增加值相当于GDP的比重为15.7%】根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于",
+          "QUICKDESCRIPTION": "数据发布 2017年我国 三新 经济增加值相当于GDP的比重为15 7 根据 新产业新业态新商业模式统计分类 2018 和 新产业新业态新商业模式增加值核算方法 经核算 2017年全国 三新 经济增加值为129578亿元 相当于GDP的比重为15 7 比上年提高0 4个百分点 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B5D2E5D9128D5E333179E8C1449360B7",
+      "timestamp": 1542850200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B5D2E5D9128D5E333179E8C1449360B7",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2017年我国“三新”经济增加值相当于GDP的比重为15.7%",
+        "title": "2017年我国“三新”经济增加值相当于GDP的比重为15.7%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900153.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2017年我国“三新”经济增加值相当于GDP的比重为15.7% 2018/11/22 09 30 Aa 字体： 小 中 大 根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。 2017年我国“三新”经济增加值相当于GDP的比重为15.7% 2018/11/22 09 30 Aa 字体： 小 中 大 根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2017年我国“三新”经济增加值相当于GDP的比重为15.7% 2018/11/22 09 30 Aa 字体： 小 中 大 根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。 2017年我国“三新”经济增加值相当于GDP的比重为15.7% 2018/11/22 09 30 Aa 字体： 小 中 大 根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1542850200000,
+        "docDate": "2018-11-22",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_44.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "04409647A94BEC6116882CAF540A0333",
+        "md5Url": "B5D2E5D9128D5E333179E8C1449360B7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2017年我国“三新”经济增加值相当于GDP的比重为15.7% 2018/11/22 09 30 Aa 字体： 小 中 大 根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。 2017年我国“三新”经济增加值相当于GDP的比重为15.7% 2018/11/22 09 30 Aa 字体： 小 中 大 根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900153.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2017年我国“三新”经济增加值相当于GDP的比重为15.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_44.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1542850200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B5D2E5D9128D5E333179E8C1449360B7",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2017年我国 三新 经济增加值相当于GDP的比重为15 7",
+          "MD5TITLE": "04409647A94BEC6116882CAF540A0333",
+          "QUICKDESCRIPTION": "2017年我国“三新”经济增加值相当于GDP的比重为15.7% 2018/11/22 09:30 | Aa 字体： 小 中 大 | 　　根据《新产业新业态新商业模式统计分类（2018）》和《新产业新业态新商业模式增加值核算方法》，经核算，2017年全国“三新”经济增加值为129578亿元，相当于GDP的比重为15.7%，比上年提高0.4个百分点。按现价计算的增速为14.1%，比同期GDP现价增速高2.9个百分点。 　　分三次产业来看，第一产业“三新”经济增加值为5998亿元，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B00D3FBF45281AB455E7F92A43E1EFD6",
+      "timestamp": 1542602441000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B00D3FBF45281AB455E7F92A43E1EFD6",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递#【2018年11月19日】1、美国10月份CPI环比上涨0.3% ；2、美国10月份PPI指数同比上涨2.9% ；3、德国第三季度GDP环比下降0.2% ；4、英国10月份失业率升至2.7% ；5、英国10月份CPI同比上涨",
+        "title": "#国际数据速递#【2018年11月19日】1、美国10月份CPI环比上涨0.3% ；2、美国10月份PPI指数同比上涨2.9% ；3、德国第三季度GDP环比下降0.2% ；4、英国10月份失业率升至2.7% ；5、英国10月份CPI同比上涨",
+        "url": "https://weibo.com/3919628624/H3noDFvou?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【2018年11月19日】1、美国10月份CPI环比上涨0.3% ；2、美国10月份PPI指数同比上涨2.9% ；3、德国第三季度GDP环比下降0.2% ；4、英国10月份失业率升至2.7% ；5、英国10月份CPI同比上涨2.4% ；6、日本第三季度GDP环比下降0.3% 等。 国际数据速递 【2018年11月19日】1、美国10月份CPI环比上涨0.3% ；2、美国10月份PPI指数同比上涨2.9% ；3、德国第三季度GDP环比下降0.2% ；4、英国10月份失业率升至2.7% ；5、英国10月份CPI同比上涨2.4% ；6、日本第三季度GDP环比下降0.3% 等。详见大图...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1542602441000,
+        "docDate": "2018-11-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "8E8AB33BB9AB4CDE63D8A8AD9B3C1D03",
+        "md5Url": "419926CE6ECD36788D7F4BB0EF47C770",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【2018年11月19日】1、美国10月份CPI环比上涨0.3% ；2、美国10月份PPI指数同比上涨2.9% ；3、德国第三季度GDP环比下降0.2% ；4、英国10月份失业率升至2.7% ；5、英国10月份CPI同比上涨2.4% ；6、日本第三季度GDP环比下降0.3% 等。 国际数据速递 【2018年11月19日】1、美国10月份CPI环比上涨0.3% ；2、美国10月份PPI指数同比上涨2.9% ；3、德国第三季度GDP环比下降0.2% ；4、英国10月份失业率升至2.7% ；5、英国10月份CPI同比上涨2.4% ；6、日本第三季度GDP环比下降0.3% 等。详见大图...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1542602441,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "419926CE6ECD36788D7F4BB0EF47C770",
+          "DRETITLE": "国际数据速递 2018年11月19日 1 美国10月份CPI环比上涨0 3 2 美国10月份PPI指数同比上涨2 9 3 德国第三季度GDP环比下降0 2 4 ",
+          "URL": "https://weibo.com/3919628624/H3noDFvou?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8E8AB33BB9AB4CDE63D8A8AD9B3C1D03",
+          "DRETITLEO": "#国际数据速递#【2018年11月19日】1、美国10月份CPI环比上涨0.3% ；2、美国10月份PPI指数同比上涨2.9% ；3、德国第三季度GDP环比下降0.2% ；4、英国10月份失业率升至2.7% ；5、英国10月份CPI同比上涨",
+          "QUICKDESCRIPTION": "国际数据速递 2018年11月19日 1 美国10月份CPI环比上涨0 3 2 美国10月份PPI指数同比上涨2 9 3 德国第三季度GDP环比下降0 2 4 英国10月份失业率升至2 7 5 英国10月份CPI同比上涨2 4 6 日本第三季度GDP环比下降0 3 等 详见大图",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CA1B07C37C93AA0447173015AF031281",
+      "timestamp": 1541379506000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CA1B07C37C93AA0447173015AF031281",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递#【2018年11月5日】1、美国第三季度GDP环比折年率增长3.5%；2、美国10月份消费者信心指数升至137.9；3、欧元区第三季度GDP环比增长0.2%；4、欧元区9月份失业率持平于8.1%；5、欧元区10月份CPI同比",
+        "title": "#国际数据速递#【2018年11月5日】1、美国第三季度GDP环比折年率增长3.5%；2、美国10月份消费者信心指数升至137.9；3、欧元区第三季度GDP环比增长0.2%；4、欧元区9月份失业率持平于8.1%；5、欧元区10月份CPI同比",
+        "url": "https://weibo.com/3919628624/H1dXtzOY5?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【2018年11月5日】1、美国第三季度GDP环比折年率增长3.5%；2、美国10月份消费者信心指数升至137.9；3、欧元区第三季度GDP环比增长0.2%；4、欧元区9月份失业率持平于8.1%；5、欧元区10月份CPI同比上涨2.2%；6、日本9月份失业率降至2.3%。 国际数据速递 【2018年11月5日】1、美国第三季度GDP环比折年率增长3.5%；2、美国10月份消费者信心指数升至137.9；3、欧元区第三季度GDP环比增长0.2%；4、欧元区9月份失业率持平于8.1%；5、欧元区10月份CPI同比上涨2.2%；6、日本9月份失业率降至2.3%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1541379506000,
+        "docDate": "2018-11-05",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "FEC744CF870BE24FDEDDD62A0EF059CF",
+        "md5Url": "8DD3FA5B574C6B59BE6683C4B772A2DC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【2018年11月5日】1、美国第三季度GDP环比折年率增长3.5%；2、美国10月份消费者信心指数升至137.9；3、欧元区第三季度GDP环比增长0.2%；4、欧元区9月份失业率持平于8.1%；5、欧元区10月份CPI同比上涨2.2%；6、日本9月份失业率降至2.3%。 国际数据速递 【2018年11月5日】1、美国第三季度GDP环比折年率增长3.5%；2、美国10月份消费者信心指数升至137.9；3、欧元区第三季度GDP环比增长0.2%；4、欧元区9月份失业率持平于8.1%；5、欧元区10月份CPI同比上涨2.2%；6、日本9月份失业率降至2.3%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1541379506,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8DD3FA5B574C6B59BE6683C4B772A2DC",
+          "DRETITLE": "国际数据速递 2018年11月5日 1 美国第三季度GDP环比折年率增长3 5 2 美国10月份消费者信心指数升至137 9 3 欧元区第三季度GDP环比增长0",
+          "URL": "https://weibo.com/3919628624/H1dXtzOY5?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "FEC744CF870BE24FDEDDD62A0EF059CF",
+          "DRETITLEO": "#国际数据速递#【2018年11月5日】1、美国第三季度GDP环比折年率增长3.5%；2、美国10月份消费者信心指数升至137.9；3、欧元区第三季度GDP环比增长0.2%；4、欧元区9月份失业率持平于8.1%；5、欧元区10月份CPI同比",
+          "QUICKDESCRIPTION": "国际数据速递 2018年11月5日 1 美国第三季度GDP环比折年率增长3 5 2 美国10月份消费者信心指数升至137 9 3 欧元区第三季度GDP环比增长0 2 4 欧元区9月份失业率持平于8 1 5 欧元区10月份CPI同比上涨2 2 6 日本9月份失业率降至2 3 详见大图",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A43D9C7FF43056F21DAB906D482E5F15",
+      "timestamp": 1540277728000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A43D9C7FF43056F21DAB906D482E5F15",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【赵茂宏：前三季度全国物价保持平稳运行态势】今年以来，在国内外环境复杂多变的情况下，国内市场价格继续保持平稳运行态势。消费领域价格温和上涨，生产领域价格总体平稳，为国民经济平稳健康发展提供了良好的宏观环境。详见O网页链接",
+        "title": "#权威解读#【赵茂宏：前三季度全国物价保持平稳运行态势】今年以来，在<em>国内</em>外环境复杂多变的情况下，<em>国内</em>市场价格继续保持平稳运行态势。消费领域价格温和上涨，<em>生产</em>领域价格总体平稳，为国民经济平稳健康发展提供了良好的宏观环境。详见O网页链接",
+        "url": "https://weibo.com/3919628624/GFfcgtydV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【赵茂宏：前三季度全国物价保持平稳运行态势】今年以来，在<em>国内</em>外环境复杂多变的情况下，<em>国内</em>市场价格继续保持平稳运行态势。 权威解读 【赵茂宏：前三季度全国物价保持平稳运行态势】今年以来，在<em>国内</em>外环境复杂多变的情况下，<em>国内</em>市场价格继续保持平稳运行态势。消费领域价格温和上涨，<em>生产</em>领域价格总体平稳，为国民经济平稳健康发展提供了良好的宏观环境。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1540277728000,
+        "docDate": "2018-10-23",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2A5405AC69E3D6E05C68DEABBC4D88AC",
+        "md5Url": "FD5353B5B5774BD98A4979C67D488606",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【赵茂宏：前三季度全国物价保持平稳运行态势】今年以来，在<em>国内</em>外环境复杂多变的情况下，<em>国内</em>市场价格继续保持平稳运行态势。 权威解读 【赵茂宏：前三季度全国物价保持平稳运行态势】今年以来，在<em>国内</em>外环境复杂多变的情况下，<em>国内</em>市场价格继续保持平稳运行态势。消费领域价格温和上涨，<em>生产</em>领域价格总体平稳，为国民经济平稳健康发展提供了良好的宏观环境。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1540277728,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "FD5353B5B5774BD98A4979C67D488606",
+          "DRETITLE": "权威解读 赵茂宏 前三季度全国物价保持平稳运行态势 今年以来 在国内外环境复杂多变的情况下 国内市场价格继续保持平稳运行态势 消费领域价格温和上涨 生产领域价格",
+          "URL": "https://weibo.com/3919628624/GFfcgtydV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2A5405AC69E3D6E05C68DEABBC4D88AC",
+          "DRETITLEO": "#权威解读#【赵茂宏：前三季度全国物价保持平稳运行态势】今年以来，在国内外环境复杂多变的情况下，国内市场价格继续保持平稳运行态势。消费领域价格温和上涨，生产领域价格总体平稳，为国民经济平稳健康发展提供了良好的宏观环境。详见O网页链接",
+          "QUICKDESCRIPTION": "权威解读 赵茂宏 前三季度全国物价保持平稳运行态势 今年以来 在国内外环境复杂多变的情况下 国内市场价格继续保持平稳运行态势 消费领域价格温和上涨 生产领域价格总体平稳 为国民经济平稳健康发展提供了良好的宏观环境 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B32C21DF30CAA983D738A99F8EED228A",
+      "timestamp": 1540191600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B32C21DF30CAA983D738A99F8EED228A",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局发布前三季度主要经济数据 国内生产总值同比增长6.7%",
+        "title": "《新闻直播间》国家统计局发布前三季度主要经济数据 <em>国内生产总值</em>同比增长6.7%",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914076.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局发布前三季度主要经济数据 <em>国内生产总值</em>同比增长6.7%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1540191600000,
+        "docDate": "2018-10-22",
+        "includeImg": true,
+        "picUrl": "img?reference=B32C21DF30CAA983D738A99F8EED228A&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_85.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "42817DBD3F96420589152A3BB680789D",
+        "md5Url": "B32C21DF30CAA983D738A99F8EED228A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局发布前三季度主要经济数据 <em>国内生产总值</em>同比增长6.7%...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914076.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局发布前三季度主要经济数据 国内生产总值同比增长6.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_85.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1540191600,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B32C21DF30CAA983D738A99F8EED228A",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局发布前三季度主要经济数据 国内生产总值同比增长6 7",
+          "MD5TITLE": "42817DBD3F96420589152A3BB680789D",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局发布前三季度主要经济数据 国内生产总值同比增长6.7%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EF2CCABCA7959B40A7E8649E30EBA2A4",
+      "timestamp": 1540004340000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EF2CCABCA7959B40A7E8649E30EBA2A4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2018年三季度国内生产总值（GDP）初步核算结果",
+        "title": "【数据发布】2018年三季度<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314332&idx=1&sn=045d851bff22fe0f577839a254dca225&chksm=bd1124918a66ad878e250169869f8abfa887985c5bdec0493e5ce83c04ae32331263031c2e16&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "点 蓝字关注我们哦 根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1540004340000,
+        "docDate": "2018-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "1CBD65501F39E0720D32C81CBEC1AEFD",
+        "md5Url": "EFFBEE8864194C0AD801159C77B3632C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "点 蓝字关注我们哦 根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1540004340,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "EFFBEE8864194C0AD801159C77B3632C",
+          "DRETITLE": "数据发布 2018年三季度国内生产总值 GDP 初步核算结果",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314332&idx=1&sn=045d851bff22fe0f577839a254dca225&chksm=bd1124918a66ad878e250169869f8abfa887985c5bdec0493e5ce83c04ae32331263031c2e16&scene=0",
+          "MD5TITLE": "1CBD65501F39E0720D32C81CBEC1AEFD",
+          "DRETITLEO": "【数据发布】2018年三季度国内生产总值（GDP）初步核算结果",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "68DEF930A43451B8FEB861AC27556718",
+      "timestamp": 1539999421000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "68DEF930A43451B8FEB861AC27556718",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年三季度国内生产总值（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年三季度国内生产总值（以下简称GDP）初步核算主要结果如下，详见O网页链接",
+        "title": "#数据发布#【2018年三季度<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见O网页链接",
+        "url": "https://weibo.com/3919628624/GEKPw9Nri?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2018年三季度<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见 O网页链接 数据发布 【2018年三季度<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见 O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1539999421000,
+        "docDate": "2018-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "16EF691EE556C38104CEDFBDE6F43520",
+        "md5Url": "9C7EFA6DF572E909DC9EC7032B77B4AA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2018年三季度<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见 O网页链接 数据发布 【2018年三季度<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下，详见 O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1539999421,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "9C7EFA6DF572E909DC9EC7032B77B4AA",
+          "DRETITLE": "数据发布 2018年三季度国内生产总值 GDP 初步核算结果 根据有关基础资料和国民经济核算方法 我国2018年三季度国内生产总值 以下简称GDP 初步核算主要",
+          "URL": "https://weibo.com/3919628624/GEKPw9Nri?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "16EF691EE556C38104CEDFBDE6F43520",
+          "DRETITLEO": "#数据发布#【2018年三季度国内生产总值（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2018年三季度国内生产总值（以下简称GDP）初步核算主要结果如下，详见O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2018年三季度国内生产总值 GDP 初步核算结果 根据有关基础资料和国民经济核算方法 我国2018年三季度国内生产总值 以下简称GDP 初步核算主要结果如下 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B0A17BF57A5C910FCC17FC6C493551F1",
+      "timestamp": 1539999000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B0A17BF57A5C910FCC17FC6C493551F1",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年三季度国内生产总值（GDP）初步核算结果",
+        "title": "2018年三季度<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900112.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2018年3季度 GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 3季度 1-3季度 3季度 1-3季度 GDP 231938 650899 6.5 6.7 第一产业 20086 42173 3.6 3.4 第二产业 93655 262953 5.3 5.8 第三产业 118198 345773 7.9 7.7 农林牧渔业 20842 43970 3.8 3.6 工业 77509 222165 5.9 6.3 制造业 67052 193130 6.0 6.4 建筑业 16421 41590 2.5 3.7 批发和零售业 21162 60845 6.2 6.5 交通运输、仓储和邮政业 10514 29556 8.0 8.0 住宿和餐饮业 4059 11448 6.3 6.7 金融业 17384 52264 4.0 3.7 房地产业 14766 43563 4.1 4.4 信息传输、软件和信息技术服务业 8086 24709 32.8 31.2 租赁和商务服务业 6322 17876 9.0 9.4 其他服务业 34875 102913 6.9 6.3 注：1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2012年制定的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2011）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2018年3季度 GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 3季度 1-3季度 3季度 1-3季度 GDP 231938 650899 6.5 6.7 第一产业 20086 42173 3.6 3.4 第二产业 93655 262953 5.3 5.8 第三产业 118198 345773 7.9 7.7 农林牧渔业 20842 43970 3.8 3.6 工业 77509 222165 5.9 6.3 制造业 67052 193130 6.0 6.4 建筑业 16421 41590 2.5 3.7 批发和零售业 21162 60845 6.2 6.5 交通运输、仓储和邮政业 10514 29556 8.0 8.0 住宿和餐饮业 4059 11448 6.3 6.7 金融业 17384 52264 4.0 3.7 房地产业 14766 43563 4.1 4.4 信息传输、软件和信息技术服务业 8086 24709 32.8 31.2 租赁和商务服务业 6322 17876 9.0 9.4 其他服务业 34875 102913 6.9 6.3 注：1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2012年制定的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2011）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1539999000000,
+        "docDate": "2018-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_46.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "497EAFD00F3903F448B995DFF99E3EAF",
+        "md5Url": "B0A17BF57A5C910FCC17FC6C493551F1",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和国民经济核算方法，我国2018年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2018年3季度 GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 3季度 1-3季度 3季度 1-3季度 GDP 231938 650899 6.5 6.7 第一产业 20086 42173 3.6 3.4 第二产业 93655 262953 5.3 5.8 第三产业 118198 345773 7.9 7.7 农林牧渔业 20842 43970 3.8 3.6 工业 77509 222165 5.9 6.3 制造业 67052 193130 6.0 6.4 建筑业 16421 41590 2.5 3.7 批发和零售业 21162 60845 6.2 6.5 交通运输、仓储和邮政业 10514 29556 8.0 8.0 住宿和餐饮业 4059 11448 6.3 6.7 金融业 17384 52264 4.0 3.7 房地产业 14766 43563 4.1 4.4 信息传输、软件和信息技术服务业 8086 24709 32.8 31.2 租赁和商务服务业 6322 17876 9.0 9.4 其他服务业 34875 102913 6.9 6.3 注：1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2012年制定的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2011）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900112.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年三季度国内生产总值（GDP）初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_46.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1539999000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B0A17BF57A5C910FCC17FC6C493551F1",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年三季度国内生产总值 GDP 初步核算结果",
+          "MD5TITLE": "497EAFD00F3903F448B995DFF99E3EAF",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国民经济核算方法，我国2018年三季度国内生产总值（以下简称GDP）初步核算主要结果如下： 表1　 2018年3季度 GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 3季度 1-3季度 3季度 1-3季度 GDP 231938 650899 6.5 6.7 第一产业 20086 42173 3.6 3.4 第二产业 93655 262953 5.3 5.8 第三产业 118198 345773 7.9 7.7 农林牧渔业 20842 43970 3.8 3.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CEC73BB885B105B9125006870B14EFB4",
+      "timestamp": 1539920805000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CEC73BB885B105B9125006870B14EFB4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【6张图，速览前三季度经济数据】刚刚，国家统计局发布了前三季度各项经济数据。初步核算，前三季度国内生产总值650899亿元，按可比价格计算，同比增长6.7%。分季度看，一季度同比增长6.8%，二季度增长6.7%，三季度增长6.5%。数据如何",
+        "title": "【6张图，速览前三季度经济数据】刚刚，国家统计局发布了前三季度各项经济数据。初步核算，前三季度<em>国内生产总值</em>650899亿元，按可比价格计算，同比增长6.7%。分季度看，一季度同比增长6.8%，二季度增长6.7%，三季度增长6.5%。数据如何",
+        "url": "https://weibo.com/3919628624/GECfGffwY?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "6张图，速览前三季度经济数据】刚刚，国家统计局发布了前三季度各项经济数据。初步核算，前三季度<em>国内生产总值</em>650899亿元，按可比价格计算，同比增长6.7%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1539920805000,
+        "docDate": "2018-10-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "316C46126450BFF2ED3A94E4B511FD2C",
+        "md5Url": "497B64A17221F1ABD90BEAA2F76A3BFA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "6张图，速览前三季度经济数据】刚刚，国家统计局发布了前三季度各项经济数据。初步核算，前三季度<em>国内生产总值</em>650899亿元，按可比价格计算，同比增长6.7%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1539920805,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "497B64A17221F1ABD90BEAA2F76A3BFA",
+          "DRETITLE": "6张图 速览前三季度经济数据 刚刚 国家统计局发布了前三季度各项经济数据 初步核算 前三季度国内生产总值650899亿元 按可比价格计算 同比增长6 7 分季度",
+          "URL": "https://weibo.com/3919628624/GECfGffwY?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "316C46126450BFF2ED3A94E4B511FD2C",
+          "DRETITLEO": "【6张图，速览前三季度经济数据】刚刚，国家统计局发布了前三季度各项经济数据。初步核算，前三季度国内生产总值650899亿元，按可比价格计算，同比增长6.7%。分季度看，一季度同比增长6.8%，二季度增长6.7%，三季度增长6.5%。数据如何",
+          "QUICKDESCRIPTION": "6张图 速览前三季度经济数据 刚刚 国家统计局发布了前三季度各项经济数据 初步核算 前三季度国内生产总值650899亿元 按可比价格计算 同比增长6 7 分季度看 一季度同比增长6 8 二季度增长6 7 三季度增长6 5 数据如何看 6张图告诉你O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A01B2AE1F1C2D4216D12535D7AE21907",
+      "timestamp": 1539914810000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A01B2AE1F1C2D4216D12535D7AE21907",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播#【前三季度经济运行总体平稳 转型升级深化发展】初步核算，前三季度国内生产总值650899亿元，按可比价格计算，同比增长6.7%。分季度看，一季度同比增长6.8%，二季度增长6.7%，三季度增长6.5%。分产业看，第一产业增加",
+        "title": "#发布会微直播#【前三季度经济运行总体平稳 转型升级深化发展】初步核算，前三季度<em>国内生产总值</em>650899亿元，按可比价格计算，同比增长6.7%。分季度看，一季度同比增长6.8%，二季度增长6.7%，三季度增长6.5%。分产业看，第一产业增加",
+        "url": "https://weibo.com/3919628624/GEBB7fNKg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【前三季度经济运行总体平稳 转型升级深化发展】初步核算，前三季度<em>国内生产总值</em>650899亿元，按可比价格计算，同比增长6.7%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1539914810000,
+        "docDate": "2018-10-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "8A2977F633FA60A31C4D245466E67C19",
+        "md5Url": "1ACB093F9BF9F7A6BA107D20C143389E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【前三季度经济运行总体平稳 转型升级深化发展】初步核算，前三季度<em>国内生产总值</em>650899亿元，按可比价格计算，同比增长6.7%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1539914810,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "1ACB093F9BF9F7A6BA107D20C143389E",
+          "DRETITLE": "发布会微直播 前三季度经济运行总体平稳 转型升级深化发展 初步核算 前三季度国内生产总值650899亿元 按可比价格计算 同比增长6 7 分季度看 一季度同比增",
+          "URL": "https://weibo.com/3919628624/GEBB7fNKg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "8A2977F633FA60A31C4D245466E67C19",
+          "DRETITLEO": "#发布会微直播#【前三季度经济运行总体平稳 转型升级深化发展】初步核算，前三季度国内生产总值650899亿元，按可比价格计算，同比增长6.7%。分季度看，一季度同比增长6.8%，二季度增长6.7%，三季度增长6.5%。分产业看，第一产业增加",
+          "QUICKDESCRIPTION": "发布会微直播 前三季度经济运行总体平稳 转型升级深化发展 初步核算 前三季度国内生产总值650899亿元 按可比价格计算 同比增长6 7 分季度看 一季度同比增长6 8 二季度增长6 7 三季度增长6 5 分产业看 第一产业增加值42173亿元 同比增长3 4 第二产业增加值262953亿元 增长5 8 第 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8E226A8106CDB91487C289C083E7501B",
+      "timestamp": 1539673200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8E226A8106CDB91487C289C083E7501B",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》教育部 国家统计局 财政部 教育经费GDP占比连续6年超4%",
+        "title": "《新闻直播间》教育部 国家统计局 财政部 教育经费GDP占比连续6年超4%",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914072.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》教育部 国家统计局 财政部 教育经费GDP占比连续6年超4%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1539673200000,
+        "docDate": "2018-10-16",
+        "includeImg": true,
+        "picUrl": "img?reference=8E226A8106CDB91487C289C083E7501B&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_86.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "7CA21AFE8FD6313D41AE17E5751EA1C4",
+        "md5Url": "8E226A8106CDB91487C289C083E7501B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》教育部 国家统计局 财政部 教育经费GDP占比连续6年超4%...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914072.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》教育部 国家统计局 财政部 教育经费GDP占比连续6年超4%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_86.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1539673200,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "8E226A8106CDB91487C289C083E7501B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 教育部 国家统计局 财政部 教育经费GDP占比连续6年超4",
+          "MD5TITLE": "7CA21AFE8FD6313D41AE17E5751EA1C4",
+          "QUICKDESCRIPTION": "《新闻直播间》教育部 国家统计局 财政部 教育经费GDP占比连续6年超4%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "988E17A9FC227D5A2B9CAE84427CACD1",
+      "timestamp": 1539139680000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "988E17A9FC227D5A2B9CAE84427CACD1",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2017年我国文化及相关产业增加值占GDP比重为4.2%",
+        "title": "【数据发布】2017年我国文化及相关产业增加值占GDP比重为4.2%",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314157&idx=2&sn=5d93029f6866e810bf5758ca6412f5d9&chksm=bd112be08a66a2f65257454168178d6bb8f635c67c7eddc9a7936990c21d032ed10d7b0b567a&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "点蓝字关注我们哦 经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GDP名义增速高1.6个百分点。 点蓝字关注我们哦 经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GDP名义增速高1.6个百分点。2017年文化及相关产业增加值保持平稳快速增长，占GDP比重稳步上升，在加快新旧动能转换、推动经济高质量发展中发挥了积极作用。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1539139680000,
+        "docDate": "2018-10-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "0DEB1A0C3504E3D6F73D45885D2EFD8B",
+        "md5Url": "E5E10C2C87AEF5AB581EB2AF74C88975",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "点蓝字关注我们哦 经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GDP名义增速高1.6个百分点。 点蓝字关注我们哦 经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GDP名义增速高1.6个百分点。2017年文化及相关产业增加值保持平稳快速增长，占GDP比重稳步上升，在加快新旧动能转换、推动经济高质量发展中发挥了积极作用。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1539139680,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "E5E10C2C87AEF5AB581EB2AF74C88975",
+          "DRETITLE": "数据发布 2017年我国文化及相关产业增加值占GDP比重为4 2",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651314157&idx=2&sn=5d93029f6866e810bf5758ca6412f5d9&chksm=bd112be08a66a2f65257454168178d6bb8f635c67c7eddc9a7936990c21d032ed10d7b0b567a&scene=0",
+          "MD5TITLE": "0DEB1A0C3504E3D6F73D45885D2EFD8B",
+          "DRETITLEO": "【数据发布】2017年我国文化及相关产业增加值占GDP比重为4.2%",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "621CDB8B2F68FB876C898F9ECE1E5392",
+      "timestamp": 1539136085000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "621CDB8B2F68FB876C898F9ECE1E5392",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2017年我国文化及相关产业增加值占GDP比重为4.2%】经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GD",
+        "title": "#数据发布# 【2017年我国文化及相关产业增加值占GDP比重为4.2%】经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GD",
+        "url": "https://weibo.com/3919628624/GDeD2BneT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2017年我国文化及相关产业增加值占GDP比重为4.2%】经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GDP名义增速高1.6个百分点。 数据发布 【2017年我国文化及相关产业增加值占GDP比重为4.2%】经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GDP名义增速高1.6个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1539136085000,
+        "docDate": "2018-10-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "7304E95607EE9E133276247EA19E9E66",
+        "md5Url": "2618D57A9E8E967E5DBA5E4E8713DD8B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2017年我国文化及相关产业增加值占GDP比重为4.2%】经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GDP名义增速高1.6个百分点。 数据发布 【2017年我国文化及相关产业增加值占GDP比重为4.2%】经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GDP名义增速高1.6个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1539136085,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2618D57A9E8E967E5DBA5E4E8713DD8B",
+          "DRETITLE": "数据发布 2017年我国文化及相关产业增加值占GDP比重为4 2 经核算 2017年全国文化及相关产业增加值为34722亿元 占GDP的比重为4 2 比上年提高",
+          "URL": "https://weibo.com/3919628624/GDeD2BneT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "7304E95607EE9E133276247EA19E9E66",
+          "DRETITLEO": "#数据发布# 【2017年我国文化及相关产业增加值占GDP比重为4.2%】经核算，2017年全国文化及相关产业增加值为34722亿元，占GDP的比重为4.2%，比上年提高0.06个百分点；按现价计算（下同），比上年增长12.8%，比同期GD",
+          "QUICKDESCRIPTION": "数据发布 2017年我国文化及相关产业增加值占GDP比重为4 2 经核算 2017年全国文化及相关产业增加值为34722亿元 占GDP的比重为4 2 比上年提高0 06个百分点 按现价计算 下同 比上年增长12 8 比同期GDP名义增速高1 6个百分点 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 8,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 5,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 5,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 6,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 13,
+          "children": null,
+          "key": "国民经济核算"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 10,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 3,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {
+    "统计新闻": [
+      {
+        "version": "V_8_0",
+        "id": "0EE027D358F22FC4206CD12419EBB15C",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局关于2016年国内生产总值（GDP）最终核实的公告",
+        "title": "国家统计局关于2016年<em>国内生产总值</em>（GDP）最终核实的公告",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899805.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2016年GDP数据进行了最终核实，主要结果如下： 　　经最终核实，2016年，GDP现价总量为743585亿元，比初步核算数减少了542亿元；按不变价格计算，比上年增长6.7%，与初步核算数一致。三次产业和各行业数据见附表。 　　特此公告。 　　附表：...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1515115800000,
+        "docDate": "2018-01-05",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_49.html",
+        "weight": 0.016393442,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "A7DBD5957996F2DDC3902B39F8A82515",
+        "md5Url": "0EE027D358F22FC4206CD12419EBB15C",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2016年GDP数据进行了最终核实，主要结果如下： 　　经最终核实，2016年，GDP现价总量为743585亿元，比初步核算数减少了542亿元；按不变价格计算，比上年增长6.7%，与初步核算数一致。三次产业和各行业数据见附表。 　　特此公告。 　　附表：...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1899805.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局关于2016年国内生产总值（GDP）最终核实的公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_49.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1515115800,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "0EE027D358F22FC4206CD12419EBB15C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局关于2016年国内生产总值 GDP 最终核实的公告",
+          "MD5TITLE": "A7DBD5957996F2DDC3902B39F8A82515",
+          "QUICKDESCRIPTION": "　　按照我国国内生产总值（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2016年GDP数据进行了最终核实，主要结果如下： 　　经最终核实，2016年，GDP现价总量为743585亿元，比初步核算数减少了542亿元；按不变价格计算，比上年增长6.7%，与初步核算数一致。三次产业和各行业数据见附表。 　　特此公告。 　　附表：",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [
+          "NEWS"
+        ],
+        "type": 1
+      },
+      {
+        "version": "V_8_0",
+        "id": "D4EFAE5198E1385B1D7D4A1604DD9699",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局开展2018年时间利用调查",
+        "title": "国家统计局开展2018年时间利用调查",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tjdt/202302/t20230202_1895637.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "国家统计局开展2018年时间利用调查 时间都去哪了 统计数据将给出答案 　　从时间维度全面反映我国居民<em>生产</em>生活状况的时间利用调查前期准备工作已经就绪，5月份起进入现场调查阶段。记者从国家统计局了解到，此次调查是国家统计局贯彻落实党的十九大精神，坚持以人民为中心发展理念，弥补社会统计短板的重要举措，将为新时期评价社会进步、民生福祉改善，测算居民获得感、幸福感、安全感提供依据。 　　时间是一切财富中最为宝贵的财富。很多人经常会问：时间都去哪儿了？...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1526605740000,
+        "docDate": "2018-05-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tjdt/index_65.html",
+        "weight": 0.016129032,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "31923722844D4486FF00796DC7426F5C",
+        "md5Url": "D4EFAE5198E1385B1D7D4A1604DD9699",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "国家统计局开展2018年时间利用调查 时间都去哪了 统计数据将给出答案 　　从时间维度全面反映我国居民<em>生产</em>生活状况的时间利用调查前期准备工作已经就绪，5月份起进入现场调查阶段。记者从国家统计局了解到，此次调查是国家统计局贯彻落实党的十九大精神，坚持以人民为中心发展理念，弥补社会统计短板的重要举措，将为新时期评价社会进步、民生福祉改善，测算居民获得感、幸福感、安全感提供依据。 　　时间是一切财富中最为宝贵的财富。很多人经常会问：时间都去哪儿了？...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局门户网站",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tjdt/202302/t20230202_1895637.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局开展2018年时间利用调查",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tjdt/index_65.html",
+          "CUN": "",
+          "WEBSITENAME": "www.stats.gov.cn",
+          "DREDATE": 1526605740,
+          "L1": [
+            "统计党建"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "统计动态"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D4EFAE5198E1385B1D7D4A1604DD9699",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局开展2018年时间利用调查",
+          "MD5TITLE": "31923722844D4486FF00796DC7426F5C",
+          "QUICKDESCRIPTION": "国家统计局开展2018年时间利用调查 时间都去哪了 统计数据将给出答案 　　从时间维度全面反映我国居民生产生活状况的时间利用调查前期准备工作已经就绪，5月份起进入现场调查阶段。记者从国家统计局了解到，此次调查是国家统计局贯彻落实党的十九大精神，坚持以人民为中心发展理念，弥补社会统计短板的重要举措，将为新时期评价社会进步、民生福祉改善，测算居民获得感、幸福感、安全感提供依据。 　　时间是一切财富中最为宝贵的财富。很多人经常会问：时间都去哪儿了？",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [
+          "NEWS"
+        ],
+        "type": 1
+      },
+      {
+        "version": "V_8_0",
+        "id": "DF4ED4CCF7527881FC2E1180542345C1",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局部门预算（2018）",
+        "title": "国家统计局部门预算（2018）",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1893945.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "见附件。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1523607960000,
+        "docDate": "2018-04-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_47.html",
+        "weight": 0.015873017,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "6173AE948306359778D28F19E57273B5",
+        "md5Url": "DF4ED4CCF7527881FC2E1180542345C1",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "见附件。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1893945.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局部门预算（2018）",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/P020230202402008142240.pdf": "· 附件：国家统计局部门预算（2018）.pdf"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_47.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1523607960,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "DF4ED4CCF7527881FC2E1180542345C1",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局部门预算 2018",
+          "MD5TITLE": "6173AE948306359778D28F19E57273B5",
+          "QUICKDESCRIPTION": "见附件。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      {
+        "version": "V_8_0",
+        "id": "2AF0A9BB768914485A1E00CD2F2BD360",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局社情民意调查中心公告",
+        "title": "国家统计局社情民意调查中心公告",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1893920.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "国家统计局社情民意调查中心公告 2018年第1号 　　为充分展现国家统计局社情民意调查的特点和优势，增强社情民意调查工作品牌效应和公信力，提升社情民意调查的影响和公众配合度，推动新时代社情民意调查的发展，经向社会公开征集，最终确定了国家统计局社情民意调查中心标志（Logo）。现将该标志向社会公布。 　　特此公告。 　　附件：国家统计局社情民意调查中心标志（Logo） 国家统计局社情民意调查中心 2018年1月16日...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1516781940000,
+        "docDate": "2018-01-24",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_48.html",
+        "weight": 0.015625,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "1D3D8C0803804D03DB031DF575FA7BE2",
+        "md5Url": "2AF0A9BB768914485A1E00CD2F2BD360",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "国家统计局社情民意调查中心公告 2018年第1号 　　为充分展现国家统计局社情民意调查的特点和优势，增强社情民意调查工作品牌效应和公信力，提升社情民意调查的影响和公众配合度，推动新时代社情民意调查的发展，经向社会公开征集，最终确定了国家统计局社情民意调查中心标志（Logo）。现将该标志向社会公布。 　　特此公告。 　　附件：国家统计局社情民意调查中心标志（Logo） 国家统计局社情民意调查中心 2018年1月16日...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1893920.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局社情民意调查中心公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/P020230202401957674632.docx": "· 附件：国家统计局社情民意调查中心标志（Logo）.docx"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_48.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1516781940,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "2AF0A9BB768914485A1E00CD2F2BD360",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局社情民意调查中心公告",
+          "MD5TITLE": "1D3D8C0803804D03DB031DF575FA7BE2",
+          "QUICKDESCRIPTION": "国家统计局社情民意调查中心公告 2018年第1号 　　为充分展现国家统计局社情民意调查的特点和优势，增强社情民意调查工作品牌效应和公信力，提升社情民意调查的影响和公众配合度，推动新时代社情民意调查的发展，经向社会公开征集，最终确定了国家统计局社情民意调查中心标志（Logo）。现将该标志向社会公布。 　　特此公告。 　　附件：国家统计局社情民意调查中心标志（Logo） 国家统计局社情民意调查中心 2018年1月16日",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,827 @@
+{
+  "git_head": "566060b8a7fe7aed28c099ae1dfc33dcd74dbc7d",
+  "git_status": "?? scripts/experiment_framework/\n",
+  "root": "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC",
+  "files": [
+    {
+      "path": "data/research_v2/dimension_labels_daily.parquet",
+      "bytes": 59026,
+      "sha256": "3edf3d9461ec8e8641cd89be6fe0c98dea361c2e316966a96be8c26ba1e76a54",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nV: int8\nD: int8\nstate_id: int8\nraw_stress: int8\nvalid_state: bool\nthreshold_version: string\nhigh_down_fraction_proxy: int8\nhigh_mean_corr_60d_proxy: int8\nhigh_amihud_20d_proxy: int8\nlow_activity: int8\ntrend_60d_continuous: double\nactivity_label_meaning: string\nproxy_label_status: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1844"
+    },
+    {
+      "path": "data/research_v2/fold_membership.parquet",
+      "bytes": 95573,
+      "sha256": "79e73ca5e42f8df32390d4d3150ee016dd9a1624290fd6cc349f768589e28d7d",
+      "tracked": true,
+      "rows": 71544,
+      "schema": "fold_id: string\nsample_id: string\nhorizon: int64\nrole: string\nreason: string\nfit_cutoff: timestamp[ns, tz=Asia/Shanghai]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\ntarget_valid: bool\neligible_for_fit: bool\nparameter_selection_allowed: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1379"
+    },
+    {
+      "path": "data/research_v2/future_outcomes_weekly.parquet",
+      "bytes": 53354,
+      "sha256": "1d234cf486335606b0167043de4511aefb558ce03bac45e62a6b2541027aaef6",
+      "tracked": true,
+      "rows": 599,
+      "schema": "sample_id: string\nasof_date: timestamp[ns]\nlabel_end: timestamp[ns]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\nfuture_path_valid: bool\nfuture_return_20d: double\nfuture_vol_20d: double\nfuture_mdd_20d: double\nfuture_downside_vol_20d: double\nfuture_worst_return_20d: double\nfuture_worst_daily_return_20d: double\nfuture_rolling_states_valid: bool\ny_any_stress_next20: double\ny_future_window_stress_20d: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2053"
+    },
+    {
+      "path": "data/research_v2/market_daily_clean.parquet",
+      "bytes": 699116,
+      "sha256": "ff159bbe36b788abc84cf325b7293cec9893e3096489c560ace828773c21db67",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nindex_code: string\nopen: double\nhigh: double\nlow: double\nclose: double\npre_close: double\nchange: double\npct_chg: double\nvol: double\namount: double\nsource_row_hash: string\nsource_batch_id: string\nsource_ingested_at: timestamp[us, tz=Asia/Shanghai]\nsource_available_at: timestamp[us, tz=Asia/Shanghai]\namount_cny: double\nresearch_available_at: timestamp[ns, tz=Asia/Shanghai]\navailability_basis: string\nbasic_raw_total_mv: double\nbasic_raw_float_mv: double\nbasic_raw_total_share: double\nbasic_raw_float_share: double\nbasic_raw_free_share: double\nbasic_raw_turnover_rate: double\nbasic_raw_turnover_rate_f: double\nbasic_raw_pe: double\nbasic_raw_pe_ttm: double\nbasic_raw_pb: double\nbasic_source_available_at: timestamp[ns, tz=Asia/Shanghai]\nbasic_source_row_hash: string\nbasic_observation_date: timestamp[ns]\nbasic_research_available_at: timestamp[ns, tz=Asia/Shanghai]\nbasic_availability_basis: string\nprotocol_version: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4707"
+    },
+    {
+      "path": "data/research_v2/market_features_weekly.parquet",
+      "bytes": 178521,
+      "sha256": "1208018cd5be62befbe5ebd121fc26c1268b905c8d04c972a96d6f3b1de9a2d8",
+      "tracked": true,
+      "rows": 599,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nresearch_available_at: timestamp[ns, tz=Asia/Shanghai]\navailability_basis: string\nbasic_observation_date: timestamp[ns]\nbasic_research_available_at: timestamp[ns, tz=Asia/Shanghai]\nbasic_availability_basis: string\nmarket_features_complete: bool\nmarket_feature_missing_count: int64\nprotocol_version: string\nthreshold_version: string\nreference_period_realtime_eligible: bool\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nstate_history_start: timestamp[ns]\nret_5d: double\nret_20d: double\nret_60d: double\nvol_5d: double\nvol_20d: double\nvol_60d: double\ndownside_vol_20d: double\nmdd_20d: double\nmdd_60d: double\ncurrent_drawdown_20d: double\ncurrent_drawdown_60d: double\nnegative_return_fraction_20d: double\nworst_daily_return_20d: double\namount_ma20: double\namount_ratio_5_20: double\nturnover_rate_lag1: double\nturnover_rate_f_lag1: double\nturnover_change_5d: double\nturnover_change_20d: double\nstate_id: double\nV: double\nD: double\ncombined_episode_active: double\ncombined_elapsed_episode_days: double\ncombined_normal_run: int64\npe_lag1: double\npe_ttm_lag1: double\npb_lag1: double\ntotal_mv_lag1: double\nfloat_mv_lag1: double\nmissing__ret_5d: bool\nmissing__ret_20d: bool\nmissing__ret_60d: bool\nmissing__vol_5d: bool\nmissing__vol_20d: bool\nmissing__vol_60d: bool\nmissing__downside_vol_20d: bool\nmissing__mdd_20d: bool\nmissing__mdd_60d: bool\nmissing__current_drawdown_20d: bool\nmissing__current_drawdown_60d: bool\nmissing__negative_return_fraction_20d: bool\nmissing__worst_daily_return_20d: bool\nmissing__amount_ma20: bool\nmissing__amount_ratio_5_20: bool\nmissing__turnover_rate_lag1: bool\nmissing__turnover_rate_f_lag1: bool\nmissing__turnover_change_5d: bool\nmissing__turnover_change_20d: bool\nmissing__state_id: bool\nmissing__V: bool\nmissing__D: bool\nmissing__combined_episode_active: bool\nmissing__combined_elapsed_episode_days: bool\nmissing__combined_normal_run: bool\nmissing__pe_lag1: bool\nmissing__pe_ttm_lag1: bool\nmissing__pb_lag1: bool\nmissing__total_mv_lag1: bool\nmissing__float_mv_lag1: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 10929"
+    },
+    {
+      "path": "data/research_v2/market_features_weekly_with_proxies.parquet",
+      "bytes": 250243,
+      "sha256": "4934d38198211eaa8ba4b2abb5e23c08ef9309df6f039c410c473e96ff940a43",
+      "tracked": true,
+      "rows": 599,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nresearch_available_at: timestamp[ns, tz=Asia/Shanghai]\navailability_basis: string\nbasic_observation_date: timestamp[ns]\nbasic_research_available_at: timestamp[ns, tz=Asia/Shanghai]\nbasic_availability_basis: string\nmarket_features_complete: bool\nmarket_feature_missing_count: int64\nprotocol_version: string\nthreshold_version: string\nreference_period_realtime_eligible: bool\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nstate_history_start: timestamp[ns]\nret_5d: double\nret_20d: double\nret_60d: double\nvol_5d: double\nvol_20d: double\nvol_60d: double\ndownside_vol_20d: double\nmdd_20d: double\nmdd_60d: double\ncurrent_drawdown_20d: double\ncurrent_drawdown_60d: double\nnegative_return_fraction_20d: double\nworst_daily_return_20d: double\namount_ma20: double\namount_ratio_5_20: double\nturnover_rate_lag1: double\nturnover_rate_f_lag1: double\nturnover_change_5d: double\nturnover_change_20d: double\nstate_id: double\nV: double\nD: double\ncombined_episode_active: double\ncombined_elapsed_episode_days: double\ncombined_normal_run: int64\npe_lag1: double\npe_ttm_lag1: double\npb_lag1: double\ntotal_mv_lag1: double\nfloat_mv_lag1: double\nmissing__ret_5d: bool\nmissing__ret_20d: bool\nmissing__ret_60d: bool\nmissing__vol_5d: bool\nmissing__vol_20d: bool\nmissing__vol_60d: bool\nmissing__downside_vol_20d: bool\nmissing__mdd_20d: bool\nmissing__mdd_60d: bool\nmissing__current_drawdown_20d: bool\nmissing__current_drawdown_60d: bool\nmissing__negative_return_fraction_20d: bool\nmissing__worst_daily_return_20d: bool\nmissing__amount_ma20: bool\nmissing__amount_ratio_5_20: bool\nmissing__turnover_rate_lag1: bool\nmissing__turnover_rate_f_lag1: bool\nmissing__turnover_change_5d: bool\nmissing__turnover_change_20d: bool\nmissing__state_id: bool\nmissing__V: bool\nmissing__D: bool\nmissing__combined_episode_active: bool\nmissing__combined_elapsed_episode_days: bool\nmissing__combined_normal_run: bool\nmissing__pe_lag1: bool\nmissing__pe_ttm_lag1: bool\nmissing__pb_lag1: bool\nmissing__total_mv_lag1: bool\nmissing__float_mv_lag1: bool\ndown_fraction_proxy: double\nvalid_return_stocks: int64\nmean_corr_60d_proxy: double\ncorrelation_stocks: int64\ncorrelation_observations_per_stock: int64\namihud_20d_proxy: double\namihud_20d_median_proxy: double\namihud_20d_stocks: int64\nreconstructed_listed_pool: int64\nobserved_listed_pool: int64\nvalid_return_coverage_reconstructed_pool: double\nunexplained_missing_prices: int64\nbreadth_change_5d_proxy: double\ncorrelation_pool_coverage: double\namihud_pool_coverage: double\nproxy_status: string\nproxy_available_at: timestamp[ns, tz=Asia/Shanghai]\nproxy_availability_basis: string\nhigh_down_fraction_proxy: int8\nhigh_mean_corr_60d_proxy: int8\nhigh_amihud_20d_proxy: int8\nmissing__down_fraction_proxy: bool\nmissing__breadth_change_5d_proxy: bool\nmissing__mean_corr_60d_proxy: bool\nmissing__amihud_20d_proxy: bool\nmissing__amihud_20d_median_proxy: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 14736"
+    },
+    {
+      "path": "data/research_v2/market_observations_daily.parquet",
+      "bytes": 1242159,
+      "sha256": "e1dbe7c8a94e1ca0a632ffc8d2fe4b9177be575ea584249f9cf97ae67d5a9f53",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nindex_code: string\nopen: double\nhigh: double\nlow: double\nclose: double\npre_close: double\nchange: double\npct_chg: double\nvol: double\namount: double\nsource_row_hash: string\nsource_batch_id: string\nsource_ingested_at: timestamp[us, tz=Asia/Shanghai]\nsource_available_at: timestamp[us, tz=Asia/Shanghai]\namount_cny: double\nresearch_available_at: timestamp[ns, tz=Asia/Shanghai]\navailability_basis: string\nbasic_raw_total_mv: double\nbasic_raw_float_mv: double\nbasic_raw_total_share: double\nbasic_raw_float_share: double\nbasic_raw_free_share: double\nbasic_raw_turnover_rate: double\nbasic_raw_turnover_rate_f: double\nbasic_raw_pe: double\nbasic_raw_pe_ttm: double\nbasic_raw_pb: double\nbasic_source_available_at: timestamp[ns, tz=Asia/Shanghai]\nbasic_source_row_hash: string\nbasic_observation_date: timestamp[ns]\nbasic_research_available_at: timestamp[ns, tz=Asia/Shanghai]\nbasic_availability_basis: string\nprotocol_version: string\nlog_return: double\nret_5d: double\nvol_5d: double\nret_20d: double\nvol_20d: double\nret_60d: double\nvol_60d: double\ndownside_vol_20d: double\nnegative_return_fraction_20d: double\nworst_daily_return_20d: double\nmdd_20d: double\ncurrent_drawdown_20d: double\nmdd_60d: double\ncurrent_drawdown_60d: double\namount_ma20: double\namount_ratio_5_20: double\namount_ratio_missing_reason: string\nturnover_rate_lag1: double\nturnover_rate_f_lag1: double\npe_lag1: double\npe_ttm_lag1: double\npb_lag1: double\ntotal_mv_lag1: double\nfloat_mv_lag1: double\ntotal_share_lag1: double\nfloat_share_lag1: double\nfree_share_lag1: double\nturnover_change_5d: double\nturnover_change_20d: double\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 8873"
+    },
+    {
+      "path": "data/research_v2/prediction_targets_weekly.parquet",
+      "bytes": 85809,
+      "sha256": "8332a139034d5dbdf24fc59a261e2fc7be016a7fd454097a493fefde1e53adc7",
+      "tracked": true,
+      "rows": 1797,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nhorizon: int64\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nlabel_start: timestamp[ns]\nlabel_end: timestamp[ns]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\nhorizon_complete: bool\ntime_role: string\nprotocol_version: string\nthreshold_version: string\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nreference_period_realtime_eligible: bool\ncombined_risk_set: bool\ncombined_target_valid: bool\ny_new_episode_next20: int8\nrisk_set: bool\ntarget_valid: bool\nexclusion_reason: string\nnext_event_onset_type: string\nvol_risk_set: bool\nvol_target_valid: bool\ny_new_vol_episode_next20: int8\ndrawdown_risk_set: bool\ndrawdown_target_valid: bool\ny_new_drawdown_episode_next20: int8\ny_new_episode_next5: int8\ny_new_vol_episode_next5: int8\ny_new_drawdown_episode_next5: int8\ny_new_episode_next40: int8\ny_new_vol_episode_next40: int8\ny_new_drawdown_episode_next40: int8\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 5040"
+    },
+    {
+      "path": "data/research_v2/risk_episodes.parquet",
+      "bytes": 22033,
+      "sha256": "71607bb815c1a646b73531362158ff15be1bfdee46190fe2814674c6bdbe852b",
+      "tracked": true,
+      "rows": 67,
+      "schema": "episode_id: string\ndimension: string\nobservation_start_date: timestamp[ns]\nonset_date: timestamp[ns]\nlast_stress_date: timestamp[ns]\nexit_confirm_date: timestamp[ns]\nleft_censored: bool\nright_censored: bool\ninterrupted_by_unknown: bool\nstart_position: int64\nend_position: int64\nstress_days: int64\nretrospective_duration_days: double\nretrospective_mdd: double\nretrospective_peak_type: string\nonset_type: string\nprotocol_version: string\nthreshold_version: string\nfull_20d_lead_window: bool\nweekly_at_risk_opportunities_20d: double\nhas_early_warning_opportunity_20d: bool\nfull_5d_lead_window: bool\nweekly_at_risk_opportunities_5d: double\nhas_early_warning_opportunity_5d: bool\nfull_40d_lead_window: bool\nweekly_at_risk_opportunities_40d: double\nhas_early_warning_opportunity_40d: bool\nonset_period: string\ncrosses_evaluation_boundary: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4129"
+    },
+    {
+      "path": "data/research_v2/sample_to_event.parquet",
+      "bytes": 13041,
+      "sha256": "7e1ee1c0192763a3f637fda81b591f8d675d8e45950afcc464360737ac8e1cad",
+      "tracked": true,
+      "rows": 903,
+      "schema": "sample_id: string\nhorizon: int64\ndimension: string\nepisode_id: string\nonset_date: timestamp[ns]\nlead_to_trigger: int64\nat_risk_at_prediction: bool\nonset_type: string\ncurrent_drawdown_at_prediction: double\nloss_since_future_onset_at_prediction: double\nloss_since_onset_reason: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1555"
+    },
+    {
+      "path": "data/research_v2/sensitivity/exit10/prediction_targets_weekly.parquet",
+      "bytes": 60551,
+      "sha256": "da7d52d7cb31bc5eb1ecb8420a4c12887a2a32255aeb823cb5d6780f49aa81ea",
+      "tracked": true,
+      "rows": 599,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nhorizon: int64\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nlabel_start: timestamp[ns]\nlabel_end: timestamp[ns]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\nhorizon_complete: bool\ntime_role: string\nprotocol_version: string\nthreshold_version: string\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nreference_period_realtime_eligible: bool\ncombined_risk_set: bool\ncombined_target_valid: bool\ny_new_episode_next20: int8\nrisk_set: bool\ntarget_valid: bool\nexclusion_reason: string\nnext_event_onset_type: string\nvol_risk_set: bool\nvol_target_valid: bool\ny_new_vol_episode_next20: int8\ndrawdown_risk_set: bool\ndrawdown_target_valid: bool\ny_new_drawdown_episode_next20: int8\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4184"
+    },
+    {
+      "path": "data/research_v2/sensitivity/exit10/risk_episodes.parquet",
+      "bytes": 14293,
+      "sha256": "72f84c256e069b8f410cd1f6cdd013e1e481a435bfdeed8296fb779b622c5265",
+      "tracked": true,
+      "rows": 61,
+      "schema": "episode_id: string\ndimension: string\nobservation_start_date: timestamp[ns]\nonset_date: timestamp[ns]\nlast_stress_date: timestamp[ns]\nexit_confirm_date: timestamp[ns]\nleft_censored: bool\nright_censored: bool\ninterrupted_by_unknown: bool\nstart_position: int64\nend_position: int64\nstress_days: int64\nretrospective_duration_days: double\nretrospective_mdd: double\nretrospective_peak_type: string\nonset_type: string\nprotocol_version: string\nthreshold_version: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2467"
+    },
+    {
+      "path": "data/research_v2/sensitivity/exit10/state_labels_daily.parquet",
+      "bytes": 62966,
+      "sha256": "c0661b5b3cad9d8bdcf9951d5a955695bdbb2a2c53e7e7f4314a29bf608a330e",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nvalid_state: bool\nV: int8\nD: int8\nstate_id: int8\nstate_name: string\nraw_stress: int8\nthreshold_version: string\nprotocol_version: string\ncombined_episode_active: double\ncombined_risk_set_known: bool\ncombined_risk_set: bool\ncombined_episode_id: string\ncombined_onset_today: bool\ncombined_exit_today: bool\ncombined_normal_run: int64\ncombined_elapsed_episode_days: double\ncombined_days_since_known_onset: double\nvol_episode_active: double\nvol_risk_set_known: bool\nvol_risk_set: bool\nvol_episode_id: string\nvol_onset_today: bool\nvol_exit_today: bool\nvol_normal_run: int64\nvol_elapsed_episode_days: double\nvol_days_since_known_onset: double\ndrawdown_episode_active: double\ndrawdown_risk_set_known: bool\ndrawdown_risk_set: bool\ndrawdown_episode_id: string\ndrawdown_onset_today: bool\ndrawdown_exit_today: bool\ndrawdown_normal_run: int64\ndrawdown_elapsed_episode_days: double\ndrawdown_days_since_known_onset: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4883"
+    },
+    {
+      "path": "data/research_v2/sensitivity/exit3/prediction_targets_weekly.parquet",
+      "bytes": 60593,
+      "sha256": "7ef512143f3288aee1a21c6ddff150a1c2b02f71399fc133868aef4a270470a7",
+      "tracked": true,
+      "rows": 599,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nhorizon: int64\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nlabel_start: timestamp[ns]\nlabel_end: timestamp[ns]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\nhorizon_complete: bool\ntime_role: string\nprotocol_version: string\nthreshold_version: string\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nreference_period_realtime_eligible: bool\ncombined_risk_set: bool\ncombined_target_valid: bool\ny_new_episode_next20: int8\nrisk_set: bool\ntarget_valid: bool\nexclusion_reason: string\nnext_event_onset_type: string\nvol_risk_set: bool\nvol_target_valid: bool\ny_new_vol_episode_next20: int8\ndrawdown_risk_set: bool\ndrawdown_target_valid: bool\ny_new_drawdown_episode_next20: int8\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4184"
+    },
+    {
+      "path": "data/research_v2/sensitivity/exit3/risk_episodes.parquet",
+      "bytes": 14571,
+      "sha256": "3e06ee658b63b01444c3bd245538570f77d84326a232193c93b9756e4f479508",
+      "tracked": true,
+      "rows": 69,
+      "schema": "episode_id: string\ndimension: string\nobservation_start_date: timestamp[ns]\nonset_date: timestamp[ns]\nlast_stress_date: timestamp[ns]\nexit_confirm_date: timestamp[ns]\nleft_censored: bool\nright_censored: bool\ninterrupted_by_unknown: bool\nstart_position: int64\nend_position: int64\nstress_days: int64\nretrospective_duration_days: double\nretrospective_mdd: double\nretrospective_peak_type: string\nonset_type: string\nprotocol_version: string\nthreshold_version: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2467"
+    },
+    {
+      "path": "data/research_v2/sensitivity/exit3/state_labels_daily.parquet",
+      "bytes": 63783,
+      "sha256": "71184581a0989ea4fe7dcae711f42b8a7331edb187859a1edc42ab003f4ddeb7",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nvalid_state: bool\nV: int8\nD: int8\nstate_id: int8\nstate_name: string\nraw_stress: int8\nthreshold_version: string\nprotocol_version: string\ncombined_episode_active: double\ncombined_risk_set_known: bool\ncombined_risk_set: bool\ncombined_episode_id: string\ncombined_onset_today: bool\ncombined_exit_today: bool\ncombined_normal_run: int64\ncombined_elapsed_episode_days: double\ncombined_days_since_known_onset: double\nvol_episode_active: double\nvol_risk_set_known: bool\nvol_risk_set: bool\nvol_episode_id: string\nvol_onset_today: bool\nvol_exit_today: bool\nvol_normal_run: int64\nvol_elapsed_episode_days: double\nvol_days_since_known_onset: double\ndrawdown_episode_active: double\ndrawdown_risk_set_known: bool\ndrawdown_risk_set: bool\ndrawdown_episode_id: string\ndrawdown_onset_today: bool\ndrawdown_exit_today: bool\ndrawdown_normal_run: int64\ndrawdown_elapsed_episode_days: double\ndrawdown_days_since_known_onset: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4883"
+    },
+    {
+      "path": "data/research_v2/sensitivity/q75/prediction_targets_weekly.parquet",
+      "bytes": 60655,
+      "sha256": "d3b5f1a975080ca5ac8551bc037fb3241e28ea6e25edc829788510cba034dbc0",
+      "tracked": true,
+      "rows": 599,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nhorizon: int64\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nlabel_start: timestamp[ns]\nlabel_end: timestamp[ns]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\nhorizon_complete: bool\ntime_role: string\nprotocol_version: string\nthreshold_version: string\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nreference_period_realtime_eligible: bool\ncombined_risk_set: bool\ncombined_target_valid: bool\ny_new_episode_next20: int8\nrisk_set: bool\ntarget_valid: bool\nexclusion_reason: string\nnext_event_onset_type: string\nvol_risk_set: bool\nvol_target_valid: bool\ny_new_vol_episode_next20: int8\ndrawdown_risk_set: bool\ndrawdown_target_valid: bool\ny_new_drawdown_episode_next20: int8\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4184"
+    },
+    {
+      "path": "data/research_v2/sensitivity/q75/risk_episodes.parquet",
+      "bytes": 15027,
+      "sha256": "69f8a08da8d14afdc854d06bd2ff961257efc5342a81850a7552aa2f47d5a389",
+      "tracked": true,
+      "rows": 81,
+      "schema": "episode_id: string\ndimension: string\nobservation_start_date: timestamp[ns]\nonset_date: timestamp[ns]\nlast_stress_date: timestamp[ns]\nexit_confirm_date: timestamp[ns]\nleft_censored: bool\nright_censored: bool\ninterrupted_by_unknown: bool\nstart_position: int64\nend_position: int64\nstress_days: int64\nretrospective_duration_days: double\nretrospective_mdd: double\nretrospective_peak_type: string\nonset_type: string\nprotocol_version: string\nthreshold_version: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2467"
+    },
+    {
+      "path": "data/research_v2/sensitivity/q75/state_labels_daily.parquet",
+      "bytes": 62109,
+      "sha256": "bb1df99b703a1c500fa9d0fb1f648f6c3c7c779692214f7b413110932eb2025e",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nvalid_state: bool\nV: int8\nD: int8\nstate_id: int8\nstate_name: string\nraw_stress: int8\nthreshold_version: string\nprotocol_version: string\ncombined_episode_active: double\ncombined_risk_set_known: bool\ncombined_risk_set: bool\ncombined_episode_id: string\ncombined_onset_today: bool\ncombined_exit_today: bool\ncombined_normal_run: int64\ncombined_elapsed_episode_days: double\ncombined_days_since_known_onset: double\nvol_episode_active: double\nvol_risk_set_known: bool\nvol_risk_set: bool\nvol_episode_id: string\nvol_onset_today: bool\nvol_exit_today: bool\nvol_normal_run: int64\nvol_elapsed_episode_days: double\nvol_days_since_known_onset: double\ndrawdown_episode_active: double\ndrawdown_risk_set_known: bool\ndrawdown_risk_set: bool\ndrawdown_episode_id: string\ndrawdown_onset_today: bool\ndrawdown_exit_today: bool\ndrawdown_normal_run: int64\ndrawdown_elapsed_episode_days: double\ndrawdown_days_since_known_onset: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4883"
+    },
+    {
+      "path": "data/research_v2/sensitivity/q85/prediction_targets_weekly.parquet",
+      "bytes": 60537,
+      "sha256": "46d4137f8dca836b04b5a86575f3c7020b45576259f8d4fc24fda7108c314ed8",
+      "tracked": true,
+      "rows": 599,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nhorizon: int64\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nlabel_start: timestamp[ns]\nlabel_end: timestamp[ns]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\nhorizon_complete: bool\ntime_role: string\nprotocol_version: string\nthreshold_version: string\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nreference_period_realtime_eligible: bool\ncombined_risk_set: bool\ncombined_target_valid: bool\ny_new_episode_next20: int8\nrisk_set: bool\ntarget_valid: bool\nexclusion_reason: string\nnext_event_onset_type: string\nvol_risk_set: bool\nvol_target_valid: bool\ny_new_vol_episode_next20: int8\ndrawdown_risk_set: bool\ndrawdown_target_valid: bool\ny_new_drawdown_episode_next20: int8\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4184"
+    },
+    {
+      "path": "data/research_v2/sensitivity/q85/risk_episodes.parquet",
+      "bytes": 13902,
+      "sha256": "a9def40838d2b4774501a4a69f698b2dd1a3e82568db1e406995fe462bd5f694",
+      "tracked": true,
+      "rows": 53,
+      "schema": "episode_id: string\ndimension: string\nobservation_start_date: timestamp[ns]\nonset_date: timestamp[ns]\nlast_stress_date: timestamp[ns]\nexit_confirm_date: timestamp[ns]\nleft_censored: bool\nright_censored: bool\ninterrupted_by_unknown: bool\nstart_position: int64\nend_position: int64\nstress_days: int64\nretrospective_duration_days: double\nretrospective_mdd: double\nretrospective_peak_type: string\nonset_type: string\nprotocol_version: string\nthreshold_version: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2467"
+    },
+    {
+      "path": "data/research_v2/sensitivity/q85/state_labels_daily.parquet",
+      "bytes": 64404,
+      "sha256": "b8b850ccb8a3157c434c6fcb37ddaebca9a421d84bef1d154a041a70224196bc",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nvalid_state: bool\nV: int8\nD: int8\nstate_id: int8\nstate_name: string\nraw_stress: int8\nthreshold_version: string\nprotocol_version: string\ncombined_episode_active: double\ncombined_risk_set_known: bool\ncombined_risk_set: bool\ncombined_episode_id: string\ncombined_onset_today: bool\ncombined_exit_today: bool\ncombined_normal_run: int64\ncombined_elapsed_episode_days: double\ncombined_days_since_known_onset: double\nvol_episode_active: double\nvol_risk_set_known: bool\nvol_risk_set: bool\nvol_episode_id: string\nvol_onset_today: bool\nvol_exit_today: bool\nvol_normal_run: int64\nvol_elapsed_episode_days: double\nvol_days_since_known_onset: double\ndrawdown_episode_active: double\ndrawdown_risk_set_known: bool\ndrawdown_risk_set: bool\ndrawdown_episode_id: string\ndrawdown_onset_today: bool\ndrawdown_exit_today: bool\ndrawdown_normal_run: int64\ndrawdown_elapsed_episode_days: double\ndrawdown_days_since_known_onset: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4883"
+    },
+    {
+      "path": "data/research_v2/sensitivity/terminal_drawdown/prediction_targets_weekly.parquet",
+      "bytes": 60762,
+      "sha256": "e3f5be3abe3afae364bd7db99fda4beec4fa73da5a64c40dcfd5d4fc70412d3b",
+      "tracked": true,
+      "rows": 599,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nhorizon: int64\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nlabel_start: timestamp[ns]\nlabel_end: timestamp[ns]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\nhorizon_complete: bool\ntime_role: string\nprotocol_version: string\nthreshold_version: string\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nreference_period_realtime_eligible: bool\ncombined_risk_set: bool\ncombined_target_valid: bool\ny_new_episode_next20: int8\nrisk_set: bool\ntarget_valid: bool\nexclusion_reason: string\nnext_event_onset_type: string\nvol_risk_set: bool\nvol_target_valid: bool\ny_new_vol_episode_next20: int8\ndrawdown_risk_set: bool\ndrawdown_target_valid: bool\ny_new_drawdown_episode_next20: int8\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4184"
+    },
+    {
+      "path": "data/research_v2/sensitivity/terminal_drawdown/risk_episodes.parquet",
+      "bytes": 16344,
+      "sha256": "69de460a841ca4d31f796125b0f1b89b68c371f8d0f225b26c6160e801a2605d",
+      "tracked": true,
+      "rows": 121,
+      "schema": "episode_id: string\ndimension: string\nobservation_start_date: timestamp[ns]\nonset_date: timestamp[ns]\nlast_stress_date: timestamp[ns]\nexit_confirm_date: timestamp[ns]\nleft_censored: bool\nright_censored: bool\ninterrupted_by_unknown: bool\nstart_position: int64\nend_position: int64\nstress_days: int64\nretrospective_duration_days: double\nretrospective_mdd: double\nretrospective_peak_type: string\nonset_type: string\nprotocol_version: string\nthreshold_version: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2467"
+    },
+    {
+      "path": "data/research_v2/sensitivity/terminal_drawdown/state_labels_daily.parquet",
+      "bytes": 60419,
+      "sha256": "517da6b2bbdd0f71485b07e5f71380bb4e951da43f207438158c59129b8cf4cd",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nvalid_state: bool\nV: int8\nD: int8\nstate_id: int8\nstate_name: string\nraw_stress: int8\nthreshold_version: string\nprotocol_version: string\ncombined_episode_active: double\ncombined_risk_set_known: bool\ncombined_risk_set: bool\ncombined_episode_id: string\ncombined_onset_today: bool\ncombined_exit_today: bool\ncombined_normal_run: int64\ncombined_elapsed_episode_days: double\ncombined_days_since_known_onset: double\nvol_episode_active: double\nvol_risk_set_known: bool\nvol_risk_set: bool\nvol_episode_id: string\nvol_onset_today: bool\nvol_exit_today: bool\nvol_normal_run: int64\nvol_elapsed_episode_days: double\nvol_days_since_known_onset: double\ndrawdown_episode_active: double\ndrawdown_risk_set_known: bool\ndrawdown_risk_set: bool\ndrawdown_episode_id: string\ndrawdown_onset_today: bool\ndrawdown_exit_today: bool\ndrawdown_normal_run: int64\ndrawdown_elapsed_episode_days: double\ndrawdown_days_since_known_onset: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4883"
+    },
+    {
+      "path": "data/research_v2/state_labels_daily.parquet",
+      "bytes": 63688,
+      "sha256": "900c71e877aa50a9a2189fbf08913a9f769329497be0f41cc91d8919c7985255",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\nvalid_state: bool\nV: int8\nD: int8\nstate_id: int8\nstate_name: string\nraw_stress: int8\nthreshold_version: string\nprotocol_version: string\ncombined_episode_active: double\ncombined_risk_set_known: bool\ncombined_risk_set: bool\ncombined_episode_id: string\ncombined_onset_today: bool\ncombined_exit_today: bool\ncombined_normal_run: int64\ncombined_elapsed_episode_days: double\ncombined_days_since_known_onset: double\nvol_episode_active: double\nvol_risk_set_known: bool\nvol_risk_set: bool\nvol_episode_id: string\nvol_onset_today: bool\nvol_exit_today: bool\nvol_normal_run: int64\nvol_elapsed_episode_days: double\nvol_days_since_known_onset: double\ndrawdown_episode_active: double\ndrawdown_risk_set_known: bool\ndrawdown_risk_set: bool\ndrawdown_episode_id: string\ndrawdown_onset_today: bool\ndrawdown_exit_today: bool\ndrawdown_normal_run: int64\ndrawdown_elapsed_episode_days: double\ndrawdown_days_since_known_onset: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 4883"
+    },
+    {
+      "path": "data/research_v2/stock_market_proxies_daily.parquet",
+      "bytes": 287634,
+      "sha256": "58b8c23a598bee501de53e16a447e6b03a9b57df1d706d2021d581e7cfa1179f",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\ndown_fraction_proxy: double\nvalid_return_stocks: int64\nmean_corr_60d_proxy: double\ncorrelation_stocks: int64\ncorrelation_observations_per_stock: int64\namihud_20d_proxy: double\namihud_20d_median_proxy: double\namihud_20d_stocks: int64\nreconstructed_listed_pool: int64\nobserved_listed_pool: int64\nvalid_return_coverage_reconstructed_pool: double\nunexplained_missing_prices: int64\nbreadth_change_5d_proxy: double\ncorrelation_pool_coverage: double\namihud_pool_coverage: double\nproxy_status: string\nproxy_available_at: timestamp[ns, tz=Asia/Shanghai]\nproxy_availability_basis: string\nhigh_down_fraction_proxy: int8\nhigh_mean_corr_60d_proxy: int8\nhigh_amihud_20d_proxy: int8\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 3252"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2015.parquet",
+      "bytes": 8363678,
+      "sha256": "12bfe6f170cab9996de1a0c75399836a827110fe92cd12cf2600354cbae632ac",
+      "tracked": true,
+      "rows": 562783,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2016.parquet",
+      "bytes": 9090616,
+      "sha256": "104679fe60f58add81b1c89582c9689ba9179235cace020525551dcd1b52f5c5",
+      "tracked": true,
+      "rows": 638750,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2017.parquet",
+      "bytes": 10110087,
+      "sha256": "903c6a4679499925c2e1ca8cd57a9b724c65b25e4662b479aeb5a5eeec143dd8",
+      "tracked": true,
+      "rows": 740555,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2018.parquet",
+      "bytes": 10772426,
+      "sha256": "8cd98d93ae463635521e305caba912b335a7bc30cd401beb0b8bd5c936994d49",
+      "tracked": true,
+      "rows": 815216,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2019.parquet",
+      "bytes": 11390966,
+      "sha256": "6c8331c2693421703e7ee7371b3a5055611f20aff52cf626dfc20876125af20f",
+      "tracked": true,
+      "rows": 883703,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2020.parquet",
+      "bytes": 12644343,
+      "sha256": "6055d20506dc5f79a183917f9544193c11a542aea1dcf5da91a35566c2b76c32",
+      "tracked": true,
+      "rows": 944522,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2021.parquet",
+      "bytes": 14382253,
+      "sha256": "2409612652af8e612104aa881bbfefeb88059ecf45f1fc74edded7ce3cf69b32",
+      "tracked": true,
+      "rows": 1057374,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2022.parquet",
+      "bytes": 16026179,
+      "sha256": "12628b355eab59146122f8ff2a0b0f916fd3a15ebede549272aed93218d5cad5",
+      "tracked": true,
+      "rows": 1145095,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2023.parquet",
+      "bytes": 16645359,
+      "sha256": "1b70660d1cf6792824e2aff624e722e927640f913fc2bdd02e853fdeaef0cc2d",
+      "tracked": true,
+      "rows": 1208600,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2024.parquet",
+      "bytes": 17158047,
+      "sha256": "bf18b61eecf1ee0782df642f40c179f04bd570cbfd15da3fe681d0456fe77336",
+      "tracked": true,
+      "rows": 1232520,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2025.parquet",
+      "bytes": 17497484,
+      "sha256": "535fa6f85476e4b861848d5faee9813c99a86e8ad3bf3b275156a96644e1b77f",
+      "tracked": true,
+      "rows": 1247168,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "data/research_v2/stock_proxy_inputs/2026.parquet",
+      "bytes": 12929170,
+      "sha256": "8c8ee482f45b830c84104d41a7132795f1a5577b4ed94da83df5072b3902efd6",
+      "tracked": true,
+      "rows": 912529,
+      "schema": "ts_code: string\ntrade_date: string\nadjusted_return: double\namihud_daily: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 583"
+    },
+    {
+      "path": "config/research_v2/dimension_label_specs.json",
+      "bytes": 470,
+      "sha256": "eab7efa3af4ae2add317f1b8933ce80f4946f3cd3e0ebbe463db239fbc6bfa5f",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/feature_specs.json",
+      "bytes": 50323,
+      "sha256": "3224b4bbb07f13ebf541f5085c95a9b09541a38d9b792436f49c77774b71642c",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/feature_whitelist.json",
+      "bytes": 2165,
+      "sha256": "988c563ea9e1bb75790c50991654e0f30f928a7b237e7764f847ab687515cbc0",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/label_specs.json",
+      "bytes": 43083,
+      "sha256": "4f926a23b524c6bc39db62cf81c0a62e9ff05aa8c3845ef4f0551c165db6bd20",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/paired_prediction_schema.json",
+      "bytes": 1204,
+      "sha256": "9d13f23020108342c265b4822c0755b77313d55f2aed61c6beae995515040dc2",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/protocol_hash.json",
+      "bytes": 178,
+      "sha256": "df621744e886a97bd9060e3eb1cca94a372dd709401ca9e202f9c5993de08555",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/proxy_thresholds.json",
+      "bytes": 462,
+      "sha256": "66d9e2d259ee344416278a7de59fe05d4c3a44f869ff1bb83637196cab5e220e",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/research_config.json",
+      "bytes": 3287,
+      "sha256": "ae00c1e7a1b67f36a21ed5b0cb7f7ff6bebb6ca82badd22e03cfbdb484a17ff4",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/sensitivity/exit10.json",
+      "bytes": 574,
+      "sha256": "97e652f591e118e7c5297a4b2c6a67b4a694f225219b53ca225df9e259c978b0",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/sensitivity/exit3.json",
+      "bytes": 572,
+      "sha256": "a3daeb4586c080e172b75990bf40e533ab77607ac4e15336cc8d674304294748",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/sensitivity/h40.json",
+      "bytes": 562,
+      "sha256": "682ee613b0859a839d36f2d173630fa6aefb666bc5cf4486f94f26ed182ddd2d",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/sensitivity/h5.json",
+      "bytes": 560,
+      "sha256": "bb73c14acfeebd09763394df0dabf38e13407e1261bcb531d17e3b4e3a9fb4cd",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/sensitivity/q75.json",
+      "bytes": 567,
+      "sha256": "539f383674d2ca4f2ec387ee26170756199216647aeec04f5d15b616474342ec",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/sensitivity/q85.json",
+      "bytes": 566,
+      "sha256": "36c6b7ac8fe01e645e2d2369cb2405e3a87f9bee698d04e5c3f17eeac856f5a0",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/sensitivity/terminal_drawdown.json",
+      "bytes": 614,
+      "sha256": "0e7ae092c0ce5b0af5a9d10260144fd6d82835088938a74f8cae35263822089a",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/thresholds.json",
+      "bytes": 411,
+      "sha256": "6b406ab8f9c33be228660308e51c4e955c7810e3b04fcf3adae8b45b26705a7a",
+      "tracked": true
+    },
+    {
+      "path": "config/research_v2/time_splits.json",
+      "bytes": 462,
+      "sha256": "9805d2d27966ec4a1f248ac9ff4e8257107a223097e8a296dbed7b67ec7db363",
+      "tracked": true
+    },
+    {
+      "path": "scripts/research_v2/common.py",
+      "bytes": 12555,
+      "sha256": "212a1e53743cb47709fb22628477d6d1e05a8a9f51077fbf032ececf4c6f56d1",
+      "tracked": true
+    },
+    {
+      "path": "scripts/research_v2/core.py",
+      "bytes": 19824,
+      "sha256": "910e8df125b47821b19be9bb4fd740a895c7335227c85d42d4eb88c7d21267db",
+      "tracked": true
+    },
+    {
+      "path": "scripts/research_v2/extensions.py",
+      "bytes": 13935,
+      "sha256": "dca8274611824519eb1a33344fe1a8360f023b430128bf2db55b79ca0975474d",
+      "tracked": true
+    },
+    {
+      "path": "scripts/research_v2/reports.py",
+      "bytes": 41764,
+      "sha256": "93f49103416cbc4f498385dd5c820e2d0dff0d4200c4b68590aae42102fd5758",
+      "tracked": true
+    },
+    {
+      "path": "scripts/research_v2/run_pipeline.py",
+      "bytes": 6847,
+      "sha256": "9ac61649d4bb80000c1a7b390b9a8ce8cf68ac0ec45505267aeea8ed48b6c613",
+      "tracked": true
+    },
+    {
+      "path": "scripts/research_v2/validation.py",
+      "bytes": 21937,
+      "sha256": "4c05a67655fba9c1e0411ad41287b2a07333202a60958eea67d933476a909850",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/available_code_mapping.parquet",
+      "bytes": 7580,
+      "sha256": "1511aeae545b39868ac783af59d337e9dfcb3823d6d004fb56bdbe47aad01f70",
+      "tracked": true,
+      "rows": 248,
+      "schema": "name: string\no_code: string\nn_code: string\nlist_date: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 543"
+    },
+    {
+      "path": "audit/research_v2/boundary_purged.parquet",
+      "bytes": 11552,
+      "sha256": "7dbabe703a71d131293cbac54ebd96ca1f684fe7f56b03d3b489e28fbe614c2d",
+      "tracked": true,
+      "rows": 628,
+      "schema": "fold_id: string\nsample_id: string\nhorizon: int64\nrole: string\nreason: string\nfit_cutoff: timestamp[ns, tz=Asia/Shanghai]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\ntarget_valid: bool\neligible_for_fit: bool\nparameter_selection_allowed: bool\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1379"
+    },
+    {
+      "path": "audit/research_v2/checkpoint_core.json",
+      "bytes": 1994,
+      "sha256": "b1b38986567b1cb742e133cb4e25823f5ad66be82e1e6fcaf6d273a1d29eee9d",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/checkpoint_extensions.json",
+      "bytes": 2499,
+      "sha256": "ce7b36a0e50e515b22b06aa9aa74f41d81f3d86d24fdeeeefd4713633350ab0c",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/delivery_artifact_manifest.json",
+      "bytes": 19994,
+      "sha256": "7c59b7a0239415a0fd25042ab00ec53fc704ffb652458ff7f3a412c89ac98026",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/dependency_checks.json",
+      "bytes": 296,
+      "sha256": "932ba320bb8b741bbae75730be583b7dd14b0e616712ded9a852c430d94b800c",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/dimension_availability.json",
+      "bytes": 1138,
+      "sha256": "9d8ad311f5e21e5be2cc9ad556ea0ac47525f1b7a59725138321635615c22406",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/environment.json",
+      "bytes": 115,
+      "sha256": "f31869ff53f2e871f8f35333a4b6a51669a92db8f9d17728732760d0493ed5ca",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/field_dictionary.csv",
+      "bytes": 177060,
+      "sha256": "788cf37638da864b6b6f7078956025b67b56a75b5c188572743f99204c553f03",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/fold_manifest.parquet",
+      "bytes": 6117,
+      "sha256": "a334c51cb832ec9a7cf8bb13415c839f85e79c20fdd0a96611384ff26509010f",
+      "tracked": true,
+      "rows": 48,
+      "schema": "fold_id: string\nevaluation_start: timestamp[ns]\nevaluation_end: timestamp[ns]\nfit_cutoff: timestamp[ns, tz=Asia/Shanghai]\nevaluation_release_cutoff: timestamp[ns, tz=Asia/Shanghai]\nkind: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 935"
+    },
+    {
+      "path": "audit/research_v2/independent_stock_boundary_checks.json",
+      "bytes": 6087,
+      "sha256": "a06e8683e9ad05d0ba3005ffef45d6e7547caa4213d6496389cd010280db1da3",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/logs/pipeline.jsonl",
+      "bytes": 26209,
+      "sha256": "fc3ad820a58373af9a3ad58160e8e76ab64661a2ebfeca88013b77fbbeba4b6b",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/logs/unit_tests.log",
+      "bytes": 103,
+      "sha256": "7e4d10aef55d7a7b26833ecd871682cafa4f6778a4736f7756c04122d8c107f7",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/output_coverage.csv",
+      "bytes": 1052,
+      "sha256": "52b7f65850e65e1e381f6e29788facc4686c99715006bd0273e72ef1b94fbbd7",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/output_hashes.json",
+      "bytes": 7130,
+      "sha256": "367bec9a364c0e5f4e42df84e496071246fd9d47229fe572ce7a79a128ca5ee4",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/queries.jsonl",
+      "bytes": 1272491,
+      "sha256": "0964d832bf5a44e1f453a874a8023b22f88d6865edb7eed1fa83c0ab2c1bce87",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/reference_development_statistics.json",
+      "bytes": 6625,
+      "sha256": "5766770d403a8d60b944a320f7deb8eba37a5d303593862922accdae0f827514",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/research_manifest.json",
+      "bytes": 697,
+      "sha256": "ad1d479aa50ca88a1f52f3bc449543b7c6b3915c12dd86842286438074b3c72b",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/return_consistency.parquet",
+      "bytes": 49262,
+      "sha256": "504a4697de047fac4cb48503fba6b690b503fc8456f558ea6191ce792a2702ba",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "date: timestamp[ns]\npre_close_minus_prior_close: double\nsource_pct_minus_simple_pct: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 520"
+    },
+    {
+      "path": "audit/research_v2/sample_count_chain.json",
+      "bytes": 1476,
+      "sha256": "63c29ed308b45e1dcb4500afe7943ccb5614013a13c823cd13b52574d13e7c23",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/sample_exclusions.parquet",
+      "bytes": 38998,
+      "sha256": "b8bbb1fa8a530b353b5b931b3eca5c5a9240747305db7aae7c2889304876ff1b",
+      "tracked": true,
+      "rows": 447,
+      "schema": "sample_id: string\nindex_code: string\nasof_date: timestamp[ns]\nasof_time: timestamp[ns, tz=Asia/Shanghai]\nhorizon: int64\nfeature_start: timestamp[ns]\nfeature_end: timestamp[ns]\nfeature_available_at: timestamp[ns, tz=Asia/Shanghai]\nlabel_start: timestamp[ns]\nlabel_end: timestamp[ns]\nlabel_available_at: timestamp[ns, tz=Asia/Shanghai]\nhorizon_complete: bool\ntime_role: string\nprotocol_version: string\nthreshold_version: string\nmeasurement_standard_available_at: timestamp[ns, tz=Asia/Shanghai]\nreference_period_realtime_eligible: bool\ncombined_risk_set: bool\ncombined_target_valid: bool\ny_new_episode_next20: int8\nrisk_set: bool\ntarget_valid: bool\nexclusion_reason: string\nnext_event_onset_type: null\nvol_risk_set: bool\nvol_target_valid: bool\ny_new_vol_episode_next20: int8\ndrawdown_risk_set: bool\ndrawdown_target_valid: bool\ny_new_drawdown_episode_next20: int8\ny_new_episode_next5: int8\ny_new_vol_episode_next5: int8\ny_new_drawdown_episode_next5: int8\ny_new_episode_next40: int8\ny_new_vol_episode_next40: int8\ny_new_drawdown_episode_next40: int8\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 5038"
+    },
+    {
+      "path": "audit/research_v2/sensitivity_reference_development.json",
+      "bytes": 8230,
+      "sha256": "9cf274fe78a37837cc73b22c65c290910eed9cd0d7e42c92b41ae7724dde18cf",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/source_manifest.json",
+      "bytes": 607324,
+      "sha256": "bd24fb3dd3839b83d68224bb79934e48c979244cfc4c1f1ce39eff26c2ad9d54",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/source_version.json",
+      "bytes": 180,
+      "sha256": "1198bc2b0c50f12c3624c789eb7d335a119ec6f9d757896e290869f9cebef60c",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/sse_calendar.parquet",
+      "bytes": 64990,
+      "sha256": "281b909951afcd940ce31d1027446310e3678ef8670cdad80663b1d5a3d99614",
+      "tracked": true,
+      "rows": 4693,
+      "schema": "exchange: string\ncal_date: string\nis_open: int64\npretrade_date: string\ndate: timestamp[ns]\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 679"
+    },
+    {
+      "path": "audit/research_v2/stock_certification_daily.parquet",
+      "bytes": 88438,
+      "sha256": "faf0505b6fa21ee0cd7a33618a7d8e48d3afc9cfbda2265e93acb6affe4425f9",
+      "tracked": true,
+      "rows": 2850,
+      "schema": "trade_date: string\nreconstructed_listed_pool: int64\nobserved_listed_pool: int64\nmissing_expected_prices: int64\nmissing_with_same_day_suspension: int64\nfactor_only_unexplained: int64\nmissing_price_and_factor_unexplained: int64\nvalid_adjacent_return_stocks: int64\ndate: timestamp[ns]\nvalid_return_coverage_reconstructed_pool: double\nunexplained_missing_prices: int64\nstatus: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1825"
+    },
+    {
+      "path": "audit/research_v2/stock_code_listing_issues.parquet",
+      "bytes": 12291,
+      "sha256": "7450e03068de109f2d4fe9d4bb7a1985f7300284b51f0b0db739027e0f509038",
+      "tracked": true,
+      "rows": 4265,
+      "schema": "ts_code: string\ntrade_date: string\nlist_date: null\ndelist_date: null\nreason: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 675"
+    },
+    {
+      "path": "audit/research_v2/stock_exclusions.parquet",
+      "bytes": 86531,
+      "sha256": "83e0d5aee456ccff9a365ad5c0eb6d491fd0241ddb6bb90d0564b570a34d81d0",
+      "tracked": true,
+      "rows": 24032,
+      "schema": "ts_code: string\ntrade_date: string\nreason: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 439"
+    },
+    {
+      "path": "audit/research_v2/stock_master_scope.parquet",
+      "bytes": 48735,
+      "sha256": "07823b656f8469b028107c36524cec7e5376e18cc49c64828e04541978b19f72",
+      "tracked": true,
+      "rows": 5554,
+      "schema": "ts_code: string\nlist_status: string\nlist_date: string\ndelist_date: string\nexchange: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 685"
+    },
+    {
+      "path": "audit/research_v2/stock_scope_certification.json",
+      "bytes": 1181,
+      "sha256": "a9b15f8eff02d58a37a9e0cd9cd6e39842a056d278cdc23363fdff89e5a3feb8",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/temporary_files.json",
+      "bytes": 270,
+      "sha256": "487919efb57cab7ec69f2cc2dd79ea9224d0ee6d624cd635b4e5ddcca017aec4",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/unit_tests.xml",
+      "bytes": 3136,
+      "sha256": "b6730a31c5a0aaf6fdc256a0de23e9ba664dabf598ca4cf6de463289e4659ddd",
+      "tracked": true
+    },
+    {
+      "path": "audit/research_v2/validation_checks.json",
+      "bytes": 1842,
+      "sha256": "46c94dc6d9cfa15dbea856550da6386339549c1c3c165266026a486bc30faa97",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/heldout/sample_chain.json",
+      "bytes": 688,
+      "sha256": "d277ffe47e4a8e003bc95b42e8674600b6b66bac8b364e1e1c5ddebd50dbba1c",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/heldout/sensitivity_details.json",
+      "bytes": 4081,
+      "sha256": "f56343b1e4b3f194dd0e34cd905a7d84bee58fa3f0cab392326d8c3c11a2f915",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/heldout/state_event_diagnostics.json",
+      "bytes": 3010,
+      "sha256": "aa2391311f65f7a98eaef9395e428f239e0652f0c880aae6651d1703ae32c281",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/label_validation_report.md",
+      "bytes": 6946,
+      "sha256": "5d1d65b4c58a20ae77696e8aa15163e8f4cfa1f0efc65276ca52b474f6118287",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/literature_basis.md",
+      "bytes": 3281,
+      "sha256": "bba49592f3d46f4fcdb9afa6939ac076a4c6df455c8bdbba3c75b1346b0562a4",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/market_data_handoff.md",
+      "bytes": 5881,
+      "sha256": "7d16d9d06434adc77657a1621faff1d5d5aa6761a034284dbef8f14bd19d77e7",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/measurement_protocol.md",
+      "bytes": 6132,
+      "sha256": "2238425f5a88a578ca4b27c3503e0676a81fe78d5e3013ef866adb2db600b4bb",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/protocol_changes.md",
+      "bytes": 2227,
+      "sha256": "92faf49a89e5bbb3c009834448333cd8298f6b04a80df5c04bbcc555a4f02b9d",
+      "tracked": true
+    },
+    {
+      "path": "reports/research_v2/run_summary.md",
+      "bytes": 3308,
+      "sha256": "07210c49f4183d4dd5dbf15de8552a381f327926948ee72bdccc11f2672e51f7",
+      "tracked": true
+    },
+    {
+      "path": "data_raw/cm_dr007_daily.csv",
+      "bytes": 21,
+      "sha256": "8779323af0ad68ce3661e2fa06262d518b74309699c131ac532202dd10897e39",
+      "tracked": true
+    },
+    {
+      "path": "data_raw/cm_lpr_monthly.csv",
+      "bytes": 293,
+      "sha256": "f179a6e05fc7e57e1b016ac196115cc79f184c3a3d054c1ccfb006c201b83597",
+      "tracked": true
+    },
+    {
+      "path": "data_raw/cm_shibor_daily.csv",
+      "bytes": 165675,
+      "sha256": "8b9623ff8354ccb77b7d32aaaf4e63cb78f3f3b482e0d183f0473625ca4ba398",
+      "tracked": true
+    },
+    {
+      "path": "data_raw/em_series.csv",
+      "bytes": 321996,
+      "sha256": "ec39f772219e017f28ee3685651d205e758697ceaa80679211ca0870fccd8ef4",
+      "tracked": true
+    },
+    {
+      "path": "data_raw/nbs_list_items.csv",
+      "bytes": 134915,
+      "sha256": "baae9ce0ad405c5d294a83126f10398328cda4a28f3aa3337a9759e62d26151d",
+      "tracked": true
+    },
+    {
+      "path": "data_raw/nbs_series.csv",
+      "bytes": 69647,
+      "sha256": "140536ccdf7f479bacab0d1bb802d5576f5dd4d3da8055a9323899ad861cb883",
+      "tracked": true
+    },
+    {
+      "path": "data_raw/pboc_series.csv",
+      "bytes": 7194,
+      "sha256": "f15398349f3ec2a727b6c5e23e0aab93edb054303ccf3296bc38f486c418eb4c",
+      "tracked": true
+    },
+    {
+      "path": "deliverables/build_info.json",
+      "bytes": 82,
+      "sha256": "d177253852cbcb29b662be9f858e49edb02c52fbd0c7fc46eaca1f42556c573c",
+      "tracked": true
+    },
+    {
+      "path": "deliverables/crosscheck_official_vs_eastmoney.csv",
+      "bytes": 154,
+      "sha256": "2d417310e58b6bb00616c8e0772b91bac3b71762e280cd128ab20a2251d641c1",
+      "tracked": true
+    },
+    {
+      "path": "deliverables/macro_data_quality.md",
+      "bytes": 6707,
+      "sha256": "22b15107e974ac3d2afc92eb63694e131a6721aeea104a55d76bfa8012b70021",
+      "tracked": true
+    },
+    {
+      "path": "deliverables/macro_metadata.csv",
+      "bytes": 4029,
+      "sha256": "174b48e2aefed0788aebdda73c8e6c194126e2ba2b4244d1f868284429595696",
+      "tracked": true
+    },
+    {
+      "path": "deliverables/macro_raw.csv",
+      "bytes": 4583944,
+      "sha256": "a4670d0369e95ce5928eeca96e8cc635e7c53888b1d11b050487ae2e97bf62b6",
+      "tracked": true
+    },
+    {
+      "path": "deliverables/macro_raw.parquet",
+      "bytes": 387413,
+      "sha256": "956d4cd1d6a7905181d91f789e1c2ffcfbdffe17110f980a5a10705482b1e94e",
+      "tracked": true,
+      "rows": 12417,
+      "schema": "row_id: large_string\nseries_id: large_string\nseries_name: large_string\nobservation_period: large_string\nperiod_end: large_string\nvalue: double\nunit: large_string\nmeasure_type: large_string\nfrequency: large_string\nrelease_date: large_string\nrelease_time: large_string\navailable_at: large_string\nsource_name: large_string\nsource_url: large_string\nretrieved_at: large_string\nvintage_date: large_string\nrevision_flag: large_string\nadjustment_note: large_string\nquality_flag: large_string\nparse_method: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2452"
+    },
+    {
+      "path": "deliverables/macro_release_calendar.csv",
+      "bytes": 2118931,
+      "sha256": "deb04caa23164a350c0c779a64ef74bcb6ee7fead0361a93d14c53c9c4c22304",
+      "tracked": true
+    },
+    {
+      "path": "deliverables/manual_sources.md",
+      "bytes": 2862,
+      "sha256": "417852157e79a847f425d99bf9ba7ae735d347ba9c4ecbf3cf8ecc604e1e2cbb",
+      "tracked": true
+    },
+    {
+      "path": "deliverables/README.md",
+      "bytes": 1714,
+      "sha256": "07db2091302067f444d9e59db66971afa05a99e3f006e560a70fc0a845b04598",
+      "tracked": true
+    }
+  ]
+}

@@ -1,0 +1,2047 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 68,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [],
+    "sceneRelatedInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 10.998716,
+        "id": "17c7bac6-aa0a-43d8-916a-8c910a526039",
+        "name": "GDP",
+        "siteCode": "bm36000002",
+        "relatedWords": [
+          "GDP",
+          "CPI",
+          "国内生产总值",
+          "PMI",
+          "平均工资",
+          "居民消费价格指数",
+          "地区生产总值"
+        ],
+        "customTitle": "",
+        "customContent": "",
+        "rank": 10
+      }
+    ],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 7.0317554,
+        "id": "e582caf3-819f-4710-a3f3-6b59a4ae750e",
+        "name": "国民经济核算",
+        "siteCode": "bm36000002",
+        "templateType": "统计局",
+        "data": {
+          "arrList": [
+            {
+              "tab": "国内生产总值",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div>"
+            },
+            {
+              "tab": "指标解释",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div>"
+            },
+            {
+              "tab": "指标QA",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div>"
+            }
+          ]
+        },
+        "template": "<div class=\"personalization-list-div\">\n    <div class=\"personalization-list-choose\">\n                    <div class=\"item-personalization-choose on \">国内生产总值 </div>\n            <div class=\"item-personalization-choose  \">指标解释 </div>\n            <div class=\"item-personalization-choose  \">指标QA </div>\n    </div>\n    <div class=\"personalization-list-content\">\n            <div class=\"item-personalization-content on\"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div></div>\n    </div>\n</div>\n\n\n<script>\n    $('.item-personalization-choose').click(function () {\n        $(this).addClass('on').siblings().removeClass('on');\n        console.log($(this).index())\n        var index = $(this).index();\n        $('.item-personalization-content').eq(index).addClass('on').siblings().removeClass('on');\n    });\n\n</script>\n\n<style>\n    * {\n        margin: 0;\n        padding: 0;\n    }\n.trs_editor_view  a,.trs_editor_view  a span {\n    vertical-align: top;\n    color: #0077ff !important;\n    text-decoration: underline;\n}\n   .personalization-list-choose {\n        display: flex;\n        align-items: center;\n        margin-bottom: 20px;\n        overflow-x: auto;\n    }\n\n    .personalization-list-choose .item-personalization-choose {\n    margin-bottom: 7px;\n      color: #333333;\n      background: #efefef;\n      border: 1px solid #efefef;\n      white-space: nowrap;\n      padding: 10px;\n      border-radius: 5px;\n      font-size: 16px;\n      font-family: Microsoft YaHei;\n      font-weight: 400;\n      line-height: 20px;\n      margin-right: 10px;\n      cursor: pointer;\n      flex-shrink: 0;\n    }\n\n    .personalization-list-choose .on {\n      color: #1685e6;\n      border: 1px solid #1685e6;\n      background: #fff;\n      white-space: nowrap;\n    }\n\n    .item-personalization-content {\n        display: none;\n    }\n\n    .personalization-list-content .on {\n        display: block;\n    }\n\n.personalization-list-content{\n    line-height: 34px;\nmin-height:200px;\nmax-height:500px;\n    overflow-y: auto;\nmargin-bottom: 20px;\n}\n#q2 {\n    color: #3285e4;\n  \n    font-weight: bold;\n}\n</style>",
+        "css": "",
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C314CAECDC81753A0785E11D2955C2A4",
+      "timestamp": 1609380691000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C314CAECDC81753A0785E11D2955C2A4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2019年全国旅游及相关产业增加值44989亿元】 经核算，2019年全国旅游及相关产业增加值为44989亿元，占国内生产总值（GDP）的比重为4.56%，比上年提高0.05个百分点。 详见：O网页链接",
+        "title": "#数据发布# 【2019年全国旅游及相关产业增加值44989亿元】 经核算，2019年全国旅游及相关产业增加值为44989亿元，占<em>国内生产总值</em>（GDP）的比重为4.56%，比上年提高0.05个百分点。 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/JAYRi6MTU?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2019年全国旅游及相关产业增加值44989亿元】 经核算，2019年全国旅游及相关产业增加值为44989亿元，占<em>国内生产总值</em>（GDP）的比重为4.56%，比上年提高0.05个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1609380691000,
+        "docDate": "2020-12-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "44C43A49524D55922BA56CD5CF553CAA",
+        "md5Url": "78FAD67F98D6C247E043C6DEEC804262",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2019年全国旅游及相关产业增加值44989亿元】 经核算，2019年全国旅游及相关产业增加值为44989亿元，占<em>国内生产总值</em>（GDP）的比重为4.56%，比上年提高0.05个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1609380691,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "78FAD67F98D6C247E043C6DEEC804262",
+          "DRETITLE": "数据发布 2019年全国旅游及相关产业增加值44989亿元 经核算 2019年全国旅游及相关产业增加值为44989亿元 占国内生产总值 GDP 的比重为4 56",
+          "URL": "https://weibo.com/3919628624/JAYRi6MTU?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "44C43A49524D55922BA56CD5CF553CAA",
+          "DRETITLEO": "#数据发布# 【2019年全国旅游及相关产业增加值44989亿元】 经核算，2019年全国旅游及相关产业增加值为44989亿元，占国内生产总值（GDP）的比重为4.56%，比上年提高0.05个百分点。 详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2019年全国旅游及相关产业增加值44989亿元 经核算 2019年全国旅游及相关产业增加值为44989亿元 占国内生产总值 GDP 的比重为4 56 比上年提高0 05个百分点 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2F0D0D1D675896D0FFD717A057A3BCEA",
+      "timestamp": 1609309800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2F0D0D1D675896D0FFD717A057A3BCEA",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 2019年国内生产总值核实公告公布",
+        "title": "《新闻直播间》国家统计局 2019年<em>国内生产总值</em>核实公告公布",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914208.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 2019年<em>国内生产总值</em>核实公告公布...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1609309800000,
+        "docDate": "2020-12-30",
+        "includeImg": true,
+        "picUrl": "img?reference=2F0D0D1D675896D0FFD717A057A3BCEA&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_64.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "C0BCC33D211CE203B8DC5CD0ACFFAC4C",
+        "md5Url": "2F0D0D1D675896D0FFD717A057A3BCEA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 2019年<em>国内生产总值</em>核实公告公布...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914208.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局 2019年国内生产总值核实公告公布",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_64.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1609309800,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "2F0D0D1D675896D0FFD717A057A3BCEA",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 2019年国内生产总值核实公告公布",
+          "MD5TITLE": "C0BCC33D211CE203B8DC5CD0ACFFAC4C",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局 2019年国内生产总值核实公告公布",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "92D09318690F404E909437EE68E41628",
+      "timestamp": 1609295820000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "92D09318690F404E909437EE68E41628",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】国家统计局关于2019年国内生产总值（GDP）最终核实的公告",
+        "title": "【数据发布】国家统计局关于2019年<em>国内生产总值</em>（GDP）最终核实的公告",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651359463&idx=1&sn=d570fbba9965bbf9b32914648bf4debe&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2019年GDP数据进行了最终核实，主要结果如下： 经最终核实，2019年，GDP现价总量为986515亿元，比初步核算数减少了4350亿元；按不变价格计算，比上年增长6.0%，比初步核算数下降0.1个百分点。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1609295820000,
+        "docDate": "2020-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "1F0A3F0CBF4FEBDB5E067BF0CF441542",
+        "md5Url": "93A869166A9C81302F6AE9CA5FE062A6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2019年GDP数据进行了最终核实，主要结果如下： 经最终核实，2019年，GDP现价总量为986515亿元，比初步核算数减少了4350亿元；按不变价格计算，比上年增长6.0%，比初步核算数下降0.1个百分点。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1609295820,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "93A869166A9C81302F6AE9CA5FE062A6",
+          "DRETITLE": "数据发布 国家统计局关于2019年国内生产总值 GDP 最终核实的公告",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651359463&idx=1&sn=d570fbba9965bbf9b32914648bf4debe&scene=0",
+          "MD5TITLE": "1F0A3F0CBF4FEBDB5E067BF0CF441542",
+          "DRETITLEO": "【数据发布】国家统计局关于2019年国内生产总值（GDP）最终核实的公告",
+          "QUICKDESCRIPTION": "按照我国国内生产总值 以下简称GDP 核算和数据发布制度规定 年度GDP核算包括初步核算和最终核实两个步骤 近日 根据国家统计局统计年报 财政部财政决算和有关部门年度财务资料等 国家统计局对2019年GDP数据进行了最终核实 主要结果如下  经最终核实 2019年 GDP现价总量为986515亿元 比初步核算数减少了4350亿元 按不变价格计算 比上年增长6 0  比初步核算数下降0 1个百分点 三次产业和各行业数据见附表    特此公告  附表 2019年GDP最终核实数与初步核算数对比 附件",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8E56ACB3C4B40F8D9231279F5F94B2B7",
+      "timestamp": 1609294000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8E56ACB3C4B40F8D9231279F5F94B2B7",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【国家统计局关于2019年国内生产总值（GDP）最终核实的公告】 按照我国国内生产总值（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部",
+        "title": "#数据发布# 【国家统计局关于2019年<em>国内生产总值</em>（GDP）最终核实的公告】 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部",
+        "url": "https://weibo.com/3919628624/JAPoPabdg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【国家统计局关于2019年<em>国内生产总值</em>（GDP）最终核实的公告】 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 数据发布 【国家统计局关于2019年<em>国内生产总值</em>（GDP）最终核实的公告】 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1609294000000,
+        "docDate": "2020-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2308BB4452CD656BAF5CB200AD8AF368",
+        "md5Url": "C198D962A1C5AB677B196B8C7A74652D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【国家统计局关于2019年<em>国内生产总值</em>（GDP）最终核实的公告】 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。 数据发布 【国家统计局关于2019年<em>国内生产总值</em>（GDP）最终核实的公告】 按照我国<em>国内生产总值</em>（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1609294000,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "C198D962A1C5AB677B196B8C7A74652D",
+          "DRETITLE": "数据发布 国家统计局关于2019年国内生产总值 GDP 最终核实的公告 按照我国国内生产总值 以下简称GDP 核算和数据发布制度规定 年度GDP核算包括初步核算",
+          "URL": "https://weibo.com/3919628624/JAPoPabdg?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2308BB4452CD656BAF5CB200AD8AF368",
+          "DRETITLEO": "#数据发布# 【国家统计局关于2019年国内生产总值（GDP）最终核实的公告】 按照我国国内生产总值（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部",
+          "QUICKDESCRIPTION": "数据发布 国家统计局关于2019年国内生产总值 GDP 最终核实的公告 按照我国国内生产总值 以下简称GDP 核算和数据发布制度规定 年度GDP核算包括初步核算和最终核实两个步骤 近日 根据国家统计局统计年报 财政部财政决算和有关部门年度财务资料等 国家统计局对2019年GDP数据进行了最终核实 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "EC46BEAB99121EC670F1679EA5B61C17",
+      "timestamp": 1609293600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "EC46BEAB99121EC670F1679EA5B61C17",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "国家统计局关于2019年国内生产总值（GDP）最终核实的公告",
+        "title": "国家统计局关于2019年<em>国内生产总值</em>（GDP）最终核实的公告",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900950.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "从2015年3季度开始，我国季度GDP核算改为分季核算方式，即分别核算1季度，2季度，3季度和4季度GDP数据，再将各季度GDP数据相加得到年度GDP初步核算数。 4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "从2015年3季度开始，我国季度GDP核算改为分季核算方式，即分别核算1季度，2季度，3季度和4季度GDP数据，再将各季度GDP数据相加得到年度GDP初步核算数。 4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1609293600000,
+        "docDate": "2020-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_13.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "21D48ED9CE509C8C1BD682C9385CE55F",
+        "md5Url": "EC46BEAB99121EC670F1679EA5B61C17",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "从2015年3季度开始，我国季度GDP核算改为分季核算方式，即分别核算1季度，2季度，3季度和4季度GDP数据，再将各季度GDP数据相加得到年度GDP初步核算数。 4.3 对核算结果的评估 在核算出年度GDP数据后，要对GDP及其分项数据、GDP与其他核算数据、GDP与相关专业统计数据和部门统计数据的协调性进行检验，保证GDP数据和其他主要相关数据的相互协调和匹配。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900950.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局关于2019年国内生产总值（GDP）最终核实的公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_13.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1609293600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "EC46BEAB99121EC670F1679EA5B61C17",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局关于2019年国内生产总值 GDP 最终核实的公告",
+          "MD5TITLE": "21D48ED9CE509C8C1BD682C9385CE55F",
+          "QUICKDESCRIPTION": "　　按照我国国内生产总值（以下简称GDP）核算和数据发布制度规定，年度GDP核算包括初步核算和最终核实两个步骤。近日，根据国家统计局统计年报、财政部财政决算和有关部门年度财务资料等，国家统计局对2019年GDP数据进行了最终核实，主要结果如下： 　　经最终核实，2019年，GDP现价总量为986515亿元，比初步核算数减少了4350亿元；按不变价格计算，比上年增长6.0%，比初步核算数下降0.1个百分点。三次产业和各行业数据见附表。 　　特此公告。 　　附表：",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "621CF5B2487CCEEBDF42E216BE59B512",
+      "timestamp": 1609230503000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "621CF5B2487CCEEBDF42E216BE59B512",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 【美国第三季度GDP环比增长33.4%等】 一、美国第三季度GDP环比增长33.4% 二、美国11月份耐用品订单环比增长0.9% 三、欧元区10月份经常账户盈余266.2亿欧元 四、德国12月份IFO商业景气指数升至92.",
+        "title": "#国际数据速递# 【美国第三季度GDP环比增长33.4%等】 一、美国第三季度GDP环比增长33.4% 二、美国11月份耐用品订单环比增长0.9% 三、欧元区10月份经常账户盈余266.2亿欧元 四、德国12月份IFO商业景气指数升至92.",
+        "url": "https://weibo.com/3919628624/JAItgs8li?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【美国第三季度GDP环比增长33.4%等】 一、美国第三季度GDP环比增长33.4% 二、美国11月份耐用品订单环比增长0.9% 三、欧元区10月份经常账户盈余266.2亿欧元 四、德国12月份IFO商业景气指数升至92.1 五、日本11月份CPI同比下降0.9% 国际数据速递 【美国第三季度GDP环比增长33.4%等】 一、美国第三季度GDP环比增长33.4% 二、美国11月份耐用品订单环比增长0.9% 三、欧元区10月份经常账户盈余266.2亿欧元 四、德国12月份IFO商业景气指数升至92.1 五、日本11月份CPI同比下降0.9%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1609230503000,
+        "docDate": "2020-12-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2D55F2E552402726B79C2B2E662C4C7D",
+        "md5Url": "436AE42BB41DCAC8472757B9290DC9BD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【美国第三季度GDP环比增长33.4%等】 一、美国第三季度GDP环比增长33.4% 二、美国11月份耐用品订单环比增长0.9% 三、欧元区10月份经常账户盈余266.2亿欧元 四、德国12月份IFO商业景气指数升至92.1 五、日本11月份CPI同比下降0.9% 国际数据速递 【美国第三季度GDP环比增长33.4%等】 一、美国第三季度GDP环比增长33.4% 二、美国11月份耐用品订单环比增长0.9% 三、欧元区10月份经常账户盈余266.2亿欧元 四、德国12月份IFO商业景气指数升至92.1 五、日本11月份CPI同比下降0.9%...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1609230503,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "436AE42BB41DCAC8472757B9290DC9BD",
+          "DRETITLE": "国际数据速递 美国第三季度GDP环比增长33 4 等 一 美国第三季度GDP环比增长33 4 二 美国11月份耐用品订单环比增长0 9 三 欧元区10月份经常账",
+          "URL": "https://weibo.com/3919628624/JAItgs8li?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2D55F2E552402726B79C2B2E662C4C7D",
+          "DRETITLEO": "#国际数据速递# 【美国第三季度GDP环比增长33.4%等】 一、美国第三季度GDP环比增长33.4% 二、美国11月份耐用品订单环比增长0.9% 三、欧元区10月份经常账户盈余266.2亿欧元 四、德国12月份IFO商业景气指数升至92.",
+          "QUICKDESCRIPTION": "国际数据速递 美国第三季度GDP环比增长33 4 等 一 美国第三季度GDP环比增长33 4 二 美国11月份耐用品订单环比增长0 9 三 欧元区10月份经常账户盈余266 2亿欧元 四 德国12月份IFO商业景气指数升至92 1 五 日本11月份CPI同比下降0 9",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1FEBA633518BDFA4B0CB44C762CF9EFA",
+      "timestamp": 1609229820000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1FEBA633518BDFA4B0CB44C762CF9EFA",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【国际数据】美国第三季度GDP环比增长33.4%等",
+        "title": "【国际数据】美国第三季度GDP环比增长33.4%等",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651358306&idx=2&sn=1aaf780da2a213506bf638a47b7d2f7d&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "01 美国第三季度GDP环比增长33.4% 美国商务部经济分析局（BEA）12月22日发布的修正数据显示，经季节性因素调整，美国第三季度<em>国内生产总值</em> GDP 环比增幅从33.1%上修至33.4%，预期增长33.1%，第二季度下降31.4%。 01 美国第三季度GDP环比增长33.4% 美国商务部经济分析局（BEA）12月22日发布的修正数据显示，经季节性因素调整，美国第三季度<em>国内生产总值</em> GDP 环比增幅从33.1%上修至33.4%，预期增长33.1%，第二季度下降31.4%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1609229820000,
+        "docDate": "2020-12-29",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "F069CA22C6EF1A727E0A75351449F19D",
+        "md5Url": "CE6923D1B41A65FE9DBA81DA892DDBA8",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "01 美国第三季度GDP环比增长33.4% 美国商务部经济分析局（BEA）12月22日发布的修正数据显示，经季节性因素调整，美国第三季度<em>国内生产总值</em> GDP 环比增幅从33.1%上修至33.4%，预期增长33.1%，第二季度下降31.4%。 01 美国第三季度GDP环比增长33.4% 美国商务部经济分析局（BEA）12月22日发布的修正数据显示，经季节性因素调整，美国第三季度<em>国内生产总值</em> GDP 环比增幅从33.1%上修至33.4%，预期增长33.1%，第二季度下降31.4%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1609229820,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "CE6923D1B41A65FE9DBA81DA892DDBA8",
+          "DRETITLE": "国际数据 美国第三季度GDP环比增长33 4 等",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651358306&idx=2&sn=1aaf780da2a213506bf638a47b7d2f7d&scene=0",
+          "MD5TITLE": "F069CA22C6EF1A727E0A75351449F19D",
+          "DRETITLEO": "【国际数据】美国第三季度GDP环比增长33.4%等",
+          "QUICKDESCRIPTION": "01 美国第三季度GDP环比增长33 4  美国商务部经济分析局 BEA 12月22日发布的修正数据显示 经季节性因素调整 美国第三季度国内生产总值 GDP 环比增幅从33 1 上修至33 4  预期增长33 1  第二季度下降31 4  其中 消费者支出增幅从40 6 上修至41 0  预期增长40 6  第二季度下降33 2   此外 第三季度个人消费支出 PCE 价格指数环比增长3 7  第二季度下降1 6  核心PCE价格指数环比增幅从3 5 下修至3 4  第二季度下降0 8   同期",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "55F47C1413E7286B3A315B008B67D45C",
+      "timestamp": 1603198447000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "55F47C1413E7286B3A315B008B67D45C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【三季度中国经济怎么看？国家统计局10位司局长权威解读→】 10月19日 三季度经济运行数据发布 前三季度国内生产总值 ...展开全文c",
+        "title": "#数据发布# 【三季度中国经济怎么看？国家统计局10位司局长权威解读→】 10月19日 三季度经济运行数据发布 前三季度<em>国内生产总值</em> ...展开全文c",
+        "url": "https://weibo.com/3919628624/Jq6in3HDU?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【三季度中国经济怎么看 国家统计局10位司局长权威解读 】 10月19日 三季度经济运行数据发布 前三季度<em>国内生产总值</em> ... 展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1603198447000,
+        "docDate": "2020-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "4D42900D594EA2A6169E1ABEDB6173FB",
+        "md5Url": "0A6CC672C24137A295C3C452A1105B1A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【三季度中国经济怎么看 国家统计局10位司局长权威解读 】 10月19日 三季度经济运行数据发布 前三季度<em>国内生产总值</em> ... 展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1603198447,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "0A6CC672C24137A295C3C452A1105B1A",
+          "DRETITLE": "数据发布 三季度中国经济怎么看 国家统计局10位司局长权威解读→ 10月19日 三季度经济运行数据发布 前三季度国内生产总值 展开全文c",
+          "URL": "https://weibo.com/3919628624/Jq6in3HDU?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4D42900D594EA2A6169E1ABEDB6173FB",
+          "DRETITLEO": "#数据发布# 【三季度中国经济怎么看？国家统计局10位司局长权威解读→】 10月19日 三季度经济运行数据发布 前三季度国内生产总值 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 三季度中国经济怎么看 国家统计局10位司局长权威解读 10月19日 三季度经济运行数据发布 前三季度国内生产总值 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "44F011C8C3C1DC2F55936DEF02B367F8",
+      "timestamp": 1603177980000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "44F011C8C3C1DC2F55936DEF02B367F8",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2020年三季度国内生产总值（GDP）初步核算结果",
+        "title": "【数据发布】2020年三季度<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651342419&idx=1&sn=1845b419c69ff25b5bdcf626e73dfad0&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年3季度GDP初步核算数据 表2 GDP同比增长速度 表3 GDP环比增长速度 推 前三季度经济增长由负转正 荐 2020年三季度全国工业产能利用率为76.7% 文 国家统计局新闻发言人就2020年前三季度国民经济运行情况答记者问 章 2020年二季度和上半年<em>国内生产总值</em>（GDP）初步核算结果 更多信息和附注 请阅读原文 根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年3季度GDP初步核算数据 表2 GDP同比增长速度 表3 GDP环比增长速度 推 前三季度经济增长由负转正 荐 2020年三季度全国工业产能利用率为76.7% 文 国家统计局新闻发言人就2020年前三季度国民经济运行情况答记者问 章 2020年二季度和上半年<em>国内生产总值</em>（GDP）初步核算结果 更多信息和附注 请阅读原文...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1603177980000,
+        "docDate": "2020-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "58B5204C3C0436954F90D2E0168683A2",
+        "md5Url": "EF1E9254552EB44BAFBCAC3A39C4A63F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年3季度GDP初步核算数据 表2 GDP同比增长速度 表3 GDP环比增长速度 推 前三季度经济增长由负转正 荐 2020年三季度全国工业产能利用率为76.7% 文 国家统计局新闻发言人就2020年前三季度国民经济运行情况答记者问 章 2020年二季度和上半年<em>国内生产总值</em>（GDP）初步核算结果 更多信息和附注 请阅读原文 根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年3季度GDP初步核算数据 表2 GDP同比增长速度 表3 GDP环比增长速度 推 前三季度经济增长由负转正 荐 2020年三季度全国工业产能利用率为76.7% 文 国家统计局新闻发言人就2020年前三季度国民经济运行情况答记者问 章 2020年二季度和上半年<em>国内生产总值</em>（GDP）初步核算结果 更多信息和附注 请阅读原文...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1603177980,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "EF1E9254552EB44BAFBCAC3A39C4A63F",
+          "DRETITLE": "数据发布 2020年三季度国内生产总值 GDP 初步核算结果",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651342419&idx=1&sn=1845b419c69ff25b5bdcf626e73dfad0&scene=0",
+          "MD5TITLE": "58B5204C3C0436954F90D2E0168683A2",
+          "DRETITLEO": "【数据发布】2020年三季度国内生产总值（GDP）初步核算结果",
+          "QUICKDESCRIPTION": "根据有关基础资料和国民经济核算方法 我国2020年三季度国内生产总值 以下简称GDP 初步核算主要结果如下  表1 2020年3季度GDP初步核算数据 表2  GDP同比增长速度 表3  GDP环比增长速度 推 前三季度经济增长由负转正 荐 2020年三季度全国工业产能利用率为76 7  文 国家统计局新闻发言人就2020年前三季度国民经济运行情况答记者问 章 2020年二季度和上半年国内生产总值 GDP 初步核算结果 更多信息和附注 请阅读原文   ",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "ECDB2681BA50A5875D120EAD75967B08",
+      "timestamp": 1603161596000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "ECDB2681BA50A5875D120EAD75967B08",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2020年三季度国内生产总值（GDP）初步核算结果】 　根据有关基础资料和国民经济核算方法，我国2020年三季度国内生产总值（以下简称GDP）初步核算主要结果如下： 详见：O网页链接",
+        "title": "#数据发布# 【2020年三季度<em>国内生产总值</em>（GDP）初步核算结果】 　根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Jq2h4nekz?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2020年三季度<em>国内生产总值</em>（GDP）初步核算结果】 根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 详见： O网页链接 数据发布 【2020年三季度<em>国内生产总值</em>（GDP）初步核算结果】 根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1603161596000,
+        "docDate": "2020-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "64CAC8851B185792B1E7FB00A3293FCB",
+        "md5Url": "BCE6BF7F3BB0168B86F9DD3382FD316A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2020年三季度<em>国内生产总值</em>（GDP）初步核算结果】 根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 详见： O网页链接 数据发布 【2020年三季度<em>国内生产总值</em>（GDP）初步核算结果】 根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1603161596,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "BCE6BF7F3BB0168B86F9DD3382FD316A",
+          "DRETITLE": "数据发布 2020年三季度国内生产总值 GDP 初步核算结果 根据有关基础资料和国民经济核算方法 我国2020年三季度国内生产总值 以下简称GDP 初步核算主要",
+          "URL": "https://weibo.com/3919628624/Jq2h4nekz?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "64CAC8851B185792B1E7FB00A3293FCB",
+          "DRETITLEO": "#数据发布# 【2020年三季度国内生产总值（GDP）初步核算结果】 　根据有关基础资料和国民经济核算方法，我国2020年三季度国内生产总值（以下简称GDP）初步核算主要结果如下： 详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2020年三季度国内生产总值 GDP 初步核算结果 根据有关基础资料和国民经济核算方法 我国2020年三季度国内生产总值 以下简称GDP 初步核算主要结果如下 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F233F9C54614D837FF9E802F0CF5EB9B",
+      "timestamp": 1603157400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F233F9C54614D837FF9E802F0CF5EB9B",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2020年三季度国内生产总值（GDP）初步核算结果",
+        "title": "2020年三季度<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900881.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年3季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 3季度 1-3季度 3季度 1-3季度 GDP 266172 722786 4.9 0.7 第一产业 22070 48123 3.9 2.3 第二产业 101508 274267 6.0 0.9 第三产业 142595 400397 4.3 0.4 农林牧渔业 22972 50276 4.0 2.4 工业 81967 227011 5.6 0.7 制造业 69572 192683 6.1 0.5 建筑业 19983 48517 8.1 2.0 批发和零售业 25122 67568 3.1 -4.2 交通运输、仓储和邮政业 11288 29803 3.9 -2.2 住宿和餐饮业 4480 10782 -5.1 -19.1 金融业 21739 64041 7.9 7.0 房地产业 19149 53011 6.3 1.6 信息传输、软件和信息技术服务业 8809 27310 18.8 15.9 租赁和商务服务业 8001 22313 -6.9 -8.1 其他行业 42661 122153 2.3 -0.1 注： 1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2018年修订的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2017）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年3季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 3季度 1-3季度 3季度 1-3季度 GDP 266172 722786 4.9 0.7 第一产业 22070 48123 3.9 2.3 第二产业 101508 274267 6.0 0.9 第三产业 142595 400397 4.3 0.4 农林牧渔业 22972 50276 4.0 2.4 工业 81967 227011 5.6 0.7 制造业 69572 192683 6.1 0.5 建筑业 19983 48517 8.1 2.0 批发和零售业 25122 67568 3.1 -4.2 交通运输、仓储和邮政业 11288 29803 3.9 -2.2 住宿和餐饮业 4480 10782 -5.1 -19.1 金融业 21739 64041 7.9 7.0 房地产业 19149 53011 6.3 1.6 信息传输、软件和信息技术服务业 8809 27310 18.8 15.9 租赁和商务服务业 8001 22313 -6.9 -8.1 其他行业 42661 122153 2.3 -0.1 注： 1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2018年修订的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2017）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1603157400000,
+        "docDate": "2020-10-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_16.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "4756D4A6883283E6102DB855383721B3",
+        "md5Url": "F233F9C54614D837FF9E802F0CF5EB9B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和国民经济核算方法，我国2020年三季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年3季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 3季度 1-3季度 3季度 1-3季度 GDP 266172 722786 4.9 0.7 第一产业 22070 48123 3.9 2.3 第二产业 101508 274267 6.0 0.9 第三产业 142595 400397 4.3 0.4 农林牧渔业 22972 50276 4.0 2.4 工业 81967 227011 5.6 0.7 制造业 69572 192683 6.1 0.5 建筑业 19983 48517 8.1 2.0 批发和零售业 25122 67568 3.1 -4.2 交通运输、仓储和邮政业 11288 29803 3.9 -2.2 住宿和餐饮业 4480 10782 -5.1 -19.1 金融业 21739 64041 7.9 7.0 房地产业 19149 53011 6.3 1.6 信息传输、软件和信息技术服务业 8809 27310 18.8 15.9 租赁和商务服务业 8001 22313 -6.9 -8.1 其他行业 42661 122153 2.3 -0.1 注： 1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2018年修订的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2017）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900881.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2020年三季度国内生产总值（GDP）初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_16.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1603157400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F233F9C54614D837FF9E802F0CF5EB9B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2020年三季度国内生产总值 GDP 初步核算结果",
+          "MD5TITLE": "4756D4A6883283E6102DB855383721B3",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国民经济核算方法，我国2020年三季度国内生产总值（以下简称GDP）初步核算主要结果如下： 表1　 2020年3季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 3季度 1-3季度 3季度 1-3季度 GDP 266172 722786 4.9 0.7 第一产业 22070 48123 3.9 2.3 第二产业 101508 274267 6.0 0.9 第三产业 142595 400397 4.3 0.4 农林牧渔业 22972 50276 4.0 2.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BDB368C14326B0C5887AAADDD5AFE4E4",
+      "timestamp": 1603087980000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BDB368C14326B0C5887AAADDD5AFE4E4",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 由负转正 前三季度GDP同比增长0.7%",
+        "title": "《新闻直播间》国家统计局 由负转正 前三季度GDP同比增长0.7%",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914192.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 由负转正 前三季度GDP同比增长0.7%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1603087980000,
+        "docDate": "2020-10-19",
+        "includeImg": true,
+        "picUrl": "img?reference=BDB368C14326B0C5887AAADDD5AFE4E4&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_67.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "4824DD72BD1018D082A0BD6E1880220B",
+        "md5Url": "BDB368C14326B0C5887AAADDD5AFE4E4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 由负转正 前三季度GDP同比增长0.7%...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914192.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局 由负转正 前三季度GDP同比增长0.7%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_67.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1603087980,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "BDB368C14326B0C5887AAADDD5AFE4E4",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 由负转正 前三季度GDP同比增长0 7",
+          "MD5TITLE": "4824DD72BD1018D082A0BD6E1880220B",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局 由负转正 前三季度GDP同比增长0.7%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B783DCF653EB095D3D96E0C407A65003",
+      "timestamp": 1603087222000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B783DCF653EB095D3D96E0C407A65003",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【直播！解读“大国季报”】今天，国家统计局介绍国民经济运行情况，前三季度经济增长由负转正，#2020三季度GDP增长4.9%# 。国家统计局发言人刘爱华、经济学家陈文玲、科普视频作者@所长林超 做客#相对论#，解读系列数据↓关注！ L央视新",
+        "title": "【直播！解读“大国季报”】今天，国家统计局介绍国民经济运行情况，前三季度经济增长由负转正，#2020三季度GDP增长4.9%# 。国家统计局发言人刘爱华、经济学家陈文玲、科普视频作者@所长林超 做客#相对论#，解读系列数据↓关注！ L央视新",
+        "url": "https://weibo.com/2656274875/JpU9VBiOI?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "解读“大国季报”】今天，国家统计局介绍国民经济运行情况，前三季度经济增长由负转正， 2020三季度GDP增长4.9% 。国家统计局发言人刘爱华、经济学家陈文玲、科普视频作者 @所长林超 做客 相对论 ，解读系列数据 关注！...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1603087222000,
+        "docDate": "2020-10-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "25FEF609BF6A78469A00DF1ACC6A89A7",
+        "md5Url": "3D30CC6304FB47AFCA7FA7C698C84C2E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "解读“大国季报”】今天，国家统计局介绍国民经济运行情况，前三季度经济增长由负转正， 2020三季度GDP增长4.9% 。国家统计局发言人刘爱华、经济学家陈文玲、科普视频作者 @所长林超 做客 相对论 ，解读系列数据 关注！...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1603087222,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3D30CC6304FB47AFCA7FA7C698C84C2E",
+          "DRETITLE": "直播 解读 大国季报 今天 国家统计局介绍国民经济运行情况 前三季度经济增长由负转正 2020三季度GDP增长4 9 国家统计局发言人刘爱华 经济学家陈文玲 科",
+          "URL": "https://weibo.com/2656274875/JpU9VBiOI?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "25FEF609BF6A78469A00DF1ACC6A89A7",
+          "DRETITLEO": "【直播！解读“大国季报”】今天，国家统计局介绍国民经济运行情况，前三季度经济增长由负转正，#2020三季度GDP增长4.9%# 。国家统计局发言人刘爱华、经济学家陈文玲、科普视频作者@所长林超 做客#相对论#，解读系列数据↓关注！ L央视新",
+          "QUICKDESCRIPTION": "直播 解读 大国季报 今天 国家统计局介绍国民经济运行情况 前三季度经济增长由负转正 2020三季度GDP增长4 9 国家统计局发言人刘爱华 经济学家陈文玲 科普视频作者 所长林超 做客 相对论 解读系列数据 关注 L央视新闻的微博视频",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2A5DE3C5B6321F9397DF2BCF4EFCA67B",
+      "timestamp": 1600444800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2A5DE3C5B6321F9397DF2BCF4EFCA67B",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "2015-2020年GDP，国内进口数据",
+        "title": "2015-2020年GDP，<em>国内</em>进口数据",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953608.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2015-2019年GDP数据您可以参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—<em>国内生产总值</em>。 2015-2019年GDP数据您可以参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—<em>国内生产总值</em>。 进口数据您可以参考我局网站—数据查询（国家数据）—年度数据—对外经济贸易。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1600444800000,
+        "docDate": "2020-09-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_62.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "7EB12D079C8534DBAE8D08CCDCED17FD",
+        "md5Url": "2A5DE3C5B6321F9397DF2BCF4EFCA67B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2015-2019年GDP数据您可以参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—<em>国内生产总值</em>。 2015-2019年GDP数据您可以参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—<em>国内生产总值</em>。 进口数据您可以参考我局网站—数据查询（国家数据）—年度数据—对外经济贸易。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局统计资料管理中心",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953608.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2015-2020年GDP，国内进口数据",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_62.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1600444800,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "2A5DE3C5B6321F9397DF2BCF4EFCA67B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2015-2020年GDP 国内进口数据",
+          "MD5TITLE": "7EB12D079C8534DBAE8D08CCDCED17FD",
+          "QUICKDESCRIPTION": "2015-2019年GDP数据您可以参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—国内生产总值。 进口数据您可以参考我局网站—数据查询（国家数据）—年度数据—对外经济贸易。 2020年GDP发布有季度数据您可以参考我局网站—数据查询（国家数据）—季度数据—国民经济核算—国内生产总值。 国家数据网址：https://data.stats.gov.cn。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "55AB375C07D0815B2A274190927288B3",
+      "timestamp": 1598860020000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "55AB375C07D0815B2A274190927288B3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【国际数据】美国第二季度GDP环比下降31.7%等",
+        "title": "【国际数据】美国第二季度GDP环比下降31.7%等",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651332260&idx=2&sn=5d7c2703e2dc9d602faf10eabf88fc1f&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "01 美国第二季度GDP环比下降31.7% 美国商务部经济分析局（BEA）8月27日发布的修正数据显示，经季节性因素调整，美国第二季度<em>国内生产总值</em> GDP 环比降幅从32.9%下修至31.7%，预期下降32.5%，第一季度下降5.0%。 05 德国第二季度GDP环比下降9.7% 德国联邦统计局8月25日公布的数据显示，受消费者支出下降、商业投资减少以及出口下降等因素影响，经价格、季节和工作日调整，德国第二季度<em>国内生产总值</em>（GDP）环比降幅从10.1上修为9.7%，预期下降10.1%，第一季度下降2.0%；经价格和工作日调整，同比降幅从11.7%下调为11.3%，预期下降11.7%，第一季度下降2.3%；经价格调整，同比下降11.3%，预期下降11.7%，第一季度下降1.8%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1598860020000,
+        "docDate": "2020-08-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "67E92684C8B92B6C8EA812A6358FBF5D",
+        "md5Url": "A2FC5D29521CD5C92188FE6C744989C6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "01 美国第二季度GDP环比下降31.7% 美国商务部经济分析局（BEA）8月27日发布的修正数据显示，经季节性因素调整，美国第二季度<em>国内生产总值</em> GDP 环比降幅从32.9%下修至31.7%，预期下降32.5%，第一季度下降5.0%。 05 德国第二季度GDP环比下降9.7% 德国联邦统计局8月25日公布的数据显示，受消费者支出下降、商业投资减少以及出口下降等因素影响，经价格、季节和工作日调整，德国第二季度<em>国内生产总值</em>（GDP）环比降幅从10.1上修为9.7%，预期下降10.1%，第一季度下降2.0%；经价格和工作日调整，同比降幅从11.7%下调为11.3%，预期下降11.7%，第一季度下降2.3%；经价格调整，同比下降11.3%，预期下降11.7%，第一季度下降1.8%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1598860020,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "A2FC5D29521CD5C92188FE6C744989C6",
+          "DRETITLE": "国际数据 美国第二季度GDP环比下降31 7 等",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651332260&idx=2&sn=5d7c2703e2dc9d602faf10eabf88fc1f&scene=0",
+          "MD5TITLE": "67E92684C8B92B6C8EA812A6358FBF5D",
+          "DRETITLEO": "【国际数据】美国第二季度GDP环比下降31.7%等",
+          "QUICKDESCRIPTION": "01 美国第二季度GDP环比下降31 7  美国商务部经济分析局 BEA 8月27日发布的修正数据显示 经季节性因素调整 美国第二季度国内生产总值 GDP  环比降幅从32 9 下修至31 7  预期下降32 5  第一季度下降5 0  其中 消费者支出降幅从34 6 下修至34 1  预期下降34 2  第一季度下降6 8   此外 第二季度 个人消费支出 PCE 价格指数环比降幅从1 9 下修至1 8  第一季度下降1 3  核心PCE价格指数环比降幅从1 1 下修至1 0  第一季度下降1",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9E31575CF1880E8AA9417F18E0F56D9D",
+      "timestamp": 1598858120000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9E31575CF1880E8AA9417F18E0F56D9D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 【美国第二季度GDP环比下降31.7%等】 一、美国第二季度GDP环比下降31.7% 二、美国8月份综合PMI升至54.7 三、欧元区8月份综合PMI降至51.6 四、英国8月份综合PMI升至60.3 五、德国第二季度GD",
+        "title": "#国际数据速递# 【美国第二季度GDP环比下降31.7%等】 一、美国第二季度GDP环比下降31.7% 二、美国8月份综合PMI升至54.7 三、欧元区8月份综合PMI降至51.6 四、英国8月份综合PMI升至60.3 五、德国第二季度GD",
+        "url": "https://weibo.com/3919628624/JisI1DFbK?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【美国第二季度GDP环比下降31.7%等】 一、美国第二季度GDP环比下降31.7% 二、美国8月份综合PMI升至54.7 三、欧元区8月份综合PMI降至51.6 四、英国8月份综合PMI升至60.3 五、德国第二季度GDP环比下降9.7% 国际数据速递 【美国第二季度GDP环比下降31.7%等】 一、美国第二季度GDP环比下降31.7% 二、美国8月份综合PMI升至54.7 三、欧元区8月份综合PMI降至51.6 四、英国8月份综合PMI升至60.3 五、德国第二季度GDP环比下降9.7%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1598858120000,
+        "docDate": "2020-08-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "74E117F15FC364215BB832851A98403A",
+        "md5Url": "3790FFC59C3EB378D171EFD84E71D1E9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【美国第二季度GDP环比下降31.7%等】 一、美国第二季度GDP环比下降31.7% 二、美国8月份综合PMI升至54.7 三、欧元区8月份综合PMI降至51.6 四、英国8月份综合PMI升至60.3 五、德国第二季度GDP环比下降9.7% 国际数据速递 【美国第二季度GDP环比下降31.7%等】 一、美国第二季度GDP环比下降31.7% 二、美国8月份综合PMI升至54.7 三、欧元区8月份综合PMI降至51.6 四、英国8月份综合PMI升至60.3 五、德国第二季度GDP环比下降9.7%...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1598858120,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3790FFC59C3EB378D171EFD84E71D1E9",
+          "DRETITLE": "国际数据速递 美国第二季度GDP环比下降31 7 等 一 美国第二季度GDP环比下降31 7 二 美国8月份综合PMI升至54 7 三 欧元区8月份综合PMI降",
+          "URL": "https://weibo.com/3919628624/JisI1DFbK?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "74E117F15FC364215BB832851A98403A",
+          "DRETITLEO": "#国际数据速递# 【美国第二季度GDP环比下降31.7%等】 一、美国第二季度GDP环比下降31.7% 二、美国8月份综合PMI升至54.7 三、欧元区8月份综合PMI降至51.6 四、英国8月份综合PMI升至60.3 五、德国第二季度GD",
+          "QUICKDESCRIPTION": "国际数据速递 美国第二季度GDP环比下降31 7 等 一 美国第二季度GDP环比下降31 7 二 美国8月份综合PMI升至54 7 三 欧元区8月份综合PMI降至51 6 四 英国8月份综合PMI升至60 3 五 德国第二季度GDP环比下降9 7",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5740B2B69A9B3A34E6E0EF3751E453C4",
+      "timestamp": 1597138200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5740B2B69A9B3A34E6E0EF3751E453C4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2019年分省（区、市）万元地区生产总值能耗降低率等指标公报",
+        "title": "【数据发布】2019年分省（区、市）万元地区<em>生产</em><em>总值</em>能耗降低率等指标公报",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651331152&idx=1&sn=a2c577b1af6d263935f66c80ad41f9d3&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "国家统计局 国家发展和改革委员会 国家能源局 2020年8月11日 现将2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 阅读原文...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1597138200000,
+        "docDate": "2020-08-11",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "32E47FADA9C0272E18EAA3D676AE23B0",
+        "md5Url": "1B7CEADE064BD11AF60734A25262A664",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国家统计局 国家发展和改革委员会 国家能源局 2020年8月11日 现将2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 阅读原文...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1597138200,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "1B7CEADE064BD11AF60734A25262A664",
+          "DRETITLE": "数据发布 2019年分省 区 市 万元地区生产总值能耗降低率等指标公报",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651331152&idx=1&sn=a2c577b1af6d263935f66c80ad41f9d3&scene=0",
+          "MD5TITLE": "32E47FADA9C0272E18EAA3D676AE23B0",
+          "DRETITLEO": "【数据发布】2019年分省（区、市）万元地区生产总值能耗降低率等指标公报",
+          "QUICKDESCRIPTION": "国家统计局  国家发展和改革委员会 国家能源局 2020年8月11日 现将2019年各省 自治区 直辖市万元地区生产总值能耗降低率等指标数据公布如下  阅读原文",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5CCB424E30313DAEB937B18AD7A26E20",
+      "timestamp": 1597129395000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5CCB424E30313DAEB937B18AD7A26E20",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2019年分省（区、市）万元地区生产总值能耗降低率等指标公报】 2019年各省、自治区、直辖市万元地区生产总值能耗降低率等指标数据公布如下： 详见：O网页链接",
+        "title": "#数据发布# 【2019年分省（区、市）万元地区<em>生产</em><em>总值</em>能耗降低率等指标公报】 2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Jfq5c6tyD?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2019年分省（区、市）万元地区<em>生产</em><em>总值</em>能耗降低率等指标公报】 2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 详见： O网页链接 数据发布 【2019年分省（区、市）万元地区<em>生产</em><em>总值</em>能耗降低率等指标公报】 2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1597129395000,
+        "docDate": "2020-08-11",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "F83FDEAAB27CE72B0B0076C5F54979A9",
+        "md5Url": "4580338FFB021DD36C04FAB5E1E6D002",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2019年分省（区、市）万元地区<em>生产</em><em>总值</em>能耗降低率等指标公报】 2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 详见： O网页链接 数据发布 【2019年分省（区、市）万元地区<em>生产</em><em>总值</em>能耗降低率等指标公报】 2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1597129395,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4580338FFB021DD36C04FAB5E1E6D002",
+          "DRETITLE": "数据发布 2019年分省 区 市 万元地区生产总值能耗降低率等指标公报 2019年各省 自治区 直辖市万元地区生产总值能耗降低率等指标数据公布如下 详见 O网页",
+          "URL": "https://weibo.com/3919628624/Jfq5c6tyD?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "F83FDEAAB27CE72B0B0076C5F54979A9",
+          "DRETITLEO": "#数据发布# 【2019年分省（区、市）万元地区生产总值能耗降低率等指标公报】 2019年各省、自治区、直辖市万元地区生产总值能耗降低率等指标数据公布如下： 详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2019年分省 区 市 万元地区生产总值能耗降低率等指标公报 2019年各省 自治区 直辖市万元地区生产总值能耗降低率等指标数据公布如下 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5EDBAD09689F1D1A719C4A8DF0587CAC",
+      "timestamp": 1597123800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5EDBAD09689F1D1A719C4A8DF0587CAC",
+        "titleLabel": {
+          "value": "统计公报",
+          "location": 0
+        },
+        "titleO": "2019年分省（区、市）万元地区生产总值能耗降低率等指标公报",
+        "title": "2019年分省（区、市）万元地区<em>生产</em><em>总值</em>能耗降低率等指标公报",
+        "url": "https://www.stats.gov.cn/sj/tjgb/qttjgb/qgqttjgb/202302/t20230218_1913294.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "国家统计局 国家发展和改革委员会 国家能源局 2020年8月11日 现将2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 地 区 万元地区<em>生产</em><em>总值</em>能耗上升或下降（ %） 能源消费总量增速 （%） 万元地区<em>生产</em><em>总值</em>电耗上升或下降（ %） 北 京 -4.53 1.2 -3.72 天 津 -1.33 3.4 -1.94 河 北 -5.28 1.1 -1.46 山 西 -2.72 3.3 -1.37 内蒙古 4.49 9.9 3.60 辽 宁 0.90 6.4 -1.09 吉 林 -1.04 1.9 0.99 黑龙江 -2.49 1.6 -1.84 上 海 -3.61 2.1 -5.50 江 苏 -3.05 2.8 -3.61 浙 江 -3.22 3.3 -2.74 安 徽 -2.91 4.3 0.28 福 建 -2.85 4.5 -3.48 江 西 -3.59 4.1 -0.48 山 东 -3.27 2.0 -3.06 河 南 -7.98 -1.6 -7.96 湖 北 -3.41 3.8 -0.52 湖 南 -4.29 2.9 -0.68 广 东 -3.52 2.4 -0.24 广 西 -1.72 4.1 5.70 海 南 -1.32 4.3 2.61 重 庆 -2.21 3.9 -2.40 四 川 -2.84 4.4 -0.26 贵 州 -4.06 3.9 -3.97 云 南 -2.91 4.9 -0.12 西 藏 陕 西 -1.39 4.5 -0.37 甘 肃 -5.85 -0.1 -5.90 青 海 -8.67 -3.0 -8.67 宁 夏 1.19 7.7 -4.40 新 疆 -1.56 4.5 0.41 附注： 1.指标解释 万元地区<em>生产</em><em>总值</em>能耗是指一个地区<em>生产</em>每万元地区<em>生产</em><em>总值</em>所消费的能源总量。 万元地区<em>生产</em><em>总值</em>电耗是指一个地区<em>生产</em>每万元地区<em>生产</em><em>总值</em>所消费的电力。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1597123800000,
+        "docDate": "2020-08-11",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/tjgb/qttjgb/qgqttjgb/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "FF7D70DCED54D9020F600FFB3EF57D13",
+        "md5Url": "5EDBAD09689F1D1A719C4A8DF0587CAC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国家统计局 国家发展和改革委员会 国家能源局 2020年8月11日 现将2019年各省、自治区、直辖市万元地区<em>生产</em><em>总值</em>能耗降低率等指标数据公布如下： 地 区 万元地区<em>生产</em><em>总值</em>能耗上升或下降（ %） 能源消费总量增速 （%） 万元地区<em>生产</em><em>总值</em>电耗上升或下降（ %） 北 京 -4.53 1.2 -3.72 天 津 -1.33 3.4 -1.94 河 北 -5.28 1.1 -1.46 山 西 -2.72 3.3 -1.37 内蒙古 4.49 9.9 3.60 辽 宁 0.90 6.4 -1.09 吉 林 -1.04 1.9 0.99 黑龙江 -2.49 1.6 -1.84 上 海 -3.61 2.1 -5.50 江 苏 -3.05 2.8 -3.61 浙 江 -3.22 3.3 -2.74 安 徽 -2.91 4.3 0.28 福 建 -2.85 4.5 -3.48 江 西 -3.59 4.1 -0.48 山 东 -3.27 2.0 -3.06 河 南 -7.98 -1.6 -7.96 湖 北 -3.41 3.8 -0.52 湖 南 -4.29 2.9 -0.68 广 东 -3.52 2.4 -0.24 广 西 -1.72 4.1 5.70 海 南 -1.32 4.3 2.61 重 庆 -2.21 3.9 -2.40 四 川 -2.84 4.4 -0.26 贵 州 -4.06 3.9 -3.97 云 南 -2.91 4.9 -0.12 西 藏 陕 西 -1.39 4.5 -0.37 甘 肃 -5.85 -0.1 -5.90 青 海 -8.67 -3.0 -8.67 宁 夏 1.19 7.7 -4.40 新 疆 -1.56 4.5 0.41 附注： 1.指标解释 万元地区<em>生产</em><em>总值</em>能耗是指一个地区<em>生产</em>每万元地区<em>生产</em><em>总值</em>所消费的能源总量。 万元地区<em>生产</em><em>总值</em>电耗是指一个地区<em>生产</em>每万元地区<em>生产</em><em>总值</em>所消费的电力。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/tjgb/qttjgb/qgqttjgb/202302/t20230218_1913294.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年分省（区、市）万元地区生产总值能耗降低率等指标公报",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/tjgb/qttjgb/qgqttjgb/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1597123800,
+          "L1": [
+            "数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计公报"
+          ],
+          "L3": [
+            "其他统计公报"
+          ],
+          "L4": [
+            "全国其他统计公报"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "5EDBAD09689F1D1A719C4A8DF0587CAC",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年分省 区 市 万元地区生产总值能耗降低率等指标公报",
+          "MD5TITLE": "FF7D70DCED54D9020F600FFB3EF57D13",
+          "QUICKDESCRIPTION": "国家统计局　国家发展和改革委员会　国家能源局 2020年8月11日 　　现将2019年各省、自治区、直辖市万元地区生产总值能耗降低率等指标数据公布如下： 地　区 万元地区生产总值能耗上升或下降（±%） 能源消费总量增速 （%） 万元地区生产总值电耗上升或下降（±%） 北　京 -4.53 1.2 -3.72 天　津 -1.33 3.4 -1.94 河　北 -5.28 1.1 -1.46 山　西 -2.72 3.3 -1.37 内蒙古 4.49 9.9 3.60 辽　宁 0.90 6.4 -1.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "32C11DACD15ADB02F6090F5EE2F1A47D",
+      "timestamp": 1594954620000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "32C11DACD15ADB02F6090F5EE2F1A47D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2020年二季度和上半年国内生产总值（GDP）初步核算结果",
+        "title": "【数据发布】2020年二季度和上半年<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651329823&idx=1&sn=dcf30095c4ff4837cd8ab88a14fda5ce&scene=0",
+        "siteLabel": {
+          "value": "微信公众平台",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和国民经济核算方法，我国2020年二季度和上半年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年2季度和上半年GDP初步核算数据 表2 GDP同比增长速度 表3 GDP环比增长速度 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 根据有关基础资料和国民经济核算方法，我国2020年二季度和上半年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年2季度和上半年GDP初步核算数据 表2 GDP同比增长速度 表3 GDP环比增长速度 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1594954620000,
+        "docDate": "2020-07-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "31A98C33E3499977C46E89246990EB55",
+        "md5Url": "373D58219E21118DA3791C39A7DE18AB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和国民经济核算方法，我国2020年二季度和上半年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年2季度和上半年GDP初步核算数据 表2 GDP同比增长速度 表3 GDP环比增长速度 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 根据有关基础资料和国民经济核算方法，我国2020年二季度和上半年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年2季度和上半年GDP初步核算数据 表2 GDP同比增长速度 表3 GDP环比增长速度 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。...",
+          "INCLUDEIMAGE": 0,
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1594954620,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "373D58219E21118DA3791C39A7DE18AB",
+          "DRETITLE": "数据发布 2020年二季度和上半年国内生产总值 GDP 初步核算结果",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651329823&idx=1&sn=dcf30095c4ff4837cd8ab88a14fda5ce&scene=0",
+          "MD5TITLE": "31A98C33E3499977C46E89246990EB55",
+          "DRETITLEO": "【数据发布】2020年二季度和上半年国内生产总值（GDP）初步核算结果",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "微信公众平台"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 15,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 25,
+          "children": null,
+          "key": "国民经济核算"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 22,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {
+    "统计新闻": [
+      {
+        "version": "V_8_0",
+        "id": "B09BF6A5CE5EB90F72416D380AED49F3",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局部门预算（2020）",
+        "title": "国家统计局部门预算（2020）",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894126.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "见附件。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1591859820000,
+        "docDate": "2020-06-11",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_35.html",
+        "weight": 0.016393442,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "77AE9E2B006951643F63D4DD424D26FF",
+        "md5Url": "B09BF6A5CE5EB90F72416D380AED49F3",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "见附件。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1894126.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局部门预算（2020）",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/P020230202402415342249.pdf": "· 国家统计局部门预算（2020）.pdf"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_35.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1591859820,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B09BF6A5CE5EB90F72416D380AED49F3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局部门预算 2020",
+          "MD5TITLE": "77AE9E2B006951643F63D4DD424D26FF",
+          "QUICKDESCRIPTION": "见附件。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      }
+    ]
+  }
+}

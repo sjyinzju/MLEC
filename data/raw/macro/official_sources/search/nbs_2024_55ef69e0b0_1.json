@@ -1,0 +1,2640 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 67,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [],
+    "sceneRelatedInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 10.998716,
+        "id": "17c7bac6-aa0a-43d8-916a-8c910a526039",
+        "name": "GDP",
+        "siteCode": "bm36000002",
+        "relatedWords": [
+          "GDP",
+          "CPI",
+          "国内生产总值",
+          "PMI",
+          "平均工资",
+          "居民消费价格指数",
+          "地区生产总值"
+        ],
+        "customTitle": "",
+        "customContent": "",
+        "rank": 10
+      }
+    ],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [
+      {
+        "forceStatus": 0,
+        "score": 7.0317554,
+        "id": "e582caf3-819f-4710-a3f3-6b59a4ae750e",
+        "name": "国民经济核算",
+        "siteCode": "bm36000002",
+        "templateType": "统计局",
+        "data": {
+          "arrList": [
+            {
+              "tab": "国内生产总值",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div>"
+            },
+            {
+              "tab": "指标解释",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div>"
+            },
+            {
+              "tab": "指标QA",
+              "content": "<div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div>"
+            }
+          ]
+        },
+        "template": "<div class=\"personalization-list-div\">\n    <div class=\"personalization-list-choose\">\n                    <div class=\"item-personalization-choose on \">国内生产总值 </div>\n            <div class=\"item-personalization-choose  \">指标解释 </div>\n            <div class=\"item-personalization-choose  \">指标QA </div>\n    </div>\n    <div class=\"personalization-list-content\">\n            <div class=\"item-personalization-content on\"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><iframe frameborder='0' scrolling='no' src='https://file.so-gov.cn/wedatas/pro/custom/70497010a31495722920b4bbc0d4c761/' height='422' width='100%'></iframe></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_web'><p style='text-indent: 2em;'>国内生产总值（GDP）　指一个国家所有常住单位在一定时期内生产活动的最终成果。国内生产总值有三种表现形态，即价值形态、收入形态和产品形态。从价值形态看，它是所有常住单位在一定时期内生产的全部货物和服务价值与同期投入的全部非固定资产货物和服务价值的差额，即所有常住单位的增加值之和；从收入形态看，它是所有常住单位在一定时期内创造的各项收入之和，包括劳动者报酬、生产税净额、固定资产折旧和营业盈余；从产品形态看，它是所有常住单位在一定时期内最终使用的货物和服务价值与货物和服务净出口价值之和。在实际核算中，国内生产总值有三种计算方法，即生产法、收入法和支出法。三种方法分别从不同的方面反映国内生产总值及其构成。</p></div></div>\n            <div class=\"item-personalization-content \"><div class='trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web'><p id='q2'>问：国内生产总值（GDP）有哪几种计算方法？</p><p>答： 国内生产总值有三种计算方法，即生产法、收入法和支出法。</p>\n<p id='q2'> 问：国民总收入（GNI）与国内生产总值（GDP）的核心区别是什么？</p><p>两者的核心区别在于，国民总收入是一个收入概念，而国内生产总值是一个生产概念。GNI等于GDP加上来自国外的净初次收入。</p>\n\n<p id='q2'>问：在我国的统计口径中，“总人口”通常指的是哪类人口？</p><p>答： 在我国的统计口径中，“总人口”通常指的是常住人口，即在某一地区实际经常居住半年以上的人口。</p>\n<p id='q2'>问：我国的三次产业划分中，第二产业主要包括哪些行业？</p><p>答： 根据我国的划分，第二产业主要包括采矿业（不含开采辅助活动），制造业（不含修理业），电力、热力、燃气及水生产和供应业，以及建筑业。</p>\n\n</div></div>\n    </div>\n</div>\n\n\n<script>\n    $('.item-personalization-choose').click(function () {\n        $(this).addClass('on').siblings().removeClass('on');\n        console.log($(this).index())\n        var index = $(this).index();\n        $('.item-personalization-content').eq(index).addClass('on').siblings().removeClass('on');\n    });\n\n</script>\n\n<style>\n    * {\n        margin: 0;\n        padding: 0;\n    }\n.trs_editor_view  a,.trs_editor_view  a span {\n    vertical-align: top;\n    color: #0077ff !important;\n    text-decoration: underline;\n}\n   .personalization-list-choose {\n        display: flex;\n        align-items: center;\n        margin-bottom: 20px;\n        overflow-x: auto;\n    }\n\n    .personalization-list-choose .item-personalization-choose {\n    margin-bottom: 7px;\n      color: #333333;\n      background: #efefef;\n      border: 1px solid #efefef;\n      white-space: nowrap;\n      padding: 10px;\n      border-radius: 5px;\n      font-size: 16px;\n      font-family: Microsoft YaHei;\n      font-weight: 400;\n      line-height: 20px;\n      margin-right: 10px;\n      cursor: pointer;\n      flex-shrink: 0;\n    }\n\n    .personalization-list-choose .on {\n      color: #1685e6;\n      border: 1px solid #1685e6;\n      background: #fff;\n      white-space: nowrap;\n    }\n\n    .item-personalization-content {\n        display: none;\n    }\n\n    .personalization-list-content .on {\n        display: block;\n    }\n\n.personalization-list-content{\n    line-height: 34px;\nmin-height:200px;\nmax-height:500px;\n    overflow-y: auto;\nmargin-bottom: 20px;\n}\n#q2 {\n    color: #3285e4;\n  \n    font-weight: bold;\n}\n</style>",
+        "css": "",
+        "rank": 10,
+        "fullColumn": 0
+      }
+    ],
+    "sceneName": null,
+    "empty": false,
+    "type": "OTHER_SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "498523FD331FAFB36FC3FD8B1574277A",
+      "timestamp": 1735628836000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "498523FD331FAFB36FC3FD8B1574277A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年全国体育产业总规模与增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国体育产业总规模（总产出）为36741亿元，增加值为14915亿元，占国内生产总值（GDP）的比重为1.15%，比上年提高0.07个百分点[1]。 　　从内部构成看，2023年体育服务业增加值为10849亿元，占体 ...展开全文c",
+        "title": "#数据发布# 【2023年全国体育产业总规模与增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国体育产业总规模（总产出）为36741亿元，增加值为14915亿元，占<em>国内生产总值</em>（GDP）的比重为1.15%，比上年提高0.07个百分点[1]。 　　从内部构成看，2023年体育服务业增加值为10849亿元，占体 ...展开全文c",
+        "url": "https://weibo.com/3919628624/P7pqS1EIv?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2023年全国体育产业总规模与增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国体育产业总规模（总产出）为36741亿元，增加值为14915亿元，占<em>国内生产总值</em>（GDP）的比重为1.15%，比上年提高0.07个百分点[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735628836000,
+        "docDate": "2024-12-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "BC22733703E8BDD792E735CAB89DBE7B",
+        "md5Url": "4FB78755EFA86D48F80C2D2BA490E9BC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2023年全国体育产业总规模与增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国体育产业总规模（总产出）为36741亿元，增加值为14915亿元，占<em>国内生产总值</em>（GDP）的比重为1.15%，比上年提高0.07个百分点[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1735628836,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4FB78755EFA86D48F80C2D2BA490E9BC",
+          "DRETITLE": "数据发布 2023年全国体育产业总规模与增加值数据公告 根据第五次全国经济普查结果 经核算 2023年全国体育产业总规模 总产出 为36741亿元 增加值为14915亿元 占国内生产总值 GDP 的比重为1 15 比上年提高0 07个百分点 1 从内部构成看 2023年体育服务业增加值为10849亿元 占体 展开全文c",
+          "URL": "https://weibo.com/3919628624/P7pqS1EIv?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "BC22733703E8BDD792E735CAB89DBE7B",
+          "DRETITLEO": "#数据发布# 【2023年全国体育产业总规模与增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国体育产业总规模（总产出）为36741亿元，增加值为14915亿元，占国内生产总值（GDP）的比重为1.15%，比上年提高0.07个百分点[1]。 　　从内部构成看，2023年体育服务业增加值为10849亿元，占体 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年全国体育产业总规模与增加值数据公告 根据第五次全国经济普查结果 经核算 2023年全国体育产业总规模 总产出 为36741亿元 增加值为14915亿元 占国内生产总值 GDP 的比重为1 15 比上年提高0 07个百分点 1 从内部构成看 2023年体育服务业增加值为10849亿元 占体 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "70F58308BAB25C2016D52E8E4C2C2044",
+      "timestamp": 1735628763000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "70F58308BAB25C2016D52E8E4C2C2044",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年全国专利密集型产业增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国专利密集型产业增加值为168713亿元，占国内生产总值（GDP）的比重为13.04%，比上年提高0.44个百分点[1]。 　　从内部构成看，新装备制造业规模最大，增加值为48808亿元，占专利密集型产业增加值 ...展开全文c",
+        "title": "#数据发布# 【2023年全国专利密集型产业增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国专利密集型产业增加值为168713亿元，占<em>国内生产总值</em>（GDP）的比重为13.04%，比上年提高0.44个百分点[1]。 　　从内部构成看，新装备制造业规模最大，增加值为48808亿元，占专利密集型产业增加值 ...展开全文c",
+        "url": "https://weibo.com/3919628624/P7pqnkXOx?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2023年全国专利密集型产业增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国专利密集型产业增加值为168713亿元，占<em>国内生产总值</em>（GDP）的比重为13.04%，比上年提高0.44个百分点[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735628763000,
+        "docDate": "2024-12-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "363BC8209F52E63DF21BA50E0B07EE70",
+        "md5Url": "23093C4F95CFC40498BD25469B4B7413",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2023年全国专利密集型产业增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国专利密集型产业增加值为168713亿元，占<em>国内生产总值</em>（GDP）的比重为13.04%，比上年提高0.44个百分点[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1735628763,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "23093C4F95CFC40498BD25469B4B7413",
+          "DRETITLE": "数据发布 2023年全国专利密集型产业增加值数据公告 根据第五次全国经济普查结果 经核算 2023年全国专利密集型产业增加值为168713亿元 占国内生产总值 GDP 的比重为13 04 比上年提高0 44个百分点 1 从内部构成看 新装备制造业规模最大 增加值为48808亿元 占专利密集型产业增加值 展开全文c",
+          "URL": "https://weibo.com/3919628624/P7pqnkXOx?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "363BC8209F52E63DF21BA50E0B07EE70",
+          "DRETITLEO": "#数据发布# 【2023年全国专利密集型产业增加值数据公告】根据第五次全国经济普查结果，经核算，2023年全国专利密集型产业增加值为168713亿元，占国内生产总值（GDP）的比重为13.04%，比上年提高0.44个百分点[1]。 　　从内部构成看，新装备制造业规模最大，增加值为48808亿元，占专利密集型产业增加值 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年全国专利密集型产业增加值数据公告 根据第五次全国经济普查结果 经核算 2023年全国专利密集型产业增加值为168713亿元 占国内生产总值 GDP 的比重为13 04 比上年提高0 44个百分点 1 从内部构成看 新装备制造业规模最大 增加值为48808亿元 占专利密集型产业增加值 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FE01A159967361EEC57BC012184B49A7",
+      "timestamp": 1735628684000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FE01A159967361EEC57BC012184B49A7",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年全国数字经济核心产业增加值占GDP比重为9.9%】为了全面反映我国数字经济核心产业发展状况，国家统计局根据《数字经济及其核心产业统计分类（2021）》，利用第五次全国经济普查结果，核算了全国数字经济核心产业增加值。 　　经核算，2023年我国数字经济核心产业增加值为127555亿元 ...展开全文c",
+        "title": "#数据发布# 【2023年全国数字经济核心产业增加值占GDP比重为9.9%】为了全面反映我国数字经济核心产业发展状况，国家统计局根据《数字经济及其核心产业统计分类（2021）》，利用第五次全国经济普查结果，核算了全国数字经济核心产业增加值。 　　经核算，2023年我国数字经济核心产业增加值为127555亿元 ...展开全文c",
+        "url": "https://weibo.com/3919628624/P7ppQlTmL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2023年全国数字经济核心产业增加值占GDP比重为9.9%】为了全面反映我国数字经济核心产业发展状况，国家统计局根据《数字经济及其核心产业统计分类（2021）》，利用第五次全国经济普查结果，核算了全国数字经济核心产业增加值。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735628684000,
+        "docDate": "2024-12-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "AEF4D950D00F8E691A42771700774CEB",
+        "md5Url": "96E605293B2F6BD0963F3C0C00A8349F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2023年全国数字经济核心产业增加值占GDP比重为9.9%】为了全面反映我国数字经济核心产业发展状况，国家统计局根据《数字经济及其核心产业统计分类（2021）》，利用第五次全国经济普查结果，核算了全国数字经济核心产业增加值。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1735628684,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "96E605293B2F6BD0963F3C0C00A8349F",
+          "DRETITLE": "数据发布 2023年全国数字经济核心产业增加值占GDP比重为9 9 为了全面反映我国数字经济核心产业发展状况 国家统计局根据 数字经济及其核心产业统计分类 2021 利用第五次全国经济普查结果 核算了全国数字经济核心产业增加值 经核算 2023年我国数字经济核心产业增加值为127555亿元 展开全文c",
+          "URL": "https://weibo.com/3919628624/P7ppQlTmL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "AEF4D950D00F8E691A42771700774CEB",
+          "DRETITLEO": "#数据发布# 【2023年全国数字经济核心产业增加值占GDP比重为9.9%】为了全面反映我国数字经济核心产业发展状况，国家统计局根据《数字经济及其核心产业统计分类（2021）》，利用第五次全国经济普查结果，核算了全国数字经济核心产业增加值。 　　经核算，2023年我国数字经济核心产业增加值为127555亿元 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年全国数字经济核心产业增加值占GDP比重为9 9 为了全面反映我国数字经济核心产业发展状况 国家统计局根据 数字经济及其核心产业统计分类 2021 利用第五次全国经济普查结果 核算了全国数字经济核心产业增加值 经核算 2023年我国数字经济核心产业增加值为127555亿元 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "23ACFD497FC936AD49EFDE85B223815F",
+      "timestamp": 1735628400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "23ACFD497FC936AD49EFDE85B223815F",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年全国数字经济核心产业增加值占GDP比重为9.9%",
+        "title": "2023年全国数字经济核心产业增加值占GDP比重为9.9%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241231_1958126.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "经核算，2023年我国数字经济核心产业增加值为127555亿元，占GDP的比重为9.9%。 从数字经济核心产业内部构成看，数字技术应用业增加值为55636亿元，占数字经济核心产业的比重最高，为43.6%；数字产品制造业增加值为43135亿元，所占比重为33.8%；数字要素驱动业增加值为24747亿元，所占比重为19.4%；数字产品服务业增加值为4037亿元，所占比重为3.2%。 数字经济核心产业增加值，指我国数字经济核心产业所有常住单位一定时期内<em>生产</em>活动所创造的新增价值。 常住单位指在我国经济领土上具有经济利益中心的经济单位。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "经核算，2023年我国数字经济核心产业增加值为127555亿元，占GDP的比重为9.9%。 从数字经济核心产业内部构成看，数字技术应用业增加值为55636亿元，占数字经济核心产业的比重最高，为43.6%；数字产品制造业增加值为43135亿元，所占比重为33.8%；数字要素驱动业增加值为24747亿元，所占比重为19.4%；数字产品服务业增加值为4037亿元，所占比重为3.2%。 数字经济核心产业增加值，指我国数字经济核心产业所有常住单位一定时期内<em>生产</em>活动所创造的新增价值。 常住单位指在我国经济领土上具有经济利益中心的经济单位。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1735628400000,
+        "docDate": "2024-12-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_19.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "FE7656A979653849F979ACC0C82575D4",
+        "md5Url": "23ACFD497FC936AD49EFDE85B223815F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "经核算，2023年我国数字经济核心产业增加值为127555亿元，占GDP的比重为9.9%。 从数字经济核心产业内部构成看，数字技术应用业增加值为55636亿元，占数字经济核心产业的比重最高，为43.6%；数字产品制造业增加值为43135亿元，所占比重为33.8%；数字要素驱动业增加值为24747亿元，所占比重为19.4%；数字产品服务业增加值为4037亿元，所占比重为3.2%。 数字经济核心产业增加值，指我国数字经济核心产业所有常住单位一定时期内<em>生产</em>活动所创造的新增价值。 常住单位指在我国经济领土上具有经济利益中心的经济单位。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202412/t20241231_1958126.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年全国数字经济核心产业增加值占GDP比重为9.9%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_19.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735628400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "23ACFD497FC936AD49EFDE85B223815F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年全国数字经济核心产业增加值占GDP比重为9 9",
+          "MD5TITLE": "FE7656A979653849F979ACC0C82575D4",
+          "QUICKDESCRIPTION": "　　为了全面反映我国数字经济核心产业发展状况，国家统计局根据《数字经济及其核心产业统计分类（2021）》，利用第五次全国经济普查结果，核算了全国数字经济核心产业增加值。   　　经核算，2023年我国数字经济核心产业增加值为127555亿元，占GDP的比重为9.9%。   　　从数字经济核心产业内部构成看，数字技术应用业增加值为55636亿元，占数字经济核心产业的比重最高，为43.6%；数字产品制造业增加值为43135亿元，所占比重为33.8%；数字要素驱动业增加值为24747亿元，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FF176155B2B86395F7937D8896FE46EB",
+      "timestamp": 1735524000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FF176155B2B86395F7937D8896FE46EB",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "单位 GDP 能耗的基础数据来源",
+        "title": "单位 GDP 能耗的基础数据来源",
+        "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwgn/202412/t20241223_1957824.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "其他数据 石油<em>生产</em>销售数据通过国家统计局制发的《石油<em>生产</em>企业石油产品<em>生产</em>、销售与库存》《石油销售企业石油商品购进、销售与库存》等报表分别取得。 2 规模以下工业是指年主营业务收入2000万元以下的工业法人企业（2010年以前为年主营业务收入500万元以下的工业法人企业）和个体工业<em>生产</em>单位。详见本书《第五章 工业<em>生产</em>增长速度》。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735524000000,
+        "docDate": "2024-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwgn/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "CFC93A44DB512E6F938CF9A72A4AEE9A",
+        "md5Url": "FF176155B2B86395F7937D8896FE46EB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "其他数据 石油<em>生产</em>销售数据通过国家统计局制发的《石油<em>生产</em>企业石油产品<em>生产</em>、销售与库存》《石油销售企业石油商品购进、销售与库存》等报表分别取得。 2 规模以下工业是指年主营业务收入2000万元以下的工业法人企业（2010年以前为年主营业务收入500万元以下的工业法人企业）和个体工业<em>生产</em>单位。详见本书《第五章 工业<em>生产</em>增长速度》。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwgn/202412/t20241223_1957824.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "单位 GDP 能耗的基础数据来源",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwgn/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735524000,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "主要统计指标诠释"
+          ],
+          "L4": [
+            "单位国内(地区)生产总值能耗"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "FF176155B2B86395F7937D8896FE46EB",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "单位 GDP 能耗的基础数据来源",
+          "MD5TITLE": "CFC93A44DB512E6F938CF9A72A4AEE9A",
+          "QUICKDESCRIPTION": "这里简要介绍终端能源消费基础数据来源。 一、农、林、牧、渔业能源消费 农、林、牧、渔业能源消费主要根据普查有关数据和该行业常规统计调查所取得的营业额，以及从电力公司或电力管理部门取得的电力消费数据推算。 二、工业能源消费 规模以上工业［1］能源消费年度数据通过国家统计局制发的《工业企业能源购进、消费与库存》获得。该报表调查范围是辖区内规模以上工业法人单位，调查频率是月度，12月份调查全年数据，调查方式是全面调查。 规模以下工业［2］能源消费，常规年份通过规模以下工业抽样调查有关数据推算；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E917934B194062360C6572288F4A29C7",
+      "timestamp": 1735524000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E917934B194062360C6572288F4A29C7",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "支出法 GDP 的核算方法",
+        "title": "支出法 GDP 的核算方法",
+        "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/202412/t20241220_1957806.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "季度支出法GDP核算还处于研究试算阶段，支出法GDP数据发布以年度数据为主。 以下主要对支出法年度GDP核算方法进行简要介绍。 支出法GDP核算采用产品分类，以《统计用产品分类目录》为基础。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735524000000,
+        "docDate": "2024-12-30",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/93ADFEB336B783CDBACA2DA9F4A60B2E.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "A051156FFC8333E100591E29C3C7598F",
+        "md5Url": "E917934B194062360C6572288F4A29C7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "季度支出法GDP核算还处于研究试算阶段，支出法GDP数据发布以年度数据为主。 以下主要对支出法年度GDP核算方法进行简要介绍。 支出法GDP核算采用产品分类，以《统计用产品分类目录》为基础。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/202412/t20241220_1957806.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "支出法 GDP 的核算方法",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/93ADFEB336B783CDBACA2DA9F4A60B2E.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735524000,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "主要统计指标诠释"
+          ],
+          "L4": [
+            "国内(地区)生产总值"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E917934B194062360C6572288F4A29C7",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "支出法 GDP 的核算方法",
+          "MD5TITLE": "A051156FFC8333E100591E29C3C7598F",
+          "QUICKDESCRIPTION": "一、核算方法 我国支出法GDP核算分为年度核算和季度核算。目前，季度支出法GDP核算还处于研究试算阶段，支出法GDP数据发布以年度数据为主。以下主要对支出法年度GDP核算方法进行简要介绍。 支出法GDP核算采用产品分类，以《统计用产品分类目录》为基础。最终消费支出按照支出主体划分为居民消费支出和政府消费支出。其中，居民消费支出根据支出目的不同分为食品烟酒、衣着、居住、生活用品及服务、交通和通信、教育文化和娱乐、医疗保健、金融中介服务、保险服务、其他商品及服务十大类。同时，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C2DA9D95CC8B4C200AA81AF5873AFE37",
+      "timestamp": 1735524000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C2DA9D95CC8B4C200AA81AF5873AFE37",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "地区生产总值核算方法",
+        "title": "地区<em>生产</em><em>总值</em>核算方法",
+        "url": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/202412/t20241220_1957809.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "我国地区<em>生产</em><em>总值</em>核算采用统一核算方式，即各省（自治区、直辖市）<em>生产</em><em>总值</em>核算由国家统计局统一领导、组织、实施，各省（自治区、直辖市）统计局共同参与，按照统一的核算方法，遵循真实准确、规范统一和公开透明的原则进行统一核算，并按统一要求公布核算结果，实现地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>基本衔接。市级和县级<em>生产</em><em>总值</em>核算由上一级统计部门参照省级<em>生产</em><em>总值</em>核算方式组织实施。 因此，在地区<em>生产</em><em>总值</em>核算中通常会采用一些特殊的处理办法，例如，在年度和季度的地区<em>生产</em><em>总值</em>核算中，与<em>国内生产总值</em>核算相比，行业分类一般相对简化；一些行业没有分地区基础资料，无法直接核算相应行业的分地区增加值，只能在全国该行业核算数据的基础上，利用相关指标分劈国家数得到分地区数据；当地区分行业增加值汇总数与<em>国内生产总值</em>对应行业增加值出现差距时，利用地区行业增加值占比分摊差额，实现地区汇总数与国家数基本衔接。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735524000000,
+        "docDate": "2024-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "B2FCD3047AEC73F01430FBCB317E1AA8",
+        "md5Url": "C2DA9D95CC8B4C200AA81AF5873AFE37",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "我国地区<em>生产</em><em>总值</em>核算采用统一核算方式，即各省（自治区、直辖市）<em>生产</em><em>总值</em>核算由国家统计局统一领导、组织、实施，各省（自治区、直辖市）统计局共同参与，按照统一的核算方法，遵循真实准确、规范统一和公开透明的原则进行统一核算，并按统一要求公布核算结果，实现地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>基本衔接。市级和县级<em>生产</em><em>总值</em>核算由上一级统计部门参照省级<em>生产</em><em>总值</em>核算方式组织实施。 因此，在地区<em>生产</em><em>总值</em>核算中通常会采用一些特殊的处理办法，例如，在年度和季度的地区<em>生产</em><em>总值</em>核算中，与<em>国内生产总值</em>核算相比，行业分类一般相对简化；一些行业没有分地区基础资料，无法直接核算相应行业的分地区增加值，只能在全国该行业核算数据的基础上，利用相关指标分劈国家数得到分地区数据；当地区分行业增加值汇总数与<em>国内生产总值</em>对应行业增加值出现差距时，利用地区行业增加值占比分摊差额，实现地区汇总数与国家数基本衔接。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/202412/t20241220_1957809.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            "展示分类"
+          ],
+          "C3": [
+            "专题"
+          ],
+          "DRETITLEO": "地区生产总值核算方法",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/zytjzbqs/gnsczz/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735524000,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "主要统计指标诠释"
+          ],
+          "L4": [
+            "国内(地区)生产总值"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C2DA9D95CC8B4C200AA81AF5873AFE37",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "地区生产总值核算方法",
+          "MD5TITLE": "B2FCD3047AEC73F01430FBCB317E1AA8",
+          "QUICKDESCRIPTION": "我国地区生产总值核算采用统一核算方式，即各省（自治区、直辖市）生产总值核算由国家统计局统一领导、组织、实施，各省（自治区、直辖市）统计局共同参与，按照统一的核算方法，遵循真实准确、规范统一和公开透明的原则进行统一核算，并按统一要求公布核算结果，实现地区生产总值汇总数与国内生产总值基本衔接。市级和县级生产总值核算由上一级统计部门参照省级生产总值核算方式组织实施。 目前，地区生产总值核算主要采用生产法和收入法核算，统称为生产核算。 由于地区生产总值核算范围的局限，与国内生产总值核算相比，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "498578F2849C0AE2964EDA8113396CC4",
+      "timestamp": 1735522777000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "498578F2849C0AE2964EDA8113396CC4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年全国文化及相关产业增加值占GDP比重为4.59%】根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占国内生产总值（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。 　　分行业看，2023年，文化服务业增加值为41158亿元，占文化及相关产业增加值的 ...展开全文c",
+        "title": "#数据发布# 【2023年全国文化及相关产业增加值占GDP比重为4.59%】根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占<em>国内生产总值</em>（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。 　　分行业看，2023年，文化服务业增加值为41158亿元，占文化及相关产业增加值的 ...展开全文c",
+        "url": "https://weibo.com/3919628624/P7dRnr2RR?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2023年全国文化及相关产业增加值占GDP比重为4.59%】根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占<em>国内生产总值</em>（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。 数据发布 【2023年全国文化及相关产业增加值占GDP比重为4.59%】根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占<em>国内生产总值</em>（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735522777000,
+        "docDate": "2024-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "E52F087EE68CA367566AB2E86863F89A",
+        "md5Url": "EFB7A02FF85797EBC8017920628E093A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2023年全国文化及相关产业增加值占GDP比重为4.59%】根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占<em>国内生产总值</em>（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。 数据发布 【2023年全国文化及相关产业增加值占GDP比重为4.59%】根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占<em>国内生产总值</em>（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1735522777,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "EFB7A02FF85797EBC8017920628E093A",
+          "DRETITLE": "数据发布 2023年全国文化及相关产业增加值占GDP比重为4 59 根据第五次全国经济普查结果 经核算 2023年全国文化及相关产业增加值为59464亿元 占国内生产总值 GDP 的比重为4 59 比上年提高0 17个百分点 1 分行业看 2023年 文化服务业增加值为41158亿元 占文化及相关产业增加值的 展开全文c",
+          "URL": "https://weibo.com/3919628624/P7dRnr2RR?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E52F087EE68CA367566AB2E86863F89A",
+          "DRETITLEO": "#数据发布# 【2023年全国文化及相关产业增加值占GDP比重为4.59%】根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占国内生产总值（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。 　　分行业看，2023年，文化服务业增加值为41158亿元，占文化及相关产业增加值的 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年全国文化及相关产业增加值占GDP比重为4 59 根据第五次全国经济普查结果 经核算 2023年全国文化及相关产业增加值为59464亿元 占国内生产总值 GDP 的比重为4 59 比上年提高0 17个百分点 1 分行业看 2023年 文化服务业增加值为41158亿元 占文化及相关产业增加值的 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F9442173584E4220558D4FF7A17CC27E",
+      "timestamp": 1735522709000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F9442173584E4220558D4FF7A17CC27E",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年全国旅游及相关产业增加值占GDP比重为4.24%】根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占国内生产总值（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。 　　从内部构成看，旅游业增加值为49890亿元，占旅游及相关产业增加值比重为91.0 ...展开全文c",
+        "title": "#数据发布# 【2023年全国旅游及相关产业增加值占GDP比重为4.24%】根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占<em>国内生产总值</em>（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。 　　从内部构成看，旅游业增加值为49890亿元，占旅游及相关产业增加值比重为91.0 ...展开全文c",
+        "url": "https://weibo.com/3919628624/P7dQUEweL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2023年全国旅游及相关产业增加值占GDP比重为4.24%】根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占<em>国内生产总值</em>（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。 数据发布 【2023年全国旅游及相关产业增加值占GDP比重为4.24%】根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占<em>国内生产总值</em>（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735522709000,
+        "docDate": "2024-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "44173AF3D1C887358F56C3EC76D001B4",
+        "md5Url": "CD5888A9ABA02F6C9E4057853BA361AF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2023年全国旅游及相关产业增加值占GDP比重为4.24%】根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占<em>国内生产总值</em>（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。 数据发布 【2023年全国旅游及相关产业增加值占GDP比重为4.24%】根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占<em>国内生产总值</em>（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1735522709,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "CD5888A9ABA02F6C9E4057853BA361AF",
+          "DRETITLE": "数据发布 2023年全国旅游及相关产业增加值占GDP比重为4 24 根据第五次全国经济普查结果 经核算 2023年全国旅游及相关产业增加值为54832亿元 占国内生产总值 GDP 的比重为4 24 比上年提高0 57个百分点 1 从内部构成看 旅游业增加值为49890亿元 占旅游及相关产业增加值比重为91 0 展开全文c",
+          "URL": "https://weibo.com/3919628624/P7dQUEweL?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "44173AF3D1C887358F56C3EC76D001B4",
+          "DRETITLEO": "#数据发布# 【2023年全国旅游及相关产业增加值占GDP比重为4.24%】根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占国内生产总值（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。 　　从内部构成看，旅游业增加值为49890亿元，占旅游及相关产业增加值比重为91.0 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年全国旅游及相关产业增加值占GDP比重为4 24 根据第五次全国经济普查结果 经核算 2023年全国旅游及相关产业增加值为54832亿元 占国内生产总值 GDP 的比重为4 24 比上年提高0 57个百分点 1 从内部构成看 旅游业增加值为49890亿元 占旅游及相关产业增加值比重为91 0 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DF2EA5C2C3CB68E8819B1F9A1538813B",
+      "timestamp": 1735522657000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DF2EA5C2C3CB68E8819B1F9A1538813B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2023年全国农业及相关产业增加值占GDP比重为15.34%】根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占国内生产总值（GDP）的比重为15.34%。 　　分三次产业看，农业及相关产业增加值中，第一产业、第二产业、第三产业增加值占比分别为44.9%、27.0% ...展开全文c",
+        "title": "#数据发布# 【2023年全国农业及相关产业增加值占GDP比重为15.34%】根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占<em>国内生产总值</em>（GDP）的比重为15.34%。 　　分三次产业看，农业及相关产业增加值中，第一产业、第二产业、第三产业增加值占比分别为44.9%、27.0% ...展开全文c",
+        "url": "https://weibo.com/3919628624/P7dQzhwgs?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2023年全国农业及相关产业增加值占GDP比重为15.34%】根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占<em>国内生产总值</em>（GDP）的比重为15.34%。 数据发布 【2023年全国农业及相关产业增加值占GDP比重为15.34%】根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占<em>国内生产总值</em>（GDP）的比重为15.34%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735522657000,
+        "docDate": "2024-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "74DD21AE776D7D8F67268A9A3D4D61E6",
+        "md5Url": "E2F0BC7FD55CAF97F83028B8A89312A3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2023年全国农业及相关产业增加值占GDP比重为15.34%】根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占<em>国内生产总值</em>（GDP）的比重为15.34%。 数据发布 【2023年全国农业及相关产业增加值占GDP比重为15.34%】根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占<em>国内生产总值</em>（GDP）的比重为15.34%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1735522657,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E2F0BC7FD55CAF97F83028B8A89312A3",
+          "DRETITLE": "数据发布 2023年全国农业及相关产业增加值占GDP比重为15 34 根据第五次全国经济普查结果 经核算 2023年全国农业及相关产业增加值为198534亿元 占国内生产总值 GDP 的比重为15 34 分三次产业看 农业及相关产业增加值中 第一产业 第二产业 第三产业增加值占比分别为44 9 27 0 展开全文c",
+          "URL": "https://weibo.com/3919628624/P7dQzhwgs?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "74DD21AE776D7D8F67268A9A3D4D61E6",
+          "DRETITLEO": "#数据发布# 【2023年全国农业及相关产业增加值占GDP比重为15.34%】根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占国内生产总值（GDP）的比重为15.34%。 　　分三次产业看，农业及相关产业增加值中，第一产业、第二产业、第三产业增加值占比分别为44.9%、27.0% ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2023年全国农业及相关产业增加值占GDP比重为15 34 根据第五次全国经济普查结果 经核算 2023年全国农业及相关产业增加值为198534亿元 占国内生产总值 GDP 的比重为15 34 分三次产业看 农业及相关产业增加值中 第一产业 第二产业 第三产业增加值占比分别为44 9 27 0 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "5B0951C77D23479E01AC9C4DC1BA7B07",
+      "timestamp": 1735522200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "5B0951C77D23479E01AC9C4DC1BA7B07",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年全国旅游及相关产业增加值占GDP比重为4.24%",
+        "title": "2023年全国旅游及相关产业增加值占GDP比重为4.24%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241230_1957935.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占<em>国内生产总值</em>（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。 旅游及相关产业增加值，指一个国家所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动而创造的增加值。 常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占<em>国内生产总值</em>（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。 旅游及相关产业增加值，指一个国家所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动而创造的增加值。 常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1735522200000,
+        "docDate": "2024-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_20.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "B4907F939B238C974DE55C48A4242989",
+        "md5Url": "5B0951C77D23479E01AC9C4DC1BA7B07",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占<em>国内生产总值</em>（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。 旅游及相关产业增加值，指一个国家所有常住单位一定时期内进行旅游及相关产业<em>生产</em>活动而创造的增加值。 常住单位指在我国的经济领土上具有经济利益中心的经济单位。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202412/t20241230_1957935.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年全国旅游及相关产业增加值占GDP比重为4.24%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_20.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735522200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "5B0951C77D23479E01AC9C4DC1BA7B07",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年全国旅游及相关产业增加值占GDP比重为4 24",
+          "MD5TITLE": "B4907F939B238C974DE55C48A4242989",
+          "QUICKDESCRIPTION": "　　根据第五次全国经济普查结果，经核算，2023年全国旅游及相关产业增加值为54832亿元，占国内生产总值（GDP）的比重为4.24%，比上年提高0.57个百分点[1]。   　　从内部构成看，旅游业增加值为49890亿元，占旅游及相关产业增加值比重为91.0%，比上年提高1.7个百分点。旅游相关产业增加值为4942亿元，占旅游及相关产业增加值比重为9.0%，比上年下降1.7个百分点。   2023年全国旅游及相关产业增加值   分类名称 增加值 （亿元） 构成 （%）",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BED6D0465D943E67CA03F152A5972E94",
+      "timestamp": 1735522200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BED6D0465D943E67CA03F152A5972E94",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年全国文化及相关产业增加值占GDP比重为4.59%",
+        "title": "2023年全国文化及相关产业增加值占GDP比重为4.59%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241230_1957934.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占<em>国内生产总值</em>（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。 2023年文化及相关产业增加值 分类名称 增加值 亿元 构成 % 文化及相关产业 59464 100.0 分行业大类 文化制造业 12168 20.5 文化批发和零售业 6138 10.3 文化服务业 41158 69.2 分活动性质 文化核心领域 42312 71.2 新闻信息服务 8982 15.1 内容创作<em>生产</em> 14989 25.2 创意设计服务 9488 16.0 文化传播渠道 5631 9.5 文化投资运营 514 0.9 文化娱乐休闲服务 2708 4.6 文化相关领域 17152 28.8 文化辅助<em>生产</em>和中介服务 9350 15.7 文化装备<em>生产</em> 1899 3.2 文化消费终端<em>生产</em> 5903 9.9 注：若数据分项合计与总计不等，是由于数值修约误差所致。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占<em>国内生产总值</em>（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。 2023年文化及相关产业增加值 分类名称 增加值 亿元 构成 % 文化及相关产业 59464 100.0 分行业大类 文化制造业 12168 20.5 文化批发和零售业 6138 10.3 文化服务业 41158 69.2 分活动性质 文化核心领域 42312 71.2 新闻信息服务 8982 15.1 内容创作<em>生产</em> 14989 25.2 创意设计服务 9488 16.0 文化传播渠道 5631 9.5 文化投资运营 514 0.9 文化娱乐休闲服务 2708 4.6 文化相关领域 17152 28.8 文化辅助<em>生产</em>和中介服务 9350 15.7 文化装备<em>生产</em> 1899 3.2 文化消费终端<em>生产</em> 5903 9.9 注：若数据分项合计与总计不等，是由于数值修约误差所致。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1735522200000,
+        "docDate": "2024-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_20.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "1C6B9E1F70042BE65D8AC4F5BD7EC193",
+        "md5Url": "BED6D0465D943E67CA03F152A5972E94",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占<em>国内生产总值</em>（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。 2023年文化及相关产业增加值 分类名称 增加值 亿元 构成 % 文化及相关产业 59464 100.0 分行业大类 文化制造业 12168 20.5 文化批发和零售业 6138 10.3 文化服务业 41158 69.2 分活动性质 文化核心领域 42312 71.2 新闻信息服务 8982 15.1 内容创作<em>生产</em> 14989 25.2 创意设计服务 9488 16.0 文化传播渠道 5631 9.5 文化投资运营 514 0.9 文化娱乐休闲服务 2708 4.6 文化相关领域 17152 28.8 文化辅助<em>生产</em>和中介服务 9350 15.7 文化装备<em>生产</em> 1899 3.2 文化消费终端<em>生产</em> 5903 9.9 注：若数据分项合计与总计不等，是由于数值修约误差所致。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202412/t20241230_1957934.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年全国文化及相关产业增加值占GDP比重为4.59%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_20.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735522200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "BED6D0465D943E67CA03F152A5972E94",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年全国文化及相关产业增加值占GDP比重为4 59",
+          "MD5TITLE": "1C6B9E1F70042BE65D8AC4F5BD7EC193",
+          "QUICKDESCRIPTION": "　　根据第五次全国经济普查结果，经核算，2023年全国文化及相关产业增加值为59464亿元，占国内生产总值（GDP）的比重为4.59%，比上年提高0.17个百分点[1]。   　　分行业看，2023年，文化服务业增加值为41158亿元，占文化及相关产业增加值的比重为69.2%，比上年提高2.3个百分点；文化制造业增加值为12168亿元，占比为20.5%，比上年下降2.6个百分点；文化批发和零售业增加值为6138亿元，占比为10.3%，比上年提高0.3个百分点。   　　分领域看，2023年，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C2EDBFD0903BDB78D357A0E50D1D27A3",
+      "timestamp": 1735522200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C2EDBFD0903BDB78D357A0E50D1D27A3",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2023年全国农业及相关产业增加值占GDP比重为15.34%",
+        "title": "2023年全国农业及相关产业增加值占GDP比重为15.34%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241230_1957936.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占<em>国内生产总值</em>（GDP）的比重为15.34%。 2023年全国农业及相关产业增加值 分类名称 增加值 亿元 构成 % 农业及相关产业 198534 100.0 按三次产业分 第一产业 89169 44.9 第二产业 53518 27.0 第三产业 55847 28.1 按农业及相关产业大类分 农林牧渔业 93967 47.3 食用农林牧渔产品加工与制造 38139 19.2 非食用农林牧渔产品加工与制造 10622 5.4 农林牧渔业<em>生产</em>资料制造和农田水利设施建设 4769 2.4 农林牧渔业及相关产品流通服务 30923 15.6 农林牧渔业科研和技术服务 3859 1.9 农林牧渔业教育培训与人力资源服务 1968 1.0 农林牧渔业生态保护和环境治理 1330 0.7 农林牧渔业休闲观光与农业农村管理服务 8955 4.5 其他支持服务 4002 2.0 注：若数据分项合计与总计不等，是由于数值修约误差所致。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占<em>国内生产总值</em>（GDP）的比重为15.34%。 2023年全国农业及相关产业增加值 分类名称 增加值 亿元 构成 % 农业及相关产业 198534 100.0 按三次产业分 第一产业 89169 44.9 第二产业 53518 27.0 第三产业 55847 28.1 按农业及相关产业大类分 农林牧渔业 93967 47.3 食用农林牧渔产品加工与制造 38139 19.2 非食用农林牧渔产品加工与制造 10622 5.4 农林牧渔业<em>生产</em>资料制造和农田水利设施建设 4769 2.4 农林牧渔业及相关产品流通服务 30923 15.6 农林牧渔业科研和技术服务 3859 1.9 农林牧渔业教育培训与人力资源服务 1968 1.0 农林牧渔业生态保护和环境治理 1330 0.7 农林牧渔业休闲观光与农业农村管理服务 8955 4.5 其他支持服务 4002 2.0 注：若数据分项合计与总计不等，是由于数值修约误差所致。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1735522200000,
+        "docDate": "2024-12-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_20.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "CD89C91EC9E2F1B9E2BD834B9680D7C2",
+        "md5Url": "C2EDBFD0903BDB78D357A0E50D1D27A3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占<em>国内生产总值</em>（GDP）的比重为15.34%。 2023年全国农业及相关产业增加值 分类名称 增加值 亿元 构成 % 农业及相关产业 198534 100.0 按三次产业分 第一产业 89169 44.9 第二产业 53518 27.0 第三产业 55847 28.1 按农业及相关产业大类分 农林牧渔业 93967 47.3 食用农林牧渔产品加工与制造 38139 19.2 非食用农林牧渔产品加工与制造 10622 5.4 农林牧渔业<em>生产</em>资料制造和农田水利设施建设 4769 2.4 农林牧渔业及相关产品流通服务 30923 15.6 农林牧渔业科研和技术服务 3859 1.9 农林牧渔业教育培训与人力资源服务 1968 1.0 农林牧渔业生态保护和环境治理 1330 0.7 农林牧渔业休闲观光与农业农村管理服务 8955 4.5 其他支持服务 4002 2.0 注：若数据分项合计与总计不等，是由于数值修约误差所致。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202412/t20241230_1957936.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2023年全国农业及相关产业增加值占GDP比重为15.34%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_20.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735522200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C2EDBFD0903BDB78D357A0E50D1D27A3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2023年全国农业及相关产业增加值占GDP比重为15 34",
+          "MD5TITLE": "CD89C91EC9E2F1B9E2BD834B9680D7C2",
+          "QUICKDESCRIPTION": "　　根据第五次全国经济普查结果，经核算，2023年全国农业及相关产业增加值为198534亿元，占国内生产总值（GDP）的比重为15.34%。   　　分三次产业看，农业及相关产业增加值中，第一产业、第二产业、第三产业增加值占比分别为44.9%、27.0%、28.1%。第一产业增加值规模最大、占比最高。   　　从农业及相关产业大类看，农林牧渔业、食用农林牧渔产品加工与制造、农林牧渔业及相关产品流通服务增加值规模居前三，占农业及相关产业增加值的比重分别为47.3%、19.2%、15.6%。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E6424DC576F2FF953CDACC3E9A5624F1",
+      "timestamp": 1735263607000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E6424DC576F2FF953CDACC3E9A5624F1",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【国家统计局核算司负责人就2023年GDP数据修订问题答记者问】2024年12月27日，国家统计局发布了《国家统计局关于修订2023年国内生产总值数据的公告》，局核算司负责人就此接受了《中国信息报》专访。详见：O网页链接",
+        "title": "#权威解读# 【国家统计局核算司负责人就2023年GDP数据修订问题答记者问】2024年12月27日，国家统计局发布了《国家统计局关于修订2023年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/P6LA5Aout?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【国家统计局核算司负责人就2023年GDP数据修订问题答记者问】2024年12月27日，国家统计局发布了《国家统计局关于修订2023年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。 权威解读 【国家统计局核算司负责人就2023年GDP数据修订问题答记者问】2024年12月27日，国家统计局发布了《国家统计局关于修订2023年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735263607000,
+        "docDate": "2024-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "3238CA06C863D4CDC2AAD7B4DAD287D1",
+        "md5Url": "2805FB4E9E78FA979133B15A03116EB4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【国家统计局核算司负责人就2023年GDP数据修订问题答记者问】2024年12月27日，国家统计局发布了《国家统计局关于修订2023年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。 权威解读 【国家统计局核算司负责人就2023年GDP数据修订问题答记者问】2024年12月27日，国家统计局发布了《国家统计局关于修订2023年<em>国内生产总值</em>数据的公告》，局核算司负责人就此接受了《中国信息报》专访。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1735263607,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2805FB4E9E78FA979133B15A03116EB4",
+          "DRETITLE": "权威解读 国家统计局核算司负责人就2023年GDP数据修订问题答记者问 2024年12月27日 国家统计局发布了 国家统计局关于修订2023年国内生产总值数据的公告 局核算司负责人就此接受了 中国信息报 专访 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/P6LA5Aout?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "3238CA06C863D4CDC2AAD7B4DAD287D1",
+          "DRETITLEO": "#权威解读# 【国家统计局核算司负责人就2023年GDP数据修订问题答记者问】2024年12月27日，国家统计局发布了《国家统计局关于修订2023年国内生产总值数据的公告》，局核算司负责人就此接受了《中国信息报》专访。详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 国家统计局核算司负责人就2023年GDP数据修订问题答记者问 2024年12月27日 国家统计局发布了 国家统计局关于修订2023年国内生产总值数据的公告 局核算司负责人就此接受了 中国信息报 专访 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7FDF3F49421A82292FB338DBF1730BC0",
+      "timestamp": 1735263331000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7FDF3F49421A82292FB338DBF1730BC0",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【国家统计局关于修订2023年国内生产总值数据的公告】 依据我国国内生产总值（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年国内生产总值初步核算数进行了修订。 　　修订后，2023年国内生产总值为1294272亿元，比初步核算数 ...展开全文c",
+        "title": "#数据发布# 【国家统计局关于修订2023年<em>国内生产总值</em>数据的公告】 依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 　　修订后，2023年<em>国内生产总值</em>为1294272亿元，比初步核算数 ...展开全文c",
+        "url": "https://weibo.com/3919628624/P6Lye6AqS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【国家统计局关于修订2023年<em>国内生产总值</em>数据的公告】 依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 数据发布 【国家统计局关于修订2023年<em>国内生产总值</em>数据的公告】 依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 修订后，2023年<em>国内生产总值</em>为1294272亿元，比初步核算数 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735263331000,
+        "docDate": "2024-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "799910189762321484486E8D96A791B3",
+        "md5Url": "8696C729ECBD1EC57D7B36EA9AFA699A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【国家统计局关于修订2023年<em>国内生产总值</em>数据的公告】 依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 数据发布 【国家统计局关于修订2023年<em>国内生产总值</em>数据的公告】 依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 修订后，2023年<em>国内生产总值</em>为1294272亿元，比初步核算数 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1735263331,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8696C729ECBD1EC57D7B36EA9AFA699A",
+          "DRETITLE": "数据发布 国家统计局关于修订2023年国内生产总值数据的公告 依据我国国内生产总值 GDP 核算制度和第五次全国经济普查结果 并同步实施城镇居民自有住房服务核算方法改革 国家统计局对2023年国内生产总值初步核算数进行了修订 修订后 2023年国内生产总值为1294272亿元 比初步核算数 展开全文c",
+          "URL": "https://weibo.com/3919628624/P6Lye6AqS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "799910189762321484486E8D96A791B3",
+          "DRETITLEO": "#数据发布# 【国家统计局关于修订2023年国内生产总值数据的公告】 依据我国国内生产总值（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年国内生产总值初步核算数进行了修订。 　　修订后，2023年国内生产总值为1294272亿元，比初步核算数 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 国家统计局关于修订2023年国内生产总值数据的公告 依据我国国内生产总值 GDP 核算制度和第五次全国经济普查结果 并同步实施城镇居民自有住房服务核算方法改革 国家统计局对2023年国内生产总值初步核算数进行了修订 修订后 2023年国内生产总值为1294272亿元 比初步核算数 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7D503D53DC904CD6F08E3DB951F3C115",
+      "timestamp": 1735263000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7D503D53DC904CD6F08E3DB951F3C115",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "国家统计局关于修订2023年国内生产总值数据的公告",
+        "title": "国家统计局关于修订2023年<em>国内生产总值</em>数据的公告",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241227_1957915.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 修订后，2023年<em>国内生产总值</em>为1294272亿元，比初步核算数增加33690亿元，增幅为2.7%。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 修订后，2023年<em>国内生产总值</em>为1294272亿元，比初步核算数增加33690亿元，增幅为2.7%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1735263000000,
+        "docDate": "2024-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_20.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "FEDAF62E8CAF281BC0D17E2D466E6FDE",
+        "md5Url": "7D503D53DC904CD6F08E3DB951F3C115",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 依据我国<em>国内生产总值</em>（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年<em>国内生产总值</em>初步核算数进行了修订。 修订后，2023年<em>国内生产总值</em>为1294272亿元，比初步核算数增加33690亿元，增幅为2.7%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202412/t20241227_1957915.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局关于修订2023年国内生产总值数据的公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_20.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735263000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "7D503D53DC904CD6F08E3DB951F3C115",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局关于修订2023年国内生产总值数据的公告",
+          "MD5TITLE": "FEDAF62E8CAF281BC0D17E2D466E6FDE",
+          "QUICKDESCRIPTION": "　　依据我国国内生产总值（GDP）核算制度和第五次全国经济普查结果，并同步实施城镇居民自有住房服务核算方法改革，国家统计局对2023年国内生产总值初步核算数进行了修订。   　　修订后，2023年国内生产总值为1294272亿元，比初步核算数增加33690亿元，增幅为2.7%。其中，根据第五次全国经济普查数据修订，国内生产总值比初步核算数增加20257亿元，增幅为1.6%；实施城镇居民自有住房服务核算方法改革，国内生产总值增加13433亿元，增幅为1.1%。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DC1A444FF7AF63C750608CB2DD8F67E2",
+      "timestamp": 1735263000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DC1A444FF7AF63C750608CB2DD8F67E2",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局核算司负责人就2023年GDP数据修订问题答记者问",
+        "title": "国家统计局核算司负责人就2023年GDP数据修订问题答记者问",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202412/t20241227_1957914.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "第五次全国经济普查后为什么要对2023年全国GDP数据进行修订 答：对GDP数据进行修订是国际通行的做法，也是我国政府统计一直以来的工作惯例。 全国经济普查为GDP核算提供了范围全面、内容丰富、真实准确的基础数据，为此，国家统计局依据经济普查数据和相关部门资料，按照第五次全国经济普查年度GDP核算方法，对2023年GDP初步核算数进行了修订。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1735263000000,
+        "docDate": "2024-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_14.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "1839151EA64D8A085FBD780A9D37BFB1",
+        "md5Url": "DC1A444FF7AF63C750608CB2DD8F67E2",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "第五次全国经济普查后为什么要对2023年全国GDP数据进行修订 答：对GDP数据进行修订是国际通行的做法，也是我国政府统计一直以来的工作惯例。 全国经济普查为GDP核算提供了范围全面、内容丰富、真实准确的基础数据，为此，国家统计局依据经济普查数据和相关部门资料，按照第五次全国经济普查年度GDP核算方法，对2023年GDP初步核算数进行了修订。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202412/t20241227_1957914.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局核算司负责人就2023年GDP数据修订问题答记者问",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_14.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1735263000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "DC1A444FF7AF63C750608CB2DD8F67E2",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局核算司负责人就2023年GDP数据修订问题答记者问",
+          "MD5TITLE": "1839151EA64D8A085FBD780A9D37BFB1",
+          "QUICKDESCRIPTION": "　　2024年12月27日，国家统计局发布了《国家统计局关于修订2023年国内生产总值数据的公告》，局核算司负责人就此接受了《中国信息报》专访。   　　问：第五次全国经济普查后为什么要对2023年全国GDP数据进行修订？   　　答：对GDP数据进行修订是国际通行的做法，也是我国政府统计一直以来的工作惯例。根据我国现行国民经济核算制度，我国年度GDP要进行两次核算。第一次是初步核算，受资料来源等限制，初步核算主要采用进度统计调查资料和部门行政记录进行核算。第二次是对GDP的最终核实，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DFE2090E04A6D9E45E28CBDED689C9A3",
+      "timestamp": 1734883200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DFE2090E04A6D9E45E28CBDED689C9A3",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "规模以上工业产品产销率等于当年（当月）销售产值/当年（当月）生产总值，近十年来每年的产销率都低于100%，每年少的那几个百分点的差距在哪？",
+        "title": "规模以上工业产品产销率等于当年（当月）销售产值/当年（当月）<em>生产</em><em>总值</em>，近十年来每年的产销率都低于100%，每年少的那几个百分点的差距在哪？",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202502/t20250217_1958721.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "对于单个规模以上工业企业而言，若是在报告期内销售的产品数量超过本期<em>生产</em>的产品数量，如销售了大量往期<em>生产</em>的库存产品，则有可能导致本期产销率大于100%。 但从整个规模以上工业来看，上述情形难以出现，并且由于工业企业<em>生产</em>完产品后存在补充库存、库存损耗、运输损耗等情况，因此规模以上工业产销率通常小于100%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1734883200000,
+        "docDate": "2024-12-23",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_11.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "96956421C4C60FFD1BA97BA739E687B7",
+        "md5Url": "DFE2090E04A6D9E45E28CBDED689C9A3",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "对于单个规模以上工业企业而言，若是在报告期内销售的产品数量超过本期<em>生产</em>的产品数量，如销售了大量往期<em>生产</em>的库存产品，则有可能导致本期产销率大于100%。 但从整个规模以上工业来看，上述情形难以出现，并且由于工业企业<em>生产</em>完产品后存在补充库存、库存损耗、运输损耗等情况，因此规模以上工业产销率通常小于100%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局工业统计司",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202502/t20250217_1958721.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "规模以上工业产品产销率等于当年（当月）销售产值/当年（当月）生产总值，近十年来每年的产销率都低于100%，每年少的那几个百分点的差距在哪？",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_11.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1734883200,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "DFE2090E04A6D9E45E28CBDED689C9A3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "规模以上工业产品产销率等于当年 当月 销售产值 当年 当月 生产总值 近十年来每年的产销率都低于100 每年少的那几个百分点的差距在哪",
+          "MD5TITLE": "96956421C4C60FFD1BA97BA739E687B7",
+          "QUICKDESCRIPTION": "规模以上工业产品销售率（产销率）为报告期内工业销售产值除以工业总产值计算得到。对于单个规模以上工业企业而言，若是在报告期内销售的产品数量超过本期生产的产品数量，如销售了大量往期生产的库存产品，则有可能导致本期产销率大于100%。但从整个规模以上工业来看，上述情形难以出现，并且由于工业企业生产完产品后存在补充库存、库存损耗、运输损耗等情况，因此规模以上工业产销率通常小于100%。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "E254C4BD6238AD3E5971E4919353CEBA",
+      "timestamp": 1734487200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "E254C4BD6238AD3E5971E4919353CEBA",
+        "titleLabel": {
+          "value": "统计实务",
+          "location": 0
+        },
+        "titleO": "地区生产总值统一核算如何实施",
+        "title": "地区<em>生产</em><em>总值</em>统一核算如何实施",
+        "url": "https://www.stats.gov.cn/zs/tjws/tjzn/202301/t20230101_1903408.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "通过统一核算，实现了地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>基本衔接。实施统一核算后，各省（区、市）统计局不再上报本地区<em>生产</em><em>总值</em>数据。 自正式实施统一核算改革以来，统一核算工作总体运行良好，实现了地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>三个基本衔接，即总量基本衔接、速度基本衔接、行业结构基本衔接。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1734487200000,
+        "docDate": "2024-12-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzn/",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "FAF88E1F4DB9AB6EC9B75B1666FAAEC4",
+        "md5Url": "E254C4BD6238AD3E5971E4919353CEBA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "通过统一核算，实现了地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>基本衔接。实施统一核算后，各省（区、市）统计局不再上报本地区<em>生产</em><em>总值</em>数据。 自正式实施统一核算改革以来，统一核算工作总体运行良好，实现了地区<em>生产</em><em>总值</em>汇总数与<em>国内生产总值</em>三个基本衔接，即总量基本衔接、速度基本衔接、行业结构基本衔接。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/zs/tjws/tjzn/202301/t20230101_1903408.html",
+          "C1": [
+            "知识"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "地区生产总值统一核算如何实施",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/zs/tjws/jbtjzswd/tjzn/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1734487200,
+          "L1": [
+            "统计知识"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计实务"
+          ],
+          "L3": [
+            "基本统计知识问答"
+          ],
+          "L4": [
+            "统计职能"
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "E254C4BD6238AD3E5971E4919353CEBA",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "地区生产总值统一核算如何实施",
+          "MD5TITLE": "FAF88E1F4DB9AB6EC9B75B1666FAAEC4",
+          "QUICKDESCRIPTION": "按照党中央、国务院关于地区生产总值统一核算改革部署，国家统计局于2020年1月开展了2019年全年地区生产总值统一核算，即首次正式实施统一核算，这标志地区生产总值统一核算改革正式落地。 一、成立统一核算领导机构 为加强对地区生产总值统一核算工作的领导，国家统计局成立了地区生产总值统一核算领导小组，由国家统计局主要负责人担任组长，有关局领导任副组长，分管副局长负责协调处理相关工作，相关司主要负责人、各省（区、市）统计局主要负责人为小组成员。领导小组主要职责是领导地区生产总值统一核算工作，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "194C1BD74A1DFC6979649FB31FEC23EF",
+      "timestamp": 1730874790000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "194C1BD74A1DFC6979649FB31FEC23EF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数说75年#【两分钟拼贴动画，#解锁75年的数字密码#！】今年是中华人民共和国成立75周年，与新中国成立初期相比，2023年国内生产总值增长223倍、人均GDP增长89倍、农村贫困人口全部脱贫……75年来，我国经济社会发生了哪些巨大改变？2分钟拼贴动画，带你解锁75年的数字密码！O两分钟拼贴动画，解锁75年的数字密码！ ...展开全文c",
+        "title": "#数说75年#【两分钟拼贴动画，#解锁75年的数字密码#！】今年是中华人民共和国成立75周年，与新中国成立初期相比，2023年<em>国内生产总值</em>增长223倍、人均GDP增长89倍、农村贫困人口全部脱贫……75年来，我国经济社会发生了哪些巨大改变？2分钟拼贴动画，带你解锁75年的数字密码！O两分钟拼贴动画，解锁75年的数字密码！ ...展开全文c",
+        "url": "https://weibo.com/3919628624/OF0a2snQm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "今年是中华人民共和国成立75周年，与新中国成立初期相比，2023年<em>国内生产总值</em>增长223倍、人均GDP增长89倍、农村贫困人口全部脱贫 75年来，我国经济社会发生了哪些巨大改变 2分钟拼贴动画，带你解锁75年的数字密码！...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1730874790000,
+        "docDate": "2024-11-06",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "03B7A172CE59559AFAF4592CD7BC7973",
+        "md5Url": "9354771788A14BCF8902BE5166C3F5AE",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "今年是中华人民共和国成立75周年，与新中国成立初期相比，2023年<em>国内生产总值</em>增长223倍、人均GDP增长89倍、农村贫困人口全部脱贫 75年来，我国经济社会发生了哪些巨大改变 2分钟拼贴动画，带你解锁75年的数字密码！...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1730874790,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "9354771788A14BCF8902BE5166C3F5AE",
+          "DRETITLE": "数说75年 两分钟拼贴动画 解锁75年的数字密码 今年是中华人民共和国成立75周年 与新中国成立初期相比 2023年国内生产总值增长223倍 人均GDP增长89倍 农村贫困人口全部脱贫 75年来 我国经济社会发生了哪些巨大改变 2分钟拼贴动画 带你解锁75年的数字密码 O两分钟拼贴动画 解锁75年的数字密码 展开全文c",
+          "URL": "https://weibo.com/3919628624/OF0a2snQm?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "03B7A172CE59559AFAF4592CD7BC7973",
+          "DRETITLEO": "#数说75年#【两分钟拼贴动画，#解锁75年的数字密码#！】今年是中华人民共和国成立75周年，与新中国成立初期相比，2023年国内生产总值增长223倍、人均GDP增长89倍、农村贫困人口全部脱贫……75年来，我国经济社会发生了哪些巨大改变？2分钟拼贴动画，带你解锁75年的数字密码！O两分钟拼贴动画，解锁75年的数字密码！ ...展开全文c",
+          "QUICKDESCRIPTION": "数说75年 两分钟拼贴动画 解锁75年的数字密码 今年是中华人民共和国成立75周年 与新中国成立初期相比 2023年国内生产总值增长223倍 人均GDP增长89倍 农村贫困人口全部脱贫 75年来 我国经济社会发生了哪些巨大改变 2分钟拼贴动画 带你解锁75年的数字密码 O两分钟拼贴动画 解锁75年的数字密码 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 23,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 15,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 11,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 6,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 47,
+          "children": null,
+          "key": "国民经济核算"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "工业"
+        },
+        {
+          "val": 5,
+          "children": null,
+          "key": "住户调查"
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 43,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 7,
+          "children": null,
+          "key": "专题"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {
+    "统计新闻": [
+      {
+        "version": "V_8_0",
+        "id": "5003370D69EE6B75E0D918824A8F2D4A",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局公告",
+        "title": "国家统计局公告",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202410/t20241010_1956861.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2024年第4号   　　为准确及时监测和反映我国人口发展变化情况，为党和国家制定国民经济和社会发展计划以及人口有关政策提供基础依据，国家统计局决定在全国范围内组织开展2024年人口变动情况抽样调查。现将有关事项公告如下：   　　一、调查范围：被抽中的我国大陆地区的城镇和乡村地域。   　　二、调查登记对象：   　　抽中住房内具有中华人民共和国国籍的人，调查以户为单位进行，既调查家庭户，也调查集体户。   　　应在户中登记的人包括：1.调查标准时点居住在本户的人；2.户口在本户，...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1728525180000,
+        "docDate": "2024-10-10",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_8.html",
+        "weight": 0.016393442,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "7E9C83BEFF284316784A2FE387C36211",
+        "md5Url": "5003370D69EE6B75E0D918824A8F2D4A",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "2024年第4号   　　为准确及时监测和反映我国人口发展变化情况，为党和国家制定国民经济和社会发展计划以及人口有关政策提供基础依据，国家统计局决定在全国范围内组织开展2024年人口变动情况抽样调查。现将有关事项公告如下：   　　一、调查范围：被抽中的我国大陆地区的城镇和乡村地域。   　　二、调查登记对象：   　　抽中住房内具有中华人民共和国国籍的人，调查以户为单位进行，既调查家庭户，也调查集体户。   　　应在户中登记的人包括：1.调查标准时点居住在本户的人；2.户口在本户，...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202410/t20241010_1956861.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_8.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1728525180,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "5003370D69EE6B75E0D918824A8F2D4A",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局公告",
+          "MD5TITLE": "7E9C83BEFF284316784A2FE387C36211",
+          "QUICKDESCRIPTION": "2024年第4号   　　为准确及时监测和反映我国人口发展变化情况，为党和国家制定国民经济和社会发展计划以及人口有关政策提供基础依据，国家统计局决定在全国范围内组织开展2024年人口变动情况抽样调查。现将有关事项公告如下：   　　一、调查范围：被抽中的我国大陆地区的城镇和乡村地域。   　　二、调查登记对象：   　　抽中住房内具有中华人民共和国国籍的人，调查以户为单位进行，既调查家庭户，也调查集体户。   　　应在户中登记的人包括：1.调查标准时点居住在本户的人；2.户口在本户，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [
+          "NEWS"
+        ],
+        "type": 1
+      },
+      {
+        "version": "V_8_0",
+        "id": "C3E8DB7A8B06F110498D85948D746EF3",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "国家统计局本级决算（2023）",
+        "title": "国家统计局本级决算（2023）",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202408/t20240813_1955961.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "请见附件  ...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1723532580000,
+        "docDate": "2024-08-13",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_10.html",
+        "weight": 0.015384615,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "F0810BD4AD79DC85BB8F84DA88AE5264",
+        "md5Url": "C3E8DB7A8B06F110498D85948D746EF3",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "请见附件  ...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/tzgg/202408/t20240813_1955961.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局本级决算（2023）",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/xw/tjxw/tzgg/202408/P020240813354693495459.pdf": "· 国家统计局本级决算（2023）.pdf"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/tzgg/index_10.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1723532580,
+          "L1": [
+            "通知公告"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "通知公告"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C3E8DB7A8B06F110498D85948D746EF3",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局本级决算 2023",
+          "MD5TITLE": "F0810BD4AD79DC85BB8F84DA88AE5264",
+          "QUICKDESCRIPTION": "请见附件  ",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      }
+    ],
+    "政策文件": [
+      {
+        "version": "V_8_0",
+        "id": "9E8FA0FE21A6B5D4A704D9EB925B981F",
+        "titleLabel": {
+          "value": "政策文件",
+          "location": 0
+        },
+        "titleO": "国家统计局公告",
+        "title": "国家统计局公告",
+        "url": "https://www.stats.gov.cn/gk/tjfg/gfxwj/202407/t20240703_1955358.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "国家统计局公告   2024年第3号   　　根据《国务院办公厅关于全面实行行政许可事项清单管理的通知》（国办发〔2022〕2号）要求，现将国家统计局“跨省（区、市）涉外统计调查资格认定”和“跨省（区、市）涉外社会调查项目审批”共2项行政许可事项予以公布（详见附件）。2014年2月17日国家统计局公布的《关于公开国家统计局行政审批事项的公告》同时废止。   　　联系单位：国家统计局统计执法监督局   　　联系信箱：zfsc@stats.gov.cn   　　联系电话：010-...",
+        "formatRows": null,
+        "aiFormatRows": [],
+        "dreDate": 1719973140000,
+        "docDate": "2024-07-03",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/gk/tjfg/gfxwj/",
+        "weight": 0.016393442,
+        "dbName": "machining_search_stats",
+        "fileType": "html",
+        "combins": 0,
+        "md5Title": "7E9C83BEFF284316784A2FE387C36211",
+        "md5Url": "9E8FA0FE21A6B5D4A704D9EB925B981F",
+        "banshi": false,
+        "online": 1,
+        "myValues": {
+          "SUMMARY": "国家统计局公告   2024年第3号   　　根据《国务院办公厅关于全面实行行政许可事项清单管理的通知》（国办发〔2022〕2号）要求，现将国家统计局“跨省（区、市）涉外统计调查资格认定”和“跨省（区、市）涉外社会调查项目审批”共2项行政许可事项予以公布（详见附件）。2014年2月17日国家统计局公布的《关于公开国家统计局行政审批事项的公告》同时废止。   　　联系单位：国家统计局统计执法监督局   　　联系信箱：zfsc@stats.gov.cn   　　联系电话：010-...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/gk/tjfg/gfxwj/202407/t20240703_1955358.html",
+          "C1": [
+            "公开"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局公告",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/gk/tjfg/gfxwj/202407/P020240703371486221109.doc": "· 附件：国家统计局行政许可事项公开目录.doc"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/gk/tjfg/gfxwj/",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1719973140,
+          "L1": [
+            "公开"
+          ],
+          "CHANNEL2": "政策文件",
+          "L2": [
+            "政策文件"
+          ],
+          "L3": [
+            "统计规范性文件"
+          ],
+          "L4": [
+            ""
+          ],
+          "DOCNOVAL": "",
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "9E8FA0FE21A6B5D4A704D9EB925B981F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局公告",
+          "MD5TITLE": "7E9C83BEFF284316784A2FE387C36211",
+          "QUICKDESCRIPTION": "国家统计局公告   2024年第3号   　　根据《国务院办公厅关于全面实行行政许可事项清单管理的通知》（国办发〔2022〕2号）要求，现将国家统计局“跨省（区、市）涉外统计调查资格认定”和“跨省（区、市）涉外社会调查项目审批”共2项行政许可事项予以公布（详见附件）。2014年2月17日国家统计局公布的《关于公开国家统计局行政审批事项的公告》同时废止。   　　联系单位：国家统计局统计执法监督局   　　联系信箱：zfsc@stats.gov.cn   　　联系电话：010-",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [
+          "POLICY"
+        ],
+        "type": 1
+      }
+    ]
+  }
+}

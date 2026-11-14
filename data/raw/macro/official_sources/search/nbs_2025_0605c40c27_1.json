@@ -1,0 +1,2311 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 106,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "规模以上工业增加值",
+    "originQt": "规模以上工业增加值",
+    "showQt": "规模以上工业增加值",
+    "encodeQt": "%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E5%A2%9E%E5%8A%A0%E5%80%BC",
+    "qtPasser": "规模以上工业增加值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "规模": "NN"
+      },
+      {
+        "以上": "LC"
+      },
+      {
+        "工业": "NN"
+      },
+      {
+        "增加值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "规模以上": "LC"
+      },
+      {
+        "工业增加值": "NN"
+      }
+    ],
+    "synonymHs": {},
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "工业增加值",
+      "规模以上",
+      "规模",
+      "以上",
+      "增加值",
+      "工业"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": {
+    "currentSceneGroupInfo": null,
+    "otherSceneGroupInfo": [],
+    "sceneCategoryEntities": null,
+    "sceneGroupEntities": null,
+    "sceneSubjectEntities": [
+      {
+        "forceStatus": 0,
+        "score": 6.6344233,
+        "id": "f85592f7-8151-4c19-9760-0f97f7d7a6dc",
+        "name": "工业增加值及产量",
+        "showTitle": "工业增加值及产量",
+        "vectorTitleo": "",
+        "sort": 10,
+        "type": 0,
+        "subjectType": 0,
+        "subjectPicInfoList": [
+          {
+            "imgUrl": "https://file.so-gov.cn/cps/pro/bm36000002/sceneSubject/82a23bb2bf1947f5a9402d1c4477506f.png",
+            "title": "工业增加值及其增长速度",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240228_1947915.html"
+          }
+        ],
+        "staticHtml": "",
+        "rightDocList": [
+          {
+            "id": "6DCFE4F391E0FE0FF31459E2695F78D1",
+            "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1794187800000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　2026年10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。工业生产者购进价格同比上涨7.9%，环比上涨1.1%。1—10月平均，工业生产者出厂价格比上年同期上涨2.7%，工业生产者购进价格上涨4.0%。       　　一、工业生产者价格同比变动情况   　　10月份，工业生产者出厂价格中，生产资料价格同比上涨7.4%，影响工业生产者出厂价格总水平上涨约5.77个百分点。其中，采掘工业价格上涨27.9%，原材料工业价格上涨11.6%，加工工业价格上涨3.5%。",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "E85CA4688422DED5A953E2CA35D40574",
+            "md5Url": "6DCFE4F391E0FE0FF31459E2695F78D1",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "BAD2C669D676997941C58223F9DA1A3B",
+            "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1793064600000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　1—9月份，全国规模以上工业企业实现利润总额60337.4亿元，同比增长15.5%（按可比口径计算，详见附注二）。   　　1—9月份，规模以上工业企业中，国有控股企业实现利润总额19395.5亿元，同比增长13.1%；股份制企业实现利润总额46727.6亿元，增长20.8%；外商及港澳台投资企业实现利润总额13371.4亿元，增长0.5%；私营企业实现利润总额15091.3亿元，增长8.7%。   　　1—9月份，采矿业实现利润总额8813.7亿元，同比增长38.2%；",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "2E4AEF5FEF4A4BB9AC318DA5C8E3060A",
+            "md5Url": "BAD2C669D676997941C58223F9DA1A3B",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "DEEA95494F9A61E47D9E31B0187CAFA9",
+            "title": "国家统计局工业司首席统计师于卫宁解读2026年1—9月份工业企业利润数据",
+            "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261027_1965698.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1793064600000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "1—9月份规模以上工业企业利润较快增长 新动能引领作用明显   ——国家统计局工业司首席统计师于卫宁解读2026年1—9月份工业企业利润数据   　　1—9月份，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，加大宏观政策调节力度，因地制宜培育壮大新质生产力，工业生产稳中有进，规模以上工业企业利润实现较快增长，工业经济高质量发展稳步推进。1—9月份，全国规模以上工业企业利润同比增长15.5%，今年以来持续保持两位数增长。从三大门类看，采矿业利润增长38.",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "3A820766B8E56BCE59574DA94504A624",
+            "md5Url": "DEEA95494F9A61E47D9E31B0187CAFA9",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "E4CF0AEF372778F519D9CA24A9601DD3",
+            "title": "王新：工业经济稳中有升 高质量发展稳步推进",
+            "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965645.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1792461600000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　前三季度，面对复杂多变的国内外形势，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真落实更加积极有为的宏观政策，全国工业生产稳中有升，装备制造业占比持续提升，新质生产力培育壮大，企业利润两位数增长，工业企业出口高位加快，工业经济持续向新向优向好发展。   　　一、工业生产稳中向好，产业结构进一步优化   　　工业生产增长加快，多数行业实现增长。前三季度，全国规模以上工业增加值同比增长5.3%，保持较快增长态势。三季度，全国规模以上工业增加值增长5.1%，增速较二季度加快0.",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "3AA771A7DE79DFA1DBEECBD65276DCBB",
+            "md5Url": "E4CF0AEF372778F519D9CA24A9601DD3",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "81E558309CD669AACD921A0D536B1EA5",
+            "title": "2026年三季度全国规模以上工业产能利用率为73.1%",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965611.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1792375200000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　2026年三季度，全国规模以上工业产能利用率为73.1%，比二季度上升0.1个百分点，比上年同期下降1.5个百分点。     　　分三大门类看，2026年三季度，采矿业产能利用率为69.5%，制造业产能利用率为73.3%，电力、热力、燃气及水生产和供应业产能利用率为72.6%。   　　分主要行业看，2026年三季度，煤炭开采和洗选业产能利用率为64.8%，食品制造业为70.8%，纺织业为75.1%，化学原料和化学制品制造业为69.7%，非金属矿物制品业为61.2%，",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "D08E637959F61F8B5B692B1617B2A11C",
+            "md5Url": "81E558309CD669AACD921A0D536B1EA5",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          },
+          {
+            "id": "968A01857D7F92FF22936F30DB2426EB",
+            "title": "2026年9月份规模以上工业增加值增长5.5%",
+            "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965617.html",
+            "includeImage": false,
+            "picUrl": null,
+            "docDate": 1792375200000,
+            "docNo": "",
+            "pubName": "",
+            "zcjdMap": {},
+            "dbName": "",
+            "summary": "　　9月份，规模以上工业增加值同比实际增长5.5%（增加值增速均为扣除价格因素的实际增长率），增速比上月加快0.3个百分点。从环比看，9月份，规模以上工业增加值比上月增长0.61%。1—9月份，规模以上工业增加值同比增长5.3%。     　　分三大门类看，9月份，采矿业增加值同比增长1.3%，制造业增长6.0%，电力、热力、燃气及水生产和供应业增长5.6%。   　　分经济类型看，9月份，国有控股企业增加值同比增长3.6%；股份制企业增长6.0%，外商及港澳台投资企业增长3.7%；",
+            "bsjgw": "",
+            "serviceType": "",
+            "categoryId": null,
+            "md5Title": "43645E66852744AD54BE615B3B89C84A",
+            "md5Url": "968A01857D7F92FF22936F30DB2426EB",
+            "banshiUrl": "",
+            "online": 0,
+            "n9": 1,
+            "combins": 0,
+            "myValues": {}
+          }
+        ],
+        "categoryEntityList": []
+      }
+    ],
+    "scenePersonEntities": [],
+    "relatedScenePersonEntities": null,
+    "sceneOrganisationEntities": [],
+    "relatedSceneOrganisationEntities": null,
+    "sceneSystemEntities": [],
+    "relatedSceneSystemEntities": null,
+    "sceneTopInfoEntities": [],
+    "sceneFrameInfoEntities": [],
+    "sceneRelatedInfoEntities": [],
+    "sceneMapinfoEntities": [],
+    "sceneCustomInfoEntities": [],
+    "sceneName": null,
+    "empty": false,
+    "type": "SUBJECT"
+  },
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2FBADE8E21858CA7F89151BC4A40096B",
+      "timestamp": 1766803161000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2FBADE8E21858CA7F89151BC4A40096B",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【1—11月份规模以上工业企业利润保持增长】——国家统计局工业司首席统计师于卫宁解读2025年1—11月份工业企业利润数据 1—11月份，规模以上工业企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，工业经济转型升级有序推 ...展开全文c",
+        "title": "#权威解读# 【1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长】——国家统计局<em>工业</em>司首席统计师于卫宁解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Qkjv3oP8F?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长】——国家统计局<em>工业</em>司首席统计师于卫宁解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推 ...展开全文c 权威解读 【1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长】——国家统计局<em>工业</em>司首席统计师于卫宁解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1766803161000,
+        "docDate": "2025-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "0B6F149C49B109A3BAD0F859758C9BF8",
+        "md5Url": "D7CF64F29CFDD0C8CD129A79D95A9D50",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长】——国家统计局<em>工业</em>司首席统计师于卫宁解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推 ...展开全文c 权威解读 【1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长】——国家统计局<em>工业</em>司首席统计师于卫宁解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1766803161,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D7CF64F29CFDD0C8CD129A79D95A9D50",
+          "DRETITLE": "权威解读 1 11月份规模以上工业企业利润保持增长 国家统计局工业司首席统计师于卫宁解读2025年1 11月份工业企业利润数据 1 11月份 规模以上工业企业利润增速有所回落 但仍然延续8月份以来的增长态势 以装备制造业 高技术制造业为代表的新动能行业保持较快增长 工业经济转型升级有序推 展开全文c",
+          "URL": "https://weibo.com/3919628624/Qkjv3oP8F?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "0B6F149C49B109A3BAD0F859758C9BF8",
+          "DRETITLEO": "#权威解读# 【1—11月份规模以上工业企业利润保持增长】——国家统计局工业司首席统计师于卫宁解读2025年1—11月份工业企业利润数据 1—11月份，规模以上工业企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，工业经济转型升级有序推 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 1 11月份规模以上工业企业利润保持增长 国家统计局工业司首席统计师于卫宁解读2025年1 11月份工业企业利润数据 1 11月份 规模以上工业企业利润增速有所回落 但仍然延续8月份以来的增长态势 以装备制造业 高技术制造业为代表的新动能行业保持较快增长 工业经济转型升级有序推 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "BE2C43267190CAE4B852923FEB88FEA2",
+      "timestamp": 1766803101000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "BE2C43267190CAE4B852923FEB88FEA2",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2025年1—11月份全国规模以上工业企业利润增长0.1%】1—11月份，全国规模以上工业企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。详见：O网页链接",
+        "title": "#数据发布# 【2025年1—11月份全国<em>规模以上</em><em>工业</em>企业利润增长0.1%】1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/QkjuEclUG?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2025年1—11月份全国<em>规模以上</em><em>工业</em>企业利润增长0.1%】1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 数据发布 【2025年1—11月份全国<em>规模以上</em><em>工业</em>企业利润增长0.1%】1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1766803101000,
+        "docDate": "2025-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "104FB0639DF33B1C49AEAFF84D399641",
+        "md5Url": "8CDE377B4FB43C41E1ADC98CEF785C6D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2025年1—11月份全国<em>规模以上</em><em>工业</em>企业利润增长0.1%】1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 数据发布 【2025年1—11月份全国<em>规模以上</em><em>工业</em>企业利润增长0.1%】1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1766803101,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "8CDE377B4FB43C41E1ADC98CEF785C6D",
+          "DRETITLE": "数据发布 2025年1 11月份全国规模以上工业企业利润增长0 1 1 11月份 全国规模以上工业企业实现利润总额66268 6亿元 同比增长0 1 按可比口径计算 详见附注二 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/QkjuEclUG?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "104FB0639DF33B1C49AEAFF84D399641",
+          "DRETITLEO": "#数据发布# 【2025年1—11月份全国规模以上工业企业利润增长0.1%】1—11月份，全国规模以上工业企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2025年1 11月份全国规模以上工业企业利润增长0 1 1 11月份 全国规模以上工业企业实现利润总额66268 6亿元 同比增长0 1 按可比口径计算 详见附注二 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "90FC8B8CC2B1767A27A463DC0BF22EAC",
+      "timestamp": 1766802539000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "90FC8B8CC2B1767A27A463DC0BF22EAC",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2025年1—11月份全国规模以上工业企业利润增长0.1%",
+        "title": "【数据发布】2025年1—11月份全国<em>规模以上</em><em>工业</em>企业利润增长0.1%",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651689445&idx=1&sn=17e12f0800763e757315cf4348d665ca",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额20083.6亿元，同比下降1.6%；股份制企业实现利润总额49565.6亿元，下降0.4%；外商及港澳台投资企业实现利润总额16355.3亿元，增长2.4%；私营企业实现利润总额19319.9亿元，下降0.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1766802539000,
+        "docDate": "2025-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "CBF7D6A51AFBA2D62DC67614088B34AE",
+        "md5Url": "F6D8395E98ECA179628D8453C973C4FF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额20083.6亿元，同比下降1.6%；股份制企业实现利润总额49565.6亿元，下降0.4%；外商及港澳台投资企业实现利润总额16355.3亿元，增长2.4%；私营企业实现利润总额19319.9亿元，下降0.1%。...",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651689445&idx=1&sn=17e12f0800763e757315cf4348d665ca",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【数据发布】2025年1—11月份全国规模以上工业企业利润增长0.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1766802539,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F6D8395E98ECA179628D8453C973C4FF",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "【数据发布】2025年1—11月份全国规模以上工业企业利润增长0.1%",
+          "MD5TITLE": "CBF7D6A51AFBA2D62DC67614088B34AE",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6C48052F741E6A641CAC06FA5BF0CA3A",
+      "timestamp": 1766802539000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6C48052F741E6A641CAC06FA5BF0CA3A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【权威解读】1—11月份规模以上工业企业利润保持增长",
+        "title": "【权威解读】1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651689445&idx=2&sn=529a45f75444e2f5d7398a9c63c9d0c2",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长 ——国家统计局<em>工业</em>司首席统计师于卫宁 解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推进。 1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长 ——国家统计局<em>工业</em>司首席统计师于卫宁 解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推进。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1766802539000,
+        "docDate": "2025-12-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "1661AA0F78E23B33953390848191A981",
+        "md5Url": "A249C64C4B87F7062A5E44876BB5C5FC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长 ——国家统计局<em>工业</em>司首席统计师于卫宁 解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推进。 1—11月份<em>规模以上</em><em>工业</em>企业利润保持增长 ——国家统计局<em>工业</em>司首席统计师于卫宁 解读2025年1—11月份<em>工业</em>企业利润数据 1—11月份，<em>规模以上</em><em>工业</em>企业利润增速有所回落，但仍然延续8月份以来的增长态势，以装备制造业、高技术制造业为代表的新动能行业保持较快增长，<em>工业</em>经济转型升级有序推进。...",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651689445&idx=2&sn=529a45f75444e2f5d7398a9c63c9d0c2",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【权威解读】1—11月份规模以上工业企业利润保持增长",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1766802539,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A249C64C4B87F7062A5E44876BB5C5FC",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "【权威解读】1—11月份规模以上工业企业利润保持增长",
+          "MD5TITLE": "1661AA0F78E23B33953390848191A981",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D6D1E9A739240749BE6770AF2A876AD0",
+      "timestamp": 1766799000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D6D1E9A739240749BE6770AF2A876AD0",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年1—11月份全国规模以上工业企业利润增长0.1%",
+        "title": "2025年1—11月份全国<em>规模以上</em><em>工业</em>企业利润增长0.1%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251227_1962158.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额20083.6亿元，同比下降1.6%；股份制企业实现利润总额49565.6亿元，下降0.4%；外商及港澳台投资企业实现利润总额16355.3亿元，增长2.4%；私营企业实现利润总额19319.9亿元，下降0.1%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202512/P020251227334341606171.xlsx": "1227表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额20083.6亿元，同比下降1.6%；股份制企业实现利润总额49565.6亿元，下降0.4%；外商及港澳台投资企业实现利润总额16355.3亿元，增长2.4%；私营企业实现利润总额19319.9亿元，下降0.1%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1766799000000,
+        "docDate": "2025-12-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/2F46D77BA7443A52B28A6E5B149A743C.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_6.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "2E4A46A508DAC23CEFFAB61F4FFF3782",
+        "md5Url": "D6D1E9A739240749BE6770AF2A876AD0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。 1—11月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额20083.6亿元，同比下降1.6%；股份制企业实现利润总额49565.6亿元，下降0.4%；外商及港澳台投资企业实现利润总额16355.3亿元，增长2.4%；私营企业实现利润总额19319.9亿元，下降0.1%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202512/t20251227_1962158.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年1—11月份全国规模以上工业企业利润增长0.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/2F46D77BA7443A52B28A6E5B149A743C.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202512/P020251227334341606171.xlsx": "1227表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_6.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1766799000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "D6D1E9A739240749BE6770AF2A876AD0",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年1 11月份全国规模以上工业企业利润增长0 1",
+          "MD5TITLE": "2E4A46A508DAC23CEFFAB61F4FFF3782",
+          "QUICKDESCRIPTION": "　　1—11月份，全国规模以上工业企业实现利润总额66268.6亿元，同比增长0.1%（按可比口径计算，详见附注二）。   　　1—11月份，规模以上工业企业中，国有控股企业实现利润总额20083.6亿元，同比下降1.6%；股份制企业实现利润总额49565.6亿元，下降0.4%；外商及港澳台投资企业实现利润总额16355.3亿元，增长2.4%；私营企业实现利润总额19319.9亿元，下降0.1%。   　　1—11月份，采矿业实现利润总额7896.3亿元，同比下降27.2%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DA34BF83FE1FEEBE2AC266FA972CD85A",
+      "timestamp": 1765784497000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DA34BF83FE1FEEBE2AC266FA972CD85A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【工业生产总体平稳 转型升级持续推进】——国家统计局工业司首席统计师孙晓解读11月份工业生产数据 11月份，各地区各部门深入贯彻落实党中央、国务院决策部署，全国规模以上工业生产总体平稳，多数行业实现增长，装备制造业、高技术制造业较快增长，传统制造业优化提升，工业经济转型升级 ...展开全文c",
+        "title": "#权威解读# 【<em>工业</em>生产总体平稳 转型升级持续推进】——国家统计局<em>工业</em>司首席统计师孙晓解读11月份<em>工业</em>生产数据 11月份，各地区各部门深入贯彻落实党中央、国务院决策部署，全国<em>规模以上</em><em>工业</em>生产总体平稳，多数行业实现增长，装备制造业、高技术制造业较快增长，传统制造业优化提升，<em>工业</em>经济转型升级 ...展开全文c",
+        "url": "https://weibo.com/3919628624/QiwlMz8hk?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【<em>工业</em>生产总体平稳 转型升级持续推进】——国家统计局<em>工业</em>司首席统计师孙晓解读11月份<em>工业</em>生产数据 11月份，各地区各部门深入贯彻落实党中央、国务院决策部署，全国<em>规模以上</em><em>工业</em>生产总体平稳，多数行业实现增长，装备制造业、高技术制造业较快增长，传统制造业优化提升，<em>工业</em>经济转型升级 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1765784497000,
+        "docDate": "2025-12-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "A4E5D6BD6625F8F03F564BE05E0439EB",
+        "md5Url": "15CF8EB69980A3628370F617EC10E6A9",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【<em>工业</em>生产总体平稳 转型升级持续推进】——国家统计局<em>工业</em>司首席统计师孙晓解读11月份<em>工业</em>生产数据 11月份，各地区各部门深入贯彻落实党中央、国务院决策部署，全国<em>规模以上</em><em>工业</em>生产总体平稳，多数行业实现增长，装备制造业、高技术制造业较快增长，传统制造业优化提升，<em>工业</em>经济转型升级 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1765784497,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "15CF8EB69980A3628370F617EC10E6A9",
+          "DRETITLE": "权威解读 工业生产总体平稳 转型升级持续推进 国家统计局工业司首席统计师孙晓解读11月份工业生产数据 11月份 各地区各部门深入贯彻落实党中央 国务院决策部署 全国规模以上工业生产总体平稳 多数行业实现增长 装备制造业 高技术制造业较快增长 传统制造业优化提升 工业经济转型升级 展开全文c",
+          "URL": "https://weibo.com/3919628624/QiwlMz8hk?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "A4E5D6BD6625F8F03F564BE05E0439EB",
+          "DRETITLEO": "#权威解读# 【工业生产总体平稳 转型升级持续推进】——国家统计局工业司首席统计师孙晓解读11月份工业生产数据 11月份，各地区各部门深入贯彻落实党中央、国务院决策部署，全国规模以上工业生产总体平稳，多数行业实现增长，装备制造业、高技术制造业较快增长，传统制造业优化提升，工业经济转型升级 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 工业生产总体平稳 转型升级持续推进 国家统计局工业司首席统计师孙晓解读11月份工业生产数据 11月份 各地区各部门深入贯彻落实党中央 国务院决策部署 全国规模以上工业生产总体平稳 多数行业实现增长 装备制造业 高技术制造业较快增长 传统制造业优化提升 工业经济转型升级 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "577247C26A174A92EA1A21F6743B3CAB",
+      "timestamp": 1765766774000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "577247C26A174A92EA1A21F6743B3CAB",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2025年11月份规模以上工业增加值增长4.8%",
+        "title": "【数据发布】2025年11月份<em>规模以上</em><em>工业增加值</em>增长4.8%",
+        "url": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651689048&idx=1&sn=ae778c6c5c66129a1c7774161d55ed31",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，11月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.44%。1—11月份，<em>规模以上</em><em>工业增加值</em>同比增长6.0%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1765766774000,
+        "docDate": "2025-12-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin_qingbo",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "34811271B11F677693B5A8EE2EAD74F5",
+        "md5Url": "B58E10A661D215C35FFBE9BD72C13199",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，11月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.44%。1—11月份，<em>规模以上</em><em>工业增加值</em>同比增长6.0%。...",
+          "DOMAINSITENAME": "微信",
+          "URL": "http://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651689048&idx=1&sn=ae778c6c5c66129a1c7774161d55ed31",
+          "C1": [
+            ""
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "【数据发布】2025年11月份规模以上工业增加值增长4.8%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            "361C30238852CC04C9610DFC2340EA12"
+          ],
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "CUN": "",
+          "WEBSITENAME": "统计微讯",
+          "DREDATE": 1765766774,
+          "L1": [
+            ""
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            ""
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "DREDBNAME": "weixin_qingbo",
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "N9": 0,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "B58E10A661D215C35FFBE9BD72C13199",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "【数据发布】2025年11月份规模以上工业增加值增长4.8%",
+          "MD5TITLE": "34811271B11F677693B5A8EE2EAD74F5",
+          "QUICKDESCRIPTION": "",
+          "XIAN": "",
+          "SHENG": "",
+          "WEBSITE": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "712AC946AB2E052E0A03A112A38D0442",
+      "timestamp": 1765765359000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "712AC946AB2E052E0A03A112A38D0442",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2025年11月份能源生产情况】11月份，规模以上工业（以下简称规上工业）原煤生产保持稳定，原油生产增速加快，天然气生产平稳增长，电力生产保持增长。详见：O网页链接",
+        "title": "#发布会微直播# 【2025年11月份能源生产情况】11月份，<em>规模以上</em><em>工业</em>（以下简称规上<em>工业</em>）原煤生产保持稳定，原油生产增速加快，天然气生产平稳增长，电力生产保持增长。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/QiugjFsGT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2025年11月份能源生产情况】11月份，<em>规模以上</em><em>工业</em>（以下简称规上<em>工业</em>）原煤生产保持稳定，原油生产增速加快，天然气生产平稳增长，电力生产保持增长。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1765765359000,
+        "docDate": "2025-12-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "9F7F96AB9AC7073BEC51D64E02DD70EA",
+        "md5Url": "2E90690E56D79D62A9FB45CE9113E71A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2025年11月份能源生产情况】11月份，<em>规模以上</em><em>工业</em>（以下简称规上<em>工业</em>）原煤生产保持稳定，原油生产增速加快，天然气生产平稳增长，电力生产保持增长。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1765765359,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "2E90690E56D79D62A9FB45CE9113E71A",
+          "DRETITLE": "发布会微直播 2025年11月份能源生产情况 11月份 规模以上工业 以下简称规上工业 原煤生产保持稳定 原油生产增速加快 天然气生产平稳增长 电力生产保持增长 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/QiugjFsGT?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "9F7F96AB9AC7073BEC51D64E02DD70EA",
+          "DRETITLEO": "#发布会微直播# 【2025年11月份能源生产情况】11月份，规模以上工业（以下简称规上工业）原煤生产保持稳定，原油生产增速加快，天然气生产平稳增长，电力生产保持增长。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2025年11月份能源生产情况 11月份 规模以上工业 以下简称规上工业 原煤生产保持稳定 原油生产增速加快 天然气生产平稳增长 电力生产保持增长 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FDA13256EA596CD00502B2A3DCD78F35",
+      "timestamp": 1765765226000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FDA13256EA596CD00502B2A3DCD78F35",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#发布会微直播# 【2025年11月份规模以上工业增加值增长4.8%】11月份，规模以上工业增加值同比实际增长4.8%（增加值增速均为扣除价格因素的实际增长率）。从环比看，11月份，规模以上工业增加值比上月增长0.44%。1—11月份，规模以上工业增加值同比增长6.0%。详见：O网页链接",
+        "title": "#发布会微直播# 【2025年11月份<em>规模以上</em><em>工业增加值</em>增长4.8%】11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，11月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.44%。1—11月份，<em>规模以上</em><em>工业增加值</em>同比增长6.0%。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/QiufpFIAC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "发布会微直播 【2025年11月份<em>规模以上</em><em>工业增加值</em>增长4.8%】11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 发布会微直播 【2025年11月份<em>规模以上</em><em>工业增加值</em>增长4.8%】11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1765765226000,
+        "docDate": "2025-12-15",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "52B687BFCB967930B50BEA6A7F472319",
+        "md5Url": "71AEE10EC5586B2976C9D2BC91DA2071",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "发布会微直播 【2025年11月份<em>规模以上</em><em>工业增加值</em>增长4.8%】11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 发布会微直播 【2025年11月份<em>规模以上</em><em>工业增加值</em>增长4.8%】11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1765765226,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "71AEE10EC5586B2976C9D2BC91DA2071",
+          "DRETITLE": "发布会微直播 2025年11月份规模以上工业增加值增长4 8 11月份 规模以上工业增加值同比实际增长4 8 增加值增速均为扣除价格因素的实际增长率 从环比看 11月份 规模以上工业增加值比上月增长0 44 1 11月份 规模以上工业增加值同比增长6 0 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/QiufpFIAC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "52B687BFCB967930B50BEA6A7F472319",
+          "DRETITLEO": "#发布会微直播# 【2025年11月份规模以上工业增加值增长4.8%】11月份，规模以上工业增加值同比实际增长4.8%（增加值增速均为扣除价格因素的实际增长率）。从环比看，11月份，规模以上工业增加值比上月增长0.44%。1—11月份，规模以上工业增加值同比增长6.0%。详见：O网页链接",
+          "QUICKDESCRIPTION": "发布会微直播 2025年11月份规模以上工业增加值增长4 8 11月份 规模以上工业增加值同比实际增长4 8 增加值增速均为扣除价格因素的实际增长率 从环比看 11月份 规模以上工业增加值比上月增长0 44 1 11月份 规模以上工业增加值同比增长6 0 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "51BD94D299C4EFDBC3753A09F7269AA8",
+      "timestamp": 1765764000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "51BD94D299C4EFDBC3753A09F7269AA8",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年11月份规模以上工业增加值增长4.8%",
+        "title": "2025年11月份<em>规模以上</em><em>工业增加值</em>增长4.8%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251215_1962074.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，11月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.44%。1—11月份，<em>规模以上</em><em>工业增加值</em>同比增长6.0%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202512/P020251215358964733491.xlsx": "000"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，11月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.44%。1—11月份，<em>规模以上</em><em>工业增加值</em>同比增长6.0%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1765764000000,
+        "docDate": "2025-12-15",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/4F72595424E98207273CAAC2FBD6D8D0.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_7.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "C167E13E3FCF33402CBBF438B72A5F7F",
+        "md5Url": "51BD94D299C4EFDBC3753A09F7269AA8",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 11月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.8%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，11月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.44%。1—11月份，<em>规模以上</em><em>工业增加值</em>同比增长6.0%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202512/t20251215_1962074.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年11月份规模以上工业增加值增长4.8%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/4F72595424E98207273CAAC2FBD6D8D0.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202512/P020251215358964733491.xlsx": "000"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_7.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1765764000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "51BD94D299C4EFDBC3753A09F7269AA8",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年11月份规模以上工业增加值增长4 8",
+          "MD5TITLE": "C167E13E3FCF33402CBBF438B72A5F7F",
+          "QUICKDESCRIPTION": "　　11月份，规模以上工业增加值同比实际增长4.8%（增加值增速均为扣除价格因素的实际增长率）。从环比看，11月份，规模以上工业增加值比上月增长0.44%。1—11月份，规模以上工业增加值同比增长6.0%。     　　分三大门类看，11月份，采矿业增加值同比增长6.3%，制造业增长4.6%，电力、热力、燃气及水生产和供应业增长4.3%。   　　分经济类型看，11月份，国有控股企业增加值同比增长4.2%；股份制企业增长5.2%，外商及港澳台投资企业增长3.4%；私营企业增长3.2%。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D2D166DEC64869C4D47B9C23AD013211",
+      "timestamp": 1764209278000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D2D166DEC64869C4D47B9C23AD013211",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【1—10月份规模以上工业企业利润稳定增长】——国家统计局工业司首席统计师于卫宁解读2025年1—10月份工业企业利润数据 1—10月份，在党中央坚强领导下，各地区各部门认真落实党中央、国务院决策部署，着力做强国内大循环，积极畅通国内国际双循环，带动工业企业利润稳定增长，工业经济高 ...展开全文c",
+        "title": "#权威解读# 【1—10月份<em>规模以上</em><em>工业</em>企业利润稳定增长】——国家统计局<em>工业</em>司首席统计师于卫宁解读2025年1—10月份<em>工业</em>企业利润数据 1—10月份，在党中央坚强领导下，各地区各部门认真落实党中央、国务院决策部署，着力做强国内大循环，积极畅通国内国际双循环，带动<em>工业</em>企业利润稳定增长，<em>工业</em>经济高 ...展开全文c",
+        "url": "https://weibo.com/3919628624/QfKtqpb36?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【1—10月份<em>规模以上</em><em>工业</em>企业利润稳定增长】——国家统计局<em>工业</em>司首席统计师于卫宁解读2025年1—10月份<em>工业</em>企业利润数据 1—10月份，在党中央坚强领导下，各地区各部门认真落实党中央、国务院决策部署，着力做强国内大循环，积极畅通国内国际双循环，带动<em>工业</em>企业利润稳定增长，<em>工业</em>经济高 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1764209278000,
+        "docDate": "2025-11-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "92FC4135084C3F6CEEEA3731339FDC17",
+        "md5Url": "7D8BC027507CE721F0C577C82975F64D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【1—10月份<em>规模以上</em><em>工业</em>企业利润稳定增长】——国家统计局<em>工业</em>司首席统计师于卫宁解读2025年1—10月份<em>工业</em>企业利润数据 1—10月份，在党中央坚强领导下，各地区各部门认真落实党中央、国务院决策部署，着力做强国内大循环，积极畅通国内国际双循环，带动<em>工业</em>企业利润稳定增长，<em>工业</em>经济高 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1764209278,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "7D8BC027507CE721F0C577C82975F64D",
+          "DRETITLE": "权威解读 1 10月份规模以上工业企业利润稳定增长 国家统计局工业司首席统计师于卫宁解读2025年1 10月份工业企业利润数据 1 10月份 在党中央坚强领导下 各地区各部门认真落实党中央 国务院决策部署 着力做强国内大循环 积极畅通国内国际双循环 带动工业企业利润稳定增长 工业经济高 展开全文c",
+          "URL": "https://weibo.com/3919628624/QfKtqpb36?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "92FC4135084C3F6CEEEA3731339FDC17",
+          "DRETITLEO": "#权威解读# 【1—10月份规模以上工业企业利润稳定增长】——国家统计局工业司首席统计师于卫宁解读2025年1—10月份工业企业利润数据 1—10月份，在党中央坚强领导下，各地区各部门认真落实党中央、国务院决策部署，着力做强国内大循环，积极畅通国内国际双循环，带动工业企业利润稳定增长，工业经济高 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 1 10月份规模以上工业企业利润稳定增长 国家统计局工业司首席统计师于卫宁解读2025年1 10月份工业企业利润数据 1 10月份 在党中央坚强领导下 各地区各部门认真落实党中央 国务院决策部署 着力做强国内大循环 积极畅通国内国际双循环 带动工业企业利润稳定增长 工业经济高 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "CF8692CD163E9FF0C792EB4BD10B6090",
+      "timestamp": 1764209226000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "CF8692CD163E9FF0C792EB4BD10B6090",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2025年1—10月份全国规模以上工业企业利润增长1.9%】1—10月份，全国规模以上工业企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。详见：O网页链接",
+        "title": "#数据发布# 【2025年1—10月份全国<em>规模以上</em><em>工业</em>企业利润增长1.9%】1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/QfKt4fxTC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2025年1—10月份全国<em>规模以上</em><em>工业</em>企业利润增长1.9%】1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。 数据发布 【2025年1—10月份全国<em>规模以上</em><em>工业</em>企业利润增长1.9%】1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1764209226000,
+        "docDate": "2025-11-27",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "BF77895D4475AA6F80E04A81B293AED1",
+        "md5Url": "85A572772EC1AAE0CF132C4A565A0778",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2025年1—10月份全国<em>规模以上</em><em>工业</em>企业利润增长1.9%】1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。 数据发布 【2025年1—10月份全国<em>规模以上</em><em>工业</em>企业利润增长1.9%】1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1764209226,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "85A572772EC1AAE0CF132C4A565A0778",
+          "DRETITLE": "数据发布 2025年1 10月份全国规模以上工业企业利润增长1 9 1 10月份 全国规模以上工业企业实现利润总额59502 9亿元 同比增长1 9 按可比口径计算 详见附注二 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/QfKt4fxTC?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "BF77895D4475AA6F80E04A81B293AED1",
+          "DRETITLEO": "#数据发布# 【2025年1—10月份全国规模以上工业企业利润增长1.9%】1—10月份，全国规模以上工业企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2025年1 10月份全国规模以上工业企业利润增长1 9 1 10月份 全国规模以上工业企业实现利润总额59502 9亿元 同比增长1 9 按可比口径计算 详见附注二 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6F43E0CCB932DB60A51E80611A8EC8E0",
+      "timestamp": 1764207000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6F43E0CCB932DB60A51E80611A8EC8E0",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年1—10月份全国规模以上工业企业利润增长1.9%",
+        "title": "2025年1—10月份全国<em>规模以上</em><em>工业</em>企业利润增长1.9%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202511/t20251127_1961933.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。 1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。 1—10月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额18490.2亿元，同比持平；股份制企业实现利润总额44328.3亿元，增长1.5%；外商及港澳台投资企业实现利润总额14848.6亿元，增长3.5%；私营企业实现利润总额16995.6亿元，增长1.9%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202511/P020251127337897459565.xlsx": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。 1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。 1—10月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额18490.2亿元，同比持平；股份制企业实现利润总额44328.3亿元，增长1.5%；外商及港澳台投资企业实现利润总额14848.6亿元，增长3.5%；私营企业实现利润总额16995.6亿元，增长1.9%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1764207000000,
+        "docDate": "2025-11-27",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/90471F94326F803E921BCA6C5A7E65EB.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_8.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "771E7F630DF5AB598734A1B7169CDF88",
+        "md5Url": "6F43E0CCB932DB60A51E80611A8EC8E0",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。 1—10月份，全国<em>规模以上</em><em>工业</em>企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。 1—10月份，<em>规模以上</em><em>工业</em>企业中，国有控股企业实现利润总额18490.2亿元，同比持平；股份制企业实现利润总额44328.3亿元，增长1.5%；外商及港澳台投资企业实现利润总额14848.6亿元，增长3.5%；私营企业实现利润总额16995.6亿元，增长1.9%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202511/t20251127_1961933.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年1—10月份全国规模以上工业企业利润增长1.9%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/90471F94326F803E921BCA6C5A7E65EB.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202511/P020251127337897459565.xlsx": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_8.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1764207000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "6F43E0CCB932DB60A51E80611A8EC8E0",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年1 10月份全国规模以上工业企业利润增长1 9",
+          "MD5TITLE": "771E7F630DF5AB598734A1B7169CDF88",
+          "QUICKDESCRIPTION": "　　1—10月份，全国规模以上工业企业实现利润总额59502.9亿元，同比增长1.9%（按可比口径计算，详见附注二）。   　　1—10月份，规模以上工业企业中，国有控股企业实现利润总额18490.2亿元，同比持平；股份制企业实现利润总额44328.3亿元，增长1.5%；外商及港澳台投资企业实现利润总额14848.6亿元，增长3.5%；私营企业实现利润总额16995.6亿元，增长1.9%。   　　1—10月份，采矿业实现利润总额7123.3亿元，同比下降27.8%；",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "2589C09AF2DD7075360E0718B5280B4E",
+      "timestamp": 1763109150000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "2589C09AF2DD7075360E0718B5280B4E",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【工业生产总体平稳 高质量发展扎实推进】——国家统计局工业司首席统计师孙晓解读10月份工业生产数据 10月份，全国规模以上工业生产稳中有进，多数行业、产品实现增长，产业结构优化升级，新质生产力培育壮大，装备制造业、高技术制造业快速发展，工业经济高质量发展扎实推进。详见： ...展开全文c",
+        "title": "#权威解读# 【<em>工业</em>生产总体平稳 高质量发展扎实推进】——国家统计局<em>工业</em>司首席统计师孙晓解读10月份<em>工业</em>生产数据 10月份，全国<em>规模以上</em><em>工业</em>生产稳中有进，多数行业、产品实现增长，产业结构优化升级，新质生产力培育壮大，装备制造业、高技术制造业快速发展，<em>工业</em>经济高质量发展扎实推进。详见： ...展开全文c",
+        "url": "https://weibo.com/3919628624/QdOr37Kun?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【<em>工业</em>生产总体平稳 高质量发展扎实推进】——国家统计局<em>工业</em>司首席统计师孙晓解读10月份<em>工业</em>生产数据 10月份，全国<em>规模以上</em><em>工业</em>生产稳中有进，多数行业、产品实现增长，产业结构优化升级，新质生产力培育壮大，装备制造业、高技术制造业快速发展，<em>工业</em>经济高质量发展扎实推进。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1763109150000,
+        "docDate": "2025-11-14",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "E3D2FAD561D9C4AEC88939B69DFA654D",
+        "md5Url": "4EB8DBE76BEA7B3503927A86510C46E6",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【<em>工业</em>生产总体平稳 高质量发展扎实推进】——国家统计局<em>工业</em>司首席统计师孙晓解读10月份<em>工业</em>生产数据 10月份，全国<em>规模以上</em><em>工业</em>生产稳中有进，多数行业、产品实现增长，产业结构优化升级，新质生产力培育壮大，装备制造业、高技术制造业快速发展，<em>工业</em>经济高质量发展扎实推进。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1763109150,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "4EB8DBE76BEA7B3503927A86510C46E6",
+          "DRETITLE": "权威解读 工业生产总体平稳 高质量发展扎实推进 国家统计局工业司首席统计师孙晓解读10月份工业生产数据 10月份 全国规模以上工业生产稳中有进 多数行业 产品实现增长 产业结构优化升级 新质生产力培育壮大 装备制造业 高技术制造业快速发展 工业经济高质量发展扎实推进 详见 展开全文c",
+          "URL": "https://weibo.com/3919628624/QdOr37Kun?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "E3D2FAD561D9C4AEC88939B69DFA654D",
+          "DRETITLEO": "#权威解读# 【工业生产总体平稳 高质量发展扎实推进】——国家统计局工业司首席统计师孙晓解读10月份工业生产数据 10月份，全国规模以上工业生产稳中有进，多数行业、产品实现增长，产业结构优化升级，新质生产力培育壮大，装备制造业、高技术制造业快速发展，工业经济高质量发展扎实推进。详见： ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 工业生产总体平稳 高质量发展扎实推进 国家统计局工业司首席统计师孙晓解读10月份工业生产数据 10月份 全国规模以上工业生产稳中有进 多数行业 产品实现增长 产业结构优化升级 新质生产力培育壮大 装备制造业 高技术制造业快速发展 工业经济高质量发展扎实推进 详见 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FC3B5B0EDB7625B6E0D5B70F5BBD9334",
+      "timestamp": 1763085600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FC3B5B0EDB7625B6E0D5B70F5BBD9334",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年10月份规模以上工业增加值增长4.9%",
+        "title": "2025年10月份<em>规模以上</em><em>工业增加值</em>增长4.9%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202511/t20251114_1961856.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.9%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.9%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，10月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.17%。1—10月份，<em>规模以上</em><em>工业增加值</em>同比增长6.1%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202511/P020251114340202432996.xlsx": "GY"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.9%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.9%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，10月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.17%。1—10月份，<em>规模以上</em><em>工业增加值</em>同比增长6.1%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1763085600000,
+        "docDate": "2025-11-14",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/CF28623FA1A1B2204793EB9D10448562.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_8.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "4A0F2CF09CC6226B7A5A206FC2D6C9A5",
+        "md5Url": "FC3B5B0EDB7625B6E0D5B70F5BBD9334",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.9%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。 10月份，<em>规模以上</em><em>工业增加值</em>同比实际增长4.9%（<em>增加值</em>增速均为扣除价格因素的实际增长率）。从环比看，10月份，<em>规模以上</em><em>工业增加值</em>比上月增长0.17%。1—10月份，<em>规模以上</em><em>工业增加值</em>同比增长6.1%。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202511/t20251114_1961856.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年10月份规模以上工业增加值增长4.9%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/CF28623FA1A1B2204793EB9D10448562.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202511/P020251114340202432996.xlsx": "GY"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_8.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1763085600,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "FC3B5B0EDB7625B6E0D5B70F5BBD9334",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年10月份规模以上工业增加值增长4 9",
+          "MD5TITLE": "4A0F2CF09CC6226B7A5A206FC2D6C9A5",
+          "QUICKDESCRIPTION": "　　10月份，规模以上工业增加值同比实际增长4.9%（增加值增速均为扣除价格因素的实际增长率）。从环比看，10月份，规模以上工业增加值比上月增长0.17%。1—10月份，规模以上工业增加值同比增长6.1%。     　　分三大门类看，10月份，采矿业增加值同比增长4.5%，制造业增长4.9%，电力、热力、燃气及水生产和供应业增长5.4%。   　　分经济类型看，10月份，国有控股企业增加值同比增长6.7%；股份制企业增长5.2%，外商及港澳台投资企业增长4.0%；私营企业增长2.1%。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "6AFC223885DDF9443503B0701475892D",
+      "timestamp": 1762257581000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "6AFC223885DDF9443503B0701475892D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据里的中国# 【电影票房背后的文化产业新图景】国家统计局数据显示，2025年前三季度，规模以上文化及相关产业企业实现营业收入109589亿元，同比增长7.9%。本期数据里的中国，一起来解码以电影为代表的文化产业发展新图景。",
+        "title": "#数据里的中国# 【电影票房背后的文化产业新图景】国家统计局数据显示，2025年前三季度，<em>规模以上</em>文化及相关产业企业实现营业收入109589亿元，同比增长7.9%。本期数据里的中国，一起来解码以电影为代表的文化产业发展新图景。",
+        "url": "https://weibo.com/3919628624/Qcjwb6ss8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据里的中国 【电影票房背后的文化产业新图景】国家统计局数据显示，2025年前三季度，<em>规模以上</em>文化及相关产业企业实现营业收入109589亿元，同比增长7.9%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1762257581000,
+        "docDate": "2025-11-04",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "167BA12C20A3441E95E376725B27C527",
+        "md5Url": "606A79D347D0919DE1E5CC7B50F4775A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据里的中国 【电影票房背后的文化产业新图景】国家统计局数据显示，2025年前三季度，<em>规模以上</em>文化及相关产业企业实现营业收入109589亿元，同比增长7.9%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1762257581,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "606A79D347D0919DE1E5CC7B50F4775A",
+          "DRETITLE": "数据里的中国 电影票房背后的文化产业新图景 国家统计局数据显示 2025年前三季度 规模以上文化及相关产业企业实现营业收入109589亿元 同比增长7 9 本期数据里的中国 一起来解码以电影为代表的文化产业发展新图景",
+          "URL": "https://weibo.com/3919628624/Qcjwb6ss8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "167BA12C20A3441E95E376725B27C527",
+          "DRETITLEO": "#数据里的中国# 【电影票房背后的文化产业新图景】国家统计局数据显示，2025年前三季度，规模以上文化及相关产业企业实现营业收入109589亿元，同比增长7.9%。本期数据里的中国，一起来解码以电影为代表的文化产业发展新图景。",
+          "QUICKDESCRIPTION": "数据里的中国 电影票房背后的文化产业新图景 国家统计局数据显示 2025年前三季度 规模以上文化及相关产业企业实现营业收入109589亿元 同比增长7 9 本期数据里的中国 一起来解码以电影为代表的文化产业发展新图景",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9DB307655E3B175BB5237D1E7048B0CC",
+      "timestamp": 1761794507000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9DB307655E3B175BB5237D1E7048B0CC",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#图说经济# 【一图读懂2025年前三季度规模以上文化及相关产业生产经营情况】O网页链接",
+        "title": "#图说经济# 【一图读懂2025年前三季度<em>规模以上</em>文化及相关产业生产经营情况】O网页链接",
+        "url": "https://weibo.com/3919628624/QbuZtuSCS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "图说经济 【一图读懂2025年前三季度<em>规模以上</em>文化及相关产业生产经营情况】O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1761794507000,
+        "docDate": "2025-10-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "4D0B30E4D457016022993111586CF331",
+        "md5Url": "E74C99197B7774975ABCB6B06803911B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "图说经济 【一图读懂2025年前三季度<em>规模以上</em>文化及相关产业生产经营情况】O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1761794507,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E74C99197B7774975ABCB6B06803911B",
+          "DRETITLE": "图说经济 一图读懂2025年前三季度规模以上文化及相关产业生产经营情况 O网页链接",
+          "URL": "https://weibo.com/3919628624/QbuZtuSCS?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4D0B30E4D457016022993111586CF331",
+          "DRETITLEO": "#图说经济# 【一图读懂2025年前三季度规模以上文化及相关产业生产经营情况】O网页链接",
+          "QUICKDESCRIPTION": "图说经济 一图读懂2025年前三季度规模以上文化及相关产业生产经营情况 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "1E72C80232392D6510D8830E653365BE",
+      "timestamp": 1761788887000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "1E72C80232392D6510D8830E653365BE",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【前三季度文化企业营业收入和利润较快增长】——国家统计局社科文司统计师潘旭华解读2025年前三季度全国规模以上文化及相关产业企业数据 前三季度，各地区各部门深入贯彻落实党中央、国务院决策部署，不断健全文化产业体系和市场体系，持续完善文化经济政策，加大财政金融支持力度，推动重 ...展开全文c",
+        "title": "#权威解读# 【前三季度文化企业营业收入和利润较快增长】——国家统计局社科文司统计师潘旭华解读2025年前三季度全国<em>规模以上</em>文化及相关产业企业数据 前三季度，各地区各部门深入贯彻落实党中央、国务院决策部署，不断健全文化产业体系和市场体系，持续完善文化经济政策，加大财政金融支持力度，推动重 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Qbunt1sw0?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【前三季度文化企业营业收入和利润较快增长】——国家统计局社科文司统计师潘旭华解读2025年前三季度全国<em>规模以上</em>文化及相关产业企业数据 前三季度，各地区各部门深入贯彻落实党中央、国务院决策部署，不断健全文化产业体系和市场体系，持续完善文化经济政策，加大财政金融支持力度，推动重 ...展开全文c...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1761788887000,
+        "docDate": "2025-10-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "6C5686ED5A0AE29954A81676340A8E56",
+        "md5Url": "0A444F21E17D6151B0695E9531458F0D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【前三季度文化企业营业收入和利润较快增长】——国家统计局社科文司统计师潘旭华解读2025年前三季度全国<em>规模以上</em>文化及相关产业企业数据 前三季度，各地区各部门深入贯彻落实党中央、国务院决策部署，不断健全文化产业体系和市场体系，持续完善文化经济政策，加大财政金融支持力度，推动重 ...展开全文c...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1761788887,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "0A444F21E17D6151B0695E9531458F0D",
+          "DRETITLE": "权威解读 前三季度文化企业营业收入和利润较快增长 国家统计局社科文司统计师潘旭华解读2025年前三季度全国规模以上文化及相关产业企业数据 前三季度 各地区各部门深入贯彻落实党中央 国务院决策部署 不断健全文化产业体系和市场体系 持续完善文化经济政策 加大财政金融支持力度 推动重 展开全文c",
+          "URL": "https://weibo.com/3919628624/Qbunt1sw0?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "6C5686ED5A0AE29954A81676340A8E56",
+          "DRETITLEO": "#权威解读# 【前三季度文化企业营业收入和利润较快增长】——国家统计局社科文司统计师潘旭华解读2025年前三季度全国规模以上文化及相关产业企业数据 前三季度，各地区各部门深入贯彻落实党中央、国务院决策部署，不断健全文化产业体系和市场体系，持续完善文化经济政策，加大财政金融支持力度，推动重 ...展开全文c",
+          "QUICKDESCRIPTION": "权威解读 前三季度文化企业营业收入和利润较快增长 国家统计局社科文司统计师潘旭华解读2025年前三季度全国规模以上文化及相关产业企业数据 前三季度 各地区各部门深入贯彻落实党中央 国务院决策部署 不断健全文化产业体系和市场体系 持续完善文化经济政策 加大财政金融支持力度 推动重 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9A6B58728390C828A953946990C70F56",
+      "timestamp": 1761788844000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9A6B58728390C828A953946990C70F56",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2025年前三季度全国规模以上文化及相关产业企业营业收入增长7.9%】据对全国8.1万家规模以上文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。其中，文化新业态特征较为明显的16个 ...展开全文c",
+        "title": "#数据发布# 【2025年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.9%】据对全国8.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。其中，文化新业态特征较为明显的16个 ...展开全文c",
+        "url": "https://weibo.com/3919628624/Qbunb14jz?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2025年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.9%】据对全国8.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。 数据发布 【2025年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.9%】据对全国8.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1761788844000,
+        "docDate": "2025-10-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "3844CD78E8F64EB2258E1DDB6185E751",
+        "md5Url": "33222C06CEAD95078574E587A76ADB8C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2025年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.9%】据对全国8.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。 数据发布 【2025年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.9%】据对全国8.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1761788844,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "33222C06CEAD95078574E587A76ADB8C",
+          "DRETITLE": "数据发布 2025年前三季度全国规模以上文化及相关产业企业营业收入增长7 9 据对全国8 1万家规模以上文化及相关产业企业 以下简称 文化企业 调查 2025年前三季度 文化企业实现营业收入109589亿元 按可比口径计算 详见附注2 比上年同期增长7 9 1 其中 文化新业态特征较为明显的16个 展开全文c",
+          "URL": "https://weibo.com/3919628624/Qbunb14jz?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "3844CD78E8F64EB2258E1DDB6185E751",
+          "DRETITLEO": "#数据发布# 【2025年前三季度全国规模以上文化及相关产业企业营业收入增长7.9%】据对全国8.1万家规模以上文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。其中，文化新业态特征较为明显的16个 ...展开全文c",
+          "QUICKDESCRIPTION": "数据发布 2025年前三季度全国规模以上文化及相关产业企业营业收入增长7 9 据对全国8 1万家规模以上文化及相关产业企业 以下简称 文化企业 调查 2025年前三季度 文化企业实现营业收入109589亿元 按可比口径计算 详见附注2 比上年同期增长7 9 1 其中 文化新业态特征较为明显的16个 展开全文c",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "ED5293FA28F9DA67E8878B2F23EC6CA5",
+      "timestamp": 1761787800000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "ED5293FA28F9DA67E8878B2F23EC6CA5",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2025年前三季度全国规模以上文化及相关产业企业营业收入增长7.9%",
+        "title": "2025年前三季度全国<em>规模以上</em>文化及相关产业企业营业收入增长7.9%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202510/t20251030_1961731.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "据对全国8.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。 其中，文化新业态特征较为明显的16个行业小类[2]实现营业收入48860亿元，比上年同期增长14.1%，快于全部<em>规模以上</em>文化企业6.2个百分点。 分产业类型看，文化制造业实现营业收入30766亿元，比上年同期增长2.3%；文化批发和零售业18197亿元，增长5.5%；文化服务业60626亿元，增长11.9%。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202510/P020251030331339614335.xlsx": "附表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "据对全国8.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。 其中，文化新业态特征较为明显的16个行业小类[2]实现营业收入48860亿元，比上年同期增长14.1%，快于全部<em>规模以上</em>文化企业6.2个百分点。 分产业类型看，文化制造业实现营业收入30766亿元，比上年同期增长2.3%；文化批发和零售业18197亿元，增长5.5%；文化服务业60626亿元，增长11.9%。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1761787800000,
+        "docDate": "2025-10-30",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_9.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 3,
+        "md5Title": "DCF94D7BC3A522BABCB433743BB8FDB6",
+        "md5Url": "ED5293FA28F9DA67E8878B2F23EC6CA5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "据对全国8.1万家<em>规模以上</em>文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。 其中，文化新业态特征较为明显的16个行业小类[2]实现营业收入48860亿元，比上年同期增长14.1%，快于全部<em>规模以上</em>文化企业6.2个百分点。 分产业类型看，文化制造业实现营业收入30766亿元，比上年同期增长2.3%；文化批发和零售业18197亿元，增长5.5%；文化服务业60626亿元，增长11.9%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202510/t20251030_1961731.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2025年前三季度全国规模以上文化及相关产业企业营业收入增长7.9%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202510/P020251030331339614335.xlsx": "附表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_9.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1761787800,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "ED5293FA28F9DA67E8878B2F23EC6CA5",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2025年前三季度全国规模以上文化及相关产业企业营业收入增长7 9",
+          "MD5TITLE": "DCF94D7BC3A522BABCB433743BB8FDB6",
+          "QUICKDESCRIPTION": "　　据对全国8.1万家规模以上文化及相关产业企业（以下简称“文化企业”）调查，2025年前三季度，文化企业实现营业收入109589亿元，按可比口径计算（详见附注2），比上年同期增长7.9%[1]。其中，文化新业态特征较为明显的16个行业小类[2]实现营业收入48860亿元，比上年同期增长14.1%，快于全部规模以上文化企业6.2个百分点。   　　分产业类型看，文化制造业实现营业收入30766亿元，比上年同期增长2.3%；文化批发和零售业18197亿元，增长5.5%；文化服务业60626亿元，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": {},
+  "suggests": {},
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 21,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 1,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 11,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 29,
+          "children": null,
+          "key": "工业"
+        },
+        {
+          "val": 29,
+          "children": null,
+          "key": "能源"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 98,
+          "children": null,
+          "key": ""
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": {}
+}

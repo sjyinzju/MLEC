@@ -1,0 +1,1827 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 116,
+  "currentHits": 18,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "采购经理指数",
+    "originQt": "采购经理指数",
+    "showQt": "采购经理指数",
+    "encodeQt": "%E9%87%87%E8%B4%AD%E7%BB%8F%E7%90%86%E6%8C%87%E6%95%B0",
+    "qtPasser": "采购经理指数",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "采购": "NN"
+      },
+      {
+        "经理": "NN"
+      },
+      {
+        "指数": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "采购经理指数": "NN"
+      }
+    ],
+    "synonymHs": {
+      "采购经理指数": "PMI,pmi"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "采购经理指数",
+      "采购",
+      "指数",
+      "经理"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "858145384037FBF1CEE1E004FC1F8215",
+      "timestamp": 1651282200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "858145384037FBF1CEE1E004FC1F8215",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年4月中国采购经理指数运行情况",
+        "title": "2022年4月中国<em>采购经理指数</em>运行情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901453.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "附注 1、主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商 配送时间 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 2021年7月 50.4 51.0 50.9 47.7 49.6 48.9 2021年8月 50.1 50.9 49.6 47.7 49.6 48.0 2021年9月 49.6 49.5 49.3 48.2 49.0 48.1 2021年10月 49.2 48.4 48.8 47.0 48.8 46.7 2021年11月 50.1 52.0 49.4 47.7 48.9 48.2 2021年12月 50.3 51.4 49.7 49.2 49.1 48.3 2022年1月 50.1 50.9 49.3 49.1 48.9 47.6 2022年2月 50.2 50.4 50.7 48.1 49.2 48.2 2022年3月 49.5 49.5 48.8 47.3 48.6 46.5 2022年4月 47.4 44.4 42.6 46.5 47.2 37.2 点击下载：相关数据表 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营 活动预期 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 2021年7月 47.7 49.4 50.8 62.9 53.8 47.6 46.1 57.8 2021年8月 46.7 48.3 50.3 61.3 53.4 47.7 45.9 57.5 2021年9月 46.2 46.8 49.7 63.5 56.4 47.2 45.6 56.4 2021年10月 46.6 47.5 48.9 72.1 61.1 46.3 45.0 53.6 2021年11月 48.5 48.1 50.2 52.9 48.9 47.9 45.7 53.8 2021年12月 48.1 48.2 50.8 48.1 45.5 48.5 45.6 54.3 2022年1月 48.4 47.2 50.2 56.4 50.9 48.0 45.8 57.5 2022年2月 49.0 48.6 50.9 60.0 54.1 47.3 45.2 58.7 2022年3月 47.2 46.9 48.7 66.1 56.7 48.9 46.1 55.7 2022年4月 41.6 42.9 43.5 64.2 54.4 50.3 46.0 53.3 二、中国非制造业<em>采购经理指数</em>运行情况 4月份，非制造业商务活动<em>指数</em>为41.9%，比上月下降6.5个百分点，低于临界点，非制造业经营活动总体继续放缓。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203608423103324.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "附注 1、主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商 配送时间 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 2021年7月 50.4 51.0 50.9 47.7 49.6 48.9 2021年8月 50.1 50.9 49.6 47.7 49.6 48.0 2021年9月 49.6 49.5 49.3 48.2 49.0 48.1 2021年10月 49.2 48.4 48.8 47.0 48.8 46.7 2021年11月 50.1 52.0 49.4 47.7 48.9 48.2 2021年12月 50.3 51.4 49.7 49.2 49.1 48.3 2022年1月 50.1 50.9 49.3 49.1 48.9 47.6 2022年2月 50.2 50.4 50.7 48.1 49.2 48.2 2022年3月 49.5 49.5 48.8 47.3 48.6 46.5 2022年4月 47.4 44.4 42.6 46.5 47.2 37.2 点击下载：相关数据表 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营 活动预期 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 2021年7月 47.7 49.4 50.8 62.9 53.8 47.6 46.1 57.8 2021年8月 46.7 48.3 50.3 61.3 53.4 47.7 45.9 57.5 2021年9月 46.2 46.8 49.7 63.5 56.4 47.2 45.6 56.4 2021年10月 46.6 47.5 48.9 72.1 61.1 46.3 45.0 53.6 2021年11月 48.5 48.1 50.2 52.9 48.9 47.9 45.7 53.8 2021年12月 48.1 48.2 50.8 48.1 45.5 48.5 45.6 54.3 2022年1月 48.4 47.2 50.2 56.4 50.9 48.0 45.8 57.5 2022年2月 49.0 48.6 50.9 60.0 54.1 47.3 45.2 58.7 2022年3月 47.2 46.9 48.7 66.1 56.7 48.9 46.1 55.7 2022年4月 41.6 42.9 43.5 64.2 54.4 50.3 46.0 53.3 二、中国非制造业<em>采购经理指数</em>运行情况 4月份，非制造业商务活动<em>指数</em>为41.9%，比上月下降6.5个百分点，低于临界点，非制造业经营活动总体继续放缓。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1651282200000,
+        "docDate": "2022-04-30",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/EBFCBBE6AC48CABF17B026DB3707AE55.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_56.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "80560605F9FB1488DCAC3E530651D7B1",
+        "md5Url": "858145384037FBF1CEE1E004FC1F8215",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "附注 1、主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商 配送时间 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 2021年7月 50.4 51.0 50.9 47.7 49.6 48.9 2021年8月 50.1 50.9 49.6 47.7 49.6 48.0 2021年9月 49.6 49.5 49.3 48.2 49.0 48.1 2021年10月 49.2 48.4 48.8 47.0 48.8 46.7 2021年11月 50.1 52.0 49.4 47.7 48.9 48.2 2021年12月 50.3 51.4 49.7 49.2 49.1 48.3 2022年1月 50.1 50.9 49.3 49.1 48.9 47.6 2022年2月 50.2 50.4 50.7 48.1 49.2 48.2 2022年3月 49.5 49.5 48.8 47.3 48.6 46.5 2022年4月 47.4 44.4 42.6 46.5 47.2 37.2 点击下载：相关数据表 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营 活动预期 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 2021年7月 47.7 49.4 50.8 62.9 53.8 47.6 46.1 57.8 2021年8月 46.7 48.3 50.3 61.3 53.4 47.7 45.9 57.5 2021年9月 46.2 46.8 49.7 63.5 56.4 47.2 45.6 56.4 2021年10月 46.6 47.5 48.9 72.1 61.1 46.3 45.0 53.6 2021年11月 48.5 48.1 50.2 52.9 48.9 47.9 45.7 53.8 2021年12月 48.1 48.2 50.8 48.1 45.5 48.5 45.6 54.3 2022年1月 48.4 47.2 50.2 56.4 50.9 48.0 45.8 57.5 2022年2月 49.0 48.6 50.9 60.0 54.1 47.3 45.2 58.7 2022年3月 47.2 46.9 48.7 66.1 56.7 48.9 46.1 55.7 2022年4月 41.6 42.9 43.5 64.2 54.4 50.3 46.0 53.3 二、中国非制造业<em>采购经理指数</em>运行情况 4月份，非制造业商务活动<em>指数</em>为41.9%，比上月下降6.5个百分点，低于临界点，非制造业经营活动总体继续放缓。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901453.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年4月中国采购经理指数运行情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/EBFCBBE6AC48CABF17B026DB3707AE55.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203608423103324.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_56.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1651282200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "858145384037FBF1CEE1E004FC1F8215",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年4月中国采购经理指数运行情况",
+          "MD5TITLE": "80560605F9FB1488DCAC3E530651D7B1",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 　　一、中国制造业采购经理指数运行情况 　　4月份，制造业采购经理指数（PMI）为47.4%，比上月下降2.1个百分点，低于临界点，制造业总体景气水平继续回落。 　　从企业规模看，大型企业PMI为48.1%，比上月下降3.2个百分点，降至临界点以下；中、小型企业PMI分别为47.5%和45.6%，均比上月下降1.0个百分点，继续低于临界点。 　　从分类指数看，构成制造业PMI的5个分类指数均位于临界点以下。 　　生产指数为44.4%，比上月下降5.",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A374F058558D39BF42CCBA0D96717D7A",
+      "timestamp": 1649403300000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A374F058558D39BF42CCBA0D96717D7A",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》3月份中国制造业采购经理指数公布 短期因素影响明显 经济运行有所回调",
+        "title": "《新闻直播间》3月份中国制造业<em>采购经理指数</em>公布 短期因素影响明显 经济运行有所回调",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914336.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》3月份中国制造业<em>采购经理指数</em>公布 短期因素影响明显 经济运行有所回调...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1649403300000,
+        "docDate": "2022-04-08",
+        "includeImg": true,
+        "picUrl": "img?reference=A374F058558D39BF42CCBA0D96717D7A&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_44.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "BACD71F8A34D118F329BE9507FF2DCE5",
+        "md5Url": "A374F058558D39BF42CCBA0D96717D7A",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》3月份中国制造业<em>采购经理指数</em>公布 短期因素影响明显 经济运行有所回调...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914336.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》3月份中国制造业采购经理指数公布 短期因素影响明显 经济运行有所回调",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_44.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1649403300,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A374F058558D39BF42CCBA0D96717D7A",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 3月份中国制造业采购经理指数公布 短期因素影响明显 经济运行有所回调",
+          "MD5TITLE": "BACD71F8A34D118F329BE9507FF2DCE5",
+          "QUICKDESCRIPTION": "《新闻直播间》3月份中国制造业采购经理指数公布 短期因素影响明显 经济运行有所回调",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "48D922DF83AE12F43B98E90C6315666B",
+      "timestamp": 1649211300000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "48D922DF83AE12F43B98E90C6315666B",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》3月份中国非制造业采购经理指数公布 非制造业供需增速放缓",
+        "title": "《新闻直播间》3月份中国非制造业<em>采购经理指数</em>公布 非制造业供需增速放缓",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914335.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》3月份中国非制造业<em>采购经理指数</em>公布 非制造业供需增速放缓...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1649211300000,
+        "docDate": "2022-04-06",
+        "includeImg": true,
+        "picUrl": "img?reference=48D922DF83AE12F43B98E90C6315666B&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_44.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "D9DE77FBB4080FF9FA7B3D85E7D23930",
+        "md5Url": "48D922DF83AE12F43B98E90C6315666B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》3月份中国非制造业<em>采购经理指数</em>公布 非制造业供需增速放缓...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914335.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》3月份中国非制造业采购经理指数公布 非制造业供需增速放缓",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_44.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1649211300,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "48D922DF83AE12F43B98E90C6315666B",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 3月份中国非制造业采购经理指数公布 非制造业供需增速放缓",
+          "MD5TITLE": "D9DE77FBB4080FF9FA7B3D85E7D23930",
+          "QUICKDESCRIPTION": "《新闻直播间》3月份中国非制造业采购经理指数公布 非制造业供需增速放缓",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "55A8EE53DCFE518C34CEC32A1A63D5BC",
+      "timestamp": 1648718943000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "55A8EE53DCFE518C34CEC32A1A63D5BC",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#媒体聚焦#【统计百科丨如何看待经济先行指标PMI？】今天的数据发布显示，3月份，中国制造业采购经理指数（PMI）为49.5%。PMI作为重要的经济先行指标，其指标含义和调查内容是什么？怎样开展调查？数据如何使用？这幅图解将逐一为您解答。 O统计百科丨如何看待经济先行指标PMI？ （分享自 @人民网）",
+        "title": "#媒体聚焦#【统计百科丨如何看待经济先行指标PMI？】今天的数据发布显示，3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%。PMI作为重要的经济先行指标，其指标含义和调查内容是什么？怎样开展调查？数据如何使用？这幅图解将逐一为您解答。 O统计百科丨如何看待经济先行指标PMI？ （分享自 @人民网）",
+        "url": "https://weibo.com/3919628624/LmigaAXtu?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "媒体聚焦 【统计百科丨如何看待经济先行指标PMI 】今天的数据发布显示，3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%。PMI作为重要的经济先行指标，其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答。 媒体聚焦 【统计百科丨如何看待经济先行指标PMI 】今天的数据发布显示，3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1648718943000,
+        "docDate": "2022-03-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "75C590D26B92F4BB5C985857C2E05B0E",
+        "md5Url": "DA06D2713B08AF4AC25DE08DE955375C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "媒体聚焦 【统计百科丨如何看待经济先行指标PMI 】今天的数据发布显示，3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%。PMI作为重要的经济先行指标，其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答。 媒体聚焦 【统计百科丨如何看待经济先行指标PMI 】今天的数据发布显示，3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1648718943,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "DA06D2713B08AF4AC25DE08DE955375C",
+          "DRETITLE": "媒体聚焦 统计百科丨如何看待经济先行指标PMI 今天的数据发布显示 3月份 中国制造业采购经理指数 PMI 为49 5 PMI作为重要的经济先行指标 其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答 O统计百科丨如何看待经济先行指标PMI 分享自 人民网",
+          "URL": "https://weibo.com/3919628624/LmigaAXtu?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "75C590D26B92F4BB5C985857C2E05B0E",
+          "DRETITLEO": "#媒体聚焦#【统计百科丨如何看待经济先行指标PMI？】今天的数据发布显示，3月份，中国制造业采购经理指数（PMI）为49.5%。PMI作为重要的经济先行指标，其指标含义和调查内容是什么？怎样开展调查？数据如何使用？这幅图解将逐一为您解答。 O统计百科丨如何看待经济先行指标PMI？ （分享自 @人民网）",
+          "QUICKDESCRIPTION": "媒体聚焦 统计百科丨如何看待经济先行指标PMI 今天的数据发布显示 3月份 中国制造业采购经理指数 PMI 为49 5 PMI作为重要的经济先行指标 其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答 O统计百科丨如何看待经济先行指标PMI 分享自 人民网",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "85BE3DE0AE9AC23BBBBBA95A8B0EC191",
+      "timestamp": 1648718400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "85BE3DE0AE9AC23BBBBBA95A8B0EC191",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【媒体聚焦】如何看待经济先行指标PMI?",
+        "title": "【媒体聚焦】如何看待经济先行指标PMI?",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651450688&idx=1&sn=dccf50836aef05670abcc7df9dba3f24&chksm=bd1f114d8a68985b63ca7f199491aed93cd936832c75b18568b09fb30c0ecb47ff99e803285c&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "今天的数据发布显示，3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%。PMI作为重要的经济先行指标，其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答。 PMI作为重要的经济先行指标，其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答。 划重点！PMI作为月度环比指标，受短期因素影响较大，通常当其连续多个月发生同向变化时，需结合其他宏观指标进行综合分析，才能科学准确判断经济发展趋势。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1648718400000,
+        "docDate": "2022-03-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "AE33F6AE85182F87A4D127033F22D144",
+        "md5Url": "5C869D28A1EA035C743A6996D974D6E7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "今天的数据发布显示，3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%。PMI作为重要的经济先行指标，其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答。 PMI作为重要的经济先行指标，其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答。 划重点！PMI作为月度环比指标，受短期因素影响较大，通常当其连续多个月发生同向变化时，需结合其他宏观指标进行综合分析，才能科学准确判断经济发展趋势。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1648718400,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "5C869D28A1EA035C743A6996D974D6E7",
+          "DRETITLE": "媒体聚焦 如何看待经济先行指标PMI",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651450688&idx=1&sn=dccf50836aef05670abcc7df9dba3f24&chksm=bd1f114d8a68985b63ca7f199491aed93cd936832c75b18568b09fb30c0ecb47ff99e803285c&scene=0",
+          "MD5TITLE": "AE33F6AE85182F87A4D127033F22D144",
+          "DRETITLEO": "【媒体聚焦】如何看待经济先行指标PMI?",
+          "QUICKDESCRIPTION": "今天的数据发布显示 3月份 中国制造业采购经理指数 PMI 为49 5 PMI作为重要的经济先行指标 其指标含义和调查内容是什么 怎样开展调查 数据如何使用 这幅图解将逐一为您解答 划重点 PMI作为月度环比指标 受短期因素影响较大 通常当其连续多个月发生同向变化时 需结合其他宏观指标进行综合分析 才能科学准确判断经济发展趋势 往期推荐 图解 一图看懂2022年3月PMI数据 数据发布 2022年3月中国采购经理指数运行情况 权威解读 受疫情等因素影响 3月份采购经理指数回落至收缩区间 点个在看",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "AB4FBC7652EDD39957F24C5765E0173D",
+      "timestamp": 1648699020000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "AB4FBC7652EDD39957F24C5765E0173D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【图解】一图看懂2022年3月PMI数据",
+        "title": "【图解】一图看懂2022年3月PMI数据",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651450662&idx=1&sn=3401f85e029481687b52facf0d833be4&chksm=bd1f112b8a68983db690e1afaae2ad16f60573695087757edcc6f4f80905381cd698e892d5d4",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "往期推荐 【数据发布】2022年3月中国<em>采购经理指数</em>运行情况 【权威解读】受疫情等因素影响 3月份<em>采购经理指数</em>回落至收缩区间 点个在看一起分享 往期推荐 【数据发布】2022年3月中国<em>采购经理指数</em>运行情况 【权威解读】受疫情等因素影响 3月份<em>采购经理指数</em>回落至收缩区间 点个在看一起分享...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1648699020000,
+        "docDate": "2022-03-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "45376FF0B13A9D86E8533EAAA9FB6C71",
+        "md5Url": "F5010BEE88AB3D853EA6CD27BF58DD18",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "往期推荐 【数据发布】2022年3月中国<em>采购经理指数</em>运行情况 【权威解读】受疫情等因素影响 3月份<em>采购经理指数</em>回落至收缩区间 点个在看一起分享 往期推荐 【数据发布】2022年3月中国<em>采购经理指数</em>运行情况 【权威解读】受疫情等因素影响 3月份<em>采购经理指数</em>回落至收缩区间 点个在看一起分享...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1648699020,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "F5010BEE88AB3D853EA6CD27BF58DD18",
+          "DRETITLE": "图解 一图看懂2022年3月PMI数据",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651450662&idx=1&sn=3401f85e029481687b52facf0d833be4&chksm=bd1f112b8a68983db690e1afaae2ad16f60573695087757edcc6f4f80905381cd698e892d5d4",
+          "MD5TITLE": "45376FF0B13A9D86E8533EAAA9FB6C71",
+          "DRETITLEO": "【图解】一图看懂2022年3月PMI数据",
+          "QUICKDESCRIPTION": "往期推荐 数据发布 2022年3月中国采购经理指数运行情况 权威解读 受疫情等因素影响 3月份采购经理指数回落至收缩区间 点个在看一起分享",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A65083E300BB6D37C060B1DE39170112",
+      "timestamp": 1648692840000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A65083E300BB6D37C060B1DE39170112",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2022年3月中国采购经理指数运行情况",
+        "title": "【数据发布】2022年3月中国<em>采购经理指数</em>运行情况",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651450620&idx=1&sn=b6528d40ecd129a39badc708f38a327c&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "中国综合PMI产出<em>指数</em>运行情况 3月份，综合PMI产出<em>指数</em>为48.8%，比上月下降2.4个百分点，表明我国企业生产经营景气水平有所下降。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1648692840000,
+        "docDate": "2022-03-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "C1B7C89393278E6270BF9F5207D7D4C0",
+        "md5Url": "6B71C63A0CCF03EEB82AD32138BA2D02",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "中国综合PMI产出<em>指数</em>运行情况 3月份，综合PMI产出<em>指数</em>为48.8%，比上月下降2.4个百分点，表明我国企业生产经营景气水平有所下降。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1648692840,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "6B71C63A0CCF03EEB82AD32138BA2D02",
+          "DRETITLE": "数据发布 2022年3月中国采购经理指数运行情况",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651450620&idx=1&sn=b6528d40ecd129a39badc708f38a327c&scene=0",
+          "MD5TITLE": "C1B7C89393278E6270BF9F5207D7D4C0",
+          "DRETITLEO": "【数据发布】2022年3月中国采购经理指数运行情况",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 一 中国制造业采购经理指数运行情况 3月份 中国制造业采购经理指数 PMI 为49 5 比上月下降0 7个百分点 低于临界点 制造业总体景气水平有所回落 从企业规模看 大型企业PMI为51 3 比上月下降0 5个百分点 高于临界点 中型企业PMI为48 5 比上月下降2 9个百分点 低于临界点 小型企业PMI为46 6 比上月上升1 5个百分点 低于临界点 从分类指数看 构成制造业PMI的5个分类指数均低于临界点 生产指数为49 5 比上月下降0 ",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C9AE99EB7EF5DB93BA6C214BCC3C5E27",
+      "timestamp": 1648692840000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C9AE99EB7EF5DB93BA6C214BCC3C5E27",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【权威解读】受疫情等因素影响　3月份采购经理指数回落至收缩区间",
+        "title": "【权威解读】受疫情等因素影响　3月份<em>采购经理指数</em>回落至收缩区间",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651450620&idx=2&sn=aa0f3cc2b3f8632b83894f66b445eca7&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "3月份，制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为49.5%、48.4%和48.8%，低于上月0.7、3.2和2.4个百分点，三大<em>指数</em>均降至临界点以下，表明我国经济总体景气水平有所回落。 三、综合PMI产出<em>指数</em>降至收缩区间 3月份，综合PMI产出<em>指数</em>为48.8%，低于上月2.4个百分点，表明我国企业生产经营景气水平有所下降。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1648692840000,
+        "docDate": "2022-03-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "055DE4F6AD01E95081621F27149C9364",
+        "md5Url": "CF4C5A80E49791841BDD9781DBC5A670",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "3月份，制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为49.5%、48.4%和48.8%，低于上月0.7、3.2和2.4个百分点，三大<em>指数</em>均降至临界点以下，表明我国经济总体景气水平有所回落。 三、综合PMI产出<em>指数</em>降至收缩区间 3月份，综合PMI产出<em>指数</em>为48.8%，低于上月2.4个百分点，表明我国企业生产经营景气水平有所下降。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1648692840,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "CF4C5A80E49791841BDD9781DBC5A670",
+          "DRETITLE": "权威解读 受疫情等因素影响 3月份采购经理指数回落至收缩区间",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651450620&idx=2&sn=aa0f3cc2b3f8632b83894f66b445eca7&scene=0",
+          "MD5TITLE": "055DE4F6AD01E95081621F27149C9364",
+          "DRETITLEO": "【权威解读】受疫情等因素影响　3月份采购经理指数回落至收缩区间",
+          "QUICKDESCRIPTION": "受疫情等因素影响 3月份采购经理指数回落至收缩区间 国家统计局服务业调查中心 高级统计师赵庆河解读 2022年3月中国采购经理指数 2022年3月31日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数 对此 国家统计局服务业调查中心高级统计师赵庆河进行了解读 近期 国内多地出现聚集性疫情 加之国际地缘政治不稳定因素显著增加 我国企业生产经营活动受到一定影响 3月份 制造业采购经理指数 非制造业商务活动指数和综合PMI产出指数分别为49 5 48 4 和48 8 低于上月0 7",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "B79983AC5083CA4622B02345A15EFF9A",
+      "timestamp": 1648690422000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "B79983AC5083CA4622B02345A15EFF9A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【受疫情等因素影响　3月份采购经理指数回落至收缩区间】——国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国采购经理指数 详见：O网页链接",
+        "title": "#权威解读# 【受疫情等因素影响　3月份<em>采购经理指数</em>回落至收缩区间】——国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国<em>采购经理指数</em> 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Lmf9ebKrW?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【受疫情等因素影响 3月份<em>采购经理指数</em>回落至收缩区间】——国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【受疫情等因素影响 3月份<em>采购经理指数</em>回落至收缩区间】——国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国<em>采购经理指数</em> 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1648690422000,
+        "docDate": "2022-03-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "98FFB615BD9FFF9A3F8726069C2E7FE9",
+        "md5Url": "74C3019F2B49720DBA35A6D43F8F5E12",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【受疫情等因素影响 3月份<em>采购经理指数</em>回落至收缩区间】——国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【受疫情等因素影响 3月份<em>采购经理指数</em>回落至收缩区间】——国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国<em>采购经理指数</em> 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1648690422,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "74C3019F2B49720DBA35A6D43F8F5E12",
+          "DRETITLE": "权威解读 受疫情等因素影响 3月份采购经理指数回落至收缩区间 国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国采购经理指数 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/Lmf9ebKrW?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "98FFB615BD9FFF9A3F8726069C2E7FE9",
+          "DRETITLEO": "#权威解读# 【受疫情等因素影响　3月份采购经理指数回落至收缩区间】——国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国采购经理指数 详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 受疫情等因素影响 3月份采购经理指数回落至收缩区间 国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国采购经理指数 详见 O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "7B9261EA19E799ABFE22656E6C4AA7DD",
+      "timestamp": 1648690367000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "7B9261EA19E799ABFE22656E6C4AA7DD",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布# 【2022年3月中国采购经理指数运行情况】3月份，中国制造业采购经理指数（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。详见：O网页链接",
+        "title": "#数据发布# 【2022年3月中国<em>采购经理指数</em>运行情况】3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。详见：O网页链接",
+        "url": "https://weibo.com/3919628624/Lmf8R7L1G?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2022年3月中国<em>采购经理指数</em>运行情况】3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。 数据发布 【2022年3月中国<em>采购经理指数</em>运行情况】3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1648690367000,
+        "docDate": "2022-03-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "BF8E453DF5EDE235CFCA8C1881150893",
+        "md5Url": "10AB7508A14A938B39B4E78D6524487C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2022年3月中国<em>采购经理指数</em>运行情况】3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。 数据发布 【2022年3月中国<em>采购经理指数</em>运行情况】3月份，中国制造业<em>采购经理指数</em>（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1648690367,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "10AB7508A14A938B39B4E78D6524487C",
+          "DRETITLE": "数据发布 2022年3月中国采购经理指数运行情况 3月份 中国制造业采购经理指数 PMI 为49 5 比上月下降0 7个百分点 低于临界点 制造业总体景气水平有所回落 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/Lmf8R7L1G?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "BF8E453DF5EDE235CFCA8C1881150893",
+          "DRETITLEO": "#数据发布# 【2022年3月中国采购经理指数运行情况】3月份，中国制造业采购经理指数（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。详见：O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2022年3月中国采购经理指数运行情况 3月份 中国制造业采购经理指数 PMI 为49 5 比上月下降0 7个百分点 低于临界点 制造业总体景气水平有所回落 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "72C0DD2AE7E24420796681D9E01D5781",
+      "timestamp": 1648690200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "72C0DD2AE7E24420796681D9E01D5781",
+        "titleLabel": {
+          "value": "数据解读",
+          "location": 0
+        },
+        "titleO": "国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国采购经理指数",
+        "title": "国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国<em>采购经理指数</em>",
+        "url": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896607.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "3月份，制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为49.5%、48.4%和48.8%，低于上月0.7、3.2和2.4个百分点，三大<em>指数</em>均降至临界点以下，表明我国经济总体景气水平有所回落。 三、综合PMI产出<em>指数</em>降至收缩区间 3月份，综合PMI产出<em>指数</em>为48.8%，低于上月2.4个百分点，表明我国企业生产经营景气水平有所下降。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1648690200000,
+        "docDate": "2022-03-31",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/sjjd/index_38.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "D96316242CFDE6FB3E709C98C9AB9D51",
+        "md5Url": "72C0DD2AE7E24420796681D9E01D5781",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "3月份，制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为49.5%、48.4%和48.8%，低于上月0.7、3.2和2.4个百分点，三大<em>指数</em>均降至临界点以下，表明我国经济总体景气水平有所回落。 三、综合PMI产出<em>指数</em>降至收缩区间 3月份，综合PMI产出<em>指数</em>为48.8%，低于上月2.4个百分点，表明我国企业生产经营景气水平有所下降。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896607.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国采购经理指数",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/sjjd/index_38.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1648690200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "数据解读"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "72C0DD2AE7E24420796681D9E01D5781",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国采购经理指数",
+          "MD5TITLE": "D96316242CFDE6FB3E709C98C9AB9D51",
+          "QUICKDESCRIPTION": "受疫情等因素影响　3月份采购经理指数回落至收缩区间 ——国家统计局服务业调查中心高级统计师赵庆河解读2022年3月中国采购经理指数 　　2022年3月31日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数。对此，国家统计局服务业调查中心高级统计师赵庆河进行了解读。 　　近期，国内多地出现聚集性疫情，加之国际地缘政治不稳定因素显著增加，我国企业生产经营活动受到一定影响。3月份，制造业采购经理指数、非制造业商务活动指数和综合PMI产出指数分别为49.5%、48.4%和48.8%，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3BF847FA572FFC52715E532B6BD146C7",
+      "timestamp": 1648690200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3BF847FA572FFC52715E532B6BD146C7",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2022年3月中国采购经理指数运行情况",
+        "title": "2022年3月中国<em>采购经理指数</em>运行情况",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901418.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送 时间 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 2021年7月 50.4 51.0 50.9 47.7 49.6 48.9 2021年8月 50.1 50.9 49.6 47.7 49.6 48.0 2021年9月 49.6 49.5 49.3 48.2 49.0 48.1 2021年10月 49.2 48.4 48.8 47.0 48.8 46.7 2021年11月 50.1 52.0 49.4 47.7 48.9 48.2 2021年12月 50.3 51.4 49.7 49.2 49.1 48.3 2022年1月 50.1 50.9 49.3 49.1 48.9 47.6 2022年2月 50.2 50.4 50.7 48.1 49.2 48.2 2022年3月 49.5 49.5 48.8 47.3 48.6 46.5 点击下载：相关数据表 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营 活动预期 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 2021年7月 47.7 49.4 50.8 62.9 53.8 47.6 46.1 57.8 2021年8月 46.7 48.3 50.3 61.3 53.4 47.7 45.9 57.5 2021年9月 46.2 46.8 49.7 63.5 56.4 47.2 45.6 56.4 2021年10月 46.6 47.5 48.9 72.1 61.1 46.3 45.0 53.6 2021年11月 48.5 48.1 50.2 52.9 48.9 47.9 45.7 53.8 2021年12月 48.1 48.2 50.8 48.1 45.5 48.5 45.6 54.3 2022年1月 48.4 47.2 50.2 56.4 50.9 48.0 45.8 57.5 2022年2月 49.0 48.6 50.9 60.0 54.1 47.3 45.2 58.7 2022年3月 47.2 46.9 48.7 66.1 56.7 48.9 46.1 55.7 二、中国非制造业<em>采购经理指数</em>运行情况 3月份，非制造业商务活动<em>指数</em>为48.4%，比上月下降3.2个百分点，非制造业景气度降至收缩区间。...",
+        "formatRows": [
+          {
+            "row": 4,
+            "col": [
+              {
+                "text": "附  件：",
+                "field": "ATTACHMENTS",
+                "value": {
+                  "https://www.stats.gov.cn/sj/zxfb/202302/W020230203608197481603.xls": "相关数据表"
+                },
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          },
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送 时间 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 2021年7月 50.4 51.0 50.9 47.7 49.6 48.9 2021年8月 50.1 50.9 49.6 47.7 49.6 48.0 2021年9月 49.6 49.5 49.3 48.2 49.0 48.1 2021年10月 49.2 48.4 48.8 47.0 48.8 46.7 2021年11月 50.1 52.0 49.4 47.7 48.9 48.2 2021年12月 50.3 51.4 49.7 49.2 49.1 48.3 2022年1月 50.1 50.9 49.3 49.1 48.9 47.6 2022年2月 50.2 50.4 50.7 48.1 49.2 48.2 2022年3月 49.5 49.5 48.8 47.3 48.6 46.5 点击下载：相关数据表 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营 活动预期 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 2021年7月 47.7 49.4 50.8 62.9 53.8 47.6 46.1 57.8 2021年8月 46.7 48.3 50.3 61.3 53.4 47.7 45.9 57.5 2021年9月 46.2 46.8 49.7 63.5 56.4 47.2 45.6 56.4 2021年10月 46.6 47.5 48.9 72.1 61.1 46.3 45.0 53.6 2021年11月 48.5 48.1 50.2 52.9 48.9 47.9 45.7 53.8 2021年12月 48.1 48.2 50.8 48.1 45.5 48.5 45.6 54.3 2022年1月 48.4 47.2 50.2 56.4 50.9 48.0 45.8 57.5 2022年2月 49.0 48.6 50.9 60.0 54.1 47.3 45.2 58.7 2022年3月 47.2 46.9 48.7 66.1 56.7 48.9 46.1 55.7 二、中国非制造业<em>采购经理指数</em>运行情况 3月份，非制造业商务活动<em>指数</em>为48.4%，比上月下降3.2个百分点，非制造业景气度降至收缩区间。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1648690200000,
+        "docDate": "2022-03-31",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/894D82875A392A3D32459C0C3338B2BC.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_57.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "E1D9F628C6A8946C4B7986717A7E78AD",
+        "md5Url": "3BF847FA572FFC52715E532B6BD146C7",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "附注 1.主要指标解释 <em>采购经理指数</em>（PMI），是通过对企业<em>采购</em><em>经理</em>的月度调查结果统计汇总、编制而成的<em>指数</em>，它涵盖了企业<em>采购</em>、生产、流通等各个环节，包括制造业和非制造业领域，是国际上通用的监测宏观经济走势的先行性<em>指数</em>之一，具有较强的预测、预警作用。 表1 中国制造业PMI及构成<em>指数</em>（经季节调整） 单位：% PMI 生产 新订单 原材料 库存 从业人员 供应商配送 时间 2021年3月 51.9 53.9 53.6 48.4 50.1 50.0 2021年4月 51.1 52.2 52.0 48.3 49.6 48.7 2021年5月 51.0 52.7 51.3 47.7 48.9 47.6 2021年6月 50.9 51.9 51.5 48.0 49.2 47.9 2021年7月 50.4 51.0 50.9 47.7 49.6 48.9 2021年8月 50.1 50.9 49.6 47.7 49.6 48.0 2021年9月 49.6 49.5 49.3 48.2 49.0 48.1 2021年10月 49.2 48.4 48.8 47.0 48.8 46.7 2021年11月 50.1 52.0 49.4 47.7 48.9 48.2 2021年12月 50.3 51.4 49.7 49.2 49.1 48.3 2022年1月 50.1 50.9 49.3 49.1 48.9 47.6 2022年2月 50.2 50.4 50.7 48.1 49.2 48.2 2022年3月 49.5 49.5 48.8 47.3 48.6 46.5 点击下载：相关数据表 表2 中国制造业PMI其他相关指标情况（经季节调整） 单位：% 新出口 订单 进口 <em>采购</em>量 主要原材料购进价格 出厂 价格 产成品 库存 在手 订单 生产经营 活动预期 2021年3月 51.2 51.1 53.1 69.4 59.8 46.7 46.6 58.5 2021年4月 50.4 50.6 51.7 66.9 57.3 46.8 46.4 58.3 2021年5月 48.3 50.9 51.9 72.8 60.6 46.5 45.9 58.2 2021年6月 48.1 49.7 51.7 61.2 51.4 47.1 46.6 57.9 2021年7月 47.7 49.4 50.8 62.9 53.8 47.6 46.1 57.8 2021年8月 46.7 48.3 50.3 61.3 53.4 47.7 45.9 57.5 2021年9月 46.2 46.8 49.7 63.5 56.4 47.2 45.6 56.4 2021年10月 46.6 47.5 48.9 72.1 61.1 46.3 45.0 53.6 2021年11月 48.5 48.1 50.2 52.9 48.9 47.9 45.7 53.8 2021年12月 48.1 48.2 50.8 48.1 45.5 48.5 45.6 54.3 2022年1月 48.4 47.2 50.2 56.4 50.9 48.0 45.8 57.5 2022年2月 49.0 48.6 50.9 60.0 54.1 47.3 45.2 58.7 2022年3月 47.2 46.9 48.7 66.1 56.7 48.9 46.1 55.7 二、中国非制造业<em>采购经理指数</em>运行情况 3月份，非制造业商务活动<em>指数</em>为48.4%，比上月下降3.2个百分点，非制造业景气度降至收缩区间。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901418.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2022年3月中国采购经理指数运行情况",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/894D82875A392A3D32459C0C3338B2BC.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "ATTACHMENTS": {
+            "https://www.stats.gov.cn/sj/zxfb/202302/W020230203608197481603.xls": "相关数据表"
+          },
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_57.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1648690200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "3BF847FA572FFC52715E532B6BD146C7",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2022年3月中国采购经理指数运行情况",
+          "MD5TITLE": "E1D9F628C6A8946C4B7986717A7E78AD",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 　　一、中国制造业采购经理指数运行情况 　　3月份，中国制造业采购经理指数（PMI）为49.5%，比上月下降0.7个百分点，低于临界点，制造业总体景气水平有所回落。 　　从企业规模看，大型企业PMI为51.3%，比上月下降0.5个百分点，高于临界点；中型企业PMI为48.5%，比上月下降2.9个百分点，低于临界点；小型企业PMI为46.6%，比上月上升1.5个百分点，低于临界点。 　　从分类指数看，构成制造业PMI的5个分类指数均低于临界点。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "DDCB1C587D1BB5D451978B95C0678292",
+      "timestamp": 1646373360000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "DDCB1C587D1BB5D451978B95C0678292",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》高质量发展在中国 PMI指数连续4个月稳定在50%以上",
+        "title": "《新闻直播间》高质量发展在中国 PMI<em>指数</em>连续4个月稳定在50%以上",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914328.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》高质量发展在中国 PMI<em>指数</em>连续4个月稳定在50%以上...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1646373360000,
+        "docDate": "2022-03-04",
+        "includeImg": true,
+        "picUrl": "img?reference=DDCB1C587D1BB5D451978B95C0678292&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_45.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "74B7D827303AA1767ED5A62AF9422265",
+        "md5Url": "DDCB1C587D1BB5D451978B95C0678292",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》高质量发展在中国 PMI<em>指数</em>连续4个月稳定在50%以上...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914328.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》高质量发展在中国 PMI指数连续4个月稳定在50%以上",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_45.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1646373360,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "DDCB1C587D1BB5D451978B95C0678292",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 高质量发展在中国 PMI指数连续4个月稳定在50 以上",
+          "MD5TITLE": "74B7D827303AA1767ED5A62AF9422265",
+          "QUICKDESCRIPTION": "《新闻直播间》高质量发展在中国 PMI指数连续4个月稳定在50%以上",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8FE20F360F8AADF38AB589045CF9BB5C",
+      "timestamp": 1646293200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8FE20F360F8AADF38AB589045CF9BB5C",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》2月份中国非制造业采购经理指数公布 市场经营活动趋升 企业预期保持乐观",
+        "title": "《新闻直播间》2月份中国非制造业<em>采购经理指数</em>公布 市场经营活动趋升 企业预期保持乐观",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914327.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》2月份中国非制造业<em>采购经理指数</em>公布 市场经营活动趋升 企业预期保持乐观...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1646293200000,
+        "docDate": "2022-03-03",
+        "includeImg": true,
+        "picUrl": "img?reference=8FE20F360F8AADF38AB589045CF9BB5C&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_45.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "819AB917B49305FF0463D404471ACB8B",
+        "md5Url": "8FE20F360F8AADF38AB589045CF9BB5C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》2月份中国非制造业<em>采购经理指数</em>公布 市场经营活动趋升 企业预期保持乐观...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914327.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》2月份中国非制造业采购经理指数公布 市场经营活动趋升 企业预期保持乐观",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_45.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1646293200,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "8FE20F360F8AADF38AB589045CF9BB5C",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 2月份中国非制造业采购经理指数公布 市场经营活动趋升 企业预期保持乐观",
+          "MD5TITLE": "819AB917B49305FF0463D404471ACB8B",
+          "QUICKDESCRIPTION": "《新闻直播间》2月份中国非制造业采购经理指数公布 市场经营活动趋升 企业预期保持乐观",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "82375E420C5446086AFFB8644622B0D3",
+      "timestamp": 1646116860000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "82375E420C5446086AFFB8644622B0D3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【图解】一图看懂2022年2月PMI数据",
+        "title": "【图解】一图看懂2022年2月PMI数据",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651442872&idx=1&sn=08391a173e2cd5e6d3bf090259cada4c&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "更多推荐 【数据发布】2022年2月中国<em>采购经理指数</em>运行情况 【权威解读】2月份中国<em>采购经理指数</em>稳中有升 点个在看你最好看 更多推荐 【数据发布】2022年2月中国<em>采购经理指数</em>运行情况 【权威解读】2月份中国<em>采购经理指数</em>稳中有升 点个在看你最好看...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1646116860000,
+        "docDate": "2022-03-01",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 3,
+        "md5Title": "8F3159315AB4DE31F792585AF6A205F4",
+        "md5Url": "9B95FA75A65E7608E2F0226C19C8132E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "更多推荐 【数据发布】2022年2月中国<em>采购经理指数</em>运行情况 【权威解读】2月份中国<em>采购经理指数</em>稳中有升 点个在看你最好看 更多推荐 【数据发布】2022年2月中国<em>采购经理指数</em>运行情况 【权威解读】2月份中国<em>采购经理指数</em>稳中有升 点个在看你最好看...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1646116860,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "9B95FA75A65E7608E2F0226C19C8132E",
+          "DRETITLE": "图解 一图看懂2022年2月PMI数据",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651442872&idx=1&sn=08391a173e2cd5e6d3bf090259cada4c&scene=0",
+          "MD5TITLE": "8F3159315AB4DE31F792585AF6A205F4",
+          "DRETITLEO": "【图解】一图看懂2022年2月PMI数据",
+          "QUICKDESCRIPTION": "更多推荐 数据发布 2022年2月中国采购经理指数运行情况 权威解读 2月份中国采购经理指数稳中有升 点个在看你最好看",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A538E58C613F5812EDF04CF1CA973685",
+      "timestamp": 1646102280000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A538E58C613F5812EDF04CF1CA973685",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【数据发布】2022年2月中国采购经理指数运行情况",
+        "title": "【数据发布】2022年2月中国<em>采购经理指数</em>运行情况",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651442817&idx=1&sn=52d1c00f78d47d08ca4ae1a438b8d918&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "中国综合PMI产出<em>指数</em>运行情况 2月份，综合PMI产出<em>指数</em>为51.2%，比上月上升0.2个百分点，表明我国企业生产经营活动总体扩张步伐加快。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 2月份，中国制造业<em>采购经理指数</em>（PMI）为50.2%，比上月上升0.1个百分点，继续高于临界点，制造业景气水平略有上升。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1646102280000,
+        "docDate": "2022-03-01",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "D9670D3999C8FDFB09692C78345BA9B3",
+        "md5Url": "6791D47B16E8F7D1D85715C067708BCD",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "中国综合PMI产出<em>指数</em>运行情况 2月份，综合PMI产出<em>指数</em>为51.2%，比上月上升0.2个百分点，表明我国企业生产经营活动总体扩张步伐加快。 国家统计局服务业调查中心 中国物流与<em>采购</em>联合会 一、中国制造业<em>采购经理指数</em>运行情况 2月份，中国制造业<em>采购经理指数</em>（PMI）为50.2%，比上月上升0.1个百分点，继续高于临界点，制造业景气水平略有上升。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1646102280,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "6791D47B16E8F7D1D85715C067708BCD",
+          "DRETITLE": "数据发布 2022年2月中国采购经理指数运行情况",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651442817&idx=1&sn=52d1c00f78d47d08ca4ae1a438b8d918&scene=0",
+          "MD5TITLE": "D9670D3999C8FDFB09692C78345BA9B3",
+          "DRETITLEO": "【数据发布】2022年2月中国采购经理指数运行情况",
+          "QUICKDESCRIPTION": "国家统计局服务业调查中心 中国物流与采购联合会 一 中国制造业采购经理指数运行情况 2月份 中国制造业采购经理指数 PMI 为50 2 比上月上升0 1个百分点 继续高于临界点 制造业景气水平略有上升 从企业规模看 大 中型企业PMI分别为51 8 和51 4 比上月上升0 2和0 9个百分点 均高于临界点 小型企业PMI为45 1 比上月下降0 9个百分点 低于临界点 从分类指数看 在构成制造业PMI的5个分类指数中 生产指数和新订单指数均高于临界点 原材料库存指数 从业人员指数和供应商配送时",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "FA15242C331ADAB4E9EB5A6D58953873",
+      "timestamp": 1646102280000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "FA15242C331ADAB4E9EB5A6D58953873",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "【权威解读】2月份中国采购经理指数稳中有升",
+        "title": "【权威解读】2月份中国<em>采购经理指数</em>稳中有升",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651442817&idx=2&sn=a6b433e1d0c8c68c55f3706c35e95a7a&scene=0",
+        "siteLabel": {
+          "value": "统计微讯",
+          "location": 1
+        },
+        "summary": "2月份，制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为50.2%、51.6%和51.2%，持续位于扩张区间，高于上月0.1、0.5和0.2个百分点，表明我国经济总体继续保持恢复发展态势，景气水平稳中有升。 从市场需求和预期看，新订单<em>指数</em>和业务活动预期<em>指数</em>分别为55.1%和66.0%，均高于上月，其中业务活动预期<em>指数</em>连续两个月运行在高位景气区间，表明受近期稳投资加快推进，部分重大基础设施工程和项目适度超前开展等因素带动，建筑业企业对行业发展预期向好。 三、综合PMI产出<em>指数</em>小幅上升 2月份，综合PMI产出<em>指数</em>为51.2%，高于上月0.2个百分点，表明我国企业生产经营活动扩张步伐加快。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1646102280000,
+        "docDate": "2022-03-01",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weixin",
+        "fileType": "weixin",
+        "combins": 1,
+        "md5Title": "B1A9825EFF13D5B7B5B910545BE6C7CF",
+        "md5Url": "261FE37EAEF9869D7E98F311E555FAFA",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2月份，制造业<em>采购经理指数</em>、非制造业商务活动<em>指数</em>和综合PMI产出<em>指数</em>分别为50.2%、51.6%和51.2%，持续位于扩张区间，高于上月0.1、0.5和0.2个百分点，表明我国经济总体继续保持恢复发展态势，景气水平稳中有升。 从市场需求和预期看，新订单<em>指数</em>和业务活动预期<em>指数</em>分别为55.1%和66.0%，均高于上月，其中业务活动预期<em>指数</em>连续两个月运行在高位景气区间，表明受近期稳投资加快推进，部分重大基础设施工程和项目适度超前开展等因素带动，建筑业企业对行业发展预期向好。 三、综合PMI产出<em>指数</em>小幅上升 2月份，综合PMI产出<em>指数</em>为51.2%，高于上月0.2个百分点，表明我国企业生产经营活动扩张步伐加快。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微信",
+          "DREDATE": 1646102280,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weixin",
+          "MD5URL": "261FE37EAEF9869D7E98F311E555FAFA",
+          "DRETITLE": "权威解读 2月份中国采购经理指数稳中有升",
+          "URL": "https://mp.weixin.qq.com/s?__biz=MjM5Njg5MjAwMg==&mid=2651442817&idx=2&sn=a6b433e1d0c8c68c55f3706c35e95a7a&scene=0",
+          "MD5TITLE": "B1A9825EFF13D5B7B5B910545BE6C7CF",
+          "DRETITLEO": "【权威解读】2月份中国采购经理指数稳中有升",
+          "QUICKDESCRIPTION": "2月份中国采购经理指数稳中有升 国家统计局服务业调查中心 高级统计师赵庆河解读 2022年2月中国采购经理指数 2022年3月1日国家统计局服务业调查中心和中国物流与采购联合会发布了中国采购经理指数 对此 国家统计局服务业调查中心高级统计师赵庆河进行了解读 2月份 制造业采购经理指数 非制造业商务活动指数和综合PMI产出指数分别为50 2 51 6 和51 2 持续位于扩张区间 高于上月0 1 0 5和0 2个百分点 表明我国经济总体继续保持恢复发展态势 景气水平稳中有升 一 制造业采购经理指数",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "qq.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "mp.weixin.qq.com",
+          "WEBSITENAME": "mp.weixin.qq.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "60D7CE488124AE152A14579DC85F9B4A",
+      "timestamp": 1646098533000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "60D7CE488124AE152A14579DC85F9B4A",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读# 【2月份中国采购经理指数稳中有升】——国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国采购经理指数 详见：O网页链接",
+        "title": "#权威解读# 【2月份中国<em>采购经理指数</em>稳中有升】——国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国<em>采购经理指数</em> 详见：O网页链接",
+        "url": "https://weibo.com/3919628624/LhGl5esZr?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【2月份中国<em>采购经理指数</em>稳中有升】——国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【2月份中国<em>采购经理指数</em>稳中有升】——国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国<em>采购经理指数</em> 详见： O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1646098533000,
+        "docDate": "2022-03-01",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 2,
+        "md5Title": "166158056EF6301174F7417EE4248F8B",
+        "md5Url": "3A76D0F31544C0A2DF0ABFFFEA38BBCC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【2月份中国<em>采购经理指数</em>稳中有升】——国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国<em>采购经理指数</em> 详见： O网页链接 权威解读 【2月份中国<em>采购经理指数</em>稳中有升】——国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国<em>采购经理指数</em> 详见： O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1646098533,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3A76D0F31544C0A2DF0ABFFFEA38BBCC",
+          "DRETITLE": "权威解读 2月份中国采购经理指数稳中有升 国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国采购经理指数 详见 O网页链接",
+          "URL": "https://weibo.com/3919628624/LhGl5esZr?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "166158056EF6301174F7417EE4248F8B",
+          "DRETITLEO": "#权威解读# 【2月份中国采购经理指数稳中有升】——国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国采购经理指数 详见：O网页链接",
+          "QUICKDESCRIPTION": "权威解读 2月份中国采购经理指数稳中有升 国家统计局服务业调查中心高级统计师赵庆河解读2022年2月中国采购经理指数 详见 O网页链接",
+          "SHI": "北京市",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "北京市",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 20,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 5,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 42,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 43,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 28,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 24,
+          "children": null,
+          "key": "国民经济核算"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 48,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}

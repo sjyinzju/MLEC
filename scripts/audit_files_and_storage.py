@@ -11,7 +11,7 @@ from pathlib import Path
 import duckdb
 import pyarrow.parquet as pq
 
-OUT=Path(r'E:\MLEC\audit');ROOT=Path(r'E:\QuantData')
+OUT=Path(__file__).resolve().parents[1]/'audit';ROOT=Path(r'E:\QuantData')
 def save(name,obj): (OUT/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2,default=str),encoding='utf-8')
 def csvout(name,rows):
     if not rows:return

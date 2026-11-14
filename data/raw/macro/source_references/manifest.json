@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ak_macro_china",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/economic/macro_china.py",
+    "status": 404,
+    "bytes": 14
+  },
+  {
+    "name": "ak_bond_china",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/bond/bond_china.py",
+    "status": 200,
+    "bytes": 6531
+  },
+  {
+    "name": "ak_currency_safe",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/currency/currency_safe.py",
+    "status": 404,
+    "bytes": 14
+  },
+  {
+    "name": "nbs_home",
+    "url": "https://www.stats.gov.cn/",
+    "status": 200,
+    "bytes": 140850
+  },
+  {
+    "name": "nbs_search",
+    "url": "https://www.stats.gov.cn/search/s?qt=2015%E5%B9%B4%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E4%BB%B7%E6%A0%BC",
+    "status": 200,
+    "bytes": 46920
+  },
+  {
+    "name": "nbs_legacy",
+    "url": "https://www.stats.gov.cn/was5/web/search?channelid=288041&searchword=2015&perpage=100",
+    "status": 404,
+    "bytes": 153
+  }
+]

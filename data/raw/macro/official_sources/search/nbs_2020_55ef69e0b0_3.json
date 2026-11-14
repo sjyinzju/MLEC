@@ -1,0 +1,1879 @@
+{
+  "ok": true,
+  "code": null,
+  "msg": null,
+  "totalHits": 68,
+  "currentHits": 20,
+  "queryTextObject": {
+    "code": 1,
+    "msg": "已处理",
+    "qt": "国内生产总值",
+    "originQt": "国内生产总值",
+    "showQt": "国内生产总值",
+    "encodeQt": "%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC",
+    "qtPasser": "国内生产总值",
+    "debugs": null,
+    "hanlpSegmentWords": [],
+    "hanlpSmartWords": [],
+    "words": [
+      {
+        "国内": "NN"
+      },
+      {
+        "生产": "NN"
+      },
+      {
+        "总值": "NN"
+      }
+    ],
+    "phraseWords": [
+      {
+        "国内生产总值": "NN"
+      }
+    ],
+    "synonymHs": {
+      "国内生产总值": "GDP,国民生产总值"
+    },
+    "popularHs": {},
+    "stopHs": [],
+    "forbiddenHs": [],
+    "splitWords": [
+      "国内",
+      "国内生产总值",
+      "生产",
+      "总值"
+    ],
+    "smartWords": [],
+    "modelWords": null,
+    "modelCoreWord": null,
+    "modelAuxWords": null
+  },
+  "sceneResult": null,
+  "resultDocs": [
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "F211B36F7728BDD49FE1BF220BB657D4",
+      "timestamp": 1587173400000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "F211B36F7728BDD49FE1BF220BB657D4",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2020年一季度国内生产总值（GDP）初步核算结果",
+        "title": "2020年一季度<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900688.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "根据有关基础资料和国民经济核算方法，我国2020年一季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年一季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 1季度 1季度 GDP 206504 -6.8 第一产业 10186 -3.2 第二产业 73638 -9.6 第三产业 122680 -5.2 农林牧渔业 10708 -2.8 工业 64642 -8.5 制造业 53852 -10.2 建筑业 9378 -17.5 批发和零售业 18750 -17.8 交通运输、仓储和邮政业 7865 -14.0 住宿和餐饮业 2821 -35.3 金融业 21347 6.0 房地产业 15268 -6.1 信息传输、软件和信息技术服务业 8928 13.2 租赁和商务服务业 7138 -9.4 其他服务业 39660 -1.8 注： 1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2018年修订的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2017）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "根据有关基础资料和国民经济核算方法，我国2020年一季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年一季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 1季度 1季度 GDP 206504 -6.8 第一产业 10186 -3.2 第二产业 73638 -9.6 第三产业 122680 -5.2 农林牧渔业 10708 -2.8 工业 64642 -8.5 制造业 53852 -10.2 建筑业 9378 -17.5 批发和零售业 18750 -17.8 交通运输、仓储和邮政业 7865 -14.0 住宿和餐饮业 2821 -35.3 金融业 21347 6.0 房地产业 15268 -6.1 信息传输、软件和信息技术服务业 8928 13.2 租赁和商务服务业 7138 -9.4 其他服务业 39660 -1.8 注： 1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2018年修订的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2017）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1587173400000,
+        "docDate": "2020-04-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_23.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "17CD46DF83BE96081252B6DA3271F95B",
+        "md5Url": "F211B36F7728BDD49FE1BF220BB657D4",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "根据有关基础资料和国民经济核算方法，我国2020年一季度<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下： 表1 2020年一季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 1季度 1季度 GDP 206504 -6.8 第一产业 10186 -3.2 第二产业 73638 -9.6 第三产业 122680 -5.2 农林牧渔业 10708 -2.8 工业 64642 -8.5 制造业 53852 -10.2 建筑业 9378 -17.5 批发和零售业 18750 -17.8 交通运输、仓储和邮政业 7865 -14.0 住宿和餐饮业 2821 -35.3 金融业 21347 6.0 房地产业 15268 -6.1 信息传输、软件和信息技术服务业 8928 13.2 租赁和商务服务业 7138 -9.4 其他服务业 39660 -1.8 注： 1.绝对额按现价计算，增长速度按不变价计算； 2.三次产业分类依据国家统计局2018年修订的《三次产业划分规定》； 3.行业分类采用《国民经济行业分类（GB/T 4754 2017）》； 4.本表GDP总量数据中，有的不等于各产业（行业）之和，是由于数值修约误差所致，未作机械调整。 其他相关核算结果详见国家统计局数据库（http //data.stats.gov.cn）。 附件： 中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900688.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2020年一季度国内生产总值（GDP）初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_23.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1587173400,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "F211B36F7728BDD49FE1BF220BB657D4",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2020年一季度国内生产总值 GDP 初步核算结果",
+          "MD5TITLE": "17CD46DF83BE96081252B6DA3271F95B",
+          "QUICKDESCRIPTION": "　　根据有关基础资料和国民经济核算方法，我国2020年一季度国内生产总值（以下简称GDP）初步核算主要结果如下： 表1　 2020年一季度GDP初步核算数据 绝对额（亿元） 比上年同期增长（%） 1季度 1季度 GDP 206504 -6.8 第一产业 10186 -3.2 第二产业 73638 -9.6 第三产业 122680 -5.2 农林牧渔业 10708 -2.8 工业 64642 -8.5 #制造业 53852 -10.2 建筑业 9378 -17.5 批发和零售业 18750 -",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "38F815FD5FF5713F234082AB5FE08284",
+      "timestamp": 1584346193000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "38F815FD5FF5713F234082AB5FE08284",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 【美国2月份CPI同比上涨2.3%等】 一、美国2月份CPI同比上涨2.3% 二、欧元区2019年第四季度GDP环比增长0.1% 三、英国1月份工业产出环比下降0.1% 四、日本2019年第四季度GDP环比下降1.8% 五",
+        "title": "#国际数据速递# 【美国2月份CPI同比上涨2.3%等】 一、美国2月份CPI同比上涨2.3% 二、欧元区2019年第四季度GDP环比增长0.1% 三、英国1月份工业产出环比下降0.1% 四、日本2019年第四季度GDP环比下降1.8% 五",
+        "url": "https://weibo.com/3919628624/IySJ4qNVt?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【美国2月份CPI同比上涨2.3%等】 一、美国2月份CPI同比上涨2.3% 二、欧元区2019年第四季度GDP环比增长0.1% 三、英国1月份工业产出环比下降0.1% 四、日本2019年第四季度GDP环比下降1.8% 五、韩国2月份失业率升至3.3% 国际数据速递 【美国2月份CPI同比上涨2.3%等】 一、美国2月份CPI同比上涨2.3% 二、欧元区2019年第四季度GDP环比增长0.1% 三、英国1月份工业产出环比下降0.1% 四、日本2019年第四季度GDP环比下降1.8% 五、韩国2月份失业率升至3.3%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1584346193000,
+        "docDate": "2020-03-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "339BA5DD79B881DAC56517A87C437B3A",
+        "md5Url": "ADE9CCBCE7E8F3AFC87D66060F232BAF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【美国2月份CPI同比上涨2.3%等】 一、美国2月份CPI同比上涨2.3% 二、欧元区2019年第四季度GDP环比增长0.1% 三、英国1月份工业产出环比下降0.1% 四、日本2019年第四季度GDP环比下降1.8% 五、韩国2月份失业率升至3.3% 国际数据速递 【美国2月份CPI同比上涨2.3%等】 一、美国2月份CPI同比上涨2.3% 二、欧元区2019年第四季度GDP环比增长0.1% 三、英国1月份工业产出环比下降0.1% 四、日本2019年第四季度GDP环比下降1.8% 五、韩国2月份失业率升至3.3%...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1584346193,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "ADE9CCBCE7E8F3AFC87D66060F232BAF",
+          "DRETITLE": "国际数据速递 美国2月份CPI同比上涨2 3 等 一 美国2月份CPI同比上涨2 3 二 欧元区2019年第四季度GDP环比增长0 1 三 英国1月份工业产出环",
+          "URL": "https://weibo.com/3919628624/IySJ4qNVt?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "339BA5DD79B881DAC56517A87C437B3A",
+          "DRETITLEO": "#国际数据速递# 【美国2月份CPI同比上涨2.3%等】 一、美国2月份CPI同比上涨2.3% 二、欧元区2019年第四季度GDP环比增长0.1% 三、英国1月份工业产出环比下降0.1% 四、日本2019年第四季度GDP环比下降1.8% 五",
+          "QUICKDESCRIPTION": "国际数据速递 美国2月份CPI同比上涨2 3 等 一 美国2月份CPI同比上涨2 3 二 欧元区2019年第四季度GDP环比增长0 1 三 英国1月份工业产出环比下降0 1 四 日本2019年第四季度GDP环比下降1 8 五 韩国2月份失业率升至3 3",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D33C28444DA53368CDEC3308992E344F",
+      "timestamp": 1584342791000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D33C28444DA53368CDEC3308992E344F",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国新办新闻发布会# 大公报香港文汇报记者：要实现2020年经济总量的增长与发展目标，今年的GDP至少要增长几个点才能实现国内生产总值翻一番的目标？还有一个问题，您刚才提到要扩大内需，而且还要巩固外需，现在疫情在全球蔓延，您觉得疫情在全球蔓",
+        "title": "#国新办新闻发布会# 大公报香港文汇报记者：要实现2020年经济总量的增长与发展目标，今年的GDP至少要增长几个点才能实现<em>国内生产总值</em>翻一番的目标？还有一个问题，您刚才提到要扩大内需，而且还要巩固外需，现在疫情在全球蔓延，您觉得疫情在全球蔓",
+        "url": "https://weibo.com/3919628624/IySm3t4ve?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国新办新闻发布会 大公报香港文汇报记者：要实现2020年经济总量的增长与发展目标，今年的GDP至少要增长几个点才能实现<em>国内生产总值</em>翻一番的目标 还有一个问题，您刚才提到要扩大内需，而且还要巩固外需，现在疫情在全球蔓延，您觉得疫情在全球蔓延会不会影响中国外需的基本盘 毛盛勇：第一个问题 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1584342791000,
+        "docDate": "2020-03-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "D240C4B2C2A8A6443787654EC7BF692A",
+        "md5Url": "FC6D64837C6AB7B8767585DD8C2FD080",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国新办新闻发布会 大公报香港文汇报记者：要实现2020年经济总量的增长与发展目标，今年的GDP至少要增长几个点才能实现<em>国内生产总值</em>翻一番的目标 还有一个问题，您刚才提到要扩大内需，而且还要巩固外需，现在疫情在全球蔓延，您觉得疫情在全球蔓延会不会影响中国外需的基本盘 毛盛勇：第一个问题 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1584342791,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "FC6D64837C6AB7B8767585DD8C2FD080",
+          "DRETITLE": "国新办新闻发布会 大公报香港文汇报记者 要实现2020年经济总量的增长与发展目标 今年的GDP至少要增长几个点才能实现国内生产总值翻一番的目标 还有一个问题 您",
+          "URL": "https://weibo.com/3919628624/IySm3t4ve?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "D240C4B2C2A8A6443787654EC7BF692A",
+          "DRETITLEO": "#国新办新闻发布会# 大公报香港文汇报记者：要实现2020年经济总量的增长与发展目标，今年的GDP至少要增长几个点才能实现国内生产总值翻一番的目标？还有一个问题，您刚才提到要扩大内需，而且还要巩固外需，现在疫情在全球蔓延，您觉得疫情在全球蔓",
+          "QUICKDESCRIPTION": "国新办新闻发布会 大公报香港文汇报记者 要实现2020年经济总量的增长与发展目标 今年的GDP至少要增长几个点才能实现国内生产总值翻一番的目标 还有一个问题 您刚才提到要扩大内需 而且还要巩固外需 现在疫情在全球蔓延 您觉得疫情在全球蔓延会不会影响中国外需的基本盘 毛盛勇 第一个问题 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "035D2799850D3E5D09BEFEF4629A55BF",
+      "timestamp": 1584342368000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "035D2799850D3E5D09BEFEF4629A55BF",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国新办新闻发布会# 彭博新闻社记者：有两个问题，第一个问题，您对第一季度GDP增长的预期是多少，会不会出现负增长，这种趋势会不会延续到第二季度？因为现在美国、欧洲以及其他国家的情况并不好，因此这种负面的趋势会不会持续到第二季度？第二个问题",
+        "title": "#国新办新闻发布会# 彭博新闻社记者：有两个问题，第一个问题，您对第一季度GDP增长的预期是多少，会不会出现负增长，这种趋势会不会延续到第二季度？因为现在美国、欧洲以及其他国家的情况并不好，因此这种负面的趋势会不会持续到第二季度？第二个问题",
+        "url": "https://weibo.com/3919628624/IySjcbGbe?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国新办新闻发布会 彭博新闻社记者：有两个问题，第一个问题，您对第一季度GDP增长的预期是多少，会不会出现负增长，这种趋势会不会延续到第二季度 因为现在美国、欧洲以及其他国家的情况并不好，因此这种负面的趋势会不会持续到第二季度 第二个问题，失业率会不会持续攀升 政府会不会采取举措来降 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1584342368000,
+        "docDate": "2020-03-16",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "604F3B66C14E07A031F83597C53EC0BC",
+        "md5Url": "DC9EDA2425DD7BF8FE207AD4522429B5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国新办新闻发布会 彭博新闻社记者：有两个问题，第一个问题，您对第一季度GDP增长的预期是多少，会不会出现负增长，这种趋势会不会延续到第二季度 因为现在美国、欧洲以及其他国家的情况并不好，因此这种负面的趋势会不会持续到第二季度 第二个问题，失业率会不会持续攀升 政府会不会采取举措来降 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1584342368,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "DC9EDA2425DD7BF8FE207AD4522429B5",
+          "DRETITLE": "国新办新闻发布会 彭博新闻社记者 有两个问题 第一个问题 您对第一季度GDP增长的预期是多少 会不会出现负增长 这种趋势会不会延续到第二季度 因为现在美国 欧洲",
+          "URL": "https://weibo.com/3919628624/IySjcbGbe?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "604F3B66C14E07A031F83597C53EC0BC",
+          "DRETITLEO": "#国新办新闻发布会# 彭博新闻社记者：有两个问题，第一个问题，您对第一季度GDP增长的预期是多少，会不会出现负增长，这种趋势会不会延续到第二季度？因为现在美国、欧洲以及其他国家的情况并不好，因此这种负面的趋势会不会持续到第二季度？第二个问题",
+          "QUICKDESCRIPTION": "国新办新闻发布会 彭博新闻社记者 有两个问题 第一个问题 您对第一季度GDP增长的预期是多少 会不会出现负增长 这种趋势会不会延续到第二季度 因为现在美国 欧洲以及其他国家的情况并不好 因此这种负面的趋势会不会持续到第二季度 第二个问题 失业率会不会持续攀升 政府会不会采取举措来降 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "3BE17416AEC216C55C4380225BA92E9F",
+      "timestamp": 1582878540000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "3BE17416AEC216C55C4380225BA92E9F",
+        "titleLabel": {
+          "value": "统计新闻",
+          "location": 0
+        },
+        "titleO": "《新闻直播间》国家统计局 2019年国民经济和社会发展统计公报发布2019年国内生产总值比上年增6.1%",
+        "title": "《新闻直播间》国家统计局 2019年国民经济和社会发展统计公报发布2019年<em>国内生产总值</em>比上年增6.1%",
+        "url": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914168.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "新闻直播间》国家统计局 2019年国民经济和社会发展统计公报 发布2019年<em>国内生产总值</em>比上年增6.1%...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1582878540000,
+        "docDate": "2020-02-28",
+        "includeImg": true,
+        "picUrl": "img?reference=3BE17416AEC216C55C4380225BA92E9F&index=machining_search_stats_label&siteCode=bm36000002&type=1",
+        "parentUrl": "https://www.stats.gov.cn/xw/tjxw/spxw/index_71.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "32EC702A574E54F86A7A3D20D9BFEC50",
+        "md5Url": "3BE17416AEC216C55C4380225BA92E9F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "新闻直播间》国家统计局 2019年国民经济和社会发展统计公报 发布2019年<em>国内生产总值</em>比上年增6.1%...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/xw/tjxw/spxw/202302/t20230221_1914168.html",
+          "C1": [
+            "新闻"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            "视频"
+          ],
+          "DRETITLEO": "《新闻直播间》国家统计局  2019年国民经济和社会发展统计公报发布2019年国内生产总值比上年增6.1%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/xw/tjxw/spxw/index_71.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1582878540,
+          "L1": [
+            "新闻"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "统计新闻"
+          ],
+          "L3": [
+            "视频新闻"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "3BE17416AEC216C55C4380225BA92E9F",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "新闻直播间 国家统计局 2019年国民经济和社会发展统计公报 发布2019年国内生产总值比上年增6 1",
+          "MD5TITLE": "32EC702A574E54F86A7A3D20D9BFEC50",
+          "QUICKDESCRIPTION": "《新闻直播间》国家统计局  2019年国民经济和社会发展统计公报<br>发布2019年国内生产总值比上年增6.1%",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "4DB326504E389D232707F2651FF95E32",
+      "timestamp": 1582858178000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "4DB326504E389D232707F2651FF95E32",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#公报#【中华人民共和国2019年国民经济和社会发展统计公报】 全年研究与试验发展（R&D）经费支出21737亿元，比上年增长10.5%，与国内生产总值之比为2.19%，其中基础研究经费1209亿元。国家科技重大专项共安排234个课题，国家",
+        "title": "#公报#【中华人民共和国2019年国民经济和社会发展统计公报】 全年研究与试验发展（R&D）经费支出21737亿元，比上年增长10.5%，与<em>国内生产总值</em>之比为2.19%，其中基础研究经费1209亿元。国家科技重大专项共安排234个课题，国家",
+        "url": "https://weibo.com/3919628624/IwgmDCcvF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "公报 【中华人民共和国2019年国民经济和社会发展统计公报】 全年研究与试验发展（R D）经费支出21737亿元，比上年增长10.5%，与<em>国内生产总值</em>之比为2.19%，其中基础研究经费1209亿元。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1582858178000,
+        "docDate": "2020-02-28",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "2E13AE5CD86F20BC37C79187490AA786",
+        "md5Url": "E349D8485489A7D3DDE0631B176607CF",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "公报 【中华人民共和国2019年国民经济和社会发展统计公报】 全年研究与试验发展（R D）经费支出21737亿元，比上年增长10.5%，与<em>国内生产总值</em>之比为2.19%，其中基础研究经费1209亿元。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1582858178,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "E349D8485489A7D3DDE0631B176607CF",
+          "DRETITLE": "公报 中华人民共和国2019年国民经济和社会发展统计公报 全年研究与试验发展 R D 经费支出21737亿元 比上年增长10 5 与国内生产总值之比为2 19 ",
+          "URL": "https://weibo.com/3919628624/IwgmDCcvF?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "2E13AE5CD86F20BC37C79187490AA786",
+          "DRETITLEO": "#公报#【中华人民共和国2019年国民经济和社会发展统计公报】 全年研究与试验发展（R&D）经费支出21737亿元，比上年增长10.5%，与国内生产总值之比为2.19%，其中基础研究经费1209亿元。国家科技重大专项共安排234个课题，国家",
+          "QUICKDESCRIPTION": "公报 中华人民共和国2019年国民经济和社会发展统计公报 全年研究与试验发展 R D 经费支出21737亿元 比上年增长10 5 与国内生产总值之比为2 19 其中基础研究经费1209亿元 国家科技重大专项共安排234个课题 国家自然科学基金共资助45192个项目 截至年底 正在运行的国家重点实验 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8D7DA237A79413205FC99E3CA305D310",
+      "timestamp": 1582854755000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8D7DA237A79413205FC99E3CA305D310",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#公报#【中华人民共和国2019年国民经济和社会发展统计公报】 初步核算，全年国内生产总值[2]990865亿元，比上年增长6.1%。其中，第一产业增加值70467亿元，增长3.1%；第二产业增加值386165亿元，增长5.7%；第三产业增",
+        "title": "#公报#【中华人民共和国2019年国民经济和社会发展统计公报】 初步核算，全年<em>国内生产总值</em>[2]990865亿元，比上年增长6.1%。其中，第一产业增加值70467亿元，增长3.1%；第二产业增加值386165亿元，增长5.7%；第三产业增",
+        "url": "https://weibo.com/3919628624/IwfZuoopV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "公报 【中华人民共和国2019年国民经济和社会发展统计公报】 初步核算，全年<em>国内生产总值</em>[2]990865亿元，比上年增长6.1%。 其中，第一产业增加值70467亿元，增长3.1%；第二产业增加值386165亿元，增长5.7%；第三产业增加值534233亿元，增长6.9%。第一产业增加值占<em>国内生产总值</em>比重为7.1%，第二产业增加 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1582854755000,
+        "docDate": "2020-02-28",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "4A64178491D8CD506C31EA0E3252FB2F",
+        "md5Url": "FB11CF911CD9B2E89B00DE16F1F450AC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "公报 【中华人民共和国2019年国民经济和社会发展统计公报】 初步核算，全年<em>国内生产总值</em>[2]990865亿元，比上年增长6.1%。 其中，第一产业增加值70467亿元，增长3.1%；第二产业增加值386165亿元，增长5.7%；第三产业增加值534233亿元，增长6.9%。第一产业增加值占<em>国内生产总值</em>比重为7.1%，第二产业增加 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1582854755,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "FB11CF911CD9B2E89B00DE16F1F450AC",
+          "DRETITLE": "公报 中华人民共和国2019年国民经济和社会发展统计公报 初步核算 全年国内生产总值 2 990865亿元 比上年增长6 1 其中 第一产业增加值70467亿元",
+          "URL": "https://weibo.com/3919628624/IwfZuoopV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "4A64178491D8CD506C31EA0E3252FB2F",
+          "DRETITLEO": "#公报#【中华人民共和国2019年国民经济和社会发展统计公报】 初步核算，全年国内生产总值[2]990865亿元，比上年增长6.1%。其中，第一产业增加值70467亿元，增长3.1%；第二产业增加值386165亿元，增长5.7%；第三产业增",
+          "QUICKDESCRIPTION": "公报 中华人民共和国2019年国民经济和社会发展统计公报 初步核算 全年国内生产总值 2 990865亿元 比上年增长6 1 其中 第一产业增加值70467亿元 增长3 1 第二产业增加值386165亿元 增长5 7 第三产业增加值534233亿元 增长6 9 第一产业增加值占国内生产总值比重为7 1 第二产业增加 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "854CD18A3A099F53C2340B4DD687FF1E",
+      "timestamp": 1582560000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "854CD18A3A099F53C2340B4DD687FF1E",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "没有法人资格的分公司的GDP，是算总公司所在地的还是算该分公司所在地的",
+        "title": "没有法人资格的分公司的GDP，是算总公司所在地的还是算该分公司所在地的",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953522.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "依据现行国家统计调查制度的有关规定，按照法人在地原则进行统计。对于不具备独立法人资格的分公司，一般情况下，其数据需包含在上级法人单位中，由上级法人单位统一报送在法人单位所在地统计机构。《统计单位划分及具体处理办法》请参考如下链接：http://www.stats.gov.cn/sj/tjbz/gjtjbz/202302/t20230213_1902747.html。更多具体填报事宜您可咨询所在地的统计部门。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1582560000000,
+        "docDate": "2020-02-25",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_66.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "EDC4E1E62CF01E43B8AFDDFA174D1F83",
+        "md5Url": "854CD18A3A099F53C2340B4DD687FF1E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "依据现行国家统计调查制度的有关规定，按照法人在地原则进行统计。对于不具备独立法人资格的分公司，一般情况下，其数据需包含在上级法人单位中，由上级法人单位统一报送在法人单位所在地统计机构。《统计单位划分及具体处理办法》请参考如下链接：http://www.stats.gov.cn/sj/tjbz/gjtjbz/202302/t20230213_1902747.html。更多具体填报事宜您可咨询所在地的统计部门。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局统计资料管理中心",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953522.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "没有法人资格的分公司的GDP，是算总公司所在地的还是算该分公司所在地的",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_66.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1582560000,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "854CD18A3A099F53C2340B4DD687FF1E",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "没有法人资格的分公司的GDP 是算总公司所在地的还是算该分公司所在地的",
+          "MD5TITLE": "EDC4E1E62CF01E43B8AFDDFA174D1F83",
+          "QUICKDESCRIPTION": "依据现行国家统计调查制度的有关规定，按照法人在地原则进行统计。对于不具备独立法人资格的分公司，一般情况下，其数据需包含在上级法人单位中，由上级法人单位统一报送在法人单位所在地统计机构。《统计单位划分及具体处理办法》请参考如下链接：http://www.stats.gov.cn/sj/tjbz/gjtjbz/202302/t20230213_1902747.html。更多具体填报事宜您可咨询所在地的统计部门。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "A23E980741967AC37A3FD4A8579388CB",
+      "timestamp": 1580745600000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "A23E980741967AC37A3FD4A8579388CB",
+        "titleLabel": {
+          "value": "留言咨询",
+          "location": 0
+        },
+        "titleO": "请问1990年-2018年我国三大需求对GDP增长的贡献在哪里查找",
+        "title": "请问1990年-2018年我国三大需求对GDP增长的贡献在哪里查找",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953512.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "有关1990年-2018年我国三大需求对GDP增长的贡献率请您参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—三大需求对<em>国内生产总值</em>增长的贡献率和拉动，可自行设定时间：http //data.stats.gov.cn/easyquery.htm cn C01。 有关1990年-2018年我国三大需求对GDP增长的贡献率请您参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—三大需求对<em>国内生产总值</em>增长的贡献率和拉动，可自行设定时间：http //data.stats.gov.cn/easyquery.htm cn C01。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1580745600000,
+        "docDate": "2020-02-04",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_52.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 1,
+        "md5Title": "0054596A639635BDCC7F0BE2430AADA5",
+        "md5Url": "A23E980741967AC37A3FD4A8579388CB",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "有关1990年-2018年我国三大需求对GDP增长的贡献率请您参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—三大需求对<em>国内生产总值</em>增长的贡献率和拉动，可自行设定时间：http //data.stats.gov.cn/easyquery.htm cn C01。 有关1990年-2018年我国三大需求对GDP增长的贡献率请您参考我局网站—数据查询（国家数据）—年度数据—国民经济核算—三大需求对<em>国内生产总值</em>增长的贡献率和拉动，可自行设定时间：http //data.stats.gov.cn/easyquery.htm cn C01。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "DOCPUBNAME": "国家统计局统计资料管理中心",
+          "URL": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1953512.html",
+          "C1": [
+            "互动"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "请问1990年-2018年我国三大需求对GDP增长的贡献在哪里查找",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/hd/lyzx/zxgk/index_52.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1580745600,
+          "L1": [
+            "互动"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "留言咨询"
+          ],
+          "L3": [
+            "咨询公开"
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "A23E980741967AC37A3FD4A8579388CB",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "请问1990年-2018年我国三大需求对GDP增长的贡献在哪里查找",
+          "MD5TITLE": "0054596A639635BDCC7F0BE2430AADA5",
+          "QUICKDESCRIPTION": "有关1990年-2018年我国三大需求对GDP增长的贡献率请您参考我局网站 数据查询 国家数据 年度数据 国民经济核算 三大需求对国内生产总值增长的贡献率和拉动 可自行设定时间 http data stats gov cn easyquery htm cn C01",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D75D683A5E5130B0CEA1D42A08AB919D",
+      "timestamp": 1579601356000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D75D683A5E5130B0CEA1D42A08AB919D",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年全国文化及相关产业增加值占GDP比重为4.48%】 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 按行业大类分，2018年文化制造业增加值",
+        "title": "#数据发布#【2018年全国文化及相关产业增加值占GDP比重为4.48%】 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 按行业大类分，2018年文化制造业增加值",
+        "url": "https://weibo.com/3919628624/Iqx0duY8I?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2018年全国文化及相关产业增加值占GDP比重为4.48%】 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 数据发布 【2018年全国文化及相关产业增加值占GDP比重为4.48%】 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579601356000,
+        "docDate": "2020-01-21",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "0DC63E65862751547004B4781D0156DE",
+        "md5Url": "479658AEC5D6AC447A7F02B3709E55A5",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2018年全国文化及相关产业增加值占GDP比重为4.48%】 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 数据发布 【2018年全国文化及相关产业增加值占GDP比重为4.48%】 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579601356,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "479658AEC5D6AC447A7F02B3709E55A5",
+          "DRETITLE": "数据发布 2018年全国文化及相关产业增加值占GDP比重为4 48 经核算 2018年全国文化及相关产业增加值为41171亿元 占GDP的比重为4 48 比上年",
+          "URL": "https://weibo.com/3919628624/Iqx0duY8I?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "0DC63E65862751547004B4781D0156DE",
+          "DRETITLEO": "#数据发布#【2018年全国文化及相关产业增加值占GDP比重为4.48%】 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 按行业大类分，2018年文化制造业增加值",
+          "QUICKDESCRIPTION": "数据发布 2018年全国文化及相关产业增加值占GDP比重为4 48 经核算 2018年全国文化及相关产业增加值为41171亿元 占GDP的比重为4 48 比上年提高0 22个百分点 1 按行业大类分 2018年文化制造业增加值为11999亿元 占文化及相关产业增加值的比重为29 1 文化批发和零售业增加值为4340亿元 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "C4187E8F9B806BCE94173F04BD466A0E",
+      "timestamp": 1579570200000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "C4187E8F9B806BCE94173F04BD466A0E",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2018年全国文化及相关产业增加值占GDP比重为4.48%",
+        "title": "2018年全国文化及相关产业增加值占GDP比重为4.48%",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900618.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "2018年全国文化及相关产业增加值占GDP比重为4.48% 2020/01/21 09 30 Aa 字体： 小 中 大 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 2018年全国文化及相关产业增加值占GDP比重为4.48% 2020/01/21 09 30 Aa 字体： 小 中 大 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "2018年全国文化及相关产业增加值占GDP比重为4.48% 2020/01/21 09 30 Aa 字体： 小 中 大 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 2018年全国文化及相关产业增加值占GDP比重为4.48% 2020/01/21 09 30 Aa 字体： 小 中 大 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1579570200000,
+        "docDate": "2020-01-21",
+        "includeImg": true,
+        "picUrl": "https://snapshoot-img.so-gov.cn/cloudspider/img/common/bm36000002/31E698E4CCAA62DB8DB41477F4F9E033.png?x-oss-process=image/resize,m_lfit,h_83,w_135",
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_25.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "9D7478288B760A8AC778BF0EF3E5C964",
+        "md5Url": "C4187E8F9B806BCE94173F04BD466A0E",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "2018年全国文化及相关产业增加值占GDP比重为4.48% 2020/01/21 09 30 Aa 字体： 小 中 大 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 2018年全国文化及相关产业增加值占GDP比重为4.48% 2020/01/21 09 30 Aa 字体： 小 中 大 经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。...",
+          "INCLUDEIMAGE": "1",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900618.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2018年全国文化及相关产业增加值占GDP比重为4.48%",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "OSSIMG": [
+            "cloudspider/img/common/bm36000002/31E698E4CCAA62DB8DB41477F4F9E033.png"
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_25.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1579570200,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "C4187E8F9B806BCE94173F04BD466A0E",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2018年全国文化及相关产业增加值占GDP比重为4 48",
+          "MD5TITLE": "9D7478288B760A8AC778BF0EF3E5C964",
+          "QUICKDESCRIPTION": "2018年全国文化及相关产业增加值占GDP比重为4.48% 2020/01/21 09:30 | Aa 字体： 小 中 大 | 　　经核算，2018年全国文化及相关产业增加值为41171亿元，占GDP的比重为4.48%，比上年提高0.22个百分点[1]。 　　按行业大类分，2018年文化制造业增加值为11999亿元，占文化及相关产业增加值的比重为29.1%；文化批发和零售业增加值为4340亿元，占比为10.6%；文化服务业增加值为24832亿元，占比为60.3%。 　　按活动性质分，",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "39F36F4DEF1DBB3A60F68B5277BE51E7",
+      "timestamp": 1579481249000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "39F36F4DEF1DBB3A60F68B5277BE51E7",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#媒体聚焦# 【10位司长帮你读懂中国经济“成绩单”】 全年国内生产总值近100万亿元 人均GDP迈上1万美元新台阶 居民人均可支配收入首破3万元 全年城镇新增就业1352万人 城镇人口比重超过60％ 中国大陆人口首超14亿...展开全文c",
+        "title": "#媒体聚焦# 【10位司长帮你读懂中国经济“成绩单”】 全年<em>国内生产总值</em>近100万亿元 人均GDP迈上1万美元新台阶 居民人均可支配收入首破3万元 全年城镇新增就业1352万人 城镇人口比重超过60％ 中国大陆人口首超14亿...展开全文c",
+        "url": "https://weibo.com/3919628624/IqjTHpFIV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "媒体聚焦 【10位司长帮你读懂中国经济“成绩单”】 全年<em>国内生产总值</em>近100万亿元 人均GDP迈上1万美元新台阶 居民人均可支配收入首破3万元 全年城镇新增就业1352万人 城镇人口比重超过60 中国大陆人口首超14亿......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579481249000,
+        "docDate": "2020-01-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "70DAADB9DC9C0E56262F3C7C8C13B0C7",
+        "md5Url": "7973200AF83FC8E91CEFDDF2CD710B01",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "媒体聚焦 【10位司长帮你读懂中国经济“成绩单”】 全年<em>国内生产总值</em>近100万亿元 人均GDP迈上1万美元新台阶 居民人均可支配收入首破3万元 全年城镇新增就业1352万人 城镇人口比重超过60 中国大陆人口首超14亿......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579481249,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "7973200AF83FC8E91CEFDDF2CD710B01",
+          "DRETITLE": "媒体聚焦 10位司长帮你读懂中国经济 成绩单 全年国内生产总值近100万亿元 人均GDP迈上1万美元新台阶 居民人均可支配收入首破3万元 全年城镇新增就业135",
+          "URL": "https://weibo.com/3919628624/IqjTHpFIV?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "70DAADB9DC9C0E56262F3C7C8C13B0C7",
+          "DRETITLEO": "#媒体聚焦# 【10位司长帮你读懂中国经济“成绩单”】 全年国内生产总值近100万亿元 人均GDP迈上1万美元新台阶 居民人均可支配收入首破3万元 全年城镇新增就业1352万人 城镇人口比重超过60％ 中国大陆人口首超14亿...展开全文c",
+          "QUICKDESCRIPTION": "媒体聚焦 10位司长帮你读懂中国经济 成绩单 全年国内生产总值近100万亿元 人均GDP迈上1万美元新台阶 居民人均可支配收入首破3万元 全年城镇新增就业1352万人 城镇人口比重超过60 中国大陆人口首超14亿 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "D6122AF3F40B08DA56C16E62AD4D14C3",
+      "timestamp": 1579480571000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "D6122AF3F40B08DA56C16E62AD4D14C3",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【服务业发展提质增效】——杜希双 国家统计局服务业统计司司长 据初步核算，2019年，服务业增加值534233亿元，比上年增长6.9%，分别高出国内生产总值和第二产业增加值增速0.8和1.2个百分点；服务业增加值占国内生产总值比",
+        "title": "#权威解读#【服务业发展提质增效】——杜希双 国家统计局服务业统计司司长 据初步核算，2019年，服务业增加值534233亿元，比上年增长6.9%，分别高出<em>国内生产总值</em>和第二产业增加值增速0.8和1.2个百分点；服务业增加值占<em>国内生产总值</em>比",
+        "url": "https://weibo.com/3919628624/IqjP6xGTR?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【服务业发展提质增效】——杜希双 国家统计局服务业统计司司长 据初步核算，2019年，服务业增加值534233亿元，比上年增长6.9%，分别高出<em>国内生产总值</em>和第二产业增加值增速0.8和1.2个百分点；服务业增加值占<em>国内生产总值</em>比重为53.9%，比上年提高0.6个百分点，比第二产业高14.9个百分点；服务 ... 权威解读 【服务业发展提质增效】——杜希双 国家统计局服务业统计司司长 据初步核算，2019年，服务业增加值534233亿元，比上年增长6.9%，分别高出<em>国内生产总值</em>和第二产业增加值增速0.8和1.2个百分点；服务业增加值占<em>国内生产总值</em>比重为53.9%，比上年提高0.6个百分点，比第二产业高14.9个百分点；服务 ......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579480571000,
+        "docDate": "2020-01-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "1DE52686FBB3B7C591A2DA1AF2FDB2B8",
+        "md5Url": "16FBA5699D9057CE8BC7EE9566DAF970",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【服务业发展提质增效】——杜希双 国家统计局服务业统计司司长 据初步核算，2019年，服务业增加值534233亿元，比上年增长6.9%，分别高出<em>国内生产总值</em>和第二产业增加值增速0.8和1.2个百分点；服务业增加值占<em>国内生产总值</em>比重为53.9%，比上年提高0.6个百分点，比第二产业高14.9个百分点；服务 ... 权威解读 【服务业发展提质增效】——杜希双 国家统计局服务业统计司司长 据初步核算，2019年，服务业增加值534233亿元，比上年增长6.9%，分别高出<em>国内生产总值</em>和第二产业增加值增速0.8和1.2个百分点；服务业增加值占<em>国内生产总值</em>比重为53.9%，比上年提高0.6个百分点，比第二产业高14.9个百分点；服务 ......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579480571,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "16FBA5699D9057CE8BC7EE9566DAF970",
+          "DRETITLE": "权威解读 服务业发展提质增效 杜希双 国家统计局服务业统计司司长 据初步核算 2019年 服务业增加值534233亿元 比上年增长6 9 分别高出国内生产总值和",
+          "URL": "https://weibo.com/3919628624/IqjP6xGTR?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "1DE52686FBB3B7C591A2DA1AF2FDB2B8",
+          "DRETITLEO": "#权威解读#【服务业发展提质增效】——杜希双 国家统计局服务业统计司司长 据初步核算，2019年，服务业增加值534233亿元，比上年增长6.9%，分别高出国内生产总值和第二产业增加值增速0.8和1.2个百分点；服务业增加值占国内生产总值比",
+          "QUICKDESCRIPTION": "权威解读 服务业发展提质增效 杜希双 国家统计局服务业统计司司长 据初步核算 2019年 服务业增加值534233亿元 比上年增长6 9 分别高出国内生产总值和第二产业增加值增速0 8和1 2个百分点 服务业增加值占国内生产总值比重为53 9 比上年提高0 6个百分点 比第二产业高14 9个百分点 服务 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "009CCD300299EBF0E7590A780E9D7037",
+      "timestamp": 1579480188000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "009CCD300299EBF0E7590A780E9D7037",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#权威解读#【经济持续平稳增长 发展质量继续提升】——赵同录 国家统计局国民经济核算司司长 2019年，我国国内生产总值为990865亿元，按不变价格计算，比上年增长6.1%。其中，第一产业增加值70467亿元，比上年增长3.1%；第二产业",
+        "title": "#权威解读#【经济持续平稳增长 发展质量继续提升】——赵同录 国家统计局国民经济核算司司长 2019年，我国<em>国内生产总值</em>为990865亿元，按不变价格计算，比上年增长6.1%。其中，第一产业增加值70467亿元，比上年增长3.1%；第二产业",
+        "url": "https://weibo.com/3919628624/IqjMw9f7V?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "权威解读 【经济持续平稳增长 发展质量继续提升】——赵同录 国家统计局国民经济核算司司长 2019年，我国<em>国内生产总值</em>为990865亿元，按不变价格计算，比上年增长6.1%。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579480188000,
+        "docDate": "2020-01-20",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "3DB350E5507722EE3158D39513AE1E3A",
+        "md5Url": "D75ED5B502F7A1B4193979042137FF74",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "权威解读 【经济持续平稳增长 发展质量继续提升】——赵同录 国家统计局国民经济核算司司长 2019年，我国<em>国内生产总值</em>为990865亿元，按不变价格计算，比上年增长6.1%。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579480188,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "D75ED5B502F7A1B4193979042137FF74",
+          "DRETITLE": "权威解读 经济持续平稳增长 发展质量继续提升 赵同录 国家统计局国民经济核算司司长 2019年 我国国内生产总值为990865亿元 按不变价格计算 比上年增长6",
+          "URL": "https://weibo.com/3919628624/IqjMw9f7V?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "3DB350E5507722EE3158D39513AE1E3A",
+          "DRETITLEO": "#权威解读#【经济持续平稳增长 发展质量继续提升】——赵同录 国家统计局国民经济核算司司长 2019年，我国国内生产总值为990865亿元，按不变价格计算，比上年增长6.1%。其中，第一产业增加值70467亿元，比上年增长3.1%；第二产业",
+          "QUICKDESCRIPTION": "权威解读 经济持续平稳增长 发展质量继续提升 赵同录 国家统计局国民经济核算司司长 2019年 我国国内生产总值为990865亿元 按不变价格计算 比上年增长6 1 其中 第一产业增加值70467亿元 比上年增长3 1 第二产业增加值386165亿元 比上年增长5 7 第三产业增加值534233亿元 比上年 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "8EDF28B11DC6DD21F73D984595CD9F64",
+      "timestamp": 1579400573000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "8EDF28B11DC6DD21F73D984595CD9F64",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#国际数据速递# 【美国2019年12月失业率为3.5%等】 美国2019年12月失业率为3.5% 美国2019年12月CPI同比上涨2.3% 英国2019年11月份GDP环比下降0.3% 英国2019年11月货物和服务贸易顺差为40.3亿",
+        "title": "#国际数据速递# 【美国2019年12月失业率为3.5%等】 美国2019年12月失业率为3.5% 美国2019年12月CPI同比上涨2.3% 英国2019年11月份GDP环比下降0.3% 英国2019年11月货物和服务贸易顺差为40.3亿",
+        "url": "https://weibo.com/3919628624/Iqb5Va0rU?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "国际数据速递 【美国2019年12月失业率为3.5%等】 美国2019年12月失业率为3.5% 美国2019年12月CPI同比上涨2.3% 英国2019年11月份GDP环比下降0.3% 英国2019年11月货物和服务贸易顺差为40.3亿英镑 韩国2019年12月份失业率升至3.8% 美国11月份货物和服务贸易逆差降至430.9亿美元...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579400573000,
+        "docDate": "2020-01-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "77C2F0F2FB36E4A6D5ACFBCB0A80DC8D",
+        "md5Url": "28E5BB05111E97A3D676119C71714952",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "国际数据速递 【美国2019年12月失业率为3.5%等】 美国2019年12月失业率为3.5% 美国2019年12月CPI同比上涨2.3% 英国2019年11月份GDP环比下降0.3% 英国2019年11月货物和服务贸易顺差为40.3亿英镑 韩国2019年12月份失业率升至3.8% 美国11月份货物和服务贸易逆差降至430.9亿美元...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579400573,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "28E5BB05111E97A3D676119C71714952",
+          "DRETITLE": "国际数据速递 美国2019年12月失业率为3 5 等 美国2019年12月失业率为3 5 美国2019年12月CPI同比上涨2 3 英国2019年11月份GDP",
+          "URL": "https://weibo.com/3919628624/Iqb5Va0rU?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "77C2F0F2FB36E4A6D5ACFBCB0A80DC8D",
+          "DRETITLEO": "#国际数据速递# 【美国2019年12月失业率为3.5%等】 美国2019年12月失业率为3.5% 美国2019年12月CPI同比上涨2.3% 英国2019年11月份GDP环比下降0.3% 英国2019年11月货物和服务贸易顺差为40.3亿",
+          "QUICKDESCRIPTION": "国际数据速递 美国2019年12月失业率为3 5 等 美国2019年12月失业率为3 5 美国2019年12月CPI同比上涨2 3 英国2019年11月份GDP环比下降0 3 英国2019年11月货物和服务贸易顺差为40 3亿英镑 韩国2019年12月份失业率升至3 8 美国11月份货物和服务贸易逆差降至430 9亿美元",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "534BC144A0152B8E129CB46704B5E930",
+      "timestamp": 1579397991000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "534BC144A0152B8E129CB46704B5E930",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2018年全国旅游及相关产业增加值41478亿元】 经核算，2018年全国旅游及相关产业增加值为41478 亿元，占国内生产总值（GDP）的比重为4.51%，比上年提高了0.05个百分点[1]。从旅游及相关产业内部结构看，旅游",
+        "title": "#数据发布#【2018年全国旅游及相关产业增加值41478亿元】 经核算，2018年全国旅游及相关产业增加值为41478 亿元，占<em>国内生产总值</em>（GDP）的比重为4.51%，比上年提高了0.05个百分点[1]。从旅游及相关产业内部结构看，旅游",
+        "url": "https://weibo.com/3919628624/IqaOsaIax?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2018年全国旅游及相关产业增加值41478亿元】 经核算，2018年全国旅游及相关产业增加值为41478 亿元，占<em>国内生产总值</em>（GDP）的比重为4.51%，比上年提高了0.05个百分点[1]。...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579397991000,
+        "docDate": "2020-01-19",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "BE0B66D269115EBE94EF21BD057751D2",
+        "md5Url": "159D9D0014ACA970D23758563ABA699F",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2018年全国旅游及相关产业增加值41478亿元】 经核算，2018年全国旅游及相关产业增加值为41478 亿元，占<em>国内生产总值</em>（GDP）的比重为4.51%，比上年提高了0.05个百分点[1]。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579397991,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "159D9D0014ACA970D23758563ABA699F",
+          "DRETITLE": "数据发布 2018年全国旅游及相关产业增加值41478亿元 经核算 2018年全国旅游及相关产业增加值为41478 亿元 占国内生产总值 GDP 的比重为4 5",
+          "URL": "https://weibo.com/3919628624/IqaOsaIax?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "BE0B66D269115EBE94EF21BD057751D2",
+          "DRETITLEO": "#数据发布#【2018年全国旅游及相关产业增加值41478亿元】 经核算，2018年全国旅游及相关产业增加值为41478 亿元，占国内生产总值（GDP）的比重为4.51%，比上年提高了0.05个百分点[1]。从旅游及相关产业内部结构看，旅游",
+          "QUICKDESCRIPTION": "数据发布 2018年全国旅游及相关产业增加值41478亿元 经核算 2018年全国旅游及相关产业增加值为41478 亿元 占国内生产总值 GDP 的比重为4 51 比上年提高了0 05个百分点 1 从旅游及相关产业内部结构看 旅游业增加值37501亿元 占旅游及相关产业增加值90 4 旅游相关产业增加值3976亿元 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "9B4CD84D2668FC592A1F44D0B36735D4",
+      "timestamp": 1579347767000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "9B4CD84D2668FC592A1F44D0B36735D4",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#第七次全国人口普查# 【微科普｜14亿人口数据是如何得到的】 昨天，中国经济交出了2019年终答卷 GDP总量近百万亿元 人均GDP突破1万美元…… 小伙伴们在关心经济发展的同时 也非常关注人口数据 14亿人口的话题...展开全文c",
+        "title": "#第七次全国人口普查# 【微科普｜14亿人口数据是如何得到的】 昨天，中国经济交出了2019年终答卷 GDP总量近百万亿元 人均GDP突破1万美元…… 小伙伴们在关心经济发展的同时 也非常关注人口数据 14亿人口的话题...展开全文c",
+        "url": "https://weibo.com/3919628624/Iq5kGwTTO?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "第七次全国人口普查 【微科普 14亿人口数据是如何得到的】 昨天，中国经济交出了2019年终答卷 GDP总量近百万亿元 人均GDP突破1万美元 小伙伴们在关心经济发展的同时 也非常关注人口数据 14亿人口的话题......",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579347767000,
+        "docDate": "2020-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "269201153FB080E74BF41D56D0B20893",
+        "md5Url": "F8B53B7FED822F723BA329B260CD08FC",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "第七次全国人口普查 【微科普 14亿人口数据是如何得到的】 昨天，中国经济交出了2019年终答卷 GDP总量近百万亿元 人均GDP突破1万美元 小伙伴们在关心经济发展的同时 也非常关注人口数据 14亿人口的话题......",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579347767,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "F8B53B7FED822F723BA329B260CD08FC",
+          "DRETITLE": "第七次全国人口普查 微科普｜14亿人口数据是如何得到的 昨天 中国经济交出了2019年终答卷 GDP总量近百万亿元 人均GDP突破1万美元 小伙伴们在关心经济发",
+          "URL": "https://weibo.com/3919628624/Iq5kGwTTO?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "269201153FB080E74BF41D56D0B20893",
+          "DRETITLEO": "#第七次全国人口普查# 【微科普｜14亿人口数据是如何得到的】 昨天，中国经济交出了2019年终答卷 GDP总量近百万亿元 人均GDP突破1万美元…… 小伙伴们在关心经济发展的同时 也非常关注人口数据 14亿人口的话题...展开全文c",
+          "QUICKDESCRIPTION": "第七次全国人口普查 微科普 14亿人口数据是如何得到的 昨天 中国经济交出了2019年终答卷 GDP总量近百万亿元 人均GDP突破1万美元 小伙伴们在关心经济发展的同时 也非常关注人口数据 14亿人口的话题 展开全文c",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "688E193896D799C95764D9ED9B479399",
+      "timestamp": 1579311250000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "688E193896D799C95764D9ED9B479399",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#数据发布#【2019年四季度和全年国内生产总值（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2019年四季度和全年国内生产总值（以下简称GDP）初步核算主要结果如下：详见O网页链接",
+        "title": "#数据发布#【2019年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2019年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下：详见O网页链接",
+        "url": "https://weibo.com/3919628624/Iq1lEikiQ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "数据发布 【2019年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2019年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下：详见 O网页链接 数据发布 【2019年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2019年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下：详见 O网页链接...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579311250000,
+        "docDate": "2020-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "478B842316719101CCA15F7794B0A587",
+        "md5Url": "3FFE31E158CF03E40DA50BC1F3BA0C4B",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "数据发布 【2019年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2019年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下：详见 O网页链接 数据发布 【2019年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2019年四季度和全年<em>国内生产总值</em>（以下简称GDP）初步核算主要结果如下：详见 O网页链接...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579311250,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "3FFE31E158CF03E40DA50BC1F3BA0C4B",
+          "DRETITLE": "数据发布 2019年四季度和全年国内生产总值 GDP 初步核算结果 根据有关基础资料和国民经济核算方法 我国2019年四季度和全年国内生产总值 以下简称GDP ",
+          "URL": "https://weibo.com/3919628624/Iq1lEikiQ?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "478B842316719101CCA15F7794B0A587",
+          "DRETITLEO": "#数据发布#【2019年四季度和全年国内生产总值（GDP）初步核算结果】根据有关基础资料和国民经济核算方法，我国2019年四季度和全年国内生产总值（以下简称GDP）初步核算主要结果如下：详见O网页链接",
+          "QUICKDESCRIPTION": "数据发布 2019年四季度和全年国内生产总值 GDP 初步核算结果 根据有关基础资料和国民经济核算方法 我国2019年四季度和全年国内生产总值 以下简称GDP 初步核算主要结果如下 详见O网页链接",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "37808C7654B0D9FD7B8FE05966D0F31D",
+      "timestamp": 1579311000000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "37808C7654B0D9FD7B8FE05966D0F31D",
+        "titleLabel": {
+          "value": "最新发布",
+          "location": 0
+        },
+        "titleO": "2019年四季度和全年国内生产总值（GDP）初步核算结果",
+        "title": "2019年四季度和全年<em>国内生产总值</em>（GDP）初步核算结果",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900603.html",
+        "siteLabel": {
+          "value": "国家统计局",
+          "location": 1
+        },
+        "summary": "中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。 中国从1992年1季度开始到2015年2季度，采用累计核算方式核算季度GDP，即分别计算各年1季度，1-2季度，1-3季度和1-4季度的GDP数据，1-4季度GDP初步核算即为年度GDP初步核算。...",
+        "formatRows": [
+          {
+            "row": 5,
+            "col": [
+              {
+                "text": "摘  要：",
+                "field": "SUMMARY",
+                "value": "中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。 中国从1992年1季度开始到2015年2季度，采用累计核算方式核算季度GDP，即分别计算各年1季度，1-2季度，1-3季度和1-4季度的GDP数据，1-4季度GDP初步核算即为年度GDP初步核算。...",
+                "sort": 1,
+                "dateField": false,
+                "empty": false
+              }
+            ],
+            "empty": false
+          }
+        ],
+        "aiFormatRows": null,
+        "dreDate": 1579311000000,
+        "docDate": "2020-01-18",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "https://www.stats.gov.cn/sj/zxfb/index_1000_26.html",
+        "weight": "NaN",
+        "dbName": "machining_search_stats_label",
+        "fileType": "html",
+        "combins": 2,
+        "md5Title": "3DA81FDB6EB7C4447FC47FCA57DCC776",
+        "md5Url": "37808C7654B0D9FD7B8FE05966D0F31D",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "中国GDP季度核算说明 1.季度GDP核算概述 1.1 基本概念 GDP是一个国家所有常住单位在一定时期内<em>生产</em>活动的最终成果。 中国从1992年1季度开始到2015年2季度，采用累计核算方式核算季度GDP，即分别计算各年1季度，1-2季度，1-3季度和1-4季度的GDP数据，1-4季度GDP初步核算即为年度GDP初步核算。...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "国家统计局河南调查总队",
+          "URL": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900603.html",
+          "C1": [
+            "数据"
+          ],
+          "C2": [
+            ""
+          ],
+          "C3": [
+            ""
+          ],
+          "DRETITLEO": "2019年四季度和全年国内生产总值（GDP）初步核算结果",
+          "C4": [
+            ""
+          ],
+          "C5": [
+            ""
+          ],
+          "C6": [
+            ""
+          ],
+          "XIANG": "",
+          "C7": [
+            ""
+          ],
+          "C8": [
+            ""
+          ],
+          "SHI": "",
+          "C9": [
+            ""
+          ],
+          "DOMAINSITE": "stats.gov.cn",
+          "PARENTURL": "https://www.stats.gov.cn/sj/zxfb/index_1000_26.html",
+          "CUN": "",
+          "WEBSITENAME": "国家统计局",
+          "DREDATE": 1579311000,
+          "L1": [
+            "统计数据"
+          ],
+          "CHANNEL2": "",
+          "L2": [
+            "最新发布"
+          ],
+          "L3": [
+            ""
+          ],
+          "L4": [
+            ""
+          ],
+          "L5": [
+            ""
+          ],
+          "L6": [
+            ""
+          ],
+          "FILETYPE": ".html",
+          "L7": [
+            ""
+          ],
+          "DREDBNAME": "machining_search_stats_label",
+          "N9": 1,
+          "L8": [
+            ""
+          ],
+          "MD5URL": "37808C7654B0D9FD7B8FE05966D0F31D",
+          "L9": [
+            ""
+          ],
+          "DRETITLE": "2019年四季度和全年国内生产总值 GDP 初步核算结果",
+          "MD5TITLE": "3DA81FDB6EB7C4447FC47FCA57DCC776",
+          "QUICKDESCRIPTION": "　　附件： 中国GDP季度核算说明 　　1.季度GDP核算概述 　　1.1 基本概念 　　GDP是一个国家所有常住单位在一定时期内生产活动的最终成果。GDP是国民经济核算的核心指标，也是衡量一个国家经济状况和发展水平的重要指标。 　　GDP核算有三种方法，即生产法、收入法和支出法，三种方法从不同的角度反映国民经济生产活动成果。生产法是从生产过程中创造的货物和服务价值中，剔除生产过程中投入的中间货物和服务价值，得到增加值的一种方法。国民经济各行业生产法增加值计算公式如下：增加值＝总产出－中间投入。",
+          "XIAN": "",
+          "SHENG": "全国",
+          "WEBSITE": "www.stats.gov.cn"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 0
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    },
+    {
+      "dataType": [],
+      "resultType": "COMMON",
+      "origin": "",
+      "id": "34295BE38ABF183BC2418A7FEF28470C",
+      "timestamp": 1579255758000,
+      "banshi": false,
+      "score": "NaN",
+      "data": {
+        "version": "V_7_0",
+        "id": "34295BE38ABF183BC2418A7FEF28470C",
+        "titleLabel": {
+          "value": "",
+          "location": 0
+        },
+        "titleO": "#微视频#【人均GDP和我们有什么关系？】 人均GDP和我们有什么关系？ L中国统计的微博视频",
+        "title": "#微视频#【人均GDP和我们有什么关系？】 人均GDP和我们有什么关系？ L中国统计的微博视频",
+        "url": "https://weibo.com/3919628624/IpVifiWZ8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+        "siteLabel": {
+          "value": "中国统计",
+          "location": 1
+        },
+        "summary": "微视频 【人均GDP和我们有什么关系 】 人均GDP和我们有什么关系 L中国统计的微博视频...",
+        "formatRows": null,
+        "aiFormatRows": null,
+        "dreDate": 1579255758000,
+        "docDate": "2020-01-17",
+        "includeImg": false,
+        "picUrl": null,
+        "parentUrl": "",
+        "weight": "NaN",
+        "dbName": "weibo",
+        "fileType": "weibo",
+        "combins": 1,
+        "md5Title": "6DF1A085FA60443840B5B4B1CBB25E09",
+        "md5Url": "88B9A89B12890BC705A45567074C1F8C",
+        "banshi": false,
+        "online": 0,
+        "myValues": {
+          "SUMMARY": "微视频 【人均GDP和我们有什么关系 】 人均GDP和我们有什么关系 L中国统计的微博视频...",
+          "INCLUDEIMAGE": "0",
+          "DOMAINSITENAME": "微博",
+          "DREDATE": 1579255758,
+          "FILETYPE": ".html",
+          "DREDBNAME": "weibo",
+          "MD5URL": "88B9A89B12890BC705A45567074C1F8C",
+          "DRETITLE": "微视频 人均GDP和我们有什么关系 人均GDP和我们有什么关系 L中国统计的微博视频",
+          "URL": "https://weibo.com/3919628624/IpVifiWZ8?from=page_1001063919628624_profile&wvr=6&mod=weibotime",
+          "MD5TITLE": "6DF1A085FA60443840B5B4B1CBB25E09",
+          "DRETITLEO": "#微视频#【人均GDP和我们有什么关系？】 人均GDP和我们有什么关系？ L中国统计的微博视频",
+          "QUICKDESCRIPTION": "微视频 人均GDP和我们有什么关系 人均GDP和我们有什么关系 L中国统计的微博视频",
+          "SHI": "",
+          "XIAN": "",
+          "DOMAINSITE": "weibo.com",
+          "PARENTURL": "",
+          "SHENG": "全国",
+          "WEBSITE": "weibo.com",
+          "WEBSITENAME": "weibo.com"
+        },
+        "formatValues": null,
+        "num": null,
+        "dataType": [],
+        "type": 1
+      },
+      "scoreMap": null,
+      "version": "V_7_0"
+    }
+  ],
+  "searchWords": null,
+  "news": null,
+  "pics": null,
+  "vedios": null,
+  "interests": null,
+  "unions": null,
+  "suggests": null,
+  "graphWords": null,
+  "aggFilterResults": [
+    {
+      "result": [
+        {
+          "val": 15,
+          "children": null,
+          "key": "社会和文化"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "人口和就业"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "投资"
+        },
+        {
+          "val": 10,
+          "children": null,
+          "key": "服务业和PMI"
+        },
+        {
+          "val": 2,
+          "children": null,
+          "key": "贸易"
+        },
+        {
+          "val": 25,
+          "children": null,
+          "key": "国民经济核算"
+        }
+      ],
+      "default": 1,
+      "expend": true,
+      "display": "主题分类",
+      "dict": {
+        "服务业和PMI-国家统计局": "服务业和PMI",
+        "能源-国家统计局": "能源",
+        "农业-国家统计局": "农业",
+        "社会和文化-国家统计局": "社会和文化",
+        "科技-国家统计局": "科技",
+        "住户调查-国家统计局": "住户调查",
+        "投资-国家统计局": "投资",
+        "贸易-国家统计局": "贸易",
+        "工业-国家统计局": "工业",
+        "国民经济核算-国家统计局": "国民经济核算",
+        "价格-国家统计局": "价格",
+        "人口和就业-国家统计局": "人口和就业"
+      },
+      "displayNum": 1,
+      "aggField": "T3"
+    },
+    {
+      "result": [
+        {
+          "val": 22,
+          "children": null,
+          "key": ""
+        },
+        {
+          "val": 4,
+          "children": null,
+          "key": "视频"
+        }
+      ],
+      "default": 1,
+      "expend": false,
+      "display": "展示分类",
+      "dict": {},
+      "displayNum": 5,
+      "aggField": "C3"
+    }
+  ],
+  "aggTreeResults": null,
+  "relatedDocs": {},
+  "qaKey": null,
+  "asyncResults": null
+}
