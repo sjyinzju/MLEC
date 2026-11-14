@@ -1,0 +1,35 @@
+{
+  "client_audit_date": "2026-11-04",
+  "market_latest": "2026-09-22",
+  "calendar_latest": "20261101",
+  "known_open_days_after_market_end": [
+    "20260923",
+    "20260924",
+    "20260928",
+    "20260929",
+    "20260930",
+    "20261008",
+    "20261009",
+    "20261012",
+    "20261013",
+    "20261014",
+    "20261015",
+    "20261016",
+    "20261019",
+    "20261020",
+    "20261021",
+    "20261022",
+    "20261023",
+    "20261026",
+    "20261027",
+    "20261028",
+    "20261029",
+    "20261030"
+  ],
+  "unverified_calendar_dates": [
+    "20261102",
+    "20261103",
+    "20261104"
+  ],
+  "comment": "No extrapolation of missing calendar tail or current day market close. Offline calendar is not independently checked against current exchange announcements."
+}

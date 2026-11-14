@@ -1,0 +1,17 @@
+{
+  "initial_reference_train": [
+    "2015-01-01",
+    "2019-12-31"
+  ],
+  "development": [
+    "2020-01-01",
+    "2022-12-31"
+  ],
+  "heldout": [
+    "2023-01-01",
+    "local_latest_complete_week"
+  ],
+  "fold_manifest": "audit/research_v2/fold_manifest.parquet",
+  "cutoff_rule": "monthly before first weekly prediction, fit_cutoff previous SSE open day 18:00; mature historical labels only",
+  "no_internal_reference_period_evaluation": true
+}

@@ -1,0 +1,213 @@
+{
+  "dataset": "etf_limit",
+  "category": "fund",
+  "plan": "day",
+  "primary_key": "ts_code trade_date",
+  "date_field": "trade_date",
+  "permission_probe": "available",
+  "active_files": 194,
+  "task_status": {
+    "SUCCESS": 2877
+  },
+  "rows": 2235250,
+  "physical_rows": 2293124,
+  "distinct_content_rows": 2235250,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 57874,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "trade_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20190626",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "150008.SZ",
+      "max": "589990.SH",
+      "nonfinite_count": 0
+    },
+    "pre_close": {
+      "type": "DOUBLE",
+      "null_count": 2209367,
+      "null_rate": 0.9884205346158148,
+      "min": 0.257,
+      "max": 141.226,
+      "nonfinite_count": 0
+    },
+    "up_limit": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.19,
+      "max": 170.61,
+      "nonfinite_count": 0
+    },
+    "down_limit": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.15,
+      "max": 139.59,
+      "nonfinite_count": 0
+    },
+    "asset_type": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "ETF",
+      "max": "ETF",
+      "nonfinite_count": 0
+    },
+    "exchange": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "SSE",
+      "max": "SZSE",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00000431e234d164046fe07607b5324902d1000c7824d3b1ea967b0d361c1bff",
+      "max": "fffffc2ce4e81ab0b1ed69c5875e8f0850aa850b232bfb436809fdc8b93e830b",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "001f083bc30a4c66ab4ea6a98842e3e3",
+      "max": "ffb3722fcafa44318030c55366219653",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-25 06:39:50.605612+00:00",
+      "max": "2026-09-25 07:38:47.395914+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-25 06:39:50.605612+00:00",
+      "max": "2026-09-25 07:38:47.395914+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2019-06-26 00:00:00",
+      "max": "2026-09-22 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 2235250,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 2235250,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 2235250,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0000024a8fb75c52973cc7c6ee8269d19862b1a6b3641df3d2834e26d64e5d53",
+      "max": "fffff0b71e9693a8bad596025cf7cebee60ffe77457e2c99216aa62fe8a1f4b0",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "historical_market_reconstruction",
+      "max": "historical_market_reconstruction",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2019-06-26 15:59:59+00:00",
+      "max": "2026-09-22 15:59:59+00:00",
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "trade_date": {
+      "min": "2019-06-26",
+      "max": "2026-09-22",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {
+    "negative_pre_close": 0
+  },
+  "coverage": {
+    "dataset": "etf_limit",
+    "scope": "dataset",
+    "rows": 2235250,
+    "physical_rows": 2293124,
+    "date_field": "trade_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 2235250,
+    "non_latest_or_reobserved_rows": 57874,
+    "anomalies": "{\"negative_pre_close\": 0}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20190626",
+    "end": "20260922",
+    "observed_dates": 1760,
+    "rows_before_2016": 0,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 1760,
+    "trade_day_coverage": 0.6175438596491228,
+    "missing_trade_days": 1090,
+    "within_span_expected": 1760,
+    "within_span_missing": 0,
+    "nontrading_observed_dates": 0,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 9.76
+}

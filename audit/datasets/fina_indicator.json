@@ -1,0 +1,1496 @@
+{
+  "dataset": "fina_indicator",
+  "category": "financial",
+  "plan": "stock_range",
+  "primary_key": "ts_code end_date ann_date update_flag",
+  "date_field": "ann_date",
+  "permission_probe": "available",
+  "active_files": 130,
+  "task_status": {
+    "SUCCESS": 5907
+  },
+  "rows": 389530,
+  "physical_rows": 389530,
+  "distinct_content_rows": 389530,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 0,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001.SZ",
+      "max": "920992.BJ",
+      "nonfinite_count": 0
+    },
+    "ann_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150407",
+      "max": "20260930",
+      "nonfinite_count": 0
+    },
+    "end_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150331",
+      "max": "20260630",
+      "nonfinite_count": 0
+    },
+    "eps": {
+      "type": "DOUBLE",
+      "null_count": 14937,
+      "null_rate": 0.038346212101763665,
+      "min": -65.88,
+      "max": 68.64,
+      "nonfinite_count": 0
+    },
+    "dt_eps": {
+      "type": "DOUBLE",
+      "null_count": 23877,
+      "null_rate": 0.061296947603522195,
+      "min": -24.7834,
+      "max": 68.64,
+      "nonfinite_count": 0
+    },
+    "total_revenue_ps": {
+      "type": "DOUBLE",
+      "null_count": 13572,
+      "null_rate": 0.034841989063743486,
+      "min": -1.4271,
+      "max": 1699932.4332,
+      "nonfinite_count": 0
+    },
+    "revenue_ps": {
+      "type": "DOUBLE",
+      "null_count": 13618,
+      "null_rate": 0.03496008009652658,
+      "min": -1.4271,
+      "max": 1699932.4332,
+      "nonfinite_count": 0
+    },
+    "capital_rese_ps": {
+      "type": "DOUBLE",
+      "null_count": 15043,
+      "null_rate": 0.038618334916437756,
+      "min": -14.8326,
+      "max": 142658.0053,
+      "nonfinite_count": 0
+    },
+    "surplus_rese_ps": {
+      "type": "DOUBLE",
+      "null_count": 19226,
+      "null_rate": 0.04935691731060509,
+      "min": -2.0791,
+      "max": 1001.6067,
+      "nonfinite_count": 0
+    },
+    "undist_profit_ps": {
+      "type": "DOUBLE",
+      "null_count": 13096,
+      "null_rate": 0.03362000359407491,
+      "min": -707780.997,
+      "max": 8198.4908,
+      "nonfinite_count": 0
+    },
+    "extra_item": {
+      "type": "DOUBLE",
+      "null_count": 12445,
+      "null_rate": 0.0319487587605576,
+      "min": -44537695750.9,
+      "max": 64900764670.54,
+      "nonfinite_count": 0
+    },
+    "profit_dedt": {
+      "type": "DOUBLE",
+      "null_count": 12449,
+      "null_rate": 0.031959027546016996,
+      "min": -85917363120.34,
+      "max": 368126000000.0,
+      "nonfinite_count": 0
+    },
+    "gross_margin": {
+      "type": "DOUBLE",
+      "null_count": 9251,
+      "null_rate": 0.023749133571226863,
+      "min": -29914681000.0,
+      "max": 711232000000.0,
+      "nonfinite_count": 0
+    },
+    "current_ratio": {
+      "type": "DOUBLE",
+      "null_count": 18464,
+      "null_rate": 0.04740071368058943,
+      "min": -0.0314,
+      "max": 1883.3483,
+      "nonfinite_count": 0
+    },
+    "quick_ratio": {
+      "type": "DOUBLE",
+      "null_count": 18822,
+      "null_rate": 0.04831976997920571,
+      "min": -0.0314,
+      "max": 666.2356,
+      "nonfinite_count": 0
+    },
+    "cash_ratio": {
+      "type": "DOUBLE",
+      "null_count": 20511,
+      "null_rate": 0.05265576463943727,
+      "min": -0.0314,
+      "max": 655.1921,
+      "nonfinite_count": 0
+    },
+    "invturn_days": {
+      "type": "DOUBLE",
+      "null_count": 27321,
+      "null_rate": 0.07013837188406541,
+      "min": -900000.0,
+      "max": 3600000.0,
+      "nonfinite_count": 0
+    },
+    "arturn_days": {
+      "type": "DOUBLE",
+      "null_count": 21667,
+      "null_rate": 0.05562344363720381,
+      "min": -300000.0,
+      "max": 675000.0,
+      "nonfinite_count": 0
+    },
+    "inv_turn": {
+      "type": "DOUBLE",
+      "null_count": 27302,
+      "null_rate": 0.07008959515313326,
+      "min": -4.525,
+      "max": 698485.6819,
+      "nonfinite_count": 0
+    },
+    "ar_turn": {
+      "type": "DOUBLE",
+      "null_count": 21628,
+      "null_rate": 0.055523322978974665,
+      "min": -0.8807,
+      "max": 43776378.9043,
+      "nonfinite_count": 0
+    },
+    "ca_turn": {
+      "type": "DOUBLE",
+      "null_count": 18661,
+      "null_rate": 0.04790645136446487,
+      "min": -0.2012,
+      "max": 26.3066,
+      "nonfinite_count": 0
+    },
+    "fa_turn": {
+      "type": "DOUBLE",
+      "null_count": 8932,
+      "null_rate": 0.02293019793083973,
+      "min": -109.9945,
+      "max": 83557.8737,
+      "nonfinite_count": 0
+    },
+    "assets_turn": {
+      "type": "DOUBLE",
+      "null_count": 10310,
+      "null_rate": 0.026467794521602958,
+      "min": -0.1558,
+      "max": 25.1825,
+      "nonfinite_count": 0
+    },
+    "op_income": {
+      "type": "DOUBLE",
+      "null_count": 725,
+      "null_rate": 0.0018612173645162118,
+      "min": -186387000000.0,
+      "max": 20161840000000.0,
+      "nonfinite_count": 0
+    },
+    "valuechange_income": {
+      "type": "DOUBLE",
+      "null_count": 47528,
+      "null_rate": 0.1220137088285883,
+      "min": -25888231926.09,
+      "max": 13482690000000.0,
+      "nonfinite_count": 0
+    },
+    "interst_income": {
+      "type": "DOUBLE",
+      "null_count": 75368,
+      "null_rate": 0.19348445562601083,
+      "min": -21115736025180.336,
+      "max": 26778000000.0,
+      "nonfinite_count": 0
+    },
+    "daa": {
+      "type": "DOUBLE",
+      "null_count": 185224,
+      "null_rate": 0.47550637948296665,
+      "min": -156117507.59,
+      "max": 237608000000.0,
+      "nonfinite_count": 0
+    },
+    "ebit": {
+      "type": "DOUBLE",
+      "null_count": 8489,
+      "null_rate": 0.021792929941211202,
+      "min": -21115721427393.703,
+      "max": 253434000000.0,
+      "nonfinite_count": 0
+    },
+    "ebitda": {
+      "type": "DOUBLE",
+      "null_count": 188836,
+      "null_rate": 0.4847790927528047,
+      "min": -58260091000.0,
+      "max": 484765000000.0,
+      "nonfinite_count": 0
+    },
+    "fcff": {
+      "type": "DOUBLE",
+      "null_count": 29407,
+      "null_rate": 0.0754935435011424,
+      "min": -941316753161.6821,
+      "max": 924338364998.3044,
+      "nonfinite_count": 0
+    },
+    "fcfe": {
+      "type": "DOUBLE",
+      "null_count": 30853,
+      "null_rate": 0.07920570944471543,
+      "min": -211353571013.1209,
+      "max": 374564803205.8961,
+      "nonfinite_count": 0
+    },
+    "current_exint": {
+      "type": "DOUBLE",
+      "null_count": 20487,
+      "null_rate": 0.05259415192668087,
+      "min": -1657196833.83,
+      "max": 1858422912000.0,
+      "nonfinite_count": 0
+    },
+    "noncurrent_exint": {
+      "type": "DOUBLE",
+      "null_count": 30440,
+      "null_rate": 0.0781454573460324,
+      "min": -7139252973.8,
+      "max": 213032000000.0,
+      "nonfinite_count": 0
+    },
+    "interestdebt": {
+      "type": "DOUBLE",
+      "null_count": 19519,
+      "null_rate": 0.050109105845506124,
+      "min": -6075861244.4,
+      "max": 985976484000.0,
+      "nonfinite_count": 0
+    },
+    "netdebt": {
+      "type": "DOUBLE",
+      "null_count": 19519,
+      "null_rate": 0.050109105845506124,
+      "min": -356689000000.0,
+      "max": 868270757474.75,
+      "nonfinite_count": 0
+    },
+    "tangible_asset": {
+      "type": "DOUBLE",
+      "null_count": 19306,
+      "null_rate": 0.049562293019793084,
+      "min": -188210000000.0,
+      "max": 4214196000000.0,
+      "nonfinite_count": 0
+    },
+    "working_capital": {
+      "type": "DOUBLE",
+      "null_count": 20203,
+      "null_rate": 0.051865068159063485,
+      "min": -278440747209.0,
+      "max": 620447000000.0,
+      "nonfinite_count": 0
+    },
+    "networking_capital": {
+      "type": "DOUBLE",
+      "null_count": 20487,
+      "null_rate": 0.05259415192668087,
+      "min": -428868000000.0,
+      "max": 629786453653.78,
+      "nonfinite_count": 0
+    },
+    "invest_capital": {
+      "type": "DOUBLE",
+      "null_count": 19319,
+      "null_rate": 0.04959566657253613,
+      "min": -24335211956.39,
+      "max": 2268827000000.0,
+      "nonfinite_count": 0
+    },
+    "retained_earnings": {
+      "type": "DOUBLE",
+      "null_count": 13069,
+      "null_rate": 0.03355068929222396,
+      "min": -79060856470.39,
+      "max": 2790253000000.0,
+      "nonfinite_count": 0
+    },
+    "diluted2_eps": {
+      "type": "DOUBLE",
+      "null_count": 13025,
+      "null_rate": 0.033437732652170565,
+      "min": -342119.1261,
+      "max": 5134.9754,
+      "nonfinite_count": 0
+    },
+    "bps": {
+      "type": "DOUBLE",
+      "null_count": 13063,
+      "null_rate": 0.03353528611403486,
+      "min": -255048.1254,
+      "max": 124354.2366,
+      "nonfinite_count": 0
+    },
+    "ocfps": {
+      "type": "DOUBLE",
+      "null_count": 12265,
+      "null_rate": 0.031486663414884604,
+      "min": -576110577.57,
+      "max": 71891100.0,
+      "nonfinite_count": 0
+    },
+    "retainedps": {
+      "type": "DOUBLE",
+      "null_count": 13081,
+      "null_rate": 0.03358149564860216,
+      "min": -707780.997,
+      "max": 9200.0975,
+      "nonfinite_count": 0
+    },
+    "cfps": {
+      "type": "DOUBLE",
+      "null_count": 13185,
+      "null_rate": 0.03384848407054655,
+      "min": -1735.6573,
+      "max": 429766.5172,
+      "nonfinite_count": 0
+    },
+    "ebit_ps": {
+      "type": "DOUBLE",
+      "null_count": 20468,
+      "null_rate": 0.05254537519574872,
+      "min": -335323.4139,
+      "max": 3426.428,
+      "nonfinite_count": 0
+    },
+    "fcff_ps": {
+      "type": "DOUBLE",
+      "null_count": 32331,
+      "null_rate": 0.08300002567196364,
+      "min": -1797513.3381,
+      "max": 501.3279,
+      "nonfinite_count": 0
+    },
+    "fcfe_ps": {
+      "type": "DOUBLE",
+      "null_count": 32331,
+      "null_rate": 0.08300002567196364,
+      "min": -1283429.8982,
+      "max": 561.2471,
+      "nonfinite_count": 0
+    },
+    "netprofit_margin": {
+      "type": "DOUBLE",
+      "null_count": 1723,
+      "null_rate": 0.00442327933663646,
+      "min": -37306954.195,
+      "max": 82162434.3185,
+      "nonfinite_count": 0
+    },
+    "grossprofit_margin": {
+      "type": "DOUBLE",
+      "null_count": 10019,
+      "null_rate": 0.025720740379431624,
+      "min": -19483.7203,
+      "max": 174.2573,
+      "nonfinite_count": 0
+    },
+    "cogs_of_sales": {
+      "type": "DOUBLE",
+      "null_count": 10027,
+      "null_rate": 0.025741277950350423,
+      "min": -74.2573,
+      "max": 19583.7203,
+      "nonfinite_count": 0
+    },
+    "expense_of_sales": {
+      "type": "DOUBLE",
+      "null_count": 9631,
+      "null_rate": 0.024724668189869844,
+      "min": -400.2731,
+      "max": 28084213.085,
+      "nonfinite_count": 0
+    },
+    "profit_to_gr": {
+      "type": "DOUBLE",
+      "null_count": 1676,
+      "null_rate": 0.0043026211074885115,
+      "min": -37306954.195,
+      "max": 82162434.3185,
+      "nonfinite_count": 0
+    },
+    "saleexp_to_gr": {
+      "type": "DOUBLE",
+      "null_count": 16780,
+      "null_rate": 0.04307755500218212,
+      "min": -24.165,
+      "max": 292001.7974,
+      "nonfinite_count": 0
+    },
+    "adminexp_of_gr": {
+      "type": "DOUBLE",
+      "null_count": 2125,
+      "null_rate": 0.005455292275306138,
+      "min": -31.3667,
+      "max": 7279530.6599,
+      "nonfinite_count": 0
+    },
+    "finaexp_of_gr": {
+      "type": "DOUBLE",
+      "null_count": 9805,
+      "null_rate": 0.025171360357353734,
+      "min": -159888.8633,
+      "max": 23252983.39,
+      "nonfinite_count": 0
+    },
+    "impai_ttm": {
+      "type": "DOUBLE",
+      "null_count": 72394,
+      "null_rate": 0.1858496136369471,
+      "min": -382569.0547,
+      "max": 8965174.485,
+      "nonfinite_count": 0
+    },
+    "gc_of_gr": {
+      "type": "DOUBLE",
+      "null_count": 9535,
+      "null_rate": 0.024478217338844248,
+      "min": -134960.6342,
+      "max": 37049387.57,
+      "nonfinite_count": 0
+    },
+    "op_of_gr": {
+      "type": "DOUBLE",
+      "null_count": 1711,
+      "null_rate": 0.00439247298025826,
+      "min": -37049287.57,
+      "max": 703626.3603,
+      "nonfinite_count": 0
+    },
+    "ebit_of_gr": {
+      "type": "DOUBLE",
+      "null_count": 9302,
+      "null_rate": 0.02388006058583421,
+      "min": -25972556.3626,
+      "max": 82138751.2954,
+      "nonfinite_count": 0
+    },
+    "roe": {
+      "type": "DOUBLE",
+      "null_count": 5461,
+      "null_rate": 0.014019459348445562,
+      "min": -130521.4455,
+      "max": 80618.5509,
+      "nonfinite_count": 0
+    },
+    "roe_waa": {
+      "type": "DOUBLE",
+      "null_count": 20201,
+      "null_rate": 0.051859933766333785,
+      "min": -25346.35,
+      "max": 3039.37,
+      "nonfinite_count": 0
+    },
+    "roe_dt": {
+      "type": "DOUBLE",
+      "null_count": 16937,
+      "null_rate": 0.04348060483146356,
+      "min": -77251.9955,
+      "max": 2471.2758,
+      "nonfinite_count": 0
+    },
+    "roa": {
+      "type": "DOUBLE",
+      "null_count": 8601,
+      "null_rate": 0.022080455934074397,
+      "min": -1157739.5669,
+      "max": 1330569.4419,
+      "nonfinite_count": 0
+    },
+    "npta": {
+      "type": "DOUBLE",
+      "null_count": 965,
+      "null_rate": 0.0024773444920801993,
+      "min": -171695.1915,
+      "max": 1330569.8016,
+      "nonfinite_count": 0
+    },
+    "roic": {
+      "type": "DOUBLE",
+      "null_count": 10980,
+      "null_rate": 0.028187816086052423,
+      "min": -1253565.0526,
+      "max": 2900.8384,
+      "nonfinite_count": 0
+    },
+    "roe_yearly": {
+      "type": "DOUBLE",
+      "null_count": 5470,
+      "null_rate": 0.014042564115729211,
+      "min": -130521.4455,
+      "max": 107491.3743,
+      "nonfinite_count": 0
+    },
+    "roa2_yearly": {
+      "type": "DOUBLE",
+      "null_count": 8606,
+      "null_rate": 0.022093291915898646,
+      "min": -4630958.2676,
+      "max": 5322277.7676,
+      "nonfinite_count": 0
+    },
+    "roe_avg": {
+      "type": "DOUBLE",
+      "null_count": 180248,
+      "null_rate": 0.4627320103714733,
+      "min": -31040.42,
+      "max": 2838.96,
+      "nonfinite_count": 0
+    },
+    "opincome_of_ebt": {
+      "type": "DOUBLE",
+      "null_count": 65697,
+      "null_rate": 0.16865709958154698,
+      "min": -242981.4187,
+      "max": 432966.6269,
+      "nonfinite_count": 0
+    },
+    "investincome_of_ebt": {
+      "type": "DOUBLE",
+      "null_count": 102561,
+      "null_rate": 0.2632942263753755,
+      "min": -687865.5503,
+      "max": 240466.6706,
+      "nonfinite_count": 0
+    },
+    "n_op_profit_of_ebt": {
+      "type": "DOUBLE",
+      "null_count": 68138,
+      "null_rate": 0.17492362590814572,
+      "min": -84865.5935,
+      "max": 71266.1499,
+      "nonfinite_count": 0
+    },
+    "tax_to_ebt": {
+      "type": "DOUBLE",
+      "null_count": 69062,
+      "null_rate": 0.17729571534926705,
+      "min": -111649.9671,
+      "max": 69005.7639,
+      "nonfinite_count": 0
+    },
+    "dtprofit_to_profit": {
+      "type": "DOUBLE",
+      "null_count": 73837,
+      "null_rate": 0.18955407799142557,
+      "min": -163104.1556,
+      "max": 100388.9121,
+      "nonfinite_count": 0
+    },
+    "salescash_to_or": {
+      "type": "DOUBLE",
+      "null_count": 10203,
+      "null_rate": 0.026193104510564013,
+      "min": -11.2297,
+      "max": 40250.491,
+      "nonfinite_count": 0
+    },
+    "ocf_to_or": {
+      "type": "DOUBLE",
+      "null_count": 1897,
+      "null_rate": 0.00486997150412035,
+      "min": -44987.2135,
+      "max": 26128.0966,
+      "nonfinite_count": 0
+    },
+    "ocf_to_opincome": {
+      "type": "DOUBLE",
+      "null_count": 93285,
+      "null_rate": 0.23948091289502735,
+      "min": -19745.2421,
+      "max": 14266.9647,
+      "nonfinite_count": 0
+    },
+    "capitalized_to_da": {
+      "type": "DOUBLE",
+      "null_count": 186638,
+      "null_rate": 0.4791363951428645,
+      "min": -41.3125,
+      "max": 1219.7873,
+      "nonfinite_count": 0
+    },
+    "debt_to_assets": {
+      "type": "DOUBLE",
+      "null_count": 12064,
+      "null_rate": 0.030970656945549766,
+      "min": 0.0,
+      "max": 79794141.737,
+      "nonfinite_count": 0
+    },
+    "assets_to_eqt": {
+      "type": "DOUBLE",
+      "null_count": 16718,
+      "null_rate": 0.04291838882756142,
+      "min": 1.0,
+      "max": 11111.1111,
+      "nonfinite_count": 0
+    },
+    "dp_assets_to_eqt": {
+      "type": "DOUBLE",
+      "null_count": 18997,
+      "null_rate": 0.04876902934305445,
+      "min": 0.9113,
+      "max": 4047.0948,
+      "nonfinite_count": 0
+    },
+    "ca_to_assets": {
+      "type": "DOUBLE",
+      "null_count": 20227,
+      "null_rate": 0.05192668087181988,
+      "min": -11.5345,
+      "max": 100.0,
+      "nonfinite_count": 0
+    },
+    "nca_to_assets": {
+      "type": "DOUBLE",
+      "null_count": 20352,
+      "null_rate": 0.05224758041742613,
+      "min": 0.0,
+      "max": 111.5345,
+      "nonfinite_count": 0
+    },
+    "tbassets_to_totalassets": {
+      "type": "DOUBLE",
+      "null_count": 19327,
+      "null_rate": 0.04961620414345493,
+      "min": -79794041.737,
+      "max": 111.4093,
+      "nonfinite_count": 0
+    },
+    "int_to_talcap": {
+      "type": "DOUBLE",
+      "null_count": 22119,
+      "null_rate": 0.056783816394115984,
+      "min": -100.2974,
+      "max": 42686.427,
+      "nonfinite_count": 0
+    },
+    "eqt_to_talcapital": {
+      "type": "DOUBLE",
+      "null_count": 22148,
+      "null_rate": 0.05685826508869663,
+      "min": -68101.4931,
+      "max": 249999900.0,
+      "nonfinite_count": 0
+    },
+    "currentdebt_to_debt": {
+      "type": "DOUBLE",
+      "null_count": 20217,
+      "null_rate": 0.051901008908171384,
+      "min": -8.3512,
+      "max": 121.7465,
+      "nonfinite_count": 0
+    },
+    "longdeb_to_debt": {
+      "type": "DOUBLE",
+      "null_count": 30500,
+      "null_rate": 0.0782994891279234,
+      "min": -21.7465,
+      "max": 108.3512,
+      "nonfinite_count": 0
+    },
+    "ocf_to_shortdebt": {
+      "type": "DOUBLE",
+      "null_count": 20373,
+      "null_rate": 0.05230149154108798,
+      "min": -171.6743,
+      "max": 90326.7859,
+      "nonfinite_count": 0
+    },
+    "debt_to_eqt": {
+      "type": "DOUBLE",
+      "null_count": 17096,
+      "null_rate": 0.0438887890534747,
+      "min": -945.9858,
+      "max": 6300.2463,
+      "nonfinite_count": 0
+    },
+    "eqt_to_debt": {
+      "type": "DOUBLE",
+      "null_count": 12145,
+      "null_rate": 0.03117859985110261,
+      "min": -1.0,
+      "max": 2499999.0,
+      "nonfinite_count": 0
+    },
+    "eqt_to_interestdebt": {
+      "type": "DOUBLE",
+      "null_count": 59045,
+      "null_rate": 0.15158010936256514,
+      "min": -29084.977,
+      "max": 56600814735.0,
+      "nonfinite_count": 0
+    },
+    "tangibleasset_to_debt": {
+      "type": "DOUBLE",
+      "null_count": 19512,
+      "null_rate": 0.050091135470952175,
+      "min": -1.3436,
+      "max": 2499999.0,
+      "nonfinite_count": 0
+    },
+    "tangasset_to_intdebt": {
+      "type": "DOUBLE",
+      "null_count": 59045,
+      "null_rate": 0.15158010936256514,
+      "min": -48394.0982,
+      "max": 53229557192.0,
+      "nonfinite_count": 0
+    },
+    "tangibleasset_to_netdebt": {
+      "type": "DOUBLE",
+      "null_count": 214150,
+      "null_rate": 0.5497651015326163,
+      "min": -21747.8179,
+      "max": 2499999.0,
+      "nonfinite_count": 0
+    },
+    "ocf_to_debt": {
+      "type": "DOUBLE",
+      "null_count": 12405,
+      "null_rate": 0.0318460709059636,
+      "min": -57.0362,
+      "max": 52362.5524,
+      "nonfinite_count": 0
+    },
+    "ocf_to_interestdebt": {
+      "type": "DOUBLE",
+      "null_count": 59238,
+      "null_rate": 0.15207557826098117,
+      "min": -353284149.0,
+      "max": 6712595775.0,
+      "nonfinite_count": 0
+    },
+    "ocf_to_netdebt": {
+      "type": "DOUBLE",
+      "null_count": 214321,
+      "null_rate": 0.5502040921110055,
+      "min": -5524.7767,
+      "max": 163796.4698,
+      "nonfinite_count": 0
+    },
+    "ebit_to_interest": {
+      "type": "DOUBLE",
+      "null_count": 135337,
+      "null_rate": 0.34743665442969734,
+      "min": -2177540.3639,
+      "max": 3660661.5886,
+      "nonfinite_count": 0
+    },
+    "longdebt_to_workingcapital": {
+      "type": "DOUBLE",
+      "null_count": 86899,
+      "null_rate": 0.22308679690909558,
+      "min": -6.9344,
+      "max": 37932.9981,
+      "nonfinite_count": 0
+    },
+    "ebitda_to_debt": {
+      "type": "DOUBLE",
+      "null_count": 191560,
+      "null_rate": 0.4917721356506559,
+      "min": -65.6802,
+      "max": 683.4211,
+      "nonfinite_count": 0
+    },
+    "turn_days": {
+      "type": "DOUBLE",
+      "null_count": 19552,
+      "null_rate": 0.05019382332554617,
+      "min": -847058.8235,
+      "max": 3712500.0,
+      "nonfinite_count": 0
+    },
+    "roa_yearly": {
+      "type": "DOUBLE",
+      "null_count": 966,
+      "null_rate": 0.0024799116884450492,
+      "min": -228926.8648,
+      "max": 5322279.2064,
+      "nonfinite_count": 0
+    },
+    "roa_dp": {
+      "type": "DOUBLE",
+      "null_count": 14279,
+      "null_rate": 0.036656996893692395,
+      "min": -114651.1228,
+      "max": 63795.1661,
+      "nonfinite_count": 0
+    },
+    "fixed_assets": {
+      "type": "DOUBLE",
+      "null_count": 13454,
+      "null_rate": 0.03453905989269119,
+      "min": -34535546.58,
+      "max": 965460000000.0,
+      "nonfinite_count": 0
+    },
+    "profit_prefin_exp": {
+      "type": "DOUBLE",
+      "null_count": 8530,
+      "null_rate": 0.021898184992170052,
+      "min": -65423532000.0,
+      "max": 271134000000.0,
+      "nonfinite_count": 0
+    },
+    "non_op_profit": {
+      "type": "DOUBLE",
+      "null_count": 858,
+      "null_rate": 0.0022026544810412546,
+      "min": -29292000000.0,
+      "max": 54210000000.0,
+      "nonfinite_count": 0
+    },
+    "op_to_ebt": {
+      "type": "DOUBLE",
+      "null_count": 65586,
+      "null_rate": 0.16837214078504864,
+      "min": -71166.1499,
+      "max": 84965.5935,
+      "nonfinite_count": 0
+    },
+    "nop_to_ebt": {
+      "type": "DOUBLE",
+      "null_count": 65554,
+      "null_rate": 0.16828999050137344,
+      "min": -84865.5935,
+      "max": 71266.1499,
+      "nonfinite_count": 0
+    },
+    "ocf_to_profit": {
+      "type": "DOUBLE",
+      "null_count": 69483,
+      "null_rate": 0.1783765050188689,
+      "min": -5736123.4224,
+      "max": 786577.2325,
+      "nonfinite_count": 0
+    },
+    "cash_to_liqdebt": {
+      "type": "DOUBLE",
+      "null_count": 20541,
+      "null_rate": 0.05273278053038277,
+      "min": 0.0,
+      "max": 144.1172,
+      "nonfinite_count": 0
+    },
+    "cash_to_liqdebt_withinterest": {
+      "type": "DOUBLE",
+      "null_count": 65741,
+      "null_rate": 0.16877005622160038,
+      "min": 0.0,
+      "max": 3542166988.0,
+      "nonfinite_count": 0
+    },
+    "op_to_liqdebt": {
+      "type": "DOUBLE",
+      "null_count": 20240,
+      "null_rate": 0.05196005442456293,
+      "min": -66.2461,
+      "max": 27.0319,
+      "nonfinite_count": 0
+    },
+    "op_to_debt": {
+      "type": "DOUBLE",
+      "null_count": 12222,
+      "null_rate": 0.03137627397119606,
+      "min": -65.7413,
+      "max": 64.4243,
+      "nonfinite_count": 0
+    },
+    "roic_yearly": {
+      "type": "DOUBLE",
+      "null_count": 10984,
+      "null_rate": 0.028198084871511823,
+      "min": -5014260.2104,
+      "max": 2900.8384,
+      "nonfinite_count": 0
+    },
+    "total_fa_trun": {
+      "type": "DOUBLE",
+      "null_count": 11578,
+      "null_rate": 0.02972299951223269,
+      "min": -19.2507,
+      "max": 83557.8737,
+      "nonfinite_count": 0
+    },
+    "profit_to_op": {
+      "type": "DOUBLE",
+      "null_count": 1678,
+      "null_rate": 0.004307755500218211,
+      "min": -37306954.195,
+      "max": 82162434.3185,
+      "nonfinite_count": 0
+    },
+    "q_opincome": {
+      "type": "DOUBLE",
+      "null_count": 24962,
+      "null_rate": 0.06408235565938439,
+      "min": -103581000000.0,
+      "max": 20159974497000.0,
+      "nonfinite_count": 0
+    },
+    "q_investincome": {
+      "type": "DOUBLE",
+      "null_count": 66821,
+      "null_rate": 0.17154262829563832,
+      "min": -53335000000.0,
+      "max": 13481846410000.0,
+      "nonfinite_count": 0
+    },
+    "q_dtprofit": {
+      "type": "DOUBLE",
+      "null_count": 42706,
+      "null_rate": 0.10963468795728185,
+      "min": -59431225940.79,
+      "max": 126945000000.0,
+      "nonfinite_count": 0
+    },
+    "q_eps": {
+      "type": "DOUBLE",
+      "null_count": 35673,
+      "null_rate": 0.09157959592329218,
+      "min": -73.0731,
+      "max": 5134.5741,
+      "nonfinite_count": 0
+    },
+    "q_netprofit_margin": {
+      "type": "DOUBLE",
+      "null_count": 26267,
+      "null_rate": 0.06743254691551356,
+      "min": -185134645733.3333,
+      "max": 38933440.5611,
+      "nonfinite_count": 0
+    },
+    "q_gsprofit_margin": {
+      "type": "DOUBLE",
+      "null_count": 33514,
+      "null_rate": 0.08603701897158114,
+      "min": -52299.8871,
+      "max": 77982.6904,
+      "nonfinite_count": 0
+    },
+    "q_exp_to_sales": {
+      "type": "DOUBLE",
+      "null_count": 33763,
+      "null_rate": 0.08667625086642877,
+      "min": -175516.4318,
+      "max": 19811714800.0,
+      "nonfinite_count": 0
+    },
+    "q_profit_to_gr": {
+      "type": "DOUBLE",
+      "null_count": 26207,
+      "null_rate": 0.06727851513362257,
+      "min": -185134645733.3333,
+      "max": 789457.085,
+      "nonfinite_count": 0
+    },
+    "q_saleexp_to_gr": {
+      "type": "DOUBLE",
+      "null_count": 40242,
+      "null_rate": 0.10330911611429158,
+      "min": -29898333.3333,
+      "max": 388184.5082,
+      "nonfinite_count": 0
+    },
+    "q_adminexp_to_gr": {
+      "type": "DOUBLE",
+      "null_count": 26709,
+      "null_rate": 0.06856724770877724,
+      "min": -194052.5682,
+      "max": 19452455633.3333,
+      "nonfinite_count": 0
+    },
+    "q_finaexp_to_gr": {
+      "type": "DOUBLE",
+      "null_count": 33908,
+      "null_rate": 0.08704849433933201,
+      "min": -220082.6619,
+      "max": 389157500.0,
+      "nonfinite_count": 0
+    },
+    "q_impair_to_gr_ttm": {
+      "type": "DOUBLE",
+      "null_count": 97771,
+      "null_rate": 0.2509973557877442,
+      "min": -377839.1178,
+      "max": 162067543666.6667,
+      "nonfinite_count": 0
+    },
+    "q_gc_to_gr": {
+      "type": "DOUBLE",
+      "null_count": 33684,
+      "null_rate": 0.08647344235360563,
+      "min": -138892.139,
+      "max": 181879258400.0,
+      "nonfinite_count": 0
+    },
+    "q_op_to_gr": {
+      "type": "DOUBLE",
+      "null_count": 26247,
+      "null_rate": 0.06738120298821657,
+      "min": -186328023400.0,
+      "max": 707338.1416,
+      "nonfinite_count": 0
+    },
+    "q_roe": {
+      "type": "DOUBLE",
+      "null_count": 30585,
+      "null_rate": 0.07851770081893564,
+      "min": -10258.9181,
+      "max": 78368.9206,
+      "nonfinite_count": 0
+    },
+    "q_dt_roe": {
+      "type": "DOUBLE",
+      "null_count": 46487,
+      "null_rate": 0.1193412574127795,
+      "min": -9832.7706,
+      "max": 1764.4739,
+      "nonfinite_count": 0
+    },
+    "q_npta": {
+      "type": "DOUBLE",
+      "null_count": 26636,
+      "null_rate": 0.0683798423741432,
+      "min": -113799.4201,
+      "max": 1330569.8016,
+      "nonfinite_count": 0
+    },
+    "q_opincome_to_ebt": {
+      "type": "DOUBLE",
+      "null_count": 98523,
+      "null_rate": 0.2529278874541114,
+      "min": -2839977.4316,
+      "max": 432966.6269,
+      "nonfinite_count": 0
+    },
+    "q_investincome_to_ebt": {
+      "type": "DOUBLE",
+      "null_count": 130824,
+      "null_rate": 0.3358508972351295,
+      "min": -687865.5503,
+      "max": 259680.341,
+      "nonfinite_count": 0
+    },
+    "q_dtprofit_to_profit": {
+      "type": "DOUBLE",
+      "null_count": 113658,
+      "null_rate": 0.2917824044361153,
+      "min": -1155503.8679,
+      "max": 57435.1772,
+      "nonfinite_count": 0
+    },
+    "q_salescash_to_or": {
+      "type": "DOUBLE",
+      "null_count": 34599,
+      "null_rate": 0.08882242702744333,
+      "min": -3040805.6017,
+      "max": 118846666666.6667,
+      "nonfinite_count": 0
+    },
+    "q_ocf_to_sales": {
+      "type": "DOUBLE",
+      "null_count": 26901,
+      "null_rate": 0.06906014941082843,
+      "min": -4498721.3529,
+      "max": 3407322266.6667,
+      "nonfinite_count": 0
+    },
+    "q_ocf_to_or": {
+      "type": "DOUBLE",
+      "null_count": 125140,
+      "null_rate": 0.32125895309732244,
+      "min": -1389223.3384,
+      "max": 10906992.8732,
+      "nonfinite_count": 0
+    },
+    "basic_eps_yoy": {
+      "type": "DOUBLE",
+      "null_count": 24966,
+      "null_rate": 0.06409262444484379,
+      "min": -1041566.6667,
+      "max": 412150.0,
+      "nonfinite_count": 0
+    },
+    "dt_eps_yoy": {
+      "type": "DOUBLE",
+      "null_count": 34113,
+      "null_rate": 0.08757476959412626,
+      "min": -138466.6667,
+      "max": 412150.0,
+      "nonfinite_count": 0
+    },
+    "cfps_yoy": {
+      "type": "DOUBLE",
+      "null_count": 33692,
+      "null_rate": 0.08649397992452443,
+      "min": -109422711689.174,
+      "max": 102700619.3458,
+      "nonfinite_count": 0
+    },
+    "op_yoy": {
+      "type": "DOUBLE",
+      "null_count": 19893,
+      "null_rate": 0.05106923728596,
+      "min": -13875381.0764,
+      "max": 10634032.8355,
+      "nonfinite_count": 0
+    },
+    "ebt_yoy": {
+      "type": "DOUBLE",
+      "null_count": 19753,
+      "null_rate": 0.05070982979488101,
+      "min": -6372922.3028,
+      "max": 5831293135.5721,
+      "nonfinite_count": 0
+    },
+    "netprofit_yoy": {
+      "type": "DOUBLE",
+      "null_count": 19210,
+      "null_rate": 0.04931584216876749,
+      "min": -3773746.9625,
+      "max": 5831293135.5721,
+      "nonfinite_count": 0
+    },
+    "dt_netprofit_yoy": {
+      "type": "DOUBLE",
+      "null_count": 24392,
+      "null_rate": 0.06261905373141992,
+      "min": -442585322.81,
+      "max": 3654509246.14,
+      "nonfinite_count": 0
+    },
+    "ocf_yoy": {
+      "type": "DOUBLE",
+      "null_count": 20127,
+      "null_rate": 0.05166996123533489,
+      "min": -95716456.0149,
+      "max": 10752690.2551,
+      "nonfinite_count": 0
+    },
+    "roe_yoy": {
+      "type": "DOUBLE",
+      "null_count": 39554,
+      "null_rate": 0.10154288501527482,
+      "min": -12674042.7716,
+      "max": 1088207.0747,
+      "nonfinite_count": 0
+    },
+    "bps_yoy": {
+      "type": "DOUBLE",
+      "null_count": 15576,
+      "null_rate": 0.03998665057890278,
+      "min": -14962.7523,
+      "max": 101617336.6631,
+      "nonfinite_count": 0
+    },
+    "assets_yoy": {
+      "type": "DOUBLE",
+      "null_count": 13842,
+      "null_rate": 0.03553513208225297,
+      "min": -99.7371,
+      "max": 9673065.0874,
+      "nonfinite_count": 0
+    },
+    "eqt_yoy": {
+      "type": "DOUBLE",
+      "null_count": 14000,
+      "null_rate": 0.03594074910789926,
+      "min": -14914.7847,
+      "max": 233455.1684,
+      "nonfinite_count": 0
+    },
+    "tr_yoy": {
+      "type": "DOUBLE",
+      "null_count": 20072,
+      "null_rate": 0.051528765435268145,
+      "min": -225.5412,
+      "max": 6998082.2774,
+      "nonfinite_count": 0
+    },
+    "or_yoy": {
+      "type": "DOUBLE",
+      "null_count": 20139,
+      "null_rate": 0.05170076759171309,
+      "min": -225.5412,
+      "max": 6998082.2774,
+      "nonfinite_count": 0
+    },
+    "q_gr_yoy": {
+      "type": "DOUBLE",
+      "null_count": 48097,
+      "null_rate": 0.12347444356018791,
+      "min": -70118.0181,
+      "max": 85890982250.0,
+      "nonfinite_count": 0
+    },
+    "q_gr_qoq": {
+      "type": "DOUBLE",
+      "null_count": 30672,
+      "null_rate": 0.07874104690267758,
+      "min": -300982.3045,
+      "max": 6189542.5574,
+      "nonfinite_count": 0
+    },
+    "q_sales_yoy": {
+      "type": "DOUBLE",
+      "null_count": 48037,
+      "null_rate": 0.12332041177829692,
+      "min": -70118.0181,
+      "max": 85890982250.0,
+      "nonfinite_count": 0
+    },
+    "q_sales_qoq": {
+      "type": "DOUBLE",
+      "null_count": 30721,
+      "null_rate": 0.07886683952455523,
+      "min": -15567.22,
+      "max": 6068237.6472,
+      "nonfinite_count": 0
+    },
+    "q_op_yoy": {
+      "type": "DOUBLE",
+      "null_count": 47317,
+      "null_rate": 0.12147203039560496,
+      "min": -5885435.4059,
+      "max": 2377013.0741,
+      "nonfinite_count": 0
+    },
+    "q_op_qoq": {
+      "type": "DOUBLE",
+      "null_count": 29935,
+      "null_rate": 0.07684902318178317,
+      "min": -1714721.1425,
+      "max": 2015261.4577,
+      "nonfinite_count": 0
+    },
+    "q_profit_yoy": {
+      "type": "DOUBLE",
+      "null_count": 47282,
+      "null_rate": 0.12138217852283521,
+      "min": -784652244.4444,
+      "max": 2089852552200.0,
+      "nonfinite_count": 0
+    },
+    "q_profit_qoq": {
+      "type": "DOUBLE",
+      "null_count": 29882,
+      "null_rate": 0.07671296177444613,
+      "min": -14944218.3802,
+      "max": 13598002.7436,
+      "nonfinite_count": 0
+    },
+    "q_netprofit_yoy": {
+      "type": "DOUBLE",
+      "null_count": 47268,
+      "null_rate": 0.12134623777372731,
+      "min": -3638695.6369,
+      "max": 2011230370300.0,
+      "nonfinite_count": 0
+    },
+    "q_netprofit_qoq": {
+      "type": "DOUBLE",
+      "null_count": 29864,
+      "null_rate": 0.07666675223987883,
+      "min": -7068113.2793,
+      "max": 3638674.5482,
+      "nonfinite_count": 0
+    },
+    "equity_yoy": {
+      "type": "DOUBLE",
+      "null_count": 33473,
+      "null_rate": 0.0859317639206223,
+      "min": -101560.8728,
+      "max": 131352.5739,
+      "nonfinite_count": 0
+    },
+    "rd_exp": {
+      "type": "DOUBLE",
+      "null_count": 123185,
+      "null_rate": 0.31624008420404076,
+      "min": -777479.93,
+      "max": 63441379000.0,
+      "nonfinite_count": 0
+    },
+    "update_flag": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0",
+      "max": "1",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0000045203ee484c509614d0b2b21f9b3f0d31c509cbabc3e2eb9efc571cb875",
+      "max": "ffffa9e1e49c559a2d6e2f016681ba96fa36a2be8d5b5fd34d7f08d45d09cfdc",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00095c9ac8494753b4ea5a4059784e0e",
+      "max": "ffff64a9936b4876b3d0bdbc597d8256",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-26 04:24:59.501660+00:00",
+      "max": "2026-10-04 01:58:19.430467+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-26 04:24:59.501660+00:00",
+      "max": "2026-10-04 01:58:19.430467+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-04-07 00:00:00",
+      "max": "2026-09-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-03-31 00:00:00",
+      "max": "2026-06-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-04-07 00:00:00",
+      "max": "2026-09-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 389530,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00001ff1d3b85f6e1569ea345a2ea1a20a4a4a3c069f7bb2c0e12c7d10533b85",
+      "max": "ffffc5593e9ebfa0e35082abfb89b963b41f52b039bf88b8b30c4496b0bb0fdf",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 389530,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "ann_date": {
+      "min": "2015-04-07",
+      "max": "2026-09-30",
+      "invalid_count": 0
+    },
+    "end_date": {
+      "min": "2015-03-31",
+      "max": "2026-06-30",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "fina_indicator",
+    "scope": "dataset",
+    "rows": 389530,
+    "physical_rows": 389530,
+    "date_field": "ann_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 389530,
+    "non_latest_or_reobserved_rows": 0,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150407",
+    "end": "20260930",
+    "observed_dates": 2919,
+    "rows_before_2016": 17958,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 2470,
+    "trade_day_coverage": 0.8666666666666667,
+    "missing_trade_days": 380,
+    "within_span_expected": 2790,
+    "within_span_missing": 320,
+    "nontrading_observed_dates": 446,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 20.17
+}

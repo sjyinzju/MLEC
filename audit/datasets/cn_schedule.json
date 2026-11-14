@@ -1,0 +1,200 @@
+{
+  "dataset": "cn_schedule",
+  "category": "macro",
+  "plan": "schedule",
+  "primary_key": "",
+  "date_field": "publish_date",
+  "permission_probe": "available",
+  "active_files": 2,
+  "task_status": {
+    "SUCCESS": 143
+  },
+  "rows": 131,
+  "physical_rows": 159,
+  "distinct_content_rows": 131,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 28,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "month": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "202601",
+      "max": "202609",
+      "nonfinite_count": 0
+    },
+    "publish_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20260104",
+      "max": "20260930",
+      "nonfinite_count": 0
+    },
+    "title": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2025年国民经济和社会发展统计公报",
+      "max": "采购经理指数月度报告",
+      "nonfinite_count": 0
+    },
+    "issuing_org": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "国家统计局",
+      "max": "国家统计局",
+      "nonfinite_count": 0
+    },
+    "data_api": {
+      "type": "VARCHAR",
+      "null_count": 15,
+      "null_rate": 0.11450381679389313,
+      "min": "cn_cpi",
+      "max": "待上线",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00e0ca069200a0b0847b31ec49baf1e805732205a6dac49fb45cfa11150cbcbc",
+      "max": "ffb70afdf2ceaa2527659e436fd0fe2ac049d97ba2db22a4588a1e9c7feac382",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00aa55e501844115b28e92105fbd4858",
+      "max": "f09cef988c404d509d7523e8850bbe40",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 18:18:57.074905+00:00",
+      "max": "2026-10-01 18:23:19.232794+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 18:18:57.074905+00:00",
+      "max": "2026-10-01 18:23:19.232794+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-01-04 00:00:00",
+      "max": "2026-09-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-01-31 00:00:00",
+      "max": "2026-09-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 131,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 131,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "04c4c0ee04013e40849c82622975f6a9819ea173bcffffad47d74683295efda3",
+      "max": "ffcc1723457bd06606b94567ac5ec6aefa20e67d1a05fdd5e7ab71c312bd6792",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 131,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "month": {
+      "min": "202601",
+      "max": "202609",
+      "invalid_count": "UNKNOWN (period string)"
+    },
+    "publish_date": {
+      "min": "2026-01-04",
+      "max": "2026-09-30",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "cn_schedule",
+    "scope": "dataset",
+    "rows": 131,
+    "physical_rows": 159,
+    "date_field": "publish_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 131,
+    "non_latest_or_reobserved_rows": 28,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20260104",
+    "end": "20260930",
+    "observed_dates": 67,
+    "rows_before_2016": 0,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 51,
+    "trade_day_coverage": 0.017894736842105262,
+    "missing_trade_days": 2799,
+    "within_span_expected": 176,
+    "within_span_missing": 125,
+    "nontrading_observed_dates": 13,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 0.11
+}

@@ -1,0 +1,248 @@
+{
+  "dataset": "index_member_all",
+  "category": "industry",
+  "plan": "industry",
+  "primary_key": "",
+  "date_field": "in_date",
+  "permission_probe": "empty",
+  "active_files": 149,
+  "task_status": {
+    "SUCCESS": 884
+  },
+  "rows": 7920,
+  "physical_rows": 7943,
+  "distinct_content_rows": 7920,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 23,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "l1_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "801010.SI",
+      "max": "801980.SI",
+      "nonfinite_count": 0
+    },
+    "l1_name": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "交通运输",
+      "max": "食品饮料",
+      "nonfinite_count": 0
+    },
+    "l2_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "801011.SI",
+      "max": "801995.SI",
+      "nonfinite_count": 0
+    },
+    "l2_name": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "IT服务Ⅱ",
+      "max": "黑色家电",
+      "nonfinite_count": 0
+    },
+    "l3_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "850111.SI",
+      "max": "859951.SI",
+      "nonfinite_count": 0
+    },
+    "l3_name": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "IT服务Ⅲ",
+      "max": "黄金",
+      "nonfinite_count": 0
+    },
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001.SZ",
+      "max": "T00018.SH",
+      "nonfinite_count": 0
+    },
+    "name": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "*ST万方(退市)",
+      "max": "龙高股份",
+      "nonfinite_count": 0
+    },
+    "in_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "19840509",
+      "max": "20260924",
+      "nonfinite_count": 0
+    },
+    "out_date": {
+      "type": "VARCHAR",
+      "null_count": 5914,
+      "null_rate": 0.7467171717171717,
+      "min": "19990831",
+      "max": "20260820",
+      "nonfinite_count": 0
+    },
+    "is_new": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "N",
+      "max": "Y",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0008c0e1f8099193266bc59216bed318e73715df07d1ea1685abb33f561af236",
+      "max": "fff4e6632951ed11e08e65d2d3c17d1e4d4cca090c622672a81832fa35956d50",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0041bff4c2b742d88b827b404c66c8cb",
+      "max": "ffaf88613d7542c38d9e21015fa05018",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-26 03:15:32.850005+00:00",
+      "max": "2026-09-28 06:45:16.683593+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-26 03:15:32.850005+00:00",
+      "max": "2026-09-28 06:45:16.683593+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "1984-05-09 00:00:00",
+      "max": "2026-09-24 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 7920,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 7920,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 7920,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000021637b963b7cd168bb04fdba12130ef497daad535368314f6a01f535b6df",
+      "max": "fffe03bafa2454e023431d30e4fb8c67baccd29245b1de72d9ce0bd87fe19d35",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 7920,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "in_date": {
+      "min": "1984-05-09",
+      "max": "2026-09-24",
+      "invalid_count": 0
+    },
+    "out_date": {
+      "min": "1999-08-31",
+      "max": "2026-08-20",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "index_member_all",
+    "scope": "dataset",
+    "rows": 7920,
+    "physical_rows": 7943,
+    "date_field": "in_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 7920,
+    "non_latest_or_reobserved_rows": 23,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "19840509",
+    "end": "20260924",
+    "observed_dates": 2042,
+    "rows_before_2016": 3259,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 680,
+    "trade_day_coverage": 0.23859649122807017,
+    "missing_trade_days": 2170,
+    "within_span_expected": 2850,
+    "within_span_missing": 2170,
+    "nontrading_observed_dates": 4,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 7.08
+}

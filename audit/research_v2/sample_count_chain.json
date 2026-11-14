@@ -1,0 +1,49 @@
+{
+  "reference": {
+    "start": "2015-01-01",
+    "end": "2019-12-31",
+    "candidate_weeks": 255,
+    "market_feature_complete_weeks": 242,
+    "main_at_risk_weeks": 168,
+    "complete_main_label_weeks": 168,
+    "positive_weeks": 42,
+    "negative_weeks": 126,
+    "deduplicated_events_covered": 14,
+    "events_with_true_warning_opportunity": 13,
+    "known_new_events_in_period": 13,
+    "mature_by_period_end_weeks": 164,
+    "positive_mature_by_period_end": 41,
+    "deduplicated_mature_events": 13,
+    "boundary_unmatured_weeks": 4,
+    "exclusion_reasons": {
+      "": 168,
+      "not_at_risk": 74,
+      "insufficient_market_history": 13
+    },
+    "valid_sample_start": "2015-04-10",
+    "valid_sample_end": "2019-12-27"
+  },
+  "development": {
+    "start": "2020-01-01",
+    "end": "2022-12-31",
+    "candidate_weeks": 154,
+    "market_feature_complete_weeks": 154,
+    "main_at_risk_weeks": 112,
+    "complete_main_label_weeks": 112,
+    "positive_weeks": 32,
+    "negative_weeks": 80,
+    "deduplicated_events_covered": 9,
+    "events_with_true_warning_opportunity": 9,
+    "known_new_events_in_period": 9,
+    "mature_by_period_end_weeks": 108,
+    "positive_mature_by_period_end": 32,
+    "deduplicated_mature_events": 9,
+    "boundary_unmatured_weeks": 4,
+    "exclusion_reasons": {
+      "": 112,
+      "not_at_risk": 42
+    },
+    "valid_sample_start": "2020-01-03",
+    "valid_sample_end": "2022-12-30"
+  }
+}

@@ -1,0 +1,722 @@
+{
+  "dataset": "stk_seasoned",
+  "category": "event",
+  "plan": "range",
+  "primary_key": "",
+  "date_field": "ann_date",
+  "permission_probe": "empty",
+  "active_files": 21,
+  "task_status": {
+    "SUCCESS": 143
+  },
+  "rows": 9736,
+  "physical_rows": 9825,
+  "distinct_content_rows": 9736,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 89,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000002.SZ",
+      "max": "920964.BJ",
+      "nonfinite_count": 0
+    },
+    "ann_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150101",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "first_ann_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20110706",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "proj_info_source": {
+      "type": "VARCHAR",
+      "null_count": 2412,
+      "null_rate": 0.24774034511092852,
+      "min": "2013年度非公开发行A股股票预案(修订版)",
+      "max": "非公开发行股票预案（第二次修订）",
+      "nonfinite_count": 0
+    },
+    "board_approval_dt": {
+      "type": "VARCHAR",
+      "null_count": 2109,
+      "null_rate": 0.2166187345932621,
+      "min": "20110706",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "sh_approval_dt": {
+      "type": "VARCHAR",
+      "null_count": 959,
+      "null_rate": 0.09850041084634346,
+      "min": "20140529",
+      "max": "20260930",
+      "nonfinite_count": 0
+    },
+    "sasac_approval_dt": {
+      "type": "VARCHAR",
+      "null_count": 8679,
+      "null_rate": 0.8914338537387018,
+      "min": "20130312",
+      "max": "20260925",
+      "nonfinite_count": 0
+    },
+    "csrc_approval_dt": {
+      "type": "VARCHAR",
+      "null_count": 5190,
+      "null_rate": 0.5330731306491372,
+      "min": "20141219",
+      "max": "20260929",
+      "nonfinite_count": 0
+    },
+    "fo_type": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "公开",
+      "max": "非公开",
+      "nonfinite_count": 0
+    },
+    "fo_stock_type": {
+      "type": "VARCHAR",
+      "null_count": 773,
+      "null_rate": 0.0793960558751027,
+      "min": "A股增发A股",
+      "max": "A股增发A股",
+      "nonfinite_count": 0
+    },
+    "cur_stage": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "实施",
+      "max": "董事会预案",
+      "nonfinite_count": 0
+    },
+    "valid_st_dt": {
+      "type": "VARCHAR",
+      "null_count": 1127,
+      "null_rate": 0.11575595727198028,
+      "min": "20130318",
+      "max": "20261015",
+      "nonfinite_count": 0
+    },
+    "valid_end_dt": {
+      "type": "VARCHAR",
+      "null_count": 3401,
+      "null_rate": 0.3493221035332785,
+      "min": "20150115",
+      "max": "20271117",
+      "nonfinite_count": 0
+    },
+    "plan_chg_type": {
+      "type": "VARCHAR",
+      "null_count": 5306,
+      "null_rate": 0.544987674609696,
+      "min": "推迟",
+      "max": "终止",
+      "nonfinite_count": 0
+    },
+    "plan_chg_ann_dt": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150207",
+      "max": "20261001",
+      "nonfinite_count": 0
+    },
+    "pricing_method": {
+      "type": "VARCHAR",
+      "null_count": 877,
+      "null_rate": 0.09007806080525883,
+      "min": "协商定价",
+      "max": "限价约束",
+      "nonfinite_count": 0
+    },
+    "pricing_base_dt": {
+      "type": "VARCHAR",
+      "null_count": 3810,
+      "null_rate": 0.3913311421528348,
+      "min": "20090723",
+      "max": "20260919",
+      "nonfinite_count": 0
+    },
+    "price_basis": {
+      "type": "VARCHAR",
+      "null_count": 4,
+      "null_rate": 0.0004108463434675431,
+      "min": "(1)不低于发行期首日前1个交易日上市公司股票均价;(2)低于发行期首日前20个交易日公司股票均价但不低于90%,或者低于发行期首日前1个交易日公司股票均价但不低于\r90%",
+      "max": "（1）发行价格不低于发行期首日前一个交易日公司股票均价；（2）发行价格低于发行期首日前二十个交易日公司股票均价但不低于百分之九十，或者发行价格低于发行期首日前一个交易日公司股票均价但不低于百分之九十。",
+      "nonfinite_count": 0
+    },
+    "fo_vol_high": {
+      "type": "VARCHAR",
+      "null_count": 3320,
+      "null_rate": 0.3410024650780608,
+      "min": "1.13269e10",
+      "max": "99955378",
+      "nonfinite_count": 0
+    },
+    "fo_vol_low": {
+      "type": "VARCHAR",
+      "null_count": 7966,
+      "null_rate": 0.8182004930156122,
+      "min": "1.13269e10",
+      "max": "999510332",
+      "nonfinite_count": 0
+    },
+    "fo_price_high": {
+      "type": "DOUBLE",
+      "null_count": 6449,
+      "null_rate": 0.6623870172555464,
+      "min": 1.0,
+      "max": 235.02,
+      "nonfinite_count": 0
+    },
+    "fo_price_low": {
+      "type": "DOUBLE",
+      "null_count": 5569,
+      "null_rate": 0.572000821692687,
+      "min": 1.0,
+      "max": 235.02,
+      "nonfinite_count": 0
+    },
+    "fo_price_ratio": {
+      "type": "DOUBLE",
+      "null_count": 138,
+      "null_rate": 0.014174198849630238,
+      "min": 64.0903,
+      "max": 183.4764,
+      "nonfinite_count": 0
+    },
+    "fo_raise_total": {
+      "type": "DOUBLE",
+      "null_count": 245,
+      "null_rate": 0.025164338537387018,
+      "min": 11708427.0,
+      "max": 165000000000.0,
+      "nonfinite_count": 0
+    },
+    "fo_purpose": {
+      "type": "VARCHAR",
+      "null_count": 3,
+      "null_rate": 0.00030813475760065734,
+      "min": "1)收购Golden Haven100%股权。2)实施南非奥尼金矿生产建设项目。3)补充流动资金。",
+      "max": "齐心大办公电子商务服务平台项目、补充流动资金",
+      "nonfinite_count": 0
+    },
+    "fo_investor": {
+      "type": "VARCHAR",
+      "null_count": 3,
+      "null_rate": 0.00030813475760065734,
+      "min": "2015年员工持股计划、李守军、梁武、上海道杰席胜投资中心（有限合伙）、梁昭平",
+      "max": "龚正伟、盛真、吴荣光及盈瑞轩投资",
+      "nonfinite_count": 0
+    },
+    "sub_method": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "其他",
+      "max": "资产类",
+      "nonfinite_count": 0
+    },
+    "fo_price_act": {
+      "type": "DOUBLE",
+      "null_count": 5532,
+      "null_rate": 0.5682004930156122,
+      "min": 1.0,
+      "max": 1195.02,
+      "nonfinite_count": 0
+    },
+    "fo_vol_act": {
+      "type": "VARCHAR",
+      "null_count": 5532,
+      "null_rate": 0.5682004930156122,
+      "min": "1.15894e10",
+      "max": "999510332",
+      "nonfinite_count": 0
+    },
+    "fo_raise_total_act": {
+      "type": "DOUBLE",
+      "null_count": 5532,
+      "null_rate": 0.5682004930156122,
+      "min": 10029600.0,
+      "max": 165000000000.0,
+      "nonfinite_count": 0
+    },
+    "fo_raise_net_act": {
+      "type": "DOUBLE",
+      "null_count": 5532,
+      "null_rate": 0.5682004930156122,
+      "min": 29600.0,
+      "max": 164952658061.9,
+      "nonfinite_count": 0
+    },
+    "fo_exp_total": {
+      "type": "DOUBLE",
+      "null_count": 6410,
+      "null_rate": 0.6583812654067379,
+      "min": 41901.47,
+      "max": 463092595.83,
+      "nonfinite_count": 0
+    },
+    "uw_fee": {
+      "type": "DOUBLE",
+      "null_count": 7319,
+      "null_rate": 0.751746096959737,
+      "min": 84905.66,
+      "max": 446148059.83,
+      "nonfinite_count": 0
+    },
+    "fo_exp_audit": {
+      "type": "DOUBLE",
+      "null_count": 8033,
+      "null_rate": 0.8250821692686935,
+      "min": 9433.96,
+      "max": 16184212.67,
+      "nonfinite_count": 0
+    },
+    "fo_exp_legal": {
+      "type": "DOUBLE",
+      "null_count": 8098,
+      "null_rate": 0.831758422350041,
+      "min": 47169.81,
+      "max": 49811097.42,
+      "nonfinite_count": 0
+    },
+    "fo_exp_inst": {
+      "type": "DOUBLE",
+      "null_count": 8953,
+      "null_rate": 0.9195768282662284,
+      "min": 0.0,
+      "max": 85645958.55,
+      "nonfinite_count": 0
+    },
+    "fo_exp_pub": {
+      "type": "DOUBLE",
+      "null_count": 9719,
+      "null_rate": 0.998253903040263,
+      "min": 19939.9,
+      "max": 5000000.0,
+      "nonfinite_count": 0
+    },
+    "fo_exp_reg": {
+      "type": "DOUBLE",
+      "null_count": 8808,
+      "null_rate": 0.9046836483155299,
+      "min": 1277.19,
+      "max": 2968892.0,
+      "nonfinite_count": 0
+    },
+    "fo_exp_other": {
+      "type": "DOUBLE",
+      "null_count": 7747,
+      "null_rate": 0.7957066557107642,
+      "min": -756143.39,
+      "max": 70640000.0,
+      "nonfinite_count": 0
+    },
+    "fo_exp_per_share": {
+      "type": "DOUBLE",
+      "null_count": 6412,
+      "null_rate": 0.6585866885784717,
+      "min": 0.0004,
+      "max": 20.4302,
+      "nonfinite_count": 0
+    },
+    "issue_obj_type": {
+      "type": "VARCHAR",
+      "null_count": 778,
+      "null_rate": 0.07990961380443715,
+      "min": "全体投资者",
+      "max": "自然人",
+      "nonfinite_count": 0
+    },
+    "pe_issue": {
+      "type": "DOUBLE",
+      "null_count": 9736,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "pub_plac_qty": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "14903000",
+      "max": "6321438",
+      "nonfinite_count": 0
+    },
+    "onl_pch_vol": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "13354435",
+      "max": "447326000",
+      "nonfinite_count": 0
+    },
+    "onl_pch_num": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "1332",
+      "max": "7554",
+      "nonfinite_count": 0
+    },
+    "onl_pch_excess": {
+      "type": "DOUBLE",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": 1.0,
+      "max": 2.5979,
+      "nonfinite_count": 0
+    },
+    "onl_winning_rate": {
+      "type": "DOUBLE",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": 0.3849312946,
+      "max": 1.0,
+      "nonfinite_count": 0
+    },
+    "inst_plac_qty": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "1593233491",
+      "max": "8960000",
+      "nonfinite_count": 0
+    },
+    "inst_sub_eff_total": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "1902400000",
+      "max": "92600000",
+      "nonfinite_count": 0
+    },
+    "inst_sub_eff_cnt": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "104",
+      "max": "8",
+      "nonfinite_count": 0
+    },
+    "inst_oversub_times": {
+      "type": "DOUBLE",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": 1.0,
+      "max": 2.5978,
+      "nonfinite_count": 0
+    },
+    "a_inv_plac_qty": {
+      "type": "VARCHAR",
+      "null_count": 9735,
+      "null_rate": 0.9998972884141332,
+      "min": "7550000",
+      "max": "7550000",
+      "nonfinite_count": 0
+    },
+    "b_inv_plac_qty": {
+      "type": "VARCHAR",
+      "null_count": 9735,
+      "null_rate": 0.9998972884141332,
+      "min": "577497",
+      "max": "577497",
+      "nonfinite_count": 0
+    },
+    "old_sh_pre_plac_qty": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "13197648",
+      "max": "933212",
+      "nonfinite_count": 0
+    },
+    "old_sh_pre_plac_ratio": {
+      "type": "DOUBLE",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": 0.4906,
+      "max": 1.4,
+      "nonfinite_count": 0
+    },
+    "clw_between_inst_pub": {
+      "type": "VARCHAR",
+      "null_count": 9736,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "prospectus_pub_dt": {
+      "type": "VARCHAR",
+      "null_count": 9735,
+      "null_rate": 0.9998972884141332,
+      "min": "20201118",
+      "max": "20201118",
+      "nonfinite_count": 0
+    },
+    "offer_intent_pub_dt": {
+      "type": "VARCHAR",
+      "null_count": 9732,
+      "null_rate": 0.9995891536565324,
+      "min": "20191111",
+      "max": "20200716",
+      "nonfinite_count": 0
+    },
+    "apply_date": {
+      "type": "VARCHAR",
+      "null_count": 7458,
+      "null_rate": 0.7660230073952342,
+      "min": "20140506",
+      "max": "20260918",
+      "nonfinite_count": 0
+    },
+    "old_sh_pre_plac_dt": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "20191113",
+      "max": "20201120",
+      "nonfinite_count": 0
+    },
+    "onl_issue_date": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "20191113",
+      "max": "20201120",
+      "nonfinite_count": 0
+    },
+    "uw_start_dt": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "20191111",
+      "max": "20201118",
+      "nonfinite_count": 0
+    },
+    "uw_end_dt": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "20191119",
+      "max": "20201126",
+      "nonfinite_count": 0
+    },
+    "uw_mode": {
+      "type": "VARCHAR",
+      "null_count": 9731,
+      "null_rate": 0.9994864420706656,
+      "min": "券商包销",
+      "max": "券商包销",
+      "nonfinite_count": 0
+    },
+    "new_share_list_dt": {
+      "type": "VARCHAR",
+      "null_count": 5546,
+      "null_rate": 0.5696384552177486,
+      "min": "20150210",
+      "max": "20261012",
+      "nonfinite_count": 0
+    },
+    "list_circ_qty": {
+      "type": "VARCHAR",
+      "null_count": 9691,
+      "null_rate": 0.9953779786359901,
+      "min": "100000000",
+      "max": "92909600",
+      "nonfinite_count": 0
+    },
+    "right_reg_dt": {
+      "type": "VARCHAR",
+      "null_count": 5546,
+      "null_rate": 0.5696384552177486,
+      "min": "20150202",
+      "max": "20261009",
+      "nonfinite_count": 0
+    },
+    "ex_right_dt": {
+      "type": "VARCHAR",
+      "null_count": 9736,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "update_flag": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0",
+      "max": "0",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0007762c2042373d5d7b5621864bd95ea4cf687ba14fdc2aaa992c274e8590f4",
+      "max": "ffe9efe6c8ee1b248e1c739c3afd3d82a74e42720de0e851b036100a1b208f5d",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00bf87417ac845f2b4dfb7e42296ca7a",
+      "max": "fe318d1b64e44532ab949bd5eb0d9b7a",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-23 04:59:42.324196+00:00",
+      "max": "2026-10-01 16:25:15.849429+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-23 04:59:42.324196+00:00",
+      "max": "2026-10-01 16:25:15.849429+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-01 00:00:00",
+      "max": "2026-09-22 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 9736,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 28,
+      "null_rate": 0.002875924404272802,
+      "min": "2015-01-01 00:00:00",
+      "max": "2026-09-22 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 9736,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 28,
+      "null_rate": 0.002875924404272802,
+      "min": "00007e6c4f0b01db781cd27c792e7355d50c3541a45d758a4e8bffb525947ab9",
+      "max": "fff42e407a2dc32a9d7d562b33ab6adb61b2627e412b36f47d8ce98e059254d0",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 9736,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "ann_date": {
+      "min": "2015-01-01",
+      "max": "2026-09-22",
+      "invalid_count": 0
+    },
+    "first_ann_date": {
+      "min": "2011-07-06",
+      "max": "2026-09-22",
+      "invalid_count": 0
+    },
+    "apply_date": {
+      "min": "2014-05-06",
+      "max": "2026-09-18",
+      "invalid_count": 0
+    },
+    "onl_issue_date": {
+      "min": "2019-11-13",
+      "max": "2020-11-20",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "stk_seasoned",
+    "scope": "dataset",
+    "rows": 9736,
+    "physical_rows": 9825,
+    "date_field": "ann_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 9736,
+    "non_latest_or_reobserved_rows": 89,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150101",
+    "end": "20260922",
+    "observed_dates": 2694,
+    "rows_before_2016": 1218,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 2183,
+    "trade_day_coverage": 0.7659649122807017,
+    "missing_trade_days": 667,
+    "within_span_expected": 2850,
+    "within_span_missing": 667,
+    "nontrading_observed_dates": 511,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 3.04
+}

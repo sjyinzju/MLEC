@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "formula_and_event_unit_tests",
+      "status": "PASS",
+      "tests": 23
+    },
+    {
+      "check": "full_real_observations_recomputed",
+      "status": "PASS",
+      "rows": 2850
+    },
+    {
+      "check": "real_history_truncation_invariance",
+      "cutoff": "2020-06-30",
+      "status": "PASS",
+      "rows": 1336,
+      "includes_stock_proxy_reselection": true
+    },
+    {
+      "check": "real_history_truncation_invariance",
+      "cutoff": "2022-12-30",
+      "status": "PASS",
+      "rows": 1947,
+      "includes_stock_proxy_reselection": true
+    },
+    {
+      "check": "real_history_truncation_invariance",
+      "cutoff": "2024-06-28",
+      "status": "PASS",
+      "rows": 2306,
+      "includes_stock_proxy_reselection": true
+    },
+    {
+      "check": "future_price_perturbation_and_reference_threshold_invariance",
+      "status": "PASS",
+      "cutoff": "2022-06-30"
+    },
+    {
+      "check": "all_horizon_maturity_risk_sets_and_all_fold_boundaries",
+      "status": "PASS",
+      "folds": 48,
+      "fit_memberships": 50706,
+      "boundary_purged_memberships": 628
+    },
+    {
+      "check": "feature_input_whitelist_and_physical_target_separation",
+      "status": "PASS",
+      "default_features": 25
+    },
+    {
+      "check": "proxy_availability_and_same_market_sample_ids",
+      "status": "PASS",
+      "rows": 599
+    },
+    {
+      "check": "independent_raw_stock_year_boundary_return_and_CNY_units",
+      "status": "PASS",
+      "cases": 36
+    },
+    {
+      "check": "complete_real_core_pipeline_semantic_reproduction",
+      "status": "PASS",
+      "weekly_rows": 599,
+      "target_rows": 1797,
+      "candidate_60past_20future": 582
+    }
+  ],
+  "no_models_trained": true
+}

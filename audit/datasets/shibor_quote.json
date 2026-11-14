@@ -1,0 +1,189 @@
+{
+  "dataset": "shibor_quote",
+  "category": "macro",
+  "plan": "range",
+  "primary_key": "",
+  "date_field": "date",
+  "permission_probe": "available",
+  "active_files": 15,
+  "task_status": {
+    "FAILED_RETRYABLE": 6,
+    "PENDING": 88,
+    "SUCCESS": 15
+  },
+  "rows": 5830,
+  "physical_rows": 5830,
+  "distinct_content_rows": 5830,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 0,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150104",
+      "max": "20190329",
+      "nonfinite_count": 0
+    },
+    "bank": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "上海银行",
+      "max": "邮储银行",
+      "nonfinite_count": 0
+    },
+    "on_b": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 1.6,
+      "max": 3.7,
+      "nonfinite_count": 0
+    },
+    "on_a": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 1.6,
+      "max": 3.7,
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000b161db60a5aedc12a958ca8e3d8b8ea1e04240e46f2697254805c34acd5c6",
+      "max": "fff87a7b2dab8a1048bd5933da9eca6418436fd326c9be33ea85df60c73bef60",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "037de66f45664df284a2d64c8d14f823",
+      "max": "fba8402f159e4bf7bf2d6794d5668c37",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 18:12:10.846632+00:00",
+      "max": "2026-10-20 03:22:04.341323+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 18:12:10.846632+00:00",
+      "max": "2026-10-20 03:22:04.341323+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-04 00:00:00",
+      "max": "2019-03-29 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 5830,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 5830,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 5830,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0008e2df7097e6b90347b6e594eff3039b3f919ce30e8c459e5bbe97703614df",
+      "max": "fffbad59565479457fa4414b643dab09972796efee29fa78ff9ad4a0cdd8b5bc",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 5830,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "date": {
+      "min": "2015-01-04",
+      "max": "2019-03-29",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "shibor_quote",
+    "scope": "dataset",
+    "rows": 5830,
+    "physical_rows": 5830,
+    "date_field": "date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 5830,
+    "non_latest_or_reobserved_rows": 0,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150104",
+    "end": "20190329",
+    "observed_dates": 324,
+    "rows_before_2016": 1170,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 318,
+    "trade_day_coverage": 0.11157894736842106,
+    "missing_trade_days": 2532,
+    "within_span_expected": 1033,
+    "within_span_missing": 715,
+    "nontrading_observed_dates": 6,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 0.94
+}

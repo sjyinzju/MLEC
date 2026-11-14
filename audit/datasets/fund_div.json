@@ -1,0 +1,318 @@
+{
+  "dataset": "fund_div",
+  "category": "fund",
+  "plan": "fund_all",
+  "primary_key": "",
+  "date_field": "ann_date",
+  "permission_probe": "available",
+  "active_files": 36,
+  "task_status": {
+    "SUCCESS": 2914
+  },
+  "rows": 4083,
+  "physical_rows": 4083,
+  "distinct_content_rows": 4083,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 0,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "159001.SZ",
+      "max": "589300.SH",
+      "nonfinite_count": 0
+    },
+    "ann_date": {
+      "type": "VARCHAR",
+      "null_count": 178,
+      "null_rate": 0.04359539554249327,
+      "min": "20150107",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "imp_anndate": {
+      "type": "VARCHAR",
+      "null_count": 186,
+      "null_rate": 0.045554739162380606,
+      "min": "20150107",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "base_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20130514",
+      "max": "20260930",
+      "nonfinite_count": 0
+    },
+    "div_proc": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "实施",
+      "max": "实施",
+      "nonfinite_count": 0
+    },
+    "record_date": {
+      "type": "VARCHAR",
+      "null_count": 186,
+      "null_rate": 0.045554739162380606,
+      "min": "20150113",
+      "max": "20260924",
+      "nonfinite_count": 0
+    },
+    "ex_date": {
+      "type": "VARCHAR",
+      "null_count": 186,
+      "null_rate": 0.045554739162380606,
+      "min": "20150114",
+      "max": "20260928",
+      "nonfinite_count": 0
+    },
+    "pay_date": {
+      "type": "VARCHAR",
+      "null_count": 186,
+      "null_rate": 0.045554739162380606,
+      "min": "20150116",
+      "max": "20260930",
+      "nonfinite_count": 0
+    },
+    "earpay_date": {
+      "type": "VARCHAR",
+      "null_count": 3897,
+      "null_rate": 0.9544452608376194,
+      "min": "20130515",
+      "max": "20240617",
+      "nonfinite_count": 0
+    },
+    "net_ex_date": {
+      "type": "VARCHAR",
+      "null_count": 1547,
+      "null_rate": 0.37888807249571393,
+      "min": "20150113",
+      "max": "20260924",
+      "nonfinite_count": 0
+    },
+    "div_cash": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 112.79,
+      "nonfinite_count": 0
+    },
+    "base_unit": {
+      "type": "DOUBLE",
+      "null_count": 657,
+      "null_rate": 0.1609110947832476,
+      "min": 7.8975,
+      "max": 11438861.0,
+      "nonfinite_count": 0
+    },
+    "ear_distr": {
+      "type": "DOUBLE",
+      "null_count": 287,
+      "null_rate": 0.07029145236345824,
+      "min": -7002922771.78,
+      "max": 182792078915.09,
+      "nonfinite_count": 0
+    },
+    "ear_amount": {
+      "type": "DOUBLE",
+      "null_count": 2113,
+      "null_rate": 0.5175116336027431,
+      "min": 15022.0,
+      "max": 5841715703.03,
+      "nonfinite_count": 0
+    },
+    "account_date": {
+      "type": "VARCHAR",
+      "null_count": 3341,
+      "null_rate": 0.8182708792554494,
+      "min": "20130515",
+      "max": "20260915",
+      "nonfinite_count": 0
+    },
+    "base_year": {
+      "type": "VARCHAR",
+      "null_count": 186,
+      "null_rate": 0.045554739162380606,
+      "min": "20150113",
+      "max": "20260924",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00024dd0d7cf278d50ffe6bc0eeec07dae1e1ee224a6733e57d018da1d1843f6",
+      "max": "fff5d23a7150e250ca74c766b7768db7c5c45521772db4f35f0206ee0d5a1945",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "002f2aadfd9e4b42a730c8af61e05c1c",
+      "max": "fff38930afed474fb1f5ccfa2b266332",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-25 04:43:12.463658+00:00",
+      "max": "2026-09-25 06:10:35.641966+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-25 04:43:12.463658+00:00",
+      "max": "2026-09-25 06:10:35.641966+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 178,
+      "null_rate": 0.04359539554249327,
+      "min": "2015-01-07 00:00:00",
+      "max": "2026-09-22 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 4083,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 178,
+      "null_rate": 0.04359539554249327,
+      "min": "2015-01-07 00:00:00",
+      "max": "2026-09-22 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 4083,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0004c61223d44ab2e4bc5a50fd3a2e6196cad33402f30988c0483346e0066826",
+      "max": "fffac7d03698e6dfb92f655018614d30bd1dd26bbd2d77f5b57d073479d91fcb",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 4083,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "ann_date": {
+      "min": "2015-01-07",
+      "max": "2026-09-22",
+      "invalid_count": 0
+    },
+    "base_date": {
+      "min": "2013-05-14",
+      "max": "2026-09-30",
+      "invalid_count": 0
+    },
+    "record_date": {
+      "min": "2015-01-13",
+      "max": "2026-09-24",
+      "invalid_count": 0
+    },
+    "ex_date": {
+      "min": "2015-01-14",
+      "max": "2026-09-28",
+      "invalid_count": 0
+    },
+    "pay_date": {
+      "min": "2015-01-16",
+      "max": "2026-09-30",
+      "invalid_count": 0
+    },
+    "earpay_date": {
+      "min": "2013-05-15",
+      "max": "2024-06-17",
+      "invalid_count": 0
+    },
+    "net_ex_date": {
+      "min": "2015-01-13",
+      "max": "2026-09-24",
+      "invalid_count": 0
+    },
+    "account_date": {
+      "min": "2013-05-15",
+      "max": "2026-09-15",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "fund_div",
+    "scope": "dataset",
+    "rows": 4083,
+    "physical_rows": 4083,
+    "date_field": "ann_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 4083,
+    "non_latest_or_reobserved_rows": 0,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150107",
+    "end": "20260922",
+    "observed_dates": 1276,
+    "rows_before_2016": 138,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 1235,
+    "trade_day_coverage": 0.43333333333333335,
+    "missing_trade_days": 1615,
+    "within_span_expected": 2848,
+    "within_span_missing": 1613,
+    "nontrading_observed_dates": 41,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 2.08
+}

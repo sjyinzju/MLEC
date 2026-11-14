@@ -1,0 +1,296 @@
+{
+  "dataset": "stock_basic",
+  "category": "master",
+  "plan": "stocks",
+  "primary_key": "ts_code",
+  "date_field": "list_date",
+  "permission_probe": "available",
+  "active_files": 4,
+  "task_status": {
+    "SUCCESS": 6
+  },
+  "rows": 5907,
+  "physical_rows": 11814,
+  "distinct_content_rows": 5907,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 5907,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001.SZ",
+      "max": "T600018.SH",
+      "nonfinite_count": 0
+    },
+    "symbol": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001",
+      "max": "T600018",
+      "nonfinite_count": 0
+    },
+    "name": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "*ST万方",
+      "max": "龙高股份",
+      "nonfinite_count": 0
+    },
+    "area": {
+      "type": "VARCHAR",
+      "null_count": 333,
+      "null_rate": 0.0563737938039614,
+      "min": "上海",
+      "max": "黑龙江",
+      "nonfinite_count": 0
+    },
+    "industry": {
+      "type": "VARCHAR",
+      "null_count": 333,
+      "null_rate": 0.0563737938039614,
+      "min": "IT设备",
+      "max": "黄金",
+      "nonfinite_count": 0
+    },
+    "fullname": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "TCL中环新能源科技股份有限公司",
+      "max": "龙迅半导体(合肥)股份有限公司",
+      "nonfinite_count": 0
+    },
+    "enname": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "360 Security Technology Inc.",
+      "max": "iRay Group",
+      "nonfinite_count": 0
+    },
+    "cnspell": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "*STBG",
+      "max": "zyyq",
+      "nonfinite_count": 0
+    },
+    "market": {
+      "type": "VARCHAR",
+      "null_count": 1,
+      "null_rate": 0.00016929067208396818,
+      "min": "主板",
+      "max": "科创板",
+      "nonfinite_count": 0
+    },
+    "exchange": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "BSE",
+      "max": "SZSE",
+      "nonfinite_count": 0
+    },
+    "curr_type": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "CNY",
+      "max": "CNY",
+      "nonfinite_count": 0
+    },
+    "list_status": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "D",
+      "max": "L",
+      "nonfinite_count": 0
+    },
+    "list_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "19901201",
+      "max": "20260923",
+      "nonfinite_count": 0
+    },
+    "delist_date": {
+      "type": "VARCHAR",
+      "null_count": 5568,
+      "null_rate": 0.9426104621635348,
+      "min": "19990712",
+      "max": "20260730",
+      "nonfinite_count": 0
+    },
+    "is_hs": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "H",
+      "max": "S",
+      "nonfinite_count": 0
+    },
+    "act_name": {
+      "type": "VARCHAR",
+      "null_count": 9,
+      "null_rate": 0.0015236160487557136,
+      "min": "BI LEI(毕磊),BI CHAO(毕超)",
+      "max": "龚泽民",
+      "nonfinite_count": 0
+    },
+    "act_ent_type": {
+      "type": "VARCHAR",
+      "null_count": 65,
+      "null_rate": 0.01100389368545793,
+      "min": "中央国企",
+      "max": "集体企业",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00116758ec9320b4382dea1434f7a393dbc846edb6c2bddf5393c9738b725bc3",
+      "max": "ffe5d4d86aa98ba46595986cfe09663b1cdc573c51f8b0d6e4bbf21acde104d9",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "789fc87c6b054ba4b8a6fdb7a3c5a4e6",
+      "max": "973e6a9366d846ce8ac7bab077176b7e",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-23 05:22:26.143854+00:00",
+      "max": "2026-09-23 05:22:27.426631+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-23 05:22:26.143854+00:00",
+      "max": "2026-09-23 05:22:27.426631+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "1990-12-01 00:00:00",
+      "max": "2026-09-23 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 5907,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 5907,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 5907,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 5907,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000309048347474e21c9e93cc8d60e31791e4d9627080693d3dbdbfaf3a870a3",
+      "max": "ffff525cd50d586839d444f28088fbd02c29f23dd20e2917d8e189a5e83d665c",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "list_date": {
+      "min": "1990-12-01",
+      "max": "2026-09-23",
+      "invalid_count": 0
+    },
+    "delist_date": {
+      "min": "1999-07-12",
+      "max": "2026-07-30",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "stock_basic",
+    "scope": "dataset",
+    "rows": 5907,
+    "physical_rows": 11814,
+    "date_field": "list_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 5907,
+    "non_latest_or_reobserved_rows": 5907,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "19901201",
+    "end": "20260923",
+    "observed_dates": 3025,
+    "rows_before_2016": 2897,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 1642,
+    "trade_day_coverage": 0.576140350877193,
+    "missing_trade_days": 1208,
+    "within_span_expected": 2850,
+    "within_span_missing": 1208,
+    "nontrading_observed_dates": 0,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 0.72
+}

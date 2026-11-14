@@ -1,0 +1,21 @@
+{
+  "single_factor": {
+    "id": "q85",
+    "quantile": 0.85
+  },
+  "threshold": {
+    "q": 0.85,
+    "qV": 0.3244840974344204,
+    "qD": 0.08629221425203593,
+    "loss_metric": "mdd_20d",
+    "reference_start": "2015-02-02",
+    "reference_end": "2019-12-31",
+    "reference_n": 1199,
+    "vol_unit": "annualized fraction",
+    "loss_unit": "nonnegative price loss fraction",
+    "algorithm": "numpy.quantile(method=linear)",
+    "reference_only": true,
+    "threshold_version": "thr-4a5bacaccabe2eaf"
+  },
+  "all_other_parameters_fixed": true
+}

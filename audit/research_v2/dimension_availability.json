@@ -1,0 +1,32 @@
+[
+  {
+    "dimension": "趋势",
+    "status": "FORMAL",
+    "fields": "ret_5d/20d/60d",
+    "limitation": "price index, no dividends; no bull/bear assignment"
+  },
+  {
+    "dimension": "波动",
+    "status": "FORMAL",
+    "fields": "vol_5d/20d/60d, downside_vol_20d",
+    "limitation": "daily close-based annualized proxy, not high-frequency RV"
+  },
+  {
+    "dimension": "下行损失",
+    "status": "FORMAL",
+    "fields": "mdd_20d/60d,current_drawdown_20d/60d",
+    "limitation": "observed window price losses only"
+  },
+  {
+    "dimension": "活跃度及流动性",
+    "status": "FORMAL_ACTIVITY_AND_PROXY_LIQUIDITY",
+    "fields": "amount, lagged turnover; amihud stock proxy",
+    "limitation": "activity is not liquidity crisis; observed stock proxy not exact full-market illiquidity"
+  },
+  {
+    "dimension": "市场结构",
+    "status": "PROXY",
+    "fields": "down_fraction_proxy,breadth_change_5d_proxy,mean_corr_60d_proxy",
+    "limitation": "BLOCKED for exact CSI300/full historical market universe; dated master includes delisted but observed-revision and code-history gaps remain"
+  }
+]

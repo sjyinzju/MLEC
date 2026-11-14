@@ -1,0 +1,118 @@
+[
+  {
+    "dataset": "disclosure_date",
+    "column": "modify_date",
+    "physical_value_examples": [
+      [
+        "20240807,20250429",
+        7
+      ],
+      [
+        "20250429,20260429",
+        7
+      ],
+      [
+        "20250830,20250909",
+        7
+      ],
+      [
+        "20240914,20241031",
+        7
+      ],
+      [
+        "20260411,20260611",
+        6
+      ],
+      [
+        "20220628,20251031",
+        5
+      ]
+    ],
+    "interpretation": "format anomaly flag; source-specific meaning UNKNOWN, not automatically a failed fetch"
+  },
+  {
+    "dataset": "pledge_detail",
+    "column": "start_date",
+    "physical_value_examples": [
+      [
+        "201501",
+        5
+      ],
+      [
+        "201502",
+        4
+      ],
+      [
+        "201504",
+        3
+      ],
+      [
+        "201507",
+        3
+      ],
+      [
+        "201603",
+        2
+      ],
+      [
+        "201301",
+        1
+      ]
+    ],
+    "interpretation": "format anomaly flag; source-specific meaning UNKNOWN, not automatically a failed fetch"
+  },
+  {
+    "dataset": "pledge_detail",
+    "column": "end_date",
+    "physical_value_examples": [
+      [
+        "201706",
+        2
+      ],
+      [
+        "2014",
+        1
+      ],
+      [
+        "2021",
+        1
+      ],
+      [
+        "201602",
+        1
+      ]
+    ],
+    "interpretation": "format anomaly flag; source-specific meaning UNKNOWN, not automatically a failed fetch"
+  },
+  {
+    "dataset": "pledge_detail",
+    "column": "release_date",
+    "physical_value_examples": [
+      [
+        "201504",
+        2
+      ],
+      [
+        "201505",
+        1
+      ],
+      [
+        "201601",
+        1
+      ],
+      [
+        "201603",
+        1
+      ],
+      [
+        "201503",
+        1
+      ],
+      [
+        "201403",
+        1
+      ]
+    ],
+    "interpretation": "format anomaly flag; source-specific meaning UNKNOWN, not automatically a failed fetch"
+  }
+]

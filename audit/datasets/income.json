@@ -1,0 +1,917 @@
+{
+  "dataset": "income",
+  "category": "financial",
+  "plan": "stock_range",
+  "primary_key": "ts_code end_date ann_date f_ann_date report_type update_flag comp_type",
+  "date_field": "ann_date",
+  "permission_probe": "available",
+  "active_files": 70,
+  "task_status": {
+    "SUCCESS": 5909
+  },
+  "rows": 304376,
+  "physical_rows": 304380,
+  "distinct_content_rows": 304376,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 4,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001.SZ",
+      "max": "920992.BJ",
+      "nonfinite_count": 0
+    },
+    "ann_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150101",
+      "max": "20260903",
+      "nonfinite_count": 0
+    },
+    "f_ann_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20130412",
+      "max": "20260929",
+      "nonfinite_count": 0
+    },
+    "end_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20081231",
+      "max": "20260630",
+      "nonfinite_count": 0
+    },
+    "report_type": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "1",
+      "max": "1",
+      "nonfinite_count": 0
+    },
+    "comp_type": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "1",
+      "max": "7",
+      "nonfinite_count": 0
+    },
+    "end_type": {
+      "type": "VARCHAR",
+      "null_count": 397,
+      "null_rate": 0.0013043078297894709,
+      "min": "0",
+      "max": "4",
+      "nonfinite_count": 0
+    },
+    "basic_eps": {
+      "type": "DOUBLE",
+      "null_count": 3389,
+      "null_rate": 0.01113425500039425,
+      "min": -65.88,
+      "max": 303.0,
+      "nonfinite_count": 0
+    },
+    "diluted_eps": {
+      "type": "DOUBLE",
+      "null_count": 10551,
+      "null_rate": 0.034664362499014376,
+      "min": -24.7834,
+      "max": 303.0,
+      "nonfinite_count": 0
+    },
+    "total_revenue": {
+      "type": "DOUBLE",
+      "null_count": 429,
+      "null_rate": 0.0014094409546087734,
+      "min": -984148414.88,
+      "max": 3318168000000.0,
+      "nonfinite_count": 0
+    },
+    "revenue": {
+      "type": "DOUBLE",
+      "null_count": 487,
+      "null_rate": 0.0015999947433437591,
+      "min": -984148414.88,
+      "max": 3318168000000.0,
+      "nonfinite_count": 0
+    },
+    "int_income": {
+      "type": "DOUBLE",
+      "null_count": 290623,
+      "null_rate": 0.9548157541987542,
+      "min": -116120513.42,
+      "max": 1427948000000.0,
+      "nonfinite_count": 0
+    },
+    "prem_earned": {
+      "type": "DOUBLE",
+      "null_count": 300409,
+      "null_rate": 0.986966777932557,
+      "min": -4289316.07,
+      "max": 757599000000.0,
+      "nonfinite_count": 0
+    },
+    "comm_income": {
+      "type": "DOUBLE",
+      "null_count": 295656,
+      "null_rate": 0.9713512234867401,
+      "min": -854402.51,
+      "max": 171641000000.0,
+      "nonfinite_count": 0
+    },
+    "n_commis_income": {
+      "type": "DOUBLE",
+      "null_count": 298710,
+      "null_rate": 0.9813848660866823,
+      "min": -2294577710.0,
+      "max": 155600000000.0,
+      "nonfinite_count": 0
+    },
+    "n_oth_income": {
+      "type": "DOUBLE",
+      "null_count": 298638,
+      "null_rate": 0.9811483165558388,
+      "min": -14660000000.0,
+      "max": 276990000000.0,
+      "nonfinite_count": 0
+    },
+    "n_oth_b_income": {
+      "type": "DOUBLE",
+      "null_count": 298658,
+      "null_rate": 0.9812140247588509,
+      "min": -21505000000.0,
+      "max": 35380000000.0,
+      "nonfinite_count": 0
+    },
+    "prem_income": {
+      "type": "DOUBLE",
+      "null_count": 304080,
+      "null_rate": 0.9990275185954215,
+      "min": 163287525.42,
+      "max": 797880000000.0,
+      "nonfinite_count": 0
+    },
+    "out_prem": {
+      "type": "DOUBLE",
+      "null_count": 304107,
+      "null_rate": 0.9991162246694877,
+      "min": -13646000000.0,
+      "max": 54779000000.0,
+      "nonfinite_count": 0
+    },
+    "une_prem_reser": {
+      "type": "DOUBLE",
+      "null_count": 304107,
+      "null_rate": 0.9991162246694877,
+      "min": -36017000000.0,
+      "max": 47987000000.0,
+      "nonfinite_count": 0
+    },
+    "reins_income": {
+      "type": "DOUBLE",
+      "null_count": 304186,
+      "null_rate": 0.9993757720713854,
+      "min": 1000000.0,
+      "max": 6513000000.0,
+      "nonfinite_count": 0
+    },
+    "n_sec_tb_income": {
+      "type": "DOUBLE",
+      "null_count": 301716,
+      "null_rate": 0.9912608089993955,
+      "min": 34697879.83,
+      "max": 18367147729.0,
+      "nonfinite_count": 0
+    },
+    "n_sec_uw_income": {
+      "type": "DOUBLE",
+      "null_count": 301755,
+      "null_rate": 0.991388939995269,
+      "min": 0.57,
+      "max": 8653871899.68,
+      "nonfinite_count": 0
+    },
+    "n_asset_mg_income": {
+      "type": "DOUBLE",
+      "null_count": 301717,
+      "null_rate": 0.9912640944095461,
+      "min": -179079.46,
+      "max": 12176744500.62,
+      "nonfinite_count": 0
+    },
+    "oth_b_income": {
+      "type": "DOUBLE",
+      "null_count": 298408,
+      "null_rate": 0.9803926722212001,
+      "min": -1111000000.0,
+      "max": 77782000000.0,
+      "nonfinite_count": 0
+    },
+    "fv_value_chg_gain": {
+      "type": "DOUBLE",
+      "null_count": 165660,
+      "null_rate": 0.5442610455489263,
+      "min": -49952000000.0,
+      "max": 147655000000.0,
+      "nonfinite_count": 0
+    },
+    "invest_income": {
+      "type": "DOUBLE",
+      "null_count": 38208,
+      "null_rate": 0.1255289510342471,
+      "min": -13941000000.0,
+      "max": 241814000000.0,
+      "nonfinite_count": 0
+    },
+    "ass_invest_income": {
+      "type": "DOUBLE",
+      "null_count": 144017,
+      "null_rate": 0.47315491365942125,
+      "min": -14033112000.0,
+      "max": 28303551928.39,
+      "nonfinite_count": 0
+    },
+    "forex_gain": {
+      "type": "DOUBLE",
+      "null_count": 292915,
+      "null_rate": 0.9623459142639367,
+      "min": -11298000000.0,
+      "max": 22517000000.0,
+      "nonfinite_count": 0
+    },
+    "total_cogs": {
+      "type": "DOUBLE",
+      "null_count": 998,
+      "null_rate": 0.003278839330301995,
+      "min": -2701520691.0,
+      "max": 3243392000000.0,
+      "nonfinite_count": 0
+    },
+    "oper_cost": {
+      "type": "DOUBLE",
+      "null_count": 7609,
+      "null_rate": 0.024998685835939758,
+      "min": -89903710.49,
+      "max": 2819363000000.0,
+      "nonfinite_count": 0
+    },
+    "int_exp": {
+      "type": "DOUBLE",
+      "null_count": 293167,
+      "null_rate": 0.9631738376218887,
+      "min": -15218022267.0,
+      "max": 790543000000.0,
+      "nonfinite_count": 0
+    },
+    "comm_exp": {
+      "type": "DOUBLE",
+      "null_count": 295329,
+      "null_rate": 0.9702768943674929,
+      "min": -299523.58,
+      "max": 130383000000.0,
+      "nonfinite_count": 0
+    },
+    "biz_tax_surchg": {
+      "type": "DOUBLE",
+      "null_count": 1830,
+      "null_rate": 0.006012300575603859,
+      "min": -511103577.51,
+      "max": 295015000000.0,
+      "nonfinite_count": 0
+    },
+    "sell_exp": {
+      "type": "DOUBLE",
+      "null_count": 12661,
+      "null_rate": 0.041596577916787135,
+      "min": -5571866000.0,
+      "max": 74108000000.0,
+      "nonfinite_count": 0
+    },
+    "admin_exp": {
+      "type": "DOUBLE",
+      "null_count": 1060,
+      "null_rate": 0.0034825347596393933,
+      "min": -1954793882.0,
+      "max": 255131000000.0,
+      "nonfinite_count": 0
+    },
+    "fin_exp": {
+      "type": "DOUBLE",
+      "null_count": 7064,
+      "null_rate": 0.023208137303861013,
+      "min": -10849000000.0,
+      "max": 27816000000.0,
+      "nonfinite_count": 0
+    },
+    "assets_impair_loss": {
+      "type": "DOUBLE",
+      "null_count": 57724,
+      "null_rate": 0.1896470155334192,
+      "min": -37233000000.0,
+      "max": 202668000000.0,
+      "nonfinite_count": 0
+    },
+    "prem_refund": {
+      "type": "DOUBLE",
+      "null_count": 301589,
+      "null_rate": 0.9908435619102689,
+      "min": -3077220955.65,
+      "max": 116229000000.0,
+      "nonfinite_count": 0
+    },
+    "compens_payout": {
+      "type": "DOUBLE",
+      "null_count": 300908,
+      "null_rate": 0.9886061975977081,
+      "min": -8868911.87,
+      "max": 358272000000.0,
+      "nonfinite_count": 0
+    },
+    "reser_insur_liab": {
+      "type": "DOUBLE",
+      "null_count": 300533,
+      "null_rate": 0.9873741687912319,
+      "min": -12076000000.0,
+      "max": 461204000000.0,
+      "nonfinite_count": 0
+    },
+    "div_payt": {
+      "type": "DOUBLE",
+      "null_count": 301031,
+      "null_rate": 0.9890103030462323,
+      "min": 0.0,
+      "max": 33491000000.0,
+      "nonfinite_count": 0
+    },
+    "reins_exp": {
+      "type": "DOUBLE",
+      "null_count": 302097,
+      "null_rate": 0.9925125502667753,
+      "min": -82611374.34,
+      "max": 1336000000.0,
+      "nonfinite_count": 0
+    },
+    "oper_exp": {
+      "type": "DOUBLE",
+      "null_count": 298379,
+      "null_rate": 0.9802973953268326,
+      "min": -2701520691.0,
+      "max": 1040759000000.0,
+      "nonfinite_count": 0
+    },
+    "compens_payout_refu": {
+      "type": "DOUBLE",
+      "null_count": 304100,
+      "null_rate": 0.9990932267984335,
+      "min": -20736000000.0,
+      "max": 30256000000.0,
+      "nonfinite_count": 0
+    },
+    "insur_reser_refu": {
+      "type": "DOUBLE",
+      "null_count": 304099,
+      "null_rate": 0.9990899413882829,
+      "min": -14589888978.02,
+      "max": 14666181365.33,
+      "nonfinite_count": 0
+    },
+    "reins_cost_refund": {
+      "type": "DOUBLE",
+      "null_count": 304100,
+      "null_rate": 0.9990932267984335,
+      "min": -9257000000.0,
+      "max": 14605238164.36,
+      "nonfinite_count": 0
+    },
+    "other_bus_cost": {
+      "type": "DOUBLE",
+      "null_count": 299241,
+      "null_rate": 0.9831294188766526,
+      "min": -95685397.0,
+      "max": 96052000000.0,
+      "nonfinite_count": 0
+    },
+    "operate_profit": {
+      "type": "DOUBLE",
+      "null_count": 706,
+      "null_rate": 0.00231949956632586,
+      "min": -71550910000.0,
+      "max": 424111000000.0,
+      "nonfinite_count": 0
+    },
+    "non_oper_income": {
+      "type": "DOUBLE",
+      "null_count": 10968,
+      "null_rate": 0.03603437853181591,
+      "min": -56694262.04,
+      "max": 13274000000.0,
+      "nonfinite_count": 0
+    },
+    "non_oper_exp": {
+      "type": "DOUBLE",
+      "null_count": 10872,
+      "null_rate": 0.035718979157358006,
+      "min": -3122000000.0,
+      "max": 275100000000.0,
+      "nonfinite_count": 0
+    },
+    "nca_disploss": {
+      "type": "DOUBLE",
+      "null_count": 271404,
+      "null_rate": 0.8916734565143113,
+      "min": -120116153.31,
+      "max": 4415301180.99,
+      "nonfinite_count": 0
+    },
+    "total_profit": {
+      "type": "DOUBLE",
+      "null_count": 491,
+      "null_rate": 0.0016131363839461718,
+      "min": -73923814314.97,
+      "max": 424899000000.0,
+      "nonfinite_count": 0
+    },
+    "income_tax": {
+      "type": "DOUBLE",
+      "null_count": 6799,
+      "null_rate": 0.022337503613951166,
+      "min": -11341000000.0,
+      "max": 85515000000.0,
+      "nonfinite_count": 0
+    },
+    "n_income": {
+      "type": "DOUBLE",
+      "null_count": 531,
+      "null_rate": 0.0017445527899702998,
+      "min": -91810091101.49,
+      "max": 370766000000.0,
+      "nonfinite_count": 0
+    },
+    "n_income_attr_p": {
+      "type": "DOUBLE",
+      "null_count": 28,
+      "null_rate": 9.199148421688964e-05,
+      "min": -88556470495.64,
+      "max": 368562000000.0,
+      "nonfinite_count": 0
+    },
+    "minority_gain": {
+      "type": "DOUBLE",
+      "null_count": 74817,
+      "null_rate": 0.2458045312376797,
+      "min": -31772298722.78,
+      "max": 29944363583.65,
+      "nonfinite_count": 0
+    },
+    "oth_compr_income": {
+      "type": "DOUBLE",
+      "null_count": 132980,
+      "null_rate": 0.4368938418272137,
+      "min": -56687000000.0,
+      "max": 61293000000.0,
+      "nonfinite_count": 0
+    },
+    "t_compr_income": {
+      "type": "DOUBLE",
+      "null_count": 2489,
+      "null_rate": 0.008177385864851368,
+      "min": -91215163255.66,
+      "max": 418135000000.0,
+      "nonfinite_count": 0
+    },
+    "compr_inc_attr_p": {
+      "type": "DOUBLE",
+      "null_count": 2502,
+      "null_rate": 0.00822009619680921,
+      "min": -87939855207.67,
+      "max": 418252000000.0,
+      "nonfinite_count": 0
+    },
+    "compr_inc_attr_m_s": {
+      "type": "DOUBLE",
+      "null_count": 75799,
+      "null_rate": 0.24903080400557207,
+      "min": -32056561874.35,
+      "max": 29944363583.65,
+      "nonfinite_count": 0
+    },
+    "ebit": {
+      "type": "DOUBLE",
+      "null_count": 34306,
+      "null_rate": 0.11270928062659342,
+      "min": -57233039995.55,
+      "max": 861502000000.0,
+      "nonfinite_count": 0
+    },
+    "ebitda": {
+      "type": "DOUBLE",
+      "null_count": 149322,
+      "null_rate": 0.49058401450837125,
+      "min": -57125178890.58,
+      "max": 879813000000.0,
+      "nonfinite_count": 0
+    },
+    "insurance_exp": {
+      "type": "DOUBLE",
+      "null_count": 304372,
+      "null_rate": 0.9999868583593976,
+      "min": -9367000000.0,
+      "max": 3576000000.0,
+      "nonfinite_count": 0
+    },
+    "undist_profit": {
+      "type": "DOUBLE",
+      "null_count": 304345,
+      "null_rate": 0.9998981522853313,
+      "min": -1621230113.46,
+      "max": 27866484881.45,
+      "nonfinite_count": 0
+    },
+    "distable_profit": {
+      "type": "DOUBLE",
+      "null_count": 304345,
+      "null_rate": 0.9998981522853313,
+      "min": -1640341402.78,
+      "max": 32499555009.47,
+      "nonfinite_count": 0
+    },
+    "rd_exp": {
+      "type": "DOUBLE",
+      "null_count": 85896,
+      "null_rate": 0.28220359029621256,
+      "min": -16028759.31,
+      "max": 57978105000.0,
+      "nonfinite_count": 0
+    },
+    "fin_exp_int_exp": {
+      "type": "DOUBLE",
+      "null_count": 91822,
+      "null_rate": 0.3016729308486871,
+      "min": -985632000.0,
+      "max": 30409000000.0,
+      "nonfinite_count": 0
+    },
+    "fin_exp_int_inc": {
+      "type": "DOUBLE",
+      "null_count": 74306,
+      "null_rate": 0.24412568665072149,
+      "min": -8183000000.0,
+      "max": 24241021826.0,
+      "nonfinite_count": 0
+    },
+    "transfer_surplus_rese": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "transfer_housing_imprest": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "transfer_oth": {
+      "type": "DOUBLE",
+      "null_count": 304375,
+      "null_rate": 0.9999967145898494,
+      "min": 7890815.2,
+      "max": 7890815.2,
+      "nonfinite_count": 0
+    },
+    "adj_lossgain": {
+      "type": "DOUBLE",
+      "null_count": 304375,
+      "null_rate": 0.9999967145898494,
+      "min": 20245.36,
+      "max": 20245.36,
+      "nonfinite_count": 0
+    },
+    "withdra_legal_surplus": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "withdra_legal_pubfund": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "withdra_biz_devfund": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "withdra_rese_fund": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "withdra_oth_ersu": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "workers_welfare": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "distr_profit_shrhder": {
+      "type": "DOUBLE",
+      "null_count": 304345,
+      "null_rate": 0.9998981522853313,
+      "min": -1640341402.78,
+      "max": 32499555009.47,
+      "nonfinite_count": 0
+    },
+    "prfshare_payable_dvd": {
+      "type": "DOUBLE",
+      "null_count": 304375,
+      "null_rate": 0.9999967145898494,
+      "min": 74947468.5,
+      "max": 74947468.5,
+      "nonfinite_count": 0
+    },
+    "comshare_payable_dvd": {
+      "type": "DOUBLE",
+      "null_count": 304364,
+      "null_rate": 0.9999605750781928,
+      "min": 55727399.31,
+      "max": 3263677674.21,
+      "nonfinite_count": 0
+    },
+    "capit_comstock_div": {
+      "type": "DOUBLE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "net_after_nr_lp_correct": {
+      "type": "DOUBLE",
+      "null_count": 304185,
+      "null_rate": 0.9993724866612348,
+      "min": -2389011196.5,
+      "max": 1731619238.01,
+      "nonfinite_count": 0
+    },
+    "credit_impa_loss": {
+      "type": "DOUBLE",
+      "null_count": 93524,
+      "null_rate": 0.3072646989250138,
+      "min": -57765009885.15,
+      "max": 193491000000.0,
+      "nonfinite_count": 0
+    },
+    "net_expo_hedging_benefits": {
+      "type": "DOUBLE",
+      "null_count": 301723,
+      "null_rate": 0.9912838068704497,
+      "min": -1108442000.0,
+      "max": 202171475.0,
+      "nonfinite_count": 0
+    },
+    "oth_impair_loss_assets": {
+      "type": "DOUBLE",
+      "null_count": 302609,
+      "null_rate": 0.9941946802638841,
+      "min": -3562000000.0,
+      "max": 14548000000.0,
+      "nonfinite_count": 0
+    },
+    "total_opcost": {
+      "type": "DOUBLE",
+      "null_count": 8037,
+      "null_rate": 0.02640484138039793,
+      "min": -74012366.89,
+      "max": 3232467000000.0,
+      "nonfinite_count": 0
+    },
+    "amodcost_fin_assets": {
+      "type": "DOUBLE",
+      "null_count": 294753,
+      "null_rate": 0.9683844981207453,
+      "min": -5911105000.0,
+      "max": 25500000000.0,
+      "nonfinite_count": 0
+    },
+    "oth_income": {
+      "type": "DOUBLE",
+      "null_count": 53914,
+      "null_rate": 0.17712960285962098,
+      "min": -10721229950.18,
+      "max": 21697000000.0,
+      "nonfinite_count": 0
+    },
+    "asset_disp_income": {
+      "type": "DOUBLE",
+      "null_count": 112929,
+      "null_rate": 0.3710180828974689,
+      "min": -5009485000.0,
+      "max": 8982577000.0,
+      "nonfinite_count": 0
+    },
+    "continued_net_profit": {
+      "type": "DOUBLE",
+      "null_count": 58538,
+      "null_rate": 0.1923213393960102,
+      "min": -91810091101.49,
+      "max": 29681530000000.0,
+      "nonfinite_count": 0
+    },
+    "end_net_profit": {
+      "type": "DOUBLE",
+      "null_count": 294808,
+      "null_rate": 0.9685651956790285,
+      "min": -5189903000.0,
+      "max": 11066137000.0,
+      "nonfinite_count": 0
+    },
+    "update_flag": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0",
+      "max": "1",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00006185e3d4e602c1fe1b8c20468107bf71b46fdaa0d1cc9a6a06309cc4e6d3",
+      "max": "ffffc4a9f71fe3851daa65950c77f8a829fe3dfaa6293d8ea5c60371bfaa065f",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0004d9e16d424b36a31a0402c003a948",
+      "max": "fffee06f41644a9cb7358b02e1b1b975",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-26 03:24:39.993649+00:00",
+      "max": "2026-09-29 07:32:39.936263+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-26 03:24:39.993649+00:00",
+      "max": "2026-09-29 16:00:00+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-01 00:00:00",
+      "max": "2026-09-03 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2008-12-31 00:00:00",
+      "max": "2026-06-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-01 00:00:00",
+      "max": "2026-09-03 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2013-04-12 00:00:00",
+      "max": "2026-09-29 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000044832fb1155eee8bff5db23e85fedc001138a57f767c2a5fcc7a32370b08",
+      "max": "ffffefb3fcecf8ae11ae2303f8ad24b3a3af0a371221aba8e80f6a601038e3cd",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 304376,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "ann_date": {
+      "min": "2015-01-01",
+      "max": "2026-09-03",
+      "invalid_count": 0
+    },
+    "f_ann_date": {
+      "min": "2013-04-12",
+      "max": "2026-09-29",
+      "invalid_count": 0
+    },
+    "end_date": {
+      "min": "2008-12-31",
+      "max": "2026-06-30",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "income",
+    "scope": "dataset",
+    "rows": 304376,
+    "physical_rows": 304380,
+    "date_field": "ann_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 304376,
+    "non_latest_or_reobserved_rows": 4,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150101",
+    "end": "20260903",
+    "observed_dates": 2949,
+    "rows_before_2016": 14569,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 2508,
+    "trade_day_coverage": 0.88,
+    "missing_trade_days": 342,
+    "within_span_expected": 2837,
+    "within_span_missing": 329,
+    "nontrading_observed_dates": 441,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 8.67
+}

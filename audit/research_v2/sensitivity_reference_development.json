@@ -1,0 +1,296 @@
+[
+  {
+    "variant": "q75",
+    "period": "reference",
+    "state_agreement": 0.9115929941618015,
+    "known_events": 12,
+    "main_known_events": 13,
+    "event_count_change": -1,
+    "onsets_matched_within20": 11,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 17,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 154,
+    "positive_targets": 37,
+    "target_agreement_on_common_valid_samples": 0.961038961038961,
+    "state_category_counts": {
+      "S0": 813,
+      "S3": 211,
+      "S1": 89,
+      "S2": 86
+    }
+  },
+  {
+    "variant": "q75",
+    "period": "development",
+    "state_agreement": 0.8997252747252747,
+    "known_events": 10,
+    "main_known_events": 9,
+    "event_count_change": 1,
+    "onsets_matched_within20": 9,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 8,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 106,
+    "positive_targets": 35,
+    "target_agreement_on_common_valid_samples": 0.9339622641509434,
+    "state_category_counts": {
+      "S0": 529,
+      "S3": 121,
+      "S2": 52,
+      "S1": 26
+    }
+  },
+  {
+    "variant": "q85",
+    "period": "reference",
+    "state_agreement": 0.9049207673060884,
+    "known_events": 9,
+    "main_known_events": 13,
+    "event_count_change": -4,
+    "onsets_matched_within20": 9,
+    "median_signed_onset_shift_trading_days": 4.0,
+    "max_abs_onset_shift_trading_days": 14,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 185,
+    "positive_targets": 38,
+    "target_agreement_on_common_valid_samples": 0.9285714285714286,
+    "state_category_counts": {
+      "S0": 964,
+      "S3": 125,
+      "S1": 55,
+      "S2": 55
+    }
+  },
+  {
+    "variant": "q85",
+    "period": "development",
+    "state_agreement": 0.8873626373626373,
+    "known_events": 9,
+    "main_known_events": 9,
+    "event_count_change": 0,
+    "onsets_matched_within20": 8,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 4,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 120,
+    "positive_targets": 29,
+    "target_agreement_on_common_valid_samples": 0.9553571428571429,
+    "state_category_counts": {
+      "S0": 599,
+      "S2": 82,
+      "S3": 33,
+      "S1": 14
+    }
+  },
+  {
+    "variant": "exit3",
+    "period": "reference",
+    "state_agreement": 1.0,
+    "known_events": 13,
+    "main_known_events": 13,
+    "event_count_change": 0,
+    "onsets_matched_within20": 13,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 174,
+    "positive_targets": 45,
+    "target_agreement_on_common_valid_samples": 1.0,
+    "state_category_counts": {
+      "S0": 880,
+      "S3": 161,
+      "S2": 79,
+      "S1": 79
+    }
+  },
+  {
+    "variant": "exit3",
+    "period": "development",
+    "state_agreement": 1.0,
+    "known_events": 10,
+    "main_known_events": 9,
+    "event_count_change": 1,
+    "onsets_matched_within20": 9,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 114,
+    "positive_targets": 32,
+    "target_agreement_on_common_valid_samples": 1.0,
+    "state_category_counts": {
+      "S0": 556,
+      "S3": 73,
+      "S2": 72,
+      "S1": 27
+    }
+  },
+  {
+    "variant": "exit10",
+    "period": "reference",
+    "state_agreement": 1.0,
+    "known_events": 12,
+    "main_known_events": 13,
+    "event_count_change": -1,
+    "onsets_matched_within20": 12,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 153,
+    "positive_targets": 33,
+    "target_agreement_on_common_valid_samples": 1.0,
+    "state_category_counts": {
+      "S0": 880,
+      "S3": 161,
+      "S2": 79,
+      "S1": 79
+    }
+  },
+  {
+    "variant": "exit10",
+    "period": "development",
+    "state_agreement": 1.0,
+    "known_events": 7,
+    "main_known_events": 9,
+    "event_count_change": -2,
+    "onsets_matched_within20": 7,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 102,
+    "positive_targets": 30,
+    "target_agreement_on_common_valid_samples": 1.0,
+    "state_category_counts": {
+      "S0": 556,
+      "S3": 73,
+      "S2": 72,
+      "S1": 27
+    }
+  },
+  {
+    "variant": "terminal_drawdown",
+    "period": "reference",
+    "state_agreement": 0.9115929941618015,
+    "known_events": 19,
+    "main_known_events": 13,
+    "event_count_change": 6,
+    "onsets_matched_within20": 13,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 14,
+    "single_stress_day_episode_count": 1,
+    "valid_targets": 152,
+    "positive_targets": 54,
+    "target_agreement_on_common_valid_samples": 0.8648648648648649,
+    "state_category_counts": {
+      "S0": 856,
+      "S3": 137,
+      "S1": 103,
+      "S2": 103
+    }
+  },
+  {
+    "variant": "terminal_drawdown",
+    "period": "development",
+    "state_agreement": 0.875,
+    "known_events": 14,
+    "main_known_events": 9,
+    "event_count_change": 5,
+    "onsets_matched_within20": 9,
+    "median_signed_onset_shift_trading_days": -1.0,
+    "max_abs_onset_shift_trading_days": 11,
+    "single_stress_day_episode_count": 1,
+    "valid_targets": 103,
+    "positive_targets": 38,
+    "target_agreement_on_common_valid_samples": 0.8673469387755102,
+    "state_category_counts": {
+      "S0": 545,
+      "S2": 83,
+      "S3": 65,
+      "S1": 35
+    }
+  },
+  {
+    "variant": "h5",
+    "period": "reference",
+    "state_agreement": 1.0,
+    "known_events": 13,
+    "main_known_events": 13,
+    "event_count_change": 0,
+    "onsets_matched_within20": 13,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 168,
+    "positive_targets": 14,
+    "target_agreement_on_common_valid_samples": 0.8333333333333334,
+    "state_category_counts": {
+      "S0": 880,
+      "S3": 161,
+      "S2": 79,
+      "S1": 79
+    }
+  },
+  {
+    "variant": "h5",
+    "period": "development",
+    "state_agreement": 1.0,
+    "known_events": 9,
+    "main_known_events": 9,
+    "event_count_change": 0,
+    "onsets_matched_within20": 9,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 112,
+    "positive_targets": 10,
+    "target_agreement_on_common_valid_samples": 0.8035714285714286,
+    "state_category_counts": {
+      "S0": 556,
+      "S3": 73,
+      "S2": 72,
+      "S1": 27
+    }
+  },
+  {
+    "variant": "h40",
+    "period": "reference",
+    "state_agreement": 1.0,
+    "known_events": 13,
+    "main_known_events": 13,
+    "event_count_change": 0,
+    "onsets_matched_within20": 13,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 168,
+    "positive_targets": 57,
+    "target_agreement_on_common_valid_samples": 0.9107142857142857,
+    "state_category_counts": {
+      "S0": 880,
+      "S3": 161,
+      "S2": 79,
+      "S1": 79
+    }
+  },
+  {
+    "variant": "h40",
+    "period": "development",
+    "state_agreement": 1.0,
+    "known_events": 9,
+    "main_known_events": 9,
+    "event_count_change": 0,
+    "onsets_matched_within20": 9,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 112,
+    "positive_targets": 55,
+    "target_agreement_on_common_valid_samples": 0.7946428571428571,
+    "state_category_counts": {
+      "S0": 556,
+      "S3": 73,
+      "S2": 72,
+      "S1": 27
+    }
+  }
+]

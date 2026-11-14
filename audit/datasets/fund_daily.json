@@ -1,0 +1,253 @@
+{
+  "dataset": "fund_daily",
+  "category": "fund",
+  "plan": "day",
+  "primary_key": "ts_code trade_date",
+  "date_field": "trade_date",
+  "permission_probe": "available",
+  "active_files": 311,
+  "task_status": {
+    "SUCCESS": 2877
+  },
+  "rows": 2770397,
+  "physical_rows": 2827513,
+  "distinct_content_rows": 2770397,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 57116,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "150001.SZ",
+      "max": "589990.SH",
+      "nonfinite_count": 0
+    },
+    "trade_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150105",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "open": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.131,
+      "max": 155.2,
+      "nonfinite_count": 0
+    },
+    "high": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.134,
+      "max": 169.0,
+      "nonfinite_count": 0
+    },
+    "low": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.13,
+      "max": 141.736,
+      "nonfinite_count": 0
+    },
+    "close": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.132,
+      "max": 155.1,
+      "nonfinite_count": 0
+    },
+    "pre_close": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.132,
+      "max": 155.1,
+      "nonfinite_count": 0
+    },
+    "change": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": -15.51,
+      "max": 14.1,
+      "nonfinite_count": 0
+    },
+    "pct_chg": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": -20.0131,
+      "max": 30.0106,
+      "nonfinite_count": 0
+    },
+    "vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.01,
+      "max": 484096158.92,
+      "nonfinite_count": 0
+    },
+    "amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 145028620.911,
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000007533273bc5224d1de1aeb85600aad3e4ee204acfc545306e4e3b73d7b31",
+      "max": "ffffff94c8225204d91aa90c31cef0509a2db31834eb2138e7310bedb9ebd3cc",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0018562f8dd447df9a5f63d0c3a8e52c",
+      "max": "fffdec5296ee497ab02bbff4c8a0c9c3",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-24 23:49:56.877594+00:00",
+      "max": "2026-09-25 01:45:00.899641+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-24 23:49:56.877594+00:00",
+      "max": "2026-09-25 01:45:00.899641+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-05 00:00:00",
+      "max": "2026-09-22 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 2770397,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 2770397,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 2770397,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000000acaf00aab030c9d34a1f111b741cb108c46f7cd2fcef3f4f3a595497a1",
+      "max": "fffff8f33c93a0f77f76ba45a2f43e6be2ab86bdd212da52b89663d326a0b4d0",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "historical_market_reconstruction",
+      "max": "historical_market_reconstruction",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-05 15:59:59+00:00",
+      "max": "2026-09-22 15:59:59+00:00",
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "trade_date": {
+      "min": "2015-01-05",
+      "max": "2026-09-22",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {
+    "negative_open": 0,
+    "negative_high": 0,
+    "negative_low": 0,
+    "negative_close": 0,
+    "negative_pre_close": 0,
+    "negative_vol": 0,
+    "negative_amount": 0,
+    "invalid_ohlc": 0,
+    "zero_close": 0
+  },
+  "coverage": {
+    "dataset": "fund_daily",
+    "scope": "dataset",
+    "rows": 2770397,
+    "physical_rows": 2827513,
+    "date_field": "trade_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 2770397,
+    "non_latest_or_reobserved_rows": 57116,
+    "anomalies": "{\"negative_open\": 0, \"negative_high\": 0, \"negative_low\": 0, \"negative_close\": 0, \"negative_pre_close\": 0, \"negative_vol\": 0, \"negative_amount\": 0, \"invalid_ohlc\": 0, \"zero_close\": 0}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150105",
+    "end": "20260922",
+    "observed_dates": 2850,
+    "rows_before_2016": 123519,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 2850,
+    "trade_day_coverage": 1.0,
+    "missing_trade_days": 0,
+    "within_span_expected": 2850,
+    "within_span_missing": 0,
+    "nontrading_observed_dates": 0,
+    "coverage_interpretation": "DAILY_DENSE date-level only; not symbol completeness"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 15.19
+}

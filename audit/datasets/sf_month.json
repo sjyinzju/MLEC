@@ -1,0 +1,179 @@
+{
+  "dataset": "sf_month",
+  "category": "macro",
+  "plan": "month",
+  "primary_key": "month",
+  "date_field": null,
+  "permission_probe": "available",
+  "active_files": 13,
+  "task_status": {
+    "SUCCESS": 2
+  },
+  "rows": 140,
+  "physical_rows": 141,
+  "distinct_content_rows": 140,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 1,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "month": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "201501",
+      "max": "202608",
+      "nonfinite_count": 0
+    },
+    "inc_month": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": -658.0,
+      "max": 72185.0,
+      "nonfinite_count": 0
+    },
+    "inc_cumval": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 20468.67,
+      "max": 356033.0,
+      "nonfinite_count": 0
+    },
+    "stk_endval": {
+      "type": "DOUBLE",
+      "null_count": 8,
+      "null_rate": 0.05714285714285714,
+      "min": 127.68,
+      "max": 464.8,
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00979bb9c5fb0f0f6232f4b6814c2a02e2e0942476071f1e757e0105d10c8c2c",
+      "max": "fd9bce80a64b36e6b7f49af141dd76179b9be85efdacf7b978266e3afea946ea",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "bbb7d36f7dfa4c10833deca8c844e154",
+      "max": "bbb7d36f7dfa4c10833deca8c844e154",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 18:18:53.636019+00:00",
+      "max": "2026-10-01 18:18:53.636019+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 18:18:53.636019+00:00",
+      "max": "2026-10-01 18:18:53.636019+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-31 00:00:00",
+      "max": "2026-08-31 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-31 00:00:00",
+      "max": "2026-08-31 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 140,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 140,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "010ba0b2aef08ce73cc8e7a9887f0fcd38813f73525eb98b0376837a934aa981",
+      "max": "fd4f96a8bda74ebc442fc1186cf64a1d433a54ea1b28a26b0e28fb81a7e7fcb8",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 140,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "month": {
+      "min": "201501",
+      "max": "202608",
+      "invalid_count": "UNKNOWN (period string)"
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "sf_month",
+    "scope": "dataset",
+    "rows": 140,
+    "physical_rows": 141,
+    "date_field": "month",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 140,
+    "non_latest_or_reobserved_rows": 1,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "201501",
+    "end": "202608",
+    "observed_dates": 140,
+    "rows_before_2016": 12
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 1.21
+}

@@ -1,0 +1,315 @@
+{
+  "dataset": "moneyflow",
+  "category": "flow",
+  "plan": "day",
+  "primary_key": "ts_code trade_date",
+  "date_field": "trade_date",
+  "permission_probe": "available",
+  "active_files": 413,
+  "task_status": {
+    "SUCCESS": 2877
+  },
+  "rows": 11421685,
+  "physical_rows": 11571464,
+  "distinct_content_rows": 11421685,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 149779,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001.SZ",
+      "max": "920992.BJ",
+      "nonfinite_count": 0
+    },
+    "trade_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150105",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "buy_sm_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 18005940.0,
+      "nonfinite_count": 0
+    },
+    "buy_sm_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 4330722.85,
+      "nonfinite_count": 0
+    },
+    "sell_sm_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 27733352.0,
+      "nonfinite_count": 0
+    },
+    "sell_sm_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 6365281.46,
+      "nonfinite_count": 0
+    },
+    "buy_md_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 17009057.0,
+      "nonfinite_count": 0
+    },
+    "buy_md_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 3486452.93,
+      "nonfinite_count": 0
+    },
+    "sell_md_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 13920066.0,
+      "nonfinite_count": 0
+    },
+    "sell_md_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 4835448.3,
+      "nonfinite_count": 0
+    },
+    "buy_lg_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 14129949.0,
+      "nonfinite_count": 0
+    },
+    "buy_lg_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 2789789.45,
+      "nonfinite_count": 0
+    },
+    "sell_lg_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 14808258.0,
+      "nonfinite_count": 0
+    },
+    "sell_lg_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 2734820.12,
+      "nonfinite_count": 0
+    },
+    "buy_elg_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 26322734.0,
+      "nonfinite_count": 0
+    },
+    "buy_elg_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 5032358.57,
+      "nonfinite_count": 0
+    },
+    "sell_elg_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 22449862.0,
+      "nonfinite_count": 0
+    },
+    "sell_elg_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 4109248.97,
+      "nonfinite_count": 0
+    },
+    "net_mf_vol": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": -11718710.0,
+      "max": 12121423.0,
+      "nonfinite_count": 0
+    },
+    "net_mf_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": -1712911.76,
+      "max": 2839774.54,
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00000061760ea2fb354a84b55a027bcf98cfedd9c40c81823ca855d0b115213e",
+      "max": "fffffa7d596082a9f0a64712f00dac744adfebe405ff12fee872e9ac63019eec",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0001c0868270404b805a58b6dfeced31",
+      "max": "ffeb6019b3d84268b8ec8c94be4fa5b9",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-30 10:50:01.534795+00:00",
+      "max": "2026-09-30 12:16:51.440317+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-30 10:50:01.534795+00:00",
+      "max": "2026-09-30 12:16:51.440317+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-05 00:00:00",
+      "max": "2026-09-22 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 11421685,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 11421685,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 11421685,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0000010a9fa6e6d7d2e0bb856b67e0fc0b886744f61c282a4b259870861c3af8",
+      "max": "fffffed88750f9ce82d1ba477a002b72bbd081146c3397eb6e71e82955e0cb65",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 11421685,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "trade_date": {
+      "min": "2015-01-05",
+      "max": "2026-09-22",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "moneyflow",
+    "scope": "dataset",
+    "rows": 11421685,
+    "physical_rows": 11571464,
+    "date_field": "trade_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 11421685,
+    "non_latest_or_reobserved_rows": 149779,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150105",
+    "end": "20260922",
+    "observed_dates": 2850,
+    "rows_before_2016": 569714,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 2850,
+    "trade_day_coverage": 1.0,
+    "missing_trade_days": 0,
+    "within_span_expected": 2850,
+    "within_span_missing": 0,
+    "nontrading_observed_dates": 0,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 87.89
+}

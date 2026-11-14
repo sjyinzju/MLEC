@@ -1,0 +1,30 @@
+{
+  "key": [
+    "sample_id",
+    "fold_id",
+    "horizon",
+    "model_id"
+  ],
+  "required_columns": {
+    "sample_id": "same M and M+Z market ID",
+    "fold_id": "frozen manifest",
+    "horizon": "20 primary,5/40 auxiliary",
+    "model_id": "M or M_plus_Z",
+    "probability": "future actual model probability in [0,1]; no fabricated values",
+    "trained_at_cutoff": "must match fold fit_cutoff",
+    "feature_version": "frozen version",
+    "common_sample_version": "same for paired models"
+  },
+  "pairing": "inner join on shared sample_id,fold_id,horizon after joint macro-coverage acceptance, NOT independently dropped samples",
+  "scoring": [
+    "Brier",
+    "Log Loss",
+    "event detection",
+    "false alarms",
+    "lead_to_trigger"
+  ],
+  "event_attribution": "onset date defines evaluation period; earliest eligible pre-onset alarm per event, no duplicate event count across samples; multiple alarms are not multiple events",
+  "lead_to_trigger": "SSE trading-day distance from alarm to frozen threshold-trigger onset, not crash beginning",
+  "mature_label_release": "end of full H at 18:00, symmetric for positive/negative",
+  "no_predictions_produced": true
+}

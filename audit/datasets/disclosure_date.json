@@ -1,0 +1,223 @@
+{
+  "dataset": "disclosure_date",
+  "category": "financial",
+  "plan": "stock_range",
+  "primary_key": "",
+  "date_field": "actual_date",
+  "permission_probe": "available",
+  "active_files": 158,
+  "task_status": {
+    "SUCCESS": 5907
+  },
+  "rows": 300176,
+  "physical_rows": 300415,
+  "distinct_content_rows": 300176,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 239,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001.SZ",
+      "max": "920992.BJ",
+      "nonfinite_count": 0
+    },
+    "ann_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "19901228",
+      "max": "20260929",
+      "nonfinite_count": 0
+    },
+    "end_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "19901231",
+      "max": "20260930",
+      "nonfinite_count": 0
+    },
+    "pre_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "19901231",
+      "max": "20261113",
+      "nonfinite_count": 0
+    },
+    "actual_date": {
+      "type": "VARCHAR",
+      "null_count": 2504,
+      "null_rate": 0.00834177282660839,
+      "min": "19901231",
+      "max": "20260831",
+      "nonfinite_count": 0
+    },
+    "modify_date": {
+      "type": "VARCHAR",
+      "null_count": 285721,
+      "null_rate": 0.951844917648313,
+      "min": "19980515",
+      "max": "20260928",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00003cad0a7d2f0157fea44a15d5ae0f721e18c4a30278dad6e401910d6a5421",
+      "max": "ffffa77f9a8715f5468b6544d27c7c43d79396aef3d284cd9384cbef9ab5258c",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000521977aa340ed971fc4be85c02f7d",
+      "max": "fff09b9b64a04fcaa9005fc339b38dc3",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-29 17:47:43.559689+00:00",
+      "max": "2026-09-29 20:52:04.231042+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-29 17:47:43.559689+00:00",
+      "max": "2026-09-29 20:52:04.231042+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 2504,
+      "null_rate": 0.00834177282660839,
+      "min": "1990-12-31 00:00:00",
+      "max": "2026-08-31 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "1990-12-31 00:00:00",
+      "max": "2026-09-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "1990-12-28 00:00:00",
+      "max": "2026-09-29 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 300176,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00004cd9fa94820eac21895e8ed490f5d835ddcc206ae10fb268343241af934d",
+      "max": "fffff5c8595caa47de10e6a65328e613dae88a73dbe4bd909931fefa94278027",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 300176,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "ann_date": {
+      "min": "1990-12-28",
+      "max": "2026-09-29",
+      "invalid_count": 0
+    },
+    "end_date": {
+      "min": "1990-12-31",
+      "max": "2026-09-30",
+      "invalid_count": 0
+    },
+    "pre_date": {
+      "min": "1990-12-31",
+      "max": "2026-11-13",
+      "invalid_count": 0
+    },
+    "actual_date": {
+      "min": "1990-12-31",
+      "max": "2026-08-31",
+      "invalid_count": 0
+    },
+    "modify_date": {
+      "min": "1998-05-15",
+      "max": "2026-09-28",
+      "invalid_count": 1200
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "disclosure_date",
+    "scope": "dataset",
+    "rows": 300176,
+    "physical_rows": 300415,
+    "date_field": "actual_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 300176,
+    "non_latest_or_reobserved_rows": 239,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "19901231",
+    "end": "20260831",
+    "observed_dates": 4471,
+    "rows_before_2016": 111450,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 1276,
+    "trade_day_coverage": 0.447719298245614,
+    "missing_trade_days": 1574,
+    "within_span_expected": 2834,
+    "within_span_missing": 1558,
+    "nontrading_observed_dates": 305,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 9.84
+}

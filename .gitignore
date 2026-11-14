@@ -1,0 +1,49 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter and R session state
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system metadata
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+Desktop.ini
+
+# Temporary pipeline output
+*.partial
+*.tmp
+/audit/research_v2/temp/
+
+# Generated audit inventory exceeds GitHub's per-file size limit
+/audit/file_manifest.csv
+
+# Local archives of directories already stored in this repository
+/data_raw.zip
+/deliverables.zip

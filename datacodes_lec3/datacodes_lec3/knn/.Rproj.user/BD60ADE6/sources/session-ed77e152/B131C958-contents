@@ -1,0 +1,17 @@
+
+
+# 清除当前的环境
+rm(list = ls())
+
+load("/Users/hongliangzhang/Documents/MLEcon/econometrics_stata/MLR_Data/Data_ElemStatLearn.RData")
+
+library(dplyr)
+
+mixture <- mixture.example[names(mixture.example) %in% c("x","y","xnew","px1","px2")]
+
+rm(prostate)
+rm(SAheart)
+rm(spam)
+rm(mixture.example)
+
+save.image("/Users/hongliangzhang/Documents/MLEcon/datacodes/knn/mixture.RData")

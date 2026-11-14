@@ -1,0 +1,258 @@
+{
+  "dataset": "new_share",
+  "category": "master",
+  "plan": "range",
+  "primary_key": "ts_code ipo_date",
+  "date_field": "ipo_date",
+  "permission_probe": "available",
+  "active_files": 2,
+  "task_status": {
+    "SUCCESS": 143
+  },
+  "rows": 3252,
+  "physical_rows": 3275,
+  "distinct_content_rows": 3256,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 19,
+  "content_versions_beyond_latest": 4,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "001201.SZ",
+      "max": "920931.BJ",
+      "nonfinite_count": 0
+    },
+    "sub_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "001201",
+      "max": "920298",
+      "nonfinite_count": 0
+    },
+    "name": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "*ST富吉",
+      "max": "龙高股份",
+      "nonfinite_count": 0
+    },
+    "ipo_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150112",
+      "max": "20260921",
+      "nonfinite_count": 0
+    },
+    "issue_date": {
+      "type": "VARCHAR",
+      "null_count": 4,
+      "null_rate": 0.0012300123001230013,
+      "min": "20150120",
+      "max": "20261009",
+      "nonfinite_count": 0
+    },
+    "amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 120.0,
+      "max": 1057477.0,
+      "nonfinite_count": 0
+    },
+    "market_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 625451.0,
+      "nonfinite_count": 0
+    },
+    "price": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 557.8,
+      "nonfinite_count": 0
+    },
+    "pe": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 1737.49,
+      "nonfinite_count": 0
+    },
+    "limit_amount": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.2,
+      "max": 471.75,
+      "nonfinite_count": 0
+    },
+    "funds": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 1321.86,
+      "nonfinite_count": 0
+    },
+    "ballot": {
+      "type": "DOUBLE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": 0.0,
+      "max": 25.85,
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0000e7a60919b0023738c74a34c3d5313fe0a959eeed755160282c7230a5efe9",
+      "max": "ffe325b1b4134b45014208cd558479cb8354a179ce5b62e57d81c151726c725c",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "009e3832568645709904618f86826f43",
+      "max": "ff22a1c43322417cbd8257955c1d2d6c",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 18:07:23.712594+00:00",
+      "max": "2026-10-01 18:09:40.924162+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 18:07:23.712594+00:00",
+      "max": "2026-10-01 18:09:40.924162+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-01-12 00:00:00",
+      "max": "2026-09-21 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 3252,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 3252,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 3252,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0002aa50b417bca6d896be46e332aaf03e55ce0ee08e4a795ef7efd14d23fcb5",
+      "max": "ffe10af3e1e606b54a56b72ed96c9b02c9ed140aab1c831b418c0462bc9c18c7",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 3252,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "ipo_date": {
+      "min": "2015-01-12",
+      "max": "2026-09-21",
+      "invalid_count": 0
+    },
+    "issue_date": {
+      "min": "2015-01-20",
+      "max": "2026-10-09",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {
+    "negative_amount": 0
+  },
+  "coverage": {
+    "dataset": "new_share",
+    "scope": "dataset",
+    "rows": 3252,
+    "physical_rows": 3275,
+    "date_field": "ipo_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 3256,
+    "non_latest_or_reobserved_rows": 23,
+    "anomalies": "{\"negative_amount\": 0}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150112",
+    "end": "20260921",
+    "observed_dates": 1653,
+    "rows_before_2016": 220,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 1653,
+    "trade_day_coverage": 0.58,
+    "missing_trade_days": 1197,
+    "within_span_expected": 2844,
+    "within_span_missing": 1191,
+    "nontrading_observed_dates": 0,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 0.58
+}

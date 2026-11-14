@@ -1,0 +1,216 @@
+{
+  "dataset": "stk_rewards",
+  "category": "event",
+  "plan": "stock_range",
+  "primary_key": "",
+  "date_field": "ann_date",
+  "permission_probe": "available",
+  "active_files": 208,
+  "task_status": {
+    "SUCCESS": 5907
+  },
+  "rows": 1642908,
+  "physical_rows": 1645115,
+  "distinct_content_rows": 1642908,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 2207,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001.SZ",
+      "max": "920992.BJ",
+      "nonfinite_count": 0
+    },
+    "ann_date": {
+      "type": "VARCHAR",
+      "null_count": 122,
+      "null_rate": 7.425857077815679e-05,
+      "min": "19920526",
+      "max": "20260921",
+      "nonfinite_count": 0
+    },
+    "end_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "19911231",
+      "max": "20260922",
+      "nonfinite_count": 0
+    },
+    "name": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "AHN SEUNG HAN",
+      "max": "龚龙",
+      "nonfinite_count": 0
+    },
+    "title": {
+      "type": "VARCHAR",
+      "null_count": 53229,
+      "null_rate": 0.032399257901233665,
+      "min": "(非执行)董事",
+      "max": "龙泰定制维修车间副主任",
+      "nonfinite_count": 0
+    },
+    "reward": {
+      "type": "DOUBLE",
+      "null_count": 477794,
+      "null_rate": 0.29082212759326753,
+      "min": -300.0,
+      "max": 86529100.0,
+      "nonfinite_count": 0
+    },
+    "hold_vol": {
+      "type": "DOUBLE",
+      "null_count": 24318,
+      "null_rate": 0.014801802657239481,
+      "min": 0.0,
+      "max": 3062162258.0,
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0000067bd2a7db3f7b8fb660602da90f0669dfa88282ea49424609a7f8b12d45",
+      "max": "fffff9cedfbc88ef188a45dba2d5cbe1778ea4a15476700df0cf33ee24bfda35",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000f3489668c4bf4823d46ceb2774dc2",
+      "max": "ffe8277ceb0748be9f379edfb84de2fe",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 04:46:29.835982+00:00",
+      "max": "2026-10-01 14:56:49.902796+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-10-01 04:46:29.835982+00:00",
+      "max": "2026-10-01 14:56:49.902796+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 122,
+      "null_rate": 7.425857077815679e-05,
+      "min": "1992-05-26 00:00:00",
+      "max": "2026-09-21 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 1642908,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 122,
+      "null_rate": 7.425857077815679e-05,
+      "min": "1992-05-26 00:00:00",
+      "max": "2026-09-21 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 1642908,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00000125794d39abc25b78c8f49a75c9b90625abf9d5ee3f4967bc3d2e27bbdd",
+      "max": "fffff2d3ca2ee87874c3f9d352f4031fe0699985da581ca13a747dd1450ab1e9",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 1642908,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "ann_date": {
+      "min": "1992-05-26",
+      "max": "2026-09-21",
+      "invalid_count": 0
+    },
+    "end_date": {
+      "min": "1991-12-31",
+      "max": "2026-09-22",
+      "invalid_count": 14
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "stk_rewards",
+    "scope": "dataset",
+    "rows": 1642908,
+    "physical_rows": 1645115,
+    "date_field": "ann_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 1642908,
+    "non_latest_or_reobserved_rows": 2207,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "19920526",
+    "end": "20260921",
+    "observed_dates": 5571,
+    "rows_before_2016": 577004,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 2317,
+    "trade_day_coverage": 0.8129824561403509,
+    "missing_trade_days": 533,
+    "within_span_expected": 2849,
+    "within_span_missing": 532,
+    "nontrading_observed_dates": 408,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 15.11
+}

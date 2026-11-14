@@ -1,0 +1,14 @@
+{
+  "volatility": "V: vol_20d>frozen qV",
+  "downside": "D: mdd_20d>frozen qD",
+  "trend": "ret_60d continuous; no bull/bear/sideways classes",
+  "activity": {
+    "quantile": 0.2,
+    "threshold": 0.8456945963691376,
+    "reference_n": 1200,
+    "operator": "<",
+    "meaning": "low activity, not liquidity crisis"
+  },
+  "structure_liquidity": "separate high proxy flags based on reference q80; not main pressure",
+  "missing_label": "NA, never no risk"
+}

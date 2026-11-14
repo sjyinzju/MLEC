@@ -1,0 +1,149 @@
+[
+  {
+    "variant": "q75",
+    "period": "heldout",
+    "state_agreement": 0.9258028792912514,
+    "known_events": 8,
+    "main_known_events": 4,
+    "event_count_change": 4,
+    "onsets_matched_within20": 4,
+    "median_signed_onset_shift_trading_days": -1.5,
+    "max_abs_onset_shift_trading_days": 11,
+    "single_stress_day_episode_count": 1,
+    "valid_targets": 157,
+    "positive_targets": 31,
+    "target_agreement_on_common_valid_samples": 0.8980891719745223,
+    "state_category_counts": {
+      "S0": 797,
+      "S3": 59,
+      "S2": 36,
+      "S1": 11
+    }
+  },
+  {
+    "variant": "q85",
+    "period": "heldout",
+    "state_agreement": 0.9756367663344407,
+    "known_events": 3,
+    "main_known_events": 4,
+    "event_count_change": -1,
+    "onsets_matched_within20": 3,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 173,
+    "positive_targets": 14,
+    "target_agreement_on_common_valid_samples": 0.9764705882352941,
+    "state_category_counts": {
+      "S0": 857,
+      "S2": 24,
+      "S3": 18,
+      "S1": 4
+    }
+  },
+  {
+    "variant": "exit3",
+    "period": "heldout",
+    "state_agreement": 1.0,
+    "known_events": 4,
+    "main_known_events": 4,
+    "event_count_change": 0,
+    "onsets_matched_within20": 4,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 172,
+    "positive_targets": 18,
+    "target_agreement_on_common_valid_samples": 1.0,
+    "state_category_counts": {
+      "S0": 846,
+      "S3": 29,
+      "S2": 24,
+      "S1": 4
+    }
+  },
+  {
+    "variant": "exit10",
+    "period": "heldout",
+    "state_agreement": 1.0,
+    "known_events": 4,
+    "main_known_events": 4,
+    "event_count_change": 0,
+    "onsets_matched_within20": 4,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 166,
+    "positive_targets": 18,
+    "target_agreement_on_common_valid_samples": 1.0,
+    "state_category_counts": {
+      "S0": 846,
+      "S3": 29,
+      "S2": 24,
+      "S1": 4
+    }
+  },
+  {
+    "variant": "terminal_drawdown",
+    "period": "heldout",
+    "state_agreement": 0.9213732004429679,
+    "known_events": 17,
+    "main_known_events": 4,
+    "event_count_change": 13,
+    "onsets_matched_within20": 4,
+    "median_signed_onset_shift_trading_days": -1.5,
+    "max_abs_onset_shift_trading_days": 7,
+    "single_stress_day_episode_count": 4,
+    "valid_targets": 147,
+    "positive_targets": 55,
+    "target_agreement_on_common_valid_samples": 0.7152777777777778,
+    "state_category_counts": {
+      "S0": 796,
+      "S2": 74,
+      "S3": 30,
+      "S1": 3
+    }
+  },
+  {
+    "variant": "h5",
+    "period": "heldout",
+    "state_agreement": 1.0,
+    "known_events": 4,
+    "main_known_events": 4,
+    "event_count_change": 0,
+    "onsets_matched_within20": 4,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 173,
+    "positive_targets": 5,
+    "target_agreement_on_common_valid_samples": 0.9235294117647059,
+    "state_category_counts": {
+      "S0": 846,
+      "S3": 29,
+      "S2": 24,
+      "S1": 4
+    }
+  },
+  {
+    "variant": "h40",
+    "period": "heldout",
+    "state_agreement": 1.0,
+    "known_events": 4,
+    "main_known_events": 4,
+    "event_count_change": 0,
+    "onsets_matched_within20": 4,
+    "median_signed_onset_shift_trading_days": 0.0,
+    "max_abs_onset_shift_trading_days": 0,
+    "single_stress_day_episode_count": 0,
+    "valid_targets": 167,
+    "positive_targets": 34,
+    "target_agreement_on_common_valid_samples": 0.9041916167664671,
+    "state_category_counts": {
+      "S0": 846,
+      "S3": 29,
+      "S2": 24,
+      "S1": 4
+    }
+  }
+]

@@ -1,0 +1,176 @@
+{"time": "2026-11-05T00:38:26.785537+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T00:38:27.578455+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T00:38:27.583621+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T00:38:29.467636+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T00:38:30.956479+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T00:38:30.970894+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T00:38:31.687862+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T00:38:31.693397+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T00:38:31.715212+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T00:38:31.758762+08:00", "stage": "core_start", "budget": {"artifact_bytes": 648393, "free_bytes": 30218272768}}
+{"time": "2026-11-05T00:39:59.086898+08:00", "stage": "core_complete", "daily": 2850, "weekly_candidates": 599, "thresholds": {"q": 0.8, "qV": 0.2885222861765467, "qD": 0.07657789222188992, "loss_metric": "mdd_20d", "reference_start": "2015-02-02", "reference_end": "2019-12-31", "reference_n": 1199, "vol_unit": "annualized fraction", "loss_unit": "nonnegative price loss fraction", "algorithm": "numpy.quantile(method=linear)", "reference_only": true, "threshold_version": "thr-bc957a16047c6fd2"}}
+{"time": "2026-11-05T00:39:59.127340+08:00", "stage": "FAILED", "error": "TypeError(\"log() got multiple values for argument 'stage'\")"}
+{"time": "2026-11-05T00:40:26.334982+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T00:40:26.376611+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T00:40:26.376611+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T00:40:26.407623+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T00:40:26.432691+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T00:40:26.437136+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T00:40:26.464545+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T00:40:26.464545+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T00:40:26.470585+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T00:40:26.525606+08:00", "stage": "extensions_start", "budget": {"artifact_bytes": 3283813, "free_bytes": 30215589888}}
+{"time": "2026-11-05T00:40:30.598543+08:00", "stage": "stock_year_complete", "year": 2015, "observations": 570066, "valid_returns": 562783}
+{"time": "2026-11-05T00:40:34.468001+08:00", "stage": "stock_year_complete", "year": 2016, "observations": 641965, "valid_returns": 638750}
+{"time": "2026-11-05T00:40:38.676442+08:00", "stage": "stock_year_complete", "year": 2017, "observations": 743697, "valid_returns": 740555}
+{"time": "2026-11-05T00:40:42.943648+08:00", "stage": "stock_year_complete", "year": 2018, "observations": 817340, "valid_returns": 815216}
+{"time": "2026-11-05T00:40:47.346240+08:00", "stage": "stock_year_complete", "year": 2019, "observations": 885088, "valid_returns": 883703}
+{"time": "2026-11-05T00:40:52.111656+08:00", "stage": "stock_year_complete", "year": 2020, "observations": 945962, "valid_returns": 944522}
+{"time": "2026-11-05T00:40:57.374978+08:00", "stage": "stock_year_complete", "year": 2021, "observations": 1058863, "valid_returns": 1057374}
+{"time": "2026-11-05T00:41:02.984075+08:00", "stage": "stock_year_complete", "year": 2022, "observations": 1146263, "valid_returns": 1145095}
+{"time": "2026-11-05T00:41:08.970267+08:00", "stage": "stock_year_complete", "year": 2023, "observations": 1209468, "valid_returns": 1208600}
+{"time": "2026-11-05T00:41:15.068988+08:00", "stage": "stock_year_complete", "year": 2024, "observations": 1233202, "valid_returns": 1232520}
+{"time": "2026-11-05T00:41:21.012381+08:00", "stage": "stock_year_complete", "year": 2025, "observations": 1247891, "valid_returns": 1247168}
+{"time": "2026-11-05T00:41:25.820657+08:00", "stage": "stock_year_complete", "year": 2026, "observations": 913042, "valid_returns": 912529}
+{"time": "2026-11-05T00:41:37.720676+08:00", "stage": "extensions_complete", "certification": {"master_stocks": 5554, "listed_status_counts": {"L": 5221, "D": 333}, "delisted_stocks_retained": 333, "source_observations": 11412847, "excluded_observations_by_reason": {"nonadjacent_or_first_price": 17656, "absent_master": 4265, "suspension_endpoint": 2111}, "listing_or_code_issue_rows": 4265, "expected_price_gaps": 282674, "gaps_with_same_day_suspension": 271480, "unexplained_price_gaps": 11194, "available_mapping_rows": 248, "mapping_scope": "BSE only; no complete historical SH/SZ code-change ledger", "universe_certification": "BLOCKED for exact CSI300/full historical market universe; dated master includes delisted but observed-revision and code-history gaps remain", "suspension_interpretation": "S day records excluded on both return endpoints; R is resumption, not suspension. Missing S record does not certify normal trading; unresolved gaps reported", "proxy_qualification": "conditional observed stock pairs; complete 20/60 same-date windows, no pairwise missing deletion or zero imputation", "proxy_research_status": "PROXY, optional inputs disabled in default main whitelist"}}
+{"time": "2026-11-05T00:41:37.875576+08:00", "stage": "FAILED", "error": "PermissionError(13, '另一个程序正在使用此文件，进程无法访问。')"}
+{"time": "2026-11-05T00:42:24.010963+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T00:42:24.044185+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T00:42:24.048205+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T00:42:24.071601+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T00:42:24.097768+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T00:42:24.100778+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T00:42:24.128266+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T00:42:24.130261+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T00:42:24.133261+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T00:42:24.189249+08:00", "stage": "extensions_start", "budget": {"artifact_bytes": 257104604, "free_bytes": 29961224192}}
+{"time": "2026-11-05T00:42:28.128545+08:00", "stage": "stock_year_complete", "year": 2015, "observations": 570066, "valid_returns": 562783}
+{"time": "2026-11-05T00:42:32.136618+08:00", "stage": "stock_year_complete", "year": 2016, "observations": 641965, "valid_returns": 638750}
+{"time": "2026-11-05T00:42:36.331103+08:00", "stage": "stock_year_complete", "year": 2017, "observations": 743697, "valid_returns": 740555}
+{"time": "2026-11-05T00:42:40.723343+08:00", "stage": "stock_year_complete", "year": 2018, "observations": 817340, "valid_returns": 815216}
+{"time": "2026-11-05T00:42:45.434035+08:00", "stage": "stock_year_complete", "year": 2019, "observations": 885088, "valid_returns": 883703}
+{"time": "2026-11-05T00:42:50.342186+08:00", "stage": "stock_year_complete", "year": 2020, "observations": 945962, "valid_returns": 944522}
+{"time": "2026-11-05T00:42:55.781209+08:00", "stage": "stock_year_complete", "year": 2021, "observations": 1058863, "valid_returns": 1057374}
+{"time": "2026-11-05T00:43:01.629412+08:00", "stage": "stock_year_complete", "year": 2022, "observations": 1146263, "valid_returns": 1145095}
+{"time": "2026-11-05T00:43:07.856091+08:00", "stage": "stock_year_complete", "year": 2023, "observations": 1209468, "valid_returns": 1208600}
+{"time": "2026-11-05T00:43:14.233576+08:00", "stage": "stock_year_complete", "year": 2024, "observations": 1233202, "valid_returns": 1232520}
+{"time": "2026-11-05T00:43:20.598729+08:00", "stage": "stock_year_complete", "year": 2025, "observations": 1247891, "valid_returns": 1247168}
+{"time": "2026-11-05T00:43:25.864460+08:00", "stage": "stock_year_complete", "year": 2026, "observations": 913042, "valid_returns": 912529}
+{"time": "2026-11-05T00:43:38.019577+08:00", "stage": "extensions_complete", "certification": {"master_stocks": 5554, "listed_status_counts": {"L": 5221, "D": 333}, "delisted_stocks_retained": 333, "source_observations": 11412847, "excluded_observations_by_reason": {"nonadjacent_or_first_price": 17656, "absent_master": 4265, "suspension_endpoint": 2111}, "listing_or_code_issue_rows": 4265, "expected_price_gaps": 282674, "gaps_with_same_day_suspension": 271480, "unexplained_price_gaps": 11194, "available_mapping_rows": 248, "mapping_scope": "BSE only; no complete historical SH/SZ code-change ledger", "universe_certification": "BLOCKED for exact CSI300/full historical market universe; dated master includes delisted but observed-revision and code-history gaps remain", "suspension_interpretation": "S day records excluded on both return endpoints; R is resumption, not suspension. Missing S record does not certify normal trading; unresolved gaps reported", "proxy_qualification": "conditional observed stock pairs; complete 20/60 same-date windows, no pairwise missing deletion or zero imputation", "proxy_research_status": "PROXY, optional inputs disabled in default main whitelist"}}
+{"time": "2026-11-05T00:43:38.508059+08:00", "stage": "run_complete", "selected_stage": "extensions", "source_registry_unchanged": true, "budget": {"artifact_bytes": 161125691, "free_bytes": 30057185280}}
+{"time": "2026-11-05T00:46:35.183238+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T00:46:35.212645+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T00:46:35.216665+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T00:46:35.243402+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T00:46:35.266753+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T00:46:35.266753+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T00:46:35.295382+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T00:46:35.297379+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T00:46:35.299380+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T00:46:35.349909+08:00", "stage": "core_start", "budget": {"artifact_bytes": 161154105, "free_bytes": 30057152512}}
+{"time": "2026-11-05T00:47:05.670241+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T00:47:05.702243+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T00:47:05.705754+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T00:47:05.730524+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T00:47:05.753197+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T00:47:05.754947+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T00:47:05.780416+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T00:47:05.780416+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T00:47:05.784010+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T00:47:05.840806+08:00", "stage": "validation_start"}
+{"time": "2026-11-05T00:48:03.615990+08:00", "stage": "core_complete", "daily": 2850, "weekly_candidates": 599, "thresholds": {"q": 0.8, "qV": 0.2885222861765467, "qD": 0.07657789222188992, "loss_metric": "mdd_20d", "reference_start": "2015-02-02", "reference_end": "2019-12-31", "reference_n": 1199, "vol_unit": "annualized fraction", "loss_unit": "nonnegative price loss fraction", "algorithm": "numpy.quantile(method=linear)", "reference_only": true, "threshold_version": "thr-bc957a16047c6fd2"}}
+{"time": "2026-11-05T00:48:03.777120+08:00", "stage": "run_complete", "selected_stage": "core", "source_registry_unchanged": true, "budget": {"artifact_bytes": 161201589, "free_bytes": 30057103360}}
+{"time": "2026-11-05T00:48:32.378256+08:00", "stage": "FAILED", "error": "AssertionError('DataFrame are different\\n\\nDataFrame shape mismatch\\n[left]:  (903, 11)\\n[right]: (903, 10)')"}
+{"time": "2026-11-05T00:55:25.167790+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T00:55:25.205377+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T00:55:25.207123+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T00:55:25.232762+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T00:55:25.255609+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T00:55:25.258135+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T00:55:25.282153+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T00:55:25.282153+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T00:55:25.288359+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T00:55:25.336510+08:00", "stage": "core_start", "budget": {"artifact_bytes": 161244882, "free_bytes": 30057062400}}
+{"time": "2026-11-05T00:56:52.417946+08:00", "stage": "core_complete", "daily": 2850, "weekly_candidates": 599, "thresholds": {"q": 0.8, "qV": 0.2885222861765467, "qD": 0.07657789222188992, "loss_metric": "mdd_20d", "reference_start": "2015-02-02", "reference_end": "2019-12-31", "reference_n": 1199, "vol_unit": "annualized fraction", "loss_unit": "nonnegative price loss fraction", "algorithm": "numpy.quantile(method=linear)", "reference_only": true, "threshold_version": "thr-bc957a16047c6fd2"}}
+{"time": "2026-11-05T00:56:52.433028+08:00", "stage": "extensions_start", "budget": {"artifact_bytes": 161291414, "free_bytes": 30057013248}}
+{"time": "2026-11-05T00:56:56.328220+08:00", "stage": "stock_year_complete", "year": 2015, "observations": 570066, "valid_returns": 562783}
+{"time": "2026-11-05T00:57:00.120671+08:00", "stage": "stock_year_complete", "year": 2016, "observations": 641965, "valid_returns": 638750}
+{"time": "2026-11-05T00:57:04.421604+08:00", "stage": "stock_year_complete", "year": 2017, "observations": 743697, "valid_returns": 740555}
+{"time": "2026-11-05T00:57:08.744073+08:00", "stage": "stock_year_complete", "year": 2018, "observations": 817340, "valid_returns": 815216}
+{"time": "2026-11-05T00:57:13.276275+08:00", "stage": "stock_year_complete", "year": 2019, "observations": 885088, "valid_returns": 883703}
+{"time": "2026-11-05T00:57:18.115725+08:00", "stage": "stock_year_complete", "year": 2020, "observations": 945962, "valid_returns": 944522}
+{"time": "2026-11-05T00:57:23.451871+08:00", "stage": "stock_year_complete", "year": 2021, "observations": 1058863, "valid_returns": 1057374}
+{"time": "2026-11-05T00:57:29.317005+08:00", "stage": "stock_year_complete", "year": 2022, "observations": 1146263, "valid_returns": 1145095}
+{"time": "2026-11-05T00:57:35.465857+08:00", "stage": "stock_year_complete", "year": 2023, "observations": 1209468, "valid_returns": 1208600}
+{"time": "2026-11-05T00:57:41.710003+08:00", "stage": "stock_year_complete", "year": 2024, "observations": 1233202, "valid_returns": 1232520}
+{"time": "2026-11-05T00:57:48.066627+08:00", "stage": "stock_year_complete", "year": 2025, "observations": 1247891, "valid_returns": 1247168}
+{"time": "2026-11-05T00:57:53.146725+08:00", "stage": "stock_year_complete", "year": 2026, "observations": 913042, "valid_returns": 912529}
+{"time": "2026-11-05T00:58:04.937288+08:00", "stage": "extensions_complete", "certification": {"master_stocks": 5554, "listed_status_counts": {"L": 5221, "D": 333}, "delisted_stocks_retained": 333, "source_observations": 11412847, "excluded_observations_by_reason": {"nonadjacent_or_first_price": 17656, "absent_master": 4265, "suspension_endpoint": 2111}, "listing_or_code_issue_rows": 4265, "expected_price_gaps": 282674, "gaps_with_same_day_suspension": 271480, "unexplained_price_gaps": 11194, "available_mapping_rows": 248, "mapping_scope": "BSE only; no complete historical SH/SZ code-change ledger", "universe_certification": "BLOCKED for exact CSI300/full historical market universe; dated master includes delisted but observed-revision and code-history gaps remain", "suspension_interpretation": "S day records excluded on both return endpoints; R is resumption, not suspension. Missing S record does not certify normal trading; unresolved gaps reported", "proxy_qualification": "conditional observed stock pairs; complete 20/60 same-date windows, no pairwise missing deletion or zero imputation", "proxy_research_status": "PROXY, optional inputs disabled in default main whitelist"}}
+{"time": "2026-11-05T00:58:05.429117+08:00", "stage": "validation_start"}
+{"time": "2026-11-05T01:03:41.205681+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T01:03:41.237636+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T01:03:41.239633+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T01:03:41.266030+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T01:03:41.285026+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T01:03:41.289100+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T01:03:41.314624+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T01:03:41.314624+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T01:03:41.319863+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T01:03:41.370824+08:00", "stage": "core_start", "budget": {"artifact_bytes": 161654381, "free_bytes": 30056636416}}
+{"time": "2026-11-05T01:03:47.048550+08:00", "stage": "core_complete", "daily": 2850, "weekly_candidates": 599, "thresholds": {"q": 0.8, "qV": 0.2885222861765467, "qD": 0.07657789222188992, "loss_metric": "mdd_20d", "reference_start": "2015-02-02", "reference_end": "2019-12-31", "reference_n": 1199, "vol_unit": "annualized fraction", "loss_unit": "nonnegative price loss fraction", "algorithm": "numpy.quantile(method=linear)", "reference_only": true, "threshold_version": "thr-bc957a16047c6fd2"}}
+{"time": "2026-11-05T01:03:47.177430+08:00", "stage": "extensions_checkpoint_reused"}
+{"time": "2026-11-05T01:03:47.308657+08:00", "stage": "validation_start"}
+{"time": "2026-11-05T01:03:56.099202+08:00", "stage": "validation_complete", "checks": 9, "tests": 23}
+{"time": "2026-11-05T01:03:56.128524+08:00", "stage": "FAILED", "error": "AttributeError(\"'NoneType' object has no attribute 'group'\")"}
+{"time": "2026-11-05T01:04:20.088713+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T01:04:20.119228+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T01:04:20.122506+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T01:04:20.149457+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T01:04:20.171584+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T01:04:20.174592+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T01:04:20.196071+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T01:04:20.201470+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T01:04:20.204562+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T01:04:20.448804+08:00", "stage": "reports_complete", "files": 6, "field_dictionary_rows": 460}
+{"time": "2026-11-05T01:04:20.659128+08:00", "stage": "run_complete", "selected_stage": "reports", "source_registry_unchanged": true, "budget": {"artifact_bytes": 162507787, "free_bytes": 30055723008}}
+{"time": "2026-11-05T01:06:10.325356+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T01:06:10.351912+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T01:06:10.357264+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T01:06:10.380893+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T01:06:10.404133+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T01:06:10.407606+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T01:06:10.431495+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T01:06:10.433490+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T01:06:10.436492+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T01:06:10.500985+08:00", "stage": "core_checkpoint_reused"}
+{"time": "2026-11-05T01:06:10.626700+08:00", "stage": "extensions_checkpoint_reused"}
+{"time": "2026-11-05T01:06:10.825485+08:00", "stage": "validation_start"}
+{"time": "2026-11-05T01:06:19.591248+08:00", "stage": "validation_complete", "checks": 10, "tests": 23}
+{"time": "2026-11-05T01:06:19.695674+08:00", "stage": "reports_complete", "files": 6, "field_dictionary_rows": 460}
+{"time": "2026-11-05T01:06:19.907553+08:00", "stage": "run_complete", "selected_stage": "all", "source_registry_unchanged": true, "budget": {"artifact_bytes": 162513224, "free_bytes": 30055718912}}
+{"time": "2026-11-05T01:09:57.481245+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T01:09:57.519763+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T01:09:57.524021+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T01:09:57.550522+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T01:09:57.571819+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T01:09:57.573817+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T01:09:57.601180+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T01:09:57.603180+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T01:09:57.606181+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T01:09:57.669953+08:00", "stage": "core_checkpoint_reused"}
+{"time": "2026-11-05T01:09:57.797564+08:00", "stage": "extensions_checkpoint_reused"}
+{"time": "2026-11-05T01:09:58.002808+08:00", "stage": "validation_start"}
+{"time": "2026-11-05T01:10:13.567553+08:00", "stage": "validation_complete", "checks": 11, "tests": 23}
+{"time": "2026-11-05T01:10:13.669786+08:00", "stage": "reports_complete", "files": 6, "field_dictionary_rows": 460}
+{"time": "2026-11-05T01:10:13.881208+08:00", "stage": "run_complete", "selected_stage": "all", "source_registry_unchanged": true, "budget": {"artifact_bytes": 163557870, "free_bytes": 30054670336}}
+{"time": "2026-11-05T01:12:06.382828+08:00", "stage": "source_verified", "dataset": "index_daily", "files": 113}
+{"time": "2026-11-05T01:12:06.417990+08:00", "stage": "source_verified", "dataset": "index_dailybasic", "files": 312}
+{"time": "2026-11-05T01:12:06.417990+08:00", "stage": "source_verified", "dataset": "trade_cal", "files": 2}
+{"time": "2026-11-05T01:12:06.442304+08:00", "stage": "source_verified", "dataset": "daily", "files": 312}
+{"time": "2026-11-05T01:12:06.466760+08:00", "stage": "source_verified", "dataset": "adj_factor", "files": 262}
+{"time": "2026-11-05T01:12:06.469758+08:00", "stage": "source_verified", "dataset": "stock_basic", "files": 4}
+{"time": "2026-11-05T01:12:06.494699+08:00", "stage": "source_verified", "dataset": "suspend_d", "files": 311}
+{"time": "2026-11-05T01:12:06.494699+08:00", "stage": "source_verified", "dataset": "bse_mapping", "files": 2}
+{"time": "2026-11-05T01:12:06.499996+08:00", "stage": "source_verified", "dataset": "namechange", "files": 7}
+{"time": "2026-11-05T01:12:06.739701+08:00", "stage": "reports_complete", "files": 6, "field_dictionary_rows": 460}
+{"time": "2026-11-05T01:12:06.952663+08:00", "stage": "run_complete", "selected_stage": "reports", "source_registry_unchanged": true, "budget": {"artifact_bytes": 163559203, "free_bytes": 30054670336}}

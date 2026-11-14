@@ -1,0 +1,227 @@
+{
+  "dataset": "fina_mainbz",
+  "category": "financial",
+  "plan": "stock_range",
+  "primary_key": "",
+  "date_field": "end_date",
+  "permission_probe": "available",
+  "active_files": 150,
+  "task_status": {
+    "SUCCESS": 5907
+  },
+  "rows": 1780812,
+  "physical_rows": 1780812,
+  "distinct_content_rows": 1780812,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 0,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "ts_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000001.SZ",
+      "max": "920992.BJ",
+      "nonfinite_count": 0
+    },
+    "end_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20150228",
+      "max": "20260630",
+      "nonfinite_count": 0
+    },
+    "bz_item": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "\"五小系统”",
+      "max": "ＰＣＢ制造",
+      "nonfinite_count": 0
+    },
+    "bz_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "D",
+      "max": "S",
+      "nonfinite_count": 0
+    },
+    "bz_sales": {
+      "type": "DOUBLE",
+      "null_count": 44127,
+      "null_rate": 0.024779145693088322,
+      "min": -2620886000000.0,
+      "max": 4285315000000.0,
+      "nonfinite_count": 0
+    },
+    "bz_profit": {
+      "type": "DOUBLE",
+      "null_count": 491360,
+      "null_rate": 0.2759190751185414,
+      "min": -108257710791.61,
+      "max": 711232000000.0,
+      "nonfinite_count": 0
+    },
+    "bz_cost": {
+      "type": "DOUBLE",
+      "null_count": 449748,
+      "null_rate": 0.2525522065215194,
+      "min": -2619066000000.0,
+      "max": 2819363000000.0,
+      "nonfinite_count": 0
+    },
+    "curr_type": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "CNY",
+      "max": "CNY",
+      "nonfinite_count": 0
+    },
+    "update_flag": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0",
+      "max": "1",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00001022e6ad3509af6043d6cfecdab1f203648f01dd24b8182ad035e1f1c123",
+      "max": "fffffd3272ab76027132891dd9ac6d41a18f76c7f4ea745fa7e5b625dbdb3414",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0000b0c071644dcab41c46cf2a31bf63",
+      "max": "fffb6c2a09a243f3b0c20d93b422a2ba",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-29 23:29:53.013766+00:00",
+      "max": "2026-09-30 10:41:32.939397+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-29 23:29:53.013766+00:00",
+      "max": "2026-09-30 10:41:32.939397+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-02-28 00:00:00",
+      "max": "2026-06-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2015-02-28 00:00:00",
+      "max": "2026-06-30 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 1780812,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 1780812,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "00000598fb30defe60e85c8e0a832a224bfe9206c50b584e4dd87e18a493cd87",
+      "max": "fffff740a3b35362341466c2b77c67d544981a49473e316a586854af19c3b34d",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 1780812,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "end_date": {
+      "min": "2015-02-28",
+      "max": "2026-06-30",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "fina_mainbz",
+    "scope": "dataset",
+    "rows": 1780812,
+    "physical_rows": 1780812,
+    "date_field": "end_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 1780812,
+    "non_latest_or_reobserved_rows": 0,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20150228",
+    "end": "20260630",
+    "observed_dates": 68,
+    "rows_before_2016": 126768,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 48,
+    "trade_day_coverage": 0.016842105263157894,
+    "missing_trade_days": 2802,
+    "within_span_expected": 2755,
+    "within_span_missing": 2707,
+    "nontrading_observed_dates": 20,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 9.29
+}

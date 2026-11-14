@@ -1,0 +1,192 @@
+{
+  "dataset": "trade_cal",
+  "category": "master",
+  "plan": "calendar",
+  "primary_key": "exchange cal_date",
+  "date_field": "cal_date",
+  "permission_probe": "available",
+  "active_files": 2,
+  "task_status": {
+    "SUCCESS": 48
+  },
+  "rows": 9386,
+  "physical_rows": 10280,
+  "distinct_content_rows": 9386,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 894,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "exchange": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "SSE",
+      "max": "SZSE",
+      "nonfinite_count": 0
+    },
+    "cal_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20131227",
+      "max": "20261101",
+      "nonfinite_count": 0
+    },
+    "is_open": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0",
+      "max": "1",
+      "nonfinite_count": 0
+    },
+    "pretrade_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20131226",
+      "max": "20261030",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0011f3df3f6749597ee3b02ebbaca366f00242e6046b4d2604f6eab784e5ba7e",
+      "max": "ffeae007c3da272c34a1cee1c518a45af1fa684ff0795e9c32f238767500df60",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0344d2a811c24d8397f24516a3df8f37",
+      "max": "fccde15e6881462c8bffaa7107b04e29",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-23 05:21:22.548582+00:00",
+      "max": "2026-09-23 05:22:22.169054+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-23 05:21:22.548582+00:00",
+      "max": "2026-09-23 05:22:22.169054+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2013-12-27 00:00:00",
+      "max": "2026-11-01 00:00:00",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 9386,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 9386,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 9386,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 9386,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "000ace37526e1f844c6365b9cf9ecb943ba667e5e458574cf692e0a413eb7aab",
+      "max": "fff74b32a2c8ac4d7cac0177ec5662405eb7969e3eb54c17cb57f75506f60d53",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "cal_date": {
+      "min": "2013-12-27",
+      "max": "2026-11-01",
+      "invalid_count": 0
+    },
+    "pretrade_date": {
+      "min": "2013-12-26",
+      "max": "2026-10-30",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "trade_cal",
+    "scope": "dataset",
+    "rows": 9386,
+    "physical_rows": 10280,
+    "date_field": "cal_date",
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 9386,
+    "non_latest_or_reobserved_rows": 894,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED",
+    "start": "20131227",
+    "end": "20261101",
+    "observed_dates": 4693,
+    "rows_before_2016": 1470,
+    "expected_trade_days": 2850,
+    "observed_trade_days": 2850,
+    "trade_day_coverage": 1.0,
+    "missing_trade_days": 0,
+    "within_span_expected": 2850,
+    "within_span_missing": 0,
+    "nontrading_observed_dates": 1573,
+    "coverage_interpretation": "DIAGNOSTIC ONLY: sparse/event/master/weight records are not daily requirements"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 0.87
+}

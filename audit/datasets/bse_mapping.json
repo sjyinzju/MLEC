@@ -1,0 +1,175 @@
+{
+  "dataset": "bse_mapping",
+  "category": "master",
+  "plan": "single",
+  "primary_key": "",
+  "date_field": null,
+  "permission_probe": "available",
+  "active_files": 2,
+  "task_status": {
+    "SUCCESS": 2
+  },
+  "rows": 248,
+  "physical_rows": 496,
+  "distinct_content_rows": 248,
+  "duplicate_observations": 0,
+  "reobserved_identical_content": 248,
+  "content_versions_beyond_latest": 0,
+  "fields": {
+    "name": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "一致魔芋",
+      "max": "龙竹科技",
+      "nonfinite_count": 0
+    },
+    "o_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "430017.BJ",
+      "max": "873833.BJ",
+      "nonfinite_count": 0
+    },
+    "n_code": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "920000.BJ",
+      "max": "920992.BJ",
+      "nonfinite_count": 0
+    },
+    "list_date": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "20200727",
+      "max": "20240408",
+      "nonfinite_count": 0
+    },
+    "_row_hash": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "01a681496c30a9bdbe917a1a264d3fa6b2e6954224cc676aa5798f658129b091",
+      "max": "fcdb19b2f6c154658fa4178eecfc77e3734ecc396a4ae5ae01c641e00703aeef",
+      "nonfinite_count": 0
+    },
+    "_batch_id": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "e5404cef68e140fb9ce27bb348c7c65a",
+      "max": "e5404cef68e140fb9ce27bb348c7c65a",
+      "nonfinite_count": 0
+    },
+    "_ingested_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-23 05:22:49.942209+00:00",
+      "max": "2026-09-23 05:22:49.942209+00:00",
+      "nonfinite_count": 0
+    },
+    "_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "2026-09-23 05:22:49.942209+00:00",
+      "max": "2026-09-23 05:22:49.942209+00:00",
+      "nonfinite_count": 0
+    },
+    "_event_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 248,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_period_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 248,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 248,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_actual_announcement_date": {
+      "type": "TIMESTAMP_NS",
+      "null_count": 248,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_revision": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "0206ef66574bbfe776726b3399a8c4381f05bd1318ae200a0b3c4359775f214e",
+      "max": "ff456862b553e279ccdb1c53e7db3f39ea40547d847db5fa002d9356a12021b2",
+      "nonfinite_count": 0
+    },
+    "_knowledge_quality": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "observed_only",
+      "max": "observed_only",
+      "nonfinite_count": 0
+    },
+    "_event_available_at": {
+      "type": "TIMESTAMP WITH TIME ZONE",
+      "null_count": 248,
+      "null_rate": 1.0,
+      "min": null,
+      "max": null,
+      "nonfinite_count": 0
+    },
+    "_transform_version": {
+      "type": "VARCHAR",
+      "null_count": 0,
+      "null_rate": 0.0,
+      "min": "canonical-v1",
+      "max": "canonical-v1",
+      "nonfinite_count": 0
+    }
+  },
+  "missing_fields": [],
+  "date_bounds": {
+    "list_date": {
+      "min": "2020-07-27",
+      "max": "2024-04-08",
+      "invalid_count": 0
+    }
+  },
+  "anomalies": {},
+  "coverage": {
+    "dataset": "bse_mapping",
+    "scope": "dataset",
+    "rows": 248,
+    "physical_rows": 496,
+    "date_field": null,
+    "missing_fields": "",
+    "logical_duplicate_rows": 0,
+    "physical_duplicate_observations": 0,
+    "distinct_content_rows": 248,
+    "non_latest_or_reobserved_rows": 248,
+    "anomalies": "{}",
+    "status": "OBSERVED_NOT_FULLY_CERTIFIED"
+  },
+  "logical_duplicate_rows": 0,
+  "status": "SCANNED",
+  "active_decode": "PASS (all columns queried via latest view; footer all active files)",
+  "seconds": 0.12
+}
