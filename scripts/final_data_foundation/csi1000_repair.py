@@ -19,8 +19,7 @@ def build():
         quality.loc[mask,'quality_reason']='CSI official index-perf confirms primary OHLC within 0.01-point publication rounding. Conflicting Tencent values rejected; primary higher-precision observations retained.'
         quality.loc[mask,'evidence_path']=proof.relative_to(ROOT).as_posix()
     frame(path,conflicts);frame(qpath,quality)
-    from .market_features import index_dimensions
-    index_dimensions()
+    # Research artifacts are rebuilt only through scripts.market_state.run.
     print('CSI1000_CONFLICT_FIELDS_CLOSED',3,flush=True)
 
 

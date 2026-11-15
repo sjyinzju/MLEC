@@ -115,9 +115,8 @@ def register():
     write_json(AUDIT/'source_manifest.json',{'created_at':now(),'research_evidence_files':raw,'offline_input_files':dependencies,'requests':requests,'source_registry':'data/metadata/foundation_v3/sources.parquet','cache_policy':'All raw objects retained locally; large HTML/PDF caches may be ignored by Git; offline reconstruction requires the exact listed objects and hashes; retrieval timestamps pinned in data/metadata/foundation_v3/legacy_retrieval_times.json'})
     sources=f.groupby(['source_id','source_url','source_name','source_class'],dropna=False).agg(rows=('value','size'),first_observation=('period_end','min'),last_observation=('period_end','max')).reset_index();save_frame(METADATA/'sources.parquet',sources)
     rows=[]
-    for folder in [STANDARD,ROOT/'data/features/v3',ROOT/'data/datasets/foundation_v3',ROOT/'data/metadata/market',METADATA,ROOT/'data/research_v2']:
+    for folder in [STANDARD,METADATA]:
         for p in sorted(folder.rglob('*.parquet')):
-            if folder.name=='research_v2' and p.parent!=folder:continue
             d=pd.read_parquet(p);rel=p.relative_to(ROOT).as_posix()
             key=['source_record_id'] if p.name in ['macro_facts.parquet','macro_vintages.parquet','macro_release_events.parquet'] else ['sample_id','feature'] if p.name=='macro_lineage.parquet' else ['sample_id','horizon'] if p.name in ['sample_eligibility.parquet','prediction_targets_weekly.parquet'] else ['sample_id'] if 'weekly' in p.name or p.name=='features.parquet' else ['series_id','period_end'] if p.name=='data_requirements_matrix.parquet' else ['series_id'] if p.name=='series_catalog.parquet' else ['source_id','source_url','source_name','source_class'] if p.name=='sources.parquet' else []
             if not key:
@@ -125,7 +124,7 @@ def register():
                 key=next((cols for cols in candidates if set(cols)<=set(d) and not d.duplicated(cols).any()),[])
             if key and d.duplicated(key).any():raise ValueError('Registry duplicate primary key: '+rel)
             rows.append({'dataset_id':rel.removesuffix('.parquet').replace('/','.'),'version':'data-foundation-v3.0.0','path':rel,'rows':len(d),'sha256':digest(p),'schema':{c:str(t) for c,t in d.dtypes.items()},'primary_key':key,'created_at':now(),
-              'generator':'scripts/research_v2/run_pipeline.py (frozen; v3 reads only)' if folder.name=='research_v2' else 'scripts/data_foundation_v3/cli.py','upstream':'data/standardized/macro/v3/macro_facts.parquet + frozen data/research_v2' if 'features/' in rel or 'datasets/' in rel else 'See source_manifest and migration_manifest',
+              'generator':'source-standardization-library','upstream':'See source_manifest and migration_manifest; research consumer is scripts.market_state',
               'coverage':{c:[str(d[c].min()),str(d[c].max())] for c in ['asof_time','period_end'] if c in d},
               'quality':'quality dimension in rows or dataset manifest; never assumes all strict PIT','historical_pit':'mixed; quote archive/reprint levels explicitly qualified','limitations':'See data_requirements_matrix and remaining_data_limitations.md','research_tasks':'future configurable information groups and data-quality comparisons; no model run'})
     write_json(METADATA/'dataset_registry.json',rows)

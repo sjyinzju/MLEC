@@ -26,9 +26,8 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
@@ -42,7 +41,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "trend",
@@ -65,7 +64,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/index_daily/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -94,9 +94,8 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
@@ -110,7 +109,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "valuation",
@@ -131,7 +130,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/index_daily_basic/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -161,15 +161,14 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "breadth",
@@ -191,7 +190,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_daily_observations/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -227,15 +227,14 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "valuation",
@@ -257,7 +256,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_daily_basic_observations/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -276,15 +276,14 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "adjusted_returns",
@@ -306,7 +305,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_adjustment_observations/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -343,15 +343,14 @@
       ],
       "actual_data_start": "1990-12-01 00:00:00",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "event",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "historical_universe",
@@ -373,7 +372,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "2026-09-22 00:00:00",
       "authority_path": "data/standardized/market/v4/stock_master_history.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -396,15 +396,14 @@
       ],
       "actual_data_start": "19901201",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "event",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "identity",
@@ -425,7 +424,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260930",
       "authority_path": "data/standardized/market/v4/stock_name_history/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -451,15 +451,14 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "missing_vs_suspension",
@@ -480,7 +479,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_trading_status/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -504,9 +504,8 @@
       ],
       "actual_data_start": "2015-05-20 00:00:00",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "event",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
@@ -520,7 +519,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "index_specific_breadth_and_correlation"
@@ -540,7 +539,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "2026-06-15 00:00:00",
       "authority_path": "data/standardized/market/v4/index_constituents_history.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -561,9 +561,8 @@
       ],
       "actual_data_start": "20150130",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "snapshot",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
@@ -577,7 +576,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "snapshot_weights; not daily effective membership"
@@ -597,7 +596,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260831",
       "authority_path": "data/standardized/market/v4/index_weights_history/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -617,15 +617,14 @@
       ],
       "actual_data_start": "20131227",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "calendar_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "all_daily_expected_grids"
@@ -645,7 +644,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20261101",
       "authority_path": "data/standardized/market/v4/trade_calendar/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -674,9 +674,8 @@
       ],
       "actual_data_start": "19910715",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "snapshot",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
@@ -690,7 +689,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "publication_vs_backcast"
@@ -710,7 +709,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20141017",
       "authority_path": "data/standardized/market/v4/index_identity/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -736,15 +736,14 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "trading_pressure"
@@ -764,7 +763,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_limits_observations/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -790,15 +790,14 @@
       ],
       "actual_data_start": "20150105",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "market_leverage_extension"
@@ -818,7 +817,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/margin_market/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -846,15 +846,14 @@
       ],
       "actual_data_start": "20150105",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "cross_sectional_leverage_extension"
@@ -874,7 +873,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/margin_security/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -911,15 +911,14 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "provider_classified_order_flow_extension"
@@ -939,7 +938,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_moneyflow/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -970,15 +970,14 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "independent_activity_reconciliation"
@@ -998,7 +997,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/exchange_activity_sh/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -1024,15 +1024,14 @@
       ],
       "actual_data_start": "20140102",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "independent_activity_reconciliation"
@@ -1052,7 +1051,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/exchange_activity_sz/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -1081,15 +1081,14 @@
       ],
       "actual_data_start": "20150105",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "trading_day",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "top10_only_not_market_total_flow"
@@ -1109,7 +1108,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_connect_top10/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     },
     {
       "domain": "M",
@@ -1141,15 +1141,14 @@
       ],
       "actual_data_start": "19910317",
       "required_start": "2014-01-01",
-      "required_end": "2026-09-22",
-      "frozen_research_start": "2015-01-05",
-      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "required_end": "actual observed endpoint",
+      "warmup_policy": "2014 qualified history; research authority scripts.market_state",
       "expected_frequency": "event",
       "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
+      "revision_policy": "Reconstructed source data and explicit source/correction metadata",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "independent_adjustment_factor_checks"
@@ -1169,7 +1168,8 @@
       "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_dividend_events/*.parquet",
-      "coverage_evidence": "data/metadata/data_completeness.csv"
+      "coverage_evidence": "data/metadata/data_completeness.csv",
+      "research_start": "2015-01-01"
     }
   ],
   "basis": "Research design v1.0 plus final data-engineering task; P2 are declared optional extension analyses, not required by frozen labels or five dimensions"

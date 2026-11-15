@@ -81,3 +81,6 @@ Desktop.ini
 /audit/framework/
 /data/archive/data-foundation-v3/
 *.log
+
+# Rebuildable, partitioned stock projections; never duplicate the external lake.
+/data/market_state/cache/

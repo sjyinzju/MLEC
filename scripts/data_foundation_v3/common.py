@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 import pandas as pd
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
-from scripts.experiment_framework.common import ROOT,digest,identity,read_json,write_json,save_frame,write_text
+from scripts.common import ROOT,digest,identity,read_json,write_json,save_frame,write_text
 
 VERSION='data-foundation-v3.0.0'
 AUDIT=ROOT/'audit/data_foundation_v3'

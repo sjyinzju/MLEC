@@ -1,0 +1,15 @@
+{
+  "endpoint": "trade_cal",
+  "params": {
+    "exchange": "SSE",
+    "start_date": "20140101",
+    "end_date": "20261115"
+  },
+  "request_id": "80339dd9438c145ac52e0f5fb3c36080dc3c6c67f6a0a87ac05e2e13cde056e5",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T22:13:43.788156+08:00",
+  "status": "ok",
+  "rows": 4702,
+  "path": "data/raw/market/provider_supplements/v4/objects/2a8675fc180615ad7cb5451f48b24937ff07534a71c34bb7729ef249a4da36c7.json",
+  "sha256": "f0d6c640805b071cc26646696c997a18bfb25b6c23631dd22a34fe1181a5e330"
+}

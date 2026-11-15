@@ -8,7 +8,7 @@ import json
 import requests
 import pandas as pd
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
-from scripts.experiment_framework.common import ROOT,identity,digest,write_json,save_frame,read_json
+from scripts.common import ROOT,identity,digest,write_json,save_frame,read_json
 
 BASE=ROOT/'data/raw/macro'
 HEADERS={'User-Agent':'Mozilla/5.0','Referer':'https://www.stats.gov.cn/'}

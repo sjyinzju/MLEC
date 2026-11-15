@@ -7,7 +7,7 @@ from .common import *
 from .collect import PUBLIC
 from scripts.data_foundation_v3.standardize import dated_fact
 from .macro_contract import specifications,apply_scopes,configure_quality
-from scripts.experiment_framework.common import identity
+from scripts.common import identity
 
 def gac_facts():
     facts=[];checks=[]

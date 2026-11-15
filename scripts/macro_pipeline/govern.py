@@ -2,7 +2,7 @@
 import re
 import numpy as np
 import pandas as pd
-from scripts.experiment_framework.common import ROOT, TZ, digest, identity, read_json, save_frame, write_json, write_text
+from scripts.common import ROOT, TZ, digest, identity, read_json, save_frame, write_json, write_text
 
 RAW=ROOT/'data/raw/macro/original_submissions/v1'
 OUT=ROOT/'data/standardized/macro'

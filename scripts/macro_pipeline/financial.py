@@ -6,7 +6,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
-from scripts.experiment_framework.common import ROOT,write_json,read_json,digest,save_frame
+from scripts.common import ROOT,write_json,read_json,digest,save_frame
 BASE=ROOT/'data/raw/macro/official_sources/financial'
 
 def collect_rates():

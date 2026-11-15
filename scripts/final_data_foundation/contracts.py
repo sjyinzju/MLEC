@@ -36,13 +36,13 @@ def build():
           'source_definition':'https://tushare.pro/document/2?doc_id='+str(DOC_IDS[ep]) if ep in DOC_IDS else 'Official index-provider adjustment announcements with both publication and effectiveness dates',
           # Dividend proposals can lack ann_date; source identity remains unique.
           'primary_key':['source_record_id'] if dataset_id=='stock_dividend_events' else keys.split(','),'actual_data_start':None,'required_start':'2014-01-01','required_end':'2026-09-22',
-          'frozen_research_start':'2015-01-05','warmup_policy':'2014 prices retained as independent extension; never changes frozen 599 rows or labels',
+          'research_start':'2015-01-01','warmup_policy':'2014 and earlier qualified history; market_state is the sole research authority',
           'expected_frequency':'event' if ep in ['stock_basic','namechange','dividend','official_adjustment_announcements'] else 'snapshot' if ep in ['index_weight','index_basic'] else 'calendar_day' if ep=='trade_cal' else 'trading_day',
           'expected_observations':'all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations',
           'market_scope':'SH/SZ A shares including delisted and code changes; CDR classified separately',
           'security_universe':INDEX_CODES if dataset_id.startswith('index_') else 'All historical SH/SZ listed common shares, without current-status filtering',
           'historical_availability':'Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.',
-          'revision_policy':'Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2',
+          'revision_policy':'Retain source metadata and explicit conflict records; research views rebuilt under the current protocol',
           'allowed_missing_rules':'Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.',
           'downstream_dependencies':deps.split(','),'validation_rules':['primary_key','field_nulls','expected_grid','value_semantics','source_reconciliation','historical_availability','lineage'],
           'priority':priority,'required':priority!='P2','quality_status':'UNASSESSED','contract_version':VERSION})

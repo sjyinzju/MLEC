@@ -5,7 +5,7 @@ from lxml import html
 from .common import *
 from .collect import PUBLIC
 from scripts.data_foundation_v3.standardize import dated_fact
-from scripts.experiment_framework.common import identity
+from scripts.common import identity
 from scripts.data_foundation_v3.requirements import specifications
 
 

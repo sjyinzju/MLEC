@@ -1,0 +1,30 @@
+{
+  "version": "market-state-research-v3.0",
+  "markets": {
+    "000985.SH": "All A shares",
+    "000300.SH": "Large",
+    "000905.SH": "Medium",
+    "000852.SH": "Smaller"
+  },
+  "overall_price": "000985.SH = provider 000985.CSI",
+  "overall_cross_section": "historical listed SSE/SZSE A shares + BSE from 2021-11-15; CDR excluded",
+  "identity": "security_history.parquet; valid_from inclusive / valid_to exclusive",
+  "membership": "membership_snapshots.parquet; last observed snapshot, maximum age 45 days; no current constituent backfill",
+  "units": {
+    "amount": "CNY",
+    "volume": "shares",
+    "float_shares": "shares",
+    "turnover": "ratio",
+    "return_type": "log adjusted stock close, adjacent exchange dates; no zero filling"
+  },
+  "sources": [
+    "E:/QuantData/quant.duckdb READ_ONLY",
+    "preserved repaired standardized market/v4",
+    "sources/*.parquet targeted Tushare supplements"
+  ],
+  "bse_evidence": [
+    "https://www.bse.cn/important_news/200025487.html",
+    "https://www.beijing.gov.cn/ywdt/gzdt/202510/t20251010_4218545.html"
+  ],
+  "strict_original_vintage": false
+}

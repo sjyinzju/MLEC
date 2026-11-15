@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 import pandas as pd
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from scripts.experiment_framework.common import ROOT,write_text,write_json
+from scripts.common import ROOT,write_text,write_json
 
 def build():
     facts=pd.read_parquet(ROOT/'data/standardized/macro/macro_facts.parquet')

@@ -1,8 +1,0 @@
-{
-  "version": "unified-data-foundation-v4.0.0",
-  "sample_ids": "data/research_v2/market_features_weekly.parquet",
-  "count": 599,
-  "no_rows_deleted": true,
-  "interface": "scripts.final_data_foundation.research_inputs.load_dataset",
-  "labels": "frozen v2 combined, volatility, drawdown; horizons 5,20,40; no regeneration"
-}

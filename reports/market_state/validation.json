@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "four_markets_unique_keys": true,
+    "CSI1000_verified_source_conflicts_retained": true,
+    "calendar_matches_independent_exchange_open_dates": true,
+    "full_20_day_windows_and_no_tail_fabrication": true,
+    "post2019_mutation_cannot_change_dictionary_fit_inputs": true,
+    "shared_dictionary_current_future_probability_order": true,
+    "monthly_splits_mature_and_development_boundary_purged": true,
+    "all_tasks_M_MZ_identical_training_and_targets": true,
+    "macro_asof_clock": true,
+    "historical_security_BSE_opening_and_aliases": true,
+    "independent_seven_metric_raw_replay_20150703": true
+  },
+  "all_passed": true,
+  "label_version": "76bf6837dc5e32262c99"
+}

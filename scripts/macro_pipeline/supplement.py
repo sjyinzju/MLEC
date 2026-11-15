@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 from lxml import html
-from scripts.experiment_framework.common import ROOT,read_json,digest,identity
+from scripts.common import ROOT,read_json,digest,identity
 
 BASE=ROOT/'data/raw/macro'
 TZ='Asia/Shanghai'

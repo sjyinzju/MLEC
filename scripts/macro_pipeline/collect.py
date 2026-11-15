@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 if __package__ in (None, ''):
     sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from scripts.experiment_framework.common import ROOT, digest, identity, read_json, save_frame, write_json
+from scripts.common import ROOT, digest, identity, read_json, save_frame, write_json
 import pandas as pd
 
 def extract_local():
