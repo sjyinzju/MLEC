@@ -1,8 +1,0 @@
-{
-  "restored_code": "000011.SZ",
-  "codes": 76,
-  "evidence": "audit\\final_data_foundation\\reproducibility\\before\\data\\standardized\\market\\v4\\stock_adjustment_observations\\*.parquet",
-  "reason": "The fresh request was a cached original target, so removing it after an unchanged re-observation was incorrect. Restored from before-image evidence. Repeat factor stages after current run.",
-  "replayed_offline": true,
-  "status": "RESTORED_AND_RECHECKED"
-}

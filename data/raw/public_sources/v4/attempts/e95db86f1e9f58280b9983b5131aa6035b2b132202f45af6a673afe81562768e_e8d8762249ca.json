@@ -1,9 +1,0 @@
-{
-  "url": "https://cacs.mofcom.gov.cn/cacscms/article/cgal?articleId=170232&type=",
-  "params": null,
-  "method": "GET",
-  "retrieved_at": "2026-11-15T00:18:57.690972+08:00",
-  "request_id": "e95db86f1e9f58280b9983b5131aa6035b2b132202f45af6a673afe81562768e",
-  "status": "failed",
-  "error": "SSLError: HTTPSConnectionPool(host='cacs.mofcom.gov.cn', port=443): Max retries exceeded with url: /cacscms/article/cgal?articleId=170232&type= (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)')))"
-}

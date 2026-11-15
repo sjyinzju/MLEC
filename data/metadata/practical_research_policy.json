@@ -1,0 +1,54 @@
+{
+  "version": "practical-research-data-v5",
+  "status": "UNRESOLVED_REQUIRED_DATA",
+  "source_priority": [
+    "existing_local",
+    "official_history",
+    "official_compilations",
+    "attributed_third_party",
+    "derived_verified_values"
+  ],
+  "historical_reconstructed": {
+    "strict_pit_claim": false,
+    "actual_capture_time_preserved": true,
+    "quote_clock": "explicit reconstructed_quote_at; never earlier than observation date",
+    "derived_ytd_clock": "maximum parent research_available_at; no fabricated official release timestamp",
+    "derived_ytd_definition": "sum of earliest accepted monthly publications in the same calendar year, unit, currency and statistical scope; may differ from revised official cumulative series"
+  },
+  "cumulative_additions": {
+    "rmb_loans": 61,
+    "tsf": 40,
+    "tsf_scope_transition_periods": 5,
+    "supporting_backcast_monthly_records": 8
+  },
+  "membership_interface": "scripts.final_data_foundation.membership.load_index_members",
+  "research_interface": "scripts.final_data_foundation.research_inputs.load_dataset(quality=\"historical_reconstructed\")",
+  "retention": "standardized data and compact source/formula metadata only; no new raw snapshots or before/after copies",
+  "market_repairs": {
+    "pb_nonpositive_book_equity_records": 61368,
+    "pb_still_missing": 13936,
+    "free_turnover_values_derived": 23,
+    "pb_policy": "PB kept null when latest disclosed historical reconstructed BPS<=0 and fiscal age<=150d; not a claim that negative PB cannot be calculated mathematically.",
+    "official_factor_boundaries_repaired": 4,
+    "factor_rows_corrected": 3507,
+    "basic_refresh_securities": 281,
+    "basic_refresh_additions": 0,
+    "szse_missing_dates_filled": 253,
+    "szse_official_rows_added": 1257,
+    "szse_stock_total_dates": 3095,
+    "szse_units_verified_fields": [
+      "amount",
+      "total_mv",
+      "float_mv",
+      "vol",
+      "total_share",
+      "float_share"
+    ],
+    "suspended_basic_placeholders_excluded": 11,
+    "szse_quantity_fields_added": 6862,
+    "szse_zero_category_rows_repaired": 4,
+    "sse_2014_dates_added": 245,
+    "sse_2014_rows_added": 1960
+  },
+  "remaining_gaps": "data/metadata/remaining_gaps.json"
+}

@@ -96,8 +96,10 @@ def unit_definition(dataset,field):
     if field in META_FIELDS:return META_FIELDS[field]
     if dataset=='index_identity' and field=='base_point':return ('index_point','Index base level, as described in the retained index_basic definition')
     if dataset=='stock_connect_top10' and field=='rank':return ('ordinal','Provider ranking position, as described in the retained hsgt_top10 definition')
-    if dataset=='exchange_activity_sz' and field in ['total_share','float_share']:
-        return ('SOURCE_DEFINITION_REQUIRED','Shenzhen aggregate share quantity; do not inherit individual-stock 10000-share units without source certification')
+    if dataset=='exchange_activity_sz' and field in ['amount','total_mv','float_mv']:
+        return ('CNY','SZSE category monetary value in yuan; official daily headers and comparisons in data/metadata/szse_currency_basis.parquet. Newly added official daily values have 1,000,000 CNY display quantum.')
+    if dataset=='exchange_activity_sz' and field in ['vol','total_share','float_share']:
+        return ('shares (stock categories only)','Stock-category quantity verified against official 2020-03 monthly turnover and listed-security share counts; data/metadata/szse_stock_unit_basis.json. Nonstock categories are outside this unit certification. Missing dates/fields remain explicit.')
     if field in ['open','high','low','close','change']:return ('index_point' if dataset.startswith('index_') else 'CNY/share','Unadjusted price; index series is price index, excluding reinvested cash dividends')
     if field in ['turnover_rate','turnover_rate_f']:return ('percent','Provider turnover against float/free-float share denominator; denominator semantics require field quality check')
     if field in ['pe','pe_ttm','pb','ps','ps_ttm']:return ('ratio','Provider valuation ratio; PE may be undefined for losses, other missingness is not automatically waived')

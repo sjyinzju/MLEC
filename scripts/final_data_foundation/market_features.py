@@ -71,7 +71,7 @@ def index_dimensions():
 
 def calculate_index_dimensions(d):
     # Audit conflicts are quality exclusions, not values silently substituted.
-    conflicts=pd.read_parquet(AUDIT/'source_reconciliation/index_quote_adjudication.parquet')
+    conflicts=pd.read_parquet(ROOT/'data/metadata/index_price_conflicts.parquet')
     conflict_keys=set(conflicts.loc[conflicts.price_resolution.eq('MATERIAL_DIFFERENCE_REQUIRES_REVIEW'),['ts_code','trade_date']].itertuples(index=False,name=None))
     out=[]
     for code,g in d.groupby('ts_code'):

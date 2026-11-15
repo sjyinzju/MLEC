@@ -1,0 +1,74 @@
+{
+  "scope": "Stock categories only; stock total includes B shares. Other security categories not certified by these share units.",
+  "shares_source_url": "https://docs.static.szse.cn/www/English/siteMarketData/publication/monthly/W020200402342677103814.html",
+  "shares_date": "2020-03-31",
+  "shares_source_unit": "Capital(Shs.)",
+  "comparisons": [
+    {
+      "category": "股票",
+      "field": "total_share",
+      "source_value": 2171011621001,
+      "standard_value": 2171011621001.0
+    },
+    {
+      "category": "股票",
+      "field": "float_share",
+      "source_value": 1775075253747,
+      "standard_value": 1775075253747.0
+    },
+    {
+      "category": "主板A股",
+      "field": "total_share",
+      "source_value": 807891209340,
+      "standard_value": 807891209340.0
+    },
+    {
+      "category": "主板A股",
+      "field": "float_share",
+      "source_value": 707859764289,
+      "standard_value": 707859764289.0
+    },
+    {
+      "category": "中小板",
+      "field": "total_share",
+      "source_value": 937651036584,
+      "standard_value": 937651036584.0
+    },
+    {
+      "category": "中小板",
+      "field": "float_share",
+      "source_value": 737705813788,
+      "standard_value": 737705813788.0
+    },
+    {
+      "category": "创业板A股",
+      "field": "total_share",
+      "source_value": 412792772021,
+      "standard_value": 412792772021.0
+    },
+    {
+      "category": "创业板A股",
+      "field": "float_share",
+      "source_value": 316963238294,
+      "standard_value": 316963238294.0
+    },
+    {
+      "category": "主板B股",
+      "field": "total_share",
+      "source_value": 12676603056,
+      "standard_value": 12676603056.0
+    },
+    {
+      "category": "主板B股",
+      "field": "float_share",
+      "source_value": 12546437376,
+      "standard_value": 12546437376.0
+    }
+  ],
+  "volume_source_url": "https://docs.static.szse.cn/www/market/periodical/month/W020200402342677100440.html",
+  "volume_source_unit": "million shares",
+  "volume_source_value": 1032588.05,
+  "daily_volume_sum_shares": 1032588054705.0,
+  "days": 22,
+  "volume_rounding_tolerance_shares": 5000
+}

@@ -1,7 +1,7 @@
 {
-  "version": "unified-data-foundation-v4.0.0",
+  "version": "practical-research-data-v5",
   "schemas": {
-    "index_daily@v4": {
+    "index_daily@v5": {
       "authority_path": "data/standardized/market/v4/index_daily/*.parquet",
       "primary_key": [
         "ts_code",
@@ -46,18 +46,9 @@
         "volume_shares": "DOUBLE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE",
         "_source_evidence": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "index_daily_basic@v4": {
+    "index_daily_basic@v5": {
       "authority_path": "data/standardized/market/v4/index_daily_basic/*.parquet",
       "primary_key": [
         "ts_code",
@@ -101,18 +92,9 @@
         "observation_date": "DATE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE",
         "_source_evidence": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_daily@v4": {
+    "stock_daily@v5": {
       "authority_path": "data/standardized/market/v4/stock_daily_observations/*.parquet",
       "primary_key": [
         "ts_code",
@@ -163,18 +145,9 @@
         "code_quality": "VARCHAR",
         "source_instrument_code": "VARCHAR",
         "ts_code": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "instrument_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_daily_basic@v4": {
+    "stock_daily_basic@v5": {
       "authority_path": "data/standardized/market/v4/stock_daily_basic_observations/*.parquet",
       "primary_key": [
         "ts_code",
@@ -245,18 +218,9 @@
         "code_quality": "VARCHAR",
         "source_instrument_code": "VARCHAR",
         "ts_code": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "instrument_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_adjustment@v4": {
+    "stock_adjustment@v5": {
       "authority_path": "data/standardized/market/v4/stock_adjustment_observations/*.parquet",
       "primary_key": [
         "ts_code",
@@ -301,18 +265,9 @@
         "provider_refreshed_adj_factor": "DOUBLE",
         "official_action_evidence": "VARCHAR",
         "official_action_parent_id": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "instrument_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_master_history@v4": {
+    "stock_master_history@v5": {
       "authority_path": "data/standardized/market/v4/stock_master_history.parquet",
       "primary_key": [
         "instrument_id",
@@ -364,18 +319,9 @@
         "security_type": "VARCHAR",
         "identity_status": "VARCHAR",
         "identity_evidence": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "instrument_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_name_history@v4": {
+    "stock_name_history@v5": {
       "authority_path": "data/standardized/market/v4/stock_name_history/*.parquet",
       "primary_key": [
         "ts_code",
@@ -411,18 +357,9 @@
         "quality_status": "VARCHAR",
         "quality_reason": "VARCHAR",
         "data_version": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_trading_status@v4": {
+    "stock_trading_status@v5": {
       "authority_path": "data/standardized/market/v4/stock_trading_status/*.parquet",
       "primary_key": [
         "instrument_id",
@@ -444,18 +381,9 @@
         "original_status": "VARCHAR",
         "adjudication_id": "VARCHAR",
         "adjudication_available_at": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "instrument_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "index_constituents_history@v4": {
+    "index_constituents_history@v5": {
       "authority_path": "data/standardized/market/v4/index_constituents_history.parquet",
       "primary_key": [
         "index_code",
@@ -473,18 +401,9 @@
         "quality_reason": "VARCHAR",
         "weight": "INTEGER",
         "data_version": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "con_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "index_weights_history@v4": {
+    "index_weights_history@v5": {
       "authority_path": "data/standardized/market/v4/index_weights_history/*.parquet",
       "primary_key": [
         "index_code",
@@ -520,18 +439,9 @@
         "data_version": "VARCHAR",
         "observation_date": "DATE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "con_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "trade_calendar@v4": {
+    "trade_calendar@v5": {
       "authority_path": "data/standardized/market/v4/trade_calendar/*.parquet",
       "primary_key": [
         "exchange",
@@ -566,18 +476,9 @@
         "data_version": "VARCHAR",
         "observation_date": "DATE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "exchange",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "index_identity@v4": {
+    "index_identity@v5": {
       "authority_path": "data/standardized/market/v4/index_identity/*.parquet",
       "primary_key": [
         "ts_code"
@@ -618,18 +519,9 @@
         "quality_status": "VARCHAR",
         "quality_reason": "VARCHAR",
         "data_version": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_limits@v4": {
+    "stock_limits@v5": {
       "authority_path": "data/standardized/market/v4/stock_limits_observations/*.parquet",
       "primary_key": [
         "ts_code",
@@ -674,18 +566,9 @@
         "limit_rule_status": "VARCHAR",
         "rule_evidence_path": "VARCHAR",
         "_source_evidence": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "margin_market@v4": {
+    "margin_market@v5": {
       "authority_path": "data/standardized/market/v4/margin_market/*.parquet",
       "primary_key": [
         "exchange_id",
@@ -725,18 +608,9 @@
         "data_version": "VARCHAR",
         "observation_date": "DATE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "field_specific",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "margin_security@v4": {
+    "margin_security@v5": {
       "authority_path": "data/standardized/market/v4/margin_security/*.parquet",
       "primary_key": [
         "ts_code",
@@ -778,18 +652,9 @@
         "data_version": "VARCHAR",
         "observation_date": "DATE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_moneyflow@v4": {
+    "stock_moneyflow@v5": {
       "authority_path": "data/standardized/market/v4/stock_moneyflow/*.parquet",
       "primary_key": [
         "ts_code",
@@ -841,18 +706,9 @@
         "observation_date": "DATE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE",
         "_source_evidence": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "exchange_activity_sh@v4": {
+    "exchange_activity_sh@v5": {
       "authority_path": "data/standardized/market/v4/exchange_activity_sh/*.parquet",
       "primary_key": [
         "ts_code",
@@ -897,18 +753,9 @@
         "data_version": "VARCHAR",
         "observation_date": "DATE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "exchange_activity_sz@v4": {
+    "exchange_activity_sz@v5": {
       "authority_path": "data/standardized/market/v4/exchange_activity_sz/*.parquet",
       "primary_key": [
         "ts_code",
@@ -947,19 +794,12 @@
         "quality_reason": "VARCHAR",
         "data_version": "VARCHAR",
         "observation_date": "DATE",
-        "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
+        "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE",
+        "source_url": "VARCHAR",
+        "monetary_reported_quantum_cny": "DOUBLE"
       }
     },
-    "stock_connect_top10@v4": {
+    "stock_connect_top10@v5": {
       "authority_path": "data/standardized/market/v4/stock_connect_top10/*.parquet",
       "primary_key": [
         "ts_code",
@@ -1002,24 +842,12 @@
         "data_version": "VARCHAR",
         "observation_date": "DATE",
         "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "stock_dividend_events@v4": {
+    "stock_dividend_events@v5": {
       "authority_path": "data/standardized/market/v4/stock_dividend_events/*.parquet",
       "primary_key": [
-        "ts_code",
-        "end_date",
-        "ann_date",
-        "div_proc"
+        "source_record_id"
       ],
       "columns": {
         "ts_code": "VARCHAR",
@@ -1060,18 +888,9 @@
         "quality_status": "VARCHAR",
         "quality_reason": "VARCHAR",
         "data_version": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "ts_code",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "market_data_quality@v4": {
+    "market_data_quality@v5": {
       "authority_path": "data/standardized/market/v4/market_data_quality.parquet",
       "primary_key": [
         "quality_record_id"
@@ -1088,18 +907,9 @@
         "instrument_id": "VARCHAR",
         "quality_record_id": "VARCHAR",
         "data_version": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "instrument_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "macro_facts@v4": {
+    "macro_facts@v5": {
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "primary_key": [
         "source_record_id"
@@ -1114,7 +924,7 @@
         "frequency": "VARCHAR",
         "measure_type": "VARCHAR",
         "period_start": "TIMESTAMP",
-        "period_end": "TIMESTAMP",
+        "period_end": "TIMESTAMP_NS",
         "observation_date": "TIMESTAMP",
         "release_at": "TIMESTAMP WITH TIME ZONE",
         "research_available_at": "TIMESTAMP WITH TIME ZONE",
@@ -1153,25 +963,16 @@
         "quality_reason": "VARCHAR",
         "publication_edition_order": "BIGINT",
         "publication_edition_evidence": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "series_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "macro_vintages@v4": {
+    "macro_vintages@v5": {
       "authority_path": "data/standardized/macro/v4/macro_vintages.parquet",
       "primary_key": [
         "source_record_id"
       ],
       "columns": {
         "series_id": "VARCHAR",
-        "period_end": "TIMESTAMP",
+        "period_end": "TIMESTAMP_NS",
         "vintage_id": "VARCHAR",
         "source_record_id": "VARCHAR",
         "value": "DOUBLE",
@@ -1182,18 +983,9 @@
         "quality_status": "VARCHAR",
         "publication_edition_order": "BIGINT",
         "certification_status": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "series_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "macro_release_events@v4": {
+    "macro_release_events@v5": {
       "authority_path": "data/standardized/macro/v4/macro_release_events.parquet",
       "primary_key": [
         "source_record_id"
@@ -1201,24 +993,15 @@
       "columns": {
         "source_record_id": "VARCHAR",
         "series_id": "VARCHAR",
-        "period_end": "TIMESTAMP",
+        "period_end": "TIMESTAMP_NS",
         "release_at": "TIMESTAMP WITH TIME ZONE",
         "research_available_at": "TIMESTAMP WITH TIME ZONE",
         "release_time_basis": "VARCHAR",
         "source_id": "VARCHAR",
         "publication_date_evidence": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "series_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
       }
     },
-    "macro_quality@v4": {
+    "macro_quality@v5": {
       "authority_path": "data/standardized/macro/v4/macro_quality.parquet",
       "primary_key": [
         "source_record_id"
@@ -1226,21 +1009,132 @@
       "columns": {
         "source_record_id": "VARCHAR",
         "series_id": "VARCHAR",
-        "period_end": "TIMESTAMP",
+        "period_end": "TIMESTAMP_NS",
         "quality_status": "VARCHAR",
         "certification_status": "VARCHAR",
         "quality_reason": "VARCHAR"
-      },
-      "logical_mapping": {
-        "dataset_id": "registry constant unless physical dataset_id column exists",
-        "instrument_or_series_id": "series_id",
-        "value": "macro value column; market wide measurement column; constituent membership represented by row presence with value 1",
-        "source_id": "physical source_id or source_path/identity_evidence/quote_record_ids/suspension_record_ids for multi-source derived observations",
-        "release_at": "physical release_at if known; otherwise unknown, never implied by trade/effective date",
-        "research_available_at": "physical research_available_at; status/adjudication/end-date information is retrospective and excluded from strict historical feature input",
-        "unit_currency_measure": "field_dictionary plus macro_requirements; no automatic unit inference"
+      }
+    },
+    "stock_code_changes@v5": {
+      "authority_path": "data/standardized/market/v4/stock_code_changes.parquet",
+      "primary_key": [
+        "old_code",
+        "new_code"
+      ],
+      "columns": {
+        "old_code": "VARCHAR",
+        "new_code": "VARCHAR",
+        "effective_date": "VARCHAR",
+        "publication_date": "VARCHAR",
+        "url": "VARCHAR",
+        "source_path": "VARCHAR",
+        "source_sha256": "VARCHAR",
+        "retrieved_at": "VARCHAR",
+        "text_path": "VARCHAR",
+        "mapping_kind": "VARCHAR",
+        "review_status": "VARCHAR",
+        "review_basis": "VARCHAR",
+        "source_page": "DOUBLE"
+      }
+    },
+    "stock_suspension_intervals@v5": {
+      "authority_path": "data/standardized/market/v4/stock_suspension_intervals.parquet",
+      "primary_key": [
+        "issue_id"
+      ],
+      "columns": {
+        "instrument_code": "VARCHAR",
+        "gap_start": "VARCHAR",
+        "gap_end": "VARCHAR",
+        "missing_observations": "BIGINT",
+        "review_status": "VARCHAR",
+        "issue_id": "VARCHAR",
+        "interval_end_event": "VARCHAR",
+        "verification_result": "VARCHAR",
+        "closure_available_at": "VARCHAR",
+        "start_notice_available_at": "VARCHAR",
+        "quality_status": "VARCHAR",
+        "quality_reason": "VARCHAR",
+        "start_evidence": "VARCHAR",
+        "end_evidence": "VARCHAR"
+      }
+    },
+    "index_adjustment_events@v5": {
+      "authority_path": "data/standardized/market/v4/index_adjustment_events.parquet",
+      "primary_key": [
+        "event_id"
+      ],
+      "columns": {
+        "event_id": "VARCHAR",
+        "index_code": "VARCHAR",
+        "effective_date": "TIMESTAMP",
+        "release_at": "TIMESTAMP WITH TIME ZONE",
+        "research_available_at": "TIMESTAMP WITH TIME ZONE",
+        "additions": "VARCHAR[]",
+        "removals": "VARCHAR[]",
+        "source_path": "VARCHAR",
+        "source_sha256": "VARCHAR",
+        "source_url": "VARCHAR",
+        "retrieved_at": "VARCHAR",
+        "date_evidence": "VARCHAR",
+        "quality_status": "VARCHAR"
+      }
+    },
+    "stock_limit_rule_evidence@v5": {
+      "authority_path": "data/standardized/market/v4/stock_limit_rule_evidence.parquet",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "columns": {
+        "ts_code": "VARCHAR",
+        "trade_date": "VARCHAR",
+        "rule_id": "VARCHAR",
+        "limit_rule_status": "VARCHAR",
+        "rule_evidence_path": "VARCHAR",
+        "rule_date_evidence": "VARCHAR",
+        "rule_source_sha256": "VARCHAR",
+        "rule_retrieved_at": "TIMESTAMP WITH TIME ZONE",
+        "rule_quality_reason": "VARCHAR"
+      }
+    },
+    "stock_suspension_events@v5": {
+      "authority_path": "data/standardized/market/v4/stock_suspension_events/*.parquet",
+      "primary_key": [
+        "source_record_id"
+      ],
+      "columns": {
+        "ts_code": "VARCHAR",
+        "trade_date": "VARCHAR",
+        "suspend_timing": "VARCHAR",
+        "suspend_type": "VARCHAR",
+        "_row_hash": "VARCHAR",
+        "_batch_id": "VARCHAR",
+        "_ingested_at": "TIMESTAMP WITH TIME ZONE",
+        "_available_at": "TIMESTAMP WITH TIME ZONE",
+        "_event_date": "TIMESTAMP_NS",
+        "_period_date": "TIMESTAMP_NS",
+        "_announcement_date": "TIMESTAMP_NS",
+        "_actual_announcement_date": "TIMESTAMP_NS",
+        "_revision": "VARCHAR",
+        "_knowledge_quality": "VARCHAR",
+        "_event_available_at": "TIMESTAMP WITH TIME ZONE",
+        "_transform_version": "VARCHAR",
+        "dataset_id": "VARCHAR",
+        "source_id": "VARCHAR",
+        "source_record_id": "VARCHAR",
+        "retrieved_at": "TIMESTAMP WITH TIME ZONE",
+        "research_available_at": "TIMESTAMP WITH TIME ZONE",
+        "release_at": "TIMESTAMP WITH TIME ZONE",
+        "vintage_id": "VARCHAR",
+        "quality_status": "VARCHAR",
+        "quality_reason": "VARCHAR",
+        "data_version": "VARCHAR",
+        "observation_date": "DATE",
+        "reconstructed_quote_at": "TIMESTAMP WITH TIME ZONE",
+        "_source_evidence": "VARCHAR"
       }
     }
   },
-  "time_policy": "Trade dates are YYYYMMDD source fields; observation/period columns date; availability timestamps have timezone Asia/Shanghai. Never conflate these fields."
+  "time_policy": "Trade date YYYYMMDD; economic period/date distinct from timezone-aware release/capture/effective availability. Historical quote clock is explicit; no original-vintage claim."
 }

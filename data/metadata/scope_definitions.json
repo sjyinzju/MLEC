@@ -1,0 +1,34 @@
+{
+  "loan_scope_amendment": {
+    "evidence": [
+      {
+        "url": "https://www.gdjr.gov.cn/gdjr/jrzx/jryw/content/mpost_2075.html",
+        "path": "data/raw/public_sources/v4/objects/659411c856e9968255c517937d65e73f150dd78e6988a6f47b1a1896674b95df.html",
+        "sha256": "659411c856e9968255c517937d65e73f150dd78e6988a6f47b1a1896674b95df",
+        "literal": "自2015年起，人民币、外币和本外币存款含非银行业金融机构存放款项，人民币、外币和本外币贷款含拆放给非银行业金融机构的款项。"
+      },
+      {
+        "url": "https://jrb.qingdao.gov.cn/jrdt/202607/t20260715_10677449.shtml",
+        "path": "data/raw/public_sources/v4/objects/58b6c142599f113e11cb7adad56be9d2ab15be61a5446e5615e2aafc4bc99982.html",
+        "sha256": "58b6c142599f113e11cb7adad56be9d2ab15be61a5446e5615e2aafc4bc99982",
+        "literal": "自2023年1月起，中国人民银行将消费金融公司、理财公司和金融资产投资公司等三类银行业非存款类金融机构纳入金融统计范围。"
+      }
+    ],
+    "affected_records": 801,
+    "policy": "Values retain original reporting scope; no backward comparable-series reconstruction. Previous/change features do not cross scope breaks."
+  },
+  "tsf_2015_scope_amendment": {
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/07e374fc36eb4328a61ce40bc4bf5a92/2016020614180047455.pdf",
+    "path": "data/raw/public_sources/v4_review_stage/objects/0b2c9718e12adb7a6caa080587d3e8e6366f49c12f262fee1630cb7e85770c1a.pdf",
+    "sha256": "0b2c9718e12adb7a6caa080587d3e8e6366f49c12f262fee1630cb7e85770c1a",
+    "pdf_page": 11,
+    "literal": "2015年1月起，委托贷款统计制度进行了调整，将委托贷款划分为现金管理项下的委托贷款和一般委托贷款。",
+    "affected_records": 201,
+    "policy": "Refine contemporary pre-2018 records by the 2015-01 entrusted-loan definition. Do not backcast comparable totals or assign a definition to unverified restated snapshots; block cross-scope previous/change."
+  },
+  "tsf_2023_scope_amendment": {
+    "evidence_url": "https://jrb.qingdao.gov.cn/jrdt/202607/t20260715_10677449.shtml",
+    "literal": "自2023年1月起，中国人民银行将消费金融公司、理财公司和金融资产投资公司等三类银行业非存款类金融机构纳入金融统计范围。由此，对社会融资规模中“对实体经济发放的人民币贷款”和“贷款核销”数据进行了调整。",
+    "v3_files_modified": false
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "url": "https://caifang.china.com.cn/2015-05/18/content_7914120.htm",
-  "params": null,
-  "method": "GET",
-  "retrieved_at": "2026-11-15T01:15:06.672776+08:00",
-  "request_id": "084703888425f34d9e81ab7af39a9bee7d026c96e41994cac5b3e0013090cb34",
-  "status": "failed",
-  "error": "SSLError: HTTPSConnectionPool(host='caifang.china.com.cn', port=443): Max retries exceeded with url: /2015-05/18/content_7914120.htm (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'caifang.china.com.cn'. (_ssl.c:1006)\")))"
-}

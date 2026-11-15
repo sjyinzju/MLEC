@@ -34,7 +34,8 @@ def build():
         fields=list(dict.fromkeys(keys.split(',')+required.split(',')))
         rows.append({'domain':'M','dataset_id':dataset_id,'source_dataset':ep,'required_fields':fields,'optional_fields':[x for x in available if x not in fields],
           'source_definition':'https://tushare.pro/document/2?doc_id='+str(DOC_IDS[ep]) if ep in DOC_IDS else 'Official index-provider adjustment announcements with both publication and effectiveness dates',
-          'primary_key':keys.split(','),'actual_data_start':None,'required_start':'2014-01-01','required_end':'2026-09-22',
+          # Dividend proposals can lack ann_date; source identity remains unique.
+          'primary_key':['source_record_id'] if dataset_id=='stock_dividend_events' else keys.split(','),'actual_data_start':None,'required_start':'2014-01-01','required_end':'2026-09-22',
           'frozen_research_start':'2015-01-05','warmup_policy':'2014 prices retained as independent extension; never changes frozen 599 rows or labels',
           'expected_frequency':'event' if ep in ['stock_basic','namechange','dividend','official_adjustment_announcements'] else 'snapshot' if ep in ['index_weight','index_basic'] else 'calendar_day' if ep=='trade_cal' else 'trading_day',
           'expected_observations':'all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations',

@@ -12,5 +12,10 @@
     "latest_vintage_reconstructed"
   ],
   "blocked": "never usable",
-  "policy": "Only explicitly dated announcement values may be strict. Reprints and quote histories without correction logs are conservative. Latest archives become available at retrieval; never backdated."
+  "policy": "The v5 research_inputs policy also accepts third_party_historical_quote with an explicit reconstructed_quote_at. Reconstruction is not original-vintage PIT; conflicts/semantic errors remain excluded.",
+  "historical_reconstructed": [
+    "strict_pit_eligible",
+    "conservative_release_reconstructed",
+    "historical_reconstructed"
+  ]
 }

@@ -1,9 +1,0 @@
-{
-  "url": "https://english.customs.gov.cn/Statics/563698a2-664d-4c0b-8104-bdf28bea3121.html",
-  "params": null,
-  "method": "GET",
-  "retrieved_at": "2026-11-15T00:43:30.230746+08:00",
-  "request_id": "34ce821afa152d43cd9a21c58862e54856f02e642c5e0a53332f72322b72d835",
-  "status": "failed",
-  "error": "SSLError: HTTPSConnectionPool(host='english.customs.gov.cn', port=443): Max retries exceeded with url: /Statics/563698a2-664d-4c0b-8104-bdf28bea3121.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
-}

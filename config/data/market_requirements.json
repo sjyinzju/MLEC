@@ -1,5 +1,5 @@
 {
-  "version": "unified-data-foundation-v4.0.0",
+  "version": "practical-research-data-v5",
   "datasets": [
     {
       "domain": "M",
@@ -42,7 +42,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "trend",
@@ -61,11 +61,11 @@
       ],
       "priority": "P0",
       "required": true,
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/index_daily/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -110,7 +110,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "valuation",
@@ -128,10 +128,10 @@
       "priority": "P0",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/index_daily_basic/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -169,7 +169,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "breadth",
@@ -188,10 +188,10 @@
       "priority": "P0",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_daily_observations/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -235,7 +235,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "valuation",
@@ -253,11 +253,11 @@
       ],
       "priority": "P1",
       "required": true,
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_daily_basic_observations/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -284,7 +284,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "adjusted_returns",
@@ -302,11 +302,11 @@
       ],
       "priority": "P0",
       "required": true,
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_adjustment_observations/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -351,7 +351,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "historical_universe",
@@ -370,10 +370,10 @@
       "priority": "P0",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "2026-09-22 00:00:00",
       "authority_path": "data/standardized/market/v4/stock_master_history.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -404,7 +404,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "identity",
@@ -422,10 +422,10 @@
       "priority": "P1",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260930",
       "authority_path": "data/standardized/market/v4/stock_name_history/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -459,7 +459,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "missing_vs_suspension",
@@ -477,10 +477,10 @@
       "priority": "P0",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_trading_status/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -520,7 +520,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "index_specific_breadth_and_correlation"
@@ -536,11 +536,11 @@
       ],
       "priority": "P1",
       "required": true,
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "QUALIFIED",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "2026-06-15 00:00:00",
       "authority_path": "data/standardized/market/v4/index_constituents_history.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -577,7 +577,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "snapshot_weights; not daily effective membership"
@@ -594,10 +594,10 @@
       "priority": "P1",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260831",
       "authority_path": "data/standardized/market/v4/index_weights_history/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -625,7 +625,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "all_daily_expected_grids"
@@ -642,10 +642,10 @@
       "priority": "P0",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20261101",
       "authority_path": "data/standardized/market/v4/trade_calendar/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -690,7 +690,7 @@
         "399006.SZ"
       ],
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "publication_vs_backcast"
@@ -707,10 +707,10 @@
       "priority": "P0",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20141017",
       "authority_path": "data/standardized/market/v4/index_identity/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -744,7 +744,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "trading_pressure"
@@ -761,10 +761,10 @@
       "priority": "P1",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_limits_observations/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -798,7 +798,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "market_leverage_extension"
@@ -815,10 +815,10 @@
       "priority": "P2",
       "required": false,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/margin_market/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -854,7 +854,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "cross_sectional_leverage_extension"
@@ -871,10 +871,10 @@
       "priority": "P2",
       "required": false,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/margin_security/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -919,7 +919,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "provider_classified_order_flow_extension"
@@ -935,11 +935,11 @@
       ],
       "priority": "P2",
       "required": false,
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNAVAILABLE_OPTIONAL_DATA",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_moneyflow/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -968,7 +968,7 @@
         "ts_code",
         "trade_date"
       ],
-      "actual_data_start": "20150105",
+      "actual_data_start": "20140102",
       "required_start": "2014-01-01",
       "required_end": "2026-09-22",
       "frozen_research_start": "2015-01-05",
@@ -978,7 +978,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "independent_activity_reconciliation"
@@ -995,10 +995,10 @@
       "priority": "P1",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/exchange_activity_sh/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -1022,7 +1022,7 @@
         "ts_code",
         "trade_date"
       ],
-      "actual_data_start": "20150105",
+      "actual_data_start": "20140102",
       "required_start": "2014-01-01",
       "required_end": "2026-09-22",
       "frozen_research_start": "2015-01-05",
@@ -1032,7 +1032,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "independent_activity_reconciliation"
@@ -1048,11 +1048,11 @@
       ],
       "priority": "P1",
       "required": true,
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/exchange_activity_sz/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -1089,7 +1089,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "top10_only_not_market_total_flow"
@@ -1106,10 +1106,10 @@
       "priority": "P2",
       "required": false,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_connect_top10/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     },
     {
       "domain": "M",
@@ -1137,10 +1137,7 @@
       ],
       "source_definition": "https://tushare.pro/document/2?doc_id=103",
       "primary_key": [
-        "ts_code",
-        "end_date",
-        "ann_date",
-        "div_proc"
+        "source_record_id"
       ],
       "actual_data_start": "19910317",
       "required_start": "2014-01-01",
@@ -1152,7 +1149,7 @@
       "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
       "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
       "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
-      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "revision_policy": "Historical reconstruction with compact source/correction metadata. No complete original-vintage archive retained; v2 frozen.",
       "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
       "downstream_dependencies": [
         "independent_adjustment_factor_checks"
@@ -1169,10 +1166,10 @@
       "priority": "P1",
       "required": true,
       "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "contract_version": "practical-research-data-v5",
       "actual_data_end": "20260922",
       "authority_path": "data/standardized/market/v4/stock_dividend_events/*.parquet",
-      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+      "coverage_evidence": "data/metadata/data_completeness.csv"
     }
   ],
   "basis": "Research design v1.0 plus final data-engineering task; P2 are declared optional extension analyses, not required by frozen labels or five dimensions"

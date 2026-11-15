@@ -1,0 +1,24 @@
+{
+  "source": "http://www.szse.cn/api/report/ShowReport/data",
+  "money_unit": "CNY",
+  "money_definition": "Official category table headers in 100 million CNY; existing values compared within display resolution across four dates and board regimes.",
+  "categories": [
+    "中小板",
+    "主板A股",
+    "主板B股",
+    "创业板A股",
+    "股票"
+  ],
+  "stock_total_includes_B_shares": true,
+  "category_aliases": {
+    "创业板": "创业板A股"
+  },
+  "no_volume_or_share_imputation": true,
+  "raw_responses_retained": false,
+  "official_supplement_rows_total": 1257,
+  "stock_total_expected_dates": 3095,
+  "stock_total_actual_dates": 3095,
+  "zero_category_rows_repaired": 4,
+  "stock_total_dates": 3095,
+  "quantity_policy": "data/metadata/szse_quantity_policy.json"
+}

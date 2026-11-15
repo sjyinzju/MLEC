@@ -1,5 +1,5 @@
 {
-  "version": "unified-data-foundation-v4.0.0",
+  "version": "practical-research-data-v5",
   "variables": [
     {
       "series_id": "pmi_mfg",
@@ -54,8 +54,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -69,8 +69,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -129,8 +129,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -144,8 +144,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -204,8 +204,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -219,8 +219,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -279,8 +279,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "January and February are a combined publication; do not split into single months",
       "downstream_dependencies": [
         "macro_weekly",
@@ -294,8 +294,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 127,
@@ -355,8 +355,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "January not separately released",
       "downstream_dependencies": [
         "macro_weekly",
@@ -370,8 +370,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 140,
@@ -431,8 +431,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "January and February are a combined publication; do not split into single months",
       "downstream_dependencies": [
         "macro_weekly",
@@ -446,8 +446,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 127,
@@ -507,8 +507,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "January not separately released",
       "downstream_dependencies": [
         "macro_weekly",
@@ -522,8 +522,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 140,
@@ -583,8 +583,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -598,8 +598,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 51
@@ -658,8 +658,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -673,8 +673,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 51
@@ -733,8 +733,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "January not separately released",
       "downstream_dependencies": [
         "macro_weekly",
@@ -748,8 +748,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 140,
@@ -809,8 +809,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -824,8 +824,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -884,8 +884,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -899,8 +899,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -959,8 +959,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -974,8 +974,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -1034,8 +1034,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1049,8 +1049,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -1109,8 +1109,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1124,8 +1124,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -1184,8 +1184,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1199,8 +1199,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -1259,8 +1259,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1274,8 +1274,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 132,
@@ -1335,8 +1335,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1350,8 +1350,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 132,
@@ -1411,8 +1411,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1426,8 +1426,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 116,
@@ -1487,8 +1487,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1502,8 +1502,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 116,
@@ -1563,8 +1563,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1578,8 +1578,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 116,
@@ -1639,8 +1639,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1654,13 +1654,12 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 116,
-        "ACCEPTED": 21,
-        "VINTAGE_UNVERIFIED": 16
+        "ACCEPTED": 37
       }
     },
     {
@@ -1717,8 +1716,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1732,8 +1731,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -1793,8 +1792,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1808,12 +1807,11 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
-        "ACCEPTED": 92,
-        "SEMANTIC_ERROR": 61
+        "ACCEPTED": 153
       }
     },
     {
@@ -1870,8 +1868,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1885,8 +1883,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -1946,8 +1944,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -1961,8 +1959,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 118,
@@ -2022,8 +2020,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2037,8 +2035,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 151,
@@ -2098,8 +2096,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2113,8 +2111,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 141,
@@ -2174,8 +2172,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2189,8 +2187,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 150,
@@ -2250,8 +2248,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2265,8 +2263,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {}
     },
@@ -2324,8 +2322,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2339,8 +2337,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 118,
@@ -2400,8 +2398,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2415,8 +2413,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 151,
@@ -2476,8 +2474,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2491,8 +2489,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 141,
@@ -2552,8 +2550,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2567,8 +2565,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 150,
@@ -2628,8 +2626,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2643,8 +2641,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {}
     },
@@ -2702,8 +2700,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2717,8 +2715,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 99,
@@ -2778,8 +2776,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2793,12 +2791,12 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
-        "STRUCTURAL_NA": 151,
-        "ACCEPTED": 2
+        "STRUCTURAL_NA": 145,
+        "ACCEPTED": 8
       }
     },
     {
@@ -2854,8 +2852,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2869,8 +2867,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 141,
@@ -2930,8 +2928,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -2945,8 +2943,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 150,
@@ -3006,8 +3004,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3021,8 +3019,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {}
     },
@@ -3080,8 +3078,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3095,13 +3093,12 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 99,
-        "ACCEPTED": 37,
-        "VINTAGE_UNVERIFIED": 17
+        "ACCEPTED": 54
       }
     },
     {
@@ -3157,8 +3154,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3172,12 +3169,12 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 151,
-        "VINTAGE_UNVERIFIED": 2
+        "ACCEPTED": 2
       }
     },
     {
@@ -3233,8 +3230,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3248,13 +3245,12 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 141,
-        "VINTAGE_UNVERIFIED": 7,
-        "ACCEPTED": 5
+        "ACCEPTED": 12
       }
     },
     {
@@ -3310,8 +3306,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3325,8 +3321,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 150,
@@ -3386,8 +3382,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3401,8 +3397,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {}
     },
@@ -3459,8 +3455,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3474,8 +3470,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 3095
@@ -3534,8 +3530,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3549,8 +3545,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 3095
@@ -3609,8 +3605,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3624,8 +3620,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 3095
@@ -3684,8 +3680,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3699,13 +3695,12 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
-        "VINTAGE_UNVERIFIED": 2834,
-        "STRUCTURAL_NA": 232,
-        "ACCEPTED": 29
+        "ACCEPTED": 2863,
+        "STRUCTURAL_NA": 232
       }
     },
     {
@@ -3761,8 +3756,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3776,8 +3771,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 2850,
@@ -3837,8 +3832,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3852,8 +3847,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 2850,
@@ -3913,8 +3908,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -3928,8 +3923,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 2850,
@@ -3989,8 +3984,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4004,8 +3999,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 86,
@@ -4065,8 +4060,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4080,8 +4075,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 3095
@@ -4140,8 +4135,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4155,8 +4150,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -4215,8 +4210,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4230,8 +4225,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -4290,8 +4285,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4305,8 +4300,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 153
@@ -4365,8 +4360,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4380,8 +4375,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 140,
@@ -4441,8 +4436,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4456,8 +4451,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 140,
@@ -4517,8 +4512,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4532,8 +4527,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 146,
@@ -4593,8 +4588,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4608,8 +4603,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "UNRESOLVED_REQUIRED_DATA",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "ACCEPTED": 146,
@@ -4669,8 +4664,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4684,8 +4679,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 108,
@@ -4745,8 +4740,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "2015 stock is quarterly; monthly from 2016; pre-2014-12 not in original publication regime",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4760,8 +4755,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 108,
@@ -4821,8 +4816,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4836,8 +4831,8 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "QUALIFIED",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 108,
@@ -4897,8 +4892,8 @@
       "expected_observations": "Explicit period-by-period grid; do not count unavailable regimes as missing observations",
       "market_scope": "China macroeconomic releases",
       "security_universe": "not applicable",
-      "historical_availability": "Evidence-supported announcement, conservative dated reproduction or retrieval-only unknown vintage",
-      "revision_policy": "Every source vintage retained; no cross-scope splicing",
+      "historical_availability": "Explicit historical_reconstructed policy; conservative declared publication lag or reconstructed quote clock where allowed. No future observation-date backfill.",
+      "revision_policy": "Available identified publication versions retained as normalized facts; no complete original-vintage archive claim.",
       "allowed_missing_rules": "none",
       "downstream_dependencies": [
         "macro_weekly",
@@ -4912,13 +4907,12 @@
         "completeness",
         "no_future_leakage"
       ],
-      "quality_status": "FAIL",
-      "contract_version": "unified-data-foundation-v4.0.0",
+      "quality_status": "DATA READY",
+      "contract_version": "practical-research-data-v5",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "period_status_counts": {
         "STRUCTURAL_NA": 108,
-        "ACCEPTED": 42,
-        "VINTAGE_UNVERIFIED": 3
+        "ACCEPTED": 45
       }
     }
   ]

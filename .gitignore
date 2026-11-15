@@ -59,11 +59,11 @@ Desktop.ini
 /data/raw/macro/source_references/*.js
 /audit/framework/matplotlib_cache/
 
-# Immutable public v3 response payloads remain local; hashes and request ledger tracked.
+# Original responses and request ledgers are excluded and removed after absorption.
 /data/raw/macro/official_sources/v3/objects/
 /audit/data_foundation_v3/*.log
 
-# V4 local data and bounded offline before-images
+# Large local standardized data; raw and reproduction directories are not delivered.
 /audit/final_data_foundation/temp/
 /audit/final_data_foundation/reproducibility/**/before/
 /data/raw/market/v4/
@@ -71,5 +71,13 @@ Desktop.ini
 /data/standardized/market/v4/
 /data/raw/public_sources/v4/objects/
 
-# Full-population audit exceeds GitHub file-size limit; retained locally.
+# Obsolete full-population audit is not delivered.
 /audit/final_data_foundation/market_coverage/adjusted_return_population.parquet
+
+# Lightweight delivery policy: never recommit original responses or run artifacts.
+/data/raw/
+/audit/final_data_foundation/
+/audit/data_foundation_v3/
+/audit/framework/
+/data/archive/data-foundation-v3/
+*.log

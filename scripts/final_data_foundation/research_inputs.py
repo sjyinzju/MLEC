@@ -7,6 +7,7 @@ from .macro_contract import specifications,TSF_REGIMES
 FEATURES=ROOT/'data/features/macro/v4'
 DATASETS=ROOT/'data/datasets'
 LEVELS={'strict':['strict_pit_eligible'],
+        'historical_reconstructed':['strict_pit_eligible','conservative_release_reconstructed','historical_reconstructed'],
         'conservative':['strict_pit_eligible','conservative_release_reconstructed'],
         'quote_reconstructed':['strict_pit_eligible','conservative_release_reconstructed'],
         'latest_at_retrieval':['strict_pit_eligible','conservative_release_reconstructed','latest_vintage_reconstructed']}
@@ -16,11 +17,11 @@ def prepare(f,level):
     if level not in LEVELS:raise ValueError('Unregistered quality policy')
     f=f.copy();f['effective_available_at']=f.research_available_at
     allowed=f.quality_status.isin(LEVELS[level])
-    if level=='quote_reconstructed':
+    if level in ['quote_reconstructed','historical_reconstructed']:
         quote=f.source_class.eq('third_party_historical_quote')&f.reconstructed_quote_at.notna()
         allowed|=quote;f.loc[quote,'effective_available_at']=f.loc[quote,'reconstructed_quote_at']
     f=f[allowed&f.certification_status.eq('ACCEPTED')&f.value.notna()].copy()
-    f['quality_rank']=f.quality_status.map({'strict_pit_eligible':2,'conservative_release_reconstructed':1,'latest_vintage_reconstructed':0})
+    f['quality_rank']=f.quality_status.map({'strict_pit_eligible':2,'conservative_release_reconstructed':1,'latest_vintage_reconstructed':0,'historical_reconstructed':0})
     return f.sort_values(['period_end','effective_available_at','publication_edition_order','quality_rank','source_record_id'])
 
 
@@ -164,7 +165,7 @@ def build():
                 'eligible_h20':int(result['eligibility'].eligible.sum()),'joint_strict_pit_certified':False}
             write(DATASETS/'feature_sets/v4'/level/(group+'.json'),spec);summ.append({k:spec[k] for k in ['dataset_id','macro_quality','rows','eligible_h20']})
         print('Weekly inputs',level,len(weekly),flush=True)
-    frame(AUDIT/'temporal_validation/sample_eligibility_summary.parquet',pd.DataFrame(summ))
+    frame(ROOT/'data/metadata/sample_eligibility_summary.parquet',pd.DataFrame(summ))
     write(DATASETS/'research_base/v4/authority.json',{'version':VERSION,'sample_ids':'data/research_v2/market_features_weekly.parquet','count':599,'no_rows_deleted':True,
           'interface':'scripts.final_data_foundation.research_inputs.load_dataset','labels':'frozen v2 combined, volatility, drawdown; horizons 5,20,40; no regeneration'})
     quality_policies()
@@ -175,7 +176,7 @@ def quality_policies():
         write(DATASETS/'quality_versions/v4'/(level+'.json'),{'quality_version':level,'data_version':VERSION,
           'accepted_macro_statuses':allowed,'certification_status_required':'ACCEPTED',
           'availability_field':'effective_available_at','non_null_value_required':True,
-          'quote_reconstruction_exception':'third_party_historical_quote with explicit reconstructed_quote_at' if level=='quote_reconstructed' else None,
+          'quote_reconstruction_exception':'third_party_historical_quote with explicit reconstructed_quote_at' if level in ['quote_reconstructed','historical_reconstructed'] else None,
           'market_policy':'frozen_v2_reconstruction','joint_strict_pit_certified':False,
           'excluded':['source conflicts','semantic errors','unverified facts','outside scope period'],
           'sample_rows_preserved':599,'eligibility_is_explicit_mask':True})

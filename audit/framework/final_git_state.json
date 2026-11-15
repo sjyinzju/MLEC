@@ -1,7 +1,0 @@
-{
-  "branch": "main",
-  "head": "566060b8a7fe7aed28c099ae1dfc33dcd74dbc7d",
-  "status": " M .gitignore\n D data_raw/cm_dr007_daily.csv\n D data_raw/cm_lpr_monthly.csv\n D data_raw/cm_shibor_daily.csv\n D data_raw/em_series.csv\n D data_raw/nbs_list_items.csv\n D data_raw/nbs_series.csv\n D data_raw/pboc_series.csv\n M deliverables/README.md\n D deliverables/build_info.json\n D deliverables/crosscheck_official_vs_eastmoney.csv\n M deliverables/macro_data_quality.md\n D deliverables/macro_metadata.csv\n D deliverables/macro_raw.csv\n D deliverables/macro_raw.parquet\n D deliverables/macro_release_calendar.csv\n M deliverables/manual_sources.md\n M scripts/audit_anomaly_details.py\n M scripts/audit_files_and_storage.py\n M scripts/audit_index_scope.py\n M scripts/audit_market_data.py\n M scripts/audit_remaining_checks.py\n M scripts/audit_research_dependencies.py\n M scripts/build_audit_reports.py\n M scripts/explore_audit.py\n M scripts/research_v2/common.py\n?? README.md\n?? audit/framework/\n?? config/experiments/\n?? data/datasets/\n?? data/features/\n?? data/metadata/\n?? data/raw/\n?? data/standardized/\n?? docs/\n?? experiments/\n?? reports/benchmark/\n?? reports/data_quality/\n?? reports/research/\n?? requirements-research.txt\n?? scripts/check_macro_full_gaps.py\n?? scripts/experiment_framework/\n?? scripts/macro_pipeline/\n?? scripts/plot_benchmark.py\n?? tests/conftest.py\n?? tests/experiment_framework/\n",
-  "commit_created": false,
-  "pushed": false
-}
