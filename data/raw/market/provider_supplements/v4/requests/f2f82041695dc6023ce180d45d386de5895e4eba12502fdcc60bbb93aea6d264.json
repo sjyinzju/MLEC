@@ -1,0 +1,16 @@
+{
+  "endpoint": "moneyflow",
+  "params": {
+    "start_date": "20140101",
+    "end_date": "20140131",
+    "limit": 5000,
+    "offset": 5000
+  },
+  "request_id": "f2f82041695dc6023ce180d45d386de5895e4eba12502fdcc60bbb93aea6d264",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T03:40:16.195684+08:00",
+  "status": "ok",
+  "rows": 5000,
+  "path": "data/raw/market/provider_supplements/v4/objects/27a7670ffb356468c682cb3021f5ec8cfda7c20d7bbd40aa558e40ed2360598e.json",
+  "sha256": "6da263253247c3c57835ef617e01433f2ffef8ed78f233b38b747068e75cc9f0"
+}

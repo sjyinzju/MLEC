@@ -1,0 +1,17 @@
+{
+  "endpoint": "moneyflow",
+  "params": {
+    "ts_code": "600656.SH",
+    "start_date": "20160330",
+    "end_date": "20160330",
+    "limit": 5000,
+    "offset": 0
+  },
+  "request_id": "35187f86c0e4dd59cd9a31d71c13aa59dca9ab822234d44e3c7a618b13a2472a",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T03:45:44.087148+08:00",
+  "status": "ok",
+  "rows": 0,
+  "path": "data/raw/market/provider_supplements/v4/objects/854a463a40fc617e848a924ce745204d7b06f38d3ecab48c9680270ae02d959c.json",
+  "sha256": "0ec8934e39d342a85b3c016a3788ca9c939622af6a43e9321264488c441ad2f1"
+}

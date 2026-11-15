@@ -1,0 +1,16 @@
+{
+  "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+  "params": {
+    "art_code": "AN202006051382601644",
+    "client_source": "web",
+    "page_index": 1
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T00:36:48.610483+08:00",
+  "request_id": "609c31ed7eadf777559c71130692e3c214d5567ba4dc2ef70db3e913aaf8fa38",
+  "http_status": 567,
+  "final_url": "https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202006051382601644&client_source=web&page_index=1",
+  "encoding": "utf-8",
+  "status": "failed",
+  "error": "HTTPError: 567 Server Error: Unknown Status for url: https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202006051382601644&client_source=web&page_index=1"
+}

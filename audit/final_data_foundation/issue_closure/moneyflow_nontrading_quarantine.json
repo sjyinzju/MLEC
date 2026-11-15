@@ -1,0 +1,10 @@
+{
+  "retained_rows": 82,
+  "fresh_source_absent": 0,
+  "fresh_source_present": 82,
+  "trading_status_counts": {
+    "SUSPENDED_SOURCE_RECORDED": 81,
+    "SUSPENDED_OFFICIAL_EVIDENCE": 1
+  },
+  "policy": "Retain original snapshots; quarantine unsupported nontrading-day flow values. Do not turn them into trades or impute missing observed-day flows."
+}

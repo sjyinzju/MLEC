@@ -1,0 +1,14 @@
+{
+  "status": "CLOSED_FOR_66_FLAGGED_DATES",
+  "certified_rule_dates": 70,
+  "original_flagged_dates": 66,
+  "ordinary_limit_values_removed_with_originals_preserved": 69,
+  "missing_source_row_explained_without_numeric_fill": 1,
+  "ipo_primary_documents": 48,
+  "rule_counts": {
+    "SPECIAL_IPO_AUCTION_REGIME": 48,
+    "STRUCTURAL_NO_DAILY_PRICE_LIMIT": 22
+  },
+  "verification": "Original PDFs/hash and literal dates; two damaged text layers visually reviewed; all 70 normalized daily-limit pairs NULL.",
+  "remaining": "Full historical ST/board-rule coverage for other dates is not independently certified. Special IPO auction ranges are session-dependent and are not ordinary fixed daily limits."
+}

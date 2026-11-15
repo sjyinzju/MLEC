@@ -1,0 +1,16 @@
+{
+  "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+  "params": {
+    "art_code": "AN202012041436789503",
+    "client_source": "web",
+    "page_index": 1
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T00:37:20.950489+08:00",
+  "request_id": "930109a91e2937c9198c17dd6e9e6dd203e974eab62a0c1c04e439ac1f14157d",
+  "http_status": 567,
+  "final_url": "https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202012041436789503&client_source=web&page_index=1",
+  "encoding": "utf-8",
+  "status": "failed",
+  "error": "HTTPError: 567 Server Error: Unknown Status for url: https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202012041436789503&client_source=web&page_index=1"
+}

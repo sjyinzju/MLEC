@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "毅达",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-07-05~2020-09-23",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:51:41.980168+08:00",
+  "request_id": "09c465e04dd96b774219f7d08dd5519d960a1b19cd314ec4fbdc1c11b61f373b",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/8ea230c9cde616a3daffbaeeaa213184fb59c27347bea0cc12417b2e43c2995a.html",
+  "sha256": "8ea230c9cde616a3daffbaeeaa213184fb59c27347bea0cc12417b2e43c2995a",
+  "bytes": 21336
+}

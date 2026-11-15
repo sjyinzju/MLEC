@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "金亚科技",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2019-04-03~2019-06-22",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:51.211880+08:00",
+  "request_id": "70ee225641dce1e8da5d3a0d1e38ae861447cdab524e0450c5b2d4ea95ae03fe",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/c3cc0c29bce60e6921c0157a9baf6ab1d04448eae70747bb126fbab50b31859d.html",
+  "sha256": "c3cc0c29bce60e6921c0157a9baf6ab1d04448eae70747bb126fbab50b31859d",
+  "bytes": 20609
+}

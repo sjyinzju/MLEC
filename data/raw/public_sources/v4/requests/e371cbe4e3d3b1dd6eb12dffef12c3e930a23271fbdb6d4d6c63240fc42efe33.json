@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "中纺",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-11-01~2014-11-26",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T02:02:20.737055+08:00",
+  "request_id": "e371cbe4e3d3b1dd6eb12dffef12c3e930a23271fbdb6d4d6c63240fc42efe33",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/8d8d3b333b1f74099bcbc34e32c03bbec33bd447de443ede62e00f6472726dc6.html",
+  "sha256": "8d8d3b333b1f74099bcbc34e32c03bbec33bd447de443ede62e00f6472726dc6",
+  "bytes": 21399
+}

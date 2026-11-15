@@ -1,24 +1,23 @@
 # ECON3059 中国宏观信息与A股风险状态研究
 
-当前阶段仅建设研究数据基础，冻结协议为 `market-research-v2.0.0`。本轮数据版本 `data-foundation-v3.0.0` 的**全量验收仍为FAIL**：41个经济概念及61个分口径候选序列已核查，重大历史缺口和未认证版本见[最终验收](reports/data_quality/final_data_acceptance.md)，不能因管线可运行而认为全部数据已齐备。
+当前数据版本 `unified-data-foundation-v4.0.0` 的验收为 **INCOMPLETE — DATA FOUNDATION NOT FULLY ACCEPTED**。双域数据已完成本轮补充、修复和逐项复核，但尚缺完整有效成分与权重、部分宏观原始版本/观测，以及少量未决价格、复权与股本口径证据。不能把技术测试通过理解为数据全部认证。
 
-入口是 `python -X utf8 -m scripts.data_foundation_v3.cli`，只处理采集、标准化、核对、特征、样本、验证和报告。本轮禁止模型训练、调参、benchmark和2023+最终实验。
+冻结协议 `market-research-v2.0.0` 的599个候选时点、原标签、阈值、fold及既有模型成果保留。本轮只做数据工程，未运行模型训练、Benchmark或预测。
 
-- [项目结构与迁移](docs/project_structure.md)
-- [逐期完整率](reports/data_quality/macro_completeness.md)
-- [字段字典](docs/data_dictionary.md)与[数据契约](docs/data_contracts.md)
-- [来源证据](docs/data_sources.md)与[剩余限制](docs/remaining_data_limitations.md)
-- [完整复现命令](docs/data_reproducibility.md)
-- [历史探索成果说明](docs/historical_exploration.md)
-
-快速数据检查：
+- [统一最终验收及12项回答](reports/data_quality/final_data_acceptance.md)
+- [金融市场审计](reports/data_quality/final_market_data_audit.md) · [宏观逐期审计](reports/data_quality/final_macro_data_audit.md)
+- [完整数据目录](reports/data_quality/full_research_data_inventory.md) · [跨域验证](reports/data_quality/final_cross_domain_validation.md)
+- [数据架构](docs/data_architecture.md) · [契约](docs/research_data_contract.md) · [字典](docs/research_data_dictionary.md)
+- [来源与版本](reports/data_quality/source_and_vintage_validation.md) · [剩余限制](docs/remaining_limitations.md)
+- [离线复现和统一接口](docs/data_reproducibility.md)
 
 ```powershell
-python -X utf8 -m pytest tests/data_foundation_v3 -q
-python -X utf8 -m scripts.data_foundation_v3.cli validate
-python -X utf8 -m scripts.data_foundation_v3.cli verify-lineage
+python -X utf8 -m scripts.final_data_foundation.offline --run-name user_reproduction_01
+python -X utf8 -m scripts.final_data_foundation.validation
+python -X utf8 -m scripts.final_data_foundation.issues
+python -X utf8 -m scripts.final_data_foundation.reporting
 ```
 
-权威数据均在data/：raw保存不可变来源；standardized/macro/v3保留所有分级事实；research_v2保存冻结市场；features/v3保存周度特征和lineage；datasets/foundation_v3保存24套可组合数据集；metadata保存注册表、字典、日历和资格依据。数据目录中的候选值必须按quality_status和certification_status使用。
+依赖见 `requirements-data-v4.txt`。已有运行名用于断点续作；全新重演用新的英文运行名。新权威入口由 `data/metadata/dataset_registry.json` 指定；旧v3数据保留作不可变输入，旧注册表和入口文档逐字节归档于 `data/archive/data-foundation-v3`。
 
-仓库从实际路径解析根目录；E:/QuantData、E:/quant仅只读。课程材料已移至docs/course，课题Word在docs/research_design，旧交付指针在docs/archive；完整迁移证据在audit/data_foundation_v3。旧市场数据、模型与实验成果保留。大原始快照部分被Git忽略，离线复现必须提供来源清单中的实际文件及哈希。
+大规模原始市场快照、标准化市场分区、临时文件和复现前镜像仅保留本地，不直接放入Git。异机离线复现必须同时提供清单对应的本地文件及其SHA-256；仅克隆代码不能凭空恢复来源快照。`E:/QuantData` 与 `E:/quant` 全程只读。

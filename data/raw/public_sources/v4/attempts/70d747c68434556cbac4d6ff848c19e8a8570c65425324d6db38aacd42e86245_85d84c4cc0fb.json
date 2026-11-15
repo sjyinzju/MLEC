@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "聚友",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2013-11-23~2014-02-11",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:29.098760+08:00",
+  "request_id": "70d747c68434556cbac4d6ff848c19e8a8570c65425324d6db38aacd42e86245",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/727776bd5bc51eeea5250592e77e9d8862d76512c7ba4c88d37e86301ae9a2d9.html",
+  "sha256": "727776bd5bc51eeea5250592e77e9d8862d76512c7ba4c88d37e86301ae9a2d9",
+  "bytes": 13908
+}

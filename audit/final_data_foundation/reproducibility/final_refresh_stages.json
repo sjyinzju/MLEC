@@ -1,0 +1,92 @@
+[
+  {
+    "stage": "register_code_evidence",
+    "status": "PASS",
+    "seconds": 0.0
+  },
+  {
+    "stage": "identity_intervals",
+    "status": "PASS",
+    "seconds": 0.7660000000032596
+  },
+  {
+    "stage": "security_date_grid",
+    "status": "PASS",
+    "seconds": 283.2969999999914
+  },
+  {
+    "stage": "suspension_certificates",
+    "status": "PASS",
+    "seconds": 42.125
+  },
+  {
+    "stage": "canonical_affected_years",
+    "status": "PASS",
+    "seconds": 349.6399999999994
+  },
+  {
+    "stage": "factor_vintages",
+    "status": "PASS",
+    "seconds": 136.29700000000594
+  },
+  {
+    "stage": "official_factor",
+    "status": "PASS",
+    "seconds": 138.89100000000326
+  },
+  {
+    "stage": "factor_population",
+    "status": "PASS",
+    "seconds": 47.9369999999908
+  },
+  {
+    "stage": "factor_adjudication",
+    "status": "PASS",
+    "seconds": 2.375
+  },
+  {
+    "stage": "full_numeric_recheck",
+    "status": "PASS",
+    "seconds": 132.75
+  },
+  {
+    "stage": "code_amendment_recheck",
+    "status": "PASS",
+    "seconds": 3.4689999999973224
+  },
+  {
+    "stage": "basic_arithmetic",
+    "status": "PASS",
+    "seconds": 8.703000000008615
+  },
+  {
+    "stage": "market_field_quality",
+    "status": "PASS",
+    "seconds": 26.10899999999674
+  },
+  {
+    "stage": "market_features",
+    "status": "PASS",
+    "seconds": 178.64100000000326
+  },
+  {
+    "stage": "macro_facts",
+    "status": "PASS",
+    "seconds": 153.92199999999139
+  },
+  {
+    "stage": "weekly_views",
+    "status": "PASS",
+    "seconds": 130.73399999999674
+  },
+  {
+    "stage": "secondary_market_coverage",
+    "status": "PASS",
+    "seconds": 146.48500000000058
+  },
+  {
+    "stage": "catalogue",
+    "status": "PASS",
+    "seconds": 37.65700000000652
+  }
+]

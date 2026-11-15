@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "锌业",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-06-26~2014-09-14",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:34.327310+08:00",
+  "request_id": "63072523d946be8055fc6a2f24e4e1d31cc58a7b2eb3ecd98e5f4078817b3e35",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/3357550de42710b7868a1785eee4b2454c3e5298c7ba5e9af258d1e510f5dd7c.html",
+  "sha256": "3357550de42710b7868a1785eee4b2454c3e5298c7ba5e9af258d1e510f5dd7c",
+  "bytes": 20792
+}

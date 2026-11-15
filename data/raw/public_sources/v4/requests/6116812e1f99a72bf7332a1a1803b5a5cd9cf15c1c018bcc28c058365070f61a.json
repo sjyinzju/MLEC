@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "保千",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2019-04-14~2019-07-03",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:51:18.846115+08:00",
+  "request_id": "6116812e1f99a72bf7332a1a1803b5a5cd9cf15c1c018bcc28c058365070f61a",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/c83f8868de46979df33e7cf03bc14d47c84103df96bad4406e4bb05b52ffbe92.html",
+  "sha256": "c83f8868de46979df33e7cf03bc14d47c84103df96bad4406e4bb05b52ffbe92",
+  "bytes": 20942
+}

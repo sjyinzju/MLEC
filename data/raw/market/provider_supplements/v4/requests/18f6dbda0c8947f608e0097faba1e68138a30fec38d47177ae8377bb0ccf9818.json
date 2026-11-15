@@ -1,0 +1,16 @@
+{
+  "endpoint": "suspend_d",
+  "params": {
+    "start_date": "20140301",
+    "end_date": "20140331",
+    "limit": 5000,
+    "offset": 0
+  },
+  "request_id": "18f6dbda0c8947f608e0097faba1e68138a30fec38d47177ae8377bb0ccf9818",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T00:15:22.567763+08:00",
+  "status": "ok",
+  "rows": 3263,
+  "path": "data/raw/market/provider_supplements/v4/objects/18f6dbda0c8947f608e0097faba1e68138a30fec38d47177ae8377bb0ccf9818.json",
+  "sha256": "ad85764185230df551efb1c19dc8389ebf99a580252315633311dbf48f632557"
+}

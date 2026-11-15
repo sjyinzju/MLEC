@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "海润",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2018-04-19~2018-07-08",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:51:28.474833+08:00",
+  "request_id": "181f88f032ca43ac23aec4aa8c3e040887dabbe2366c360690125ccea60c2e79",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/66d36abd4c2e3d0ac985e4600ddfa32c1c17283687adbab93c00b751cbd42745.html",
+  "sha256": "66d36abd4c2e3d0ac985e4600ddfa32c1c17283687adbab93c00b751cbd42745",
+  "bytes": 22624
+}

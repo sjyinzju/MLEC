@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 15,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "工新",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-04-19~2020-07-08",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:57:54.969677+08:00",
+  "request_id": "ab27cb0696aaa3eabf2382243ebb126e2995e71d3374998b66893fb889cd7850",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/8b84c33a436cb606d4da284f6e21469940935d649e6c1c4d2b27d179164ff5d8.html",
+  "sha256": "8b84c33a436cb606d4da284f6e21469940935d649e6c1c4d2b27d179164ff5d8",
+  "bytes": 20607
+}

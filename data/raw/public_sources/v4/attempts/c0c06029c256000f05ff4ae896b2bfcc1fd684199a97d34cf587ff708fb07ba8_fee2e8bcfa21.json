@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "超日",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-04-18~2014-07-07",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:33.465053+08:00",
+  "request_id": "c0c06029c256000f05ff4ae896b2bfcc1fd684199a97d34cf587ff708fb07ba8",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/7b97f1bf018ae3444cb455e1df1cb3203ae7d3a2a01d96c52a2624b46157d237.html",
+  "sha256": "7b97f1bf018ae3444cb455e1df1cb3203ae7d3a2a01d96c52a2624b46157d237",
+  "bytes": 23497
+}

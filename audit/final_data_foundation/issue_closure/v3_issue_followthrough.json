@@ -1,0 +1,326 @@
+[
+  {
+    "series_id": "cgb_10y",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Public archive request/navigation attempted; full requested older history not returned; see source attempt ledger",
+    "periods": 245,
+    "start": "2014-01-02 00:00:00",
+    "end": "2014-12-31 00:00:00",
+    "current_concept": "cgb_10y",
+    "current_unaccepted_periods": 245,
+    "current_status_counts": {
+      "ACCEPTED": 2850,
+      "SOURCE_UNREACHABLE": 245
+    }
+  },
+  {
+    "series_id": "cgb_1y",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Public archive request/navigation attempted; full requested older history not returned; see source attempt ledger",
+    "periods": 245,
+    "start": "2014-01-02 00:00:00",
+    "end": "2014-12-31 00:00:00",
+    "current_concept": "cgb_1y",
+    "current_unaccepted_periods": 245,
+    "current_status_counts": {
+      "ACCEPTED": 2850,
+      "SOURCE_UNREACHABLE": 245
+    }
+  },
+  {
+    "series_id": "dr007",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Public archive request/navigation attempted; full requested older history not returned; see source attempt ledger",
+    "periods": 2834,
+    "start": "2014-12-15 00:00:00",
+    "end": "2026-08-12 00:00:00",
+    "current_concept": "dr007",
+    "current_unaccepted_periods": 2834,
+    "current_status_counts": {
+      "VINTAGE_UNVERIFIED": 2834,
+      "STRUCTURAL_NA": 232,
+      "ACCEPTED": 29
+    }
+  },
+  {
+    "series_id": "exports_cny_yoy",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "No certified value or candidate for required period; further targeted source collection remains necessary",
+    "periods": 21,
+    "start": "2014-02-28 00:00:00",
+    "end": "2026-02-28 00:00:00",
+    "current_concept": "exports_cny_yoy",
+    "current_unaccepted_periods": 13,
+    "current_status_counts": {
+      "ACCEPTED": 140,
+      "NOT_COLLECTED": 13
+    }
+  },
+  {
+    "series_id": "exports_cny_yoy",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 3,
+    "start": "2015-01-31 00:00:00",
+    "end": "2015-07-31 00:00:00",
+    "current_concept": "exports_cny_yoy",
+    "current_unaccepted_periods": 13,
+    "current_status_counts": {
+      "ACCEPTED": 140,
+      "NOT_COLLECTED": 13
+    }
+  },
+  {
+    "series_id": "exports_cny_ytd_yoy",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "No certified value or candidate for required period; further targeted source collection remains necessary",
+    "periods": 17,
+    "start": "2014-02-28 00:00:00",
+    "end": "2026-01-31 00:00:00",
+    "current_concept": "exports_cny_ytd_yoy",
+    "current_unaccepted_periods": 7,
+    "current_status_counts": {
+      "ACCEPTED": 146,
+      "NOT_COLLECTED": 7
+    }
+  },
+  {
+    "series_id": "exports_cny_ytd_yoy",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 2,
+    "start": "2015-04-30 00:00:00",
+    "end": "2015-07-31 00:00:00",
+    "current_concept": "exports_cny_ytd_yoy",
+    "current_unaccepted_periods": 7,
+    "current_status_counts": {
+      "ACCEPTED": 146,
+      "NOT_COLLECTED": 7
+    }
+  },
+  {
+    "series_id": "exports_yoy",
+    "status": "CLOSED_AT_CONSERVATIVE_PERIOD_COVERAGE",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 83,
+    "start": "2015-01-31 00:00:00",
+    "end": "2026-09-30 00:00:00",
+    "current_concept": "exports_yoy",
+    "current_unaccepted_periods": 0,
+    "current_status_counts": {
+      "ACCEPTED": 153
+    }
+  },
+  {
+    "series_id": "fx_reserves",
+    "status": "CLOSED_AT_CONSERVATIVE_PERIOD_COVERAGE",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 23,
+    "start": "2014-01-31 00:00:00",
+    "end": "2016-10-31 00:00:00",
+    "current_concept": "fx_reserves",
+    "current_unaccepted_periods": 0,
+    "current_status_counts": {
+      "ACCEPTED": 153
+    }
+  },
+  {
+    "series_id": "imports_cny_yoy",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "No certified value or candidate for required period; further targeted source collection remains necessary",
+    "periods": 21,
+    "start": "2014-02-28 00:00:00",
+    "end": "2026-02-28 00:00:00",
+    "current_concept": "imports_cny_yoy",
+    "current_unaccepted_periods": 13,
+    "current_status_counts": {
+      "ACCEPTED": 140,
+      "NOT_COLLECTED": 13
+    }
+  },
+  {
+    "series_id": "imports_cny_yoy",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 3,
+    "start": "2015-01-31 00:00:00",
+    "end": "2015-07-31 00:00:00",
+    "current_concept": "imports_cny_yoy",
+    "current_unaccepted_periods": 13,
+    "current_status_counts": {
+      "ACCEPTED": 140,
+      "NOT_COLLECTED": 13
+    }
+  },
+  {
+    "series_id": "imports_cny_ytd_yoy",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "No certified value or candidate for required period; further targeted source collection remains necessary",
+    "periods": 17,
+    "start": "2014-02-28 00:00:00",
+    "end": "2026-01-31 00:00:00",
+    "current_concept": "imports_cny_ytd_yoy",
+    "current_unaccepted_periods": 7,
+    "current_status_counts": {
+      "ACCEPTED": 146,
+      "NOT_COLLECTED": 7
+    }
+  },
+  {
+    "series_id": "imports_cny_ytd_yoy",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 2,
+    "start": "2015-04-30 00:00:00",
+    "end": "2015-07-31 00:00:00",
+    "current_concept": "imports_cny_ytd_yoy",
+    "current_unaccepted_periods": 7,
+    "current_status_counts": {
+      "ACCEPTED": 146,
+      "NOT_COLLECTED": 7
+    }
+  },
+  {
+    "series_id": "imports_yoy",
+    "status": "CLOSED_AT_CONSERVATIVE_PERIOD_COVERAGE",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 83,
+    "start": "2015-01-31 00:00:00",
+    "end": "2026-09-30 00:00:00",
+    "current_concept": "imports_yoy",
+    "current_unaccepted_periods": 0,
+    "current_status_counts": {
+      "ACCEPTED": 153
+    }
+  },
+  {
+    "series_id": "new_rmb_loans",
+    "status": "CLOSED_AT_CONSERVATIVE_PERIOD_COVERAGE",
+    "reason": "Candidate definition/field does not establish this required measure",
+    "periods": 2,
+    "start": "2026-05-31 00:00:00",
+    "end": "2026-06-30 00:00:00",
+    "current_concept": "new_rmb_loans",
+    "current_unaccepted_periods": 0,
+    "current_status_counts": {
+      "ACCEPTED": 153
+    }
+  },
+  {
+    "series_id": "rmb_loans_ytd_flow",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Candidate definition/field does not establish this required measure",
+    "periods": 63,
+    "start": "2014-02-28 00:00:00",
+    "end": "2023-05-31 00:00:00",
+    "current_concept": "rmb_loans_ytd_flow",
+    "current_unaccepted_periods": 61,
+    "current_status_counts": {
+      "ACCEPTED": 92,
+      "SEMANTIC_ERROR": 61
+    }
+  },
+  {
+    "series_id": "term_spread_10y_1y",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Public archive request/navigation attempted; full requested older history not returned; see source attempt ledger",
+    "periods": 245,
+    "start": "2014-01-02 00:00:00",
+    "end": "2014-12-31 00:00:00",
+    "current_concept": "term_spread_10y_1y",
+    "current_unaccepted_periods": 245,
+    "current_status_counts": {
+      "ACCEPTED": 2850,
+      "SOURCE_UNREACHABLE": 245
+    }
+  },
+  {
+    "series_id": "tsf_month_flow",
+    "status": "CLOSED_AT_CONSERVATIVE_PERIOD_COVERAGE",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 3,
+    "start": "2026-03-31 00:00:00",
+    "end": "2026-06-30 00:00:00",
+    "current_concept": "tsf_month_flow",
+    "current_unaccepted_periods": 0,
+    "current_status_counts": {
+      "STRUCTURAL_NA": 765,
+      "ACCEPTED": 153
+    }
+  },
+  {
+    "series_id": "tsf_ytd_flow",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 22,
+    "start": "2019-12-31 00:00:00",
+    "end": "2023-05-31 00:00:00",
+    "current_concept": "tsf_ytd_flow",
+    "current_unaccepted_periods": 45,
+    "current_status_counts": {
+      "STRUCTURAL_NA": 765,
+      "ACCEPTED": 108,
+      "VINTAGE_UNVERIFIED": 45
+    }
+  },
+  {
+    "series_id": "tsf_ytd_flow__scope_201807",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 2,
+    "start": "2018-07-31 00:00:00",
+    "end": "2018-08-31 00:00:00",
+    "current_concept": "tsf_ytd_flow",
+    "current_unaccepted_periods": 45,
+    "current_status_counts": {
+      "STRUCTURAL_NA": 765,
+      "ACCEPTED": 108,
+      "VINTAGE_UNVERIFIED": 45
+    }
+  },
+  {
+    "series_id": "tsf_ytd_flow__scope_201809",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 7,
+    "start": "2018-10-31 00:00:00",
+    "end": "2019-08-31 00:00:00",
+    "current_concept": "tsf_ytd_flow",
+    "current_unaccepted_periods": 45,
+    "current_status_counts": {
+      "STRUCTURAL_NA": 765,
+      "ACCEPTED": 108,
+      "VINTAGE_UNVERIFIED": 45
+    }
+  },
+  {
+    "series_id": "tsf_ytd_flow__scope_pre_201807",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "No certified value or candidate for required period; further targeted source collection remains necessary",
+    "periods": 1,
+    "start": "2014-12-31 00:00:00",
+    "end": "2014-12-31 00:00:00",
+    "current_concept": "tsf_ytd_flow",
+    "current_unaccepted_periods": 45,
+    "current_status_counts": {
+      "STRUCTURAL_NA": 765,
+      "ACCEPTED": 108,
+      "VINTAGE_UNVERIFIED": 45
+    }
+  },
+  {
+    "series_id": "tsf_ytd_flow__scope_pre_201807",
+    "status": "PARTIALLY_REPAIRED_OR_OPEN",
+    "reason": "Numeric history retained, but first-release/revision history is not certified; no backdating",
+    "periods": 20,
+    "start": "2015-02-28 00:00:00",
+    "end": "2018-05-31 00:00:00",
+    "current_concept": "tsf_ytd_flow",
+    "current_unaccepted_periods": 45,
+    "current_status_counts": {
+      "STRUCTURAL_NA": 765,
+      "ACCEPTED": 108,
+      "VINTAGE_UNVERIFIED": 45
+    }
+  }
+]

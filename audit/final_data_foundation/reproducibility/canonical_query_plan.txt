@@ -1,0 +1,75 @@
+┌───────────────────────────┐
+│         HASH_JOIN         │
+│    ────────────────────   │
+│      Join Type: LEFT      │
+│                           │
+│        Conditions:        │
+│      instrument_id =      │
+│        instrument_id      │
+│   CAST(CAST(try_strptime  │
+│ (trade_date, '%Y%m%d') AS ├───────────────────────────────────────────┐
+│   DATE) AS TIMESTAMP) >=  │                                           │
+│         valid_from        │                                           │
+│   CAST(CAST(try_strptime  │                                           │
+│ (trade_date, '%Y%m%d') AS │                                           │
+│    DATE) AS TIMESTAMP) <  │                                           │
+│          valid_to         │                                           │
+│                           │                                           │
+│      ~2,467,808 rows      │                                           │
+└─────────────┬─────────────┘                                           │
+┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐
+│         HASH_JOIN         │                             │        PANDAS_SCAN        │
+│    ────────────────────   │                             │    ────────────────────   │
+│      Join Type: INNER     │                             │   Function: PANDAS_SCAN   │
+│                           │                             │                           │
+│        Conditions:        │                             │        Projections:       │
+│     ts_code = ts_code     │                             │          ts_code          │
+│                           ├──────────────┐              │       instrument_id       │
+│                           │              │              │         valid_from        │
+│                           │              │              │          valid_to         │
+│                           │              │              │     identity_evidence     │
+│                           │              │              │                           │
+│      ~2,467,808 rows      │              │              │        ~5,559 rows        │
+└─────────────┬─────────────┘              │              └───────────────────────────┘
+┌─────────────┴─────────────┐┌─────────────┴─────────────┐
+│        READ_PARQUET       ││          SEQ_SCAN         │
+│    ────────────────────   ││    ────────────────────   │
+│         Function:         ││           Table:          │
+│        READ_PARQUET       ││    "temp".main.aliases    │
+│                           ││                           │
+│        Projections:       ││   Type: Sequential Scan   │
+│          ts_code          ││                           │
+│         trade_date        ││        Projections:       │
+│         adj_factor        ││          ts_code          │
+│         _row_hash         ││       instrument_id       │
+│         _batch_id         ││                           │
+│        _ingested_at       ││                           │
+│       _available_at       ││                           │
+│        _event_date        ││                           │
+│        _period_date       ││                           │
+│     _announcement_date    ││                           │
+│ _actual_announcement_date ││                           │
+│         _revision         ││                           │
+│     _knowledge_quality    ││                           │
+│    _event_available_at    ││                           │
+│     _transform_version    ││                           │
+│         dataset_id        ││                           │
+│         source_id         ││                           │
+│      source_record_id     ││                           │
+│        retrieved_at       ││                           │
+│   research_available_at   ││                           │
+│         release_at        ││                           │
+│         vintage_id        ││                           │
+│       quality_status      ││                           │
+│       quality_reason      ││                           │
+│        data_version       ││                           │
+│      observation_date     ││                           │
+│   reconstructed_quote_at  ││                           │
+│      _source_evidence     ││                           │
+│                           ││                           │
+│          Filters:         ││                           │
+│ trade_date>='20140101' AND││                           │
+│   trade_date<='20141231'  ││                           │
+│                           ││                           │
+│      ~2,467,808 rows      ││        ~5,559 rows        │
+└───────────────────────────┘└───────────────────────────┘

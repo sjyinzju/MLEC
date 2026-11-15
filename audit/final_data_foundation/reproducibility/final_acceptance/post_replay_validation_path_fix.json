@@ -1,0 +1,12 @@
+{
+  "reason": "Check 1 used a partition-directory helper for the single-file market_data_quality.parquet authority. Corrected only the validator read path.",
+  "changed_source_files": [
+    "scripts/final_data_foundation/validation.py"
+  ],
+  "unchanged_rebuild_and_other_source_files": 78,
+  "rebuild_source_preserved": true,
+  "data_transforms_changed": false,
+  "comparison_tolerances_changed": false,
+  "original_failed_check_will_be_archived": true,
+  "targeted_and_full_validation_required": true
+}

@@ -1,0 +1,16 @@
+{
+  "endpoint": "index_dailybasic",
+  "params": {
+    "start_date": "20140101",
+    "end_date": "20140131",
+    "limit": 5000,
+    "offset": 0
+  },
+  "request_id": "6321e0ac961f2ba716d0c59e21a034456e30b182ca171fe084846578eac2feec",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T00:13:56.763612+08:00",
+  "status": "failed",
+  "error_kind": "invalid_parameters",
+  "error": "参数校验失败, trade_date,ts_code参数至少输入一个",
+  "retryable": false
+}

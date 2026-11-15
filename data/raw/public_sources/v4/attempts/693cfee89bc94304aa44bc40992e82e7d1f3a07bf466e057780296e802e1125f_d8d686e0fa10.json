@@ -1,0 +1,14 @@
+{
+  "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+  "params": {
+    "param": "sh603005,day,2020-01-01,2020-12-31,640,"
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T00:38:03.522525+08:00",
+  "request_id": "693cfee89bc94304aa44bc40992e82e7d1f3a07bf466e057780296e802e1125f",
+  "http_status": 501,
+  "final_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603005%2Cday%2C2020-01-01%2C2020-12-31%2C640%2C",
+  "encoding": "ascii",
+  "status": "failed",
+  "error": "HTTPError: 501 Server Error: Not Implemented for url: https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603005%2Cday%2C2020-01-01%2C2020-12-31%2C640%2C"
+}

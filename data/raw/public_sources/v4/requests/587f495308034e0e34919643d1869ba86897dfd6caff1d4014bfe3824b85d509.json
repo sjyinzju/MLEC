@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "千山药机",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-06-25~2020-09-13",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:59.528538+08:00",
+  "request_id": "587f495308034e0e34919643d1869ba86897dfd6caff1d4014bfe3824b85d509",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/50d17ff799f5949206e3a6508419d2e22c58a3c6617aeac154144c85c849be38.html",
+  "sha256": "50d17ff799f5949206e3a6508419d2e22c58a3c6617aeac154144c85c849be38",
+  "bytes": 21121
+}

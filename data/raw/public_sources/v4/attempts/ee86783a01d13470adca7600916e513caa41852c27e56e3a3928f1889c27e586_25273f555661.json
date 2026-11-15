@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "钒钛",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2018-07-14~2018-10-02",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:17.495541+08:00",
+  "request_id": "ee86783a01d13470adca7600916e513caa41852c27e56e3a3928f1889c27e586",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/b275c1d371b0d3193c2db34c1e248f7b94bfa04387b54cd10473854b5e49004d.html",
+  "sha256": "b275c1d371b0d3193c2db34c1e248f7b94bfa04387b54cd10473854b5e49004d",
+  "bytes": 21371
+}

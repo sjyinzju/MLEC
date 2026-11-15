@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "博元",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2016-02-17~2016-05-07",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:52:02.865547+08:00",
+  "request_id": "65c0acacedd44fa8af3a8d90e47db7b4ee2956032e86fc710232738a3c4cbf6d",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/d682c429b6d4f1d2fb92fd5eb96b1594273b43581999856875625ff4a3b4b86d.html",
+  "sha256": "d682c429b6d4f1d2fb92fd5eb96b1594273b43581999856875625ff4a3b4b86d",
+  "bytes": 21101
+}

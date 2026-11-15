@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "天翔环境",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2021-06-06~2021-08-25",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:45:03.470626+08:00",
+  "request_id": "a2ed62195ba78dba77fb88a3f26ba7d46072447dc565f928f869612cbc048b79",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/666d73bdcf436e04d92694bc9283278df597444240aa620dc85bbfb71f4c7f1f.html",
+  "sha256": "666d73bdcf436e04d92694bc9283278df597444240aa620dc85bbfb71f4c7f1f",
+  "bytes": 17578
+}

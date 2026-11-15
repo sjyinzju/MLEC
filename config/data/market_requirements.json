@@ -1,0 +1,1179 @@
+{
+  "version": "unified-data-foundation-v4.0.0",
+  "datasets": [
+    {
+      "domain": "M",
+      "dataset_id": "index_daily",
+      "source_dataset": "index_daily",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "change",
+        "pct_chg",
+        "vol",
+        "amount"
+      ],
+      "optional_fields": [],
+      "source_definition": "https://tushare.pro/document/2?doc_id=95",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": [
+        "000300.SH",
+        "000001.SH",
+        "000905.SH",
+        "000852.SH",
+        "000016.SH",
+        "399001.SZ",
+        "399006.SZ"
+      ],
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "trend",
+        "volatility",
+        "downside",
+        "activity"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P0",
+      "required": true,
+      "quality_status": "FAIL",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/index_daily/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "index_daily_basic",
+      "source_dataset": "index_dailybasic",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "total_mv",
+        "float_mv",
+        "turnover_rate",
+        "turnover_rate_f",
+        "pe",
+        "pe_ttm",
+        "pb"
+      ],
+      "optional_fields": [
+        "total_share",
+        "float_share",
+        "free_share"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=128",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": [
+        "000300.SH",
+        "000001.SH",
+        "000905.SH",
+        "000852.SH",
+        "000016.SH",
+        "399001.SZ",
+        "399006.SZ"
+      ],
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "valuation",
+        "activity"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P0",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/index_daily_basic/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_daily",
+      "source_dataset": "daily",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "change",
+        "pct_chg",
+        "vol",
+        "amount"
+      ],
+      "optional_fields": [
+        "ah_vol",
+        "ah_amount"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=27",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "breadth",
+        "correlation",
+        "liquidity"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P0",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/stock_daily_observations/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_daily_basic",
+      "source_dataset": "daily_basic",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "close",
+        "turnover_rate",
+        "turnover_rate_f",
+        "total_mv",
+        "circ_mv",
+        "pe",
+        "pe_ttm",
+        "pb"
+      ],
+      "optional_fields": [
+        "volume_ratio",
+        "ps",
+        "ps_ttm",
+        "dv_ratio",
+        "dv_ttm",
+        "total_share",
+        "float_share",
+        "free_share",
+        "limit_status"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=32",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "valuation",
+        "turnover",
+        "market_structure"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P1",
+      "required": true,
+      "quality_status": "FAIL",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/stock_daily_basic_observations/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_adjustment",
+      "source_dataset": "adj_factor",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "adj_factor"
+      ],
+      "optional_fields": [],
+      "source_definition": "https://tushare.pro/document/2?doc_id=28",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "adjusted_returns",
+        "correlation",
+        "Amihud"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P0",
+      "required": true,
+      "quality_status": "FAIL",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/stock_adjustment_observations/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_master_history",
+      "source_dataset": "stock_basic",
+      "required_fields": [
+        "instrument_id",
+        "valid_from",
+        "ts_code",
+        "list_date",
+        "delist_date",
+        "exchange",
+        "security_type"
+      ],
+      "optional_fields": [
+        "symbol",
+        "name",
+        "area",
+        "industry",
+        "fullname",
+        "enname",
+        "cnspell",
+        "market",
+        "curr_type",
+        "list_status",
+        "is_hs",
+        "act_name",
+        "act_ent_type"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=25",
+      "primary_key": [
+        "instrument_id",
+        "valid_from"
+      ],
+      "actual_data_start": "1990-12-01 00:00:00",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "event",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "historical_universe",
+        "delisted_retention",
+        "code_history"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P0",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "2026-09-22 00:00:00",
+      "authority_path": "data/standardized/market/v4/stock_master_history.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_name_history",
+      "source_dataset": "namechange",
+      "required_fields": [
+        "ts_code",
+        "start_date",
+        "name",
+        "end_date",
+        "ann_date",
+        "change_reason"
+      ],
+      "optional_fields": [],
+      "source_definition": "https://tushare.pro/document/2?doc_id=100",
+      "primary_key": [
+        "ts_code",
+        "start_date",
+        "name"
+      ],
+      "actual_data_start": "19901201",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "event",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "identity",
+        "risk_warning_history"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P1",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260930",
+      "authority_path": "data/standardized/market/v4/stock_name_history/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_trading_status",
+      "source_dataset": "suspend_d",
+      "required_fields": [
+        "instrument_id",
+        "trade_date",
+        "ts_code",
+        "status",
+        "identity_evidence",
+        "quote_record_ids",
+        "suspension_record_ids"
+      ],
+      "optional_fields": [
+        "suspend_timing",
+        "suspend_type"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=214",
+      "primary_key": [
+        "instrument_id",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "missing_vs_suspension",
+        "valid_returns"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P0",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/stock_trading_status/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "index_constituents_history",
+      "source_dataset": "official_adjustment_announcements",
+      "required_fields": [
+        "index_code",
+        "con_code",
+        "valid_from",
+        "valid_to",
+        "research_available_at",
+        "source_path",
+        "quality_status"
+      ],
+      "optional_fields": [],
+      "source_definition": "Official index-provider adjustment announcements with both publication and effectiveness dates",
+      "primary_key": [
+        "index_code",
+        "con_code",
+        "valid_from"
+      ],
+      "actual_data_start": "2015-05-20 00:00:00",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "event",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": [
+        "000300.SH",
+        "000001.SH",
+        "000905.SH",
+        "000852.SH",
+        "000016.SH",
+        "399001.SZ",
+        "399006.SZ"
+      ],
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "index_specific_breadth_and_correlation"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P1",
+      "required": true,
+      "quality_status": "FAIL",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "2026-06-15 00:00:00",
+      "authority_path": "data/standardized/market/v4/index_constituents_history.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "index_weights_history",
+      "source_dataset": "index_weight",
+      "required_fields": [
+        "index_code",
+        "con_code",
+        "trade_date",
+        "weight"
+      ],
+      "optional_fields": [],
+      "source_definition": "https://tushare.pro/document/2?doc_id=96",
+      "primary_key": [
+        "index_code",
+        "con_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20150130",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "snapshot",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": [
+        "000300.SH",
+        "000001.SH",
+        "000905.SH",
+        "000852.SH",
+        "000016.SH",
+        "399001.SZ",
+        "399006.SZ"
+      ],
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "snapshot_weights; not daily effective membership"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P1",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260831",
+      "authority_path": "data/standardized/market/v4/index_weights_history/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "trade_calendar",
+      "source_dataset": "trade_cal",
+      "required_fields": [
+        "exchange",
+        "cal_date",
+        "is_open",
+        "pretrade_date"
+      ],
+      "optional_fields": [],
+      "source_definition": "https://tushare.pro/document/2?doc_id=26",
+      "primary_key": [
+        "exchange",
+        "cal_date"
+      ],
+      "actual_data_start": "20131227",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "calendar_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "all_daily_expected_grids"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P0",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20261101",
+      "authority_path": "data/standardized/market/v4/trade_calendar/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "index_identity",
+      "source_dataset": "index_basic",
+      "required_fields": [
+        "ts_code",
+        "list_date",
+        "base_date",
+        "base_point",
+        "publisher"
+      ],
+      "optional_fields": [
+        "name",
+        "fullname",
+        "market",
+        "index_type",
+        "category",
+        "weight_rule",
+        "desc",
+        "exp_date"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=94",
+      "primary_key": [
+        "ts_code"
+      ],
+      "actual_data_start": "19910715",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "snapshot",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": [
+        "000300.SH",
+        "000001.SH",
+        "000905.SH",
+        "000852.SH",
+        "000016.SH",
+        "399001.SZ",
+        "399006.SZ"
+      ],
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "publication_vs_backcast"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P0",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20141017",
+      "authority_path": "data/standardized/market/v4/index_identity/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_limits",
+      "source_dataset": "stk_limit",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "up_limit",
+        "down_limit",
+        "limit_rule_status",
+        "rule_evidence_path"
+      ],
+      "optional_fields": [
+        "pre_close",
+        "asset_type",
+        "exchange"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=183",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "trading_pressure"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P1",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/stock_limits_observations/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "margin_market",
+      "source_dataset": "margin",
+      "required_fields": [
+        "exchange_id",
+        "trade_date",
+        "rzye",
+        "rqye",
+        "rzrqye",
+        "rzmre",
+        "rzche"
+      ],
+      "optional_fields": [
+        "rqmcl",
+        "rqyl"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=58",
+      "primary_key": [
+        "exchange_id",
+        "trade_date"
+      ],
+      "actual_data_start": "20150105",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "market_leverage_extension"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P2",
+      "required": false,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/margin_market/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "margin_security",
+      "source_dataset": "margin_detail",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "rzye",
+        "rqye",
+        "rzrqye"
+      ],
+      "optional_fields": [
+        "name",
+        "rzmre",
+        "rqyl",
+        "rzche",
+        "rqchl",
+        "rqmcl"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=59",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20150105",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "cross_sectional_leverage_extension"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P2",
+      "required": false,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/margin_security/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_moneyflow",
+      "source_dataset": "moneyflow",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "net_mf_amount",
+        "net_mf_vol"
+      ],
+      "optional_fields": [
+        "buy_sm_vol",
+        "buy_sm_amount",
+        "sell_sm_vol",
+        "sell_sm_amount",
+        "buy_md_vol",
+        "buy_md_amount",
+        "sell_md_vol",
+        "sell_md_amount",
+        "buy_lg_vol",
+        "buy_lg_amount",
+        "sell_lg_vol",
+        "sell_lg_amount",
+        "buy_elg_vol",
+        "buy_elg_amount",
+        "sell_elg_vol",
+        "sell_elg_amount"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=170",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "provider_classified_order_flow_extension"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P2",
+      "required": false,
+      "quality_status": "FAIL",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/stock_moneyflow/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "exchange_activity_sh",
+      "source_dataset": "daily_info",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "amount",
+        "vol",
+        "total_mv",
+        "float_mv",
+        "tr"
+      ],
+      "optional_fields": [
+        "ts_name",
+        "com_count",
+        "total_share",
+        "float_share",
+        "trans_count",
+        "pe",
+        "exchange"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=215",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20150105",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "independent_activity_reconciliation"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P1",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/exchange_activity_sh/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "exchange_activity_sz",
+      "source_dataset": "sz_daily_info",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "amount",
+        "vol",
+        "total_mv",
+        "float_mv"
+      ],
+      "optional_fields": [
+        "count",
+        "total_share",
+        "float_share"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=268",
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20150105",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "independent_activity_reconciliation"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P1",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/exchange_activity_sz/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_connect_top10",
+      "source_dataset": "hsgt_top10",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "market_type",
+        "amount",
+        "buy",
+        "sell",
+        "net_amount",
+        "rank"
+      ],
+      "optional_fields": [
+        "name",
+        "close",
+        "change"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=48",
+      "primary_key": [
+        "ts_code",
+        "trade_date",
+        "market_type"
+      ],
+      "actual_data_start": "20150105",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "trading_day",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "top10_only_not_market_total_flow"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P2",
+      "required": false,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/stock_connect_top10/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    },
+    {
+      "domain": "M",
+      "dataset_id": "stock_dividend_events",
+      "source_dataset": "dividend",
+      "required_fields": [
+        "ts_code",
+        "end_date",
+        "ann_date",
+        "div_proc",
+        "ex_date",
+        "cash_div_tax",
+        "stk_div"
+      ],
+      "optional_fields": [
+        "stk_bo_rate",
+        "stk_co_rate",
+        "cash_div",
+        "record_date",
+        "pay_date",
+        "div_listdate",
+        "imp_ann_date",
+        "base_date",
+        "base_share"
+      ],
+      "source_definition": "https://tushare.pro/document/2?doc_id=103",
+      "primary_key": [
+        "ts_code",
+        "end_date",
+        "ann_date",
+        "div_proc"
+      ],
+      "actual_data_start": "19910317",
+      "required_start": "2014-01-01",
+      "required_end": "2026-09-22",
+      "frozen_research_start": "2015-01-05",
+      "warmup_policy": "2014 prices retained as independent extension; never changes frozen 599 rows or labels",
+      "expected_frequency": "event",
+      "expected_observations": "all exchange-open dates within independently evidenced security/code validity; event history checked for intervals, not fabricated daily observations",
+      "market_scope": "SH/SZ A shares including delisted and code changes; CDR classified separately",
+      "security_universe": "All historical SH/SZ listed common shares, without current-status filtering",
+      "historical_availability": "Published historical observation is distinct from capture. Unverified revisions use retrieval date. Reconstructed quote view is conditional, not strict PIT.",
+      "revision_policy": "Immutable source versions; latest-content table plus raw revisions and explicit conflict records; never mutate v2",
+      "allowed_missing_rules": "Pre-listing/post-delisting/nontrading day only with evidence; suspension only explicit source. Loss-making PE may be undefined; missing PB/turnover not automatically waived. No zero-fill.",
+      "downstream_dependencies": [
+        "independent_adjustment_factor_checks"
+      ],
+      "validation_rules": [
+        "primary_key",
+        "field_nulls",
+        "expected_grid",
+        "value_semantics",
+        "source_reconciliation",
+        "historical_availability",
+        "lineage"
+      ],
+      "priority": "P1",
+      "required": true,
+      "quality_status": "QUALIFIED",
+      "contract_version": "unified-data-foundation-v4.0.0",
+      "actual_data_end": "20260922",
+      "authority_path": "data/standardized/market/v4/stock_dividend_events/*.parquet",
+      "coverage_evidence": "audit/final_data_foundation/market_coverage"
+    }
+  ],
+  "basis": "Research design v1.0 plus final data-engineering task; P2 are declared optional extension analyses, not required by frozen labels or five dimensions"
+}

@@ -1,0 +1,13 @@
+{
+  "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+  "params": {
+    "art_code": "AN201407300006479493",
+    "client_source": "web",
+    "page_index": 1
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T00:37:09.517319+08:00",
+  "request_id": "87b588e9dff07ad8db3e2f13a75e3df4fc14b895b81f6a3980108f1387346af6",
+  "status": "failed",
+  "error": "ProxyError: HTTPSConnectionPool(host='np-cnotice-stock.eastmoney.com', port=443): Max retries exceeded with url: /api/content/ann?art_code=AN201407300006479493&client_source=web&page_index=1 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+}

@@ -1,0 +1,16 @@
+{
+  "endpoint": "adj_factor",
+  "params": {
+    "start_date": "20140801",
+    "end_date": "20140831",
+    "limit": 5000,
+    "offset": 35000
+  },
+  "request_id": "e275e4188155e97038cf2f883f1ebc956952f1aedb1446bfd3814a14ca911177",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T00:16:57.463421+08:00",
+  "status": "ok",
+  "rows": 5000,
+  "path": "data/raw/market/provider_supplements/v4/objects/e275e4188155e97038cf2f883f1ebc956952f1aedb1446bfd3814a14ca911177.json",
+  "sha256": "af5e46096023acaa68a388c0d735494ae43856ac374b75ae39fd16d3c08bdfed"
+}

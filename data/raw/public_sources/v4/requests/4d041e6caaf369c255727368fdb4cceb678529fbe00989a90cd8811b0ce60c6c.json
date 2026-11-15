@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "金泰",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-07-01~2014-08-10",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T01:05:55.123396+08:00",
+  "request_id": "4d041e6caaf369c255727368fdb4cceb678529fbe00989a90cd8811b0ce60c6c",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/f1c41343cb9c17d3990f2650318cd815ab5c009d4d5baddafd2b3d68f13b29b1.html",
+  "sha256": "f1c41343cb9c17d3990f2650318cd815ab5c009d4d5baddafd2b3d68f13b29b1",
+  "bytes": 20595
+}

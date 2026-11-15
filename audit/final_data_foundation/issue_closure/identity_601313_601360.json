@@ -1,0 +1,39 @@
+{
+  "status": "CLOSED_INDEPENDENTLY_VERIFIED",
+  "source": {
+    "old_code": "601313.SH",
+    "new_code": "601360.SH",
+    "effective_date": "2018-02-28",
+    "publication_date": "2018-02-28",
+    "url": "https://static.cninfo.com.cn/finalpage/2018-02-28/1204434951.PDF",
+    "source_path": "data/raw/public_sources/v4/objects/31101753d3032ed4f10961465e9a0c27487d43da8e11b65c073989e27aeed053.pdf",
+    "source_sha256": "31101753d3032ed4f10961465e9a0c27487d43da8e11b65c073989e27aeed053",
+    "retrieved_at": "2026-11-15T02:38:25.026877+08:00",
+    "text_path": "data/raw/public_sources/v4/identity_601313_601360_review.json",
+    "mapping_kind": "same legal listed entity after asset restructuring; share-class/corporate-action changes remain separately audited",
+    "review_status": "PRIMARY_DOCUMENT_VERIFIED",
+    "source_page": 6
+  },
+  "root_cause": "Provider backfills the current 601360 identifier before its actual 2018-02-28 effective date; raw records contain no 601313 observations.",
+  "repair": "Rebuild identity intervals, trading status and canonical observations; retain original provider code and values.",
+  "verification": [
+    {
+      "dataset_id": "stock_daily",
+      "observations": 2971,
+      "historical_code_rows": 899,
+      "changed_numeric_fields": 0
+    },
+    {
+      "dataset_id": "stock_daily_basic",
+      "observations": 2971,
+      "historical_code_rows": 899,
+      "changed_numeric_fields": 0
+    },
+    {
+      "dataset_id": "stock_adjustment",
+      "observations": 3095,
+      "historical_code_rows": 1013,
+      "changed_numeric_fields": 0
+    }
+  ]
+}

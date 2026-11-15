@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "斯太",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-05-27~2020-08-15",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:38.863835+08:00",
+  "request_id": "97954d9208db7ab6f72d6419397b021d385e04609cc28568427f560bc3df6998",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/c106e67b60fa80986fef5373b94f19bcc102114c8e1c6da52f5a4640253e40f8.html",
+  "sha256": "c106e67b60fa80986fef5373b94f19bcc102114c8e1c6da52f5a4640253e40f8",
+  "bytes": 20771
+}

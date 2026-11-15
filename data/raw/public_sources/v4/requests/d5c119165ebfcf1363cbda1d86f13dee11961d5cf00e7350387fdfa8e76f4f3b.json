@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "000995",
+    "searchkey": "恢复上市",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-11-01~2020-12-31",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "true"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:39:15.564868+08:00",
+  "request_id": "d5c119165ebfcf1363cbda1d86f13dee11961d5cf00e7350387fdfa8e76f4f3b",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "ascii",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/c2a890bbf3a6a53ab02ddc6c1794bf1c72ba45799fe9f59dcc5ba2cc18467114.html",
+  "sha256": "c2a890bbf3a6a53ab02ddc6c1794bf1c72ba45799fe9f59dcc5ba2cc18467114",
+  "bytes": 165
+}

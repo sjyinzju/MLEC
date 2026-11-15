@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "建峰",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2017-04-01~2017-06-20",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:57.808300+08:00",
+  "request_id": "e828102dd4b8ca78f5e1b250df8d4133aca3a6efb5443a931b2af28a2234d31b",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/6f822fca95718dd4ad9976750512e347794237bc6f2aee857339bfb34115c526.html",
+  "sha256": "6f822fca95718dd4ad9976750512e347794237bc6f2aee857339bfb34115c526",
+  "bytes": 20916
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "众和",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2019-04-14~2019-07-03",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:16.031325+08:00",
+  "request_id": "ceb54dc9de210abd446cd4cbd9aab967e29dcf0f7dc724a21b7697a6d3035728",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/52fc6b799c0d3b4315cb619a01c6e69af840598e813dd07b91589e2396ed2fa6.html",
+  "sha256": "52fc6b799c0d3b4315cb619a01c6e69af840598e813dd07b91589e2396ed2fa6",
+  "bytes": 21596
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "长油",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-03-01~2014-04-25",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T01:05:49.327919+08:00",
+  "request_id": "0608da982a31aabec6fffb5425b2490457ff0c4bd026f9d089dc8370cfa00fd7",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/f2899a478dbeab22d912d0f77cb923bca52c4e3ad53ce95dbe5dfd509cf34ce2.html",
+  "sha256": "f2899a478dbeab22d912d0f77cb923bca52c4e3ad53ce95dbe5dfd509cf34ce2",
+  "bytes": 20353
+}

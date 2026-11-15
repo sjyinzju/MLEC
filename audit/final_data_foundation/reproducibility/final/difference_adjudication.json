@@ -1,0 +1,12 @@
+{
+  "status": "FAIL_PRESERVED",
+  "products": 24,
+  "actual_quotes_and_used_adjustment_factors": "EXACTLY_IDENTICAL",
+  "identity_evidence_rows": 5625,
+  "stale_backup_values": 379,
+  "root_causes": [
+    "Prior canonical partial refresh omitted 2019-2026 primary identity evidence propagation for 601360.",
+    "Existing provider_refreshed_adj_factor backup was not synchronized when 000011 provider factors were re-observed during a partial refresh. Full rebuilding corrected it; factor_repairs now also synchronizes existing backups."
+  ],
+  "next_step": "New independent complete offline rebuild; no whitelist or tolerance relaxation."
+}

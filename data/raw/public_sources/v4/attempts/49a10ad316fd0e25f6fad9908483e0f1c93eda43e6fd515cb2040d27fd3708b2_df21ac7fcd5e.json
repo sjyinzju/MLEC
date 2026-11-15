@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "皇台",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-11-05~2021-01-24",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:06.522378+08:00",
+  "request_id": "49a10ad316fd0e25f6fad9908483e0f1c93eda43e6fd515cb2040d27fd3708b2",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/89b64f1093dc7c360979dbb0b4a2f9939ed414b5e58bbd2b4c7da64c0f9d9839.html",
+  "sha256": "89b64f1093dc7c360979dbb0b4a2f9939ed414b5e58bbd2b4c7da64c0f9d9839",
+  "bytes": 20970
+}

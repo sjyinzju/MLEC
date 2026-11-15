@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "舜元",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-07-01~2014-07-16",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T02:02:18.059801+08:00",
+  "request_id": "de8ef82694714d25c23b72c0ce54e8243dbd519206bfc337ec705a34d687d9fa",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/dbca3af32aa9ccb6c62244b0f026cb8562478e79b27fc7ec2d158c4dca317c3d.html",
+  "sha256": "dbca3af32aa9ccb6c62244b0f026cb8562478e79b27fc7ec2d158c4dca317c3d",
+  "bytes": 10126
+}

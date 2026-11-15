@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 3,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "凯迪",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2019-04-03~2019-06-22",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:52.165778+08:00",
+  "request_id": "c01ec5030d7c844779ffeef1ba3c8c03eb620fafcb2a73384b838a9812948db2",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/fc048ec10fd62f0b7af682a06bb3a005d14366d6dabde390d99ea43f56d29415.html",
+  "sha256": "fc048ec10fd62f0b7af682a06bb3a005d14366d6dabde390d99ea43f56d29415",
+  "bytes": 20314
+}

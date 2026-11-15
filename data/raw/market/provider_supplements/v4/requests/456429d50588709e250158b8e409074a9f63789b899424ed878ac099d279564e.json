@@ -1,0 +1,15 @@
+{
+  "endpoint": "repo_daily",
+  "params": {
+    "ts_code": "DR007.IB",
+    "start_date": "20150101",
+    "end_date": "20151231"
+  },
+  "request_id": "456429d50588709e250158b8e409074a9f63789b899424ed878ac099d279564e",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T01:39:09.134743+08:00",
+  "status": "ok",
+  "rows": 249,
+  "path": "data/raw/market/provider_supplements/v4/objects/7b45cae2c9f987800d115ffd9b35f0bf29b0f5164a84b0855c5da40dfff8334e.json",
+  "sha256": "30456bf0ed1196c3b4442298729847195d40eadd44b2f663aa387447071bca43"
+}

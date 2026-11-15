@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "普冉",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2025-12-01~2025-12-10",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T01:06:35.959092+08:00",
+  "request_id": "f382bbc2b25c9cc30db3a4bca6b3911081fd0f75e63ecbe2af42d5e27cf7db22",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/8cc19709b937ad81bf84329d0e0d18fe34fbc3b6e1a6e8c5fb64bad240b3760a.html",
+  "sha256": "8cc19709b937ad81bf84329d0e0d18fe34fbc3b6e1a6e8c5fb64bad240b3760a",
+  "bytes": 18967
+}

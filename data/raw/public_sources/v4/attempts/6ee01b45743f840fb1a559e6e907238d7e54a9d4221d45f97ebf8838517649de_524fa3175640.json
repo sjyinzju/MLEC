@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "鹏起",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-06-07~2020-08-26",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:51:49.827704+08:00",
+  "request_id": "6ee01b45743f840fb1a559e6e907238d7e54a9d4221d45f97ebf8838517649de",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/cf3d9d20fbb5abfa06ddca2c8041b510b4321a2bc85236674daefaa9f745092c.html",
+  "sha256": "cf3d9d20fbb5abfa06ddca2c8041b510b4321a2bc85236674daefaa9f745092c",
+  "bytes": 20949
+}

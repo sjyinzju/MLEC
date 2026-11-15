@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "吉恩",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2018-04-19~2018-07-08",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:51:38.518987+08:00",
+  "request_id": "5d5adad1368755dc04dae195118ea3ab66ac74cb20fe7b2c807ca4e617b7e9ec",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/780527d9c74cd2eead88a076776612a51bbba4cdb9b305b17e76a5f92acdf6b1.html",
+  "sha256": "780527d9c74cd2eead88a076776612a51bbba4cdb9b305b17e76a5f92acdf6b1",
+  "bytes": 19983
+}

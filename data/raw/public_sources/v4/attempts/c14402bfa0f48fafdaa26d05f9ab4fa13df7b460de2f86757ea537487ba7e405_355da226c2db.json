@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "国恒",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-06-07~2014-08-26",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:11.141697+08:00",
+  "request_id": "c14402bfa0f48fafdaa26d05f9ab4fa13df7b460de2f86757ea537487ba7e405",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/10bd02e879bc9b1fe1dde8a7986f654ea0ae5988eb13b1ae18d164f59839c09d.html",
+  "sha256": "10bd02e879bc9b1fe1dde8a7986f654ea0ae5988eb13b1ae18d164f59839c09d",
+  "bytes": 20292
+}

@@ -1,0 +1,15 @@
+{
+  "endpoint": "index_daily",
+  "params": {
+    "ts_code": "000300.SH",
+    "start_date": "20140101",
+    "end_date": "20141231"
+  },
+  "request_id": "577a6305529ec9a4f949dce8ce559010c3d2f721c63b03c8cf6ae6be24565aee",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T00:13:02.158413+08:00",
+  "status": "ok",
+  "rows": 245,
+  "path": "data/raw/market/provider_supplements/v4/objects/577a6305529ec9a4f949dce8ce559010c3d2f721c63b03c8cf6ae6be24565aee.json",
+  "sha256": "3309e29e28bdc316e76c1ddf1f0f8b3bc44e6a3eb618bfe7da22cc6a58b385d1"
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "天翔",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2021-06-01~2021-07-25",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T01:05:44.998376+08:00",
+  "request_id": "5a7922814e588af09c5255f91156d1a7b877dff91ca26ef1e2fe2dd4980eb569",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/4e68d0763b47001a5040d25687de2a9b87d89707971ef495dbf8d098470c9d37.html",
+  "sha256": "4e68d0763b47001a5040d25687de2a9b87d89707971ef495dbf8d098470c9d37",
+  "bytes": 20821
+}

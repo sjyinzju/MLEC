@@ -1,0 +1,42 @@
+{
+  "price_resolutions": {
+    "AGREEMENT_AT_DISPLAY_PRECISION": 21258,
+    "LAST_CENT_DIFFERENCE_PRIMARY_PRESERVED": 195,
+    "SECOND_SOURCE_MISSING": 191,
+    "PRIMARY_CONFIRMED_BY_THIRD_PROVIDER": 12,
+    "SECOND_SOURCE_INVALID_OHLC_PRIMARY_PRESERVED": 7,
+    "MATERIAL_DIFFERENCE_REQUIRES_REVIEW": 2
+  },
+  "volume_resolutions": {
+    "CROSS_SOURCE_AGREEMENT": 15280,
+    "PROVIDER_VOLUME_SCOPE_DIFFERENCE_NOT_INTERCHANGEABLE": 6385
+  },
+  "true_extreme_returns_preserved": [
+    {
+      "ts_code": "399006.SZ",
+      "trade_date": "20240930",
+      "close": 2175.0865,
+      "pre_close": 1885.4888,
+      "pct_chg": 15.3593
+    },
+    {
+      "ts_code": "399006.SZ",
+      "trade_date": "20241008",
+      "close": 2550.2764,
+      "pre_close": 2175.0865,
+      "pct_chg": 17.2494
+    }
+  ],
+  "unresolved_material_prices": [
+    {
+      "ts_code": "000852.SH",
+      "trade_date": "20151123",
+      "max_price_difference": 0.02900000000045111
+    },
+    {
+      "ts_code": "000852.SH",
+      "trade_date": "20160104",
+      "max_price_difference": 2.3536999999996624
+    }
+  ]
+}

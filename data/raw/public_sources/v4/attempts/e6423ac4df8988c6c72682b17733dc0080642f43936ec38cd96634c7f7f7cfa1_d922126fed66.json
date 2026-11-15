@@ -1,0 +1,9 @@
+{
+  "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-02-15/cedb693a-f5ee-4463-9682-ea33d406b569.PDF",
+  "params": null,
+  "method": "GET",
+  "retrieved_at": "2026-11-15T00:07:12.298196+08:00",
+  "request_id": "e6423ac4df8988c6c72682b17733dc0080642f43936ec38cd96634c7f7f7cfa1",
+  "status": "failed",
+  "error": "ProxyError: HTTPSConnectionPool(host='disc.static.szse.cn', port=443): Max retries exceeded with url: /download/disc/disk03/finalpage/2025-02-15/cedb693a-f5ee-4463-9682-ea33d406b569.PDF (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\")))"
+}

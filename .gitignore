@@ -62,3 +62,14 @@ Desktop.ini
 # Immutable public v3 response payloads remain local; hashes and request ledger tracked.
 /data/raw/macro/official_sources/v3/objects/
 /audit/data_foundation_v3/*.log
+
+# V4 local data and bounded offline before-images
+/audit/final_data_foundation/temp/
+/audit/final_data_foundation/reproducibility/**/before/
+/data/raw/market/v4/
+/data/raw/market/provider_supplements/v4/objects/
+/data/standardized/market/v4/
+/data/raw/public_sources/v4/objects/
+
+# Full-population audit exceeds GitHub file-size limit; retained locally.
+/audit/final_data_foundation/market_coverage/adjusted_return_population.parquet

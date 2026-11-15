@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 91,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2021-02-05~2021-04-26",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:53:29.524164+08:00",
+  "request_id": "c35a749421d724599a3adccb94a52a4172d9d011f11aba172708df1c709ae94d",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/9f26cc4cfa88fa1ccc9dde0b7d95dbcefa141fd24330fbdefc32c3564a4cdb9a.html",
+  "sha256": "9f26cc4cfa88fa1ccc9dde0b7d95dbcefa141fd24330fbdefc32c3564a4cdb9a",
+  "bytes": 21847
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 3,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "上普",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2018-04-19~2018-07-08",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:57:29.520092+08:00",
+  "request_id": "aae607a36de3e46b160d7ce9de6869e5b969b9035f1e9dcbc5d49a801e826719",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/f94de55beecd33f4374a54d9bf1883090f5bf813efc208a217d638178afa1d12.html",
+  "sha256": "f94de55beecd33f4374a54d9bf1883090f5bf813efc208a217d638178afa1d12",
+  "bytes": 23894
+}

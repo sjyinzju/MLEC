@@ -1,0 +1,1388 @@
+{
+  "data/standardized/market/v4/stock_adjustment/2014.parquet": {
+    "sha256": "8b5ef3c2f4d177b4cbb082a4d47e55fe17b7a94daefd32c446c099f5c7a16e5c",
+    "input_sha256": "71cb34741abb1fb6211c8ee28acb60cd39ce3fba91ff19a7e5929721a3dfecea",
+    "raw_path": "data/raw/market/v4/adj_factor/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2015.parquet": {
+    "sha256": "3be86cc4f77d0dbae3cff88a274e44a9e385ceb100d65313c12f02866c88b54f",
+    "input_sha256": "6e6cca8f79eb98d40633e16e1e1abaf9d770688bc0bf793d15ee3727af0e4bb0",
+    "raw_path": "data/raw/market/v4/adj_factor/2015.parquet",
+    "rows": 665821,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2016.parquet": {
+    "sha256": "ba6e3b9b636ac9a258fc25c1cf300c0a4759a45612e36979b1cbd1f5b8b562a6",
+    "input_sha256": "1fa9ee294fadcaf56f51439ea0663026c9963721f850f00e56eaa08e07533796",
+    "raw_path": "data/raw/market/v4/adj_factor/2016.parquet",
+    "rows": 704877,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2017.parquet": {
+    "sha256": "c2fd62d18ca0800455e43d0d9108b07ab0972de9cf5e5de58abc119449b998fe",
+    "input_sha256": "aba3d84429d0078bbb65824f3752675ca89204524b7ba86e59ed63ec1221ffa4",
+    "raw_path": "data/raw/market/v4/adj_factor/2017.parquet",
+    "rows": 799796,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2018.parquet": {
+    "sha256": "c373247a85f68bcd5f76372f4333af0cccaa62361c8caba0bd0d4dcdc232e76d",
+    "input_sha256": "5adbecc2ab2d4914828fcd1825a5e33e0af6cccf77865825e6d1aea86c76a75f",
+    "raw_path": "data/raw/market/v4/adj_factor/2018.parquet",
+    "rows": 857491,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2019.parquet": {
+    "sha256": "196fdffc9f24240442e3bd6c6c287d28d3d0f4665df9f05b1085560ec122276e",
+    "input_sha256": "db9455506b3ab7de6af99937112d55b8f83414098e83533e7a5146fcbdd451ae",
+    "raw_path": "data/raw/market/v4/adj_factor/2019.parquet",
+    "rows": 891103,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2020.parquet": {
+    "sha256": "8630605eb8dfd68c934883d16305a665485edac5ccd49fc69d7211b9ac25336e",
+    "input_sha256": "5ad614358258fb1f7fdeb14912ccab9d8b70e58eda16f5f508e3878066d5b332",
+    "raw_path": "data/raw/market/v4/adj_factor/2020.parquet",
+    "rows": 952958,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2021.parquet": {
+    "sha256": "55d736e88d37ab36aae3982c8e1960387f99dec9938376d3140bc847eb0f4db7",
+    "input_sha256": "776fb96b79f908d5e9582f1735cf26717b6d18b424681cc637adf590009fa6a9",
+    "raw_path": "data/raw/market/v4/adj_factor/2021.parquet",
+    "rows": 1064064,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2022.parquet": {
+    "sha256": "6bc562b1070eac4801639b2256875c8297ac2f42cef54f73f92f4898366698ac",
+    "input_sha256": "989e2cdddebb45b772aa323fc0c2eb53651f5e2be8ce93fd534993d2df645680",
+    "raw_path": "data/raw/market/v4/adj_factor/2022.parquet",
+    "rows": 1151730,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2023.parquet": {
+    "sha256": "7480873b7033aaa286446cc432b52c23f331c1277fb0487763b59fc018bb0dae",
+    "input_sha256": "c0ae5d1c333d5bf1998223480dbc4ebbbcb1821b1b5311f13e4d01d57d2a729e",
+    "raw_path": "data/raw/market/v4/adj_factor/2023.parquet",
+    "rows": 1216147,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2024.parquet": {
+    "sha256": "d0a7304a525700008263be902180879ec2343e75e4219d66ccde2b1aa843b52e",
+    "input_sha256": "6f99eca42c0a6fb6618878d25c6be0aa5b04a11c9edde48e16c7a3abbc5caea7",
+    "raw_path": "data/raw/market/v4/adj_factor/2024.parquet",
+    "rows": 1242452,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2025.parquet": {
+    "sha256": "eefe24abd940108f1ddb852d7c6de7029256970161568d22b0e7745128be953e",
+    "input_sha256": "d4d6d4b726fd964e5202b27a35f095599b82df74d574914168728859857a6850",
+    "raw_path": "data/raw/market/v4/adj_factor/2025.parquet",
+    "rows": 1255886,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/2026.parquet": {
+    "sha256": "e75f0f718d1bcff95f48a528ead82173704682dc3b8cf1f00d1f24c86b016fb1",
+    "input_sha256": "91caacb27a88a7e25b6383658150a89abcf07b150ef244659661a02b4711a032",
+    "raw_path": "data/raw/market/v4/adj_factor/2026.parquet",
+    "rows": 916067,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2014.parquet": {
+    "sha256": "0b753fc1d65e1596308bc25e0d90a85b73a87a6643efe746829af8dd364ae670",
+    "input_sha256": "878197f790b993fd6dd7283a58d4751759705844d26f008c66ea0bb530f3c80e",
+    "raw_path": "data/raw/market/v4/daily/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2015.parquet": {
+    "sha256": "c9a35c1792856f57389494b6cc2b66ed8f3b0c7d4444c3af362572344c5fe4a0",
+    "input_sha256": "471880bdc6b022dccd5336c86ba63aedce5792f8cc898dcc76c99f432ee16bce",
+    "raw_path": "data/raw/market/v4/daily/2015.parquet",
+    "rows": 570310,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2016.parquet": {
+    "sha256": "bab376777dc9fb14edd762a3e623248e1d046f2499d760d650d5b745e65ff559",
+    "input_sha256": "7236ee3e0c05e07aeebdfffcaf9bbd92aa62e760f796d3b65bc9f582191097ba",
+    "raw_path": "data/raw/market/v4/daily/2016.parquet",
+    "rows": 642209,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2017.parquet": {
+    "sha256": "56cfd15b216914a4d75f1a233fd2b6ece3c1c4a78f57a6791e71b41a390a2645",
+    "input_sha256": "94bc69597476bff3b751b77b93886a6ffe3d3987156675c2d90ee0e89c792342",
+    "raw_path": "data/raw/market/v4/daily/2017.parquet",
+    "rows": 743941,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2018.parquet": {
+    "sha256": "34dfaa4b698001c82b21e92c72e035a91c1c8888c0be841a3a91d20090222dd7",
+    "input_sha256": "11b060cd8998d5f2bfe12dd550d70ba217cbed454bbe326ae4bde63bea17a3e4",
+    "raw_path": "data/raw/market/v4/daily/2018.parquet",
+    "rows": 817583,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2019.parquet": {
+    "sha256": "cfd3048771312899ab0fbedfa3a85cc3c982f0bc41fe676c5d5560cb4cf92034",
+    "input_sha256": "2cf065b7ff50b1c3e367c348ff664c3214930ff7093baa3daee5684643925000",
+    "raw_path": "data/raw/market/v4/daily/2019.parquet",
+    "rows": 885332,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2020.parquet": {
+    "sha256": "b50d2ebb696e0ff92d818b39372b51750d143a3860d7e938824c14cfe245e5fa",
+    "input_sha256": "d92a0df02064e34ba8f8125ad54521753dcc01c938cd0c3542e9b45acd8d6171",
+    "raw_path": "data/raw/market/v4/daily/2020.parquet",
+    "rows": 946205,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2021.parquet": {
+    "sha256": "507565d7edddc9f668a731f802ba002675182d86d2dcaee9b8a441f268171150",
+    "input_sha256": "ad0e07997ba16359acafad530005d98c3e04777456cb0dcc0a53452fa51f1207",
+    "raw_path": "data/raw/market/v4/daily/2021.parquet",
+    "rows": 1059106,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2022.parquet": {
+    "sha256": "c04ec611f4fecb81207d9eee04cbb642ee7c893d66a3c1906c0e8e6e55d357d0",
+    "input_sha256": "bdb56cdaa7f03370a918d5899cd6e945293c9a9e193cea6bd5a47fc9b55dada7",
+    "raw_path": "data/raw/market/v4/daily/2022.parquet",
+    "rows": 1146505,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2023.parquet": {
+    "sha256": "198ebd45c0cf1f3350f2115033817270c9854a9fb13fc4b64fc7b1c2e3f8b16a",
+    "input_sha256": "ea125450e76c29346d2afe3ea0bf76c572be53d8d6fc1bc9878d39bbce8ad889",
+    "raw_path": "data/raw/market/v4/daily/2023.parquet",
+    "rows": 1209700,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2024.parquet": {
+    "sha256": "d35835e35f4956195f02cac801f2a3cd981dd4370e5a2fa8c80875c2f2e8ac3b",
+    "input_sha256": "e9aa9a13fa1cdd7612b67685192d38f36d99303661b2e4fd8b56cbb37b6dfeca",
+    "raw_path": "data/raw/market/v4/daily/2024.parquet",
+    "rows": 1233444,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2025.parquet": {
+    "sha256": "c95282f7ced8654fba9114f8c4a9eaa00410384558c048b079e2e496645eb20d",
+    "input_sha256": "e07e6fcd52665d4d48e297b5fc226306e4ddfc660f42a14ba65b7ef1ec03d679",
+    "raw_path": "data/raw/market/v4/daily/2025.parquet",
+    "rows": 1248134,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily/2026.parquet": {
+    "sha256": "a0dd4d7b1d22a01bcc14f5b4212a53af861ad542d58dff5790e0a12309b3300c",
+    "input_sha256": "d15b1497066644cc8fd088b6507e156d10b7e5adc5a0c2fa9ad00042c1bd1808",
+    "raw_path": "data/raw/market/v4/daily/2026.parquet",
+    "rows": 913218,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2014.parquet": {
+    "sha256": "31bfc4474e07fcca04a6a70f0abed233cd4d70dee6c000ccbe76c6d4f6cc7ec6",
+    "input_sha256": "aad029b45badcfd2c13dd45a0ebc909f58f69a71cf70f7de1effbe57896c4e5d",
+    "raw_path": "data/raw/market/v4/daily_basic/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2015.parquet": {
+    "sha256": "b33d77cd9331ca0c18ab92ccf66db788fc1586867da79a9d3a9a065454557b41",
+    "input_sha256": "8ba08270d5c441e0314db70aab073707059606fb3d113c568d320245642fe460",
+    "raw_path": "data/raw/market/v4/daily_basic/2015.parquet",
+    "rows": 570310,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2016.parquet": {
+    "sha256": "c38ac6cb7043c963f8e5157c0a18540d81664761894fa069a879943c221678a4",
+    "input_sha256": "ae5d66d3c4c37190ff18e263a84d6883f705b3d12f51753fdc89fb8da7f8ba8a",
+    "raw_path": "data/raw/market/v4/daily_basic/2016.parquet",
+    "rows": 642209,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2017.parquet": {
+    "sha256": "0fbf41f86688a7f366013d3aacfde61ba6857ddaee94d2af10f6b5424e33d70d",
+    "input_sha256": "5b9b0c15972d8a55ed0886a7297bbed778c0393692dc49c7f2fd25f8309cbe6c",
+    "raw_path": "data/raw/market/v4/daily_basic/2017.parquet",
+    "rows": 743941,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2018.parquet": {
+    "sha256": "2dbcce2585ccab960ca6da8bb1078f806789efcd6b3ffb867b9e052eea086bef",
+    "input_sha256": "1cdbe7a78f96195420d33d5e9c0f877e7b85c4aa9021a1c295e57ca39f7acb1a",
+    "raw_path": "data/raw/market/v4/daily_basic/2018.parquet",
+    "rows": 817583,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2019.parquet": {
+    "sha256": "33418bbf7fd5dc7377b70ddeabb51901220cafd6f3e25f90c7481f7b5dda64c4",
+    "input_sha256": "76d66e88877359ecc6522dca47768fdcfab35f1989161be74bf51fe06b7bc173",
+    "raw_path": "data/raw/market/v4/daily_basic/2019.parquet",
+    "transform": "external_selected_v1",
+    "rows": 885332
+  },
+  "data/standardized/market/v4/stock_daily_basic/2020.parquet": {
+    "sha256": "cbad03d1e0b2bf8a33eb05c5d191a7736b06bee09e3417eb10d0da19139489fd",
+    "input_sha256": "de92c89ceef9bb74eae559d32136ac3685bcc1f2f1dcb2f0d4440653896c9cc2",
+    "raw_path": "data/raw/market/v4/daily_basic/2020.parquet",
+    "transform": "external_selected_v1",
+    "rows": 946216
+  },
+  "data/standardized/market/v4/stock_daily_basic/2021.parquet": {
+    "sha256": "230aed70c4f04923f71fd4c2f0e2024ba41ea3eb2883304c1a6aa6f551ceaf21",
+    "input_sha256": "550382f5db72d3df99cb9a4f8481e25f963fc2adce6f05a16e29043eb38ed9e0",
+    "raw_path": "data/raw/market/v4/daily_basic/2021.parquet",
+    "rows": 1059106,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2022.parquet": {
+    "sha256": "dc4bfbb64619fe39267b77382ab929064cb57e5ce925d70db0762fb2b87fb589",
+    "input_sha256": "ef56632d5ba3e35aa2b7cd76c44378bba882e709fa6bbe053efb89735ccec948",
+    "raw_path": "data/raw/market/v4/daily_basic/2022.parquet",
+    "rows": 1146505,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2023.parquet": {
+    "sha256": "248783bce2e85f89c86c722610f90a7a16e7394d38fa27020811fdf93894d3d0",
+    "input_sha256": "23d689572354ebebfc0cbe0a81e113778c3bc54bff338fd2e618e86fe5d18d84",
+    "raw_path": "data/raw/market/v4/daily_basic/2023.parquet",
+    "transform": "external_selected_v1",
+    "rows": 1209700
+  },
+  "data/standardized/market/v4/stock_daily_basic/2024.parquet": {
+    "sha256": "409d792a07636290fcda10f023897a3e869497ed36fdc7ab506c443c7cff107f",
+    "input_sha256": "2a02219e5ef9afae7cb24485a75bcfb30c5c1d59bdd2b14cecc1959f9cdeba6e",
+    "raw_path": "data/raw/market/v4/daily_basic/2024.parquet",
+    "rows": 1233444,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2025.parquet": {
+    "sha256": "b3e6458808b7d05d91d3212018a24d95c46fd4f6dc3decaad64a27b96c793e0d",
+    "input_sha256": "497d4e54640a2b41651293fd75f962063acf77862e9f31c9926da8a768c60163",
+    "raw_path": "data/raw/market/v4/daily_basic/2025.parquet",
+    "rows": 1248134,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_daily_basic/2026.parquet": {
+    "sha256": "f73f0d078d7588bb3f54b5d143a2ed9f6001daca1f21903f8c705ad5a3695789",
+    "input_sha256": "adeb850cc69daebd4c60a4e7063dc77e4c0c01855500ac2ab44af9e1f51f60b2",
+    "raw_path": "data/raw/market/v4/daily_basic/2026.parquet",
+    "rows": 913218,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2014.parquet": {
+    "sha256": "c107a2e4003dc61ae9c23b894694fac66edf63eda7da297aa5e1cc6edb60a8af",
+    "input_sha256": "dc9826355b6acf2858c5374cacad72061f3d92d1acf292c2fa5edf207183747e",
+    "raw_path": "data/raw/market/v4/daily_info/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2015.parquet": {
+    "sha256": "d445d1cbef12580496de870dfceb948bfd030a6daf3b606ae7fb9d12e118d1cf",
+    "input_sha256": "61dbec9e2709d36b72eed277d63fc917c65493bc3c48199ed51144d0666591e0",
+    "raw_path": "data/raw/market/v4/daily_info/2015.parquet",
+    "rows": 6100,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2016.parquet": {
+    "sha256": "3c57c77e30a591a0a079bb9126601958b66bb24e8854305d2eff810b04163d1f",
+    "input_sha256": "67f11003f4b0e75b1a8edd886fd80899aff7715e7f24a6b99d224f5172c1ee45",
+    "raw_path": "data/raw/market/v4/daily_info/2016.parquet",
+    "rows": 6100,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2017.parquet": {
+    "sha256": "132962b0b8c1fe87aad162ed079093788012d45ea0825243ca7759f9f88a8e4c",
+    "input_sha256": "30982aca514b3100bebae93745cb6599e4cdbd6cf4ddd542c99a9fac6d4b7a5b",
+    "raw_path": "data/raw/market/v4/daily_info/2017.parquet",
+    "rows": 6100,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2018.parquet": {
+    "sha256": "ff78c5a647c39693c67b039724ac6030f9edc914a59686f149ffa70e7eb23cf2",
+    "input_sha256": "63af2fd944c887da0ae785dab323107b6114a96bdd1795e42bc6ff5dc72922fd",
+    "raw_path": "data/raw/market/v4/daily_info/2018.parquet",
+    "rows": 5589,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2019.parquet": {
+    "sha256": "bb546654a0b3c8be9adbc58e76880cbf2f51269e618be20d686711faefa11ee5",
+    "input_sha256": "c2d0749e26c2dac352986828c8e43245dc7e994b70b968d0d079502a4113bce4",
+    "raw_path": "data/raw/market/v4/daily_info/2019.parquet",
+    "rows": 6218,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2020.parquet": {
+    "sha256": "34e6cde3d72e4a40bd42a931b9b36fd3dd1e5375b0c6cad3da69b0b33a756aee",
+    "input_sha256": "f5cc1d56969df1b99c0ea9713c3de84f94a5b953037c84e261f5fc891c8453fa",
+    "raw_path": "data/raw/market/v4/daily_info/2020.parquet",
+    "rows": 6648,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2021.parquet": {
+    "sha256": "4c69281043a24b941c0e55f16dfdc8fa21a9d414bf4b6793c43713eb6dfe5d31",
+    "input_sha256": "b80be478289d6cccf59083bd1b532b1b29f412f6d59dc3a8ae69d73e8a2bcf09",
+    "raw_path": "data/raw/market/v4/daily_info/2021.parquet",
+    "rows": 4782,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2022.parquet": {
+    "sha256": "12d3f31767533726127c541d5475170415759a33704666eb862763af9f1a0e77",
+    "input_sha256": "2c210fd54464bc9081a44dae63da0f219d004a2811e0360c3ee148c27a2002ab",
+    "raw_path": "data/raw/market/v4/daily_info/2022.parquet",
+    "rows": 3105,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2023.parquet": {
+    "sha256": "87831b224eaad2dd9e4b0f9dbbcb573fa48c42a4c767de787c0d4b59d9579b62",
+    "input_sha256": "eba8093da6d74844a2af6270a9b3ee8b8ea2bce344fff22806e182f91e129eb0",
+    "raw_path": "data/raw/market/v4/daily_info/2023.parquet",
+    "rows": 2885,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2024.parquet": {
+    "sha256": "ed78db8cac28d3995d5c474fd94b078eeb9fda278a322d49254f7f6fb544dd7d",
+    "input_sha256": "de4f5ea05acb4b9778bacba1fbda72cccd043cc6e53c39a95955bd3e58d92233",
+    "raw_path": "data/raw/market/v4/daily_info/2024.parquet",
+    "rows": 2885,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2025.parquet": {
+    "sha256": "1c9f0aaeb99842941e7ed86f2380b1a0149056c0a5a7f44c5e8be4893f59f709",
+    "input_sha256": "19e0c7b08797091e67cfb74cee7d8713bc82c1efae368a8c532e8029556b6a43",
+    "raw_path": "data/raw/market/v4/daily_info/2025.parquet",
+    "rows": 2892,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sh/2026.parquet": {
+    "sha256": "b636253ff1016efc2229dfd9aab9e4de85ee3fb0c479361fd2671bc2811412ca",
+    "input_sha256": "03c5021861ef5e5afa7f1316d90628edbbbd02bdbf5775ebd49e334d6b217a54",
+    "raw_path": "data/raw/market/v4/daily_info/2026.parquet",
+    "rows": 2094,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_dividend_events/all.parquet": {
+    "sha256": "0523d0f8f49f612c25dad135dddddfb29e3b6978282f3417b08d00b6703c4782",
+    "input_sha256": "a761160ba9bef46d4fc7b4a53bafe60ca7ebdc3d7b6c09b2c2b2c44eeeebf432",
+    "raw_path": "data/raw/market/v4/dividend/all.parquet",
+    "rows": 212115,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2014.parquet": {
+    "sha256": "7ed9554dd08d4d8c4ccaa823f8c1ae1325de835a34e0859e683ed6c84cc270cb",
+    "input_sha256": "29733af94363d64352400b60b2c0aebd2b19cadc989897eeae82b80b591203ec",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2015.parquet": {
+    "sha256": "dd4d33bfb85470d1216038179866abc01f1078798cff1256c8d586367f01673a",
+    "input_sha256": "5768077fc0a33fb80e8fa919cc5aa3ef35d136db6e5dd528351ab7f4554d679d",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2015.parquet",
+    "rows": 2310,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2016.parquet": {
+    "sha256": "e57527f76c4f4e087593dddf9967c49c495351d1ac93f972c919ec09eb8a4614",
+    "input_sha256": "327a1bc40e0f54259052284bdd89a71f66335dd954e14e17512a775ef7807624",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2016.parquet",
+    "rows": 2490,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2017.parquet": {
+    "sha256": "90e5c40553e5330f003e6d0b4f7847719a2dd2378eeae1b781ab9e41752e6a17",
+    "input_sha256": "dd8fd8c5fdf5ad04ef8562cd542ae34157a419e1ad2e96474e6e389d0252d613",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2017.parquet",
+    "rows": 4700,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2018.parquet": {
+    "sha256": "05ea2fa2668ff503d555975ffc0dcf635110a3a57f532ece4c4b5720712f5049",
+    "input_sha256": "ba644dc66761ba6c1b94e0914e1f6fd6d22c25c89d959756b15dac2d584d18c9",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2018.parquet",
+    "rows": 4580,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2019.parquet": {
+    "sha256": "37d5dc694cef993a94dc75c040628a9a3a4be4b60f872a34a5057d4d06089149",
+    "input_sha256": "08f71f53872417f5b2ba5bad0cf1b115f85c22c9762b68cc813fb2498c8a83cf",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2019.parquet",
+    "rows": 4670,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2020.parquet": {
+    "sha256": "35bf6c5b08d65e8bb33036aaa77e75a99f5d74b8903cd30d682f1914ff54dfc2",
+    "input_sha256": "febb699804f0c7202f9628708005d2c5e279c09d49bab4989aa4c05f07f87611",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2020.parquet",
+    "rows": 4620,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2021.parquet": {
+    "sha256": "ab7438d0378079a0cdca2d16f97ab91895802ff3f2f4993d0f6d091bb1046803",
+    "input_sha256": "7205ddd9eb6511cbd6c6db6f4e2415dfb9b369277a88ff932f6c2d0c8c562aa6",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2021.parquet",
+    "rows": 4600,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2022.parquet": {
+    "sha256": "fc02f3856cd29ca5eb86c64ce9a9cdb6de1c36733b7f5969a5500a0d351c3ccb",
+    "input_sha256": "03c64eb3bf5d31595035c78ce8e729ef280f5711dcf5a19e6c829aa87964a78e",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2022.parquet",
+    "rows": 4640,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2023.parquet": {
+    "sha256": "b56809ccd9025aa1034ff5c555aa1c87c0db2cdbfbf947d00e8a2f4bee0449dc",
+    "input_sha256": "2a95637932820936d81e2260b4bda05fde078a290d0918bef803577586ca047b",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2023.parquet",
+    "rows": 4640,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2024.parquet": {
+    "sha256": "d24df870b2c663b26aeab5ffaaf0ddab51e2a9328f98386d519d2c6c4be4d807",
+    "input_sha256": "86a4de357c71728b39a8085354c003060ad19791b0c3b0cd56474fe24290d720",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2024.parquet",
+    "rows": 4660,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2025.parquet": {
+    "sha256": "cf9f6b30848ddcc2638a3ffd7077ce6cecda091df3811f9067bd9739605c2848",
+    "input_sha256": "30740f83a1bb6423204b16c75f2b118833d60ce9952b1bad24e66e2e269724e6",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2025.parquet",
+    "rows": 4660,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_connect_top10/2026.parquet": {
+    "sha256": "26fa41467b96fd7d688ddc2e69f386919278baa6bbe78c53043fc5abe526d9fc",
+    "input_sha256": "09e0578b6d5af2c04794ec96f172e3be2dd2d8994224c1ba90b42754699508bd",
+    "raw_path": "data/raw/market/v4/hsgt_top10/2026.parquet",
+    "rows": 3440,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_identity/all.parquet": {
+    "sha256": "29c53da786f672fe2b3ac2c7f2f562742848cd5c322a05b5b95bc71898056a96",
+    "input_sha256": "d3924bb3528ef537ca15fe0b2c4d7cbae2f3398641a917a9a8429edb496b59d9",
+    "raw_path": "data/raw/market/v4/index_basic/all.parquet",
+    "rows": 7,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2014.parquet": {
+    "sha256": "98db6e0b2bb2e1090478bf37914fe893c66b801eefee94bf5374df7248c2735e",
+    "input_sha256": "03c7365cebb966a06bc90eb9f4cf468ccc5f8df7ef644e7eaca04727f34e2526",
+    "raw_path": "data/raw/market/v4/index_daily/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2015.parquet": {
+    "sha256": "94618268ef4eedad4d91636a3105df9ad2dd816a7f202e12d9c5cd807ea3e568",
+    "input_sha256": "4aa000aeacf15e2630f48b7c729fde47e0b6ef9784fbec246727572deca5e703",
+    "raw_path": "data/raw/market/v4/index_daily/2015.parquet",
+    "rows": 1708,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2016.parquet": {
+    "sha256": "9a50f0c1b9062ab374a4ead33d67f35833e629a99f1d2f81e843f965714ea103",
+    "input_sha256": "f1554dccba0fba7e866c7d66dfb0a45c5fab28e657d3b0e4f03ccacb931b90f8",
+    "raw_path": "data/raw/market/v4/index_daily/2016.parquet",
+    "rows": 1708,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2017.parquet": {
+    "sha256": "d3730e77c83b2e9050d7e1b585faa682969750b5a0952a363e86137bd2738de6",
+    "input_sha256": "753f9ca9e78affb00a201c8ba5e590bced6c3ea46da505eac7d2d8ba56de77da",
+    "raw_path": "data/raw/market/v4/index_daily/2017.parquet",
+    "rows": 1708,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2018.parquet": {
+    "sha256": "bd2dc4c47046d24976d7321dbd37f5c326ed1ec853845400a0c44bdcdbcff62e",
+    "input_sha256": "f75d1197b147fc968e5628d95c95aef506c80964fba435955d23835e14679291",
+    "raw_path": "data/raw/market/v4/index_daily/2018.parquet",
+    "rows": 1701,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2019.parquet": {
+    "sha256": "68cb9b4803a838970bec4ef7e73f1e565153d7c9a3d1557724ee0a0e38639ea3",
+    "input_sha256": "5889d157dc951fa01469162f3b94c0f5e1b62b8482f3378ba87131865cb2fc4a",
+    "raw_path": "data/raw/market/v4/index_daily/2019.parquet",
+    "rows": 1708,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2020.parquet": {
+    "sha256": "01388daaa9d0138019f862378abd794b23399ff3a7e0253c74e87a01b2ab7c77",
+    "input_sha256": "13c20d740a4a1c81d6656613d03195f268b18bbe918f105c9ec2b21b8f5a21bb",
+    "raw_path": "data/raw/market/v4/index_daily/2020.parquet",
+    "rows": 1701,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2021.parquet": {
+    "sha256": "71c103e5863a38ec3c9f897cb790e7068d4d2d612edff4a6e7cee8db8eecc50c",
+    "input_sha256": "5be235921683f5e521821c5a5959971e108a69323ff9f73f847d3e56f198cc22",
+    "raw_path": "data/raw/market/v4/index_daily/2021.parquet",
+    "rows": 1701,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2022.parquet": {
+    "sha256": "15686b1cad7e6c94e47554a909d6371c95b30b71d4181c1d8d68eb1ce4dfc4b3",
+    "input_sha256": "c69452f09df9d7a776f99cfe44aeeec138eeb996d8e278e3b08bdbc0c92d8217",
+    "raw_path": "data/raw/market/v4/index_daily/2022.parquet",
+    "rows": 1694,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2023.parquet": {
+    "sha256": "bc6865f92e9aa3be3d280d4f818c3ecde3910beb655197abe015eb52cc2caa5c",
+    "input_sha256": "2e55fa2027112ab3a22952e45aa51248238736ef1ae396c82060c1727d288ce2",
+    "raw_path": "data/raw/market/v4/index_daily/2023.parquet",
+    "rows": 1694,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2024.parquet": {
+    "sha256": "bf2ab5ac7bebc2af8b9eb0185f030b32bbed886a009dcccfb5f5c490b7a9bd60",
+    "input_sha256": "fefb4b5a06615b21fa689cc7993aaa3569219326267e156a86ce88bbe5c3f05f",
+    "raw_path": "data/raw/market/v4/index_daily/2024.parquet",
+    "rows": 1694,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2025.parquet": {
+    "sha256": "961ece03cd09a6f13007ae7f74c6e0a0bcce224e8d27c4047aa091ee6fe286b3",
+    "input_sha256": "e6d324257b5555cd72d59f914fc26a7481897c014ba2b05be9a07bd7fef60b7f",
+    "raw_path": "data/raw/market/v4/index_daily/2025.parquet",
+    "rows": 1701,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily/2026.parquet": {
+    "sha256": "0da74d4495c6acf7430903a98949b4eca3f33f961002e6a9322953a47419123e",
+    "input_sha256": "6c9edb2e03e08298553b150e378e2689a60c1941b5e695041882e22d23931ffc",
+    "raw_path": "data/raw/market/v4/index_daily/2026.parquet",
+    "rows": 1232,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2014.parquet": {
+    "sha256": "de7afc415bcbba0c2c0c398d3afaa9f403eec29bb971b39aefdc992927915f9f",
+    "input_sha256": "6f88940a99efe285db593b64e58d85063d29ffd5f550e7dcb839498b2c19537c",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2015.parquet": {
+    "sha256": "69ce6e9908ef65be52e69dfcc2e98e76af4ab519b0899312e1b39cf9878e4df9",
+    "input_sha256": "f64aedb5e0cffd120e3b6a472c3ab4c3f6cffc0487d5982d94c88248021c37c8",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2015.parquet",
+    "rows": 1708,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2016.parquet": {
+    "sha256": "34b20e75327990c6a0c2d1062eb070ec7c999f58dc0bc5549d30d88a2a840c3c",
+    "input_sha256": "09e5bb66f57a81700ff3d01a8b32682257a45d34af9391260a025075ff3c33e2",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2016.parquet",
+    "rows": 1708,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2017.parquet": {
+    "sha256": "d5c70d284c2cd43cb74a8048f016110d1fd2446cffa1540f20ec2eb8568bbe5a",
+    "input_sha256": "d241ceff42d870c3c61e5dde7ce9271320c1a25a4d51068622305fbfcc48cf61",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2017.parquet",
+    "rows": 1708,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2018.parquet": {
+    "sha256": "edaff6035ca1263e4f6610e98566c8ecf23564fc1471d463e3ca61d869e5a25d",
+    "input_sha256": "2def42ea8de2847e0a6525325e6cdbe29a36513255aab291a00fd8d971cbc122",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2018.parquet",
+    "rows": 1701,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2019.parquet": {
+    "sha256": "b0913567a36d673d5b59082f8f63506f0b32f672b88741bbf288846a213f429d",
+    "input_sha256": "974929128c1dd29a6b7d4e628e6f32445211ca66ac0d0a1cc778409ea022a53a",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2019.parquet",
+    "rows": 1708,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2020.parquet": {
+    "sha256": "a6056deb56f28146d30d31f1d7bec0bce547e2ee32bcc888dde36897aaaa4f63",
+    "input_sha256": "d5beb90797f67334c5271ea48ea14b9a17d3ab8df9daf17eceff50ec2eb06489",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2020.parquet",
+    "rows": 1701,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2021.parquet": {
+    "sha256": "5ed1f73be09b07bc879533ff36da877140b6dd5bbf257e16e9fc738a893256a4",
+    "input_sha256": "752412e5920eaf47e202af5aa2bdf824a15f3be7ec6f7c7208a23e04631057b8",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2021.parquet",
+    "rows": 1701,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2022.parquet": {
+    "sha256": "466db367cb4e7e70dd13996db9fa682a19e23fcc180b93041a6dcfbd1f8a9303",
+    "input_sha256": "cf283bfec035633256be0e5dde4c3dde75663597dc1d1ca2ade790bca8f7146b",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2022.parquet",
+    "rows": 1694,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2023.parquet": {
+    "sha256": "05498258c7583b058639495ba3c2fdc220f01d874e10d8dd1f2283022052c5ad",
+    "input_sha256": "0340899c5efedde5f292625457742a425030cc3fe423a902f8404d266c55a8db",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2023.parquet",
+    "rows": 1694,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2024.parquet": {
+    "sha256": "782ecc4274a4371c82c2c2cc99733172e00a060d7e0f0761cfbe96b852c92f8d",
+    "input_sha256": "efb39b8d40c5ddf5df656f9e9866a10e3bf1943b16dbae42f7abf279fbe2a3fc",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2024.parquet",
+    "rows": 1694,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2025.parquet": {
+    "sha256": "b3bb7f04b760f37b74d15523907240c0456d8654494d441e935dfda5d6fa11f1",
+    "input_sha256": "14398770ebb8dd8fd34ace4a4c5fc3550dae3c9f198ccaa3a611c0675e291131",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2025.parquet",
+    "rows": 1701,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_daily_basic/2026.parquet": {
+    "sha256": "0bc36f31af4e0b67f88eda7591bd870c5656702043821533dbf691f598d04839",
+    "input_sha256": "a79aa281b3f010f9c10a24476d3e9fae92c84d49f22f7fcf162f1a9628a9f854",
+    "raw_path": "data/raw/market/v4/index_dailybasic/2026.parquet",
+    "rows": 1232,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2014.parquet": {
+    "sha256": "220e3ccf6e460cab69e1c30d0e5cd46a3992d1af9aa0e7dbd1436c927752490d",
+    "input_sha256": "7c0e024640505ac446fdfaf22c9460c672f0717f23684f4c1a1f95e6b5403a97",
+    "raw_path": "data/raw/market/v4/index_weight/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2015.parquet": {
+    "sha256": "b91282a62cc9c853411532898c565ef2e5160c5e8b550ef04c98d10e96bb4841",
+    "input_sha256": "cc890fa9aaafc59ccd9cf62bf7aceaeb636b05452709c3e4d9a34cdb83fb0a00",
+    "raw_path": "data/raw/market/v4/index_weight/2015.parquet",
+    "rows": 40662,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2016.parquet": {
+    "sha256": "e77e667b9be969cae1d1a5caa50cbe3612ebbb709c6f481dd975882e3b92ed2b",
+    "input_sha256": "99c087c4db51d5846c4e3eb140a618f803fb7aa9e26317b5502bb9025c4c15d0",
+    "raw_path": "data/raw/market/v4/index_weight/2016.parquet",
+    "rows": 43274,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2017.parquet": {
+    "sha256": "925f5249f44c8f264781af7065036528ed1d17548cdac9dc132af6e575a32963",
+    "input_sha256": "070bf3f4bd375ad50000b2c13d4cef321fdc29ad2abf3131f8d4de3c6d2d4a31",
+    "raw_path": "data/raw/market/v4/index_weight/2017.parquet",
+    "rows": 45484,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2018.parquet": {
+    "sha256": "053d3c01276113897dd3132b27b04e5cbf6196430f19e0096a4446bda86be859",
+    "input_sha256": "b007ee2203b24b2876da33158b5ae248dcc144d8ef586052102810d75ced48d0",
+    "raw_path": "data/raw/market/v4/index_weight/2018.parquet",
+    "rows": 47033,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2019.parquet": {
+    "sha256": "31c25220801475bc70995f28317343aff1eab64baf550c8d7f24e9ae35d4ba8e",
+    "input_sha256": "714bf390064e2253c9d314c6e69034bee427815105c168cb741a8e9baa7bf3c3",
+    "raw_path": "data/raw/market/v4/index_weight/2019.parquet",
+    "rows": 47615,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2020.parquet": {
+    "sha256": "a3fb6a2ed81bc6bfe3dc69406c168b506b82e6af818546c937acab794b1704d9",
+    "input_sha256": "d08f6140ec91407fb511f003aadcc4d6163b1995fb34dca7217fa3ab1d55f8de",
+    "raw_path": "data/raw/market/v4/index_weight/2020.parquet",
+    "rows": 47743,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2021.parquet": {
+    "sha256": "16af67297c394481a6faf2032d39f1415d20328b575cfa4ca00a3ad3cfdaf9d1",
+    "input_sha256": "06b0f9ed38cfc409ac14ebb648582da6b28554a4e2ae02b7cb89ec427120372a",
+    "raw_path": "data/raw/market/v4/index_weight/2021.parquet",
+    "rows": 48909,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2022.parquet": {
+    "sha256": "e9f825d0f5632411b46b94ebda29aa0aba99ef02115b74745f053a941c90ebc0",
+    "input_sha256": "2f2fb23cb0ead8baea02b960187266a7a2f31f92dc7b6fa53e9317533c77161c",
+    "raw_path": "data/raw/market/v4/index_weight/2022.parquet",
+    "rows": 52122,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2023.parquet": {
+    "sha256": "ce7cd4f2ab6bf0ad122d813480ed4ae08674cb90fd4a5fca2eba31e020b8b73d",
+    "input_sha256": "20597492e8b0171c76a28cf45f7f69525137ee72f14ca1b4096a9fde3fb03e44",
+    "raw_path": "data/raw/market/v4/index_weight/2023.parquet",
+    "rows": 54433,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2024.parquet": {
+    "sha256": "2d859f69ca2d836debdce92871364f4fc9f039a1e96c14c71d4798ff5fec0d80",
+    "input_sha256": "50974f7bb78b91ece698c1971d34273909420be646161c9fe97411de19b1074a",
+    "raw_path": "data/raw/market/v4/index_weight/2024.parquet",
+    "rows": 55861,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2025.parquet": {
+    "sha256": "08ba28900dfc62c0e5750af3db5c9e01fffc698c2437b4840838768b0ad26b52",
+    "input_sha256": "35f5032a463eaf72ef0d02bb539a5c05511d7b1e3042c3df92c83c6af228d52a",
+    "raw_path": "data/raw/market/v4/index_weight/2025.parquet",
+    "rows": 56275,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/index_weights_history/2026.parquet": {
+    "sha256": "661594e86a1f9b94209766ed276a5f6ba650e0babda38b58a69f6b5da0a13aa0",
+    "input_sha256": "8a9375f3d683e51d36a27dbf2d41ab5dc7e259a9166a437b9dd9d86a448d2665",
+    "raw_path": "data/raw/market/v4/index_weight/2026.parquet",
+    "rows": 37481,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2014.parquet": {
+    "sha256": "ea92eb1595e3c22ff61d07ebb1a1b9e566d4c3656ed82d049576b52040b71fff",
+    "input_sha256": "ee97d33d994d1c8b28e550fa08240c1942fc271c0d6749573676099df155af37",
+    "raw_path": "data/raw/market/v4/margin/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2015.parquet": {
+    "sha256": "006208ee0fdbb8fcda163013775b47e7d1d1acc3edd0fab291265782becc3309",
+    "input_sha256": "53223c1c34f3d8873a98b7637dced2d810e464470b83c70c382d9e2141fa9189",
+    "raw_path": "data/raw/market/v4/margin/2015.parquet",
+    "rows": 488,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2016.parquet": {
+    "sha256": "006bda5ca9f0b926b97a0a528e5178765fcccc9495756625db8d1b9f623451e3",
+    "input_sha256": "8c904614b6d68daa3de759705e218f3c75660992d6b24632bbe14bf4729b7352",
+    "raw_path": "data/raw/market/v4/margin/2016.parquet",
+    "rows": 488,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2017.parquet": {
+    "sha256": "76d4e438989fc49e2eb16cece29047eae343ae773c0e95b9759d7360006f4e28",
+    "input_sha256": "c813ad8e397b9d7fdc6aae72f5347c1c808e9ded287c8a6a35f872a123200136",
+    "raw_path": "data/raw/market/v4/margin/2017.parquet",
+    "rows": 488,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2018.parquet": {
+    "sha256": "43fd33ed19ba8d757bb66e1f3f661a747d2286f527c1a7719d90fe45b177c053",
+    "input_sha256": "72b723f1f4a67b8405d19d49927c4f04735264a602f4fe0b6e7e53a27a0f232c",
+    "raw_path": "data/raw/market/v4/margin/2018.parquet",
+    "rows": 486,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2019.parquet": {
+    "sha256": "0eb49b374e251f88c82e4615b5520e30ee2073085b7c94ba9aa740037dc30f7e",
+    "input_sha256": "115051e80c625845d5f5c08d25c7e724a64bf1bef83ef7e897b44e7f8a83e870",
+    "raw_path": "data/raw/market/v4/margin/2019.parquet",
+    "rows": 488,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2020.parquet": {
+    "sha256": "58f8a0b3c8424cf5dccc867e175b34bab89520730e64d0dc345b57aef40a3d70",
+    "input_sha256": "469214fced3ca8826a31ce1287394b42c95fd14998936148ee1239d5f8927566",
+    "raw_path": "data/raw/market/v4/margin/2020.parquet",
+    "rows": 486,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2021.parquet": {
+    "sha256": "16a3948ff7c0dfca0017ae443895b9d41b7905b824a3aee05ae5d4c3f25b640f",
+    "input_sha256": "f45f3260a77fbccbbb149d622f34da475cc091c131f6daf9107aaa11307ebcaf",
+    "raw_path": "data/raw/market/v4/margin/2021.parquet",
+    "rows": 486,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2022.parquet": {
+    "sha256": "3634034d4334047ac006c0e2c101d2e36b15d39c285ad1e049f1c983b9e3ff4e",
+    "input_sha256": "e0c41fefade20f058229d05b8da6594340d0144756374aa3c8256c23acf37609",
+    "raw_path": "data/raw/market/v4/margin/2022.parquet",
+    "rows": 484,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2023.parquet": {
+    "sha256": "5061eef67db3e0d5f4ce4e942266678a243b49c6825821eeae3a7540885bf77a",
+    "input_sha256": "d7a9954ea2c02428c5f98a013cf451f672dd4c8656d932ca048d36ba1378163a",
+    "raw_path": "data/raw/market/v4/margin/2023.parquet",
+    "rows": 702,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2024.parquet": {
+    "sha256": "b656d4aca88477dfb7b5a135816d7b737bc0beadb71271db2de64146daede471",
+    "input_sha256": "2ce6df6cf7b93f6ea3cfbf6b5480198d9d02755979ff1a15e590f130b8210ba9",
+    "raw_path": "data/raw/market/v4/margin/2024.parquet",
+    "rows": 726,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2025.parquet": {
+    "sha256": "f5f0723e1fe34f43a0a36c6208fb786b79b0a45a1de70f1b477491508b339115",
+    "input_sha256": "bdf1e60ffe32ae2fc751fd82fc83f35bd3670a80cbfb8e7689210d4d648fb926",
+    "raw_path": "data/raw/market/v4/margin/2025.parquet",
+    "rows": 729,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_market/2026.parquet": {
+    "sha256": "1684376a3926e3f9cbde7ccdd7611ee838ae0aead878eebfd21dca2d8d581c82",
+    "input_sha256": "7e31d523534131f0afd8f9fcb6817fd1aa8c64cc5d80b901950137c7b86d825f",
+    "raw_path": "data/raw/market/v4/margin/2026.parquet",
+    "rows": 528,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2014.parquet": {
+    "sha256": "63af2fc4745238ecbfb0763f396c76584b5f447fb06a0f4bdff692f88749e355",
+    "input_sha256": "1ce71ec9d910d4f70252d52cbcac41c7c5f4bbbdca9ede2dc488e317fb826295",
+    "raw_path": "data/raw/market/v4/margin_detail/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2015.parquet": {
+    "sha256": "fbdc8aed371add3f5c908b0ec729eb7c93261b69eb82749163858730768d3fd8",
+    "input_sha256": "42fe23a6514bac65f6959ba59408a7155e7660cf796bc81d0fce107d0df07ea9",
+    "raw_path": "data/raw/market/v4/margin_detail/2015.parquet",
+    "rows": 218016,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2016.parquet": {
+    "sha256": "ed3d3026d174db264653c2bdfa60b4cf6ed4a53cdad363b64ddfa76c330a3afc",
+    "input_sha256": "0f231948020d756e85985335de3757dff19618723a05067b7b7dc0f6da8ddfc0",
+    "raw_path": "data/raw/market/v4/margin_detail/2016.parquet",
+    "rows": 215516,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2017.parquet": {
+    "sha256": "404595dc7ea5941bc70ef3265e4e2016f06e17ea117dd559fd0b8793aea2ec89",
+    "input_sha256": "9ee5ce1e5f14a18a47302492b7a429c94961acc5f8daae04040936cd7f472375",
+    "raw_path": "data/raw/market/v4/margin_detail/2017.parquet",
+    "rows": 230755,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2018.parquet": {
+    "sha256": "1bfc3f835b0adbf103c8e793bd274aac7290359eac313b1d94644ef759b9e9c7",
+    "input_sha256": "ac813370dca9daf07e4ccd730c51179c32f8b2c2bff6c895479666e61d198a00",
+    "raw_path": "data/raw/market/v4/margin_detail/2018.parquet",
+    "rows": 230511,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2019.parquet": {
+    "sha256": "b6bc02fee0c0f037f085d5360d44d33894ac1a17f8cfe83282ba1feef846ff66",
+    "input_sha256": "5f06f0dc0047f9e2858d963caefdab182f2d89b15d640eecf0a9001325d8fc27",
+    "raw_path": "data/raw/market/v4/margin_detail/2019.parquet",
+    "rows": 295024,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2020.parquet": {
+    "sha256": "7904a942f84875b193a253a17eeda8e913356dfd7e802ea8fd8c8c0f94b12e29",
+    "input_sha256": "2d3775e29d0a25410bbc037b14ecec17969c5b26135698c3b2c6914ade2ae48b",
+    "raw_path": "data/raw/market/v4/margin_detail/2020.parquet",
+    "rows": 424009,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2021.parquet": {
+    "sha256": "c08e1651b9134b6629d1886275e666d279c55b3b784e28a7c51bf594d72e3e68",
+    "input_sha256": "a0a89011cd486ee71faddd5739d1564ca7d33421de45cf3974c3362255507570",
+    "raw_path": "data/raw/market/v4/margin_detail/2021.parquet",
+    "rows": 497279,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2022.parquet": {
+    "sha256": "a44cf94e2ae84e082a7776ebd8e79f426decda051733b9f1e45f6626c790a5e1",
+    "input_sha256": "fc6107da342dae27a58cdc32fce64d07c622df54bc03266479a96f5fffdf86ca",
+    "raw_path": "data/raw/market/v4/margin_detail/2022.parquet",
+    "rows": 603419,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2023.parquet": {
+    "sha256": "4cb45fd0235b547cbdf88b991269ab302d88d7c244ce0967c343cce98cbc370b",
+    "input_sha256": "4735aba162d2c19cc604bb4bca046cb2dd79b33a64319ae370c2c79d6a08f661",
+    "raw_path": "data/raw/market/v4/margin_detail/2023.parquet",
+    "rows": 777333,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2024.parquet": {
+    "sha256": "65cfbceef45f1d178e0ac9d34ef97d78754e76c20e9660d78c3d634dba70d61c",
+    "input_sha256": "1ed242f6656ce9257fe4ce703b0d4da95e33626fd936f6098b668a18e3d04be6",
+    "raw_path": "data/raw/market/v4/margin_detail/2024.parquet",
+    "rows": 810468,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2025.parquet": {
+    "sha256": "748efb828db28de5c6b9df913f2e30cad9a196eb219055c2c611c3176df3bc50",
+    "input_sha256": "511515fd838e776a3be6fcb2568417bd39af31a3d03f8f82f224744d77338cfc",
+    "raw_path": "data/raw/market/v4/margin_detail/2025.parquet",
+    "rows": 834199,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/margin_security/2026.parquet": {
+    "sha256": "1ed755e0dbf93c4b85dc4965a555fe0b883fa61666f4c45a42995eb0b08519de",
+    "input_sha256": "3a601f8bcecf1bea1db6dff77480bdd8abdb600a4e161fdcc8d57cf52b679d09",
+    "raw_path": "data/raw/market/v4/margin_detail/2026.parquet",
+    "rows": 614816,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2014.parquet": {
+    "sha256": "22e68508656d4d5199b0113b993de3147dd42c80a88a08f6810fff2000e4c500",
+    "input_sha256": "d456b6461ea50ae42b395cf847d1fbcf7e43f8a1931cae95fca48df166c3e758",
+    "raw_path": "data/raw/market/v4/moneyflow/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2015.parquet": {
+    "sha256": "dbc30a534a98853b11491e056a88f92a8c40a7b586983155b405322fb3f67139",
+    "input_sha256": "94f8933cb9f872901663a56c074ec8bc2a87bbc5e6ccd626492888362c90a615",
+    "raw_path": "data/raw/market/v4/moneyflow/2015.parquet",
+    "rows": 569714,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2016.parquet": {
+    "sha256": "9a29892054964567a94d46ffa3c2526f7e4ebab8abed8246c99e6db904dd3754",
+    "input_sha256": "886f1fd9d313bfe5c6a6695752f6d864d6c5466eb6ed921569def29d748888bb",
+    "raw_path": "data/raw/market/v4/moneyflow/2016.parquet",
+    "rows": 640777,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2017.parquet": {
+    "sha256": "df756920ede2f81d3c861088d2e18b166aee601c5568790bac43bf7042078ea7",
+    "input_sha256": "b60d445a83108610846e5a57f71ac4132d52f1db5931921470fe5fb6e25e4921",
+    "raw_path": "data/raw/market/v4/moneyflow/2017.parquet",
+    "rows": 741779,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2018.parquet": {
+    "sha256": "5a6c5fcf4409fc6d28103873c40a5dc4154ae2f46376877a7a2e172dff5d1b8f",
+    "input_sha256": "ddeea81cb4bb9ec81edbd0accc772203e3b7158c6ac872e52a0e49c77d57e39a",
+    "raw_path": "data/raw/market/v4/moneyflow/2018.parquet",
+    "rows": 816685,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2019.parquet": {
+    "sha256": "6c15a4ae637fc8111f9b5688cc717b04460ad3d6c3f1b1eea1f34cf04456e0f8",
+    "input_sha256": "ac6a599b399d1cdea1acfac0b6556b04e1a87a235b7c1d4175ea99b4741560cc",
+    "raw_path": "data/raw/market/v4/moneyflow/2019.parquet",
+    "rows": 884816,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2020.parquet": {
+    "sha256": "a981addcfe3c72d13cce887a0ae2fdd66c9bc909ec2f50c7707999f505619b28",
+    "input_sha256": "f24293f5d3ce1bcf8f6e443a50e2ccaf3d3ad11f2221a302cc9480d9b1f8ae34",
+    "raw_path": "data/raw/market/v4/moneyflow/2020.parquet",
+    "rows": 945946,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2021.parquet": {
+    "sha256": "b1fd977c4df2aa99ea4a6b8a301b05aa939310e6019aa5587e5ed244e30e5053",
+    "input_sha256": "ad98dfb1ca71fd4cbc1afbc3330f18459150fa7d410fe99424c3d0fd816d9b5c",
+    "raw_path": "data/raw/market/v4/moneyflow/2021.parquet",
+    "rows": 1058846,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2022.parquet": {
+    "sha256": "eda1bd6a7f8f05b1fb75dc0c8c1f2deafe61bc53488b656e16b6086f298c24fa",
+    "input_sha256": "2a18e8dbcf69fc55cb0e88cfa72d399a478cbe73ec2161cc3104cb5597922257",
+    "raw_path": "data/raw/market/v4/moneyflow/2022.parquet",
+    "rows": 1146266,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2023.parquet": {
+    "sha256": "3c3dc7476a8fbd01a3023dcf0367d7bfb0fcc440533f0ef95e07b3dc6169afda",
+    "input_sha256": "ee0528272c005afed692e90f0d9de3c0e1664981c82599ccc7253d0d350b0216",
+    "raw_path": "data/raw/market/v4/moneyflow/2023.parquet",
+    "rows": 1209461,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2024.parquet": {
+    "sha256": "7ec6ebed1e2d30c687460b12df0fa7db2200bacc0eae7b497094ee8da21a42a1",
+    "input_sha256": "685e15cd634a6d5e565e41ec54dd18718449d633e0ecff83a4da024c8bd15bac",
+    "raw_path": "data/raw/market/v4/moneyflow/2024.parquet",
+    "rows": 1233202,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2025.parquet": {
+    "sha256": "569755ecb004d2d3c7ed8cc61401fe7f36547a01a54e8d8ce199eef2b805b43a",
+    "input_sha256": "8aaf0f0f7dc57d383d58ff3cb650ac27461bbd76c0e3619d23bb1d2ff899c474",
+    "raw_path": "data/raw/market/v4/moneyflow/2025.parquet",
+    "rows": 1248108,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_moneyflow/2026.parquet": {
+    "sha256": "98bb3dbf68b7c0a016ef6cff3371d6ab925e53809f071e86616d42af4e10a47d",
+    "input_sha256": "53d64ff0c30a26769e5fa799a8221b20f90d0a384bc3ef7c62d0c5a283838029",
+    "raw_path": "data/raw/market/v4/moneyflow/2026.parquet",
+    "rows": 913218,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_name_history/all.parquet": {
+    "sha256": "ca4882d8d7029fbc5810799479797985da9cd6ed6676b90a5bb0d44bbac0f858",
+    "input_sha256": "fb91df843fd617031bce9a98158d87c9dfd30f4dac8683b1954b920952fbf88f",
+    "raw_path": "data/raw/market/v4/namechange/all.parquet",
+    "rows": 13851,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2014.parquet": {
+    "sha256": "935628d82221a7259964c4c5523cd36ba65ad3b334637a43332980059063f967",
+    "input_sha256": "053f3a40a534c736af942bffc5c4934052dee40455972603296bc94afcbcfa6b",
+    "raw_path": "data/raw/market/v4/stk_limit/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2015.parquet": {
+    "sha256": "d5ad00bcd8f7d4c28ccda23a5a02091a77c8da91a88f57b7c1ca2e99e6dd57b1",
+    "input_sha256": "eb4ed20b44f2179e178149379723ec84b39bf5efa71906f2a6d92085bc03f40d",
+    "raw_path": "data/raw/market/v4/stk_limit/2015.parquet",
+    "rows": 665312,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2016.parquet": {
+    "sha256": "8948f56776315ee734c277ac491253843e45f17594c78453916d4b53d52b1b73",
+    "input_sha256": "5b09bcb8e18a7fc392e4bf757708625dbc99c43336c75a6407c779fde2112868",
+    "raw_path": "data/raw/market/v4/stk_limit/2016.parquet",
+    "rows": 704154,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2017.parquet": {
+    "sha256": "caa6c1d9c003c13ed326fcabc34369e73f3ab3877b7d7477d8e11aa19046f355",
+    "input_sha256": "7ac0c6cb47aa414cd80f9f3e973f5450b3967d0bb3cedc440f6571fb228e8992",
+    "raw_path": "data/raw/market/v4/stk_limit/2017.parquet",
+    "rows": 798651,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2018.parquet": {
+    "sha256": "5be2f04a414c95a2953fd76414f54f724aba11bde17e852ae37420005f5593c3",
+    "input_sha256": "4548fddf3023a981d3e86a1f1d9c60b3dc55914f82d639d8ec5bad87a9469236",
+    "raw_path": "data/raw/market/v4/stk_limit/2018.parquet",
+    "rows": 856589,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2019.parquet": {
+    "sha256": "0c4497a84900b8f3dd91620beee6fdd736ea43d9a9d69d70dd95bd2483524f8b",
+    "input_sha256": "af3c8d5a35ba228b1441794b68d1cf71e4735026b9a8ab50cc1ac00702e11d34",
+    "raw_path": "data/raw/market/v4/stk_limit/2019.parquet",
+    "rows": 889050,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2020.parquet": {
+    "sha256": "d485941816b6aae5c028648465bd3153ec1d94f1b919302e42105a370bf84023",
+    "input_sha256": "8f9f2b948307eef7d8ae11408178fa705e7607ee167764dcec46d273ba852b9d",
+    "raw_path": "data/raw/market/v4/stk_limit/2020.parquet",
+    "rows": 950043,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2021.parquet": {
+    "sha256": "ed27f2bfa9822f9d5e2be5422d0bae54ba61db7d89e1704937842202e9155034",
+    "input_sha256": "037372b55f100b19d1f65e4b0db0428f83ae04d31980a35be5adf659e7646234",
+    "raw_path": "data/raw/market/v4/stk_limit/2021.parquet",
+    "rows": 1061485,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2022.parquet": {
+    "sha256": "f73484bd0db05522959e5a2e483c439ea5b7e296d500ee9714d75fc318d94fc6",
+    "input_sha256": "41e990d95415d4810c91e1c54b82e2c4d22b5837d4ca0062e8239c23ee3e13f6",
+    "raw_path": "data/raw/market/v4/stk_limit/2022.parquet",
+    "rows": 1149233,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2023.parquet": {
+    "sha256": "327f165a1c7393c2a539e64bd843e4b3d072a639a545ca1d094513bd9b6db895",
+    "input_sha256": "9277d829e682977928fd7f0211c30cb36209346930d50c040cc10f0df0ba3e35",
+    "raw_path": "data/raw/market/v4/stk_limit/2023.parquet",
+    "rows": 1212151,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2024.parquet": {
+    "sha256": "d2ceb725ebc20cd3b8c4d019f9696f3fcf79291c5c92d1202ba567ebd633b045",
+    "input_sha256": "f44e87e4c6a9e110b9903f3a882adf8ecb3fdc72e24fcf73e26ff940c991674f",
+    "raw_path": "data/raw/market/v4/stk_limit/2024.parquet",
+    "rows": 1236522,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2025.parquet": {
+    "sha256": "85f920ddaf71233576f4b5ff89abedbb9e2bc4f7ca435e6bde6c41a95ec05771",
+    "input_sha256": "72f0f252260238cad965ee310c444d3c05e61e2c481984de3eaaaba45ac4d7e2",
+    "raw_path": "data/raw/market/v4/stk_limit/2025.parquet",
+    "rows": 1251464,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/2026.parquet": {
+    "sha256": "b0455b3051631bb9975149bad4b1e15480a4235970816c3e5d79fc4b250bcd87",
+    "input_sha256": "126945bde0d390c3d96261f3fdd8ceb2bdd799cef7bb75b76be11acca8e54415",
+    "raw_path": "data/raw/market/v4/stk_limit/2026.parquet",
+    "rows": 915214,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_limits/api_2014.parquet": {
+    "sha256": "bca4b12c3731c25a6877025508034a76816e5cd0be489d072bb1e1e7a7a74a7f",
+    "input_sha256": "ce2b50b3f35fcce691f5c9c71de9749f8aed9421d0bbddd37dcc315765cd124d",
+    "raw_path": "data/raw/market/v4/stk_limit/api_2014.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 619566
+  },
+  "data/standardized/market/v4/stock_master_snapshot/all.parquet": {
+    "sha256": "0b18e997565158096f1f13e4d179960c2801ef2c515f86c10c6083cc658902f6",
+    "input_sha256": "24d0a28395cb1977f0fb83fd7e854143937c1a66db5426f27c22042a8933fcc9",
+    "raw_path": "data/raw/market/v4/stock_basic/all.parquet",
+    "rows": 5555,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2014.parquet": {
+    "sha256": "9361249997437b636a96c3bc880ec049c196daad12cfa49a1a2dd1e416d111d4",
+    "input_sha256": "b8a9b0b001358f39644a9146f3cf971288845830bb56f79cb73f8326638f8f59",
+    "raw_path": "data/raw/market/v4/suspend_d/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2015.parquet": {
+    "sha256": "937cb0affe6dd2a10509e13dfad84e4869ab759899b339621ee30b93a87d6b96",
+    "input_sha256": "80dbc8bb68e400c1f3c4ada59ef0d6bc4c48c7ca44729025047a4d94b69e216e",
+    "raw_path": "data/raw/market/v4/suspend_d/2015.parquet",
+    "rows": 98769,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2016.parquet": {
+    "sha256": "1c1a66f8d07009aeeab45148077a2189af866a5d5aadad65c8a5d943d8d39a82",
+    "input_sha256": "6755e8f4c947cd3360946f869cfe0d6baee1a88cfc5535b4b165035ba551d278",
+    "raw_path": "data/raw/market/v4/suspend_d/2016.parquet",
+    "rows": 64015,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2017.parquet": {
+    "sha256": "536911ae4cd3d8a7761a7615d75b8e20eefdf8ebd4f5b5d825cba297c9fca8ee",
+    "input_sha256": "6707b9838bc5f50dbf1d1d74290a5d54f29aba591786be37f2a04ff477daeb1a",
+    "raw_path": "data/raw/market/v4/suspend_d/2017.parquet",
+    "rows": 56367,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2018.parquet": {
+    "sha256": "ca387cc54cadbabc60abd55963ea3fe63c431c538134413a5656f8a4dd0d3983",
+    "input_sha256": "4709aee1fe2649493ecf8ffe2eaab1fa037b9a4ea673f1997d0cbd527e393d77",
+    "raw_path": "data/raw/market/v4/suspend_d/2018.parquet",
+    "rows": 40036,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2019.parquet": {
+    "sha256": "2071bceb2d3c15fc4964832166c48fdc3f78f8e3306820c54b812fd57187b1b9",
+    "input_sha256": "a5757685d6ea30cc3ee6e5f5d5e5f5a123db924a81f9661aca7f829003f328ba",
+    "raw_path": "data/raw/market/v4/suspend_d/2019.parquet",
+    "rows": 4195,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2020.parquet": {
+    "sha256": "71f54abe2fb4b1b4c6250ae39ef3cfd29083f79dbe4555bbe99213d698ebb4f4",
+    "input_sha256": "49ee54c9ae6d1445d755c5f69ca3b94f5ab00fe67a445afb0e7a566e1c987c69",
+    "raw_path": "data/raw/market/v4/suspend_d/2020.parquet",
+    "rows": 3810,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2021.parquet": {
+    "sha256": "b6aa8426bd750ae6ef5c2691a2e94164c008670718cba81ab5f00bd816bfd55f",
+    "input_sha256": "2bc4c0b6d6a5116cad6fa9cce54bbb0af7af9d65eb31751bb2c04ed6267698e6",
+    "raw_path": "data/raw/market/v4/suspend_d/2021.parquet",
+    "rows": 2714,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2022.parquet": {
+    "sha256": "041c8a01fe3497e0465a7d1267e51f8a2c0975dfd20520ebcdba5c9b00d00049",
+    "input_sha256": "fa5868765f1bf659a1063726af558cef1df086bba6f20f73bb5208e4df716f38",
+    "raw_path": "data/raw/market/v4/suspend_d/2022.parquet",
+    "rows": 3293,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2023.parquet": {
+    "sha256": "a349fb83e79268b06a8ede71a7ee37f8f81372a461a064bbaac58cdf7ba80493",
+    "input_sha256": "65501b620e1c8375e12f9c6af9841cf6b09588678d386f07f37cc9cb31e07f7d",
+    "raw_path": "data/raw/market/v4/suspend_d/2023.parquet",
+    "rows": 2828,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2024.parquet": {
+    "sha256": "3859e5a7fc0f23fb88accf148a156914d162ae8c89aa679ff1a032b3d35bedc3",
+    "input_sha256": "16b2f5e1665c3e64560e8a0b681a3ee791593fe6850be59a7d8276124666d4ae",
+    "raw_path": "data/raw/market/v4/suspend_d/2024.parquet",
+    "rows": 3434,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2025.parquet": {
+    "sha256": "f16d4e9059acc5184f3547138749296002ff7853538cdcb68c8c1aa4b39672ba",
+    "input_sha256": "75268daae5a08976faf501e11c7379136752b8866650908528e69ae7d9b779d5",
+    "raw_path": "data/raw/market/v4/suspend_d/2025.parquet",
+    "rows": 3921,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/2026.parquet": {
+    "sha256": "f15bef76aa09d634faff46feaf912cd5dd1cbbe20ebd747dccfedd07f1cf8c12",
+    "input_sha256": "f0af32cfc6ccb8c5d7037e521318b8d11361951168a3b650811419a6c339464a",
+    "raw_path": "data/raw/market/v4/suspend_d/2026.parquet",
+    "rows": 2454,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_suspension_events/api_2014.parquet": {
+    "sha256": "dc83c7dab7a36d04de568b56c91a31af5926b2cac21af82f5454496451ce4ed1",
+    "input_sha256": "477524cbfb991bd3745b2398a4fa6bf048696c2dc39d769b90bd548d15d56ca7",
+    "raw_path": "data/raw/market/v4/suspend_d/api_2014.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 51498
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2014.parquet": {
+    "sha256": "7a718d038f90a4b6ebe05cc8cac64ecbe4e37fde6b36ae412c269fd1c1d8b02f",
+    "input_sha256": "a1d8389d4a09897b52dc1477dff472c53e4e281d1466c2bec0a36dc48f53e56c",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2014.parquet",
+    "rows": 0,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2015.parquet": {
+    "sha256": "ca71add1aa33d7d6d3c38e367f07d178d57a0f1faf7f346ddcb823e2f42052c0",
+    "input_sha256": "927f1f809652cff1f8a3039dc156a3a6afd934206626087b55d0e4fc90029d45",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2015.parquet",
+    "rows": 3904,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2016.parquet": {
+    "sha256": "aa69ed4aca4782d492cfd922884a6b5b6c9b902310db4bfcb80c51792c0473d4",
+    "input_sha256": "5bc1b2b439800899985b8d5169476d05e62ebaf1e0b973b50225ea2e4002ec91",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2016.parquet",
+    "rows": 3904,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2017.parquet": {
+    "sha256": "a1597ba735cfd3acbca91b635b353a736fdeff025a44c5d1567be904f48f9784",
+    "input_sha256": "44a6e1f5ba765438c1c93b29103088e01787476913c3832824c900c2e4a35137",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2017.parquet",
+    "rows": 3904,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2018.parquet": {
+    "sha256": "3c39ada696b58c095be2b467dea43281d41e7be80a2aff61610d113e4ba06273",
+    "input_sha256": "da32a40af5962c65dff6f2dfaa6a4dcdba2eb849020e02a04cf098fe7835c1d8",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2018.parquet",
+    "rows": 3402,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2019.parquet": {
+    "sha256": "478d0ec66c0162bdbd4ba9d3f1b92ff0288c2a92ad3900907c2ed3ba8e6ee1a3",
+    "input_sha256": "44d2c23198772aac5a33e665c2d87c827d11f4bc0da60169484f07695e72b482",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2019.parquet",
+    "rows": 3423,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2020.parquet": {
+    "sha256": "24316249dd148361a9381ab48e3c66b1e9655a4b676bf5ca03d877f931bf4591",
+    "input_sha256": "520a0e580fcf8b4c097524ef8f15a09427575e6b28828a0f22b824179ca8f934",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2020.parquet",
+    "rows": 3645,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2021.parquet": {
+    "sha256": "00ab1bcad75fd6f5ae48ef9a849307d43ca0927e996fb9074768bc59ccac159c",
+    "input_sha256": "aa05bc409eeea93af2af5c1927c32cbe72a93866d99dc294339976673b5d2fb6",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2021.parquet",
+    "rows": 3352,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2022.parquet": {
+    "sha256": "b5386ad7e893d39285ee588c646814f81a0ff7c166b431017dcb8d66c7ab4383",
+    "input_sha256": "113347767e9142b1eae7115cf9b63808148cc3768287478abd918618e2a710c2",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2022.parquet",
+    "rows": 3374,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2023.parquet": {
+    "sha256": "e73517179927cbc58a57b991ce540b549bc7d04b8eab2a184edae38ebb52124e",
+    "input_sha256": "f39434111ebd0d07b5ed250c9daf008b75092d072a7a13d3ce1f4c7a84c613dd",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2023.parquet",
+    "rows": 3374,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2024.parquet": {
+    "sha256": "18674b6d5524aa5ebd0ff71925dfe379be3e2073ebc2ffd9b95e2f8eb4e677ec",
+    "input_sha256": "6eb358d3be38646d25a32496e4b0acdcb0c125a27c63b1bd8c87d8c0e08f32e5",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2024.parquet",
+    "rows": 3332,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2025.parquet": {
+    "sha256": "c90652ef774b543ec98d0828b2dde6c0823e89b91465462fafe7cbe02c32a0fc",
+    "input_sha256": "7307fb312d577e441d7dbafeaeb5f594f925c000e8d67bfc826b1898efdbace0",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2025.parquet",
+    "rows": 3376,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/exchange_activity_sz/2026.parquet": {
+    "sha256": "5f5b1e9ff029d6c5f9745ef77b5d854256a2c0924fa08dccf3a9f18c9cf1fbdc",
+    "input_sha256": "4a49c01732fbb30a0bdf4dcfcedc11d69e8f27cecf7fffcf18448a9eb3fcfa64",
+    "raw_path": "data/raw/market/v4/sz_daily_info/2026.parquet",
+    "rows": 2464,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/trade_calendar/all.parquet": {
+    "sha256": "7ff479aea7b745b5c4b17bf2fb07a7ec7fd4ff4aab5251eb0ce0720b7d861b74",
+    "input_sha256": "f6493c3e6f94abb980dae400c65054c66cf7527acb3f72aab4e3b5b067e2b064",
+    "raw_path": "data/raw/market/v4/trade_cal/all.parquet",
+    "rows": 9386,
+    "transform": "external_selected_v1"
+  },
+  "data/standardized/market/v4/stock_adjustment/api_2014.parquet": {
+    "sha256": "4ff3537371ff72fe5b755ea71670b997aba663be600f6a09f3669d20d9674989",
+    "input_sha256": "4a780592a91cd1dc7226557a37e0f17328ff86f696a220e0dc5f2d46ea245ab3",
+    "raw_path": "data/raw/market/v4/adj_factor/api_2014.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 620651
+  },
+  "data/standardized/market/v4/stock_daily/api_2014.parquet": {
+    "sha256": "dd81efcda94a86d8ab6a291e52d35587cf3bf8e53e6e65d1e3116bda6df5e3f6",
+    "input_sha256": "cc4211d7cc7956bd8689d404517961365b577198f91e598ed5b9f6b4234de2bc",
+    "raw_path": "data/raw/market/v4/daily/api_2014.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 570677
+  },
+  "data/standardized/market/v4/stock_daily_basic/api_2014.parquet": {
+    "sha256": "6c2b76a3a518e00cc9a1990e9fa40159bf1dde3ecef9b1d4bbd5dc731de187ac",
+    "input_sha256": "6646ea841d5102d2643673209947194c7991e6a56ae9ec0cf205384c0a3c597b",
+    "raw_path": "data/raw/market/v4/daily_basic/api_2014.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 570677
+  },
+  "data/standardized/market/v4/index_daily/api_2014.parquet": {
+    "sha256": "a0683f958c76d8791193abc91d9633a60c625c75ff25f3a9795f364af9e7b330",
+    "input_sha256": "10fd4f169ddd7e8ec383ce8ac687115e8fcb4ecb4b052e6ef986f77e5cb79a1d",
+    "raw_path": "data/raw/market/v4/index_daily/api_2014.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 1715
+  },
+  "data/standardized/market/v4/index_daily_basic/api_2014.parquet": {
+    "sha256": "464c4d51932fdbb79b02be32f9363675d6ffe8a72dd19190e23a5de3007006c7",
+    "input_sha256": "295f7a02845f8c70e7653bb1196075d9140cae4fd0eb17f0e695f115843702ff",
+    "raw_path": "data/raw/market/v4/index_dailybasic/api_2014.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 1524
+  },
+  "data/standardized/market/v4/stock_moneyflow/api_gap_2014.parquet": {
+    "sha256": "04b68a8c3a828eca7bb9d6dc83dc701433cd02062361c70cea13ab6044c14632",
+    "input_sha256": "858f530ebb26229d8d1c58b536e180758b3fdeb3a428c4599674226406e1fc40",
+    "raw_path": "data/raw/market/v4/moneyflow/api_gap_2014.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 569948
+  },
+  "data/standardized/market/v4/stock_moneyflow/api_gap_2017.parquet": {
+    "sha256": "e4b75d2a533196fbf38b23a95aa76855ac3b1d05bbd147e709a803a71ed28c52",
+    "input_sha256": "71aa0464db7b46ba0f4ad8c4eba125fd643785e3e4c753cad118e756fc62c97c",
+    "raw_path": "data/raw/market/v4/moneyflow/api_gap_2017.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 95
+  },
+  "data/standardized/market/v4/stock_moneyflow/api_gap_2018.parquet": {
+    "sha256": "ce9f53859af22e16008cf68d97ddc674cb42f7e3dd72add3df378b624598aefb",
+    "input_sha256": "0ff2886d629214e356d86108383f468ba4d4925165eb4bd45905529da55212c5",
+    "raw_path": "data/raw/market/v4/moneyflow/api_gap_2018.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 5
+  },
+  "data/standardized/market/v4/stock_moneyflow/api_gap_2019.parquet": {
+    "sha256": "cb11f2c331b6fcbf876896553984afa0962fd4c46ab802e12cef40c54f15a648",
+    "input_sha256": "e8b98013124af5e759e036854b83e83226a25bcc33086b4ec4d85253c1ce1251",
+    "raw_path": "data/raw/market/v4/moneyflow/api_gap_2019.parquet",
+    "transform": "api_a_share_filter_v1",
+    "rows": 28
+  }
+}

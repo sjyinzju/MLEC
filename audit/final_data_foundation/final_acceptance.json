@@ -1,0 +1,100 @@
+{
+  "version": "unified-data-foundation-v4.0.0",
+  "status": "INCOMPLETE — DATA FOUNDATION NOT FULLY ACCEPTED",
+  "gates": [
+    {
+      "gate": "G1",
+      "status": "PASS",
+      "evidence_or_limitation": "双域需求、必需字段、键、频率、覆盖、可得性和例外规则已登记；不以模型表现筛选需求。"
+    },
+    {
+      "gate": "G2",
+      "status": "QUALIFIED",
+      "evidence_or_limitation": "外部全目录与研究依赖已核查；独立历史证券全目录、全部指数有效成分与若干字段定义仍未认证。"
+    },
+    {
+      "gate": "G3",
+      "status": "PASS",
+      "evidence_or_limitation": "七指数交易日与已登记历史证券—交易日逐条核查；全证券池独立穷尽性另列 G4。"
+    },
+    {
+      "gate": "G4",
+      "status": "FAIL",
+      "evidence_or_limitation": "缺行情解释和四组代码变更已修复；仍有复权口径问题及历史证券目录独立认证缺口。"
+    },
+    {
+      "gate": "G5",
+      "status": "FAIL",
+      "evidence_or_limitation": "399001 的 38 次官方调整已重建；完整公告目录、其他指数全历史有效成分和逐日权重仍缺。"
+    },
+    {
+      "gate": "G6",
+      "status": "PASS",
+      "evidence_or_limitation": "全部真实概念及制度范围逐期检查；未认证范围保留候选池，不冒充新观测。"
+    },
+    {
+      "gate": "G7",
+      "status": "FAIL",
+      "evidence_or_limitation": "仍有应有的原始公告/版本、国债预热历史、人民币贸易单月和信用累计数据缺口。"
+    },
+    {
+      "gate": "G8",
+      "status": "QUALIFIED",
+      "evidence_or_limitation": "已发现的错误数值被修复或隔离；若干市场字段仍是条件候选，未获全域正式认证。"
+    },
+    {
+      "gate": "G9",
+      "status": "FAIL",
+      "evidence_or_limitation": "两日中证1000价格冲突及若干复权/股本分母差异仍未完全裁决。"
+    },
+    {
+      "gate": "G10",
+      "status": "QUALIFIED",
+      "evidence_or_limitation": "公告、转载、后期汇编和下载版本分开；下载历史不回填成首次可得版本。"
+    },
+    {
+      "gate": "G11",
+      "status": "QUALIFIED",
+      "evidence_or_limitation": "统一ID、Schema、字段和单位字典已建立；部分来源字段定义仍待认证并明确标记。"
+    },
+    {
+      "gate": "G12",
+      "status": "QUALIFIED",
+      "evidence_or_limitation": "保留599个冻结时点，可按组和质量版本对齐；市场历史报价属于明确声明的重建。"
+    },
+    {
+      "gate": "G13",
+      "status": "QUALIFIED",
+      "evidence_or_limitation": "声明的信息策略通过未来信息、真实截断及扰动测试；不宣称联合严格原始版本PIT。"
+    },
+    {
+      "gate": "G14",
+      "status": "QUALIFIED",
+      "evidence_or_limitation": "来源和转换血缘已登记；离线重建结果见检查20，旧证据部分提取定位仅到文档级。"
+    },
+    {
+      "gate": "G15",
+      "status": "PASS",
+      "evidence_or_limitation": "原标签、状态、阈值、样本、fold、模型和外部数据库哈希保持；替换的旧注册表逐字节归档。"
+    },
+    {
+      "gate": "G16",
+      "status": "QUALIFIED",
+      "evidence_or_limitation": "新数据在data下按层组织；旧版本保留，唯一新权威路径由注册表给出，供应商中间快照不作为第二权威。"
+    },
+    {
+      "gate": "G17",
+      "status": "FAIL",
+      "evidence_or_limitation": "仍有未关闭的强制问题；不能以程序检查通过替代数据问题关闭。"
+    },
+    {
+      "gate": "G18",
+      "status": "PASS",
+      "evidence_or_limitation": "本轮仅采集、清洗、数据特征与认证；未训练模型、运行Benchmark或生成预测。"
+    }
+  ],
+  "technical_checks_passed": 20,
+  "technical_checks_expected": 20,
+  "macro_unaccepted_periods": 3715,
+  "open_or_partial_issues": 3757
+}

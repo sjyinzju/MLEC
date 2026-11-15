@@ -1,0 +1,16 @@
+{
+  "endpoint": "daily_basic",
+  "params": {
+    "start_date": "20140401",
+    "end_date": "20140430",
+    "limit": 5000,
+    "offset": 15000
+  },
+  "request_id": "5ce6fdbb1562c60d1227e5654d918aeafd0d7a12a01da7d74a3ddad03f50dd2e",
+  "source": "https://api.tushare.pro",
+  "retrieved_at": "2026-11-15T00:15:43.026400+08:00",
+  "status": "ok",
+  "rows": 5000,
+  "path": "data/raw/market/provider_supplements/v4/objects/5ce6fdbb1562c60d1227e5654d918aeafd0d7a12a01da7d74a3ddad03f50dd2e.json",
+  "sha256": "a2d2109a6cd75d82dde58a97fcba5e802bb1494b787e14e2e2b11d16ceb2614e"
+}

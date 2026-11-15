@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "康得",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2021-03-04~2021-05-23",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:30.837717+08:00",
+  "request_id": "9fc1c07b46abd2e35400a7db82d1f72e24316a9eec0299f83c86950937710665",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/a693dffa0b6142ab0a5983f57c9d9d9266e83827ed9fbe4a08fa766aff0b721f.html",
+  "sha256": "a693dffa0b6142ab0a5983f57c9d9d9266e83827ed9fbe4a08fa766aff0b721f",
+  "bytes": 21801
+}

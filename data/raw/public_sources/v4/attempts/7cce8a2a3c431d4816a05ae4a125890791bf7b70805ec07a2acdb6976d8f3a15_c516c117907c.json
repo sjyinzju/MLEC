@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "欧浦",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-04-05~2020-06-24",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:48.278168+08:00",
+  "request_id": "7cce8a2a3c431d4816a05ae4a125890791bf7b70805ec07a2acdb6976d8f3a15",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/dfc14446be55fe8490e2344ebacd51b2de21f3890ae588a527b74fdeff9c55f6.html",
+  "sha256": "dfc14446be55fe8490e2344ebacd51b2de21f3890ae588a527b74fdeff9c55f6",
+  "bytes": 21193
+}

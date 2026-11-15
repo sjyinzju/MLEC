@@ -1,0 +1,22 @@
+{
+  "url": "https://q.stock.sohu.com/hisHq",
+  "params": {
+    "code": "zs_000905",
+    "start": "20150327",
+    "end": "20150327",
+    "stat": "1",
+    "order": "D",
+    "period": "d",
+    "rt": "json"
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T01:21:39.580061+08:00",
+  "request_id": "fbc52091bd2a2f07873b18866ed0f7a021ebf95d7c68752eec8a3879b129a613",
+  "http_status": 200,
+  "final_url": "https://q.stock.sohu.com/hisHq?code=zs_000905&start=20150327&end=20150327&stat=1&order=D&period=d&rt=json",
+  "encoding": "GB18030",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/8af6b6b16f45a120830a44792b9a860fe0cf17c0cc694fe8bc33b1f05ae2771a.html",
+  "sha256": "8af6b6b16f45a120830a44792b9a860fe0cf17c0cc694fe8bc33b1f05ae2771a",
+  "bytes": 239
+}

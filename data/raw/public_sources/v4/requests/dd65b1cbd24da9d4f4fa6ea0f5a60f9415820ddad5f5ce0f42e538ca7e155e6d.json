@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "长生",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2019-02-03~2019-04-24",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:45.393677+08:00",
+  "request_id": "dd65b1cbd24da9d4f4fa6ea0f5a60f9415820ddad5f5ce0f42e538ca7e155e6d",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/ecc9e71270ecb916a575cf07ea1cde64fef4363edbc0795e4d206322def3b328.html",
+  "sha256": "ecc9e71270ecb916a575cf07ea1cde64fef4363edbc0795e4d206322def3b328",
+  "bytes": 11812
+}

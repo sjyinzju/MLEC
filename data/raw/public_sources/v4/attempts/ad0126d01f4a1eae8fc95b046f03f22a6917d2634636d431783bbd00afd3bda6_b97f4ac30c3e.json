@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "烯碳",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2018-04-25~2018-07-14",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:03.961569+08:00",
+  "request_id": "ad0126d01f4a1eae8fc95b046f03f22a6917d2634636d431783bbd00afd3bda6",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/d7df56d601d443b230fe2a650be5f971988fa5fe891fc2ba1cf9f9e560361290.html",
+  "sha256": "d7df56d601d443b230fe2a650be5f971988fa5fe891fc2ba1cf9f9e560361290",
+  "bytes": 21219
+}

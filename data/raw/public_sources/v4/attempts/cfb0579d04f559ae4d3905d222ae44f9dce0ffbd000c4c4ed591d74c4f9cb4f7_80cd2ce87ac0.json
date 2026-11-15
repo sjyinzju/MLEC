@@ -1,0 +1,19 @@
+{
+  "url": "https://quotes.sina.cn/cn/api/jsonp.php/var%20_mlec_csi1000=/CN_MarketDataService.getKLineData",
+  "params": {
+    "symbol": "sh000852",
+    "scale": 240,
+    "ma": "no",
+    "datalen": 5000
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T02:24:25.688239+08:00",
+  "request_id": "cfb0579d04f559ae4d3905d222ae44f9dce0ffbd000c4c4ed591d74c4f9cb4f7",
+  "http_status": 200,
+  "final_url": "https://quotes.sina.cn/cn/api/jsonp.php/var%20_mlec_csi1000=/CN_MarketDataService.getKLineData?symbol=sh000852&scale=240&ma=no&datalen=5000",
+  "encoding": "ascii",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/0db5fe9e5b515f1203bcd071ef226bf79f02cfe626f5618f9b12fce0b13e547a.html",
+  "sha256": "0db5fe9e5b515f1203bcd071ef226bf79f02cfe626f5618f9b12fce0b13e547a",
+  "bytes": 74
+}

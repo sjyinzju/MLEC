@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "长航",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2015-12-01~2015-12-19",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T03:38:05.193684+08:00",
+  "request_id": "00e63b71383280270887709f2bfcdf95426501ed4ea2db6771c3cdce2ac6598b",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/8074854a265d51ea132d8dac3a4bd2f6e0deb58ee154f28f65b66b3c861b8a03.html",
+  "sha256": "8074854a265d51ea132d8dac3a4bd2f6e0deb58ee154f28f65b66b3c861b8a03",
+  "bytes": 20729
+}

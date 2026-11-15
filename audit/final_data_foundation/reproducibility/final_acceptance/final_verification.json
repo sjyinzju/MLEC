@@ -1,0 +1,56 @@
+{
+  "completed_at": "2026-11-15T06:21:59.267013+08:00",
+  "acceptance": "INCOMPLETE — DATA FOUNDATION NOT FULLY ACCEPTED",
+  "offline_rebuild": "PASS",
+  "byte_identical_products": 360,
+  "post_validation_product_hashes": "PASS",
+  "validation_execution_checks": 20,
+  "validation_execution_passed": 20,
+  "technical_pass_is_not_data_acceptance": true,
+  "frozen_integrity": {
+    "checked_original_files": 13167,
+    "archived_metadata": [
+      ".gitignore",
+      "data/metadata/data_lineage.parquet",
+      "data/metadata/dataset_registry.json",
+      "data/metadata/schema_registry.json",
+      "docs/data_reproducibility.md",
+      "README.md",
+      "reports/data_quality/final_data_acceptance.md"
+    ],
+    "data_status": "PASS",
+    "protected": "Original labels, samples, thresholds, folds, models and prior source files unchanged. New top-level registry authority replaces three byte-exact archived v3 metadata files."
+  },
+  "external_readonly": {
+    "catalogued_parts": 8540,
+    "hashed_selected_parts": 4161,
+    "database_unchanged": true,
+    "data_status": "PASS"
+  },
+  "validated_source_files": 79,
+  "post_rebuild_source_amendment": "Only validator single-file read path; original rebuild source and failed validation are archived. See post_replay_validation_path_fix.json.",
+  "issues_total": 3821,
+  "issues_by_status": {
+    "OPEN": 3746,
+    "CLOSED_INDEPENDENTLY_VERIFIED": 54,
+    "PARTIALLY_REPAIRED": 11,
+    "CLOSED_SOURCE_VERIFIED": 10
+  },
+  "macro_unaccepted_series_periods": 3715,
+  "report_sha256": {
+    "reports/data_quality/final_market_data_audit.md": "0ba636dd9d65757aec2f1250ffbd7b6e13a072a9c437d8d535559d0dbbe34e48",
+    "reports/data_quality/final_macro_data_audit.md": "cd348f2e6f1f52b1c1eac5a35ef6154b65ed39947a92c6af188ce7127cdd2897",
+    "reports/data_quality/final_cross_domain_validation.md": "85db0fdf3f1de75ff0204237ae4f4ba3a5935df2c20f70d3bee73eea90957949",
+    "reports/data_quality/full_research_data_inventory.md": "3b0cd57518b6a1f0ae4ed43531208f6a1fb245e895c47622cfd2b242288affb7",
+    "reports/data_quality/source_and_vintage_validation.md": "f8b92cb8985244514520b2f124b6ab5951cc25fab0224c4059a220aacbab8eae",
+    "reports/data_quality/final_data_acceptance.md": "1c79d0017e9963c05bf28330b715205da8a0a7e11b5688faa8a3cb27dfcbcf7f",
+    "docs/research_data_contract.md": "fae100f1009677984557d5b93e796fdb7db340f12b70580c21be9e3e454349cc",
+    "docs/research_data_dictionary.md": "ad272de473426db6b0ebcac54b06efca31d3b91cf908ddf3a6a094336ee390cb",
+    "docs/data_architecture.md": "3ada94b1bb87df5f1b1f361f60b50fb4ac48d155e0dac7a728f82a730bff08b7",
+    "docs/data_reproducibility.md": "2c66f4562b5d45438b90c2b3719c0e55fa098f9e65c4e8832969f4f80e6151f4",
+    "docs/remaining_limitations.md": "d71ea97034ddd7b17c6c447a369ccc4b805096610cc9828ef8ab6942235cad64",
+    "README.md": "06d0242cc469e87531ead4e1591ae7cf79c4c6640e616f4fce959353689d7028"
+  },
+  "unfinished_partial_outputs": [],
+  "models_trained_or_predictions_generated": false
+}

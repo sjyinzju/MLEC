@@ -1,0 +1,11 @@
+{
+  "url": "https://tushare.pro/document/2",
+  "params": {
+    "doc_id": 124
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T00:07:12.484079+08:00",
+  "request_id": "6826725408eee651ee5beae3e1cc0ef44e7687de4d82ab257bfd3df55c2b8010",
+  "status": "failed",
+  "error": "ProxyError: HTTPSConnectionPool(host='tushare.pro', port=443): Max retries exceeded with url: /document/2?doc_id=124 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。\")))"
+}

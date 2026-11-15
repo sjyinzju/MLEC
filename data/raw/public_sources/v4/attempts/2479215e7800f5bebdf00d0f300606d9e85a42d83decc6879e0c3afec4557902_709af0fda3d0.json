@@ -1,0 +1,27 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "蓝谷",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2018-09-01~2018-09-28",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T02:02:22.611872+08:00",
+  "request_id": "2479215e7800f5bebdf00d0f300606d9e85a42d83decc6879e0c3afec4557902",
+  "http_status": 500,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query?pageNum=1&pageSize=30&column=sse&tabName=fulltext&stock=&searchkey=%E8%93%9D%E8%B0%B7&secid=&plate=&category=&trade=&seDate=2018-09-01~2018-09-28&sortName=&sortType=&isHLtitle=false",
+  "encoding": "utf-8",
+  "status": "failed",
+  "error": "HTTPError: 500 Server Error: 500 for url: https://www.cninfo.com.cn/new/hisAnnouncement/query?pageNum=1&pageSize=30&column=sse&tabName=fulltext&stock=&searchkey=%E8%93%9D%E8%B0%B7&secid=&plate=&category=&trade=&seDate=2018-09-01~2018-09-28&sortName=&sortType=&isHLtitle=false"
+}

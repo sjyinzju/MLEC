@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "信威",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-04-05~2020-06-24",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:51:40.273671+08:00",
+  "request_id": "b761773de03fa7843b0680131f7de56b6a5a5f601b174481e98f102a668f5e59",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/52554110a11ff9346bb345cf7d3ebc226836f91304bda36ef3233400031989e8.html",
+  "sha256": "52554110a11ff9346bb345cf7d3ebc226836f91304bda36ef3233400031989e8",
+  "bytes": 20854
+}

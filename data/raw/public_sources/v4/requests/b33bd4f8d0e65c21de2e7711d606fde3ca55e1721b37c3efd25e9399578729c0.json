@@ -1,0 +1,9 @@
+{
+  "url": "https://politics.people.com.cn/n/2015/0515/c70731-27007206.html",
+  "params": null,
+  "method": "GET",
+  "retrieved_at": "2026-11-15T01:16:08.605904+08:00",
+  "request_id": "b33bd4f8d0e65c21de2e7711d606fde3ca55e1721b37c3efd25e9399578729c0",
+  "status": "failed",
+  "error": "SSLError: HTTPSConnectionPool(host='politics.people.com.cn', port=443): Max retries exceeded with url: /n/2015/0515/c70731-27007206.html (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'politics.people.com.cn'. (_ssl.c:1006)\")))"
+}

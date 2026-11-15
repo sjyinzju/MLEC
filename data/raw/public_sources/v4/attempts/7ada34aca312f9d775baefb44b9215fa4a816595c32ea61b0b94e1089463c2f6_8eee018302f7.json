@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "北讯",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2021-04-30~2021-07-19",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:23.365956+08:00",
+  "request_id": "7ada34aca312f9d775baefb44b9215fa4a816595c32ea61b0b94e1089463c2f6",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/7a4dcb40b7b957ed7528c301b0ebee532186379c64ff7bf18630c45524bbb307.html",
+  "sha256": "7a4dcb40b7b957ed7528c301b0ebee532186379c64ff7bf18630c45524bbb307",
+  "bytes": 21516
+}

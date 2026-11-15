@@ -1,0 +1,1829 @@
+[
+  {
+    "endpoint": "index_daily",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS指数代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "close",
+    "type": "float",
+    "source_description": "收盘点位",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "open",
+    "type": "float",
+    "source_description": "开盘点位",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "high",
+    "type": "float",
+    "source_description": "最高点位",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "low",
+    "type": "float",
+    "source_description": "最低点位",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "pre_close",
+    "type": "float",
+    "source_description": "昨日收盘点",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "change",
+    "type": "float",
+    "source_description": "涨跌点",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "pct_chg",
+    "type": "float",
+    "source_description": "涨跌幅（%）",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "vol",
+    "type": "float",
+    "source_description": "成交量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_daily",
+    "field": "amount",
+    "type": "float",
+    "source_description": "成交额（千元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=95",
+    "source_path": "data/raw/public_sources/v4/objects/4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600.html",
+    "sha256": "4920a987d6b0d61646f154a999065690a66bb987737a281c9de1eb93ff965600"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "total_mv",
+    "type": "float",
+    "source_description": "当日总市值（元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "float_mv",
+    "type": "float",
+    "source_description": "当日流通市值（元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "total_share",
+    "type": "float",
+    "source_description": "当日总股本（股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "float_share",
+    "type": "float",
+    "source_description": "当日流通股本（股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "free_share",
+    "type": "float",
+    "source_description": "当日自由流通股本（股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "turnover_rate",
+    "type": "float",
+    "source_description": "换手率",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "turnover_rate_f",
+    "type": "float",
+    "source_description": "换手率(基于自由流通股本)",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "pe",
+    "type": "float",
+    "source_description": "市盈率",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "pe_ttm",
+    "type": "float",
+    "source_description": "市盈率TTM（最新价除以最近4个季度的每股收益）",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "index_dailybasic",
+    "field": "pb",
+    "type": "float",
+    "source_description": "市净率",
+    "source_url": "https://tushare.pro/document/2?doc_id=128",
+    "source_path": "data/raw/public_sources/v4/objects/ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede.html",
+    "sha256": "ad84e20827ef5cbfbf2ee419b7be952c8841ed3738fc300fb708e0c7abe37ede"
+  },
+  {
+    "endpoint": "daily",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "股票代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "open",
+    "type": "float",
+    "source_description": "开盘价",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "high",
+    "type": "float",
+    "source_description": "最高价",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "low",
+    "type": "float",
+    "source_description": "最低价",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "close",
+    "type": "float",
+    "source_description": "收盘价",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "pre_close",
+    "type": "float",
+    "source_description": "昨收价【除权价】",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "change",
+    "type": "float",
+    "source_description": "涨跌额",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "pct_chg",
+    "type": "float",
+    "source_description": "涨跌幅（%） 【基于除权后的昨收计算的涨跌幅：（今收-除权昨收）/除权昨收 】",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "vol",
+    "type": "float",
+    "source_description": "成交量 （手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "amount",
+    "type": "float",
+    "source_description": "成交额 （千元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "ah_vol",
+    "type": "float",
+    "source_description": "盘后成交量 （手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily",
+    "field": "ah_amount",
+    "type": "float",
+    "source_description": "盘后成交额 （千元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=27",
+    "source_path": "data/raw/public_sources/v4/objects/76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d.html",
+    "sha256": "76a64eea51e1d3dfa44d6c84676f9c362850a9944af09fe6b0bebdffd1224c0d"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS股票代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "close",
+    "type": "float",
+    "source_description": "当日收盘价",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "turnover_rate",
+    "type": "float",
+    "source_description": "换手率（%） (成交量/无限售流通股数)",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "turnover_rate_f",
+    "type": "float",
+    "source_description": "换手率（%）（自由流通股）(成交量/自由流通股数)",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "volume_ratio",
+    "type": "float",
+    "source_description": "量比 VOL/MA",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "pe",
+    "type": "float",
+    "source_description": "市盈率（总市值/净利润， 亏损的PE为空）",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "pe_ttm",
+    "type": "float",
+    "source_description": "市盈率（ 总市值/净利润TTM，亏损的PE为空）",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "pb",
+    "type": "float",
+    "source_description": "市净率（总市值/(净资产-其他权益工具)）",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "ps",
+    "type": "float",
+    "source_description": "市销率 (总市值/营业收入(最新年报))",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "ps_ttm",
+    "type": "float",
+    "source_description": "市销率（TTM）(总市值/营业收入TTM)",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "dv_ratio",
+    "type": "float",
+    "source_description": "股息率 （%），除息日发生在去年期间的派现",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "dv_ttm",
+    "type": "float",
+    "source_description": "股息率（TTM）（%），除息日在近12个月且分红报告期在12个月以内的派现",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "total_share",
+    "type": "float",
+    "source_description": "总股本 （万股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "float_share",
+    "type": "float",
+    "source_description": "流通股本 （万股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "free_share",
+    "type": "float",
+    "source_description": "自由流通股本 （万股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "total_mv",
+    "type": "float",
+    "source_description": "总市值 （万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "circ_mv",
+    "type": "float",
+    "source_description": "流通市值（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "daily_basic",
+    "field": "limit_status",
+    "type": "int",
+    "source_description": "收盘涨跌状态：0-平盘，1-上涨(不含涨停)，2-涨停(不含一字涨停)，3-一字涨停，4-下跌(不含跌停)，5-跌停(不含一字跌停)，6-一字跌停",
+    "source_url": "https://tushare.pro/document/2?doc_id=32",
+    "source_path": "data/raw/public_sources/v4/objects/954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05.html",
+    "sha256": "954144ce31bc682d1340859c448dfe68680de60dd7c48dd66ff369e63dfecd05"
+  },
+  {
+    "endpoint": "adj_factor",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "股票代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=28",
+    "source_path": "data/raw/public_sources/v4/objects/5f99cbe475b2fde0aef5bf6a20696e5bee60b379c84d5750bfd5e0d7e182aba8.html",
+    "sha256": "5f99cbe475b2fde0aef5bf6a20696e5bee60b379c84d5750bfd5e0d7e182aba8"
+  },
+  {
+    "endpoint": "adj_factor",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=28",
+    "source_path": "data/raw/public_sources/v4/objects/5f99cbe475b2fde0aef5bf6a20696e5bee60b379c84d5750bfd5e0d7e182aba8.html",
+    "sha256": "5f99cbe475b2fde0aef5bf6a20696e5bee60b379c84d5750bfd5e0d7e182aba8"
+  },
+  {
+    "endpoint": "adj_factor",
+    "field": "adj_factor",
+    "type": "float",
+    "source_description": "复权因子",
+    "source_url": "https://tushare.pro/document/2?doc_id=28",
+    "source_path": "data/raw/public_sources/v4/objects/5f99cbe475b2fde0aef5bf6a20696e5bee60b379c84d5750bfd5e0d7e182aba8.html",
+    "sha256": "5f99cbe475b2fde0aef5bf6a20696e5bee60b379c84d5750bfd5e0d7e182aba8"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "symbol",
+    "type": "str",
+    "source_description": "股票代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "name",
+    "type": "str",
+    "source_description": "股票名称",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "area",
+    "type": "str",
+    "source_description": "地域",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "industry",
+    "type": "str",
+    "source_description": "所属行业",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "fullname",
+    "type": "str",
+    "source_description": "股票全称",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "enname",
+    "type": "str",
+    "source_description": "英文全称",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "cnspell",
+    "type": "str",
+    "source_description": "拼音缩写",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "market",
+    "type": "str",
+    "source_description": "市场类型（主板/创业板/科创板/CDR）",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "exchange",
+    "type": "str",
+    "source_description": "交易所代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "curr_type",
+    "type": "str",
+    "source_description": "交易货币",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "list_status",
+    "type": "str",
+    "source_description": "上市状态 L上市 D退市 G过会未交易 P暂停上市 UN未上市",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "list_date",
+    "type": "str",
+    "source_description": "上市日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "delist_date",
+    "type": "str",
+    "source_description": "退市日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "is_hs",
+    "type": "str",
+    "source_description": "是否沪深港通标的，N否 H沪股通 S深股通",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "act_name",
+    "type": "str",
+    "source_description": "实控人名称",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "stock_basic",
+    "field": "act_ent_type",
+    "type": "str",
+    "source_description": "实控人企业性质",
+    "source_url": "https://tushare.pro/document/2?doc_id=25",
+    "source_path": "data/raw/public_sources/v4/objects/141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d.html",
+    "sha256": "141df28d91561ce1035b780410f806a8360199b524c70ba30d697119553df91d"
+  },
+  {
+    "endpoint": "namechange",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=100",
+    "source_path": "data/raw/public_sources/v4/objects/2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6.html",
+    "sha256": "2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6"
+  },
+  {
+    "endpoint": "namechange",
+    "field": "name",
+    "type": "str",
+    "source_description": "证券名称",
+    "source_url": "https://tushare.pro/document/2?doc_id=100",
+    "source_path": "data/raw/public_sources/v4/objects/2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6.html",
+    "sha256": "2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6"
+  },
+  {
+    "endpoint": "namechange",
+    "field": "start_date",
+    "type": "str",
+    "source_description": "开始日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=100",
+    "source_path": "data/raw/public_sources/v4/objects/2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6.html",
+    "sha256": "2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6"
+  },
+  {
+    "endpoint": "namechange",
+    "field": "end_date",
+    "type": "str",
+    "source_description": "结束日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=100",
+    "source_path": "data/raw/public_sources/v4/objects/2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6.html",
+    "sha256": "2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6"
+  },
+  {
+    "endpoint": "namechange",
+    "field": "ann_date",
+    "type": "str",
+    "source_description": "公告日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=100",
+    "source_path": "data/raw/public_sources/v4/objects/2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6.html",
+    "sha256": "2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6"
+  },
+  {
+    "endpoint": "namechange",
+    "field": "change_reason",
+    "type": "str",
+    "source_description": "变更原因",
+    "source_url": "https://tushare.pro/document/2?doc_id=100",
+    "source_path": "data/raw/public_sources/v4/objects/2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6.html",
+    "sha256": "2dfd3cacf906296b05a877237445ea5ce98ad5b7979f20dd52a02f2a6e4437f6"
+  },
+  {
+    "endpoint": "suspend_d",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=214",
+    "source_path": "data/raw/public_sources/v4/objects/e648737d71c9065f0cca36e0b5b3ce3d5d2d22bca5e2a1cdcca761bdfc90899e.html",
+    "sha256": "e648737d71c9065f0cca36e0b5b3ce3d5d2d22bca5e2a1cdcca761bdfc90899e"
+  },
+  {
+    "endpoint": "suspend_d",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "停复牌日期（覆盖从停牌到覆盖期间的连续日期）",
+    "source_url": "https://tushare.pro/document/2?doc_id=214",
+    "source_path": "data/raw/public_sources/v4/objects/e648737d71c9065f0cca36e0b5b3ce3d5d2d22bca5e2a1cdcca761bdfc90899e.html",
+    "sha256": "e648737d71c9065f0cca36e0b5b3ce3d5d2d22bca5e2a1cdcca761bdfc90899e"
+  },
+  {
+    "endpoint": "suspend_d",
+    "field": "suspend_timing",
+    "type": "str",
+    "source_description": "日内停牌时间段（日内停牌才有值，否则为空值）",
+    "source_url": "https://tushare.pro/document/2?doc_id=214",
+    "source_path": "data/raw/public_sources/v4/objects/e648737d71c9065f0cca36e0b5b3ce3d5d2d22bca5e2a1cdcca761bdfc90899e.html",
+    "sha256": "e648737d71c9065f0cca36e0b5b3ce3d5d2d22bca5e2a1cdcca761bdfc90899e"
+  },
+  {
+    "endpoint": "suspend_d",
+    "field": "suspend_type",
+    "type": "str",
+    "source_description": "停复牌类型：S-停牌，R-复牌",
+    "source_url": "https://tushare.pro/document/2?doc_id=214",
+    "source_path": "data/raw/public_sources/v4/objects/e648737d71c9065f0cca36e0b5b3ce3d5d2d22bca5e2a1cdcca761bdfc90899e.html",
+    "sha256": "e648737d71c9065f0cca36e0b5b3ce3d5d2d22bca5e2a1cdcca761bdfc90899e"
+  },
+  {
+    "endpoint": "trade_cal",
+    "field": "exchange",
+    "type": "str",
+    "source_description": "交易所 SSE上交所 SZSE深交所",
+    "source_url": "https://tushare.pro/document/2?doc_id=26",
+    "source_path": "data/raw/public_sources/v4/objects/89822283321967924919375475ed708875ed205ae26e62763ebe0efbfb2381bf.html",
+    "sha256": "89822283321967924919375475ed708875ed205ae26e62763ebe0efbfb2381bf"
+  },
+  {
+    "endpoint": "trade_cal",
+    "field": "cal_date",
+    "type": "str",
+    "source_description": "日历日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=26",
+    "source_path": "data/raw/public_sources/v4/objects/89822283321967924919375475ed708875ed205ae26e62763ebe0efbfb2381bf.html",
+    "sha256": "89822283321967924919375475ed708875ed205ae26e62763ebe0efbfb2381bf"
+  },
+  {
+    "endpoint": "trade_cal",
+    "field": "is_open",
+    "type": "str",
+    "source_description": "是否交易 0休市 1交易",
+    "source_url": "https://tushare.pro/document/2?doc_id=26",
+    "source_path": "data/raw/public_sources/v4/objects/89822283321967924919375475ed708875ed205ae26e62763ebe0efbfb2381bf.html",
+    "sha256": "89822283321967924919375475ed708875ed205ae26e62763ebe0efbfb2381bf"
+  },
+  {
+    "endpoint": "trade_cal",
+    "field": "pretrade_date",
+    "type": "str",
+    "source_description": "上一个交易日",
+    "source_url": "https://tushare.pro/document/2?doc_id=26",
+    "source_path": "data/raw/public_sources/v4/objects/89822283321967924919375475ed708875ed205ae26e62763ebe0efbfb2381bf.html",
+    "sha256": "89822283321967924919375475ed708875ed205ae26e62763ebe0efbfb2381bf"
+  },
+  {
+    "endpoint": "index_weight",
+    "field": "index_code",
+    "type": "str",
+    "source_description": "指数代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=96",
+    "source_path": "data/raw/public_sources/v4/objects/89d750208ce47b5e36ea7b7736306dd6469f0dd052ae779c9a157a54b49e4ddd.html",
+    "sha256": "89d750208ce47b5e36ea7b7736306dd6469f0dd052ae779c9a157a54b49e4ddd"
+  },
+  {
+    "endpoint": "index_weight",
+    "field": "con_code",
+    "type": "str",
+    "source_description": "成分代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=96",
+    "source_path": "data/raw/public_sources/v4/objects/89d750208ce47b5e36ea7b7736306dd6469f0dd052ae779c9a157a54b49e4ddd.html",
+    "sha256": "89d750208ce47b5e36ea7b7736306dd6469f0dd052ae779c9a157a54b49e4ddd"
+  },
+  {
+    "endpoint": "index_weight",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=96",
+    "source_path": "data/raw/public_sources/v4/objects/89d750208ce47b5e36ea7b7736306dd6469f0dd052ae779c9a157a54b49e4ddd.html",
+    "sha256": "89d750208ce47b5e36ea7b7736306dd6469f0dd052ae779c9a157a54b49e4ddd"
+  },
+  {
+    "endpoint": "index_weight",
+    "field": "weight",
+    "type": "float",
+    "source_description": "权重",
+    "source_url": "https://tushare.pro/document/2?doc_id=96",
+    "source_path": "data/raw/public_sources/v4/objects/89d750208ce47b5e36ea7b7736306dd6469f0dd052ae779c9a157a54b49e4ddd.html",
+    "sha256": "89d750208ce47b5e36ea7b7736306dd6469f0dd052ae779c9a157a54b49e4ddd"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "name",
+    "type": "str",
+    "source_description": "简称",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "fullname",
+    "type": "str",
+    "source_description": "指数全称",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "market",
+    "type": "str",
+    "source_description": "市场",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "publisher",
+    "type": "str",
+    "source_description": "发布方",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "index_type",
+    "type": "str",
+    "source_description": "指数风格",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "category",
+    "type": "str",
+    "source_description": "指数类别",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "base_date",
+    "type": "str",
+    "source_description": "基期",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "base_point",
+    "type": "float",
+    "source_description": "基点",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "list_date",
+    "type": "str",
+    "source_description": "发布日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "weight_rule",
+    "type": "str",
+    "source_description": "加权方式",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "desc",
+    "type": "str",
+    "source_description": "描述",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "index_basic",
+    "field": "exp_date",
+    "type": "str",
+    "source_description": "终止日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=94",
+    "source_path": "data/raw/public_sources/v4/objects/22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16.html",
+    "sha256": "22e570791e15c5e29adf4eccc0630c1405899c8cdb93eab3bebbd75e9cb6cb16"
+  },
+  {
+    "endpoint": "stk_limit",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=183",
+    "source_path": "data/raw/public_sources/v4/objects/134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6.html",
+    "sha256": "134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6"
+  },
+  {
+    "endpoint": "stk_limit",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS股票代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=183",
+    "source_path": "data/raw/public_sources/v4/objects/134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6.html",
+    "sha256": "134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6"
+  },
+  {
+    "endpoint": "stk_limit",
+    "field": "pre_close",
+    "type": "float",
+    "source_description": "昨日收盘价",
+    "source_url": "https://tushare.pro/document/2?doc_id=183",
+    "source_path": "data/raw/public_sources/v4/objects/134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6.html",
+    "sha256": "134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6"
+  },
+  {
+    "endpoint": "stk_limit",
+    "field": "up_limit",
+    "type": "float",
+    "source_description": "涨停价",
+    "source_url": "https://tushare.pro/document/2?doc_id=183",
+    "source_path": "data/raw/public_sources/v4/objects/134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6.html",
+    "sha256": "134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6"
+  },
+  {
+    "endpoint": "stk_limit",
+    "field": "down_limit",
+    "type": "float",
+    "source_description": "跌停价",
+    "source_url": "https://tushare.pro/document/2?doc_id=183",
+    "source_path": "data/raw/public_sources/v4/objects/134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6.html",
+    "sha256": "134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6"
+  },
+  {
+    "endpoint": "stk_limit",
+    "field": "asset_type",
+    "type": "str",
+    "source_description": "类型 STK",
+    "source_url": "https://tushare.pro/document/2?doc_id=183",
+    "source_path": "data/raw/public_sources/v4/objects/134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6.html",
+    "sha256": "134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6"
+  },
+  {
+    "endpoint": "stk_limit",
+    "field": "exchange",
+    "type": "str",
+    "source_description": "交易所：SSE/SZSE/BSE",
+    "source_url": "https://tushare.pro/document/2?doc_id=183",
+    "source_path": "data/raw/public_sources/v4/objects/134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6.html",
+    "sha256": "134fc2345846f46efd60f01af7ca75c5d4fda39e63c08cdbb34f1f0766f0aea6"
+  },
+  {
+    "endpoint": "margin",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin",
+    "field": "exchange_id",
+    "type": "str",
+    "source_description": "交易所代码（SSE上交所SZSE深交所BSE北交所）",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin",
+    "field": "rzye",
+    "type": "float",
+    "source_description": "融资余额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin",
+    "field": "rzmre",
+    "type": "float",
+    "source_description": "融资买入额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin",
+    "field": "rzche",
+    "type": "float",
+    "source_description": "融资偿还额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin",
+    "field": "rqye",
+    "type": "float",
+    "source_description": "融券余额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin",
+    "field": "rqmcl",
+    "type": "float",
+    "source_description": "融券卖出量(股,份,手)",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin",
+    "field": "rzrqye",
+    "type": "float",
+    "source_description": "融资融券余额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin",
+    "field": "rqyl",
+    "type": "float",
+    "source_description": "融券余量(股,份,手)",
+    "source_url": "https://tushare.pro/document/2?doc_id=58",
+    "source_path": "data/raw/public_sources/v4/objects/fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91.html",
+    "sha256": "fff707e19a6ea74a8aaa979792526ec9be4faf86d4e54b1dd72df597a346bd91"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS股票代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "name",
+    "type": "str",
+    "source_description": "股票名称 （20190910后有数据）",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "rzye",
+    "type": "float",
+    "source_description": "融资余额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "rqye",
+    "type": "float",
+    "source_description": "融券余额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "rzmre",
+    "type": "float",
+    "source_description": "融资买入额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "rqyl",
+    "type": "float",
+    "source_description": "融券余量（股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "rzche",
+    "type": "float",
+    "source_description": "融资偿还额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "rqchl",
+    "type": "float",
+    "source_description": "融券偿还量(股)",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "rqmcl",
+    "type": "float",
+    "source_description": "融券卖出量(股,份,手)",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "margin_detail",
+    "field": "rzrqye",
+    "type": "float",
+    "source_description": "融资融券余额(元)",
+    "source_url": "https://tushare.pro/document/2?doc_id=59",
+    "source_path": "data/raw/public_sources/v4/objects/15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0.html",
+    "sha256": "15530f5e153d73fa4ba10f8af3be4e18dd0021bc2ee33dee53aee10ed5b530c0"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "buy_sm_vol",
+    "type": "int",
+    "source_description": "小单买入量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "buy_sm_amount",
+    "type": "float",
+    "source_description": "小单买入金额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "sell_sm_vol",
+    "type": "int",
+    "source_description": "小单卖出量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "sell_sm_amount",
+    "type": "float",
+    "source_description": "小单卖出金额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "buy_md_vol",
+    "type": "int",
+    "source_description": "中单买入量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "buy_md_amount",
+    "type": "float",
+    "source_description": "中单买入金额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "sell_md_vol",
+    "type": "int",
+    "source_description": "中单卖出量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "sell_md_amount",
+    "type": "float",
+    "source_description": "中单卖出金额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "buy_lg_vol",
+    "type": "int",
+    "source_description": "大单买入量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "buy_lg_amount",
+    "type": "float",
+    "source_description": "大单买入金额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "sell_lg_vol",
+    "type": "int",
+    "source_description": "大单卖出量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "sell_lg_amount",
+    "type": "float",
+    "source_description": "大单卖出金额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "buy_elg_vol",
+    "type": "int",
+    "source_description": "特大单买入量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "buy_elg_amount",
+    "type": "float",
+    "source_description": "特大单买入金额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "sell_elg_vol",
+    "type": "int",
+    "source_description": "特大单卖出量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "sell_elg_amount",
+    "type": "float",
+    "source_description": "特大单卖出金额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "net_mf_vol",
+    "type": "int",
+    "source_description": "净流入量（手）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "moneyflow",
+    "field": "net_mf_amount",
+    "type": "float",
+    "source_description": "净流入额（万元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=170",
+    "source_path": "data/raw/public_sources/v4/objects/3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad.html",
+    "sha256": "3434a8df721592e730ffb929e91379a0c0b835156fa9ba4c2c364adce8d9b5ad"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "市场代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "ts_name",
+    "type": "str",
+    "source_description": "市场名称",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "com_count",
+    "type": "int",
+    "source_description": "挂牌数",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "total_share",
+    "type": "float",
+    "source_description": "总股本（亿股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "float_share",
+    "type": "float",
+    "source_description": "流通股本（亿股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "total_mv",
+    "type": "float",
+    "source_description": "总市值（亿元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "float_mv",
+    "type": "float",
+    "source_description": "流通市值（亿元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "amount",
+    "type": "float",
+    "source_description": "交易金额（亿元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "vol",
+    "type": "float",
+    "source_description": "成交量（亿股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "trans_count",
+    "type": "int",
+    "source_description": "成交笔数（万笔）",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "pe",
+    "type": "float",
+    "source_description": "平均市盈率",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "tr",
+    "type": "float",
+    "source_description": "换手率（％），注：深交所暂无此列",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "daily_info",
+    "field": "exchange",
+    "type": "str",
+    "source_description": "交易所（SH上交所 SZ深交所）",
+    "source_url": "https://tushare.pro/document/2?doc_id=215",
+    "source_path": "data/raw/public_sources/v4/objects/4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab.html",
+    "sha256": "4aae9742100ae5163a3cab1852d998169f7c24b5df759036dea040fd3d7d4eab"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "市场类型",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "count",
+    "type": "int",
+    "source_description": "股票个数",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "amount",
+    "type": "float",
+    "source_description": "成交金额",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "vol",
+    "type": "int",
+    "source_description": "成交量",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "total_share",
+    "type": "float",
+    "source_description": "总股本",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "total_mv",
+    "type": "float",
+    "source_description": "总市值",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "float_share",
+    "type": "float",
+    "source_description": "流通股票",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "sz_daily_info",
+    "field": "float_mv",
+    "type": "float",
+    "source_description": "流通市值",
+    "source_url": "https://tushare.pro/document/2?doc_id=268",
+    "source_path": "data/raw/public_sources/v4/objects/0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1.html",
+    "sha256": "0e92a2fe2ed96c59e0f640baf76ee327e4d51c9df689d81ef7df18ff05d0bee1"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "trade_date",
+    "type": "str",
+    "source_description": "交易日期",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "股票代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "name",
+    "type": "str",
+    "source_description": "股票名称",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "close",
+    "type": "float",
+    "source_description": "收盘价",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "change",
+    "type": "float",
+    "source_description": "涨跌额",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "rank",
+    "type": "int",
+    "source_description": "资金排名",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "market_type",
+    "type": "str",
+    "source_description": "市场类型（1：沪市 3：深市）",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "amount",
+    "type": "float",
+    "source_description": "成交金额（元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "net_amount",
+    "type": "float",
+    "source_description": "净成交金额（元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "buy",
+    "type": "float",
+    "source_description": "买入金额（元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "hsgt_top10",
+    "field": "sell",
+    "type": "float",
+    "source_description": "卖出金额（元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=48",
+    "source_path": "data/raw/public_sources/v4/objects/c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981.html",
+    "sha256": "c93985b0212a3698617dd07d3d0cfd11ebf6696b820d51afa0d096c55e8b4981"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "ts_code",
+    "type": "str",
+    "source_description": "TS代码",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "end_date",
+    "type": "str",
+    "source_description": "分红年度",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "ann_date",
+    "type": "str",
+    "source_description": "公告日(预案，决案)",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "div_proc",
+    "type": "str",
+    "source_description": "实施进度",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "stk_div",
+    "type": "float",
+    "source_description": "每股送转",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "stk_bo_rate",
+    "type": "float",
+    "source_description": "每股送股比例（股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "stk_co_rate",
+    "type": "float",
+    "source_description": "每股转增比例（股）",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "cash_div",
+    "type": "float",
+    "source_description": "每股分红（税后）（元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "cash_div_tax",
+    "type": "float",
+    "source_description": "每股分红（税前）（元）",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "record_date",
+    "type": "str",
+    "source_description": "股权登记日",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "ex_date",
+    "type": "str",
+    "source_description": "除权除息日",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "pay_date",
+    "type": "str",
+    "source_description": "派息日",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "div_listdate",
+    "type": "str",
+    "source_description": "红股上市日",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "imp_ann_date",
+    "type": "str",
+    "source_description": "实施公告日",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "base_date",
+    "type": "str",
+    "source_description": "基准日",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  },
+  {
+    "endpoint": "dividend",
+    "field": "base_share",
+    "type": "float",
+    "source_description": "基准股本（万）",
+    "source_url": "https://tushare.pro/document/2?doc_id=103",
+    "source_path": "data/raw/public_sources/v4/objects/f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5.html",
+    "sha256": "f072bc01c5b3988550d9bbf8bf0e7919ae17c294f6c751aa3ba0638347b65be5"
+  }
+]

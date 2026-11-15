@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 9,
+    "pageSize": 30,
+    "column": "",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "上市公告书",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-01-01~2014-02-20",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T03:41:24.317455+08:00",
+  "request_id": "59eea4ded73b6bd021477a45a484242c41dcb3d7998183ea7d1d329eff3aaccc",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/df93d27a29c5ae013df694dd9b3e4cebde8ef690585e3f14f3d25bde9a1b6db6.html",
+  "sha256": "df93d27a29c5ae013df694dd9b3e4cebde8ef690585e3f14f3d25bde9a1b6db6",
+  "bytes": 12820
+}

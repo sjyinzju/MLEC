@@ -1,0 +1,27 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "金浦",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2015-03-01~2015-03-27",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T02:02:26.605782+08:00",
+  "request_id": "73f4e9e10897ba44e7bf5f12c13b9b9ef97ea913a4509138eb0a3560f6d8adc6",
+  "http_status": 500,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query?pageNum=1&pageSize=30&column=szse&tabName=fulltext&stock=&searchkey=%E9%87%91%E6%B5%A6&secid=&plate=&category=&trade=&seDate=2015-03-01~2015-03-27&sortName=&sortType=&isHLtitle=false",
+  "encoding": "utf-8",
+  "status": "failed",
+  "error": "HTTPError: 500 Server Error: 500 for url: https://www.cninfo.com.cn/new/hisAnnouncement/query?pageNum=1&pageSize=30&column=szse&tabName=fulltext&stock=&searchkey=%E9%87%91%E6%B5%A6&secid=&plate=&category=&trade=&seDate=2015-03-01~2015-03-27&sortName=&sortType=&isHLtitle=false"
+}

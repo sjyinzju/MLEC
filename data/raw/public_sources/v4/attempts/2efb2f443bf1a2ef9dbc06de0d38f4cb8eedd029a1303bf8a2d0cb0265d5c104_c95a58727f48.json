@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "常林",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2016-03-11~2016-05-30",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:58:01.542881+08:00",
+  "request_id": "2efb2f443bf1a2ef9dbc06de0d38f4cb8eedd029a1303bf8a2d0cb0265d5c104",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/4a37dd9f95c32620a7bd52d536972f1f0bdc7027ca60994c76bb82815dda2e4e.html",
+  "sha256": "4a37dd9f95c32620a7bd52d536972f1f0bdc7027ca60994c76bb82815dda2e4e",
+  "bytes": 20357
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://np-anotice-stock.eastmoney.com/api/security/ann",
+  "params": {
+    "sr": -1,
+    "page_size": 50,
+    "page_index": 1,
+    "ann_type": "A",
+    "client_source": "web",
+    "stock_list": "000693",
+    "f_node": 0,
+    "s_node": 0,
+    "begin_time": "2013-11-23",
+    "end_time": "2014-02-11"
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T00:28:53.179277+08:00",
+  "request_id": "52a35228aa9dd79a33663eb0aec28792f057df94fc945550ed9df6ec67d91313",
+  "http_status": 200,
+  "final_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=000693&f_node=0&s_node=0&begin_time=2013-11-23&end_time=2014-02-11",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/a5dc6f10b49af94284a35b5d27a660019dafa10faa3f8741fd21fef0c714d5e0.html",
+  "sha256": "a5dc6f10b49af94284a35b5d27a660019dafa10faa3f8741fd21fef0c714d5e0",
+  "bytes": 14245
+}

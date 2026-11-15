@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "凤凰",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2014-04-06~2014-06-25",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:05.358858+08:00",
+  "request_id": "7323a00c9661700ec5ef0dd738d504007c5b9c915b112a3b50623e31ad3282c6",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/a57c79f30f3ae6affcbefff89e7cbd81f75e6e7e9c277de5623feb93d98359e6.html",
+  "sha256": "a57c79f30f3ae6affcbefff89e7cbd81f75e6e7e9c277de5623feb93d98359e6",
+  "bytes": 20127
+}

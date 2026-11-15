@@ -1,0 +1,23 @@
+{
+  "url": "https://q.stock.sohu.com/hisHq",
+  "params": {
+    "code": "cn_300683",
+    "start": "20190419",
+    "end": "20190419",
+    "stat": "1",
+    "order": "D",
+    "period": "d",
+    "callback": "historySearchHandler",
+    "rt": "json"
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T01:13:12.897774+08:00",
+  "request_id": "d2ef1421c5d4e4df572df8313cf2d4d3ec1c5f00dd3f4204190328de13364a4d",
+  "http_status": 200,
+  "final_url": "https://q.stock.sohu.com/hisHq?code=cn_300683&start=20190419&end=20190419&stat=1&order=D&period=d&callback=historySearchHandler&rt=json",
+  "encoding": "GB18030",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/7c13c3dbbe72884256954156af63198629b8d7ea6b3a83479a1d463a05f16ad3.html",
+  "sha256": "7c13c3dbbe72884256954156af63198629b8d7ea6b3a83479a1d463a05f16ad3",
+  "bytes": 217
+}

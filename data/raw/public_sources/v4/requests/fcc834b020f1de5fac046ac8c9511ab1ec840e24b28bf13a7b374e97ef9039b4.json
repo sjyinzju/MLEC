@@ -1,0 +1,25 @@
+{
+  "url": "https://np-anotice-stock.eastmoney.com/api/security/ann",
+  "params": {
+    "sr": -1,
+    "page_size": 50,
+    "page_index": 1,
+    "ann_type": "A",
+    "client_source": "web",
+    "stock_list": "300431",
+    "f_node": 0,
+    "s_node": 0,
+    "begin_time": "2020-08-09",
+    "end_time": "2020-10-28"
+  },
+  "method": "GET",
+  "retrieved_at": "2026-11-15T00:29:09.395803+08:00",
+  "request_id": "fcc834b020f1de5fac046ac8c9511ab1ec840e24b28bf13a7b374e97ef9039b4",
+  "http_status": 200,
+  "final_url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=300431&f_node=0&s_node=0&begin_time=2020-08-09&end_time=2020-10-28",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/01a8247ef0a7c0126382de544371edd37ad147e19ba229a80bf25204f58f51cc.html",
+  "sha256": "01a8247ef0a7c0126382de544371edd37ad147e19ba229a80bf25204f58f51cc",
+  "bytes": 8743
+}

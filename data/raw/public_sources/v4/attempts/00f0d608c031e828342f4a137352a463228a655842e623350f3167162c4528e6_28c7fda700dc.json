@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "航通",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2021-02-05~2021-04-26",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:57:24.819424+08:00",
+  "request_id": "00f0d608c031e828342f4a137352a463228a655842e623350f3167162c4528e6",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/6d25947db61d5d8ce2dd295dfe415de97b3865193023af6c0b9b12c1d0f0fdc6.html",
+  "sha256": "6d25947db61d5d8ce2dd295dfe415de97b3865193023af6c0b9b12c1d0f0fdc6",
+  "bytes": 22770
+}

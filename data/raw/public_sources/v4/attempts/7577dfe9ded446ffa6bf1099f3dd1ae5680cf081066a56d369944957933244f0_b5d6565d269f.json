@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "盐湖",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2020-04-12~2020-07-01",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:41.828483+08:00",
+  "request_id": "7577dfe9ded446ffa6bf1099f3dd1ae5680cf081066a56d369944957933244f0",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/ecf5142fb9fb8bff7f9dda4a8b83a33a4e8dd1680e2dde08745d6da4307f6eb1.html",
+  "sha256": "ecf5142fb9fb8bff7f9dda4a8b83a33a4e8dd1680e2dde08745d6da4307f6eb1",
+  "bytes": 20721
+}

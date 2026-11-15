@@ -1,0 +1,298 @@
+[
+  {
+    "ts_code": "603188.SH",
+    "trade_date": "20201023",
+    "price_close": 5.34,
+    "basic_close": 5.36,
+    "pre_close": 5.35,
+    "pct_chg": -0.1869,
+    "price_record_id": "daily:a82cb32e8598155fce5a6b7c41101bce165e1c7c9b408d8e790c919fce59c9a7",
+    "basic_record_id": "daily_basic:8e59ee970e7275c0373af0ca100d0b9b39f6ad364caaada1449aa8afc8cbe8b8",
+    "second_source": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "params": {
+        "secid": "1.603188",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": 101,
+        "fqt": 0,
+        "beg": "20201023",
+        "end": "20201023"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T00:54:27.769599+08:00",
+      "request_id": "ac699ca7b3a2ac855a0dddeb62dcfb6903243312518b542fade66dcde26d8fb2",
+      "http_status": 200,
+      "final_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.603188&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20201023&end=20201023",
+      "encoding": "utf-8",
+      "status": "ok",
+      "path": "data/raw/public_sources/v4/objects/287d17ffde005cd0f5e0e6935d14188ab62e7bc48a48295b5c81d05d30310b56.html",
+      "sha256": "287d17ffde005cd0f5e0e6935d14188ab62e7bc48a48295b5c81d05d30310b56",
+      "bytes": 254
+    },
+    "unadjusted_rows": [
+      "2020-10-23,5.38,5.34,5.39,5.34,4569,2447472.00,0.93,-0.19,-0.01,0.08"
+    ]
+  },
+  {
+    "ts_code": "603081.SH",
+    "trade_date": "20231107",
+    "price_close": 11.6,
+    "basic_close": 11.51,
+    "pre_close": 11.51,
+    "pct_chg": 0.7819,
+    "price_record_id": "daily:5a942821a0c3a261cf019a4c31c39558a10b418dc4fbfd8afd0c5d86a75f6714",
+    "basic_record_id": "daily_basic:6bfa9b34334bd5705475fc3e8e35edda528cb5d6cf69e207bfceb32c44b64f3c",
+    "second_source": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "params": {
+        "secid": "1.603081",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": 101,
+        "fqt": 0,
+        "beg": "20231107",
+        "end": "20231107"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T00:55:40.165043+08:00",
+      "request_id": "fe7948193df8c8684524f015088074269af1831b743b5372a3c78ee6e977cf0e",
+      "http_status": 200,
+      "final_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.603081&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20231107&end=20231107",
+      "encoding": "utf-8",
+      "status": "ok",
+      "path": "data/raw/public_sources/v4/objects/6d410b8c9a4ef509353aa6a3b562040bf50abd9e07fd1ac7e9b18a5ba0aadc8a.html",
+      "sha256": "6d410b8c9a4ef509353aa6a3b562040bf50abd9e07fd1ac7e9b18a5ba0aadc8a",
+      "bytes": 259
+    },
+    "unadjusted_rows": [
+      "2023-11-07,11.51,11.60,11.77,11.28,39706,45579863.00,4.26,0.78,0.09,0.98"
+    ]
+  },
+  {
+    "ts_code": "603005.SH",
+    "trade_date": "20200318",
+    "price_close": 86.8,
+    "basic_close": 86.86,
+    "pre_close": 91.89,
+    "pct_chg": -5.5392,
+    "price_record_id": "daily:8b8636a7485afe65b9eafec596638dd8d9812619c2bd6e5156f1484f1f66d075",
+    "basic_record_id": "daily_basic:d6ecb422d722ea63d5d7bda9889ed93a5091e982450802d43a4388713546f1b7",
+    "second_source": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "params": {
+        "secid": "1.603005",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": 101,
+        "fqt": 0,
+        "beg": "20200318",
+        "end": "20200318"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T00:55:40.707554+08:00",
+      "request_id": "7c387b8a0307ed4ba02e9dd8117dbbe5a0aa8eaa14e863d0ec9c2034226be553",
+      "http_status": 200,
+      "final_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.603005&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20200318&end=20200318",
+      "encoding": "utf-8",
+      "status": "ok",
+      "path": "data/raw/public_sources/v4/objects/9eea72aeb72fa5970e820c5632f9aa09c95a58bfe0c514d6082da046227b8d95.html",
+      "sha256": "9eea72aeb72fa5970e820c5632f9aa09c95a58bfe0c514d6082da046227b8d95",
+      "bytes": 264
+    },
+    "unadjusted_rows": [
+      "2020-03-18,93.00,86.80,94.88,85.91,183077,1663090432.00,9.76,-5.54,-5.09,7.97"
+    ]
+  },
+  {
+    "ts_code": "300683.SZ",
+    "trade_date": "20190419",
+    "price_close": 36.49,
+    "basic_close": 36.38,
+    "pre_close": 36.38,
+    "pct_chg": 0.3024,
+    "price_record_id": "daily:2a125b812b150b8a8210df416cea99e6fa5ab3060bf4ba53fa08a3d544effb76",
+    "basic_record_id": "daily_basic:0281616f1c1992ec24d046f03892aef636b3a7320f2ee018171ed61cf11912bc",
+    "second_source": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "params": {
+        "secid": "0.300683",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": 101,
+        "fqt": 0,
+        "beg": "20190419",
+        "end": "20190419"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T01:12:49.198878+08:00",
+      "request_id": "5e53d6183b14dfacf8964ed2697032e06977ef97d37cddd5c6dbbfa29609cdcf",
+      "status": "failed",
+      "error": "ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?secid=0.300683&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20190419&end=20190419 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    "unadjusted_rows": [],
+    "sohu_source": {
+      "url": "https://q.stock.sohu.com/hisHq",
+      "params": {
+        "code": "cn_300683",
+        "start": "20190419",
+        "end": "20190419",
+        "stat": "1",
+        "order": "D",
+        "period": "d",
+        "callback": "historySearchHandler",
+        "rt": "json"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T01:13:12.897774+08:00",
+      "request_id": "d2ef1421c5d4e4df572df8313cf2d4d3ec1c5f00dd3f4204190328de13364a4d",
+      "http_status": 200,
+      "final_url": "https://q.stock.sohu.com/hisHq?code=cn_300683&start=20190419&end=20190419&stat=1&order=D&period=d&callback=historySearchHandler&rt=json",
+      "encoding": "GB18030",
+      "status": "ok",
+      "path": "data/raw/public_sources/v4/objects/7c13c3dbbe72884256954156af63198629b8d7ea6b3a83479a1d463a05f16ad3.html",
+      "sha256": "7c13c3dbbe72884256954156af63198629b8d7ea6b3a83479a1d463a05f16ad3",
+      "bytes": 217
+    },
+    "sohu_response": "[{\"status\":0,\"hq\":[[\"2019-04-19\",\"33.11\",\"36.49\",\"0.11\",\"0.30%\",\"33.11\",\"36.80\",\"7956\",\"2870.51\",\"1.67%\"]],\"code\":\"cn_300683\",\"stat\":[\"累计:\",\"2019-04-19至2019-04-19\",\"0.11\",\"0.30%\",33.11,36.8,7956,2870.51,\"1.67%\"]}]\n"
+  },
+  {
+    "ts_code": "300262.SZ",
+    "trade_date": "20201019",
+    "price_close": 5.6,
+    "basic_close": 5.84,
+    "pre_close": 5.84,
+    "pct_chg": -4.1096,
+    "price_record_id": "daily:3fa4097be0576d45afbdaa5eaa9b02bcd17821307d90d21b4bf4b0909f261e4c",
+    "basic_record_id": "daily_basic:fc37b90621ee4b895c3cc8aeef66afabbbf1b135a27305200bec3b7b070b919a",
+    "second_source": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "params": {
+        "secid": "0.300262",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": 101,
+        "fqt": 0,
+        "beg": "20201019",
+        "end": "20201019"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T00:55:41.689219+08:00",
+      "request_id": "3cd180a314fbad8f226b3130acc1df4906fa0bd286c593b8af8b6c79c3fe0245",
+      "http_status": 200,
+      "final_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.300262&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20201019&end=20201019",
+      "encoding": "utf-8",
+      "status": "ok",
+      "path": "data/raw/public_sources/v4/objects/b5e1f1651a2788f6708ca607213286a1f92d50f427c9fbc6515a00baa5c345db.html",
+      "sha256": "b5e1f1651a2788f6708ca607213286a1f92d50f427c9fbc6515a00baa5c345db",
+      "bytes": 255
+    },
+    "unadjusted_rows": [
+      "2020-10-19,5.51,5.60,5.95,5.41,451405,256092676.00,9.25,-4.11,-0.24,9.85"
+    ]
+  },
+  {
+    "ts_code": "600592.SH",
+    "trade_date": "20201023",
+    "price_close": 11.22,
+    "basic_close": 11.2,
+    "pre_close": 11.3,
+    "pct_chg": -0.708,
+    "price_record_id": "daily:f8a82816267af8851290508fd9912f80aaf04a58e848b0707618ba4dab1cb76c",
+    "basic_record_id": "daily_basic:41af1191a2663ab13e173d89b5a8f535d792b4272089e3855a0e3e85a572f624",
+    "second_source": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "params": {
+        "secid": "1.600592",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": 101,
+        "fqt": 0,
+        "beg": "20201023",
+        "end": "20201023"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T01:12:49.643966+08:00",
+      "request_id": "b795464d6f9d6c42acd4bf9bb1e6665eec438f7f122a7141781afee92ed72a2b",
+      "status": "failed",
+      "error": "ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?secid=1.600592&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20201023&end=20201023 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    "unadjusted_rows": [],
+    "sohu_source": {
+      "url": "https://q.stock.sohu.com/hisHq",
+      "params": {
+        "code": "cn_600592",
+        "start": "20201023",
+        "end": "20201023",
+        "stat": "1",
+        "order": "D",
+        "period": "d",
+        "callback": "historySearchHandler",
+        "rt": "json"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T01:13:13.471692+08:00",
+      "request_id": "b4c5e548005fb600dbb38f7b1fe645c616eecee10df90dedaaebc3b4033e1d2c",
+      "http_status": 200,
+      "final_url": "https://q.stock.sohu.com/hisHq?code=cn_600592&start=20201023&end=20201023&stat=1&order=D&period=d&callback=historySearchHandler&rt=json",
+      "encoding": "GB18030",
+      "status": "ok",
+      "path": "data/raw/public_sources/v4/objects/b9130a91ce5a96b268fd16a1171470e366008422181e9d44cd5a3e2a8c8f9f03.html",
+      "sha256": "b9130a91ce5a96b268fd16a1171470e366008422181e9d44cd5a3e2a8c8f9f03",
+      "bytes": 224
+    },
+    "sohu_response": "[{\"status\":0,\"hq\":[[\"2020-10-23\",\"11.29\",\"11.22\",\"-0.08\",\"-0.71%\",\"11.16\",\"11.36\",\"17002\",\"1915.74\",\"0.43%\"]],\"code\":\"cn_600592\",\"stat\":[\"累计:\",\"2020-10-23至2020-10-23\",\"-0.08\",\"-0.71%\",11.16,11.36,17002,1915.74,\"0.43%\"]}]\n"
+  },
+  {
+    "ts_code": "603268.SH",
+    "trade_date": "20201023",
+    "price_close": 16.21,
+    "basic_close": 16.17,
+    "pre_close": 16.42,
+    "pct_chg": -1.2789,
+    "price_record_id": "daily:71b5e05afecf3ec9805a8bc11b0116414092606a22afdc477b2f3cabe054e8f3",
+    "basic_record_id": "daily_basic:be969615c106d335c617d4f88d0f66532af283123f8035fd213ac03622a315c8",
+    "second_source": {
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "params": {
+        "secid": "1.603268",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": 101,
+        "fqt": 0,
+        "beg": "20201023",
+        "end": "20201023"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T01:12:50.083335+08:00",
+      "request_id": "534d9fa564965944f88759a5266144d3edc5839d59cb34a66b4672d41c8e4cab",
+      "status": "failed",
+      "error": "ProxyError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?secid=1.603268&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61&klt=101&fqt=0&beg=20201023&end=20201023 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    "unadjusted_rows": [],
+    "sohu_source": {
+      "url": "https://q.stock.sohu.com/hisHq",
+      "params": {
+        "code": "cn_603268",
+        "start": "20201023",
+        "end": "20201023",
+        "stat": "1",
+        "order": "D",
+        "period": "d",
+        "callback": "historySearchHandler",
+        "rt": "json"
+      },
+      "method": "GET",
+      "retrieved_at": "2026-11-15T01:13:14.102903+08:00",
+      "request_id": "17643b576e630be86bd99d9ba32de0e2cd3e1cccb21538ceebb36b2e1a53b205",
+      "http_status": 200,
+      "final_url": "https://q.stock.sohu.com/hisHq?code=cn_603268&start=20201023&end=20201023&stat=1&order=D&period=d&callback=historySearchHandler&rt=json",
+      "encoding": "GB18030",
+      "status": "ok",
+      "path": "data/raw/public_sources/v4/objects/9fe7522fa363f4a14dc8f90d977e6ed2d910a8ede72072a164cd1380603209b4.html",
+      "sha256": "9fe7522fa363f4a14dc8f90d977e6ed2d910a8ede72072a164cd1380603209b4",
+      "bytes": 221
+    },
+    "sohu_response": "[{\"status\":0,\"hq\":[[\"2020-10-23\",\"16.41\",\"16.21\",\"-0.21\",\"-1.28%\",\"16.12\",\"16.83\",\"6503\",\"1066.50\",\"0.52%\"]],\"code\":\"cn_603268\",\"stat\":[\"累计:\",\"2020-10-23至2020-10-23\",\"-0.21\",\"-1.28%\",16.12,16.83,6503,1066.5,\"0.52%\"]}]\n"
+  }
+]

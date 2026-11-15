@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "盈方",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2022-07-10~2022-09-28",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:24.179632+08:00",
+  "request_id": "63aaf6910e13bc5e3b0cee69e049ff2d1b74daeeb6beb998bf2403230fd220ed",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/75f5297fef73d8fbbfd7cb0e17ecb1adaaf8411f196e258c95d7eca12ed3f586.html",
+  "sha256": "75f5297fef73d8fbbfd7cb0e17ecb1adaaf8411f196e258c95d7eca12ed3f586",
+  "bytes": 21592
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "龙力",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2019-04-05~2019-06-24",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:41.603762+08:00",
+  "request_id": "b9938b4706c417c8192ffc395395df979476136d4da0192a4d6c656c0626afa0",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/b26e8cb18ebd4dbaf1e1875b694c3dfc1901f8fde0665d7e8415065e343cbdd3.html",
+  "sha256": "b26e8cb18ebd4dbaf1e1875b694c3dfc1901f8fde0665d7e8415065e343cbdd3",
+  "bytes": 21437
+}

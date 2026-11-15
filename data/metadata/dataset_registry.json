@@ -1,80 +1,768 @@
 {
-  "version": "main_v1",
-  "sample_versions": {
-    "main_v1": {
-      "manifest": "data/datasets/main_v1/common_samples.parquet",
-      "status": "eligible"
+  "version": "unified-data-foundation-v4.0.0",
+  "datasets": [
+    {
+      "dataset_id": "index_daily",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/index_daily/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 21665,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "change",
+        "pct_chg",
+        "vol",
+        "amount"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "FAIL",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence. Two unresolved CSI1000 source-price conflicts; affected continuous price windows excluded.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=95",
+      "schema_id": "index_daily@v4"
     },
-    "common_core_v1": {
-      "manifest": "data/datasets/common_core_v1/common_samples.parquet",
-      "status": "eligible"
+    {
+      "dataset_id": "index_daily_basic",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/index_daily_basic/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 21474,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "total_mv",
+        "float_mv",
+        "turnover_rate",
+        "turnover_rate_f",
+        "pe",
+        "pe_ttm",
+        "pb"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=128",
+      "schema_id": "index_daily_basic@v4"
     },
-    "common_prices_v1": {
-      "manifest": "data/datasets/common_prices_v1/common_samples.parquet",
-      "status": "eligible"
+    {
+      "dataset_id": "stock_daily",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_daily_observations/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 11981370,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "change",
+        "pct_chg",
+        "vol",
+        "amount"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=27",
+      "schema_id": "stock_daily@v4"
     },
-    "common_growth_v1": {
-      "manifest": "data/datasets/common_growth_v1/common_samples.parquet",
-      "status": "eligible"
+    {
+      "dataset_id": "stock_daily_basic",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_daily_basic_observations/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 11981381,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "close",
+        "turnover_rate",
+        "turnover_rate_f",
+        "total_mv",
+        "circ_mv",
+        "pe",
+        "pe_ttm",
+        "pb"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "FAIL",
+      "quality_reason": "Seven wrong closes repaired; related valuation fields quarantined. Additional cap/share precision and denominator discrepancies unresolved.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=32",
+      "schema_id": "stock_daily_basic@v4"
     },
-    "common_credit_v1": {
-      "manifest": "data/datasets/common_credit_v1/common_samples.parquet",
-      "status": "eligible"
+    {
+      "dataset_id": "stock_adjustment",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_adjustment_observations/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 12333672,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "adj_factor"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "FAIL",
+      "quality_reason": "Mixed-vintage and one omitted official action repaired; remaining corporate-action/precision/basis qualifications retained.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=28",
+      "schema_id": "stock_adjustment@v4"
     },
-    "common_rates_fx_v1": {
-      "manifest": "data/datasets/common_rates_fx_v1/common_samples.parquet",
-      "status": "eligible"
+    {
+      "dataset_id": "stock_master_history",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_master_history.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 5559,
+      "primary_key": [
+        "instrument_id",
+        "valid_from"
+      ],
+      "actual_data_start": "1990-12-01 00:00:00",
+      "actual_data_end": "2026-09-22 00:00:00",
+      "date_field": "valid_from",
+      "required_fields": [
+        "instrument_id",
+        "valid_from",
+        "ts_code",
+        "list_date",
+        "delist_date",
+        "exchange",
+        "security_type"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Official code-effective intervals plus provider listing/delisting snapshot. Descriptive name/industry/area fields remain snapshot attributes; historical names must use stock_name_history through verified aliases. Independent full historical universe remains unproven.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=25",
+      "schema_id": "stock_master_history@v4"
     },
-    "common_external_v1": {
-      "manifest": "data/datasets/common_external_v1/common_samples.parquet",
-      "status": "blocked"
+    {
+      "dataset_id": "stock_name_history",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_name_history/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 13851,
+      "primary_key": [
+        "ts_code",
+        "start_date",
+        "name"
+      ],
+      "actual_data_start": "19901201",
+      "actual_data_end": "20260930",
+      "date_field": "start_date",
+      "required_fields": [
+        "ts_code",
+        "start_date",
+        "name",
+        "end_date",
+        "ann_date",
+        "change_reason"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=100",
+      "schema_id": "stock_name_history@v4"
     },
-    "common_full_eligible_v1": {
-      "manifest": "data/datasets/common_full_eligible_v1/common_samples.parquet",
-      "status": "eligible"
+    {
+      "dataset_id": "stock_trading_status",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_trading_status/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 12313921,
+      "primary_key": [
+        "instrument_id",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "instrument_id",
+        "trade_date",
+        "ts_code",
+        "status",
+        "identity_evidence",
+        "quote_record_ids",
+        "suspension_record_ids"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=214",
+      "schema_id": "stock_trading_status@v4"
+    },
+    {
+      "dataset_id": "index_constituents_history",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/index_constituents_history.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 19500,
+      "primary_key": [
+        "index_code",
+        "con_code",
+        "valid_from"
+      ],
+      "actual_data_start": "2015-05-20 00:00:00",
+      "actual_data_end": "2026-06-15 00:00:00",
+      "date_field": "valid_from",
+      "required_fields": [
+        "index_code",
+        "con_code",
+        "valid_from",
+        "valid_to",
+        "research_available_at",
+        "source_path",
+        "quality_status"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "FAIL",
+      "quality_reason": "399001 official-event reconstruction only, 2015-05-20 onward; event catalogue completeness unproved and other six indices missing effective histories.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "Official index-provider adjustment announcements with both publication and effectiveness dates",
+      "schema_id": "index_constituents_history@v4"
+    },
+    {
+      "dataset_id": "index_weights_history",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/index_weights_history/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 576892,
+      "primary_key": [
+        "index_code",
+        "con_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20150130",
+      "actual_data_end": "20260831",
+      "date_field": "trade_date",
+      "required_fields": [
+        "index_code",
+        "con_code",
+        "trade_date",
+        "weight"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Observed monthly snapshots only; no exact daily effective weights.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=96",
+      "schema_id": "index_weights_history@v4"
+    },
+    {
+      "dataset_id": "trade_calendar",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/trade_calendar/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 9386,
+      "primary_key": [
+        "exchange",
+        "cal_date"
+      ],
+      "actual_data_start": "20131227",
+      "actual_data_end": "20261101",
+      "date_field": "cal_date",
+      "required_fields": [
+        "exchange",
+        "cal_date",
+        "is_open",
+        "pretrade_date"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=26",
+      "schema_id": "trade_calendar@v4"
+    },
+    {
+      "dataset_id": "index_identity",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/index_identity/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 7,
+      "primary_key": [
+        "ts_code"
+      ],
+      "actual_data_start": "19910715",
+      "actual_data_end": "20141017",
+      "date_field": "list_date",
+      "required_fields": [
+        "ts_code",
+        "list_date",
+        "base_date",
+        "base_point",
+        "publisher"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=94",
+      "schema_id": "index_identity@v4"
+    },
+    {
+      "dataset_id": "stock_limits",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_limits_observations/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 12309435,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "up_limit",
+        "down_limit",
+        "limit_rule_status",
+        "rule_evidence_path"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence. Full date/observed-security diagnostics: audit/final_data_foundation/market_coverage/secondary_source_limits.json; historical rule/eligible-universe and source-classification certification incomplete.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=183",
+      "schema_id": "stock_limits@v4"
+    },
+    {
+      "dataset_id": "margin_market",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/margin_market/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 6579,
+      "primary_key": [
+        "exchange_id",
+        "trade_date"
+      ],
+      "actual_data_start": "20150105",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "exchange_id",
+        "trade_date",
+        "rzye",
+        "rqye",
+        "rzrqye",
+        "rzmre",
+        "rzche"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence. Full date/observed-security diagnostics: audit/final_data_foundation/market_coverage/secondary_source_limits.json; historical rule/eligible-universe and source-classification certification incomplete.",
+      "required": false,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=58",
+      "schema_id": "margin_market@v4"
+    },
+    {
+      "dataset_id": "margin_security",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/margin_security/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 5751345,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20150105",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "rzye",
+        "rqye",
+        "rzrqye"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence. Full date/observed-security diagnostics: audit/final_data_foundation/market_coverage/secondary_source_limits.json; historical rule/eligible-universe and source-classification certification incomplete.",
+      "required": false,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=59",
+      "schema_id": "margin_security@v4"
+    },
+    {
+      "dataset_id": "stock_moneyflow",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_moneyflow/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 11978894,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "net_mf_amount",
+        "net_mf_vol"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "FAIL",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence. Full date/observed-security diagnostics: audit/final_data_foundation/market_coverage/secondary_source_limits.json; historical rule/eligible-universe and source-classification certification incomplete.; required traded-date source rows/values remain absent; unsupported off-quote flow rows are field-quarantined.",
+      "required": false,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=170",
+      "schema_id": "stock_moneyflow@v4"
+    },
+    {
+      "dataset_id": "exchange_activity_sh",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/exchange_activity_sh/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 55398,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20150105",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "amount",
+        "vol",
+        "total_mv",
+        "float_mv",
+        "tr"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence. Full date/observed-security diagnostics: audit/final_data_foundation/market_coverage/secondary_source_limits.json; historical rule/eligible-universe and source-classification certification incomplete.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=215",
+      "schema_id": "exchange_activity_sh@v4"
+    },
+    {
+      "dataset_id": "exchange_activity_sz",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/exchange_activity_sz/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 41454,
+      "primary_key": [
+        "ts_code",
+        "trade_date"
+      ],
+      "actual_data_start": "20150105",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "amount",
+        "vol",
+        "total_mv",
+        "float_mv"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence. Full date/observed-security diagnostics: audit/final_data_foundation/market_coverage/secondary_source_limits.json; historical rule/eligible-universe and source-classification certification incomplete.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=268",
+      "schema_id": "exchange_activity_sz@v4"
+    },
+    {
+      "dataset_id": "stock_connect_top10",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_connect_top10/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 50010,
+      "primary_key": [
+        "ts_code",
+        "trade_date",
+        "market_type"
+      ],
+      "actual_data_start": "20150105",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "ts_code",
+        "trade_date",
+        "market_type",
+        "amount",
+        "buy",
+        "sell",
+        "net_amount",
+        "rank"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence. Full date/observed-security diagnostics: audit/final_data_foundation/market_coverage/secondary_source_limits.json; historical rule/eligible-universe and source-classification certification incomplete.",
+      "required": false,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=48",
+      "schema_id": "stock_connect_top10@v4"
+    },
+    {
+      "dataset_id": "stock_dividend_events",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/stock_dividend_events/*.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 212115,
+      "primary_key": [
+        "ts_code",
+        "end_date",
+        "ann_date",
+        "div_proc"
+      ],
+      "actual_data_start": "19910317",
+      "actual_data_end": "20260922",
+      "date_field": "ann_date",
+      "required_fields": [
+        "ts_code",
+        "end_date",
+        "ann_date",
+        "div_proc",
+        "ex_date",
+        "cash_div_tax",
+        "stk_div"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "https://tushare.pro/document/2?doc_id=103",
+      "schema_id": "stock_dividend_events@v4"
+    },
+    {
+      "dataset_id": "market_data_quality",
+      "domain": "M",
+      "authority_path": "data/standardized/market/v4/market_data_quality.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 4535515,
+      "primary_key": [
+        "quality_record_id"
+      ],
+      "actual_data_start": "20140102",
+      "actual_data_end": "20260922",
+      "date_field": "trade_date",
+      "required_fields": [
+        "quality_record_id",
+        "dataset_id",
+        "instrument_id",
+        "trade_date",
+        "field",
+        "quality_status",
+        "quality_reason",
+        "evidence_path"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "scripts/final_data_foundation/market_quality.py",
+      "schema_id": "market_data_quality@v4"
+    },
+    {
+      "dataset_id": "macro_facts",
+      "domain": "Z",
+      "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 47603,
+      "primary_key": [
+        "source_record_id"
+      ],
+      "actual_data_start": "1999-12-31 00:00:00",
+      "actual_data_end": "2026-11-13 00:00:00",
+      "date_field": "period_end",
+      "required_fields": [
+        "source_record_id",
+        "series_id",
+        "period_end"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "FAIL",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "config/data/macro_requirements.json",
+      "schema_id": "macro_facts@v4"
+    },
+    {
+      "dataset_id": "macro_vintages",
+      "domain": "Z",
+      "authority_path": "data/standardized/macro/v4/macro_vintages.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 47603,
+      "primary_key": [
+        "source_record_id"
+      ],
+      "actual_data_start": "1999-12-31 00:00:00",
+      "actual_data_end": "2026-11-13 00:00:00",
+      "date_field": "period_end",
+      "required_fields": [
+        "source_record_id",
+        "series_id",
+        "period_end"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "config/data/macro_requirements.json",
+      "schema_id": "macro_vintages@v4"
+    },
+    {
+      "dataset_id": "macro_release_events",
+      "domain": "Z",
+      "authority_path": "data/standardized/macro/v4/macro_release_events.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 47603,
+      "primary_key": [
+        "source_record_id"
+      ],
+      "actual_data_start": "1999-12-31 00:00:00",
+      "actual_data_end": "2026-11-13 00:00:00",
+      "date_field": "period_end",
+      "required_fields": [
+        "source_record_id",
+        "series_id",
+        "period_end"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "config/data/macro_requirements.json",
+      "schema_id": "macro_release_events@v4"
+    },
+    {
+      "dataset_id": "macro_quality",
+      "domain": "Z",
+      "authority_path": "data/standardized/macro/v4/macro_quality.parquet",
+      "version": "unified-data-foundation-v4.0.0",
+      "rows": 47603,
+      "primary_key": [
+        "source_record_id"
+      ],
+      "actual_data_start": "1999-12-31 00:00:00",
+      "actual_data_end": "2026-11-13 00:00:00",
+      "date_field": "period_end",
+      "required_fields": [
+        "source_record_id",
+        "series_id",
+        "period_end"
+      ],
+      "absent_fields": [],
+      "duplicate_key_excess": 0,
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Full physical schema and primary key inspected; research certification remains conditional on domain/field/source/temporal evidence.",
+      "required": true,
+      "original_vintage_pit_certified": false,
+      "source_definition": "config/data/macro_requirements.json",
+      "schema_id": "macro_quality@v4"
     }
-  },
-  "artifacts": {
-    "data\\datasets\\common_core_v1\\common_samples.parquet": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
-    "data\\datasets\\common_credit_v1\\common_samples.parquet": "c46dcd2a37c0fc7235a66d84cc448e4485a6e9d282d825cb79ea878fba7f75f9",
-    "data\\datasets\\common_external_v1\\common_samples.parquet": "18f7ea05aa59069b524420a6b6bdf40f47df2adf33f74c21e94f368b30e3067c",
-    "data\\datasets\\common_full_eligible_v1\\common_samples.parquet": "1a1a0c8a4e71bb582f0dd99c8ff7b8c479373ead3fc2d15107103866e92c8568",
-    "data\\datasets\\common_growth_v1\\common_samples.parquet": "31adeea66cb1cb2149ba3f6fbaa9415bbd1f0d48b303686e71644f7effe7369a",
-    "data\\datasets\\common_prices_v1\\common_samples.parquet": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
-    "data\\datasets\\common_rates_fx_v1\\common_samples.parquet": "159c718f4db224b391546836f2cb55db0b488d7ff3681f5864952d07feab9f7d",
-    "data\\datasets\\main_v1\\common_samples.parquet": "463578b1f3c4bdcb4d3fa16ec44fe40b19ba2fed2d4829d6f1bf6441707a59f8",
-    "data\\datasets\\main_v1\\labels.parquet": "eb27fadd3d3b39672bfcb2a07351a12bb4b0d93842af7c16b60936f4b87ce74f",
-    "data\\datasets\\main_v1\\macro_features.parquet": "638c05f92132bc5f1698082152e0041a772d085d37ccb504cfd1aabac0e86304",
-    "data\\datasets\\main_v1\\market_features.parquet": "5d9c9a1d9eca23043b7c4ce55e4af7ae69eb2c14137919fe0ec4d7d7047e0f6f",
-    "data\\datasets\\main_v1\\sample_manifest.parquet": "463578b1f3c4bdcb4d3fa16ec44fe40b19ba2fed2d4829d6f1bf6441707a59f8",
-    "data\\features\\macro_availability.parquet": "1514fd9397147e08d50d5f30ad306759614c6e5fce06cb5dd1c30b06ccf6057d",
-    "data\\standardized\\macro\\macro_facts.parquet": "29962c24297c0897711b368cfa0a55c50e1d1bb510426546c96c3f502c1ad6d7"
-  },
-  "market_protocol_hash": "09136389fb47c37cf864280c06680595df74ce080bff2537f9a944b93a094222",
-  "heldout_labels": "redacted",
-  "macro_gate": {
-    "core_eligible": true,
-    "reason": null,
-    "quality_counts": {
-      "conservative_release_reconstructed": 18668,
-      "latest_vintage_reconstructed": 14062,
-      "strict_pit_eligible": 2983,
-      "blocked": 313
-    },
-    "core": [
-      "cpi_yoy",
-      "ppi_yoy",
-      "pmi_mfg",
-      "pmi_new_orders",
-      "m2_yoy",
-      "shibor_1w",
-      "shibor_3m"
-    ],
-    "missing_candidates": [
-      "dr007"
-    ],
-    "quality_policy": "dated_announcements_plus_official_fixings_end_of_day_v1",
-    "strict_pit_core": false,
-    "strict_pit_core_limitation": "Shibor official historical fixings lack correction-vintage archive; no latest-vintage macroeconomic values admitted"
-  }
+  ],
+  "intermediate_provider_snapshots": [
+    "data/standardized/market/v4/stock_daily",
+    "data/standardized/market/v4/stock_daily_basic",
+    "data/standardized/market/v4/stock_adjustment",
+    "data/standardized/market/v4/stock_limits"
+  ],
+  "frozen_market_authority": "data/research_v2",
+  "interface": "scripts.final_data_foundation.research_inputs.load_dataset",
+  "formal_certification": "INCOMPLETE"
 }

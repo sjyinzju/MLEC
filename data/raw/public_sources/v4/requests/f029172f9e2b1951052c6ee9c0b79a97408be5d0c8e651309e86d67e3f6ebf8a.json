@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 3,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "000033",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2017-04-13~2017-07-02",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:41:16.450493+08:00",
+  "request_id": "f029172f9e2b1951052c6ee9c0b79a97408be5d0c8e651309e86d67e3f6ebf8a",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/4c8306dc3c593186af1eb7982e233f7dbd8f675be09e61740264f379a4f2b82d.html",
+  "sha256": "4c8306dc3c593186af1eb7982e233f7dbd8f675be09e61740264f379a4f2b82d",
+  "bytes": 24225
+}

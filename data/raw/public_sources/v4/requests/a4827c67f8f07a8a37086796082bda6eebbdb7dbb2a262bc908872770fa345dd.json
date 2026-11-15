@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 1,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "长航凤凰",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2015-07-08~2015-09-26",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:43:10.544077+08:00",
+  "request_id": "a4827c67f8f07a8a37086796082bda6eebbdb7dbb2a262bc908872770fa345dd",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/6ed50a1b9617e8177321acd324dbcca51e20c175fa75332e1894b90bc2ec3dd9.html",
+  "sha256": "6ed50a1b9617e8177321acd324dbcca51e20c175fa75332e1894b90bc2ec3dd9",
+  "bytes": 15254
+}

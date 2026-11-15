@@ -1,0 +1,114 @@
+{
+  "observed": [
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "amount_cny",
+      "differing_rows": 320,
+      "max_absolute_difference": 0.001953125
+    },
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "amihud_per_100m_cny",
+      "differing_rows": 1846,
+      "max_absolute_difference": 2.4868995751603507e-14
+    },
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "reference_return_dispersion",
+      "differing_rows": 2033,
+      "max_absolute_difference": 5.551115123125783e-16
+    },
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "amihud_per_100m_cny_ma5",
+      "differing_rows": 1935,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "amihud_per_100m_cny_ma20",
+      "differing_rows": 2161,
+      "max_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "amihud_per_100m_cny_ma60",
+      "differing_rows": 1528,
+      "max_absolute_difference": 3.885780586188048e-16
+    },
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "amount_cny_ma5",
+      "differing_rows": 203,
+      "max_absolute_difference": 0.0009765625
+    },
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "amount_cny_ma20",
+      "differing_rows": 276,
+      "max_absolute_difference": 0.00048828125
+    },
+    {
+      "file": "data/features/market/v4/all_a_daily.parquet",
+      "field": "amount_cny_ma60",
+      "differing_rows": 222,
+      "max_absolute_difference": 0.00048828125
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "amihud_per_100m_cny",
+      "differing_rows": 349,
+      "max_absolute_difference": 2.4868995751603507e-14
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "reference_return_dispersion",
+      "differing_rows": 384,
+      "max_absolute_difference": 5.551115123125783e-16
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "amount_cny",
+      "differing_rows": 41,
+      "max_absolute_difference": 0.00146484375
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "amihud_per_100m_cny_ma5",
+      "differing_rows": 380,
+      "max_absolute_difference": 3.552713678800501e-15
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "amihud_per_100m_cny_ma20",
+      "differing_rows": 437,
+      "max_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "amihud_per_100m_cny_ma60",
+      "differing_rows": 310,
+      "max_absolute_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "amount_cny_ma5",
+      "differing_rows": 26,
+      "max_absolute_difference": 0.0009765625
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "amount_cny_ma20",
+      "differing_rows": 39,
+      "max_absolute_difference": 0.00048828125
+    },
+    {
+      "file": "data/features/market/v4/market_extensions_weekly.parquet",
+      "field": "amount_cny_ma60",
+      "differing_rows": 35,
+      "max_absolute_difference": 0.00048828125
+    }
+  ],
+  "cause": "Parallel hash aggregation changes floating-point reduction order across rebuilds. Counts/correlation unchanged; sums, average and standard deviation differ at numerical last digits.",
+  "repair": "Explicit instrument_id ordering inside floating-point aggregates. No rounding or relaxed comparison tolerance. Verified in final exact rebuild."
+}

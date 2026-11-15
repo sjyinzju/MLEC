@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "集成",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2015-07-02~2015-09-20",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:44:38.234612+08:00",
+  "request_id": "a43cf63e0e24bc91a084bece36a216b94f5bd9b9c7eebd76554971a2eb90966b",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/adc5b1e57d2a77ac03f92119272fb74fcbdb722aaccfd9949ab5c536464e4428.html",
+  "sha256": "adc5b1e57d2a77ac03f92119272fb74fcbdb722aaccfd9949ab5c536464e4428",
+  "bytes": 21911
+}

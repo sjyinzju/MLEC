@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cninfo.com.cn/new/information/topSearch",
+  "params": {
+    "keyWord": "000995",
+    "maxNum": 10
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:39:41.033885+08:00",
+  "request_id": "a83fcc973193dd84e64720dc7067bc3c007c8887dad6f054c74aace67cda44bd",
+  "http_status": 404,
+  "final_url": "https://www.cninfo.com.cn/new/information/topSearch",
+  "encoding": "utf-8",
+  "status": "failed",
+  "error": "HTTPError: 404 Client Error: 404 for url: https://www.cninfo.com.cn/new/information/topSearch"
+}

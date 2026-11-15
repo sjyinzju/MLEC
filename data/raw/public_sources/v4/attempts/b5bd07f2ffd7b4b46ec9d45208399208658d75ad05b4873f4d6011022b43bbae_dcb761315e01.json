@@ -1,0 +1,29 @@
+{
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "params": {
+    "pageNum": 2,
+    "pageSize": 30,
+    "column": "sse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "普冉股份",
+    "secid": "",
+    "plate": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2025-10-26~2026-01-14",
+    "sortName": "",
+    "sortType": "",
+    "isHLtitle": "false"
+  },
+  "method": "POST",
+  "retrieved_at": "2026-11-15T00:45:45.279187+08:00",
+  "request_id": "b5bd07f2ffd7b4b46ec9d45208399208658d75ad05b4873f4d6011022b43bbae",
+  "http_status": 200,
+  "final_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "encoding": "utf-8",
+  "status": "ok",
+  "path": "data/raw/public_sources/v4/objects/3d47282a2b6ff3fa5614e1a27cb318981a3e897e71c3e13e1df2a09408bb4289.html",
+  "sha256": "3d47282a2b6ff3fa5614e1a27cb318981a3e897e71c3e13e1df2a09408bb4289",
+  "bytes": 22936
+}

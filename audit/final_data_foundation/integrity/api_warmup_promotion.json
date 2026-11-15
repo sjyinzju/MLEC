@@ -1,0 +1,44 @@
+{
+  "daily": {
+    "path": "data/raw/market/v4/daily/api_2014.parquet",
+    "rows": 571035,
+    "sha256": "cc4211d7cc7956bd8689d404517961365b577198f91e598ed5b9f6b4234de2bc",
+    "availability": "retrieval-only; opt-in quote reconstruction is separate"
+  },
+  "daily_basic": {
+    "path": "data/raw/market/v4/daily_basic/api_2014.parquet",
+    "rows": 570677,
+    "sha256": "6646ea841d5102d2643673209947194c7991e6a56ae9ec0cf205384c0a3c597b",
+    "availability": "retrieval-only; opt-in quote reconstruction is separate"
+  },
+  "adj_factor": {
+    "path": "data/raw/market/v4/adj_factor/api_2014.parquet",
+    "rows": 622944,
+    "sha256": "4a780592a91cd1dc7226557a37e0f17328ff86f696a220e0dc5f2d46ea245ab3",
+    "availability": "retrieval-only; opt-in quote reconstruction is separate"
+  },
+  "stk_limit": {
+    "path": "data/raw/market/v4/stk_limit/api_2014.parquet",
+    "rows": 619566,
+    "sha256": "ce2b50b3f35fcce691f5c9c71de9749f8aed9421d0bbddd37dcc315765cd124d",
+    "availability": "retrieval-only; opt-in quote reconstruction is separate"
+  },
+  "suspend_d": {
+    "path": "data/raw/market/v4/suspend_d/api_2014.parquet",
+    "rows": 51514,
+    "sha256": "477524cbfb991bd3745b2398a4fa6bf048696c2dc39d769b90bd548d15d56ca7",
+    "availability": "retrieval-only; opt-in quote reconstruction is separate"
+  },
+  "index_daily": {
+    "path": "data/raw/market/v4/index_daily/api_2014.parquet",
+    "rows": 1715,
+    "sha256": "10fd4f169ddd7e8ec383ce8ac687115e8fcb4ecb4b052e6ef986f77e5cb79a1d",
+    "availability": "retrieval-only; opt-in quote reconstruction is separate"
+  },
+  "index_dailybasic": {
+    "path": "data/raw/market/v4/index_dailybasic/api_2014.parquet",
+    "rows": 1524,
+    "sha256": "295f7a02845f8c70e7653bb1196075d9140cae4fd0eb17f0e695f115843702ff",
+    "availability": "retrieval-only; opt-in quote reconstruction is separate"
+  }
+}
