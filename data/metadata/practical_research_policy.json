@@ -25,7 +25,7 @@
   "research_interface": "scripts.final_data_foundation.research_inputs.load_dataset(quality=\"historical_reconstructed\")",
   "retention": "standardized data and compact source/formula metadata only; no new raw snapshots or before/after copies",
   "market_repairs": {
-    "pb_nonpositive_book_equity_records": 61368,
+    "pb_nonpositive_book_equity_records": 74510,
     "pb_still_missing": 13936,
     "free_turnover_values_derived": 23,
     "pb_policy": "PB kept null when latest disclosed historical reconstructed BPS<=0 and fiscal age<=150d; not a claim that negative PB cannot be calculated mathematically.",
@@ -48,7 +48,17 @@
     "szse_quantity_fields_added": 6862,
     "szse_zero_category_rows_repaired": 4,
     "sse_2014_dates_added": 245,
-    "sse_2014_rows_added": 1960
+    "sse_2014_rows_added": 1960,
+    "szse_active_derived_quantity_fields": 6372,
+    "szse_2014_direct_quantity_fields": 3675,
+    "free_turnover_derivations": 39,
+    "pb_numeric_alternative_added": 786,
+    "cdr_field_corrections": 359,
+    "cdr_quality_exceptions_resolved": 393,
+    "pb_numeric_issuer_added": 9,
+    "pb_postdated_restatement_rows": 4,
+    "registered_relock_field_repairs": 438,
+    "registered_relock_exceptions_resolved": 219
   },
   "remaining_gaps": "data/metadata/remaining_gaps.json"
 }

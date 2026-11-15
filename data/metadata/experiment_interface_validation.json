@@ -1,0 +1,880 @@
+{
+  "status": "INTERFACE_PASS",
+  "data_status": "UNRESOLVED_REQUIRED_DATA",
+  "candidate_rows": 599,
+  "paired_development_selections": [
+    {
+      "feature_set": "M",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:M",
+      "samples": 164,
+      "features": 25,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:M",
+      "samples": 32,
+      "features": 25,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:M",
+      "samples": 200,
+      "features": 25,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:M",
+      "samples": 38,
+      "features": 25,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:M",
+      "samples": 243,
+      "features": 25,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:M",
+      "samples": 29,
+      "features": 25,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 164,
+      "features": 53,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 32,
+      "features": 53,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 200,
+      "features": 53,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 38,
+      "features": 53,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 243,
+      "features": 53,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 29,
+      "features": 53,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:credit",
+      "samples": 162,
+      "features": 145,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:credit",
+      "samples": 32,
+      "features": 145,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:credit",
+      "samples": 198,
+      "features": 145,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:credit",
+      "samples": 38,
+      "features": 145,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:credit",
+      "samples": 241,
+      "features": 145,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:credit",
+      "samples": 29,
+      "features": 145,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_external",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:external",
+      "samples": 149,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_external",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:external",
+      "samples": 32,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_external",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:external",
+      "samples": 185,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_external",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:external",
+      "samples": 38,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_external",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:external",
+      "samples": 228,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_external",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:external",
+      "samples": 29,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:growth",
+      "samples": 148,
+      "features": 65,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:growth",
+      "samples": 32,
+      "features": 65,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:growth",
+      "samples": 184,
+      "features": 65,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:growth",
+      "samples": 36,
+      "features": 65,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:growth",
+      "samples": 225,
+      "features": 65,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:growth",
+      "samples": 29,
+      "features": 65,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:prices",
+      "samples": 164,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:prices",
+      "samples": 32,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:prices",
+      "samples": 200,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:prices",
+      "samples": 38,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:prices",
+      "samples": 243,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:prices",
+      "samples": 29,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:rates",
+      "samples": 15,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:rates",
+      "samples": 32,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:rates",
+      "samples": 51,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:rates",
+      "samples": 38,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:rates",
+      "samples": 94,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:rates",
+      "samples": 29,
+      "features": 57,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 15,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 32,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 51,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 36,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 92,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 29,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:rates_fx",
+      "samples": 15,
+      "features": 61,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:rates_fx",
+      "samples": 32,
+      "features": 61,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:rates_fx",
+      "samples": 51,
+      "features": 61,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:rates_fx",
+      "samples": 38,
+      "features": 61,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:rates_fx",
+      "samples": 94,
+      "features": 61,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:rates_fx",
+      "samples": 29,
+      "features": 61,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_full_eligible",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 15,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_full_eligible",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 32,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_full_eligible",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 51,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_full_eligible",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 36,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_full_eligible",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 92,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_full_eligible",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:all_candidates",
+      "samples": 29,
+      "features": 269,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 164,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 32,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 200,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 38,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 243,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_prices",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 29,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 164,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 32,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 200,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 38,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 243,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_growth",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 29,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 164,
+      "features": 49,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 32,
+      "features": 49,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 200,
+      "features": 49,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 38,
+      "features": 49,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 243,
+      "features": 49,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_credit",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 29,
+      "features": 49,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 164,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2020",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 32,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 200,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2021",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 38,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "train",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 243,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    },
+    {
+      "feature_set": "M_plus_Z_core_without_rates_fx",
+      "quality": "historical_reconstructed",
+      "fold": "dev-2022",
+      "role": "validation",
+      "sample_version": "v5:historical_reconstructed:core",
+      "samples": 29,
+      "features": 45,
+      "paired_ids_labels_and_market_features": true
+    }
+  ],
+  "quality_combinations": [
+    {
+      "quality": "strict",
+      "candidate_rows": 599,
+      "eligible_h20": 0
+    },
+    {
+      "quality": "historical_reconstructed",
+      "candidate_rows": 599,
+      "eligible_h20": 450
+    },
+    {
+      "quality": "conservative",
+      "candidate_rows": 599,
+      "eligible_h20": 450
+    },
+    {
+      "quality": "quote_reconstructed",
+      "candidate_rows": 599,
+      "eligible_h20": 450
+    },
+    {
+      "quality": "latest_at_retrieval",
+      "candidate_rows": 599,
+      "eligible_h20": 450
+    }
+  ],
+  "horizon_label_checks": 9,
+  "frozen_artifacts_verified": 932,
+  "global_registry_unchanged": true,
+  "no_model_fitting": true,
+  "no_predictions": true,
+  "authority": "scripts.final_data_foundation.research_inputs.load_dataset"
+}

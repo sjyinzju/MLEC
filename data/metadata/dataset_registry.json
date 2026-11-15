@@ -29,8 +29,8 @@
       ],
       "absent_fields": [],
       "duplicate_key_excess": 0,
-      "quality_status": "UNRESOLVED_REQUIRED_DATA",
-      "quality_reason": "Seven complete date grids; two CSI1000 dates have unresolved source price conflicts. Exclude dependent price windows.",
+      "quality_status": "DATA READY",
+      "quality_reason": "Seven complete date grids; CSI official OHLC adjudicates both prior CSI1000 conflicts. Primary prices retained and dependent extension windows restored. CSI1000 prelaunch backcast remains explicitly identified.",
       "required": true,
       "original_vintage_pit_certified": false,
       "source_definition": "https://tushare.pro/document/2?doc_id=95",
@@ -132,7 +132,7 @@
       "absent_fields": [],
       "duplicate_key_excess": 0,
       "quality_status": "UNRESOLVED_REQUIRED_DATA",
-      "quality_reason": "13936 PB and 16 free-turnover values missing; 2840 share-basis field exceptions. PE/PE_TTM source nulls are undefined-or-unavailable, not all independently proven structural.",
+      "quality_reason": "0 PB and 0 free-turnover values missing; 2214 share-basis field exceptions. PE/PE_TTM source nulls are undefined-or-unavailable, not all independently proven structural.",
       "required": true,
       "original_vintage_pit_certified": false,
       "source_definition": "https://tushare.pro/document/2?doc_id=32",
@@ -547,8 +547,8 @@
       ],
       "absent_fields": [],
       "duplicate_key_excess": 0,
-      "quality_status": "UNRESOLVED_REQUIRED_DATA",
-      "quality_reason": "Monetary stock totals cover 3095 dates; 2014 volume and ChiNext share quantities remain absent. Six stock-category units verified; nonstock units not certified.",
+      "quality_status": "QUALIFIED",
+      "quality_reason": "Required stock-total and ChiNext money/quantity series cover all3095 dates. All5 2014 stock categories reconciled to direct quantity source. Six stock-category units verified; nonstock units not certified.",
       "required": true,
       "original_vintage_pit_certified": false,
       "source_definition": "https://tushare.pro/document/2?doc_id=268",
@@ -630,7 +630,7 @@
       "domain": "M",
       "authority_path": "data/standardized/market/v4/market_data_quality.parquet",
       "version": "practical-research-data-v5",
-      "rows": 4535427,
+      "rows": 4535918,
       "primary_key": [
         "quality_record_id"
       ],
@@ -661,7 +661,7 @@
       "domain": "Z",
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "version": "practical-research-data-v5",
-      "rows": 47717,
+      "rows": 47743,
       "primary_key": [
         "source_record_id"
       ],
@@ -676,7 +676,7 @@
       "absent_fields": [],
       "duplicate_key_excess": 0,
       "quality_status": "UNRESOLVED_REQUIRED_DATA",
-      "quality_reason": "Same-definition CGB 2014 quotes and 40 CNY trade periods unresolved; valid historical reconstructions remain usable independently.",
+      "quality_reason": "Same-definition CGB2014 quotes (245days x2tenors and245 derived spreads) and 14 CNY trade periods unresolved; valid historical reconstructions remain usable independently.",
       "required": true,
       "original_vintage_pit_certified": false,
       "source_definition": "config/data/macro_requirements.json",
@@ -687,7 +687,7 @@
       "domain": "Z",
       "authority_path": "data/standardized/macro/v4/macro_vintages.parquet",
       "version": "practical-research-data-v5",
-      "rows": 47717,
+      "rows": 47743,
       "primary_key": [
         "source_record_id"
       ],
@@ -702,7 +702,7 @@
       "absent_fields": [],
       "duplicate_key_excess": 0,
       "quality_status": "UNRESOLVED_REQUIRED_DATA",
-      "quality_reason": "Same-definition CGB 2014 quotes and 40 CNY trade periods unresolved; valid historical reconstructions remain usable independently.",
+      "quality_reason": "Same-definition CGB2014 quotes (245days x2tenors and245 derived spreads) and 14 CNY trade periods unresolved; valid historical reconstructions remain usable independently.",
       "required": true,
       "original_vintage_pit_certified": false,
       "source_definition": "config/data/macro_requirements.json",
@@ -713,7 +713,7 @@
       "domain": "Z",
       "authority_path": "data/standardized/macro/v4/macro_release_events.parquet",
       "version": "practical-research-data-v5",
-      "rows": 47717,
+      "rows": 47743,
       "primary_key": [
         "source_record_id"
       ],
@@ -728,7 +728,7 @@
       "absent_fields": [],
       "duplicate_key_excess": 0,
       "quality_status": "UNRESOLVED_REQUIRED_DATA",
-      "quality_reason": "Same-definition CGB 2014 quotes and 40 CNY trade periods unresolved; valid historical reconstructions remain usable independently.",
+      "quality_reason": "Same-definition CGB2014 quotes (245days x2tenors and245 derived spreads) and 14 CNY trade periods unresolved; valid historical reconstructions remain usable independently.",
       "required": true,
       "original_vintage_pit_certified": false,
       "source_definition": "config/data/macro_requirements.json",
@@ -739,7 +739,7 @@
       "domain": "Z",
       "authority_path": "data/standardized/macro/v4/macro_quality.parquet",
       "version": "practical-research-data-v5",
-      "rows": 47717,
+      "rows": 47743,
       "primary_key": [
         "source_record_id"
       ],
@@ -754,7 +754,7 @@
       "absent_fields": [],
       "duplicate_key_excess": 0,
       "quality_status": "UNRESOLVED_REQUIRED_DATA",
-      "quality_reason": "Same-definition CGB 2014 quotes and 40 CNY trade periods unresolved; valid historical reconstructions remain usable independently.",
+      "quality_reason": "Same-definition CGB2014 quotes (245days x2tenors and245 derived spreads) and 14 CNY trade periods unresolved; valid historical reconstructions remain usable independently.",
       "required": true,
       "original_vintage_pit_certified": false,
       "source_definition": "config/data/macro_requirements.json",

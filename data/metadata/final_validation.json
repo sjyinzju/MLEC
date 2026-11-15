@@ -10,6 +10,12 @@
       "passed": true
     },
     {
+      "check": "index_daily:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "index_daily:unique_key",
       "actual": 0,
       "expected": 0,
@@ -17,6 +23,12 @@
     },
     {
       "check": "index_daily_basic:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "index_daily_basic:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -34,6 +46,12 @@
       "passed": true
     },
     {
+      "check": "stock_daily:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "stock_daily:unique_key",
       "actual": 0,
       "expected": 0,
@@ -41,6 +59,12 @@
     },
     {
       "check": "stock_daily_basic:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "stock_daily_basic:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -58,6 +82,12 @@
       "passed": true
     },
     {
+      "check": "stock_adjustment:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "stock_adjustment:unique_key",
       "actual": 0,
       "expected": 0,
@@ -65,6 +95,12 @@
     },
     {
       "check": "stock_master_history:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "stock_master_history:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -82,6 +118,12 @@
       "passed": true
     },
     {
+      "check": "stock_name_history:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "stock_name_history:unique_key",
       "actual": 0,
       "expected": 0,
@@ -89,6 +131,12 @@
     },
     {
       "check": "stock_trading_status:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "stock_trading_status:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -106,6 +154,12 @@
       "passed": true
     },
     {
+      "check": "index_constituents_history:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "index_constituents_history:unique_key",
       "actual": 0,
       "expected": 0,
@@ -113,6 +167,12 @@
     },
     {
       "check": "index_weights_history:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "index_weights_history:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -130,6 +190,12 @@
       "passed": true
     },
     {
+      "check": "trade_calendar:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "trade_calendar:unique_key",
       "actual": 0,
       "expected": 0,
@@ -137,6 +203,12 @@
     },
     {
       "check": "index_identity:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "index_identity:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -154,6 +226,12 @@
       "passed": true
     },
     {
+      "check": "stock_limits:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "stock_limits:unique_key",
       "actual": 0,
       "expected": 0,
@@ -161,6 +239,12 @@
     },
     {
       "check": "margin_market:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "margin_market:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -178,6 +262,12 @@
       "passed": true
     },
     {
+      "check": "margin_security:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "margin_security:unique_key",
       "actual": 0,
       "expected": 0,
@@ -185,6 +275,12 @@
     },
     {
       "check": "stock_moneyflow:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "stock_moneyflow:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -202,6 +298,12 @@
       "passed": true
     },
     {
+      "check": "exchange_activity_sh:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "exchange_activity_sh:unique_key",
       "actual": 0,
       "expected": 0,
@@ -209,6 +311,12 @@
     },
     {
       "check": "exchange_activity_sz:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "exchange_activity_sz:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -226,6 +334,12 @@
       "passed": true
     },
     {
+      "check": "stock_connect_top10:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "stock_connect_top10:unique_key",
       "actual": 0,
       "expected": 0,
@@ -233,6 +347,12 @@
     },
     {
       "check": "stock_dividend_events:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "stock_dividend_events:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -250,6 +370,12 @@
       "passed": true
     },
     {
+      "check": "market_data_quality:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "market_data_quality:unique_key",
       "actual": 0,
       "expected": 0,
@@ -257,6 +383,12 @@
     },
     {
       "check": "macro_facts:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "macro_facts:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -274,6 +406,12 @@
       "passed": true
     },
     {
+      "check": "macro_vintages:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "macro_vintages:unique_key",
       "actual": 0,
       "expected": 0,
@@ -281,6 +419,12 @@
     },
     {
       "check": "macro_release_events:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "macro_release_events:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -298,6 +442,12 @@
       "passed": true
     },
     {
+      "check": "macro_quality:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "macro_quality:unique_key",
       "actual": 0,
       "expected": 0,
@@ -305,6 +455,12 @@
     },
     {
       "check": "stock_code_changes:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "stock_code_changes:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -322,6 +478,12 @@
       "passed": true
     },
     {
+      "check": "stock_suspension_intervals:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "stock_suspension_intervals:unique_key",
       "actual": 0,
       "expected": 0,
@@ -329,6 +491,12 @@
     },
     {
       "check": "index_adjustment_events:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "index_adjustment_events:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -346,6 +514,12 @@
       "passed": true
     },
     {
+      "check": "stock_limit_rule_evidence:primary_key_nonnull",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
       "check": "stock_limit_rule_evidence:unique_key",
       "actual": 0,
       "expected": 0,
@@ -353,6 +527,12 @@
     },
     {
       "check": "stock_suspension_events:required_columns",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "stock_suspension_events:primary_key_nonnull",
       "actual": 0,
       "expected": 0,
       "passed": true
@@ -413,7 +593,7 @@
     },
     {
       "check": "szse:all_quantity_parent_formulas",
-      "actual": 6862,
+      "actual": 6372,
       "passed": true
     },
     {
@@ -446,22 +626,22 @@
     },
     {
       "check": "historical_reconstructed:all_feature_times_and_scopes",
-      "actual": 93924,
+      "actual": 94012,
       "passed": true
     },
     {
       "check": "conservative:all_feature_times_and_scopes",
-      "actual": 90671,
+      "actual": 90751,
       "passed": true
     },
     {
       "check": "quote_reconstructed:all_feature_times_and_scopes",
-      "actual": 93045,
+      "actual": 93125,
       "passed": true
     },
     {
       "check": "latest_at_retrieval:all_feature_times_and_scopes",
-      "actual": 90671,
+      "actual": 90751,
       "passed": true
     },
     {
@@ -470,193 +650,567 @@
       "passed": true
     },
     {
-      "check": "index_daily:primary_key_nonnull",
+      "check": "stock_daily_observations:open_exchange_dates",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "index_daily_basic:primary_key_nonnull",
+      "check": "stock_daily_observations:finite_required_quotes",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_daily:primary_key_nonnull",
+      "check": "index_daily:open_exchange_dates",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_daily_basic:primary_key_nonnull",
+      "check": "index_daily:finite_required_quotes",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_adjustment:primary_key_nonnull",
+      "check": "basic:2014:close_matches_quote",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_master_history:primary_key_nonnull",
+      "check": "basic:2014:total_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_name_history:primary_key_nonnull",
+      "check": "basic:2014:circ_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_trading_status:primary_key_nonnull",
+      "check": "basic:2014:turnover_rate:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "index_constituents_history:primary_key_nonnull",
+      "check": "basic:2014:turnover_rate_f:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "index_weights_history:primary_key_nonnull",
+      "check": "basic:2015:close_matches_quote",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "trade_calendar:primary_key_nonnull",
+      "check": "basic:2015:total_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "index_identity:primary_key_nonnull",
+      "check": "basic:2015:circ_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_limits:primary_key_nonnull",
+      "check": "basic:2015:turnover_rate:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "margin_market:primary_key_nonnull",
+      "check": "basic:2015:turnover_rate_f:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "margin_security:primary_key_nonnull",
+      "check": "basic:2016:close_matches_quote",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_moneyflow:primary_key_nonnull",
+      "check": "basic:2016:total_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "exchange_activity_sh:primary_key_nonnull",
+      "check": "basic:2016:circ_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "exchange_activity_sz:primary_key_nonnull",
+      "check": "basic:2016:turnover_rate:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_connect_top10:primary_key_nonnull",
+      "check": "basic:2016:turnover_rate_f:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_dividend_events:primary_key_nonnull",
+      "check": "basic:2017:close_matches_quote",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "market_data_quality:primary_key_nonnull",
+      "check": "basic:2017:total_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "macro_facts:primary_key_nonnull",
+      "check": "basic:2017:circ_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "macro_vintages:primary_key_nonnull",
+      "check": "basic:2017:turnover_rate:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "macro_release_events:primary_key_nonnull",
+      "check": "basic:2017:turnover_rate_f:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "macro_quality:primary_key_nonnull",
+      "check": "basic:2018:close_matches_quote",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_code_changes:primary_key_nonnull",
+      "check": "basic:2018:total_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_suspension_intervals:primary_key_nonnull",
+      "check": "basic:2018:circ_mv:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "index_adjustment_events:primary_key_nonnull",
+      "check": "basic:2018:turnover_rate:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_limit_rule_evidence:primary_key_nonnull",
+      "check": "basic:2018:turnover_rate_f:unflagged_identity_errors",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "stock_suspension_events:primary_key_nonnull",
+      "check": "basic:2019:close_matches_quote",
       "actual": 0,
       "expected": 0,
       "passed": true
     },
     {
-      "check": "custom_interface:three_horizons_three_labels_extensions_complete_transforms",
-      "actual": 9,
+      "check": "basic:2019:total_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
       "passed": true
     },
     {
-      "check": "membership:seven_monthly_snapshots_and_times",
-      "actual": 7,
+      "check": "basic:2019:circ_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2019:turnover_rate:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2019:turnover_rate_f:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2020:close_matches_quote",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2020:total_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2020:circ_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2020:turnover_rate:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2020:turnover_rate_f:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2021:close_matches_quote",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2021:total_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2021:circ_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2021:turnover_rate:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2021:turnover_rate_f:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2022:close_matches_quote",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2022:total_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2022:circ_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2022:turnover_rate:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2022:turnover_rate_f:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2023:close_matches_quote",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2023:total_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2023:circ_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2023:turnover_rate:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2023:turnover_rate_f:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2024:close_matches_quote",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2024:total_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2024:circ_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2024:turnover_rate:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2024:turnover_rate_f:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2025:close_matches_quote",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2025:total_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2025:circ_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2025:turnover_rate:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2025:turnover_rate_f:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2026:close_matches_quote",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2026:total_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2026:circ_mv:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2026:turnover_rate:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic:2026:turnover_rate_f:unflagged_identity_errors",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "csi1000:20151123:official_ohlc",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "csi1000:20160104:official_ohlc",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "sz2014:direct_quantity_fields",
+      "actual": 3675,
+      "expected": 3675,
+      "passed": true
+    },
+    {
+      "check": "sz2014:quantity_source_reconciliation",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "sz2014:monetary_scope_reconciliation",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "free_share_refreshes:applied_parent_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "ipo_free_share_basis:applied_parent_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "demerger_free_share_basis:applied_parent_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "free_turnover_derivations:applied_parent_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "cdr_unit_repairs:applied_parent_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "basic_close_field_repairs:applied_parent_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "restricted_share_repairs:applied_parent_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb_issuer_field_repairs:applied_parent_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:positive_repair_values",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:positive_overlap_and_sign",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:negative_semantics",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:issuer_formula_agreement",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:issuer_parent_not_future",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:issuer_common_equity_formula",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:issuer_specific_formula",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:late_corrections_explicitly_qualified",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "pb:late_corrections_count",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "check": "pb:publication_clock_not_backdated",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "mofcom_trade_repairs:admitted_records",
+      "actual": 18,
+      "expected": 18,
+      "passed": true
+    },
+    {
+      "check": "attributed_trade_repairs:admitted_records",
+      "actual": 8,
+      "expected": 8,
       "passed": true
     }
   ],
@@ -1022,18 +1576,18 @@
         "trade_date": 0,
         "close": 0,
         "turnover_rate": 0,
-        "turnover_rate_f": 16,
+        "turnover_rate_f": 0,
         "volume_ratio": 15571,
         "pe": 1764333,
         "pe_ttm": 2208514,
-        "pb": 75304,
+        "pb": 74510,
         "ps": 3827,
         "ps_ttm": 9146,
         "dv_ratio": 1194597,
         "dv_ttm": 3793486,
         "total_share": 0,
         "float_share": 0,
-        "free_share": 1228,
+        "free_share": 1212,
         "total_mv": 0,
         "circ_mv": 0,
         "limit_status": 0,
@@ -2166,10 +2720,10 @@
         "ts_code": 0,
         "count": 0,
         "amount": 0,
-        "vol": 13891,
-        "total_share": 18530,
+        "vol": 12666,
+        "total_share": 17550,
         "total_mv": 8048,
-        "float_share": 18530,
+        "float_share": 17550,
         "float_mv": 8048,
         "_row_hash": 1257,
         "_batch_id": 1257,
@@ -2379,7 +2933,7 @@
     },
     {
       "dataset_id": "market_data_quality",
-      "rows": 4535427,
+      "rows": 4535918,
       "authority_path": "data/standardized/market/v4/market_data_quality.parquet",
       "primary_key": [
         "quality_record_id"
@@ -2415,7 +2969,7 @@
     },
     {
       "dataset_id": "macro_facts",
-      "rows": 47717,
+      "rows": 47743,
       "authority_path": "data/standardized/macro/v4/macro_facts.parquet",
       "primary_key": [
         "source_record_id"
@@ -2498,22 +3052,22 @@
         "adjustment_note": 0,
         "original_series_id": 0,
         "original_value": 119,
-        "claimed_available_at": 13,
+        "claimed_available_at": 39,
         "evidence_path": 101,
         "source_class": 0,
         "publication_date_evidence": 105,
         "reported_quantum": 42072,
-        "extracted_text": 42348,
+        "extracted_text": 42374,
         "extraction_method": 45589,
-        "extraction_evidence": 47443,
+        "extraction_evidence": 47469,
         "parent_record_ids": 0,
         "concept_id": 0,
         "statistical_scope_id": 0,
         "source_id": 0,
         "certification_status": 0,
         "data_foundation_version": 0,
-        "reconstructed_quote_at": 44770,
-        "evidence_page": 47693,
+        "reconstructed_quote_at": 44796,
+        "evidence_page": 47719,
         "scope_definition_evidence": 46624,
         "dataset_id": 0,
         "quality_reason": 0,
@@ -2525,7 +3079,7 @@
     },
     {
       "dataset_id": "macro_vintages",
-      "rows": 47717,
+      "rows": 47743,
       "authority_path": "data/standardized/macro/v4/macro_vintages.parquet",
       "primary_key": [
         "source_record_id"
@@ -2563,7 +3117,7 @@
     },
     {
       "dataset_id": "macro_release_events",
-      "rows": 47717,
+      "rows": 47743,
       "authority_path": "data/standardized/macro/v4/macro_release_events.parquet",
       "primary_key": [
         "source_record_id"
@@ -2593,7 +3147,7 @@
     },
     {
       "dataset_id": "macro_quality",
-      "rows": 47717,
+      "rows": 47743,
       "authority_path": "data/standardized/macro/v4/macro_quality.parquet",
       "primary_key": [
         "source_record_id"
@@ -2910,7 +3464,7 @@
     {
       "quality": "historical_reconstructed",
       "information_set": "external",
-      "eligible_h20": 423
+      "eligible_h20": 431
     },
     {
       "quality": "historical_reconstructed",
@@ -2945,7 +3499,7 @@
     {
       "quality": "conservative",
       "information_set": "external",
-      "eligible_h20": 423
+      "eligible_h20": 431
     },
     {
       "quality": "conservative",
@@ -2980,7 +3534,7 @@
     {
       "quality": "quote_reconstructed",
       "information_set": "external",
-      "eligible_h20": 423
+      "eligible_h20": 431
     },
     {
       "quality": "quote_reconstructed",
@@ -3015,7 +3569,7 @@
     {
       "quality": "latest_at_retrieval",
       "information_set": "external",
-      "eligible_h20": 423
+      "eligible_h20": 431
     },
     {
       "quality": "latest_at_retrieval",

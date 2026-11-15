@@ -8,6 +8,8 @@
 - [宏观完整性简表](data/metadata/macro_completeness.parquet)
 - [字段字典](data/metadata/field_dictionary.parquet)
 - [历史重建与来源规则](data/metadata/practical_research_policy.json)
+- [v5 实验框架数据适配与接口验证](docs/experiment_framework.md)
+- [当前缺口及已关闭项目](data/metadata/remaining_gaps.json)
 
 金融市场数据在 `data/standardized/market/v4/`，宏观数据在 `data/standardized/macro/v4/`。目录中的 `v4` 是沿用的物理路径；权威路径和当前版本以注册表为准。
 

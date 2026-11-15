@@ -2,16 +2,127 @@
   "status": "UNRESOLVED_REQUIRED_DATA",
   "policy": "Do not invent values, average conflicts, splice distinct curves, or relabel required fields optional. Absence of original-vintage archives alone is not numeric missingness.",
   "required": [
-    {"dataset": "index_daily", "gap_type": "INCONSISTENT_SOURCE", "dates": ["000852.SH:20151123", "000852.SH:20160104"], "affected_fields": 3, "sources_checked": ["Local QuantData", "CSI public history", "Tencent", "Sohu", "Sina", "Eastmoney", "contemporary market reports"], "conclusion": "No accessible authoritative observation adjudicated the differing close/low values. Primary values preserved; dependent price windows masked.", "details": "data/metadata/index_price_conflicts.parquet"},
-    {"dataset": "stock_daily_basic", "gap_type": "MISSING_REQUIRED_FIELD", "fields": {"pb": 13936, "turnover_rate_f": 16}, "sources_checked": ["Local daily_basic and financial indicators", "targeted provider refresh for 281 securities", "same-day volume/free-share arithmetic"], "conclusion": "Refresh returned no additional values; remaining financial/share basis is insufficient for an exact repair. 61368 nonpositive-book-equity PB blanks are separately identified, not counted as these missing PB values."},
-    {"dataset": "stock_daily_basic", "gap_type": "INCONSISTENT_SOURCE", "field_exceptions": 2840, "sources_checked": ["Historical quotes", "daily_basic share and capitalization denominators", "source display precision", "targeted refresh"], "conclusion": "Remaining denominator discrepancies exceed the declared precision test; quarantine affected fields. Another 460960 field exceptions are precision-qualified, not independently certified.", "details": "data/standardized/market/v4/market_data_quality.parquet"},
-    {"dataset": "stock_daily_basic", "gap_type": "UNAVAILABLE", "fields_with_undefined_or_unavailable_values": {"pe": 1764333, "pe_ttm": 2208514}, "conclusion": "Provider PE omissions combine economically undefined ratios and unavailable inputs. The source does not distinguish them at every observation; do not classify all null PE values as structural. Exact structural-versus-missing counts remain unresolved; numeric completeness table conservatively displays the blanks."},
-    {"dataset": "macro_facts", "gap_type": "BROKEN_PERIOD", "series": ["cgb_1y", "cgb_10y", "term_spread_10y_1y"], "period": "2014-01-02/2014-12-31", "missing_each": 245, "sources_checked": ["Local standardized and QuantData histories", "CFETS/ChinaMoney historical curve endpoint", "ChinaBond history", "PBOC historical compilations"], "conclusion": "The registered CFETS 11:30 curve begins in 2015 in the obtainable history. ChinaBond is a different curve; monthly summaries cannot fill daily quotes. The 245 spread gaps follow from missing parent curves, not a separate download failure.", "details": "data/metadata/unresolved_macro_periods.parquet"},
-    {"dataset": "macro_facts", "gap_type": "MISSING_VALUE", "fields": {"exports_cny_yoy": 13, "imports_cny_yoy": 13, "exports_cny_ytd_yoy": 7, "imports_cny_ytd_yoy": 7}, "sources_checked": ["Existing macro data and peer collectors", "GAC historical monthly tables and statistics portal", "MOFCOM reproductions", "hgsj.com attributed monthly XLS tables"], "conclusion": "Required January/February monthly and January YTD observations exist in the publication regime; combined bulletins cannot substitute for individual months. Accessible materials did not yield verified same-scope amounts or rates; official requests were denied/reset and attributed workbook downloads were unavailable. Search snippets alone were not admitted.", "details": "data/metadata/unresolved_macro_periods.parquet"},
-    {"dataset": "exchange_activity_sz", "gap_type": "MISSING_REQUIRED_FIELD", "period": "2014", "missing_each": 245, "fields": ["股票:vol", "创业板A股:vol", "创业板A股:total_share", "创业板A股:float_share"], "sources_checked": ["Existing sz_daily_info", "official SZSE daily report", "daily_info alternate board statistics", "official monthly statistics for unit verification"], "conclusion": "Current official historical daily report has money/count columns only. Alternate 2014 board rows fail monetary scope reconciliation or have no volume. Monthly aggregates cannot reconstruct daily quantities. Stock-total share quantities and all monetary dates are available."}
+    {
+      "dataset": "stock_daily_basic",
+      "gap_type": "INCONSISTENT_SOURCE",
+      "field_exceptions": 2214,
+      "sources_checked": [
+        "Historical quotes and primary daily_basic quantities",
+        "Fresh primary API rereads",
+        "BaoStock turnover comparison (shared convention does not independently adjudicate denominator)",
+        "Issuer 689009 CDR listing prospectus pages 21/38; 1 underlying share = 10 CDRs",
+        "002563 registered re-lock announcement and2015 half-year opening share table:70m unrestricted,600m restricted;219 denominator exceptions adjudicated",
+        "001331 annual2025 andQ12026 filings: retrospective share count found but intervening director-lock/event effective dates not fully resolved"
+      ],
+      "conclusion": "393 exceptions closed after documented CDR-unit normalization and14 after independently verified quote/volume correction;219 more after issuer-registered re-locking fixed float shares and circulating cap. Residual disagreements remain beyond tight precision; no arbitrary equation-forced replacement. 460960 other field exceptions fit coarser share display precision only, not independent certification.",
+      "details": "data/standardized/market/v4/market_data_quality.parquet",
+      "fields": {
+        "circ_mv": 1331,
+        "total_mv": 574,
+        "turnover_rate": 95,
+        "turnover_rate_f": 214
+      },
+      "concrete_example": "001331.SZ20260106-20260428: float shares19712.7 versus circulating capitalization/turnover implied16787.17; issuer2025 annual report supports19712.7 but exact intervening lock-release clock remains unconfirmed. Other residuals include foreign-share scope, free-share changes and nontrivial provider precision."
+    },
+    {
+      "dataset": "stock_daily_basic",
+      "gap_type": "UNAVAILABLE",
+      "fields_with_undefined_or_unavailable_values": {
+        "pe": 1764333,
+        "pe_ttm": 2208514
+      },
+      "conclusion": "Provider PE omissions combine economically undefined ratios and unavailable inputs. The source does not distinguish them at every observation; do not classify all null PE values as structural. Exact structural-versus-missing counts remain unresolved; numeric completeness table conservatively displays the blanks."
+    },
+    {
+      "dataset": "macro_facts",
+      "gap_type": "BROKEN_PERIOD",
+      "series": [
+        "cgb_1y",
+        "cgb_10y",
+        "term_spread_10y_1y"
+      ],
+      "period": "2014-01-02/2014-12-31",
+      "missing_each": 245,
+      "sources_checked": [
+        "Local standardized and QuantData histories",
+        "CFETS/ChinaMoney historical curve endpoint",
+        "ChinaBond history",
+        "PBOC historical compilations",
+        "2026-11-15 official SddsIntrRateGovYldHis recheck: 2014 total=0; control January2015 total=21; HTTP200 for both",
+        "CFETS real-time and closing curve definitions reviewed; closing or ChinaBond curve is not the registered 11:30 mean"
+      ],
+      "conclusion": "The registered CFETS 11:30 curve begins in 2015 in the obtainable history. ChinaBond is a different curve; monthly summaries cannot fill daily quotes. The 245 spread gaps follow from missing parent curves, not a separate download failure.",
+      "details": "data/metadata/unresolved_macro_periods.parquet",
+      "official_endpoint": "https://www.chinamoney.org.cn/ags/ms/cm-u-bk-currency/SddsIntrRateGovYldHis"
+    },
+    {
+      "dataset": "macro_facts",
+      "gap_type": "MISSING_VALUE",
+      "fields": {
+        "exports_cny_yoy": 5,
+        "exports_cny_ytd_yoy": 2,
+        "imports_cny_yoy": 5,
+        "imports_cny_ytd_yoy": 2
+      },
+      "sources_checked": [
+        "Existing facts, peer collectors and E:/QuantData",
+        "GAC English preliminary yearly archives 2020/2022/2025 and formal monthly directories: Jan/Feb combined or USD only",
+        "GAC Chinese historical tables: HTTP412 challenge or HTTPS timeout",
+        "MOFCOM FDI official API: 28 narrowed catalogue searches, 59 RMB tables reviewed; national monthly/YTD distinctions verified",
+        "MOFCOM trade data centre: monthly table USD, unsuitable for RMB replacement",
+        "NBS national data tree: HTTP403 UrlACL",
+        "hgsj attributed XLS: HTTPS refused, HTTP placeholder rather than workbook",
+        "cndatatrading mobile/desktop and HTTP/HTTPS: HTTP502",
+        "Dated Chyxx national CNY reports: January2025 and2026 admitted; remaining target search did not yield verified monthly rates",
+        "UEQ February2025 report rejected: monthly amount falls versus prior year while rate copies +3.4% cumulative"
+      ],
+      "conclusion": "26 of40 missing periods supplied:18 official reproductions and8 dated attributed national CNY observations. Remaining14 require verified same-vintage monthly amounts/rates. No USD conversion, chart estimation, search-snippet admission or mixing cumulative growth with monthly growth.",
+      "details": [
+        "data/metadata/unresolved_macro_periods.parquet",
+        "data/metadata/mofcom_trade_catalogue.json",
+        "data/metadata/mofcom_trade_repairs.parquet",
+        "data/metadata/attributed_trade_repairs.parquet"
+      ],
+      "missing_periods": {
+        "exports_cny_yoy": [
+          "2020-01-31",
+          "2020-02-29",
+          "2022-01-31",
+          "2022-02-28",
+          "2025-02-28"
+        ],
+        "exports_cny_ytd_yoy": [
+          "2020-01-31",
+          "2022-01-31"
+        ],
+        "imports_cny_yoy": [
+          "2020-01-31",
+          "2020-02-29",
+          "2022-01-31",
+          "2022-02-28",
+          "2025-02-28"
+        ],
+        "imports_cny_ytd_yoy": [
+          "2020-01-31",
+          "2022-01-31"
+        ]
+      }
+    }
   ],
   "optional": [
-    {"dataset": "stock_moneyflow", "status": "UNAVAILABLE_OPTIONAL_DATA", "missing_traded_dates": 2558, "off_quote_rows_excluded": 82, "sources_checked": ["Local QuantData canonical history", "bounded security/date provider refresh", "alternate flow classifications"], "conclusion": "No additional comparable order-size moneyflow returned. DC/THS flow definitions were not silently mixed. Optional classification predates this completion task.", "details": "data/metadata/moneyflow_missing_dates.parquet"}
+    {
+      "dataset": "stock_moneyflow",
+      "status": "UNAVAILABLE_OPTIONAL_DATA",
+      "missing_traded_dates": 2558,
+      "off_quote_rows_excluded": 82,
+      "sources_checked": [
+        "Local QuantData canonical history",
+        "bounded security/date provider refresh",
+        "alternate flow classifications"
+      ],
+      "conclusion": "No additional comparable order-size moneyflow returned. DC/THS flow definitions were not silently mixed. Optional classification predates this completion task.",
+      "details": "data/metadata/moneyflow_missing_dates.parquet"
+    }
   ],
   "declared_precision_limits": [
     "Index weights are monthly snapshots, not exact daily weights. Seven indices have 140 snapshots each in 2015-01 through 2026-08; the 2014 warmup has no recovered snapshot weights.",
@@ -20,5 +131,93 @@
     "20062 adjustment-provider observations outside registered legal identity intervals are excluded, not fabricated price gaps. Every actual quote has a positive factor.",
     "SZSE nonstock category quantity units are not certified. Six verified monetary/share definitions apply to stock categories.",
     "Historical reconstruction does not imply that every later revision was observable in the original real-time vintage. Conservative documented release/quote clocks remain explicit."
+  ],
+  "version": "practical-research-data-v5",
+  "closed_or_reduced": [
+    {
+      "dataset": "index_daily",
+      "issue": "CSI1000 two dates / three flagged price fields",
+      "status": "CLOSED",
+      "basis": "Official CSI index-perf OHLC agrees with retained primary within 0.00501 index points; Tencent conflicts rejected; dependent extension windows restored",
+      "evidence": "data/metadata/index_price_conflicts.parquet"
+    },
+    {
+      "dataset": "exchange_activity_sz",
+      "issue": "2014 missing daily quantities",
+      "status": "CLOSED",
+      "basis": "Direct sz_daily_info 5 stock categories x245dates x3quantities=3675 source fields; count exact and all3monetary totals match official display precision",
+      "evidence": "data/metadata/szse_2014_quantity_repairs.parquet"
+    },
+    {
+      "dataset": "stock_daily_basic",
+      "issue": "PB",
+      "status": "CLOSED_WITH_HISTORICAL_QUALIFICATIONS",
+      "baseline_missing": 13936,
+      "remaining_missing": 0,
+      "numeric_values_added": 795,
+      "newly_quarantined_conflicts": 1,
+      "additional_structural_nonpositive": 13142,
+      "structural_total": 74510,
+      "evidence": [
+        "data/metadata/pb_denominator_basis.parquet",
+        "data/metadata/pb_alternative_basis.parquet",
+        "data/metadata/pb_issuer_financial_parents.parquet",
+        "data/metadata/pb_issuer_field_repairs.parquet"
+      ],
+      "qualification": "Four300312 PB values use the2020-05-11 corrected filing and are historical-restated only; never predictors before that publication. Other repairs retain source/issuer and same-day publication qualifications."
+    },
+    {
+      "dataset": "stock_daily_basic",
+      "issue": "free turnover",
+      "status": "CLOSED_NUMERIC_GAPS_WITH_SEPARATE_DENOMINATOR_MASK",
+      "baseline_missing": 16,
+      "remaining_missing": 0,
+      "values_added": 16,
+      "refreshed_share_parents": 6,
+      "ipo_notice_share_parents": 8,
+      "demerger_notice_share_parents": 2,
+      "evidence": [
+        "data/metadata/free_share_refreshes.parquet",
+        "data/metadata/ipo_free_share_basis.parquet",
+        "data/metadata/demerger_free_share_basis.parquet",
+        "data/metadata/free_turnover_derivations.parquet"
+      ],
+      "qualification": "Numeric gaps closed using observed volume and evidenced free-share parents. Independent non-null denominator exceptions remain separately masked."
+    },
+    {
+      "dataset": "stock_daily_basic",
+      "issue": "CDR denominators",
+      "status": "PARTIALLY_CLOSED",
+      "corrected_share_quantity_fields": 117,
+      "corrected_turnover_fields": 242,
+      "resolved_quality_exceptions": 393,
+      "remaining_all_security_exceptions": 2214,
+      "evidence": "data/metadata/cdr_unit_repairs.parquet"
+    },
+    {
+      "dataset": "macro_facts",
+      "issue": "CNY trade",
+      "status": "PARTIALLY_CLOSED",
+      "baseline_missing": 40,
+      "periods_added": 26,
+      "remaining_missing": 14
+    },
+    {
+      "dataset": "stock_daily_basic",
+      "issue": "Seven old quote corrections absent from the authority",
+      "status": "CLOSED_QUOTE_AND_ISSUER_PB",
+      "rows": 7,
+      "turnover_exceptions_resolved": 14,
+      "evidence": "data/metadata/basic_close_field_repairs.parquet",
+      "cause": "Old repair wrote superseded stock_daily_basic intermediate; current stock_daily_basic_observations still contained wrong source closes. Corrected authority and added full-population close equality and arithmetic residual checks."
+    },
+    {
+      "dataset": "stock_daily_basic",
+      "issue": "002563 registered re-lock",
+      "status": "CLOSED",
+      "field_repairs": 438,
+      "quality_exceptions_resolved": 219,
+      "evidence": "data/metadata/restricted_share_repairs.parquet"
+    }
   ]
 }

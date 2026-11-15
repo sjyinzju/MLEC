@@ -1,21 +1,43 @@
-# 统一模型与实验接口
+# v5 数据与实验框架接口
+
+唯一研究数据入口为 `scripts.final_data_foundation.research_inputs.load_dataset()`。实验框架仅作薄适配，不保存第二份研究数据，不重新生成标签、市场状态或时间折。
 
 ```python
-from scripts.experiment_framework.dataset import load_dataset
-from scripts.experiment_framework.models import RiskModel
-d = load_dataset('common_core_v1', 'M_plus_Z_core', 20, 'dev-2020', 'train')
-model = RiskModel('logistic', {'C': .1, 'penalty': 'l2'})
-model.fit(d.X, d.y, {'fit_cutoff': d.fold_metadata['fit_cutoff']})
+from scripts.experiment_framework.dataset import feature_registry, load_dataset
+
+sets = feature_registry(quality="historical_reconstructed")
+cohort = sets["M_plus_Z_core"]["sample_version"]
+z = load_dataset(cohort, "M_plus_Z_core", 20, "dev-2020", "train")
+m = load_dataset(cohort, "M", 20, "dev-2020", "train")
+assert m.metadata.sample_id.tolist() == z.metadata.sample_id.tolist()
+assert m.y.equals(z.y)
 ```
 
-Dataset 返回 X、y、样本元数据、特征名、真实特征可得时间、时间折元数据、数据/特征/协议哈希。读取时核验所有注册产物哈希，核对标签成熟、特征可得时间及 2023+ 隔离。元数据不混入 X。
+`Dataset` 返回 `X`、`y`、样本元数据、特征顺序、逐系列可得时间、时间折与内容哈希。`X` 只包含冻结市场白名单和所选宏观列；标签及其成熟时间不进入特征。H5/H20/H40、combined/vol/drawdown 读取冻结目标，不重算阈值。
 
-`RiskModel.fit/predict_proba/save/load` 对历史概率、Logistic、Random Forest、Gradient Boosting 共用。保存模型保留特征顺序；加载后预测逐值验证。单类别训练折及全常数输入回退训练期历史概率，并记录原因。没有 XGBoost 依赖，使用 sklearn GradientBoostingClassifier。
+14 个注册特征集覆盖 M、原核心七变量、增长/价格/信用/利率/外部组、全部变量及核心删组。核心删组共享完整核心样本掩码；每个 M 与 M+Z 配对必须使用同一个 `sample_version`。完整组与制度前不适用序列按 v5 掩码处理，不能自行删掉缺数据的必需变量。
 
-时间划分完全读取原 `fold_membership`。外层是 2020/2021/2022 三个年度扩展开发折；内层为外层训练集最近三个可行年度扩展折，训练标签必须在内层 cutoff 前完全成熟。超参按内层样本加权 Brier 选择，每个可调模型固定 4 个配置；随机种子 3059、CPU 单线程、RF 浅树。禁止随机拆分和 2023+ 参数选择。
+样本版本为 `v5:<quality>:<cohort>`，旧 `main_v1`、`common_core_v1` 不再接受。可选择 strict、conservative、quote_reconstructed、historical_reconstructed、latest_at_retrieval 五种质量视图。适配器默认 historical_reconstructed；底层通用入口默认 conservative，调用者应显式指定。历史重建不等于完整原始版本 PIT。
 
-主要概率是原生未校准概率。另在外层训练集的所选参数内层 OOF 上训练 sigmoid 校准器，仅作诊断列；这与超参选择共用了内层折，不应解释成完全独立校准验证。模型比较不能事后挑选哪个概率列更好。
+599 个候选时点全部保留在权威数据中；适配器仅返回资格掩码与冻结时间折交集。`eligible` 只要求最新合法观测满足契约，上一期和变化列可能为空；若需要所有转换齐全，显式设置 `require_complete_transforms=True`。没有隐式插值或填零。
 
-`experiments/registry/<run_id>.json` 记录配置、依赖、代码哈希、超参/每折选择证据、训练 ID、模型哈希和预测哈希。权重在 `artifacts/models/<run_id>/`，概率在 `experiments/predictions/`，指标/逐事件/可靠性/解释性结果在 `experiments/metrics/`。run_id 由配置、数据、代码和依赖身份构成；同身份重跑要求预测表逐值相同。不同版本结果保留，`latest.json` 指向当前交付。
+适配器只开放 `dev-2020`、`dev-2021`、`dev-2022` 的 train/validation。训练标签必须在对应 cutoff 前成熟；宏观来源时钟不能晚于样本 asof；2023+ 保持隔离。模型方法和超参数配置未在本轮运行。既有正式结果及 `experiments/registry/latest.json` 仍指向旧冻结成果，不能解释为 v5 实验结果。
 
-配置入口 `config/experiments/development.json`，FeatureSet Registry 独立于算法。更换组和算法不需另写处理流水线。外层运行自动为每个共同样本版本训练 M 基准，配对比较强制相同样本键、标签、cutoff、asof、协议和样本版本。
+数据维护后依次运行：
+
+```powershell
+python -m scripts.final_data_foundation.practical_readiness
+python -m scripts.final_data_foundation.research_inputs
+python -m scripts.final_data_foundation.completion_status
+python -m scripts.final_data_foundation.practical_validate
+python -m scripts.final_data_foundation.final_delivery
+python -m scripts.experiment_framework.validate_interface
+python -m pytest -q -p no:cacheprovider tests/experiment_framework/test_v5_data_interface.py
+python -m scripts.final_data_foundation.final_report
+```
+
+这些命令不训练模型或生成预测。完整检查和接口结果分别写入 `data/metadata/final_validation.json` 与 `experiment_interface_validation.json`；它们的 PASS 不会覆盖 `remaining_gaps.json` 的 UNRESOLVED 数据状态。`build-dataset` 只更新框架绑定和特征注册表；旧 `govern-macro` 写入入口已禁用。
+
+维护代码按缺口使用 `scripts/final_data_foundation/` 的定向修复器。2014 深交所、官方中证1000、PB、IPO自由流通股、存托凭证单位和价格修复均保留精简数值父记录。已删除的原始响应或中间表不属于当前读取依赖。
+
+PB的发行人复核先调用`pb_alternative_repair.apply()`，再调用`pb_issuer_repair.apply_remaining()`；不要仅为重应用已有父值重新运行下载收集器。追加限售和分立上市自由流通量分别由`restricted_share_repair`、`demerger_free_share_repair`维护。4条更正财报PB仅为历史重建，其后置可得时间不允许进入早于更正披露的预测特征。

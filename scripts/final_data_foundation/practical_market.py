@@ -31,18 +31,16 @@ def classify_nonpositive_book_equity():
     quality = pd.read_parquet(quality_path)
     prior_status = ['BLOCKED_MISSING_REQUIRED_FIELD', 'STRUCTURAL_NONPOSITIVE_BOOK_EQUITY']
     missing = quality[quality.field.eq('pb') & quality.quality_status.isin(prior_status)].copy()
-    c = duckdb.connect(str(SOURCE/'quant.duckdb'), read_only=True)
+    c = db()
     try:
-        c.execute("SET memory_limit='3GB'")
-        c.execute('SET threads=2')
-        c.execute('SET temp_directory='+qs(ROOT/'audit/temp'))
+        c.execute('ATTACH '+qs(SOURCE/'quant.duckdb')+' AS financial_source (READ_ONLY)')
         c.register('missing_pb', missing)
         c.execute('''CREATE TEMP TABLE financial_timeline AS WITH history AS (
           SELECT ts_code,ann_date,arg_max(
             struct_pack(bps:=bps,report_end:=end_date,published:=ann_date,parent_id:=_row_hash),
             struct_pack(period:=end_date,published:=ann_date,captured:=_ingested_at,hash:=_row_hash))
             OVER(PARTITION BY ts_code ORDER BY ann_date RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) p
-          FROM canonical_fina_indicator
+          FROM financial_source.canonical_fina_indicator
           WHERE ts_code IN (SELECT DISTINCT ts_code FROM missing_pb) AND bps IS NOT NULL AND end_date<=ann_date
         ) SELECT DISTINCT ts_code,ann_date,p FROM history''')
         matched = c.execute('''SELECT q.quality_record_id,q.ts_code,q.trade_date,
@@ -52,7 +50,13 @@ def classify_nonpositive_book_equity():
     finally:
         c.close()
     age = (pd.to_datetime(matched.trade_date)-pd.to_datetime(matched.report_end)).dt.days
-    usable = matched[matched.bps.le(0) & age.between(0,150)].copy()
+    # A latest Q3 statement routinely remains the latest disclosed statement
+    # until the following annual-report deadline. A blanket 150-day fiscal-age
+    # rule falsely classified these nonpositive-equity PBs as data gaps.
+    period = pd.to_datetime(matched.report_end)
+    annual_deadline = pd.to_datetime((period.dt.year+1).astype('Int64').astype(str)+'-04-30', errors='coerce')
+    q3_current = period.dt.month.eq(9) & period.dt.day.eq(30) & pd.to_datetime(matched.trade_date).le(annual_deadline)
+    usable = matched[matched.bps.le(0) & (age.between(0,150) | q3_current)].copy()
     assert (usable.publication_date < usable.trade_date).all()
     assert not usable.quality_record_id.duplicated().any()
     basis_path = ROOT/'data/metadata/pb_denominator_basis.parquet'
@@ -60,18 +64,47 @@ def classify_nonpositive_book_equity():
     basis['source'] = 'TuShare fina_indicator via E:/QuantData read-only canonical view'
     basis['source_url'] = 'https://tushare.pro/document/2?doc_id=79'
     basis['quality'] = 'historical_reconstructed; financial revisions are not original PIT vintages'
+    basis['q3_validity_basis'] = 'https://www.csrc.gov.cn/csrc/c100028/c1002922/content.shtml; latest disclosed Q3 may remain current through next April 30 annual-report deadline'
     frame(basis_path,basis)
     positions = quality.quality_record_id.isin(usable.quality_record_id)
     quality.loc[positions,'quality_status'] = 'STRUCTURAL_NONPOSITIVE_BOOK_EQUITY'
     parent = usable.set_index('quality_record_id').financial_parent_id
     quality.loc[positions,'quality_reason'] = quality.loc[positions,'quality_record_id'].map(parent).map(
         lambda p: 'Positive-book-equity valuation convention: PB not meaningful when latest reported BPS<=0; '
-        'report disclosed before trade date, fiscal age<=150 days; value remains NULL. '
+        'report disclosed before trade date, fiscal age<=150 days or latest Q3 before next annual-report deadline; value remains NULL. '
         'Financial history reconstructed, parent='+p)
     quality.loc[positions,'evidence_path'] = basis_path.relative_to(ROOT).as_posix()
     frame(quality_path,quality)
     print('PB_STRUCTURAL',len(usable),'REMAINING_MISSING',len(missing)-len(usable),flush=True)
     return len(usable)
+
+
+def refresh_missing_free_shares():
+    """Refresh the missing parent, even when the API ratio remains NULL."""
+    from .provider import client
+    c=db();adapter,catalog=client();rows=[]
+    missing=c.execute('SELECT * FROM read_parquet(?) WHERE turnover_rate_f IS NULL AND free_share IS NULL',
+        [str(MARKET/'stock_daily_basic_observations/*.parquet')]).df()
+    for row in missing.itertuples(index=False):
+        reply=adapter.fetch(catalog['daily_basic'],{'ts_code':row.ts_code,'trade_date':row.trade_date})
+        data=pd.DataFrame(reply.rows,columns=reply.fields)
+        data=data[data.ts_code.eq(row.ts_code)&data.trade_date.eq(row.trade_date)] if len(data) else data
+        if len(data)!=1:continue
+        value=data.iloc[0]
+        if not (pd.notna(value.free_share) and 0<value.free_share<=row.float_share<=row.total_share
+                and abs(value.close-row.close)<.00001 and abs(value.float_share-row.float_share)<=.001):continue
+        rows.append(dict(source_record_id=row.source_record_id,ts_code=row.ts_code,trade_date=row.trade_date,
+            value=value.free_share,retrieved_at=reply.fetched_at,source_url='https://tushare.pro/document/2?doc_id=32',
+            field='free_share',unit='10000 shares'))
+    if rows:
+        repairs=pd.DataFrame(rows);path=ROOT/'data/metadata/free_share_refreshes.parquet'
+        old=pd.read_parquet(path) if path.exists() else repairs.iloc[:0]
+        frame(path,pd.concat([old,repairs],ignore_index=True).drop_duplicates('source_record_id'))
+        c.register('repairs',repairs)
+        for year in repairs.trade_date.str[:4].unique():
+            p=MARKET/'stock_daily_basic_observations'/(year+'.parquet')
+            copy_query(c,'SELECT b.* REPLACE(coalesce(b.free_share,r.value) AS free_share) FROM read_parquet('+qs(p)+') b LEFT JOIN repairs r USING(source_record_id) ORDER BY b.instrument_id,b.trade_date',p)
+    c.close();return len(rows)
 
 
 def fill_free_turnover():

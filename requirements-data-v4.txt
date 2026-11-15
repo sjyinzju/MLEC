@@ -1,4 +1,4 @@
-# Data-only replay dependencies. Model packages are not required by the v4 runner.
+# v5 data maintenance dependencies (physical paths retain v4).
 numpy==2.4.4
 pandas==3.0.2
 pyarrow==23.0.1
@@ -9,3 +9,5 @@ beautifulsoup4==4.14.3
 openpyxl==3.1.5
 xlrd==2.0.2
 pypdf==6.6.2
+curl_cffi==0.14.0
+baostock==0.9.1

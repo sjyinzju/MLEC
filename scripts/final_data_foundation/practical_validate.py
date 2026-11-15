@@ -71,6 +71,8 @@ def build():
     keep=read(ROOT/'data/metadata/frozen_integrity_hashes.json')
     for p,meta in keep.items():assert sha(ROOT/p)==meta['sha256'],p
     checks.append(dict(check='frozen:content_hashes',actual=len(keep),passed=True))
+    from .validate_repairs import validate
+    validate(c,check)
     write(ROOT/'data/metadata/final_validation.json',{'version':'practical-research-data-v5',
         'technical_checks_passed':True,'data_completeness_separately_assessed':True,
         'checks':checks,'tables':tables,'eligibility':eligibility,

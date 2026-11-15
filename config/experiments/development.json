@@ -1,7 +1,9 @@
 {
-  "version": "development-v1",
+  "version": "development-v5-data-binding",
   "stage": "development",
-  "sample_version": "main_v1",
+  "sample_version": "v5:historical_reconstructed:M",
+  "data_version": "practical-research-data-v5",
+  "macro_quality": "historical_reconstructed",
   "horizon": 20,
   "folds": ["dev-2020", "dev-2021", "dev-2022"],
   "feature_sets": ["M", "M_plus_Z_core", "M_plus_Z_growth", "M_plus_Z_prices", "M_plus_Z_credit", "M_plus_Z_rates_fx", "M_plus_Z_external", "M_plus_Z_full_eligible", "M_plus_Z_core_without_prices", "M_plus_Z_core_without_growth", "M_plus_Z_core_without_credit", "M_plus_Z_core_without_rates_fx"],
