@@ -1,0 +1,32 @@
+{
+  "version": "data-tasks-v1",
+  "markets": [
+    "000985.SH",
+    "000300.SH",
+    "000905.SH",
+    "000852.SH"
+  ],
+  "information_sets": [
+    "M",
+    "M+Z",
+    "M+Z_growth",
+    "M+Z_prices",
+    "M+Z_credit",
+    "M+Z_rates",
+    "M+Z_external",
+    "M+Z_without_growth",
+    "M+Z_without_prices",
+    "M+Z_without_credit",
+    "M+Z_without_rates",
+    "M+Z_without_external"
+  ],
+  "targets": [
+    "classification",
+    "probability",
+    "regression"
+  ],
+  "schedule": "monthly train/validation-or-test plus initial mature train",
+  "models": null,
+  "run": "python -m scripts.market_state.run preflight",
+  "task_count": 24048
+}

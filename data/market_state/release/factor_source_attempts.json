@@ -1,0 +1,197 @@
+[
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "trade_date": "20260922",
+      "limit": 5000,
+      "offset": 0
+    },
+    "request_id": "164564a77c4b6a9d32b07bb5e30a9a699720be13616fc1717267d519493d32b9",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:02.397513+08:00",
+    "status": "ok",
+    "rows": 5000,
+    "path": "data/raw/market/provider_supplements/v4/objects/39a5db105414a06f755c55d7d85779e73ae6ce5942dd8cbf5adb9792337f78a6.json",
+    "sha256": "4b5c0695763c31e1cecf70ae0e493697e27d2042ada1a41d35cd7998c0d587bd"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "trade_date": "20260922",
+      "limit": 5000,
+      "offset": 5000
+    },
+    "request_id": "6160c206069b7ea06ef7e1a2f48eef931aa5ff9b2281bc7f65080ec891b314db",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:03.105051+08:00",
+    "status": "ok",
+    "rows": 567,
+    "path": "data/raw/market/provider_supplements/v4/objects/d68f27250eef186abce99a9f40a96cf92e59f90717b123e1a66fca4f266ecb2c.json",
+    "sha256": "7fd4152f562a93b63154da13502d0486c59fa0105700bde93765f95f4b6b99d5"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920047.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "63ab37ba871d110cf5058c3d0fcd77ed4a82d38cae1b82b9acb6cf15742e8253",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:03.202585+08:00",
+    "status": "ok",
+    "rows": 1222,
+    "path": "data/raw/market/provider_supplements/v4/objects/76288736dbc04e12694be4336b4869a206500c3115f996027c09889d2d079a7a.json",
+    "sha256": "dd0f787bb5c1e0241bdc3c3e244a6a9f7deaa431c008a17b25f2f61859fc41ca"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920145.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "c4e906f378ac536864ff0510a979c54764d1d80427bfe5484988aca498a24a3d",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:03.692743+08:00",
+    "status": "ok",
+    "rows": 1212,
+    "path": "data/raw/market/provider_supplements/v4/objects/23f9d08334b1c65dccf76a6ae6b3ac2dcb53f1ef4cb110b6400881f0028b43db.json",
+    "sha256": "64ceee2918b82740de055c83bf0bfe583962fb0ed668f9f7de9d541cf17f86df"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920199.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "db52841705206e7127af2a3752602995956d78264d72763841471c79b112d431",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:04.194090+08:00",
+    "status": "ok",
+    "rows": 957,
+    "path": "data/raw/market/provider_supplements/v4/objects/8bd921b90403da18a86031fa69e1b65e8cacb112add06f91a109df4610ba0307.json",
+    "sha256": "3ed113401a658fc720ea92209c1c5ecbb4f567bb2a09a384f3ed3ae19ffb5dc5"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920227.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "a380f1eb046d31cabf0324e815bf87720078ce62f27b1d5b1102b6c3d3265a98",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:04.680795+08:00",
+    "status": "ok",
+    "rows": 938,
+    "path": "data/raw/market/provider_supplements/v4/objects/4e7f1bbc8e8367252f69e3edcddff7831b0bea09914adbc51144874b693cd370.json",
+    "sha256": "170f62af310c599b92f2070cc2f871b7a78562fa19254d7659cf4bc24d9166f4"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920242.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "7ec1f9ab2d87ebdf27fa9d331269ebd97e17921d47c29a36e9a42b2d3eeb3f40",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:05.194307+08:00",
+    "status": "ok",
+    "rows": 1222,
+    "path": "data/raw/market/provider_supplements/v4/objects/66dc45289c97f00a4be444cabb03d61e76b2e8b9d1a59bdbd5706861e5690b31.json",
+    "sha256": "1de4bbfba73cb314cf7433a3266429a38a4db3fc6322579b6308bc22e571db47"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920339.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "7104638765b89ae242b3a6236ae41501b4f0c200e7a688488cecb3f60c01b0db",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:05.746386+08:00",
+    "status": "ok",
+    "rows": 967,
+    "path": "data/raw/market/provider_supplements/v4/objects/2be0355ebca15078d9fb559f162a35eb2f0b39c51321b2e1432a599798240b97.json",
+    "sha256": "64d76b540b7935d36594f6a91aa46a21c7fc4fb3c45bb8270b5d14f64facab38"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920427.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "4c2f4720bcec0b405c271c099f17409561767d5b1f9f71b20f8fbce274759d9e",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:06.188899+08:00",
+    "status": "ok",
+    "rows": 1222,
+    "path": "data/raw/market/provider_supplements/v4/objects/36d80aeef8587dac5f74f2ebf5f0a26f6818c8317908cd77b7b10c520d60cef6.json",
+    "sha256": "801d619916afd3c0ca79d788684289169f1ec24b91478be5b869474c38d62d00"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920656.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "d1ce7a660e993cfb30b0bfa223ded71215dd96c1800558e1f3fed67facefa079",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:06.725369+08:00",
+    "status": "ok",
+    "rows": 670,
+    "path": "data/raw/market/provider_supplements/v4/objects/256cd6da01f874820d31a7fcce5dd52e12f49bfb00feddb6371f00cf1a27abd6.json",
+    "sha256": "af4146fd2242fc405c93974a16b3cdf79d2eaa3e18d4eea01777c36597407401"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920751.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "952b20dfb702426bf614df4da3de54ab7897c08d70ea4b94251ae506e743c575",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:07.353999+08:00",
+    "status": "ok",
+    "rows": 807,
+    "path": "data/raw/market/provider_supplements/v4/objects/1774d469383f66c8db826c471cb47ede0d7e39ed81613ebbff65d0cb16ef031f.json",
+    "sha256": "a7002726d324a85f9d3f7b001e89a94dce5f68bfbcf4b874afb5302311a1f518"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920892.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "be77f696c1d5192fd427de5e323848c076cf0de57c7135b2cf6d0fd9c1a04576",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:07.680022+08:00",
+    "status": "ok",
+    "rows": 1222,
+    "path": "data/raw/market/provider_supplements/v4/objects/4d4794fcc68a0ba548023de1c0f80c2b90cfc0ee40c3e44e6ba7184bb2135b4b.json",
+    "sha256": "3b5db31dbdfe018f55c4263cf6ba25eaf4fcd6178c0a04a6fc55930ec24c7526"
+  },
+  {
+    "endpoint": "adj_factor",
+    "params": {
+      "ts_code": "920957.BJ",
+      "start_date": "20211101",
+      "end_date": "20261113"
+    },
+    "request_id": "0d7dbde1f9f337c5d66eb26ea7f0f516a176b0b1390d8b2e8926a289ec7c99fe",
+    "source": "https://api.tushare.pro",
+    "retrieved_at": "2026-11-16T18:28:08.212320+08:00",
+    "status": "ok",
+    "rows": 948,
+    "path": "data/raw/market/provider_supplements/v4/objects/2c4d99b8385f3ab3f203ac79a1ed8685e664d19603c620914bab901f7658a054.json",
+    "sha256": "1a06940ec9bbf0b29f23f0d0425cde3fa39d5f4d0c5bd7837e7a106164066a5f"
+  }
+]

@@ -35,161 +35,164 @@ def field_definition(col,specs):
     return 'metadata or original source unit','Explicit key, source field or coverage flag; see schema and generating function'
 
 def report():
+    from .release import RELEASE,cutoff,file_hash
     REPORT.mkdir(parents=True,exist_ok=True)
-    manifest=read('sample_manifest');daily=read('market_daily');targets=read('supervised_targets')
+    f=read('supervised_targets');m=read('sample_manifest');folds=read('fold_membership')
+    spec=json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
+    policy=json.loads((OUT/'missing_policy.json').read_text(encoding='utf8'))
     dictionary=json.loads((OUT/'state_dictionary/dictionary.json').read_text(encoding='utf8'))
-    profiles=read('state_dictionary/profiles');candidates=read('state_dictionary/candidates')
-    coverage=manifest.groupby(['market_id','period']).agg(candidate_weeks=('eligible','size'),continuous_valid=('continuous_valid','sum'),
-        categorical_valid=('class_valid','sum'),history_valid=('history_valid','sum'),paired_eligible=('eligible','sum'),boundary_score_eligible=('evaluation_eligible','sum')).reset_index()
+    profiles=read('state_dictionary/profiles');audit=read('release/macro_period_audit')
+    refitted=dictionary.get('fit_event',{}).get('training_input_changed',False)
+    dictionary_action='本轮修复后的初始核心输入指纹改变，已按相同候选、时间验证与重采样规则重新拟合和选择字典，并重建全部标签和当前状态。' if refitted else '本轮初始训练七项核心输入逐值/指纹未变，复用原拟合和选择；修复的最差累计收益为辅助指标，不参与GMM，已重算画像并更新目标版本。'
+    coverage=m.groupby(['market_id','period']).agg(candidate_weeks=('eligible','size'),continuous_valid=('continuous_valid','sum'),
+        class_valid=('class_valid','sum'),paired_eligible=('eligible','sum'),score_boundary_valid=('evaluation_eligible','sum')).reset_index()
     coverage.to_csv(REPORT/'weekly_coverage.csv',index=False,encoding='utf8')
-    annual=manifest.assign(year=manifest.asof_date.dt.year).groupby(['market_id','year']).agg(candidate_weeks=('eligible','size'),continuous_valid=('continuous_valid','sum'),categorical_valid=('class_valid','sum'),eligible=('eligible','sum')).reset_index()
+    annual=m.assign(year=m.asof_date.dt.year).groupby(['market_id','year']).agg(candidate_weeks=('eligible','size'),continuous_valid=('continuous_valid','sum'),class_valid=('class_valid','sum')).reset_index()
     annual.to_csv(REPORT/'annual_coverage.csv',index=False,encoding='utf8')
-    miss=manifest[~manifest.eligible].groupby(['market_id','period','eligibility_reason']).size().reset_index(name='weeks')
-    miss.to_csv(REPORT/'missing_labels.csv',index=False,encoding='utf8')
-    dc=daily.assign(year=daily.date.dt.year).groupby(['market_id','year']).agg(days=('date','size'),min_members=('members','min'),
-        min_quote_coverage=('quote_coverage','min'),mean_quote_coverage=('quote_coverage','mean'),min_float_coverage=('float_coverage','min'),
-        min_return_coverage=('return_coverage','min'),max_unexplained_unquoted_fraction=('unexplained_unquoted_fraction','max')).reset_index()
-    dc.to_csv(REPORT/'cross_section_coverage.csv',index=False,encoding='utf8')
-    # Actual remaining field gaps, with security/date counts and reasons. No
-    # missing return is assumed to be a zero or a confirmed suspension.
-    master=read('security_history');gaprows=[]
-    from .sources import load_suspensions
-    c=db();c.register('history',master);c.register('calendar',read('calendar'));c.register('confirmed',load_suspensions(master))
-    unknown=c.execute("""SELECT h.instrument_id,h.ts_code,cal.date,'NO_QUOTE_NO_CONFIRMED_SUSPENSION' reason
-       FROM history h JOIN calendar cal ON cal.date>=h.valid_from AND cal.date<h.valid_to
-       LEFT JOIN read_parquet(?) q ON q.instrument_id=h.instrument_id AND q.date=cal.date
-       LEFT JOIN confirmed s ON s.instrument_id=h.instrument_id AND s.date=cal.date
-       WHERE q.instrument_id IS NULL AND s.instrument_id IS NULL ORDER BY h.ts_code,cal.date""",[str(OUT/'cache/stocks/*.parquet')]).df()
-    frame('coverage/unexplained_quote_gaps',unknown);c.close()
-    unknown_summary=unknown.groupby('ts_code').agg(security_dates=('date','size'),start=('date','min'),end=('date','max')).reset_index()
-    unknown_summary.to_csv(REPORT/'unexplained_quote_gaps.csv',index=False,encoding='utf8')
-    for p in sorted((OUT/'cache/stocks').glob('*.parquet')):
-        d=pd.read_parquet(p,columns=['instrument_id','date','adj_factor','float_shares','volume_shares','amount_cny','r'])
-        for field,mask in [('adjustment_factor',d.adj_factor.isna()),('float_shares',d.float_shares.isna()&d.volume_shares.gt(0)),('CNY_amount',d.amount_cny.isna()&d.volume_shares.gt(0))]:
-            q=d[mask]
-            if len(q):gaprows.append(dict(field=field,year=int(p.stem),security_dates=len(q),securities=q.instrument_id.nunique(),start=q.date.min(),end=q.date.max(),impact='excluded from affected daily estimator; coverage retained'))
-        # Keep exact IDs only for the small mandatory-field gap set.
-        q=d[d.adj_factor.isna()|(d.float_shares.isna()&d.volume_shares.gt(0))|(d.amount_cny.isna()&d.volume_shares.gt(0))]
-        if len(q):frame('coverage/field_gaps_'+p.stem,q)
-    gaps=pd.DataFrame(gaprows,columns=['field','year','security_dates','securities','start','end','impact'])
-    gaps.to_csv(REPORT/'required_field_gaps.csv',index=False,encoding='utf8')
-    lin=read('macro/historical_reconstructed/lineage')
-    macro=lin.groupby(['series_group','series_id','status']).agg(weeks=('asof_date','size'),start=('asof_date','min'),end=('asof_date','max')).reset_index()
-    macro.to_csv(REPORT/'macro_coverage.csv',index=False,encoding='utf8')
-    oldgaps=pd.read_parquet(ROOT/'data/metadata/unresolved_macro_periods.parquet')
-    oldgaps.to_csv(REPORT/'macro_source_period_gaps.csv',index=False,encoding='utf8')
-    snapshots=read('membership_snapshots').groupby('index_code').agg(start=('snapshot_date','min'),end=('snapshot_date','max'),snapshots=('snapshot_date','nunique'),rows=('con_code','size')).reset_index()
-    snapshots.to_csv(REPORT/'membership_coverage.csv',index=False,encoding='utf8')
-    counts=targets.groupby(['market_id','future_state_id'],dropna=False).size().reset_index(name='weeks')
-    counts.to_csv(REPORT/'class_counts.csv',index=False,encoding='utf8')
-    # Replace stale global bindings while preserving source/correction metadata.
-    regpath=ROOT/'data/metadata/dataset_registry.json';reg=json.loads(regpath.read_text(encoding='utf8'))
-    source_datasets=[r for r in reg.get('datasets',[]) if r.get('domain') in ['M','Z'] and r.get('authority_path','').startswith('data/standardized/')]
-    products=[];fields=[]
-    specs={s['series_id']:s for s in json.loads((OUT/'macro/specifications.json').read_text(encoding='utf8'))}
-    for name in ['security_history','membership_snapshots','index_prices','market_daily','market_features','future_window_outcomes','supervised_targets','sample_manifest','time_splits','fold_membership','current_states','macro/historical_reconstructed/features','macro/historical_reconstructed/lineage','state_dictionary/profiles','state_dictionary/candidates']:
-        q=read(name);products.append(dict(dataset_id=name,authority_path='data/market_state/'+name+'.parquet',rows=len(q),version=VERSION,
-            primary_key=KEY if set(KEY)<=set(q) and not q.duplicated(KEY).any() else None))
+    monthly=folds.groupby(['market_id','fold_id','role']).size().reset_index(name='rows')
+    monthly.to_csv(REPORT/'monthly_fold_counts.csv',index=False,encoding='utf8')
+    excluded=m[~m.eligible].groupby(['market_id','period','eligibility_reason']).size().reset_index(name='rows')
+    excluded.to_csv(REPORT/'sample_exclusions.csv',index=False,encoding='utf8')
+    audit.to_csv(REPORT/'macro_period_audit.csv',index=False,encoding='utf8')
+    pd.DataFrame(policy['series']).to_csv(REPORT/'macro_series_decisions.csv',index=False,encoding='utf8')
+    macro=read('macro/historical_reconstructed/lineage')
+    macro.groupby(['series_group','series_id','status']).agg(weeks=('asof_date','size'),start=('asof_date','min'),end=('asof_date','max')).reset_index().to_csv(REPORT/'macro_coverage.csv',index=False,encoding='utf8')
+    values=read('macro/historical_reconstructed/features');warm=[]
+    for sid in ['cgb_1y','cgb_10y','term_spread_10y_1y']:
+        for suffix in ['latest','change_5obs','change_20obs','vol_20obs']:
+            col='macro__'+sid+'__'+suffix;dates=values.loc[values.asof_date.dt.year.eq(2015)&values[col].isna(),'asof_date']
+            warm.append(dict(series_id=sid,feature=col,missing_prediction_weeks=len(dates),dates=json.dumps(dates.astype(str).tolist()),decision='TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation'))
+    pd.DataFrame(warm).to_csv(REPORT/'cgb_warmup_impact.csv',index=False,encoding='utf8')
+    counts=f.groupby(['market_id','future_state_id'],dropna=False).size().reset_index(name='weeks');counts.to_csv(REPORT/'class_counts.csv',index=False,encoding='utf8')
+    daily=read('market_daily');daily.groupby('market_id').agg(min_quote_coverage=('quote_coverage','min'),min_float_coverage=('float_coverage','min'),max_unknown_unquoted=('unexplained_unquoted_fraction','max')).reset_index().to_csv(REPORT/'cross_section_coverage.csv',index=False,encoding='utf8')
+    products=[];fields=[];specs={s['series_id']:s for s in json.loads((OUT/'macro/specifications.json').read_text(encoding='utf8'))}
+    names=['security_history','membership_snapshots','index_prices','calendar','market_daily','market_features','future_window_outcomes','past_window_outcomes',
+        'supervised_targets','current_states','sample_manifest','time_splits','fold_membership','macro/historical_reconstructed/features',
+        'macro/historical_reconstructed/lineage','state_dictionary/profiles','state_dictionary/candidates','data_tasks']
+    for name in names:
+        path=OUT/(name+'.parquet')
+        if not path.exists():continue
+        q=read(name)
+        key=KEY if set(KEY)<=set(q) and not q.duplicated(KEY).any() else ['fold_id','role']+KEY if name=='fold_membership' else ['market_id','asof_date','horizon','window_length'] if name=='past_window_outcomes' else ['asof_date'] if name.endswith('/features') else None
+        products.append(dict(dataset_id=name,authority_path=path.relative_to(ROOT).as_posix(),rows=len(q),primary_key=key,version=VERSION))
         for col in q:
-            definition=field_definition(col,specs)
-            fields.append(dict(dataset_id=name,field=col,dtype=str(q[col].dtype),unit=definition[0],definition=definition[1],version=VERSION))
+            unit,definition=field_definition(col,specs)
+            role='target' if name in ['future_window_outcomes','supervised_targets'] and col in CORE+['future_state_id'] or col.startswith('future_state_prob_') else 'input' if col in spec['sets']['M+Z'] and name in ['market_features','macro/historical_reconstructed/features'] else 'source_or_metadata'
+            fields.append(dict(dataset_id=name,field=col,dtype=str(q[col].dtype),unit=unit,definition=definition,role=role,
+                formal_input=role=='input',nominal_category=col=='current_state_id' or col.startswith('current_state_id_lag'),version=VERSION))
     frame('field_dictionary',pd.DataFrame(fields))
-    write(regpath,dict(version=VERSION,protocol='docs/MLEC_research_protocol.md',interface='scripts.market_state.framework.load_dataset',
-        rebuild='python -m scripts.market_state.run build',research_products=products,datasets=source_datasets,
+    registry_path=ROOT/'data/metadata/dataset_registry.json';old=json.loads(registry_path.read_text(encoding='utf8'))
+    sources=old.get('datasets',[])
+    write(registry_path,dict(version=VERSION,interface='scripts.market_state.framework.load_dataset',protocol='docs/MLEC_research_protocol.md',
+        research_products=products,datasets=sources,label_version=dictionary['label_version'],target_version=spec['target_version'],feature_version=spec['feature_version'],
+        missing_policy_version=policy['policy_version'],input_snapshot='data/market_state/release/input_snapshot.json',
         objects={'market_universe':'data/market_state/market_universe.json','state_dictionary':'data/market_state/state_dictionary/dictionary.json',
-                 'macro_features':'data/market_state/macro/historical_reconstructed/features.parquet'},
-        label_version=dictionary['label_version'],source_layer_policy='Preserved reconstructed source layers with independent schema and correction evidence; sole research authority data/market_state',
-        source_registry='data/metadata/source_registry.parquet',feature_sets='data/market_state/feature_sets.json',field_dictionary='data/market_state/field_dictionary.parquet'))
+            'macro_features':'data/market_state/macro/historical_reconstructed/features.parquet'},
+        feature_sets='data/market_state/feature_sets.json',formal_dependencies='data/market_state/research_dependencies.json',
+        release='data/market_state/release/seal.json',field_dictionary='data/market_state/field_dictionary.parquet'))
+    write(OUT/'dataset_manifest.json',dict(version=VERSION,cutoff=str(cutoff().date()),products=products,
+        dictionary_version=dictionary['label_version'],target_version=spec['target_version'],feature_version=spec['feature_version'],missing_policy_version=policy['policy_version']))
     write(ROOT/'data/metadata/schema_registry.json',dict(version=VERSION,research_schemas={r['dataset_id']:read(r['dataset_id']).dtypes.astype(str).to_dict() for r in products},source_schemas='data/metadata/field_dictionary.parquet'))
-    write(OUT/'dataset_manifest.json',dict(version=VERSION,products=products,label_version=dictionary['label_version'],protocol_sha256=__import__('hashlib').sha256((ROOT/'docs/MLEC_research_protocol.md').read_bytes()).hexdigest()))
+    def result(name):
+        path=REPORT/name
+        return json.loads(path.read_text(encoding='utf8')) if path.exists() else {'status':'NOT_YET_RUN'}
+    acceptance=result('acceptance_validation.json');batch=result('batch_preflight.json');cleanup=result('cleanup_final.json')
+    seal_path=RELEASE/'seal.json';seal=json.loads(seal_path.read_text(encoding='utf8')) if seal_path.exists() else {'status':'DRAFT_PENDING_FINAL_ACCEPTANCE'}
+    tests=(REPORT/'tests.txt').read_text(encoding='utf8') if (REPORT/'tests.txt').exists() else ''
+    testline=next((line for line in tests.splitlines() if 'passed in' in line),'Tests pending')
+    bridges=json.loads((OUT/'sources/factor_bridge_scales.json').read_text(encoding='utf8')) if (OUT/'sources/factor_bridge_scales.json').exists() else []
+    factor_changes=len(read('release/factor_adjudication_rows')) if (OUT/'release/factor_adjudication_rows.parquet').exists() else 0
+    formal=[r for r in policy['series'] if r['formal']];excluded_series=[r for r in policy['series'] if not r['formal']]
+    missing_formal=audit[audit.series_id.isin([r['series_id'] for r in formal])&audit.status.eq('SOURCE_GAP')]
     formulas=pd.DataFrame([dict(field=k,unit=v[0],definition=v[1]) for k,v in DEFINITIONS.items()])
-    summary=targets[CORE].describe().T.reset_index().rename(columns={'index':'field'})
-    coremacro=['pmi_mfg','pmi_new_orders','industrial_va_yoy','retail_sales_yoy','gdp_real_yoy','cpi_yoy','ppi_yoy','m2_yoy','rmb_loan_balance_yoy','shibor_1w','dr007','cgb_1y','cgb_10y','term_spread_10y_1y','usdcny_fixing','exports_cny_ytd_yoy','imports_cny_ytd_yoy','fx_reserves']
-    test_output=(REPORT/'tests.txt').read_text(encoding='utf8') if (REPORT/'tests.txt').exists() else 'Tests not yet run'
-    test_result=next((line for line in test_output.splitlines() if 'passed in' in line),test_output[:200])
-    text=f'''# 新版研究 A—C 集中执行报告
+    text=f"""# 正式建模前数据校对、补齐与封版验收
 
-唯一内容依据：[market-state-research-v3.0](../../docs/MLEC_research_protocol.md)。真实处理区间：2014-01-02—{read('calendar').date.max().date()}；候选预测周：{manifest.asof_date.min().date()}—{manifest.asof_date.max().date()}。本轮未运行监督预测模型或 Benchmark，未生成预测成绩或宏观增益结论。
+唯一研究依据：[market-state-research-v3.0](../../docs/MLEC_research_protocol.md)。本轮输入快照 **mlec-formal-20261113**；数据截止 **{cutoff().date()} 18:00 Asia/Shanghai**，未扩展至新的交易日。初始输入235项的内容哈希、起始提交和补充来源保存在 `release/input_snapshot.json` 与封版清单。
 
-## 执行结果与完成边界
+## 验收结论
 
-已真实完成四市场完整区间的统一前后向测度、七项连续标签、训练期共享 GMM、当前状态、市场/宏观输入、共同样本和月度时间折。候选周不依赖事件状态或类别置信度。末端未成熟窗口保留空标签。数据与标签研究接口已切换到新版。
+封版状态：**{seal['status']}**。标签、特征、正式缺失裁定与统一读取均已按当前协议重建；是否可以进入模型选型以 `release/seal.json` 的准入状态为准。当前正式宏观系列 {len(formal)} 条，正式系列内未解释的适用期来源缺口 **{len(missing_formal)}** 项。保留的缺失具有预先确定的语义和训练折处理规则，不声称对以后统计结果没有影响。
 
-**A—C 的处理和标签产物已执行交付；尚不能宣布所有数据要求和目录清理无缺口完成。** 下述字段缺口、证券资料的历史重建精度、旧 Word 文件占用需保留为交付限制；没有以测试通过替代覆盖核查。
+本轮没有实现、选择、训练、调参或比较监督预测模型，没有预测成绩或宏观增益结论；GMM仅定义监督标签。快照重建的成分精度沿用协议，不把缺少完整逐日公告档案设为无限补库门槛。
 
-## 删除、保留和重构
+## 实际修复、补齐和清理
 
-删除旧事件标签实现、阈值/白名单/敏感性配置、旧折和样本视图、旧预测与模型、重复协议说明及已有版本历史的 archive 副本；逐文件清单见 [cleanup_manifest.json](cleanup_manifest.json)。提取共享 IO/hash 至 `scripts/common.py`，保留采集、标准化、身份、复权、公司行为、修复证据、宏观口径及来源库。保留用户未追踪的协议和 Word 文件。一个已追踪旧 Word 文件因 Windows 进程占用未删除，没有关闭用户应用。
+1. 修复持续上涨路径的最差未来累计收益：只取 h=1..H，不再把起点0作为未来结果；回撤仍使用完整H+1价格。
+2. 北交所11只证券的来源因子历史有冲突，定向取得真实因子，修复 **{factor_changes}** 个证券日；不按异常收益屏蔽风险时期。新尾段因子衔接另有 **{len(bridges)}** 只沪深证券，已用81日重叠逐一核验后统一乘法基准，保留已有公告确认的公司行为修复和尾段内原始因子比例。不是来源取平均，也不是价格平滑；公式及容差见 `sources/factor_bridge_scales.json`，重建父记录见 `release/factor_*`。
+3. 补入2026年10月人民币累计出口/进口同比各1条。使用湖北省政府转载新华社的真实2026-11-11日期、保守日末可得时间，未改写成更早的原始首发时间。[来源](https://www.hubei.gov.cn/szyw/202611/t20261111_6083241.shtml)。
+4. 对2020/2022年1—2月和2025年2月人民币贸易重新定向核验。官方合并累计表不能证明单月数值；单月人民币系列及其所有派生列退出正式Z，美元替代口径也不从别名重入。正式外部组保留同币种CNY累计同比。累计系列2020/2022年1月未独立公布属于制度合并，不伪造为采集缺口。查询与原表精简证据见 `release/trade_source_attempts.json`。
+5. 仅核验实际预热需要的2014年末同口径CFETS国债历史，接口403，其他可得中债曲线/单券成交不与CFETS11:30均值曲线混接。2015年起逐交易日数据齐备；具体输入影响见 [cgb_warmup_impact.csv](cgb_warmup_impact.csv)，不把补齐2014全年设为门槛。
+6. 缓存改为父数据内容哈希＋完整日历＋身份＋修复记录＋计算代码＋上一年分区哈希；跨年父数据变化会逐年传播。北交所来源投影绑定注册分区版本。输出排序固定，禁止旧缓存掩盖更新。
+7. 按市场移除自身20日cross重复列；状态编号按名义类别编码。训练折全空/常数值列、后出现字段、新类别和缺失标记均有固定处理规则。默认读取必须明确fold/role，跨期查看需显式 `view='analysis'`。
+8. 本轮删除的旧Word文件：{cleanup.get('removed',[])}；仍被用户应用占用的未删除文件：{cleanup.get('locked',[])}。用户未提交的临时锁文件保留。残留被占用Word不被任何研究入口或注册表引用，是物理清理遗留，不改变研究内容依据。
 
-唯一研究命令入口为 `python -m scripts.market_state.run`；读取入口为 `scripts.market_state.framework.load_dataset`；全部研究产物位于 `data/market_state/`。旧来源目录仅作标准化库，不再提供第二套研究样本入口。
+## 正式范围、版本与依赖
 
-## 数据补齐与来源
+四市场保持中证全指价格代表＋历史全A横截面、沪深300、中证500、中证1000。中证全指供应商代码000985.CSI映射研究代码000985.SH；整体指数成分集合不冒充全A。北交所从2021-11-15纳入，6只试点及其余存量代码按真实生效日期切换。历史成分按当时观测快照重建、最多持有45天，并立即应用已知上市退市边界，不称精确逐日权重。身份联接终检补回了中证500的53个快照中的689009.SH（CDR）；复用原有发行人1:10份数单位修复，以报价CDR份数匹配成交量和流通量。CDR仅按真实成分进入规模层，整体普通A股横截面仍排除CDR；不把两种范围混称。全部观测成分代码都有历史证券身份。
 
-四指数通过项目已有 Tushare 只读适配器补齐至实际末端；中证全指供应商标识为 `000985.CSI`，显式映射至研究 `000985.SH`。补充 2014 年成员快照和 2026 年后续快照、2026-09-23 后股票行情/股本/复权/停复牌资料，以及最新上市/退市目录。旧日历还缺 2026 年 11 月的开放日期，已重新取得 SSE 日历；当前 3127 个实际开放日期与指数日期逐日相符，20 日边界使用独立交易所日历。请求、取回时间、来源字段见 `data/market_state/source_requests.json`、`calendar_request.json` 和 `sources/`。
+研究依赖清单：`research_dependencies.json`，区分标签必需、正式M/Z、核验来源与不进入研究的扩展字段。PE/PB、资金流等来源字段不作为本轮完成门槛。E:/QuantData只读，项目仅保留必要投影。
 
-北交所行情、复权、股本和代码映射优先从 E:/QuantData 只读 DuckDB 投影，未复制全库或写入外部来源；全 A 横截面从 2021-11-15 加入北交所（此前精选层行情不冒充上市 A 股）。六只试点和其余存量代码分别按 2025-05-06、2025-10-09 生效；来源为[北交所通知](https://www.bse.cn/important_news/200025487.html)及[北京市政府发布](https://www.beijing.gov.cn/ywdt/gzdt/202510/t20251010_4218545.html)。复用沪深修复后的 `*_observations`，保留已退市证券与身份区间。证券身份文件记录 {master.instrument_id.nunique()} 个稳定证券标识，其中北交所 {master[master.ts_code.str.endswith('.BJ')].instrument_id.nunique()} 个。
+- 字典映射版本：`{dictionary['label_version']}`。
+- 连续/类别目标版本：`{spec['target_version']}`。
+- 特征定义版本：`{spec['feature_version']}`。
+- 缺失裁定版本：`{policy['policy_version']}`。
+- 封版数据版本：`{seal.get('data_version','待封版')}`。
 
-整体价格代表与全 A 横截面严格区分。规模层使用截至当日最后一个真实快照，最多持有 45 天；没有将快照伪造为精确逐日权重。现有已验证的生效调整档案只覆盖另一指数，不能冒用于这三个规模层。覆盖精度为历史快照重建；主规模层完整生效调整目录仍不具备。快照实际覆盖如下：
-
-{snapshots.to_markdown(index=False)}
-
-逐年横截面覆盖见 [cross_section_coverage.csv](cross_section_coverage.csv)。个股缺价/停牌不填零收益；相邻交易日且都有有效成交与复权价格才形成收益。相关性使用窗口内始终为成员、有完整同日期收益且非零方差的平衡子集，另存其数量和对窗口成员并集的覆盖。
-
-## 监督标签与样本覆盖
+## 样本、训练与评分
 
 {coverage.to_markdown(index=False)}
 
-逐年详表：[annual_coverage.csv](annual_coverage.csv)。缺失标签原因：[missing_labels.csv](missing_labels.csv)。history_valid 指当前 20 日五维可构造；5/60 日特征的个别预热缺失仍保留为空，交给训练折处理，不删掉特征。边界评分资格与标签有效性分开：2019 年末未成熟标签不进入初始字典；2022 年末跨入 2023 的开发窗口不用于开发评分；以后成熟后仍可加入对应月训练。
+2014年仅预热，没有监督训练样本。每个完整交易周最后交易日18:00预测，未来固定20交易日。末端4周保留候选但未成熟，不作为负例；其余缺失标签不插补。2019年末初始字典训练剔除未成熟窗口；开发评分不使用跨入2023年的未来结果。全部市场日期同步分折。
+
+逐年样本：[annual_coverage.csv](annual_coverage.csv)；全部月度训练/验证/测试行数：[monthly_fold_counts.csv](monthly_fold_counts.csv)。训练行在不同月重复使用的次数不是独立样本量。样本排除：[sample_exclusions.csv](sample_exclusions.csv)。M/M+Z及五组加入/删除共用各阶段相同行、y和版本。
+
+## 五维标签与独立核验
 
 {formulas.to_markdown(index=False)}
 
-{summary.to_markdown(index=False)}
+辅助结果含下行半波动、最差单日及最差未来累计收益、成交、报价/股本/有效收益覆盖、确认停牌及相关性平衡子集。停牌与缺价不填零收益。流动性先股票→日中位数/股本加权日比率→窗口均值；未来相关性使用未来同日期面板，不用历史60日指标代替。
 
-辅助结果包括下行半波动、最差单日/累计收益、路径斜率、上涨日比例、成交额、报价/有效收益/流通股本覆盖、确认停牌与未解释缺价比例、相关性面板规模。2015-07-03 沪深300窗口的 H+1 价格、手工复算七项结果见 [arithmetic_replay.json](arithmetic_replay.json)。
+独立核验覆盖四市场及上涨、下跌、平稳、跨年、成分调整、北交所代码切换、公司行为和停牌密集期。源码独立从close×factor重建个股收益，以流式股票对点积核验相关性，不复用生成测度函数、不保存全量相关矩阵。逐例实际数值在 `release/independent_replays.parquet`；全量窗口域约束、全部股票跨年/来源边界和元/股单位检查在 [acceptance_validation.json](acceptance_validation.json)、[continuity_validation.json](continuity_validation.json)。结果：{acceptance.get('passed',False)}。
+
+固定字典后，从中间股票/指数层扰动2020年以后数值并截断历史，核对以前全部过去窗口；原始宏观事实的未来合法可得记录也做扰动/截断。比较键和值精确相等，允许完整/截断表的整数计数存储dtype不同。2019年末成熟训练核心输入不变。证据：[causal_replay.json](causal_replay.json)。
 
 ## 状态字典
 
-仅 2015—2019 且在 2019-12-31 18:00 已成熟的四市场共同日期进入训练，共 {dictionary['training_rows']} 条，每市场等权。变换为 volatility/drawdown/amihud 的 log1p(x/训练期正值中位数)，再按训练中位数与 IQR 标准化，流动性、结构各列除 sqrt(2)。原单位标签、变换参数、模型和类别顺序均保存。
+仅2015—2019、2019年末已成熟窗口拟合，四市场等权；volatility/drawdown/amihud做训练期log类变换与中位数/IQR尺度，流动性/结构列除sqrt(2)。原单位连续标签保留。
 
-预记录比较 1—8 类 × spherical/diag/tied/full，2017/2018/2019 三段前推验证且清除训练未成熟窗口，12 次同步日历 8 周区块重采样；每次验证和重采样重新拟合其自身变换。按 BIC、验证似然、稳定性 ARI 三者的秩和选择，平分优先较少类别再按 BIC。所有选择不读取宏观或 2020 年以后数据。
+{dictionary_action}没有根据后续预测难易或类别均衡选择字典。全部32种候选、2017/2018/2019时间分块似然和12次同步8周区块重采样均保留。
 
-选择 **K={dictionary['selected']['k']}，{dictionary['selected']['covariance']}**；BIC={dictionary['selected']['bic']:.3f}，分块验证均值对数似然={dictionary['selected']['cv_likelihood']:.4f}，重采样 ARI 均值={dictionary['selected']['stability_ari']:.4f}，最低={dictionary['selected']['stability_ari_min']:.4f}。最低稳定性明显较弱，不能声称类别在所有重采样下稳健。完整候选分数、每次 ARI、画像、训练键在 `state_dictionary/`；版本 `{dictionary['label_version']}`。类别按训练期收益画像排列以保证确定性，编号不代表风险等级；风险类型映射依据训练期画像固定，未设置报警工作点。
+选择K={dictionary['selected']['k']}、{dictionary['selected']['covariance']}，ARI均值{dictionary['selected']['stability_ari']:.4f}、最低{dictionary['selected']['stability_ari_min']:.4f}；最低结果较弱，不能声称所有重采样均稳健。类别编号不代表连续风险等级，近零均值命名为近零；硬类、全部归属概率、不确定性和当前状态使用相同映射与顺序。
 
 {profiles[['state_id','description','n']+CORE].to_markdown(index=False)}
 
-事后归属为 `future_state_prob_*`；当前归属为 `current_state_prob_*`。未来预测概率接口须使用 `predicted_state_prob_*`，本轮没有生成。软归属熵和最高归属概率保留，未据此删除边界样本。类别数量见 [class_counts.csv](class_counts.csv)。
+## 正式缺失裁定与候选池
 
-## 宏观输入与实际缺口
+`missing_policy.json`及 [macro_series_decisions.csv](macro_series_decisions.csv) 是接口实际执行的裁定，不是报告备注。来源池保留全部候选；正式{len(formal)}条系列及其派生项按经济机制、定义和逐期覆盖选择，无预测成绩筛选。贷款的2015/2023定义、早期社融的2015定义已拆成独立列，原拼接列不得进入正式Z，不仅在求差时阻断一次。五组加入/删除均从正式集合展开，不能重新引入排除系列。来源逐期校对：[macro_period_audit.csv](macro_period_audit.csv)；as-of使用状态：[macro_coverage.csv](macro_coverage.csv)。周度非空不作为源期完整的证明，信息年龄也不独立作为采集失败证明。
 
-增长、物价、信用、利率、外部经济五组全部重建，主视图为带明确时间假设的历史重建；严格来源和获取时版本另存。旧来源清单的 2026-09-30 结束日期已从活动系列的经济适用期中移除，避免明明有 11 月报价却被误判制度性不适用；M1 旧定义及已结束社融口径仍有真实制度终点。按 available_at<=asof_time 从当时可得版本选择最新经济期，再计算可比变化和信息年龄；跨口径变化、累计值跨年重置和异常期距不求差。日度利率与汇率保存 5/20 个有效观测变化和变化波动。合法发布值持有到下次公布，发布断档单列，不因宏观缺失删整行。
+训练折内规则：数值全空/常数值列删除，只用训练中位数/IQR；保留原列固定缺失标记；名义状态使用训练类别one-hot及明确MISSING/UNSEEN。制度后才出现的变量在早期训练全空时不从未来学习数值填补；下一月训练重新确定schema，单次训练的验证/测试顺序保持一致。所有训练统计均为逐列统计，可为精确的变量子集复用，不依赖其他信息组的数值或y。没有全样本提前拟合。
 
-逐系列/状态/起止/受影响周见 [macro_coverage.csv](macro_coverage.csv)，原始逐期来源缺口见 [macro_source_period_gaps.csv](macro_source_period_gaps.csv)。2014 年同口径 CFETS 国债 1Y/10Y 与派生利差各缺 245 日，影响预热并非 2015 年起标签。人民币进出口单月仍有 2020/2022 年 1—2 月及 2025 年 2 月缺口，不能把合并公告拆成单月；旧目录标记的累计 1 月缺口也不能用 1—2 月公告回填。已核对[2020 年官方合并口径](https://www.ndrc.gov.cn/fggz/fgzy/jjsjgl/202004/t20200429_1227114.html)、[2022 年官方合并发布](https://app.www.gov.cn/govdata/gov/202203/08/482607/article.html)、[2025 年官方合并发布](https://www.ccpitzj.gov.cn/art/2025/3/10/art_1229557691_47918.html)。累计同比系列中合法已有发布继续使用；这些来源不证明单月数值，未制造替代单月观测。宏观来源断档保留缺失/年龄接口，不构成 M/M+Z 不同样本。
-
-本轮逐个股实际必需字段缺口（不是用所有可选扩展字段阻断研究）：
-
-{gaps.to_markdown(index=False) if len(gaps) else '已观察成交记录的复权因子、元成交额、流通股本未发现空字段。'}
-
-精确证券/日期明细位于 `data/market_state/coverage/field_gaps_*.parquet`。无报价且无确认停牌证据共 {len(unknown)} 个证券日、{unknown.instrument_id.nunique()} 只证券，见 [unexplained_quote_gaps.csv](unexplained_quote_gaps.csv) 和 `coverage/unexplained_quote_gaps.parquet`。实际检查本地湖及最新上市/退市资料、停牌事件；另外定向查询三只转板/退市北交所证券的行情、股本、因子、停牌，行情未返回而停牌记录覆盖相应区间（请求见 `bse_repair_requests.json`），没有填零收益。仍未取得独立交易所全历史名册完备证明或完整逐日成分生效档案。不能把这些精度限制说成原始实时数据认证。新补尾段复权来自供应商因子；32 个新增交易日的除权事件已逐日定向取回，见 `corporate_action_requests.json` 和 `sources/dividend/`，历史公司行为/修复依据继续保留。
-
-## 调用、重建与验证
+## 接口、任务配置与真实执行
 
 ```powershell
 $env:PYTHONPATH='.local_deps'
-python -m scripts.market_state.run collect  # 仅缺口补齐，需网络
-python -m scripts.market_state.run build    # 完整本地 A-C 重建，包括标签 GMM
-python -m scripts.market_state.run verify
+python -m scripts.market_state.run build
+python -m scripts.market_state.run accept
+python -m scripts.market_state.run preflight
 python -m pytest -q
+python -m scripts.market_state.run seal
 ```
 
 ```python
 from scripts.market_state.framework import load_dataset, preprocessing
-d = load_dataset(market_id='000985.SH', information_set='M+Z',
-                 task='classification', fold_id='2023-01', role='train')
-# task 还可取 probability / regression；所有信息集共用同一元数据和目标行。
-# preprocessing() 只返回未拟合的训练折预处理接口。
+train=load_dataset(market_id='000985.SH',information_set='M+Z',task='regression',fold_id='2023-01',role='train')
+test=load_dataset(market_id='000985.SH',information_set='M+Z',task='regression',fold_id='2023-01',role='test')
+pre=preprocessing()  # 未拟合；只能fit(train.X)，再transform同折验证/测试
 ```
 
-主键为 market_id/asof_date/horizon；特征和标签分表，源/时间元数据另存。模型只使用 feature_sets.json 显式列，初始训练期标签变换与后续模型预处理独立。月度训练截止时刻取上月最后交易日 18:00，各市场日期同步。验证证据：[validation.json](validation.json)，测试实际结果：**{test_result}**，完整运行记录见 [tests.txt](tests.txt)。Python 退出时本机 pyreadline3 控制台析构输出 WinError 0xc0000008；pytest 退出码为 0，此环境告警不属于研究测试失败。缓存为按年紧凑股票字段、北交所投影，不保存全量相关矩阵；不复制整个外部数据库。
-'''
+`data_task_config.json` 和 `data_tasks.parquet` 仅含市场、信息集、三类目标和月度折，没有具体监督模型配置。批量结果：[batch_preflight.json](batch_preflight.json)，任务数{batch.get('tasks','待执行')}，失败{batch.get('failed','待执行')}，尚无成熟评分行的任务{batch.get('no_mature_score_tasks','待执行')}。逐任务结果和训练折列处理清单位于 `release/data_preflight.parquet`、`release/preprocessing_audit.parquet`。
+
+实际测试：**{testline}**。本机Python退出时pyreadline3可能输出控制台析构告警，退出码与pytest测试结果单独记录。封版清单绑定内容哈希、代码、缺失裁定和目标版本；父数据变更须重建并重新验收，不能继续把旧批量检查当作新版依据。达到准入后停止扩库，后续先选模型，再统一批量训练。
+"""
     (REPORT/'completion_report.md').write_text(text,encoding='utf8')
-    print('report written',REPORT/'completion_report.md',flush=True)
+    print('formal report written',flush=True)

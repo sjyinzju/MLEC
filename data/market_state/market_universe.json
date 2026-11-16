@@ -7,13 +7,14 @@
     "000852.SH": "Smaller"
   },
   "overall_price": "000985.SH = provider 000985.CSI",
-  "overall_cross_section": "historical listed SSE/SZSE A shares + BSE from 2021-11-15; CDR excluded",
+  "overall_cross_section": "historical listed SSE/SZSE A shares + BSE from 2021-11-15; CDR excluded from overall A-share cross-section",
+  "layer_cross_section": "actual observed constituent books, including historically observed CDR; CDR volume and float in quoted receipt units, not underlying share units",
   "identity": "security_history.parquet; valid_from inclusive / valid_to exclusive",
   "membership": "membership_snapshots.parquet; last observed snapshot, maximum age 45 days; no current constituent backfill",
   "units": {
     "amount": "CNY",
-    "volume": "shares",
-    "float_shares": "shares",
+    "volume": "quoted security units (shares or documented CDR receipts)",
+    "float_shares": "same quoted units as volume",
     "turnover": "ratio",
     "return_type": "log adjusted stock close, adjacent exchange dates; no zero filling"
   },

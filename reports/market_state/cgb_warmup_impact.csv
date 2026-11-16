@@ -1,0 +1,13 @@
+series_id,feature,missing_prediction_weeks,dates,decision
+cgb_1y,macro__cgb_1y__latest,0,[],TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+cgb_1y,macro__cgb_1y__change_5obs,1,"[""2015-01-09""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+cgb_1y,macro__cgb_1y__change_20obs,4,"[""2015-01-09"", ""2015-01-16"", ""2015-01-23"", ""2015-01-30""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+cgb_1y,macro__cgb_1y__vol_20obs,4,"[""2015-01-09"", ""2015-01-16"", ""2015-01-23"", ""2015-01-30""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+cgb_10y,macro__cgb_10y__latest,0,[],TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+cgb_10y,macro__cgb_10y__change_5obs,1,"[""2015-01-09""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+cgb_10y,macro__cgb_10y__change_20obs,4,"[""2015-01-09"", ""2015-01-16"", ""2015-01-23"", ""2015-01-30""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+cgb_10y,macro__cgb_10y__vol_20obs,4,"[""2015-01-09"", ""2015-01-16"", ""2015-01-23"", ""2015-01-30""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+term_spread_10y_1y,macro__term_spread_10y_1y__latest,0,[],TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+term_spread_10y_1y,macro__term_spread_10y_1y__change_5obs,1,"[""2015-01-09""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+term_spread_10y_1y,macro__term_spread_10y_1y__change_20obs,4,"[""2015-01-09"", ""2015-01-16"", ""2015-01-23"", ""2015-01-30""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation
+term_spread_10y_1y,macro__term_spread_10y_1y__vol_20obs,4,"[""2015-01-09"", ""2015-01-16"", ""2015-01-23"", ""2015-01-30""]",TRAIN_FOLD_WARMUP_MISSING_HANDLING; no label or row imputation

@@ -11,7 +11,8 @@ def payload(r):
 
 def collect():
     a, catalog = client(); receipts = []
-    end=pd.Timestamp.now(tz='Asia/Shanghai').strftime('%Y%m%d')
+    from .release import cutoff
+    end=cutoff().strftime('%Y%m%d')
     def fetch(ep, params):
         r = request(a, catalog, ep, params); receipts.append(r)
         write(OUT/'source_requests.json', receipts)

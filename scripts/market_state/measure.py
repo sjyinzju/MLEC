@@ -9,7 +9,7 @@ def price_measure(prices):
     if h<1 or not np.isfinite(p).all() or (p<=0).any():return dict.fromkeys(fields,np.nan)
     r=np.diff(np.log(p));s=r*r
     return dict(zip(fields,[p[-1]/p[0]-1,np.sqrt(252/h*s.sum()),np.max(1-p/np.maximum.accumulate(p)),
-        np.sqrt(252/h*np.minimum(r,0).dot(np.minimum(r,0))),np.expm1(r.min()),np.min(p/p[0]-1),
+        np.sqrt(252/h*np.minimum(r,0).dot(np.minimum(r,0))),np.expm1(r.min()),np.min(p[1:]/p[0]-1),
         (r>0).mean(),np.polyfit(np.arange(h+1),np.log(p/p[0]),1)[0],s.max()/s.sum() if s.sum()>0 else 0]))
 
 def average_correlation(panel):
@@ -38,17 +38,20 @@ def window_measure(prices,daily,panel,membership):
     result['missing_reason']=';'.join('MISSING_'+k.upper() for k in CORE if not np.isfinite(result[k]))
     return result
 
-def build_measures():
+def build_measures(*,max_asof=None,stock_transform=None,price_transform=None,save=True):
     dates=pd.DatetimeIndex(read('calendar').date);master=read('security_history');weights=read('membership_snapshots')
     instruments=sorted(master.instrument_id.unique());imap={x:i for i,x in enumerate(instruments)}
     dmap={x:i for i,x in enumerate(dates)};shape=(len(dates),len(instruments))
     active=np.zeros(shape,bool)
+    ordinary=np.zeros(shape,bool)
     for r in master.itertuples():
         active[:,imap[r.instrument_id]]|=(dates>=r.valid_from)&(dates<r.valid_to)
+        if r.security_type=='A_SHARE':ordinary[:,imap[r.instrument_id]]|=(dates>=r.valid_from)&(dates<r.valid_to)
     arrays={col:np.full(shape,np.nan) for col in ['r','volume_shares','amount_cny','float_shares']}
     quote=np.zeros(shape,bool)
     for p in sorted((OUT/'cache/stocks').glob('*.parquet')):
         stocks=pd.read_parquet(p,columns=['date','instrument_id','close']+list(arrays))
+        if stock_transform is not None:stocks=stock_transform(stocks.copy())
         di=stocks.date.map(dmap).to_numpy();si=stocks.instrument_id.map(imap).to_numpy()
         for col,a in arrays.items():a[di,si]=stocks[col]
         quote[di,si]=stocks.close.gt(0)
@@ -62,14 +65,16 @@ def build_measures():
         f=f[f.date.isin(dates)&f.instrument_id.isin(instruments)]
         susp[f.date.map(dmap),f.instrument_id.map(imap)]=True
     indices=read('index_prices');rows=[];past=[];daily_results=[]
+    if price_transform is not None:indices=price_transform(indices.copy())
     # A week is complete only when its Friday has elapsed by the observed data end.
     weekly=pd.Series(dates,index=dates).groupby(dates.to_period('W-FRI')).max()
     points=[d for period,d in weekly.items() if period.end_time.normalize()<=dates.max() and d.year>=2015]
+    if max_asof is not None:points=[d for d in points if d<=pd.Timestamp(max_asof)]
     aliasmap=alias.set_index('ts_code').instrument_id.to_dict()
     for market in MARKETS:
         membership=np.zeros(shape,bool);snapshot_age=np.full(len(dates),np.nan)
         if market=='000985.SH':
-            membership=active.copy()
+            membership=ordinary.copy()
         else:
             w=weights[weights.index_code.eq(market)]
             books={d:[imap[aliasmap[x]] for x in g.con_code if x in aliasmap and aliasmap[x] in imap] for d,g in w.groupby('snapshot_date')}
@@ -115,4 +120,7 @@ def build_measures():
                     rows.append(rec)
                 else:past.append(rec)
         print('measured',market,len(points),flush=True)
-    frame('market_daily',pd.concat(daily_results,ignore_index=True));frame('future_window_outcomes',pd.DataFrame(rows));frame('past_window_outcomes',pd.DataFrame(past))
+    products={'market_daily':pd.concat(daily_results,ignore_index=True),'future_window_outcomes':pd.DataFrame(rows),'past_window_outcomes':pd.DataFrame(past)}
+    if save:
+        for name,value in products.items():frame(name,value)
+    return products

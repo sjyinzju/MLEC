@@ -35,6 +35,8 @@ def model(k,cov,seed=3060):
     return GaussianMixture(n_components=k,covariance_type=cov,n_init=CONFIG['n_init'],random_state=seed,reg_covar=1e-5,max_iter=500)
 
 def fit_dictionary(outcomes):
+    old_path=OUT/'state_dictionary/dictionary.json'
+    prior=json.loads(old_path.read_text(encoding='utf8')) if old_path.exists() else {}
     train=training_rows(outcomes)
     if train.empty:raise ValueError('No complete equal-market training windows')
     params=fit_transform(train);x=transform(train,params);dates=sorted(train.asof_date.unique());rng=np.random.default_rng(CONFIG['seed'])
@@ -77,17 +79,38 @@ def fit_dictionary(outcomes):
     write(folder/'dictionary.json',dict(label_version=version,protocol=VERSION,config=CONFIG,transform=params,component_order=order,
         selected=selected.to_dict(),training_rows=len(train),market_counts=train.market_id.value_counts().to_dict(),
         max_label_available_at=train.label_available_at.max(),means=g.means_.tolist(),covariances=g.covariances_.tolist(),weights=g.weights_.tolist(),
-        training_fingerprint=digest(train[KEY+CORE].to_dict('records'))))
+        training_fingerprint=digest(train[KEY+CORE].to_dict('records')),
+        fit_event=dict(previous_label_version=prior.get('label_version'),
+            training_input_changed=prior.get('training_fingerprint')!=digest(train[KEY+CORE].to_dict('records')),
+            reason='Recompute all original BIC/time-block/stability candidates when initial core input fingerprint changes')))
     frame('state_dictionary/candidates',scores);frame('state_dictionary/training_keys',train[KEY+['label_available_at']])
+    update_profiles(outcomes,artifact)
+    return artifact
+
+def update_profiles(outcomes,artifact):
+    train=training_rows(outcomes)
     tagged=apply_dictionary(train,artifact,'future');profile=train.copy();profile['state_id']=tagged.future_state_id
     fields=CORE+['downside_semivol','worst_daily_return','worst_cumulative_return','quote_coverage','suspension_fraction']
     profiles=profile.groupby('state_id')[fields].mean().reset_index();profiles['n']=profile.groupby('state_id').size().values
-    profiles['description']=profiles.apply(lambda r: ('上涨' if r['return']>0 else '下跌')+'；'+('较高波动' if r.volatility>train.volatility.median() else '较低波动')+'；'+('广泛下跌' if r.breadth>.5 else '上涨股票较多'),axis=1)
+    profiles['description']=profiles.apply(lambda r: ('收益均值接近零' if abs(r['return'])<.01 else '上涨' if r['return']>0 else '下跌')+
+        f"（20日平均收益{r['return']:+.2%}）；"+('较高波动' if r.volatility>train.volatility.median() else '较低波动')+'；'+('负收益股票过半' if r.breadth>.5 else '负收益股票未过半'),axis=1)
     profiles['risk_downside']=profiles.drawdown.gt(train.drawdown.median())&profiles['return'].lt(0)
     profiles['risk_liquidity']=profiles.amihud.gt(train.amihud.median())&profiles.turnover.lt(train.turnover.median())
     profiles['risk_broad_decline']=profiles.breadth.gt(.5)&profiles['return'].lt(0)
-    profiles['label_version']=version;frame('state_dictionary/profiles',profiles)
-    return artifact
+    profiles['label_version']=artifact['label_version'];frame('state_dictionary/profiles',profiles)
+
+def ensure_dictionary(outcomes,force=False):
+    folder=OUT/'state_dictionary';meta=json.loads((folder/'dictionary.json').read_text(encoding='utf8')) if (folder/'dictionary.json').exists() else {}
+    train=training_rows(outcomes);fingerprint=digest(train[KEY+CORE].to_dict('records'))
+    if not force and meta.get('training_fingerprint')==fingerprint:
+        a=joblib.load(folder/'dictionary.joblib')
+        if a['transform']!=fit_transform(train):raise ValueError('Dictionary transform mismatch')
+        update_profiles(outcomes,a)
+        meta['reuse_verification']=dict(training_fingerprint=fingerprint,core_input_unchanged=True,
+            description_only_neutral_mean_tolerance=.01,auxiliary_profiles_recomputed=True)
+        write(folder/'dictionary.json',meta)
+        print('reused fixed dictionary; identical initial training core inputs',flush=True);return a
+    return fit_dictionary(outcomes)
 
 def apply_dictionary(f,artifact,prefix):
     f=f.copy();k=artifact['gmm'].n_components;valid=f[CORE].notna().all(axis=1)

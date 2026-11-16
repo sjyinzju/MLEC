@@ -2,14 +2,14 @@
 from dataclasses import dataclass
 import numpy as np
 import pandas as pd
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import RobustScaler
-from sklearn.pipeline import make_pipeline
 from .common import *
 
 def build_framework(dictionary):
     from .dictionary import apply_dictionary
     future=read('future_window_outcomes');targets=apply_dictionary(future,dictionary,'future')
+    target_version=digest(dict(dictionary=dictionary['label_version'],
+        outcomes=future.sort_values(KEY).to_dict('records'),worst_cumulative_definition='min over h=1..H, exclude anchor'))[:20]
+    targets['target_version']=target_version
     frame('supervised_targets',targets)
     past=read('past_window_outcomes');current=apply_dictionary(past[past.window_length.eq(20)],dictionary,'current')
     frame('current_states',current)
@@ -30,6 +30,7 @@ def build_framework(dictionary):
     features=features.merge(cross.reset_index(),on='asof_date',validate='many_to_one')
     features['feature_version']=VERSION;features['label_version']=dictionary['label_version'];frame('market_features',features)
     manifest=targets[KEY+['asof_time','label_available_at','measurement_valid','missing_reason','label_version']].copy()
+    manifest['target_version']=target_version
     pastvalid=current.set_index(KEY).measurement_valid
     manifest['history_valid']=[bool(pastvalid.loc[tuple(k)]) for k in manifest[KEY].itertuples(index=False,name=None)]
     manifest['continuous_valid']=manifest.measurement_valid
@@ -57,11 +58,21 @@ def build_framework(dictionary):
             for r in part.itertuples():rows.append({**{k:getattr(r,k) for k in KEY},'fold_id':fold_id,'role':rname,'fit_cutoff':cut})
     frame('fold_membership',pd.DataFrame(rows));frame('time_splits',pd.DataFrame(plans))
     mcols=[c for c in features if c not in KEY+['asof_time','feature_version','label_version']]
-    macro=read('macro/historical_reconstructed/features');zcols=[c for c in macro if c!='asof_date']
+    macro=read('macro/historical_reconstructed/features');candidate_z=[c for c in macro if c!='asof_date']
+    from .formal import GROUPS
+    policy=json.loads((OUT/'missing_policy.json').read_text(encoding='utf8'))
+    allowed={r['series_id'] for r in policy['series'] if r['formal']}
+    zcols=[c for c in candidate_z if c[len('macro__'):].rsplit('__',1)[0] in allowed]
     specs=json.loads((OUT/'macro/specifications.json').read_text(encoding='utf8'))
-    groups={g:[c for s in specs if s['series_group']==g for c in zcols if c.startswith('macro__'+s['series_id']+'__')] for g in ['growth','prices','credit','rates','external']}
-    sets={'M':mcols,'M+Z':mcols+zcols,**{'M+Z_'+g:mcols+cols for g,cols in groups.items()}}
-    write(OUT/'feature_sets.json',dict(version=VERSION,label_version=dictionary['label_version'],sets=sets,groups=groups,
+    group_for={s['series_id']:s['series_group'] for s in specs}
+    groups={g:[c for c in zcols if group_for[c[len('macro__'):].rsplit('__',1)[0]]==g] for g in GROUPS}
+    sets={'M':mcols,'M+Z':mcols+zcols,**{'M+Z_'+g:mcols+cols for g,cols in groups.items()},
+        **{'M+Z_without_'+g:mcols+[c for c in zcols if c not in groups[g]] for g in GROUPS}}
+    by_market={market:{name:[c for c in cols if not c.startswith('cross__'+market.replace('.','_')+'__')] for name,cols in sets.items()} for market in MARKETS}
+    feature_version=digest(dict(sets=sets,by_market=by_market,policy=policy['policy_version'],label_version=dictionary['label_version']))[:20]
+    features['feature_version']=feature_version;frame('market_features',features)
+    write(OUT/'feature_sets.json',dict(version=VERSION,feature_version=feature_version,target_version=target_version,label_version=dictionary['label_version'],sets=sets,by_market=by_market,groups=groups,
+        candidate_macro_columns=candidate_z,formal_macro_series=sorted(allowed),missing_policy_version=policy['policy_version'],
         categorical_columns=[c for c in mcols if c=='current_state_id' or c.startswith('current_state_id_lag')],
         missing_policy='No whole-sample imputation/scaling; macro missingness does not remove rows; fit preprocessing within each training fold',
         paired_cohort='same sample_manifest and fold_membership for every information set and task'))
@@ -79,6 +90,7 @@ def load_universe(market_id,asof):
     t=pd.Timestamp(asof);date=t.tz_localize(None).normalize() if t.tzinfo else t.normalize()
     h=read('security_history');active=h[h.valid_from.le(date)&h.valid_to.gt(date)].copy()
     if market_id=='000985.SH':
+        active=active[active.security_type.eq('A_SHARE')].copy()
         active['membership_precision']='historical_listing_intervals';return active.reset_index(drop=True)
     w=read('membership_snapshots');w=w[w.index_code.eq(market_id)&w.snapshot_date.le(date)]
     snap=w.snapshot_date.max()
@@ -90,34 +102,59 @@ def load_universe(market_id,asof):
     active['snapshot_date']=snap;active['membership_precision']='observed_snapshot_max_45d_plus_known_listing_exits'
     return active.reset_index(drop=True)
 
-def load_dataset(*,market_id=None,start=None,end=None,information_set='M',task='classification',fold_id=None,role=None,quality='historical_reconstructed',eligible_only=True):
+def load_dataset(*,market_id=None,start=None,end=None,information_set='M',task='classification',fold_id=None,role=None,quality='historical_reconstructed',eligible_only=True,view=None,store=None):
     if task not in ['classification','probability','regression']:raise ValueError('Unknown task')
     if quality not in ['strict','historical_reconstructed','latest_at_retrieval']:raise ValueError('Unknown macro view')
     if (fold_id is None)!=(role is None):raise ValueError('fold_id and role must be specified together')
+    if fold_id is None and view!='analysis':raise ValueError('Specify fold_id/role; all-period inspection requires explicit view="analysis"')
+    if store is None and view!='analysis':
+        from .release import assert_sealed_products
+        assert_sealed_products()
     if market_id is not None and market_id not in MARKETS:raise ValueError('Unknown market')
-    spec=json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
+    spec=store.spec if store is not None else json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
     if information_set not in spec['sets']:raise ValueError('Unknown information set')
-    meta=read('sample_manifest');targets=read('supervised_targets')
+    get=store.get if store is not None else read
+    meta=get('sample_manifest');targets=get('supervised_targets')
     if eligible_only:meta=meta[meta.eligible]
     if market_id:meta=meta[meta.market_id.eq(market_id)]
     if start:meta=meta[meta.asof_date.ge(pd.Timestamp(start))]
     if end:meta=meta[meta.asof_date.le(pd.Timestamp(end))]
     if fold_id:
-        folds=read('fold_membership');part=folds[folds.fold_id.eq(fold_id)&folds.role.eq(role)]
+        folds=get('fold_membership');part=folds[folds.fold_id.eq(fold_id)&folds.role.eq(role)]
         if role not in ['train','validation','test'] or fold_id not in set(folds.fold_id):raise ValueError('Unknown fold/role')
         meta=meta.merge(part,on=KEY,validate='one_to_one')
         if role=='train' and not meta.label_available_at.le(meta.fit_cutoff).all():raise ValueError('Immature label')
     meta=meta.sort_values(['asof_date','market_id']).reset_index(drop=True)
-    features=read('market_features').merge(read('macro/'+quality+'/features'),on='asof_date',validate='many_to_one')
+    features=store.features(quality) if store is not None else get('market_features').merge(get('macro/'+quality+'/features'),on='asof_date',validate='many_to_one')
     joined=meta[KEY].merge(features,on=KEY,validate='one_to_one')
-    cols=spec['sets'][information_set];X=joined[cols].copy()
+    cols=spec['by_market'][market_id][information_set] if market_id else spec['sets'][information_set]
+    X=joined[cols].copy()
     ycols=['future_state_id'] if task=='classification' else [c for c in targets if c.startswith('future_state_prob_')] if task=='probability' else CORE
     y=meta[KEY].merge(targets[KEY+ycols],on=KEY,validate='one_to_one')[ycols]
     return Dataset(X,y,meta,cols)
 
 def preprocessing():
     """An UNFITTED factory; caller must fit only on fold's train.X."""
-    return make_pipeline(SimpleImputer(strategy='median',add_indicator=True,keep_empty_features=True),RobustScaler())
+    from .preprocessing import FoldPreprocessor
+    return FoldPreprocessor()
+
+class DataStore:
+    """One immutable in-process read snapshot for batch data preflight."""
+    def __init__(self):
+        from .release import assert_sealed_products
+        self.data_version=assert_sealed_products()
+        self.spec=json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'));self.tables={};self.views={}
+    def get(self,name):
+        path=OUT/(name+'.parquet');stamp=(path.stat().st_size,path.stat().st_mtime_ns)
+        if name not in self.tables:
+            self.tables[name]=read(name)
+            if not hasattr(self,'stamps'):self.stamps={}
+            self.stamps[name]=stamp
+        elif self.stamps[name]!=stamp:raise RuntimeError('Data changed during immutable batch read: '+name)
+        return self.tables[name]
+    def features(self,quality):
+        if quality not in self.views:self.views[quality]=self.get('market_features').merge(self.get('macro/'+quality+'/features'),on='asof_date',validate='many_to_one')
+        return self.views[quality]
 
 def paired_losses(left,right,*,task):
     """Future model-independent scoring interface; no predictions made here."""

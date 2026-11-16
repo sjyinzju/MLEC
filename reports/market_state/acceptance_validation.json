@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "results": {
+    "independent_replays": 48,
+    "full_constraints": {
+      "future_windows": 2412,
+      "past_windows": 7281
+    },
+    "continuity": {
+      "observation_rows": 12417488.0,
+      "valid_returns": 12397179.0,
+      "max_difference": 0.0,
+      "validity_disagreements": 0.0
+    },
+    "causal_windows_compared": 3060
+  },
+  "supervised_models_run": 0,
+  "target_version": "f49e499c375fa557fcb0",
+  "feature_version": "6d50d9efbc48040f0912",
+  "calculation_code_hash": "310d3ab1cabf4dfb6db5d70cc6eed140af799fcbbffa8f39859cd8cd92a3ed33"
+}

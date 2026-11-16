@@ -201,5 +201,11 @@
     0.10709121940755933,
     0.07227798014162633
   ],
-  "training_fingerprint": "84566bc9d4986dea11cc47a128fdbf7eb84430997c06c8e823b891d9743680ae"
+  "training_fingerprint": "84566bc9d4986dea11cc47a128fdbf7eb84430997c06c8e823b891d9743680ae",
+  "reuse_verification": {
+    "training_fingerprint": "84566bc9d4986dea11cc47a128fdbf7eb84430997c06c8e823b891d9743680ae",
+    "core_input_unchanged": true,
+    "description_only_neutral_mean_tolerance": 0.01,
+    "auxiliary_profiles_recomputed": true
+  }
 }

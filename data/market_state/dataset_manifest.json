@@ -1,132 +1,169 @@
 {
   "version": "market-state-research-v3.0",
+  "cutoff": "2026-11-13",
   "products": [
     {
       "dataset_id": "security_history",
       "authority_path": "data/market_state/security_history.parquet",
-      "rows": 6173,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      "rows": 6174,
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "membership_snapshots",
       "authority_path": "data/market_state/membership_snapshots.parquet",
       "rows": 268200,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "index_prices",
       "authority_path": "data/market_state/index_prices.parquet",
       "rows": 12508,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
+    },
+    {
+      "dataset_id": "calendar",
+      "authority_path": "data/market_state/calendar.parquet",
+      "rows": 3127,
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "market_daily",
       "authority_path": "data/market_state/market_daily.parquet",
       "rows": 12508,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "market_features",
       "authority_path": "data/market_state/market_features.parquet",
       "rows": 2428,
-      "version": "market-state-research-v3.0",
       "primary_key": [
         "market_id",
         "asof_date",
         "horizon"
-      ]
+      ],
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "future_window_outcomes",
       "authority_path": "data/market_state/future_window_outcomes.parquet",
       "rows": 2428,
-      "version": "market-state-research-v3.0",
       "primary_key": [
         "market_id",
         "asof_date",
         "horizon"
-      ]
+      ],
+      "version": "market-state-research-v3.0"
+    },
+    {
+      "dataset_id": "past_window_outcomes",
+      "authority_path": "data/market_state/past_window_outcomes.parquet",
+      "rows": 7284,
+      "primary_key": [
+        "market_id",
+        "asof_date",
+        "horizon",
+        "window_length"
+      ],
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "supervised_targets",
       "authority_path": "data/market_state/supervised_targets.parquet",
       "rows": 2428,
-      "version": "market-state-research-v3.0",
       "primary_key": [
         "market_id",
         "asof_date",
         "horizon"
-      ]
-    },
-    {
-      "dataset_id": "sample_manifest",
-      "authority_path": "data/market_state/sample_manifest.parquet",
-      "rows": 2428,
-      "version": "market-state-research-v3.0",
-      "primary_key": [
-        "market_id",
-        "asof_date",
-        "horizon"
-      ]
-    },
-    {
-      "dataset_id": "time_splits",
-      "authority_path": "data/market_state/time_splits.parquet",
-      "rows": 83,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
-    },
-    {
-      "dataset_id": "fold_membership",
-      "authority_path": "data/market_state/fold_membership.parquet",
-      "rows": 143576,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      ],
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "current_states",
       "authority_path": "data/market_state/current_states.parquet",
       "rows": 2428,
-      "version": "market-state-research-v3.0",
       "primary_key": [
         "market_id",
         "asof_date",
         "horizon"
-      ]
+      ],
+      "version": "market-state-research-v3.0"
+    },
+    {
+      "dataset_id": "sample_manifest",
+      "authority_path": "data/market_state/sample_manifest.parquet",
+      "rows": 2428,
+      "primary_key": [
+        "market_id",
+        "asof_date",
+        "horizon"
+      ],
+      "version": "market-state-research-v3.0"
+    },
+    {
+      "dataset_id": "time_splits",
+      "authority_path": "data/market_state/time_splits.parquet",
+      "rows": 83,
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
+    },
+    {
+      "dataset_id": "fold_membership",
+      "authority_path": "data/market_state/fold_membership.parquet",
+      "rows": 143576,
+      "primary_key": [
+        "fold_id",
+        "role",
+        "market_id",
+        "asof_date",
+        "horizon"
+      ],
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "macro/historical_reconstructed/features",
       "authority_path": "data/market_state/macro/historical_reconstructed/features.parquet",
       "rows": 607,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      "primary_key": [
+        "asof_date"
+      ],
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "macro/historical_reconstructed/lineage",
       "authority_path": "data/market_state/macro/historical_reconstructed/lineage.parquet",
-      "rows": 37027,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      "rows": 41883,
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "state_dictionary/profiles",
       "authority_path": "data/market_state/state_dictionary/profiles.parquet",
       "rows": 3,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
     },
     {
       "dataset_id": "state_dictionary/candidates",
       "authority_path": "data/market_state/state_dictionary/candidates.parquet",
       "rows": 32,
-      "version": "market-state-research-v3.0",
-      "primary_key": null
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
+    },
+    {
+      "dataset_id": "data_tasks",
+      "authority_path": "data/market_state/data_tasks.parquet",
+      "rows": 24048,
+      "primary_key": null,
+      "version": "market-state-research-v3.0"
     }
   ],
-  "label_version": "76bf6837dc5e32262c99",
-  "protocol_sha256": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954"
+  "dictionary_version": "76bf6837dc5e32262c99",
+  "target_version": "f49e499c375fa557fcb0",
+  "feature_version": "6d50d9efbc48040f0912",
+  "missing_policy_version": "213bcb2ffb4e284a1502"
 }

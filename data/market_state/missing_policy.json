@@ -1,0 +1,580 @@
+{
+  "version": "formal-missing-policy-v1",
+  "cutoff": "2026-11-13",
+  "series": [
+    {
+      "series_id": "pmi_mfg",
+      "group": "growth",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "pmi_new_orders",
+      "group": "growth",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "pmi_nonmfg",
+      "group": "growth",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "industrial_va_yoy",
+      "group": "growth",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "industrial_va_ytd_yoy",
+      "group": "growth",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "retail_sales_yoy",
+      "group": "growth",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "retail_sales_ytd_yoy",
+      "group": "growth",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "gdp_real_yoy",
+      "group": "growth",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "gdp_real_ytd_yoy",
+      "group": "growth",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "fai_ytd_yoy",
+      "group": "growth",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "cpi_yoy",
+      "group": "prices",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "cpi_mom",
+      "group": "prices",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "core_cpi_yoy",
+      "group": "prices",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "ppi_yoy",
+      "group": "prices",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "ppi_mom",
+      "group": "prices",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "m2_yoy",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "m1_yoy",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "m1_new_yoy",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock_yoy",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_month_flow",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_ytd_flow",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "new_rmb_loans",
+      "group": "credit",
+      "formal": false,
+      "reason": "SOURCE_ONLY; formal columns split into independent documented statistical-scope definitions",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "rmb_loans_ytd_flow",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "rmb_loan_balance_yoy",
+      "group": "credit",
+      "formal": false,
+      "reason": "SOURCE_ONLY; formal columns split into independent documented statistical-scope definitions",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock__scope_pre_201807",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock__scope_201807",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock__scope_201809",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock__scope_201909",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock_yoy__scope_pre_201807",
+      "group": "credit",
+      "formal": false,
+      "reason": "SOURCE_ONLY; formal columns split into independent documented statistical-scope definitions",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock_yoy__scope_201807",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock_yoy__scope_201809",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock_yoy__scope_201909",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_month_flow__scope_pre_201807",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_month_flow__scope_201807",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_month_flow__scope_201809",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_month_flow__scope_201909",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_ytd_flow__scope_pre_201807",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_ytd_flow__scope_201807",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_ytd_flow__scope_201809",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_ytd_flow__scope_201909",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "shibor_on",
+      "group": "rates",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "shibor_1w",
+      "group": "rates",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "shibor_3m",
+      "group": "rates",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "dr007",
+      "group": "rates",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "cgb_1y",
+      "group": "rates",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "cgb_10y",
+      "group": "rates",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "term_spread_10y_1y",
+      "group": "rates",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "lpr_1y",
+      "group": "rates",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "usdcny_fixing",
+      "group": "external",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "exports_yoy",
+      "group": "external",
+      "formal": false,
+      "reason": "UNRESOLVED_SOURCE_PERIOD_GAP",
+      "exclude_all_derived": true,
+      "source_gap_periods": [
+        "2026-10-31"
+      ]
+    },
+    {
+      "series_id": "imports_yoy",
+      "group": "external",
+      "formal": false,
+      "reason": "UNRESOLVED_SOURCE_PERIOD_GAP",
+      "exclude_all_derived": true,
+      "source_gap_periods": [
+        "2026-10-31"
+      ]
+    },
+    {
+      "series_id": "fx_reserves",
+      "group": "external",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "exports_cny_yoy",
+      "group": "external",
+      "formal": false,
+      "reason": "EXCLUDE_MONTHLY_SERIES_INCOMPATIBLE_COMBINED_PERIODS_AND_UNRECOVERED_2025_02; use separate CNY YTD series",
+      "exclude_all_derived": true,
+      "source_gap_periods": [
+        "2025-02-28",
+        "2026-10-31"
+      ]
+    },
+    {
+      "series_id": "imports_cny_yoy",
+      "group": "external",
+      "formal": false,
+      "reason": "EXCLUDE_MONTHLY_SERIES_INCOMPATIBLE_COMBINED_PERIODS_AND_UNRECOVERED_2025_02; use separate CNY YTD series",
+      "exclude_all_derived": true,
+      "source_gap_periods": [
+        "2025-02-28",
+        "2026-10-31"
+      ]
+    },
+    {
+      "series_id": "exports_cny_ytd_yoy",
+      "group": "external",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "imports_cny_ytd_yoy",
+      "group": "external",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock__scope_202301",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock_yoy__scope_202301",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_month_flow__scope_202301",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_ytd_flow__scope_202301",
+      "group": "credit",
+      "formal": false,
+      "reason": "CANDIDATE_ONLY_REDUNDANT_LEVEL_OR_ALTERNATE_DEFINITION",
+      "exclude_all_derived": true,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "new_rmb_loans__definition_loan_pre_201501",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "new_rmb_loans__definition_loan_201501",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "new_rmb_loans__definition_loan_202301",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "rmb_loan_balance_yoy__definition_loan_pre_201501",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "rmb_loan_balance_yoy__definition_loan_201501",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "rmb_loan_balance_yoy__definition_loan_202301",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    },
+    {
+      "series_id": "tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807",
+      "group": "credit",
+      "formal": true,
+      "reason": "ECONOMICALLY_SPECIFIED_COMPLETE_APPLICABLE_PERIODS",
+      "exclude_all_derived": false,
+      "source_gap_periods": []
+    }
+  ],
+  "numeric_policy": "train-only variable numeric columns; all-empty and constant value columns dropped; original-column missing indicators fixed; median/IQR from train only",
+  "categorical_policy": "state IDs nominal; one-hot training categories plus explicit missing/unseen reserved states; no scaling of IDs",
+  "label_policy": "No label imputation; invalid/unmatured windows excluded from train/score identically for all information sets",
+  "source_gap_hold": "legal last release may remain in candidate pool, with registered SOURCE_GAP_HELD_VALUE; excluded series cannot enter formal groups or complements",
+  "reasonable_missing": [
+    "historical_warmup",
+    "institutional_not_applicable",
+    "not_yet_released",
+    "confirmed_suspension",
+    "future_window_immature"
+  ],
+  "policy_version": "213bcb2ffb4e284a1502"
+}
