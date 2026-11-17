@@ -12,7 +12,7 @@ def pytest_sessionfinish(session,exitstatus):
     import json
     from scripts.market_state.release import code_hash,file_hash
     from scripts.market_state.common import ROOT,REPORT
-    required={'test_market_state.py','test_model_io.py'}
+    required={'test_market_state.py','test_model_io.py','test_paired_losses.py'}
     files={Path(str(item.fspath)).name for item in session.items}
     options=session.config.option
     if not required<=files or options.keyword or options.markexpr or getattr(options,'lf',False):return

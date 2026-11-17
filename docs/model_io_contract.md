@@ -116,6 +116,10 @@ Elastic Net、RBF-SVM、Random Forest、CatBoost后续只需实现fit/predict及
 
 `validate_output` 拦截列/顺序/概率/决策/身份/行数/主键错误，包括丢行、重复行、跨市场或折错配。预测完成后，`prepare_evaluation`或`evaluation_pairs`才按键关联真实y，要求相同角色、折、截止、版本和评分成员。若预测集合含未成熟行，应另按既有成熟评分成员显式取对应预测子集再评价；不能为评分而改变训练样本。
 
+逐样本评分复用 `evaluation.multiclass_losses` / `continuous_losses`，在 `evaluation_pairs` 关联真值后，将所选同口径逐行损失放入loss列，再调用 `framework.paired_losses(left, right, task=...)`。配对按完整主键集合一一连接，允许两表行顺序不同，不取交集；必须保留正式输出全部共同身份和真实目标列。分类及其Log Loss/Brier使用task='classification'和future_state_id；回归要求固定七项原单位真值全部一致，即使当前loss只评价其中一项。task='probability'仍只表示辅助软归属真值视图，不自动成为主要预测任务。
+
+配对共同身份来自机器契约的IDENTITY与OUTPUT_CONTEXT_FIELDS：data_version、feature_version、target_version、dictionary_version、contract_version、fold_id、fit_cutoff、model_id、quality、target_adapter_version必须一致。feature_version是正式特征定义的全局版本，信息集仍可选不同列。information_set、model_version（各自拟合的模型权重身份）、preprocessing_version允许不同，其字段必须存在但不要求值相等。不接收label_version代替dictionary_version；缺列、空身份/目标、重复键、样本不同、真实目标或共享身份不同、非有限损失均报错。损失差固定为loss_M-loss_MZ，正值表示右侧损失更低。人工输出只在测试内使用，不保存为正式预测结果。
+
 未来完整模型包必须包含：输入预处理器、目标适配器、估计器、必要校准器、输入输出schema、版本、训练上下文和能力声明。`package_manifest`只提供结构模板，本轮不创建估计器或训练后的完整模型包。
 
 ## 版本与兼容性

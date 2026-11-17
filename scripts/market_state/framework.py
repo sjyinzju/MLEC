@@ -245,12 +245,27 @@ def information_view(ds,information_set,*,store):
     return validate_dataset(result)
 
 def paired_losses(left,right,*,task):
-    """Future model-independent scoring interface; no predictions made here."""
-    if left.duplicated(KEY).any() or right.duplicated(KEY).any():raise ValueError('Duplicate paired key')
-    if set(map(tuple,left[KEY].to_numpy()))!=set(map(tuple,right[KEY].to_numpy())):raise ValueError('Unpaired rows')
-    d=left.merge(right,on=KEY,suffixes=('_M','_MZ'),validate='one_to_one')
-    for col in ['label_version','fit_cutoff','target_version']:
-        if not d[col+'_M'].eq(d[col+'_MZ']).all():raise ValueError('Unpaired '+col)
+    """Pair checked, truth-attached scores by key; positive M-MZ means lower loss."""
+    from .model_contract import IDENTITY,OUTPUT_CONTEXT_FIELDS,target_schema,unique_keys
     if task not in ['classification','probability','regression']:raise ValueError('Unknown task')
+    targets=target_schema()['columns'][task]
+    required=KEY+IDENTITY+OUTPUT_CONTEXT_FIELDS+targets+['loss']
+    # These identities describe the independently fitted input/model instances.
+    different={'information_set','preprocessing_version','model_version'}
+    shared=IDENTITY+[c for c in OUTPUT_CONTEXT_FIELDS if c not in different]
+    for scores in [left,right]:
+        if not scores.columns.is_unique:raise ValueError('Duplicate paired column')
+        missing=[c for c in required if c not in scores]
+        if missing:raise ValueError('Missing paired columns: '+', '.join(missing))
+        if scores[required].isna().any().any():raise ValueError('Missing paired identity, target or loss')
+        if scores[IDENTITY+OUTPUT_CONTEXT_FIELDS].eq('').any().any():raise ValueError('Missing paired identity')
+        unique_keys(scores[KEY])
+        if not pd.api.types.is_numeric_dtype(scores.loss) or not np.isfinite(scores.loss.to_numpy(float)).all():raise ValueError('Non-finite or non-numeric paired loss')
+        if not np.isfinite(scores[targets].to_numpy(float)).all():raise ValueError('Non-finite paired target')
+    if set(map(tuple,left[KEY].to_numpy()))!=set(map(tuple,right[KEY].to_numpy())):raise ValueError('Unpaired rows')
+    d=left.merge(right,on=KEY,suffixes=('_M','_MZ'),validate='one_to_one',sort=False)
+    for col in shared+targets:
+        if not d[col+'_M'].eq(d[col+'_MZ']).all():raise ValueError('Unpaired '+col)
     d['loss_difference']=d.loss_M-d.loss_MZ
+    if not np.isfinite(d.loss_difference.to_numpy(float)).all():raise ValueError('Non-finite paired loss difference')
     return d

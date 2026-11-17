@@ -55,7 +55,7 @@ prediction使用既有月度计划，只读取历史特征和当时可得宏观�
 
 真实批量检查包括：所有信息集的主键和真实y相同；全部训练标签成熟；分类映射、辅助软归属概率、七项回归顺序正确；每折输入/目标变换只基于训练；全行输入变换与逐列统计限制精确相同；每折输入及目标部件保存加载一致；每折/角色目标往返恢复原单位（rtol=1e-12、atol=1e-24）；所有月度预测读取无需未来表；36项产物与原seal字节不变。
 
-测试结果：**62 passed in 15.16s**，进程退出码 **0**。无筛选的完整pytest会自动刷新test_results.json与接口代码/测试文件身份，按文档两条命令即可重建准入记录。测试额外覆盖全空/常数列、制度后新增值、新名义类别与缺失标记、修改验证/测试值不改变训练统计、修改真实y不改变预测输入、IQR为零的标准差回退、小尺度目标、固定评价尺度、内部时间子集、错版本/信息集/顺序/dtype/行、非法概率/类别及经济边界记录。输出契约只用标记为ARTIFICIAL_TEST_ONLY的人工数组验证，没有保存正式预测表。控制台退出时仍可能出现既有pyreadline析构告警，pytest退出码和通过计数单独记录。
+测试结果：**106 passed in 28.30s**，进程退出码 **0**。无筛选的完整pytest会自动刷新test_results.json与接口代码/测试文件身份，按文档两条命令即可重建准入记录。测试额外覆盖全空/常数列、制度后新增值、新名义类别与缺失标记、修改验证/测试值不改变训练统计、修改真实y不改变预测输入、IQR为零的标准差回退、小尺度目标、固定评价尺度、内部时间子集、错版本/信息集/顺序/dtype/行、非法概率/类别及经济边界记录。输出契约只用标记为ARTIFICIAL_TEST_ONLY的人工数组验证，没有保存正式预测表。控制台退出时仍可能出现既有pyreadline析构告警，pytest退出码和通过计数单独记录。
 
 明细：`tasks.parquet`、`prediction_reads.parquet`、`schemas.parquet`；身份：`acceptance.json`；测试：`test_results.json` / `tests.txt`；生成schema：`target_schema.json`、`output_schemas.json`、`example_input_schema.json`。
 
@@ -67,7 +67,7 @@ prediction使用既有月度计划，只读取历史特征和当时可得宏观�
 - 字典：`76bf6837dc5e32262c99`。
 - 契约：`model-io-v1`。
 - 原数据构建代码：`310d3ab1cabf4dfb6db5d70cc6eed140af799fcbbffa8f39859cd8cd92a3ed33`。
-- 本轮接口代码：`13bdc5025fb6e4bc937e6e9ba147ec9125dfc7d946cdb87bc7552078e1c4e34f`。
+- 本轮接口代码：`853d27f419c2f5d57f15067a1faaaca1142851e1904f625c58073aac93ddc9d3`。
 
 旧seal没有改写。本轮acceptance记录原seal哈希和全部原产物哈希，将接口扩展与原封版身份显式关联。下一轮先调用assert_interface_accepted；接口代码变化要重跑接口验收及测试，不能静默沿用旧接口准入。数据或标签变更仍须新的数据验收授权。
 
@@ -95,3 +95,14 @@ python -m pytest -q
 ```
 
 本轮停止于可以开始构建四模型的边界，不提前运行正式实验。
+
+
+## 配对评分契约修复复验
+
+根因：framework.paired_losses仍要求旧label_version，合法正式输出只含dictionary_version，人工端到端用例复现KeyError；原函数也没有完整检查共享身份和关联后的真实y。
+
+修复：输出构造、schema与配对器共用model_contract的IDENTITY/OUTPUT_CONTEXT_FIELDS。按完整主键一一配对，比较数据/特征/目标/字典/契约版本、时间折、训练截止、模型ID、宏观质量视图、目标适配身份和实际任务真值；information_set、model_version、preprocessing_version仅要求存在，允许不同。没有补旧字段别名。缺列、缺值、重复键/列、样本不同、任意共享身份或真实目标不同、非有限损失均报错。保持loss_difference=loss_M-loss_MZ。
+
+新增tests/test_paired_losses.py的44项人工测试：合法分类输出关联人工真值后，复用multiclass_losses计算Log Loss/Brier并配对；合法七指标回归输出关联真值后，复用continuous_losses计算原单位逐样本指标损失并配对。检查明确的手算差值、右表逆序、所有七项真值，以及缺列、重复键、样本、版本和目标错配；模型权重/预处理身份不同的合法M/M+Z对照通过。人工预测只在测试内存中使用，没有正式预测产物。
+
+完整测试106项通过（退出码0）。通过现有interface-preflight重验全部24048个数据任务及3984个预测读取任务；144个无成熟评分行仍为既定状态。assert_interface_accepted检查当前代码、完整测试和新接口验收身份一致。tests/conftest.py将新增回归文件纳入完整测试记录范围。原36项数据产物、原seal、标签与状态字典字节未变，监督预测模型运行数量0。

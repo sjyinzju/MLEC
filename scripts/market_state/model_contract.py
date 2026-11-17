@@ -15,6 +15,8 @@ DIMENSIONS = {'trend':['return'], 'volatility':['volatility'], 'downside':['draw
 BOUNDS = {'return':[-1,None], 'volatility':[0,None], 'drawdown':[0,1], 'amihud':[0,None],
           'turnover':[0,None], 'breadth':[0,1], 'correlation':[-1,1]}
 IDENTITY = ['data_version','feature_version','target_version','dictionary_version','contract_version']
+OUTPUT_CONTEXT_FIELDS = ['fold_id','fit_cutoff','model_id','information_set','preprocessing_version',
+                         'target_adapter_version','model_version','quality']
 
 
 def target_schema(get=read):
@@ -195,7 +197,7 @@ def _output_base(ctx):
     if ctx.versions.get('contract_version')!=CONTRACT_VERSION or any(not ctx.versions.get(v) for v in IDENTITY):raise ValueError('Invalid output version context')
     if any(not getattr(ctx,k) for k in ['model_id','model_version','preprocessing_version','target_adapter_version']):raise ValueError('Missing output component identity')
     result=ctx.keys.copy()
-    for k,v in {**ctx.versions,**{k:getattr(ctx,k) for k in ['fold_id','fit_cutoff','model_id','information_set','preprocessing_version','target_adapter_version','model_version','quality']}}.items():result[k]=v
+    for k,v in {**ctx.versions,**{k:getattr(ctx,k) for k in OUTPUT_CONTEXT_FIELDS}}.items():result[k]=v
     return result
 
 
@@ -305,8 +307,7 @@ PACKAGE_COMPONENTS = ['input_preprocessor','target_adapter','estimator','calibra
 
 
 def prediction_schema(task,schema):
-    common=KEY+IDENTITY+['fold_id','fit_cutoff','model_id','information_set','preprocessing_version',
-        'target_adapter_version','model_version','quality']
+    common=KEY+IDENTITY+OUTPUT_CONTEXT_FIELDS
     if task=='classification':
         outputs=['predicted_state_id']+['predicted_state_prob_'+str(c) for c in schema['class_ids']]
     elif task=='regression':outputs=['predicted_'+c for c in CORE]+['economic_bound_violations','output_units']
