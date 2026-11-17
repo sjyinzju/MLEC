@@ -5,10 +5,13 @@ from .common import OUT, read
 
 def main():
     p=argparse.ArgumentParser(description='market-state-research-v3.0 A-C')
-    p.add_argument('command',choices=['collect','build','verify','report','preflight','accept','reproduce','seal'])
+    p.add_argument('command',choices=['collect','build','verify','report','preflight','accept','reproduce','seal','interface-preflight'])
     p.add_argument('--reuse-dictionary',action='store_true')
     p.add_argument('--force-sources',action='store_true')
     args=p.parse_args()
+    if args.command=='interface-preflight':
+        from .tasks import interface_preflight
+        interface_preflight();return
     from .release import begin
     begin()
     if args.command=='collect':

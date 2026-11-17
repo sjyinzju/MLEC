@@ -86,13 +86,14 @@ def seal():
     print('SEALED',payload['data_version'],flush=True)
     return payload
 
-def assert_sealed_products():
+def assert_sealed_products(*,require=True):
     p=RELEASE/'seal.json'
-    if not p.exists():return None  # Data-only acceptance may read a draft.
+    if not p.exists():
+        if require:raise RuntimeError('Formal seal required; use explicit analysis for draft inspection')
+        return None
     record=json.loads(p.read_text(encoding='utf8'))
-    required=['supervised_targets.parquet','market_features.parquet','sample_manifest.parquet','fold_membership.parquet',
-        'macro/historical_reconstructed/features.parquet','feature_sets.json','missing_policy.json']
-    for name in required:
-        path=OUT/name;relative=path.relative_to(ROOT).as_posix()
-        if file_hash(path)!=record['products'].get(relative):raise RuntimeError('Formal sealed data changed; rebuild/accept/reseal before reading: '+name)
+    if record['status']!='SEALED_READY_FOR_MODEL_SELECTION':raise RuntimeError('Release is not accepted')
+    for relative,expected in record['products'].items():
+        path=ROOT/relative
+        if not path.exists() or file_hash(path)!=expected:raise RuntimeError('Formal sealed data changed; rebuild/accept/reseal before reading: '+relative)
     return record['data_version']

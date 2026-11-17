@@ -1,0 +1,206 @@
+{
+  "000985.SH": {
+    "version": "113e3cb6a5f0f1c74068c6b7e4835ad8eced1db1698f0c1c6644f7e13e1ec7d4",
+    "market_id": "000985.SH",
+    "source_fold": "initial",
+    "fit_cutoff": "2019-12-31 18:00:00+08:00",
+    "versions": {
+      "data_version": "5d57508f09249cf50b1a2e52",
+      "feature_version": "6d50d9efbc48040f0912",
+      "target_version": "f49e499c375fa557fcb0",
+      "dictionary_version": "76bf6837dc5e32262c99",
+      "contract_version": "model-io-v1"
+    },
+    "columns": [
+      "return",
+      "volatility",
+      "drawdown",
+      "amihud",
+      "turnover",
+      "breadth",
+      "correlation"
+    ],
+    "scale": [
+      0.06743762173346818,
+      0.14986124524510744,
+      0.03931844858808331,
+      1.544036361544349e-10,
+      0.00487288960111712,
+      0.07037122466540191,
+      0.20771279882009203
+    ],
+    "dimensions": {
+      "trend": [
+        "return"
+      ],
+      "volatility": [
+        "volatility"
+      ],
+      "downside": [
+        "drawdown"
+      ],
+      "liquidity": [
+        "amihud",
+        "turnover"
+      ],
+      "structure": [
+        "breadth",
+        "correlation"
+      ]
+    },
+    "aggregation": "original-unit errors / fixed initial scale; mean within dimension then mean of five dimensions"
+  },
+  "000300.SH": {
+    "version": "13c7a8920b5fde9c4df66d4092fbce283d14a398d1b7a6f3166931aa0efb3d98",
+    "market_id": "000300.SH",
+    "source_fold": "initial",
+    "fit_cutoff": "2019-12-31 18:00:00+08:00",
+    "versions": {
+      "data_version": "5d57508f09249cf50b1a2e52",
+      "feature_version": "6d50d9efbc48040f0912",
+      "target_version": "f49e499c375fa557fcb0",
+      "dictionary_version": "76bf6837dc5e32262c99",
+      "contract_version": "model-io-v1"
+    },
+    "columns": [
+      "return",
+      "volatility",
+      "drawdown",
+      "amihud",
+      "turnover",
+      "breadth",
+      "correlation"
+    ],
+    "scale": [
+      0.07195535426438332,
+      0.14598574523085367,
+      0.04897596330041876,
+      1.8724782588969885e-11,
+      0.002682782345052652,
+      0.06365902926148359,
+      0.256481653947189
+    ],
+    "dimensions": {
+      "trend": [
+        "return"
+      ],
+      "volatility": [
+        "volatility"
+      ],
+      "downside": [
+        "drawdown"
+      ],
+      "liquidity": [
+        "amihud",
+        "turnover"
+      ],
+      "structure": [
+        "breadth",
+        "correlation"
+      ]
+    },
+    "aggregation": "original-unit errors / fixed initial scale; mean within dimension then mean of five dimensions"
+  },
+  "000905.SH": {
+    "version": "0487e79ee35620c26802ac054d722a47c6a9164bcdf22a122d34dc5163c6c553",
+    "market_id": "000905.SH",
+    "source_fold": "initial",
+    "fit_cutoff": "2019-12-31 18:00:00+08:00",
+    "versions": {
+      "data_version": "5d57508f09249cf50b1a2e52",
+      "feature_version": "6d50d9efbc48040f0912",
+      "target_version": "f49e499c375fa557fcb0",
+      "dictionary_version": "76bf6837dc5e32262c99",
+      "contract_version": "model-io-v1"
+    },
+    "columns": [
+      "return",
+      "volatility",
+      "drawdown",
+      "amihud",
+      "turnover",
+      "breadth",
+      "correlation"
+    ],
+    "scale": [
+      0.08248369243089099,
+      0.14984259218477214,
+      0.04512146575008302,
+      7.090766823168064e-11,
+      0.009004434538152167,
+      0.06624639324783016,
+      0.22847945475627074
+    ],
+    "dimensions": {
+      "trend": [
+        "return"
+      ],
+      "volatility": [
+        "volatility"
+      ],
+      "downside": [
+        "drawdown"
+      ],
+      "liquidity": [
+        "amihud",
+        "turnover"
+      ],
+      "structure": [
+        "breadth",
+        "correlation"
+      ]
+    },
+    "aggregation": "original-unit errors / fixed initial scale; mean within dimension then mean of five dimensions"
+  },
+  "000852.SH": {
+    "version": "988242ff48a0bf79db071de5c711472d5760adcc9caf58bc10031121a3cccb87",
+    "market_id": "000852.SH",
+    "source_fold": "initial",
+    "fit_cutoff": "2019-12-31 18:00:00+08:00",
+    "versions": {
+      "data_version": "5d57508f09249cf50b1a2e52",
+      "feature_version": "6d50d9efbc48040f0912",
+      "target_version": "f49e499c375fa557fcb0",
+      "dictionary_version": "76bf6837dc5e32262c99",
+      "contract_version": "model-io-v1"
+    },
+    "columns": [
+      "return",
+      "volatility",
+      "drawdown",
+      "amihud",
+      "turnover",
+      "breadth",
+      "correlation"
+    ],
+    "scale": [
+      0.09571194995254945,
+      0.15555616211802237,
+      0.04803987743944799,
+      1.370307440456595e-10,
+      0.014592522065436351,
+      0.07441424871154079,
+      0.20837736900957837
+    ],
+    "dimensions": {
+      "trend": [
+        "return"
+      ],
+      "volatility": [
+        "volatility"
+      ],
+      "downside": [
+        "drawdown"
+      ],
+      "liquidity": [
+        "amihud",
+        "turnover"
+      ],
+      "structure": [
+        "breadth",
+        "correlation"
+      ]
+    },
+    "aggregation": "original-unit errors / fixed initial scale; mean within dimension then mean of five dimensions"
+  }
+}

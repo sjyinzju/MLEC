@@ -5,6 +5,11 @@ from .common import *
 from .framework import DataStore,load_dataset,preprocessing
 from .release import code_hash
 
+def interface_preflight():
+    """Extend the same sealed task matrix; never expand or rewrite research data."""
+    from .interface_acceptance import interface_preflight as verify
+    return verify()
+
 def expand():
     spec=json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
     plans=read('time_splits');rows=[]

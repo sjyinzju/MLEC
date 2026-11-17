@@ -83,6 +83,13 @@ class Dataset:
     y: pd.DataFrame
     metadata: pd.DataFrame
     feature_names: list
+    keys: pd.DataFrame = None
+    X_market: pd.DataFrame = None
+    X_macro: pd.DataFrame = None
+    feature_schema: dict = None
+    target_schema: dict = None
+    versions: dict = None
+    context: dict = None
 
 def load_universe(market_id,asof):
     """Historical legal securities, with the actually observed member precision."""
@@ -103,35 +110,88 @@ def load_universe(market_id,asof):
     return active.reset_index(drop=True)
 
 def load_dataset(*,market_id=None,start=None,end=None,information_set='M',task='classification',fold_id=None,role=None,quality='historical_reconstructed',eligible_only=True,view=None,store=None):
+    """One keyed read chain. Prediction never opens targets or sample_manifest."""
+    from .model_contract import CONTRACT_VERSION, target_schema, validate_dataset
     if task not in ['classification','probability','regression']:raise ValueError('Unknown task')
     if quality not in ['strict','historical_reconstructed','latest_at_retrieval']:raise ValueError('Unknown macro view')
     if (fold_id is None)!=(role is None):raise ValueError('fold_id and role must be specified together')
+    if view not in [None,'analysis']:raise ValueError('Unknown view')
     if fold_id is None and view!='analysis':raise ValueError('Specify fold_id/role; all-period inspection requires explicit view="analysis"')
-    if store is None and view!='analysis':
-        from .release import assert_sealed_products
-        assert_sealed_products()
+    if fold_id is not None and role not in ['train','validation','test','prediction']:raise ValueError('Unknown role')
+    if store is None and view!='analysis':store=DataStore()
+    if view!='analysis' and not isinstance(store,DataStore):raise ValueError('Formal reads require sealed DataStore')
     if market_id is not None and market_id not in MARKETS:raise ValueError('Unknown market')
     spec=store.spec if store is not None else json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
     if information_set not in spec['sets']:raise ValueError('Unknown information set')
     get=store.get if store is not None else read
-    meta=get('sample_manifest');targets=get('supervised_targets')
-    if eligible_only:meta=meta[meta.eligible]
-    if market_id:meta=meta[meta.market_id.eq(market_id)]
-    if start:meta=meta[meta.asof_date.ge(pd.Timestamp(start))]
-    if end:meta=meta[meta.asof_date.le(pd.Timestamp(end))]
-    if fold_id:
-        folds=get('fold_membership');part=folds[folds.fold_id.eq(fold_id)&folds.role.eq(role)]
-        if role not in ['train','validation','test'] or fold_id not in set(folds.fold_id):raise ValueError('Unknown fold/role')
-        meta=meta.merge(part,on=KEY,validate='one_to_one')
-        if role=='train' and not meta.label_available_at.le(meta.fit_cutoff).all():raise ValueError('Immature label')
-    meta=meta.sort_values(['asof_date','market_id']).reset_index(drop=True)
     features=store.features(quality) if store is not None else get('market_features').merge(get('macro/'+quality+'/features'),on='asof_date',validate='many_to_one')
-    joined=meta[KEY].merge(features,on=KEY,validate='one_to_one')
+    if features.duplicated(KEY).any():raise ValueError('Duplicate feature key')
+    prediction=role=='prediction'
+    if prediction:
+        plans=get('time_splits');plan=plans[plans.fold_id.eq(fold_id)]
+        if len(plan)!=1:raise ValueError('Prediction needs an existing monthly fold')
+        plan=plan.iloc[0]
+        meta=features[KEY+['asof_time']].copy()
+        # Historical state validity alone; no future eligibility or labels.
+        meta['prediction_eligible']=features.current_state_id.notna()
+        meta=meta[meta.asof_date.between(plan.prediction_start,plan.prediction_end)]
+        if eligible_only:meta=meta[meta.prediction_eligible]
+        meta=meta.assign(fold_id=fold_id,role=role,fit_cutoff=plan.fit_cutoff)
+    else:
+        meta=get('sample_manifest').copy()
+        if eligible_only:meta=meta[meta.eligible]
+        if fold_id:
+            folds=get('fold_membership');part=folds[folds.fold_id.eq(fold_id)&folds.role.eq(role)]
+            plans=get('time_splits')
+            expected='train' if fold_id=='initial' else (plans.set_index('fold_id').period.get(fold_id))
+            if expected is None or role not in ['train',expected]:raise ValueError('Unknown fold/role')
+            meta=meta.merge(part,on=KEY,validate='one_to_one')
+        else:meta=meta.assign(fold_id='analysis',role='analysis',fit_cutoff=pd.NaT)
+    if market_id:meta=meta[meta.market_id.eq(market_id)]
+    if start is not None:meta=meta[meta.asof_date.ge(pd.Timestamp(start))]
+    if end is not None:meta=meta[meta.asof_date.le(pd.Timestamp(end))]
+    meta=meta.sort_values(['asof_date','market_id']).reset_index(drop=True)
+    if meta.duplicated(KEY).any():raise ValueError('Duplicate sample key')
+    joined=meta[KEY].merge(features,on=KEY,how='left',validate='one_to_one',indicator=True)
+    if not joined._merge.eq('both').all():raise ValueError('Missing feature key')
     cols=spec['by_market'][market_id][information_set] if market_id else spec['sets'][information_set]
-    X=joined[cols].copy()
-    ycols=['future_state_id'] if task=='classification' else [c for c in targets if c.startswith('future_state_prob_')] if task=='probability' else CORE
-    y=meta[KEY].merge(targets[KEY+ycols],on=KEY,validate='one_to_one')[ycols]
-    return Dataset(X,y,meta,cols)
+    X=joined[cols].copy();mcols=[c for c in cols if not c.startswith('macro__')];zcols=[c for c in cols if c.startswith('macro__')]
+    schema=store.target_schema() if store else target_schema(get)
+    if schema['dictionary_version']!=spec['label_version']:raise ValueError('Dictionary version mismatch')
+    y=None
+    if not prediction:
+        ycols=schema['columns'][task]
+        truth=_read_targets(meta[KEY],schema,task,get)
+        y=truth[ycols].copy()
+        meta['label_start']=truth.label_start;meta['label_end']=truth.label_end
+    versions=dict(data_version=store.data_version if store else None,feature_version=spec['feature_version'],
+        target_version=spec['target_version'],dictionary_version=spec['label_version'],contract_version=CONTRACT_VERSION)
+    for name,value in versions.items():meta[name]=value
+    # Availability evidence is independent of realized future coverage.
+    if store is None:
+        lineage=get('macro/'+quality+'/lineage')
+        if lineage.available_at.gt(lineage.asof_time).any():raise ValueError('Macro source available after prediction time')
+    context=dict(market_id=market_id,fold_id=fold_id,role=role or 'analysis',information_set=information_set,
+        quality=quality,view=view,versions=versions)
+    ds=Dataset(X,y,meta,cols,meta[KEY].copy(),X[mcols].copy(),X[zcols].copy(),
+        dict(columns=cols,dtypes=X.dtypes.astype(str).to_dict(),information_set=information_set),schema,versions,context)
+    validate_dataset(ds)
+    return ds
+
+def _read_targets(keys,schema,task,get):
+    targets=get('supervised_targets');cols=schema['columns'][task]
+    truth=keys.merge(targets[KEY+cols+['label_start','label_end']],on=KEY,how='left',validate='one_to_one',indicator=True)
+    if not truth._merge.eq('both').all():raise ValueError('Missing target key')
+    return truth
+
+def target_view(ds,task,*,store):
+    """Reuse a keyed input read for another existing target, without resampling X."""
+    from dataclasses import replace
+    from .model_contract import validate_dataset
+    if task not in ds.target_schema['columns']:raise ValueError('Unknown task')
+    if ds.y is None:raise ValueError('Prediction has no realized targets')
+    truth=_read_targets(ds.keys,ds.target_schema,task,store.get)
+    return validate_dataset(replace(ds,y=truth[ds.target_schema['columns'][task]].copy()))
 
 def preprocessing():
     """An UNFITTED factory; caller must fit only on fold's train.X."""
@@ -144,7 +204,12 @@ class DataStore:
         from .release import assert_sealed_products
         self.data_version=assert_sealed_products()
         self.spec=json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'));self.tables={};self.views={}
+        self.config_stamps={name:((OUT/name).stat().st_size,(OUT/name).stat().st_mtime_ns)
+            for name in ['feature_sets.json','state_dictionary/dictionary.json','missing_policy.json','release/seal.json']}
     def get(self,name):
+        for config,expected in self.config_stamps.items():
+            p=OUT/config
+            if (p.stat().st_size,p.stat().st_mtime_ns)!=expected:raise RuntimeError('Configuration changed during immutable read: '+config)
         path=OUT/(name+'.parquet');stamp=(path.stat().st_size,path.stat().st_mtime_ns)
         if name not in self.tables:
             self.tables[name]=read(name)
@@ -153,8 +218,31 @@ class DataStore:
         elif self.stamps[name]!=stamp:raise RuntimeError('Data changed during immutable batch read: '+name)
         return self.tables[name]
     def features(self,quality):
-        if quality not in self.views:self.views[quality]=self.get('market_features').merge(self.get('macro/'+quality+'/features'),on='asof_date',validate='many_to_one')
+        market=self.get('market_features');macro=self.get('macro/'+quality+'/features')
+        lineage=self.get('macro/'+quality+'/lineage')
+        if quality not in self.views:
+            if lineage.available_at.gt(lineage.asof_time).any():raise ValueError('Macro source available after prediction time')
+            self.views[quality]=market.merge(macro,on='asof_date',validate='many_to_one')
         return self.views[quality]
+    def target_schema(self):
+        from .model_contract import target_schema
+        self.get('state_dictionary/profiles');self.get('field_dictionary')
+        if not hasattr(self,'_target_schema'):self._target_schema=target_schema(self.get)
+        return self._target_schema
+
+def information_view(ds,information_set,*,store):
+    """Exact column restriction of an already keyed read; no alternate joins/cohorts."""
+    from dataclasses import replace
+    from .model_contract import validate_dataset
+    market=ds.context['market_id']
+    cols=store.spec['by_market'][market][information_set] if market else store.spec['sets'][information_set]
+    if not set(cols)<=set(ds.X):raise ValueError('Requested information is absent; read its superset through load_dataset')
+    X=ds.X[cols].copy()
+    result=replace(ds,X=X,X_market=X[[c for c in cols if not c.startswith('macro__')]].copy(),
+        X_macro=X[[c for c in cols if c.startswith('macro__')]].copy(),feature_names=cols,
+        feature_schema=dict(columns=cols,dtypes=X.dtypes.astype(str).to_dict(),information_set=information_set),
+        context=dict(ds.context,information_set=information_set))
+    return validate_dataset(result)
 
 def paired_losses(left,right,*,task):
     """Future model-independent scoring interface; no predictions made here."""

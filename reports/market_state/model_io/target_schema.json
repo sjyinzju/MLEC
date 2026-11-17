@@ -1,0 +1,136 @@
+{
+  "contract_version": "model-io-v1",
+  "dictionary_version": "76bf6837dc5e32262c99",
+  "class_ids": [
+    0,
+    1,
+    2
+  ],
+  "class_semantics": [
+    {
+      "state_id": 0,
+      "description": "下跌（20日平均收益-16.70%）；较高波动；负收益股票过半"
+    },
+    {
+      "state_id": 1,
+      "description": "收益均值接近零（20日平均收益+0.03%）；较低波动；负收益股票未过半"
+    },
+    {
+      "state_id": 2,
+      "description": "上涨（20日平均收益+15.74%）；较高波动；负收益股票未过半"
+    }
+  ],
+  "dimensions": {
+    "trend": [
+      "return"
+    ],
+    "volatility": [
+      "volatility"
+    ],
+    "downside": [
+      "drawdown"
+    ],
+    "liquidity": [
+      "amihud",
+      "turnover"
+    ],
+    "structure": [
+      "breadth",
+      "correlation"
+    ]
+  },
+  "columns": {
+    "classification": [
+      "future_state_id"
+    ],
+    "regression": [
+      "return",
+      "volatility",
+      "drawdown",
+      "amihud",
+      "turnover",
+      "breadth",
+      "correlation"
+    ],
+    "probability": [
+      "future_state_prob_0",
+      "future_state_prob_1",
+      "future_state_prob_2"
+    ]
+  },
+  "continuous": [
+    {
+      "field": "return",
+      "unit": "ratio",
+      "definition": "P[t+H]/P[t]-1; H=20",
+      "dimension": "trend",
+      "bounds": [
+        -1,
+        null
+      ]
+    },
+    {
+      "field": "volatility",
+      "unit": "annualized ratio",
+      "definition": "sqrt(252/H * sum(log(P[d]/P[d-1])^2))",
+      "dimension": "volatility",
+      "bounds": [
+        0,
+        null
+      ]
+    },
+    {
+      "field": "drawdown",
+      "unit": "nonnegative loss ratio",
+      "definition": "max(1-P[b]/P[a]), 0<=a<=b<=H; H+1 prices",
+      "dimension": "downside",
+      "bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "field": "amihud",
+      "unit": "1/CNY",
+      "definition": "mean over days of cross-sectional median(abs(adjusted log stock return)/CNY amount)",
+      "dimension": "liquidity",
+      "bounds": [
+        0,
+        null
+      ]
+    },
+    {
+      "field": "turnover",
+      "unit": "ratio",
+      "definition": "mean over days of sum(volume shares)/sum(float shares), same valid stock subset",
+      "dimension": "liquidity",
+      "bounds": [
+        0,
+        null
+      ]
+    },
+    {
+      "field": "breadth",
+      "unit": "ratio",
+      "definition": "mean over days of fraction of negative valid adjusted stock returns",
+      "dimension": "structure",
+      "bounds": [
+        0,
+        1
+      ]
+    },
+    {
+      "field": "correlation",
+      "unit": "Pearson correlation",
+      "definition": "mean of stock-pair correlations on complete common-date H-day panel; membership required on every day",
+      "dimension": "structure",
+      "bounds": [
+        -1,
+        1
+      ]
+    }
+  ],
+  "probability_role": "auxiliary realized-label memberships, never predicted probabilities",
+  "decision_rule": "argmax; ties choose first class in dictionary order",
+  "probability_atol": 1e-08
+}

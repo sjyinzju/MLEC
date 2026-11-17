@@ -2,6 +2,20 @@
 
 研究唯一依据：[market-state-research-v3.0](docs/MLEC_research_protocol.md)。正式快照截止2026-11-13 18:00（北京时间）。先读[集中验收报告](reports/market_state/completion_report.md)和[data release](data/market_state/release/seal.json)。本轮没有监督预测模型或预测成绩。
 
+建模入口规范见[统一输入输出契约](docs/model_io_contract.md)，本轮实施与真实批量验收见[接口实施报告](reports/market_state/model_io/implementation_report.md)。后续四模型必须复用现有数据链路和目标适配器。
+
+本轮接口验收（不采集、不重标注、不训练预测模型）：
+
+```powershell
+$env:PYTHONPATH='.local_deps'
+python -m scripts.market_state.run interface-preflight
+python -m pytest -q
+```
+
+正式训练/评分使用显式fold/role；尚无未来标签的输入使用 `role='prediction'`。先 `fit_inputs(train)` 和 `fit_targets(train)`，再使用同一部件变换验证/测试/预测数据。调用下一轮建模前先执行 `assert_interface_accepted()`，防止数据或接口代码与验收身份错配。
+
+以下为上一轮数据构建验收命令，仅在明确授权重建数据时使用；新增接口不需要重新运行GMM或改写原seal：
+
 ```powershell
 $env:PYTHONPATH='.local_deps'
 python -m scripts.market_state.run build
@@ -13,10 +27,16 @@ python -m scripts.market_state.run seal
 ```
 
 ```python
-from scripts.market_state.framework import load_dataset, preprocessing
+from scripts.market_state.framework import load_dataset
+from scripts.market_state.model_contract import fit_inputs, transform_inputs
+from scripts.market_state.target_adapters import fit_targets
 train=load_dataset(market_id='000985.SH',information_set='M+Z',task='regression',fold_id='2023-01',role='train')
 test=load_dataset(market_id='000985.SH',information_set='M+Z',task='regression',fold_id='2023-01',role='test')
-pre=preprocessing()  # 未拟合；只能fit(train.X)
+pre=fit_inputs(train)
+target=fit_targets(train)
+X_train=transform_inputs(pre,train)
+y_train=target.transform(train.y)
+X_test=transform_inputs(pre,test)
 # 分类、软归属目标：task='classification' / 'probability'
 # 全时期仅描述查看：显式view='analysis'；不能把它当作一次训练集。
 ```
