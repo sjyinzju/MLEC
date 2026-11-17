@@ -84,3 +84,6 @@ Desktop.ini
 
 # Rebuildable, partitioned stock projections; never duplicate the external lake.
 /data/market_state/cache/
+
+# Explicit experiment runs contain predictions, weights and resumable journals.
+/results/

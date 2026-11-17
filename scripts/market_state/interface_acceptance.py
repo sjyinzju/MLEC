@@ -120,12 +120,13 @@ def interface_preflight():
     return summary
 
 
-def assert_interface_accepted():
+def assert_interface_accepted(*,data_root=None):
     record=json.loads((DEST/'acceptance.json').read_text(encoding='utf8'))
     from .release import assert_sealed_products
-    if not record['passed'] or record['contract_version']!=CONTRACT_VERSION or record['data_version']!=assert_sealed_products():raise RuntimeError('Interface acceptance identity mismatch')
+    if not record['passed'] or record['contract_version']!=CONTRACT_VERSION or record['data_version']!=assert_sealed_products(data_root=data_root):raise RuntimeError('Interface acceptance identity mismatch')
     if record['interface_code_hash']!=code_hash():raise RuntimeError('Interface code changed; rerun interface-preflight and tests')
-    if record['original_seal_hash']!=file_hash(OUT/'release/seal.json'):raise RuntimeError('Original data seal changed')
+    root=Path(data_root) if data_root is not None else OUT
+    if record['original_seal_hash']!=file_hash(root/'release/seal.json'):raise RuntimeError('Original data seal changed')
     tests=json.loads((DEST/'test_results.json').read_text(encoding='utf8'))
     if tests['exit_code']!=0 or tests['interface_code_hash']!=record['interface_code_hash']:raise RuntimeError('Tests are missing or stale for this interface')
     return record

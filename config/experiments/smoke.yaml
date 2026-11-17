@@ -1,0 +1,7 @@
+{
+  "purpose": "SMOKE_ONLY", "schema_version": "experiments-v1", "model": "elastic_net",
+  "backend": "cpu", "market": "000985.SH", "fold": "2020-01",
+  "data_root": "data/market_state", "threads_per_task": 1,
+  "parameters": {"classification": {"C": 1.0, "l1_ratio": 0.5, "tol": 0.0001, "max_iter": 10000}, "regression": {"alpha": 0.01, "l1_ratio": 0.5, "tol": 0.0001, "max_iter": 10000}},
+  "seed": 3060, "summary": "reports/model_build/elastic_net/smoke_summary.json"
+}

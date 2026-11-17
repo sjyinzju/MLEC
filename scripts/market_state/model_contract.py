@@ -19,8 +19,8 @@ OUTPUT_CONTEXT_FIELDS = ['fold_id','fit_cutoff','model_id','information_set','pr
                          'target_adapter_version','model_version','quality']
 
 
-def target_schema(get=read):
-    dictionary=json.loads((OUT/'state_dictionary/dictionary.json').read_text(encoding='utf8'))
+def target_schema(get=read,*,dictionary=None):
+    if dictionary is None:dictionary=json.loads((OUT/'state_dictionary/dictionary.json').read_text(encoding='utf8'))
     profiles=get('state_dictionary/profiles').sort_values('state_id')
     ids=profiles.state_id.astype(int).tolist()
     if ids!=list(range(len(dictionary['component_order']))):raise ValueError('Dictionary class order mismatch')
@@ -222,7 +222,7 @@ def regression_output(ctx, original_values, schema):
     violations=[]
     for row in a:
         violations.append(json.dumps([c for c,v in zip(CORE,row) if (BOUNDS[c][0] is not None and v<BOUNDS[c][0]) or (BOUNDS[c][1] is not None and v>BOUNDS[c][1])]))
-    result['economic_bound_violations']=violations
+    result['economic_bound_violations']=pd.Series(violations,index=result.index,dtype='str')
     result['output_units']='original'
     return result
 

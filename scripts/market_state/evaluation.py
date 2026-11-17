@@ -5,10 +5,10 @@ import pandas as pd
 def multiclass_losses(y, probabilities, class_ids):
     """Per-row proper scores; probabilities must follow the dictionary order."""
     y=np.asarray(y);p=np.asarray(probabilities,float);classes=list(class_ids)
-    if p.shape!=(len(y),len(classes)) or not np.isfinite(p).all() or (p<0).any() or not np.allclose(p.sum(axis=1),1):
-        raise ValueError('Invalid multiclass probabilities')
+    from .model_contract import validate_probabilities
+    validate_probabilities(p,classes,len(y))
     if len(set(classes))!=len(classes) or not set(y)<=set(classes):raise ValueError('Unknown class order')
-    index=np.array([classes.index(v) for v in y]);onehot=np.eye(len(classes))[index]
+    index=np.array([classes.index(v) for v in y],dtype=int);onehot=np.eye(len(classes))[index]
     return pd.DataFrame({'log_loss':-np.log(np.maximum(p[np.arange(len(y)),index],1e-15)),
                          'brier':((p-onehot)**2).sum(axis=1)})
 
@@ -16,6 +16,7 @@ def continuous_losses(observed, predicted):
     """Original-unit per-target errors; no whole-sample fitted scale."""
     a=np.asarray(observed,float);b=np.asarray(predicted,float)
     if a.shape!=b.shape or a.ndim!=2:raise ValueError('Unequal regression target dimensions')
+    if not np.isfinite(a).all() or not np.isfinite(b).all():raise ValueError('Non-finite regression scoring values')
     return {'absolute_error':np.abs(a-b),'squared_error':(a-b)**2}
 
 def block_interval(values,dates,block_weeks=8,repetitions=500,seed=3059):

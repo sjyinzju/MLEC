@@ -200,19 +200,20 @@ def preprocessing():
 
 class DataStore:
     """One immutable in-process read snapshot for batch data preflight."""
-    def __init__(self):
+    def __init__(self,data_root=None):
         from .release import assert_sealed_products
-        self.data_version=assert_sealed_products()
-        self.spec=json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'));self.tables={};self.views={}
-        self.config_stamps={name:((OUT/name).stat().st_size,(OUT/name).stat().st_mtime_ns)
+        self.root=Path(data_root).resolve() if data_root is not None else OUT
+        self.data_version=assert_sealed_products(data_root=data_root)
+        self.spec=json.loads((self.root/'feature_sets.json').read_text(encoding='utf8'));self.tables={};self.views={}
+        self.config_stamps={name:((self.root/name).stat().st_size,(self.root/name).stat().st_mtime_ns)
             for name in ['feature_sets.json','state_dictionary/dictionary.json','missing_policy.json','release/seal.json']}
     def get(self,name):
         for config,expected in self.config_stamps.items():
-            p=OUT/config
+            p=self.root/config
             if (p.stat().st_size,p.stat().st_mtime_ns)!=expected:raise RuntimeError('Configuration changed during immutable read: '+config)
-        path=OUT/(name+'.parquet');stamp=(path.stat().st_size,path.stat().st_mtime_ns)
+        path=self.root/(name+'.parquet');stamp=(path.stat().st_size,path.stat().st_mtime_ns)
         if name not in self.tables:
-            self.tables[name]=read(name)
+            self.tables[name]=pd.read_parquet(path)
             if not hasattr(self,'stamps'):self.stamps={}
             self.stamps[name]=stamp
         elif self.stamps[name]!=stamp:raise RuntimeError('Data changed during immutable batch read: '+name)
@@ -227,7 +228,9 @@ class DataStore:
     def target_schema(self):
         from .model_contract import target_schema
         self.get('state_dictionary/profiles');self.get('field_dictionary')
-        if not hasattr(self,'_target_schema'):self._target_schema=target_schema(self.get)
+        if not hasattr(self,'_target_schema'):
+            dictionary=json.loads((self.root/'state_dictionary/dictionary.json').read_text(encoding='utf8'))
+            self._target_schema=target_schema(self.get,dictionary=dictionary)
         return self._target_schema
 
 def information_view(ds,information_set,*,store):
@@ -244,11 +247,11 @@ def information_view(ds,information_set,*,store):
         context=dict(ds.context,information_set=information_set))
     return validate_dataset(result)
 
-def paired_losses(left,right,*,task):
+def paired_losses(left,right,*,task,schema=None):
     """Pair checked, truth-attached scores by key; positive M-MZ means lower loss."""
     from .model_contract import IDENTITY,OUTPUT_CONTEXT_FIELDS,target_schema,unique_keys
     if task not in ['classification','probability','regression']:raise ValueError('Unknown task')
-    targets=target_schema()['columns'][task]
+    targets=(schema or target_schema())['columns'][task]
     required=KEY+IDENTITY+OUTPUT_CONTEXT_FIELDS+targets+['loss']
     # These identities describe the independently fitted input/model instances.
     different={'information_set','preprocessing_version','model_version'}

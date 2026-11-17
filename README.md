@@ -1,6 +1,23 @@
 # MLEC：未来20个交易日的五维市场状态
 
-研究唯一依据：[market-state-research-v3.0](docs/MLEC_research_protocol.md)。正式快照截止2026-11-13 18:00（北京时间）。先读[集中验收报告](reports/market_state/completion_report.md)和[data release](data/market_state/release/seal.json)。本轮没有监督预测模型或预测成绩。
+研究唯一依据：[market-state-research-v3.0](docs/MLEC_research_protocol.md)。正式快照截止2026-11-13 18:00（北京时间）。先读[集中验收报告](reports/market_state/completion_report.md)和[data release](data/market_state/release/seal.json)。公共实验流程及Elastic Net分类/七目标回归已实现，状态 **IMPLEMENTED**；真实监督训练、参数搜索、smoke和正式实验本轮均为0，没有预测成绩。
+
+[运行与交接说明](docs/experiments.md)包含正式配置、资源、锁、恢复、输出及便携包；[实验规划](docs/MLEC_experiment_plan.md)已同步一次启动BC。准备环境后，同伴之后执行下面一条命令即可自动完成B→锁定→C→评分/报告，无需中途改代码或选参数：
+
+```bash
+python -m pip install -r requirements-experiments.txt
+python -m scripts.market_state.experiments pipeline --model elastic_net --config config/experiments/elastic_net.yaml --suite full --execute --resume
+```
+
+也可运行 `launchers/run_elastic_net.ps1` 或 `bash launchers/run_elastic_net.sh`，支持数据根、结果根和CPU线程参数。full含四市场、两任务的核心M/M+Z，以及固定M+Z开发参数的12信息集分组；默认32候选/12月粗搜索、前4全36月复核。结果为 `results/elastic_net/<pipeline_run_id>/`，自动输出分类、七指标回归、宏观增益、分组、预警、质量及覆盖表与图；开发和测试分别保存。其他三模型与信息时钟等扩展明确未实现，调用会报错。
+
+不训练的检查与打包：
+
+```bash
+python -m scripts.market_state.experiments plan --suite full
+python -m scripts.market_state.experiments preflight
+python -m scripts.market_state.experiments package --destination <new_portable_directory>
+```
 
 建模入口规范见[统一输入输出契约](docs/model_io_contract.md)，本轮实施与真实批量验收见[接口实施报告](reports/market_state/model_io/implementation_report.md)。后续四模型必须复用现有数据链路和目标适配器。
 

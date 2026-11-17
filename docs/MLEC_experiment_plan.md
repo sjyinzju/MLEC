@@ -1,13 +1,13 @@
 # MLEC 总体实验规划：四模型构建、批量运行与研究交付
 
-**规划版本：experiment-plan-v1.0**  
+**规划版本：experiment-plan-v1.1**
 **编制日期：2026-11-17**  
 **研究题目：中国宏观经济信息对 A 股市场风险状态预测的增量价值与预警价值**  
 **核对基线：`sjyinzju/MLEC` 提交 `ffe9068ccb10dfc50188a191e012e7f3d7dca608`**
 
 ## 0. 执行定位与总路线
 
-本文件把现有 `market-state-research-v3.0` 研究协议和 `model-io-v1` 输入输出契约落实为下一阶段实施方案。研究对象、标签、时间划分和正式信息集继续以原协议与封版产物为准；模型构建顺序、命令设计、搜索预算、结果目录及交接方式是本规划新增的实施安排，不代表当前仓库已经实现。[G1–G3]
+本文件把现有 `market-state-research-v3.0` 研究协议和 `model-io-v1` 输入输出契约落实为实施方案。研究对象、标签、时间划分和正式信息集继续以原协议与封版产物为准。v1.1按本轮明确授权更新编排：同伴一次启动自动完成单家族B→锁定→C→报告。公共流程与Elastic Net已实现，状态IMPLEMENTED；其余三家族及独立扩展未实现。真实训练和实验本轮未运行。当前入口、规则与保存细节见[运行说明](experiments.md)。[G1–G3]
 
 **总路线：修复评分衔接 → 逐个构建四类模型 → 交付可一键运行的代码、配置与数据包 → 在同伴计算机开展正式开发实验 → 固定方案 → 正式测试 → 统一输出研究结果。**
 
@@ -42,13 +42,13 @@
 
 数据报告与接口报告中的通过计数是已有验收记录，不是本规划重新运行的结果。本阶段不扩库、不重打标签、不重拟合主状态字典。[G3]
 
-### 1.2 先修复 `paired_losses()` 的版本字段
+### 1.2 `paired_losses()` 版本字段已修复
 
-当前 `framework.py` 中的 `paired_losses()` 仍要求 `label_version`，而新预测契约使用 `dictionary_version`。直接把新格式损失表送入旧函数会产生字段缺失错误。[G2、G4]
+先前 `framework.py` 的旧 `label_version` 要求已修复为共同预测契约的 `dictionary_version`，并已通过44项人工配对回归测试和接口复验。本轮直接复用，不重复修复或添加旧别名。[G2、G4]
 
-修复必须沿用唯一预测契约，检查共同样本、真实目标身份、数据/目标/字典/契约版本、时间折及训练截止。M与M+Z的信息集、模型权重、输入预处理身份可以不同，不能错误地要求它们完全相同。
+现有配对器沿用唯一预测契约，检查共同样本、真实目标身份、数据/目标/字典/契约版本、时间折及训练截止。M与M+Z的信息集、模型权重、输入预处理身份可以不同。
 
-增加一条人工数据端到端测试：合法预测结果 → 关联真值 → 逐样本损失 → 配对损失差。覆盖版本或真值错配、缺列、重复键、样本不一致；不得靠补一列旧别名掩盖冲突。修改接口后重跑接口验收与测试，更新接口身份，不改写原数据seal。
+已有人工端到端测试覆盖合法预测→关联真值→逐样本损失→配对，以及版本/真值错配、缺列、重复键和样本不一致。本轮新增实验层验证，接口改动仍重新验收和测试，不改写原数据seal。
 
 ---
 
@@ -345,7 +345,7 @@ d^{(a)}_{u,t}=L(Y_{u,t},\hat Y^M_{a,u,t})-L(Y_{u,t},\hat Y^{M+Z}_{a,u,t}).
 
 ## 9. 一键运行的命令设计
 
-**本节命令和新增路径是待实现的接口规格，不是声称当前仓库已有这些命令。** 实施者应实现同等能力；若命名调整，同时更新启动脚本和文档，不让使用者手工改代码。
+**本节入口已为公共流程和Elastic Net实现；其他家族明确登记为未实现。** 同伴单次显式启动可自动完成B、锁定、C和交付；本轮只构建，不执行带监督拟合的命令。
 
 建议统一入口：`python -m scripts.market_state.experiments`。
 
@@ -353,6 +353,7 @@ d^{(a)}_{u,t}=L(Y_{u,t},\hat Y^M_{a,u,t})-L(Y_{u,t},\hat Y^{M+Z}_{a,u,t}).
 |---|---|---|
 | `plan` | 否 | 展开任务、显示输入版本、拟合量和资源需求 |
 | `preflight` | 否 | 核验数据、接口、配置、依赖和输出路径 |
+| `pipeline --suite full --execute --resume` | 是 | 一次启动后自动完成B→锁定→C→报告 |
 | `smoke` | 仅显式的极小场景 | 技术连通性，不写研究结果 |
 | `run --stage development --execute` | 是 | 正式开发期搜索、完整复核与开发表格 |
 | `lock` | 否 | 固定开发选定方案、统计和预警规则 |
@@ -365,27 +366,27 @@ d^{(a)}_{u,t}=L(Y_{u,t},\hat Y^M_{a,u,t})-L(Y_{u,t},\hat Y^{M+Z}_{a,u,t}).
 示例：
 
 ```bash
-# 以下均是后续待实现的接口
 python -m scripts.market_state.experiments plan --config config/experiments/elastic_net.yaml
 python -m scripts.market_state.experiments preflight --config config/experiments/elastic_net.yaml
 
 # 只有单独明确执行时才进行小验收
 python -m scripts.market_state.experiments smoke --model elastic_net --config config/experiments/smoke.yaml --execute
 
-# 在同伴机器上另行启动正式开发
-python -m scripts.market_state.experiments run --model elastic_net --stage development --suite core --execute --resume
+# 同伴之后的一次正式BC启动；本轮不执行
+python -m scripts.market_state.experiments pipeline --model elastic_net --config config/experiments/elastic_net.yaml --suite full --execute --resume
 
-# 检查开发交付后，单独固定方案；不自动连接测试
-python -m scripts.market_state.experiments lock --model elastic_net --development-run <run_id>
+# 以下是保留的单阶段排错入口
+python -m scripts.market_state.experiments run --model elastic_net --stage development --suite full --execute --resume
+python -m scripts.market_state.experiments lock --model elastic_net --suite full --resume
 
 # 正式测试需已有内容固定的锁文件
-python -m scripts.market_state.experiments run --model elastic_net --stage test --lock <lock_file> --execute --resume
-python -m scripts.market_state.experiments summarize --run <test_run_id>
+python -m scripts.market_state.experiments run --model elastic_net --stage test --suite full --lock <lock_file> --execute --resume
+python -m scripts.market_state.experiments summarize --run results/elastic_net/<pipeline_run_id>
 ```
 
-为每个家族提供Windows PowerShell和Linux shell启动器，例如 `launchers/develop_elastic_net.ps1/.sh`、`launchers/test_elastic_net.ps1/.sh`；其余三家族同样提供。使用者主动点击/执行开发脚本，即完成该家族预定市场、任务和信息集的批量开发及自动报告；测试脚本必须找到锁定方案才运行。两类启动器均在运行成功后自动调用本家族的评分、M/M+Z配对、相应组分析和报告生成；无需同伴手工制作核心表。`summarize`的独立命令用于重建报告而非首次运行必需的手工步骤。也提供统一的 `develop_all`、`test_all`，四家族结果齐备后生成跨模型汇总，但四家族构建完成前不自动调用。
+本轮提供 `launchers/run_elastic_net.ps1` 和 `.sh`，一次主动执行完成预定full套件及自动报告，默认不先跑smoke。C必须校验锁，但B结束后无需人工再次确认。独立summarize仅用于重建；它不补训练。后三家族以后补充适配器和正式配置；跨模型汇总读取明确run_id目录，缺少家族时只报告已完成范围。
 
-“一键”指无需用户逐个改代码、拼接数据或手工制作结果表，不代表构建、开发和测试被合并成一个失控流程。
+“一键”指构建结束后由同伴明确启动一次，随后按固定规则自动推进；构建本身不触发训练，开发和测试的目录、身份、锁与选择权限继续隔离。
 
 ---
 
@@ -399,16 +400,11 @@ scripts/market_state/
   experiments/                  # 统一任务展开、训练调度、锁定、汇总
   ...                           # 复用现有framework、目标适配与契约
 config/experiments/
-  common.yaml
-  elastic_net.yaml
-  rbf_svm.yaml
-  random_forest.yaml
-  catboost.yaml
+  elastic_net.yaml              # 已实现；含公共规则和独立扩展登记
   smoke.yaml                    # 不作为任何正式参数来源
-  suites.yaml
+  # 其余三家族的正式配置以后随适配器补充
 launchers/
-  develop_<family>.ps1 / .sh
-  test_<family>.ps1 / .sh
+  run_elastic_net.ps1 / .sh     # B→锁定→C；其他家族以后接入
 reports/model_build/<family>/   # 只存构建说明与简短smoke记录
 results/                       # 正式结果；支持通过配置指定到外部磁盘
 ```
@@ -418,18 +414,17 @@ results/                       # 正式结果；支持通过配置指定到外�
 ### 10.2 每个正式运行目录
 
 ```text
-results/<family>/<stage>/<run_id>/
+results/<family>/<pipeline_run_id>/
   manifest.json                 # 阶段、目的、版本、机器、预算、任务矩阵
   config.resolved.yaml          # 全部生效参数；不是仅用户覆盖项
   environment.json              # Python/库/驱动/CPU/GPU/线程信息
   tasks.parquet                 # 每个原子任务状态与产物引用
-  selection/                    # 候选配置、开发选择证据、锁定方案引用
-  predictions/                  # 按任务/市场/信息集/种子保存逐周预测
-  losses/                       # 逐样本损失及配对差
-  metrics/                      # 分市场、年度、类别、连续维度统计
+  development/                  # tasks、selection、fits/<fit_id>/、losses、metrics、开发表与报告
+  selection.lock.json           # 核验B完整性后自动生成
+  test/                         # 独立tasks、selection、fits/<fit_id>/、losses、metrics
   tables/                       # 核心表、增益表、消融表和预警表
   figures/                      # 校准、混淆矩阵、年度增益、预警曲线
-  model_packages/               # 预处理、目标适配、权重、校准、schema
+  # fit内保存predictions/losses/warning/context与必要model_package；见运行说明
   report.md                     # 仅本阶段的研究报告
   logs/                         # 有限日志、失败摘要及重试记录
 ```
@@ -452,7 +447,7 @@ results/<family>/<stage>/<run_id>/
 
 ### 10.4 任务身份、恢复与空间
 
-任务身份包含阶段、数据/接口/代码版本、家族、市场、任务、信息集、时间折、参数、校准方案、种子和实际后端。状态使用 `PLANNED/RUNNING/SUCCEEDED/FAILED/SKIPPED_NO_MATURE_LABEL`；期望未成熟与真实失败分开。
+任务身份包含阶段、数据/接口/代码版本、家族、市场、任务、信息集、时间折、参数、校准方案、种子和实际后端。计划为PLANNED，执行记录使用RUNNING/SUCCEEDED/FAILED；预测成功但没有成熟评分行时仍为SUCCEEDED，另记scoring_status=NO_MATURE_SCORE_ROWS，不跳过预测或伪造正常标签。
 
 只复用身份完全一致、产物通过校验的成功任务。写文件采用临时文件加原子替换；中断后继续未完成任务，不覆盖已有不同版本结果。失败不默默删行后继续宣称全矩阵完成。
 
@@ -499,7 +494,7 @@ CatBoost CPU与GPU配置差异显式记录，开发选参和正式测试使用�
 - 后端、种子、主指标、检验集合、区块设置和预警工作点；
 - 测试区间及允许的月度权重更新规则。
 
-锁定是单独动作，不在小验收或模型构建结束时生成“已选最优模型”。测试命令只有在锁定文件有效且阶段被明确执行时才启动。
+锁定是独立、可核验的阶段；pipeline在B完整后自动执行，单阶段lock入口保留。本轮构建和smoke不生成研究选参锁。一次pipeline --execute已授权后续C，但C仍须通过锁与开发证据核验。
 
 正式研究完成要求：核心64组配置的预期评分成员均有有效输出；组分析及声明已完成的拓展具有相同可追溯性；所有失败、缺类、无成熟窗口和后端差异有记录；核心表、配对表与预警表可由预测重新生成。不存在“准确率必须高于某数”或“宏观必须显著为正”的验收门槛。
 
@@ -509,7 +504,7 @@ CatBoost CPU与GPU配置差异显式记录，开发选参和正式测试使用�
 
 ### 13.1 构建阶段的预期结果
 
-四家族按顺序完成实现，各自具备一键开发、一键测试和自动报告能力；共享数据与目标接口；可选smoke只留下简短跑通证明。此时可以交给同伴运行，但还没有正式预测成绩、最优参数或宏观有效性结论。
+四家族按顺序完成实现，各自具备一次启动BC和自动报告能力；共享数据与目标接口。本轮只完成公共流程及Elastic Net，smoke次数0；没有正式预测成绩、最优参数或宏观有效性结论。
 
 ### 13.2 正式实验的预期研究产出
 
@@ -529,13 +524,13 @@ CatBoost CPU与GPU配置差异显式记录，开发选参和正式测试使用�
 
 | 批次 | 交付边界 | 结束时状态 |
 |---|---|---|
-| 0 | 修复配对评分字段及人工回归测试 | 可继续建模，未训练 |
-| 1 | 公共实验骨架＋Elastic Net分类/回归、入口和报告 | `IMPLEMENTED`，可选短smoke记录 |
+| 0 | 配对评分字段及人工回归测试已完成 | 可继续建模，未训练 |
+| 1 | 公共实验骨架＋Elastic Net分类/回归、入口和报告已实现 | `IMPLEMENTED`，本轮smoke为0 |
 | 2 | RBF-SVM分类/回归与时间校准适配 | 同上 |
 | 3 | Random Forest分类/回归与资源配置 | 同上 |
 | 4 | CatBoost分类/回归与GPU配置、四模型交接包 | 可交给同伴运行，未正式运行 |
 | 5 | 同伴机器显式运行开发与信息组实验 | `DEVELOPMENT_COMPLETE` |
-| 6 | 审核并锁定方案，单独运行正式测试 | `LOCKED` → `TEST_COMPLETE` |
+| 6 | pipeline自动核验并锁定，继续正式测试 | `LOCKED` → `TEST_COMPLETE` |
 | 7 | 跨模型、市场、年度、组贡献与预警汇总 | 正式研究报告与核心结果表 |
 
 ---
@@ -550,7 +545,7 @@ CatBoost CPU与GPU配置差异显式记录，开发选参和正式测试使用�
   `https://github.com/sjyinzju/MLEC/blob/ffe9068ccb10dfc50188a191e012e7f3d7dca608/docs/model_io_contract.md`
 - **[G3]** `reports/market_state/model_io/implementation_report.md`，已有接口、数据身份与本轮边界。  
   `https://github.com/sjyinzju/MLEC/blob/ffe9068ccb10dfc50188a191e012e7f3d7dca608/reports/market_state/model_io/implementation_report.md`
-- **[G4]** `scripts/market_state/framework.py`，读取入口和待修复的配对损失字段。  
+- **[G4]** `scripts/market_state/framework.py`，读取入口和已修复的配对损失契约。
   `https://github.com/sjyinzju/MLEC/blob/ffe9068ccb10dfc50188a191e012e7f3d7dca608/scripts/market_state/framework.py`
 
 ### 实现能力参考（官方文档，核查日期2026-11-17）

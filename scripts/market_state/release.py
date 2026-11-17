@@ -86,14 +86,21 @@ def seal():
     print('SEALED',payload['data_version'],flush=True)
     return payload
 
-def assert_sealed_products(*,require=True):
-    p=RELEASE/'seal.json'
+def sealed_product_path(relative, data_root):
+    """Relocate the sealed research tree without rewriting its provenance."""
+    prefix='data/market_state/'
+    if not relative.startswith(prefix) or '..' in Path(relative).parts:
+        raise ValueError('Unexpected sealed product path: '+relative)
+    return Path(data_root)/relative[len(prefix):]
+
+def assert_sealed_products(*,require=True,data_root=None):
+    p=RELEASE/'seal.json' if data_root is None else Path(data_root)/'release/seal.json'
     if not p.exists():
         if require:raise RuntimeError('Formal seal required; use explicit analysis for draft inspection')
         return None
     record=json.loads(p.read_text(encoding='utf8'))
     if record['status']!='SEALED_READY_FOR_MODEL_SELECTION':raise RuntimeError('Release is not accepted')
     for relative,expected in record['products'].items():
-        path=ROOT/relative
+        path=ROOT/relative if data_root is None else sealed_product_path(relative,data_root)
         if not path.exists() or file_hash(path)!=expected:raise RuntimeError('Formal sealed data changed; rebuild/accept/reseal before reading: '+relative)
     return record['data_version']
