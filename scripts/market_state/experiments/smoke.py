@@ -13,6 +13,8 @@ from .runtime import MonthlyExecutor, versions, environment
 
 
 def smoke(args):
+    if getattr(args, 'model', None) not in [None, 'elastic_net']:
+        raise ValueError('Only the isolated Elastic Net smoke configuration is registered; SVM construction never launches smoke')
     smoke_config = read_json(args.config)
     if smoke_config.get('purpose') != 'SMOKE_ONLY':
         raise ValueError('smoke requires the isolated SMOKE_ONLY configuration')
@@ -20,7 +22,7 @@ def smoke(args):
         print('SMOKE_ONLY planned: 1 market, 1 month, 2 tasks x M/M+Z; no fit without --execute')
         return
     config = load_config()
-    config.update(purpose='SMOKE_ONLY', data_root=str(args.data_root or ROOT / smoke_config['data_root']))
+    config.update(purpose='SMOKE_ONLY', data_root=str(args.data_root or ROOT / smoke_config.get('data_root', config['data_root'])))
     config['resources']['threads_per_task'] = args.cpu_threads or smoke_config['threads_per_task']
     environment()
     store = DataStore(config['data_root'])

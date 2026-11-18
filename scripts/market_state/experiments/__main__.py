@@ -14,13 +14,14 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description='MLEC explicit B -> lock -> C experiment runner')
     parser.add_argument('command', choices=['plan', 'preflight', 'pipeline', 'run', 'lock', 'summarize', 'package', 'smoke'])
     parser.add_argument('--model', choices=list(REGISTRY))
-    parser.add_argument('--config', type=Path, default=CONFIG)
+    parser.add_argument('--config', type=Path)
     parser.add_argument('--suite', default='full')
     parser.add_argument('--execute', action='store_true')
     parser.add_argument('--resume', action='store_true')
     parser.add_argument('--data-root', type=Path)
     parser.add_argument('--output-root', type=Path)
     parser.add_argument('--cpu-threads', type=int)
+    parser.add_argument('--cpu-workers', type=int, help='outer processes; 0 selects CPU/memory bounded default')
     parser.add_argument('--run-id')
     parser.add_argument('--run', dest='runs', type=Path, action='append')
     parser.add_argument('--stage', choices=['development', 'test'])
@@ -28,6 +29,8 @@ def main(argv=None):
     parser.add_argument('--destination', type=Path)
     parser.add_argument('--plan-output', type=Path)
     args = parser.parse_args(argv)
+    if args.config is None:
+        args.config = ROOT / ('config/experiments/' + (args.model or 'elastic_net') + '.yaml')
     if args.model:
         require_model(args.model)
     if args.command == 'smoke':
@@ -42,6 +45,8 @@ def main(argv=None):
         config[key] = str((value if value is not None else ROOT / config[key]).resolve())
     if args.cpu_threads is not None:
         config['resources']['threads_per_task'] = args.cpu_threads
+    if args.cpu_workers is not None:
+        config['resources']['cpu_workers'] = args.cpu_workers
     from .config import validate_config
     validate_config(config)
     if args.command == 'summarize':
@@ -62,7 +67,7 @@ def main(argv=None):
         result = preview(config, store, args.suite)
         if args.plan_output:
             atomic_json(args.plan_output, result)
-        print(json.dumps({k: v for k, v in result.items() if k not in ['candidate_monthly_tasks', 'configurations', 'candidates']}, ensure_ascii=False, indent=2))
+        print(json.dumps({k: v for k, v in result.items() if k not in ['candidate_monthly_tasks', 'configurations', 'candidates', 'calibration_plans', 'calibration_fit_expansion']}, ensure_ascii=False, indent=2))
         return result
     if args.command == 'preflight':
         result = preflight(config, store, args.suite)
@@ -73,7 +78,7 @@ def main(argv=None):
         if not args.destination:
             parser.error('package requires a new --destination directory')
         from .portable import package
-        print(package(args.destination, store))
+        print(package(args.destination, store, model=config['model']))
         return
     from .pipeline import Pipeline
     pipeline = Pipeline(config, store, suite=args.suite, run_id=args.run_id, resume=args.resume)

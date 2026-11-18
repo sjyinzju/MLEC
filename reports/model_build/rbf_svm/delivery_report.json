@@ -1,0 +1,69 @@
+{
+  "status": "IMPLEMENTED",
+  "archive": "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\deliverables\\MLEC_RBF_SVM_BC_6d62300ce3d24253.zip",
+  "archive_bytes": 8919449,
+  "archive_sha256": "a64b83b7d641976977fdb376435c3c616f97b52ddf5a5b8c22b0ed353a752e83",
+  "content_id": "6d62300ce3d24253",
+  "manifest_files": 118,
+  "zip_entries": 119,
+  "base_commit": "b4e7dd10174f1b6a026e65e614912bda8975af79",
+  "experiment_code_hash": "fc1f352378e5ec76f3fa1ec5aaef971d5c5c04f5996c1125714bdd920d02e419",
+  "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+  "all_file_hashes_verified": true,
+  "independent_non_e_extraction": true,
+  "environment": "isolated verifier venv, pinned system packages, verified DuckDB distribution copied into venv; PYTHONPATH and PYTHONHOME cleared; no venv/local_deps bundled",
+  "portable_preflight": {
+    "status": "PORTABLE_PREFLIGHT_PASSED",
+    "code_root": "\\\\?\\C:\\Users\\shiju\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\AC\\#!sandbox.{9444d762-4c18-469e-b7fd-3026537903dd}\\Temp\\mlec-svm-unpacked-nt92ta0p",
+    "data_root": "\\\\?\\C:\\Users\\shiju\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\AC\\#!sandbox.{9444d762-4c18-469e-b7fd-3026537903dd}\\Temp\\mlec-svm-unpacked-nt92ta0p\\data\\market_state",
+    "versions": {
+      "runtime_version": "experiment-runtime-v1",
+      "contract_version": "model-io-v1",
+      "data_version": "5d57508f09249cf50b1a2e52",
+      "feature_version": "6d50d9efbc48040f0912",
+      "target_version": "f49e499c375fa557fcb0",
+      "dictionary_version": "76bf6837dc5e32262c99",
+      "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+      "interface_code_hash": "f9ee345ef0af8b95aa11535f4fbcec7dc90da4a6328375356593f2668625e93b",
+      "experiment_code_hash": "fc1f352378e5ec76f3fa1ec5aaef971d5c5c04f5996c1125714bdd920d02e419",
+      "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+      "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+      "config_hash": "afd487e9ddf8ae8a168a98ed35982268a48b2ae265ce58182167e90af2485e44"
+    },
+    "reads": {
+      "classification": {
+        "train_rows": 251,
+        "prediction_rows": 2,
+        "prediction_has_y": false
+      },
+      "regression": {
+        "train_rows": 251,
+        "prediction_rows": 2,
+        "prediction_has_y": false
+      }
+    },
+    "calibration_cohorts": 332,
+    "configurations": 112,
+    "candidate_counts": {
+      "classification": 48,
+      "regression": 48
+    },
+    "real_supervised_fit_calls": 0,
+    "real_calibration_optimizations": 0,
+    "fit_attempts": []
+  },
+  "real_supervised_fit_calls": 0,
+  "real_calibration_optimizations": 0,
+  "real_search_runs": 0,
+  "real_smoke_runs": 0,
+  "real_BC_runs": 0,
+  "original_elastic_archive_unchanged": true,
+  "desktop_archive": "D:\\Desktop\\MLEC_RBF_SVM_BC_6d62300ce3d24253.zip",
+  "desktop_archive_verified": true,
+  "tests": [
+    "148 passed"
+  ],
+  "working_tree_state": "uncommitted implementation; base commit and file content hashes are authoritative",
+  "diff_check": "PASS",
+  "delivered_sources_match_workspace": true
+}

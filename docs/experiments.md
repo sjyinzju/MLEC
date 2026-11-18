@@ -1,6 +1,8 @@
-# 公共实验运行器与 Elastic Net
+# 公共实验运行器、Elastic Net 与 RBF-SVM
 
 状态：**IMPLEMENTED**。本轮构建不运行真实监督训练、参数搜索、校准、smoke 或正式实验；没有预测成绩或宏观增益结论。下列带 `--execute` 的命令供同伴之后明确启动。
+
+RBF-SVM已实现，详细校准、搜索、资源和交接规则见[第二模型说明](rbf_svm.md)。以下保留Elastic Net原入口；SVM使用`--model rbf_svm --config config/experiments/rbf_svm.yaml`，或`launchers/rbf_svm/START_WINDOWS.cmd` / `START_LINUX.sh`。
 
 ## 环境与一次启动
 
@@ -32,7 +34,7 @@ Linux：`bash launchers/run_elastic_net.sh`。这两个启动器均主动授权�
 bash launchers/run_elastic_net.sh --data-root /mnt/research/market_state --output-root /mnt/results --cpu-threads 4
 ```
 
-`data_root` 指含 `feature_sets.json` 和 `release/seal.json` 的研究数据目录；它始终只读。单外层worker、每任务线程上限通过threadpoolctl控制，回归七目标串行。首版明确拒绝 `cpu_workers != 1`，不启用嵌套并行。默认变换缓存上限2个市场/任务/月上下文、结果预算40GiB、至少2GiB空余；触限报错，不清理数据或静默减少实验。Elastic Net仅CPU，不自动切换GPU或库。
+`data_root` 指含 `feature_sets.json` 和 `release/seal.json` 的研究数据目录；它始终只读。公共调度支持Windows/Linux spawn外层多进程（`--cpu-workers`）；Elastic Net原配置仍默认单worker，SVM默认0按CPU与内存选择1..8。每任务线程通过threadpoolctl控制，回归七目标串行，核缓存和变换LRU有上限。物理fit租约去重、原子提交，协调进程稳定更新公共清单；不启用目标层嵌套并行。默认变换缓存上限2个市场/任务/月上下文、结果预算40GiB、至少2GiB空余；触限报错，不清理数据或静默减少实验。Elastic Net仅CPU，不自动切换GPU或库。
 
 ## 正式范围与预定规则
 
@@ -56,7 +58,7 @@ bash launchers/run_elastic_net.sh --data-root /mnt/research/market_state --outpu
 
 `selection.lock.json`含完整开发证据引用、选定参数、信息集/模式、CPU后端、种子、异常处理、固定评价尺度、统计检验集合、风险映射和B期工作点、允许的月度更新及全部版本。内容自身hash和run manifest登记的文件hash双重核验；C还重新核验开发证据。开发失败、缺锁、改锁、数据/代码/契约变化均不能进入C。测试结果没有选参或工作点入口。
 
-默认run_id由配置（不含路径）、版本及suite内容确定。相同命令加`--resume`继续同一个目录；也可事前指定`--run-id`。指定旧run_id但版本不同将报错。data_root/output_root可搬迁，但内容哈希必须相同；线程、参数或研究规则变化会形成新身份，不能混用旧任务。
+默认run_id由配置（不含路径）、版本及suite内容确定。相同命令加`--resume`继续同一个目录；也可事前指定`--run-id`。指定旧run_id但版本不同将报错。data_root/output_root可搬迁，但内容哈希必须相同；worker数可在恢复时改变；线程、参数或研究规则变化会形成新身份，不能混用旧任务。
 
 任务清单保存家族、任务、市场、信息集、模式、阶段、月份、参数、种子、后端、purpose及版本。逻辑task_id包含模式；物理fit_id忽略分析模式，只允许完全相同的实际拟合被引用。原有预测表不增加实验身份列；分析元数据存于任务清单/assignments，报告扩展表按 `family/market/task/mode/information_set/seed` 分组后评分配对。重复引用不是额外独立样本。
 
@@ -103,12 +105,16 @@ python -m scripts.market_state.experiments run --stage test --suite full --lock 
 
 独立真实smoke入口为 `python -m scripts.market_state.experiments smoke --config config/experiments/smoke.yaml --execute`，本轮调用次数0。它只保留简短技术检查摘要，临时权重/预测自动清理，无成绩表、排名或研究证据。正式报告拒绝SMOKE_ONLY/ARTIFICIAL_TEST_ONLY。
 
+smoke数据路径优先级为命令行`--data-root`、smoke配置中的`data_root`、公共正式配置的默认值；旧版或精简smoke配置缺少该字段也能正确解析。
+
 ## 便携交接与后续模型
 
 ```bash
-python -m scripts.market_state.experiments package --destination <new_portable_directory>
+python -m scripts.market_state.experiments package --model rbf_svm --config config/experiments/rbf_svm.yaml --destination <new_portable_directory>
 ```
 
-包内固定代码、依赖、配置、启动器、协议/契约/运行文档、原seal、接口验收/测试身份及seal的36项研究产物；`package.manifest.json`绑定全部文件内容，包含基线提交及未提交实现的内容身份。不包含.local_deps、整个原始湖或E盘数据库。复制目录后不重写seal，安装同样依赖即可从包根执行上述启动命令。数据可另放只读目录，用`--data-root`指定。验收将同内容复制至非E盘临时路径并核验读取、变换及预检。
+package按选定model映射根启动文件，Elastic Net旧入口保持可用。包内固定代码、依赖、配置、启动器、协议/契约/运行文档、原seal、接口验收/测试身份及seal的36项研究产物；`package.manifest.json`绑定全部文件内容，包含基线提交及未提交实现的内容身份。不包含.local_deps、整个原始湖或E盘数据库。复制目录后不重写seal，安装同样依赖即可从包根执行上述启动命令。数据可另放只读目录，用`--data-root`指定。验收将同内容复制至非E盘临时路径并核验读取、变换及预检。
 
-另外三家族在registry中明确未实现，调用直接报错。以后补充 `ModelAdapter.fit(X, y, FitContext)`、`predict(X, PredictionContext)`、能力声明、参数候选及保存加载/解释产物即可复用公共运行、评分、锁和报告；SVM时间校准和CatBoost训练内早停仍须按契约接入，不能复用外层评分Y。正式环境/真实求解器收敛、实际耗时与磁盘需求需同伴显式运行后确认；测试桩通过不证明真实模型效果或求解器已经跑通。
+交接包根目录另有`README_START_HERE.md`、`START_WINDOWS.cmd`和`START_LINUX.sh`。准备64位Python 3.11后，Windows双击cmd（Linux执行`bash START_LINUX.sh`）会自动创建独立venv、联网安装锁定依赖，再执行完整BC；不需要手工配置数据路径。启动这两个文件即授权真实训练，本轮仅检查脚本和解压后的非训练preflight。
+
+Random Forest、CatBoost在registry中明确未实现，调用直接报错。以后补充 `ModelAdapter.fit(X, y, FitContext)`、`predict(X, PredictionContext)`、能力声明、参数候选及保存加载/解释产物即可复用公共运行、评分、锁和报告；SVM训练内时间校准已接入；CatBoost训练内早停以后仍须按契约接入，不能复用外层评分Y。正式环境/真实求解器收敛、实际耗时与磁盘需求需同伴显式运行后确认；测试桩通过不证明真实模型效果或求解器已经跑通。

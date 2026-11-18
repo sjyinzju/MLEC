@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 from ..common import CORE, KEY, digest
 from ..framework import paired_losses
+from ..models import REGISTRY
 from ..model_contract import (PredictionContext, validate_output, key_hash, truth_hash,
     IDENTITY, OUTPUT_CONTEXT_FIELDS)
 from .artifacts import read_json, atomic_json, atomic_parquet, check_files
@@ -73,6 +74,9 @@ def analysis_frames(root, stage, purpose='RESEARCH', *, artificial=False):
                 information_set=identity['information_set'], fold_id=identity['fold_id'], status='SUCCEEDED',
                 backend=identity['backend'], elapsed_seconds=ctx['elapsed_seconds'],
                 estimator_fit_calls=task.get('estimator_fit_calls', len(ctx['diagnostics'])),
+                calibration_fit_calls=task.get('calibration_fit_calls', 0),
+                internal_svc_fit_calls=sum(d.get('phase') == 'internal' for d in task.get('diagnostics', [])),
+                final_svc_fit_calls=sum(d.get('phase') == 'final' and d.get('target') == 'classification' for d in task.get('diagnostics', [])),
                 convergence_warnings=sum(any(w['category'] == 'ConvergenceWarning' for w in r['warnings']) for r in task.get('diagnostics', ctx['diagnostics'])),
                 numerical_warnings=sum(any(w['category'] == 'RuntimeWarning' for w in r['warnings']) for r in task.get('diagnostics', ctx['diagnostics'])),
                 retries=sum(r['attempt'] > 1 for r in task.get('diagnostics', ctx['diagnostics'])),
@@ -90,6 +94,7 @@ def analysis_frames(root, stage, purpose='RESEARCH', *, artificial=False):
             task=i['task'], seed=i['seed'], information_set=i['information_set'], fold_id=i['fold_id'],
             status=task['status'], backend=i['backend'], elapsed_seconds=task.get('elapsed_seconds'),
             estimator_fit_calls=task.get('estimator_fit_calls', len(diagnostics)),
+            calibration_fit_calls=task.get('calibration_fit_calls', 0),
             convergence_warnings=sum(any(w['category'] == 'ConvergenceWarning' for w in d['warnings']) for d in diagnostics),
             numerical_warnings=sum(d.get('numerical_failure', False) for d in diagnostics),
             retries=task.get('attempts', 0) - 1,
@@ -380,8 +385,8 @@ def summarize(root, *, stage='test', artificial=False):
         'See [warning workpoints](tables/warning_value.md). Burden targets 5/10/20/30% were specified before execution; thresholds come only from development. Detection–false alarm, precision–recall and drawdown coverage–burden curves are saved. Alarm segments and repeat windows are separate from window metrics. Undefined event contrasts are reported explicitly; no unique economic optimum or crisis lead time is claimed.', '',
         '## Coverage and limits', '',
         f'Selected logical monthly tasks: {len(coverage)}; unique physical fits: {int(coverage.unique_physical_fit.sum())}. Unscored prediction rows across analysis references: {int(coverage.unscored.sum())}; these are immature windows, not normal-state labels or failed predictions.', '',
-        'Runtime quality includes failed candidates, convergence warnings/retries and economic boundary violations. Penalized coefficients describe prediction associations, not causal effects.', '',
-        'The full suite covers twelve formal information sets in fixed_full_params. Information-clock, publication-lag, market-module, data-view and alternative-dictionary extensions are unimplemented and were not executed. Other three model families remain unimplemented; this is a single-family report.', '',
+        'Runtime quality includes failed candidates, actual estimator/calibrator calls, convergence retries and economic boundary violations. ' + ('RBF-SVM records kernel scale, support counts, solver status and training-only time calibration; kernels have no linear coefficient interpretation.' if manifest['model'] == 'rbf_svm' else 'Penalized coefficients describe prediction associations, not causal effects.'), '',
+        'The full suite covers twelve formal information sets in fixed_full_params. Information-clock, publication-lag, market-module, data-view and alternative-dictionary extensions are unimplemented and were not executed. Registered unimplemented model families: ' + ', '.join(k for k, v in REGISTRY.items() if not v['implemented']) + '. This report contains only the explicitly selected family/run.', '',
         f'Data version: `{manifest["versions"]["data_version"]}`. Interface: `{manifest["versions"]["interface_code_hash"]}`. Experiment code: `{manifest["versions"]["experiment_code_hash"]}`.', '']
     if artificial:
         lines.insert(2, '**ARTIFICIAL_TEST_ONLY — orchestration verification, not research evidence.**')

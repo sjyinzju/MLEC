@@ -87,3 +87,9 @@ Desktop.ini
 
 # Explicit experiment runs contain predictions, weights and resumable journals.
 /results/
+
+# Generated portable handover archives and staging outputs.
+/deliverables/
+
+# Isolated SVM launcher environment.
+.venv-rbf-svm/

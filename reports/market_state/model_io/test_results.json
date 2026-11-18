@@ -1,18 +1,21 @@
 {
   "exit_code": 0,
   "summary": [
-    "131 passed"
+    "148 passed"
   ],
   "interface_code_hash": "f9ee345ef0af8b95aa11535f4fbcec7dc90da4a6328375356593f2668625e93b",
-  "experiment_code_hash": "86b7ec4bd9805b403c8ea570a83e204c3708e147d4eca256e03f167c5cb52713",
+  "experiment_code_hash": "fc1f352378e5ec76f3fa1ec5aaef971d5c5c04f5996c1125714bdd920d02e419",
   "real_supervised_fit_calls": 0,
+  "real_calibration_fit_calls": 0,
   "smoke_runs": 0,
   "verification": "ordinary pytest blocks real supervised estimators; integration uses non-learning stubs",
   "test_files": {
-    "tests/conftest.py": "0e56e0e6be261bb0f8eb9fd44ab58134d425f0a15c973da5892baa5037186534",
-    "tests/test_experiments.py": "a01e8f038e750a96f2ccdeb68c30aa4eeffc831a4bd1c52ec3866a4bf0ffcf86",
+    "tests/conftest.py": "7915820f1cd96884069691cffe59dda411d426665dae71fd7d30a8b10734341f",
+    "tests/test_experiments.py": "8075e96caab31b468a1ea3083701e292eb65eaec1a3a842e4cf609627da9e5b1",
     "tests/test_market_state.py": "77fd442fa98975f2ee072efce6246149696d63f40553c3b00eda7229b4a81e96",
     "tests/test_model_io.py": "5ec2dafb54f926d8869316ceb0d1e7b59a53e20f4151cdb34e4fde031d419605",
-    "tests/test_paired_losses.py": "aefd8c7db72b614a46e5c02cee517026288900e04fe38fa09b34f221ba1f18e1"
+    "tests/test_paired_losses.py": "aefd8c7db72b614a46e5c02cee517026288900e04fe38fa09b34f221ba1f18e1",
+    "tests/test_rbf_svm.py": "9e5ac0010e3576527d91d355c42dc4647eb14f99d9b5e0d4d077672362699ea4",
+    "tests/test_scheduling.py": "1171193783ddf4e806f52849476d0ee235b90e0304a335b095f954eaa9e3c60c"
   }
 }

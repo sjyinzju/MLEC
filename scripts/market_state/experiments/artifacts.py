@@ -5,6 +5,7 @@ import json
 import os
 import shutil
 import tempfile
+import time
 import pandas as pd
 from ..common import digest
 from ..release import file_hash
@@ -20,7 +21,7 @@ def native_path(path):
 
 
 @contextmanager
-def exclusive_run(root):
+def exclusive_run(root, *, wait=False):
     """An OS lease is released on process exit; a stale filename is harmless."""
     root = native_path(root)
     root.mkdir(parents=True, exist_ok=True)
@@ -30,15 +31,19 @@ def exclusive_run(root):
             handle.write(b'0')
             handle.flush()
         handle.seek(0)
-        try:
-            if os.name == 'nt':
-                import msvcrt
-                msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
-            else:
-                import fcntl
-                fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except OSError as error:
-            raise RuntimeError('Another process is already operating this run') from error
+        while True:
+            try:
+                if os.name == 'nt':
+                    import msvcrt
+                    msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
+                else:
+                    import fcntl
+                    fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                break
+            except OSError as error:
+                if not wait or error.errno not in [11, 13, 35, 36]:
+                    raise RuntimeError('Another process is already operating this run') from error
+                time.sleep(.05)
         try:
             yield
         finally:
@@ -98,11 +103,14 @@ def check_files(directory, files):
 
 
 class TaskJournal:
-    def __init__(self, run_root, *, resume, max_attempts):
+    def __init__(self, run_root, *, resume, max_attempts, task=None):
         self.root = Path(run_root)
         self.resume, self.max_attempts = resume, max_attempts
         self.records = {}
-        for path in self.root.glob('*/tasks/*.json'):
+        paths = self.root.glob('*/tasks/*.json') if task is None else [self.path(task)]
+        for path in paths:
+            if not path.exists():
+                continue
             record = read_json(path)
             self.records[record['task_id']] = record
         self.initial_ids = set(self.records)
@@ -131,7 +139,7 @@ class TaskJournal:
 
     def snapshot(self):
         rows = []
-        for record in self.records.values():
+        for _, record in sorted(self.records.items()):
             row = {k: v for k, v in record.items() if k not in ['identity', 'files', 'diagnostics', 'attempt_history']}
             row['identity_json'] = json.dumps(record['identity'], sort_keys=True)
             row['attempt_history_json'] = json.dumps(record.get('attempt_history', []), sort_keys=True)

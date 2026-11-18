@@ -99,7 +99,7 @@ def test_formal_plan_scope_budget_and_candidate_symmetry(store):
     for extension in config['extensions']:
         with pytest.raises(ValueError, match='not implemented'):
             scope(config, store, extension)
-    for family in ['rbf_svm', 'random_forest', 'catboost']:
+    for family in ['random_forest', 'catboost']:
         assert not REGISTRY[family]['implemented']
         with pytest.raises(ValueError, match='not implemented'):
             require_model(family)
@@ -491,6 +491,36 @@ def test_portable_package_keeps_existing_namespace_and_seal(store, tmp_path, mon
     manifest = original(bundle / 'package.manifest.json')
     check_files(bundle, manifest['files'])
     assert (bundle / 'scripts/market_state/experiments/__main__.py').is_file()
+    for name in ['START_WINDOWS.cmd', 'START_LINUX.sh', 'README_START_HERE.md']:
+        assert name in manifest['files'] and (bundle / name).is_file()
     assert not (bundle / 'scripts/__init__.py').exists()
     assert file_hash(bundle / 'data/market_state/release/seal.json') == file_hash(OUT / 'release/seal.json')
     assert not (bundle / '.local_deps').exists()
+
+
+@pytest.mark.parametrize('configured_root,cli_override', [(None, False), ('alternate_data', False), ('alternate_data', True)])
+def test_smoke_data_root_defaults_and_override_without_training(monkeypatch, tmp_path, configured_root, cli_override):
+    from types import SimpleNamespace
+    from scripts.market_state.common import ROOT
+    from scripts.market_state.experiments import smoke as module
+    smoke_config = read_json(ROOT / 'config/experiments/smoke.yaml')
+    if configured_root is None:
+        smoke_config.pop('data_root', None)
+    else:
+        smoke_config['data_root'] = configured_root
+    override = tmp_path / 'cli_data' if cli_override else None
+    expected = override or ROOT / (configured_root or load_config()['data_root'])
+    seen = []
+    class ConfigChecked(Exception):
+        pass
+    def stop_before_any_read_or_fit(root):
+        seen.append(Path(root))
+        raise ConfigChecked
+    monkeypatch.setattr(module, 'read_json', lambda path: deepcopy(smoke_config))
+    monkeypatch.setattr(module, 'environment', lambda: None)
+    monkeypatch.setattr(module, 'DataStore', stop_before_any_read_or_fit)
+    args = SimpleNamespace(config=Path('unused'), execute=True, data_root=override, cpu_threads=None)
+    # Stop at the configuration boundary: no data read, estimator or real smoke.
+    with pytest.raises(ConfigChecked):
+        module.smoke(args)
+    assert seen == [expected]

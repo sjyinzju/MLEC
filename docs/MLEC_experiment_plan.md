@@ -1,13 +1,13 @@
 # MLEC 总体实验规划：四模型构建、批量运行与研究交付
 
-**规划版本：experiment-plan-v1.1**
+**规划版本：experiment-plan-v1.2**
 **编制日期：2026-11-17**  
 **研究题目：中国宏观经济信息对 A 股市场风险状态预测的增量价值与预警价值**  
 **核对基线：`sjyinzju/MLEC` 提交 `ffe9068ccb10dfc50188a191e012e7f3d7dca608`**
 
 ## 0. 执行定位与总路线
 
-本文件把现有 `market-state-research-v3.0` 研究协议和 `model-io-v1` 输入输出契约落实为实施方案。研究对象、标签、时间划分和正式信息集继续以原协议与封版产物为准。v1.1按本轮明确授权更新编排：同伴一次启动自动完成单家族B→锁定→C→报告。公共流程与Elastic Net已实现，状态IMPLEMENTED；其余三家族及独立扩展未实现。真实训练和实验本轮未运行。当前入口、规则与保存细节见[运行说明](experiments.md)。[G1–G3]
+本文件把现有 `market-state-research-v3.0` 研究协议和 `model-io-v1` 输入输出契约落实为实施方案。研究对象、标签、时间划分和正式信息集继续以原协议与封版产物为准。v1.1按本轮明确授权更新编排：同伴一次启动自动完成单家族B→锁定→C→报告。公共流程、Elastic Net与RBF-SVM已实现，状态IMPLEMENTED；Random Forest、CatBoost及独立扩展未实现。SVM及公共多进程调度的预登记实施细则见[rbf_svm.md](rbf_svm.md)。真实训练和实验本轮未运行。当前入口、规则与保存细节见[运行说明](experiments.md)。[G1–G3]
 
 **总路线：修复评分衔接 → 逐个构建四类模型 → 交付可一键运行的代码、配置与数据包 → 在同伴计算机开展正式开发实验 → 固定方案 → 正式测试 → 统一输出研究结果。**
 
@@ -345,7 +345,7 @@ d^{(a)}_{u,t}=L(Y_{u,t},\hat Y^M_{a,u,t})-L(Y_{u,t},\hat Y^{M+Z}_{a,u,t}).
 
 ## 9. 一键运行的命令设计
 
-**本节入口已为公共流程和Elastic Net实现；其他家族明确登记为未实现。** 同伴单次显式启动可自动完成B、锁定、C和交付；本轮只构建，不执行带监督拟合的命令。
+**本节入口已为公共流程、Elastic Net和RBF-SVM实现；Random Forest、CatBoost明确登记为未实现。** 同伴单次显式启动可自动完成B、锁定、C和交付；本轮只构建，不执行带监督拟合的命令。
 
 建议统一入口：`python -m scripts.market_state.experiments`。
 
@@ -384,7 +384,7 @@ python -m scripts.market_state.experiments run --model elastic_net --stage test 
 python -m scripts.market_state.experiments summarize --run results/elastic_net/<pipeline_run_id>
 ```
 
-本轮提供 `launchers/run_elastic_net.ps1` 和 `.sh`，一次主动执行完成预定full套件及自动报告，默认不先跑smoke。C必须校验锁，但B结束后无需人工再次确认。独立summarize仅用于重建；它不补训练。后三家族以后补充适配器和正式配置；跨模型汇总读取明确run_id目录，缺少家族时只报告已完成范围。
+本轮提供 `launchers/run_elastic_net.ps1` 和 `.sh`，一次主动执行完成预定full套件及自动报告，默认不先跑smoke。C必须校验锁，但B结束后无需人工再次确认。独立summarize仅用于重建；它不补训练。后两家族以后补充适配器和正式配置；跨模型汇总读取明确run_id目录，缺少家族时只报告已完成范围。
 
 “一键”指构建结束后由同伴明确启动一次，随后按固定规则自动推进；构建本身不触发训练，开发和测试的目录、身份、锁与选择权限继续隔离。
 
@@ -402,9 +402,10 @@ scripts/market_state/
 config/experiments/
   elastic_net.yaml              # 已实现；含公共规则和独立扩展登记
   smoke.yaml                    # 不作为任何正式参数来源
-  # 其余三家族的正式配置以后随适配器补充
+  rbf_svm.yaml                  # 已实现；确定性RBF与训练内时间校准
 launchers/
-  run_elastic_net.ps1 / .sh     # B→锁定→C；其他家族以后接入
+  run_elastic_net.ps1 / .sh     # B→锁定→C
+  run_rbf_svm.ps1 / .sh         # 同一公共调度与锁定机制
 reports/model_build/<family>/   # 只存构建说明与简短smoke记录
 results/                       # 正式结果；支持通过配置指定到外部磁盘
 ```
@@ -504,7 +505,7 @@ CatBoost CPU与GPU配置差异显式记录，开发选参和正式测试使用�
 
 ### 13.1 构建阶段的预期结果
 
-四家族按顺序完成实现，各自具备一次启动BC和自动报告能力；共享数据与目标接口。本轮只完成公共流程及Elastic Net，smoke次数0；没有正式预测成绩、最优参数或宏观有效性结论。
+四家族按顺序完成实现，各自具备一次启动BC和自动报告能力；共享数据与目标接口。本轮已完成公共流程、Elastic Net与RBF-SVM，smoke次数0；没有正式预测成绩、最优参数或宏观有效性结论。
 
 ### 13.2 正式实验的预期研究产出
 

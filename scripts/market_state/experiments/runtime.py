@@ -18,17 +18,20 @@ from ..target_adapters import fit_targets, evaluation_scale
 from ..interface_acceptance import assert_interface_accepted
 from ..release import file_hash, code_hash
 from ..models import require_model, create_model, REGISTRY
+from ..models.errors import fit_counts
+from ..models.training import TrainingPartitions
 from .artifacts import atomic_json, atomic_parquet, read_json, staging, file_manifest, check_files
 from .config import portable_config, candidates, seeds, scope
 from .scoring import score_predictions
 from .warnings import risk_definition, warning_data
+from .scheduling import worker_count
 
 EXPERIMENT_VERSION = 'experiment-runtime-v1'
 
 
 def experiment_code_hash():
     paths = sorted(p for name in ['models', 'experiments'] for p in (ROOT / 'scripts/market_state' / name).rglob('*.py'))
-    paths += [ROOT / 'requirements-experiments.txt']
+    paths += [ROOT / 'requirements-experiments.txt', ROOT / 'requirements-research.txt']
     return digest({p.relative_to(ROOT).as_posix(): file_hash(p) for p in paths})
 
 
@@ -55,6 +58,7 @@ def versions(config, store):
         original_seal_hash=file_hash(store.root / 'release/seal.json'), interface_code_hash=code_hash(),
         experiment_code_hash=experiment_code_hash(),
         protocol_hash=file_hash(ROOT / 'docs/MLEC_research_protocol.md'),
+        experiment_plan_hash=file_hash(ROOT / 'docs/MLEC_experiment_plan.md'),
         config_hash=digest(portable_config(config)))
 
 
@@ -72,6 +76,28 @@ def fold_lists(store):
     return development, test
 
 
+def calibration_plans(config, store):
+    if config['model'] != 'rbf_svm':
+        return []
+    cache_key = digest(dict(rules=config['calibration'], markets=config['markets'], quality=config['quality']))
+    if not hasattr(store, '_calibration_plans'):
+        store._calibration_plans = {}
+    if cache_key not in store._calibration_plans:
+        development, test = fold_lists(store)
+        records = []
+        for market in config['markets']:
+            for fold in development + test:
+                train = load_dataset(market_id=market, information_set='M+Z', task='classification',
+                    fold_id=fold, role='train', quality=config['quality'], store=store)
+                plan = TrainingPartitions(train).validate_plan(config['calibration'])
+                records.append(dict(market_id=market, fold_id=fold, training_keys_hash=key_hash(train.keys),
+                    class_count=len(train.target_schema['class_ids']),
+                    internal_svc_fits=sum(b['status'] == 'ACCEPTED' for b in plan),
+                    sigmoid_fits=len(train.target_schema['class_ids']), final_svc_fits=1, blocks=plan))
+        store._calibration_plans[cache_key] = records
+    return store._calibration_plans[cache_key]
+
+
 def preview(config, store, suite):
     comparisons = scope(config, store, suite)
     development, test = fold_lists(store)
@@ -83,6 +109,8 @@ def preview(config, store, suite):
         estimators_per_month=7 if t == 'regression' and REGISTRY[config['model']]['regression'] == 'per_target' else 1)
         for m in config['markets'] for t in config['tasks'] for mode, info in comparisons]
     budget = []
+    time_plans = calibration_plans(config, store)
+    fit_expansion = []
     for t in config['tasks']:
         groups = len(config['markets']) * 2
         candidate_months = groups * (search['candidate_count'] * len(coarse) + search['finalists'] * (len(development) - len(coarse)))
@@ -96,21 +124,43 @@ def preview(config, store, suite):
             selected_c -= shared * len(test)
         outer = candidate_months + selected_b + selected_c
         factor = 7 if t == 'regression' and REGISTRY[config['model']]['regression'] == 'per_target' else 1
+        inner, calibration_calls = 0, 0
+        if t == 'classification' and time_plans:
+            for row in time_plans:
+                f = row['fold_id']
+                candidate_outer = 2 * (search['candidate_count'] if f in coarse else search['finalists']) if f in development else 0
+                selected_outer = len(comparisons) * len(seeds(config, t)) - (2 if f in development else 0)
+                if suite == 'full':
+                    selected_outer -= len(seeds(config, t))
+                physical_outer = candidate_outer + selected_outer
+                inner += physical_outer * row['internal_svc_fits']
+                calibration_calls += physical_outer * row['sigmoid_fits']
+                fit_expansion.append(dict(market_id=row['market_id'], fold_id=f,
+                    candidate_monthly_fits_upper=candidate_outer, selected_new_monthly_fits_upper=selected_outer,
+                    internal_svc_per_fit=row['internal_svc_fits'], final_svc_per_fit=1,
+                    sigmoid_per_fit=row['sigmoid_fits'], internal_svc_fits_upper=physical_outer * row['internal_svc_fits'],
+                    final_svc_fits_upper=physical_outer, sigmoid_fits_upper=physical_outer * row['sigmoid_fits']))
+        estimator_calls = outer * factor + inner
         budget.append(dict(task=t, coarse_months=len(coarse), development_months=len(development), test_months=len(test),
             candidate_monthly_fits_upper=candidate_months, selected_development_new_fits_upper=selected_b,
-            test_monthly_fits_upper=selected_c, estimator_fit_calls_upper=outer * factor,
-            estimator_calls_including_convergence_retries_upper=outer * factor * (1 + config['policy']['convergence_retries']),
-            estimator_calls_including_all_retries_upper=outer * factor * (1 + config['policy']['convergence_retries']) * config['policy']['task_attempts'],
-            calibration_fits=0, note='Upper bound; selected M may also share full parameters. Seeds are not independent samples.'))
+            test_monthly_fits_upper=selected_c, estimator_fit_calls_upper=estimator_calls,
+            internal_svc_fit_calls_upper=inner, final_svc_fit_calls_upper=outer if t == 'classification' and time_plans else 0,
+            svr_fit_calls_upper=outer * factor if t == 'regression' and config['model'] == 'rbf_svm' else 0,
+            estimator_calls_including_convergence_retries_upper=estimator_calls * (1 + config['policy']['convergence_retries']),
+            estimator_calls_including_all_retries_upper=estimator_calls * (1 + config['policy']['convergence_retries']) * config['policy']['task_attempts'],
+            calibration_fits=calibration_calls,
+            calibration_calls_including_all_retries_upper=calibration_calls * config['policy']['task_attempts'],
+            total_fit_calls_including_all_retries_upper=(estimator_calls * (1 + config['policy']['convergence_retries']) + calibration_calls) * config['policy']['task_attempts'],
+            note='Upper bound; selected M may also share full parameters. Seeds are not independent samples.'))
     return dict(status='PLANNED', model=config['model'], suite=suite, versions=versions(config, store),
         core_configurations=16, selected_configurations=len(configurations), information_sets=list(store.spec['sets']),
-        configurations=configurations, budgets=budget,
+        configurations=configurations, budgets=budget, calibration_plans=time_plans, calibration_fit_expansion=fit_expansion,
         candidates={t: candidates(config, t) for t in config['tasks']},
         candidate_monthly_tasks=[dict(market_id=m, task=t, information_set=i, fold_id=f,
             candidate_id=c['candidate_id'], parameters=c['parameters'], seed=search['screening_seed'])
             for m in config['markets'] for t in config['tasks'] for i in ['M', 'M+Z']
             for c in candidates(config, t) for f in coarse],
-        extensions=config['extensions'], supervised_fit_calls=0)
+        extensions=config['extensions'], supervised_fit_calls=0, calibration_fit_calls=0)
 
 
 def preflight(config, store, suite, *, check_environment=True):
@@ -155,9 +205,11 @@ def preflight(config, store, suite, *, check_environment=True):
                     role='prediction', quality=config['quality'], store=store)
                 transform_inputs(pre, pred)
     return dict(status='PREFLIGHT_PASSED', environment=env, versions=versions(config, store),
+        calibration_plans=calibration_plans(config, store),
         train_class_support=support, risk_definition=risk_definition(store, config),
+        resources=dict(config['resources'], resolved_cpu_workers=worker_count(config)),
         fixed_scales={m: evaluation_scale(market_id=m, store=store) for m in config['markets']},
-        supervised_fit_calls=0, smoke_runs=0)
+        supervised_fit_calls=0, calibration_fit_calls=0, smoke_runs=0)
 
 
 class MonthlyExecutor:
@@ -213,9 +265,11 @@ class MonthlyExecutor:
                 output = regression_output(ctx, values.reset_index(drop=True), target.schema_)
             diagnostics = []
         else:
+            extra = dict(solver=self.config['solver'], calibration=self.config['calibration'],
+                training_service=TrainingPartitions(train) if i['task'] == 'classification' else None) if model_id == 'rbf_svm' else {}
             model = create_model(model_id, task=i['task'], preprocessor=pre, target_adapter=target,
                 training_keys=train.keys, parameters=i['parameters'], seed=i['seed'], policy=self.config['policy'],
-                threads=self.config['resources']['threads_per_task'])
+                threads=self.config['resources']['threads_per_task'], **extra)
             model.fit(X, target.transform(train.y), context)
             ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model.model_version_)
             output = model.predict(Xp, ctx)
@@ -231,6 +285,8 @@ class MonthlyExecutor:
         warning = warning_data(scores, pred, self.store, self.risk, i['task'])
         atomic_parquet(destination / 'warning.parquet', warning)
         if model is not None:
+            if hasattr(model, 'diagnostic_artifact'):
+                atomic_json(destination / 'kernel_diagnostics.json', model.diagnostic_artifact())
             if hasattr(model, 'coefficients'):
                 model.coefficients().to_csv(destination / 'coefficients.csv', index=False)
             if save_package:
@@ -242,6 +298,6 @@ class MonthlyExecutor:
             expected_predictions=len(pred.keys), actual_predictions=len(output), mature_rows=len(scores),
             unscored_rows=len(output) - len(scores), scoring_status='SCORED' if len(scores) else 'NO_MATURE_SCORE_ROWS',
             elapsed_seconds=time.monotonic() - start, diagnostics=diagnostics,
-            estimator_fit_calls=len(diagnostics), purpose=i['purpose']))
+            **fit_counts(diagnostics), purpose=i['purpose']))
         return dict(predictions=len(output), mature_rows=len(scores), elapsed_seconds=time.monotonic() - start,
-            estimator_fit_calls=len(diagnostics), diagnostics=diagnostics)
+            **fit_counts(diagnostics), diagnostics=diagnostics)

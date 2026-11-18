@@ -1,5 +1,7 @@
 # MLEC：未来20个交易日的五维市场状态
 
+同伴收到便携压缩包后先完整解压，阅读[交接入口](README_START_HERE.md)。已安装64位Python 3.11且可联网时，双击`START_WINDOWS.cmd`可自动准备环境并启动完整BC；Linux使用`bash START_LINUX.sh`。
+
 研究唯一依据：[market-state-research-v3.0](docs/MLEC_research_protocol.md)。正式快照截止2026-11-13 18:00（北京时间）。先读[集中验收报告](reports/market_state/completion_report.md)和[data release](data/market_state/release/seal.json)。公共实验流程及Elastic Net分类/七目标回归已实现，状态 **IMPLEMENTED**；真实监督训练、参数搜索、smoke和正式实验本轮均为0，没有预测成绩。
 
 [运行与交接说明](docs/experiments.md)包含正式配置、资源、锁、恢复、输出及便携包；[实验规划](docs/MLEC_experiment_plan.md)已同步一次启动BC。准备环境后，同伴之后执行下面一条命令即可自动完成B→锁定→C→评分/报告，无需中途改代码或选参数：
@@ -66,3 +68,5 @@ X_test=transform_inputs(pre,test)
 - `release/input_snapshot.json`记录起始输入，`release/seal.json`绑定正式数据/目标/特征/缺失规则/代码。新父数据或口径变化需要重新构建验收；封版后停止自动扩库。
 
 依赖见[requirements-research.txt](requirements-research.txt)；来源库附加依赖见[requirements-data-v4.txt](requirements-data-v4.txt)。报告会明确区分制度性不适用、合法发布值持有、来源缺口、预热不足、停牌和未来标签未成熟。历史成分快照不声称精确逐日成分。
+
+RBF-SVM第二模型已实现（未训练）：[说明](docs/rbf_svm.md)，正式配置为`config/experiments/rbf_svm.yaml`，仓库一键入口为`launchers/rbf_svm/START_WINDOWS.cmd`和`START_LINUX.sh`。原Elastic Net交接包与运行结果继续独立保留。

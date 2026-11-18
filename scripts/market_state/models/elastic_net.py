@@ -17,12 +17,7 @@ from ..preprocessing import FoldPreprocessor
 from ..target_adapters import TargetAdapter
 from ..release import file_hash, code_hash
 from . import capabilities
-
-
-class FitFailure(RuntimeError):
-    def __init__(self, message, diagnostics):
-        super().__init__(message)
-        self.diagnostics = diagnostics
+from .errors import FitFailure
 
 
 class ElasticNetAdapter:

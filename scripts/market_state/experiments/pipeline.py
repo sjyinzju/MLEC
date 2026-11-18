@@ -1,14 +1,14 @@
 """B search -> selected development -> immutable selection lock -> C -> reports."""
 from pathlib import Path
 import re
-import shutil
 import tempfile
 import pandas as pd
 from ..common import digest
-from ..models.elastic_net import FitFailure
+from ..models.errors import FitFailure
+from .scheduling import TaskRunner, TaskScheduler
 from ..release import file_hash
-from .artifacts import (TaskJournal, atomic_json, atomic_parquet, read_json, staging,
-    file_manifest, check_files, native_path, exclusive_run)
+from .artifacts import (TaskJournal, atomic_json, atomic_parquet, read_json,
+    check_files, native_path, exclusive_run)
 from .config import candidates, seeds, scope, portable_config, validate_config
 from .runtime import MonthlyExecutor, preflight, versions, fold_lists
 from .warnings import select_workpoints
@@ -18,9 +18,9 @@ def group_id(market, task, information):
     return '|'.join([market, task, information])
 
 
-class Pipeline:
+class Pipeline(TaskRunner):
     def __init__(self, config, store, *, suite='full', run_id=None, resume=False,
-                 executor=None, preflight_function=None, artificial=False, schedule=None):
+                 executor=None, preflight_function=None, artificial=False, schedule=None, worker_factory=None):
         self.config, self.store, self.suite, self.resume = config, store, suite, resume
         self.artificial = artificial
         if artificial:
@@ -28,7 +28,7 @@ class Pipeline:
                 raise ValueError('Artificial orchestration requires a stub and a temporary test directory')
         else:
             validate_config(config)
-            if schedule is not None or executor is not None or preflight_function is not None:
+            if schedule is not None or executor is not None or preflight_function is not None or worker_factory is not None:
                 raise ValueError('Formal execution cannot replace its executor, preflight or folds')
         self.identity = versions(config, store)
         self.run_id = run_id or digest(dict(versions=self.identity, suite=suite, family=config['model']))[:24]
@@ -38,6 +38,8 @@ class Pipeline:
         self.development, self.test = schedule if schedule is not None else fold_lists(store)
         self.comparisons = scope(config, store, suite)
         self._executor, self._preflight = executor, preflight_function
+        self.worker_factory = worker_factory
+        self.scheduler = None
         self.journal = TaskJournal(self.root, resume=resume, max_attempts=config['policy']['task_attempts'])
 
     def initialize(self):
@@ -67,6 +69,7 @@ class Pipeline:
             atomic_json(self.root / 'environment.json', accepted['environment'])
             atomic_json(self.root / 'preflight.json', accepted)
         self.executor = self._executor or MonthlyExecutor(self.config, self.store, self.identity)
+        self.scheduler = TaskScheduler(self, worker_factory=self.worker_factory)
         return self
 
     def assert_current(self):
@@ -87,82 +90,6 @@ class Pipeline:
             versions=self.identity, purpose=self.config['purpose'])
         physical = {k: v for k, v in identity.items() if k != 'mode'}
         return dict(task_id=digest(identity), fit_id=digest(physical), stage=stage, identity=identity)
-
-    def disk_check(self):
-        resources = self.config['resources']
-        if shutil.disk_usage(self.root).free < resources['minimum_free_gb'] * 1024 ** 3:
-            raise RuntimeError('Insufficient disk space; user data are never cleaned')
-        by_fit = {r['fit_id']: r.get('artifact_bytes', 0) for r in self.journal.records.values() if r['status'] == 'SUCCEEDED'}
-        if sum(by_fit.values()) > resources['max_run_gb'] * 1024 ** 3:
-            raise RuntimeError('Run disk budget reached; increase it explicitly before resuming')
-
-    def monthly(self, task, *, save_package=False):
-        completed = self.journal.succeeded(task)
-        if completed:
-            return completed
-        self.disk_check()
-        old = self.journal.records.get(task['task_id'], {})
-        if old.get('status') == 'FAILED':
-            if old.get('failure_kind') == 'ESTIMATOR':
-                raise FitFailure(old['error'], old.get('diagnostics', []))
-            if old.get('failure_kind') != 'IO' or old.get('attempts', 0) >= self.journal.max_attempts:
-                raise RuntimeError('Failed contract/task cannot be silently retried: ' + old['error'])
-        artifact = Path(task['stage']) / 'fits' / task['fit_id']
-        destination = self.root / artifact
-        physical = {k: v for k, v in task['identity'].items() if k != 'mode'}
-        if destination.exists():
-            record = read_json(destination / 'artifact.json')
-            if record['identity'] != physical:
-                raise RuntimeError('Physical fit identity collision')
-            check_files(destination, record['files'])
-            if save_package and not task['identity']['family'].startswith('naive_') and not (destination / 'model_package').exists():
-                raise RuntimeError('Required selected model package is missing')
-            return self.journal.record(task, status='SUCCEEDED', artifact=artifact.as_posix(),
-                files=file_manifest(destination), reused=True, attempts=0, artifact_bytes=record['artifact_bytes'], **record['result'])
-        attempt = old.get('attempts', 0)
-        history = old.get('attempt_history', [])
-        interrupted = old.get('status') == 'RUNNING' or old.get('interrupted_fit_calls_unknown', False)
-        if attempt >= self.journal.max_attempts:
-            raise RuntimeError('Interrupted task exhausted the fixed attempt budget')
-        while attempt < self.journal.max_attempts:
-            attempt += 1
-            self.journal.record(task, status='RUNNING', attempts=attempt, attempt_history=history,
-                interrupted_fit_calls_unknown=interrupted)
-            try:
-                with staging(destination) as temporary:
-                    result = self.executor(task, temporary, save_package=save_package)
-                    history.append(dict(attempt=attempt, status='SUCCEEDED',
-                        estimator_fit_calls=result['estimator_fit_calls'], elapsed_seconds=result['elapsed_seconds'],
-                        diagnostics=result.get('diagnostics', [])))
-                    result.update(estimator_fit_calls=sum(h['estimator_fit_calls'] for h in history),
-                        elapsed_seconds=sum(h.get('elapsed_seconds', 0) for h in history),
-                        diagnostics=[d for h in history for d in h.get('diagnostics', [])],
-                        attempt_history=history, interrupted_fit_calls_unknown=interrupted)
-                    files = file_manifest(temporary)
-                    size = sum((temporary / name).stat().st_size for name in files)
-                    atomic_json(temporary / 'artifact.json', dict(identity=physical, files=files, artifact_bytes=size, result=result))
-                record = self.journal.record(task, status='SUCCEEDED', artifact=artifact.as_posix(),
-                    files=file_manifest(destination), artifact_bytes=size, reused=False, attempts=attempt, **result)
-                if len(self.journal.records) % 100 == 0:
-                    self.journal.snapshot()
-                    print('completed logical tasks', len(self.journal.records), flush=True)
-                return record
-            except FitFailure as error:
-                history.append(dict(attempt=attempt, status='FAILED', estimator_fit_calls=len(error.diagnostics), diagnostics=error.diagnostics))
-                self.journal.record(task, status='FAILED', attempts=attempt, error=str(error),
-                    failure_kind='ESTIMATOR',
-                    diagnostics=[d for h in history for d in h.get('diagnostics', [])],
-                    estimator_fit_calls=sum(h['estimator_fit_calls'] for h in history), attempt_history=history,
-                    interrupted_fit_calls_unknown=interrupted)
-                if attempt == self.journal.max_attempts:
-                    self.journal.snapshot()
-                    raise
-            except Exception as error:
-                self.journal.record(task, status='FAILED', attempts=attempt, error=str(error), error_type=type(error).__name__,
-                    failure_kind='IO' if isinstance(error, OSError) else 'CONTRACT',
-                    attempt_history=history, interrupted_fit_calls_unknown=True)
-                self.journal.snapshot()
-                raise  # schema, version and artifact failures stop the run immediately
 
     def checked_scores(self, record):
         path = self.root / record['artifact']
@@ -199,26 +126,23 @@ class Pipeline:
     def search_group(self, market, target, information):
         coarse = [f for f in self.development if int(f[-2:]) in self.config['search']['coarse_months']]
         all_candidates = candidates(self.config, target)
-        coarse_records = {c['candidate_id']: [] for c in all_candidates}
-        def run(c, fold):
-            task = self.task(stage='development', mode='search', market=market, task=target,
-                information=information, fold=fold, parameters=c['parameters'], seed=self.config['search']['screening_seed'])
-            try:
-                return self.monthly(task, save_package=fold == self.development[-1])
-            except FitFailure:
-                return None
-        for fold in coarse:
-            for c in all_candidates:
-                coarse_records[c['candidate_id']].append(run(c, fold))
+        def run_many(values, months):
+            items = [(self.task(stage='development', mode='search', market=market, task=target,
+                information=information, fold=fold, parameters=c['parameters'], seed=self.config['search']['screening_seed']),
+                fold == self.development[-1]) for fold in months for c in values]
+            records = self.scheduler.map(items, allow_fit_failure=True)
+            grouped = {c['candidate_id']: [] for c in values}
+            for (task, _), record in zip(items, records):
+                candidate = next(c for c in values if c['parameters'] == task['identity']['parameters'])
+                grouped[candidate['candidate_id']].append(record)
+            return grouped
+        coarse_records = run_many(all_candidates, coarse)
         scores = [self.candidate_score(coarse_records[c['candidate_id']], target, c, coarse) for c in all_candidates]
         ranked = self.rank(scores, target)
         if len(ranked) < self.config['search']['finalists']:
             raise RuntimeError('Too few complete legal coarse candidates: ' + group_id(market, target, information))
         finalists = ranked[:self.config['search']['finalists']]
-        complete = {c['candidate_id']: [] for c in finalists}
-        for fold in self.development:
-            for c in finalists:
-                complete[c['candidate_id']].append(run(c, fold))
+        complete = run_many(finalists, self.development)
         full_scores = [self.candidate_score(complete[c['candidate_id']], target, c, self.development) for c in finalists]
         ranked_full = self.rank(full_scores, target)
         if not ranked_full:
@@ -248,9 +172,10 @@ class Pipeline:
     def run_selected(self, selection, stage):
         assignments = []
         last = self.development[-1] if stage == 'development' else self.test[-1]
-        for task in self.selected_tasks(selection, stage):
-            keep = task['identity']['fold_id'] == last or (stage == 'test' and task['identity']['mode'] == 'retuned_core')
-            record = self.monthly(task, save_package=keep)
+        tasks = self.selected_tasks(selection, stage)
+        items = [(task, task['identity']['fold_id'] == last or
+            (stage == 'test' and task['identity']['mode'] == 'retuned_core')) for task in tasks]
+        for task, record in zip(tasks, self.scheduler.map(items)):
             self.checked_scores(record)
             assignments.append(dict(task_id=task['task_id'], fit_id=task['fit_id'], artifact=record['artifact'], identity=task['identity']))
         path = self.root / stage / 'selection/assignments.json'
@@ -352,6 +277,7 @@ class Pipeline:
             backend=self.config['backend'], resources=portable_config(self.config)['resources'],
             seeds={t: seeds(self.config, t) for t in self.config['tasks']},
             exception_policy=self.config['policy'], search_rules=self.config['search'],
+            model_rules={k: self.config[k] for k in ['solver', 'calibration', 'retention'] if k in self.config},
             evaluation=dict(log_eps=1e-15, brier_divide_by_K=False,
                 regression='original_units_then_fixed_initial_scale_then_within_dimension_mean_then_five_dimension_mean',
                 fixed_scales=preflight_record['fixed_scales']),
@@ -414,4 +340,7 @@ class Pipeline:
             atomic_json(self.root / 'logs/pipeline_failure.json', dict(error=type(error).__name__, message=str(error),
                 run_id=self.run_id, versions=self.identity))
             raise
+        finally:
+            if self.scheduler:
+                self.scheduler.close()
         return self.root

@@ -4,8 +4,9 @@ from ..model_contract import ModelCapabilities
 REGISTRY = {
     'elastic_net': {'family': 'Elastic Net', 'implemented': True, 'backends': ['cpu'],
                     'regression': 'per_target', 'calibration': 'native', 'adapter': 'elastic_net.ElasticNetAdapter', 'deterministic_regression': True},
-    'rbf_svm': {'family': 'RBF-SVM', 'implemented': False, 'backends': ['cpu'],
-                'regression': 'per_target', 'calibration': 'training_time_ordered', 'deterministic_regression': True},
+    'rbf_svm': {'family': 'RBF-SVM', 'implemented': True, 'backends': ['cpu'],
+                'adapter': 'rbf_svm.RBFSVMAdapter', 'regression': 'per_target', 'calibration': 'training_time_ordered',
+                'deterministic_classification': True, 'deterministic_regression': True},
     'random_forest': {'family': 'Random Forest', 'implemented': False, 'backends': ['cpu'],
                      'regression': 'native', 'calibration': 'native'},
     'catboost': {'family': 'CatBoost', 'implemented': False, 'backends': ['cpu', 'gpu'],

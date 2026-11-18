@@ -1,0 +1,102 @@
+PREFLIGHT_PASSED; supervised fits=0; smoke=0
+{
+  "status": "PLANNED",
+  "model": "rbf_svm",
+  "suite": "full",
+  "versions": {
+    "runtime_version": "experiment-runtime-v1",
+    "contract_version": "model-io-v1",
+    "data_version": "5d57508f09249cf50b1a2e52",
+    "feature_version": "6d50d9efbc48040f0912",
+    "target_version": "f49e499c375fa557fcb0",
+    "dictionary_version": "76bf6837dc5e32262c99",
+    "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+    "interface_code_hash": "f9ee345ef0af8b95aa11535f4fbcec7dc90da4a6328375356593f2668625e93b",
+    "experiment_code_hash": "fc1f352378e5ec76f3fa1ec5aaef971d5c5c04f5996c1125714bdd920d02e419",
+    "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+    "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+    "config_hash": "afd487e9ddf8ae8a168a98ed35982268a48b2ae265ce58182167e90af2485e44"
+  },
+  "core_configurations": 16,
+  "selected_configurations": 112,
+  "information_sets": [
+    "M",
+    "M+Z",
+    "M+Z_growth",
+    "M+Z_prices",
+    "M+Z_credit",
+    "M+Z_rates",
+    "M+Z_external",
+    "M+Z_without_growth",
+    "M+Z_without_prices",
+    "M+Z_without_credit",
+    "M+Z_without_rates",
+    "M+Z_without_external"
+  ],
+  "budgets": [
+    {
+      "task": "classification",
+      "coarse_months": 12,
+      "development_months": 36,
+      "test_months": 47,
+      "candidate_monthly_fits_upper": 5376,
+      "selected_development_new_fits_upper": 1584,
+      "test_monthly_fits_upper": 2444,
+      "estimator_fit_calls_upper": 137855,
+      "internal_svc_fit_calls_upper": 128451,
+      "final_svc_fit_calls_upper": 9404,
+      "svr_fit_calls_upper": 0,
+      "estimator_calls_including_convergence_retries_upper": 275710,
+      "estimator_calls_including_all_retries_upper": 551420,
+      "calibration_fits": 28212,
+      "calibration_calls_including_all_retries_upper": 56424,
+      "total_fit_calls_including_all_retries_upper": 607844,
+      "note": "Upper bound; selected M may also share full parameters. Seeds are not independent samples."
+    },
+    {
+      "task": "regression",
+      "coarse_months": 12,
+      "development_months": 36,
+      "test_months": 47,
+      "candidate_monthly_fits_upper": 5376,
+      "selected_development_new_fits_upper": 1584,
+      "test_monthly_fits_upper": 2444,
+      "estimator_fit_calls_upper": 65828,
+      "internal_svc_fit_calls_upper": 0,
+      "final_svc_fit_calls_upper": 0,
+      "svr_fit_calls_upper": 65828,
+      "estimator_calls_including_convergence_retries_upper": 131656,
+      "estimator_calls_including_all_retries_upper": 263312,
+      "calibration_fits": 0,
+      "calibration_calls_including_all_retries_upper": 0,
+      "total_fit_calls_including_all_retries_upper": 263312,
+      "note": "Upper bound; selected M may also share full parameters. Seeds are not independent samples."
+    }
+  ],
+  "extensions": {
+    "information_clock": {
+      "implemented": false,
+      "requires": "registered derived feature schema with release-clock-only projection"
+    },
+    "publication_lag": {
+      "implemented": false,
+      "requires": "previous comparable release identity; not a weekly shift"
+    },
+    "market_modules": {
+      "implemented": false,
+      "requires": "registered market-module projection and paired cohorts"
+    },
+    "data_views": {
+      "implemented": false,
+      "requires": "common-cohort view comparison acceptance"
+    },
+    "alternative_dictionary": {
+      "implemented": false,
+      "requires": "separate authorized protocol and label version"
+    }
+  },
+  "supervised_fit_calls": 0,
+  "calibration_fit_calls": 0
+}
+PORTABLE_PREFLIGHT_PASSED; real fits=0; calibration optimization=0
+

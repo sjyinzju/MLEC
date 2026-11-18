@@ -2,7 +2,7 @@
 
 契约版本：`model-io-v1`。本文件是监督建模数据进入与预测返回的唯一接口规范。研究语义服从 [v3.0协议](MLEC_research_protocol.md)，数据身份服从原始 [seal](../data/market_state/release/seal.json)。本轮只建设兼容层、适配层与校验；监督预测模型运行数量为0。
 
-后续实现状态补记：公共实验流程与Elastic Net已在[实验层](experiments.md)实现，尚未真实训练。下文“本轮”描述原接口验收阶段。`DataStore(data_root=...)`可读取同内容的只读迁移数据，按原seal相对路径映射校验哈希，不改seal。空回归输出固定字符串类型，保留原字段语义；实验身份放在任务清单及显式报告扩展表，不向预测schema随意加列。
+后续实现状态补记：公共实验流程、Elastic Net与RBF-SVM已在[实验层](experiments.md)实现，尚未真实训练。下文“本轮”描述原接口验收阶段。`DataStore(data_root=...)`可读取同内容的只读迁移数据，按原seal相对路径映射校验哈希，不改seal。空回归输出固定字符串类型，保留原字段语义；实验身份放在任务清单及显式报告扩展表，不向预测schema随意加列。
 
 ## 语义与权威来源
 
