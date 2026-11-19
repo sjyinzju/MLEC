@@ -3,11 +3,15 @@ from dataclasses import asdict
 from pathlib import Path
 import json
 import warnings
+import time
 import joblib
 import sklearn
+import scipy
+from scipy.linalg import cho_factor, cho_solve
+from scipy.optimize import minimize
 import numpy as np
 import pandas as pd
-from sklearn.linear_model import LogisticRegression, ElasticNet
+from sklearn.linear_model import LogisticRegression, ElasticNet, LassoLars
 from sklearn.exceptions import ConvergenceWarning
 from threadpoolctl import threadpool_limits
 from ..common import CORE, digest
@@ -18,6 +22,130 @@ from ..target_adapters import TargetAdapter
 from ..release import file_hash, code_hash
 from . import capabilities
 from .errors import FitFailure
+from .elastic_quality import (classification_quality, regression_quality, initial_intercept,
+    weight_hash, QUALITY_VERSION, elastic_dual_state)
+from ..preprocessing import input_diagnostics
+
+
+def regression_geometry(X, alpha, l1_ratio):
+    """Exact centered Elastic Net -> augmented Lasso, in original X coordinates."""
+    x = np.asarray(X, dtype='float64')
+    mean = x.mean(axis=0)
+    centered = x - mean
+    ridge = len(x) * alpha * (1. - l1_ratio)
+    augmented = np.vstack([centered, np.sqrt(ridge) * np.eye(x.shape[1])]) if ridge > 0 else centered
+    gram = centered.T @ centered
+    gram.flat[::len(gram)+1] += ridge
+    return dict(mean=mean, augmented=augmented, gram=gram, rows=len(x),
+        alpha=alpha, l1_ratio=l1_ratio)
+
+
+class AugmentedLarsElasticNet(ElasticNet):
+    """Exact objective mapping, with independently certified dual refinement."""
+    solver_name = 'exact_elastic_net_via_augmented_lasso_lars'
+
+    def polish(self, geometry, values):
+        """Bounded dual refinement without changing the primal objective.
+
+        With L2, semismooth Newton returns the conjugate gradient w, whose gap
+        is ||n*theta + Xc*w - yc||^2/(2*n). Pure L1 uses a constrained dual QP
+        and recovers w from multipliers. Neither path uses scoring or test Y.
+        """
+        n = len(values)
+        xc, yc = geometry['augmented'][:n], values-values.mean()
+        l1, l2 = self.alpha*self.l1_ratio, self.alpha*(1.-self.l1_ratio)
+        if l2 == 0.:
+            # Pure L1: project yc/n onto |Xc.T theta| <= l1, sum(theta)=0.
+            # SLSQP multipliers recover w in the ORIGINAL feature coordinates.
+            initial = (yc-xc@self.coef_)/n
+            initial -= initial.mean()
+            norm = float(np.abs(xc.T@initial).max(initial=0.))
+            initial *= min(1.,l1/norm) if norm else 1.
+            jacobian = np.vstack([-xc.T,xc.T])
+            result = minimize(lambda t: .5*n*np.dot(t,t)-np.dot(yc,t), initial,
+                jac=lambda t:n*t-yc, method='SLSQP',
+                constraints=[dict(type='eq',fun=lambda t:np.sum(t),jac=lambda t:np.ones(n)),
+                    dict(type='ineq',fun=lambda t:np.r_[l1-xc.T@t,l1+xc.T@t],jac=lambda t:jacobian)],
+                options=dict(maxiter=min(2000,self.max_iter),ftol=1e-12,disp=False))
+            multipliers = np.asarray(result.multipliers)[1:]
+            if multipliers.shape != (2*xc.shape[1],):
+                raise ValueError('Unexpected dual QP multiplier shape')
+            w = multipliers[:xc.shape[1]]-multipliers[xc.shape[1]:]
+            theta = result.x-result.x.mean()
+            norm = float(np.abs(xc.T@theta).max(initial=0.))
+            theta *= min(1.,l1/norm)*(1.-8.*np.finfo(float).eps) if norm else 1.
+            residual_gradient = n*theta+xc@w-yc
+            self.coef_, self.intercept_ = w, float(values.mean()-geometry['mean']@w)
+            self.dual_certificate_ = theta
+            self.dual_gap_ = float(np.dot(residual_gradient,residual_gradient)/(2.*n)+l1*np.abs(w).sum()-np.dot(w,xc.T@theta))
+            self.solver_mapping_.update(dual_qp_steps=int(result.nit),dual_qp_limit=min(2000,self.max_iter),
+                dual_qp_status=int(result.status),dual_qp_message=str(result.message),dual_qp_ftol=1e-12,
+                dual_gap_source='pure_lasso_feasible_dual_and_complementarity')
+            return
+        if 'ridge_dual_factor' not in geometry:
+            geometry['ridge_dual_factor'] = cho_factor(n*np.eye(n) + xc@xc.T/l2, lower=True)
+        theta = cho_solve(geometry['ridge_dual_factor'], yc)
+        theta -= theta.mean()
+        target = self.tol*float(np.mean(yc*yc))*.01
+        reductions, steps = 0, 0
+        for steps in range(min(200, self.max_iter)+1):
+            value, gradient, H, w = elastic_dual_state(theta, xc, yc, l1, l2, hessian=True)
+            gap = float(np.dot(gradient,gradient)/(2.*n))
+            if gap <= target or steps == min(200, self.max_iter):
+                break
+            direction = -cho_solve(cho_factor(H, lower=True), gradient)
+            slope = float(np.dot(gradient,direction))
+            step = 1.
+            for backtrack in range(60):
+                trial = theta + step*direction
+                trial -= trial.mean()
+                trial_value, _, _, _ = elastic_dual_state(trial, xc, yc, l1, l2)
+                if trial_value <= value + 1e-4*step*slope:
+                    theta = trial
+                    reductions += backtrack
+                    break
+                step *= .5
+            else:
+                break
+        _, gradient, _, w = elastic_dual_state(theta, xc, yc, l1, l2)
+        self.coef_ = w
+        self.intercept_ = float(values.mean()-geometry['mean']@w)
+        self.dual_certificate_ = theta
+        self.dual_gap_ = float(np.dot(gradient,gradient)/(2.*n))
+        self.solver_mapping_.update(dual_newton_steps=steps, dual_newton_limit=min(200,self.max_iter),
+            line_search_reductions=reductions, polish_gap_target=target,
+            dual_gap_source='fenchel_dual_gradient_identity')
+
+    def fit(self, X, y):
+        self._validate_params()
+        g = getattr(self, '_geometry', None)
+        if g is None:
+            g = regression_geometry(X, self.alpha, self.l1_ratio)
+        if (g['rows'], g['augmented'].shape[1], g['alpha'], g['l1_ratio']) != (len(X), X.shape[1], self.alpha, self.l1_ratio):
+            raise ValueError('Regression geometry context mismatch')
+        values = np.asarray(y, float)
+        centered = values - values.mean()
+        augmented_y = np.concatenate([centered, np.zeros(len(g['augmented'])-len(values))])
+        mapped_alpha = len(values) * self.alpha * self.l1_ratio / len(augmented_y)
+        solver = LassoLars(alpha=mapped_alpha, fit_intercept=False, precompute=g['gram'].copy(),
+            max_iter=self.max_iter, eps=np.finfo(float).eps, fit_path=False, jitter=None, random_state=self.random_state)
+        solver.fit(g['augmented'], augmented_y)
+        self.coef_ = np.asarray(solver.coef_, dtype=float).reshape(-1).copy()
+        if len(self.coef_) != X.shape[1]:
+            raise ValueError('Unexpected augmented single-target coefficient shape')
+        self.intercept_ = float(values.mean() - g['mean'] @ self.coef_)
+        self.n_features_in_, self.n_iter_ = X.shape[1], int(np.asarray(solver.n_iter_).max())
+        if isinstance(X, pd.DataFrame):
+            self.feature_names_in_ = np.asarray(X.columns, dtype=object)
+        self.solver_mapping_ = dict(original_rows=len(values), augmented_rows=len(augmented_y),
+            mapped_lasso_alpha=float(mapped_alpha), original_alpha=self.alpha, l1_ratio=self.l1_ratio,
+            objective_multiplier=float(len(augmented_y)/len(values)), path_iterations=self.n_iter_)
+        quality_parameters = dict(alpha=self.alpha, l1_ratio=self.l1_ratio, tol=self.tol)
+        if not regression_quality(self, X, values, quality_parameters)['accepted']:
+            self.polish(g, values)
+        self.certified_solution_ = regression_quality(self, X, values, quality_parameters)['accepted']
+        self.__dict__.pop('_geometry', None)  # bounded train-only workspace, never model state
+        return self
 
 
 class ElasticNetAdapter:
@@ -47,9 +175,21 @@ class ElasticNetAdapter:
             # In 1.8 l1_ratio specifies the regularizer; penalty and n_jobs are deprecated.
             return LogisticRegression(solver='saga', C=p['C'], l1_ratio=p['l1_ratio'],
                 tol=p['tol'], max_iter=max_iter, random_state=self.seed,
-                class_weight=self.policy['class_weight'])
-        return ElasticNet(alpha=p['alpha'], l1_ratio=p['l1_ratio'], tol=p['tol'],
-            max_iter=max_iter, selection='cyclic', random_state=self.seed)
+                class_weight=self.policy['class_weight'], warm_start=True)
+        regression = AugmentedLarsElasticNet if getattr(self, '_solver_attempt', 0) == 0 else ElasticNet
+        return regression(alpha=p['alpha'], l1_ratio=p['l1_ratio'], tol=p['tol'],
+            max_iter=max_iter, selection='cyclic', random_state=self.seed, warm_start=True)
+
+    def solution_quality(self, estimator, X, y):
+        if self.task == 'classification':
+            return classification_quality(estimator, X, y, self.parameters, self.policy['class_weight'])
+        return regression_quality(estimator, X, y, self.parameters)
+
+    def _weight_identity(self):
+        return digest(dict(fit=self.fit_context_, parameters=self.parameters, seed=self.seed,
+            weights=weight_hash(self.estimators_), policy=self.policy,
+            preprocessing_version=self.preprocessor.schema_['schema_version'],
+            target_adapter_version=self.target_adapter.adapter_version_, quality_version=QUALITY_VERSION))
 
     def fit(self, X_train, y_train, context):
         self.__dict__.pop('model_version_', None)
@@ -77,43 +217,73 @@ class ElasticNetAdapter:
                 raise ValueError('Finite adapted seven-target matrix required')
             targets = [(c, y[:, j]) for j, c in enumerate(CORE)]
         self.estimators_ = []
+        self.input_diagnostics_ = input_diagnostics(X_train)
+        geometry = None
         with threadpool_limits(limits=self.threads):
             for target, values in targets:
                 fitted = None
+                previous = None
                 for attempt in range(self.policy['convergence_retries'] + 1):
                     maximum = self.parameters['max_iter'] * self.policy['iteration_multiplier'] ** attempt
-                    estimator = self.estimator(maximum)
+                    self._solver_attempt = attempt
+                    estimator = previous if previous is not None and self.task == 'classification' else self.estimator(maximum)
+                    if previous is not None and self.task == 'classification':
+                        estimator.set_params(max_iter=maximum, tol=self.parameters['tol'] / 10. ** attempt)
+                    elif previous is not None and self.task == 'regression' and hasattr(estimator, 'set_params'):
+                        estimator.set_params(tol=self.parameters['tol'] / 10. ** attempt)
+                        estimator.coef_, estimator.intercept_ = previous.coef_.copy(), previous.intercept_
+                    elif self.task == 'classification':
+                        initial_intercept(estimator, X_train, values, self.policy['class_weight'])
+                    start = time.perf_counter()
+                    if isinstance(estimator, AugmentedLarsElasticNet):
+                        if geometry is None:
+                            geometry = regression_geometry(X_train, self.parameters['alpha'], self.parameters['l1_ratio'])
+                        estimator._geometry = geometry
                     with warnings.catch_warnings(record=True) as caught:
                         warnings.simplefilter('always')
                         try:
                             estimator.fit(X_train, values)
-                        except Exception as error:
+                        except BaseException as error:
                             self.diagnostics_.append(dict(target=target, attempt=attempt + 1,
                                 max_iter=maximum, n_iter=None, dual_gap=[], nonzero=None, converged=False,
                                 warnings=[{'category': w.category.__name__, 'message': str(w.message)} for w in caught],
+                                elapsed_seconds=time.perf_counter() - start,
                                 error=type(error).__name__ + ': ' + str(error)))
+                            if not isinstance(error, Exception) or isinstance(error, (MemoryError, OSError)):
+                                error.diagnostics = self.diagnostics_
+                                raise
                             raise FitFailure('Estimator fit failed for ' + target + ': ' + str(error), self.diagnostics_) from error
                     warning_records = [{'category': w.category.__name__, 'message': str(w.message)} for w in caught]
                     nonfinite = not (np.isfinite(estimator.coef_).all() and np.isfinite(estimator.intercept_).all()
                         and np.isfinite(np.asarray(getattr(estimator, 'dual_gap_', []))).all())
-                    convergence = any(issubclass(w.category, ConvergenceWarning) for w in caught)
+                    warned_convergence = any(issubclass(w.category, ConvergenceWarning) for w in caught)
+                    convergence = warned_convergence and not getattr(estimator, 'certified_solution_', False)
                     numerical = nonfinite or any(issubclass(w.category, RuntimeWarning) for w in caught)
+                    quality = dict(accepted=False, reason='NONFINITE_SOLUTION') if numerical else self.solution_quality(estimator, X_train, values)
                     self.diagnostics_.append(dict(target=target, attempt=attempt + 1, max_iter=maximum,
+                        solver=getattr(estimator, 'solver_name', 'saga' if self.task == 'classification' else 'cyclic_coordinate_descent'),
+                        solver_mapping=getattr(estimator, 'solver_mapping_', None),
+                        preliminary_convergence_warning_resolved=warned_convergence and not convergence,
+                        solver_tolerance=None if isinstance(estimator, AugmentedLarsElasticNet) else self.parameters['tol'] / 10. ** attempt,
+                        elapsed_seconds=time.perf_counter() - start, quality=quality,
+                        input=self.input_diagnostics_, remedy='equivalent_augmented_lars' if isinstance(estimator, AugmentedLarsElasticNet) else 'frequency_intercept_start' if attempt == 0 and self.task == 'classification' else 'warm_start_more_iterations_tighter_tolerance' if attempt else 'initial',
                         n_iter=np.asarray(estimator.n_iter_).tolist(),
                         dual_gap=np.where(np.isfinite(np.asarray(getattr(estimator, 'dual_gap_', []))),
                             np.asarray(getattr(estimator, 'dual_gap_', [])), None).tolist(), numerical_failure=numerical,
-                        warnings=warning_records, converged=not convergence and not numerical,
+                        warnings=warning_records, converged=not convergence and not numerical and quality['accepted'],
                         nonzero=int(np.count_nonzero(estimator.coef_))))
                     if numerical:
                         raise FitFailure('Non-finite coefficients or numerical warning: ' + target, self.diagnostics_)
-                    if not convergence:
+                    if not convergence and quality['accepted']:
                         fitted = estimator
                         break
+                    # A bounded continuation retains work at the same parameters
+                    # and seed; the independent acceptance thresholds stay fixed.
+                    previous = estimator if hasattr(estimator, 'set_params') else None
                 if fitted is None:
-                    raise FitFailure('Convergence retries exhausted: ' + target, self.diagnostics_)
+                    raise FitFailure('Convergence/optimality retries exhausted: ' + target, self.diagnostics_)
                 self.estimators_.append(fitted)
-        self.model_version_ = digest(dict(fit=self.fit_context_, parameters=self.parameters,
-            seed=self.seed, weights=joblib.hash(self.estimators_), policy=self.policy))
+        self.model_version_ = self._weight_identity()
         return self
 
     def predict(self, X_predict, context):
@@ -160,6 +330,14 @@ class ElasticNetAdapter:
                         interpretation='penalized predictive coefficient; not a causal effect'))
         return pd.DataFrame(rows)
 
+    def dual_certificates(self):
+        frames = []
+        if self.task == 'regression':
+            for target, estimator in zip(CORE, self.estimators_):
+                if hasattr(estimator, 'dual_certificate_'):
+                    frames.append(self.training_keys.assign(target=target, dual_value=estimator.dual_certificate_))
+        return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+
     def save(self, directory):
         """Caller stages this directory atomically. Load trusted local artifacts only."""
         directory = Path(directory)
@@ -173,9 +351,11 @@ class ElasticNetAdapter:
             model_version=self.model_version_)
         manifest.update(estimator_created=True, task=self.task, parameters=self.parameters, seed=self.seed,
             policy=self.policy, threads=self.threads, diagnostics=self.diagnostics_, full_fit_context=self.fit_context_,
+            solver_quality_version=QUALITY_VERSION, input_diagnostics=self.input_diagnostics_,
             calibrator=None, backend='cpu', model_family='elastic_net')
-        manifest.update(library_versions=dict(sklearn=sklearn.__version__, numpy=np.__version__,
+        manifest.update(library_versions=dict(sklearn=sklearn.__version__, scipy=scipy.__version__, numpy=np.__version__,
             pandas=pd.__version__, joblib=joblib.__version__), adapter_code_hash=file_hash(__file__),
+            solver_code_hash=file_hash(Path(__file__).with_name('elastic_quality.py')),
             interface_code_hash=code_hash())
         manifest['files'] = {p.relative_to(directory).as_posix(): file_hash(p) for p in sorted(directory.rglob('*')) if p.is_file()}
         manifest['content_hash'] = digest(manifest)
@@ -188,8 +368,8 @@ class ElasticNetAdapter:
         expected = manifest.pop('content_hash')
         if digest(manifest) != expected:
             raise ValueError('Model package manifest modified')
-        if manifest['library_versions'] != dict(sklearn=sklearn.__version__, numpy=np.__version__,
-                pandas=pd.__version__, joblib=joblib.__version__) or manifest['adapter_code_hash'] != file_hash(__file__) or manifest['interface_code_hash'] != code_hash():
+        if manifest['library_versions'] != dict(sklearn=sklearn.__version__, scipy=scipy.__version__, numpy=np.__version__,
+                pandas=pd.__version__, joblib=joblib.__version__) or manifest['adapter_code_hash'] != file_hash(__file__) or manifest['solver_code_hash'] != file_hash(Path(__file__).with_name('elastic_quality.py')) or manifest['interface_code_hash'] != code_hash():
             raise ValueError('Model package code/dependency versions differ')
         for name, sha in manifest['files'].items():
             path = (directory / name).resolve()
@@ -204,8 +384,8 @@ class ElasticNetAdapter:
             raise ValueError('Model package schema mismatch')
         model.estimators_ = joblib.load(directory / 'estimators.joblib')
         model.fit_context_, model.diagnostics_ = manifest['full_fit_context'], manifest['diagnostics']
-        model.model_version_ = digest(dict(fit=model.fit_context_, parameters=model.parameters,
-            seed=model.seed, weights=joblib.hash(model.estimators_), policy=model.policy))
-        if model.model_version_ != manifest['model_version']:
+        model.input_diagnostics_ = manifest['input_diagnostics']
+        model.model_version_ = model._weight_identity()
+        if model.model_version_ != manifest['model_version'] or key_hash(model.training_keys) != model.fit_context_['training_keys_hash']:
             raise ValueError('Model package weights mismatch')
         return model

@@ -26,10 +26,9 @@ def exclusive_run(root, *, wait=False):
     root = native_path(root)
     root.mkdir(parents=True, exist_ok=True)
     with (root / '.run.lock').open('a+b') as handle:
-        handle.seek(0, 2)
-        if handle.tell() == 0:
-            handle.write(b'0')
-            handle.flush()
+        # Windows can lock a range beyond EOF. Pre-lock initialization writes
+        # race with another process that already owns byte zero (mandatory
+        # locking), producing PermissionError during flush. No content is needed.
         handle.seek(0)
         while True:
             try:
@@ -107,12 +106,14 @@ class TaskJournal:
         self.root = Path(run_root)
         self.resume, self.max_attempts = resume, max_attempts
         self.records = {}
+        self.artifact_sizes = {}
+        self.artifact_bytes = 0
         paths = self.root.glob('*/tasks/*.json') if task is None else [self.path(task)]
         for path in paths:
             if not path.exists():
                 continue
             record = read_json(path)
-            self.records[record['task_id']] = record
+            self.accept(record)
         self.initial_ids = set(self.records)
 
     def path(self, task):
@@ -121,8 +122,17 @@ class TaskJournal:
     def record(self, task, **fields):
         record = dict(task, **fields)
         atomic_json(self.path(task), record)
-        self.records[task['task_id']] = record
+        self.accept(record)
         return record
+
+    def accept(self, record):
+        self.records[record['task_id']] = record
+        if record['status'] == 'SUCCEEDED':
+            fit = record['fit_id']
+            size = record.get('artifact_bytes', 0)
+            previous = self.artifact_sizes.get(fit, 0)
+            self.artifact_sizes[fit] = max(previous, size)
+            self.artifact_bytes += max(0, size - previous)
 
     def succeeded(self, task):
         record = self.records.get(task['task_id'])
@@ -145,6 +155,6 @@ class TaskJournal:
             row['attempt_history_json'] = json.dumps(record.get('attempt_history', []), sort_keys=True)
             rows.append(row)
         atomic_parquet(self.root / 'tasks.parquet', pd.DataFrame(rows))
-        failures = [{k: r.get(k) for k in ['task_id', 'stage', 'status', 'error', 'attempts']}
-            for r in self.records.values() if r['status'] == 'FAILED']
+        failures = [{k: r.get(k) for k in ['task_id', 'stage', 'status', 'error', 'failure_kind', 'attempts', 'elapsed_seconds']}
+            for r in self.records.values() if r['status'] in ['FAILED', 'INTERRUPTED']]
         atomic_json(self.root / 'logs/failures.json', failures)

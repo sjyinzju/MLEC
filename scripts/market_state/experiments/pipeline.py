@@ -2,6 +2,7 @@
 from pathlib import Path
 import re
 import tempfile
+import time
 import pandas as pd
 from ..common import digest
 from ..models.errors import FitFailure
@@ -70,6 +71,10 @@ class Pipeline(TaskRunner):
             atomic_json(self.root / 'preflight.json', accepted)
         self.executor = self._executor or MonthlyExecutor(self.config, self.store, self.identity)
         self.scheduler = TaskScheduler(self, worker_factory=self.worker_factory)
+        atomic_json(self.root / 'logs/launches' / (str(time.time_ns()) + '.json'),
+            dict(run_id=self.run_id, versions=self.identity, resume=self.resume,
+                resolved_cpu_workers=self.scheduler.workers, resources=self.config['resources'],
+                environment=accepted['environment']))
         return self
 
     def assert_current(self):
@@ -335,10 +340,11 @@ class Pipeline(TaskRunner):
             self.run_test(execute=True)
             summarize(self.root, stage='test', artificial=self.artificial)
             self.update_state(state='EXPERIMENT_COMPLETE')
-        except Exception as error:
+        except BaseException as error:
             self.journal.snapshot()
             atomic_json(self.root / 'logs/pipeline_failure.json', dict(error=type(error).__name__, message=str(error),
-                run_id=self.run_id, versions=self.identity))
+                run_id=self.run_id, versions=self.identity,
+                failure_kind='USER_INTERRUPTION' if isinstance(error, KeyboardInterrupt) else getattr(error, 'kind', type(error).__name__)))
             raise
         finally:
             if self.scheduler:

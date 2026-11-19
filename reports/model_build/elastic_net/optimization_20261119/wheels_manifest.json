@@ -1,0 +1,197 @@
+{
+  "platform": "Windows x64",
+  "python": "CPython 3.11",
+  "wheels": [
+    {
+      "file": "beautifulsoup4-4.14.3-py3-none-any.whl",
+      "bytes": 107721,
+      "sha256": "0918bfe44902e6ad8d57732ba310582e98da931428d231a5ecb9e7c703a735bb"
+    },
+    {
+      "file": "certifi-2026.10.23-py3-none-any.whl",
+      "bytes": 135082,
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1"
+    },
+    {
+      "file": "charset_normalizer-3.5.2-cp311-cp311-win_amd64.whl",
+      "bytes": 214932,
+      "sha256": "87e50a3e7cb90af586b6c5faf23e302a970415ac73bd7bd90a515a04b427ef96"
+    },
+    {
+      "file": "colorama-0.4.6-py2.py3-none-any.whl",
+      "bytes": 25335,
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+    },
+    {
+      "file": "contourpy-1.3.3-cp311-cp311-win_amd64.whl",
+      "bytes": 225234,
+      "sha256": "3519428f6be58431c56581f1694ba8e50626f2dd550af225f82fb5f5814d2a42"
+    },
+    {
+      "file": "cycler-0.12.1-py3-none-any.whl",
+      "bytes": 8321,
+      "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30"
+    },
+    {
+      "file": "duckdb-1.5.5-cp311-cp311-win_amd64.whl",
+      "bytes": 13156986,
+      "sha256": "9f4287f97ccf0c1f3d471e7115be2b067cbf99627e2d34bffd462dd64703cddc"
+    },
+    {
+      "file": "et_xmlfile-2.0.0-py3-none-any.whl",
+      "bytes": 18059,
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+    },
+    {
+      "file": "fonttools-4.68.0-cp311-cp311-win_amd64.whl",
+      "bytes": 1681821,
+      "sha256": "35425bba603cf9d72c9f3c173ea6c98632164f3bdfb1ce1a3dcc928979c6ec6d"
+    },
+    {
+      "file": "idna-3.20-py3-none-any.whl",
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    {
+      "file": "iniconfig-2.3.1-py3-none-any.whl",
+      "bytes": 7552,
+      "sha256": "9121e2c1fdb355232495be3194c8dfe87ccc2d5dee45947b78e68f499790d7a7"
+    },
+    {
+      "file": "joblib-1.5.3-py3-none-any.whl",
+      "bytes": 309071,
+      "sha256": "5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713"
+    },
+    {
+      "file": "kiwisolver-1.5.1-cp311-cp311-win_amd64.whl",
+      "bytes": 70744,
+      "sha256": "1a7587dc335f2c0f5bd577fd0540bd16c66006bdb60f759a1059f025e6c4f071"
+    },
+    {
+      "file": "lxml-6.0.2-cp311-cp311-win_amd64.whl",
+      "bytes": 4036583,
+      "sha256": "e5867f2651016a3afd8dd2c8238baa66f1e2802f44bc17e236f547ace6647078"
+    },
+    {
+      "file": "matplotlib-3.10.8-cp311-cp311-win_amd64.whl",
+      "bytes": 8135090,
+      "sha256": "18821ace09c763ec93aef5eeff087ee493a24051936d7b9ebcad9662f66501f9"
+    },
+    {
+      "file": "numpy-2.4.4-cp311-cp311-win_amd64.whl",
+      "bytes": 12614257,
+      "sha256": "6bbe4eb67390b0a0265a2c25458f6b90a409d5d069f1041e6aff1e27e3d9a79e"
+    },
+    {
+      "file": "olefile-0.47-py2.py3-none-any.whl",
+      "bytes": 114565,
+      "sha256": "543c7da2a7adadf21214938bb79c83ea12b473a4b6ee4ad4bf854e7715e13d1f"
+    },
+    {
+      "file": "openpyxl-3.1.5-py2.py3-none-any.whl",
+      "bytes": 250910,
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+    },
+    {
+      "file": "packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "file": "pandas-3.0.2-cp311-cp311-win_amd64.whl",
+      "bytes": 9897372,
+      "sha256": "ed72cb3f45190874eb579c64fa92d9df74e98fd63e2be7f62bce5ace0ade61df"
+    },
+    {
+      "file": "pillow-13.0.0-cp311-cp311-win_amd64.whl",
+      "bytes": 7278471,
+      "sha256": "d7710eb676e9bb68965cb045be0d333b4c0d7f9dfbaa7fbf121385b1588683d3"
+    },
+    {
+      "file": "pluggy-1.7.0-py3-none-any.whl",
+      "bytes": 27082,
+      "sha256": "7dd7b0d8832ba3cb632c306926ded123429211b83641b35dc5c41ad2d34f9bec"
+    },
+    {
+      "file": "pyarrow-23.0.1-cp311-cp311-win_amd64.whl",
+      "bytes": 27527698,
+      "sha256": "f00f993a8179e0e1c9713bcc0baf6d6c01326a406a9c23495ec1ba9c9ebf2919"
+    },
+    {
+      "file": "pygments-2.21.0-py3-none-any.whl",
+      "bytes": 1250147,
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+    },
+    {
+      "file": "pyparsing-3.3.3-py3-none-any.whl",
+      "bytes": 126420,
+      "sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4"
+    },
+    {
+      "file": "pytest-9.0.3-py3-none-any.whl",
+      "bytes": 375249,
+      "sha256": "2c5efc453d45394fdd706ade797c0a81091eccd1d6e4bccfcd476e2b8e0ab5d9"
+    },
+    {
+      "file": "python_dateutil-4.0.0-py3-none-any.whl",
+      "bytes": 92853,
+      "sha256": "a5e246f79eb80475e691bf93862cead98decd8a498cf53ba0516fcdc0f50dc1c"
+    },
+    {
+      "file": "requests-2.32.5-py3-none-any.whl",
+      "bytes": 64738,
+      "sha256": "2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6"
+    },
+    {
+      "file": "scikit_learn-1.8.0-cp311-cp311-win_amd64.whl",
+      "bytes": 8081706,
+      "sha256": "c57b1b610bd1f40ba43970e11ce62821c2e6569e4d74023db19c6b26f246cb3b"
+    },
+    {
+      "file": "scipy-1.17.1-cp311-cp311-win_amd64.whl",
+      "bytes": 36607512,
+      "sha256": "d30e57c72013c2a4fe441c2fcb8e77b14e152ad48b5464858e07e2ad9fbfceff"
+    },
+    {
+      "file": "soupsieve-2.10-py3-none-any.whl",
+      "bytes": 38019,
+      "sha256": "8596eb8967d744174820280fa62b4542a2e955bfaccca73ed8a13c6eb8e9b502"
+    },
+    {
+      "file": "tabulate-0.9.0-py3-none-any.whl",
+      "bytes": 35252,
+      "sha256": "024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"
+    },
+    {
+      "file": "threadpoolctl-3.6.0-py3-none-any.whl",
+      "bytes": 18638,
+      "sha256": "43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb"
+    },
+    {
+      "file": "typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    {
+      "file": "tzdata-2026.6-py2.py3-none-any.whl",
+      "bytes": 348210,
+      "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec"
+    },
+    {
+      "file": "urllib3-2.8.0-py3-none-any.whl",
+      "bytes": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+    },
+    {
+      "file": "xlrd-2.0.2-py2.py3-none-any.whl",
+      "bytes": 96555,
+      "sha256": "ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9"
+    }
+  ],
+  "bytes": 133359012,
+  "independent_offline_install_verified": true,
+  "pip_check": {
+    "exit_code": 0,
+    "stdout": "No broken requirements found."
+  }
+}

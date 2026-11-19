@@ -1,0 +1,2823 @@
+{
+  "purpose": "INPUT_NUMERICAL_TECHNICAL_ONLY",
+  "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+  "original_seal_sha256": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+  "records": [
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "information_set": "M",
+      "train": {
+        "rows": 251,
+        "features": 207,
+        "max_abs": 6.178024085329783,
+        "max_row_norm2": 725.4658248858324,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 4,
+        "features": 207,
+        "max_abs": 1.8357710746338918,
+        "max_row_norm2": 72.22605044084553,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0015188446425171644
+      },
+      "rank": 94,
+      "near_constant": [],
+      "all_empty": 0,
+      "constant": 3,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 1.2142110265877115e-07,
+          "raw_variance": 0.05525983284907145,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.001131697354282979,
+          "raw_variance": 0.10026755080193085,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 5.446787199461661e-05,
+          "raw_variance": 0.05253211534355318,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 1.2831856698594655e-07,
+          "raw_variance": 0.055465347219118485,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.0011739965635068073,
+          "raw_variance": 0.10059940086172342,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 5.494398323825555e-05,
+          "raw_variance": 0.052723062106148626,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 1.3521712452331992e-07,
+          "raw_variance": 0.05567238710771501,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.0012162947309777294,
+          "raw_variance": 0.10093335819051912,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 5.5420754226502164e-05,
+          "raw_variance": 0.052915387902025,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 1.497985865668675e-07,
+          "raw_variance": 0.05609111142300166,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.0017290306943871236,
+          "raw_variance": 0.10160766984925516,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 6.109603112187842e-05,
+          "raw_variance": 0.05330423609732941,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.005972054104129931,
+          0.18253256803695375,
+          0.04642573804176231,
+          1.9346799088663853e-10,
+          0.009373763401092972,
+          0.4776237162605887,
+          0.38047398449005987
+        ],
+        "scale": [
+          0.06743762173346818,
+          0.14986124524510744,
+          0.03931844858808331,
+          1.544036361544349e-10,
+          0.00487288960111712,
+          0.07037122466540191,
+          0.20771279882009203
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "information_set": "M+Z",
+      "train": {
+        "rows": 251,
+        "features": 556,
+        "max_abs": 15.8113883008419,
+        "max_row_norm2": 2140.9631352526153,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 4,
+        "features": 556,
+        "max_abs": 27.235632838299487,
+        "max_row_norm2": 1026.705069496711,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0005813892076863769
+      },
+      "rank": 202,
+      "near_constant": [
+        "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change"
+      ],
+      "all_empty": 13,
+      "constant": 88,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 1.2142110265877115e-07,
+          "raw_variance": 0.05525983284907145,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.001131697354282979,
+          "raw_variance": 0.10026755080193085,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 5.446787199461661e-05,
+          "raw_variance": 0.05253211534355318,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 1.2831856698594655e-07,
+          "raw_variance": 0.055465347219118485,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.0011739965635068073,
+          "raw_variance": 0.10059940086172342,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 5.494398323825555e-05,
+          "raw_variance": 0.052723062106148626,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 1.3521712452331992e-07,
+          "raw_variance": 0.05567238710771501,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.0012162947309777294,
+          "raw_variance": 0.10093335819051912,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 5.5420754226502164e-05,
+          "raw_variance": 0.052915387902025,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 1.497985865668675e-07,
+          "raw_variance": 0.05609111142300166,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.0017290306943871236,
+          "raw_variance": 0.10160766984925516,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 6.109603112187842e-05,
+          "raw_variance": 0.05330423609732941,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.005972054104129931,
+          0.18253256803695375,
+          0.04642573804176231,
+          1.9346799088663853e-10,
+          0.009373763401092972,
+          0.4776237162605887,
+          0.38047398449005987
+        ],
+        "scale": [
+          0.06743762173346818,
+          0.14986124524510744,
+          0.03931844858808331,
+          1.544036361544349e-10,
+          0.00487288960111712,
+          0.07037122466540191,
+          0.20771279882009203
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "information_set": "M",
+      "train": {
+        "rows": 400,
+        "features": 207,
+        "max_abs": 8.894986331042578,
+        "max_row_norm2": 912.6346209331462,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 5,
+        "features": 207,
+        "max_abs": 2.849817884598408,
+        "max_row_norm2": 66.46673787726118,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0013219190633172889
+      },
+      "rank": 97,
+      "near_constant": [],
+      "all_empty": 0,
+      "constant": 3,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 4.55988634538995e-07,
+          "raw_variance": 0.03701912337500892,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.0005508346032142564,
+          "raw_variance": 0.07196743017148624,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.00011793818508297894,
+          "raw_variance": 0.0384774517970498,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 4.393518394868204e-07,
+          "raw_variance": 0.037107578902981685,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.0005610796313152422,
+          "raw_variance": 0.07212648286690912,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.00012239151705108902,
+          "raw_variance": 0.0385674474337141,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 4.464148920353204e-07,
+          "raw_variance": 0.03719645700308906,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.000571324659416339,
+          "raw_variance": 0.07228622715518106,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.00012684484901919908,
+          "raw_variance": 0.03865786289363693,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 4.55988634538995e-07,
+          "raw_variance": 0.0373754934919691,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.0005853587939242955,
+          "raw_variance": 0.07260780912646422,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.00013166510133965931,
+          "raw_variance": 0.03883996500272834,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.00519479599354955,
+          0.17946484253817985,
+          0.04466774827398906,
+          1.938280520330341e-10,
+          0.011083665029895223,
+          0.4844648673625719,
+          0.3177791782510268
+        ],
+        "scale": [
+          0.06639662126861828,
+          0.11805444577224905,
+          0.04012157759101295,
+          1.0026525928962857e-10,
+          0.004891798700685061,
+          0.06173472150913578,
+          0.20648269644889755
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "information_set": "M+Z",
+      "train": {
+        "rows": 400,
+        "features": 562,
+        "max_abs": 19.97498435543819,
+        "max_row_norm2": 1581.695621298947,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 5,
+        "features": 562,
+        "max_abs": 4.507482592544597,
+        "max_row_norm2": 277.73800161279905,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.000794740903180642
+      },
+      "rank": 213,
+      "near_constant": [
+        "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change"
+      ],
+      "all_empty": 10,
+      "constant": 85,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 4.55988634538995e-07,
+          "raw_variance": 0.03701912337500892,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.0005508346032142564,
+          "raw_variance": 0.07196743017148624,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.00011793818508297894,
+          "raw_variance": 0.0384774517970498,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 4.393518394868204e-07,
+          "raw_variance": 0.037107578902981685,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.0005610796313152422,
+          "raw_variance": 0.07212648286690912,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.00012239151705108902,
+          "raw_variance": 0.0385674474337141,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 4.464148920353204e-07,
+          "raw_variance": 0.03719645700308906,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.000571324659416339,
+          "raw_variance": 0.07228622715518106,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.00012684484901919908,
+          "raw_variance": 0.03865786289363693,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 4.55988634538995e-07,
+          "raw_variance": 0.0373754934919691,
+          "raw_min": 1.523286127229308e-15,
+          "raw_max": 0.999999999997697,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.0005853587939242955,
+          "raw_variance": 0.07260780912646422,
+          "raw_min": 2.3029828972087954e-12,
+          "raw_max": 0.9999999929647823,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.00013166510133965931,
+          "raw_variance": 0.03883996500272834,
+          "raw_min": 7.895219923142985e-17,
+          "raw_max": 0.9999999379473029,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.00519479599354955,
+          0.17946484253817985,
+          0.04466774827398906,
+          1.938280520330341e-10,
+          0.011083665029895223,
+          0.4844648673625719,
+          0.3177791782510268
+        ],
+        "scale": [
+          0.06639662126861828,
+          0.11805444577224905,
+          0.04012157759101295,
+          1.0026525928962857e-10,
+          0.004891798700685061,
+          0.06173472150913578,
+          0.20648269644889755
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "information_set": "M",
+      "train": {
+        "rows": 251,
+        "features": 207,
+        "max_abs": 7.745310640568747,
+        "max_row_norm2": 758.4428484109809,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 4,
+        "features": 207,
+        "max_abs": 1.8357710746338918,
+        "max_row_norm2": 74.56939180915477,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.001463854605199471
+      },
+      "rank": 94,
+      "near_constant": [],
+      "all_empty": 0,
+      "constant": 3,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 5.023426480658195e-07,
+          "raw_variance": 0.06806044600316812,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.00028420591497224645,
+          "raw_variance": 0.09901577334792123,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 1.7585709015708583e-05,
+          "raw_variance": 0.038094765845798524,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 5.05720967670017e-07,
+          "raw_variance": 0.06830847472100643,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.00028636131742665327,
+          "raw_variance": 0.0993497231792114,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 1.7814792007877948e-05,
+          "raw_variance": 0.03823838023446143,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 5.090978681431362e-07,
+          "raw_variance": 0.06855830037372487,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.0002885059635494569,
+          "raw_variance": 0.09968585455188782,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 1.80490040616278e-05,
+          "raw_variance": 0.03838307751532348,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 5.41590006558951e-07,
+          "raw_variance": 0.06906342022128308,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.00029690866010323447,
+          "raw_variance": 0.10036474326684024,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 2.1273015242199055e-05,
+          "raw_variance": 0.03867576986136463,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.006483613212020067,
+          0.16918295870591568,
+          0.0385611942086187,
+          3.840289195652825e-11,
+          0.0043033157899733014,
+          0.4836660714856774,
+          0.3613765746755645
+        ],
+        "scale": [
+          0.07195535426438332,
+          0.14598574523085367,
+          0.04897596330041876,
+          1.8724782588969885e-11,
+          0.002682782345052652,
+          0.06365902926148359,
+          0.256481653947189
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "information_set": "M+Z",
+      "train": {
+        "rows": 251,
+        "features": 556,
+        "max_abs": 15.8113883008419,
+        "max_row_norm2": 2140.3139186574135,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 4,
+        "features": 556,
+        "max_abs": 27.235632838299487,
+        "max_row_norm2": 1032.8816316170219,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0005815538372274121
+      },
+      "rank": 202,
+      "near_constant": [
+        "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change"
+      ],
+      "all_empty": 13,
+      "constant": 88,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 5.023426480658195e-07,
+          "raw_variance": 0.06806044600316812,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.00028420591497224645,
+          "raw_variance": 0.09901577334792123,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 1.7585709015708583e-05,
+          "raw_variance": 0.038094765845798524,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 5.05720967670017e-07,
+          "raw_variance": 0.06830847472100643,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.00028636131742665327,
+          "raw_variance": 0.0993497231792114,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 1.7814792007877948e-05,
+          "raw_variance": 0.03823838023446143,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 5.090978681431362e-07,
+          "raw_variance": 0.06855830037372487,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.0002885059635494569,
+          "raw_variance": 0.09968585455188782,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 1.80490040616278e-05,
+          "raw_variance": 0.03838307751532348,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 5.41590006558951e-07,
+          "raw_variance": 0.06906342022128308,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.00029690866010323447,
+          "raw_variance": 0.10036474326684024,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 2.1273015242199055e-05,
+          "raw_variance": 0.03867576986136463,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.006483613212020067,
+          0.16918295870591568,
+          0.0385611942086187,
+          3.840289195652825e-11,
+          0.0043033157899733014,
+          0.4836660714856774,
+          0.3613765746755645
+        ],
+        "scale": [
+          0.07195535426438332,
+          0.14598574523085367,
+          0.04897596330041876,
+          1.8724782588969885e-11,
+          0.002682782345052652,
+          0.06365902926148359,
+          0.256481653947189
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2022-12",
+      "information_set": "M",
+      "train": {
+        "rows": 400,
+        "features": 207,
+        "max_abs": 8.90138916966902,
+        "max_row_norm2": 938.6322456745025,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 5,
+        "features": 207,
+        "max_abs": 2.000115321817768,
+        "max_row_norm2": 53.048311657961094,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0012887026660029334
+      },
+      "rank": 94,
+      "near_constant": [],
+      "all_empty": 0,
+      "constant": 3,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 2.8672279818610763e-06,
+          "raw_variance": 0.04746688578242247,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.0003323784134112717,
+          "raw_variance": 0.07064962843222519,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 6.811895676976627e-05,
+          "raw_variance": 0.026861779444967225,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 2.7763202416831004e-06,
+          "raw_variance": 0.04757861120827064,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.00033879788970159197,
+          "raw_variance": 0.07080700890451955,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 6.840668072722457e-05,
+          "raw_variance": 0.026926052481149997,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 2.778103628017112e-06,
+          "raw_variance": 0.04769080188934637,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.0003452173659919122,
+          "raw_variance": 0.07096498244513474,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 6.869440468468289e-05,
+          "raw_variance": 0.02699063304424346,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 2.8672464547468666e-06,
+          "raw_variance": 0.047916770513270424,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.00036476982335376107,
+          "raw_variance": 0.07128302002028056,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 6.928919751845008e-05,
+          "raw_variance": 0.027120726466923248,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.004724390309305493,
+          0.17130556064933816,
+          0.03987471873533521,
+          3.249762178195515e-11,
+          0.00480617995265406,
+          0.4959613768593204,
+          0.3067988050421967
+        ],
+        "scale": [
+          0.07077626173804746,
+          0.12266536772928638,
+          0.045209183661022334,
+          1.7721601830642946e-11,
+          0.0023078872861602567,
+          0.06235208554478,
+          0.2542157629736356
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2022-12",
+      "information_set": "M+Z",
+      "train": {
+        "rows": 400,
+        "features": 562,
+        "max_abs": 19.97498435543819,
+        "max_row_norm2": 1622.6585388350152,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 5,
+        "features": 562,
+        "max_abs": 4.507482592544597,
+        "max_row_norm2": 271.6706416326084,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0007757988589386273
+      },
+      "rank": 210,
+      "near_constant": [
+        "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change"
+      ],
+      "all_empty": 10,
+      "constant": 85,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 2.8672279818610763e-06,
+          "raw_variance": 0.04746688578242247,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.0003323784134112717,
+          "raw_variance": 0.07064962843222519,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 6.811895676976627e-05,
+          "raw_variance": 0.026861779444967225,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 2.7763202416831004e-06,
+          "raw_variance": 0.04757861120827064,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.00033879788970159197,
+          "raw_variance": 0.07080700890451955,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 6.840668072722457e-05,
+          "raw_variance": 0.026926052481149997,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 2.778103628017112e-06,
+          "raw_variance": 0.04769080188934637,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.0003452173659919122,
+          "raw_variance": 0.07096498244513474,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 6.869440468468289e-05,
+          "raw_variance": 0.02699063304424346,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 2.8672464547468666e-06,
+          "raw_variance": 0.047916770513270424,
+          "raw_min": 2.3285389702555015e-12,
+          "raw_max": 0.9999999998940021,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.00036476982335376107,
+          "raw_variance": 0.07128302002028056,
+          "raw_min": 1.0599006753914069e-10,
+          "raw_max": 0.9999999960064034,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 6.928919751845008e-05,
+          "raw_variance": 0.027120726466923248,
+          "raw_min": 8.042009084800306e-15,
+          "raw_max": 0.9987921736340893,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.004724390309305493,
+          0.17130556064933816,
+          0.03987471873533521,
+          3.249762178195515e-11,
+          0.00480617995265406,
+          0.4959613768593204,
+          0.3067988050421967
+        ],
+        "scale": [
+          0.07077626173804746,
+          0.12266536772928638,
+          0.045209183661022334,
+          1.7721601830642946e-11,
+          0.0023078872861602567,
+          0.06235208554478,
+          0.2542157629736356
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000905.SH",
+      "fold": "2020-01",
+      "information_set": "M",
+      "train": {
+        "rows": 251,
+        "features": 207,
+        "max_abs": 6.719215352472141,
+        "max_row_norm2": 744.4602788985394,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 4,
+        "features": 207,
+        "max_abs": 1.8357710746338918,
+        "max_row_norm2": 73.6656047438625,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0014866770855251137
+      },
+      "rank": 94,
+      "near_constant": [],
+      "all_empty": 0,
+      "constant": 3,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 9.298939082873642e-07,
+          "raw_variance": 0.062109105567727044,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.03178199913223101,
+          "raw_variance": 0.14226707320137155,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.0013646305901041365,
+          "raw_variance": 0.09766684434824843,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 1.0114161209717937e-06,
+          "raw_variance": 0.062336546897112925,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.03645509466388852,
+          "raw_variance": 0.1426809801794701,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.0014004871995448708,
+          "raw_variance": 0.09799550655482656,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 1.0930292895543469e-06,
+          "raw_variance": 0.06256564575420026,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.04112815568191808,
+          "raw_variance": 0.14309696175539238,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.001436378922154935,
+          "raw_variance": 0.09832630941828806,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 1.2642654538670643e-06,
+          "raw_variance": 0.06302888828193501,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.048961438710205196,
+          "raw_variance": 0.14393518695446417,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.0015937372360134187,
+          "raw_variance": 0.09899441584172161,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.007008850543547274,
+          0.20081024215905713,
+          0.052698975375214285,
+          1.1283020156363007e-10,
+          0.01309970986082575,
+          0.4788346113091658,
+          0.4049332863235558
+        ],
+        "scale": [
+          0.08248369243089099,
+          0.14984259218477214,
+          0.04512146575008302,
+          7.090766823168064e-11,
+          0.009004434538152167,
+          0.06624639324783016,
+          0.22847945475627074
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000905.SH",
+      "fold": "2020-01",
+      "information_set": "M+Z",
+      "train": {
+        "rows": 251,
+        "features": 556,
+        "max_abs": 15.8113883008419,
+        "max_row_norm2": 2142.7292734556167,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 4,
+        "features": 556,
+        "max_abs": 27.235632838299487,
+        "max_row_norm2": 1025.8441259394092,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0005809418184269648
+      },
+      "rank": 202,
+      "near_constant": [
+        "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change"
+      ],
+      "all_empty": 13,
+      "constant": 88,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 9.298939082873642e-07,
+          "raw_variance": 0.062109105567727044,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.03178199913223101,
+          "raw_variance": 0.14226707320137155,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.0013646305901041365,
+          "raw_variance": 0.09766684434824843,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 1.0114161209717937e-06,
+          "raw_variance": 0.062336546897112925,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.03645509466388852,
+          "raw_variance": 0.1426809801794701,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.0014004871995448708,
+          "raw_variance": 0.09799550655482656,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 1.0930292895543469e-06,
+          "raw_variance": 0.06256564575420026,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.04112815568191808,
+          "raw_variance": 0.14309696175539238,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.001436378922154935,
+          "raw_variance": 0.09832630941828806,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 1.2642654538670643e-06,
+          "raw_variance": 0.06302888828193501,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.048961438710205196,
+          "raw_variance": 0.14393518695446417,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.0015937372360134187,
+          "raw_variance": 0.09899441584172161,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.007008850543547274,
+          0.20081024215905713,
+          0.052698975375214285,
+          1.1283020156363007e-10,
+          0.01309970986082575,
+          0.4788346113091658,
+          0.4049332863235558
+        ],
+        "scale": [
+          0.08248369243089099,
+          0.14984259218477214,
+          0.04512146575008302,
+          7.090766823168064e-11,
+          0.009004434538152167,
+          0.06624639324783016,
+          0.22847945475627074
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000905.SH",
+      "fold": "2022-12",
+      "information_set": "M",
+      "train": {
+        "rows": 400,
+        "features": 207,
+        "max_abs": 7.17101994427013,
+        "max_row_norm2": 947.379415682496,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 5,
+        "features": 207,
+        "max_abs": 2.841906769241612,
+        "max_row_norm2": 70.71862455677449,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0012778988288370365
+      },
+      "rank": 94,
+      "near_constant": [],
+      "all_empty": 0,
+      "constant": 3,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 4.183493346138292e-06,
+          "raw_variance": 0.040765960340468865,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.009700544355791596,
+          "raw_variance": 0.10585243530808519,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.0020072053054120027,
+          "raw_variance": 0.07357320410470489,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 4.199888595234779e-06,
+          "raw_variance": 0.04086235212135074,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.009980612794945776,
+          "raw_variance": 0.10606780277916837,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.002014146260848234,
+          "raw_variance": 0.07373586354784892,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 4.2162544802777165e-06,
+          "raw_variance": 0.040959199119543224,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.010260961257206769,
+          "raw_variance": 0.10628400706533377,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.002021087216284466,
+          "raw_variance": 0.07389923499905227,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 4.2518294836447784e-06,
+          "raw_variance": 0.041154271839393755,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.010554792382480693,
+          "raw_variance": 0.1067189135606631,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.0020629660349818345,
+          "raw_variance": 0.07422811191085689,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.008825998032652493,
+          0.19383121943131024,
+          0.05018387058750301,
+          9.361610251486625e-11,
+          0.014235705852636765,
+          0.48542123342322485,
+          0.34104994294764374
+        ],
+        "scale": [
+          0.07426404724454541,
+          0.1251409447594828,
+          0.045801042933448416,
+          5.734311273979894e-11,
+          0.005967655740393436,
+          0.06328099314176017,
+          0.2307941800136703
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000905.SH",
+      "fold": "2022-12",
+      "information_set": "M+Z",
+      "train": {
+        "rows": 400,
+        "features": 562,
+        "max_abs": 19.97498435543819,
+        "max_row_norm2": 1578.2151801752275,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 5,
+        "features": 562,
+        "max_abs": 4.507482592544597,
+        "max_row_norm2": 273.1341602789814,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0007963930497833519
+      },
+      "rank": 210,
+      "near_constant": [
+        "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change"
+      ],
+      "all_empty": 10,
+      "constant": 85,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 4.183493346138292e-06,
+          "raw_variance": 0.040765960340468865,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.009700544355791596,
+          "raw_variance": 0.10585243530808519,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.0020072053054120027,
+          "raw_variance": 0.07357320410470489,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 4.199888595234779e-06,
+          "raw_variance": 0.04086235212135074,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.009980612794945776,
+          "raw_variance": 0.10606780277916837,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.002014146260848234,
+          "raw_variance": 0.07373586354784892,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 4.2162544802777165e-06,
+          "raw_variance": 0.040959199119543224,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.010260961257206769,
+          "raw_variance": 0.10628400706533377,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.002021087216284466,
+          "raw_variance": 0.07389923499905227,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 4.2518294836447784e-06,
+          "raw_variance": 0.041154271839393755,
+          "raw_min": 4.251968766967879e-24,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.010554792382480693,
+          "raw_variance": 0.1067189135606631,
+          "raw_min": 3.794434078234987e-16,
+          "raw_max": 0.9999999041857525,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.0020629660349818345,
+          "raw_variance": 0.07422811191085689,
+          "raw_min": 9.721569621861324e-20,
+          "raw_max": 0.9999999999990692,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.008825998032652493,
+          0.19383121943131024,
+          0.05018387058750301,
+          9.361610251486625e-11,
+          0.014235705852636765,
+          0.48542123342322485,
+          0.34104994294764374
+        ],
+        "scale": [
+          0.07426404724454541,
+          0.1251409447594828,
+          0.045801042933448416,
+          5.734311273979894e-11,
+          0.005967655740393436,
+          0.06328099314176017,
+          0.2307941800136703
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000852.SH",
+      "fold": "2020-01",
+      "information_set": "M",
+      "train": {
+        "rows": 251,
+        "features": 207,
+        "max_abs": 6.842314482861867,
+        "max_row_norm2": 736.1098517356885,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 4,
+        "features": 207,
+        "max_abs": 1.8357710746338918,
+        "max_row_norm2": 72.67095056652019,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0015006493185013479
+      },
+      "rank": 95,
+      "near_constant": [],
+      "all_empty": 0,
+      "constant": 3,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 9.503341980050174e-07,
+          "raw_variance": 0.06713677053346916,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.5663362424853007,
+          "raw_variance": 0.1725851081111443,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.012925158747162902,
+          "raw_variance": 0.1316123768243435,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 1.0742417232843804e-06,
+          "raw_variance": 0.06738198239627724,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.6121776454228139,
+          "raw_variance": 0.17301968537601958,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.012998322856794737,
+          "raw_variance": 0.13201423735689524,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 1.1981492485637434e-06,
+          "raw_variance": 0.06762897564874425,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.6580192864922985,
+          "raw_variance": 0.17345570047401188,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.013071592937980447,
+          "raw_variance": 0.13241832780741777,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 1.2800634286394196e-06,
+          "raw_variance": 0.06812838364884319,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.6860931777531544,
+          "raw_variance": 0.17433199029273708,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.019393546018517286,
+          "raw_variance": 0.13323324174324538,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          -0.0024860331315164075,
+          0.22005428614845934,
+          0.0621440462602858,
+          1.9542199541203653e-10,
+          0.019086538690267163,
+          0.47967647624664345,
+          0.3994554553473431
+        ],
+        "scale": [
+          0.09571194995254945,
+          0.15555616211802237,
+          0.04803987743944799,
+          1.370307440456595e-10,
+          0.014592522065436351,
+          0.07441424871154079,
+          0.20837736900957837
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000852.SH",
+      "fold": "2020-01",
+      "information_set": "M+Z",
+      "train": {
+        "rows": 251,
+        "features": 556,
+        "max_abs": 15.8113883008419,
+        "max_row_norm2": 2139.9968065409967,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 4,
+        "features": 556,
+        "max_abs": 27.235632838299487,
+        "max_row_norm2": 1026.4562180272733,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0005816342849999443
+      },
+      "rank": 202,
+      "near_constant": [
+        "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change"
+      ],
+      "all_empty": 13,
+      "constant": 88,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 9.503341980050174e-07,
+          "raw_variance": 0.06713677053346916,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.5663362424853007,
+          "raw_variance": 0.1725851081111443,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.012925158747162902,
+          "raw_variance": 0.1316123768243435,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 1.0742417232843804e-06,
+          "raw_variance": 0.06738198239627724,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.6121776454228139,
+          "raw_variance": 0.17301968537601958,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.012998322856794737,
+          "raw_variance": 0.13201423735689524,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 1.1981492485637434e-06,
+          "raw_variance": 0.06762897564874425,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.6580192864922985,
+          "raw_variance": 0.17345570047401188,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.013071592937980447,
+          "raw_variance": 0.13241832780741777,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 1.2800634286394196e-06,
+          "raw_variance": 0.06812838364884319,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.6860931777531544,
+          "raw_variance": 0.17433199029273708,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.019393546018517286,
+          "raw_variance": 0.13323324174324538,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          -0.0024860331315164075,
+          0.22005428614845934,
+          0.0621440462602858,
+          1.9542199541203653e-10,
+          0.019086538690267163,
+          0.47967647624664345,
+          0.3994554553473431
+        ],
+        "scale": [
+          0.09571194995254945,
+          0.15555616211802237,
+          0.04803987743944799,
+          1.370307440456595e-10,
+          0.014592522065436351,
+          0.07441424871154079,
+          0.20837736900957837
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000852.SH",
+      "fold": "2022-12",
+      "information_set": "M",
+      "train": {
+        "rows": 400,
+        "features": 207,
+        "max_abs": 8.172723038456676,
+        "max_row_norm2": 937.1588472869138,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 5,
+        "features": 207,
+        "max_abs": 2.521623911543304,
+        "max_row_norm2": 62.50689852049318,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0012905404980412072
+      },
+      "rank": 95,
+      "near_constant": [],
+      "all_empty": 0,
+      "constant": 3,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 1.2043858347084393e-05,
+          "raw_variance": 0.048837785309453347,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.08853155898219622,
+          "raw_variance": 0.14155826283574902,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.025830648536799374,
+          "raw_variance": 0.10890675719743369,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 1.2401545678421493e-05,
+          "raw_variance": 0.04895232300944972,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.08886973381802377,
+          "raw_variance": 0.14180608751138482,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.025847584608570964,
+          "raw_variance": 0.10912288524637848,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 1.2759233009758592e-05,
+          "raw_variance": 0.049067396411629396,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.08920790865385131,
+          "raw_variance": 0.14205463996260148,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.02586452068034255,
+          "raw_variance": 0.10933982928642087,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 1.4207202125684482e-05,
+          "raw_variance": 0.04929916627514788,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.09051276425078081,
+          "raw_variance": 0.1425537135251059,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.026534239694457645,
+          "raw_variance": 0.1097760182819066,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.005827100522097672,
+          0.21892015697190587,
+          0.05746464316724681,
+          1.6645241211506827e-10,
+          0.020367095572634622,
+          0.48722012458264097,
+          0.34224159694299183
+        ],
+        "scale": [
+          0.09323733164542858,
+          0.12148196852359833,
+          0.05052787114644,
+          1.0479180600910858e-10,
+          0.00942511837466227,
+          0.0676697973124975,
+          0.21450149708844124
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    },
+    {
+      "market": "000852.SH",
+      "fold": "2022-12",
+      "information_set": "M+Z",
+      "train": {
+        "rows": 400,
+        "features": 562,
+        "max_abs": 19.97498435543819,
+        "max_row_norm2": 1589.499646735324,
+        "large_value_columns": []
+      },
+      "prediction": {
+        "rows": 5,
+        "features": 562,
+        "max_abs": 4.507482592544597,
+        "max_row_norm2": 265.1143235811579,
+        "large_value_columns": []
+      },
+      "saga_reference": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "step_size": 0.0007910611763792961
+      },
+      "rank": 210,
+      "near_constant": [
+        "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change"
+      ],
+      "all_empty": 10,
+      "constant": 85,
+      "probability_columns": [
+        {
+          "column": "current_state_prob_0",
+          "raw_iqr": 1.2043858347084393e-05,
+          "raw_variance": 0.048837785309453347,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1",
+          "raw_iqr": 0.08853155898219622,
+          "raw_variance": 0.14155826283574902,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2",
+          "raw_iqr": 0.025830648536799374,
+          "raw_variance": 0.10890675719743369,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag1w",
+          "raw_iqr": 1.2401545678421493e-05,
+          "raw_variance": 0.04895232300944972,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag1w",
+          "raw_iqr": 0.08886973381802377,
+          "raw_variance": 0.14180608751138482,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag1w",
+          "raw_iqr": 0.025847584608570964,
+          "raw_variance": 0.10912288524637848,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag2w",
+          "raw_iqr": 1.2759233009758592e-05,
+          "raw_variance": 0.049067396411629396,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag2w",
+          "raw_iqr": 0.08920790865385131,
+          "raw_variance": 0.14205463996260148,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag2w",
+          "raw_iqr": 0.02586452068034255,
+          "raw_variance": 0.10933982928642087,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_0_lag4w",
+          "raw_iqr": 1.4207202125684482e-05,
+          "raw_variance": 0.04929916627514788,
+          "raw_min": 1.6614379770665768e-28,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_1_lag4w",
+          "raw_iqr": 0.09051276425078081,
+          "raw_variance": 0.1425537135251059,
+          "raw_min": 2.0837802924306393e-16,
+          "raw_max": 0.9999998382026607,
+          "new_scale": 1.0
+        },
+        {
+          "column": "current_state_prob_2_lag4w",
+          "raw_iqr": 0.026534239694457645,
+          "raw_variance": 0.1097760182819066,
+          "raw_min": 1.756776739581563e-21,
+          "raw_max": 1.0,
+          "new_scale": 1.0
+        }
+      ],
+      "paired_financial_transform_exact": true,
+      "target_transform": {
+        "center": [
+          0.005827100522097672,
+          0.21892015697190587,
+          0.05746464316724681,
+          1.6645241211506827e-10,
+          0.020367095572634622,
+          0.48722012458264097,
+          0.34224159694299183
+        ],
+        "scale": [
+          0.09323733164542858,
+          0.12148196852359833,
+          0.05052787114644,
+          1.0479180600910858e-10,
+          0.00942511837466227,
+          0.0676697973124975,
+          0.21450149708844124
+        ],
+        "weight": [
+          1.0,
+          1.0,
+          1.0,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475,
+          0.7071067811865475
+        ],
+        "constant": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "scale_method": [
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR",
+          "IQR"
+        ],
+        "formula": "(original - train median) / train scale / sqrt(indicators in dimension)"
+      }
+    }
+  ]
+}

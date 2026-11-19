@@ -66,6 +66,10 @@ def stub_factory(monkeypatch):
         calls.append((self.task, maximum))
         return NonLearningEstimator(self.task == 'classification', maximum)
     monkeypatch.setattr(ElasticNetAdapter, 'estimator', estimator)
+    # This fixture tests I/O with deliberately non-learning predictions. Real
+    # optimality is exercised independently in test_numerical_optimization.py
+    # and by the explicit real technical acceptance command.
+    monkeypatch.setattr(ElasticNetAdapter, 'solution_quality', lambda *args: dict(accepted=True, purpose='ARTIFICIAL_TEST_ONLY'))
     return calls
 
 
@@ -157,6 +161,18 @@ def test_convergence_retry_and_numeric_failure_are_not_success(store, monkeypatc
     assert len(calls) == (2 if mode == 'convergence' else 1)
     assert all(not d['converged'] for d in error.value.diagnostics)
     assert not hasattr(model, 'model_version_')
+
+
+@pytest.mark.parametrize('error', [MemoryError, OSError, KeyboardInterrupt])
+def test_solver_resources_and_io_are_not_invalid_hyperparameters(store, monkeypatch, error):
+    train, pre, target, model = adapter(store, 'regression')
+    class Throwing(NonLearningEstimator):
+        def fit(self, X, y):
+            raise error('ARTIFICIAL solver resource/IO failure')
+    monkeypatch.setattr(ElasticNetAdapter, 'estimator', lambda self, maximum: Throwing(False, maximum))
+    with pytest.raises(error) as caught:
+        model.fit(transform_inputs(pre, train), target.transform(train.y), fit_context(train))
+    assert len(caught.value.diagnostics) == 1 and not hasattr(model, 'model_version_')
 
 
 def test_empty_tail_predicts_but_never_scores(store, stub_factory, tmp_path):
@@ -347,11 +363,11 @@ def test_task_snapshot_accepts_classification_and_regression_diagnostics(tmp_pat
     assert len(table) == 2 and table.attempt_history_json.str.contains('n_iter').all()
 
 
-def artificial_pipeline(config, store, tmp_path, *, executor=None):
+def artificial_pipeline(config, store, tmp_path, *, executor=None, suite='full'):
     c = deepcopy(config)
     c.update(purpose='ARTIFICIAL_TEST_ONLY', output_root=str(tmp_path), markets=['000985.SH'])
     c['search'].update(candidate_count=2, finalists=1, stability_seeds=[3060])
-    c['resources'].update(minimum_free_gb=0, max_run_gb=1)
+    c['resources'].update(minimum_free_gb=0, max_run_gb=1, cpu_workers=1)
     c['statistics']['repetitions'] = 25
     real_executor = MonthlyExecutor(c, store, versions(c, store))
     def stub(task, destination, *, save_package):
@@ -359,13 +375,14 @@ def artificial_pipeline(config, store, tmp_path, *, executor=None):
     def preflight_stub(*args):
         return dict(environment={'purpose': 'ARTIFICIAL_TEST_ONLY'},
             fixed_scales=real_executor.scales, risk_definition=real_executor.risk)
-    return Pipeline(c, store, run_id='artificial', resume=True, artificial=True,
+    return Pipeline(c, store, run_id='artificial', resume=True, artificial=True, suite=suite,
         executor=executor or stub, preflight_function=preflight_stub,
         schedule=(['2020-01', '2020-02'], ['2023-01']))
 
 
-def test_complete_stub_pipeline_automatic_lock_test_reports_resume(store, stub_factory, tmp_path):
-    pipeline = artificial_pipeline(load_config(), store, tmp_path)
+@pytest.mark.parametrize('suite', ['core', 'full'])
+def test_complete_stub_pipeline_automatic_lock_test_reports_resume(store, stub_factory, tmp_path, suite):
+    pipeline = artificial_pipeline(load_config(), store, tmp_path, suite=suite)
     root = pipeline.run(execute=True)
     assert read_json(root / 'manifest.json')['state'] == 'EXPERIMENT_COMPLETE'
     for name in ['core_classification', 'core_regression', 'macro_increment', 'macro_groups', 'warning_value', 'runtime_quality', 'coverage_status']:
@@ -375,13 +392,17 @@ def test_complete_stub_pipeline_automatic_lock_test_reports_resume(store, stub_f
     assert len(list((root / 'figures').glob('*.png'))) >= 6
     assert read_json(root / 'selection.lock.json')['development_evidence']['selected_task_count'] > 0
     groups = pd.read_csv(root / 'tables/macro_groups.csv')
-    assert set(groups.kind) == {'add', 'delete'}
-    assert set(groups['mode']) == {'fixed_full_params'}
-    assert groups.p_holm.isna().all()
+    if suite == 'full':
+        assert set(groups.kind) == {'add', 'delete'}
+        assert set(groups['mode']) == {'fixed_full_params'}
+        assert groups.p_holm.isna().all()
+    else:
+        assert groups.empty
+        assert '96 fixed_full_params configurations were NOT EXECUTED' in (root/'report.md').read_text(encoding='utf8')
     counts_before = len(stub_factory)
     evidence_before = read_json(root / 'development/selection/search.json')
     # Resume consumes only verified successful fits, preserving the lock and selection.
-    resumed = artificial_pipeline(load_config(), store, tmp_path)
+    resumed = artificial_pipeline(load_config(), store, tmp_path, suite=suite)
     resumed.run(execute=True)
     assert len(stub_factory) == counts_before
     assert read_json(root / 'development/selection/search.json') == evidence_before

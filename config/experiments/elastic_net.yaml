@@ -8,7 +8,7 @@
   "markets": ["000985.SH", "000300.SH", "000905.SH", "000852.SH"],
   "tasks": ["classification", "regression"],
   "quality": "historical_reconstructed",
-  "resources": {"cpu_workers": 1, "threads_per_task": 2, "minimum_free_gb": 2, "max_run_gb": 40, "transform_cache_entries": 2},
+  "resources": {"cpu_workers": 0, "threads_per_task": 1, "minimum_free_gb": 2, "max_run_gb": 40, "transform_cache_entries": 2},
   "search": {
     "candidate_count": 32, "finalists": 4, "generator_seed": 3059,
     "coarse_months": [1, 4, 7, 10], "development_years": [2020, 2021, 2022],

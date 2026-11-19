@@ -1,0 +1,182 @@
+{
+  "purpose": "TECHNICAL_ONLY_NOT_RESEARCH",
+  "code": "8164d2cec8c8a7facc54c2b442b2465878a42baba530fc6b64f8f6d44525be86",
+  "rows": [
+    {
+      "info": "M",
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver_tolerance": 0.0001,
+          "elapsed_seconds": 0.13726380000298377,
+          "quality": {
+            "version": "elastic-optimality-v2",
+            "accepted": false,
+            "primal_objective": 0.10058108518761649,
+            "dual_objective": 0.00013572222694258063,
+            "independently_computed_dual_gap": 0.10044536296067391,
+            "reported_dual_gap": 0.10044536296067444,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "intercept_residual": 9.275448934816548e-16,
+            "kkt_max": 0.0007043527616141257,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 207,
+            "max_abs": 6.178024085329783,
+            "max_row_norm2": 725.4658248858324,
+            "large_value_columns": []
+          },
+          "remedy": "initial",
+          "n_iter": 10000,
+          "dual_gap": 0.10044536296067444,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.521e+01, tolerance: 3.758e-02"
+            }
+          ],
+          "converged": false,
+          "nonzero": 116
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 0.45833749999292195,
+          "quality": {
+            "version": "elastic-optimality-v2",
+            "accepted": false,
+            "primal_objective": 0.09850475062409528,
+            "dual_objective": 0.0019157968657353835,
+            "independently_computed_dual_gap": 0.0965889537583599,
+            "reported_dual_gap": 0.09658895375821833,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "intercept_residual": 1.4180776959953194e-15,
+            "kkt_max": 5.0693954902667434e-05,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 207,
+            "max_abs": 6.178024085329783,
+            "max_row_norm2": 725.4658248858324,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.09658895375821833,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.424e+01, tolerance: 3.758e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 115
+        }
+      ],
+      "elapsed_seconds": 0.7466436000104295
+    },
+    {
+      "info": "M+Z",
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver_tolerance": 0.0001,
+          "elapsed_seconds": 0.3894291000033263,
+          "quality": {
+            "version": "elastic-optimality-v2",
+            "accepted": false,
+            "primal_objective": 0.015512303839308836,
+            "dual_objective": 2.9157299234697925e-05,
+            "independently_computed_dual_gap": 0.015483146540074138,
+            "reported_dual_gap": 0.015483146540073838,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "intercept_residual": 6.422485385480985e-16,
+            "kkt_max": 0.0005336917285872008,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 556,
+            "max_abs": 15.8113883008419,
+            "max_row_norm2": 2140.9631352526153,
+            "large_value_columns": []
+          },
+          "remedy": "initial",
+          "n_iter": 10000,
+          "dual_gap": 0.015483146540073838,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.886e+00, tolerance: 3.758e-02"
+            }
+          ],
+          "converged": false,
+          "nonzero": 291
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 1.2690157999895746,
+          "quality": {
+            "version": "elastic-optimality-v2",
+            "accepted": false,
+            "primal_objective": 0.014448250001747756,
+            "dual_objective": 0.0003540061315450427,
+            "independently_computed_dual_gap": 0.014094243870202713,
+            "reported_dual_gap": 0.014094243870215625,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "intercept_residual": 9.177032750362723e-16,
+            "kkt_max": 3.9324461579573654e-05,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 556,
+            "max_abs": 15.8113883008419,
+            "max_row_norm2": 2140.9631352526153,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.014094243870215625,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.538e+00, tolerance: 3.758e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 277
+        }
+      ],
+      "elapsed_seconds": 1.6890215000021271
+    }
+  ]
+}

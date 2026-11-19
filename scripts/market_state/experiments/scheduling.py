@@ -3,8 +3,10 @@ from pathlib import Path
 import shutil
 import os
 import multiprocessing
-from concurrent.futures import ProcessPoolExecutor
-from ..models.errors import FitFailure, fit_counts
+import time
+import traceback
+from concurrent.futures import ProcessPoolExecutor, wait, FIRST_COMPLETED
+from ..models.errors import FitFailure, fit_counts, ResourceFailure
 from .artifacts import TaskJournal, read_json, staging, file_manifest, check_files, atomic_json, exclusive_run
 
 
@@ -25,6 +27,30 @@ def available_memory_gb():
         except (ValueError, OSError, AttributeError):
             pass
     return 2.
+
+
+def process_usage():
+    """OS process high-water RSS and CPU, without an optional dependency."""
+    peak = None
+    if os.name == 'nt':
+        import ctypes
+        from ctypes import wintypes
+        class Counters(ctypes.Structure):
+            _fields_ = [('size', wintypes.DWORD), ('faults', wintypes.DWORD)] + [
+                (name, ctypes.c_size_t) for name in ['peak_rss', 'rss', 'peak_paged', 'paged',
+                    'peak_nonpaged', 'nonpaged', 'pagefile', 'peak_pagefile']]
+        counters = Counters()
+        counters.size = ctypes.sizeof(counters)
+        current = ctypes.windll.kernel32.GetCurrentProcess
+        current.restype = wintypes.HANDLE
+        query = ctypes.windll.psapi.GetProcessMemoryInfo
+        query.argtypes = [wintypes.HANDLE, ctypes.c_void_p, wintypes.DWORD]
+        if query(current(), ctypes.byref(counters), counters.size):
+            peak = int(counters.peak_rss)
+    else:
+        import resource
+        peak = int(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss * (1 if os.sys.platform == 'darwin' else 1024))
+    return dict(pid=os.getpid(), cpu_seconds=time.process_time(), peak_rss_bytes=peak)
 
 
 def worker_count(config):
@@ -55,10 +81,9 @@ class TaskRunner:
     def disk_check(self):
         resources = self.config['resources']
         if shutil.disk_usage(self.root).free < resources['minimum_free_gb'] * 1024 ** 3:
-            raise RuntimeError('Insufficient disk space; user data are never cleaned')
-        by_fit = {r['fit_id']: r.get('artifact_bytes', 0) for r in self.journal.records.values() if r['status'] == 'SUCCEEDED'}
-        if sum(by_fit.values()) > resources['max_run_gb'] * 1024 ** 3:
-            raise RuntimeError('Run disk budget reached; increase it explicitly before resuming')
+            raise ResourceFailure('Insufficient disk space; user data are never cleaned')
+        if self.journal.artifact_bytes > resources['max_run_gb'] * 1024 ** 3:
+            raise ResourceFailure('Run disk budget reached; increase it explicitly before resuming')
 
     def monthly(self, task, *, save_package=False):
         # Physical leases also protect aliases and independent duplicate submissions.
@@ -85,13 +110,15 @@ class TaskRunner:
             if old.get('status') != 'SUCCEEDED' and shared.get('attempts', 0) >= old.get('attempts', 0):
                 old = shared
         if old.get('status') == 'FAILED':
-            if old.get('failure_kind') == 'ESTIMATOR':
+            if old.get('failure_kind') in ['ESTIMATOR', 'NUMERICAL', 'CONVERGENCE', 'OPTIMALITY']:
                 self.record_task(task, **{k: v for k, v in old.items() if k not in ['task_id', 'fit_id', 'stage', 'identity']})
                 raise FitFailure(old['error'], old.get('diagnostics', []))
-            if old.get('failure_kind') != 'IO' or old.get('attempts', 0) >= self.journal.max_attempts:
+            if old.get('failure_kind') not in ['IO', 'RESOURCE'] or old.get('attempts', 0) >= self.journal.max_attempts:
                 raise RuntimeError('Failed contract/task cannot be silently retried: ' + old['error'])
         artifact = Path(task['stage']) / 'fits' / task['fit_id']
         destination = self.root / artifact
+        if old.get('status') == 'SUCCEEDED' and not destination.exists():
+            raise RuntimeError('Committed physical fit artifact missing; refusing to refit through an alias')
         physical = {k: v for k, v in task['identity'].items() if k != 'mode'}
         if destination.exists():
             record = read_json(destination / 'artifact.json')
@@ -101,19 +128,23 @@ class TaskRunner:
             if save_package and not task['identity']['family'].startswith('naive_') and not (destination / 'model_package').exists():
                 raise RuntimeError('Required selected model package is missing')
             return self.record_task(task, status='SUCCEEDED', artifact=artifact.as_posix(),
-                files=file_manifest(destination), reused=True, attempts=0, artifact_bytes=record['artifact_bytes'], **record['result'])
+                files=file_manifest(destination), reused=True,
+                attempts=max(h['attempt'] for h in record['result']['attempt_history']),
+                artifact_bytes=record['artifact_bytes'], **record['result'])
         attempt = old.get('attempts', 0)
         history = old.get('attempt_history', [])
-        interrupted = old.get('status') == 'RUNNING' or old.get('interrupted_fit_calls_unknown', False)
+        interrupted = old.get('status') in ['RUNNING', 'INTERRUPTED'] or old.get('interrupted_fit_calls_unknown', False)
         if attempt >= self.journal.max_attempts:
             raise RuntimeError('Interrupted task exhausted the fixed attempt budget')
         while attempt < self.journal.max_attempts:
             attempt += 1
             self.record_task(task, status='RUNNING', attempts=attempt, attempt_history=history,
                 interrupted_fit_calls_unknown=interrupted)
+            started = time.perf_counter()
             try:
                 with staging(destination) as temporary:
                     result = self.executor(task, temporary, save_package=save_package)
+                    result['elapsed_seconds'] = time.perf_counter() - started
                     history.append(dict(attempt=attempt, status='SUCCEEDED',
                         estimator_fit_calls=result['estimator_fit_calls'], calibration_fit_calls=result.get('calibration_fit_calls', 0), elapsed_seconds=result['elapsed_seconds'],
                         diagnostics=result.get('diagnostics', [])))
@@ -132,9 +163,10 @@ class TaskRunner:
                     print('completed logical tasks', len(self.journal.records), flush=True)
                 return record
             except FitFailure as error:
-                history.append(dict(attempt=attempt, status='FAILED', **fit_counts(error.diagnostics), diagnostics=error.diagnostics))
+                history.append(dict(attempt=attempt, status='FAILED', failure_kind=error.kind,
+                    elapsed_seconds=time.perf_counter() - started, **fit_counts(error.diagnostics), diagnostics=error.diagnostics))
                 self.record_task(task, status='FAILED', attempts=attempt, error=str(error),
-                    failure_kind='ESTIMATOR',
+                    failure_kind=error.kind, elapsed_seconds=sum(h.get('elapsed_seconds', 0) for h in history),
                     diagnostics=[d for h in history for d in h.get('diagnostics', [])],
                     estimator_fit_calls=sum(h['estimator_fit_calls'] for h in history),
                         calibration_fit_calls=sum(h.get('calibration_fit_calls', 0) for h in history), attempt_history=history,
@@ -142,10 +174,20 @@ class TaskRunner:
                 if attempt == self.journal.max_attempts:
                     self.checkpoint()
                     raise
-            except Exception as error:
-                self.record_task(task, status='FAILED', attempts=attempt, error=str(error), error_type=type(error).__name__,
-                    failure_kind='IO' if isinstance(error, OSError) else 'CONTRACT',
-                    attempt_history=history, interrupted_fit_calls_unknown=True)
+            except BaseException as error:
+                kind = ('USER_INTERRUPTION' if isinstance(error, KeyboardInterrupt) else
+                    'RESOURCE' if isinstance(error, (ResourceFailure, MemoryError)) else
+                    'IO' if isinstance(error, OSError) else 'CONTRACT')
+                diagnostics = getattr(error, 'diagnostics', getattr(self.executor, 'last_diagnostics', []))
+                history.append(dict(attempt=attempt, status='INTERRUPTED' if kind == 'USER_INTERRUPTION' else 'FAILED',
+                    failure_kind=kind, elapsed_seconds=time.perf_counter() - started,
+                    **fit_counts(diagnostics), diagnostics=diagnostics))
+                self.record_task(task, status=history[-1]['status'], attempts=attempt, error=str(error), error_type=type(error).__name__,
+                    failure_kind=kind, elapsed_seconds=sum(h.get('elapsed_seconds', 0) for h in history),
+                    **{k: sum(h.get(k, 0) for h in history) for k in ['estimator_fit_calls', 'calibration_fit_calls']},
+                    diagnostics=[d for h in history for d in h.get('diagnostics', [])],
+                    attempt_history=history, interrupted_fit_calls_unknown=interrupted or
+                        (isinstance(error, KeyboardInterrupt) and not hasattr(error, 'diagnostics')))
                 self.checkpoint()
                 raise  # schema, version and artifact failures stop the run immediately
 
@@ -175,6 +217,7 @@ def _worker_task(item):
         return dict(ok=True, record=_runner.monthly(task, save_package=keep))
     except Exception as error:
         return dict(ok=False, fit_failure=isinstance(error, FitFailure), message=str(error),
+            error_type=type(error).__name__, traceback=traceback.format_exc(),
             diagnostics=getattr(error, 'diagnostics', []))
 
 
@@ -209,20 +252,24 @@ class TaskScheduler:
         leaders = list(grouped.values())
         results = {}
         try:
-            # map yields input order. Ranking and journal aggregation never use completion order.
-            for (task, _), packet in zip(leaders, self.pool.map(_worker_task, leaders, chunksize=1)):
-                path = self.owner.journal.path(task)
-                if path.exists():
-                    self.owner.journal.records[task['task_id']] = read_json(path)
-                if not packet['ok']:
-                    if packet['fit_failure'] and allow_fit_failure:
-                        results[task['fit_id']] = None
-                        continue
-                    if packet['fit_failure']:
-                        raise FitFailure(packet['message'], packet['diagnostics'])
-                    raise RuntimeError('Process task failed: ' + packet['message'])
-                results[task['fit_id']] = packet['record']
-                self.owner.disk_check()
+            # Bound outstanding work. A stop/failure does not leave a whole
+            # search queued; aggregation still follows the original input order.
+            pending, cursor = {}, iter(leaders)
+            def fill():
+                while len(pending) < self.workers * 2:
+                    item = next(cursor, None)
+                    if item is None:
+                        break
+                    self.owner.disk_check()
+                    pending[self.pool.submit(_worker_task, item)] = item[0]
+            fill()
+            while pending:
+                done, _ = wait(pending, return_when=FIRST_COMPLETED)
+                for future in done:
+                    task = pending.pop(future)
+                    packet = future.result()
+                    self._accept_packet(task, packet, results, allow_fit_failure)
+                fill()
             ordered = []
             for task, keep in items:
                 leader = results[task['fit_id']]
@@ -230,11 +277,29 @@ class TaskScheduler:
             self.owner.journal.snapshot()
             return ordered
         except BaseException:
+            for future in locals().get('pending', {}):
+                future.cancel()
             self.close()
             self.owner.journal = TaskJournal(self.owner.root, resume=True,
                 max_attempts=self.owner.config['policy']['task_attempts'])
             self.owner.journal.snapshot()
             raise
+
+    def _accept_packet(self, task, packet, results, allow_fit_failure):
+        path = self.owner.journal.path(task)
+        if path.exists():
+            self.owner.journal.accept(read_json(path))
+        if not packet['ok']:
+            atomic_json(self.owner.root / 'logs/worker_failures' / (task['fit_id'] + '-' + str(time.time_ns()) + '.json'),
+                dict(task=task, packet=packet))
+            if packet['fit_failure'] and allow_fit_failure:
+                results[task['fit_id']] = None
+                return
+            if packet['fit_failure']:
+                raise FitFailure(packet['message'], packet['diagnostics'])
+            raise RuntimeError('Process task failed: ' + packet['message'])
+        results[task['fit_id']] = packet['record']
+        self.owner.disk_check()
 
     def close(self):
         if self.pool is not None:

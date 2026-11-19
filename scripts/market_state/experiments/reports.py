@@ -16,6 +16,16 @@ GROUP = ['family', 'market_id', 'task', 'mode', 'information_set', 'seed']
 WARN_GROUP = GROUP + ['signal']
 
 
+def retry_counts(task):
+    """Physical attempts and solver continuations, including reused artifacts."""
+    history = task.get('attempt_history', [])
+    attempts = max([task.get('attempts', 0), len(history)] + [h.get('attempt', 0) for h in history])
+    outer = max(0, attempts - 1)
+    solver = sum(d.get('attempt', 1) > 1 for d in task.get('diagnostics', [])
+        if d.get('component', 'estimator') != 'calibrator')
+    return dict(task_attempts=attempts, task_retries=outer, solver_retries=solver, retries=outer + solver)
+
+
 def analysis_frames(root, stage, purpose='RESEARCH', *, artificial=False):
     root = Path(root)
     manifest = read_json(root / 'manifest.json')
@@ -72,14 +82,14 @@ def analysis_frames(root, stage, purpose='RESEARCH', *, artificial=False):
             quality.append(dict(stage=stage, fit_id=assignment['fit_id'], family=identity['family'],
                 market_id=identity['market_id'], task=identity['task'], seed=identity['seed'],
                 information_set=identity['information_set'], fold_id=identity['fold_id'], status='SUCCEEDED',
-                backend=identity['backend'], elapsed_seconds=ctx['elapsed_seconds'],
+                backend=identity['backend'], elapsed_seconds=task.get('elapsed_seconds', ctx['elapsed_seconds']),
                 estimator_fit_calls=task.get('estimator_fit_calls', len(ctx['diagnostics'])),
                 calibration_fit_calls=task.get('calibration_fit_calls', 0),
                 internal_svc_fit_calls=sum(d.get('phase') == 'internal' for d in task.get('diagnostics', [])),
                 final_svc_fit_calls=sum(d.get('phase') == 'final' and d.get('target') == 'classification' for d in task.get('diagnostics', [])),
                 convergence_warnings=sum(any(w['category'] == 'ConvergenceWarning' for w in r['warnings']) for r in task.get('diagnostics', ctx['diagnostics'])),
                 numerical_warnings=sum(any(w['category'] == 'RuntimeWarning' for w in r['warnings']) for r in task.get('diagnostics', ctx['diagnostics'])),
-                retries=sum(r['attempt'] > 1 for r in task.get('diagnostics', ctx['diagnostics'])),
+                **retry_counts(task),
                 interrupted_fit_calls_unknown=task.get('interrupted_fit_calls_unknown', False),
                 economic_boundary_rows=int(frame.economic_bound_violations.ne('[]').sum()) if identity['task'] == 'regression' else 0))
         physical.add(assignment['fit_id'])
@@ -97,7 +107,7 @@ def analysis_frames(root, stage, purpose='RESEARCH', *, artificial=False):
             calibration_fit_calls=task.get('calibration_fit_calls', 0),
             convergence_warnings=sum(any(w['category'] == 'ConvergenceWarning' for w in d['warnings']) for d in diagnostics),
             numerical_warnings=sum(d.get('numerical_failure', False) for d in diagnostics),
-            retries=task.get('attempts', 0) - 1,
+            **retry_counts(task), failure_kind=task.get('failure_kind'),
             error=task.get('error'), selected=False))
         physical.add(task['fit_id'])
     frames = pd.concat(scores, ignore_index=True) if scores else pd.DataFrame()
@@ -115,6 +125,8 @@ def performance_tables(scores, schema, stage):
             meta = dict(metadata, year=year)
             if metadata['task'] == 'classification':
                 metric, classes, matrix, bins = classification_metrics(part, schema)
+                metric.update(majority_class_share=float(part.future_state_id.value_counts(normalize=True).max()),
+                    uniform_probability_log_loss=float(np.log(len(schema['class_ids']))))
                 classification.append(dict(meta, **metric))
                 per_class.extend(dict(meta, **r) for r in classes)
                 confusion.extend(dict(meta, **r) for r in matrix)
@@ -217,6 +229,13 @@ def increment_tables(pairs, config):
             result = result.merge(meta, on='comparison_id', validate='one_to_one')
             baseline = frame.groupby('comparison_id').loss_M.mean()
             result['relative_improvement'] = [float(row['mean'] / baseline.loc[row['comparison_id']]) if baseline.loc[row['comparison_id']] != 0 else None for row in result.to_dict('records')]
+            result['numerical_equivalence_tolerance'] = result.comparison_id.map(
+                lambda key: 128. * np.finfo(float).eps * max(1., abs(baseline.loc[key])))
+            result['effect_interpretation'] = [
+                'NUMERICALLY_EQUIVALENT' if abs(r['mean']) <= r['numerical_equivalence_tolerance'] else
+                'SMALL_RELATIVE_EFFECT_BELOW_0.1_PERCENT' if pd.notna(r['relative_improvement']) and abs(r['relative_improvement']) < .001 else
+                'LOWER_LOSS_WITH_MACRO' if r['mean'] > 0 else 'HIGHER_LOSS_WITH_MACRO'
+                for r in result.to_dict('records')]
             result['year'] = year
             result['seed_count'] = result.comparison_id.map(expected_seeds)
             result['p_holm'] = np.nan
@@ -377,7 +396,7 @@ def summarize(root, *, stage='test', artificial=False):
         'Naive historical frequency, current memberships/state persistence and past-20-day continuous persistence are included. Core models retain all seven targets and report original-unit errors.', '',
         '## Macro increment', '']
     for row in primary.to_dict('records'):
-        direction = 'lower loss with macro' if row['mean'] > 0 else 'higher loss with macro' if row['mean'] < 0 else 'no mean loss difference'
+        direction = row['effect_interpretation']
         lines.append(f'- {row["market_id"]} {row["task"]}: {row["mean"]:.6g}, 95% interval [{row["lower"]:.6g}, {row["upper"]:.6g}]; {direction}.')
     lines += ['', 'Intervals use synchronous calendar blocks, including empty weeks; centered-null one-sided p values use finite-repetition correction. Annual results and 4/12-week sensitivities accompany the 8-week primary block. Accuracy/F1 gains are right-minus-left aggregate metrics; intervals in each row refer only to the named sample loss.', '',
         'Elastic Net is the linear reference. Cross-model Holm correction is pending the complete preregistered nonlinear family set; no adjusted value is fabricated.', '',
@@ -386,7 +405,9 @@ def summarize(root, *, stage='test', artificial=False):
         '## Coverage and limits', '',
         f'Selected logical monthly tasks: {len(coverage)}; unique physical fits: {int(coverage.unique_physical_fit.sum())}. Unscored prediction rows across analysis references: {int(coverage.unscored.sum())}; these are immature windows, not normal-state labels or failed predictions.', '',
         'Runtime quality includes failed candidates, actual estimator/calibrator calls, convergence retries and economic boundary violations. ' + ('RBF-SVM records kernel scale, support counts, solver status and training-only time calibration; kernels have no linear coefficient interpretation.' if manifest['model'] == 'rbf_svm' else 'Penalized coefficients describe prediction associations, not causal effects.'), '',
-        'The full suite covers twelve formal information sets in fixed_full_params. Information-clock, publication-lag, market-module, data-view and alternative-dictionary extensions are unimplemented and were not executed. Registered unimplemented model families: ' + ', '.join(k for k, v in REGISTRY.items() if not v['implemented']) + '. This report contains only the explicitly selected family/run.', '',
+        ('Completed full suite: twelve formal information sets in fixed_full_params.' if manifest['suite'] == 'full' else 'Completed core suite only: M/M+Z; all 96 fixed_full_params configurations were NOT EXECUTED.') +
+        ' Information-clock, publication-lag, market-module, data-view and alternative-dictionary extensions are unimplemented and were not executed. Registered unimplemented model families: ' + ', '.join(k for k, v in REGISTRY.items() if not v['implemented']) + '. This report contains only the explicitly selected family/run.', '',
+        'The test era was viewed in the first Elastic Net run. This implementation correction is a recomputation after known defects, not a first unseen independent test. Numerical equivalence uses 128 machine eps times max(1, baseline loss); effects below 0.1% relative loss are labeled small, not erased. These descriptive labels do not change scores, candidate ranking or bootstrap calculations. Accuracy/argmax changes alone do not establish warning value; inspect probability losses, balanced accuracy, macro-F1, per-class recall and confusion together.', '',
         f'Data version: `{manifest["versions"]["data_version"]}`. Interface: `{manifest["versions"]["interface_code_hash"]}`. Experiment code: `{manifest["versions"]["experiment_code_hash"]}`.', '']
     if artificial:
         lines.insert(2, '**ARTIFICIAL_TEST_ONLY — orchestration verification, not research evidence.**')

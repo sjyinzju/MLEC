@@ -24,9 +24,10 @@ from .artifacts import atomic_json, atomic_parquet, read_json, staging, file_man
 from .config import portable_config, candidates, seeds, scope
 from .scoring import score_predictions
 from .warnings import risk_definition, warning_data
-from .scheduling import worker_count
+from .scheduling import worker_count, process_usage
+from ..preprocessing import input_diagnostics
 
-EXPERIMENT_VERSION = 'experiment-runtime-v1'
+EXPERIMENT_VERSION = 'experiment-runtime-v2'
 
 
 def experiment_code_hash():
@@ -216,6 +217,8 @@ class MonthlyExecutor:
     def __init__(self, config, store, identity):
         self.config, self.store, self.identity = config, store, identity
         self.cache = OrderedDict()
+        self.cache_stats = dict(context_hits=0, context_misses=0, matrix_hits=0, matrix_misses=0)
+        self.last_diagnostics = []
         self.risk = risk_definition(store, config)
         self.scales = {m: evaluation_scale(market_id=m, store=store) for m in config['markets']}
 
@@ -228,28 +231,47 @@ class MonthlyExecutor:
             pre, target = fit_inputs(train), fit_targets(train)
             pred = load_dataset(market_id=i['market_id'], task=i['task'], information_set='M+Z',
                 fold_id=i['fold_id'], role='prediction', quality=self.config['quality'], store=self.store)
-            self.cache[key] = train, pre, target, pred
+            self.cache[key] = dict(full=(train, pre, target, pred), views={}, matrices={})
+            self.cache_stats['context_misses'] += 1
             if len(self.cache) > self.config['resources']['transform_cache_entries']:
                 self.cache.popitem(last=False)
+        else:
+            self.cache_stats['context_hits'] += 1
         self.cache.move_to_end(key)
-        full_train, full_pre, target, full_prediction = self.cache[key]
-        train = information_view(full_train, i['information_set'], store=self.store)
-        pre = restrict_inputs(full_pre, train)
-        pred = information_view(full_prediction, i['information_set'], store=self.store)
-        return train, pre, target, pred
+        entry = self.cache[key]
+        info = i['information_set']
+        if info not in entry['views']:
+            full_train, full_pre, target, full_prediction = entry['full']
+            train = information_view(full_train, info, store=self.store)
+            pre = restrict_inputs(full_pre, train)
+            pred = information_view(full_prediction, info, store=self.store)
+            entry['views'][info] = train, pre, target, pred
+        return entry['views'][info]
+
+    def matrices(self, task):
+        if task['identity'].get('versions', self.identity) != self.identity:
+            raise ValueError('Matrix cache task version mismatch')
+        train, pre, target, pred = self.prepare(task)
+        entry = next(reversed(self.cache.values()))
+        info = task['identity']['information_set']
+        if info not in entry['matrices']:
+            entry['matrices'][info] = transform_inputs(pre, train), transform_inputs(pre, pred)
+            self.cache_stats['matrix_misses'] += 1
+        else:
+            self.cache_stats['matrix_hits'] += 1
+        return train, pre, target, pred, *entry['matrices'][info]
 
     def __call__(self, task, destination, *, save_package):
         i = task['identity']
-        train, pre, target, pred = self.prepare(task)
+        start = time.perf_counter()
+        self.last_diagnostics = []
+        train, pre, target, pred, X, Xp = self.matrices(task)
         context = fit_context(train)
-        start = time.monotonic()
-        X = transform_inputs(pre, train)
-        Xp = transform_inputs(pre, pred)
         model_id = i['family']
         if model_id.startswith('naive_'):
             model = None
             model_version = digest(dict(family=model_id, context=asdict(context), parameters=i['parameters']))
-            ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model_version)
+            ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model_version, input_matrix=Xp)
             if i['task'] == 'classification':
                 ids = target.schema_['class_ids']
                 if model_id == 'naive_history':
@@ -271,7 +293,8 @@ class MonthlyExecutor:
                 training_keys=train.keys, parameters=i['parameters'], seed=i['seed'], policy=self.config['policy'],
                 threads=self.config['resources']['threads_per_task'], **extra)
             model.fit(X, target.transform(train.y), context)
-            ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model.model_version_)
+            self.last_diagnostics = model.diagnostics_
+            ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model.model_version_, input_matrix=Xp)
             output = model.predict(Xp, ctx)
             diagnostics = model.diagnostics_
         validate_output(output, ctx, task=i['task'], schema=target.schema_)
@@ -289,6 +312,10 @@ class MonthlyExecutor:
                 atomic_json(destination / 'kernel_diagnostics.json', model.diagnostic_artifact())
             if hasattr(model, 'coefficients'):
                 model.coefficients().to_csv(destination / 'coefficients.csv', index=False)
+            if hasattr(model, 'dual_certificates'):
+                certificate = model.dual_certificates()
+                if len(certificate):
+                    atomic_parquet(destination / 'solver_certificates.parquet', certificate)
             if save_package:
                 model.save(destination / 'model_package')
         atomic_json(destination / 'context.json', dict(fit=asdict(context),
@@ -297,7 +324,10 @@ class MonthlyExecutor:
             schema=target.schema_, fixed_scale=self.scales[i['market_id']],
             expected_predictions=len(pred.keys), actual_predictions=len(output), mature_rows=len(scores),
             unscored_rows=len(output) - len(scores), scoring_status='SCORED' if len(scores) else 'NO_MATURE_SCORE_ROWS',
-            elapsed_seconds=time.monotonic() - start, diagnostics=diagnostics,
+            elapsed_seconds=time.perf_counter() - start, diagnostics=diagnostics,
+            input_diagnostics=dict(train=input_diagnostics(X), prediction=input_diagnostics(Xp)),
+            cache_statistics=dict(self.cache_stats),
             **fit_counts(diagnostics), purpose=i['purpose']))
-        return dict(predictions=len(output), mature_rows=len(scores), elapsed_seconds=time.monotonic() - start,
+        return dict(predictions=len(output), mature_rows=len(scores), elapsed_seconds=time.perf_counter() - start,
+            process_usage=process_usage(), cache_statistics=dict(self.cache_stats),
             **fit_counts(diagnostics), diagnostics=diagnostics)

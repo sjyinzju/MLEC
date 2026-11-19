@@ -1,0 +1,62 @@
+{
+  "purpose": "TECHNICAL_ONLY_NOT_RESEARCH",
+  "versions": {
+    "runtime_version": "experiment-runtime-v2",
+    "contract_version": "model-io-v1",
+    "data_version": "5d57508f09249cf50b1a2e52",
+    "feature_version": "6d50d9efbc48040f0912",
+    "target_version": "f49e499c375fa557fcb0",
+    "dictionary_version": "76bf6837dc5e32262c99",
+    "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+    "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+    "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+    "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+    "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+    "config_hash": "5adad8a4edae1a2263cce772e185a804a82b90ed98fbd02cb4914b00e2c2fa5f"
+  },
+  "repeats": 3,
+  "operations_per_repeat": 12,
+  "comparison": "same final preprocessing/data/host: repeated transformations (old execution pattern) versus identity-bound matrix reuse",
+  "repeated_transform_seconds": [
+    0.8277228000079049,
+    0.8241404999862425,
+    0.8255666000040947
+  ],
+  "cached_matrix_seconds": [
+    0.00012139999307692051,
+    0.00011539999104570597,
+    0.00012180001067463309
+  ],
+  "median_speedup": 6800.384242864047,
+  "cache_statistics": {
+    "context_hits": 72,
+    "context_misses": 1,
+    "matrix_hits": 36,
+    "matrix_misses": 1
+  },
+  "matrices_exact": true,
+  "isolated_environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.3",
+      "lxml": "6.0.2",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.2",
+      "olefile": "0.47",
+      "tabulate": "0.9.0",
+      "pytest": "9.0.3",
+      "duckdb": "1.5.5",
+      "matplotlib": "3.10.8",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.6.0"
+    },
+    "backend": "cpu"
+  }
+}

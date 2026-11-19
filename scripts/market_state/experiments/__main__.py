@@ -27,6 +27,7 @@ def main(argv=None):
     parser.add_argument('--stage', choices=['development', 'test'])
     parser.add_argument('--lock', type=Path)
     parser.add_argument('--destination', type=Path)
+    parser.add_argument('--wheelhouse', type=Path, help='optional predownloaded installation wheels to include')
     parser.add_argument('--plan-output', type=Path)
     args = parser.parse_args(argv)
     if args.config is None:
@@ -78,7 +79,7 @@ def main(argv=None):
         if not args.destination:
             parser.error('package requires a new --destination directory')
         from .portable import package
-        print(package(args.destination, store, model=config['model']))
+        print(package(args.destination, store, model=config['model'], wheelhouse=args.wheelhouse))
         return
     from .pipeline import Pipeline
     pipeline = Pipeline(config, store, suite=args.suite, run_id=args.run_id, resume=args.resume)

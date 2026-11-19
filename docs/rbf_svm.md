@@ -57,3 +57,7 @@ bash START_LINUX.sh --cpu-workers 4 --output-root /mnt/results
 包内包含原seal及其36项研究产物、代码、配置、锁定依赖、协议/规划/契约、测试及验收身份；不依赖原E盘或原始湖。package.manifest.json绑定每文件SHA-256、基线提交和实际实验代码内容身份。解压后的无训练preflight核验全部数据、读取与配置。包制作和验收不产生权重或研究成绩。真实smoke如将来需要，必须独立显式授权；不随安装、导入、plan、preflight、package或pytest触发。
 
 API依据：[SVC 1.8](https://scikit-learn.org/1.8/modules/generated/sklearn.svm.SVC.html)、[SVR 1.8](https://scikit-learn.org/1.8/modules/generated/sklearn.svm.SVR.html)、[SciPy L-BFGS-B](https://docs.scipy.org/doc/scipy-1.17.0/reference/optimize.minimize-lbfgsb.html)。
+
+## 公共输入升级兼容性（2026-11-19）
+
+公共FoldPreprocessor已升级semantic-inputs-v2；SVM继续在每个内外训练折调用fit_inputs/transform_inputs，训练方差gamma规则及时间校准不变，自动使用新schema和接口代码身份。旧预处理/模型包因代码与schema身份不同被拒绝，不迁移旧权重或校准器。本轮只复核SVM接口、配置和既有非训练测试，不进行其正式搜索、校准训练或专项优化。

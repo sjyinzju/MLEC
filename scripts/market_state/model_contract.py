@@ -141,6 +141,12 @@ def training_partition(parent, keys, *,role,fit_cutoff):
 
 
 def transform_inputs(preprocessor, ds):
+    _validate_input_context(preprocessor, ds)
+    result=pd.DataFrame(preprocessor.transform(ds.X),columns=preprocessor.get_feature_names_out(),index=ds.keys.index)
+    return validate_model_input(result,preprocessor.schema_,keys=ds.keys)
+
+
+def _validate_input_context(preprocessor, ds):
     validate_dataset(ds)
     if not hasattr(preprocessor,'fit_context_'):raise ValueError('Use fit_inputs on formal train rows first')
     c=preprocessor.fit_context_
@@ -148,8 +154,6 @@ def transform_inputs(preprocessor, ds):
         if c[name]!=ds.context[name]:raise ValueError('Input context mismatch: '+name)
     if len(ds.X) and not ds.metadata.fit_cutoff.astype(str).eq(c['fit_cutoff']).all():raise ValueError('Input fit cutoff mismatch')
     if ds.context['role']!='train' and len(ds.X) and not ds.metadata.asof_time.gt(pd.Timestamp(c['fit_cutoff'])).all():raise ValueError('Prediction before fit cutoff')
-    result=pd.DataFrame(preprocessor.transform(ds.X),columns=preprocessor.get_feature_names_out(),index=ds.keys.index)
-    return validate_model_input(result,preprocessor.schema_,keys=ds.keys)
 
 
 def validate_model_input(X,schema,*,keys):
@@ -175,9 +179,13 @@ class PredictionContext:
     quality: str
 
 
-def prediction_context(ds, preprocessor, target_adapter, *,model_id,model_version):
+def prediction_context(ds, preprocessor, target_adapter, *,model_id,model_version,input_matrix=None):
     if ds.context['role'] not in ['validation','test','prediction']:raise ValueError('Prediction requires validation/test/prediction role')
-    transform_inputs(preprocessor,ds)
+    if input_matrix is None:
+        transform_inputs(preprocessor,ds)
+    else:
+        _validate_input_context(preprocessor,ds)
+        validate_model_input(input_matrix,preprocessor.schema_,keys=ds.keys)
     c=preprocessor.fit_context_
     target_adapter.check_context(c)
     if not model_id or not model_version:raise ValueError('Explicit model identity required')

@@ -61,6 +61,10 @@ def test_no_heldout_statistics_and_shared_columns(store):
     train=ds(store);test=ds(store,role='test');before=fit_inputs(train);target=fit_targets(train)
     schema=json.dumps(before.schema_,sort_keys=True);parameters=json.dumps(target.parameters_,sort_keys=True)
     modified=replace(test,X=(test.X*1e6).astype(test.X.dtypes.to_dict()),y=test.y*1e6)
+    # Adversarial continuous values remain unrestricted; probabilities retain
+    # their semantic domain instead of manufacturing invalid memberships.
+    for c in modified.X:
+        if before.feature_types_.get(c) == 'probability': modified.X[c] = test.X[c]
     # Standalone transform is still train-fitted, even with adversarial held-out numbers.
     before.transform(modified.X);target.transform(modified.y)
     assert schema==json.dumps(before.schema_,sort_keys=True) and parameters==json.dumps(target.parameters_,sort_keys=True)

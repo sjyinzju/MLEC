@@ -1,0 +1,797 @@
+{
+  "purpose": "TECHNICAL_ONLY_NOT_RESEARCH",
+  "rows": [
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "info": "M",
+      "parameters": {
+        "alpha": 5.945570708544395e-05,
+        "l1_ratio": 1.0,
+        "tol": 0.0001,
+        "max_iter": 10000
+      },
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver": "exact_elastic_net_via_augmented_lasso_lars",
+          "solver_mapping": {
+            "original_rows": 251,
+            "augmented_rows": 251,
+            "mapped_lasso_alpha": 5.945570708544395e-05,
+            "original_alpha": 5.945570708544395e-05,
+            "l1_ratio": 1.0,
+            "objective_multiplier": 1.0,
+            "path_iterations": 64
+          },
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": null,
+          "elapsed_seconds": 0.015202199996565469,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.1659505400887508,
+            "dual_objective": 0.0046076276119255966,
+            "independently_computed_dual_gap": 0.1613429124768252,
+            "augmented_lasso_dual_gap": 0.1613429124768252,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": null,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "reported_dual_gap_available": false,
+            "intercept_residual": 6.457870979891349e-17,
+            "kkt_max": 0.005691483356474301,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 207,
+            "max_abs": 6.178024085329783,
+            "max_row_norm2": 725.4658248858324,
+            "large_value_columns": []
+          },
+          "remedy": "equivalent_augmented_lars",
+          "n_iter": 64,
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 50 iterations, i.e. alpha=1.061e-02, with an active set of 36 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 50 iterations, i.e. alpha=1.061e-02, with an active set of 36 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 50 iterations, i.e. alpha=1.061e-02, with an active set of 36 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 52 iterations, i.e. alpha=9.734e-03, with an active set of 38 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 52 iterations, i.e. alpha=9.734e-03, with an active set of 38 regressors, and the smallest cholesky pivot element being 2.980e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 52 iterations, i.e. alpha=9.734e-03, with an active set of 38 regressors, and the smallest cholesky pivot element being 2.980e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 52 iterations, i.e. alpha=9.734e-03, with an active set of 38 regressors, and the smallest cholesky pivot element being 2.980e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 60 iterations, i.e. alpha=5.303e-03, with an active set of 44 regressors, and the smallest cholesky pivot element being 3.332e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 60 iterations, i.e. alpha=5.303e-03, with an active set of 44 regressors, and the smallest cholesky pivot element being 3.332e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 62 iterations, i.e. alpha=4.803e-03, with an active set of 46 regressors, and the smallest cholesky pivot element being 2.107e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 62 iterations, i.e. alpha=4.803e-03, with an active set of 46 regressors, and the smallest cholesky pivot element being 2.107e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 62 iterations, i.e. alpha=4.803e-03, with an active set of 46 regressors, and the smallest cholesky pivot element being 3.332e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 64 iterations, alpha=4.757e-03, previous alpha=4.597e-03, with an active set of 47 regressors."
+            }
+          ],
+          "converged": false,
+          "nonzero": 47
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver": "cyclic_coordinate_descent",
+          "solver_mapping": null,
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 0.4087342999991961,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.10358361205605898,
+            "dual_objective": 0.06726097879262091,
+            "independently_computed_dual_gap": 0.03632263326343806,
+            "augmented_lasso_dual_gap": 0.03632263326343806,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": 0.03632263327154663,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "reported_dual_gap_available": true,
+            "intercept_residual": 9.89469683699791e-16,
+            "kkt_max": 8.268520388237958e-05,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 207,
+            "max_abs": 6.178024085329783,
+            "max_row_norm2": 725.4658248858324,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.03632263327154663,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.117e+00, tolerance: 3.758e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 106
+        }
+      ],
+      "elapsed_seconds": 0.5754158999916399
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "info": "M+Z",
+      "parameters": {
+        "alpha": 5.945570708544395e-05,
+        "l1_ratio": 1.0,
+        "tol": 0.0001,
+        "max_iter": 10000
+      },
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver": "exact_elastic_net_via_augmented_lasso_lars",
+          "solver_mapping": {
+            "original_rows": 251,
+            "augmented_rows": 251,
+            "mapped_lasso_alpha": 5.945570708544395e-05,
+            "original_alpha": 5.945570708544395e-05,
+            "l1_ratio": 1.0,
+            "objective_multiplier": 1.0,
+            "path_iterations": 84
+          },
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": null,
+          "elapsed_seconds": 0.030429499995079823,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.17531341976104664,
+            "dual_objective": 0.0013952045905786525,
+            "independently_computed_dual_gap": 0.173918215170468,
+            "augmented_lasso_dual_gap": 0.173918215170468,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": null,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "reported_dual_gap_available": false,
+            "intercept_residual": 7.077118882072711e-18,
+            "kkt_max": 0.021346844762436548,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 556,
+            "max_abs": 15.8113883008419,
+            "max_row_norm2": 2140.9631352526153,
+            "large_value_columns": []
+          },
+          "remedy": "equivalent_augmented_lars",
+          "n_iter": 84,
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 84 iterations, alpha=2.141e-02, previous alpha=2.048e-02, with an active set of 63 regressors."
+            }
+          ],
+          "converged": false,
+          "nonzero": 63
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver": "cyclic_coordinate_descent",
+          "solver_mapping": null,
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 1.273487099999329,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.020750769800722508,
+            "dual_objective": 0.015323493672311499,
+            "independently_computed_dual_gap": 0.005427276128411008,
+            "augmented_lasso_dual_gap": 0.005427276128411008,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": 0.005427276128240032,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "reported_dual_gap_available": true,
+            "intercept_residual": 2.251408444359381e-16,
+            "kkt_max": 4.8074232503810015e-05,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 556,
+            "max_abs": 15.8113883008419,
+            "max_row_norm2": 2140.9631352526153,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.005427276128240032,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.362e+00, tolerance: 3.758e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 208
+        }
+      ],
+      "elapsed_seconds": 1.3371962999954121
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "info": "M",
+      "parameters": {
+        "alpha": 5.945570708544395e-05,
+        "l1_ratio": 1.0,
+        "tol": 0.0001,
+        "max_iter": 10000
+      },
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver": "exact_elastic_net_via_augmented_lasso_lars",
+          "solver_mapping": {
+            "original_rows": 251,
+            "augmented_rows": 251,
+            "mapped_lasso_alpha": 5.945570708544395e-05,
+            "original_alpha": 5.945570708544395e-05,
+            "l1_ratio": 1.0,
+            "objective_multiplier": 1.0,
+            "path_iterations": 54
+          },
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": null,
+          "elapsed_seconds": 0.007022899997537024,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.19878025438318414,
+            "dual_objective": 0.0025263514983218938,
+            "independently_computed_dual_gap": 0.19625390288486225,
+            "augmented_lasso_dual_gap": 0.19625390288486225,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": null,
+            "dual_gap_tolerance": 8.973301908793024e-05,
+            "roundoff_allowance": 2.220446049250313e-14,
+            "reported_dual_gap_available": false,
+            "intercept_residual": 1.503887762440451e-17,
+            "kkt_max": 0.011938711882785846,
+            "intercept_only_objective": 0.44866509543965116,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 207,
+            "max_abs": 7.745310640568747,
+            "max_row_norm2": 758.4428484109809,
+            "large_value_columns": []
+          },
+          "remedy": "equivalent_augmented_lars",
+          "n_iter": 54,
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 43 iterations, i.e. alpha=1.497e-02, with an active set of 29 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 54 iterations, alpha=1.188e-02, previous alpha=1.188e-02, with an active set of 33 regressors."
+            }
+          ],
+          "converged": false,
+          "nonzero": 33
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver": "cyclic_coordinate_descent",
+          "solver_mapping": null,
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 0.4070025999972131,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.0742468167939009,
+            "dual_objective": 0.05344745102881851,
+            "independently_computed_dual_gap": 0.020799365765082387,
+            "augmented_lasso_dual_gap": 0.020799365765082387,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": 0.020799365763581087,
+            "dual_gap_tolerance": 8.973301908793024e-05,
+            "roundoff_allowance": 2.220446049250313e-14,
+            "reported_dual_gap_available": true,
+            "intercept_residual": 1.3092669931834516e-16,
+            "kkt_max": 6.318495932235225e-05,
+            "intercept_only_objective": 0.44866509543965116,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 207,
+            "max_abs": 7.745310640568747,
+            "max_row_norm2": 758.4428484109809,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.020799365763581087,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.221e+00, tolerance: 2.252e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 95
+        }
+      ],
+      "elapsed_seconds": 0.4458398999995552
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "info": "M+Z",
+      "parameters": {
+        "alpha": 5.945570708544395e-05,
+        "l1_ratio": 1.0,
+        "tol": 0.0001,
+        "max_iter": 10000
+      },
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver": "exact_elastic_net_via_augmented_lasso_lars",
+          "solver_mapping": {
+            "original_rows": 251,
+            "augmented_rows": 251,
+            "mapped_lasso_alpha": 5.945570708544395e-05,
+            "original_alpha": 5.945570708544395e-05,
+            "l1_ratio": 1.0,
+            "objective_multiplier": 1.0,
+            "path_iterations": 58
+          },
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": null,
+          "elapsed_seconds": 0.013387600003625266,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.16919634327276506,
+            "dual_objective": 0.0008959521093916123,
+            "independently_computed_dual_gap": 0.16830039116337345,
+            "augmented_lasso_dual_gap": 0.16830039116337345,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": null,
+            "dual_gap_tolerance": 8.973301908793024e-05,
+            "roundoff_allowance": 2.220446049250313e-14,
+            "reported_dual_gap_available": false,
+            "intercept_residual": 5.130911189502715e-17,
+            "kkt_max": 0.028863695061558923,
+            "intercept_only_objective": 0.44866509543965116,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 556,
+            "max_abs": 15.8113883008419,
+            "max_row_norm2": 2140.3139186574135,
+            "large_value_columns": []
+          },
+          "remedy": "equivalent_augmented_lars",
+          "n_iter": 58,
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 58 iterations, alpha=2.892e-02, previous alpha=2.876e-02, with an active set of 49 regressors."
+            }
+          ],
+          "converged": false,
+          "nonzero": 48
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver": "cyclic_coordinate_descent",
+          "solver_mapping": null,
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 0.9617588000110118,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.017473786299383145,
+            "dual_objective": 0.010430135866177375,
+            "independently_computed_dual_gap": 0.00704365043320577,
+            "augmented_lasso_dual_gap": 0.00704365043320577,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": 0.007043650433031392,
+            "dual_gap_tolerance": 8.973301908793024e-05,
+            "roundoff_allowance": 2.220446049250313e-14,
+            "reported_dual_gap_available": true,
+            "intercept_residual": 5.187306980594232e-16,
+            "kkt_max": 7.886791037135254e-05,
+            "intercept_only_objective": 0.44866509543965116,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 556,
+            "max_abs": 15.8113883008419,
+            "max_row_norm2": 2140.3139186574135,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.007043650433031392,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.768e+00, tolerance: 2.252e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 200
+        }
+      ],
+      "elapsed_seconds": 1.0075274999981048
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "info": "M",
+      "parameters": {
+        "alpha": 5.945570708544395e-05,
+        "l1_ratio": 1.0,
+        "tol": 0.0001,
+        "max_iter": 10000
+      },
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver": "exact_elastic_net_via_augmented_lasso_lars",
+          "solver_mapping": {
+            "original_rows": 400,
+            "augmented_rows": 400,
+            "mapped_lasso_alpha": 5.945570708544395e-05,
+            "original_alpha": 5.945570708544395e-05,
+            "l1_ratio": 1.0,
+            "objective_multiplier": 1.0,
+            "path_iterations": 109
+          },
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": null,
+          "elapsed_seconds": 0.012621699992450885,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.24781087847320923,
+            "dual_objective": 0.021521893121190655,
+            "independently_computed_dual_gap": 0.22628898535201858,
+            "augmented_lasso_dual_gap": 0.22628898535201858,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": null,
+            "dual_gap_tolerance": 0.00012006663976902557,
+            "roundoff_allowance": 2.6660149592189332e-14,
+            "reported_dual_gap_available": false,
+            "intercept_residual": 3.108624468950438e-16,
+            "kkt_max": 0.0015090019021491573,
+            "intercept_only_objective": 0.6003331988451278,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 400,
+            "features": 207,
+            "max_abs": 8.894986331042578,
+            "max_row_norm2": 912.6346209331462,
+            "large_value_columns": []
+          },
+          "remedy": "equivalent_augmented_lars",
+          "n_iter": 109,
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 82 iterations, i.e. alpha=2.761e-03, with an active set of 60 regressors, and the smallest cholesky pivot element being 1.490e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 82 iterations, i.e. alpha=2.761e-03, with an active set of 60 regressors, and the smallest cholesky pivot element being 1.490e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 82 iterations, i.e. alpha=2.761e-03, with an active set of 60 regressors, and the smallest cholesky pivot element being 1.490e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 92 iterations, i.e. alpha=1.833e-03, with an active set of 64 regressors, and the smallest cholesky pivot element being 2.581e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 92 iterations, i.e. alpha=1.833e-03, with an active set of 64 regressors, and the smallest cholesky pivot element being 2.581e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 96 iterations, i.e. alpha=1.542e-03, with an active set of 68 regressors, and the smallest cholesky pivot element being 2.581e-08. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 103 iterations, i.e. alpha=1.380e-03, with an active set of 73 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 103 iterations, i.e. alpha=1.380e-03, with an active set of 73 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 103 iterations, i.e. alpha=1.380e-03, with an active set of 73 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 103 iterations, i.e. alpha=1.380e-03, with an active set of 73 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Regressors in active set degenerate. Dropping a regressor, after 103 iterations, i.e. alpha=1.380e-03, with an active set of 73 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters."
+            },
+            {
+              "category": "ConvergenceWarning",
+              "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 109 iterations, alpha=1.115e-03, previous alpha=1.095e-03, with an active set of 78 regressors."
+            }
+          ],
+          "converged": false,
+          "nonzero": 78
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver": "cyclic_coordinate_descent",
+          "solver_mapping": null,
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 0.5201003999973182,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.23111259997911182,
+            "dual_objective": 0.13472638964136982,
+            "independently_computed_dual_gap": 0.096386210337742,
+            "augmented_lasso_dual_gap": 0.096386210337742,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": 0.09638621034096442,
+            "dual_gap_tolerance": 0.00012006663976902557,
+            "roundoff_allowance": 2.6660149592189332e-14,
+            "reported_dual_gap_available": true,
+            "intercept_residual": 3.419486915845482e-16,
+            "kkt_max": 0.00010676613592098711,
+            "intercept_only_objective": 0.6003331988451278,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 400,
+            "features": 207,
+            "max_abs": 8.894986331042578,
+            "max_row_norm2": 912.6346209331462,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.09638621034096442,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.855e+01, tolerance: 4.803e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 104
+        }
+      ],
+      "elapsed_seconds": 0.5655720000067959
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "info": "M+Z",
+      "parameters": {
+        "alpha": 5.945570708544395e-05,
+        "l1_ratio": 1.0,
+        "tol": 0.0001,
+        "max_iter": 10000
+      },
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver": "exact_elastic_net_via_augmented_lasso_lars",
+          "solver_mapping": {
+            "original_rows": 400,
+            "augmented_rows": 400,
+            "mapped_lasso_alpha": 5.945570708544395e-05,
+            "original_alpha": 5.945570708544395e-05,
+            "l1_ratio": 1.0,
+            "objective_multiplier": 1.0,
+            "path_iterations": 27
+          },
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": null,
+          "elapsed_seconds": 0.013974900008179247,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.44599006396796376,
+            "dual_objective": 0.0007496552354603336,
+            "independently_computed_dual_gap": 0.4452404087325034,
+            "augmented_lasso_dual_gap": 0.4452404087325034,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": null,
+            "dual_gap_tolerance": 0.00012006663976902557,
+            "roundoff_allowance": 2.6660149592189332e-14,
+            "reported_dual_gap_available": false,
+            "intercept_residual": 1.7763568394002505e-17,
+            "kkt_max": 0.07881110342802886,
+            "intercept_only_objective": 0.6003331988451278,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 400,
+            "features": 562,
+            "max_abs": 19.97498435543819,
+            "max_row_norm2": 1581.695621298947,
+            "large_value_columns": []
+          },
+          "remedy": "equivalent_augmented_lars",
+          "n_iter": 27,
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 27 iterations, alpha=7.887e-02, previous alpha=7.856e-02, with an active set of 24 regressors."
+            }
+          ],
+          "converged": false,
+          "nonzero": 23
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver": "cyclic_coordinate_descent",
+          "solver_mapping": null,
+          "preliminary_convergence_warning_resolved": false,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 2.2546773000067333,
+          "quality": {
+            "version": "elastic-optimality-v3",
+            "accepted": false,
+            "primal_objective": 0.06330200245332464,
+            "dual_objective": 0.05929548634329049,
+            "independently_computed_dual_gap": 0.004006516110034148,
+            "augmented_lasso_dual_gap": 0.004006516110034148,
+            "dual_certificate_hash": null,
+            "reported_dual_gap": 0.0040065161170903,
+            "dual_gap_tolerance": 0.00012006663976902557,
+            "roundoff_allowance": 2.6660149592189332e-14,
+            "reported_dual_gap_available": true,
+            "intercept_residual": 1.1049494652581871e-15,
+            "kkt_max": 1.6256222681095902e-05,
+            "intercept_only_objective": 0.6003331988451278,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 400,
+            "features": 562,
+            "max_abs": 19.97498435543819,
+            "max_row_norm2": 1581.695621298947,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.0040065161170903,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.603e+00, tolerance: 4.803e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 246
+        }
+      ],
+      "elapsed_seconds": 2.3034196000080556
+    }
+  ]
+}

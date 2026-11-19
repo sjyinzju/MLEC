@@ -84,9 +84,12 @@ class RBFSVMAdapter:
                 warnings.simplefilter('always')
                 try:
                     estimator.fit(X, y)
-                except Exception as error:
+                except BaseException as error:
                     record.update(error=type(error).__name__ + ': ' + str(error),
                         warnings=[dict(category=w.category.__name__, message=str(w.message)) for w in caught])
+                    if not isinstance(error, Exception) or isinstance(error, (MemoryError, OSError)):
+                        error.diagnostics = self.diagnostics_
+                        raise
                     raise FitFailure('RBF solver failed: ' + target, self.diagnostics_) from error
             numerical = not all(np.isfinite(np.asarray(getattr(estimator, a))).all() for a in
                 ['support_vectors_', 'dual_coef_', 'intercept_']) or any(issubclass(w.category, RuntimeWarning) for w in caught)

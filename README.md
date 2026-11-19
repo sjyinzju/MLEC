@@ -70,3 +70,5 @@ X_test=transform_inputs(pre,test)
 依赖见[requirements-research.txt](requirements-research.txt)；来源库附加依赖见[requirements-data-v4.txt](requirements-data-v4.txt)。报告会明确区分制度性不适用、合法发布值持有、来源缺口、预热不足、停牌和未来标签未成熟。历史成分快照不声称精确逐日成分。
 
 RBF-SVM第二模型已实现（未训练）：[说明](docs/rbf_svm.md)，正式配置为`config/experiments/rbf_svm.yaml`，仓库一键入口为`launchers/rbf_svm/START_WINDOWS.cmd`和`START_LINUX.sh`。原Elastic Net交接包与运行结果继续独立保留。
+
+2026-11-19 Elastic Net数值与运行优化：先用 CHECK_WINDOWS.cmd 仅检查；TECHNICAL_WINDOWS.cmd 为显式短技术拟合；START_WINDOWS.cmd 为完整自动B→新锁→C。默认CPU自动多进程、每任务1线程。历史审计和技术验收集中于 reports/model_build/elastic_net/optimization_20261119/，原数据seal不变；不复用第一轮锁或run_id。

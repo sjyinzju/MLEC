@@ -1,0 +1,616 @@
+{
+  "run_id": "60c8639de8935d891b0e79d1",
+  "archive_before": "047f76de38d726f6e2fda86b53a0fd71a2ba65f1",
+  "archive_after": "fe4b161cf8ff2f8754009fa37c4286cac72ad24c",
+  "zip_name": "MLEC_elastic_net_60c8639d(1).zip",
+  "zip_bytes": 9300967,
+  "zip_sha256": "e05ab877cb4ab9cf09f7108c5072aab81c9f224dc9d816ee6c6c290165e69b77",
+  "audit_json_sha256": "b7455cb6d8f4ff8883d190fc970d61ec62e3c97f9f91c92b318bfcf83740c586",
+  "audit_sections": {
+    "audit_date": {
+      "type": "str",
+      "entries": null,
+      "content_sha256": "010cc5180132fb0adc25f5f348f229084383e04439f2c21bb9b55505c19a04f8"
+    },
+    "run_id": {
+      "type": "str",
+      "entries": null,
+      "content_sha256": "e672177d77c399d4eb113d9704380d409e4c43d5eb648d8c9f9ee9803b8393cb"
+    },
+    "audit_scope": {
+      "type": "str",
+      "entries": null,
+      "content_sha256": "4f3bd050352b88c6fb0917dde2740bf725dbbfd17631d7c70a67f8a662e3b9dc"
+    },
+    "provenance": {
+      "type": "dict",
+      "entries": 6,
+      "content_sha256": "78b1819dda44cfbc64223e5f2216e6f5d67d29fa41ae38033a252dfabbba7c33"
+    },
+    "source_urls": {
+      "type": "dict",
+      "entries": 5,
+      "content_sha256": "f825e94cbb43a13a8ad5cb058a04c9ecda00c651007fa4c50244d0452341fe71"
+    },
+    "findings": {
+      "type": "list",
+      "entries": 8,
+      "content_sha256": "80d5e2d62c1e8333b1bc6a41bf269eee84a197c599f8f056d770d5bd369dbc65"
+    },
+    "input_scale_scan": {
+      "type": "list",
+      "entries": 16,
+      "content_sha256": "0708af6dc5af0e72e6f647fd541183fffd11d8241de4b758ecd08206a9d7c944"
+    },
+    "input_mechanism_check": {
+      "type": "dict",
+      "entries": 2,
+      "content_sha256": "1161bae3c0ea43634de1f3181f16e37eee55602f7bdfe776f2f5906cfe5ae219"
+    },
+    "independent_prediction_checks": {
+      "type": "dict",
+      "entries": 2,
+      "content_sha256": "dd2e4705298893c574514ec0f235ae244b43a7a3f1a185c2d1c03a6fd3cd49da"
+    },
+    "search_summary": {
+      "type": "dict",
+      "entries": 10,
+      "content_sha256": "a2ebd6963bcaa1f6ec03032756412fb1f9180d779b47e39ce5f85c92c17cefed"
+    },
+    "search_identity_checks": {
+      "type": "dict",
+      "entries": 5,
+      "content_sha256": "8a4373a350ab5b76e67811dc8fb32ab4bd442f3125dc6b3107c2cfd962112453"
+    },
+    "search_groups": {
+      "type": "list",
+      "entries": 16,
+      "content_sha256": "94edd2a8821a360bfdcb0f084a1fb9b438f14d201050e77ffd5c6a4b7ea73bb4"
+    },
+    "training_record_summary": {
+      "type": "list",
+      "entries": 4,
+      "content_sha256": "ae889017de163a47d7560f617d3f646523c3e5c048e76047196d5f64c108cfac"
+    },
+    "suite": {
+      "type": "str",
+      "entries": null,
+      "content_sha256": "ae6e9157995bdbcae79f0221fc05ca3df41dadbabd1d489c5aaee1a944a9c16d"
+    },
+    "full_suite_configurations_not_executed": {
+      "type": "int",
+      "entries": null,
+      "content_sha256": "7b1a278f5abe8e9da907fc9c29dfd432d60dc76e17b0fabab659d2a508bc65c4"
+    },
+    "classification_reported_seed_mean": {
+      "type": "list",
+      "entries": 16,
+      "content_sha256": "566d5bcef2686a6b72c7f3985894469c5c7d2f966aff459ec1e7d6ef11070191"
+    },
+    "regression_reported_seed_mean": {
+      "type": "list",
+      "entries": 12,
+      "content_sha256": "60905d31644c51c3f5a4fd5aac5bc1ce0350e9df4b9b8823165dc455012388d2"
+    },
+    "runtime_report_audit": {
+      "type": "dict",
+      "entries": 4,
+      "content_sha256": "2c3841f14018ce0b52a0984765b6fad888a7e2679750500f91961cfaf2d3e0d1"
+    },
+    "recommendation": {
+      "type": "str",
+      "entries": null,
+      "content_sha256": "5b037cec3e218cdc46df5768bdca557ce072a9670d8b2a79d2e6b91b1682b103"
+    }
+  },
+  "export_checks": [
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/report.md",
+      "bytes": 3372,
+      "sha256": "00f3b73ea85f7a671b095708fee5a2fe17048bb9413639bb1636534cd7039871",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/report.md",
+      "bytes": 3389,
+      "sha256": "25ff5669a7488f7567e6f6acf761b73cc258366858b59d6624416171b3af404d",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/selection.lock.json",
+      "bytes": 268628,
+      "sha256": "6560f5d6f9a1e8aabedf377a27b26e98cb994358969632ed529d72bd192051bb",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/manifest.json",
+      "bytes": 2452,
+      "sha256": "a37552ac035ddf8275105af921848fa91f1b77e7763f7de31704eb55330560db",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/config.resolved.yaml",
+      "bytes": 3689,
+      "sha256": "227b4c0b3226d0d3ad2d6dd49fa51cd3e8224686255de5a476d7909b6269bb33",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/environment.json",
+      "bytes": 630,
+      "sha256": "c0bcf6faf6bdd041859e2ce00e271ac110ecc12cc0aa6ec15aee2911d731a18a",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/preflight.json",
+      "bytes": 99337,
+      "sha256": "42187fb9d6e7e60201e5b9f6494b6a3239e1655802ba6e0d7cb20ce1b54de920",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/class_precision_recall.csv",
+      "bytes": 52879,
+      "sha256": "269d5bd153ae825823c89c6897b02d81428b14b20cf5548635ce2c28b621be49",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/confusion_matrix.csv",
+      "bytes": 107015,
+      "sha256": "346637521b463a9738496bdbae5594d9bb7e3c0c20ef484e3564dce9ad352ae8",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/core_classification.csv",
+      "bytes": 59109,
+      "sha256": "3a9cfc46330a41f8e55ad49f4e5c60264b405249bf507f27b0b45c9c57c183ed",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/core_classification.md",
+      "bytes": 150766,
+      "sha256": "ad7fe93d66a8cb0ed55c2cb4f28721ae95c3bac4f8b0b4128e05443e8a7421ba",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/core_regression.csv",
+      "bytes": 102357,
+      "sha256": "e2d1cffd3ed769302728dded8a90ae2ed64081a9b4ccad63127cdbf7b9507fdd",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/core_regression.md",
+      "bytes": 274500,
+      "sha256": "d37de73051c08e7dbee4cc4a10afdade996980f84ae1261436e341c8f1c34d09",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/coverage_status.csv",
+      "bytes": 321661,
+      "sha256": "68a075a2b988263f6f2d788d4766c56e782ee96b21e49003508a7247e98681b2",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/macro_groups.csv",
+      "bytes": 243,
+      "sha256": "00ff57b10b862c540f3edfd9e1a08375ee45ed32bfdfda0d244d119e2f99f5bc",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/macro_groups.md",
+      "bytes": 42,
+      "sha256": "38b5b27f9a698e14c2bcdc6e198f670d7581f93549e066777b9da322088fdedc",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/macro_increment.csv",
+      "bytes": 300236,
+      "sha256": "27ff2c30e3b62f64dcabb8c8dc451daf1108ad1611cb08340f9e10ba470df289",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/macro_increment.md",
+      "bytes": 604002,
+      "sha256": "691b6e755a6eb4f851acef6f6b936ac94b910a62e3f00a6a271eaef4aab88ce4",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/reliability.csv",
+      "bytes": 395919,
+      "sha256": "7d815a4d806bf2ce081414bfb2f834d8e034f7df47e1d6ff35fa38ad4215c0a4",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/runtime_quality.csv",
+      "bytes": 355803,
+      "sha256": "7ea57b7a1f435de1739d68b73e699c254ba05aeca84b962c24131d653cff9ffe",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/warning_curves.csv",
+      "bytes": 7742688,
+      "sha256": "8a1e6df0581f6f3ca7335013c4e0c7f0e0e1aad8cb97f5900050d37adef7ba54",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/warning_value.csv",
+      "bytes": 211432,
+      "sha256": "b77bc73cc9c8c23ecb256e5769ca7c11310df6a949cd1c0ede5b13b9682dc066",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/tables/warning_value.md",
+      "bytes": 328770,
+      "sha256": "eac135029532e36b75c059df8bded6332098b1a3277a0274a6f1edbc1d95d7e2",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/figures/annual_increment_classification.png",
+      "bytes": 61791,
+      "sha256": "de9110cc1456752b367d5f7cf7dc677f2a867e3b6596da04012d01f4587367da",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/figures/annual_increment_regression.png",
+      "bytes": 48485,
+      "sha256": "cdd30f7ff5876d4d0fccdc7295d66ad46c41dfd549ab8f0cd26327fa11602ddd",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/figures/confusion.png",
+      "bytes": 19092,
+      "sha256": "336305c655f58693cbc4dd4d2c29bb761b7de296c64b858f8e7746489e0de4a1",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/figures/core_classification.png",
+      "bytes": 65845,
+      "sha256": "3886680cccd6b7bfd0f41b3a0cbdd21237092b11bf78c9b6defbd641bc45f882",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/figures/core_regression.png",
+      "bytes": 56808,
+      "sha256": "87ef008c1096dce998c78699f80c2fb24a41a67ba6ceb5dd9cb8e79c7bcdd85a",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/figures/reliability.png",
+      "bytes": 66179,
+      "sha256": "c4994d22b1f692003e70f06fcc4dd42bb09801c422dc8bdef9de38019c362d32",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/figures/warning_predicted_drawdown.png",
+      "bytes": 145544,
+      "sha256": "1b85fb41d931288cc3b96aa6d6c428e15fef9ae4300058487360017226eb713f",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/figures/warning_risk_downside.png",
+      "bytes": 169087,
+      "sha256": "24f9fd692ebb82df45bd25e747d162d286f91b2f9148436bd6de9dc3e22c11c8",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/class_precision_recall.csv",
+      "bytes": 45087,
+      "sha256": "9042d06fb73e608ba89e0c2d2025ff17f0527a8b1ea95457c6df8c50988dbbe1",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/confusion_matrix.csv",
+      "bytes": 93664,
+      "sha256": "1fb1f40f5825033fbdee3b54d4b8ef29b7e2f1d55f0c2bde091066c1c4660462",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/core_classification.csv",
+      "bytes": 50271,
+      "sha256": "97c0a98823a77f8a395523fce79e377e971b76c6c9f905dd197ccff488ef6e6b",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/core_classification.md",
+      "bytes": 121638,
+      "sha256": "883ae10641e4765fea10816f93239f38261d4ff0f8c976909e0c72619ccd5ecd",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/core_regression.csv",
+      "bytes": 83265,
+      "sha256": "c7d9585d6390ef1aa3f45cb49ccfdf6a8325d080424ca6e672991c9a3e12c90f",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/core_regression.md",
+      "bytes": 220892,
+      "sha256": "10904005a1d1bd87cad06f0d535462597fb83639c61702968f8b2e2ca706ca75",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/coverage_status.csv",
+      "bytes": 257025,
+      "sha256": "b5df568eeed8bb4b36d880d79f28a8fbc5528e56ef72efd343d450007957d2b3",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/macro_groups.csv",
+      "bytes": 243,
+      "sha256": "00ff57b10b862c540f3edfd9e1a08375ee45ed32bfdfda0d244d119e2f99f5bc",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/macro_groups.md",
+      "bytes": 42,
+      "sha256": "38b5b27f9a698e14c2bcdc6e198f670d7581f93549e066777b9da322088fdedc",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/macro_increment.csv",
+      "bytes": 256716,
+      "sha256": "e89851d2609853784cca41a5734eecf757d9d4b723cc6c40ef87dbde573d5a9b",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/macro_increment.md",
+      "bytes": 486710,
+      "sha256": "f432d45175e505451e49ee4d6b912fe13081743aca4b9ce3b2dec8b3e687545b",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/reliability.csv",
+      "bytes": 345147,
+      "sha256": "b1fcafbdc9e221d152dd36627795a9b12efbb427e77afdb39fa0442afde63fbb",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/runtime_quality.csv",
+      "bytes": 1583547,
+      "sha256": "f06ced00bc7db6af02b1f2b17b512f0ee31ea7d397bd73c5e4ea31ba1457c630",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/warning_curves.csv",
+      "bytes": 5830388,
+      "sha256": "994aadb53de5315cf3645f2a580324e4f4132239f921833f13be8499f2ceab58",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/warning_value.csv",
+      "bytes": 207392,
+      "sha256": "734ec28bac0d723415effac5a7a7f9e5d94819bb45e5ab541fe9a560343e37f3",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/tables/warning_value.md",
+      "bytes": 344506,
+      "sha256": "8a2e385796cf75a53553f36888ab44c86a1920f5cbe50dd781ba344890f6b03c",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/figures/annual_increment_classification.png",
+      "bytes": 64085,
+      "sha256": "9750a740a2b8d002a797db3f4e23f98a849f32b01bdbb0a54659f32c06096c40",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/figures/annual_increment_regression.png",
+      "bytes": 60964,
+      "sha256": "f5fb03ed517db491064c9e83b3db45d044b29492dd98dea3cc2fd7e863d507d9",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/figures/confusion.png",
+      "bytes": 19024,
+      "sha256": "3a47c2d7e6b6e28020080e72e72ed32ae8039012d9be6ec0bee677904c3bc86e",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/figures/core_classification.png",
+      "bytes": 56213,
+      "sha256": "b2f7855d39dd211627baf2ebed9347f63fbc22e4644b5c3fae091b579dc0cba2",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/figures/core_regression.png",
+      "bytes": 50050,
+      "sha256": "9d342806cf0a818ed3b18826ecf505f5420b1ec89d674c3e88e6a751017eb456",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/figures/reliability.png",
+      "bytes": 57530,
+      "sha256": "3d55d4d8fb70d5c603e04d6ee1145f3be072a5421f189aa62c17add1b5160ef0",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/figures/warning_predicted_drawdown.png",
+      "bytes": 123040,
+      "sha256": "155918bf74dd4b8640733e26d808fc52af16599365c13e9644766990d2daf264",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/figures/warning_risk_downside.png",
+      "bytes": 167434,
+      "sha256": "34fbdaaaecbfd7b8b5597191637ace41fcc7195cd10a792fa7765e56dd8f955c",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/metrics/selected_scores.parquet",
+      "bytes": 953890,
+      "sha256": "46f344c2fd99a9ffec8b58626f840dee5164639c56290781583be8b1a5f92b1b",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/test/metrics/selected_scores.parquet",
+      "bytes": 1201588,
+      "sha256": "1f3730b61851051dda32895133712edbb06c20071d55e58e2b3e0cdecc3b879d",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/losses/paired_differences.parquet",
+      "bytes": 491804,
+      "sha256": "3ad7cf2351475bc37a64deec437fe7cd29c89a32b9b8eb1fc82322db6e0cf2a9",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/losses/seed_averaged_differences.parquet",
+      "bytes": 232397,
+      "sha256": "a790affdba7792dbc3082a67f767118a19aa3351bdeca9530883a92e05c39d17",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/test/losses/paired_differences.parquet",
+      "bytes": 611759,
+      "sha256": "22eaea3e8d748de2778d15d4771c50b43819584c1b17485bf451bb109cb76a7f",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/test/losses/seed_averaged_differences.parquet",
+      "bytes": 285601,
+      "sha256": "5aee50d124c77e8b9bfb7d0bd13426d26a74027d9d6d91cce242520e68d81f33",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/selection/assignments.json",
+      "bytes": 2502653,
+      "sha256": "8df4e53f4023a650ea4cf167a646ed40ab0c38a6f81664d1412f4cfa4cf57331",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/selection/search.json",
+      "bytes": 1689255,
+      "sha256": "ec09b44ac69fd24fdf2773309ad9981770030f197f1aec9c6acb60653e5ffd49",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/development/selection/search.partial.json",
+      "bytes": 1689255,
+      "sha256": "ec09b44ac69fd24fdf2773309ad9981770030f197f1aec9c6acb60653e5ffd49",
+      "verified": true
+    },
+    {
+      "path": "results/elastic_net/60c8639de8935d891b0e79d1/test/selection/assignments.json",
+      "bytes": 3238399,
+      "sha256": "eb278f33e6e5201f7f5f63b481223bbf5255c63742f7716932f5c0c93b8e1b74",
+      "verified": true
+    }
+  ],
+  "suite": "core",
+  "state": "EXPERIMENT_COMPLETE",
+  "versions": {
+    "runtime_version": "experiment-runtime-v1",
+    "contract_version": "model-io-v1",
+    "data_version": "5d57508f09249cf50b1a2e52",
+    "feature_version": "6d50d9efbc48040f0912",
+    "target_version": "f49e499c375fa557fcb0",
+    "dictionary_version": "76bf6837dc5e32262c99",
+    "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+    "interface_code_hash": "f9ee345ef0af8b95aa11535f4fbcec7dc90da4a6328375356593f2668625e93b",
+    "experiment_code_hash": "3c5c7777a9a3a70faf0575e47e6e6c516050815702b5af35718712f1e288eb55",
+    "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+    "config_hash": "c06f5330a6d5619d90353898a738a6273275c31928c6be094020baeaa784bddb"
+  },
+  "lock_hash_verified": true,
+  "search_hash_verified": true,
+  "search_summary": {
+    "classification": {
+      "candidates": 256,
+      "invalid": 0
+    },
+    "regression": {
+      "candidates": 256,
+      "invalid": 118
+    }
+  },
+  "regression_winners": {
+    "000985.SH|regression|M": {
+      "alpha": 10.0,
+      "l1_ratio": 0.95,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "000985.SH|regression|M+Z": {
+      "alpha": 10.0,
+      "l1_ratio": 0.95,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "000300.SH|regression|M": {
+      "alpha": 0.0742963950759495,
+      "l1_ratio": 0.95,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "000300.SH|regression|M+Z": {
+      "alpha": 10.0,
+      "l1_ratio": 0.95,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "000905.SH|regression|M": {
+      "alpha": 10.0,
+      "l1_ratio": 0.95,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "000905.SH|regression|M+Z": {
+      "alpha": 10.0,
+      "l1_ratio": 0.95,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "000852.SH|regression|M": {
+      "alpha": 10.0,
+      "l1_ratio": 0.95,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "000852.SH|regression|M+Z": {
+      "alpha": 10.0,
+      "l1_ratio": 0.95,
+      "tol": 0.0001,
+      "max_iter": 10000
+    }
+  },
+  "runtime": {
+    "rows": 10756,
+    "negative_retry_rows": 4158,
+    "failed_regression_rows": 1240,
+    "failed_elapsed_missing": 1240,
+    "zero_elapsed": 0
+  },
+  "development_prediction_arithmetic": {
+    "rows": 4800,
+    "logloss_maxdiff": 0.0,
+    "brier_maxdiff": 0.0,
+    "argmax_mismatch": 0
+  },
+  "test_prediction_arithmetic": {
+    "rows": 6208,
+    "logloss_maxdiff": 0.0,
+    "brier_maxdiff": 0.0,
+    "argmax_mismatch": 0
+  },
+  "external_runtime_notes": "MLEC Elastic Net 结果包 —— 使用说明\n=====================================\n\n一、这是什么\n-----------\nMLEC 市场状态研究（market-state-research-v3.0）第一轮 Elastic Net 正式实验的完整结果，\nrun_id = 60c8639de8935d891b0e79d1，协议 suite = core。\n\n状态：EXPERIMENT_COMPLETE（开发期 B → 锁定 → 测试期 C → 评分与报告，全部完成）\n总计算时长：并行阶段 8.73 小时（8 进程 × 2 线程）\n开发期拟合 7,448 次；测试期选定任务 2,068 次；未成熟未评分预测 176 行。\n\n二、目录结构（可直接覆盖到仓库根目录）\n-------------------------------------\nresults/elastic_net/60c8639de8935d891b0e79d1/\n  report.md                     主报告（测试期）\n  tables/                       16 张主表（CSV + Markdown）\n    core_classification.*       分类主结果（含基准对照）\n    core_regression.*           七目标回归（原单位误差）\n    macro_increment.*           ★ M vs M+Z 配对 Brier / Log Loss 及 Bootstrap 区间\n    macro_groups.*              信息集分组消融\n    warning_value.*             预警价值（固定误报预算）\n    warning_curves.csv          检出—误报、P—R、回撤覆盖曲线\n    class_precision_recall.csv / confusion_matrix.csv / reliability.csv\n    runtime_quality.csv         收敛、重试、边界违反等运行质量\n    coverage_status.csv         覆盖与资格状态\n  figures/                      8 张图（PNG）\n  development/                  开发期证据：选择结果、指派、逐周损失、指标、图表\n  test/                         测试期证据：指派、逐样本损失、指标\n  selection.lock.json           锁定的参数与选择证据（262 KB）\n  manifest.json                 运行身份（版本、suite、状态、lock_hash）\n  config.resolved.yaml          实际解析后的完整配置\n  environment.json              依赖版本\n  preflight.json                预检记录\n  EXPORT_MANIFEST.json          逐文件 SHA256 + 排除清单 + 排除原因\n\n包根目录另有：\n  RESULTS_SUMMARY.md            一页纸结果摘要（可直接贴到群里）\n  HOW_TO_APPLY.txt              本文件\n\n三、如何放进仓库（建议新开分支，不要直接推 main）\n------------------------------------------------\n    git checkout main\n    git pull\n    git checkout -b results/elastic-net-core-60c8639d\n\n    # 把本包的 results/ 目录整体复制到仓库根目录（合并，不要删除已有 results/）\n    # 然后：\n    git add results/elastic_net/60c8639de8935d891b0e79d1\n    git commit -m \"Add Elastic Net core results (run 60c8639d)\"\n    git push -u origin results/elastic-net-core-60c8639d\n\nHOW_TO_APPLY.txt 与 RESULTS_SUMMARY.md 是给人看的，不必提交；\n若要提交，请放在包外或加进 .gitignore。\n\n四、为什么只有 33.8 MB\n----------------------\n完整 run 目录是 3.41 GB / 85,330 个文件（每个 fit 的 predictions.parquet、\nlosses.parquet、coefficients.csv、模型包）。这些是可重算的中间产物，不适合进 git。\n\n本包保留的是\"引用与审计所需\"的全部材料：主表、图、报告、锁、身份文件、以及\n开发期/测试期的选择证据与逐样本损失。\n\n被排除的三类及其原因见 EXPORT_MANIFEST.json：\n  fits/       逐 fit 产物（体积主因）\n  _parallel/  并行调度队列与工作进程日志\n  logs/       任务日志快照\n\n任何人可用仓库里的封版数据 + config.resolved.yaml 完整复现，\nEXPORT_MANIFEST.json 中记录了每个已包含文件的 SHA256，便于校验传输完整性。\n\n五、身份信息（用于核对是不是同一份）\n------------------------------------\n  run_id             60c8639de8935d891b0e79d1\n  data_version       5d57508f09249cf50b1a2e52\n  interface          f9ee345ef0af8b95aa11535f4fbcec7dc90da4a6328375356593f2668625e93b\n  experiment code    3c5c7777a9a3a70faf0575e47e6e6c516050815702b5af35718712f1e288eb55\n  lock_hash          （见 manifest.json）\n\n六、复现方式\n------------\n本包不含训练代码。复现需要仓库里的 scripts/market_state 与 data/market_state\n（封版 mlec-formal-20261113），然后：\n\n    python -m scripts.market_state.experiments pipeline \\\n        --model elastic_net --config config/experiments/elastic_net.yaml \\\n        --suite core --execute --resume\n\n注意：原始环境里 ElasticNetAdapter 的 model_version 用 joblib.hash(estimators) 计算，\n在 scikit-learn 1.8.0 / joblib 1.5.3 下跨 dump/load 不稳定，会导致\n\"Model package weights mismatch\"（模型包永远无法自校验、训练跑不通）。\n本次运行用运行期 shim 把该处替换为\"系数数组规范化摘要\"，未改动任何交付文件字节。\n合作者若要自行复现，需要同样处理，或直接使用本包已产出的结果。\n",
+  "missing_evidence": {
+    "fits/: per-fit predictions, coefficients and model packages": "Absent from original export and searched local project; not regenerated",
+    "tasks.parquet and per-task diagnostics": "Absent from original export and searched local project; not regenerated",
+    "_parallel/: source, queues and worker logs": "Absent from original export and searched local project; not regenerated",
+    "in-memory hash shim source and serial-parallel validation record": "Absent from original export and searched local project; not regenerated"
+  },
+  "archive_prior_files_untouched": true,
+  "CSI300_test_macro_contrast_recomputed": {
+    "M": {
+      "rows": 582,
+      "mean_seed_accuracy": 0.7474226804123711,
+      "mean_seed_log_loss": 1.080477312238276
+    },
+    "M+Z": {
+      "rows": 582,
+      "mean_seed_accuracy": 0.865979381443299,
+      "mean_seed_log_loss": 1.0804085989467815
+    },
+    "accuracy_gain": 0.11855670103092786,
+    "log_loss_gain": 6.871329149449323e-05
+  }
+}

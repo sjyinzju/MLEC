@@ -1,0 +1,2613 @@
+{
+  "status": "PASSED",
+  "desktop_root": "D:\\Desktop\\MLEC_ElasticNet_Optimized_20261119",
+  "python_executable": "D:\\Desktop\\MLEC_ElasticNet_Optimized_20261119\\.venv\\Scripts\\python.exe",
+  "code_loaded_from": "D:\\Desktop\\MLEC_ElasticNet_Optimized_20261119\\scripts\\market_state\\framework.py",
+  "source_repository_imports": false,
+  "local_deps_required": false,
+  "raw_lake_required": false,
+  "check_windows_exit_code": 0,
+  "technical_windows_exit_code": 0,
+  "technical_explicit_cpu_workers": 2,
+  "pip_check_exit_code": 0,
+  "initial_auto_technical_stop": "Available RAM caused auto_workers=1; no fit started; explicit two-worker short check used",
+  "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+  "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+  "original_seal_sha256": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.3",
+      "lxml": "6.0.2",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.2",
+      "olefile": "0.47",
+      "tabulate": "0.9.0",
+      "pytest": "9.0.3",
+      "duckdb": "1.5.5",
+      "matplotlib": "3.10.8",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.6.0"
+    },
+    "backend": "cpu"
+  },
+  "installed_packages": {
+    "beautifulsoup4": "4.14.3",
+    "certifi": "2026.10.23",
+    "charset-normalizer": "3.5.2",
+    "colorama": "0.4.6",
+    "contourpy": "1.3.3",
+    "cycler": "0.12.1",
+    "duckdb": "1.5.5",
+    "et_xmlfile": "2.0.0",
+    "fonttools": "4.68.0",
+    "idna": "3.20",
+    "iniconfig": "2.3.1",
+    "joblib": "1.5.3",
+    "kiwisolver": "1.5.1",
+    "lxml": "6.0.2",
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.4",
+    "olefile": "0.47",
+    "openpyxl": "3.1.5",
+    "packaging": "26.3",
+    "pandas": "3.0.2",
+    "pillow": "13.0.0",
+    "pip": "24.0",
+    "pluggy": "1.7.0",
+    "pyarrow": "23.0.1",
+    "Pygments": "2.21.0",
+    "pyparsing": "3.3.3",
+    "pytest": "9.0.3",
+    "python-dateutil": "4.0.0",
+    "requests": "2.32.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "setuptools": "65.5.0",
+    "soupsieve": "2.10",
+    "tabulate": "0.9.0",
+    "threadpoolctl": "3.6.0",
+    "typing_extensions": "4.16.0",
+    "tzdata": "2026.6",
+    "urllib3": "2.8.0",
+    "xlrd": "2.0.2"
+  },
+  "quick_technical": {
+    "purpose": "SMOKE_ONLY",
+    "research_evidence": false,
+    "formal_BC_started": false,
+    "quick": true,
+    "environment": {
+      "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "packages": {
+        "numpy": "2.4.4",
+        "pandas": "3.0.2",
+        "pyarrow": "23.0.1",
+        "scikit-learn": "1.8.0",
+        "joblib": "1.5.3",
+        "requests": "2.32.5",
+        "beautifulsoup4": "4.14.3",
+        "lxml": "6.0.2",
+        "openpyxl": "3.1.5",
+        "xlrd": "2.0.2",
+        "olefile": "0.47",
+        "tabulate": "0.9.0",
+        "pytest": "9.0.3",
+        "duckdb": "1.5.5",
+        "matplotlib": "3.10.8",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.6.0"
+      },
+      "backend": "cpu"
+    },
+    "cpu_logical": 14,
+    "available_workers": 1,
+    "original_seal_sha256": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+    "code": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+    "design": [
+      {
+        "market": "000985.SH",
+        "fold": "2020-01",
+        "task": "classification",
+        "information": "M",
+        "parameters": {
+          "l1_ratio": 0.05,
+          "tol": 0.0001,
+          "max_iter": 10000,
+          "C": 0.0001
+        }
+      },
+      {
+        "market": "000985.SH",
+        "fold": "2020-01",
+        "task": "classification",
+        "information": "M+Z",
+        "parameters": {
+          "l1_ratio": 0.05,
+          "tol": 0.0001,
+          "max_iter": 10000,
+          "C": 0.0001
+        }
+      },
+      {
+        "market": "000985.SH",
+        "fold": "2020-01",
+        "task": "regression",
+        "information": "M",
+        "parameters": {
+          "l1_ratio": 0.05,
+          "tol": 0.0001,
+          "max_iter": 10000,
+          "alpha": 0.01
+        }
+      },
+      {
+        "market": "000985.SH",
+        "fold": "2020-01",
+        "task": "regression",
+        "information": "M+Z",
+        "parameters": {
+          "l1_ratio": 0.05,
+          "tol": 0.0001,
+          "max_iter": 10000,
+          "alpha": 0.01
+        }
+      }
+    ],
+    "numerical_tolerances": {
+      "rtol": 1e-10,
+      "classification_atol": 1e-12,
+      "regression_atol": 1e-24
+    },
+    "input_scans": [
+      {
+        "market": "000985.SH",
+        "fold": "2020-01",
+        "rows": 251,
+        "features": 556,
+        "max_abs": 15.8113883008419,
+        "max_row_norm2": 2140.9631352526153,
+        "large_value_columns": []
+      },
+      {
+        "market": "000985.SH",
+        "fold": "2022-12",
+        "rows": 400,
+        "features": 562,
+        "max_abs": 19.97498435543819,
+        "max_row_norm2": 1581.695621298947,
+        "large_value_columns": []
+      },
+      {
+        "market": "000300.SH",
+        "fold": "2020-01",
+        "rows": 251,
+        "features": 556,
+        "max_abs": 15.8113883008419,
+        "max_row_norm2": 2140.3139186574135,
+        "large_value_columns": []
+      },
+      {
+        "market": "000300.SH",
+        "fold": "2022-12",
+        "rows": 400,
+        "features": 562,
+        "max_abs": 19.97498435543819,
+        "max_row_norm2": 1622.6585388350152,
+        "large_value_columns": []
+      },
+      {
+        "market": "000905.SH",
+        "fold": "2020-01",
+        "rows": 251,
+        "features": 556,
+        "max_abs": 15.8113883008419,
+        "max_row_norm2": 2142.7292734556167,
+        "large_value_columns": []
+      },
+      {
+        "market": "000905.SH",
+        "fold": "2022-12",
+        "rows": 400,
+        "features": 562,
+        "max_abs": 19.97498435543819,
+        "max_row_norm2": 1578.2151801752275,
+        "large_value_columns": []
+      },
+      {
+        "market": "000852.SH",
+        "fold": "2020-01",
+        "rows": 251,
+        "features": 556,
+        "max_abs": 15.8113883008419,
+        "max_row_norm2": 2139.9968065409967,
+        "large_value_columns": []
+      },
+      {
+        "market": "000852.SH",
+        "fold": "2022-12",
+        "rows": 400,
+        "features": 562,
+        "max_abs": 19.97498435543819,
+        "max_row_norm2": 1589.499646735324,
+        "large_value_columns": []
+      }
+    ],
+    "serial": {
+      "workers": 1,
+      "threads_per_task": 1,
+      "elapsed_seconds": 4.425062800000887,
+      "cold_first_four_seconds": 4.425060299996403,
+      "remaining_warm_pool_seconds": 2.5000044843181968e-06,
+      "coordinator_cpu_seconds": 5.453125,
+      "coordinator_peak_rss_bytes": 295886848,
+      "per_solver_process": {
+        "46176": {
+          "peak_rss_bytes": 295886848,
+          "cpu_seconds": 8.375
+        }
+      },
+      "memory_measurement": "OS per-process high-water RSS; not summed as a simultaneous system peak",
+      "successful_monthly_tasks": 4,
+      "estimator_fit_calls": 16,
+      "cache_hits_by_process": {
+        "46176": 0
+      },
+      "resume_reused_all_without_fit": true,
+      "checks": [
+        {
+          "family": "elastic_net",
+          "task": "classification",
+          "market_id": "000985.SH",
+          "information_set": "M",
+          "mode": "SMOKE_ONLY",
+          "stage": "development",
+          "fold_id": "2020-01",
+          "parameters": {
+            "l1_ratio": 0.05,
+            "tol": 0.0001,
+            "max_iter": 10000,
+            "C": 0.0001
+          },
+          "seed": 3060,
+          "backend": "cpu",
+          "versions": {
+            "runtime_version": "experiment-runtime-v2",
+            "contract_version": "model-io-v1",
+            "data_version": "5d57508f09249cf50b1a2e52",
+            "feature_version": "6d50d9efbc48040f0912",
+            "target_version": "f49e499c375fa557fcb0",
+            "dictionary_version": "76bf6837dc5e32262c99",
+            "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+            "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+            "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+            "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+            "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+            "config_hash": "3731461d2b133565ed7d898a6d7262e9b3ec342e61b40e1d662b4183ff8971c4"
+          },
+          "purpose": "SMOKE_ONLY",
+          "model_version": "028c17baec7b2e2f4b2098f3d8d9b788b219acee85dffa96cb622f41dba076b8",
+          "input": {
+            "train": {
+              "rows": 251,
+              "features": 207,
+              "max_abs": 6.178024085329783,
+              "max_row_norm2": 725.4658248858324,
+              "large_value_columns": []
+            },
+            "prediction": {
+              "rows": 4,
+              "features": 207,
+              "max_abs": 1.8357710746338918,
+              "max_row_norm2": 72.22605044084553,
+              "large_value_columns": []
+            }
+          },
+          "diagnostics": [
+            {
+              "target": "classification",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "saga",
+              "solver_mapping": null,
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": 0.0001,
+              "elapsed_seconds": 0.008446500010904856,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "classes": [
+                  0,
+                  1,
+                  2
+                ],
+                "empirical_frequency": [
+                  0.06374501992031872,
+                  0.8565737051792829,
+                  0.0796812749003984
+                ],
+                "weighted_frequency": [
+                  0.06374501992031872,
+                  0.8565737051792829,
+                  0.0796812749003984
+                ],
+                "mean_probability": [
+                  0.06422777497532542,
+                  0.8570775313628959,
+                  0.07869469366178422
+                ],
+                "intercept_residual": [
+                  0.00048275505500666906,
+                  0.0005038261836074599,
+                  -0.000986581238614284
+                ],
+                "max_intercept_residual": 0.000986581238614284,
+                "training_log_loss": 0.5096712596095863,
+                "objective": 0.5096712596095863,
+                "intercept_only_objective": 0.5096631340546371,
+                "objective_excess": 8.125554949112157e-06,
+                "objective_slack": 0.0001,
+                "kkt_max": 0.0,
+                "gradient_tolerance": 0.001,
+                "objective_definition": "mean(weighted NLL) + (l1_ratio*L1 + (1-l1_ratio)*L2_squared/2)/(C*n)",
+                "intercept": [
+                  -0.9314108709348436,
+                  1.6596817627536047,
+                  -0.7282708918187594
+                ]
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "frequency_intercept_start",
+              "n_iter": [
+                1
+              ],
+              "dual_gap": [],
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 0
+            }
+          ],
+          "save_load_predict_exact": true,
+          "estimator_fit_calls": 1,
+          "elapsed_seconds": 0.8773653999960516
+        },
+        {
+          "family": "elastic_net",
+          "task": "classification",
+          "market_id": "000985.SH",
+          "information_set": "M+Z",
+          "mode": "SMOKE_ONLY",
+          "stage": "development",
+          "fold_id": "2020-01",
+          "parameters": {
+            "l1_ratio": 0.05,
+            "tol": 0.0001,
+            "max_iter": 10000,
+            "C": 0.0001
+          },
+          "seed": 3060,
+          "backend": "cpu",
+          "versions": {
+            "runtime_version": "experiment-runtime-v2",
+            "contract_version": "model-io-v1",
+            "data_version": "5d57508f09249cf50b1a2e52",
+            "feature_version": "6d50d9efbc48040f0912",
+            "target_version": "f49e499c375fa557fcb0",
+            "dictionary_version": "76bf6837dc5e32262c99",
+            "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+            "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+            "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+            "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+            "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+            "config_hash": "3731461d2b133565ed7d898a6d7262e9b3ec342e61b40e1d662b4183ff8971c4"
+          },
+          "purpose": "SMOKE_ONLY",
+          "model_version": "e32aa5af4c6706024fc1cde1ee176158022ab92c0c9127e4db38af4de45c664c",
+          "input": {
+            "train": {
+              "rows": 251,
+              "features": 556,
+              "max_abs": 15.8113883008419,
+              "max_row_norm2": 2140.9631352526153,
+              "large_value_columns": []
+            },
+            "prediction": {
+              "rows": 4,
+              "features": 556,
+              "max_abs": 27.235632838299487,
+              "max_row_norm2": 1026.705069496711,
+              "large_value_columns": []
+            }
+          },
+          "diagnostics": [
+            {
+              "target": "classification",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "saga",
+              "solver_mapping": null,
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": 0.0001,
+              "elapsed_seconds": 0.006911500007845461,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "classes": [
+                  0,
+                  1,
+                  2
+                ],
+                "empirical_frequency": [
+                  0.06374501992031872,
+                  0.8565737051792829,
+                  0.0796812749003984
+                ],
+                "weighted_frequency": [
+                  0.06374501992031872,
+                  0.8565737051792829,
+                  0.0796812749003984
+                ],
+                "mean_probability": [
+                  0.06393193459896765,
+                  0.8567718133332961,
+                  0.07929625206773602
+                ],
+                "intercept_residual": [
+                  0.00018691467864900962,
+                  0.00019810815401314383,
+                  -0.00038502283266221896
+                ],
+                "max_intercept_residual": 0.00038502283266221896,
+                "training_log_loss": 0.5096643636933255,
+                "objective": 0.5096643636933255,
+                "intercept_only_objective": 0.5096631340546371,
+                "objective_excess": 1.2296386883159371e-06,
+                "objective_slack": 0.0001,
+                "kkt_max": 0.0,
+                "gradient_tolerance": 0.001,
+                "objective_definition": "mean(weighted NLL) + (l1_ratio*L1 + (1-l1_ratio)*L2_squared/2)/(C*n)",
+                "intercept": [
+                  -0.9369081649183766,
+                  1.6584444605426527,
+                  -0.7215362956242765
+                ]
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "frequency_intercept_start",
+              "n_iter": [
+                1
+              ],
+              "dual_gap": [],
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 0
+            }
+          ],
+          "save_load_predict_exact": true,
+          "estimator_fit_calls": 1,
+          "elapsed_seconds": 0.5897580000018934
+        },
+        {
+          "family": "elastic_net",
+          "task": "regression",
+          "market_id": "000985.SH",
+          "information_set": "M",
+          "mode": "SMOKE_ONLY",
+          "stage": "development",
+          "fold_id": "2020-01",
+          "parameters": {
+            "l1_ratio": 0.05,
+            "tol": 0.0001,
+            "max_iter": 10000,
+            "alpha": 0.01
+          },
+          "seed": 3060,
+          "backend": "cpu",
+          "versions": {
+            "runtime_version": "experiment-runtime-v2",
+            "contract_version": "model-io-v1",
+            "data_version": "5d57508f09249cf50b1a2e52",
+            "feature_version": "6d50d9efbc48040f0912",
+            "target_version": "f49e499c375fa557fcb0",
+            "dictionary_version": "76bf6837dc5e32262c99",
+            "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+            "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+            "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+            "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+            "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+            "config_hash": "3731461d2b133565ed7d898a6d7262e9b3ec342e61b40e1d662b4183ff8971c4"
+          },
+          "purpose": "SMOKE_ONLY",
+          "model_version": "e6ab1da763f1ed15f84735879d1999c3bf424d8f89b58633de6fe195c80aba54",
+          "input": {
+            "train": {
+              "rows": 251,
+              "features": 207,
+              "max_abs": 6.178024085329783,
+              "max_row_norm2": 725.4658248858324,
+              "large_value_columns": []
+            },
+            "prediction": {
+              "rows": 4,
+              "features": 207,
+              "max_abs": 1.8357710746338918,
+              "max_row_norm2": 72.22605044084553,
+              "large_value_columns": []
+            }
+          },
+          "diagnostics": [
+            {
+              "target": "return",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 129,
+                "dual_newton_steps": 4,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 2,
+                "polish_gap_target": 1.497211373333847e-06,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.02803709999716375,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.26450030973903926,
+                "dual_objective": 0.2645003097390394,
+                "independently_computed_dual_gap": -1.1102230246251565e-16,
+                "augmented_lasso_dual_gap": 1.0663802731507161e-13,
+                "dual_certificate_hash": "60be71ef069dca3959bbb26c14e6ee9d1b9afe1b719bdfd4086fdd656c6af698",
+                "reported_dual_gap": 3.248150217777003e-29,
+                "dual_gap_tolerance": 0.0001497211373333847,
+                "roundoff_allowance": 3.324477078811776e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.1765710141445881e-16,
+                "kkt_max": 3.819427413231935e-15,
+                "intercept_only_objective": 0.7486056866669234,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 129,
+              "dual_gap": 3.248150217777003e-29,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 105
+            },
+            {
+              "target": "volatility",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 78,
+                "dual_newton_steps": 3,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 4,
+                "polish_gap_target": 8.100452243546633e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.012238499999511987,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.05911647311071025,
+                "dual_objective": 0.05911647311071024,
+                "independently_computed_dual_gap": 6.938893903907228e-18,
+                "augmented_lasso_dual_gap": 4.043334945300192e-14,
+                "dual_certificate_hash": "412eab26d9050e3caa3b48846fa1fa1e66a27c8ead91fe930805f1d675fba82b",
+                "reported_dual_gap": 1.454464667844175e-29,
+                "dual_gap_tolerance": 8.100452243546633e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 2.7423835668031755e-17,
+                "kkt_max": 4.595065647428065e-15,
+                "intercept_only_objective": 0.40502261217733165,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 78,
+              "dual_gap": 1.454464667844175e-29,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 78 iterations, alpha=1.287e-03, previous alpha=1.285e-03, with an active set of 63 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 102
+            },
+            {
+              "target": "drawdown",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 123,
+                "dual_newton_steps": 3,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 2,
+                "polish_gap_target": 2.302249202910609e-06,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.014327700002468191,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.2809363021583616,
+                "dual_objective": 0.2809363021583614,
+                "independently_computed_dual_gap": 1.6653345369377348e-16,
+                "augmented_lasso_dual_gap": 1.3790473853606884e-13,
+                "dual_certificate_hash": "a941cbecc2e34f50fdb98c56628b74c45a641347fd498f5cbb2730601b36e1d3",
+                "reported_dual_gap": 3.390077788514787e-29,
+                "dual_gap_tolerance": 0.0002302249202910609,
+                "roundoff_allowance": 5.112020146992544e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.7781261191207685e-16,
+                "kkt_max": 5.789639601072594e-15,
+                "intercept_only_objective": 1.1511246014553045,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 123,
+              "dual_gap": 3.390077788514787e-29,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 107
+            },
+            {
+              "target": "amihud",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 119,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 7,
+                "polish_gap_target": 2.5265527000553074e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.016301299998303875,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.029703967668053194,
+                "dual_objective": 0.02970396766805321,
+                "independently_computed_dual_gap": -1.734723475976807e-17,
+                "augmented_lasso_dual_gap": 1.3550913379448723e-14,
+                "dual_certificate_hash": "a1f0e275355116ea52e543065f8a6948060bb8cf7b68d7b0117d1ec88f80765b",
+                "reported_dual_gap": 4.5511565632946205e-30,
+                "dual_gap_tolerance": 2.5265527000553073e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.7692797205181777e-17,
+                "kkt_max": 2.566523382707686e-15,
+                "intercept_only_objective": 0.12632763500276536,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 119,
+              "dual_gap": 4.5511565632946205e-30,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 93
+            },
+            {
+              "target": "turnover",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 101,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 6,
+                "polish_gap_target": 7.792061749353164e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.01516339999216143,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.035107722844946745,
+                "dual_objective": 0.035107722844946745,
+                "independently_computed_dual_gap": 0.0,
+                "augmented_lasso_dual_gap": 2.130920495392093e-14,
+                "dual_certificate_hash": "d8f274581492a11f176694233ba9be9e11146f04170c66f84e7e6b7a8228e3ab",
+                "reported_dual_gap": 7.351171515395017e-30,
+                "dual_gap_tolerance": 7.792061749353163e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 3.5385594410363554e-17,
+                "kkt_max": 3.0521375357639435e-15,
+                "intercept_only_objective": 0.38960308746765815,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 101,
+              "dual_gap": 7.351171515395017e-30,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 90
+            },
+            {
+              "target": "breadth",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 34,
+                "dual_newton_steps": 3,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 2,
+                "polish_gap_target": 3.1719972251471747e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.00732879999850411,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.06933302889828143,
+                "dual_objective": 0.0693330288982814,
+                "independently_computed_dual_gap": 2.7755575615628914e-17,
+                "augmented_lasso_dual_gap": 3.08739311230422e-14,
+                "dual_certificate_hash": "1090930b1727229b894193b1dfeb2fb63858937bf2bca354f01113ccd20c8aef",
+                "reported_dual_gap": 5.897284890294484e-30,
+                "dual_gap_tolerance": 3.171997225147175e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 4.423199301295444e-17,
+                "kkt_max": 2.7265516233665466e-15,
+                "intercept_only_objective": 0.15859986125735873,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 34,
+              "dual_gap": 5.897284890294484e-30,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 34 iterations, alpha=5.545e-03, previous alpha=5.475e-03, with an active set of 31 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 103
+            },
+            {
+              "target": "correlation",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 102,
+                "dual_newton_steps": 4,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 6,
+                "polish_gap_target": 2.7248616785115317e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.014622999995481223,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.04219948613305656,
+                "dual_objective": 0.04219948613305653,
+                "independently_computed_dual_gap": 2.7755575615628914e-17,
+                "augmented_lasso_dual_gap": 2.377823480390405e-14,
+                "dual_certificate_hash": "eef765cb930310f4bc3aad8fc2cdc797c5c86b6e78f392ab6dba4125f19eaa2f",
+                "reported_dual_gap": 1.2046969075689005e-29,
+                "dual_gap_tolerance": 2.7248616785115316e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.7692797205181777e-18,
+                "kkt_max": 4.0064522879856845e-15,
+                "intercept_only_objective": 0.13624308392557657,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 102,
+              "dual_gap": 1.2046969075689005e-29,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 89
+            }
+          ],
+          "save_load_predict_exact": true,
+          "estimator_fit_calls": 7,
+          "elapsed_seconds": 1.064273800002411
+        },
+        {
+          "family": "elastic_net",
+          "task": "regression",
+          "market_id": "000985.SH",
+          "information_set": "M+Z",
+          "mode": "SMOKE_ONLY",
+          "stage": "development",
+          "fold_id": "2020-01",
+          "parameters": {
+            "l1_ratio": 0.05,
+            "tol": 0.0001,
+            "max_iter": 10000,
+            "alpha": 0.01
+          },
+          "seed": 3060,
+          "backend": "cpu",
+          "versions": {
+            "runtime_version": "experiment-runtime-v2",
+            "contract_version": "model-io-v1",
+            "data_version": "5d57508f09249cf50b1a2e52",
+            "feature_version": "6d50d9efbc48040f0912",
+            "target_version": "f49e499c375fa557fcb0",
+            "dictionary_version": "76bf6837dc5e32262c99",
+            "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+            "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+            "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+            "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+            "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+            "config_hash": "3731461d2b133565ed7d898a6d7262e9b3ec342e61b40e1d662b4183ff8971c4"
+          },
+          "purpose": "SMOKE_ONLY",
+          "model_version": "2d6b42d98d760e365f2a9a0f4ce086ba328b1a97323a0ce729f199075a589873",
+          "input": {
+            "train": {
+              "rows": 251,
+              "features": 556,
+              "max_abs": 15.8113883008419,
+              "max_row_norm2": 2140.9631352526153,
+              "large_value_columns": []
+            },
+            "prediction": {
+              "rows": 4,
+              "features": 556,
+              "max_abs": 27.235632838299487,
+              "max_row_norm2": 1026.705069496711,
+              "large_value_columns": []
+            }
+          },
+          "diagnostics": [
+            {
+              "target": "return",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 92,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 7,
+                "polish_gap_target": 1.497211373333847e-06,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.036208999998052604,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.0958858583676095,
+                "dual_objective": 0.09588585836760953,
+                "independently_computed_dual_gap": -2.7755575615628914e-17,
+                "augmented_lasso_dual_gap": 9.744484988725915e-14,
+                "dual_certificate_hash": "6ca1d255caea634ea9deab4bb485912ede5a28d6c33859f4e5b5be9bbd2981f1",
+                "reported_dual_gap": 1.6244212139894326e-29,
+                "dual_gap_tolerance": 0.0001497211373333847,
+                "roundoff_allowance": 3.324477078811776e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.9462076925699956e-17,
+                "kkt_max": 3.693334700571871e-15,
+                "intercept_only_objective": 0.7486056866669234,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 92,
+              "dual_gap": 1.6244212139894326e-29,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 92 iterations, alpha=5.607e-03, previous alpha=5.594e-03, with an active set of 75 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 248
+            },
+            {
+              "target": "volatility",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 134,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 8,
+                "polish_gap_target": 8.100452243546633e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.030921700003091246,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.026002124371268462,
+                "dual_objective": 0.026002105363973103,
+                "independently_computed_dual_gap": 1.900729535916912e-08,
+                "augmented_lasso_dual_gap": 0.002368221039514312,
+                "dual_certificate_hash": "6582f1f630e5b5e6c1204572fe750341a1a83ef73a9f05fbdde7c99fd6c7efaa",
+                "reported_dual_gap": 1.9007295366334832e-08,
+                "dual_gap_tolerance": 8.100452243546633e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 7.696366784254074e-17,
+                "kkt_max": 0.00017349041766642157,
+                "intercept_only_objective": 0.40502261217733165,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 134,
+              "dual_gap": 1.9007295366334832e-08,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 134 iterations, alpha=1.558e-03, previous alpha=1.555e-03, with an active set of 115 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 210
+            },
+            {
+              "target": "drawdown",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 233,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 7,
+                "polish_gap_target": 2.302249202910609e-06,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.05130019999342039,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.11558264735410242,
+                "dual_objective": 0.11558264735410242,
+                "independently_computed_dual_gap": 0.0,
+                "augmented_lasso_dual_gap": 3.791495669881634e-13,
+                "dual_certificate_hash": "ac5479b7bbf0a1a3297a402069a454f2783364c753d52a5b4bd21faa4c53594a",
+                "reported_dual_gap": 1.2403857373435803e-28,
+                "dual_gap_tolerance": 0.0002302249202910609,
+                "roundoff_allowance": 5.112020146992544e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 2.211599650647722e-17,
+                "kkt_max": 1.2763227974499358e-14,
+                "intercept_only_objective": 1.1511246014553045,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 233,
+              "dual_gap": 1.2403857373435803e-28,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 233 iterations, alpha=4.785e-04, previous alpha=4.781e-04, with an active set of 188 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 239
+            },
+            {
+              "target": "amihud",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 142,
+                "dual_newton_steps": 10,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 15,
+                "polish_gap_target": 2.5265527000553074e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.04118749999906868,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.011940056648276269,
+                "dual_objective": 0.011940056648276274,
+                "independently_computed_dual_gap": -5.204170427930421e-18,
+                "augmented_lasso_dual_gap": 9.6894603894178e-15,
+                "dual_certificate_hash": "fc7d1dfc0369031a636f437b53cab009cb8e79f7eb9e34bca36c6e065ba15f20",
+                "reported_dual_gap": 2.5953186676892028e-30,
+                "dual_gap_tolerance": 2.5265527000553073e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.5647067528332636e-17,
+                "kkt_max": 1.376828338839342e-15,
+                "intercept_only_objective": 0.12632763500276536,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 142,
+              "dual_gap": 2.5953186676892028e-30,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 142 iterations, alpha=8.716e-04, previous alpha=8.552e-04, with an active set of 113 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 202
+            },
+            {
+              "target": "turnover",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 233,
+                "dual_newton_steps": 8,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 11,
+                "polish_gap_target": 7.792061749353164e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.05311079999955837,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.01260482585539144,
+                "dual_objective": 0.01260482585539144,
+                "independently_computed_dual_gap": 0.0,
+                "augmented_lasso_dual_gap": 9.450607627147846e-15,
+                "dual_certificate_hash": "ca0d432397e74b4bbcd8159836fc48c6fde7e0e9759657d1ae2010df62eb255f",
+                "reported_dual_gap": 2.8903563645910687e-30,
+                "dual_gap_tolerance": 7.792061749353163e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 4.091459353698286e-18,
+                "kkt_max": 1.4010060472857688e-15,
+                "intercept_only_objective": 0.38960308746765815,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 233,
+              "dual_gap": 2.8903563645910687e-30,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 233 iterations, alpha=1.864e-04, previous alpha=1.863e-04, with an active set of 186 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 206
+            },
+            {
+              "target": "breadth",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 256,
+                "dual_newton_steps": 8,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 15,
+                "polish_gap_target": 3.1719972251471747e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.059750699991127476,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.023664751396396677,
+                "dual_objective": 0.023664751396396684,
+                "independently_computed_dual_gap": -6.938893903907228e-18,
+                "augmented_lasso_dual_gap": 1.7995344037390386e-14,
+                "dual_certificate_hash": "1c5015248499a771bbb477d197a67bccf7f55c882b49cdf3d5ba4479bcd1e766",
+                "reported_dual_gap": 4.455990686701974e-30,
+                "dual_gap_tolerance": 3.171997225147175e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 2.6096875877643123e-17,
+                "kkt_max": 2.0690914259713367e-15,
+                "intercept_only_objective": 0.15859986125735873,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 256,
+              "dual_gap": 4.455990686701974e-30,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 204
+            },
+            {
+              "target": "correlation",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 156,
+                "dual_newton_steps": 6,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 10,
+                "polish_gap_target": 2.7248616785115317e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.038692199988872744,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.018478086125286397,
+                "dual_objective": 0.018478086125286394,
+                "independently_computed_dual_gap": 3.469446951953614e-18,
+                "augmented_lasso_dual_gap": 9.432030190082406e-15,
+                "dual_certificate_hash": "709ea416b4c0a39b2a531d0784a77f3a39be7686a53377264f5f375fff0d9098",
+                "reported_dual_gap": 3.5510405430460376e-30,
+                "dual_gap_tolerance": 2.7248616785115316e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 2.078903671608859e-17,
+                "kkt_max": 1.4430730915782064e-15,
+                "intercept_only_objective": 0.13624308392557657,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 156,
+              "dual_gap": 3.5510405430460376e-30,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 156 iterations, alpha=7.577e-04, previous alpha=7.544e-04, with an active set of 121 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 196
+            }
+          ],
+          "save_load_predict_exact": true,
+          "estimator_fit_calls": 7,
+          "elapsed_seconds": 0.9415775000088615
+        }
+      ]
+    },
+    "parallel": {
+      "workers": 2,
+      "threads_per_task": 1,
+      "elapsed_seconds": 4.752347899993765,
+      "cold_first_four_seconds": 4.75234449999698,
+      "remaining_warm_pool_seconds": 3.3999967854470015e-06,
+      "coordinator_cpu_seconds": 2.515625,
+      "coordinator_peak_rss_bytes": 295886848,
+      "per_solver_process": {
+        "17748": {
+          "peak_rss_bytes": 275738624,
+          "cpu_seconds": 3.5625
+        },
+        "25364": {
+          "peak_rss_bytes": 288256000,
+          "cpu_seconds": 4.03125
+        }
+      },
+      "memory_measurement": "OS per-process high-water RSS; not summed as a simultaneous system peak",
+      "successful_monthly_tasks": 4,
+      "estimator_fit_calls": 16,
+      "cache_hits_by_process": {
+        "17748": 0,
+        "25364": 0
+      },
+      "resume_reused_all_without_fit": true,
+      "checks": [
+        {
+          "family": "elastic_net",
+          "task": "classification",
+          "market_id": "000985.SH",
+          "information_set": "M",
+          "mode": "SMOKE_ONLY",
+          "stage": "development",
+          "fold_id": "2020-01",
+          "parameters": {
+            "l1_ratio": 0.05,
+            "tol": 0.0001,
+            "max_iter": 10000,
+            "C": 0.0001
+          },
+          "seed": 3060,
+          "backend": "cpu",
+          "versions": {
+            "runtime_version": "experiment-runtime-v2",
+            "contract_version": "model-io-v1",
+            "data_version": "5d57508f09249cf50b1a2e52",
+            "feature_version": "6d50d9efbc48040f0912",
+            "target_version": "f49e499c375fa557fcb0",
+            "dictionary_version": "76bf6837dc5e32262c99",
+            "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+            "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+            "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+            "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+            "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+            "config_hash": "3731461d2b133565ed7d898a6d7262e9b3ec342e61b40e1d662b4183ff8971c4"
+          },
+          "purpose": "SMOKE_ONLY",
+          "model_version": "028c17baec7b2e2f4b2098f3d8d9b788b219acee85dffa96cb622f41dba076b8",
+          "input": {
+            "train": {
+              "rows": 251,
+              "features": 207,
+              "max_abs": 6.178024085329783,
+              "max_row_norm2": 725.4658248858324,
+              "large_value_columns": []
+            },
+            "prediction": {
+              "rows": 4,
+              "features": 207,
+              "max_abs": 1.8357710746338918,
+              "max_row_norm2": 72.22605044084553,
+              "large_value_columns": []
+            }
+          },
+          "diagnostics": [
+            {
+              "target": "classification",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "saga",
+              "solver_mapping": null,
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": 0.0001,
+              "elapsed_seconds": 0.003686099997139536,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "classes": [
+                  0,
+                  1,
+                  2
+                ],
+                "empirical_frequency": [
+                  0.06374501992031872,
+                  0.8565737051792829,
+                  0.0796812749003984
+                ],
+                "weighted_frequency": [
+                  0.06374501992031872,
+                  0.8565737051792829,
+                  0.0796812749003984
+                ],
+                "mean_probability": [
+                  0.06422777497532542,
+                  0.8570775313628959,
+                  0.07869469366178422
+                ],
+                "intercept_residual": [
+                  0.00048275505500666906,
+                  0.0005038261836074599,
+                  -0.000986581238614284
+                ],
+                "max_intercept_residual": 0.000986581238614284,
+                "training_log_loss": 0.5096712596095863,
+                "objective": 0.5096712596095863,
+                "intercept_only_objective": 0.5096631340546371,
+                "objective_excess": 8.125554949112157e-06,
+                "objective_slack": 0.0001,
+                "kkt_max": 0.0,
+                "gradient_tolerance": 0.001,
+                "objective_definition": "mean(weighted NLL) + (l1_ratio*L1 + (1-l1_ratio)*L2_squared/2)/(C*n)",
+                "intercept": [
+                  -0.9314108709348436,
+                  1.6596817627536047,
+                  -0.7282708918187594
+                ]
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "frequency_intercept_start",
+              "n_iter": [
+                1
+              ],
+              "dual_gap": [],
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 0
+            }
+          ],
+          "save_load_predict_exact": true,
+          "estimator_fit_calls": 1,
+          "elapsed_seconds": 0.636238900013268
+        },
+        {
+          "family": "elastic_net",
+          "task": "classification",
+          "market_id": "000985.SH",
+          "information_set": "M+Z",
+          "mode": "SMOKE_ONLY",
+          "stage": "development",
+          "fold_id": "2020-01",
+          "parameters": {
+            "l1_ratio": 0.05,
+            "tol": 0.0001,
+            "max_iter": 10000,
+            "C": 0.0001
+          },
+          "seed": 3060,
+          "backend": "cpu",
+          "versions": {
+            "runtime_version": "experiment-runtime-v2",
+            "contract_version": "model-io-v1",
+            "data_version": "5d57508f09249cf50b1a2e52",
+            "feature_version": "6d50d9efbc48040f0912",
+            "target_version": "f49e499c375fa557fcb0",
+            "dictionary_version": "76bf6837dc5e32262c99",
+            "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+            "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+            "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+            "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+            "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+            "config_hash": "3731461d2b133565ed7d898a6d7262e9b3ec342e61b40e1d662b4183ff8971c4"
+          },
+          "purpose": "SMOKE_ONLY",
+          "model_version": "e32aa5af4c6706024fc1cde1ee176158022ab92c0c9127e4db38af4de45c664c",
+          "input": {
+            "train": {
+              "rows": 251,
+              "features": 556,
+              "max_abs": 15.8113883008419,
+              "max_row_norm2": 2140.9631352526153,
+              "large_value_columns": []
+            },
+            "prediction": {
+              "rows": 4,
+              "features": 556,
+              "max_abs": 27.235632838299487,
+              "max_row_norm2": 1026.705069496711,
+              "large_value_columns": []
+            }
+          },
+          "diagnostics": [
+            {
+              "target": "classification",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "saga",
+              "solver_mapping": null,
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": 0.0001,
+              "elapsed_seconds": 0.005796299999929033,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "classes": [
+                  0,
+                  1,
+                  2
+                ],
+                "empirical_frequency": [
+                  0.06374501992031872,
+                  0.8565737051792829,
+                  0.0796812749003984
+                ],
+                "weighted_frequency": [
+                  0.06374501992031872,
+                  0.8565737051792829,
+                  0.0796812749003984
+                ],
+                "mean_probability": [
+                  0.06393193459896765,
+                  0.8567718133332961,
+                  0.07929625206773602
+                ],
+                "intercept_residual": [
+                  0.00018691467864900962,
+                  0.00019810815401314383,
+                  -0.00038502283266221896
+                ],
+                "max_intercept_residual": 0.00038502283266221896,
+                "training_log_loss": 0.5096643636933255,
+                "objective": 0.5096643636933255,
+                "intercept_only_objective": 0.5096631340546371,
+                "objective_excess": 1.2296386883159371e-06,
+                "objective_slack": 0.0001,
+                "kkt_max": 0.0,
+                "gradient_tolerance": 0.001,
+                "objective_definition": "mean(weighted NLL) + (l1_ratio*L1 + (1-l1_ratio)*L2_squared/2)/(C*n)",
+                "intercept": [
+                  -0.9369081649183766,
+                  1.6584444605426527,
+                  -0.7215362956242765
+                ]
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "frequency_intercept_start",
+              "n_iter": [
+                1
+              ],
+              "dual_gap": [],
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 0
+            }
+          ],
+          "save_load_predict_exact": true,
+          "estimator_fit_calls": 1,
+          "elapsed_seconds": 0.7309636999998474
+        },
+        {
+          "family": "elastic_net",
+          "task": "regression",
+          "market_id": "000985.SH",
+          "information_set": "M",
+          "mode": "SMOKE_ONLY",
+          "stage": "development",
+          "fold_id": "2020-01",
+          "parameters": {
+            "l1_ratio": 0.05,
+            "tol": 0.0001,
+            "max_iter": 10000,
+            "alpha": 0.01
+          },
+          "seed": 3060,
+          "backend": "cpu",
+          "versions": {
+            "runtime_version": "experiment-runtime-v2",
+            "contract_version": "model-io-v1",
+            "data_version": "5d57508f09249cf50b1a2e52",
+            "feature_version": "6d50d9efbc48040f0912",
+            "target_version": "f49e499c375fa557fcb0",
+            "dictionary_version": "76bf6837dc5e32262c99",
+            "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+            "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+            "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+            "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+            "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+            "config_hash": "3731461d2b133565ed7d898a6d7262e9b3ec342e61b40e1d662b4183ff8971c4"
+          },
+          "purpose": "SMOKE_ONLY",
+          "model_version": "e6ab1da763f1ed15f84735879d1999c3bf424d8f89b58633de6fe195c80aba54",
+          "input": {
+            "train": {
+              "rows": 251,
+              "features": 207,
+              "max_abs": 6.178024085329783,
+              "max_row_norm2": 725.4658248858324,
+              "large_value_columns": []
+            },
+            "prediction": {
+              "rows": 4,
+              "features": 207,
+              "max_abs": 1.8357710746338918,
+              "max_row_norm2": 72.22605044084553,
+              "large_value_columns": []
+            }
+          },
+          "diagnostics": [
+            {
+              "target": "return",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 129,
+                "dual_newton_steps": 4,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 2,
+                "polish_gap_target": 1.497211373333847e-06,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.020501899998635054,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.26450030973903926,
+                "dual_objective": 0.2645003097390394,
+                "independently_computed_dual_gap": -1.1102230246251565e-16,
+                "augmented_lasso_dual_gap": 1.0663802731507161e-13,
+                "dual_certificate_hash": "60be71ef069dca3959bbb26c14e6ee9d1b9afe1b719bdfd4086fdd656c6af698",
+                "reported_dual_gap": 3.248150217777003e-29,
+                "dual_gap_tolerance": 0.0001497211373333847,
+                "roundoff_allowance": 3.324477078811776e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.1765710141445881e-16,
+                "kkt_max": 3.819427413231935e-15,
+                "intercept_only_objective": 0.7486056866669234,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 129,
+              "dual_gap": 3.248150217777003e-29,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 105
+            },
+            {
+              "target": "volatility",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 78,
+                "dual_newton_steps": 3,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 4,
+                "polish_gap_target": 8.100452243546633e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.010108100002980791,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.05911647311071025,
+                "dual_objective": 0.05911647311071024,
+                "independently_computed_dual_gap": 6.938893903907228e-18,
+                "augmented_lasso_dual_gap": 4.043334945300192e-14,
+                "dual_certificate_hash": "412eab26d9050e3caa3b48846fa1fa1e66a27c8ead91fe930805f1d675fba82b",
+                "reported_dual_gap": 1.454464667844175e-29,
+                "dual_gap_tolerance": 8.100452243546633e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 2.7423835668031755e-17,
+                "kkt_max": 4.595065647428065e-15,
+                "intercept_only_objective": 0.40502261217733165,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 78,
+              "dual_gap": 1.454464667844175e-29,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 78 iterations, alpha=1.287e-03, previous alpha=1.285e-03, with an active set of 63 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 102
+            },
+            {
+              "target": "drawdown",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 123,
+                "dual_newton_steps": 3,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 2,
+                "polish_gap_target": 2.302249202910609e-06,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.0154575000051409,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.2809363021583616,
+                "dual_objective": 0.2809363021583614,
+                "independently_computed_dual_gap": 1.6653345369377348e-16,
+                "augmented_lasso_dual_gap": 1.3790473853606884e-13,
+                "dual_certificate_hash": "a941cbecc2e34f50fdb98c56628b74c45a641347fd498f5cbb2730601b36e1d3",
+                "reported_dual_gap": 3.390077788514787e-29,
+                "dual_gap_tolerance": 0.0002302249202910609,
+                "roundoff_allowance": 5.112020146992544e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.7781261191207685e-16,
+                "kkt_max": 5.789639601072594e-15,
+                "intercept_only_objective": 1.1511246014553045,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 123,
+              "dual_gap": 3.390077788514787e-29,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 107
+            },
+            {
+              "target": "amihud",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 119,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 7,
+                "polish_gap_target": 2.5265527000553074e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.016107799994642846,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.029703967668053194,
+                "dual_objective": 0.02970396766805321,
+                "independently_computed_dual_gap": -1.734723475976807e-17,
+                "augmented_lasso_dual_gap": 1.3550913379448723e-14,
+                "dual_certificate_hash": "a1f0e275355116ea52e543065f8a6948060bb8cf7b68d7b0117d1ec88f80765b",
+                "reported_dual_gap": 4.5511565632946205e-30,
+                "dual_gap_tolerance": 2.5265527000553073e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.7692797205181777e-17,
+                "kkt_max": 2.566523382707686e-15,
+                "intercept_only_objective": 0.12632763500276536,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 119,
+              "dual_gap": 4.5511565632946205e-30,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 93
+            },
+            {
+              "target": "turnover",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 101,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 6,
+                "polish_gap_target": 7.792061749353164e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.0182282000023406,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.035107722844946745,
+                "dual_objective": 0.035107722844946745,
+                "independently_computed_dual_gap": 0.0,
+                "augmented_lasso_dual_gap": 2.130920495392093e-14,
+                "dual_certificate_hash": "d8f274581492a11f176694233ba9be9e11146f04170c66f84e7e6b7a8228e3ab",
+                "reported_dual_gap": 7.351171515395017e-30,
+                "dual_gap_tolerance": 7.792061749353163e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 3.5385594410363554e-17,
+                "kkt_max": 3.0521375357639435e-15,
+                "intercept_only_objective": 0.38960308746765815,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 101,
+              "dual_gap": 7.351171515395017e-30,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 90
+            },
+            {
+              "target": "breadth",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 34,
+                "dual_newton_steps": 3,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 2,
+                "polish_gap_target": 3.1719972251471747e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.009911999994073994,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.06933302889828143,
+                "dual_objective": 0.0693330288982814,
+                "independently_computed_dual_gap": 2.7755575615628914e-17,
+                "augmented_lasso_dual_gap": 3.08739311230422e-14,
+                "dual_certificate_hash": "1090930b1727229b894193b1dfeb2fb63858937bf2bca354f01113ccd20c8aef",
+                "reported_dual_gap": 5.897284890294484e-30,
+                "dual_gap_tolerance": 3.171997225147175e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 4.423199301295444e-17,
+                "kkt_max": 2.7265516233665466e-15,
+                "intercept_only_objective": 0.15859986125735873,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 34,
+              "dual_gap": 5.897284890294484e-30,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 34 iterations, alpha=5.545e-03, previous alpha=5.475e-03, with an active set of 31 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 103
+            },
+            {
+              "target": "correlation",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 458,
+                "mapped_lasso_alpha": 0.00027401746724890834,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 1.8247011952191234,
+                "path_iterations": 102,
+                "dual_newton_steps": 4,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 6,
+                "polish_gap_target": 2.7248616785115317e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.015178700006799772,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.04219948613305656,
+                "dual_objective": 0.04219948613305653,
+                "independently_computed_dual_gap": 2.7755575615628914e-17,
+                "augmented_lasso_dual_gap": 2.377823480390405e-14,
+                "dual_certificate_hash": "eef765cb930310f4bc3aad8fc2cdc797c5c86b6e78f392ab6dba4125f19eaa2f",
+                "reported_dual_gap": 1.2046969075689005e-29,
+                "dual_gap_tolerance": 2.7248616785115316e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.7692797205181777e-18,
+                "kkt_max": 4.0064522879856845e-15,
+                "intercept_only_objective": 0.13624308392557657,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 207,
+                "max_abs": 6.178024085329783,
+                "max_row_norm2": 725.4658248858324,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 102,
+              "dual_gap": 1.2046969075689005e-29,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 89
+            }
+          ],
+          "save_load_predict_exact": true,
+          "estimator_fit_calls": 7,
+          "elapsed_seconds": 0.9540520000009565
+        },
+        {
+          "family": "elastic_net",
+          "task": "regression",
+          "market_id": "000985.SH",
+          "information_set": "M+Z",
+          "mode": "SMOKE_ONLY",
+          "stage": "development",
+          "fold_id": "2020-01",
+          "parameters": {
+            "l1_ratio": 0.05,
+            "tol": 0.0001,
+            "max_iter": 10000,
+            "alpha": 0.01
+          },
+          "seed": 3060,
+          "backend": "cpu",
+          "versions": {
+            "runtime_version": "experiment-runtime-v2",
+            "contract_version": "model-io-v1",
+            "data_version": "5d57508f09249cf50b1a2e52",
+            "feature_version": "6d50d9efbc48040f0912",
+            "target_version": "f49e499c375fa557fcb0",
+            "dictionary_version": "76bf6837dc5e32262c99",
+            "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+            "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+            "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+            "protocol_hash": "56b2af94ddc7bfc01da3c7a15c1da6f491324f69aa67c68901c9d8f40709b954",
+            "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+            "config_hash": "3731461d2b133565ed7d898a6d7262e9b3ec342e61b40e1d662b4183ff8971c4"
+          },
+          "purpose": "SMOKE_ONLY",
+          "model_version": "2d6b42d98d760e365f2a9a0f4ce086ba328b1a97323a0ce729f199075a589873",
+          "input": {
+            "train": {
+              "rows": 251,
+              "features": 556,
+              "max_abs": 15.8113883008419,
+              "max_row_norm2": 2140.9631352526153,
+              "large_value_columns": []
+            },
+            "prediction": {
+              "rows": 4,
+              "features": 556,
+              "max_abs": 27.235632838299487,
+              "max_row_norm2": 1026.705069496711,
+              "large_value_columns": []
+            }
+          },
+          "diagnostics": [
+            {
+              "target": "return",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 92,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 7,
+                "polish_gap_target": 1.497211373333847e-06,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.039315200003329664,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.0958858583676095,
+                "dual_objective": 0.09588585836760953,
+                "independently_computed_dual_gap": -2.7755575615628914e-17,
+                "augmented_lasso_dual_gap": 9.744484988725915e-14,
+                "dual_certificate_hash": "6ca1d255caea634ea9deab4bb485912ede5a28d6c33859f4e5b5be9bbd2981f1",
+                "reported_dual_gap": 1.6244212139894326e-29,
+                "dual_gap_tolerance": 0.0001497211373333847,
+                "roundoff_allowance": 3.324477078811776e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.9462076925699956e-17,
+                "kkt_max": 3.693334700571871e-15,
+                "intercept_only_objective": 0.7486056866669234,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 92,
+              "dual_gap": 1.6244212139894326e-29,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 92 iterations, alpha=5.607e-03, previous alpha=5.594e-03, with an active set of 75 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 248
+            },
+            {
+              "target": "volatility",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 134,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 8,
+                "polish_gap_target": 8.100452243546633e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.034065699990605935,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.026002124371268462,
+                "dual_objective": 0.026002105363973103,
+                "independently_computed_dual_gap": 1.900729535916912e-08,
+                "augmented_lasso_dual_gap": 0.002368221039514312,
+                "dual_certificate_hash": "6582f1f630e5b5e6c1204572fe750341a1a83ef73a9f05fbdde7c99fd6c7efaa",
+                "reported_dual_gap": 1.9007295366334832e-08,
+                "dual_gap_tolerance": 8.100452243546633e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 7.696366784254074e-17,
+                "kkt_max": 0.00017349041766642157,
+                "intercept_only_objective": 0.40502261217733165,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 134,
+              "dual_gap": 1.9007295366334832e-08,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 134 iterations, alpha=1.558e-03, previous alpha=1.555e-03, with an active set of 115 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 210
+            },
+            {
+              "target": "drawdown",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 233,
+                "dual_newton_steps": 5,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 7,
+                "polish_gap_target": 2.302249202910609e-06,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.060442100002546795,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.11558264735410242,
+                "dual_objective": 0.11558264735410242,
+                "independently_computed_dual_gap": 0.0,
+                "augmented_lasso_dual_gap": 3.791495669881634e-13,
+                "dual_certificate_hash": "ac5479b7bbf0a1a3297a402069a454f2783364c753d52a5b4bd21faa4c53594a",
+                "reported_dual_gap": 1.2403857373435803e-28,
+                "dual_gap_tolerance": 0.0002302249202910609,
+                "roundoff_allowance": 5.112020146992544e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 2.211599650647722e-17,
+                "kkt_max": 1.2763227974499358e-14,
+                "intercept_only_objective": 1.1511246014553045,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 233,
+              "dual_gap": 1.2403857373435803e-28,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 233 iterations, alpha=4.785e-04, previous alpha=4.781e-04, with an active set of 188 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 239
+            },
+            {
+              "target": "amihud",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 142,
+                "dual_newton_steps": 10,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 15,
+                "polish_gap_target": 2.5265527000553074e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.04309950000606477,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.011940056648276269,
+                "dual_objective": 0.011940056648276274,
+                "independently_computed_dual_gap": -5.204170427930421e-18,
+                "augmented_lasso_dual_gap": 9.6894603894178e-15,
+                "dual_certificate_hash": "fc7d1dfc0369031a636f437b53cab009cb8e79f7eb9e34bca36c6e065ba15f20",
+                "reported_dual_gap": 2.5953186676892028e-30,
+                "dual_gap_tolerance": 2.5265527000553073e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 1.5647067528332636e-17,
+                "kkt_max": 1.376828338839342e-15,
+                "intercept_only_objective": 0.12632763500276536,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 142,
+              "dual_gap": 2.5953186676892028e-30,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 142 iterations, alpha=8.716e-04, previous alpha=8.552e-04, with an active set of 113 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 202
+            },
+            {
+              "target": "turnover",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 233,
+                "dual_newton_steps": 8,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 11,
+                "polish_gap_target": 7.792061749353164e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.06053519999841228,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.01260482585539144,
+                "dual_objective": 0.01260482585539144,
+                "independently_computed_dual_gap": 0.0,
+                "augmented_lasso_dual_gap": 9.450607627147846e-15,
+                "dual_certificate_hash": "ca0d432397e74b4bbcd8159836fc48c6fde7e0e9759657d1ae2010df62eb255f",
+                "reported_dual_gap": 2.8903563645910687e-30,
+                "dual_gap_tolerance": 7.792061749353163e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 4.091459353698286e-18,
+                "kkt_max": 1.4010060472857688e-15,
+                "intercept_only_objective": 0.38960308746765815,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 233,
+              "dual_gap": 2.8903563645910687e-30,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 233 iterations, alpha=1.864e-04, previous alpha=1.863e-04, with an active set of 186 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 206
+            },
+            {
+              "target": "breadth",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 256,
+                "dual_newton_steps": 8,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 15,
+                "polish_gap_target": 3.1719972251471747e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": false,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.05723079999734182,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.023664751396396677,
+                "dual_objective": 0.023664751396396684,
+                "independently_computed_dual_gap": -6.938893903907228e-18,
+                "augmented_lasso_dual_gap": 1.7995344037390386e-14,
+                "dual_certificate_hash": "1c5015248499a771bbb477d197a67bccf7f55c882b49cdf3d5ba4479bcd1e766",
+                "reported_dual_gap": 4.455990686701974e-30,
+                "dual_gap_tolerance": 3.171997225147175e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 2.6096875877643123e-17,
+                "kkt_max": 2.0690914259713367e-15,
+                "intercept_only_objective": 0.15859986125735873,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 256,
+              "dual_gap": 4.455990686701974e-30,
+              "numerical_failure": false,
+              "warnings": [],
+              "converged": true,
+              "nonzero": 204
+            },
+            {
+              "target": "correlation",
+              "attempt": 1,
+              "max_iter": 10000,
+              "solver": "exact_elastic_net_via_augmented_lasso_lars",
+              "solver_mapping": {
+                "original_rows": 251,
+                "augmented_rows": 807,
+                "mapped_lasso_alpha": 0.00015551425030978938,
+                "original_alpha": 0.01,
+                "l1_ratio": 0.05,
+                "objective_multiplier": 3.2151394422310755,
+                "path_iterations": 156,
+                "dual_newton_steps": 6,
+                "dual_newton_limit": 200,
+                "line_search_reductions": 10,
+                "polish_gap_target": 2.7248616785115317e-07,
+                "dual_gap_source": "fenchel_dual_gradient_identity"
+              },
+              "preliminary_convergence_warning_resolved": true,
+              "solver_tolerance": null,
+              "elapsed_seconds": 0.04098240000894293,
+              "quality": {
+                "version": "elastic-optimality-v3",
+                "accepted": true,
+                "primal_objective": 0.018478086125286397,
+                "dual_objective": 0.018478086125286394,
+                "independently_computed_dual_gap": 3.469446951953614e-18,
+                "augmented_lasso_dual_gap": 9.432030190082406e-15,
+                "dual_certificate_hash": "709ea416b4c0a39b2a531d0784a77f3a39be7686a53377264f5f375fff0d9098",
+                "reported_dual_gap": 3.5510405430460376e-30,
+                "dual_gap_tolerance": 2.7248616785115316e-05,
+                "roundoff_allowance": 2.220446049250313e-14,
+                "reported_dual_gap_available": true,
+                "intercept_residual": 2.078903671608859e-17,
+                "kkt_max": 1.4430730915782064e-15,
+                "intercept_only_objective": 0.13624308392557657,
+                "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+              },
+              "input": {
+                "rows": 251,
+                "features": 556,
+                "max_abs": 15.8113883008419,
+                "max_row_norm2": 2140.9631352526153,
+                "large_value_columns": []
+              },
+              "remedy": "equivalent_augmented_lars",
+              "n_iter": 156,
+              "dual_gap": 3.5510405430460376e-30,
+              "numerical_failure": false,
+              "warnings": [
+                {
+                  "category": "ConvergenceWarning",
+                  "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 156 iterations, alpha=7.577e-04, previous alpha=7.544e-04, with an active set of 121 regressors."
+                }
+              ],
+              "converged": true,
+              "nonzero": 196
+            }
+          ],
+          "save_load_predict_exact": true,
+          "estimator_fit_calls": 7,
+          "elapsed_seconds": 1.2533814000053098
+        }
+      ]
+    },
+    "prediction_max_differences": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "candidate_ranking_equal": true,
+    "ranking_hash": "18ccd765ec6a2f7a22651df26ea2502219e48e13af44d98705c37acf2d8084e5",
+    "total_speedup": 0.9311319148176616,
+    "warm_pool_speedup": null,
+    "status": "PASSED",
+    "predictions_retained": false,
+    "model_weights_retained": false
+  },
+  "formal_BC_started": false,
+  "offline_wheels_installed": 37
+}

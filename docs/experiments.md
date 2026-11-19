@@ -1,6 +1,6 @@
 # 公共实验运行器、Elastic Net 与 RBF-SVM
 
-状态：**IMPLEMENTED**。本轮构建不运行真实监督训练、参数搜索、校准、smoke 或正式实验；没有预测成绩或宏观增益结论。下列带 `--execute` 的命令供同伴之后明确启动。
+状态：**IMPLEMENTED**。普通构建、plan/preflight/pytest/package不会隐式启动真实训练。2026-11-19数值优化另做显式小规模真实技术验收，记录位于reports/model_build/elastic_net/optimization_20261119/；本轮不重跑正式完整B+C，不产生新版研究效果结论。下列正式带 `--execute` 的命令供同伴之后明确启动。
 
 RBF-SVM已实现，详细校准、搜索、资源和交接规则见[第二模型说明](rbf_svm.md)。以下保留Elastic Net原入口；SVM使用`--model rbf_svm --config config/experiments/rbf_svm.yaml`，或`launchers/rbf_svm/START_WINDOWS.cmd` / `START_LINUX.sh`。
 
@@ -34,7 +34,7 @@ Linux：`bash launchers/run_elastic_net.sh`。这两个启动器均主动授权�
 bash launchers/run_elastic_net.sh --data-root /mnt/research/market_state --output-root /mnt/results --cpu-threads 4
 ```
 
-`data_root` 指含 `feature_sets.json` 和 `release/seal.json` 的研究数据目录；它始终只读。公共调度支持Windows/Linux spawn外层多进程（`--cpu-workers`）；Elastic Net原配置仍默认单worker，SVM默认0按CPU与内存选择1..8。每任务线程通过threadpoolctl控制，回归七目标串行，核缓存和变换LRU有上限。物理fit租约去重、原子提交，协调进程稳定更新公共清单；不启用目标层嵌套并行。默认变换缓存上限2个市场/任务/月上下文、结果预算40GiB、至少2GiB空余；触限报错，不清理数据或静默减少实验。Elastic Net仅CPU，不自动切换GPU或库。
+`data_root` 指含 `feature_sets.json` 和 `release/seal.json` 的研究数据目录；它始终只读。公共调度支持Windows/Linux spawn外层多进程（`--cpu-workers`）；Elastic Net优化配置默认0自动选择worker，SVM默认0按CPU与内存选择1..8。每任务线程通过threadpoolctl控制，回归七目标串行，核缓存和变换LRU有上限。物理fit租约去重、原子提交，协调进程稳定更新公共清单；不启用目标层嵌套并行。默认变换缓存上限2个市场/任务/月上下文、结果预算40GiB、至少2GiB空余；触限报错，不清理数据或静默减少实验。Elastic Net仅CPU，不自动切换GPU或库。
 
 ## 正式范围与预定规则
 
@@ -44,7 +44,7 @@ bash launchers/run_elastic_net.sh --data-root /mnt/research/market_state --outpu
 - 每家族核心16组（四市场×两任务×M/M+Z）；`full`另含 `fixed_full_params` 的96组（四市场×两任务×12信息集），共112个带模式的分析配置。固定模式使用对应M+Z开发获胜参数，重新拟合所有信息集的权重。组加入对同模式M，组删除对同模式M+Z。
 - 每个核心组32个预生成候选，2020—2022每年1/4/7/10月粗搜索；前4名复核全部36月。候选采用完整端点的对数均匀覆盖和固定种子的混合比例分配：分类C为1e-4至1e4，回归alpha为1e-5至10，l1_ratio为0.05/0.25/0.5/0.75/0.95/1。M/M+Z的候选和预算相同。
 - 分类按Log Loss选参，回归按初始固定尺度的五维等权平方损失选参；拼接实际评分周后平均，不把各月均分等权。只用完整复核分数决定最终参数。平局先更强收缩（更小C/更大alpha），再更小l1_ratio，最后candidate_id。
-- 筛选种子3060。选定分类配置用3060/3061/3062；cyclic回归确定性实现只运行3060，不重复相同结果。配对按同种子进行，再对同日期损失差平均；不把种子当额外样本或把平均损失称为概率集成。
+- 筛选种子3060。选定分类配置用3060/3061/3062；确定性回归实现只运行3060，不重复相同结果。配对按同种子进行，再对同日期损失差平均；不把种子当额外样本或把平均损失称为概率集成。
 - 某候选任一必需月份失败，整个候选无资格，不删除失败月份后改分母。粗搜索不足4个完整合法候选、完整复核没有合法候选时停止。数值错误立即失败；收敛最多按10,000→40,000迭代重试一次，外层任务最多2次固定尝试，不改种子或参数。所有失败、重试与告警保留；已锁定开发不会重新筛选失败候选。宏观增益负或分数低不触发重调。
 - 类别权重默认null；缺类显式 `zero_for_absent`，只在固定字典补缺席类的零概率；单类明确失败，无过采样。分类使用一维硬标签、原生概率、不校准。1.8.0的合法API为 `LogisticRegression(solver='saga', l1_ratio=...)`，不传已弃用的penalty、多项或n_jobs参数。七回归器共享alpha/l1_ratio，不使用MultiTaskElasticNet，不删除常数/小尺度目标。
 
@@ -103,7 +103,7 @@ python -m scripts.market_state.experiments lock --suite full --resume
 python -m scripts.market_state.experiments run --stage test --suite full --lock results/elastic_net/<run_id>/selection.lock.json --execute --resume
 ```
 
-独立真实smoke入口为 `python -m scripts.market_state.experiments smoke --config config/experiments/smoke.yaml --execute`，本轮调用次数0。它只保留简短技术检查摘要，临时权重/预测自动清理，无成绩表、排名或研究证据。正式报告拒绝SMOKE_ONLY/ARTIFICIAL_TEST_ONLY。
+独立真实smoke入口为 `python -m scripts.market_state.experiments smoke --config config/experiments/smoke.yaml --execute`。优化版另外使用显式technical --execute进行必要技术验收。它只保留简短技术检查摘要，临时权重/预测自动清理，无成绩表、排名或研究证据。正式报告拒绝SMOKE_ONLY/ARTIFICIAL_TEST_ONLY。
 
 smoke数据路径优先级为命令行`--data-root`、smoke配置中的`data_root`、公共正式配置的默认值；旧版或精简smoke配置缺少该字段也能正确解析。
 
@@ -118,3 +118,13 @@ package按选定model映射根启动文件，Elastic Net旧入口保持可用。
 交接包根目录另有`README_START_HERE.md`、`START_WINDOWS.cmd`和`START_LINUX.sh`。准备64位Python 3.11后，Windows双击cmd（Linux执行`bash START_LINUX.sh`）会自动创建独立venv、联网安装锁定依赖，再执行完整BC；不需要手工配置数据路径。启动这两个文件即授权真实训练，本轮仅检查脚本和解压后的非训练preflight。
 
 Random Forest、CatBoost在registry中明确未实现，调用直接报错。以后补充 `ModelAdapter.fit(X, y, FitContext)`、`predict(X, PredictionContext)`、能力声明、参数候选及保存加载/解释产物即可复用公共运行、评分、锁和报告；SVM训练内时间校准已接入；CatBoost训练内早停以后仍须按契约接入，不能复用外层评分Y。正式环境/真实求解器收敛、实际耗时与磁盘需求需同伴显式运行后确认；测试桩通过不证明真实模型效果或求解器已经跑通。
+
+## 2026-11-19 数值与运行优化
+
+公共输入已升级semantic-inputs-v2，原seal不变；需重验接口/pytest，旧run_id和开发锁不可复用。Elastic Net分类以训练频率截距可行解初始化SAGA，独立检查截距残差、惩罚目标和KKT。七目标回归保持原Elastic Net目标函数，以等价增广Lasso的LARS解初始化；必要时对含L2模型用Fenchel对偶半光滑Newton、纯L1用约束对偶QP精化。独立重算原坐标的primal/dual gap，保存训练行对偶证书及所有求解状态；优化器返回码不能代替证书验收。仍不合格时同参数/种子暖启动cyclic求解，第二次预算40k、tol收紧10倍，验收标准不放宽。模型权重身份按预测相关数值状态规范哈希，解决pickle布局差异。
+
+默认自动1..8个外层进程，每任务1线程。TaskScheduler有界派发，TaskRunner仍使用物理租约、原子产物和严格恢复；所有真实尝试记录墙钟时间与分类原因，复用不产生负重试。输入缓存包含训练身份、信息集和变换后的X/Xp，不缓存跨版本模型。每次启动记录实际代码、环境及资源。
+
+`CHECK_WINDOWS.cmd`仅完整性/环境/数据预检；`TECHNICAL_WINDOWS.cmd`显式执行短真实技术验收；`START_WINDOWS.cmd`继续授权完整full B→新锁→C。详细技术验收命令为 `python -m scripts.market_state.experiments.technical --execute`，产物SMOKE_ONLY，临时模型/预测自动清理，不进入研究汇总。普通pytest仍禁止真实监督拟合。Windows x64 Python3.11可使用随包wheels离线安装；包不包含Python解释器。
+
+报告区分core/full、数值等价及小于0.1%的相对损失效应，保留原始差值和Bootstrap，不凭精度级差值或argmax变化宣称预警增益。第一轮测试期已查看，修复后完整复算须披露这一事实。审计与实际技术结果集中于 reports/model_build/elastic_net/optimization_20261119/。

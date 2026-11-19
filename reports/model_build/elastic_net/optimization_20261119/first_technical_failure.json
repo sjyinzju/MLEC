@@ -1,0 +1,406 @@
+{
+  "purpose": "SMOKE_ONLY",
+  "research_evidence": false,
+  "formal_BC_started": false,
+  "quick": false,
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.3",
+      "lxml": "6.0.2",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.2",
+      "olefile": "0.47",
+      "tabulate": "0.9.0",
+      "pytest": "9.0.3",
+      "duckdb": "1.5.5",
+      "matplotlib": "3.10.8",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.6.0"
+    },
+    "backend": "cpu"
+  },
+  "cpu_logical": 14,
+  "available_workers": 1,
+  "original_seal_sha256": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+  "code": "8164d2cec8c8a7facc54c2b442b2465878a42baba530fc6b64f8f6d44525be86",
+  "design": [
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "task": "classification",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 0.0001
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "task": "classification",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 10000.0
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "task": "classification",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 0.0001
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "task": "classification",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 10000.0
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "task": "regression",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 1e-05
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "task": "regression",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.95,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 10.0
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "task": "regression",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 1e-05
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "task": "regression",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.95,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 10.0
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "task": "classification",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 0.0001
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "task": "classification",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 10000.0
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "task": "classification",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 0.0001
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "task": "classification",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 10000.0
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "task": "regression",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 1e-05
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "task": "regression",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.95,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 10.0
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "task": "regression",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 1e-05
+      }
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "task": "regression",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.95,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 10.0
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "task": "classification",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 0.0001
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "task": "classification",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 10000.0
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "task": "classification",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 0.0001
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "task": "classification",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "C": 10000.0
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "task": "regression",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 1e-05
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "task": "regression",
+      "information": "M",
+      "parameters": {
+        "l1_ratio": 0.95,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 10.0
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "task": "regression",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 1e-05
+      }
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "task": "regression",
+      "information": "M+Z",
+      "parameters": {
+        "l1_ratio": 0.95,
+        "tol": 0.0001,
+        "max_iter": 10000,
+        "alpha": 10.0
+      }
+    }
+  ],
+  "numerical_tolerances": {
+    "rtol": 1e-10,
+    "classification_atol": 1e-12,
+    "regression_atol": 1e-24
+  },
+  "input_scans": [
+    {
+      "market": "000985.SH",
+      "fold": "2020-01",
+      "rows": 251,
+      "features": 556,
+      "max_abs": 15.8113883008419,
+      "max_row_norm2": 2140.9631352526153,
+      "large_value_columns": []
+    },
+    {
+      "market": "000985.SH",
+      "fold": "2022-12",
+      "rows": 400,
+      "features": 562,
+      "max_abs": 19.97498435543819,
+      "max_row_norm2": 1581.695621298947,
+      "large_value_columns": []
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2020-01",
+      "rows": 251,
+      "features": 556,
+      "max_abs": 15.8113883008419,
+      "max_row_norm2": 2140.3139186574135,
+      "large_value_columns": []
+    },
+    {
+      "market": "000300.SH",
+      "fold": "2022-12",
+      "rows": 400,
+      "features": 562,
+      "max_abs": 19.97498435543819,
+      "max_row_norm2": 1622.6585388350152,
+      "large_value_columns": []
+    },
+    {
+      "market": "000905.SH",
+      "fold": "2020-01",
+      "rows": 251,
+      "features": 556,
+      "max_abs": 15.8113883008419,
+      "max_row_norm2": 2142.7292734556167,
+      "large_value_columns": []
+    },
+    {
+      "market": "000905.SH",
+      "fold": "2022-12",
+      "rows": 400,
+      "features": 562,
+      "max_abs": 19.97498435543819,
+      "max_row_norm2": 1578.2151801752275,
+      "large_value_columns": []
+    },
+    {
+      "market": "000852.SH",
+      "fold": "2020-01",
+      "rows": 251,
+      "features": 556,
+      "max_abs": 15.8113883008419,
+      "max_row_norm2": 2139.9968065409967,
+      "large_value_columns": []
+    },
+    {
+      "market": "000852.SH",
+      "fold": "2022-12",
+      "rows": 400,
+      "features": 562,
+      "max_abs": 19.97498435543819,
+      "max_row_norm2": 1589.499646735324,
+      "large_value_columns": []
+    }
+  ],
+  "status": "FAILED",
+  "error": "OSError: [WinError 145] 目录不是空的。: 'C:\\\\Users\\\\shiju\\\\AppData\\\\Local\\\\Packages\\\\openai.codex_2p2nqsd0c76g0\\\\AC\\\\#!sandbox.{b10b0c97-3089-48d3-b7d6-1605179fbb23}\\\\Temp\\\\mlec-technical-zcixynfh\\\\serial\\\\development\\\\fits\\\\092f7173e63292fe8c11be747a01e68151293277ebd3b51ae454a88653f1acb2\\\\model_package\\\\input'",
+  "diagnostics": []
+}

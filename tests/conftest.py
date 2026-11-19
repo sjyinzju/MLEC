@@ -12,17 +12,19 @@ import pytest
 @pytest.fixture(autouse=True)
 def prohibit_real_supervised_fit(monkeypatch):
     """Ordinary pytest is a non-training boundary, including future model tests."""
-    from sklearn.linear_model import LogisticRegression, ElasticNet, SGDClassifier, SGDRegressor
+    from sklearn.linear_model import LogisticRegression, ElasticNet, LassoLars, SGDClassifier, SGDRegressor
     from sklearn.svm import SVC, SVR
     from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
     from scripts.market_state.models.calibration import TimeSigmoid
+    from scripts.market_state.models.elastic_net import AugmentedLarsElasticNet
     def forbidden(*args, **kwargs):
         raise AssertionError('Real supervised fit/partial_fit is forbidden in ordinary pytest; use a non-learning stub')
-    for estimator in [LogisticRegression, ElasticNet, SGDClassifier, SGDRegressor, SVC, SVR,
+    for estimator in [LogisticRegression, ElasticNet, LassoLars, SGDClassifier, SGDRegressor, SVC, SVR,
                       RandomForestClassifier, RandomForestRegressor]:
         for name in ['fit', 'partial_fit']:
             if hasattr(estimator, name):monkeypatch.setattr(estimator,name,forbidden)
     monkeypatch.setattr(TimeSigmoid, 'optimize', forbidden)
+    monkeypatch.setattr(AugmentedLarsElasticNet, 'polish', forbidden)
 
 def pytest_sessionfinish(session,exitstatus):
     """Refresh formal interface test identity only for an unfiltered full suite."""

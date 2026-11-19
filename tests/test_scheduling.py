@@ -69,7 +69,8 @@ def test_spawn_and_serial_task_sets_stable_aggregation_dedup_resume(tmp_path):
                 information='M', fold='2020-05', parameters=params, seed=3060)
             # Bypass batch dedup deliberately: OS claims must still prevent double work.
             packets = list(pipeline.scheduler.pool.map(_worker_task, [(fresh, False)] * 4))
-            assert all(p['ok'] for p in packets)
+            failed = [p for p in packets if not p['ok']]
+            assert not failed, '\n'.join(p.get('traceback', p['message']) for p in failed)
             assert all(p['record']['files'] == packets[0]['record']['files'] for p in packets)
             assert all(p['record']['attempts'] == 1 for p in packets)
         pipeline.scheduler.close()
@@ -101,6 +102,19 @@ def test_interrupted_running_task_restarts_once_and_failed_io_is_preserved(tmp_p
     assert result['status'] == 'SUCCEEDED' and result['attempts'] == 2
     assert result['interrupted_fit_calls_unknown']
     assert result['estimator_fit_calls'] == 0
+    def alias(mode):
+        return pipeline.task(stage='development', mode=mode, market='000985.SH', task='classification',
+            information='M', fold='2020-01', parameters=params, seed=3060)
+    reused = pipeline.monthly(alias('fixed_full_params'))
+    assert reused['reused'] and reused['attempts'] == 2
+    from scripts.market_state.experiments.reports import retry_counts
+    assert retry_counts(reused)['task_retries'] == 1
+    artifact = pipeline.root / reused['artifact']
+    missing = artifact.with_name(artifact.name + '-missing')
+    assert artifact.resolve().is_relative_to(pipeline.root.resolve()) and missing.resolve().is_relative_to(pipeline.root.resolve())
+    artifact.rename(missing)
+    with pytest.raises(RuntimeError, match='artifact missing'):
+        pipeline.monthly(alias('retuned_core'))
 
 
 def test_resource_default_is_bounded_and_override_is_explicit(monkeypatch):
@@ -130,3 +144,30 @@ def test_physical_failure_budget_cannot_restart_through_an_analysis_alias(tmp_pa
     assert a['calibration_fit_calls'] == b['calibration_fit_calls'] == 2
     assert a['attempt_history'] == b['attempt_history']
     assert a['estimator_fit_calls'] == b['estimator_fit_calls'] == 0
+
+
+@pytest.mark.parametrize('error,kind,status', [
+    (OSError, 'IO', 'FAILED'), (MemoryError, 'RESOURCE', 'FAILED'),
+    (ValueError, 'CONTRACT', 'FAILED'), (KeyboardInterrupt, 'USER_INTERRUPTION', 'INTERRUPTED')])
+def test_failed_and_interrupted_attempts_have_time_and_recoverable_history(tmp_path, error, kind, status):
+    pipeline = pipeline_at(tmp_path, 1)
+    params = candidates(pipeline.config, 'classification')[0]['parameters']
+    task = pipeline.task(stage='development', mode='search', market='000985.SH', task='classification',
+        information='M', fold='2020-01', parameters=params, seed=3060)
+    original = pipeline.executor
+    def fail(*args, **kwargs):
+        raise error('ARTIFICIAL failure')
+    pipeline.executor = fail
+    with pytest.raises(error): pipeline.monthly(task)
+    record = read_json(pipeline.journal.path(task))
+    assert record['failure_kind'] == kind and record['status'] == status
+    assert record['elapsed_seconds'] > 0 and len(record['attempt_history']) == 1
+    assert record['estimator_fit_calls'] == 0
+    if kind != 'CONTRACT':
+        pipeline.executor = original
+        done = pipeline.monthly(task)
+        assert done['status'] == 'SUCCEEDED' and done['attempts'] == 2
+        assert len(done['attempt_history']) == 2
+        alias = dict(task, task_id='alias')
+        pipeline.monthly(alias)
+        assert pipeline.journal.artifact_bytes == done['artifact_bytes']

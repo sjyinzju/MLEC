@@ -1,0 +1,205 @@
+{
+  "purpose": "TECHNICAL_ONLY_NOT_RESEARCH",
+  "code": "32969a1155e273be59c696acd43665959918d992e0b69ed8c9f1f9af67f69e15",
+  "rows": [
+    {
+      "info": "M",
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver": "exact_elastic_net_via_augmented_lasso_lars",
+          "solver_mapping": {
+            "original_rows": 251,
+            "augmented_rows": 458,
+            "mapped_lasso_alpha": 2.7401746724890835e-07,
+            "original_alpha": 1e-05,
+            "l1_ratio": 0.05,
+            "objective_multiplier": 1.8247011952191234,
+            "path_iterations": 176
+          },
+          "solver_tolerance": null,
+          "elapsed_seconds": 0.03991570000653155,
+          "quality": {
+            "version": "elastic-optimality-v2",
+            "accepted": false,
+            "primal_objective": 0.09834008199077857,
+            "dual_objective": 0.043486985511291806,
+            "independently_computed_dual_gap": 0.05485309647948676,
+            "reported_dual_gap": null,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "reported_dual_gap_available": false,
+            "intercept_residual": 1.7091242100205598e-15,
+            "kkt_max": 1.4745965294091627e-06,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 207,
+            "max_abs": 6.178024085329783,
+            "max_row_norm2": 725.4658248858324,
+            "large_value_columns": []
+          },
+          "remedy": "equivalent_augmented_lars",
+          "n_iter": 176,
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [],
+          "converged": false,
+          "nonzero": 114
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver": "cyclic_coordinate_descent",
+          "solver_mapping": null,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 0.8202418000000762,
+          "quality": {
+            "version": "elastic-optimality-v2",
+            "accepted": false,
+            "primal_objective": 0.09833997018436433,
+            "dual_objective": 0.0977048239174611,
+            "independently_computed_dual_gap": 0.0006351462669032192,
+            "reported_dual_gap": 0.0006351461367463777,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "reported_dual_gap_available": true,
+            "intercept_residual": 1.676834855121103e-15,
+            "kkt_max": 4.3541172799777556e-08,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 207,
+            "max_abs": 6.178024085329783,
+            "max_row_norm2": 725.4658248858324,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.0006351461367463777,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.594e-01, tolerance: 3.758e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 116
+        }
+      ],
+      "elapsed_seconds": 1.0520607999933418
+    },
+    {
+      "info": "M+Z",
+      "status": "FAILED",
+      "error": "Convergence/optimality retries exhausted: return",
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "solver": "exact_elastic_net_via_augmented_lasso_lars",
+          "solver_mapping": {
+            "original_rows": 251,
+            "augmented_rows": 807,
+            "mapped_lasso_alpha": 1.5551425030978936e-07,
+            "original_alpha": 1e-05,
+            "l1_ratio": 0.05,
+            "objective_multiplier": 3.2151394422310755,
+            "path_iterations": 253
+          },
+          "solver_tolerance": null,
+          "elapsed_seconds": 0.06292219999886584,
+          "quality": {
+            "version": "elastic-optimality-v2",
+            "accepted": false,
+            "primal_objective": 0.032749317205357474,
+            "dual_objective": 5.528672807371404e-05,
+            "independently_computed_dual_gap": 0.03269403047728376,
+            "reported_dual_gap": null,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "reported_dual_gap_available": false,
+            "intercept_residual": 2.395162421651483e-16,
+            "kkt_max": 0.0008367837356565151,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 556,
+            "max_abs": 15.8113883008419,
+            "max_row_norm2": 2140.9631352526153,
+            "large_value_columns": []
+          },
+          "remedy": "equivalent_augmented_lars",
+          "n_iter": 253,
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 253 iterations, alpha=2.604e-04, previous alpha=2.595e-04, with an active set of 156 regressors."
+            }
+          ],
+          "converged": false,
+          "nonzero": 155
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "solver": "cyclic_coordinate_descent",
+          "solver_mapping": null,
+          "solver_tolerance": 1e-05,
+          "elapsed_seconds": 1.3514927999931388,
+          "quality": {
+            "version": "elastic-optimality-v2",
+            "accepted": false,
+            "primal_objective": 0.014445718746238529,
+            "dual_objective": 0.00015310787277128535,
+            "independently_computed_dual_gap": 0.014292610873467244,
+            "reported_dual_gap": 0.014292610873465823,
+            "dual_gap_tolerance": 0.0001497211373333847,
+            "roundoff_allowance": 3.324477078811776e-14,
+            "reported_dual_gap_available": true,
+            "intercept_residual": 2.0178635212509817e-15,
+            "kkt_max": 9.325930763429224e-05,
+            "intercept_only_objective": 0.7486056866669234,
+            "objective_definition": "squared_error/(2*n) + alpha*l1_ratio*L1 + alpha*(1-l1_ratio)*L2_squared/2"
+          },
+          "input": {
+            "rows": 251,
+            "features": 556,
+            "max_abs": 15.8113883008419,
+            "max_row_norm2": 2140.9631352526153,
+            "large_value_columns": []
+          },
+          "remedy": "warm_start_more_iterations_tighter_tolerance",
+          "n_iter": 40000,
+          "dual_gap": 0.014292610873465823,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.587e+00, tolerance: 3.758e-03"
+            }
+          ],
+          "converged": false,
+          "nonzero": 279
+        }
+      ],
+      "elapsed_seconds": 1.450353099993663
+    }
+  ]
+}

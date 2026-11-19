@@ -1,0 +1,98 @@
+{
+  "purpose": "TECHNICAL_ONLY_NOT_RESEARCH",
+  "real_estimator_scenarios": 2,
+  "rows": [
+    {
+      "task": "classification",
+      "params": {
+        "C": 0.0001,
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000
+      },
+      "status": "RETURNED_AS_SUCCESS",
+      "max_intercept_residual": 0.5019598731401737,
+      "mean_probability": [
+        0.3301533264610357,
+        0.35461383203910923,
+        0.31523284149985487
+      ],
+      "empirical_frequency": [
+        0.06374501992031872,
+        0.8565737051792829,
+        0.0796812749003984
+      ],
+      "intercept": [
+        -5.130217973641085e-09,
+        9.637808686925223e-09,
+        -4.507590713285765e-09
+      ],
+      "weight_hash_before": "e74cca07c4c044d71317e17b14421894",
+      "weight_hash_after": "ec91a2e30f7acb4e2ce555d2698c3c1e",
+      "save_load": "Model package weights mismatch",
+      "elapsed_seconds": 28.350568199995905,
+      "diagnostics": [
+        {
+          "target": "classification",
+          "attempt": 1,
+          "max_iter": 10000,
+          "n_iter": [
+            8734
+          ],
+          "dual_gap": [],
+          "numerical_failure": false,
+          "warnings": [],
+          "converged": true,
+          "nonzero": 40
+        }
+      ]
+    },
+    {
+      "task": "regression",
+      "params": {
+        "alpha": 1e-05,
+        "l1_ratio": 0.05,
+        "tol": 0.0001,
+        "max_iter": 10000
+      },
+      "status": "FAILED",
+      "error": "Convergence retries exhausted: return",
+      "elapsed_seconds": 2.1362763999932213,
+      "diagnostics": [
+        {
+          "target": "return",
+          "attempt": 1,
+          "max_iter": 10000,
+          "n_iter": 10000,
+          "dual_gap": 0.015475165103815112,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.884e+00, tolerance: 3.758e-02"
+            }
+          ],
+          "converged": false,
+          "nonzero": 284
+        },
+        {
+          "target": "return",
+          "attempt": 2,
+          "max_iter": 40000,
+          "n_iter": 40000,
+          "dual_gap": 0.014415579862586358,
+          "numerical_failure": false,
+          "warnings": [
+            {
+              "category": "ConvergenceWarning",
+              "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.618e+00, tolerance: 3.758e-02"
+            }
+          ],
+          "converged": false,
+          "nonzero": 276
+        }
+      ]
+    }
+  ],
+  "repeated_prepare_transform_12_seconds": 1.9772005999984685
+}
