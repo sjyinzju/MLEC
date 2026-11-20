@@ -386,7 +386,7 @@ def elastic_report(root, manifest, stage, locked, products, coverage, quality):
         '', '## 运行和数值验收', '',
         '零系数候选仅在训练频率截距、完整 KKT 和原惩罚目标同时成立时采用解析解。',
         '旧求解器在全部斜率为零时可能首轮退出，随机更新后的截距仍有一阶残差。',
-        '七项回归沿用增广 Lasso/LARS 和独立对偶间隙。收紧停止条件的续解告警仍保存。',
+        '七项回归沿用增广 Lasso/LARS 和独立对偶间隙。纯 L1 路径出现已复现的内部形状错误时，记录原异常并调用现有对偶 QP。收紧停止条件的续解告警仍保存。',
         '',
         f'选定逻辑月任务 {len(coverage):,}。阶段物理任务 {len(quality):,}，其中通过 {int(quality.status.eq("SUCCEEDED").sum()):,}，失败 {int(quality.status.eq("FAILED").sum()):,}。',
         f'记录到的估计器拟合调用 {int(quality.estimator_fit_calls.sum()):,}，零迭代解析解 {int(quality.certified_zero_slopes.sum()):,}。',

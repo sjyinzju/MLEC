@@ -129,19 +129,36 @@ class AugmentedLarsElasticNet(ElasticNet):
         mapped_alpha = len(values) * self.alpha * self.l1_ratio / len(augmented_y)
         solver = LassoLars(alpha=mapped_alpha, fit_intercept=False, precompute=g['gram'].copy(),
             max_iter=self.max_iter, eps=np.finfo(float).eps, fit_path=False, jitter=None, random_state=self.random_state)
-        solver.fit(g['augmented'], augmented_y)
-        self.coef_ = np.asarray(solver.coef_, dtype=float).reshape(-1).copy()
+        lars_path_error = None
+        try:
+            solver.fit(g['augmented'], augmented_y)
+        except ValueError as error:
+            if self.l1_ratio != 1. or 'operands could not be broadcast together' not in str(error):
+                raise
+            # The sklearn LARS active-set path can lose covariance entries
+            # on a degenerate pure-L1 path. The existing dual QP needs only
+            # a feasible start, and the independent gap still decides acceptance.
+            lars_path_error = str(error)
+            self.coef_ = np.zeros(X.shape[1])
+            self.n_iter_ = 0
+            self.solver_name = 'pure_lasso_dual_qp_after_lars_path_failure'
+        else:
+            self.coef_ = np.asarray(solver.coef_, dtype=float).reshape(-1).copy()
+            self.n_iter_ = int(np.asarray(solver.n_iter_).max())
+            self.__dict__.pop('solver_name', None)
         if len(self.coef_) != X.shape[1]:
             raise ValueError('Unexpected augmented single-target coefficient shape')
         self.intercept_ = float(values.mean() - g['mean'] @ self.coef_)
-        self.n_features_in_, self.n_iter_ = X.shape[1], int(np.asarray(solver.n_iter_).max())
+        self.n_features_in_ = X.shape[1]
         if isinstance(X, pd.DataFrame):
             self.feature_names_in_ = np.asarray(X.columns, dtype=object)
         self.solver_mapping_ = dict(original_rows=len(values), augmented_rows=len(augmented_y),
             mapped_lasso_alpha=float(mapped_alpha), original_alpha=self.alpha, l1_ratio=self.l1_ratio,
             objective_multiplier=float(len(augmented_y)/len(values)), path_iterations=self.n_iter_)
         quality_parameters = dict(alpha=self.alpha, l1_ratio=self.l1_ratio, tol=self.tol)
-        if not regression_quality(self, X, values, quality_parameters)['accepted']:
+        if lars_path_error:
+            self.solver_mapping_['lars_path_error'] = lars_path_error
+        if lars_path_error or not regression_quality(self, X, values, quality_parameters)['accepted']:
             self.polish(g, values)
         self.__dict__.pop('_geometry', None)  # bounded train-only workspace, never model state
         return self

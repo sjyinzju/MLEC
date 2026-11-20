@@ -241,3 +241,28 @@ def test_pure_l1_certificate_checks_feasibility_and_original_objective():
     e.dual_certificate_ = theta*2.
     with pytest.raises(ValueError, match='Infeasible pure L1'):
         regression_quality(e, x, y, p)
+
+
+def test_pure_l1_lars_internal_broadcast_uses_existing_dual_polish(monkeypatch):
+    from scripts.market_state.models import elastic_net
+    X = pd.DataFrame({'x': [-1., 0., 1.]})
+    y = np.ones(3)
+    calls = []
+
+    def broken_path(*args, **kwargs):
+        raise ValueError('operands could not be broadcast together with shapes (3,) (2,)')
+
+    def check_initialization(self, geometry, values):
+        np.testing.assert_array_equal(self.coef_, [0.])
+        np.testing.assert_array_equal(values, y)
+        calls.append(geometry['rows'])
+
+    monkeypatch.setattr(elastic_net.LassoLars, 'fit', broken_path)
+    monkeypatch.setattr(elastic_net.AugmentedLarsElasticNet, 'polish', check_initialization)
+    model = elastic_net.AugmentedLarsElasticNet(alpha=.1, l1_ratio=1.).fit(X, y)
+    assert calls == [3]
+    assert model.n_iter_ == 0
+    assert 'broadcast' in model.solver_mapping_['lars_path_error']
+    assert regression_quality(model, X, y, dict(alpha=.1, l1_ratio=1., tol=1e-4))['accepted']
+    with pytest.raises(ValueError, match='broadcast'):
+        elastic_net.AugmentedLarsElasticNet(alpha=.1, l1_ratio=.95).fit(X, y)

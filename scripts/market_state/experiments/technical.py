@@ -59,6 +59,8 @@ def scenarios(quick):
             for info in ['M', 'M+Z'])
         rows.append(dict(market='000852.SH', fold='2021-10', task='regression', information='M+Z',
             parameters=dict(alpha=1.5615230060004964e-5, l1_ratio=.95, tol=1e-4, max_iter=10000)))
+        rows.append(dict(market='000300.SH', fold='2020-10', task='regression', information='M+Z',
+            parameters=dict(alpha=5.945570708544395e-5, l1_ratio=1., tol=1e-4, max_iter=10000)))
     return rows
 
 
