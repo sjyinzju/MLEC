@@ -80,9 +80,19 @@ def staging(destination):
     tmp = Path(tempfile.mkdtemp(prefix='.partial-', dir=destination.parent))
     try:
         yield tmp
-        if destination.exists():
-            raise RuntimeError('Refusing to overwrite committed artifacts: ' + str(destination))
-        os.replace(tmp, destination)
+        for attempt in range(8):
+            if destination.exists():
+                raise RuntimeError('Refusing to overwrite committed artifacts: ' + str(destination))
+            try:
+                os.replace(tmp, destination)
+                break
+            except PermissionError as error:
+                # A process opening a staged child without FILE_SHARE_DELETE
+                # can transiently block an otherwise valid Windows rename.
+                if os.name != 'nt' or getattr(error, 'winerror', None) not in (5, 32, 33) or attempt == 7:
+                    raise
+                print('Windows artifact commit retry', destination.name, error.winerror, attempt + 1, flush=True)
+                time.sleep(min(.05 * (2 ** attempt), 1.))
     finally:
         if tmp.exists():
             shutil.rmtree(tmp)  # only our just-created staging directory

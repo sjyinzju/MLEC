@@ -171,3 +171,25 @@ def test_failed_and_interrupted_attempts_have_time_and_recoverable_history(tmp_p
         alias = dict(task, task_id='alias')
         pipeline.monthly(alias)
         assert pipeline.journal.artifact_bytes == done['artifact_bytes']
+
+
+@pytest.mark.skipif(__import__('os').name != 'nt', reason='Windows access-denied rename semantics')
+def test_staging_retries_transient_windows_access_denial_without_rewriting(tmp_path, monkeypatch):
+    from scripts.market_state.experiments import artifacts
+    original = artifacts.os.replace
+    calls = []
+
+    def replace(source, destination):
+        calls.append((source, destination))
+        if len(calls) == 1:
+            error = PermissionError(13, 'Windows temporarily held the staged directory')
+            error.winerror = 5
+            raise error
+        return original(source, destination)
+
+    monkeypatch.setattr(artifacts.os, 'replace', replace)
+    target = tmp_path / 'committed'
+    with artifacts.staging(target) as staged:
+        (staged / 'predictions.parquet').write_bytes(b'one staged result')
+    assert len(calls) == 2 and calls[0] == calls[1]
+    assert (target / 'predictions.parquet').read_bytes() == b'one staged result'

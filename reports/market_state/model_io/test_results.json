@@ -1,10 +1,10 @@
 {
   "exit_code": 0,
   "summary": [
-    "178 passed"
+    "179 passed"
   ],
   "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
-  "experiment_code_hash": "2dc819886b4e2d42a26970dcef80e9cefdc2d932e24c8a2ad7e49f510c7046cf",
+  "experiment_code_hash": "5c2e77bf48f8099d443ccc3155e0864c957c9b83463de409e626b9b7c7686d86",
   "real_supervised_fit_calls": 0,
   "real_calibration_fit_calls": 0,
   "smoke_runs": 0,
@@ -17,6 +17,6 @@
     "tests/test_numerical_optimization.py": "bbf33a6ce845e95266a7548f0a74af09a1996fa1fd8cf8f6683b2a55e1ae8b69",
     "tests/test_paired_losses.py": "805f7a896865acee01e3c1b28dbf99bd6aabaa4af7079c8c0fc64e31c99e8b2f",
     "tests/test_rbf_svm.py": "b033e440f9ecb4861861bb5e7d032b40ddd4ff68e2d2a24e5df81125a201a52d",
-    "tests/test_scheduling.py": "42d3a725a095cce6ea03feb7da5b405c02a3be6bffe8fad4b4464c60a4de691b"
+    "tests/test_scheduling.py": "2388a308084e25ab4835951e5b642ee719697f1eab7211a21b0b6e8682cbc5b0"
   }
 }
