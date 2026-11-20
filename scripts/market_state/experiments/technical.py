@@ -12,6 +12,7 @@ from ..framework import DataStore, load_dataset
 from ..interface_acceptance import assert_interface_accepted
 from ..model_contract import fit_inputs, transform_inputs, prediction_context
 from ..models.elastic_net import ElasticNetAdapter
+from ..models.rbf_svm import RBFSVMAdapter
 from ..preprocessing import input_diagnostics
 from ..release import file_hash
 from .artifacts import TaskJournal, atomic_json, read_json, native_path
@@ -41,9 +42,17 @@ class _TechnicalRunner(TaskRunner):
         self.scheduler = TaskScheduler(self)
 
 
-def scenarios(quick):
-    cohorts = [('000985.SH', '2020-01')] if quick else [
-        ('000985.SH', '2020-01'), ('000300.SH', '2020-01'), ('000985.SH', '2022-12')]
+def scenarios(quick, model='elastic_net'):
+    if model == 'rbf_svm':
+        cohorts = [('000985.SH','2020-01')] if quick else [('000985.SH','2020-01'),('000300.SH','2020-01'),('000905.SH','2021-10'),('000852.SH','2022-12')]
+        return [dict(market=m, fold=f, task=t, information=info,
+            parameters=dict(C=1. if quick else [.001,1000.,1.,10.][j],
+                gamma_factor=1. if quick else [.01,100.,.1,10.][j],tol=.001,max_iter=100000,
+                **({'epsilon':.1 if quick else [1.,.001,.01,.1][j]} if t=='regression' else {})))
+            for j,(m,f) in enumerate(cohorts) for t in ['classification','regression'] for info in ['M','M+Z']]
+
+    cohorts = [('000905.SH', '2020-01')] if quick else [
+        ('000905.SH', '2020-01'), ('000985.SH', '2020-01'), ('000852.SH', '2021-10')]
     rows = []
     for market, fold in cohorts:
         for task in ['classification', 'regression']:
@@ -53,6 +62,12 @@ def scenarios(quick):
                     parameters = dict(l1_ratio=.05 if task == 'classification' or value < 10. else .95, tol=1e-4, max_iter=10000)
                     parameters['C' if task == 'classification' else 'alpha'] = value
                     rows.append(dict(market=market, fold=fold, task=task, information=info, parameters=parameters))
+    if not quick:
+        rows.extend(dict(market='000985.SH', fold='2020-01', task='regression', information=info,
+            parameters=dict(alpha=5.945570708544395e-5, l1_ratio=1., tol=1e-4, max_iter=10000))
+            for info in ['M', 'M+Z'])
+        rows.append(dict(market='000852.SH', fold='2021-10', task='regression', information='M+Z',
+            parameters=dict(alpha=1.5615230060004964e-5, l1_ratio=.95, tol=1e-4, max_iter=10000)))
     return rows
 
 
@@ -73,9 +88,15 @@ def _batch(config, store, root, workers, design):
     predictions, losses, checks = [], [], []
     for (task, _), record in zip(items, records):
         directory = root / record['artifact']
-        model = ElasticNetAdapter.load(directory / 'model_package')
+        model = (RBFSVMAdapter if config['model']=='rbf_svm' else ElasticNetAdapter).load(directory / 'model_package')
         train, pre, target, pred, x, xp = runner.executor.matrices(task)
-        ctx = prediction_context(pred, pre, target, model_id='elastic_net', model_version=model.model_version_, input_matrix=xp)
+        if config['model']=='elastic_net' and task['identity']['task'] == 'classification' and task['identity']['parameters']['C'] == .0001:
+            assert record['estimator_fit_calls'] == 0
+            assert record['diagnostics'][0]['solver'] == 'certified_zero_slopes'
+            expected = train.y.future_state_id.value_counts(normalize=True).reindex(target.schema_['class_ids'], fill_value=0)
+            np.testing.assert_allclose(model.estimators_[0].predict_proba(x),
+                np.tile(expected[expected.gt(0)], (len(x), 1)), rtol=0, atol=3e-15)
+        ctx = prediction_context(pred, pre, target, model_id=config['model'], model_version=model.model_version_, input_matrix=xp)
         saved = pd.read_parquet(directory / 'predictions.parquet')
         pd.testing.assert_frame_equal(model.predict(xp, ctx), saved, check_exact=True)
         predictions.append(saved)
@@ -83,7 +104,7 @@ def _batch(config, store, root, workers, design):
         checks.append(dict(**task['identity'], model_version=model.model_version_,
             input=read_json(directory / 'context.json')['input_diagnostics'],
             diagnostics=record['diagnostics'], save_load_predict_exact=True,
-            estimator_fit_calls=record['estimator_fit_calls'], elapsed_seconds=record['elapsed_seconds']))
+            estimator_fit_calls=record['estimator_fit_calls'], calibration_fit_calls=record.get('calibration_fit_calls',0), elapsed_seconds=record['elapsed_seconds']))
     # Resume the exact tasks, including process-count changes: no additional fits.
     mtime = {str(p): p.stat().st_mtime_ns for p in root.glob('development/fits/*/artifact.json')}
     runner.scheduler.workers = 1
@@ -102,17 +123,18 @@ def _batch(config, store, root, workers, design):
         coordinator_cpu_seconds=after['cpu_seconds']-before['cpu_seconds'],
         coordinator_peak_rss_bytes=after['peak_rss_bytes'], per_solver_process=usage,
         memory_measurement='OS per-process high-water RSS; not summed as a simultaneous system peak',
+        calibration_fit_calls=sum(r.get('calibration_fit_calls',0) for r in records),
         successful_monthly_tasks=len(records), estimator_fit_calls=sum(r['estimator_fit_calls'] for r in records),
         cache_hits_by_process={pid: max((r['cache_statistics']['matrix_hits'] for r in records if str(r['process_usage']['pid']) == pid), default=0) for pid in usage},
         resume_reused_all_without_fit=True, checks=checks)
     return summary, predictions, losses
 
 
-def technical_check(*, execute=False, quick=False, destination=None, data_root=None, cpu_workers=None):
+def technical_check(*, execute=False, quick=False, destination=None, data_root=None, cpu_workers=None, model='elastic_net'):
     if not execute:
         print('TECHNICAL_ONLY planned; fits=0 without --execute; no formal B/C stage')
         return
-    config = load_config()
+    config = load_config(ROOT / ('config/experiments/'+model+'.yaml'))
     config['data_root'] = str(data_root or ROOT / config['data_root'])
     store = DataStore(config['data_root'])
     assert_interface_accepted(data_root=store.root)
@@ -123,11 +145,11 @@ def technical_check(*, execute=False, quick=False, destination=None, data_root=N
     workers = cpu_workers or min(4, worker_count(config))
     if workers < 2:
         raise RuntimeError('At least two workers needed for real serial/process comparison; set --cpu-workers explicitly')
-    destination = Path(destination or ROOT / ('reports/model_build/elastic_net/quick_technical.json' if quick else 'reports/model_build/elastic_net/optimization_20261119/real_technical.json'))
+    destination = Path(destination or ROOT / ('reports/model_build/'+model+('/quick_technical.json' if quick else '/optimization_'+('20261120' if model=='rbf_svm' else '20261119')+'/real_technical.json')))
     result = dict(purpose='SMOKE_ONLY', research_evidence=False, formal_BC_started=False,
         quick=quick, environment=env, cpu_logical=os.cpu_count(), available_workers=worker_count(config),
         original_seal_sha256=file_hash(store.root / 'release/seal.json'), code=experiment_code_hash(),
-        design=scenarios(quick), numerical_tolerances=dict(rtol=1e-10, classification_atol=1e-12, regression_atol=1e-24))
+        design=scenarios(quick, model), numerical_tolerances=dict(rtol=1e-10, classification_atol=1e-12, regression_atol=1e-24))
     try:
         scans = []
         for market in config['markets']:
@@ -142,10 +164,10 @@ def technical_check(*, execute=False, quick=False, destination=None, data_root=N
         # not masked by MAX_PATH errors while removing its temporary model.
         with tempfile.TemporaryDirectory(prefix='mlec-technical-', dir=native_path(tempfile.gettempdir())) as temp:
             root = Path(temp)
-            serial, a, al = _batch(config, store, root/'serial', 1, scenarios(quick))
-            parallel, b, bl = _batch(config, store, root/'parallel', workers, scenarios(quick))
+            serial, a, al = _batch(config, store, root/'serial', 1, scenarios(quick, model))
+            parallel, b, bl = _batch(config, store, root/'parallel', workers, scenarios(quick, model))
             differences = []
-            for design, left, right, ls, rs in zip(scenarios(quick), a, b, al, bl):
+            for design, left, right, ls, rs in zip(scenarios(quick, model), a, b, al, bl):
                 columns = [c for c in left if c.startswith('predicted_')]
                 atol = 1e-12 if design['task'] == 'classification' else 1e-24
                 np.testing.assert_allclose(left[columns], right[columns], rtol=1e-10, atol=atol)
@@ -153,7 +175,7 @@ def technical_check(*, execute=False, quick=False, destination=None, data_root=N
                 differences.append(float(np.abs(left[columns].to_numpy()-right[columns].to_numpy()).max(initial=0)))
             def rankings(frames):
                 groups = {}
-                for d, f in zip(scenarios(quick), frames):
+                for d, f in zip(scenarios(quick, model), frames):
                     key = '|'.join(d[k] for k in ['market', 'fold', 'task', 'information'])
                     groups.setdefault(key, []).append((float(f.loss.mean()), digest(d['parameters'])))
                 return {k:[v[1] for v in sorted(rows)] for k,rows in groups.items()}
@@ -179,6 +201,7 @@ def technical_check(*, execute=False, quick=False, destination=None, data_root=N
 
 if __name__ == '__main__':
     parser = ArgumentParser(description=__doc__)
+    parser.add_argument('--model', choices=['elastic_net','rbf_svm'], default='elastic_net')
     parser.add_argument('--execute', action='store_true')
     parser.add_argument('--quick', action='store_true')
     parser.add_argument('--destination', type=Path)

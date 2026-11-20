@@ -1,0 +1,490 @@
+{
+  "purpose": "SMOKE_ONLY",
+  "formal_BC": false,
+  "rows": [
+    {
+      "task": "classification",
+      "fit": "PASS",
+      "seconds": 1.883434000017587,
+      "diagnostics": [
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 1,
+          "attempt": 1,
+          "gamma": 0.011404036439231753,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 34,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            30,
+            28,
+            23
+          ],
+          "support_vectors": 31,
+          "n_support": [
+            10,
+            8,
+            13
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 2,
+          "attempt": 1,
+          "gamma": 0.011422356337944573,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 60,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            52,
+            45,
+            56
+          ],
+          "support_vectors": 54,
+          "n_support": [
+            16,
+            22,
+            16
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 3,
+          "attempt": 1,
+          "gamma": 0.011409263097757525,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 85,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            73,
+            44,
+            64
+          ],
+          "support_vectors": 61,
+          "n_support": [
+            16,
+            28,
+            17
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 4,
+          "attempt": 1,
+          "gamma": 0.011407710170132559,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 111,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            96,
+            37,
+            68
+          ],
+          "support_vectors": 68,
+          "n_support": [
+            16,
+            35,
+            17
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 5,
+          "attempt": 1,
+          "gamma": 0.011406934129380774,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 137,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            82,
+            42,
+            76
+          ],
+          "support_vectors": 68,
+          "n_support": [
+            16,
+            35,
+            17
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 6,
+          "attempt": 1,
+          "gamma": 0.011406432951298132,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 162,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            106,
+            45,
+            65
+          ],
+          "support_vectors": 70,
+          "n_support": [
+            16,
+            38,
+            16
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 7,
+          "attempt": 1,
+          "gamma": 0.01140606664611403,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 187,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            120,
+            47,
+            62
+          ],
+          "support_vectors": 73,
+          "n_support": [
+            16,
+            41,
+            16
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 8,
+          "attempt": 1,
+          "gamma": 0.011405864166406082,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 212,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            98,
+            57,
+            109
+          ],
+          "support_vectors": 84,
+          "n_support": [
+            16,
+            49,
+            19
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "internal",
+          "block_id": 9,
+          "attempt": 1,
+          "gamma": 0.011408851872602892,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 237,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            127,
+            59,
+            120
+          ],
+          "support_vectors": 92,
+          "n_support": [
+            16,
+            56,
+            20
+          ]
+        },
+        {
+          "component": "calibrator",
+          "target": "0",
+          "attempt": 1,
+          "warnings": [],
+          "converged": true,
+          "positive": 5,
+          "negative": 207,
+          "score_scale": 2.1166019436764443,
+          "max_iter": 1000,
+          "numerical_failure": false,
+          "n_iter": 7,
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "objective": 24.57855450961995,
+          "gradient_max": 1.1663439458686753e-07
+        },
+        {
+          "component": "calibrator",
+          "target": "1",
+          "attempt": 1,
+          "warnings": [],
+          "converged": true,
+          "positive": 203,
+          "negative": 9,
+          "score_scale": 2.24375125537974,
+          "max_iter": 1000,
+          "numerical_failure": false,
+          "n_iter": 9,
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "objective": 35.08147787353081,
+          "gradient_max": 1.7178122209415836e-08
+        },
+        {
+          "component": "calibrator",
+          "target": "2",
+          "attempt": 1,
+          "warnings": [],
+          "converged": true,
+          "positive": 4,
+          "negative": 208,
+          "score_scale": 2.214381137645453,
+          "max_iter": 1000,
+          "numerical_failure": false,
+          "n_iter": 8,
+          "status": 0,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "objective": 20.814112097601075,
+          "gradient_max": 6.468884095056637e-09
+        },
+        {
+          "component": "estimator",
+          "target": "classification",
+          "phase": "final",
+          "block_id": null,
+          "attempt": 1,
+          "gamma": 0.011408564589160123,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 251,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": [
+            110,
+            58,
+            101
+          ],
+          "support_vectors": 93,
+          "n_support": [
+            16,
+            57,
+            20
+          ]
+        }
+      ],
+      "load": "PASS"
+    },
+    {
+      "task": "regression",
+      "fit": "PASS",
+      "seconds": 0.0786534000071697,
+      "diagnostics": [
+        {
+          "component": "estimator",
+          "target": "return",
+          "phase": "final",
+          "block_id": null,
+          "attempt": 1,
+          "gamma": 0.011408564589160123,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 251,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": 290,
+          "support_vectors": 213,
+          "n_support": [
+            213
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "volatility",
+          "phase": "final",
+          "block_id": null,
+          "attempt": 1,
+          "gamma": 0.011408564589160123,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 251,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": 417,
+          "support_vectors": 163,
+          "n_support": [
+            163
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "drawdown",
+          "phase": "final",
+          "block_id": null,
+          "attempt": 1,
+          "gamma": 0.011408564589160123,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 251,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": 344,
+          "support_vectors": 217,
+          "n_support": [
+            217
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "amihud",
+          "phase": "final",
+          "block_id": null,
+          "attempt": 1,
+          "gamma": 0.011408564589160123,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 251,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": 411,
+          "support_vectors": 140,
+          "n_support": [
+            140
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "turnover",
+          "phase": "final",
+          "block_id": null,
+          "attempt": 1,
+          "gamma": 0.011408564589160123,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 251,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": 374,
+          "support_vectors": 147,
+          "n_support": [
+            147
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "breadth",
+          "phase": "final",
+          "block_id": null,
+          "attempt": 1,
+          "gamma": 0.011408564589160123,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 251,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": 392,
+          "support_vectors": 197,
+          "n_support": [
+            197
+          ]
+        },
+        {
+          "component": "estimator",
+          "target": "correlation",
+          "phase": "final",
+          "block_id": null,
+          "attempt": 1,
+          "gamma": 0.011408564589160123,
+          "gamma_factor": 1.0,
+          "max_iter": 100000,
+          "rows": 251,
+          "features": 207,
+          "warnings": [],
+          "converged": true,
+          "numerical_failure": false,
+          "fit_status": 0,
+          "n_iter": 383,
+          "support_vectors": 178,
+          "n_support": [
+            178
+          ]
+        }
+      ],
+      "load": "PASS"
+    }
+  ]
+}

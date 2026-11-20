@@ -24,6 +24,7 @@ def prohibit_real_supervised_fit(monkeypatch):
         for name in ['fit', 'partial_fit']:
             if hasattr(estimator, name):monkeypatch.setattr(estimator,name,forbidden)
     monkeypatch.setattr(TimeSigmoid, 'optimize', forbidden)
+    monkeypatch.setattr(TimeSigmoid, 'polish', forbidden)
     monkeypatch.setattr(AugmentedLarsElasticNet, 'polish', forbidden)
 
 def pytest_sessionfinish(session,exitstatus):

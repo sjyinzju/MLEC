@@ -33,12 +33,12 @@ def validate_family(c):
             raise ValueError('Use the registered RBF solver without built-in probability')
         if not np.isfinite(solver['cache_size_mb']) or not 1 <= solver['cache_size_mb'] <= 1024:
             raise ValueError('SVM per-process kernel cache must be 1..1024 MiB')
-        expected = dict(version='svm-time-sigmoid-v1', initial_train_weeks=13, block_weeks=26,
+        expected = dict(version='svm-time-sigmoid-v2', initial_train_weeks=13, block_weeks=26,
             min_train_rows=8, min_train_per_class=1, min_oof_per_class=2,
             min_oof_rows=26, min_accepted_blocks=2, missing_inner='skip_block_unless_all_dictionary_classes_in_train',
             invalid_calibration='fail_entire_outer_task', sigmoid='platt_smoothed_binary_cross_entropy',
             normalization='clip_expit_1e-15_then_divide_row_sum', probability_floor=1e-15,
-            max_iter=1000, ftol=1e-12, gtol=1e-8, maxls=50, optimization_retries=0)
+            max_iter=1000, ftol=1e-12, gtol=1e-8, maxls=50, optimization_retries=0, optimality_gradient=1e-8, newton_steps=20)
         if c['calibration'] != expected:
             raise ValueError('Unregistered time calibration rules')
         if c['retention'].get('diagnostics') != 'all_successful_fits':

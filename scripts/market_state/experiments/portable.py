@@ -32,7 +32,7 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
         paths += list((ROOT / 'tests').glob('*.py'))
         paths += list((ROOT / 'reports/model_build' / model).glob('*.md'))
         paths += list((ROOT / 'reports/model_build' / model).glob('acceptance.json'))
-        optimization = ROOT / 'reports/model_build' / model / 'optimization_20261119'
+        optimization = ROOT / 'reports/model_build' / model / ('optimization_20261120' if model=='rbf_svm' else 'optimization_20261119')
         if optimization.exists():
             paths += [p for p in optimization.glob('*') if p.suffix in ['.md', '.json']]
         paths += [ROOT / 'docs' / p for p in ['MLEC_research_protocol.md', 'MLEC_experiment_plan.md',
@@ -53,7 +53,7 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
             for wheel in wheels:
                 shutil.copy2(wheel, temporary / 'wheels' / wheel.name)
         if model == 'rbf_svm':
-            for name in ['README_START_HERE.md', 'START_WINDOWS.cmd', 'START_LINUX.sh']:
+            for name in ['README_START_HERE.md', 'START_WINDOWS.cmd', 'START_LINUX.sh', 'CHECK_WINDOWS.cmd', 'TECHNICAL_WINDOWS.cmd']:
                 shutil.copy2(ROOT / 'launchers/rbf_svm' / name, temporary / name)
         for relative, sha in seal['products'].items():
             source = sealed_product_path(relative, store.root)

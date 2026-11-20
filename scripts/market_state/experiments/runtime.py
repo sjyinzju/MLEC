@@ -287,8 +287,18 @@ class MonthlyExecutor:
                 output = regression_output(ctx, values.reset_index(drop=True), target.schema_)
             diagnostics = []
         else:
+            service = None
+            if model_id == 'rbf_svm' and i['task'] == 'classification':
+                entry = next(reversed(self.cache.values()))
+                services = entry.setdefault('training_services', OrderedDict())
+                if i['information_set'] not in services:
+                    services[i['information_set']] = TrainingPartitions(train)
+                    if len(services)>2:
+                        services.popitem(last=False)
+                services.move_to_end(i['information_set'])
+                service = services[i['information_set']]
             extra = dict(solver=self.config['solver'], calibration=self.config['calibration'],
-                training_service=TrainingPartitions(train) if i['task'] == 'classification' else None) if model_id == 'rbf_svm' else {}
+                training_service=service) if model_id == 'rbf_svm' else {}
             model = create_model(model_id, task=i['task'], preprocessor=pre, target_adapter=target,
                 training_keys=train.keys, parameters=i['parameters'], seed=i['seed'], policy=self.config['policy'],
                 threads=self.config['resources']['threads_per_task'], **extra)

@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import sklearn
 import scipy
+import time
 from sklearn.svm import SVC, SVR
 from sklearn.exceptions import ConvergenceWarning
 from threadpoolctl import threadpool_limits
@@ -22,6 +23,7 @@ from . import capabilities
 from .errors import FitFailure
 from .calibration import TimeSigmoid, decision_columns
 from .specifications import validate_parameters
+from .svm_quality import weight_hash, solution_quality, QUALITY_VERSION
 
 
 def model_code_hash():
@@ -37,8 +39,12 @@ def relative_gamma(X, factor):
     values = np.asarray(X, dtype='float64')
     if values.ndim != 2 or not values.shape[1] or not np.isfinite(values).all():
         raise ValueError('Gamma requires finite training inputs with at least one feature')
-    variance = float(values.var())
-    base = 1. / (values.shape[1] * variance) if variance > 0 else 1.
+    if not np.isfinite(factor) or factor <= 0 or not len(values):
+        raise ValueError('Positive finite gamma factor and nonempty training rows required')
+    # Scaling before variance avoids overflow/underflow in finite extreme inputs.
+    maximum = float(np.max(np.abs(values)))
+    variance = float((values / maximum).var()) if maximum else 0.
+    base = ((1. / values.shape[1]) / variance / maximum / maximum) if variance > 0 else 1.
     gamma = base * factor
     if not np.isfinite(gamma) or gamma <= 0:
         raise FitFailure('Invalid training gamma scale', [])
@@ -80,12 +86,14 @@ class RBFSVMAdapter:
                 gamma=gamma, gamma_factor=self.parameters['gamma_factor'], max_iter=maximum,
                 rows=len(X), features=X.shape[1], warnings=[], converged=False)
             self.diagnostics_.append(record)
+            started = time.perf_counter()
             with warnings.catch_warnings(record=True) as caught:
                 warnings.simplefilter('always')
                 try:
                     estimator.fit(X, y)
                 except BaseException as error:
                     record.update(error=type(error).__name__ + ': ' + str(error),
+                        elapsed_seconds=time.perf_counter()-started,
                         warnings=[dict(category=w.category.__name__, message=str(w.message)) for w in caught])
                     if not isinstance(error, Exception) or isinstance(error, (MemoryError, OSError)):
                         error.diagnostics = self.diagnostics_
@@ -95,9 +103,15 @@ class RBFSVMAdapter:
                 ['support_vectors_', 'dual_coef_', 'intercept_']) or any(issubclass(w.category, RuntimeWarning) for w in caught)
             convergence = int(estimator.fit_status_) != 0 or any(issubclass(w.category, ConvergenceWarning) for w in caught)
             record.update(numerical_failure=numerical, converged=not numerical and not convergence,
+                elapsed_seconds=time.perf_counter()-started,
                 warnings=[dict(category=w.category.__name__, message=str(w.message)) for w in caught],
                 fit_status=int(estimator.fit_status_), n_iter=np.asarray(estimator.n_iter_).tolist(),
                 support_vectors=int(len(estimator.support_)), n_support=np.asarray(estimator.n_support_).tolist())
+            if not numerical and not convergence and hasattr(estimator, 'get_params'):
+                record['quality'] = solution_quality(estimator, X, y, class_weight=self.policy['class_weight'])
+                record['converged'] = record['quality']['accepted']
+                if not record['quality']['accepted']:
+                    raise FitFailure('Independent LIBSVM KKT check failed', self.diagnostics_)
             if numerical:
                 raise FitFailure('Non-finite kernel solution or numerical warning', self.diagnostics_)
             if not convergence:
@@ -135,16 +149,12 @@ class RBFSVMAdapter:
                 for block in self.calibration_plan_:
                     if block['status'] != 'ACCEPTED':
                         continue
-                    train, val = self.training_service.partition(block)
-                    # Start from RAW internal train, never sliced outer-transformed X.
-                    pre, target = fit_inputs(train), fit_targets(train)
-                    Xi, Xv = transform_inputs(pre, train), transform_inputs(pre, val)
-                    estimator = self._solve(Xi, target.transform(train.y), target='classification', phase='internal', block=block['block_id'])
-                    scores.append(decision_columns(estimator.decision_function(Xv), estimator.classes_, len(target.schema_['class_ids'])))
-                    labels.append(target.transform(val.y))
-                    block.update(preprocessing_version=pre.schema_['schema_version'], gamma=float(estimator._gamma),
-                        latest_train_label=str(train.metadata.label_available_at.max()),
-                        latest_validation_label=str(val.metadata.label_available_at.max()))
+                    data = self.training_service.prepare_block(block)
+                    # Cached statistics were fitted on this RAW internal train only.
+                    estimator = self._solve(data['X'], data['y'], target='classification', phase='internal', block=block['block_id'])
+                    scores.append(decision_columns(estimator.decision_function(data['X_validation']), estimator.classes_, len(self.target_adapter.schema_['class_ids'])))
+                    labels.append(data['y_validation'])
+                    block.update(data['metadata'], gamma=float(estimator._gamma))
                 calibrator = TimeSigmoid(self.calibration)
                 try:
                     calibrator.fit(np.vstack(scores), np.concatenate(labels), list(range(len(self.target_adapter.schema_['class_ids']))))
@@ -171,7 +181,10 @@ class RBFSVMAdapter:
         return digest(dict(fit=self.fit_context_, parameters=self.parameters, policy=self.policy, seed=self.seed,
             solver=self.solver, calibration=self.calibration, gamma=self.actual_gamma_,
             calibration_plan=self.calibration_plan_,
-            calibrator=self.calibrator_.state() if self.calibrator_ is not None else None, weights=joblib.hash(self.estimators_)))
+            input_schema=self.preprocessor.schema_['schema_version'], target_adapter=self.target_adapter.adapter_version_,
+            quality_version=QUALITY_VERSION,
+            calibrator=dict(rules=self.calibrator_.rules, parameters=self.calibrator_.parameters_) if self.calibrator_ is not None else None,
+            weights=weight_hash(self.estimators_)))
 
     def predict(self, X_predict, context):
         if not hasattr(self, 'model_version_'):
@@ -201,6 +214,8 @@ class RBFSVMAdapter:
 
     def diagnostic_artifact(self):
         return dict(kernel='rbf', parameters=self.parameters, actual_gamma=self.actual_gamma_,
+            inner_cache=dict(hits=self.training_service.cache_hits, misses=self.training_service.cache_misses,
+                bytes=self.training_service.cache_bytes, limit=self.training_service.cache_limit) if self.training_service else None,
             solver=self.solver, calibration_rules=self.calibration if self.task == 'classification' else None,
             calibration_plan=self.calibration_plan_, diagnostics=self.diagnostics_)
 

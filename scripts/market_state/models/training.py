@@ -1,8 +1,11 @@
 """Training-only internal time partitions. No DataStore or outer scoring reader."""
 from copy import deepcopy
+from collections import OrderedDict
 from dataclasses import asdict
 import pandas as pd
-from ..model_contract import fit_context, training_partition, key_hash
+from ..model_contract import fit_context, training_partition, key_hash, fit_inputs, transform_inputs
+from ..target_adapters import fit_targets
+from .svm_quality import array_state
 from .errors import FitFailure
 
 
@@ -10,6 +13,10 @@ class TrainingPartitions:
     def __init__(self, outer_train):
         self.context = asdict(fit_context(outer_train))
         self._train = deepcopy(outer_train)
+        self._cache = OrderedDict()
+        self.cache_bytes = 0
+        self.cache_limit = 64 * 1024**2
+        self.cache_hits = self.cache_misses = 0
 
     def check_context(self, context):
         if asdict(context) != self.context:
@@ -37,6 +44,7 @@ class TrainingPartitions:
                 reason=None if valid else 'INSUFFICIENT_TRAIN_ROWS_OR_DICTIONARY_CLASS_SUPPORT_OR_EMPTY_BLOCK',
                 train_rows=len(train_keys), validation_rows=len(validation_keys),
                 class_counts={str(int(k)): int(v) for k, v in counts.items()},
+                validation_class_counts={str(int(k)):int(v) for k,v in parent.y.loc[validation_mask,'future_state_id'].value_counts().reindex(class_ids,fill_value=0).items()},
                 training_keys_hash=key_hash(train_keys), validation_keys_hash=key_hash(validation_keys)))
             start = end
         return records
@@ -64,6 +72,36 @@ class TrainingPartitions:
                 not counts.ge(rules['min_oof_per_class']).all() or not (len(indices) - counts).ge(rules['min_oof_per_class']).all()):
             raise FitFailure('Cannot form legal training-only time calibration', [])
         return plan
+
+    def prepare_block(self, block):
+        key = (block['training_keys_hash'], block['validation_keys_hash'], block['fit_cutoff'])
+        if key in self._cache:
+            self.cache_hits += 1
+            self._cache.move_to_end(key)
+            return self._cache[key][0]
+        self.cache_misses += 1
+        train, val = self.partition(block)
+        pre, target = fit_inputs(train), fit_targets(train)
+        xi, xv = transform_inputs(pre, train), transform_inputs(pre, val)
+        result = dict(X=xi, X_validation=xv, y=target.transform(train.y), y_validation=target.transform(val.y),
+            metadata=dict(preprocessing_version=pre.schema_['schema_version'], input_hash=array_state(xi),
+                latest_train_label=str(train.metadata.label_available_at.max()),
+                latest_validation_label=str(val.metadata.label_available_at.max())))
+        size = int(xi.memory_usage(index=True,deep=True).sum()+xv.memory_usage(index=True,deep=True).sum())
+        if size <= self.cache_limit:
+            while self.cache_bytes+size > self.cache_limit:
+                _, (_, old_size) = self._cache.popitem(last=False)
+                self.cache_bytes -= old_size
+            self._cache[key] = result, size
+            self.cache_bytes += size
+        return result
+
+    def support_summary(self, plan):
+        accepted=[b for b in plan if b['status']=='ACCEPTED']
+        counts={str(c):sum(b['validation_class_counts'][str(c)] for b in accepted) for c in self._train.target_schema['class_ids']}
+        n=sum(counts.values())
+        return dict(class_counts=counts, rows=n, status='LEGAL_BUT_SPARSE_UNSTABLE' if min(min(v,n-v) for v in counts.values())<20 else 'LEGAL_SUPPORT_NOT_CALIBRATION_VALIDATION',
+            oof_keys_hash=key_hash(self._train.keys[self._train.keys.asof_date.apply(lambda d:any(pd.Timestamp(b['start'])<=d<pd.Timestamp(b['end_exclusive']) for b in accepted))].reset_index(drop=True)))
 
     def outer_training(self):
         return deepcopy(self._train)

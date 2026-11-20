@@ -58,7 +58,7 @@ def stub_estimator(self, maximum, gamma):
 
 def stub_optimizer(self, scores, target, initial):
     # Fixed non-learning parameters. It never minimizes a likelihood.
-    return SimpleNamespace(x=np.array([1., 0.]), fun=1., jac=np.zeros(2), success=True,
+    return SimpleNamespace(x=np.array([0., np.log(target.mean()/(1-target.mean()))]), fun=1., jac=np.zeros(2), success=True,
         nit=0, status=0, message='NON_LEARNING_OPTIMIZER_STUB')
 
 
@@ -153,6 +153,21 @@ def test_training_only_plan_maturity_member_restriction_and_paired_blocks(store)
         training_partition(train, late, role='train', fit_cutoff=b['fit_cutoff'])
     with pytest.raises(FitFailure):
         service.validate_plan(dict(c['calibration'], initial_train_weeks=104))
+
+
+def test_inner_cache_is_exact_bounded_and_has_no_other_information_set(store):
+    train=ds(store);service=TrainingPartitions(train)
+    block=next(b for b in service.plan(svm_config()['calibration']) if b['status']=='ACCEPTED')
+    a=service.prepare_block(block);b=service.prepare_block(block)
+    assert a is b and service.cache_hits==1 and service.cache_bytes<=service.cache_limit
+    inner,val=service.partition(block);pre=fit_inputs(inner)
+    pd.testing.assert_frame_equal(a['X'],transform_inputs(pre,inner))
+    pd.testing.assert_frame_equal(a['X_validation'],transform_inputs(pre,val))
+    other=TrainingPartitions(ds(store,info='M+Z')).prepare_block(block)
+    assert len(other['X'].columns)>len(a['X'].columns)
+    service._cache.clear();service.cache_bytes=0;service.cache_limit=1
+    service.prepare_block(block)
+    assert not service._cache and service.cache_bytes==0
 
 
 def test_manual_scores_class_order_sigmoid_gradient_normalization_and_failure(monkeypatch):
