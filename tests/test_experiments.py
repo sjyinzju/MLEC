@@ -554,3 +554,19 @@ def test_smoke_data_root_defaults_and_override_without_training(monkeypatch, tmp
     with pytest.raises(ConfigChecked):
         module.smoke(args)
     assert seen == [expected]
+
+
+def test_state_support_survives_unscored_tail_warnings():
+    from scripts.market_state.experiments.reports import state_support_windows
+    keys = dict(market_id='000985.SH', asof_date=pd.Timestamp('2026-10-02'), horizon=20)
+    scores = pd.DataFrame([dict(keys, future_state_id=0)])
+    mature = pd.DataFrame([dict(keys, signal='state_0_probability',
+        label_start=pd.Timestamp('2026-10-09'), label_end=pd.Timestamp('2026-11-05'))])
+    empty_tail = pd.DataFrame(columns=KEY + ['signal'])
+    warnings = pd.concat([mature, empty_tail], ignore_index=True)
+    assert warnings.asof_date.dtype == object
+    result = state_support_windows(scores, warnings)
+    assert len(result) == 1
+    assert result.label_start.iloc[0] == mature.label_start.iloc[0]
+    with pytest.raises(RuntimeError, match='Missing state support window'):
+        state_support_windows(scores.assign(asof_date=pd.Timestamp('2026-10-03')), warnings)

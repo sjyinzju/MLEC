@@ -379,6 +379,20 @@ def figures(directory, classification, regression, increment, groups, confusion,
         fig.tight_layout(); fig.savefig(directory / ('warning_' + signal + '.png'), dpi=140); plt.close(fig)
 
 
+
+def state_support_windows(reference, warnings):
+    windows = warnings.loc[warnings.signal.eq('state_0_probability'),
+        KEY + ['label_start', 'label_end']].drop_duplicates()
+    # Empty unscored tail artifacts can promote the concatenated date column
+    # to object. Restore date typing before verifying all mature-score keys.
+    windows['asof_date'] = pd.to_datetime(windows.asof_date)
+    result = reference[KEY + ['future_state_id']].merge(
+        windows, on=KEY, how='left', validate='one_to_one')
+    if result[['label_start', 'label_end']].isna().any().any():
+        raise RuntimeError('Missing state support window for a mature scoring key')
+    return result
+
+
 def elastic_report(root, manifest, stage, locked, products, coverage, quality):
     risk = locked['risk_definition']
     lines = ['# Elastic Net 市场状态预测复算', '',
@@ -473,8 +487,7 @@ def summarize(root, *, stage='test', artificial=False):
         support = [dict(period='initial_train', **r) for r in locked['risk_definition'].get('initial_class_support', [])]
         reference = scores[scores.family.eq('elastic_net') & scores.task.eq('classification')
             & scores['mode'].eq('retuned_core') & scores.information_set.eq('M') & scores.seed.eq(locked['seeds']['classification'][0])]
-        windows = warnings[warnings.signal.eq('state_0_probability')][KEY + ['label_start', 'label_end']].drop_duplicates()
-        reference = reference[KEY + ['future_state_id']].merge(windows, on=KEY, how='inner', validate='one_to_one')
+        reference = state_support_windows(reference, warnings)
         for market, frame in reference.groupby('market_id'):
             for label in schema['class_ids']:
                 affected = frame[frame.future_state_id.eq(label)]
