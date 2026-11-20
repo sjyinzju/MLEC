@@ -128,3 +128,11 @@ Random Forest、CatBoost在registry中明确未实现，调用直接报错。以
 `CHECK_WINDOWS.cmd`仅完整性/环境/数据预检；`TECHNICAL_WINDOWS.cmd`显式执行短真实技术验收；`START_WINDOWS.cmd`继续授权完整full B→新锁→C。详细技术验收命令为 `python -m scripts.market_state.experiments.technical --execute`，产物SMOKE_ONLY，临时模型/预测自动清理，不进入研究汇总。普通pytest仍禁止真实监督拟合。Windows x64 Python3.11可使用随包wheels离线安装；包不包含Python解释器。
 
 报告区分core/full、数值等价及小于0.1%的相对损失效应，保留原始差值和Bootstrap，不凭精度级差值或argmax变化宣称预警增益。第一轮测试期已查看，修复后完整复算须披露这一事实。审计与实际技术结果集中于 reports/model_build/elastic_net/optimization_20261119/。
+
+## 2026-11-20 Elastic Net 复算
+
+分类训练先检查全部斜率为零时的完整 KKT。只有精确的 L1 次梯度界与机器精度的截距残差均通过，才以训练频率截距结束求解。解析解进入正常模型保存、预测和评分路径，拟合调用数为零。回归沿用原独立对偶间隙标准，续解内部停止告警与独立认证分别记录。候选表、预算、最终排名依据和失败月份整候选排除规则照旧。
+
+Elastic Net 的 `core` 包含 16 组独立开发选参及两组共同参数对照，每组 16 个逻辑配置。`full` 包含 16 个独立选参配置、16 个固定 M 参数配置及原有 96 个固定 M＋Z 参数配置。锁记录每个配置的参数来源。参数、信息集、月份、种子及版本完全相同时共享物理拟合。其他模型的套件范围沿用原规则。
+
+分类增加初始训练频率、扩展训练未经平滑的截距基准与逐类 OvR 排序。状态 0 报警保留开发期类别支持和实际负担。连续风险辅助分析采用初始训练期每个目标不利方向的 90% 分位定义未来窗口事件，模型权重与开发工作点来自各自原有路径。重叠窗口合并计数描述事件段，预测损失推断仍使用同步区块。宏观时钟与金融模块的独立投影继续作为独立数据视图工作。新增诊断见 `fixed_parameter_sensitivity.csv`、`class_support.csv`、`weekly_loss_diagnostics.csv` 与 `extreme_week_sensitivity.csv`。极端周分析删除绝对配对损失差最大的 5%（向下取整），完整周主结果同时保存。

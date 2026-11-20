@@ -4,7 +4,7 @@ import numpy as np
 from scipy.special import logsumexp, expit
 from ..common import digest
 
-QUALITY_VERSION = 'elastic-optimality-v3'
+QUALITY_VERSION = 'elastic-optimality-v4'
 
 
 def elastic_dual_state(theta, X, yc, l1, l2, *, hessian=False):
@@ -37,7 +37,7 @@ def weight_hash(estimators):
 
 
 def initial_intercept(estimator, X, y, class_weight):
-    """A feasible training-frequency start, never a fallback prediction model."""
+    """Exact intercept optimum with all slopes constrained to zero."""
     classes, counts = np.unique(y, return_counts=True)
     frequency = counts / counts.sum() if class_weight is None else np.full(len(classes), 1. / len(classes))
     estimator.classes_ = classes
@@ -48,6 +48,8 @@ def initial_intercept(estimator, X, y, class_weight):
 def classification_quality(estimator, X, y, parameters, class_weight=None):
     x, y = np.asarray(X, float), np.asarray(y)
     classes = np.asarray(estimator.classes_)
+    if not np.array_equal(classes, np.unique(y)) or len(classes) < 2:
+        raise ValueError('Fitted classes differ from observed training classes')
     index = np.searchsorted(classes, y)
     counts = np.bincount(index, minlength=len(classes))
     weights = np.ones(len(y)) if class_weight is None else len(y) / (len(classes) * counts[index])
@@ -77,6 +79,7 @@ def classification_quality(estimator, X, y, parameters, class_weight=None):
     l2 = (1. - parameters['l1_ratio']) / (parameters['C'] * len(y))
     objective = log_loss + l1 * np.abs(w).sum() + .5 * l2 * np.square(w).sum()
     baseline = float(-np.sum(frequency * np.log(frequency)))
+    max_smooth_gradient = float(np.abs(gradient).max(initial=0.))
     gradient += l2 * w
     violation = np.where(w != 0., np.abs(gradient + l1 * np.sign(w)), np.maximum(np.abs(gradient) - l1, 0.))
     # Absolute mean-loss gradient tolerances, fixed from solver tol before any
@@ -86,15 +89,33 @@ def classification_quality(estimator, X, y, parameters, class_weight=None):
     worst = float(np.abs(residual).max())
     kkt = float(violation.max(initial=0.))
     values = [log_loss, objective, baseline, worst, kkt]
-    return dict(version=QUALITY_VERSION, accepted=bool(np.isfinite(values).all() and worst <= threshold
+    probability_finite = bool(np.isfinite(probability).all())
+    return dict(version=QUALITY_VERSION, accepted=bool(probability_finite and np.isfinite(values).all() and worst <= threshold
         and kkt <= threshold and objective <= baseline + objective_slack),
         classes=classes.tolist(), empirical_frequency=(counts / len(y)).tolist(), weighted_frequency=frequency.tolist(),
         mean_probability=means.tolist(), intercept_residual=residual.tolist(), max_intercept_residual=worst,
         training_log_loss=log_loss, objective=float(objective), intercept_only_objective=baseline,
         objective_excess=float(objective - baseline), objective_slack=objective_slack,
         kkt_max=kkt, gradient_tolerance=threshold,
+        training_probability_finite=probability_finite, max_smooth_gradient=max_smooth_gradient,
+        l1_penalty=l1, l2_penalty=l2,
         objective_definition='mean(weighted NLL) + (l1_ratio*L1 + (1-l1_ratio)*L2_squared/2)/(C*n)',
         intercept=np.asarray(estimator.intercept_).tolist())
+
+
+def certify_zero_slopes(estimator, X, y, parameters, class_weight):
+    initial_intercept(estimator, X, y, class_weight)
+    quality = classification_quality(estimator, X, y, parameters, class_weight)
+    # The penalized objective is convex. At zero slopes the subgradient
+    # interval is [-l1, l1]. Use its exact bound, not the solver's KKT slack.
+    if (quality['accepted'] and quality['max_smooth_gradient'] <= quality['l1_penalty']
+            and quality['max_intercept_residual'] <= 16 * np.finfo(float).eps
+            and abs(quality['objective_excess']) <= 16 * np.finfo(float).eps):
+        estimator.n_features_in_ = X.shape[1]
+        estimator.feature_names_in_ = np.asarray(X.columns, dtype=object)
+        estimator.n_iter_ = np.zeros(1, dtype=np.int32)
+        return quality
+    return None
 
 
 def regression_quality(estimator, X, y, parameters):

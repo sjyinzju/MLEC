@@ -103,5 +103,16 @@ def scope(config, store, suite):
     sets = list(store.spec['sets'])
     if len(sets) != 12 or sets[:2] != ['M', 'M+Z']:
         raise ValueError('Expected the sealed twelve information sets')
-    return [('retuned_core', i) for i in ['M', 'M+Z']] + (
-        [('fixed_full_params', i) for i in sets] if suite == 'full' else [])
+    core = ['M', 'M+Z']
+    comparisons = [('retuned_core', i) for i in core]
+    if config['model'] == 'elastic_net':
+        comparisons += [('fixed_market_params', i) for i in core]
+    if suite == 'full' or config['model'] == 'elastic_net':
+        comparisons += [('fixed_full_params', i) for i in (sets if suite == 'full' else core)]
+    return comparisons
+
+
+def parameter_reference(mode, information):
+    if mode == 'retuned_core':
+        return information
+    return 'M' if mode == 'fixed_market_params' else 'M+Z'

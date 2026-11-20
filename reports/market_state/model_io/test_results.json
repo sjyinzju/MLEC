@@ -1,22 +1,22 @@
 {
   "exit_code": 0,
   "summary": [
-    "176 passed"
+    "178 passed"
   ],
   "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
-  "experiment_code_hash": "09687dbb9847fb5907af622a66d8cbd07b40c655a5f88a82e3d382a2690568ef",
+  "experiment_code_hash": "2dc819886b4e2d42a26970dcef80e9cefdc2d932e24c8a2ad7e49f510c7046cf",
   "real_supervised_fit_calls": 0,
   "real_calibration_fit_calls": 0,
   "smoke_runs": 0,
   "verification": "ordinary pytest blocks real supervised estimators; integration uses non-learning stubs",
   "test_files": {
-    "tests/conftest.py": "97d076ff3104c2f6aa0199c81532c82b5901d287940ee47318dac5039c35e785",
-    "tests/test_experiments.py": "bc94139cc231768abcea27e549c0dbf207483d8a9d7c65f75cc528c2d927d40f",
-    "tests/test_market_state.py": "77fd442fa98975f2ee072efce6246149696d63f40553c3b00eda7229b4a81e96",
+    "tests/conftest.py": "df66bd6dd4cd6fb52bf3fea95050bcfdde83de433a97c4b679f2ec03cde75176",
+    "tests/test_experiments.py": "df4504930a092a89bf493eedc80d84fdff22501abdcbb1f5870cbb04980ad44d",
+    "tests/test_market_state.py": "d69dfbadfddb6027dcb70441929be5418b2af13b77bf82f3e27f5625dd625fd3",
     "tests/test_model_io.py": "27bbabe4cf2d0e98bd591b343b41fa04170b1c55c1e2b74c4a0a0cf63d7d51d9",
-    "tests/test_numerical_optimization.py": "aaf54d3623f58f065d64e70bb997d0fa229d1974c3aab76ce1db9998644eecf2",
-    "tests/test_paired_losses.py": "aefd8c7db72b614a46e5c02cee517026288900e04fe38fa09b34f221ba1f18e1",
-    "tests/test_rbf_svm.py": "9e5ac0010e3576527d91d355c42dc4647eb14f99d9b5e0d4d077672362699ea4",
-    "tests/test_scheduling.py": "1e80ad211f954184381b69492d9a69d554a47a4f406e24af7671803f1c4aa2e3"
+    "tests/test_numerical_optimization.py": "bbf33a6ce845e95266a7548f0a74af09a1996fa1fd8cf8f6683b2a55e1ae8b69",
+    "tests/test_paired_losses.py": "805f7a896865acee01e3c1b28dbf99bd6aabaa4af7079c8c0fc64e31c99e8b2f",
+    "tests/test_rbf_svm.py": "b033e440f9ecb4861861bb5e7d032b40ddd4ff68e2d2a24e5df81125a201a52d",
+    "tests/test_scheduling.py": "42d3a725a095cce6ea03feb7da5b405c02a3be6bffe8fad4b4464c60a4de691b"
   }
 }

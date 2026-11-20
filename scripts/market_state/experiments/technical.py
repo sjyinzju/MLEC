@@ -42,8 +42,8 @@ class _TechnicalRunner(TaskRunner):
 
 
 def scenarios(quick):
-    cohorts = [('000985.SH', '2020-01')] if quick else [
-        ('000985.SH', '2020-01'), ('000300.SH', '2020-01'), ('000985.SH', '2022-12')]
+    cohorts = [('000905.SH', '2020-01')] if quick else [
+        ('000905.SH', '2020-01'), ('000985.SH', '2020-01'), ('000852.SH', '2021-10')]
     rows = []
     for market, fold in cohorts:
         for task in ['classification', 'regression']:
@@ -53,6 +53,12 @@ def scenarios(quick):
                     parameters = dict(l1_ratio=.05 if task == 'classification' or value < 10. else .95, tol=1e-4, max_iter=10000)
                     parameters['C' if task == 'classification' else 'alpha'] = value
                     rows.append(dict(market=market, fold=fold, task=task, information=info, parameters=parameters))
+    if not quick:
+        rows.extend(dict(market='000985.SH', fold='2020-01', task='regression', information=info,
+            parameters=dict(alpha=5.945570708544395e-5, l1_ratio=1., tol=1e-4, max_iter=10000))
+            for info in ['M', 'M+Z'])
+        rows.append(dict(market='000852.SH', fold='2021-10', task='regression', information='M+Z',
+            parameters=dict(alpha=1.5615230060004964e-5, l1_ratio=.95, tol=1e-4, max_iter=10000)))
     return rows
 
 
@@ -75,6 +81,12 @@ def _batch(config, store, root, workers, design):
         directory = root / record['artifact']
         model = ElasticNetAdapter.load(directory / 'model_package')
         train, pre, target, pred, x, xp = runner.executor.matrices(task)
+        if task['identity']['task'] == 'classification' and task['identity']['parameters']['C'] == .0001:
+            assert record['estimator_fit_calls'] == 0
+            assert record['diagnostics'][0]['solver'] == 'certified_zero_slopes'
+            expected = train.y.future_state_id.value_counts(normalize=True).reindex(target.schema_['class_ids'], fill_value=0)
+            np.testing.assert_allclose(model.estimators_[0].predict_proba(x),
+                np.tile(expected[expected.gt(0)], (len(x), 1)), rtol=0, atol=3e-15)
         ctx = prediction_context(pred, pre, target, model_id='elastic_net', model_version=model.model_version_, input_matrix=xp)
         saved = pd.read_parquet(directory / 'predictions.parquet')
         pd.testing.assert_frame_equal(model.predict(xp, ctx), saved, check_exact=True)

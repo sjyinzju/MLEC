@@ -86,11 +86,11 @@ def test_formal_plan_scope_budget_and_candidate_symmetry(store):
     config = load_config()
     plan = preview(config, store, 'full')
     assert plan['core_configurations'] == 16
-    assert plan['selected_configurations'] == 112  # 16 retuned + 96 fixed
+    assert plan['selected_configurations'] == 128  # 16 retuned, 16 fixed M, 96 fixed M+Z
     assert len(plan['information_sets']) == 12
     assert len(plan['candidate_monthly_tasks']) == 4 * 2 * 2 * 32 * 12
     assert {r['market_id'] for r in plan['configurations']} == set(config['markets'])
-    assert {r['mode'] for r in plan['configurations']} == {'retuned_core', 'fixed_full_params'}
+    assert {r['mode'] for r in plan['configurations']} == {'retuned_core', 'fixed_market_params', 'fixed_full_params'}
     assert all(b['development_months'] == 36 and b['test_months'] == 47 for b in plan['budgets'])
     for task, key, bounds in [('classification', 'C', [1e-4, 1e4]), ('regression', 'alpha', [1e-5, 10.])]:
         values = candidates(config, task)
@@ -391,6 +391,15 @@ def test_complete_stub_pipeline_automatic_lock_test_reports_resume(store, stub_f
     assert 'ARTIFICIAL_TEST_ONLY' in (root / 'report.md').read_text(encoding='utf8')
     assert len(list((root / 'figures').glob('*.png'))) >= 6
     assert read_json(root / 'selection.lock.json')['development_evidence']['selected_task_count'] > 0
+    locked = read_json(root / 'selection.lock.json')
+    assert {r['parameter_reference'] for r in locked['analyses'] if r['mode'] == 'fixed_market_params'} == {'M'}
+    assignments = read_json(root / 'test/selection/assignments.json')
+    for a in assignments:
+        i = a['identity']
+        if i['mode'] == 'fixed_market_params':
+            key = '|'.join([i['market_id'], i['task'], 'M'])
+            assert i['parameters'] == locked['parameters'][key]['parameters']
+            assert a['task_id'] != a['fit_id']
     groups = pd.read_csv(root / 'tables/macro_groups.csv')
     if suite == 'full':
         assert set(groups.kind) == {'add', 'delete'}

@@ -21,7 +21,7 @@ from ..models import require_model, create_model, REGISTRY
 from ..models.errors import fit_counts
 from ..models.training import TrainingPartitions
 from .artifacts import atomic_json, atomic_parquet, read_json, staging, file_manifest, check_files
-from .config import portable_config, candidates, seeds, scope
+from .config import portable_config, candidates, seeds, scope, parameter_reference
 from .scoring import score_predictions
 from .warnings import risk_definition, warning_data
 from .scheduling import worker_count, process_usage
@@ -105,7 +105,7 @@ def preview(config, store, suite):
     search = config['search']
     coarse = [m for m in development if int(m[-2:]) in search['coarse_months']]
     configurations = [dict(model=config['model'], market_id=m, task=t, mode=mode, information_set=info,
-        parameter_source='independent_M_or_MZ_development_winner' if mode == 'retuned_core' else 'MZ_development_winner',
+        parameter_source=parameter_reference(mode, info),
         seeds=seeds(config, t), development_months=len(development), test_months=len(test),
         estimators_per_month=7 if t == 'regression' and REGISTRY[config['model']]['regression'] == 'per_target' else 1)
         for m in config['markets'] for t in config['tasks'] for mode, info in comparisons]
@@ -115,14 +115,11 @@ def preview(config, store, suite):
     for t in config['tasks']:
         groups = len(config['markets']) * 2
         candidate_months = groups * (search['candidate_count'] * len(coarse) + search['finalists'] * (len(development) - len(coarse)))
-        selected_logical = len(config['markets']) * len(comparisons) * len(seeds(config, t))
+        physical_configurations = len({(info, parameter_reference(mode, info)) for mode, info in comparisons})
+        selected_physical = len(config['markets']) * physical_configurations * len(seeds(config, t))
         # Core seed 3060 winners and complete MZ fixed-mode references reuse actual fits.
-        selected_b = selected_logical * len(development) - groups * len(development)
-        selected_c = selected_logical * len(test)
-        if suite == 'full':
-            shared = len(config['markets']) * len(seeds(config, t))
-            selected_b -= shared * len(development)
-            selected_c -= shared * len(test)
+        selected_b = selected_physical * len(development) - groups * len(development)
+        selected_c = selected_physical * len(test)
         outer = candidate_months + selected_b + selected_c
         factor = 7 if t == 'regression' and REGISTRY[config['model']]['regression'] == 'per_target' else 1
         inner, calibration_calls = 0, 0
@@ -130,9 +127,7 @@ def preview(config, store, suite):
             for row in time_plans:
                 f = row['fold_id']
                 candidate_outer = 2 * (search['candidate_count'] if f in coarse else search['finalists']) if f in development else 0
-                selected_outer = len(comparisons) * len(seeds(config, t)) - (2 if f in development else 0)
-                if suite == 'full':
-                    selected_outer -= len(seeds(config, t))
+                selected_outer = physical_configurations * len(seeds(config, t)) - (2 if f in development else 0)
                 physical_outer = candidate_outer + selected_outer
                 inner += physical_outer * row['internal_svc_fits']
                 calibration_calls += physical_outer * row['sigmoid_fits']
@@ -205,9 +200,23 @@ def preflight(config, store, suite, *, check_environment=True):
                 pred = load_dataset(market_id=market, information_set='M+Z', fold_id=fold,
                     role='prediction', quality=config['quality'], store=store)
                 transform_inputs(pre, pred)
+    lineage = store.get('macro/' + config['quality'] + '/lineage')
+    if lineage.available_at.gt(lineage.asof_time).any():
+        raise ValueError('Macro source available after prediction time')
+    macro_audit = []
+    specifications = {s['series_id']: s for s in read_json(store.root / 'macro/specifications.json')}
+    for series, rows in lineage.groupby('series_id'):
+        spec = specifications[series]
+        age = (rows.asof_time - rows.available_at).dt.total_seconds() / 86400
+        macro_audit.append(dict(series_id=series, group=spec['series_group'], frequency=spec['frequency'],
+            source_priority=spec['source_priority'], unit=spec['unit'], historical_scopes=sorted(rows.statistical_scope_id.dropna().unique()),
+            rows=len(rows), statuses=rows.status.value_counts().to_dict(), median_age_days=float(age.median()) if age.notna().any() else None,
+            source_quality=rows.quality.value_counts().to_dict(),
+            reconstruction_before_archive_vintage=int(rows.available_at.lt(rows.actual_vintage_available_at).sum()),
+            scope_breaks=int(rows.change_scope_break.sum()), period_gaps=int(rows.change_period_gap.sum())))
     return dict(status='PREFLIGHT_PASSED', environment=env, versions=versions(config, store),
         calibration_plans=calibration_plans(config, store),
-        train_class_support=support, risk_definition=risk_definition(store, config),
+        train_class_support=support, risk_definition=risk_definition(store, config), macro_lineage_audit=macro_audit,
         resources=dict(config['resources'], resolved_cpu_workers=worker_count(config)),
         fixed_scales={m: evaluation_scale(market_id=m, store=store) for m in config['markets']},
         supervised_fit_calls=0, calibration_fit_calls=0, smoke_runs=0)
@@ -274,12 +283,16 @@ class MonthlyExecutor:
             ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model_version, input_matrix=Xp)
             if i['task'] == 'classification':
                 ids = target.schema_['class_ids']
-                if model_id == 'naive_history':
-                    alpha = self.config['baselines']['history_dirichlet_alpha']
-                    counts = train.y.future_state_id.value_counts().reindex(ids, fill_value=0).to_numpy() + alpha
-                    p = np.tile(counts / counts.sum(), (len(pred.keys), 1))
-                else:
+                if model_id == 'naive_current_state':
                     p = pred.X[['current_state_prob_' + str(c) for c in ids]].to_numpy(float)
+                else:
+                    if model_id == 'naive_initial_frequency':
+                        frequency = [self.risk['initial_class_frequency'][i['market_id']][str(c)] for c in ids]
+                    else:
+                        alpha = self.config['baselines']['history_dirichlet_alpha'] if model_id == 'naive_history' else 0.
+                        counts = train.y.future_state_id.value_counts().reindex(ids, fill_value=0).to_numpy() + alpha
+                        frequency = counts / counts.sum()
+                    p = np.tile(frequency, (len(pred.keys), 1))
                 output = classification_output(ctx, np.asarray(ids)[p.argmax(axis=1)], p, target.schema_)
             else:
                 values = pred.X[['market__' + c + '_20d' for c in CORE]].copy()

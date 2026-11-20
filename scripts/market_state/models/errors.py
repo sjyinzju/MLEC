@@ -15,5 +15,6 @@ class ResourceFailure(RuntimeError):
 
 
 def fit_counts(diagnostics):
-    return dict(estimator_fit_calls=sum(d.get('component', 'estimator') != 'calibrator' for d in diagnostics),
+    return dict(estimator_fit_calls=sum(d.get('component', 'estimator') != 'calibrator'
+        and d.get('estimator_fit_called', True) for d in diagnostics),
         calibration_fit_calls=sum(d.get('component') == 'calibrator' for d in diagnostics))

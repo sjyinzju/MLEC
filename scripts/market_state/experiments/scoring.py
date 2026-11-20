@@ -80,8 +80,12 @@ def classification_metrics(scores, schema):
         precision = float(tp / count) if count else None
         recall = float(tp / support) if support else None
         f1 = float(2 * tp / (support + count)) if support + count else None
+        contrast = 0 < support < n
         per_class.append(dict(class_id=c, support=int(support), predicted=int(count),
             precision=precision, recall=recall, f1=f1,
+            average_precision=float(average_precision_score(y == c, p[:, j])) if contrast else None,
+            pr_auc_reason='DEFINED_AVERAGE_PRECISION' if contrast else 'NO_BINARY_CONTRAST',
+            roc_auc=float(roc_auc_score(y == c, p[:, j])) if contrast else None,
             reason='NO_TRUE_CLASS' if not support else 'NO_PREDICTED_CLASS' if not count else 'DEFINED'))
         if f1 is not None:
             f1s.append(f1)
@@ -137,6 +141,8 @@ def synchronized_bootstrap(differences, *, block_weeks, repetitions, seed, confi
         raise ValueError('Non-finite paired differences')
     d = differences.copy()
     d['week'] = pd.DatetimeIndex(d.asof_date).to_period('W').start_time
+    if d.duplicated(['comparison_id', 'week']).any():
+        raise ValueError('More than one evaluation per comparison and calendar week')
     calendar = pd.date_range(d.week.min(), d.week.max(), freq='7D')
     ids = sorted(d.comparison_id.unique())
     sums = d.pivot_table(index='week', columns='comparison_id', values='loss_difference', aggfunc='sum').reindex(index=calendar, columns=ids).fillna(0).to_numpy()
@@ -157,8 +163,10 @@ def synchronized_bootstrap(differences, *, block_weeks, repetitions, seed, confi
         values = draws[:, j]
         values = values[np.isfinite(values)]
         result.append(dict(comparison_id=name, mean=float(means[j]),
-            lower=float(np.quantile(values, alpha)), upper=float(np.quantile(values, 1 - alpha)),
-            p_one_sided=float((1 + (values - means[j] >= means[j]).sum()) / (len(values) + 1)),
+            lower=float(np.quantile(values, alpha)) if len(values) else None,
+            upper=float(np.quantile(values, 1 - alpha)) if len(values) else None,
+            p_one_sided=float((1 + (values - means[j] >= means[j]).sum()) / (len(values) + 1)) if len(values) else None,
+            bootstrap_status='DEFINED' if len(values) else 'NO_NONEMPTY_RESAMPLES',
             block_weeks=block_weeks, repetitions=repetitions, valid_repetitions=len(values),
             calendar_weeks=n, empty_calendar_weeks=int((counts[:, j] == 0).sum()),
             n=int(counts[:, j].sum()), method='synchronized_moving_calendar_week_blocks_centered_null'))

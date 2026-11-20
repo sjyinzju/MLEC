@@ -10,7 +10,7 @@ from .scheduling import TaskRunner, TaskScheduler
 from ..release import file_hash
 from .artifacts import (TaskJournal, atomic_json, atomic_parquet, read_json,
     check_files, native_path, exclusive_run)
-from .config import candidates, seeds, scope, portable_config, validate_config
+from .config import candidates, seeds, scope, parameter_reference, portable_config, validate_config
 from .runtime import MonthlyExecutor, preflight, versions, fold_lists
 from .warnings import select_workpoints
 
@@ -164,12 +164,15 @@ class Pipeline(TaskRunner):
             for market in self.config['markets']:
                 for target in self.config['tasks']:
                     for mode, information in self.comparisons:
-                        source = information if mode == 'retuned_core' else 'M+Z'
+                        source = parameter_reference(mode, information)
                         winner = selection[group_id(market, target, source)]['winner']
                         for seed in seeds(self.config, target):
                             tasks.append(self.task(stage=stage, mode=mode, market=market, task=target,
                                 information=information, fold=fold, parameters=winner['parameters'], seed=seed))
-                    for baseline in (['naive_history', 'naive_current_state'] if target == 'classification' else ['naive_persistence']):
+                    baselines = ['naive_history', 'naive_current_state'] if target == 'classification' else ['naive_persistence']
+                    if target == 'classification' and self.config['model'] == 'elastic_net':
+                        baselines += ['naive_initial_frequency', 'naive_intercept']
+                    for baseline in baselines:
                         tasks.append(self.task(stage=stage, mode='baseline', market=market, task=target, information='M',
                             fold=fold, parameters=self.config['baselines'], seed=0, family=baseline))
         return tasks
@@ -278,7 +281,7 @@ class Pipeline(TaskRunner):
             purpose=self.config['purpose'], versions=self.identity, development_evidence=evidence,
             parameters={k: v['winner'] for k, v in selection.items()},
             analyses=[dict(mode=mode, information_set=info,
-                parameter_reference='own_core_winner' if mode == 'retuned_core' else 'MZ_winner') for mode, info in self.comparisons],
+                parameter_reference=parameter_reference(mode, info)) for mode, info in self.comparisons],
             backend=self.config['backend'], resources=portable_config(self.config)['resources'],
             seeds={t: seeds(self.config, t) for t in self.config['tasks']},
             exception_policy=self.config['policy'], search_rules=self.config['search'],

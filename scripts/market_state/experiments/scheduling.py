@@ -251,6 +251,7 @@ class TaskScheduler:
         self.owner.disk_check()
         leaders = list(grouped.values())
         results = {}
+        started = heartbeat = time.monotonic()
         try:
             # Bound outstanding work. A stop/failure does not leave a whole
             # search queued; aggregation still follows the original input order.
@@ -264,11 +265,24 @@ class TaskScheduler:
                     pending[self.pool.submit(_worker_task, item)] = item[0]
             fill()
             while pending:
-                done, _ = wait(pending, return_when=FIRST_COMPLETED)
+                done, _ = wait(pending, timeout=30, return_when=FIRST_COMPLETED)
                 for future in done:
                     task = pending.pop(future)
                     packet = future.result()
                     self._accept_packet(task, packet, results, allow_fit_failure)
+                now = time.monotonic()
+                if now - heartbeat >= 30:
+                    elapsed = now - started
+                    remaining = len(leaders) - len(results)
+                    status = dict(stage=leaders[0][0]['stage'], batch_physical=len(leaders),
+                        completed=len(results), remaining=remaining, failed=sum(r is None for r in results.values()),
+                        workers=self.workers, batch_wall_seconds=elapsed, available_memory_gb=available_memory_gb(),
+                        free_disk_gb=shutil.disk_usage(self.owner.root).free / 1024**3,
+                        estimated_remaining_seconds=elapsed * remaining / len(results) if results else None,
+                        unix_time=time.time())
+                    atomic_json(self.owner.root / 'logs/heartbeat.json', status)
+                    print('task batch progress', status, flush=True)
+                    heartbeat = now
                 fill()
             ordered = []
             for task, keep in items:

@@ -6,7 +6,8 @@ import numpy as np
 import pandas as pd
 import pytest
 from scripts.market_state.preprocessing import FoldPreprocessor
-from scripts.market_state.models.elastic_quality import classification_quality, regression_quality, weight_hash
+from scripts.market_state.models.elastic_quality import certify_zero_slopes, classification_quality, regression_quality, weight_hash
+from scripts.market_state.models.errors import fit_counts
 from scripts.market_state.experiments.config import load_config
 from scripts.market_state.experiments.runtime import MonthlyExecutor, versions
 from scripts.market_state.framework import DataStore, load_dataset
@@ -74,6 +75,27 @@ def test_intercept_feasible_optimum_and_false_success(binary, balanced):
     if not balanced:
         e.intercept_ = np.zeros_like(b)
         assert not classification_quality(e, x, y, p)['accepted']
+
+
+@pytest.mark.parametrize('labels', [[0, 2], [0, 1, 2]])
+def test_zero_slopes_require_exact_subgradient_bound(labels):
+    from sklearn.linear_model import LogisticRegression
+    y = np.repeat(labels, np.arange(1, len(labels) + 1))
+    X = pd.DataFrame({'predictive': (y == labels[-1]).astype(float)})
+    model = LogisticRegression(solver='saga', l1_ratio=.5)
+    p = dict(C=1e-4, l1_ratio=.5, tol=1e-4)
+    certificate = certify_zero_slopes(model, X, y, p, None)
+    assert certificate['kkt_max'] == 0. and model.n_iter_[0] == 0
+    np.testing.assert_array_equal(model.classes_, labels)
+    expected = np.unique(y, return_counts=True)[1] / len(y)
+    np.testing.assert_allclose(model.predict_proba(X), np.tile(expected, (len(y), 1)))
+    # A zero solution can fit within the iterative solver slack while still
+    # violating the exact subgradient inequality.
+    p['C'] = p['l1_ratio'] / ((certificate['max_smooth_gradient'] - 1e-6) * len(y))
+    assert classification_quality(model, X, y, p)['accepted']
+    assert certify_zero_slopes(model, X, y, p, None) is None
+    assert fit_counts([{'estimator_fit_called': False}, {}, {'component': 'calibrator'}]) == {
+        'estimator_fit_calls': 1, 'calibration_fit_calls': 1}
 
 
 @pytest.mark.parametrize('ratio', [.05, .95, 1.])

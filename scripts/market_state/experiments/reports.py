@@ -10,7 +10,7 @@ from ..model_contract import (PredictionContext, validate_output, key_hash, trut
     IDENTITY, OUTPUT_CONTEXT_FIELDS)
 from .artifacts import read_json, atomic_json, atomic_parquet, check_files
 from .scoring import (add_losses, classification_metrics, regression_metrics, synchronized_bootstrap, holm)
-from .warnings import evaluate_workpoint, warning_curve
+from .warnings import evaluate_workpoint, warning_curve, window_clusters
 
 GROUP = ['family', 'market_id', 'task', 'mode', 'information_set', 'seed']
 WARN_GROUP = GROUP + ['signal']
@@ -84,6 +84,8 @@ def analysis_frames(root, stage, purpose='RESEARCH', *, artificial=False):
                 information_set=identity['information_set'], fold_id=identity['fold_id'], status='SUCCEEDED',
                 backend=identity['backend'], elapsed_seconds=task.get('elapsed_seconds', ctx['elapsed_seconds']),
                 estimator_fit_calls=task.get('estimator_fit_calls', len(ctx['diagnostics'])),
+                certified_zero_slopes=sum(d.get('solver') == 'certified_zero_slopes' for d in task.get('diagnostics', [])),
+                peak_rss_bytes=task.get('process_usage', {}).get('peak_rss_bytes'),
                 calibration_fit_calls=task.get('calibration_fit_calls', 0),
                 internal_svc_fit_calls=sum(d.get('phase') == 'internal' for d in task.get('diagnostics', [])),
                 final_svc_fit_calls=sum(d.get('phase') == 'final' and d.get('target') == 'classification' for d in task.get('diagnostics', [])),
@@ -104,6 +106,8 @@ def analysis_frames(root, stage, purpose='RESEARCH', *, artificial=False):
             task=i['task'], seed=i['seed'], information_set=i['information_set'], fold_id=i['fold_id'],
             status=task['status'], backend=i['backend'], elapsed_seconds=task.get('elapsed_seconds'),
             estimator_fit_calls=task.get('estimator_fit_calls', len(diagnostics)),
+            certified_zero_slopes=sum(d.get('solver') == 'certified_zero_slopes' for d in diagnostics),
+            peak_rss_bytes=task.get('process_usage', {}).get('peak_rss_bytes'),
             calibration_fit_calls=task.get('calibration_fit_calls', 0),
             convergence_warnings=sum(any(w['category'] == 'ConvergenceWarning' for w in d['warnings']) for d in diagnostics),
             numerical_warnings=sum(d.get('numerical_failure', False) for d in diagnostics),
@@ -159,7 +163,8 @@ def performance_tables(scores, schema, stage):
             for metric in ['five_dimension_squared'] + ['mae_' + c for c in CORE] + ['rmse_' + c for c in CORE]:
                 regression.loc[index, 'relative_improvement_vs_persistence_' + metric] = (reference[metric] - row[metric]) / reference[metric] if reference[metric] != 0 else np.nan
     for index, row in classification.iterrows():
-        for family, metric in [('naive_history', 'log_loss'), ('naive_current_state', 'accuracy')]:
+        for family, metric in [('naive_history', 'log_loss'), ('naive_current_state', 'accuracy'),
+                ('naive_initial_frequency', 'log_loss'), ('naive_intercept', 'log_loss')]:
             base = classification[classification.family.eq(family) & classification.market_id.eq(row.market_id) &
                 classification.year.eq(row.year) & classification.seed.eq('mean')]
             if len(base) == 1 and int(base.n.iloc[0]) == int(row.n):
@@ -227,12 +232,17 @@ def increment_tables(pairs, config):
             result = synchronized_bootstrap(frame, block_weeks=width, repetitions=stats['repetitions'],
                 seed=stats['seed'], confidence=stats['confidence'])
             result = result.merge(meta, on='comparison_id', validate='one_to_one')
-            baseline = frame.groupby('comparison_id').loss_M.mean()
+            loss = frame.groupby('comparison_id')[['loss_M', 'loss_MZ']].mean()
+            baseline = loss.loss_M
+            result['mean_loss_left'] = result.comparison_id.map(baseline)
+            result['mean_loss_right'] = result.comparison_id.map(loss.loss_MZ)
+            result['max_absolute_weekly_difference'] = result.comparison_id.map(
+                frame.loss_difference.abs().groupby(frame.comparison_id).max())
             result['relative_improvement'] = [float(row['mean'] / baseline.loc[row['comparison_id']]) if baseline.loc[row['comparison_id']] != 0 else None for row in result.to_dict('records')]
             result['numerical_equivalence_tolerance'] = result.comparison_id.map(
                 lambda key: 128. * np.finfo(float).eps * max(1., abs(baseline.loc[key])))
             result['effect_interpretation'] = [
-                'NUMERICALLY_EQUIVALENT' if abs(r['mean']) <= r['numerical_equivalence_tolerance'] else
+                'NUMERICALLY_EQUIVALENT' if r['max_absolute_weekly_difference'] <= r['numerical_equivalence_tolerance'] else
                 'SMALL_RELATIVE_EFFECT_BELOW_0.1_PERCENT' if pd.notna(r['relative_improvement']) and abs(r['relative_improvement']) < .001 else
                 'LOWER_LOSS_WITH_MACRO' if r['mean'] > 0 else 'HIGHER_LOSS_WITH_MACRO'
                 for r in result.to_dict('records')]
@@ -243,6 +253,26 @@ def increment_tables(pairs, config):
             results.append(result)
     result = pd.concat(results, ignore_index=True)
     return result[result.kind.eq('core')].reset_index(drop=True), result[~result.kind.eq('core')].reset_index(drop=True), averaged
+
+
+def loss_diagnostics(averaged, increment, config):
+    main = increment[increment.year.eq('all') & increment.block_weeks.eq(8)
+        & increment['mode'].eq('retuned_core') & increment.metric.isin(['log_loss', 'five_dimension_squared'])]
+    keys = ['comparison_id', 'market_id', 'task', 'metric']
+    weekly = averaged.merge(main[keys], on='comparison_id', validate='many_to_one')
+    weekly['year'] = weekly.asof_date.dt.year
+    weekly['absolute_difference'] = weekly.loss_difference.abs()
+    weekly['contribution_rank'] = weekly.groupby('comparison_id').absolute_difference.rank(method='first', ascending=False)
+    n = weekly.groupby('comparison_id').asof_date.transform('size')
+    weekly['extreme_5pct'] = weekly.contribution_rank.le(np.floor(.05 * n))
+    quantiles = weekly.groupby(keys + ['year'])[['loss_M', 'loss_MZ', 'loss_difference']].quantile(
+        [0., .05, .25, .5, .75, .95, 1.]).rename_axis(index=keys + ['year', 'quantile']).reset_index()
+    sensitivity = synchronized_bootstrap(weekly.loc[~weekly.extreme_5pct],
+        block_weeks=8, repetitions=config['statistics']['repetitions'], seed=config['statistics']['seed'],
+        confidence=config['statistics']['confidence']).merge(main[keys], on='comparison_id', validate='one_to_one')
+    sensitivity['removed_weeks'] = sensitivity.comparison_id.map(weekly.groupby('comparison_id').extreme_5pct.sum())
+    sensitivity['analysis'] = 'EXPLORATORY_REMOVE_TOP_5_PERCENT_ABSOLUTE_PAIRED_DIFFERENCES'
+    return weekly, quantiles, sensitivity
 
 
 def warning_tables(warnings, locked, stage):
@@ -349,6 +379,62 @@ def figures(directory, classification, regression, increment, groups, confusion,
         fig.tight_layout(); fig.savefig(directory / ('warning_' + signal + '.png'), dpi=140); plt.close(fig)
 
 
+def elastic_report(root, manifest, stage, locked, products, coverage, quality):
+    risk = locked['risk_definition']
+    lines = ['# Elastic Net 市场状态预测复算', '',
+        f'运行 `{manifest["run_id"]}` · 阶段 `{stage}` · 套件 `{manifest["suite"]}`',
+        '', '## 运行和数值验收', '',
+        '零系数候选仅在训练频率截距、完整 KKT 和原惩罚目标同时成立时采用解析解。',
+        '旧求解器在全部斜率为零时可能首轮退出，随机更新后的截距仍有一阶残差。',
+        '七项回归沿用增广 Lasso/LARS 和独立对偶间隙。收紧停止条件的续解告警仍保存。',
+        '',
+        f'选定逻辑月任务 {len(coverage):,}。阶段物理任务 {len(quality):,}，其中通过 {int(quality.status.eq("SUCCEEDED").sum()):,}，失败 {int(quality.status.eq("FAILED").sum()):,}。',
+        f'记录到的估计器拟合调用 {int(quality.estimator_fit_calls.sum()):,}，零迭代解析解 {int(quality.certified_zero_slopes.sum()):,}。',
+        f'最大片内进程峰值内存 {quality.peak_rss_bytes.max() / 1024**3:.2f} GiB。各进程峰值可能出现于不同时刻。',
+        '', '## 主比较', '',
+        '正值表示 M＋Z 降低损失。区间使用 8 周同步日历区块和 2,000 次重采样。'
+        '4 周、12 周及逐年结果见明细。单侧 p 值检验正向增益，负向改善区间按其本身方向解读。'
+        '非线性模型主检验尚未齐备，Holm 校正值留空。', '']
+    increment = products['macro_increment']
+    primary = increment[increment.year.eq('all') & increment.block_weeks.eq(8)
+        & increment['mode'].eq('retuned_core') & increment.metric.isin(['log_loss', 'five_dimension_squared'])]
+    for row in primary.to_dict('records'):
+        lines.append(f'- {row["market_id"]} {row["task"]}，M {row["mean_loss_left"]:.5g}，'
+            f'M＋Z {row["mean_loss_right"]:.5g}，增益 {row["mean"]:.5g}，'
+            f'95% 区间 [{row["lower"]:.5g}, {row["upper"]:.5g}]，{row["n"]} 周。')
+    classification = products['core_classification']
+    regression = products['core_regression']
+    lines += ['', '### 金融特征与朴素基准', '']
+    for market in sorted(primary.market_id.unique()):
+        cm = classification[(classification.market_id == market) & (classification.year == 'all')
+            & (classification.seed == 'mean') & (classification.information_set == 'M') & (classification['mode'] == 'retuned_core')].iloc[0]
+        rm = regression[(regression.market_id == market) & (regression.year == 'all')
+            & (regression.seed == 'mean') & (regression.information_set == 'M') & (regression['mode'] == 'retuned_core')].iloc[0]
+        lines.append(f'- {market}，M 相对平滑训练频率基准的 Log Loss 降幅 {cm.gain_vs_naive_history:.5g}，'
+            f'相对历史 20 日持续基准的五维平方误差降幅 {rm.relative_improvement_vs_persistence_five_dimension_squared:.2%}。')
+    lines += ['', '## 预警和解释', '',
+        f'字典风险映射为 `{json.dumps(risk["risks"], ensure_ascii=False)}`。'
+        '同一状态映射产生相同的类别概率信号。低换手仅描述交易活跃度，流动性判断同时参考 Amihud 价格冲击。',
+        '连续风险辅助结果对七项原指标分别使用初始训练期不利方向的 90% 分位。'
+        '报警阈值仅在开发期按固定负担选取。重叠窗口簇只表示窗口合并后的事件段，统计推断使用区块 Bootstrap。',
+        '状态 0 的平均精确率、ROC-AUC、校准、逐类召回、无支持提示和各负担检出率见下列明细。', '',
+        '- [分类和朴素基准](tables/core_classification.csv) · [分类支持与排序](tables/class_precision_recall.csv) · [校准](tables/reliability.csv)',
+        '- [七目标和五维回归](tables/core_regression.csv) · [预警](tables/warning_value.csv) · [类别支持](tables/class_support.csv)',
+        '- [逐周损失和贡献](tables/weekly_loss_diagnostics.csv) · [年度分位数](tables/weekly_loss_quantiles.csv) · [删极端周敏感性](tables/extreme_week_sensitivity.csv)',
+        '- [固定参数比较](tables/fixed_parameter_sensitivity.csv) · [宏观分组](tables/macro_groups.csv) · [宏观发布时间审计](tables/macro_lineage_audit.csv)',
+        '- [运行质量](tables/runtime_quality.csv) · [覆盖](tables/coverage_status.csv) · [候选有效率](tables/candidate_status.csv)',
+        '', '## 研究范围', '',
+        ('本阶段包含全部 96 个原定固定 M＋Z 参数配置。' if manifest['suite'] == 'full'
+         else '本阶段包含核心 M/M＋Z 和两种共同参数比较。'),
+        '同参比较使用 M 和 M＋Z 各自的开发获胜参数进行交叉对照。分组、同参和极端周分析为辅助探索。',
+        '宏观特征按可得日、口径和来源类型审计。历史重建视图包含代理可得时间，无法证明当年的真实实时数据版本。',
+        '信息年龄、发布时钟和金融模块的独立特征投影仍需单独的数据视图。',
+        '2023 年之后的测试时代此前已被查看，本运行属于实现修复后的复算。',
+        '', '## 来源身份', '']
+    lines.extend(f'- {key} `{value}`' for key, value in manifest['versions'].items())
+    return '\n'.join(lines) + '\n'
+
+
 def summarize(root, *, stage='test', artificial=False):
     root = Path(root).resolve()
     manifest = read_json(root / 'manifest.json')
@@ -381,6 +467,31 @@ def summarize(root, *, stage='test', artificial=False):
         'runtime_quality': quality, 'coverage_status': coverage,
         'class_precision_recall': classes, 'confusion_matrix': confusion,
         'reliability': reliability, 'warning_curves': curves}
+    if manifest['model'] == 'elastic_net':
+        weekly, quantiles, sensitivity = loss_diagnostics(averaged, increment, config)
+        preflight = read_json(root / 'preflight.json')
+        support = [dict(period='initial_train', **r) for r in locked['risk_definition'].get('initial_class_support', [])]
+        reference = scores[scores.family.eq('elastic_net') & scores.task.eq('classification')
+            & scores['mode'].eq('retuned_core') & scores.information_set.eq('M') & scores.seed.eq(locked['seeds']['classification'][0])]
+        windows = warnings[warnings.signal.eq('state_0_probability')][KEY + ['label_start', 'label_end']].drop_duplicates()
+        reference = reference[KEY + ['future_state_id']].merge(windows, on=KEY, how='inner', validate='one_to_one')
+        for market, frame in reference.groupby('market_id'):
+            for label in schema['class_ids']:
+                affected = frame[frame.future_state_id.eq(label)]
+                support.append(dict(period=stage, market_id=market, class_id=label, n=len(frame),
+                    support=len(affected), overlapping_window_clusters=window_clusters(affected)))
+        candidates_summary = []
+        for evidence in read_json(root / 'development/selection/search.json').values():
+            for phase in ('coarse', 'full_review'):
+                for c in evidence[phase]:
+                    candidates_summary.append(dict(market_id=evidence['market_id'], task=evidence['task'],
+                        information_set=evidence['information_set'], phase=phase, **{k: c[k] for k in ('candidate_id','valid','score')},
+                        selected=c['candidate_id'] == evidence['winner']['candidate_id'], **c['parameters']))
+        products.update(fixed_parameter_sensitivity=increment[increment['mode'].ne('retuned_core')],
+            weekly_loss_diagnostics=weekly, weekly_loss_quantiles=quantiles, extreme_week_sensitivity=sensitivity,
+            class_support=pd.DataFrame(support), monthly_training_support=pd.DataFrame(preflight.get('train_class_support', [])),
+            macro_lineage_audit=pd.DataFrame(preflight.get('macro_lineage_audit', [])),
+            candidate_status=pd.DataFrame(candidates_summary))
     for name, table in products.items():
         write_table(tables, name, table, markdown=name in ['core_classification', 'core_regression', 'macro_increment', 'macro_groups', 'warning_value'])
     atomic_parquet(root / stage / 'losses/paired_differences.parquet', pairs)
@@ -412,7 +523,9 @@ def summarize(root, *, stage='test', artificial=False):
     if artificial:
         lines.insert(2, '**ARTIFICIAL_TEST_ONLY — orchestration verification, not research evidence.**')
     report_path = root / 'report.md' if stage == 'test' else root / 'development/report.md'
-    report_path.write_text('\n'.join(lines), encoding='utf8')
+    body = (elastic_report(root, manifest, stage, locked, products, coverage, quality)
+        if manifest['model'] == 'elastic_net' and not artificial else '\n'.join(lines))
+    report_path.write_text(body, encoding='utf8')
     atomic_json(root / stage / 'report_manifest.json', dict(stage=stage, run_id=manifest['run_id'], purpose=manifest['purpose'],
         tables={name: len(frame) for name, frame in products.items()}, lock_hash=manifest['lock_hash']))
     return products

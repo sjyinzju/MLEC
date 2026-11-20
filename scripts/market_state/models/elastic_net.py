@@ -22,7 +22,7 @@ from ..target_adapters import TargetAdapter
 from ..release import file_hash, code_hash
 from . import capabilities
 from .errors import FitFailure
-from .elastic_quality import (classification_quality, regression_quality, initial_intercept,
+from .elastic_quality import (classification_quality, regression_quality, certify_zero_slopes,
     weight_hash, QUALITY_VERSION, elastic_dual_state)
 from ..preprocessing import input_diagnostics
 
@@ -143,7 +143,6 @@ class AugmentedLarsElasticNet(ElasticNet):
         quality_parameters = dict(alpha=self.alpha, l1_ratio=self.l1_ratio, tol=self.tol)
         if not regression_quality(self, X, values, quality_parameters)['accepted']:
             self.polish(g, values)
-        self.certified_solution_ = regression_quality(self, X, values, quality_parameters)['accepted']
         self.__dict__.pop('_geometry', None)  # bounded train-only workspace, never model state
         return self
 
@@ -232,9 +231,18 @@ class ElasticNetAdapter:
                     elif previous is not None and self.task == 'regression' and hasattr(estimator, 'set_params'):
                         estimator.set_params(tol=self.parameters['tol'] / 10. ** attempt)
                         estimator.coef_, estimator.intercept_ = previous.coef_.copy(), previous.intercept_
-                    elif self.task == 'classification':
-                        initial_intercept(estimator, X_train, values, self.policy['class_weight'])
                     start = time.perf_counter()
+                    if attempt == 0 and self.task == 'classification' and isinstance(estimator, LogisticRegression):
+                        certificate = certify_zero_slopes(estimator, X_train, values, self.parameters,
+                            self.policy['class_weight'])
+                        if certificate is not None:
+                            self.diagnostics_.append(dict(target=target, attempt=1, max_iter=maximum,
+                                solver='certified_zero_slopes', solver_tolerance=None, estimator_fit_called=False,
+                                elapsed_seconds=time.perf_counter() - start, quality=certificate,
+                                input=self.input_diagnostics_, remedy='training_frequency_intercept_kkt_certificate',
+                                n_iter=[0], dual_gap=[], numerical_failure=False, warnings=[], converged=True, nonzero=0))
+                            fitted = estimator
+                            break
                     if isinstance(estimator, AugmentedLarsElasticNet):
                         if geometry is None:
                             geometry = regression_geometry(X_train, self.parameters['alpha'], self.parameters['l1_ratio'])
@@ -257,9 +265,12 @@ class ElasticNetAdapter:
                     nonfinite = not (np.isfinite(estimator.coef_).all() and np.isfinite(estimator.intercept_).all()
                         and np.isfinite(np.asarray(getattr(estimator, 'dual_gap_', []))).all())
                     warned_convergence = any(issubclass(w.category, ConvergenceWarning) for w in caught)
-                    convergence = warned_convergence and not getattr(estimator, 'certified_solution_', False)
                     numerical = nonfinite or any(issubclass(w.category, RuntimeWarning) for w in caught)
                     quality = dict(accepted=False, reason='NONFINITE_SOLUTION') if numerical else self.solution_quality(estimator, X_train, values)
+                    # A tightened continuation can exhaust its internal stopping
+                    # budget after meeting the original independent gap criterion.
+                    regression_certified = self.task == 'regression' and isinstance(estimator, ElasticNet) and quality['accepted']
+                    convergence = warned_convergence and not regression_certified
                     self.diagnostics_.append(dict(target=target, attempt=attempt + 1, max_iter=maximum,
                         solver=getattr(estimator, 'solver_name', 'saga' if self.task == 'classification' else 'cyclic_coordinate_descent'),
                         solver_mapping=getattr(estimator, 'solver_mapping_', None),
