@@ -1,6 +1,13 @@
 {
   "schema_version": "experiments-v1",
   "purpose": "RESEARCH",
+  "research_design": {
+    "revision": "elastic_net_final_rerun_20261120",
+    "fixed_parameter_references": ["M", "M+Z"],
+    "continuous_tail_initial_training_quantile": 0.9,
+    "extreme_absolute_paired_week_fraction": 0.05,
+    "test_evidence": "recomputation_after_previously_viewed_test_era"
+  },
   "model": "elastic_net",
   "backend": "cpu",
   "data_root": "data/market_state",
