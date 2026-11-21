@@ -1,0 +1,22 @@
+{
+  "exit_code": 0,
+  "summary": [
+    "180 passed"
+  ],
+  "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+  "experiment_code_hash": "ad0d0fa29e71df85045853c0851fc5af25fab85a511ab90b5a760bfccf07f7ef",
+  "real_supervised_fit_calls": 0,
+  "real_calibration_fit_calls": 0,
+  "smoke_runs": 0,
+  "verification": "ordinary pytest blocks real supervised estimators; integration uses non-learning stubs",
+  "test_files": {
+    "tests/conftest.py": "df66bd6dd4cd6fb52bf3fea95050bcfdde83de433a97c4b679f2ec03cde75176",
+    "tests/test_experiments.py": "df4504930a092a89bf493eedc80d84fdff22501abdcbb1f5870cbb04980ad44d",
+    "tests/test_market_state.py": "d69dfbadfddb6027dcb70441929be5418b2af13b77bf82f3e27f5625dd625fd3",
+    "tests/test_model_io.py": "27bbabe4cf2d0e98bd591b343b41fa04170b1c55c1e2b74c4a0a0cf63d7d51d9",
+    "tests/test_numerical_optimization.py": "0377b3586c37be055c8ee515729083d0dd1d9fae079a27c9495290dafe2892b9",
+    "tests/test_paired_losses.py": "805f7a896865acee01e3c1b28dbf99bd6aabaa4af7079c8c0fc64e31c99e8b2f",
+    "tests/test_rbf_svm.py": "b033e440f9ecb4861861bb5e7d032b40ddd4ff68e2d2a24e5df81125a201a52d",
+    "tests/test_scheduling.py": "2388a308084e25ab4835951e5b642ee719697f1eab7211a21b0b6e8682cbc5b0"
+  }
+}

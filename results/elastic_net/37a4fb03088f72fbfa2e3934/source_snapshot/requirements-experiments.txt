@@ -1,0 +1,4 @@
+-r requirements-research.txt
+# Existing installed transitive dependencies, pinned for numerical execution.
+scipy==1.17.1
+threadpoolctl==3.6.0

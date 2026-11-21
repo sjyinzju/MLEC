@@ -1,0 +1,38 @@
+{
+  "revision": {
+    "branch": "fix/elastic-net-final-rerun-20261120",
+    "training_commit": "0dd6f4d0b69a31a9e809fe9ef23c8a60276d0691",
+    "report_commit": "62559863d0814a31701863334eb97108b5a25e39",
+    "report_code_sha256": "84c17db8fc256f75c2005148a95cc3742400681c231bf3a6a23e2d93e33a1e01",
+    "reason": "report-only recovery for mixed empty-tail date dtype"
+  },
+  "protected_artifact_sha256": {
+    "selection.lock.json": "cb884a7fc54662d3e39ac9cae4ebc2d13f9723b5e3b2bef6dde6b70ed85b01b1",
+    "tasks.parquet": "de9e1d4102d1a96db0e3f67d07881c564900a31a2472e5cddbb2cd4d332d1fb4",
+    "development/selection/assignments.json": "132bfec5ac62252cfd8b3c256ebbc50d4823aa839abb81ff25ad59d960b9bdaf",
+    "test/selection/assignments.json": "657cd3367e38686731f1f52ccc8d0cbd393b2e9f066bbd0ea5958938d6613ebb"
+  },
+  "computed_tables": {
+    "core_classification": 1440,
+    "core_regression": 680,
+    "macro_increment": 3060,
+    "macro_groups": 10200,
+    "warning_value": 6336,
+    "runtime_quality": 10998,
+    "coverage_status": 12972,
+    "class_precision_recall": 3120,
+    "confusion_matrix": 9360,
+    "reliability": 31200,
+    "warning_curves": 233168,
+    "fixed_parameter_sensitivity": 2040,
+    "weekly_loss_diagnostics": 1552,
+    "weekly_loss_quantiles": 224,
+    "extreme_week_sensitivity": 8,
+    "class_support": 24,
+    "monthly_training_support": 332,
+    "macro_lineage_audit": 69,
+    "candidate_status": 576
+  },
+  "fitter_calls": 0,
+  "original_failure": "logs/pipeline_failure.json"
+}

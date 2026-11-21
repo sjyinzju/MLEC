@@ -1,0 +1,27 @@
+{
+  "stage": "development",
+  "run_id": "37a4fb03088f72fbfa2e3934",
+  "purpose": "RESEARCH",
+  "tables": {
+    "core_classification": 1152,
+    "core_regression": 544,
+    "macro_increment": 2448,
+    "macro_groups": 8160,
+    "warning_value": 6336,
+    "runtime_quality": 15384,
+    "coverage_status": 9936,
+    "class_precision_recall": 2496,
+    "confusion_matrix": 7488,
+    "reliability": 24960,
+    "warning_curves": 180888,
+    "fixed_parameter_sensitivity": 1632,
+    "weekly_loss_diagnostics": 1200,
+    "weekly_loss_quantiles": 168,
+    "extreme_week_sensitivity": 8,
+    "class_support": 24,
+    "monthly_training_support": 332,
+    "macro_lineage_audit": 69,
+    "candidate_status": 576
+  },
+  "lock_hash": "cb884a7fc54662d3e39ac9cae4ebc2d13f9723b5e3b2bef6dde6b70ed85b01b1"
+}

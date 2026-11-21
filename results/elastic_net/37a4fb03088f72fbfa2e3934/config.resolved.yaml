@@ -1,0 +1,156 @@
+{
+  "schema_version": "experiments-v1",
+  "purpose": "RESEARCH",
+  "research_design": {
+    "revision": "elastic_net_final_rerun_20261120",
+    "fixed_parameter_references": [
+      "M",
+      "M+Z"
+    ],
+    "continuous_tail_initial_training_quantile": 0.9,
+    "extreme_absolute_paired_week_fraction": 0.05,
+    "test_evidence": "recomputation_after_previously_viewed_test_era"
+  },
+  "model": "elastic_net",
+  "backend": "cpu",
+  "data_root": "data/market_state",
+  "output_root": "results",
+  "markets": [
+    "000985.SH",
+    "000300.SH",
+    "000905.SH",
+    "000852.SH"
+  ],
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "quality": "historical_reconstructed",
+  "resources": {
+    "cpu_workers": 6,
+    "threads_per_task": 1,
+    "minimum_free_gb": 2,
+    "max_run_gb": 40,
+    "transform_cache_entries": 2
+  },
+  "search": {
+    "candidate_count": 32,
+    "finalists": 4,
+    "generator_seed": 3059,
+    "coarse_months": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "development_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "classification_C": [
+      0.0001,
+      10000.0
+    ],
+    "regression_alpha": [
+      1e-05,
+      10.0
+    ],
+    "l1_ratios": [
+      0.05,
+      0.25,
+      0.5,
+      0.75,
+      0.95,
+      1.0
+    ],
+    "screening_seed": 3060,
+    "stability_seeds": [
+      3060,
+      3061,
+      3062
+    ],
+    "regression_deterministic_seeds": [
+      3060
+    ],
+    "tol": 0.0001,
+    "max_iter": 10000,
+    "tie_rule": "score_then_stronger_regularization_then_lower_l1_ratio_then_candidate_id",
+    "seed_aggregation": "mean_loss_per_sample_not_probability_ensemble",
+    "failed_candidate": "exclude_entire_candidate_if_any_required_month_fails"
+  },
+  "policy": {
+    "class_weight": null,
+    "missing_class": "zero_for_absent",
+    "single_class": "error",
+    "convergence_retries": 1,
+    "iteration_multiplier": 4,
+    "task_attempts": 2,
+    "numerical_warning": "error"
+  },
+  "baselines": {
+    "history_dirichlet_alpha": 1.0,
+    "current_state_probability": "existing_current_memberships",
+    "regression": "past_20d_persistence"
+  },
+  "statistics": {
+    "block_weeks": [
+      8,
+      4,
+      12
+    ],
+    "repetitions": 2000,
+    "seed": 3059,
+    "confidence": 0.95,
+    "primary_market": "000985.SH",
+    "primary_task": "classification",
+    "primary_metric": "log_loss",
+    "holm_families": [
+      "rbf_svm",
+      "random_forest",
+      "catboost"
+    ]
+  },
+  "warning": {
+    "risk_flags": [
+      "risk_downside",
+      "risk_liquidity",
+      "risk_broad_decline"
+    ],
+    "burdens": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "threshold_rule": "largest_attainable_development_burden_not_exceeding_target",
+    "calendar_gap_breaks_segment": true
+  },
+  "retention": {
+    "candidate_weights": "full_review_final_month_only",
+    "selected_weights": "test_core_monthly_and_other_final_month",
+    "coefficients": "all_successful_fits"
+  },
+  "extensions": {
+    "information_clock": {
+      "implemented": false,
+      "requires": "registered derived feature schema with release-clock-only projection"
+    },
+    "publication_lag": {
+      "implemented": false,
+      "requires": "previous comparable release identity; not a weekly shift"
+    },
+    "market_modules": {
+      "implemented": false,
+      "requires": "registered market-module projection and paired cohorts"
+    },
+    "data_views": {
+      "implemented": false,
+      "requires": "common-cohort view comparison acceptance"
+    },
+    "alternative_dictionary": {
+      "implemented": false,
+      "requires": "separate authorized protocol and label version"
+    }
+  }
+}

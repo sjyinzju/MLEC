@@ -1,0 +1,27 @@
+{
+  "stage": "test",
+  "run_id": "37a4fb03088f72fbfa2e3934",
+  "purpose": "RESEARCH",
+  "tables": {
+    "core_classification": 1440,
+    "core_regression": 680,
+    "macro_increment": 3060,
+    "macro_groups": 10200,
+    "warning_value": 6336,
+    "runtime_quality": 10998,
+    "coverage_status": 12972,
+    "class_precision_recall": 3120,
+    "confusion_matrix": 9360,
+    "reliability": 31200,
+    "warning_curves": 233168,
+    "fixed_parameter_sensitivity": 2040,
+    "weekly_loss_diagnostics": 1552,
+    "weekly_loss_quantiles": 224,
+    "extreme_week_sensitivity": 8,
+    "class_support": 24,
+    "monthly_training_support": 332,
+    "macro_lineage_audit": 69,
+    "candidate_status": 576
+  },
+  "lock_hash": "cb884a7fc54662d3e39ac9cae4ebc2d13f9723b5e3b2bef6dde6b70ed85b01b1"
+}

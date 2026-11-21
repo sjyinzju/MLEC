@@ -1,0 +1,70 @@
+series_id,group,frequency,source_priority,unit,historical_scopes,rows,statuses,median_age_days,source_quality,reconstruction_before_archive_vintage,scope_breaks,period_gaps
+cgb_10y,rates,D,CFETS,%,['as_registered'],607,{'AVAILABLE': 607},0.750011574074074,{'conservative_release_reconstructed': 607},0,0,5
+cgb_1y,rates,D,CFETS,%,['as_registered'],607,{'AVAILABLE': 607},0.750011574074074,{'conservative_release_reconstructed': 607},0,0,5
+core_cpi_yoy,prices,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},14.750011574074074,{'strict_pit_eligible': 607},0,0,0
+cpi_mom,prices,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},14.750011574074074,{'strict_pit_eligible': 607},0,0,0
+cpi_yoy,prices,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},14.750011574074074,{'strict_pit_eligible': 607},0,0,0
+dr007,rates,D,CFETS,%,['as_registered'],607,{'AVAILABLE': 607},0.750011574074074,"{'latest_vintage_reconstructed': 593, 'conservative_release_reconstructed': 14}",593,0,5
+exports_cny_yoy,external,M,GAC/NBS,%,['as_registered'],607,"{'AVAILABLE': 603, 'SOURCE_GAP_HELD_VALUE': 4}",10.750011574074074,"{'strict_pit_eligible': 426, 'conservative_release_reconstructed': 180, 'historical_reconstructed': 1}",0,0,7
+exports_cny_ytd_yoy,external,M,GAC/NBS,%,['as_registered'],607,{'AVAILABLE': 607},10.750011574074074,"{'strict_pit_eligible': 433, 'conservative_release_reconstructed': 174}",0,0,0
+exports_yoy,external,M,GAC/NBS,%,['as_registered'],607,{'AVAILABLE': 607},10.750011574074074,{'conservative_release_reconstructed': 607},0,0,7
+fai_ytd_yoy,growth,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},15.750011574074074,{'strict_pit_eligible': 607},0,0,0
+fx_reserves,external,M,SAFE,亿美元,['as_registered'],607,{'AVAILABLE': 607},14.750011574074074,"{'strict_pit_eligible': 603, 'conservative_release_reconstructed': 4}",0,0,98
+gdp_real_yoy,growth,Q,NBS,%,['as_registered'],607,{'AVAILABLE': 607},44.75001157407407,{'strict_pit_eligible': 607},0,0,0
+gdp_real_ytd_yoy,growth,Q,NBS,%,['as_registered'],607,{'AVAILABLE': 607},44.75001157407407,{'strict_pit_eligible': 607},0,0,0
+imports_cny_yoy,external,M,GAC/NBS,%,['as_registered'],607,"{'AVAILABLE': 603, 'SOURCE_GAP_HELD_VALUE': 4}",10.750011574074074,"{'strict_pit_eligible': 426, 'conservative_release_reconstructed': 180, 'historical_reconstructed': 1}",0,0,7
+imports_cny_ytd_yoy,external,M,GAC/NBS,%,['as_registered'],607,{'AVAILABLE': 607},10.750011574074074,"{'strict_pit_eligible': 433, 'conservative_release_reconstructed': 174}",0,0,0
+imports_yoy,external,M,GAC/NBS,%,['as_registered'],607,{'AVAILABLE': 607},10.750011574074074,{'conservative_release_reconstructed': 607},0,0,7
+industrial_va_yoy,growth,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},17.750011574074072,{'strict_pit_eligible': 607},0,0,51
+industrial_va_ytd_yoy,growth,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},15.750011574074074,{'strict_pit_eligible': 607},0,0,0
+lpr_1y,rates,M,CFETS,%,['as_registered'],607,"{'AVAILABLE': 371, 'NOT_APPLICABLE': 236}",15.750011574074074,{'conservative_release_reconstructed': 371},0,0,0
+m1_new_yoy,credit,M,PBOC,%,['as_registered'],607,"{'NOT_APPLICABLE': 510, 'AVAILABLE': 90, 'NO_RELEASE': 7}",15.750011574074074,"{'strict_pit_eligible': 86, 'conservative_release_reconstructed': 4}",0,0,0
+m1_yoy,credit,M,PBOC,%,['as_registered'],607,"{'AVAILABLE': 521, 'NOT_APPLICABLE': 86}",15.750011574074074,{'strict_pit_eligible': 521},0,0,0
+m2_yoy,credit,M,PBOC,%,['as_registered'],607,{'AVAILABLE': 607},15.750011574074074,"{'strict_pit_eligible': 603, 'conservative_release_reconstructed': 4}",0,0,0
+new_rmb_loans,credit,M,PBOC,亿元,"['loan_201501', 'loan_202301', 'loan_pre_201501']",607,{'AVAILABLE': 607},15.750011574074074,"{'strict_pit_eligible': 472, 'conservative_release_reconstructed': 135}",0,7,0
+new_rmb_loans__definition_loan_201501,credit,M,PBOC,亿元,['loan_201501'],607,"{'AVAILABLE': 412, 'NOT_APPLICABLE': 189, 'NO_RELEASE': 6}",15.750011574074074,{'strict_pit_eligible': 412},0,0,0
+new_rmb_loans__definition_loan_202301,credit,M,PBOC,亿元,['loan_202301'],607,"{'NOT_APPLICABLE': 409, 'AVAILABLE': 193, 'NO_RELEASE': 5}",15.750011574074074,"{'conservative_release_reconstructed': 135, 'strict_pit_eligible': 58}",0,0,0
+new_rmb_loans__definition_loan_pre_201501,credit,M,PBOC,亿元,['loan_pre_201501'],607,"{'NOT_APPLICABLE': 597, 'AVAILABLE': 10}",28.250011574074072,{'strict_pit_eligible': 10},0,0,0
+pmi_mfg,growth,M,NBS,index,['as_registered'],607,{'AVAILABLE': 607},15.750011574074074,{'strict_pit_eligible': 607},0,0,0
+pmi_new_orders,growth,M,NBS,index,['as_registered'],607,{'AVAILABLE': 607},15.750011574074074,{'strict_pit_eligible': 607},0,0,0
+pmi_nonmfg,growth,M,NBS,index,['as_registered'],607,{'AVAILABLE': 607},15.750011574074074,{'strict_pit_eligible': 607},0,0,0
+ppi_mom,prices,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},14.750011574074074,{'strict_pit_eligible': 607},0,0,0
+ppi_yoy,prices,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},14.750011574074074,{'strict_pit_eligible': 607},0,0,0
+retail_sales_yoy,growth,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},17.750011574074072,{'strict_pit_eligible': 607},0,0,51
+retail_sales_ytd_yoy,growth,M,NBS,%,['as_registered'],607,{'AVAILABLE': 607},15.750011574074074,{'strict_pit_eligible': 607},0,0,0
+rmb_loan_balance_yoy,credit,M,PBOC,%,"['loan_201501', 'loan_202301', 'loan_pre_201501']",607,{'AVAILABLE': 607},15.750011574074074,"{'strict_pit_eligible': 603, 'conservative_release_reconstructed': 4}",0,7,0
+rmb_loan_balance_yoy__definition_loan_201501,credit,M,PBOC,%,['loan_201501'],607,"{'AVAILABLE': 412, 'NOT_APPLICABLE': 189, 'NO_RELEASE': 6}",15.750011574074074,{'strict_pit_eligible': 412},0,0,0
+rmb_loan_balance_yoy__definition_loan_202301,credit,M,PBOC,%,['loan_202301'],607,"{'NOT_APPLICABLE': 409, 'AVAILABLE': 193, 'NO_RELEASE': 5}",15.750011574074074,"{'strict_pit_eligible': 189, 'conservative_release_reconstructed': 4}",0,0,0
+rmb_loan_balance_yoy__definition_loan_pre_201501,credit,M,PBOC,%,['loan_pre_201501'],607,"{'NOT_APPLICABLE': 597, 'AVAILABLE': 10}",28.250011574074072,{'strict_pit_eligible': 10},0,0,0
+rmb_loans_ytd_flow,credit,M,PBOC,亿元,"['loan_201501', 'loan_202301', 'loan_pre_201501']",607,{'AVAILABLE': 607},15.750011574074074,"{'strict_pit_eligible': 345, 'historical_reconstructed': 253, 'conservative_release_reconstructed': 9}",0,7,0
+shibor_1w,rates,D,CFETS,%,['as_registered'],607,{'AVAILABLE': 607},0.750011574074074,{'conservative_release_reconstructed': 607},0,0,5
+shibor_3m,rates,D,CFETS,%,['as_registered'],607,{'AVAILABLE': 607},0.750011574074074,{'conservative_release_reconstructed': 607},0,0,5
+shibor_on,rates,D,CFETS,%,['as_registered'],607,{'AVAILABLE': 607},0.750011574074074,{'conservative_release_reconstructed': 607},0,0,5
+term_spread_10y_1y,rates,D,CFETS,percentage_points,['as_registered'],607,{'AVAILABLE': 607},0.750011574074074,{'conservative_release_reconstructed': 607},0,0,5
+tsf_month_flow,credit,M,PBOC,亿元,['tsf_201912'],607,"{'NOT_APPLICABLE': 440, 'AVAILABLE': 161, 'NO_RELEASE': 6}",15.750011574074074,"{'strict_pit_eligible': 157, 'conservative_release_reconstructed': 4}",0,0,0
+tsf_month_flow__scope_201807,credit,M,PBOC,亿元,['tsf_201807'],607,"{'NOT_APPLICABLE': 589, 'AVAILABLE': 12, 'NO_RELEASE': 6}",21.250011574074072,"{'conservative_release_reconstructed': 8, 'strict_pit_eligible': 4}",0,0,0
+tsf_month_flow__scope_201809,credit,M,PBOC,亿元,['tsf_201809'],607,"{'NOT_APPLICABLE': 547, 'AVAILABLE': 55, 'NO_RELEASE': 5}",15.750011574074074,{'strict_pit_eligible': 55},0,0,0
+tsf_month_flow__scope_201909,credit,M,PBOC,亿元,['tsf_201909'],607,"{'NOT_APPLICABLE': 585, 'AVAILABLE': 16, 'NO_RELEASE': 6}",17.250011574074072,{'strict_pit_eligible': 16},0,0,0
+tsf_month_flow__scope_202301,credit,M,PBOC,亿元,['tsf_202301'],607,"{'NOT_APPLICABLE': 409, 'AVAILABLE': 193, 'NO_RELEASE': 5}",15.750011574074074,"{'conservative_release_reconstructed': 135, 'strict_pit_eligible': 58}",0,0,0
+tsf_month_flow__scope_pre_201807,credit,M,PBOC,亿元,"['tsf_201501_pre_201807', 'tsf_pre_201501']",607,"{'NOT_APPLICABLE': 418, 'AVAILABLE': 189}",15.750011574074074,{'strict_pit_eligible': 189},0,3,0
+tsf_stock,credit,M,PBOC,万亿元,['tsf_201912'],607,"{'NOT_APPLICABLE': 440, 'AVAILABLE': 161, 'NO_RELEASE': 6}",15.750011574074074,{'strict_pit_eligible': 161},0,0,0
+tsf_stock__scope_201807,credit,M,PBOC,万亿元,['tsf_201807'],607,"{'NOT_APPLICABLE': 589, 'AVAILABLE': 12, 'NO_RELEASE': 6}",21.250011574074072,{'strict_pit_eligible': 12},0,0,0
+tsf_stock__scope_201809,credit,M,PBOC,万亿元,['tsf_201809'],607,"{'NOT_APPLICABLE': 547, 'AVAILABLE': 55, 'NO_RELEASE': 5}",15.750011574074074,{'strict_pit_eligible': 55},0,0,0
+tsf_stock__scope_201909,credit,M,PBOC,万亿元,['tsf_201909'],607,"{'NOT_APPLICABLE': 585, 'AVAILABLE': 16, 'NO_RELEASE': 6}",17.250011574074072,{'strict_pit_eligible': 16},0,0,0
+tsf_stock__scope_202301,credit,M,PBOC,万亿元,['tsf_202301'],607,"{'NOT_APPLICABLE': 409, 'AVAILABLE': 193, 'NO_RELEASE': 5}",15.750011574074074,"{'strict_pit_eligible': 189, 'conservative_release_reconstructed': 4}",0,0,0
+tsf_stock__scope_pre_201807,credit,M,PBOC,万亿元,"['tsf_201501_pre_201807', 'tsf_pre_201501']",607,"{'NOT_APPLICABLE': 418, 'AVAILABLE': 184, 'NO_RELEASE': 5}",20.750011574074072,"{'strict_pit_eligible': 179, 'conservative_release_reconstructed': 5}",0,13,43
+tsf_stock_yoy,credit,M,PBOC,%,['tsf_201912'],607,"{'NOT_APPLICABLE': 440, 'AVAILABLE': 161, 'NO_RELEASE': 6}",15.750011574074074,{'strict_pit_eligible': 161},0,0,0
+tsf_stock_yoy__scope_201807,credit,M,PBOC,%,['tsf_201807'],607,"{'NOT_APPLICABLE': 589, 'AVAILABLE': 12, 'NO_RELEASE': 6}",21.250011574074072,{'strict_pit_eligible': 12},0,0,0
+tsf_stock_yoy__scope_201809,credit,M,PBOC,%,['tsf_201809'],607,"{'NOT_APPLICABLE': 547, 'AVAILABLE': 55, 'NO_RELEASE': 5}",15.750011574074074,{'strict_pit_eligible': 55},0,0,0
+tsf_stock_yoy__scope_201909,credit,M,PBOC,%,['tsf_201909'],607,"{'NOT_APPLICABLE': 585, 'AVAILABLE': 16, 'NO_RELEASE': 6}",17.250011574074072,{'strict_pit_eligible': 16},0,0,0
+tsf_stock_yoy__scope_202301,credit,M,PBOC,%,['tsf_202301'],607,"{'NOT_APPLICABLE': 409, 'AVAILABLE': 193, 'NO_RELEASE': 5}",15.750011574074074,"{'strict_pit_eligible': 189, 'conservative_release_reconstructed': 4}",0,0,0
+tsf_stock_yoy__scope_pre_201807,credit,M,PBOC,%,"['tsf_201501_pre_201807', 'tsf_pre_201501']",607,"{'NOT_APPLICABLE': 418, 'AVAILABLE': 184, 'NO_RELEASE': 5}",20.750011574074072,"{'strict_pit_eligible': 179, 'conservative_release_reconstructed': 5}",0,13,43
+tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807,credit,M,PBOC,%,['tsf_201501_pre_201807'],607,"{'NOT_APPLICABLE': 418, 'AVAILABLE': 174, 'NO_RELEASE': 15}",18.750011574074072,"{'strict_pit_eligible': 169, 'conservative_release_reconstructed': 5}",0,0,30
+tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501,credit,M,PBOC,%,['tsf_pre_201501'],607,"{'NOT_APPLICABLE': 597, 'NO_RELEASE': 5, 'AVAILABLE': 5}",16.750011574074072,{'strict_pit_eligible': 5},0,0,0
+tsf_ytd_flow,credit,M,PBOC,亿元,['tsf_201912'],607,"{'NOT_APPLICABLE': 440, 'AVAILABLE': 160, 'NO_RELEASE': 7}",15.750011574074074,"{'strict_pit_eligible': 79, 'historical_reconstructed': 75, 'conservative_release_reconstructed': 6}",0,0,0
+tsf_ytd_flow__scope_201807,credit,M,PBOC,亿元,['tsf_201807'],607,"{'NOT_APPLICABLE': 589, 'NO_RELEASE': 10, 'AVAILABLE': 8}",32.25001157407407,{'historical_reconstructed': 8},0,0,0
+tsf_ytd_flow__scope_201809,credit,M,PBOC,亿元,['tsf_201809'],607,"{'NOT_APPLICABLE': 547, 'AVAILABLE': 55, 'NO_RELEASE': 5}",16.750011574074072,"{'historical_reconstructed': 34, 'strict_pit_eligible': 19, 'conservative_release_reconstructed': 2}",0,0,0
+tsf_ytd_flow__scope_201909,credit,M,PBOC,亿元,['tsf_201909'],607,"{'NOT_APPLICABLE': 585, 'AVAILABLE': 16, 'NO_RELEASE': 6}",17.250011574074072,{'strict_pit_eligible': 16},0,0,0
+tsf_ytd_flow__scope_202301,credit,M,PBOC,亿元,['tsf_202301'],607,"{'NOT_APPLICABLE': 409, 'AVAILABLE': 193, 'NO_RELEASE': 5}",15.750011574074074,"{'strict_pit_eligible': 176, 'historical_reconstructed': 13, 'conservative_release_reconstructed': 4}",0,0,0
+tsf_ytd_flow__scope_pre_201807,credit,M,PBOC,亿元,"['tsf_201501_pre_201807', 'tsf_pre_201501']",607,"{'NOT_APPLICABLE': 418, 'AVAILABLE': 189}",15.750011574074074,"{'strict_pit_eligible': 96, 'historical_reconstructed': 79, 'conservative_release_reconstructed': 14}",0,3,0
+usdcny_fixing,external,D,SAFE,CNY/USD,['as_registered'],607,{'AVAILABLE': 607},0.750011574074074,{'conservative_release_reconstructed': 607},0,0,5
