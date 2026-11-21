@@ -29,6 +29,42 @@ def sigmoid_objective(parameters, scores, smoothed_y):
     return float(value), np.array([np.dot(residual, scores), residual.sum()])
 
 
+def local_optimality(parameters, x, target, threshold):
+    """Float64 local evidence, NOT a rigorous global error certificate."""
+    objective, gradient = sigmoid_objective(parameters, x, target)
+    design = np.column_stack([x,np.ones(len(x))])
+    p = expit(design@parameters); w = p*(1-p)
+    H = (design.T*w)@design
+    eigen, vectors = np.linalg.eigh(H)
+    largest = max(0.,float(eigen[-1])); resolution = np.finfo(float).eps*max(1.,abs(objective))
+    heuristic = float(np.sqrt(2*largest*resolution))
+    active = eigen > max(np.finfo(float).tiny,64*np.finfo(float).eps*largest)
+    projected = vectors.T@gradient
+    null_residual = float(np.max(np.abs(projected[~active]),initial=0))
+    roundoff = 32*np.finfo(float).eps*max(1.,float(np.abs(p-target).sum()))
+    direction = -(vectors[:,active] @ (projected[active]/eigen[active]))
+    u = design@direction
+    decrement = float(-gradient@direction/2)
+    local = bool(np.max(np.abs(u),initial=0)<=1e-3)
+    # Stable softplus Bregman remainder. Terms through order six; for |u|<=1e-3
+    # the omitted seventh order is below the objective's float64 resolution.
+    remainder = w*(u*u/2+(1-2*p)*u**3/6+(1-6*w)*u**4/24+
+        (1-2*p)*(1-12*w)*u**5/120+(1-30*w+120*w*w)*u**6/720)
+    delta = float(gradient@direction+remainder.sum()) if local else None
+    descent = max(0.,-delta) if delta is not None else None
+    second_order = local and null_residual<=roundoff and decrement<=8*resolution and descent<=8*resolution
+    gradient_ok = np.max(np.abs(gradient))<=max(threshold,heuristic)
+    accepted = bool(gradient_ok and second_order)
+    return dict(accepted=accepted,configured_gradient_threshold=float(threshold),gradient_max=float(np.max(np.abs(gradient))),
+        machine_attainable_gradient=heuristic,objective_resolution=float(resolution),objective=float(objective),
+        hessian_eigenvalues=eigen.tolist(),hessian_max_eigenvalue=largest,
+        hessian_condition=float(eigen[-1]/eigen[0]) if eigen[0]>0 else None,
+        newton_decrement=decrement,newton_directional_change=delta,local_step=local,
+        null_gradient=null_residual,null_gradient_roundoff=float(roundoff),
+        criterion='absolute_and_local_second_order' if np.max(np.abs(gradient))<=threshold else 'float64_local_second_order',
+        rigorous_global_certificate=False)
+
+
 class TimeSigmoid:
     def __init__(self, rules):
         self.rules = dict(rules)
@@ -38,12 +74,29 @@ class TimeSigmoid:
         return minimize(sigmoid_objective, initial, args=(x, target), method='L-BFGS-B', jac=True,
             options={k: self.rules[k] for k in ['ftol', 'gtol', 'maxls']} | {'maxiter': self.rules['max_iter']})
 
+    @staticmethod
+    def attainable_gradient(parameters, x, objective):
+        """Curvature-based resolution heuristic; not an optimality certificate.
+
+        The objective is a *sum*. Its objective resolution is approximately
+        eps*|f|. Curvature gives a diagnostic gradient scale, but cannot bound
+        descent along weak-curvature directions. local_optimality checks those
+        separately; this heuristic alone never authorizes acceptance.
+        """
+        p = expit(parameters[0] * x + parameters[1])
+        weight = p * (1.0 - p)
+        design = np.column_stack([x, np.ones(len(x))])
+        hessian = (design.T * weight) @ design
+        largest = float(np.linalg.eigvalsh(hessian)[-1])
+        resolution = np.finfo(float).eps * max(1.0, abs(float(objective)))
+        return float(np.sqrt(2.0 * max(largest, 0.0) * resolution)), largest, resolution
+
     def polish(self, parameters, x, target, threshold):
         """Bounded same-objective Newton; explicit real optimization, blocked in pytest."""
         parameters = parameters.copy()
         objective, gradient = sigmoid_objective(parameters, x, target)
         for iteration in range(self.rules.get('newton_steps', 20)):
-            if np.max(np.abs(gradient)) <= threshold:
+            if local_optimality(parameters,x,target,threshold)['accepted']:
                 return parameters, objective, gradient, iteration
             p = expit(parameters[0]*x+parameters[1])
             design = np.column_stack([x,np.ones(len(x))])
@@ -98,7 +151,8 @@ class TimeSigmoid:
             objective, gradient = sigmoid_objective(result.x, x, target)
             baseline, _ = sigmoid_objective(np.array([0., np.log(target.mean()/(1-target.mean()))]), x, target)
             threshold = self.rules.get('optimality_gradient', self.rules['gtol'])
-            optimal = np.max(np.abs(gradient)) <= threshold and objective <= baseline + 1e-10*max(1,baseline)
+            evidence = local_optimality(result.x,x,target,threshold)
+            optimal = evidence['accepted'] and objective <= baseline + 1e-10*max(1,baseline)
             corrections = 0
             if bool(result.success) and not numerical and not optimal:
                 try:
@@ -109,14 +163,16 @@ class TimeSigmoid:
                         error.diagnostics=self.diagnostics_
                         raise
                     raise FitFailure('Sigmoid same-objective correction failed',self.diagnostics_) from error
-                optimal = np.max(np.abs(gradient)) <= threshold and objective <= baseline+1e-10*max(1,baseline)
+                evidence = local_optimality(result.x,x,target,threshold)
+                optimal = evidence['accepted'] and objective <= baseline+1e-10*max(1,baseline)
             certified = bool(result.success) and bool(optimal)
             record.update(converged=certified and not numerical, numerical_failure=numerical,
                 n_iter=int(result.nit), status=int(result.status), message=str(result.message),
-                objective=float(result.fun) if np.isfinite(result.fun) else None,
+                optimizer_objective=float(result.fun) if np.isfinite(result.fun) else None,
+                optimizer_gradient_max=float(np.max(np.abs(result.jac))) if np.isfinite(result.jac).all() else None,
+                objective=float(objective) if np.isfinite(objective) else None,
                 gradient_max=float(np.max(np.abs(gradient))) if np.isfinite(gradient).all() else None,
-                quality=dict(accepted=bool(optimal), objective=float(objective), intercept_only_objective=float(baseline),
-                    gradient_threshold=threshold, newton_corrections=corrections),
+                quality=dict(evidence, accepted=bool(optimal),intercept_only_objective=float(baseline),newton_corrections=corrections),
                 slope=float(result.x[0]), intercept=float(result.x[1]), elapsed_seconds=time.perf_counter()-start,
                 support_status='LEGAL_BUT_SPARSE_UNSTABLE' if min(positive,negative)<20 else 'LEGAL_SUPPORT')
             if not record['converged']:

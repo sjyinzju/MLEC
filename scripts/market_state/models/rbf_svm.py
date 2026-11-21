@@ -23,7 +23,7 @@ from . import capabilities
 from .errors import FitFailure
 from .calibration import TimeSigmoid, decision_columns
 from .specifications import validate_parameters
-from .svm_quality import weight_hash, solution_quality, QUALITY_VERSION
+from .svm_quality import weight_hash, solution_quality, QUALITY_VERSION, array_state
 
 
 def model_code_hash():
@@ -156,8 +156,14 @@ class RBFSVMAdapter:
                     labels.append(data['y_validation'])
                     block.update(data['metadata'], gamma=float(estimator._gamma))
                 calibrator = TimeSigmoid(self.calibration)
+                oof_scores,oof_y=np.vstack(scores),np.concatenate(labels)
+                self.oof_diagnostics_=dict(score_hash=array_state(oof_scores),label_hash=array_state(oof_y),
+                    class_counts=np.bincount(oof_y,minlength=len(self.target_adapter.schema_['class_ids'])).tolist(),
+                    score_mean=oof_scores.mean(axis=0).tolist(),score_std=oof_scores.std(axis=0).tolist(),
+                    score_quantiles=np.quantile(oof_scores,[0,.25,.5,.75,1],axis=0).tolist(),
+                    semantics='sklearn OVO votes plus bounded confidence mapped to OVR; not independent hyperplane distances')
                 try:
-                    calibrator.fit(np.vstack(scores), np.concatenate(labels), list(range(len(self.target_adapter.schema_['class_ids']))))
+                    calibrator.fit(oof_scores, oof_y, list(range(len(self.target_adapter.schema_['class_ids']))))
                 except FitFailure as error:
                     self.diagnostics_.extend(error.diagnostics)
                     raise FitFailure(str(error), self.diagnostics_) from error
@@ -214,6 +220,7 @@ class RBFSVMAdapter:
 
     def diagnostic_artifact(self):
         return dict(kernel='rbf', parameters=self.parameters, actual_gamma=self.actual_gamma_,
+            oof=getattr(self,'oof_diagnostics_',None),
             inner_cache=dict(hits=self.training_service.cache_hits, misses=self.training_service.cache_misses,
                 bytes=self.training_service.cache_bytes, limit=self.training_service.cache_limit) if self.training_service else None,
             solver=self.solver, calibration_rules=self.calibration if self.task == 'classification' else None,
@@ -233,6 +240,7 @@ class RBFSVMAdapter:
             seed=self.seed, policy=self.policy, threads=self.threads, backend='cpu', solver=self.solver,
             calibration=self.calibration, calibration_plan=self.calibration_plan_, actual_gamma=self.actual_gamma_,
             diagnostics=self.diagnostics_, full_fit_context=self.fit_context_, calibrator='calibrator.json',
+            oof=getattr(self,'oof_diagnostics_',None),
             library_versions=libraries(), model_code_hash=model_code_hash(), interface_code_hash=code_hash())
         manifest['files'] = {p.relative_to(directory).as_posix(): file_hash(p) for p in sorted(directory.rglob('*')) if p.is_file()}
         manifest['content_hash'] = digest(manifest)
@@ -265,6 +273,7 @@ class RBFSVMAdapter:
             raise ValueError('Model calibration component missing/unexpected')
         model.fit_context_, model.diagnostics_ = m['full_fit_context'], m['diagnostics']
         model.calibration_plan_, model.actual_gamma_ = m['calibration_plan'], m['actual_gamma']
+        model.oof_diagnostics_=m.get('oof')
         model.model_version_ = model._weight_identity()
         if model.model_version_ != m['model_version'] or key_hash(model.training_keys) != model.fit_context_['training_keys_hash']:
             raise ValueError('Model package weights/training membership mismatch')

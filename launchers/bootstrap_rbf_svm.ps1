@@ -1,4 +1,5 @@
 param(
+    [switch]$PlanOnly,
     [ValidateSet('START','CHECK','TECHNICAL')][string]$Action = 'START',
     [string]$Python = '',
     [string]$DataRoot = '',
@@ -69,6 +70,6 @@ except Exception:
         & $Python @taskArgs
         if ($LASTEXITCODE -ne 0) { throw 'Technical verification stopped. No formal B/C was started.' }
     } else {
-        & (Join-Path $PSScriptRoot 'run_rbf_svm.ps1') -Python $Python -DataRoot $DataRoot -OutputRoot $OutputRoot -CpuWorkers $CpuWorkers -CpuThreads $CpuThreads -RunId $RunId
+        & (Join-Path $PSScriptRoot 'run_rbf_svm.ps1') -PlanOnly:$PlanOnly -Python $Python -DataRoot $DataRoot -OutputRoot $OutputRoot -CpuWorkers $CpuWorkers -CpuThreads $CpuThreads -RunId $RunId
     }
 } finally { Pop-Location }

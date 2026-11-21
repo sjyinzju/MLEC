@@ -505,7 +505,9 @@ def test_portable_package_keeps_existing_namespace_and_seal(store, tmp_path, mon
     monkeypatch.setattr(portable, 'assert_interface_accepted', lambda **kwargs: None)
     def receipt(path):
         if Path(path).name == 'test_results.json':
-            return dict(exit_code=0, experiment_code_hash=portable.experiment_code_hash())
+            return dict(receipt_kind='SOURCE_FULL_PYTEST',collected=1,passed=1,node_ids=['UNIT_STUB_ONLY'],exit_code=0,
+                test_files={p.relative_to(portable.ROOT).as_posix():portable.file_hash(p) for p in sorted((portable.ROOT/'tests').glob('*.py'))},
+                experiment_code_hash=portable.experiment_code_hash())
         return original(path)
     monkeypatch.setattr(portable, 'read_json', receipt)
     bundle = native_path(portable.package(tmp_path / 'bundle', store))

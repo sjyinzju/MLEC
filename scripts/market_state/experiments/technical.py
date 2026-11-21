@@ -20,6 +20,8 @@ from .config import load_config
 from .pipeline import Pipeline
 from .runtime import MonthlyExecutor, versions, environment, experiment_code_hash
 from .scheduling import TaskRunner, TaskScheduler, worker_count, process_usage
+from concurrent.futures import ProcessPoolExecutor
+import multiprocessing
 
 
 class _TechnicalRunner(TaskRunner):
@@ -34,7 +36,7 @@ class _TechnicalRunner(TaskRunner):
         self.config['resources']['threads_per_task'] = 1
         self.config['resources']['minimum_free_gb'] = 0
         self.store, self.root = store, native_path(root)
-        self.root.mkdir(parents=True)
+        self.root.mkdir(parents=True,exist_ok=True)
         self.identity = versions(self.config, store)
         self.artificial = False
         self.journal = TaskJournal(self.root, resume=True, max_attempts=self.config['policy']['task_attempts'])
@@ -44,12 +46,14 @@ class _TechnicalRunner(TaskRunner):
 
 def scenarios(quick, model='elastic_net'):
     if model == 'rbf_svm':
-        cohorts = [('000985.SH','2020-01')] if quick else [('000985.SH','2020-01'),('000300.SH','2020-01'),('000905.SH','2021-10'),('000852.SH','2022-12')]
-        return [dict(market=m, fold=f, task=t, information=info,
-            parameters=dict(C=1. if quick else [.001,1000.,1.,10.][j],
-                gamma_factor=1. if quick else [.01,100.,.1,10.][j],tol=.001,max_iter=100000,
-                **({'epsilon':.1 if quick else [1.,.001,.01,.1][j]} if t=='regression' else {})))
-            for j,(m,f) in enumerate(cohorts) for t in ['classification','regression'] for info in ['M','M+Z']]
+        # Three original failed tasks plus a normal classifier and seven-target
+        # regression. Fixed diagnostic design; no search and no test-period Y.
+        base = dict(tol=.001,max_iter=100000)
+        return [dict(market='000985.SH',fold=f,task='classification',information='M+Z',
+                parameters=dict(base,C=c,gamma_factor=g)) for f,c,g in [
+                    ('2021-08',.6434438263328988,.1),('2022-01',.018905829836907577,10.),('2022-07',.001,100.)]] + [
+            *[dict(market='000300.SH',fold='2020-01',task='classification',information='M',parameters=dict(base,C=c,gamma_factor=1.)) for c in [1.,10.]],
+            dict(market='000905.SH',fold='2021-10',task='regression',information='M+Z',parameters=dict(base,C=1.,gamma_factor=1.,epsilon=.1))]
 
     cohorts = [('000905.SH', '2020-01')] if quick else [
         ('000905.SH', '2020-01'), ('000985.SH', '2020-01'), ('000852.SH', '2021-10')]
@@ -69,6 +73,55 @@ def scenarios(quick, model='elastic_net'):
         rows.append(dict(market='000852.SH', fold='2021-10', task='regression', information='M+Z',
             parameters=dict(alpha=1.5615230060004964e-5, l1_ratio=.95, tol=1e-4, max_iter=10000)))
     return rows
+
+
+def _reload_in_spawn(arguments):
+    directory,model_id,identity,data_root=arguments
+    model=(RBFSVMAdapter if model_id=='rbf_svm' else ElasticNetAdapter).load(Path(directory)/'model_package')
+    store=DataStore(data_root)
+    ds=load_dataset(market_id=identity['market_id'],task=identity['task'],fold_id=identity['fold_id'],
+        role='prediction',information_set=identity['information_set'],store=store)
+    x=transform_inputs(model.preprocessor,ds)
+    ctx=prediction_context(ds,model.preprocessor,model.target_adapter,model_id=model_id,model_version=model.model_version_,input_matrix=x)
+    return model.model_version_,model.predict(x,ctx)
+
+
+def _interruptible_process(config,data_root,root,design,ready):
+    """Real committed classifier, then pause at the next fit's RUNNING boundary."""
+    runner=_TechnicalRunner(config,DataStore(data_root),root,1)
+    runner.monthly(runner.task(stage='development',mode='SMOKE_ONLY',seed=3060,**design[0]),save_package=True)
+    original=runner.executor
+    def pause_before_fit(*args,**kwargs):
+        ready.set()
+        time.sleep(60)  # Parent terminates this process; no replacement estimator.
+        return original(*args,**kwargs)
+    runner.executor=pause_before_fit
+    runner.monthly(runner.task(stage='development',mode='SMOKE_ONLY',seed=3060,**design[1]),save_package=True)
+
+
+def _process_recovery(config,store,root,design):
+    context=multiprocessing.get_context('spawn');ready=context.Event()
+    selected=[design[3],design[-1]]
+    child=context.Process(target=_interruptible_process,args=(config,str(store.root),str(root),selected,ready))
+    child.start()
+    try:
+        if not ready.wait(180):raise RuntimeError('Technical interruption boundary not reached')
+        child.terminate();child.join(20)
+        if child.is_alive():raise RuntimeError('Technical child did not terminate')
+        before={str(p):file_hash(p) for p in root.glob('development/fits/*/artifact.json')}
+        assert len(before)==1
+        mtimes={p:Path(p).stat().st_mtime_ns for p in before}
+        runner=_TechnicalRunner(config,store,root,1)
+        tasks=[runner.task(stage='development',mode='SMOKE_ONLY',seed=3060,**d) for d in selected]
+        assert runner.journal.records[tasks[1]['task_id']]['status']=='RUNNING'
+        records=runner.scheduler.map([(t,True) for t in tasks])
+        assert all(file_hash(Path(p))==h and Path(p).stat().st_mtime_ns==mtimes[p] for p,h in before.items())
+        assert records[1]['attempts']==2 and records[1]['interrupted_fit_calls_unknown']
+        return dict(status='PASSED',scope='OS-terminated spawn after real classifier commit, at next regression fit RUNNING boundary',
+            completed_fit_reused=True,unfinished_regression_recovered=True,terminated_exitcode=child.exitcode,
+            recovery_estimator_fit_calls=records[1]['estimator_fit_calls'],interrupted_fit_calls_unknown=True)
+    finally:
+        if child.is_alive():child.terminate();child.join(20)
 
 
 def _batch(config, store, root, workers, design):
@@ -102,9 +155,18 @@ def _batch(config, store, root, workers, design):
         predictions.append(saved)
         losses.append(pd.read_parquet(directory / 'losses.parquet'))
         checks.append(dict(**task['identity'], model_version=model.model_version_,
+            kernel=model.diagnostic_artifact() if config['model']=='rbf_svm' else None,
             input=read_json(directory / 'context.json')['input_diagnostics'],
             diagnostics=record['diagnostics'], save_load_predict_exact=True,
             estimator_fit_calls=record['estimator_fit_calls'], calibration_fit_calls=record.get('calibration_fit_calls',0), elapsed_seconds=record['elapsed_seconds']))
+    if config['model']=='rbf_svm':
+        args=[(str(root/r['artifact']),config['model'],t['identity'],str(store.root)) for (t,_),r in zip(items,records)]
+        with ProcessPoolExecutor(1,mp_context=multiprocessing.get_context('spawn')) as pool:
+            reloaded=list(pool.map(_reload_in_spawn,args))
+        for check,saved,(version,prediction) in zip(checks,predictions,reloaded):
+            assert version==check['model_version']
+            pd.testing.assert_frame_equal(saved,prediction,check_exact=True)
+        assert checks[0]['kernel']['oof']['score_hash']
     # Resume the exact tasks, including process-count changes: no additional fits.
     mtime = {str(p): p.stat().st_mtime_ns for p in root.glob('development/fits/*/artifact.json')}
     runner.scheduler.workers = 1
@@ -138,14 +200,14 @@ def technical_check(*, execute=False, quick=False, destination=None, data_root=N
     config['data_root'] = str(data_root or ROOT / config['data_root'])
     store = DataStore(config['data_root'])
     assert_interface_accepted(data_root=store.root)
-    tests = read_json(ROOT / 'reports/market_state/model_io/test_results.json')
-    if tests.get('experiment_code_hash') != experiment_code_hash() or tests.get('exit_code') != 0:
-        raise RuntimeError('Technical acceptance requires current full non-training pytest')
+    from .portable import validate_source_receipt
+    validate_source_receipt(read_json(ROOT / 'reports/market_state/model_io/test_results.json'))
     env = environment()
     workers = cpu_workers or min(4, worker_count(config))
     if workers < 2:
         raise RuntimeError('At least two workers needed for real serial/process comparison; set --cpu-workers explicitly')
-    destination = Path(destination or ROOT / ('reports/model_build/'+model+('/quick_technical.json' if quick else '/optimization_'+('20261120' if model=='rbf_svm' else '20261119')+'/real_technical.json')))
+    destination = Path(destination or (ROOT/'runtime_acceptance/technical.json' if (ROOT/'package.manifest.json').exists()
+        else ROOT / ('reports/model_build/'+model+('/quick_technical.json' if quick else '/optimization_'+('20261120' if model=='rbf_svm' else '20261119')+'/real_technical.json'))))
     result = dict(purpose='SMOKE_ONLY', research_evidence=False, formal_BC_started=False,
         quick=quick, environment=env, cpu_logical=os.cpu_count(), available_workers=worker_count(config),
         original_seal_sha256=file_hash(store.root / 'release/seal.json'), code=experiment_code_hash(),
@@ -180,6 +242,12 @@ def technical_check(*, execute=False, quick=False, destination=None, data_root=N
                     groups.setdefault(key, []).append((float(f.loss.mean()), digest(d['parameters'])))
                 return {k:[v[1] for v in sorted(rows)] for k,rows in groups.items()}
             assert rankings(al) == rankings(bl)
+            if model=='rbf_svm':
+                for left,right in zip(serial['checks'],parallel['checks']):
+                    assert left['model_version']==right['model_version']
+                    assert left['kernel']['oof']==right['kernel']['oof']
+                    assert left['kernel']['calibration_plan']==right['kernel']['calibration_plan']
+                result['process_recovery']=_process_recovery(config,store,root/'interruption',scenarios(quick,model))
             result.update(serial=serial, parallel=parallel, prediction_max_differences=differences,
                 candidate_ranking_equal=True, ranking_hash=digest(rankings(al)),
                 total_speedup=serial['elapsed_seconds']/parallel['elapsed_seconds'],

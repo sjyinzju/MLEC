@@ -1,4 +1,5 @@
 param(
+    [switch]$PlanOnly,
     [string]$Python = 'python',
     [string]$DataRoot = '',
     [string]$OutputRoot = '',
@@ -10,7 +11,8 @@ $ErrorActionPreference = 'Stop'
 $taskRepo = Split-Path -Parent $PSScriptRoot
 Push-Location -LiteralPath $taskRepo
 try {
-    $taskArgs = @('-m', 'scripts.market_state.experiments', 'pipeline', '--model', 'rbf_svm', '--config', 'config/experiments/rbf_svm.yaml', '--suite', 'full', '--execute', '--resume', '--cpu-workers', "$CpuWorkers", '--cpu-threads', "$CpuThreads")
+    $taskArgs = @('-m', 'scripts.market_state.experiments', 'pipeline', '--model', 'rbf_svm', '--config', 'config/experiments/rbf_svm.yaml', '--suite', 'full', '--cpu-workers', "$CpuWorkers", '--cpu-threads', "$CpuThreads")
+    if (-not $PlanOnly) { $taskArgs += @('--execute','--resume') }
     if ($DataRoot) { $taskArgs += @('--data-root', $DataRoot) }
     if ($OutputRoot) { $taskArgs += @('--output-root', $OutputRoot) }
     if ($RunId) { $taskArgs += @('--run-id', $RunId) }

@@ -8,14 +8,29 @@ from ..release import sealed_product_path, file_hash
 from .artifacts import read_json, atomic_json, staging, file_manifest, check_files
 from .runtime import experiment_code_hash
 
+MACRO_DEPENDENCIES = ['scripts/common.py','scripts/final_data_foundation/common.py','scripts/final_data_foundation/macro_contract.py',
+    'scripts/data_foundation_v3/common.py',
+    'scripts/data_foundation_v3/requirements.py','scripts/data_foundation_v3/scopes.py']
+
+
+def validate_source_receipt(record):
+    if record.get('receipt_kind')!='SOURCE_FULL_PYTEST' or record.get('exit_code')!=0 or record.get('experiment_code_hash')!=experiment_code_hash():
+        raise RuntimeError('A current successful unfiltered SOURCE_FULL_PYTEST receipt is required')
+    if not record.get('collected') or len(record.get('node_ids',[]))!=record['collected']:
+        raise RuntimeError('Incomplete source test collection evidence')
+    if record.get('passed')!=record['collected']:
+        raise RuntimeError('Source full suite must pass every collected test')
+    actual={p.relative_to(ROOT).as_posix():file_hash(p) for p in sorted((ROOT/'tests').glob('*.py'))}
+    if record.get('test_files')!=actual:
+        raise RuntimeError('Source test files differ from accepted full suite')
+
 
 def package(destination, store, *, model='elastic_net', wheelhouse=None):
     from ..models import require_model
     require_model(model)
     assert_interface_accepted(data_root=store.root)
     tests = read_json(ROOT / 'reports/market_state/model_io/test_results.json')
-    if tests.get('experiment_code_hash') != experiment_code_hash() or tests.get('exit_code') != 0:
-        raise RuntimeError('Package requires current successful non-training experiment tests')
+    validate_source_receipt(tests)
     destination = Path(destination).resolve()
     if destination.exists() or destination.is_relative_to(store.root.resolve()):
         raise ValueError('Package destination must be new and outside the read-only data root')
@@ -30,11 +45,16 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
         paths += list((ROOT / 'config/experiments').glob('*.yaml'))
         paths += [p for p in (ROOT / 'launchers').rglob('*') if p.is_file() and p.suffix in ['.ps1', '.sh', '.cmd', '.md']]
         paths += list((ROOT / 'tests').glob('*.py'))
+        paths += list((ROOT / 'portable_tests').glob('*.py'))
+        paths += [ROOT / name for name in MACRO_DEPENDENCIES]
         paths += list((ROOT / 'reports/model_build' / model).glob('*.md'))
         paths += list((ROOT / 'reports/model_build' / model).glob('acceptance.json'))
         optimization = ROOT / 'reports/model_build' / model / ('optimization_20261120' if model=='rbf_svm' else 'optimization_20261119')
         if optimization.exists():
             paths += [p for p in optimization.glob('*') if p.suffix in ['.md', '.json']]
+        repair = ROOT/'reports/model_build'/model/'repair_20261121'
+        if repair.exists():
+            paths += [p for p in repair.glob('*') if p.suffix in ['.md','.json']]
         paths += [ROOT / 'docs' / p for p in ['MLEC_research_protocol.md', 'MLEC_experiment_plan.md',
             'model_io_contract.md', 'experiments.md', 'rbf_svm.md']]
         paths += list((ROOT / 'reports/market_state/model_io').glob('*.json'))
@@ -53,8 +73,23 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
             for wheel in wheels:
                 shutil.copy2(wheel, temporary / 'wheels' / wheel.name)
         if model == 'rbf_svm':
-            for name in ['README_START_HERE.md', 'START_WINDOWS.cmd', 'START_LINUX.sh', 'CHECK_WINDOWS.cmd', 'TECHNICAL_WINDOWS.cmd']:
+            for name in ['README_START_HERE.md', 'START_WINDOWS.cmd', 'START_LINUX.sh', 'CHECK_WINDOWS.cmd', 'CHECK_LINUX.sh', 'TECHNICAL_WINDOWS.cmd']:
                 shutil.copy2(ROOT / 'launchers/rbf_svm' / name, temporary / name)
+        (temporary/'pytest.ini').write_text('[pytest]\ntestpaths = portable_tests\nnorecursedirs = tests results .venv-rbf-svm\n',encoding='utf8')
+        (temporary/'SOURCE_TESTS_README.md').write_text('Source full pytest proof is copied unchanged from the source workspace.\n'
+            'tests/ is source reference and may require omitted collection assets.\n'
+            'Default pytest runs portable_tests/ only, produces PORTABLE_SUBSET evidence, and cannot reissue SOURCE_FULL_PYTEST.\n'
+            'Real fitting requires the separate explicit TECHNICAL entry.\n',encoding='utf8')
+        from scripts.final_data_foundation.macro_contract import specifications
+        from ..macro import feature_specifications
+        from ..common import digest
+        base,features=specifications(),feature_specifications()
+        sealed=read_json(store.root/'macro/specifications.json')
+        required=[s for s in features if s.get('required',True)]
+        if required!=sealed or len({s['series_id'] for s in features})!=len(features):
+            raise RuntimeError('Real macro definitions differ from sealed feature specifications')
+        atomic_json(temporary/'macro_contract_identity.json',dict(base_count=len(base),feature_count=len(features),
+            base_digest=digest(base),feature_digest=digest(features),required_count=len(required),required_digest=digest(required)))
         for relative, sha in seal['products'].items():
             source = sealed_product_path(relative, store.root)
             if file_hash(source) != sha:
@@ -72,6 +107,8 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
             source_state='content hashes are authoritative, including uncommitted implementation',
             data_root='data/market_state', raw_lake_required=False, supervised_fit_calls=0, calibration_fit_calls=0,
             wheelhouse='wheels' if wheelhouse is not None else None,
+            source_test_receipt_sha256=file_hash(temporary/'reports/market_state/model_io/test_results.json'),
+            acceptance_scopes=dict(source='SOURCE_FULL_PYTEST',portable='PORTABLE_SUBSET plus explicit SMOKE_ONLY real technical'),
             files=file_manifest(temporary))
         check_files(temporary, manifest['files'])
         atomic_json(temporary / 'package.manifest.json', manifest)
@@ -82,6 +119,10 @@ def verify_package(directory):
     directory = Path(directory).resolve()
     manifest = read_json(directory / 'package.manifest.json')
     check_files(directory, manifest['files'])
+    receipt=directory/'reports/market_state/model_io/test_results.json'
+    if manifest['source_test_receipt_sha256']!=file_hash(receipt):
+        raise RuntimeError('Immutable source test proof changed')
+    validate_source_receipt(read_json(receipt))
     if manifest['original_seal_hash'] != file_hash(directory / 'data/market_state/release/seal.json'):
         raise RuntimeError('Portable seal differs from manifest')
     print('PACKAGE_INTEGRITY_PASSED', len(manifest['files']), 'files; supervised fits=0')

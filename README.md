@@ -1,5 +1,9 @@
 # MLEC：未来20个交易日的五维市场状态
 
+第二模型 **RBF-SVM** 的最新版构建位于 [`scripts/market_state/models/rbf_svm.py`](scripts/market_state/models/rbf_svm.py)，包括分类、七目标 SVR 和训练内时间概率校准（`svm-time-sigmoid-v3`）。配置见 [`config/experiments/rbf_svm.yaml`](config/experiments/rbf_svm.yaml)，模型与验收规则见 [`docs/rbf_svm.md`](docs/rbf_svm.md)。
+
+RBF-SVM 使用 `launchers/rbf_svm/CHECK_WINDOWS.cmd` 做无训练检查，`launchers/rbf_svm/TECHNICAL_WINDOWS.cmd` 做显式小规模真实技术验收，`launchers/rbf_svm/START_WINDOWS.cmd` 启动正式 B→锁→C。验收回执绑定实际代码内容；代码变更后由完整源码 pytest 真实生成新证明。
+
 同伴收到便携压缩包后先完整解压，阅读[交接入口](README_START_HERE.md)。已安装64位Python 3.11且可联网时，双击`START_WINDOWS.cmd`可自动准备环境并启动完整BC；Linux使用`bash START_LINUX.sh`。
 
 研究唯一依据：[market-state-research-v3.0](docs/MLEC_research_protocol.md)。正式快照截止2026-11-13 18:00（北京时间）。先读[集中验收报告](reports/market_state/completion_report.md)和[data release](data/market_state/release/seal.json)。公共实验流程及Elastic Net分类/七目标回归已实现，状态 **IMPLEMENTED**；真实监督训练、参数搜索、smoke和正式实验本轮均为0，没有预测成绩。

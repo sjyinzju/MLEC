@@ -71,3 +71,15 @@ API依据：[SVC 1.8](https://scikit-learn.org/1.8/modules/generated/sklearn.svm
 内部时间折矩阵来自各自原始内部train的预处理，在每个绑定训练服务内按训练/验证键与cutoff缓存，上限64MiB；每个外层上下文只保留最近2个信息集服务，外层LRU仍2个上下文，新增矩阵缓存上界256MiB。没有缓存或共用估计器权重。
 
 桌面包CHECK_WINDOWS.cmd只检查环境/文件/seal/配置/preflight；TECHNICAL_WINDOWS.cmd将真实运行短技术训练；START_WINDOWS.cmd将真实启动完整BC。本轮仅执行CHECK，后两入口不执行。依赖优先复用MLEC_PYTHON指定的合格环境，或创建独立venv，包内wheels存在时优先离线安装。
+
+## 2026-11-21 正式运行阻断修复
+
+本节更新以上历史待验收状态。本轮获明确授权执行小规模真实技术验收，不执行完整正式 B/C。校准身份升级为 `svm-time-sigmoid-v3`。保持求和交叉熵、解析梯度、训练 OOF 成员、数据及搜索范围不变。
+
+机器精度梯度量级 `sqrt(2*lambda_max*eps*abs(f))` 仅为估计。验收还检查同尺度 Hessian 全谱、弱方向梯度、Newton decrement 与稳定计算的 Newton 方向目标变化；明显下降方向不能通过。独立诊断使用 60 位 Decimal 重新计算目标、梯度、Hessian 和完整 Newton 步目标差。这些是局部数值证据，不宣称严格全局误差证书。保留配置阈值、优化器原始目标/梯度、最终目标/梯度、截距基线及修正次数。
+
+原子 JSON/Parquet 使用同卷唯一临时文件及同目标跨进程内核互斥。最多六次重试仅限明确共享冲突，或 WinError 5 经双方 DELETE 及目录新增权限正向探测、只读排除后确认的暂时替换失败；权限探测失败立即传播。目录提交不套用文件的正向权限判据。保持物理 fit 租约、单 worker 任务写入和协调器公共清单隔离。
+
+完整源码 pytest 与便携验收分别记身份。正式 preflight 必须持有当前代码、当前测试源码的 `SOURCE_FULL_PYTEST` 回执；便携包原样复制，不重新签发。默认便携 pytest 仅跑 `portable_tests/`，输出独立 `PORTABLE_SUBSET`。真实技术入口固定诊断三个原失败任务、正常分类的两个候选与一个七目标回归，比较串行/spawn、保存加载和合法恢复；没有候选搜索或 C 阶段调用。OS 中断验收在真实分类提交后、下一个回归 fit 的 RUNNING 边界终止进程，再验证恢复。中断期间计数明确 unknown。
+
+打包复用真实 macro_contract 及必要声明依赖；73 项特征规格中 69 项 required 逐值、逐序等于封版 JSON，4 项原有非必需隔离候选保持排除。禁止用封版 JSON 再追加派生规格的替身。包内不含原始采集湖；运行后产生的检查回执放入 runtime_acceptance，不改封存源码证明。START 的本轮实测使用 `-PlanOnly`，正式 B/C 仍由同伴执行。具体结果见 repair_20261121 交付报告。

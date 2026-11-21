@@ -33,13 +33,17 @@ def pytest_sessionfinish(session,exitstatus):
     from scripts.market_state.release import code_hash,file_hash
     from scripts.market_state.common import ROOT,REPORT
     from scripts.market_state.experiments.runtime import experiment_code_hash
+    if (ROOT/'package.manifest.json').exists():
+        return  # Portable subsets NEVER replace source-workspace proof.
     required={p.name for p in (ROOT/'tests').glob('test_*.py')}
     files={Path(str(item.fspath)).name for item in session.items}
     options=session.config.option
-    if not required<=files or options.keyword or options.markexpr or getattr(options,'lf',False):return
+    if not required<=files or options.keyword or options.markexpr or getattr(options,'lf',False) or getattr(options,'deselect',[]) or options.collectonly or any('::' in a for a in session.config.args):return
     reporter=session.config.pluginmanager.get_plugin('terminalreporter')
     passed=len(reporter.stats.get('passed',[])) if reporter else 0
-    record=dict(exit_code=int(exitstatus),summary=[str(passed)+' passed'],interface_code_hash=code_hash(),
+    from scripts.market_state.experiments.runtime import environment
+    record=dict(receipt_kind='SOURCE_FULL_PYTEST',collected=len(session.items),node_ids=[i.nodeid for i in session.items],
+        environment=environment(),exit_code=int(exitstatus),passed=passed,summary=[str(passed)+' passed'],interface_code_hash=code_hash(),
         experiment_code_hash=experiment_code_hash(), real_supervised_fit_calls=0, real_calibration_fit_calls=0, smoke_runs=0,
         verification='ordinary pytest blocks real supervised estimators; integration uses non-learning stubs',
         test_files={p.relative_to(ROOT).as_posix():file_hash(p) for p in sorted((ROOT/'tests').glob('*.py'))})

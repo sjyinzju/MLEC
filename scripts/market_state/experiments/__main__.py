@@ -72,7 +72,9 @@ def main(argv=None):
         return result
     if args.command == 'preflight':
         result = preflight(config, store, args.suite)
-        atomic_json(ROOT / 'reports/model_build' / config['model'] / 'preflight.json', result)
+        destination=(ROOT/'runtime_acceptance/preflight.json' if (ROOT/'package.manifest.json').exists()
+            else ROOT/'reports/model_build'/config['model']/'preflight.json')
+        atomic_json(destination, result)
         print('PREFLIGHT_PASSED; supervised fits=0; smoke=0')
         return result
     if args.command == 'package':

@@ -168,6 +168,8 @@ def preflight(config, store, suite, *, check_environment=True):
     require_model(config['model'], config['backend'])
     assert_interface_accepted(data_root=store.root)
     tests = read_json(ROOT / 'reports/market_state/model_io/test_results.json')
+    from .portable import validate_source_receipt
+    validate_source_receipt(tests)
     if tests.get('experiment_code_hash') != experiment_code_hash() or tests.get('exit_code') != 0:
         raise RuntimeError('Experiment code changed; complete the non-training full pytest suite before execution')
     scope(config, store, suite)
