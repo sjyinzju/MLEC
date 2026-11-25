@@ -25,18 +25,21 @@ def target_schema(get=read,*,dictionary=None):
     ids=profiles.state_id.astype(int).tolist()
     if ids!=list(range(len(dictionary['component_order']))):raise ValueError('Dictionary class order mismatch')
     fields=get('field_dictionary');fields=fields[fields.dataset_id.eq('future_window_outcomes')].set_index('field')
-    return dict(contract_version=CONTRACT_VERSION,dictionary_version=dictionary['label_version'],class_ids=ids,
+    schema=dict(contract_version=CONTRACT_VERSION,dictionary_version=dictionary['label_version'],class_ids=ids,
         class_semantics=profiles[['state_id','description']].to_dict('records'),dimensions=DIMENSIONS,
         columns=dict(classification=['future_state_id'],regression=CORE,probability=['future_state_prob_'+str(i) for i in ids]),
         continuous=[dict(field=c,unit=fields.loc[c,'unit'],definition=fields.loc[c,'definition'],
             dimension=next(d for d,v in DIMENSIONS.items() if c in v),bounds=BOUNDS[c]) for c in CORE],
         probability_role='auxiliary realized-label memberships, never predicted probabilities',
         decision_rule='argmax; ties choose first class in dictionary order',probability_atol=PROBABILITY_ATOL)
+    if 'horizon' in dictionary:schema['horizon']=dictionary['horizon']
+    return schema
 
 
-def unique_keys(keys):
+def unique_keys(keys,*,horizon=None):
     if list(keys.columns)!=KEY or keys.isna().any().any() or keys.duplicated().any():raise ValueError('Invalid or duplicate sample keys')
-    if not keys.horizon.eq(20).all():raise ValueError('Expected horizon=20')
+    if keys.horizon.nunique()>1 or not keys.horizon.isin([20,60]).all():raise ValueError('Expected one supported horizon')
+    if horizon is not None and not keys.horizon.eq(horizon).all():raise ValueError('Sample horizon differs from the target schema')
     if not keys.market_id.isin(MARKETS).all() or not pd.api.types.is_datetime64_any_dtype(keys.asof_date):raise ValueError('Invalid market/date key')
 
 
@@ -50,7 +53,7 @@ def truth_hash(y):
 
 
 def validate_dataset(ds):
-    unique_keys(ds.keys)
+    unique_keys(ds.keys,horizon=ds.target_schema.get('horizon',20))
     n=len(ds.keys)
     for part in [ds.X,ds.X_market,ds.X_macro,ds.metadata]+([] if ds.y is None else [ds.y]):
         if len(part)!=n or not part.index.equals(ds.keys.index):raise ValueError('X/Y/metadata row alignment mismatch')
@@ -236,6 +239,7 @@ def regression_output(ctx, original_values, schema):
 
 
 def validate_output(result, ctx, *,task, schema):
+    unique_keys(ctx.keys,horizon=schema.get('horizon',20))
     """Also validates externally assembled output, including exact row and identity order."""
     expected=_output_base(ctx)
     if not result.columns.is_unique:raise ValueError('Duplicate output column')

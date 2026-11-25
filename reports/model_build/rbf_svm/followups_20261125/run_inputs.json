@@ -1,0 +1,85 @@
+{
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.3",
+      "lxml": "6.0.2",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.2",
+      "olefile": "0.47",
+      "tabulate": "0.9.0",
+      "pytest": "9.0.3",
+      "duckdb": "1.5.5",
+      "matplotlib": "3.10.8",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.6.0"
+    },
+    "backend": "cpu"
+  },
+  "study": {
+    "study": "rbf-followups-60d-z-20261125-v1",
+    "purpose": "EXPLORATORY",
+    "snapshot_cutoff": "2026-11-13T18:00:00+08:00",
+    "scope": "Four sealed market cohorts, monthly expanding fits, three-state classification and seven continuous outcomes",
+    "parameter_source": "Prior RBF-SVM development lock, positive-weight M+Z winner per market and task",
+    "experiments": {
+      "60d": {
+        "horizon": 60,
+        "information_sets": [
+          "M",
+          "M+Z"
+        ],
+        "historical_inputs": "Original 20d information sets and history dictionary",
+        "future_label_rule": "60 trading days after the as-of anchor with a new initial-training-only state dictionary",
+        "classification_probability": "Fixed unit-temperature softmax of three RBF-SVC OVR scores because original time validation does not cover all states",
+        "bootstrap_weeks": [
+          16,
+          12,
+          20
+        ]
+      },
+      "20d": {
+        "horizon": 20,
+        "information_sets": [
+          "Z"
+        ],
+        "historical_inputs": "Only the sealed macro projection of M+Z",
+        "macro_exponent_rule": "Use the locked gamma_factor times macro_weight as the single-block gamma_factor",
+        "classification_probability": "Original locked training-only temporal calibration",
+        "comparison_references": [
+          "retuned_core",
+          "fixed_full_params"
+        ],
+        "bootstrap_weeks": [
+          8,
+          4,
+          12
+        ]
+      }
+    }
+  },
+  "design_sha256": "6736ea84f9137d4edfc7db4bd43fd1d78e0881822f9b286e4ec2a7ad021067aa",
+  "reference": {
+    "run_id": "4493be5153575e180993d287",
+    "lock_sha256": "4f6e18c029181f7f8c7554a9e765138dd5682077570c3deefa90feef57c9c6de",
+    "scores_sha256": {
+      "development": "13e45350dcec3674e0076f48aa325447b921d01247ca65941a8576caa76f4e6e",
+      "test": "cee4209b4b6efe9ca52295adcf97dcde6d9a7ed793a4884a82720f202821cd53"
+    }
+  },
+  "tests": {
+    "passed": 191,
+    "sha256": "1199adf47e32efea0f20d4d33f3e1b1d5c7ef11e10d19378a21d1e74d02af76a"
+  },
+  "interface_sha256": {
+    "20": "ceafe3a1026ebcba5952c7f1390936a7b70184c2eb2d9d74ed9dbbde728dfa60",
+    "60": "6138c087ef21cca4ed7ec83c0aa69ab87cb01b30b5db08c3e0e31e714db3590d"
+  }
+}

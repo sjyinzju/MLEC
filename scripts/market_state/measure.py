@@ -38,15 +38,52 @@ def window_measure(prices,daily,panel,membership):
     result['missing_reason']=';'.join('MISSING_'+k.upper() for k in CORE if not np.isfinite(result[k]))
     return result
 
+def validity_masks(dates, master, imap):
+    shape=(len(dates),len(imap))
+    active=np.zeros(shape,bool)
+    ordinary=np.zeros(shape,bool)
+    for r in master.itertuples():
+        valid=(dates>=r.valid_from)&(dates<r.valid_to)
+        active[:,imap[r.instrument_id]]|=valid
+        if r.security_type=='A_SHARE':ordinary[:,imap[r.instrument_id]]|=valid
+    return active,ordinary
+
+def market_membership(market,dates,weights,imap,aliasmap,active,ordinary):
+    snapshot_age=np.full(len(dates),np.nan)
+    if market=='000985.SH':
+        return ordinary,snapshot_age
+    membership=np.zeros(active.shape,bool)
+    w=weights[weights.index_code.eq(market)]
+    books={d:[imap[aliasmap[x]] for x in g.con_code if x in aliasmap and aliasmap[x] in imap]
+        for d,g in w.groupby('snapshot_date')}
+    snaps=sorted(books)
+    for j,d in enumerate(dates):
+        k=np.searchsorted(snaps,d,side='right')-1
+        if k>=0:
+            age=(d-snaps[k]).days;snapshot_age[j]=age
+            if age<=45:membership[j,books[snaps[k]]]=True
+    return membership & active,snapshot_age
+
+def measure_record(dates,price,daily,returns,membership,key,a,b,direction):
+    length=b-a
+    meta=dict(key,window_length=length,window_start=dates[a+1] if a>=0 and a+1<len(dates) else pd.NaT,
+        window_end=dates[b] if b<len(dates) else pd.NaT,price_count=length+1)
+    if a<0 or b>=len(dates):
+        outcome={**dict.fromkeys(CORE,np.nan), 'measurement_valid':False,
+            'missing_reason':'FUTURE_WINDOW_NOT_MATURE' if direction=='future' else 'INSUFFICIENT_HISTORY'}
+    else:
+        outcome=window_measure(price[a:b+1],daily.iloc[a+1:b+1],returns[a+1:b+1],membership[a+1:b+1])
+    rec=dict(meta,**outcome)
+    if direction=='future':
+        rec.update(label_start=meta['window_start'],label_end=meta['window_end'],
+            label_available_at=clock(dates[b]) if b<len(dates) else pd.NaT)
+    return rec
+
 def build_measures(*,max_asof=None,stock_transform=None,price_transform=None,save=True):
     dates=pd.DatetimeIndex(read('calendar').date);master=read('security_history');weights=read('membership_snapshots')
     instruments=sorted(master.instrument_id.unique());imap={x:i for i,x in enumerate(instruments)}
     dmap={x:i for i,x in enumerate(dates)};shape=(len(dates),len(instruments))
-    active=np.zeros(shape,bool)
-    ordinary=np.zeros(shape,bool)
-    for r in master.itertuples():
-        active[:,imap[r.instrument_id]]|=(dates>=r.valid_from)&(dates<r.valid_to)
-        if r.security_type=='A_SHARE':ordinary[:,imap[r.instrument_id]]|=(dates>=r.valid_from)&(dates<r.valid_to)
+    active,ordinary=validity_masks(dates,master,imap)
     arrays={col:np.full(shape,np.nan) for col in ['r','volume_shares','amount_cny','float_shares']}
     quote=np.zeros(shape,bool)
     for p in sorted((OUT/'cache/stocks').glob('*.parquet')):
@@ -72,19 +109,7 @@ def build_measures(*,max_asof=None,stock_transform=None,price_transform=None,sav
     if max_asof is not None:points=[d for d in points if d<=pd.Timestamp(max_asof)]
     aliasmap=alias.set_index('ts_code').instrument_id.to_dict()
     for market in MARKETS:
-        membership=np.zeros(shape,bool);snapshot_age=np.full(len(dates),np.nan)
-        if market=='000985.SH':
-            membership=ordinary.copy()
-        else:
-            w=weights[weights.index_code.eq(market)]
-            books={d:[imap[aliasmap[x]] for x in g.con_code if x in aliasmap and aliasmap[x] in imap] for d,g in w.groupby('snapshot_date')}
-            snaps=sorted(books)
-            for j,d in enumerate(dates):
-                k=np.searchsorted(snaps,d,side='right')-1
-                if k>=0:
-                    age=(d-snaps[k]).days;snapshot_age[j]=age
-                    if age<=45:membership[j,books[snaps[k]]]=True
-            membership &= active
+        membership,snapshot_age=market_membership(market,dates,weights,imap,aliasmap,active,ordinary)
         members=membership.sum(axis=1);valid=membership&np.isfinite(arrays['r'])
         liquid=valid & (arrays['amount_cny']>0)
         cap=membership & np.isfinite(arrays['volume_shares']) & (arrays['float_shares']>0)
@@ -108,15 +133,8 @@ def build_measures(*,max_asof=None,stock_transform=None,price_transform=None,sav
             i=dmap[d];key=dict(market_id=market,asof_date=d,horizon=20,asof_time=clock(d))
             for length,direction in [(20,'future'),(5,'past'),(20,'past'),(60,'past')]:
                 a,b=(i,i+length) if direction=='future' else (i-length,i)
-                meta=dict(key,window_length=length,window_start=dates[a+1] if a>=0 and a+1<len(dates) else pd.NaT,
-                    window_end=dates[b] if b<len(dates) else pd.NaT,price_count=length+1)
-                if a<0 or b>=len(dates):
-                    outcome={**dict.fromkeys(CORE,np.nan), 'measurement_valid':False,'missing_reason':'FUTURE_WINDOW_NOT_MATURE' if direction=='future' else 'INSUFFICIENT_HISTORY'}
-                else:
-                    outcome=window_measure(price[a:b+1],daily.iloc[a+1:b+1],arrays['r'][a+1:b+1],membership[a+1:b+1])
-                rec=dict(meta,**outcome)
+                rec=measure_record(dates,price,daily,arrays['r'],membership,key,a,b,direction)
                 if direction=='future':
-                    rec.update(label_start=meta['window_start'],label_end=meta['window_end'],label_available_at=clock(dates[b]) if b<len(dates) else pd.NaT)
                     rows.append(rec)
                 else:past.append(rec)
         print('measured',market,len(points),flush=True)

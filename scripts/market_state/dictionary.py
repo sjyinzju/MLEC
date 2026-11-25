@@ -88,16 +88,21 @@ def fit_dictionary(outcomes):
     return artifact
 
 def update_profiles(outcomes,artifact):
+    frame('state_dictionary/profiles',state_profiles(outcomes,artifact))
+
+def state_profiles(outcomes,artifact):
     train=training_rows(outcomes)
     tagged=apply_dictionary(train,artifact,'future');profile=train.copy();profile['state_id']=tagged.future_state_id
     fields=CORE+['downside_semivol','worst_daily_return','worst_cumulative_return','quote_coverage','suspension_fraction']
     profiles=profile.groupby('state_id')[fields].mean().reset_index();profiles['n']=profile.groupby('state_id').size().values
+    horizon=int(train.horizon.iloc[0])
     profiles['description']=profiles.apply(lambda r: ('收益均值接近零' if abs(r['return'])<.01 else '上涨' if r['return']>0 else '下跌')+
-        f"（20日平均收益{r['return']:+.2%}）；"+('较高波动' if r.volatility>train.volatility.median() else '较低波动')+'；'+('负收益股票过半' if r.breadth>.5 else '负收益股票未过半'),axis=1)
+        f"（{horizon}日平均收益{r['return']:+.2%}）；"+('较高波动' if r.volatility>train.volatility.median() else '较低波动')+'；'+('负收益股票过半' if r.breadth>.5 else '负收益股票未过半'),axis=1)
     profiles['risk_downside']=profiles.drawdown.gt(train.drawdown.median())&profiles['return'].lt(0)
     profiles['risk_liquidity']=profiles.amihud.gt(train.amihud.median())&profiles.turnover.lt(train.turnover.median())
     profiles['risk_broad_decline']=profiles.breadth.gt(.5)&profiles['return'].lt(0)
-    profiles['label_version']=artifact['label_version'];frame('state_dictionary/profiles',profiles)
+    profiles['label_version']=artifact['label_version']
+    return profiles
 
 def ensure_dictionary(outcomes,force=False):
     folder=OUT/'state_dictionary';meta=json.loads((folder/'dictionary.json').read_text(encoding='utf8')) if (folder/'dictionary.json').exists() else {}

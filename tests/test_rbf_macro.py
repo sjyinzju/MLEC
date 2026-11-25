@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+import pytest
+from scipy.spatial.distance import cdist
 from scripts.market_state.common import CORE
 from scripts.market_state.experiments.config import candidates, load_config
 from scripts.market_state.experiments.pipeline import Pipeline
@@ -25,6 +27,16 @@ def test_weighted_preserves_financial_geometry_and_missing_flags():
     shifted = X.copy()
     shifted['macro__pmi__latest'] += 20000.
     np.testing.assert_array_equal(zero.transform(shifted), m.transform(market))
+
+    z = X.iloc[:, 2:]
+    only_macro = BlockGeometry.fit(z, lineage, 'compact', 1., macro_only=True)
+    _, shared_macro = positive.coordinates(X)
+    np.testing.assert_array_equal(only_macro.transform(z), shared_macro)
+    np.testing.assert_allclose(only_macro.transform(z).var(0).sum(), 1.)
+    np.testing.assert_allclose(cdist(positive.transform(X), positive.transform(X), 'sqeuclidean'),
+        cdist(m.transform(market), m.transform(market), 'sqeuclidean') + .5 * cdist(shared_macro, shared_macro, 'sqeuclidean'))
+    with pytest.raises(ValueError, match='non-macro'):
+        BlockGeometry.fit(X, lineage, 'compact', 1., macro_only=True)
 
 
 def test_weighted_matrix_coverage_candidate_budgets_and_target_choice():

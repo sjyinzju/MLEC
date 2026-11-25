@@ -21,8 +21,8 @@ def write(path, obj):
     path = Path(path); path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2, default=str) + '\n', encoding='utf8')
 
-def frame(name, df):
-    path = OUT / (name + '.parquet'); path.parent.mkdir(parents=True, exist_ok=True)
+def frame(name, df, *, data_root=OUT):
+    path = Path(data_root) / (name + '.parquet'); path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix('.partial'); df.to_parquet(tmp, index=False, compression='zstd'); tmp.replace(path)
 
 def read(name):

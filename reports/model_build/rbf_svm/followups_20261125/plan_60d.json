@@ -1,0 +1,328 @@
+{
+  "study": "rbf-followups-60d-z-20261125-v1",
+  "scope": {
+    "horizon": 60,
+    "information_sets": [
+      "M",
+      "M+Z"
+    ],
+    "historical_inputs": "Original 20d information sets and history dictionary",
+    "future_label_rule": "60 trading days after the as-of anchor with a new initial-training-only state dictionary",
+    "classification_probability": "Fixed unit-temperature softmax of three RBF-SVC OVR scores because original time validation does not cover all states",
+    "bootstrap_weeks": [
+      16,
+      12,
+      20
+    ]
+  },
+  "versions": {
+    "runtime_version": "experiment-runtime-v2",
+    "contract_version": "model-io-v1",
+    "data_version": "b3ce6cf14fe5ec2a2c3ed4ae",
+    "feature_version": "aed85a1f82190846a25e",
+    "target_version": "9078bdaeb98d7dedf493",
+    "dictionary_version": "a4122a5e940879c76ea5",
+    "original_seal_hash": "f458fee465ef4db1e6664a277352efd85950769b882dc02a67e4a19d82fed4e9",
+    "interface_code_hash": "d44d99d72b5a2ce7694858ae99e1ced643e8f3fea39b749dc702fd1b2b0096c7",
+    "experiment_code_hash": "af544bf91c8de8edf74a6cab21833fbd33affd4f4726f16bbb5e2cf46a559b82",
+    "protocol_hash": "a7d5fb1771ac0724bce7183c5ec447f41d6c9763c26b784336eda64e6d3da9d7",
+    "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+    "config_hash": "f44cd31cdfe4e5b67410af8237b3bcd051e8b8777cf2aa4f3f7ba578b2dc57fe",
+    "rbf_geometry_version": "rbf-block-total-variance-v1",
+    "rbf_study": "rbf-macro-learning-20261125-v1",
+    "rbf_design_document_hash": "60f900ef18bf5f55536fb56226add57c249acab0e849415a4fa26a722a60fbd8"
+  },
+  "reference": {
+    "run_id": "4493be5153575e180993d287",
+    "lock_sha256": "4f6e18c029181f7f8c7554a9e765138dd5682077570c3deefa90feef57c9c6de",
+    "scores_sha256": {
+      "development": "13e45350dcec3674e0076f48aa325447b921d01247ca65941a8576caa76f4e6e",
+      "test": "cee4209b4b6efe9ca52295adcf97dcde6d9a7ed793a4884a82720f202821cd53"
+    }
+  },
+  "development_folds": [
+    "2020-01",
+    "2020-02",
+    "2020-03",
+    "2020-04",
+    "2020-05",
+    "2020-06",
+    "2020-07",
+    "2020-08",
+    "2020-09",
+    "2020-10",
+    "2020-11",
+    "2020-12",
+    "2021-01",
+    "2021-02",
+    "2021-03",
+    "2021-04",
+    "2021-05",
+    "2021-06",
+    "2021-07",
+    "2021-08",
+    "2021-09",
+    "2021-10",
+    "2021-11",
+    "2021-12",
+    "2022-01",
+    "2022-02",
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09",
+    "2022-10",
+    "2022-11",
+    "2022-12"
+  ],
+  "test_folds": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11"
+  ],
+  "parameters": {
+    "000985.SH|classification": {
+      "gamma_factor": 0.55,
+      "macro_weight": 0.15,
+      "representation": "compact",
+      "C": 4.0,
+      "calibrator": "score_softmax",
+      "class_weight": null,
+      "geometry_version": "rbf-block-total-variance-v1",
+      "tol": 0.001,
+      "max_iter": 100000
+    },
+    "000985.SH|regression": {
+      "gamma_factor": 0.25,
+      "macro_weight": 0.5,
+      "representation": "full",
+      "geometry_version": "rbf-block-total-variance-v1",
+      "tol": 0.001,
+      "max_iter": 100000,
+      "target_parameters": {
+        "return": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "volatility": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "drawdown": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "amihud": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "turnover": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "breadth": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "correlation": {
+          "C": 0.35,
+          "epsilon": 0.12
+        }
+      }
+    },
+    "000300.SH|classification": {
+      "gamma_factor": 0.25,
+      "macro_weight": 0.5,
+      "representation": "full",
+      "C": 0.5,
+      "calibrator": "score_softmax",
+      "class_weight": null,
+      "geometry_version": "rbf-block-total-variance-v1",
+      "tol": 0.001,
+      "max_iter": 100000
+    },
+    "000300.SH|regression": {
+      "gamma_factor": 0.25,
+      "macro_weight": 0.5,
+      "representation": "full",
+      "geometry_version": "rbf-block-total-variance-v1",
+      "tol": 0.001,
+      "max_iter": 100000,
+      "target_parameters": {
+        "return": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "volatility": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "drawdown": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "amihud": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "turnover": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "breadth": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "correlation": {
+          "C": 0.35,
+          "epsilon": 0.025
+        }
+      }
+    },
+    "000905.SH|classification": {
+      "gamma_factor": 0.55,
+      "macro_weight": 0.15,
+      "representation": "compact",
+      "C": 0.5,
+      "calibrator": "score_softmax",
+      "class_weight": null,
+      "geometry_version": "rbf-block-total-variance-v1",
+      "tol": 0.001,
+      "max_iter": 100000
+    },
+    "000905.SH|regression": {
+      "gamma_factor": 0.25,
+      "macro_weight": 0.5,
+      "representation": "full",
+      "geometry_version": "rbf-block-total-variance-v1",
+      "tol": 0.001,
+      "max_iter": 100000,
+      "target_parameters": {
+        "return": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "volatility": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "drawdown": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "amihud": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "turnover": {
+          "C": 8.0,
+          "epsilon": 0.025
+        },
+        "breadth": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "correlation": {
+          "C": 0.35,
+          "epsilon": 0.12
+        }
+      }
+    },
+    "000852.SH|classification": {
+      "gamma_factor": 0.25,
+      "macro_weight": 0.5,
+      "representation": "full",
+      "C": 4.0,
+      "calibrator": "score_softmax",
+      "class_weight": null,
+      "geometry_version": "rbf-block-total-variance-v1",
+      "tol": 0.001,
+      "max_iter": 100000
+    },
+    "000852.SH|regression": {
+      "gamma_factor": 0.25,
+      "macro_weight": 0.5,
+      "representation": "full",
+      "geometry_version": "rbf-block-total-variance-v1",
+      "tol": 0.001,
+      "max_iter": 100000,
+      "target_parameters": {
+        "return": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "volatility": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "drawdown": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "amihud": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "turnover": {
+          "C": 0.35,
+          "epsilon": 0.025
+        },
+        "breadth": {
+          "C": 0.35,
+          "epsilon": 0.12
+        },
+        "correlation": {
+          "C": 0.35,
+          "epsilon": 0.025
+        }
+      }
+    }
+  }
+}

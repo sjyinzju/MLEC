@@ -1,0 +1,74 @@
+{
+  "status": "PASSED",
+  "original_20d_seal_sha256": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+  "test_count": 191,
+  "tests_sha256": "1199adf47e32efea0f20d4d33f3e1b1d5c7ef11e10d19378a21d1e74d02af76a",
+  "reproducible_60d_seal_sha256": "f458fee465ef4db1e6664a277352efd85950769b882dc02a67e4a19d82fed4e9",
+  "execution_sha256": "970ae6f60b68e235528065d179193f59c91a3b50395560df8def678a1c3af328",
+  "horizons": {
+    "60": {
+      "data_version": "b3ce6cf14fe5ec2a2c3ed4ae",
+      "seal_sha256": "f458fee465ef4db1e6664a277352efd85950769b882dc02a67e4a19d82fed4e9",
+      "information_sets": [
+        "M",
+        "M+Z"
+      ],
+      "monthly_fits": 1328,
+      "resolved_retry_tasks": 2,
+      "recovered_task_ids": [
+        "32fc5c4d07c32acd595dbdf680e8ed065698ef16dd4bb9fffc0f807be45a73ed",
+        "cd562e2e8eb4a847b605438e09ff8a4ffa2883f10a1ca353ffe3f8c76daf4107"
+      ],
+      "stages": {
+        "development": {
+          "scoring_rows": 2272,
+          "weeks_per_market_task_information_set": 142,
+          "last_scoring_week": "2022-09-30 00:00:00",
+          "score_sha256": "0c10f39945480a2bf691ceafdbd43456677d6b1f6572eb868b6cc3ba2f692685",
+          "exact_model_reload_predictions": 16
+        },
+        "test": {
+          "scoring_rows": 2944,
+          "weeks_per_market_task_information_set": 184,
+          "last_scoring_week": "2026-08-07 00:00:00",
+          "score_sha256": "222b008dea884416dd61ad10f2cb81c974ffd9648dba23a4eb081ddc763df064",
+          "exact_model_reload_predictions": 16
+        }
+      },
+      "package_count": 32,
+      "interface_tasks": 4008,
+      "prediction_reads": 664
+    },
+    "20": {
+      "data_version": "5d57508f09249cf50b1a2e52",
+      "seal_sha256": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+      "information_sets": [
+        "Z"
+      ],
+      "monthly_fits": 664,
+      "resolved_retry_tasks": 1,
+      "recovered_task_ids": [
+        "fa55d8109a5e241ea04fdf896af1e1825728e9f46844d0356760822099e4109c"
+      ],
+      "stages": {
+        "development": {
+          "scoring_rows": 1200,
+          "weeks_per_market_task_information_set": 150,
+          "last_scoring_week": "2022-12-02 00:00:00",
+          "score_sha256": "30c3252ed4f0b0f6bf2488bed97eae8e6aad7c48360a664e4516754ac883710e",
+          "exact_model_reload_predictions": 8
+        },
+        "test": {
+          "scoring_rows": 1552,
+          "weeks_per_market_task_information_set": 194,
+          "last_scoring_week": "2026-10-16 00:00:00",
+          "score_sha256": "aee158be571ea4a2af6cb80e3ad81531f7a8ca243d5c7d789a98143c88a3ccb7",
+          "exact_model_reload_predictions": 8
+        }
+      },
+      "package_count": 16,
+      "interface_tasks": 6012,
+      "prediction_reads": 996
+    }
+  }
+}

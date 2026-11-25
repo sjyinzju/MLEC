@@ -14,7 +14,7 @@ class BlockGeometry:
         self.state = state
 
     @classmethod
-    def fit(cls, X, lineage, representation, weight):
+    def fit(cls, X, lineage, representation, weight, *, macro_only=False):
         values = X.to_numpy(dtype='float64')
         means = values.mean(axis=0)
         variances = np.mean(np.square(values - means), axis=0)
@@ -26,6 +26,8 @@ class BlockGeometry:
             group = lineage.get(raw)
             if raw.startswith('macro__') and group is None:
                 raise ValueError('Missing sealed macro feature lineage: ' + raw)
+            if macro_only and group is None:
+                raise ValueError('Z-only geometry received a non-macro column: ' + raw)
             if group is not None:
                 field = raw.rsplit('__', 1)[-1]
                 include = (representation == 'full' or
@@ -45,7 +47,10 @@ class BlockGeometry:
                     continue
                 seen.add(signature)
             groups['financial' if group is None else 'macro'].append(j)
-        if not groups['financial']:
+        if macro_only:
+            if weight != 1. or not groups['macro']:
+                raise ValueError('Z-only RBF needs a varying macro block and unit block weight')
+        elif not groups['financial']:
             raise ValueError('Weighted RBF requires a varying financial block')
         blocks = {}
         for name, indices in groups.items():

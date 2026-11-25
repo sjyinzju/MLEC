@@ -1,0 +1,78 @@
+{
+  "status": "COMPLETE",
+  "monthly_execution": {
+    "60": {
+      "development": {
+        "monthly_fits": 576,
+        "elapsed_seconds": 26.876987700001337,
+        "estimator_fit_calls": 2304,
+        "calibration_fit_calls": 0,
+        "prediction_rows": 2464,
+        "mature_rows": 2272,
+        "last_scored_package_folds": {
+          "000300.SH": "2022-09",
+          "000852.SH": "2022-09",
+          "000905.SH": "2022-09",
+          "000985.SH": "2022-09"
+        }
+      },
+      "test": {
+        "monthly_fits": 752,
+        "elapsed_seconds": 32.6911399999517,
+        "estimator_fit_calls": 3012,
+        "calibration_fit_calls": 0,
+        "prediction_rows": 3168,
+        "mature_rows": 2944,
+        "last_scored_package_folds": {
+          "000300.SH": "2026-08",
+          "000852.SH": "2026-08",
+          "000905.SH": "2026-08",
+          "000985.SH": "2026-08"
+        }
+      }
+    },
+    "20": {
+      "development": {
+        "monthly_fits": 288,
+        "elapsed_seconds": 15.450424699985888,
+        "estimator_fit_calls": 1496,
+        "calibration_fit_calls": 288,
+        "prediction_rows": 1232,
+        "mature_rows": 1200,
+        "last_scored_package_folds": {
+          "000300.SH": "2022-12",
+          "000852.SH": "2022-12",
+          "000905.SH": "2022-12",
+          "000985.SH": "2022-12"
+        }
+      },
+      "test": {
+        "monthly_fits": 376,
+        "elapsed_seconds": 76.28474129998358,
+        "estimator_fit_calls": 1898,
+        "calibration_fit_calls": 377,
+        "prediction_rows": 1584,
+        "mature_rows": 1552,
+        "last_scored_package_folds": {
+          "000300.SH": "2026-10",
+          "000852.SH": "2026-10",
+          "000905.SH": "2026-10",
+          "000985.SH": "2026-10"
+        }
+      }
+    }
+  },
+  "outputs": {
+    "report.md": "3dcf23e70ebd3b205a2e930924ac213407d3a72963577bc2c6c649b851af0cbc",
+    "metrics.csv": "3044dc8ebd7161479916f3ff517be889d6a55d4f529a0221782cacf6032bc4da",
+    "paired_intervals.csv": "c1516c28b6ca4d7eb8c74d69491479095d799e60f4757c324d8d1310ce8a32e9"
+  },
+  "plan_sha256": {
+    "20": "3ef7022efcd1dfb7320ab87a6f767aeea00380600d7bd67c1f8a38b22d065795",
+    "60": "ea3c851be8d3db63f43eaa1b74c3f7d44706207f47ca20fe92af3f55505f1af1"
+  },
+  "evidence_sha256": {
+    "20": "c44263378b1fb19169f5d327ed76818d853d9faa69d0d7032f3b37f010853ec0",
+    "60": "bd336278fa4b92e43498744b85081b3e275cf641c2d03154cf911c14e2bcf2cc"
+  }
+}

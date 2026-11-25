@@ -1,17 +1,31 @@
 """Single data/label command surface. No prediction experiments."""
 import argparse
+from pathlib import Path
 import joblib
 from .common import OUT, read
 
 def main():
     p=argparse.ArgumentParser(description='market-state-research-v3.0 A-C')
-    p.add_argument('command',choices=['collect','build','verify','report','preflight','accept','reproduce','seal','interface-preflight'])
+    p.add_argument('command',choices=['collect','build','verify','report','preflight','accept','reproduce','seal','interface-preflight','build-60d'])
     p.add_argument('--reuse-dictionary',action='store_true')
     p.add_argument('--force-sources',action='store_true')
+    p.add_argument('--data-root',type=Path)
+    p.add_argument('--receipt-dir',type=Path)
+    p.add_argument('--information-set',action='append')
+    p.add_argument('--stock-cache',type=Path)
+    p.add_argument('--output',type=Path)
     args=p.parse_args()
     if args.command=='interface-preflight':
         from .tasks import interface_preflight
-        interface_preflight();return
+        interface_preflight(data_root=args.data_root,receipt_dir=args.receipt_dir,
+            information_sets=args.information_set);return
+    if args.command=='build-60d':
+        if args.stock_cache is None or args.output is None:p.error('build-60d needs --stock-cache and --output')
+        from .framework import DataStore
+        from .horizons import build_60d
+        print(build_60d(DataStore(args.data_root),args.stock_cache,args.output));return
+    if any(v is not None for v in [args.data_root,args.receipt_dir,args.information_set,args.stock_cache,args.output]):
+        p.error('Scoped paths and information sets apply to build-60d and interface-preflight')
     from .release import begin
     begin()
     if args.command=='collect':

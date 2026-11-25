@@ -5,22 +5,25 @@ from .common import *
 from .framework import DataStore,load_dataset,preprocessing
 from .release import code_hash
 
-def interface_preflight():
+def interface_preflight(**options):
     """Extend the same sealed task matrix; never expand or rewrite research data."""
     from .interface_acceptance import interface_preflight as verify
-    return verify()
+    return verify(**options)
 
-def expand():
-    spec=json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
-    plans=read('time_splits');rows=[]
+def task_matrix(information_sets,plans):
+    rows=[]
     roles=[('initial','train')]
     for r in plans.itertuples():roles += [(r.fold_id,'train'),(r.fold_id,r.period)]
     for market in MARKETS:
         for fold,role in roles:
-            for info in spec['sets']:
+            for info in information_sets:
                 for target in ['classification','probability','regression']:
                     rows.append(dict(market_id=market,fold_id=fold,role=role,information_set=info,task=target))
-    tasks=pd.DataFrame(rows);frame('data_tasks',tasks)
+    return pd.DataFrame(rows)
+
+def expand():
+    spec=json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
+    tasks=task_matrix(spec['sets'],read('time_splits'));frame('data_tasks',tasks)
     write(OUT/'data_task_config.json',dict(version='data-tasks-v1',markets=list(MARKETS),information_sets=list(spec['sets']),
         targets=['classification','probability','regression'],schedule='monthly train/validation-or-test plus initial mature train',
         models=None,run='python -m scripts.market_state.run preflight',task_count=len(tasks)))

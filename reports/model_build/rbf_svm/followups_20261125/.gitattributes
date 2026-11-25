@@ -1,0 +1,4 @@
+# Keep the recorded SHA-256 checksums independent of checkout settings.
+*.csv -text
+*.json -text
+*.md -text

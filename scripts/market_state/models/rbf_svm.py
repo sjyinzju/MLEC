@@ -73,6 +73,8 @@ class RBFSVMAdapter:
         self.geometry_ = None
         self.capabilities = capabilities('rbf_svm', task)
         self.target_adapter.check_context(self.preprocessor.fit_context_)
+        if not self.uses_time_calibration and self.target_adapter.schema_.get('horizon') != 60:
+            raise ValueError('Fixed score softmax is registered for the 60d sensitivity only')
         self.diagnostics_, self.calibration_plan_ = [], []
 
     def estimator(self, maximum, gamma, target=None):
@@ -93,8 +95,13 @@ class RBFSVMAdapter:
     def weighted(self):
         return 'geometry_version' in self.parameters
 
+    @property
+    def uses_time_calibration(self):
+        return self.parameters.get('calibrator') != 'score_softmax'
+
     def _geometry(self, X):
-        return BlockGeometry.fit(X, self.macro_lineage, self.parameters['representation'], self.parameters['macro_weight'])
+        return BlockGeometry.fit(X, self.macro_lineage, self.parameters['representation'],
+            self.parameters['macro_weight'], macro_only=self.preprocessor.fit_context_['information_set']=='Z')
 
     def _solve(self, X, y, *, target, phase, block=None, kernel=None):
         factor = self.parameters['gamma_factor']
@@ -210,7 +217,12 @@ class RBFSVMAdapter:
                 if y.shape != (len(X_train),) or not np.isin(y, range(len(self.target_adapter.schema_['class_ids']))).all():
                     raise ValueError('One-dimensional internal hard classes required')
                 if len(np.unique(y)) != len(self.target_adapter.schema_['class_ids']):
-                    raise FitFailure('Time-calibrated SVC requires all dictionary classes in outer train', [])
+                    raise FitFailure('SVC requires all dictionary classes in outer train', [])
+                if not self.uses_time_calibration:
+                    self.estimators_ = [self._solve(X_fit, y, target='classification', phase='final')]
+                    self.actual_gamma_ = [float(e._gamma) for e in self.estimators_]
+                    self.model_version_ = self._weight_identity()
+                    return self
                 if self.training_service is None:
                     raise ValueError('Classification requires the bound raw training-only partition service')
                 self.training_service.check_context(context)
@@ -313,7 +325,10 @@ class RBFSVMAdapter:
         X_fit = self.geometry_.transform(X_predict) if self.geometry_ else X_predict
         with threadpool_limits(limits=self.threads):
             if self.task == 'classification':
-                p = self.calibrator_.predict_proba(self._scores(X_fit)) if len(X_fit) else np.empty((0, len(schema['class_ids'])))
+                p = np.empty((0, len(schema['class_ids'])))
+                if len(X_fit):
+                    scores = self._scores(X_fit)
+                    p = self.calibrator_.predict_proba(scores) if self.uses_time_calibration else softmax(scores, axis=1)
                 p = self.target_adapter.align_probabilities(p, list(range(len(schema['class_ids']))), missing_policy='error')
                 output = classification_output(context, np.asarray(schema['class_ids'])[p.argmax(axis=1)], p, schema)
             else:
@@ -322,7 +337,7 @@ class RBFSVMAdapter:
         return validate_output(output, context, task=self.task, schema=schema)
 
     def probability_evidence(self, Xp, keys):
-        if self.task != 'classification' or not self.geometry_:
+        if self.task != 'classification' or not self.geometry_ or not self.uses_time_calibration:
             return None
         scores = self._scores(self.geometry_.transform(Xp)) if len(Xp) else np.empty((0, len(self.target_adapter.schema_['class_ids'])))
         prediction = self._score_frame(keys, scores, 'OUTER_PREDICTION')
@@ -394,7 +409,7 @@ class RBFSVMAdapter:
             model.calibrator_ = type(calibrator).from_state(state, calibrator.rules)
         else:
             model.calibrator_ = None
-        if (model.task == 'classification') != (model.calibrator_ is not None):
+        if (model.task == 'classification' and model.uses_time_calibration) != (model.calibrator_ is not None):
             raise ValueError('Model calibration component missing/unexpected')
         model.fit_context_, model.diagnostics_ = m['full_fit_context'], m['diagnostics']
         model.calibration_plan_, model.actual_gamma_ = m['calibration_plan'], m['actual_gamma']

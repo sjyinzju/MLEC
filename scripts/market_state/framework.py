@@ -4,6 +4,45 @@ import numpy as np
 import pandas as pd
 from .common import *
 
+def sample_manifest(targets,historical_valid):
+    manifest=targets[KEY+['asof_time','label_available_at','measurement_valid','missing_reason','label_version','target_version']].copy()
+    manifest['history_valid']=historical_valid
+    manifest['continuous_valid']=manifest.measurement_valid
+    manifest['class_valid']=targets.future_state_id.notna()
+    manifest['eligible']=manifest.history_valid&manifest.continuous_valid&manifest.class_valid
+    manifest['period']=np.select([manifest.asof_date.dt.year.le(2019),manifest.asof_date.dt.year.le(2022)],['initial_train','development'],default='test')
+    manifest['evaluation_eligible']=manifest.eligible & ~((manifest.period.eq('development')&targets.label_end.gt(pd.Timestamp('2022-12-31')))|(manifest.period.eq('initial_train')&targets.label_end.gt(pd.Timestamp('2019-12-31'))))
+    manifest['eligibility_reason']=np.where(manifest.eligible,'AVAILABLE',manifest.missing_reason.where(manifest.missing_reason.ne(''),'CURRENT_WINDOW_INCOMPLETE'))
+    return manifest
+
+
+def monthly_membership(manifest,calendar):
+    rows=[];plans=[]
+    # Initial training and later expanding training use label maturity, never row offsets.
+    cut=clock('2019-12-31')
+    for r in manifest[manifest.eligible&manifest.label_available_at.le(cut)].itertuples():
+        rows.append({**{k:getattr(r,k) for k in KEY},'fold_id':'initial','role':'train','fit_cutoff':cut})
+    periods=manifest.asof_date.dt.to_period('M')
+    for month in sorted(periods[manifest.asof_date.dt.year.ge(2020)].unique()):
+        prediction_dates=manifest.loc[periods.eq(month),'asof_date'];first=prediction_dates.min()
+        prior=calendar[calendar<month.start_time].max();cut=clock(prior)
+        fold_id=str(month);role='validation' if month.year<=2022 else 'test'
+        plans.append(dict(fold_id=fold_id,fit_cutoff=cut,prediction_start=first,prediction_end=prediction_dates.max(),period=role))
+        train=manifest[manifest.eligible&manifest.label_available_at.le(cut)&manifest.asof_date.lt(first)]
+        evaluation=manifest[manifest.evaluation_eligible&periods.eq(month)]
+        for part,rname in [(train,'train'),(evaluation,role)]:
+            for r in part.itertuples():rows.append({**{k:getattr(r,k) for k in KEY},'fold_id':fold_id,'role':rname,'fit_cutoff':cut})
+    return pd.DataFrame(rows),pd.DataFrame(plans)
+
+
+def information_columns(spec,market_id,information_set):
+    definitions=spec['by_market'][market_id] if market_id else spec['sets']
+    if information_set=='Z':
+        return [c for c in definitions['M+Z'] if c.startswith('macro__')]
+    if information_set not in definitions:raise ValueError('Unknown information set')
+    return definitions[information_set]
+
+
 def build_framework(dictionary):
     from .dictionary import apply_dictionary
     future=read('future_window_outcomes');targets=apply_dictionary(future,dictionary,'future')
@@ -29,34 +68,12 @@ def build_framework(dictionary):
     cross.columns=['cross__'+m.replace('.','_')+'__'+c for c,m in cross.columns]
     features=features.merge(cross.reset_index(),on='asof_date',validate='many_to_one')
     features['feature_version']=VERSION;features['label_version']=dictionary['label_version'];frame('market_features',features)
-    manifest=targets[KEY+['asof_time','label_available_at','measurement_valid','missing_reason','label_version']].copy()
-    manifest['target_version']=target_version
     pastvalid=current.set_index(KEY).measurement_valid
-    manifest['history_valid']=[bool(pastvalid.loc[tuple(k)]) for k in manifest[KEY].itertuples(index=False,name=None)]
-    manifest['continuous_valid']=manifest.measurement_valid
-    manifest['class_valid']=targets.future_state_id.notna()
-    manifest['eligible']=manifest.history_valid&manifest.continuous_valid&manifest.class_valid
-    manifest['period']=np.select([manifest.asof_date.dt.year.le(2019),manifest.asof_date.dt.year.le(2022)],['initial_train','development'],default='test')
-    manifest['evaluation_eligible']=manifest.eligible & ~((manifest.period.eq('development')&targets.label_end.gt(pd.Timestamp('2022-12-31')))|(manifest.period.eq('initial_train')&targets.label_end.gt(pd.Timestamp('2019-12-31'))))
-    manifest['eligibility_reason']=np.where(manifest.eligible,'AVAILABLE',manifest.missing_reason.where(manifest.missing_reason.ne(''),'CURRENT_WINDOW_INCOMPLETE'))
+    history_valid=[bool(pastvalid.loc[tuple(k)]) for k in targets[KEY].itertuples(index=False,name=None)]
+    manifest=sample_manifest(targets,history_valid)
     frame('sample_manifest',manifest)
-    rows=[];plans=[]
-    # Initial training role is strictly mature by 2019 end. Development/test
-    # windows are assigned by prediction date and scored only if fully mature.
-    cut=clock('2019-12-31')
-    for r in manifest[manifest.eligible&manifest.label_available_at.le(cut)].itertuples():
-        rows.append({**{k:getattr(r,k) for k in KEY},'fold_id':'initial','role':'train','fit_cutoff':cut})
-    for month in sorted(manifest.loc[manifest.asof_date.dt.year.ge(2020),'asof_date'].dt.to_period('M').unique()):
-        prediction_dates=manifest.loc[manifest.asof_date.dt.to_period('M').eq(month),'asof_date'];first=prediction_dates.min()
-        # Monthly fit before the first prediction day's open, using prior exchange close.
-        cal=read('calendar').date;prior=cal[cal<month.start_time].max();cut=clock(prior)
-        fold_id=str(month);role='validation' if month.year<=2022 else 'test'
-        plans.append(dict(fold_id=fold_id,fit_cutoff=cut,prediction_start=first,prediction_end=prediction_dates.max(),period=role))
-        train=manifest[manifest.eligible&manifest.label_available_at.le(cut)&manifest.asof_date.lt(first)]
-        evaluation=manifest[manifest.evaluation_eligible&manifest.asof_date.dt.to_period('M').eq(month)]
-        for part,rname in [(train,'train'),(evaluation,role)]:
-            for r in part.itertuples():rows.append({**{k:getattr(r,k) for k in KEY},'fold_id':fold_id,'role':rname,'fit_cutoff':cut})
-    frame('fold_membership',pd.DataFrame(rows));frame('time_splits',pd.DataFrame(plans))
+    membership,plans=monthly_membership(manifest,read('calendar').date)
+    frame('fold_membership',membership);frame('time_splits',plans)
     mcols=[c for c in features if c not in KEY+['asof_time','feature_version','label_version']]
     macro=read('macro/historical_reconstructed/features');candidate_z=[c for c in macro if c!='asof_date']
     from .formal import GROUPS
@@ -122,7 +139,7 @@ def load_dataset(*,market_id=None,start=None,end=None,information_set='M',task='
     if view!='analysis' and not isinstance(store,DataStore):raise ValueError('Formal reads require sealed DataStore')
     if market_id is not None and market_id not in MARKETS:raise ValueError('Unknown market')
     spec=store.spec if store is not None else json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
-    if information_set not in spec['sets']:raise ValueError('Unknown information set')
+    cols=information_columns(spec,market_id,information_set)
     get=store.get if store is not None else read
     features=store.features(quality) if store is not None else get('market_features').merge(get('macro/'+quality+'/features'),on='asof_date',validate='many_to_one')
     if features.duplicated(KEY).any():raise ValueError('Duplicate feature key')
@@ -154,7 +171,6 @@ def load_dataset(*,market_id=None,start=None,end=None,information_set='M',task='
     if meta.duplicated(KEY).any():raise ValueError('Duplicate sample key')
     joined=meta[KEY].merge(features,on=KEY,how='left',validate='one_to_one',indicator=True)
     if not joined._merge.eq('both').all():raise ValueError('Missing feature key')
-    cols=spec['by_market'][market_id][information_set] if market_id else spec['sets'][information_set]
     X=joined[cols].copy();mcols=[c for c in cols if not c.startswith('macro__')];zcols=[c for c in cols if c.startswith('macro__')]
     schema=store.target_schema() if store else target_schema(get)
     if schema['dictionary_version']!=spec['label_version']:raise ValueError('Dictionary version mismatch')
@@ -238,7 +254,7 @@ def information_view(ds,information_set,*,store):
     from dataclasses import replace
     from .model_contract import validate_dataset
     market=ds.context['market_id']
-    cols=store.spec['by_market'][market][information_set] if market else store.spec['sets'][information_set]
+    cols=information_columns(store.spec,market,information_set)
     if not set(cols)<=set(ds.X):raise ValueError('Requested information is absent; read its superset through load_dataset')
     X=ds.X[cols].copy()
     result=replace(ds,X=X,X_market=X[[c for c in cols if not c.startswith('macro__')]].copy(),

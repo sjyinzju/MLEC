@@ -237,7 +237,7 @@ class MonthlyExecutor:
         self.macro_lineage = {c: g for g, columns in store.spec['groups'].items() for c in columns}
         self.cache_stats = dict(context_hits=0, context_misses=0, matrix_hits=0, matrix_misses=0)
         self.last_diagnostics = []
-        self.risk = risk_definition(store, config)
+        self.risk = risk_definition(store, config) if config['warning'].get('enabled', True) else None
         self.scales = {m: evaluation_scale(market_id=m, store=store) for m in config['markets']}
 
     def prepare(self, task):
@@ -312,7 +312,7 @@ class MonthlyExecutor:
             diagnostics = []
         else:
             service = None
-            if model_id == 'rbf_svm' and i['task'] == 'classification':
+            if model_id == 'rbf_svm' and i['task'] == 'classification' and i['parameters'].get('calibrator') != 'score_softmax':
                 entry = next(reversed(self.cache.values()))
                 services = entry.setdefault('training_services', OrderedDict())
                 if i['information_set'] not in services:
@@ -334,9 +334,9 @@ class MonthlyExecutor:
             output = model.predict(Xp, ctx)
             if weighted:
                 probability = model.probability_evidence(Xp, pred.keys)
-                if i['stage'] == 'development' and i['information_set'] == 'M+Z' and i['parameters']['macro_weight'] > 0 and i['parameters']['representation'] != 'clock':
+                block_policy = self.config['rbf_design']['perturbation']
+                if block_policy is not None and i['stage'] == 'development' and i['information_set'] == 'M+Z' and i['parameters']['macro_weight'] > 0 and i['parameters']['representation'] != 'clock':
                     from .rbf_diagnostics import permute_validation
-                    block_policy = self.config['rbf_design']['perturbation']
                     shifted = permute_validation(Xp, pred.keys, self.macro_lineage, **block_policy)
                     if shifted is not None:
                         xp_shifted, date_reference = shifted
@@ -363,8 +363,9 @@ class MonthlyExecutor:
             shifted_scores = score_predictions(output_shifted, ctx, truth, task=i['task'], fixed_scale=self.scales[i['market_id']])
             paired = scores[KEY + ['loss']].merge(shifted_scores[KEY + ['loss']], on=KEY, validate='one_to_one', suffixes=('_real', '_perturbed'))
             atomic_parquet(destination / 'perturbed_losses.parquet', paired.merge(date_reference, on=KEY, validate='one_to_one'))
-        warning = warning_data(scores, pred, self.store, self.risk, i['task'])
-        atomic_parquet(destination / 'warning.parquet', warning)
+        if self.risk is not None:
+            warning = warning_data(scores, pred, self.store, self.risk, i['task'])
+            atomic_parquet(destination / 'warning.parquet', warning)
         if model is not None:
             if hasattr(model, 'diagnostic_artifact'):
                 detail = model.diagnostic_artifact(X, Xp, full_kernel=save_package) if weighted else model.diagnostic_artifact()

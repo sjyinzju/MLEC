@@ -73,7 +73,7 @@ def validate_parameters(family, task, p):
             0 <= p.get('macro_weight', -1) <= 1 and p.get('gamma_factor', 0) > 0)
         if task == 'classification':
             expected |= {'C', 'class_weight', 'calibrator'}
-            valid = valid and .001 <= p.get('C', 0) <= 1000 and p.get('class_weight') in [None, 'balanced'] and p.get('calibrator') in ['platt', 'shrinkage']
+            valid = valid and .001 <= p.get('C', 0) <= 1000 and p.get('class_weight') in [None, 'balanced'] and p.get('calibrator') in ['platt', 'shrinkage', 'score_softmax']
         else:
             if 'target_parameters' in p:
                 expected.add('target_parameters')
