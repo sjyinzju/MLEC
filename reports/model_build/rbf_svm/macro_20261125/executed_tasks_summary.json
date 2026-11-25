@@ -1,0 +1,26 @@
+{
+  "development": {
+    "logical_tasks": 29376,
+    "physical_successes": 26928,
+    "logical_states": {
+      "SUCCEEDED": 29376
+    },
+    "counts": {
+      "estimator_fit_calls": 145557,
+      "calibration_fit_calls": 16416,
+      "artifact_bytes": 4678677520
+    }
+  },
+  "test": {
+    "logical_tasks": 11280,
+    "physical_successes": 10340,
+    "logical_states": {
+      "SUCCEEDED": 11280
+    },
+    "counts": {
+      "estimator_fit_calls": 49953,
+      "calibration_fit_calls": 7520,
+      "artifact_bytes": 3510129355
+    }
+  }
+}

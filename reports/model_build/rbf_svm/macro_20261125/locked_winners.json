@@ -1,0 +1,2354 @@
+{
+  "000985.SH|classification|M": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z": {
+    "gamma_factor": 0.55,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "platt",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_without_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_without_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_without_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_without_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|classification|M+Z_without_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000985.SH|regression|M": {
+    "gamma_factor": 0.1,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 8.0,
+        "epsilon": 0.12
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_without_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_without_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_without_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_without_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000985.SH|regression|M+Z_without_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|classification|M": {
+    "gamma_factor": 0.1,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "platt",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "full",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_without_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_without_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_without_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_without_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|classification|M+Z_without_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000300.SH|regression|M": {
+    "gamma_factor": 0.1,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "amihud": {
+        "C": 8.0,
+        "epsilon": 0.12
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.12
+      }
+    }
+  },
+  "000300.SH|regression|M+Z": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_without_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_without_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_without_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_without_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000300.SH|regression|M+Z_without_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|classification|M": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z": {
+    "gamma_factor": 0.55,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_without_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_without_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_without_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_without_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|classification|M+Z_without_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000905.SH|regression|M": {
+    "gamma_factor": 0.1,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_without_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_without_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_without_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_without_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000905.SH|regression|M+Z_without_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|classification|M": {
+    "gamma_factor": 1.0,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "platt",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "full",
+    "C": 4.0,
+    "calibrator": "platt",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 4.0,
+    "calibrator": "shrinkage",
+    "class_weight": "balanced",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_without_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_without_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_without_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_without_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|classification|M+Z_without_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "C": 0.5,
+    "calibrator": "shrinkage",
+    "class_weight": null,
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000
+  },
+  "000852.SH|regression|M": {
+    "gamma_factor": 0.1,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.0,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.12
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.12
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 8.0,
+        "epsilon": 0.12
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_without_growth": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_without_prices": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_without_credit": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_without_rates": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.5,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  },
+  "000852.SH|regression|M+Z_without_external": {
+    "gamma_factor": 0.25,
+    "macro_weight": 0.15,
+    "representation": "compact",
+    "geometry_version": "rbf-block-total-variance-v1",
+    "tol": 0.001,
+    "max_iter": 100000,
+    "target_parameters": {
+      "return": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "volatility": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "drawdown": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "amihud": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "turnover": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "breadth": {
+        "C": 0.35,
+        "epsilon": 0.025
+      },
+      "correlation": {
+        "C": 0.35,
+        "epsilon": 0.025
+      }
+    }
+  }
+}

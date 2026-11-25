@@ -1,0 +1,330 @@
+{
+  "schema_version": "experiments-v1",
+  "purpose": "RESEARCH",
+  "model": "rbf_svm",
+  "backend": "cpu",
+  "data_root": "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\deliverables\\rbf_macro_source_20261125\\data\\market_state",
+  "output_root": "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\results\\rbf_macro_learning_20261125",
+  "markets": [
+    "000985.SH",
+    "000300.SH",
+    "000905.SH",
+    "000852.SH"
+  ],
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "quality": "historical_reconstructed",
+  "resources": {
+    "cpu_workers": 6,
+    "threads_per_task": 1,
+    "minimum_free_gb": 2,
+    "max_run_gb": 28,
+    "transform_cache_entries": 2
+  },
+  "search": {
+    "candidate_count": 16,
+    "finalists": 0,
+    "generator_seed": 3059,
+    "coarse_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "development_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "screening_seed": 3060,
+    "stability_seeds": [
+      3060
+    ],
+    "regression_deterministic_seeds": [
+      3060
+    ],
+    "tol": 0.001,
+    "max_iter": 100000,
+    "tie_rule": "loss_then_lower_macro_weight_then_lower_C_then_lower_eta_then_compact_then_candidate_id",
+    "seed_aggregation": "mean_loss_per_sample_not_probability_ensemble",
+    "failed_candidate": "exclude_entire_candidate_if_any_required_month_fails",
+    "gamma_rule": "eta_times_financial_sqdistance_plus_lambda_macro_sqdistance_train_block_variance"
+  },
+  "policy": {
+    "class_weight": null,
+    "missing_class": "error",
+    "single_class": "error",
+    "convergence_retries": 1,
+    "iteration_multiplier": 4,
+    "task_attempts": 2,
+    "numerical_warning": "error"
+  },
+  "baselines": {
+    "history_dirichlet_alpha": 1.0,
+    "current_state_probability": "existing_current_memberships",
+    "regression": "past_20d_persistence"
+  },
+  "statistics": {
+    "block_weeks": [
+      8,
+      4,
+      12
+    ],
+    "repetitions": 2000,
+    "seed": 3059,
+    "confidence": 0.95,
+    "primary_market": "000985.SH",
+    "primary_task": "classification",
+    "primary_metric": "log_loss",
+    "holm_families": [
+      "rbf_svm",
+      "random_forest",
+      "catboost"
+    ]
+  },
+  "warning": {
+    "risk_flags": [
+      "risk_downside",
+      "risk_liquidity",
+      "risk_broad_decline"
+    ],
+    "burdens": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "threshold_rule": "largest_attainable_development_burden_not_exceeding_target",
+    "calendar_gap_breaks_segment": true
+  },
+  "retention": {
+    "candidate_weights": "full_review_final_month_only",
+    "selected_weights": "test_core_monthly_and_other_final_month",
+    "diagnostics": "all_successful_fits"
+  },
+  "extensions": {
+    "information_clock": {
+      "implemented": false,
+      "requires": "use full suite fixed_clock mode for the registered RBF control"
+    },
+    "publication_lag": {
+      "implemented": false,
+      "requires": "previous comparable release identity; not a weekly shift"
+    },
+    "market_modules": {
+      "implemented": false,
+      "requires": "registered market-module projection and paired cohorts"
+    },
+    "data_views": {
+      "implemented": false,
+      "requires": "common-cohort view comparison acceptance"
+    },
+    "alternative_dictionary": {
+      "implemented": false,
+      "requires": "separate authorized protocol and label version"
+    }
+  },
+  "solver": {
+    "kernel": "rbf",
+    "probability": false,
+    "decision_function_shape": "ovr",
+    "shrinking": true,
+    "cache_size_mb": 64
+  },
+  "calibration": {
+    "version": "svm-time-sigmoid-v3",
+    "initial_train_weeks": 13,
+    "block_weeks": 26,
+    "min_train_rows": 8,
+    "min_train_per_class": 1,
+    "min_oof_per_class": 2,
+    "min_oof_rows": 26,
+    "min_accepted_blocks": 2,
+    "missing_inner": "skip_block_unless_all_dictionary_classes_in_train",
+    "invalid_calibration": "fail_entire_outer_task",
+    "sigmoid": "platt_smoothed_binary_cross_entropy",
+    "normalization": "clip_expit_1e-15_then_divide_row_sum",
+    "probability_floor": 1e-15,
+    "max_iter": 1000,
+    "ftol": 1e-12,
+    "gtol": 1e-08,
+    "maxls": 50,
+    "optimization_retries": 0,
+    "optimality_gradient": 1e-08,
+    "newton_steps": 20,
+    "shrinkage": {
+      "version": "svm-time-shrinkage-v1",
+      "prior_alpha": 0.5,
+      "score_scale_floor": 0.25,
+      "slope_penalty": 18.0,
+      "offset_penalty": 4.0,
+      "min_oof_per_class": 2,
+      "probability_floor": 1e-15,
+      "max_iter": 1000,
+      "ftol": 1e-12,
+      "gtol": 1e-08
+    }
+  },
+  "rbf_design": {
+    "version": "rbf-block-total-variance-v1",
+    "study": "rbf-macro-learning-20261125-v1",
+    "historical_test_seen": true,
+    "group_candidate_count": 4,
+    "layouts": {
+      "market": [
+        {
+          "gamma_factor": 0.1,
+          "macro_weight": 0.0,
+          "representation": "compact"
+        },
+        {
+          "gamma_factor": 0.25,
+          "macro_weight": 0.0,
+          "representation": "compact"
+        },
+        {
+          "gamma_factor": 0.55,
+          "macro_weight": 0.0,
+          "representation": "compact"
+        },
+        {
+          "gamma_factor": 1.0,
+          "macro_weight": 0.0,
+          "representation": "compact"
+        }
+      ],
+      "full_macro": [
+        {
+          "gamma_factor": 0.25,
+          "macro_weight": 0.0,
+          "representation": "compact"
+        },
+        {
+          "gamma_factor": 0.25,
+          "macro_weight": 0.5,
+          "representation": "full"
+        },
+        {
+          "gamma_factor": 0.25,
+          "macro_weight": 0.5,
+          "representation": "compact"
+        },
+        {
+          "gamma_factor": 0.55,
+          "macro_weight": 0.15,
+          "representation": "compact"
+        }
+      ],
+      "group": [
+        {
+          "gamma_factor": 0.25,
+          "macro_weight": 0.15,
+          "representation": "compact"
+        },
+        {
+          "gamma_factor": 0.25,
+          "macro_weight": 0.5,
+          "representation": "compact"
+        }
+      ]
+    },
+    "profiles": {
+      "core": {
+        "classification": [
+          {
+            "C": 0.5,
+            "calibrator": "shrinkage",
+            "class_weight": null
+          },
+          {
+            "C": 4.0,
+            "calibrator": "platt",
+            "class_weight": null
+          },
+          {
+            "C": 4.0,
+            "calibrator": "shrinkage",
+            "class_weight": null
+          },
+          {
+            "C": 4.0,
+            "calibrator": "shrinkage",
+            "class_weight": "balanced"
+          }
+        ],
+        "regression": [
+          {
+            "C": 0.35,
+            "epsilon": 0.025
+          },
+          {
+            "C": 0.35,
+            "epsilon": 0.12
+          },
+          {
+            "C": 8.0,
+            "epsilon": 0.025
+          },
+          {
+            "C": 8.0,
+            "epsilon": 0.12
+          }
+        ]
+      },
+      "group": {
+        "classification": [
+          {
+            "C": 0.5,
+            "calibrator": "shrinkage",
+            "class_weight": null
+          },
+          {
+            "C": 4.0,
+            "calibrator": "shrinkage",
+            "class_weight": "balanced"
+          }
+        ],
+        "regression": [
+          {
+            "C": 0.35,
+            "epsilon": 0.025
+          },
+          {
+            "C": 8.0,
+            "epsilon": 0.12
+          }
+        ]
+      }
+    },
+    "regression_selection": "per_target_fixed_initial_squared_error_then_same_five_dimension_aggregation_to_select_shared_geometry",
+    "fixed_group_reference": "best_full_macro_positive_weight_development_configuration",
+    "perturbation": {
+      "weeks": 2,
+      "seed": 3059
+    },
+    "conditional": {
+      "ridge": 24.0,
+      "min_mature_rows": 26,
+      "market_gamma": 0.25,
+      "classification": {
+        "C": 4.0,
+        "class_weight": null,
+        "calibrator": "shrinkage"
+      },
+      "regression": {
+        "C": 8.0,
+        "epsilon": 0.025
+      }
+    }
+  }
+}

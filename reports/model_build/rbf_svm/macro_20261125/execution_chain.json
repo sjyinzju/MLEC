@@ -1,0 +1,72 @@
+[
+  {
+    "phase": "compile",
+    "started": "2026-11-25T11:53:13.961265+08:00",
+    "argv": [
+      "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\deliverables\\optimization_env\\Scripts\\python.exe",
+      "-m",
+      "compileall",
+      "-q",
+      "scripts/market_state"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.11000000004423782,
+    "finished": "2026-11-25T11:53:14.076046+08:00"
+  },
+  {
+    "phase": "source_pytest",
+    "started": "2026-11-25T11:53:14.076046+08:00",
+    "argv": [
+      "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\deliverables\\optimization_env\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-v",
+      "--tb=short"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 602.1410000000033,
+    "finished": "2026-11-25T12:03:16.222262+08:00"
+  },
+  {
+    "phase": "technical",
+    "started": "2026-11-25T12:03:16.223817+08:00",
+    "argv": [
+      "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\deliverables\\optimization_env\\Scripts\\python.exe",
+      "-m",
+      "scripts.market_state.experiments.rbf_acceptance",
+      "--execute",
+      "--assets",
+      "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\results\\rbf_macro_learning_20261125\\technical",
+      "--cpu-workers",
+      "2"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 157.625,
+    "finished": "2026-11-25T12:05:53.845907+08:00"
+  },
+  {
+    "phase": "formal",
+    "started": "2026-11-25T12:05:53.848673+08:00",
+    "argv": [
+      "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\deliverables\\optimization_env\\Scripts\\python.exe",
+      "-m",
+      "scripts.market_state.experiments",
+      "pipeline",
+      "--model",
+      "rbf_svm",
+      "--config",
+      "config/experiments/rbf_macro_learning_20261125.yaml",
+      "--suite",
+      "full",
+      "--execute",
+      "--resume",
+      "--cpu-workers",
+      "6",
+      "--output-root",
+      "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\results\\rbf_macro_learning_20261125"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 13935.563000000024,
+    "finished": "2026-11-25T15:58:09.414131+08:00"
+  }
+]

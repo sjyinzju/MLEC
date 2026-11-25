@@ -1,0 +1,251 @@
+{
+  "conditions": [
+    {
+      "market_id": "000985.SH",
+      "task": "classification",
+      "status": "NOT_TRIGGERED_B_LOSS_IMPROVED"
+    },
+    {
+      "market_id": "000985.SH",
+      "task": "regression",
+      "status": "EXECUTED"
+    },
+    {
+      "market_id": "000300.SH",
+      "task": "classification",
+      "status": "EXECUTED"
+    },
+    {
+      "market_id": "000300.SH",
+      "task": "regression",
+      "status": "EXECUTED"
+    },
+    {
+      "market_id": "000905.SH",
+      "task": "classification",
+      "status": "NOT_TRIGGERED_B_LOSS_IMPROVED"
+    },
+    {
+      "market_id": "000905.SH",
+      "task": "regression",
+      "status": "EXECUTED"
+    },
+    {
+      "market_id": "000852.SH",
+      "task": "classification",
+      "status": "EXECUTED"
+    },
+    {
+      "market_id": "000852.SH",
+      "task": "regression",
+      "status": "EXECUTED"
+    }
+  ],
+  "summaries": {
+    "perturbed": [
+      {
+        "comparison_id": "000300.SH|classification",
+        "mean": 0.020312732407229174,
+        "lower": -0.001898084286672192,
+        "upper": 0.0627455185824286,
+        "p_one_sided": 0.15092453773113443,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 153,
+        "empty_calendar_weeks": 9,
+        "n": 144,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000300.SH|regression",
+        "mean": -0.0021449143736526005,
+        "lower": -0.011392233082146324,
+        "upper": 0.008611472537872466,
+        "p_one_sided": 0.6786606696651675,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 153,
+        "empty_calendar_weeks": 9,
+        "n": 144,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000852.SH|classification",
+        "mean": -0.00026759266159623394,
+        "lower": -0.0014802243299112659,
+        "upper": 0.0007717490728359977,
+        "p_one_sided": 0.6776611694152923,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 153,
+        "empty_calendar_weeks": 9,
+        "n": 144,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000852.SH|regression",
+        "mean": 0.003908813520539,
+        "lower": -0.008848638834377401,
+        "upper": 0.01584827494605423,
+        "p_one_sided": 0.22138930534732634,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 153,
+        "empty_calendar_weeks": 9,
+        "n": 144,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000905.SH|classification",
+        "mean": 1.5620431435256776e-05,
+        "lower": -0.00029231426426620387,
+        "upper": 0.00027595952827205223,
+        "p_one_sided": 0.28085957021489255,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 153,
+        "empty_calendar_weeks": 9,
+        "n": 144,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000905.SH|regression",
+        "mean": 0.0011467035324957597,
+        "lower": -0.009397268372425936,
+        "upper": 0.012208221093175367,
+        "p_one_sided": 0.39080459770114945,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 153,
+        "empty_calendar_weeks": 9,
+        "n": 144,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000985.SH|classification",
+        "mean": 0.0009018814135975958,
+        "lower": -0.00021710021330653578,
+        "upper": 0.0022162308322110466,
+        "p_one_sided": 0.09095452273863068,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 153,
+        "empty_calendar_weeks": 9,
+        "n": 144,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000985.SH|regression",
+        "mean": 0.0024955907020222496,
+        "lower": -0.008844341402692045,
+        "upper": 0.013378178875294383,
+        "p_one_sided": 0.3078460769615192,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 153,
+        "empty_calendar_weeks": 9,
+        "n": 144,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      }
+    ],
+    "conditional": [
+      {
+        "comparison_id": "000300.SH|classification",
+        "mean": 0.012209693194594144,
+        "lower": 0.006924210475908682,
+        "upper": 0.019488196111430708,
+        "p_one_sided": 0.0004997501249375312,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 122,
+        "empty_calendar_weeks": 2,
+        "n": 120,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000300.SH|regression",
+        "mean": -0.008018955774199138,
+        "lower": -0.05483511229703831,
+        "upper": 0.03901920668081512,
+        "p_one_sided": 0.6601699150424788,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 122,
+        "empty_calendar_weeks": 2,
+        "n": 120,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000852.SH|classification",
+        "mean": -0.838348286847689,
+        "lower": -2.2220670127954114,
+        "upper": 0.008735636521319716,
+        "p_one_sided": 0.8940529735132434,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 122,
+        "empty_calendar_weeks": 2,
+        "n": 120,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000852.SH|regression",
+        "mean": -0.07172306305058594,
+        "lower": -0.15620253898864314,
+        "upper": -0.0036223582523457042,
+        "p_one_sided": 0.9545227386306847,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 122,
+        "empty_calendar_weeks": 2,
+        "n": 120,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000905.SH|regression",
+        "mean": -0.04742351968351052,
+        "lower": -0.10224627725117211,
+        "upper": -0.0025650463643621868,
+        "p_one_sided": 0.9575212393803099,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 122,
+        "empty_calendar_weeks": 2,
+        "n": 120,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      },
+      {
+        "comparison_id": "000985.SH|regression",
+        "mean": -0.06080377107937221,
+        "lower": -0.14284857722230285,
+        "upper": 0.01146941660875893,
+        "p_one_sided": 0.9340329835082459,
+        "block_weeks": 8,
+        "repetitions": 2000,
+        "valid_repetitions": 2000,
+        "calendar_weeks": 122,
+        "empty_calendar_weeks": 2,
+        "n": 120,
+        "method": "synchronized_moving_calendar_week_blocks_centered_null"
+      }
+    ]
+  },
+  "files": {
+    "conditional_weekly.parquet": "a27ffd1f7c1d9e8e3dc6e8a34cce06fbecdf3bd8abe3e12727dcea51f7d92339",
+    "perturbed_weekly.parquet": "45bee13dde27088a3d8feaf5cc36e2299d512e38c7620b0a545c40caca262a7c",
+    "vintages.json": "5b8bc89af031cf8f7faff1f5261318a4f258703b27fa5a8922acd504d386819f"
+  }
+}
