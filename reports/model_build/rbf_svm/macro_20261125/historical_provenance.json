@@ -1,0 +1,223 @@
+{
+  "found": [
+    {
+      "path": "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\deliverables\\MLEC_RBF_SVM_BC_6d62300ce3d24253.zip",
+      "package_manifest_sha256": "76fc0ec82424644e325abad3c6706aa6f0598dfafb6fd4dd334ab9ca09e187e8",
+      "sha256": "a64b83b7d641976977fdb376435c3c616f97b52ddf5a5b8c22b0ed353a752e83",
+      "base_commit": "b4e7dd10174f1b6a026e65e614912bda8975af79",
+      "experiment_code_hash": "fc1f352378e5ec76f3fa1ec5aaef971d5c5c04f5996c1125714bdd920d02e419",
+      "declared_formal_run_files": 0,
+      "models": [
+        {
+          "path": "scripts/market_state/models/rbf_svm.py",
+          "package_sha256": "000c58ebb692881a895da5b940524af2bc69670c7c357c7e999c5860b33a1895",
+          "git": {
+            "792c47a": {
+              "git_sha256": "94f1b0b24a122b97f9bf8000a9adb6afb99e452857cc3b726d6acdd1cc069d02",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "134d5318f1b1335cc5ee64eea9d0ece6e1ab3905cafca231d3b65515fd521b15",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "scripts/market_state/models/calibration.py",
+          "package_sha256": "85879386288f59bef4260370db23591c5b5b0bc03d74aca92bf9920da1e8e836",
+          "git": {
+            "792c47a": {
+              "git_sha256": "22d381a19ba8e71e2e559b87c6cd905a364531dc86d194aeb5135d38362f1edf",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "f36ae8609dd5bdd09e6e80b6a05814d3c838a1982111d736f4eade78aff27b30",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "scripts/market_state/experiments/runtime.py",
+          "package_sha256": "f8073320ed67051a83d688adf1c9dce8e19e65abe578c708c0438735983ee32f",
+          "git": {
+            "792c47a": {
+              "git_sha256": "67786a83b4dd180b607c7c0046a8e22f4c6bc23260d32ef37d5fb748f60b71da",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "c5ed2df3610d530465a8385653befe3ac6b2004b6fead40ee3e2bc2926a006be",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "scripts/market_state/experiments/pipeline.py",
+          "package_sha256": "b237450741d2e71f16c4b7439b1dcc41d64c8b15f11defb5b2a53910642f1e9d",
+          "git": {
+            "792c47a": {
+              "git_sha256": "509d9d05d8f397922b2c421b1f394892064c1375ddeef3274d452df8da7903ca",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "509d9d05d8f397922b2c421b1f394892064c1375ddeef3274d452df8da7903ca",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "scripts/market_state/experiments/scheduling.py",
+          "package_sha256": "31dc26af89287477daa38fc320a4827c14cea9450ddf93311c5e0f4ffa52ead4",
+          "git": {
+            "792c47a": {
+              "git_sha256": "3a0037b48df0c085079d03c82d137fb01ca7c58c1c977fbc6734dee3dbfd0b54",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "3a0037b48df0c085079d03c82d137fb01ca7c58c1c977fbc6734dee3dbfd0b54",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "config/experiments/rbf_svm.yaml",
+          "package_sha256": "6f87a9a921269773cc87249861d190c86dd65727d76972d4f25fcb91518d57e4",
+          "git": {
+            "792c47a": {
+              "git_sha256": "520e5886d18d73fdc1474e20908d7cc3d1d0a60915465b9a4233c799877538af",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "c73705f62b372beb1212f1639ed3bced8d33c550c70115458e48ed098edbd70b",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "D:\\Desktop\\MLEC_RBF_SVM_Optimized_20261120",
+      "package_manifest_sha256": "db137564f15666d3eaf83f5e0c74d65819da3e65cbf6c765f5b7c1a54757d196",
+      "sha256": null,
+      "base_commit": "792c47a23a326df2dbcb5671dc15ce225dcd15b6",
+      "experiment_code_hash": "a0e75e181a6275c9d56a40e10e79a17d69c1f9965fa73c065d9d72747c7eb514",
+      "declared_formal_run_files": 0,
+      "models": [
+        {
+          "path": "scripts/market_state/models/rbf_svm.py",
+          "package_sha256": "94f1b0b24a122b97f9bf8000a9adb6afb99e452857cc3b726d6acdd1cc069d02",
+          "git": {
+            "792c47a": {
+              "git_sha256": "94f1b0b24a122b97f9bf8000a9adb6afb99e452857cc3b726d6acdd1cc069d02",
+              "bytes_equal": true,
+              "newline_normalized_equal": true
+            },
+            "fc648b7": {
+              "git_sha256": "134d5318f1b1335cc5ee64eea9d0ece6e1ab3905cafca231d3b65515fd521b15",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "scripts/market_state/models/calibration.py",
+          "package_sha256": "3c28e61d5a62923b60ab168396dd512423214a9850df3e3fa446bc1a00037243",
+          "git": {
+            "792c47a": {
+              "git_sha256": "22d381a19ba8e71e2e559b87c6cd905a364531dc86d194aeb5135d38362f1edf",
+              "bytes_equal": false,
+              "newline_normalized_equal": true
+            },
+            "fc648b7": {
+              "git_sha256": "f36ae8609dd5bdd09e6e80b6a05814d3c838a1982111d736f4eade78aff27b30",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "scripts/market_state/experiments/runtime.py",
+          "package_sha256": "d27b0acb1a88320ad3c61904f3c3e2914f5c7979f51b8fe11c8b0a4c4ef2ab1f",
+          "git": {
+            "792c47a": {
+              "git_sha256": "67786a83b4dd180b607c7c0046a8e22f4c6bc23260d32ef37d5fb748f60b71da",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "c5ed2df3610d530465a8385653befe3ac6b2004b6fead40ee3e2bc2926a006be",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "scripts/market_state/experiments/pipeline.py",
+          "package_sha256": "8eda37e739a453c068a0803b4b8ec3d7315fa997ddc733128a511c21bb872fc7",
+          "git": {
+            "792c47a": {
+              "git_sha256": "509d9d05d8f397922b2c421b1f394892064c1375ddeef3274d452df8da7903ca",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "509d9d05d8f397922b2c421b1f394892064c1375ddeef3274d452df8da7903ca",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "scripts/market_state/experiments/scheduling.py",
+          "package_sha256": "8da84b27e4ba933d775b46416d573aba8dcf7d270816ce04f07e1a8857d34361",
+          "git": {
+            "792c47a": {
+              "git_sha256": "3a0037b48df0c085079d03c82d137fb01ca7c58c1c977fbc6734dee3dbfd0b54",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            },
+            "fc648b7": {
+              "git_sha256": "3a0037b48df0c085079d03c82d137fb01ca7c58c1c977fbc6734dee3dbfd0b54",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        },
+        {
+          "path": "config/experiments/rbf_svm.yaml",
+          "package_sha256": "978f6ac40c859dd7f0868fb694542cf43cf334a032eb5309d79eb84adb0de6fb",
+          "git": {
+            "792c47a": {
+              "git_sha256": "520e5886d18d73fdc1474e20908d7cc3d1d0a60915465b9a4233c799877538af",
+              "bytes_equal": false,
+              "newline_normalized_equal": true
+            },
+            "fc648b7": {
+              "git_sha256": "c73705f62b372beb1212f1639ed3bced8d33c550c70115458e48ed098edbd70b",
+              "bytes_equal": false,
+              "newline_normalized_equal": false
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "requested_archives_local_status": "NOT_FOUND_IN_CHECKED_PATHS",
+  "requested_run_ids": [
+    "4e8ea59438da20173c8ae078",
+    "a5c0562ce9968db1534907e7"
+  ],
+  "exact_prior_run_code_verification": "UNAVAILABLE",
+  "protected_seal": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f"
+}

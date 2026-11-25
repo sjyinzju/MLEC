@@ -1,0 +1,53 @@
+{
+  "branch": "fix/rbf-macro-learning-20261125",
+  "source_commit": "de3f55c34fdd27363704cb100682619e9d83eec0",
+  "build_root": "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\deliverables\\rbf_macro_source_20261125",
+  "python": "D:/Desktop/学习/课程/大二上/经济学中的机器学习/MLEC/deliverables/optimization_env/Scripts/python.exe",
+  "config": "config/experiments/rbf_macro_learning_20261125.yaml",
+  "commands": [
+    [
+      "-m",
+      "scripts.market_state.run",
+      "interface-preflight"
+    ],
+    [
+      "-m",
+      "compileall",
+      "-q",
+      "scripts/market_state"
+    ],
+    [
+      "-m",
+      "pytest",
+      "-v",
+      "--tb=short"
+    ],
+    [
+      "-m",
+      "scripts.market_state.experiments.rbf_acceptance",
+      "--execute",
+      "--assets",
+      "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\results\\rbf_macro_learning_20261125\\technical",
+      "--cpu-workers",
+      "2"
+    ],
+    [
+      "-m",
+      "scripts.market_state.experiments",
+      "pipeline",
+      "--model",
+      "rbf_svm",
+      "--config",
+      "config/experiments/rbf_macro_learning_20261125.yaml",
+      "--suite",
+      "full",
+      "--execute",
+      "--resume",
+      "--cpu-workers",
+      "6",
+      "--output-root",
+      "D:\\Desktop\\学习\\课程\\大二上\\经济学中的机器学习\\MLEC\\results\\rbf_macro_learning_20261125"
+    ]
+  ],
+  "historical_period_seen": true
+}
