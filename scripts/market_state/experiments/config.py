@@ -23,9 +23,10 @@ def validate_config(c):
     if c['markets'] != list(MARKETS) or c['tasks'] != ['classification', 'regression']:
         raise ValueError('Formal scope requires four markets and both primary tasks')
     s, p, r = c['search'], c['policy'], c['resources']
-    if s['candidate_count'] < 32 or s['finalists'] < 4 or s['finalists'] > s['candidate_count']:
-        raise ValueError('Formal two-stage search budget may not shrink below 32/4')
-    if s['development_years'] != [2020, 2021, 2022] or s['coarse_months'] != [1, 4, 7, 10]:
+    weighted = c['model'] == 'rbf_svm' and 'rbf_design' in c
+    if not weighted and (s['candidate_count'] < 32 or s['finalists'] < 4 or s['finalists'] > s['candidate_count']):
+        raise ValueError('The legacy two-stage search budget may not shrink below 32/4')
+    if s['development_years'] != [2020, 2021, 2022] or (not weighted and s['coarse_months'] != [1, 4, 7, 10]):
         raise ValueError('Use the fixed development schedule')
     validate_family(c)
     integer_fields = [s['candidate_count'], s['finalists'], s['max_iter'], p['convergence_retries'],
@@ -74,16 +75,19 @@ def portable_config(c):
     return result
 
 
-def candidates(config, task):
+def candidates(config, task, information=None):
     """Stratified log coverage includes both endpoints and every sparse ratio."""
     s = config['search']
-    parameters = [deepcopy(e['parameters']) for e in s['candidates'][task]] if 'candidates' in s else generate_parameters(config, task)
+    parameters = [deepcopy(e['parameters']) for e in s['candidates'][task]] if 'candidates' in s else generate_parameters(config, task, information)
     result = []
     for p in parameters:
         validate_parameters(config['model'], task, p)
         result.append(dict(candidate_id=digest(p)[:16], parameters=p,
             complexity_order=complexity(config['model'], task, p)))
-    if len(result) != s['candidate_count'] or len({r['candidate_id'] for r in result}) != len(result):
+    budget = s['candidate_count']
+    if 'rbf_design' in config and information not in [None, 'M', 'M+Z']:
+        budget = config['rbf_design']['group_candidate_count']
+    if len(result) != budget or len({r['candidate_id'] for r in result}) != len(result):
         raise ValueError('Candidate budget/identity mismatch')
     return result
 
@@ -103,5 +107,20 @@ def scope(config, store, suite):
     sets = list(store.spec['sets'])
     if len(sets) != 12 or sets[:2] != ['M', 'M+Z']:
         raise ValueError('Expected the sealed twelve information sets')
+    if 'rbf_design' in config and suite == 'full':
+        return ([('retuned_core', i) for i in sets[:2]] +
+            [('fixed_full_params', i) for i in sets] +
+            [('retuned_groups', i) for i in sets] +
+            [('fixed_clock', i) for i in sets[:2]])
     return [('retuned_core', i) for i in ['M', 'M+Z']] + (
         [('fixed_full_params', i) for i in sets] if suite == 'full' else [])
+
+
+def search_information(config, store, suite):
+    return list(store.spec['sets']) if 'rbf_design' in config and suite == 'full' else ['M', 'M+Z']
+
+
+def parameter_reference(mode):
+    return {'retuned_core': 'own_development_winner', 'retuned_groups': 'own_development_winner',
+        'fixed_full_params': 'full_macro_development_winner_positive_weight',
+        'fixed_clock': 'full_macro_development_winner_positive_weight_clock_only'}[mode]

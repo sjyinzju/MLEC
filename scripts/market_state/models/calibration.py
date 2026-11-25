@@ -2,7 +2,7 @@
 import numpy as np
 import scipy
 import warnings
-from scipy.special import expit
+from scipy.special import expit, logsumexp, softmax
 from scipy.optimize import minimize
 from .errors import FitFailure
 import time
@@ -200,3 +200,55 @@ class TimeSigmoid:
         result = cls(rules)
         result.parameters_, result.diagnostics_ = state['parameters'], state['diagnostics']
         return result
+
+
+class TimeShrinkage(TimeSigmoid):
+    """Direct multiclass log loss with scores shrunk toward the mature OOF prior."""
+    def fit(self, scores, labels, class_ids):
+        self.__dict__.pop('parameters_', None)
+        scores, labels = np.asarray(scores, dtype='float64'), np.asarray(labels)
+        counts = np.asarray([(labels == c).sum() for c in class_ids])
+        if scores.shape != (len(labels), len(class_ids)) or not np.isfinite(scores).all() or counts.sum() != len(labels):
+            raise ValueError('Calibration score/label order mismatch')
+        if (np.minimum(counts, len(labels) - counts) < self.rules['min_oof_per_class']).any():
+            raise FitFailure('Insufficient pooled time-OOF class support', [])
+        center = scores.mean(axis=0)
+        scale = np.maximum(scores.std(axis=0), self.rules['score_scale_floor'])
+        z = (scores - center) / scale
+        y = labels[:, None] == np.asarray(class_ids)
+        prior = counts + self.rules['prior_alpha']
+        log_prior = np.log(prior / prior.sum())
+        penalty = np.array([[self.rules['slope_penalty']], [self.rules['offset_penalty']]])
+
+        def objective(theta):
+            coefficients = theta.reshape(2, -1)
+            logits = log_prior + coefficients[0] * z + coefficients[1]
+            residual = softmax(logits, axis=1) - y
+            loss = np.sum(logsumexp(logits, axis=1) - (y * logits).sum(axis=1))
+            gradient = np.stack(((z * residual).sum(axis=0), residual.sum(axis=0)))
+            return float(loss + .5 * np.sum(penalty * coefficients ** 2)), (gradient + penalty * coefficients).ravel()
+
+        started = time.perf_counter()
+        initial = np.zeros(2 * len(class_ids))
+        result = minimize(objective, initial, jac=True, method='L-BFGS-B',
+            options=dict(maxiter=self.rules['max_iter'], ftol=self.rules['ftol'], gtol=self.rules['gtol']))
+        loss, gradient = objective(result.x)
+        baseline, _ = objective(initial)
+        accepted = bool(result.success and np.isfinite(loss) and np.max(np.abs(gradient)) <= 1e-4 and loss <= baseline)
+        self.diagnostics_ = [dict(component='calibrator', target='multiclass', attempt=1,
+            converged=accepted, numerical_failure=not np.isfinite(loss), warnings=[], n_iter=int(result.nit),
+            elapsed_seconds=time.perf_counter() - started, natural_counts=counts.tolist(),
+            prior=(prior / prior.sum()).tolist(), objective=loss,
+            intercept_only_objective=baseline, gradient_max=float(np.max(np.abs(gradient))))]
+        if not accepted:
+            raise FitFailure('Regularized time calibration did not converge', self.diagnostics_)
+        slope, offset = result.x.reshape(2, -1)
+        self.parameters_ = dict(class_ids=list(class_ids), center=center.tolist(), scale=scale.tolist(),
+            slope=slope.tolist(), intercept=(log_prior + offset).tolist())
+        return self
+
+    def predict_proba(self, scores):
+        p = self.parameters_
+        logits = (np.asarray(scores) - p['center']) / p['scale'] * p['slope'] + p['intercept']
+        probability = np.clip(softmax(logits, axis=1), self.rules['probability_floor'], 1.)
+        return probability / probability.sum(axis=1, keepdims=True)

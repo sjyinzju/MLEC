@@ -15,7 +15,7 @@ def prohibit_real_supervised_fit(monkeypatch):
     from sklearn.linear_model import LogisticRegression, ElasticNet, LassoLars, SGDClassifier, SGDRegressor
     from sklearn.svm import SVC, SVR
     from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
-    from scripts.market_state.models.calibration import TimeSigmoid
+    from scripts.market_state.models.calibration import TimeSigmoid, TimeShrinkage
     from scripts.market_state.models.elastic_net import AugmentedLarsElasticNet
     def forbidden(*args, **kwargs):
         raise AssertionError('Real supervised fit/partial_fit is forbidden in ordinary pytest; use a non-learning stub')
@@ -25,6 +25,7 @@ def prohibit_real_supervised_fit(monkeypatch):
             if hasattr(estimator, name):monkeypatch.setattr(estimator,name,forbidden)
     monkeypatch.setattr(TimeSigmoid, 'optimize', forbidden)
     monkeypatch.setattr(TimeSigmoid, 'polish', forbidden)
+    monkeypatch.setattr(TimeShrinkage, 'fit', forbidden)
     monkeypatch.setattr(AugmentedLarsElasticNet, 'polish', forbidden)
 
 def pytest_sessionfinish(session,exitstatus):

@@ -2,7 +2,9 @@
 from copy import deepcopy
 from collections import OrderedDict
 from dataclasses import asdict
+import numpy as np
 import pandas as pd
+from ..common import digest
 from ..model_contract import fit_context, training_partition, key_hash, fit_inputs, transform_inputs
 from ..target_adapters import fit_targets
 from .svm_quality import array_state
@@ -14,6 +16,7 @@ class TrainingPartitions:
         self.context = asdict(fit_context(outer_train))
         self._train = deepcopy(outer_train)
         self._cache = OrderedDict()
+        self._plans = {}
         self.cache_bytes = 0
         self.cache_limit = 64 * 1024**2
         self.cache_hits = self.cache_misses = 0
@@ -61,6 +64,9 @@ class TrainingPartitions:
         return train, val
 
     def validate_plan(self, rules):
+        identity = digest(rules)
+        if identity in self._plans:
+            return deepcopy(self._plans[identity])
         plan = self.plan(rules)
         accepted = [b for b in plan if b['status'] == 'ACCEPTED']
         indices = []
@@ -71,6 +77,7 @@ class TrainingPartitions:
         if (len(accepted) < rules['min_accepted_blocks'] or len(indices) < rules['min_oof_rows'] or
                 not counts.ge(rules['min_oof_per_class']).all() or not (len(indices) - counts).ge(rules['min_oof_per_class']).all()):
             raise FitFailure('Cannot form legal training-only time calibration', [])
+        self._plans[identity] = deepcopy(plan)
         return plan
 
     def prepare_block(self, block):
@@ -83,8 +90,12 @@ class TrainingPartitions:
         train, val = self.partition(block)
         pre, target = fit_inputs(train), fit_targets(train)
         xi, xv = transform_inputs(pre, train), transform_inputs(pre, val)
+        schema = {k: v for k, v in pre.schema_.items() if k != 'schema_version'}
+        schema['fit_context'] = dict(pre.fit_context_, fold_id='inner')
         result = dict(X=xi, X_validation=xv, y=target.transform(train.y), y_validation=target.transform(val.y),
+            validation_keys=val.keys, validation_maturity=val.metadata.label_available_at,
             metadata=dict(preprocessing_version=pre.schema_['schema_version'], input_hash=array_state(xi),
+                preprocessing_content_hash=digest(schema), training_target_hash=target.context_['training_target_hash'],
                 latest_train_label=str(train.metadata.label_available_at.max()),
                 latest_validation_label=str(val.metadata.label_available_at.max())))
         size = int(xi.memory_usage(index=True,deep=True).sum()+xv.memory_usage(index=True,deep=True).sum())
@@ -105,3 +116,10 @@ class TrainingPartitions:
 
     def outer_training(self):
         return deepcopy(self._train)
+
+    def verify_outer_inputs(self, X, y, preprocessor, target):
+        if not hasattr(self, '_verified_outer'):
+            self._verified_outer = (transform_inputs(preprocessor, self._train), target.transform(self._train.y))
+        expected_X, expected_y = self._verified_outer
+        np.testing.assert_array_equal(X.to_numpy(), expected_X.to_numpy())
+        np.testing.assert_array_equal(y, expected_y)

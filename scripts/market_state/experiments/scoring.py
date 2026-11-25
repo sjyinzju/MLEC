@@ -82,6 +82,10 @@ def classification_metrics(scores, schema):
         f1 = float(2 * tp / (support + count)) if support + count else None
         per_class.append(dict(class_id=c, support=int(support), predicted=int(count),
             precision=precision, recall=recall, f1=f1,
+            mean_probability=float(p[:, j].mean()), observed_frequency=float(support / n),
+            probability_bias=float(p[:, j].mean() - support / n),
+            ovr_auc=float(roc_auc_score(y == c, p[:, j])) if 0 < support < n else None,
+            average_precision=float(average_precision_score(y == c, p[:, j])) if 0 < support < n else None,
             reason='NO_TRUE_CLASS' if not support else 'NO_PREDICTED_CLASS' if not count else 'DEFINED'))
         if f1 is not None:
             f1s.append(f1)
@@ -116,6 +120,13 @@ def regression_metrics(scores):
     for c in CORE:
         result['mae_' + c] = float(scores['absolute_error_' + c].mean())
         result['rmse_' + c] = float(np.sqrt(scores['squared_error_' + c].mean()))
+        observed, predicted = scores[c].to_numpy(), scores['predicted_' + c].to_numpy()
+        observation_std, prediction_std = observed.std(), predicted.std()
+        result['bias_' + c] = float(np.mean(predicted - observed))
+        result['correlation_' + c] = float(np.corrcoef(observed, predicted)[0, 1]) if observation_std > 0 and prediction_std > 0 else None
+        result['prediction_std_' + c] = float(prediction_std)
+        result['observed_std_' + c] = float(observation_std)
+        result['std_ratio_' + c] = float(prediction_std / observation_std) if observation_std > 0 else None
     for dim in DIMENSIONS:
         result['squared_' + dim] = float(scores['squared_' + dim].mean())
         result['absolute_' + dim] = float(scores['absolute_' + dim].mean())

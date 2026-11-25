@@ -221,6 +221,16 @@ def _worker_task(item):
             diagnostics=getattr(error, 'diagnostics', []))
 
 
+def _worker_month(items, allow_fit_failure):
+    packets = []
+    for item in items:
+        packet = _worker_task(item)
+        packets.append(packet)
+        if not packet['ok'] and (not packet['fit_failure'] or not allow_fit_failure):
+            break
+    return packets
+
+
 class TaskScheduler:
     def __init__(self, owner, *, worker_factory=None):
         self.owner, self.worker_factory = owner, worker_factory
@@ -231,6 +241,7 @@ class TaskScheduler:
 
     def map(self, items, *, allow_fit_failure=False):
         grouped = {}
+        weighted = 'rbf_design' in self.owner.config
         for task, keep in items:
             group = grouped.setdefault(task['fit_id'], [task, False])
             group[1] = group[1] or keep
@@ -243,37 +254,43 @@ class TaskScheduler:
                     if not allow_fit_failure:
                         raise
                     results[task['fit_id']] = None
-            return [None if results[t['fit_id']] is None else self.owner.monthly(t, save_package=k) for t, k in items]
+            return [self._ordered_record(t, k, results, weighted) for t, k in items]
         if self.pool is None:
             self.pool = ProcessPoolExecutor(max_workers=self.workers, mp_context=multiprocessing.get_context('spawn'),
                 initializer=_initialize_worker, initargs=(self.owner.config, str(self.owner.store.root),
                     self.owner.identity, str(self.owner.root), self.worker_factory))
         self.owner.disk_check()
         leaders = list(grouped.values())
+        batches = {}
+        if weighted:
+            for task, keep in leaders:
+                i = task['identity']
+                month = (i['market_id'], i['task'], i['fold_id'])
+                batches.setdefault(month, []).append((task, keep))
         results = {}
         try:
             # Bound outstanding work. A stop/failure does not leave a whole
             # search queued; aggregation still follows the original input order.
-            pending, cursor = {}, iter(leaders)
+            pending, cursor = {}, iter(batches.values() if weighted else [[leader] for leader in leaders])
             def fill():
-                while len(pending) < self.workers * 2:
-                    item = next(cursor, None)
-                    if item is None:
+                while len(pending) < self.workers * (1 if weighted else 2):
+                    batch = next(cursor, None)
+                    if batch is None:
                         break
                     self.owner.disk_check()
-                    pending[self.pool.submit(_worker_task, item)] = item[0]
+                    pending[self.pool.submit(_worker_month, batch, allow_fit_failure)] = batch
             fill()
             while pending:
                 done, _ = wait(pending, return_when=FIRST_COMPLETED)
                 for future in done:
-                    task = pending.pop(future)
-                    packet = future.result()
-                    self._accept_packet(task, packet, results, allow_fit_failure)
+                    batch = pending.pop(future)
+                    packets = future.result()
+                    for (task, _), packet in zip(batch, packets):
+                        self._accept_packet(task, packet, results, allow_fit_failure)
+                    if len(packets) != len(batch):
+                        raise RuntimeError('Worker returned an incomplete monthly batch')
                 fill()
-            ordered = []
-            for task, keep in items:
-                leader = results[task['fit_id']]
-                ordered.append(None if leader is None else self.owner.monthly(task, save_package=keep))
+            ordered = [self._ordered_record(t, k, results, weighted) for t, k in items]
             self.owner.journal.snapshot()
             return ordered
         except BaseException:
@@ -284,6 +301,12 @@ class TaskScheduler:
                 max_attempts=self.owner.config['policy']['task_attempts'])
             self.owner.journal.snapshot()
             raise
+
+    def _ordered_record(self, task, keep, results, weighted):
+        record = results[task['fit_id']]
+        if record is None or (weighted and record['task_id'] == task['task_id']):
+            return record
+        return self.owner.monthly(task, save_package=keep)
 
     def _accept_packet(self, task, packet, results, allow_fit_failure):
         path = self.owner.journal.path(task)

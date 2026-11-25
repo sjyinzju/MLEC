@@ -34,9 +34,9 @@ def kernel_geometry(X, gamma):
         nearly_disjoint_fraction=float((values < 1e-8).mean()))
 
 
-def solution_quality(e, X, y, *, class_weight=None):
+def solution_quality(e, X, y, *, class_weight=None, kernel=None):
     x, y = np.asarray(X, float), np.asarray(y)
-    k = np.exp(-e._gamma*cdist(x, x, 'sqeuclidean'))
+    k = kernel if kernel is not None else np.exp(-e._gamma*cdist(x, x, 'sqeuclidean'))
     tol = 2*e.tol + 1e-8  # LIBSVM stopping interval + double precision kernel recomputation.
     records = []
     if not hasattr(e, 'classes_'):

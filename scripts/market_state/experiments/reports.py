@@ -175,8 +175,8 @@ def paired_differences(scores, schema, stage):
         metadata = dict(zip(grouping, values), stage=stage)
         task, mode = metadata['task'], metadata['mode']
         infos = set(frame.information_set)
-        definitions = [('core', 'M', 'M+Z')]
-        if mode == 'fixed_full_params':
+        definitions = [('clock' if mode == 'fixed_clock' else 'core', 'M', 'M+Z')]
+        if mode in ['fixed_full_params', 'retuned_groups']:
             for information in sorted(infos - {'M', 'M+Z'}):
                 definitions.append(('delete' if information.startswith('M+Z_without_') else 'add',
                     information if information.startswith('M+Z_without_') else 'M',
@@ -381,6 +381,9 @@ def summarize(root, *, stage='test', artificial=False):
         'runtime_quality': quality, 'coverage_status': coverage,
         'class_precision_recall': classes, 'confusion_matrix': confusion,
         'reliability': reliability, 'warning_curves': curves}
+    if 'rbf_design' in config and not artificial:
+        from .rbf_diagnostics import study_tables
+        products.update(study_tables(root, stage, assignments, scores, schema, config))
     for name, table in products.items():
         write_table(tables, name, table, markdown=name in ['core_classification', 'core_regression', 'macro_increment', 'macro_groups', 'warning_value'])
     atomic_parquet(root / stage / 'losses/paired_differences.parquet', pairs)
@@ -398,19 +401,29 @@ def summarize(root, *, stage='test', artificial=False):
     for row in primary.to_dict('records'):
         direction = row['effect_interpretation']
         lines.append(f'- {row["market_id"]} {row["task"]}: {row["mean"]:.6g}, 95% interval [{row["lower"]:.6g}, {row["upper"]:.6g}]; {direction}.')
-    lines += ['', 'Intervals use synchronous calendar blocks, including empty weeks; centered-null one-sided p values use finite-repetition correction. Annual results and 4/12-week sensitivities accompany the 8-week primary block. Accuracy/F1 gains are right-minus-left aggregate metrics; intervals in each row refer only to the named sample loss.', '',
+    weighted = 'rbf_design' in config
+    scope_text = ('Full scope includes the 96 fixed positive-weight configurations, the group-specific re-tunes and the clock control.'
+        if weighted and manifest['suite'] == 'full' else
+        'Completed full suite: twelve formal information sets in fixed_full_params.' if manifest['suite'] == 'full' else
+        'Completed core suite only: M/M+Z. All 96 fixed_full_params configurations were NOT EXECUTED.')
+    test_text = ('The historical test period had already been viewed. C is a follow-up evaluation of a revised model frozen before this C run.'
+        if weighted else 'The test era was viewed in the first Elastic Net run.')
+    lines += ['', 'Intervals use synchronous calendar blocks, including empty weeks. Centered-null one-sided p values use finite-repetition correction. Annual results and 4/12-week sensitivities accompany the 8-week primary block. Accuracy/F1 gain is right-minus-left. Intervals refer to the named loss.', '',
         'Elastic Net is the linear reference. Cross-model Holm correction is pending the complete preregistered nonlinear family set; no adjusted value is fabricated.', '',
         '## Warning value', '',
         'See [warning workpoints](tables/warning_value.md). Burden targets 5/10/20/30% were specified before execution; thresholds come only from development. Detection–false alarm, precision–recall and drawdown coverage–burden curves are saved. Alarm segments and repeat windows are separate from window metrics. Undefined event contrasts are reported explicitly; no unique economic optimum or crisis lead time is claimed.', '',
         '## Coverage and limits', '',
         f'Selected logical monthly tasks: {len(coverage)}; unique physical fits: {int(coverage.unique_physical_fit.sum())}. Unscored prediction rows across analysis references: {int(coverage.unscored.sum())}; these are immature windows, not normal-state labels or failed predictions.', '',
         'Runtime quality includes failed candidates, actual estimator/calibrator calls, convergence retries and economic boundary violations. ' + ('RBF-SVM records kernel scale, support counts, solver status and training-only time calibration; kernels have no linear coefficient interpretation.' if manifest['model'] == 'rbf_svm' else 'Penalized coefficients describe prediction associations, not causal effects.'), '',
-        ('Completed full suite: twelve formal information sets in fixed_full_params.' if manifest['suite'] == 'full' else 'Completed core suite only: M/M+Z; all 96 fixed_full_params configurations were NOT EXECUTED.') +
-        ' Information-clock, publication-lag, market-module, data-view and alternative-dictionary extensions are unimplemented and were not executed. Registered unimplemented model families: ' + ', '.join(k for k, v in REGISTRY.items() if not v['implemented']) + '. This report contains only the explicitly selected family/run.', '',
-        'The test era was viewed in the first Elastic Net run. This implementation correction is a recomputation after known defects, not a first unseen independent test. Numerical equivalence uses 128 machine eps times max(1, baseline loss); effects below 0.1% relative loss are labeled small, not erased. These descriptive labels do not change scores, candidate ranking or bootstrap calculations. Accuracy/argmax changes alone do not establish warning value; inspect probability losses, balanced accuracy, macro-F1, per-class recall and confusion together.', '',
+        scope_text + ' Publication-lag, market-module, data-view and alternative-dictionary extensions remain outside this run. Registered unimplemented model families are ' + ', '.join(k for k, v in REGISTRY.items() if not v['implemented']) + '.', '',
+        test_text + ' Numerical equivalence uses 128 machine eps times max(1, baseline loss). Effects below 0.1% relative loss are labeled small, with the original scores and intervals retained.', '',
         f'Data version: `{manifest["versions"]["data_version"]}`. Interface: `{manifest["versions"]["interface_code_hash"]}`. Experiment code: `{manifest["versions"]["experiment_code_hash"]}`.', '']
     if artificial:
         lines.insert(2, '**ARTIFICIAL_TEST_ONLY — orchestration verification, not research evidence.**')
+    if weighted:
+        lines.extend(['## RBF-SVM diagnostics', '',
+            'The study tables give the paired baseline intervals, raw and calibrated probability diagnostics, selected kernel geometry and per-target fit diagnostics.',
+            'The development-only audit includes release coverage, matched candidate contrasts, block perturbation and the triggered conditional-increment checks.', ''])
     report_path = root / 'report.md' if stage == 'test' else root / 'development/report.md'
     report_path.write_text('\n'.join(lines), encoding='utf8')
     atomic_json(root / stage / 'report_manifest.json', dict(stage=stage, run_id=manifest['run_id'], purpose=manifest['purpose'],

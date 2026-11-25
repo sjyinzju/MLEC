@@ -56,7 +56,10 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
         if repair.exists():
             paths += [p for p in repair.glob('*') if p.suffix in ['.md','.json']]
         paths += [ROOT / 'docs' / p for p in ['MLEC_research_protocol.md', 'MLEC_experiment_plan.md',
-            'model_io_contract.md', 'experiments.md', 'rbf_svm.md']]
+            'model_io_contract.md', 'experiments.md', 'rbf_svm.md', 'rbf_macro_learning_20261125.md']]
+        if model == 'rbf_svm':
+            macro_report = ROOT / 'reports/model_build/rbf_svm/macro_20261125'
+            paths += [p for p in macro_report.glob('*') if p.suffix in ['.md', '.json']]
         paths += list((ROOT / 'reports/market_state/model_io').glob('*.json'))
         paths += [ROOT / 'reports/market_state/completion_report.md', ROOT / 'reports/market_state/model_io/implementation_report.md']
         for path in paths:

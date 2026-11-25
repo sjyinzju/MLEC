@@ -21,7 +21,7 @@ from ..models import require_model, create_model, REGISTRY
 from ..models.errors import fit_counts
 from ..models.training import TrainingPartitions
 from .artifacts import atomic_json, atomic_parquet, read_json, staging, file_manifest, check_files
-from .config import portable_config, candidates, seeds, scope
+from .config import portable_config, candidates, seeds, scope, search_information, parameter_reference
 from .scoring import score_predictions
 from .warnings import risk_definition, warning_data
 from .scheduling import worker_count, process_usage
@@ -53,7 +53,7 @@ def environment():
 
 
 def versions(config, store):
-    return dict(runtime_version=EXPERIMENT_VERSION, contract_version=CONTRACT_VERSION,
+    result = dict(runtime_version=EXPERIMENT_VERSION, contract_version=CONTRACT_VERSION,
         data_version=store.data_version, feature_version=store.spec['feature_version'],
         target_version=store.spec['target_version'], dictionary_version=store.spec['label_version'],
         original_seal_hash=file_hash(store.root / 'release/seal.json'), interface_code_hash=code_hash(),
@@ -61,6 +61,11 @@ def versions(config, store):
         protocol_hash=file_hash(ROOT / 'docs/MLEC_research_protocol.md'),
         experiment_plan_hash=file_hash(ROOT / 'docs/MLEC_experiment_plan.md'),
         config_hash=digest(portable_config(config)))
+    if 'rbf_design' in config:
+        result.update(rbf_geometry_version=config['rbf_design']['version'],
+            rbf_study=config['rbf_design']['study'],
+            rbf_design_document_hash=file_hash(ROOT / 'docs/rbf_macro_learning_20261125.md'))
+    return result
 
 
 def fold_lists(store):
@@ -103,9 +108,12 @@ def preview(config, store, suite):
     comparisons = scope(config, store, suite)
     development, test = fold_lists(store)
     search = config['search']
+    weighted = 'rbf_design' in config
+    searches = search_information(config, store, suite)
     coarse = [m for m in development if int(m[-2:]) in search['coarse_months']]
     configurations = [dict(model=config['model'], market_id=m, task=t, mode=mode, information_set=info,
-        parameter_source='independent_M_or_MZ_development_winner' if mode == 'retuned_core' else 'MZ_development_winner',
+        parameter_source=parameter_reference(mode) if weighted else
+            ('independent_M_or_MZ_development_winner' if mode == 'retuned_core' else 'MZ_development_winner'),
         seeds=seeds(config, t), development_months=len(development), test_months=len(test),
         estimators_per_month=7 if t == 'regression' and REGISTRY[config['model']]['regression'] == 'per_target' else 1)
         for m in config['markets'] for t in config['tasks'] for mode, info in comparisons]
@@ -114,12 +122,15 @@ def preview(config, store, suite):
     fit_expansion = []
     for t in config['tasks']:
         groups = len(config['markets']) * 2
-        candidate_months = groups * (search['candidate_count'] * len(coarse) + search['finalists'] * (len(development) - len(coarse)))
+        per_month = sum(len(candidates(config, t, info)) for info in searches)
+        candidate_months = len(config['markets']) * per_month * len(coarse) + groups * search['finalists'] * (len(development) - len(coarse))
         selected_logical = len(config['markets']) * len(comparisons) * len(seeds(config, t))
         # Core seed 3060 winners and complete MZ fixed-mode references reuse actual fits.
         selected_b = selected_logical * len(development) - groups * len(development)
         selected_c = selected_logical * len(test)
-        if suite == 'full':
+        if weighted:
+            selected_b = selected_logical * len(development)  # Includes composite per-target models.
+        elif suite == 'full':
             shared = len(config['markets']) * len(seeds(config, t))
             selected_b -= shared * len(development)
             selected_c -= shared * len(test)
@@ -129,9 +140,11 @@ def preview(config, store, suite):
         if t == 'classification' and time_plans:
             for row in time_plans:
                 f = row['fold_id']
-                candidate_outer = 2 * (search['candidate_count'] if f in coarse else search['finalists']) if f in development else 0
+                candidate_outer = (per_month if f in coarse else 2 * search['finalists']) if f in development else 0
                 selected_outer = len(comparisons) * len(seeds(config, t)) - (2 if f in development else 0)
-                if suite == 'full':
+                if weighted:
+                    selected_outer = len(comparisons) * len(seeds(config, t))
+                elif suite == 'full':
                     selected_outer -= len(seeds(config, t))
                 physical_outer = candidate_outer + selected_outer
                 inner += physical_outer * row['internal_svc_fits']
@@ -156,11 +169,12 @@ def preview(config, store, suite):
     return dict(status='PLANNED', model=config['model'], suite=suite, versions=versions(config, store),
         core_configurations=16, selected_configurations=len(configurations), information_sets=list(store.spec['sets']),
         configurations=configurations, budgets=budget, calibration_plans=time_plans, calibration_fit_expansion=fit_expansion,
-        candidates={t: candidates(config, t) for t in config['tasks']},
+        candidates={t: ({info: candidates(config, t, info) for info in searches} if weighted else
+            candidates(config, t)) for t in config['tasks']},
         candidate_monthly_tasks=[dict(market_id=m, task=t, information_set=i, fold_id=f,
             candidate_id=c['candidate_id'], parameters=c['parameters'], seed=search['screening_seed'])
-            for m in config['markets'] for t in config['tasks'] for i in ['M', 'M+Z']
-            for c in candidates(config, t) for f in coarse],
+            for m in config['markets'] for t in config['tasks'] for i in searches
+            for c in candidates(config, t, i) for f in coarse],
         extensions=config['extensions'], supervised_fit_calls=0, calibration_fit_calls=0)
 
 
@@ -219,6 +233,8 @@ class MonthlyExecutor:
     def __init__(self, config, store, identity):
         self.config, self.store, self.identity = config, store, identity
         self.cache = OrderedDict()
+        self.oof_cache = OrderedDict()
+        self.macro_lineage = {c: g for g, columns in store.spec['groups'].items() for c in columns}
         self.cache_stats = dict(context_hits=0, context_misses=0, matrix_hits=0, matrix_misses=0)
         self.last_diagnostics = []
         self.risk = risk_definition(store, config)
@@ -233,7 +249,7 @@ class MonthlyExecutor:
             pre, target = fit_inputs(train), fit_targets(train)
             pred = load_dataset(market_id=i['market_id'], task=i['task'], information_set='M+Z',
                 fold_id=i['fold_id'], role='prediction', quality=self.config['quality'], store=self.store)
-            self.cache[key] = dict(full=(train, pre, target, pred), views={}, matrices={})
+            self.cache[key] = dict(full=(train, pre, target, pred), views={}, matrices={}, truth={})
             self.cache_stats['context_misses'] += 1
             if len(self.cache) > self.config['resources']['transform_cache_entries']:
                 self.cache.popitem(last=False)
@@ -270,6 +286,9 @@ class MonthlyExecutor:
         train, pre, target, pred, X, Xp = self.matrices(task)
         context = fit_context(train)
         model_id = i['family']
+        weighted = model_id == 'rbf_svm' and 'geometry_version' in i['parameters']
+        probability = None
+        perturbed = None
         if model_id.startswith('naive_'):
             model = None
             model_version = digest(dict(family=model_id, context=asdict(context), parameters=i['parameters']))
@@ -284,8 +303,11 @@ class MonthlyExecutor:
                     p = pred.X[['current_state_prob_' + str(c) for c in ids]].to_numpy(float)
                 output = classification_output(ctx, np.asarray(ids)[p.argmax(axis=1)], p, target.schema_)
             else:
-                values = pred.X[['market__' + c + '_20d' for c in CORE]].copy()
-                values.columns = CORE
+                if model_id == 'naive_train_mean':
+                    values = pd.DataFrame(np.tile(train.y[CORE].mean().to_numpy(), (len(pred.keys), 1)), columns=CORE)
+                else:
+                    values = pred.X[['market__' + c + '_20d' for c in CORE]].copy()
+                    values.columns = CORE
                 output = regression_output(ctx, values.reset_index(drop=True), target.schema_)
             diagnostics = []
         else:
@@ -301,6 +323,8 @@ class MonthlyExecutor:
                 service = services[i['information_set']]
             extra = dict(solver=self.config['solver'], calibration=self.config['calibration'],
                 training_service=service) if model_id == 'rbf_svm' else {}
+            if weighted:
+                extra.update(macro_lineage=self.macro_lineage, oof_cache=self.oof_cache)
             model = create_model(model_id, task=i['task'], preprocessor=pre, target_adapter=target,
                 training_keys=train.keys, parameters=i['parameters'], seed=i['seed'], policy=self.config['policy'],
                 threads=self.config['resources']['threads_per_task'], **extra)
@@ -308,20 +332,43 @@ class MonthlyExecutor:
             self.last_diagnostics = model.diagnostics_
             ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model.model_version_, input_matrix=Xp)
             output = model.predict(Xp, ctx)
+            if weighted:
+                probability = model.probability_evidence(Xp, pred.keys)
+                if i['stage'] == 'development' and i['information_set'] == 'M+Z' and i['parameters']['macro_weight'] > 0 and i['parameters']['representation'] != 'clock':
+                    from .rbf_diagnostics import permute_validation
+                    block_policy = self.config['rbf_design']['perturbation']
+                    shifted = permute_validation(Xp, pred.keys, self.macro_lineage, **block_policy)
+                    if shifted is not None:
+                        xp_shifted, date_reference = shifted
+                        perturbed = (model.predict(xp_shifted, ctx), date_reference)
             diagnostics = model.diagnostics_
         validate_output(output, ctx, task=i['task'], schema=target.schema_)
         # Output is committed to staging before the first read of this month's Y.
         atomic_parquet(destination / 'predictions.parquet', output)
-        truth = load_dataset(market_id=i['market_id'], task=i['task'], information_set=i['information_set'],
-            fold_id=i['fold_id'], role='validation' if i['stage'] == 'development' else 'test',
-            quality=self.config['quality'], store=self.store)
+        truths = next(reversed(self.cache.values()))['truth']
+        truth_key = (i['information_set'], i['stage'])
+        if truth_key not in truths:
+            truths[truth_key] = load_dataset(market_id=i['market_id'], task=i['task'], information_set=i['information_set'],
+                fold_id=i['fold_id'], role='validation' if i['stage'] == 'development' else 'test',
+                quality=self.config['quality'], store=self.store)
+        truth = truths[truth_key]
         scores = score_predictions(output, ctx, truth, task=i['task'], fixed_scale=self.scales[i['market_id']])
         atomic_parquet(destination / 'losses.parquet', scores)
+        if probability is not None:
+            outer_truth = truth.keys.assign(observed_state_id=truth.y.future_state_id, observed_label_available_at=truth.metadata.label_available_at)
+            probability = probability.merge(outer_truth, on=KEY, how='left', validate='one_to_one')
+            atomic_parquet(destination / 'probability_evidence.parquet', probability)
+        if perturbed is not None:
+            output_shifted, date_reference = perturbed
+            shifted_scores = score_predictions(output_shifted, ctx, truth, task=i['task'], fixed_scale=self.scales[i['market_id']])
+            paired = scores[KEY + ['loss']].merge(shifted_scores[KEY + ['loss']], on=KEY, validate='one_to_one', suffixes=('_real', '_perturbed'))
+            atomic_parquet(destination / 'perturbed_losses.parquet', paired.merge(date_reference, on=KEY, validate='one_to_one'))
         warning = warning_data(scores, pred, self.store, self.risk, i['task'])
         atomic_parquet(destination / 'warning.parquet', warning)
         if model is not None:
             if hasattr(model, 'diagnostic_artifact'):
-                atomic_json(destination / 'kernel_diagnostics.json', model.diagnostic_artifact())
+                detail = model.diagnostic_artifact(X, Xp, full_kernel=save_package) if weighted else model.diagnostic_artifact()
+                atomic_json(destination / 'kernel_diagnostics.json', detail)
             if hasattr(model, 'coefficients'):
                 model.coefficients().to_csv(destination / 'coefficients.csv', index=False)
             if hasattr(model, 'dual_certificates'):
