@@ -179,6 +179,7 @@ def write_report(run, base, dest):
         '', '封版历史重建视图在数据审计范围内的有效可得时间均满足预测时点规则。DR007 的 409 条历史周度记录使用较晚档案版本。409 个周度 GDP、制造业 PMI、CPI 值分别来自 33、96、97 个源记录，持有值多于原始发布。该视图的增益结论受档案重建、市场样本规模、少数类稀疏及区间不确定性约束。',
         '', '在已检查的本机位置未找到 11 月 23 日与 25 日指定 ZIP，也未找到两套指定历史 run。可找到的较早便携包、对应 Git 和逐文件差异见 `historical_provenance.json`。本轮匹配技术对照以可取得的 11 月 21 日 Git 源码作为历史对照。',
         '', '额外公布滞后、市场模块投影、替代状态字典和其他数据质量视图属于独立扩展。此次结果的可复现入口和依赖见 `commands.json`、`config.resolved.yaml`、`selection.lock.json`、`environment.json` 和验收回执。',
+        '', '复现请使用本地执行源码的字节快照 `executed_source_4493be5153575e180993d287.zip`。Git 与运行脚本逐文件比较的差异仅为换行。快照保留运行时的换行格式、验收回执、封版产物及完整测试所需的原始本机缓存。核验记录见 `source_equivalence.json`。',
         '', f"完整运行目录 `{run}`。完整资产按任务记录和模型包清单校验，代表性包另附。",
         '', f"冻结源码提交 `de3f55c34fdd27363704cb100682619e9d83eec0`。正式锁 SHA-256 `{manifest['lock_hash']}`。"]
     (dest/'交付报告.md').write_text('\n'.join(base_report)+'\n',encoding='utf-8')

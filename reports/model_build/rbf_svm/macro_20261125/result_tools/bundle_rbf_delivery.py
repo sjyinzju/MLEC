@@ -54,7 +54,7 @@ def main():
     for path in (base/'logs').glob('*.log'):
         collect(path,'logs/'+path.name)
     for name in ['historical_provenance.json','recovered_test_asset.json','commands.json','execution_chain.json',
-        'accepted_source_1366f96.zip.sha256','export_rbf_report.py','render_rbf_delivery.py','bundle_rbf_delivery.py']:
+        'executed_source_4493be5153575e180993d287.zip.sha256','export_rbf_report.py','render_rbf_delivery.py','bundle_rbf_delivery.py']:
         collect(base/name,'reproduction/'+name)
     for path in delivery.glob('*'):
         if path.is_file() and path.suffix not in ['.zip','.sha256'] and path.name not in ['bundle_inventory.json','delivery_index.json']:

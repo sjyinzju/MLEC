@@ -190,6 +190,8 @@ B 和 C 同向且 C 的描述性区间完全为正的分组或时钟对照共有
 
 额外公布滞后、市场模块投影、替代状态字典和其他数据质量视图属于独立扩展。此次结果的可复现入口和依赖见 `commands.json`、`config.resolved.yaml`、`selection.lock.json`、`environment.json` 和验收回执。
 
+复现请使用本地执行源码的字节快照 `executed_source_4493be5153575e180993d287.zip`。Git 与运行脚本逐文件比较的差异仅为换行。快照保留运行时的换行格式、验收回执、封版产物及完整测试所需的原始本机缓存。核验记录见 `source_equivalence.json`。
+
 完整运行目录 `D:\Desktop\学习\课程\大二上\经济学中的机器学习\MLEC\results\rbf_macro_learning_20261125\rbf_svm\4493be5153575e180993d287`。完整资产按任务记录和模型包清单校验，代表性包另附。
 
 冻结源码提交 `de3f55c34fdd27363704cb100682619e9d83eec0`。正式锁 SHA-256 `4f6e18c029181f7f8c7554a9e765138dd5682077570c3deefa90feef57c9c6de`。
