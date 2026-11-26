@@ -176,6 +176,8 @@ def paired_differences(scores, schema, stage):
         task, mode = metadata['task'], metadata['mode']
         infos = set(frame.information_set)
         definitions = [('clock' if mode == 'fixed_clock' else 'core', 'M', 'M+Z')]
+        if metadata['family'] == 'random_forest':
+            definitions += [('core', 'M+Z', 'M+Z_star'), ('core', 'M', 'M+Z_star')]
         if mode in ['fixed_full_params', 'retuned_groups']:
             for information in sorted(infos - {'M', 'M+Z'}):
                 definitions.append(('delete' if information.startswith('M+Z_without_') else 'add',
@@ -297,11 +299,11 @@ def figures(directory, classification, regression, increment, groups, confusion,
     for target, metric in [('classification', 'log_loss'), ('regression', 'five_dimension_squared')]:
         subset = increment[increment.task.eq(target) & increment.metric.eq(metric) & increment['mode'].eq('retuned_core') & increment.block_weeks.eq(8) & increment.year.ne('all')]
         fig, ax = plt.subplots(figsize=(9, 4.5))
-        for market, f in subset.groupby('market_id'):
-            f = f.sort_values('year')
-            ax.plot(f.year, f['mean'], marker='o', label=market)
+        for (market, left, right), frame in subset.groupby(['market_id', 'left', 'right']):
+            frame = frame.sort_values('year')
+            ax.plot(frame.year, frame['mean'], marker='o', label=f'{market} {left} to {right}')
         ax.axhline(0, color='black', linewidth=.7)
-        ax.set(ylabel='M loss minus M+Z loss', title='Annual macro increment: ' + target)
+        ax.set(ylabel='Left loss minus right loss', title='Annual macro increment: ' + target)
         ax.legend()
         fig.tight_layout(); fig.savefig(directory / ('annual_increment_' + target + '.png'), dpi=140); plt.close(fig)
     selected = reliability[reliability.year.eq('all') & reliability['mode'].eq('retuned_core')]
@@ -384,6 +386,9 @@ def summarize(root, *, stage='test', artificial=False):
     if 'rbf_design' in config and not artificial:
         from .rbf_diagnostics import study_tables
         products.update(study_tables(root, stage, assignments, scores, schema, config))
+    elif manifest['model'] == 'random_forest' and not artificial:
+        from .forest_reporting import forest_tables
+        products.update(forest_tables(root, stage, assignments, scores, schema, config, increment))
     for name, table in products.items():
         write_table(tables, name, table, markdown=name in ['core_classification', 'core_regression', 'macro_increment', 'macro_groups', 'warning_value'])
     atomic_parquet(root / stage / 'losses/paired_differences.parquet', pairs)
@@ -425,6 +430,9 @@ def summarize(root, *, stage='test', artificial=False):
             'The study tables give the paired baseline intervals, raw and calibrated probability diagnostics, selected kernel geometry and per-target fit diagnostics.',
             'The development-only audit includes release coverage, matched candidate contrasts, block perturbation and the triggered conditional-increment checks.', ''])
     report_path = root / 'report.md' if stage == 'test' else root / 'development/report.md'
+    if manifest['model'] == 'random_forest' and not artificial:
+        from .forest_reporting import forest_report
+        lines = forest_report(manifest, stage, increment, products)
     report_path.write_text('\n'.join(lines), encoding='utf8')
     atomic_json(root / stage / 'report_manifest.json', dict(stage=stage, run_id=manifest['run_id'], purpose=manifest['purpose'],
         tables={name: len(frame) for name, frame in products.items()}, lock_hash=manifest['lock_hash']))

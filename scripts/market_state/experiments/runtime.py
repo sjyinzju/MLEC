@@ -21,7 +21,7 @@ from ..models import require_model, create_model, REGISTRY
 from ..models.errors import fit_counts
 from ..models.training import TrainingPartitions
 from .artifacts import atomic_json, atomic_parquet, read_json, staging, file_manifest, check_files
-from .config import portable_config, candidates, seeds, scope, search_information, parameter_reference
+from .config import RF_INFORMATION, portable_config, candidates, seeds, scope, search_information, parameter_reference
 from .scoring import score_predictions
 from .warnings import risk_definition, warning_data
 from .scheduling import worker_count, process_usage
@@ -65,12 +65,15 @@ def versions(config, store):
         result.update(rbf_geometry_version=config['rbf_design']['version'],
             rbf_study=config['rbf_design']['study'],
             rbf_design_document_hash=file_hash(ROOT / 'docs/rbf_macro_learning_20261125.md'))
+    if config['model'] == 'random_forest':
+        result.update(z_star_manifest_sha256=file_hash(store.root / 'release/z_star/manifest.json'),
+            forest_design_document_hash=file_hash(ROOT / 'docs/random_forest_zstar.md'))
     return result
 
 
 def fold_lists(store):
     task_config = read_json(store.root / 'data_task_config.json')
-    if set(task_config['markets']) != set(store.spec['by_market']) or set(task_config['information_sets']) != set(store.spec['sets']) or not {'classification', 'regression'} <= set(task_config['targets']):
+    if set(task_config['markets']) != set(store.spec['by_market']) or set(task_config['information_sets']) != set(getattr(store, 'base_spec', store.spec)['sets']) or not {'classification', 'regression'} <= set(task_config['targets']):
         raise ValueError('Data task configuration differs from the sealed research matrix')
     plans = store.get('time_splits').sort_values('fold_id')
     development = plans.loc[plans.period.eq('validation'), 'fold_id'].tolist()
@@ -109,10 +112,11 @@ def preview(config, store, suite):
     development, test = fold_lists(store)
     search = config['search']
     weighted = 'rbf_design' in config
+    forest = config['model'] == 'random_forest'
     searches = search_information(config, store, suite)
     coarse = [m for m in development if int(m[-2:]) in search['coarse_months']]
     configurations = [dict(model=config['model'], market_id=m, task=t, mode=mode, information_set=info,
-        parameter_source=parameter_reference(mode) if weighted else
+        parameter_source=parameter_reference(mode) if weighted or forest else
             ('independent_M_or_MZ_development_winner' if mode == 'retuned_core' else 'MZ_development_winner'),
         seeds=seeds(config, t), development_months=len(development), test_months=len(test),
         estimators_per_month=7 if t == 'regression' and REGISTRY[config['model']]['regression'] == 'per_target' else 1)
@@ -121,7 +125,7 @@ def preview(config, store, suite):
     time_plans = calibration_plans(config, store)
     fit_expansion = []
     for t in config['tasks']:
-        groups = len(config['markets']) * 2
+        groups = len(config['markets']) * (len(searches) if forest else 2)
         per_month = sum(len(candidates(config, t, info)) for info in searches)
         candidate_months = len(config['markets']) * per_month * len(coarse) + groups * search['finalists'] * (len(development) - len(coarse))
         selected_logical = len(config['markets']) * len(comparisons) * len(seeds(config, t))
@@ -130,7 +134,7 @@ def preview(config, store, suite):
         selected_c = selected_logical * len(test)
         if weighted:
             selected_b = selected_logical * len(development)  # Includes composite per-target models.
-        elif suite == 'full':
+        elif suite == 'full' or forest:
             shared = len(config['markets']) * len(seeds(config, t))
             selected_b -= shared * len(development)
             selected_c -= shared * len(test)
@@ -167,7 +171,7 @@ def preview(config, store, suite):
             total_fit_calls_including_all_retries_upper=(estimator_calls * (1 + config['policy']['convergence_retries']) + calibration_calls) * config['policy']['task_attempts'],
             note='Upper bound; selected M may also share full parameters. Seeds are not independent samples.'))
     return dict(status='PLANNED', model=config['model'], suite=suite, versions=versions(config, store),
-        core_configurations=16, selected_configurations=len(configurations), information_sets=list(store.spec['sets']),
+        core_configurations=len(config['markets']) * len(config['tasks']) * (len(RF_INFORMATION) if forest else 2), selected_configurations=len(configurations), information_sets=list(store.spec['sets']),
         configurations=configurations, budgets=budget, calibration_plans=time_plans, calibration_fit_expansion=fit_expansion,
         candidates={t: ({info: candidates(config, t, info) for info in searches} if weighted else
             candidates(config, t)) for t in config['tasks']},
@@ -180,7 +184,10 @@ def preview(config, store, suite):
 
 def preflight(config, store, suite, *, check_environment=True):
     require_model(config['model'], config['backend'])
-    assert_interface_accepted(data_root=store.root)
+    if config.get('feature_extension'):
+        assert_interface_accepted(data_root=store.root, feature_extension=config['feature_extension'])
+    else:
+        assert_interface_accepted(data_root=store.root)
     tests = read_json(ROOT / 'reports/market_state/model_io/test_results.json')
     from .portable import validate_source_receipt
     validate_source_receipt(tests)
@@ -198,6 +205,7 @@ def preflight(config, store, suite, *, check_environment=True):
     if shutil.disk_usage(output).free < config['resources']['minimum_free_gb'] * 1024 ** 3:
         raise RuntimeError('Insufficient free output space')
     support = []
+    widest = 'M+Z_star' if config['model'] == 'random_forest' else 'M+Z'
     # Every outer TRAIN cohort is checked; test scores never enter preflight decisions.
     for market in config['markets']:
         for fold in development + test:
@@ -209,8 +217,10 @@ def preflight(config, store, suite, *, check_environment=True):
             support.append(dict(market_id=market, fold_id=fold, rows=len(train.keys),
                 training_keys_hash=key_hash(train.keys), counts={str(int(k)): int(v) for k, v in count.items()}))
             if fold in [development[0], test[0], test[-1]]:
-                pre = fit_inputs(train)
-                m = information_view(train, 'M', store=store)
+                broad = (train if widest == 'M+Z' else load_dataset(market_id=market, information_set=widest,
+                    fold_id=fold, role='train', quality=config['quality'], store=store))
+                pre = fit_inputs(broad)
+                m = information_view(broad, 'M', store=store)
                 restricted = restrict_inputs(pre, m)
                 direct = fit_inputs(m)
                 np.testing.assert_array_equal(transform_inputs(restricted, m), transform_inputs(direct, m))
@@ -218,7 +228,7 @@ def preflight(config, store, suite, *, check_environment=True):
                 target = fit_targets(reg)
                 fit_targets(train)
                 np.testing.assert_allclose(target.inverse_transform(target.transform(reg.y)), reg.y, rtol=1e-12, atol=1e-24)
-                pred = load_dataset(market_id=market, information_set='M+Z', fold_id=fold,
+                pred = load_dataset(market_id=market, information_set=widest, fold_id=fold,
                     role='prediction', quality=config['quality'], store=store)
                 transform_inputs(pre, pred)
     return dict(status='PREFLIGHT_PASSED', environment=env, versions=versions(config, store),
@@ -242,12 +252,14 @@ class MonthlyExecutor:
 
     def prepare(self, task):
         i = task['identity']
-        key = (i['market_id'], i['task'], i['fold_id'], self.config['quality'], digest(self.identity))
+        info = i['information_set']
+        base = 'M+Z_star' if info.startswith('M+Z_star') or info == 'Z_star' else 'M+Z'
+        key = (i['market_id'], i['task'], i['fold_id'], base, self.config['quality'], digest(self.identity))
         if key not in self.cache:
-            train = load_dataset(market_id=i['market_id'], task=i['task'], information_set='M+Z',
+            train = load_dataset(market_id=i['market_id'], task=i['task'], information_set=base,
                 fold_id=i['fold_id'], role='train', quality=self.config['quality'], store=self.store)
             pre, target = fit_inputs(train), fit_targets(train)
-            pred = load_dataset(market_id=i['market_id'], task=i['task'], information_set='M+Z',
+            pred = load_dataset(market_id=i['market_id'], task=i['task'], information_set=base,
                 fold_id=i['fold_id'], role='prediction', quality=self.config['quality'], store=self.store)
             self.cache[key] = dict(full=(train, pre, target, pred), views={}, matrices={}, truth={})
             self.cache_stats['context_misses'] += 1
@@ -257,7 +269,6 @@ class MonthlyExecutor:
             self.cache_stats['context_hits'] += 1
         self.cache.move_to_end(key)
         entry = self.cache[key]
-        info = i['information_set']
         if info not in entry['views']:
             full_train, full_pre, target, full_prediction = entry['full']
             train = information_view(full_train, info, store=self.store)
@@ -287,6 +298,8 @@ class MonthlyExecutor:
         context = fit_context(train)
         model_id = i['family']
         weighted = model_id == 'rbf_svm' and 'geometry_version' in i['parameters']
+        forest = model_id == 'random_forest'
+        forest_sensitivity = forest and (i['stage'] == 'test' or i['purpose'] == 'SMOKE_ONLY')
         probability = None
         perturbed = None
         if model_id.startswith('naive_'):
@@ -325,6 +338,10 @@ class MonthlyExecutor:
                 training_service=service) if model_id == 'rbf_svm' else {}
             if weighted:
                 extra.update(macro_lineage=self.macro_lineage, oof_cache=self.oof_cache)
+            elif forest:
+                enhanced = self.store.spec.get('z_star_groups', {})
+                lineage = {c: g for g, columns in enhanced.items() for c in columns}
+                extra.update(macro_lineage={**self.macro_lineage, **lineage})
             model = create_model(model_id, task=i['task'], preprocessor=pre, target_adapter=target,
                 training_keys=train.keys, parameters=i['parameters'], seed=i['seed'], policy=self.config['policy'],
                 threads=self.config['resources']['threads_per_task'], **extra)
@@ -341,6 +358,8 @@ class MonthlyExecutor:
                     if shifted is not None:
                         xp_shifted, date_reference = shifted
                         perturbed = (model.predict(xp_shifted, ctx), date_reference)
+            elif forest_sensitivity and i['task'] == 'classification':
+                probability = model.probability_evidence(Xp, output, key_columns=KEY)
             diagnostics = model.diagnostics_
         validate_output(output, ctx, task=i['task'], schema=target.schema_)
         # Output is committed to staging before the first read of this month's Y.
@@ -363,12 +382,18 @@ class MonthlyExecutor:
             shifted_scores = score_predictions(output_shifted, ctx, truth, task=i['task'], fixed_scale=self.scales[i['market_id']])
             paired = scores[KEY + ['loss']].merge(shifted_scores[KEY + ['loss']], on=KEY, validate='one_to_one', suffixes=('_real', '_perturbed'))
             atomic_parquet(destination / 'perturbed_losses.parquet', paired.merge(date_reference, on=KEY, validate='one_to_one'))
+        if forest_sensitivity:
+            from .forest_diagnostics import forest_perturbation_losses
+            sensitivity = forest_perturbation_losses(model, pred, ctx, truth, scores,
+                fixed_scale=self.scales[i['market_id']], interactions=self.store.spec.get('z_star_interactions', []))
+            if sensitivity is not None:
+                atomic_parquet(destination / 'perturbed_losses.parquet', sensitivity)
         warning = warning_data(scores, pred, self.store, self.risk, i['task'])
         atomic_parquet(destination / 'warning.parquet', warning)
         if model is not None:
             if hasattr(model, 'diagnostic_artifact'):
                 detail = model.diagnostic_artifact(X, Xp, full_kernel=save_package) if weighted else model.diagnostic_artifact()
-                atomic_json(destination / 'kernel_diagnostics.json', detail)
+                atomic_json(destination / ('forest_diagnostics.json' if forest else 'kernel_diagnostics.json'), detail)
             if hasattr(model, 'coefficients'):
                 model.coefficients().to_csv(destination / 'coefficients.csv', index=False)
             if hasattr(model, 'dual_certificates'):

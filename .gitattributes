@@ -1,0 +1,29 @@
+# Preserve the working-tree bytes used by the sealed data and acceptance SHA-256s.
+/data/market_state/*.json text eol=crlf
+/data/market_state/macro/specifications.json text eol=crlf
+/data/market_state/state_dictionary/dictionary.json text eol=crlf
+/data/market_state/release/seal.json text eol=crlf
+/data/market_state/release/z_star/*.json text eol=crlf
+/reports/market_state/model_io/**/*.json text eol=crlf
+
+/scripts/market_state/**/*.py text eol=crlf
+/scripts/market_state/z_star*.py text eol=lf
+/scripts/market_state/models/random_forest.py text eol=lf
+/scripts/market_state/experiments/forest_acceptance.py text eol=lf
+/scripts/market_state/experiments/forest_diagnostics.py text eol=lf
+/tests/*.py text eol=crlf
+/tests/test_random_forest*.py text eol=lf
+/tests/test_z_star_*.py text eol=lf
+/portable_tests/*.py text eol=crlf
+/requirements-research.txt text eol=crlf
+/requirements-experiments.txt text eol=crlf
+/docs/MLEC_research_protocol.md text eol=crlf
+/docs/MLEC_experiment_plan.md text eol=crlf
+/docs/rbf_macro_learning_20261125.md text eol=crlf
+/docs/random_forest_zstar.md text eol=crlf
+/config/experiments/random_forest.yaml text eol=crlf
+/launchers/random_forest/*.cmd text eol=crlf
+/launchers/bootstrap_random_forest.ps1 text eol=crlf
+
+# Keep shell entry points directly executable from a POSIX checkout.
+*.sh text eol=lf

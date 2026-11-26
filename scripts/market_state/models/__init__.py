@@ -7,8 +7,8 @@ REGISTRY = {
     'rbf_svm': {'family': 'RBF-SVM', 'implemented': True, 'backends': ['cpu'],
                 'adapter': 'rbf_svm.RBFSVMAdapter', 'regression': 'per_target', 'calibration': 'training_time_ordered',
                 'deterministic_classification': True, 'deterministic_regression': True},
-    'random_forest': {'family': 'Random Forest', 'implemented': False, 'backends': ['cpu'],
-                     'regression': 'native', 'calibration': 'native'},
+    'random_forest': {'family': 'Random Forest', 'implemented': True, 'backends': ['cpu'],
+                     'regression': 'native', 'calibration': 'native', 'adapter': 'random_forest.RandomForestAdapter'},
     'catboost': {'family': 'CatBoost', 'implemented': False, 'backends': ['cpu', 'gpu'],
                  'regression': 'native', 'calibration': 'native'},
 }

@@ -90,6 +90,7 @@ class Dataset:
     target_schema: dict = None
     versions: dict = None
     context: dict = None
+    X_interactions: pd.DataFrame = None
 
 def load_universe(market_id,asof):
     """Historical legal securities, with the actually observed member precision."""
@@ -112,19 +113,26 @@ def load_universe(market_id,asof):
 def load_dataset(*,market_id=None,start=None,end=None,information_set='M',task='classification',fold_id=None,role=None,quality='historical_reconstructed',eligible_only=True,view=None,store=None):
     """One keyed read chain. Prediction never opens targets or sample_manifest."""
     from .model_contract import CONTRACT_VERSION, target_schema, validate_dataset
+    from .z_star_release import EXTENSION, QUALITY, is_enhanced
     if task not in ['classification','probability','regression']:raise ValueError('Unknown task')
     if quality not in ['strict','historical_reconstructed','latest_at_retrieval']:raise ValueError('Unknown macro view')
     if (fold_id is None)!=(role is None):raise ValueError('fold_id and role must be specified together')
     if view not in [None,'analysis']:raise ValueError('Unknown view')
     if fold_id is None and view!='analysis':raise ValueError('Specify fold_id/role; all-period inspection requires explicit view="analysis"')
     if fold_id is not None and role not in ['train','validation','test','prediction']:raise ValueError('Unknown role')
-    if store is None and view!='analysis':store=DataStore()
+    enhanced=is_enhanced(information_set)
+    if enhanced and quality!=QUALITY:raise ValueError('Z* is only released for '+QUALITY)
+    if store is None and (view!='analysis' or enhanced):
+        store=DataStore(feature_extension=EXTENSION if enhanced else None)
     if view!='analysis' and not isinstance(store,DataStore):raise ValueError('Formal reads require sealed DataStore')
     if market_id is not None and market_id not in MARKETS:raise ValueError('Unknown market')
     spec=store.spec if store is not None else json.loads((OUT/'feature_sets.json').read_text(encoding='utf8'))
-    if information_set not in spec['sets']:raise ValueError('Unknown information set')
+    cols=information_columns(spec,market_id,information_set)
     get=store.get if store is not None else read
-    features=store.features(quality) if store is not None else get('market_features').merge(get('macro/'+quality+'/features'),on='asof_date',validate='many_to_one')
+    if store is None:
+        features=get('market_features').merge(get('macro/'+quality+'/features'),on='asof_date',validate='many_to_one')
+    else:
+        features=store.features(quality,enhanced=True) if enhanced else store.features(quality)
     if features.duplicated(KEY).any():raise ValueError('Duplicate feature key')
     prediction=role=='prediction'
     if prediction:
@@ -154,8 +162,8 @@ def load_dataset(*,market_id=None,start=None,end=None,information_set='M',task='
     if meta.duplicated(KEY).any():raise ValueError('Duplicate sample key')
     joined=meta[KEY].merge(features,on=KEY,how='left',validate='one_to_one',indicator=True)
     if not joined._merge.eq('both').all():raise ValueError('Missing feature key')
-    cols=spec['by_market'][market_id][information_set] if market_id else spec['sets'][information_set]
-    X=joined[cols].copy();mcols=[c for c in cols if not c.startswith('macro__')];zcols=[c for c in cols if c.startswith('macro__')]
+    X=joined[cols].copy()
+    X_market,X_macro,X_interactions=information_components(X)
     schema=store.target_schema() if store else target_schema(get)
     if schema['dictionary_version']!=spec['label_version']:raise ValueError('Dictionary version mismatch')
     y=None
@@ -173,10 +181,28 @@ def load_dataset(*,market_id=None,start=None,end=None,information_set='M',task='
         if lineage.available_at.gt(lineage.asof_time).any():raise ValueError('Macro source available after prediction time')
     context=dict(market_id=market_id,fold_id=fold_id,role=role or 'analysis',information_set=information_set,
         quality=quality,view=view,versions=versions)
-    ds=Dataset(X,y,meta,cols,meta[KEY].copy(),X[mcols].copy(),X[zcols].copy(),
-        dict(columns=cols,dtypes=X.dtypes.astype(str).to_dict(),information_set=information_set),schema,versions,context)
+    ds=Dataset(X,y,meta,cols,meta[KEY].copy(),X_market,X_macro,
+        dict(columns=cols,dtypes=X.dtypes.astype(str).to_dict(),information_set=information_set),
+        schema,versions,context,X_interactions)
     validate_dataset(ds)
     return ds
+
+
+def information_columns(spec,market_id,information_set):
+    definitions=spec['by_market'][market_id] if market_id else spec['sets']
+    if information_set not in definitions:
+        from .z_star_release import is_enhanced
+        if is_enhanced(information_set) and 'z_star_groups' not in spec:
+            raise ValueError("Z* reads with an explicit DataStore require feature_extension='z_star'")
+        raise ValueError('Unknown information set')
+    return definitions[information_set]
+
+
+def information_components(X):
+    macro=[c for c in X if c.startswith('macro__')]
+    interactions=[c for c in X if c.startswith('interaction__')]
+    market=[c for c in X if not c.startswith(('macro__','interaction__'))]
+    return X[market].copy(),X[macro].copy(),X[interactions].copy() if interactions else None
 
 def _read_targets(keys,schema,task,get):
     targets=get('supervised_targets');cols=schema['columns'][task]
@@ -200,13 +226,31 @@ def preprocessing():
 
 class DataStore:
     """One immutable in-process read snapshot for batch data preflight."""
-    def __init__(self,data_root=None):
+    def __init__(self,data_root=None,*,feature_extension=None):
         from .release import assert_sealed_products
+        from .z_star_release import DIRECTORY, EXTENSION, PRODUCTS, validate_extension
         self.root=Path(data_root).resolve() if data_root is not None else OUT
         self.data_version=assert_sealed_products(data_root=data_root)
-        self.spec=json.loads((self.root/'feature_sets.json').read_text(encoding='utf8'));self.tables={};self.views={}
-        self.config_stamps={name:((self.root/name).stat().st_size,(self.root/name).stat().st_mtime_ns)
-            for name in ['feature_sets.json','state_dictionary/dictionary.json','missing_policy.json','release/seal.json']}
+        self.base_spec=json.loads((self.root/'feature_sets.json').read_text(encoding='utf8'))
+        self.spec=self.base_spec
+        self.tables={};self.views={}
+        self.feature_extension=feature_extension
+        self.extension_manifest=None
+        files=['feature_sets.json','state_dictionary/dictionary.json','missing_policy.json','release/seal.json']
+        if feature_extension is not None:
+            if feature_extension!=EXTENSION:raise ValueError('Unknown feature extension: '+feature_extension)
+            manifest=validate_extension(self.root)
+            if (manifest['base_data_version']!=self.data_version
+                    or manifest['base_feature_version']!=self.base_spec['feature_version']):
+                raise ValueError('Z* base snapshot version mismatch')
+            extended=json.loads((self.root/DIRECTORY/'feature_sets.json').read_text(encoding='utf8'))
+            self.spec=dict(self.base_spec,feature_version=manifest['feature_version'],
+                sets={**self.base_spec['sets'],**extended['sets']},
+                by_market={m:{**sets,**extended['by_market'][m]} for m,sets in self.base_spec['by_market'].items()},
+                z_star_groups=extended['groups'],z_star_interactions=extended['interactions'])
+            self.extension_manifest=manifest
+            files.extend(DIRECTORY+'/'+name for name in (*PRODUCTS,'manifest.json'))
+        self.config_stamps={name:((self.root/name).stat().st_size,(self.root/name).stat().st_mtime_ns) for name in files}
     def get(self,name):
         for config,expected in self.config_stamps.items():
             p=self.root/config
@@ -218,7 +262,15 @@ class DataStore:
             self.stamps[name]=stamp
         elif self.stamps[name]!=stamp:raise RuntimeError('Data changed during immutable batch read: '+name)
         return self.tables[name]
-    def features(self,quality):
+    def features(self,quality,*,enhanced=False):
+        if enhanced:
+            from .z_star_release import DIRECTORY, QUALITY, assemble_extension
+            if self.extension_manifest is None or quality!=QUALITY:raise ValueError('Z* view unavailable')
+            market=self.get('market_features')
+            macro=self.get(DIRECTORY+'/features')
+            if 'z_star' not in self.views:
+                self.views['z_star']=assemble_extension(market,macro,self.spec['z_star_interactions'])
+            return self.views['z_star']
         market=self.get('market_features');macro=self.get('macro/'+quality+'/features')
         lineage=self.get('macro/'+quality+'/lineage')
         if quality not in self.views:
@@ -238,11 +290,13 @@ def information_view(ds,information_set,*,store):
     from dataclasses import replace
     from .model_contract import validate_dataset
     market=ds.context['market_id']
-    cols=store.spec['by_market'][market][information_set] if market else store.spec['sets'][information_set]
+    cols=information_columns(store.spec,market,information_set)
+    if ds.versions['feature_version']!=store.spec['feature_version']:
+        raise ValueError('Different feature release for information view')
     if not set(cols)<=set(ds.X):raise ValueError('Requested information is absent; read its superset through load_dataset')
     X=ds.X[cols].copy()
-    result=replace(ds,X=X,X_market=X[[c for c in cols if not c.startswith('macro__')]].copy(),
-        X_macro=X[[c for c in cols if c.startswith('macro__')]].copy(),feature_names=cols,
+    X_market,X_macro,X_interactions=information_components(X)
+    result=replace(ds,X=X,X_market=X_market,X_macro=X_macro,X_interactions=X_interactions,feature_names=cols,
         feature_schema=dict(columns=cols,dtypes=X.dtypes.astype(str).to_dict(),information_set=information_set),
         context=dict(ds.context,information_set=information_set))
     return validate_dataset(result)

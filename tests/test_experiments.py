@@ -103,10 +103,11 @@ def test_formal_plan_scope_budget_and_candidate_symmetry(store):
     for extension in config['extensions']:
         with pytest.raises(ValueError, match='not implemented'):
             scope(config, store, extension)
-    for family in ['random_forest', 'catboost']:
-        assert not REGISTRY[family]['implemented']
-        with pytest.raises(ValueError, match='not implemented'):
-            require_model(family)
+    assert REGISTRY['random_forest']['implemented']
+    require_model('random_forest')
+    assert not REGISTRY['catboost']['implemented']
+    with pytest.raises(ValueError, match='not implemented'):
+        require_model('catboost')
 
 
 def test_locked_sklearn_api_construction_only(store):

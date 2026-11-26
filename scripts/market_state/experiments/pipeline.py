@@ -25,6 +25,8 @@ class Pipeline(TaskRunner):
                  executor=None, preflight_function=None, artificial=False, schedule=None, worker_factory=None):
         self.config, self.store, self.suite, self.resume = config, store, suite, resume
         self.weighted = 'rbf_design' in config
+        self.forest = config['model'] == 'random_forest'
+        self.full_span = self.weighted or self.forest
         self.artificial = artificial
         if artificial:
             if executor is None or config['purpose'] != 'ARTIFICIAL_TEST_ONLY' or not Path(config['output_root']).resolve().is_relative_to(Path(tempfile.gettempdir()).resolve()):
@@ -53,6 +55,9 @@ class Pipeline(TaskRunner):
             path = receipt_path()
             verify_receipt(read_json(path), self.identity)
             accepted['rbf_acceptance_sha256'] = file_hash(path)
+        if self.forest and not self.artificial:
+            from .forest_technical import verify_forest_receipt
+            accepted['forest_acceptance_sha256'] = verify_forest_receipt(self.config, self.store)
         if self.identity != versions(self.config, self.store):
             raise RuntimeError('Versions changed during initialization')
         path = self.root / 'manifest.json'
@@ -128,13 +133,13 @@ class Pipeline(TaskRunner):
             complexity_order=candidate['complexity_order'],
             score=float(scores.loss.mean()), n=len(scores), expected_months=expected_months,
             tasks=[r['task_id'] for r in records], fit_ids=[r['fit_id'] for r in records])
-        if self.weighted and task == 'classification':
+        if self.full_span and task == 'classification':
             schema = read_json(self.root / records[0]['artifact'] / 'context.json')['schema']
             ordered = scores.sort_values('asof_date')
             start = ordered.future_state_id.ne(ordered.future_state_id.shift()) | ordered.asof_date.diff().dt.days.gt(7)
             result['class_support'] = {str(c): int(ordered.future_state_id.eq(c).sum()) for c in schema['class_ids']}
             result['event_runs'] = {str(c): int((ordered.future_state_id.eq(c) & start).sum()) for c in schema['class_ids']}
-        if self.weighted and task == 'regression':
+        if self.full_span and task == 'regression':
             scales = read_json(self.root / records[0]['artifact'] / 'context.json')['fixed_scale']['scale']
             result['target_scores'] = {c: float((scores['squared_error_' + c] / scale ** 2).mean())
                 for c, scale in zip(CORE, scales)}
@@ -192,6 +197,12 @@ class Pipeline(TaskRunner):
                 selection_metric='log_loss' if target == 'classification' else 'fixed_initial_five_dimension_squared',
                 aggregation='actual_scoring_weeks', seed=self.config['search']['screening_seed'])
         ranked = self.rank(scores, target)
+        if self.forest:
+            if not ranked:
+                raise RuntimeError('No complete legal forest candidate: ' + group_id(market, target, information))
+            return dict(market_id=market, task=target, information_set=information, full_review=scores,
+                winner=ranked[0], selection_metric='log_loss' if target == 'classification' else 'fixed_initial_five_dimension_squared',
+                aggregation='actual_scoring_weeks', seed=self.config['search']['screening_seed'])
         if len(ranked) < self.config['search']['finalists']:
             raise RuntimeError('Too few complete legal coarse candidates: ' + group_id(market, target, information))
         finalists = ranked[:self.config['search']['finalists']]
@@ -213,7 +224,7 @@ class Pipeline(TaskRunner):
                 for target in self.config['tasks']:
                     for mode, information in self.comparisons:
                         own = mode in ['retuned_core', 'retuned_groups']
-                        source = information if own else 'M+Z'
+                        source = information if own else ('M' if mode == 'fixed_m_params' else 'M+Z')
                         source_selection = selection[group_id(market, target, source)]
                         winner = source_selection['positive_weight_winner' if self.weighted and not own else 'winner']
                         parameters = winner['parameters']
@@ -223,7 +234,7 @@ class Pipeline(TaskRunner):
                             tasks.append(self.task(stage=stage, mode=mode, market=market, task=target,
                                 information=information, fold=fold, parameters=parameters, seed=seed))
                     baselines = ['naive_history', 'naive_current_state'] if target == 'classification' else ['naive_persistence']
-                    if self.weighted and target == 'regression':
+                    if self.full_span and target == 'regression':
                         baselines.append('naive_train_mean')
                     for baseline in baselines:
                         tasks.append(self.task(stage=stage, mode='baseline', market=market, task=target, information='M',
@@ -285,7 +296,7 @@ class Pipeline(TaskRunner):
             task = evidence['task']
             generated = {c['candidate_id']: (c['parameters'], c['complexity_order'])
                 for c in candidates(self.config, task, evidence['information_set'])}
-            if self.weighted:
+            if self.full_span:
                 entries = evidence['full_review']
                 if {c['candidate_id']: (c['parameters'], c['complexity_order']) for c in entries} != generated or len(entries) != len(generated):
                     raise RuntimeError('Full-span candidate list differs from the registered matrix')
@@ -301,9 +312,13 @@ class Pipeline(TaskRunner):
                         candidate_records.append(record if record['status'] == 'SUCCEEDED' else None)
                     if self.candidate_score(candidate_records, task, candidate, self.development) != candidate:
                         raise RuntimeError('Full-span candidate evidence changed')
-                if evidence['winner'] != self.weighted_winner(entries, task):
-                    raise RuntimeError('Weighted winner differs from development selection')
-                if evidence['information_set'] != 'M' and evidence['positive_weight_winner'] != self.weighted_winner(entries, task, positive_only=True):
+                ranked = self.rank(entries, task)
+                if not ranked:
+                    raise RuntimeError('No eligible full-span candidate')
+                winner = self.weighted_winner(entries, task) if self.weighted else ranked[0]
+                if evidence['winner'] != winner:
+                    raise RuntimeError('Winner differs from full-span development selection')
+                if self.weighted and evidence['information_set'] != 'M' and evidence['positive_weight_winner'] != self.weighted_winner(entries, task, positive_only=True):
                     raise RuntimeError('Weighted ablation reference differs from development selection')
                 continue
             if {c['candidate_id']: (c['parameters'], c['complexity_order']) for c in evidence['coarse']} != generated:
@@ -367,13 +382,14 @@ class Pipeline(TaskRunner):
             parameters={k: (dict(winner=v['winner'], positive_weight_winner=v['positive_weight_winner']) if self.weighted else v['winner'])
                 for k, v in selection.items()},
             analyses=[dict(mode=mode, information_set=info,
-                parameter_reference=parameter_reference(mode) if self.weighted else
+                parameter_reference=parameter_reference(mode) if self.full_span else
                     ('own_core_winner' if mode == 'retuned_core' else 'MZ_winner')) for mode, info in self.comparisons],
             backend=self.config['backend'], resources=portable_config(self.config)['resources'],
             seeds={t: seeds(self.config, t) for t in self.config['tasks']},
             exception_policy=self.config['policy'], search_rules=self.config['search'],
-            model_rules={k: self.config[k] for k in ['solver', 'calibration', 'retention', 'rbf_design'] if k in self.config},
-            **({'technical_acceptance_sha256': preflight_record.get('rbf_acceptance_sha256')} if self.weighted else {}),
+            model_rules={k: self.config[k] for k in ['solver', 'calibration', 'retention', 'rbf_design', 'forest_design', 'feature_extension'] if k in self.config},
+            **({'technical_acceptance_sha256': preflight_record.get('rbf_acceptance_sha256')} if self.weighted else
+                {'technical_acceptance_sha256': preflight_record.get('forest_acceptance_sha256')} if self.forest else {}),
             evaluation=dict(log_eps=1e-15, brier_divide_by_K=False,
                 regression='original_units_then_fixed_initial_scale_then_within_dimension_mean_then_five_dimension_mean',
                 fixed_scales=preflight_record['fixed_scales']),

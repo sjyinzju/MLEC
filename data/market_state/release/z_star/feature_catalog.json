@@ -1,0 +1,2523 @@
+{
+  "version": "macro-z-star-v1",
+  "quality_view": "historical_reconstructed",
+  "features": [
+    {
+      "feature": "macro__pmi_mfg__latest",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_mfg__release_change",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_mfg__release_trend3",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_mfg__release_innovation",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_mfg__new_innovation",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Historical prediction innovation at a new-release anchor; zero on an eligible held-value week",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_mfg__new_release",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Latest economic period first became documented after the preceding weekly anchor",
+      "unit": "binary",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_mfg__release_age_days",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Elapsed days since the earliest admitted publication for the currently held period",
+      "unit": "days",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_mfg__scaled_innovation",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Historical prediction innovation divided by SD of the preceding 6–12 eligible strictly prior innovations",
+      "unit": "ratio",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_new_orders__latest",
+      "group": "growth",
+      "sources": [
+        "pmi_new_orders"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "制造业PMI新订单指数"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_new_orders__release_change",
+      "group": "growth",
+      "sources": [
+        "pmi_new_orders"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI新订单指数"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_new_orders__release_trend3",
+      "group": "growth",
+      "sources": [
+        "pmi_new_orders"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI新订单指数"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_new_orders__release_innovation",
+      "group": "growth",
+      "sources": [
+        "pmi_new_orders"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI新订单指数"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_new_orders__new_innovation",
+      "group": "growth",
+      "sources": [
+        "pmi_new_orders"
+      ],
+      "formula": "Historical prediction innovation at a new-release anchor; zero on an eligible held-value week",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI新订单指数"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__industrial_va_yoy__latest",
+      "group": "growth",
+      "sources": [
+        "industrial_va_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "规模以上工业增加值当月实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__industrial_va_yoy__release_change",
+      "group": "growth",
+      "sources": [
+        "industrial_va_yoy"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "规模以上工业增加值当月实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__industrial_va_yoy__release_trend3",
+      "group": "growth",
+      "sources": [
+        "industrial_va_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "规模以上工业增加值当月实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__industrial_va_yoy__release_innovation",
+      "group": "growth",
+      "sources": [
+        "industrial_va_yoy"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "规模以上工业增加值当月实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__industrial_va_yoy__new_innovation",
+      "group": "growth",
+      "sources": [
+        "industrial_va_yoy"
+      ],
+      "formula": "Historical prediction innovation at a new-release anchor; zero on an eligible held-value week",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "规模以上工业增加值当月实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__industrial_va_yoy__new_release",
+      "group": "growth",
+      "sources": [
+        "industrial_va_yoy"
+      ],
+      "formula": "Latest economic period first became documented after the preceding weekly anchor",
+      "unit": "binary",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "规模以上工业增加值当月实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__industrial_va_yoy__release_age_days",
+      "group": "growth",
+      "sources": [
+        "industrial_va_yoy"
+      ],
+      "formula": "Elapsed days since the earliest admitted publication for the currently held period",
+      "unit": "days",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "规模以上工业增加值当月实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__retail_sales_yoy__latest",
+      "group": "growth",
+      "sources": [
+        "retail_sales_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "社会消费品零售总额当月名义同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__retail_sales_yoy__release_change",
+      "group": "growth",
+      "sources": [
+        "retail_sales_yoy"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会消费品零售总额当月名义同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__retail_sales_yoy__release_trend3",
+      "group": "growth",
+      "sources": [
+        "retail_sales_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会消费品零售总额当月名义同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__retail_sales_yoy__release_innovation",
+      "group": "growth",
+      "sources": [
+        "retail_sales_yoy"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会消费品零售总额当月名义同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__retail_sales_yoy__new_innovation",
+      "group": "growth",
+      "sources": [
+        "retail_sales_yoy"
+      ],
+      "formula": "Historical prediction innovation at a new-release anchor; zero on an eligible held-value week",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会消费品零售总额当月名义同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__gdp_real_yoy__latest",
+      "group": "growth",
+      "sources": [
+        "gdp_real_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "Q",
+      "kind": "retained",
+      "source_names": [
+        "GDP单季实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__gdp_real_yoy__release_change",
+      "group": "growth",
+      "sources": [
+        "gdp_real_yoy"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "%",
+      "frequency": "Q",
+      "kind": "derived",
+      "source_names": [
+        "GDP单季实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__gdp_real_yoy__release_trend3",
+      "group": "growth",
+      "sources": [
+        "gdp_real_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "Q",
+      "kind": "derived",
+      "source_names": [
+        "GDP单季实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__gdp_real_yoy__release_innovation",
+      "group": "growth",
+      "sources": [
+        "gdp_real_yoy"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "Q",
+      "kind": "derived",
+      "source_names": [
+        "GDP单季实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__gdp_real_yoy__new_innovation",
+      "group": "growth",
+      "sources": [
+        "gdp_real_yoy"
+      ],
+      "formula": "Historical prediction innovation at a new-release anchor; zero on an eligible held-value week",
+      "unit": "%",
+      "frequency": "Q",
+      "kind": "derived",
+      "source_names": [
+        "GDP单季实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__gdp_real_yoy__new_release",
+      "group": "growth",
+      "sources": [
+        "gdp_real_yoy"
+      ],
+      "formula": "Latest economic period first became documented after the preceding weekly anchor",
+      "unit": "binary",
+      "frequency": "Q",
+      "kind": "derived",
+      "source_names": [
+        "GDP单季实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__gdp_real_yoy__release_age_days",
+      "group": "growth",
+      "sources": [
+        "gdp_real_yoy"
+      ],
+      "formula": "Elapsed days since the earliest admitted publication for the currently held period",
+      "unit": "days",
+      "frequency": "Q",
+      "kind": "derived",
+      "source_names": [
+        "GDP单季实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__gdp_real_yoy__scaled_innovation",
+      "group": "growth",
+      "sources": [
+        "gdp_real_yoy"
+      ],
+      "formula": "Historical prediction innovation divided by SD of the preceding 6–12 eligible strictly prior innovations",
+      "unit": "ratio",
+      "frequency": "Q",
+      "kind": "derived",
+      "source_names": [
+        "GDP单季实际同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__latest",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__release_change",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__release_trend3",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__release_innovation",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__new_innovation",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Historical prediction innovation at a new-release anchor; zero on an eligible held-value week",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__new_release",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Latest economic period first became documented after the preceding weekly anchor",
+      "unit": "binary",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__release_age_days",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Elapsed days since the earliest admitted publication for the currently held period",
+      "unit": "days",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__scaled_innovation",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Historical prediction innovation divided by SD of the preceding 6–12 eligible strictly prior innovations",
+      "unit": "ratio",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__ppi_yoy__latest",
+      "group": "prices",
+      "sources": [
+        "ppi_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "工业生产者出厂价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__ppi_yoy__release_change",
+      "group": "prices",
+      "sources": [
+        "ppi_yoy"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "工业生产者出厂价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__ppi_yoy__release_trend3",
+      "group": "prices",
+      "sources": [
+        "ppi_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "工业生产者出厂价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__ppi_yoy__release_innovation",
+      "group": "prices",
+      "sources": [
+        "ppi_yoy"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "工业生产者出厂价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__ppi_yoy__new_innovation",
+      "group": "prices",
+      "sources": [
+        "ppi_yoy"
+      ],
+      "formula": "Historical prediction innovation at a new-release anchor; zero on an eligible held-value week",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "工业生产者出厂价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__latest",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__release_change",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__release_trend3",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__release_innovation",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__new_innovation",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Historical prediction innovation at a new-release anchor; zero on an eligible held-value week",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__new_release",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Latest economic period first became documented after the preceding weekly anchor",
+      "unit": "binary",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__release_age_days",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Elapsed days since the earliest admitted publication for the currently held period",
+      "unit": "days",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__scaled_innovation",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Historical prediction innovation divided by SD of the preceding 6–12 eligible strictly prior innovations",
+      "unit": "ratio",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__pmi_mfg__innovation_sum4w",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg"
+      ],
+      "formula": "Sum of observed historical prediction innovations over the last four weekly anchors",
+      "unit": "index",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cpi_yoy__innovation_sum4w",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy"
+      ],
+      "formula": "Sum of observed historical prediction innovations over the last four weekly anchors",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__m2_yoy__innovation_sum4w",
+      "group": "credit",
+      "sources": [
+        "m2_yoy"
+      ],
+      "formula": "Sum of observed historical prediction innovations over the last four weekly anchors",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__latest",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "社会融资规模存量可比同比（2018年7月扩围前） [tsf_201501_pre_201807]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_trend3",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2018年7月扩围前） [tsf_201501_pre_201807]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_innovation",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2018年7月扩围前） [tsf_201501_pre_201807]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__minus_m2",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807",
+        "m2_yoy"
+      ],
+      "formula": "Same economic period TSF growth minus M2 growth within the named TSF definition",
+      "unit": "percentage points",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2018年7月扩围前） [tsf_201501_pre_201807]",
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_201809__latest",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_201809"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "社会融资规模存量可比同比（再加入地方政府专项债券）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_201809__release_trend3",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_201809"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（再加入地方政府专项债券）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_201809__release_innovation",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_201809"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（再加入地方政府专项债券）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_201809__minus_m2",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_201809",
+        "m2_yoy"
+      ],
+      "formula": "Same economic period TSF growth minus M2 growth within the named TSF definition",
+      "unit": "percentage points",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（再加入地方政府专项债券）",
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__latest",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "社会融资规模存量可比同比（2019年12月扩围后）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__release_trend3",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2019年12月扩围后）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__release_innovation",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2019年12月扩围后）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__minus_m2",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy",
+        "m2_yoy"
+      ],
+      "formula": "Same economic period TSF growth minus M2 growth within the named TSF definition",
+      "unit": "percentage points",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2019年12月扩围后）",
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_202301__latest",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_202301"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "社会融资规模存量可比同比（2023年1月扩围后）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_202301__release_trend3",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_202301"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2023年1月扩围后）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_202301__release_innovation",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_202301"
+      ],
+      "formula": "Earliest documented value minus the mean of its three strictly prior comparable first-known periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2023年1月扩围后）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__tsf_stock_yoy__scope_202301__minus_m2",
+      "group": "credit",
+      "sources": [
+        "tsf_stock_yoy__scope_202301",
+        "m2_yoy"
+      ],
+      "formula": "Same economic period TSF growth minus M2 growth within the named TSF definition",
+      "unit": "percentage points",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "社会融资规模存量可比同比（2023年1月扩围后）",
+        "广义货币M2同比（各期可比口径）"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html",
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__new_rmb_loans__definition_loan_201501__release_yoy_pct",
+      "group": "credit",
+      "sources": [
+        "new_rmb_loans__definition_loan_201501"
+      ],
+      "formula": "100 × (earliest documented value ÷ same month one year earlier within this definition − 1)",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "金融机构人民币贷款当月增加 [loan_201501]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__rmb_loan_balance_yoy__definition_loan_201501__latest",
+      "group": "credit",
+      "sources": [
+        "rmb_loan_balance_yoy__definition_loan_201501"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "金融机构人民币贷款余额可比同比 [loan_201501]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__rmb_loan_balance_yoy__definition_loan_201501__release_trend3",
+      "group": "credit",
+      "sources": [
+        "rmb_loan_balance_yoy__definition_loan_201501"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "金融机构人民币贷款余额可比同比 [loan_201501]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__new_rmb_loans__definition_loan_202301__release_yoy_pct",
+      "group": "credit",
+      "sources": [
+        "new_rmb_loans__definition_loan_202301"
+      ],
+      "formula": "100 × (earliest documented value ÷ same month one year earlier within this definition − 1)",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "金融机构人民币贷款当月增加 [loan_202301]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__rmb_loan_balance_yoy__definition_loan_202301__latest",
+      "group": "credit",
+      "sources": [
+        "rmb_loan_balance_yoy__definition_loan_202301"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "金融机构人民币贷款余额可比同比 [loan_202301]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__rmb_loan_balance_yoy__definition_loan_202301__release_trend3",
+      "group": "credit",
+      "sources": [
+        "rmb_loan_balance_yoy__definition_loan_202301"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "金融机构人民币贷款余额可比同比 [loan_202301]"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__shibor_on__latest",
+      "group": "rates",
+      "sources": [
+        "shibor_on"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "Shibor隔夜定盘"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__shibor_1w__latest",
+      "group": "rates",
+      "sources": [
+        "shibor_1w"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "Shibor1周期限定盘"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__shibor_3m__latest",
+      "group": "rates",
+      "sources": [
+        "shibor_3m"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "Shibor3个月期限定盘"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__shibor_3m__change_20obs",
+      "group": "rates",
+      "sources": [
+        "shibor_3m"
+      ],
+      "formula": "Latest minus twentieth prior admitted quote within the same statistical definition",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "Shibor3个月期限定盘"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__dr007__latest",
+      "group": "rates",
+      "sources": [
+        "dr007"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "存款类机构以利率债质押7天回购成交加权利率"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__dr007__change_5obs",
+      "group": "rates",
+      "sources": [
+        "dr007"
+      ],
+      "formula": "Latest minus fifth prior admitted quote within the same statistical definition",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "存款类机构以利率债质押7天回购成交加权利率"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__dr007__change_20obs",
+      "group": "rates",
+      "sources": [
+        "dr007"
+      ],
+      "formula": "Latest minus twentieth prior admitted quote within the same statistical definition",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "存款类机构以利率债质押7天回购成交加权利率"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__dr007__vol_20obs",
+      "group": "rates",
+      "sources": [
+        "dr007"
+      ],
+      "formula": "Population standard deviation of the last 20 successive quote differences within the same definition",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "存款类机构以利率债质押7天回购成交加权利率"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cgb_1y__latest",
+      "group": "rates",
+      "sources": [
+        "cgb_1y"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "CFETS11:30国债收益率曲线1年期"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cgb_1y__change_20obs",
+      "group": "rates",
+      "sources": [
+        "cgb_1y"
+      ],
+      "formula": "Latest minus twentieth prior admitted quote within the same statistical definition",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "CFETS11:30国债收益率曲线1年期"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cgb_10y__latest",
+      "group": "rates",
+      "sources": [
+        "cgb_10y"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "CFETS11:30国债收益率曲线10年期"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__cgb_10y__change_20obs",
+      "group": "rates",
+      "sources": [
+        "cgb_10y"
+      ],
+      "formula": "Latest minus twentieth prior admitted quote within the same statistical definition",
+      "unit": "%",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "CFETS11:30国债收益率曲线10年期"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__term_spread_10y_1y__latest",
+      "group": "rates",
+      "sources": [
+        "term_spread_10y_1y"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "percentage_points",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "同一CFETS曲线10年减1年期限利差"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__term_spread_10y_1y__change_20obs",
+      "group": "rates",
+      "sources": [
+        "term_spread_10y_1y"
+      ],
+      "formula": "Latest minus twentieth prior admitted quote within the same statistical definition",
+      "unit": "percentage_points",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "同一CFETS曲线10年减1年期限利差"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__usdcny_fixing__latest",
+      "group": "external",
+      "sources": [
+        "usdcny_fixing"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "CNY/USD",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "美元兑人民币中间价"
+      ],
+      "source_definition_urls": [
+        "https://www.safe.gov.cn/safe/tjsj1/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__usdcny_fixing__change_20obs",
+      "group": "external",
+      "sources": [
+        "usdcny_fixing"
+      ],
+      "formula": "Latest minus twentieth prior admitted quote within the same statistical definition",
+      "unit": "CNY/USD",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "美元兑人民币中间价"
+      ],
+      "source_definition_urls": [
+        "https://www.safe.gov.cn/safe/tjsj1/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__usdcny_fixing__vol_20obs",
+      "group": "external",
+      "sources": [
+        "usdcny_fixing"
+      ],
+      "formula": "Population standard deviation of the last 20 successive quote differences within the same definition",
+      "unit": "CNY/USD",
+      "frequency": "D",
+      "kind": "retained",
+      "source_names": [
+        "美元兑人民币中间价"
+      ],
+      "source_definition_urls": [
+        "https://www.safe.gov.cn/safe/tjsj1/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__exports_cny_ytd_yoy__latest",
+      "group": "external",
+      "sources": [
+        "exports_cny_ytd_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "海关货物出口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__exports_cny_ytd_yoy__release_change",
+      "group": "external",
+      "sources": [
+        "exports_cny_ytd_yoy"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "海关货物出口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__exports_cny_ytd_yoy__release_trend3",
+      "group": "external",
+      "sources": [
+        "exports_cny_ytd_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "海关货物出口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__exports_cny_ytd_yoy__new_release",
+      "group": "external",
+      "sources": [
+        "exports_cny_ytd_yoy"
+      ],
+      "formula": "Latest economic period first became documented after the preceding weekly anchor",
+      "unit": "binary",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "海关货物出口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__exports_cny_ytd_yoy__release_age_days",
+      "group": "external",
+      "sources": [
+        "exports_cny_ytd_yoy"
+      ],
+      "formula": "Elapsed days since the earliest admitted publication for the currently held period",
+      "unit": "days",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "海关货物出口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__imports_cny_ytd_yoy__latest",
+      "group": "external",
+      "sources": [
+        "imports_cny_ytd_yoy"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "海关货物进口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__imports_cny_ytd_yoy__release_change",
+      "group": "external",
+      "sources": [
+        "imports_cny_ytd_yoy"
+      ],
+      "formula": "Difference between consecutive earliest documented editions; require comparable periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "海关货物进口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__imports_cny_ytd_yoy__release_trend3",
+      "group": "external",
+      "sources": [
+        "imports_cny_ytd_yoy"
+      ],
+      "formula": "Mean change per transition over three comparable earliest documented periods",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "海关货物进口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__fx_reserves__latest",
+      "group": "external",
+      "sources": [
+        "fx_reserves"
+      ],
+      "formula": "Latest admitted vintage of the latest available economic period",
+      "unit": "亿美元",
+      "frequency": "M",
+      "kind": "retained",
+      "source_names": [
+        "国家外汇储备余额"
+      ],
+      "source_definition_urls": [
+        "https://www.safe.gov.cn/safe/tjsj1/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__fx_reserves__release_yoy_pct",
+      "group": "external",
+      "sources": [
+        "fx_reserves"
+      ],
+      "formula": "100 × (earliest documented value ÷ same month one year earlier within this definition − 1)",
+      "unit": "%",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "国家外汇储备余额"
+      ],
+      "source_definition_urls": [
+        "https://www.safe.gov.cn/safe/tjsj1/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__fx_reserves__release_age_days",
+      "group": "external",
+      "sources": [
+        "fx_reserves"
+      ],
+      "formula": "Elapsed days since the earliest admitted publication for the currently held period",
+      "unit": "days",
+      "frequency": "M",
+      "kind": "derived",
+      "source_names": [
+        "国家外汇储备余额"
+      ],
+      "source_definition_urls": [
+        "https://www.safe.gov.cn/safe/tjsj1/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__dr007__pressure_rank252",
+      "group": "rates",
+      "sources": [
+        "dr007"
+      ],
+      "formula": "Midrank of current DR007 against its 252 strictly prior as-of quote observations",
+      "unit": "ratio",
+      "frequency": "D",
+      "kind": "derived",
+      "source_names": [
+        "存款类机构以利率债质押7天回购成交加权利率"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__shibor_3m__minus_on",
+      "group": "rates",
+      "sources": [
+        "shibor_3m",
+        "shibor_on"
+      ],
+      "formula": "Three-month minus overnight Shibor of the same observation day",
+      "unit": "percentage points",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "Shibor3个月期限定盘",
+        "Shibor隔夜定盘"
+      ],
+      "source_definition_urls": [
+        "https://www.chinamoney.com.cn/",
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__growth_state__breadth",
+      "group": "growth",
+      "sources": [
+        "pmi_mfg",
+        "industrial_va_yoy",
+        "retail_sales_yoy"
+      ],
+      "formula": "Fraction of expansion signals: PMI above 50, positive industrial and retail innovations",
+      "unit": "ratio",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "制造业PMI",
+        "规模以上工业增加值当月实际同比",
+        "社会消费品零售总额当月名义同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/",
+        "https://www.stats.gov.cn/",
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__prices_state__release_momentum",
+      "group": "prices",
+      "sources": [
+        "cpi_yoy",
+        "ppi_yoy"
+      ],
+      "formula": "Equal-weight mean of CPI and PPI year-over-year inflation changes",
+      "unit": "percentage points",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "居民消费价格同比",
+        "工业生产者出厂价格同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/",
+        "https://www.stats.gov.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__credit_state__trend_x_funding_pressure",
+      "group": "credit",
+      "sources": [
+        "m2_yoy",
+        "dr007"
+      ],
+      "formula": "M2 growth trend multiplied by centered historical DR007 pressure percentile",
+      "unit": "percentage points",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "广义货币M2同比（各期可比口径）",
+        "存款类机构以利率债质押7天回购成交加权利率"
+      ],
+      "source_definition_urls": [
+        "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html",
+        "https://www.chinamoney.com.cn/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__external_state__joint_fx_pressure",
+      "group": "external",
+      "sources": [
+        "usdcny_fixing",
+        "fx_reserves"
+      ],
+      "formula": "Indicator of RMB depreciation over 20 quotes together with falling reserves year over year",
+      "unit": "binary",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "美元兑人民币中间价",
+        "国家外汇储备余额"
+      ],
+      "source_definition_urls": [
+        "https://www.safe.gov.cn/safe/tjsj1/",
+        "https://www.safe.gov.cn/safe/tjsj1/"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    },
+    {
+      "feature": "macro__external_state__export_minus_import",
+      "group": "external",
+      "sources": [
+        "exports_cny_ytd_yoy",
+        "imports_cny_ytd_yoy"
+      ],
+      "formula": "CNY exports less imports year-to-date growth, same cumulative period",
+      "unit": "percentage points",
+      "frequency": "weekly_asof",
+      "kind": "derived",
+      "source_names": [
+        "海关货物出口累计人民币值同比",
+        "海关货物进口累计人民币值同比"
+      ],
+      "source_definition_urls": [
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html",
+        "https://www.stats.gov.cn/zs/tjws/zytjzbqs/zckze/202411/t20241115_1957489.html"
+      ],
+      "availability": "All parent source timestamps must be at or before the weekly 18:00 Asia/Shanghai prediction clock",
+      "missing": "NaN for unavailable or unsupported observations; imputation is learned in the training fold"
+    }
+  ],
+  "shared_bulletin_clocks": {
+    "pmi_new_orders": "pmi_mfg",
+    "retail_sales_yoy": "industrial_va_yoy",
+    "ppi_yoy": "cpi_yoy",
+    "imports_cny_ytd_yoy": "exports_cny_ytd_yoy"
+  },
+  "original_z": {
+    "retained": [
+      "macro__pmi_mfg__latest",
+      "macro__pmi_new_orders__latest",
+      "macro__industrial_va_yoy__latest",
+      "macro__retail_sales_yoy__latest",
+      "macro__gdp_real_yoy__latest",
+      "macro__cpi_yoy__latest",
+      "macro__ppi_yoy__latest",
+      "macro__m2_yoy__latest",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__latest",
+      "macro__tsf_stock_yoy__scope_201809__latest",
+      "macro__tsf_stock_yoy__latest",
+      "macro__tsf_stock_yoy__scope_202301__latest",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__latest",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__latest",
+      "macro__shibor_on__latest",
+      "macro__shibor_1w__latest",
+      "macro__shibor_3m__latest",
+      "macro__shibor_3m__change_20obs",
+      "macro__dr007__latest",
+      "macro__dr007__change_5obs",
+      "macro__dr007__change_20obs",
+      "macro__dr007__vol_20obs",
+      "macro__cgb_1y__latest",
+      "macro__cgb_1y__change_20obs",
+      "macro__cgb_10y__latest",
+      "macro__cgb_10y__change_20obs",
+      "macro__term_spread_10y_1y__latest",
+      "macro__term_spread_10y_1y__change_20obs",
+      "macro__usdcny_fixing__latest",
+      "macro__usdcny_fixing__change_20obs",
+      "macro__usdcny_fixing__vol_20obs",
+      "macro__exports_cny_ytd_yoy__latest",
+      "macro__imports_cny_ytd_yoy__latest",
+      "macro__fx_reserves__latest"
+    ],
+    "removed": [
+      "macro__pmi_mfg__change",
+      "macro__pmi_mfg__age_days",
+      "macro__pmi_mfg__not_applicable",
+      "macro__pmi_mfg__release_gap",
+      "macro__pmi_mfg__missing",
+      "macro__pmi_new_orders__change",
+      "macro__pmi_new_orders__age_days",
+      "macro__pmi_new_orders__not_applicable",
+      "macro__pmi_new_orders__release_gap",
+      "macro__pmi_new_orders__missing",
+      "macro__industrial_va_yoy__change",
+      "macro__industrial_va_yoy__age_days",
+      "macro__industrial_va_yoy__not_applicable",
+      "macro__industrial_va_yoy__release_gap",
+      "macro__industrial_va_yoy__missing",
+      "macro__retail_sales_yoy__change",
+      "macro__retail_sales_yoy__age_days",
+      "macro__retail_sales_yoy__not_applicable",
+      "macro__retail_sales_yoy__release_gap",
+      "macro__retail_sales_yoy__missing",
+      "macro__gdp_real_yoy__change",
+      "macro__gdp_real_yoy__age_days",
+      "macro__gdp_real_yoy__not_applicable",
+      "macro__gdp_real_yoy__release_gap",
+      "macro__gdp_real_yoy__missing",
+      "macro__cpi_yoy__change",
+      "macro__cpi_yoy__age_days",
+      "macro__cpi_yoy__not_applicable",
+      "macro__cpi_yoy__release_gap",
+      "macro__cpi_yoy__missing",
+      "macro__ppi_yoy__change",
+      "macro__ppi_yoy__age_days",
+      "macro__ppi_yoy__not_applicable",
+      "macro__ppi_yoy__release_gap",
+      "macro__ppi_yoy__missing",
+      "macro__m2_yoy__change",
+      "macro__m2_yoy__age_days",
+      "macro__m2_yoy__not_applicable",
+      "macro__m2_yoy__release_gap",
+      "macro__m2_yoy__missing",
+      "macro__tsf_stock_yoy__change",
+      "macro__tsf_stock_yoy__age_days",
+      "macro__tsf_stock_yoy__not_applicable",
+      "macro__tsf_stock_yoy__release_gap",
+      "macro__tsf_stock_yoy__missing",
+      "macro__tsf_stock_yoy__scope_201807__latest",
+      "macro__tsf_stock_yoy__scope_201807__change",
+      "macro__tsf_stock_yoy__scope_201807__age_days",
+      "macro__tsf_stock_yoy__scope_201807__not_applicable",
+      "macro__tsf_stock_yoy__scope_201807__release_gap",
+      "macro__tsf_stock_yoy__scope_201807__missing",
+      "macro__tsf_stock_yoy__scope_201809__change",
+      "macro__tsf_stock_yoy__scope_201809__age_days",
+      "macro__tsf_stock_yoy__scope_201809__not_applicable",
+      "macro__tsf_stock_yoy__scope_201809__release_gap",
+      "macro__tsf_stock_yoy__scope_201809__missing",
+      "macro__tsf_stock_yoy__scope_201909__latest",
+      "macro__tsf_stock_yoy__scope_201909__change",
+      "macro__tsf_stock_yoy__scope_201909__age_days",
+      "macro__tsf_stock_yoy__scope_201909__not_applicable",
+      "macro__tsf_stock_yoy__scope_201909__release_gap",
+      "macro__tsf_stock_yoy__scope_201909__missing",
+      "macro__shibor_on__change",
+      "macro__shibor_on__age_days",
+      "macro__shibor_on__not_applicable",
+      "macro__shibor_on__release_gap",
+      "macro__shibor_on__missing",
+      "macro__shibor_on__change_5obs",
+      "macro__shibor_on__vol_5obs",
+      "macro__shibor_on__change_20obs",
+      "macro__shibor_on__vol_20obs",
+      "macro__shibor_1w__change",
+      "macro__shibor_1w__age_days",
+      "macro__shibor_1w__not_applicable",
+      "macro__shibor_1w__release_gap",
+      "macro__shibor_1w__missing",
+      "macro__shibor_1w__change_5obs",
+      "macro__shibor_1w__vol_5obs",
+      "macro__shibor_1w__change_20obs",
+      "macro__shibor_1w__vol_20obs",
+      "macro__shibor_3m__change",
+      "macro__shibor_3m__age_days",
+      "macro__shibor_3m__not_applicable",
+      "macro__shibor_3m__release_gap",
+      "macro__shibor_3m__missing",
+      "macro__shibor_3m__change_5obs",
+      "macro__shibor_3m__vol_5obs",
+      "macro__shibor_3m__vol_20obs",
+      "macro__dr007__change",
+      "macro__dr007__age_days",
+      "macro__dr007__not_applicable",
+      "macro__dr007__release_gap",
+      "macro__dr007__missing",
+      "macro__dr007__vol_5obs",
+      "macro__cgb_1y__change",
+      "macro__cgb_1y__age_days",
+      "macro__cgb_1y__not_applicable",
+      "macro__cgb_1y__release_gap",
+      "macro__cgb_1y__missing",
+      "macro__cgb_1y__change_5obs",
+      "macro__cgb_1y__vol_5obs",
+      "macro__cgb_1y__vol_20obs",
+      "macro__cgb_10y__change",
+      "macro__cgb_10y__age_days",
+      "macro__cgb_10y__not_applicable",
+      "macro__cgb_10y__release_gap",
+      "macro__cgb_10y__missing",
+      "macro__cgb_10y__change_5obs",
+      "macro__cgb_10y__vol_5obs",
+      "macro__cgb_10y__vol_20obs",
+      "macro__term_spread_10y_1y__change",
+      "macro__term_spread_10y_1y__age_days",
+      "macro__term_spread_10y_1y__not_applicable",
+      "macro__term_spread_10y_1y__release_gap",
+      "macro__term_spread_10y_1y__missing",
+      "macro__term_spread_10y_1y__change_5obs",
+      "macro__term_spread_10y_1y__vol_5obs",
+      "macro__term_spread_10y_1y__vol_20obs",
+      "macro__usdcny_fixing__change",
+      "macro__usdcny_fixing__age_days",
+      "macro__usdcny_fixing__not_applicable",
+      "macro__usdcny_fixing__release_gap",
+      "macro__usdcny_fixing__missing",
+      "macro__usdcny_fixing__change_5obs",
+      "macro__usdcny_fixing__vol_5obs",
+      "macro__fx_reserves__change",
+      "macro__fx_reserves__age_days",
+      "macro__fx_reserves__not_applicable",
+      "macro__fx_reserves__release_gap",
+      "macro__fx_reserves__missing",
+      "macro__exports_cny_ytd_yoy__change",
+      "macro__exports_cny_ytd_yoy__age_days",
+      "macro__exports_cny_ytd_yoy__not_applicable",
+      "macro__exports_cny_ytd_yoy__release_gap",
+      "macro__exports_cny_ytd_yoy__missing",
+      "macro__imports_cny_ytd_yoy__change",
+      "macro__imports_cny_ytd_yoy__age_days",
+      "macro__imports_cny_ytd_yoy__not_applicable",
+      "macro__imports_cny_ytd_yoy__release_gap",
+      "macro__imports_cny_ytd_yoy__missing",
+      "macro__tsf_stock_yoy__scope_202301__change",
+      "macro__tsf_stock_yoy__scope_202301__age_days",
+      "macro__tsf_stock_yoy__scope_202301__not_applicable",
+      "macro__tsf_stock_yoy__scope_202301__release_gap",
+      "macro__tsf_stock_yoy__scope_202301__missing",
+      "macro__new_rmb_loans__definition_loan_pre_201501__latest",
+      "macro__new_rmb_loans__definition_loan_pre_201501__change",
+      "macro__new_rmb_loans__definition_loan_pre_201501__age_days",
+      "macro__new_rmb_loans__definition_loan_pre_201501__not_applicable",
+      "macro__new_rmb_loans__definition_loan_pre_201501__release_gap",
+      "macro__new_rmb_loans__definition_loan_pre_201501__missing",
+      "macro__new_rmb_loans__definition_loan_201501__latest",
+      "macro__new_rmb_loans__definition_loan_201501__change",
+      "macro__new_rmb_loans__definition_loan_201501__age_days",
+      "macro__new_rmb_loans__definition_loan_201501__not_applicable",
+      "macro__new_rmb_loans__definition_loan_201501__release_gap",
+      "macro__new_rmb_loans__definition_loan_201501__missing",
+      "macro__new_rmb_loans__definition_loan_202301__latest",
+      "macro__new_rmb_loans__definition_loan_202301__change",
+      "macro__new_rmb_loans__definition_loan_202301__age_days",
+      "macro__new_rmb_loans__definition_loan_202301__not_applicable",
+      "macro__new_rmb_loans__definition_loan_202301__release_gap",
+      "macro__new_rmb_loans__definition_loan_202301__missing",
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__latest",
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change",
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__age_days",
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__not_applicable",
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__release_gap",
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__missing",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__change",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__age_days",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__not_applicable",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__release_gap",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__missing",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__change",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__age_days",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__not_applicable",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__release_gap",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__missing",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__latest",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__change",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__age_days",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__not_applicable",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__release_gap",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__missing",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__change",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__age_days",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__not_applicable",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_gap",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__missing"
+    ],
+    "added": [
+      "macro__pmi_mfg__release_change",
+      "macro__pmi_mfg__release_trend3",
+      "macro__pmi_mfg__release_innovation",
+      "macro__pmi_mfg__new_innovation",
+      "macro__pmi_mfg__new_release",
+      "macro__pmi_mfg__release_age_days",
+      "macro__pmi_mfg__scaled_innovation",
+      "macro__pmi_new_orders__release_change",
+      "macro__pmi_new_orders__release_trend3",
+      "macro__pmi_new_orders__release_innovation",
+      "macro__pmi_new_orders__new_innovation",
+      "macro__industrial_va_yoy__release_change",
+      "macro__industrial_va_yoy__release_trend3",
+      "macro__industrial_va_yoy__release_innovation",
+      "macro__industrial_va_yoy__new_innovation",
+      "macro__industrial_va_yoy__new_release",
+      "macro__industrial_va_yoy__release_age_days",
+      "macro__retail_sales_yoy__release_change",
+      "macro__retail_sales_yoy__release_trend3",
+      "macro__retail_sales_yoy__release_innovation",
+      "macro__retail_sales_yoy__new_innovation",
+      "macro__gdp_real_yoy__release_change",
+      "macro__gdp_real_yoy__release_trend3",
+      "macro__gdp_real_yoy__release_innovation",
+      "macro__gdp_real_yoy__new_innovation",
+      "macro__gdp_real_yoy__new_release",
+      "macro__gdp_real_yoy__release_age_days",
+      "macro__gdp_real_yoy__scaled_innovation",
+      "macro__cpi_yoy__release_change",
+      "macro__cpi_yoy__release_trend3",
+      "macro__cpi_yoy__release_innovation",
+      "macro__cpi_yoy__new_innovation",
+      "macro__cpi_yoy__new_release",
+      "macro__cpi_yoy__release_age_days",
+      "macro__cpi_yoy__scaled_innovation",
+      "macro__ppi_yoy__release_change",
+      "macro__ppi_yoy__release_trend3",
+      "macro__ppi_yoy__release_innovation",
+      "macro__ppi_yoy__new_innovation",
+      "macro__m2_yoy__release_change",
+      "macro__m2_yoy__release_trend3",
+      "macro__m2_yoy__release_innovation",
+      "macro__m2_yoy__new_innovation",
+      "macro__m2_yoy__new_release",
+      "macro__m2_yoy__release_age_days",
+      "macro__m2_yoy__scaled_innovation",
+      "macro__pmi_mfg__innovation_sum4w",
+      "macro__cpi_yoy__innovation_sum4w",
+      "macro__m2_yoy__innovation_sum4w",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_trend3",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_innovation",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__minus_m2",
+      "macro__tsf_stock_yoy__scope_201809__release_trend3",
+      "macro__tsf_stock_yoy__scope_201809__release_innovation",
+      "macro__tsf_stock_yoy__scope_201809__minus_m2",
+      "macro__tsf_stock_yoy__release_trend3",
+      "macro__tsf_stock_yoy__release_innovation",
+      "macro__tsf_stock_yoy__minus_m2",
+      "macro__tsf_stock_yoy__scope_202301__release_trend3",
+      "macro__tsf_stock_yoy__scope_202301__release_innovation",
+      "macro__tsf_stock_yoy__scope_202301__minus_m2",
+      "macro__new_rmb_loans__definition_loan_201501__release_yoy_pct",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__release_trend3",
+      "macro__new_rmb_loans__definition_loan_202301__release_yoy_pct",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__release_trend3",
+      "macro__exports_cny_ytd_yoy__release_change",
+      "macro__exports_cny_ytd_yoy__release_trend3",
+      "macro__exports_cny_ytd_yoy__new_release",
+      "macro__exports_cny_ytd_yoy__release_age_days",
+      "macro__imports_cny_ytd_yoy__release_change",
+      "macro__imports_cny_ytd_yoy__release_trend3",
+      "macro__fx_reserves__release_yoy_pct",
+      "macro__fx_reserves__release_age_days",
+      "macro__dr007__pressure_rank252",
+      "macro__shibor_3m__minus_on",
+      "macro__growth_state__breadth",
+      "macro__prices_state__release_momentum",
+      "macro__credit_state__trend_x_funding_pressure",
+      "macro__external_state__joint_fx_pressure",
+      "macro__external_state__export_minus_import"
+    ]
+  }
+}

@@ -7,7 +7,8 @@ from ..common import ROOT, MARKETS, digest
 from ..models.specifications import validate_family, validate_parameters, complexity, generate_parameters
 
 CONFIG = ROOT / 'config/experiments/elastic_net.yaml'
-MODES = ['retuned_core', 'fixed_full_params']
+MODES = ['retuned_core', 'fixed_full_params', 'fixed_m_params']
+RF_INFORMATION = ('M', 'M+Z', 'M+Z_star')
 
 
 def load_config(path=CONFIG):
@@ -24,16 +25,21 @@ def validate_config(c):
         raise ValueError('Formal scope requires four markets and both primary tasks')
     s, p, r = c['search'], c['policy'], c['resources']
     weighted = c['model'] == 'rbf_svm' and 'rbf_design' in c
-    if not weighted and (s['candidate_count'] < 32 or s['finalists'] < 4 or s['finalists'] > s['candidate_count']):
+    full_span = weighted or c['model'] == 'random_forest'
+    if not full_span and (s['candidate_count'] < 32 or s['finalists'] < 4 or s['finalists'] > s['candidate_count']):
         raise ValueError('The legacy two-stage search budget may not shrink below 32/4')
-    if s['development_years'] != [2020, 2021, 2022] or (not weighted and s['coarse_months'] != [1, 4, 7, 10]):
+    if s['development_years'] != [2020, 2021, 2022] or (not full_span and s['coarse_months'] != [1, 4, 7, 10]):
         raise ValueError('Use the fixed development schedule')
     validate_family(c)
-    integer_fields = [s['candidate_count'], s['finalists'], s['max_iter'], p['convergence_retries'],
+    integer_fields = [s['candidate_count'], s['finalists'], p['convergence_retries'],
         p['iteration_multiplier'], p['task_attempts'], r['cpu_workers'], r['threads_per_task'], r['transform_cache_entries']]
+    if c['model'] != 'random_forest':
+        integer_fields.append(s['max_iter'])
+        if not np.isfinite(s['tol']) or s['tol'] <= 0 or s['max_iter'] < 1:
+            raise ValueError('Invalid iterative solver rules')
     if any(type(v) is not int for v in integer_fields):
         raise ValueError('Budgets, iterations, retries and CPU/cache counts must be integers')
-    if not np.isfinite(s['tol']) or s['tol'] <= 0 or s['max_iter'] < 1 or p['convergence_retries'] < 0 or p['iteration_multiplier'] < 1 or p['task_attempts'] < 1:
+    if p['convergence_retries'] < 0 or p['iteration_multiplier'] < 1 or p['task_attempts'] < 1:
         raise ValueError('Invalid convergence/retry rule')
     if r['cpu_workers'] < 0 or r['threads_per_task'] < 1 or r['transform_cache_entries'] < 1 or r['max_run_gb'] <= 0:
         raise ValueError('Use nonnegative outer workers (0=auto) and positive thread/cache limits')
@@ -105,6 +111,10 @@ def scope(config, store, suite):
             raise ValueError('Extension not implemented: ' + suite + '; requires ' + extension['requires'])
         raise ValueError('Unknown suite: ' + suite)
     sets = list(store.spec['sets'])
+    if config['model'] == 'random_forest':
+        if not set(RF_INFORMATION).issubset(sets):
+            raise ValueError('Random Forest requires an accepted Z* data store')
+        return [(mode, info) for mode in ('retuned_core', 'fixed_m_params') for info in RF_INFORMATION]
     if len(sets) != 12 or sets[:2] != ['M', 'M+Z']:
         raise ValueError('Expected the sealed twelve information sets')
     if 'rbf_design' in config and suite == 'full':
@@ -117,10 +127,20 @@ def scope(config, store, suite):
 
 
 def search_information(config, store, suite):
+    if config['model'] == 'random_forest':
+        return list(RF_INFORMATION)
     return list(store.spec['sets']) if 'rbf_design' in config and suite == 'full' else ['M', 'M+Z']
+
+
+def data_store(config, data_root=None):
+    from ..framework import DataStore
+    root = config['data_root'] if data_root is None else data_root
+    extension = config.get('feature_extension')
+    return DataStore(root, feature_extension=extension) if extension else DataStore(root)
 
 
 def parameter_reference(mode):
     return {'retuned_core': 'own_development_winner', 'retuned_groups': 'own_development_winner',
         'fixed_full_params': 'full_macro_development_winner_positive_weight',
+        'fixed_m_params': 'market_only_development_winner',
         'fixed_clock': 'full_macro_development_winner_positive_weight_clock_only'}[mode]

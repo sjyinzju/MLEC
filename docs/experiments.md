@@ -128,3 +128,9 @@ Random Forest、CatBoost在registry中明确未实现，调用直接报错。以
 `CHECK_WINDOWS.cmd`仅完整性/环境/数据预检；`TECHNICAL_WINDOWS.cmd`显式执行短真实技术验收；`START_WINDOWS.cmd`继续授权完整full B→新锁→C。详细技术验收命令为 `python -m scripts.market_state.experiments.technical --execute`，产物SMOKE_ONLY，临时模型/预测自动清理，不进入研究汇总。普通pytest仍禁止真实监督拟合。Windows x64 Python3.11可使用随包wheels离线安装；包不包含Python解释器。
 
 报告区分core/full、数值等价及小于0.1%的相对损失效应，保留原始差值和Bootstrap，不凭精度级差值或argmax变化宣称预警增益。第一轮测试期已查看，修复后完整复算须披露这一事实。审计与实际技术结果集中于 reports/model_build/elastic_net/optimization_20261119/。
+
+## 2026-11-26 Random Forest 与 Z*
+
+第三模型 Random Forest 与 Z* 的三信息集实验已登记于 [模型和选模方案](random_forest_zstar.md)。
+获取原始 Z 与增强 Z* 的经济字段、数据版本和真实发布口径请参阅 [Z* 说明](z_star.md)。
+原封版与原模型配置保持可按照各自版本使用。本机技术验收的输出与同伴正式 B/C 成果位于各自路径。

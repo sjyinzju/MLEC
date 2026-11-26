@@ -28,7 +28,14 @@ def validate_source_receipt(record):
 def package(destination, store, *, model='elastic_net', wheelhouse=None):
     from ..models import require_model
     require_model(model)
-    assert_interface_accepted(data_root=store.root)
+    forest = model == 'random_forest'
+    if forest:
+        from .config import load_config
+        from .forest_technical import verify_forest_receipt
+        assert_interface_accepted(data_root=store.root, feature_extension='z_star')
+        verify_forest_receipt(load_config(ROOT / 'config/experiments/random_forest.yaml'), store)
+    else:
+        assert_interface_accepted(data_root=store.root)
     tests = read_json(ROOT / 'reports/market_state/model_io/test_results.json')
     validate_source_receipt(tests)
     destination = Path(destination).resolve()
@@ -60,6 +67,11 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
         if model == 'rbf_svm':
             macro_report = ROOT / 'reports/model_build/rbf_svm/macro_20261125'
             paths += [p for p in macro_report.glob('*') if p.suffix in ['.md', '.json']]
+        if forest:
+            paths += [ROOT / 'docs' / name for name in ['random_forest_zstar.md', 'z_star.md']]
+            paths += list((ROOT / 'reports/model_build/random_forest').glob('*.json'))
+            paths += list((ROOT / 'reports/model_build/random_forest').glob('*.csv'))
+            paths += [p for p in (ROOT / 'reports/market_state/model_io/z_star').iterdir() if p.is_file()]
         paths += list((ROOT / 'reports/market_state/model_io').glob('*.json'))
         paths += [ROOT / 'reports/market_state/completion_report.md', ROOT / 'reports/market_state/model_io/implementation_report.md']
         for path in paths:
@@ -78,7 +90,12 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
         if model == 'rbf_svm':
             for name in ['README_START_HERE.md', 'START_WINDOWS.cmd', 'START_LINUX.sh', 'CHECK_WINDOWS.cmd', 'CHECK_LINUX.sh', 'TECHNICAL_WINDOWS.cmd']:
                 shutil.copy2(ROOT / 'launchers/rbf_svm' / name, temporary / name)
-        (temporary/'pytest.ini').write_text('[pytest]\ntestpaths = portable_tests\nnorecursedirs = tests results .venv-rbf-svm\n',encoding='utf8')
+        if forest:
+            for name in ['README_START_HERE.md', 'START_WINDOWS.cmd', 'START_LINUX.sh',
+                         'CHECK_WINDOWS.cmd', 'CHECK_LINUX.sh', 'TECHNICAL_WINDOWS.cmd']:
+                shutil.copy2(ROOT / 'launchers/random_forest' / name, temporary / name)
+        (temporary/'pytest.ini').write_text('[pytest]\ntestpaths = portable_tests\n'
+            'norecursedirs = tests results .venv-rbf-svm .venv-random-forest\n',encoding='utf8')
         (temporary/'SOURCE_TESTS_README.md').write_text('Source full pytest proof is copied unchanged from the source workspace.\n'
             'tests/ is source reference and may require omitted collection assets.\n'
             'Default pytest runs portable_tests/ only, produces PORTABLE_SUBSET evidence, and cannot reissue SOURCE_FULL_PYTEST.\n'
@@ -103,10 +120,32 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
         target = temporary / 'data/market_state/release/seal.json'
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(store.root / 'release/seal.json', target)
+        if forest:
+            from ..z_star_release import DIRECTORY, validate_extension
+            overlay = validate_extension(store.root)
+            for relative, sha in overlay['source_hashes'].items():
+                source = (sealed_product_path(relative, store.root)
+                    if relative.startswith('data/market_state/') else ROOT / relative)
+                if not source.is_file() or file_hash(source) != sha:
+                    raise RuntimeError('Z* rebuild source differs: ' + relative)
+                target_source = temporary / relative
+                target_source.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(source, target_source)
+            for relative in ('release/bse_factor_returns_20260923.parquet',
+                             'release/bse_factor_returns_20260923.json', 'sources/trade_calendar.parquet'):
+                reference = temporary / 'data/market_state' / relative
+                reference.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(store.root / relative, reference)
+            for name in [*overlay['products'], 'manifest.json']:
+                source = store.root / DIRECTORY / name
+                target_overlay = temporary / 'data/market_state' / DIRECTORY / name
+                target_overlay.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(source, target_overlay)
         commit = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True)
         manifest = dict(package_version='portable-experiment-v2', model=model, data_version=seal['data_version'],
             original_seal_hash=file_hash(target), experiment_code_hash=experiment_code_hash(),
             base_commit=commit.stdout.strip() if commit.returncode == 0 else None,
+            **({'feature_extension': 'z_star', 'feature_version': overlay['feature_version']} if forest else {}),
             source_state='content hashes are authoritative, including uncommitted implementation',
             data_root='data/market_state', raw_lake_required=False, supervised_fit_calls=0, calibration_fit_calls=0,
             wheelhouse='wheels' if wheelhouse is not None else None,

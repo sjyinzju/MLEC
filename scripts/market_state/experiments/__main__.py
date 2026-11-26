@@ -3,10 +3,9 @@ import argparse
 from pathlib import Path
 import json
 from ..common import ROOT
-from ..framework import DataStore
 from ..models import REGISTRY, require_model
 from .artifacts import atomic_json, exclusive_run
-from .config import CONFIG, load_config
+from .config import data_store, load_config
 from .runtime import preview, preflight
 
 
@@ -63,7 +62,7 @@ def main(argv=None):
             from .summary import summarize_runs
             print(summarize_runs(args.runs, args.destination))
         return
-    store = DataStore(config['data_root'])
+    store = data_store(config)
     if args.command in ['plan', 'pipeline', 'run'] and (args.command == 'plan' or not args.execute):
         result = preview(config, store, args.suite)
         if args.plan_output:

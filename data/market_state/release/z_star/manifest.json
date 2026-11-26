@@ -1,0 +1,25 @@
+{
+  "format": "mlec-macro-z-star-release-v1",
+  "quality": "historical_reconstructed",
+  "base_data_version": "5d57508f09249cf50b1a2e52",
+  "base_feature_version": "6d50d9efbc48040f0912",
+  "base_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+  "source_hashes": {
+    "data/standardized/macro/v4/macro_facts.parquet": "a1900b5441d56c0ae78029f011def0b883fb2df5d82ef21fdb25670fbe51c19e",
+    "data/market_state/sources/macro_repairs.parquet": "bbf9720d7c9221f35d9edeba848bf29b68c981c196f8fee66df8658bcccb2fa3",
+    "data/market_state/macro/historical_reconstructed/features.parquet": "2900a41930c537cd3e9f5c1bdd9291ad75ea539c2e322c355d69d28d76c1374a",
+    "data/market_state/macro/historical_reconstructed/lineage.parquet": "5cf9981076932cde7148b3690def33c51b93ccbf1d303e2f60b8c51c2a0724b2",
+    "data/market_state/macro/specifications.json": "60628d2dc1e118df4134a99e105c14927629980bf86014c8e98a766b767ba52e",
+    "data/market_state/feature_sets.json": "9c3c0096eeedeec1c704243d4424ab94010504371dc9853409d0c0ec64926dc2",
+    "data/market_state/fold_membership.parquet": "e305462effaff7e4fc25f3c873dc0bf5f2005bdb1e679395f8a2268da967e110"
+  },
+  "definition_version": "macro-z-star-v1",
+  "products": {
+    "features.parquet": "37a8a413d56a0b62953ba5a204e353b5cf7c35c9957d81be8344fa77330fcfdc",
+    "feature_catalog.json": "6d16068c8a022b2e0d37cc00c04de05fb1eec4096c6b40b1117807fc6ba21b9d",
+    "lineage.parquet": "e07828bd2164c8d5b479e8d240aa74f0561b109c3fbba9dbe2d5488a93c34cae",
+    "quality_report.json": "8786c1a9668b807802fcb5aa8737748c9188d9bbae23b181d8af721c6e4a6f3c",
+    "feature_sets.json": "3698d7e5e9d740402229d4e9901e2442b9e9a83041f833c771c30b8df3b2c74a"
+  },
+  "feature_version": "781685e59a0cfcdb5bb3"
+}

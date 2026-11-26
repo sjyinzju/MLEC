@@ -147,8 +147,13 @@ def test_cache_parent_dependency_content_calendar_previous_year_and_code(tmp_pat
     assert first!=partition_fingerprint([parent],history,cal,prior,[])
 
 def test_repaired_factor_boundary_no_artificial_crash():
-    d=pd.read_parquet(OUT/'cache/stocks/2026.parquet',columns=['ts_code','date','r'])
-    x=d[d.ts_code.str.endswith('.BJ')&d.date.eq('2026-09-23')]
+    from scripts.market_state.release import file_hash
+    path=OUT/'release/bse_factor_returns_20260923.parquet'
+    recorded=json.loads(path.with_suffix('.json').read_text(encoding='utf8'))
+    assert file_hash(path)==recorded['product_sha256']
+    x=pd.read_parquet(path)
+    assert len(x)==recorded['rows']==346 and x.r.notna().sum()==recorded['returns']==345
+    assert x.ts_code.is_unique and x.ts_code.str.endswith('.BJ').all() and x.date.eq('2026-09-23').all()
     assert x.r.dropna().between(-.4,.4).all()
 
 def test_neutral_state_profile_name():

@@ -63,7 +63,22 @@
   },
   "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
   "original_data_code_hash": "310d3ab1cabf4dfb6db5d70cc6eed140af799fcbbffa8f39859cd8cd92a3ed33",
-  "interface_code_hash": "26d9fc0824f8f702707c0a17c3a1d68bef27d49089b59d767668252ece68ac12",
+  "interface_code_hash": "06e924db04c9bd2d4f1257911564488f5c2f528ae9441925c3b8c8274f9cf2cc",
   "supervised_models_run": 0,
-  "scope": "All sealed data_tasks + every monthly prediction fold; output validation uses artificial arrays in pytest only"
+  "information_sets": [
+    "M",
+    "M+Z",
+    "M+Z_growth",
+    "M+Z_prices",
+    "M+Z_credit",
+    "M+Z_rates",
+    "M+Z_external",
+    "M+Z_without_growth",
+    "M+Z_without_prices",
+    "M+Z_without_credit",
+    "M+Z_without_rates",
+    "M+Z_without_external"
+  ],
+  "feature_extension": null,
+  "scope": "All sealed folds and prediction dates for the listed information sets; no supervised fitting"
 }

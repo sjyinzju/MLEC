@@ -52,13 +52,18 @@ def truth_hash(y):
 def validate_dataset(ds):
     unique_keys(ds.keys)
     n=len(ds.keys)
-    for part in [ds.X,ds.X_market,ds.X_macro,ds.metadata]+([] if ds.y is None else [ds.y]):
+    components=[ds.X_market,ds.X_macro]
+    if ds.X_interactions is not None:components.append(ds.X_interactions)
+    for part in [ds.X,*components,ds.metadata]+([] if ds.y is None else [ds.y]):
         if len(part)!=n or not part.index.equals(ds.keys.index):raise ValueError('X/Y/metadata row alignment mismatch')
     if not ds.keys.equals(ds.metadata[KEY]):raise ValueError('Metadata keys mismatch')
     if list(ds.X.columns)!=ds.feature_names or ds.feature_names!=ds.feature_schema['columns'] or not ds.X.columns.is_unique:raise ValueError('Invalid feature order')
-    if list(ds.X_market.columns)+list(ds.X_macro.columns)!=list(ds.X.columns):raise ValueError('Information set composition mismatch')
-    if not pd.concat([ds.X_market,ds.X_macro],axis=1).equals(ds.X):raise ValueError('Information set values mismatch')
-    if any(not (c.startswith(('market__','cross__','macro__','current_state'))) for c in ds.X):raise ValueError('Forbidden target/future/metadata feature')
+    if [c for part in components for c in part]!=list(ds.X):raise ValueError('Information set composition mismatch')
+    if not pd.concat(components,axis=1).equals(ds.X):raise ValueError('Information set values mismatch')
+    if any(not c.startswith(('market__','cross__','current_state')) for c in ds.X_market) or any(
+            not c.startswith('macro__') for c in ds.X_macro) or (
+            ds.X_interactions is not None and any(not c.startswith('interaction__') for c in ds.X_interactions)):
+        raise ValueError('Forbidden target/future/metadata feature or misclassified input')
     if not ds.X.dtypes.astype(str).to_dict()==ds.feature_schema['dtypes']:raise ValueError('Input dtype mismatch')
     if any(not pd.api.types.is_numeric_dtype(t) for t in ds.X.dtypes):raise ValueError('Non-numeric raw feature')
     if np.isinf(ds.X.to_numpy(float)).any():raise ValueError('Infinite input')
@@ -136,7 +141,8 @@ def training_partition(parent, keys, *,role,fit_cutoff):
     meta=part(parent.metadata);meta['fit_cutoff']=cut;meta['role']=role
     if role=='validation' and not meta.asof_time.gt(cut).all():raise ValueError('Internal validation must follow fit cutoff')
     result=replace(parent,keys=part(parent.keys),X=part(parent.X),X_market=part(parent.X_market),
-        X_macro=part(parent.X_macro),y=part(parent.y),metadata=meta,context=dict(parent.context,role=role))
+        X_macro=part(parent.X_macro),X_interactions=None if parent.X_interactions is None else part(parent.X_interactions),
+        y=part(parent.y),metadata=meta,context=dict(parent.context,role=role))
     return validate_dataset(result)
 
 
@@ -255,8 +261,9 @@ def validate_output(result, ctx, *,task, schema):
 
 def validate_pair(left,right):
     """Information sets may differ; all cohorts, truth and cutoffs must agree."""
-    for attr in ['keys','y']:
-        if not getattr(left,attr).equals(getattr(right,attr)):raise ValueError('Unpaired '+attr)
+    if not left.keys.equals(right.keys):raise ValueError('Unpaired keys')
+    if (left.y is None)!=(right.y is None) or (left.y is not None and not left.y.equals(right.y)):
+        raise ValueError('Unpaired y')
     for name in ['versions','market_id','fold_id','role']:
         if left.context[name]!=right.context[name]:raise ValueError('Unpaired '+name)
     if not left.metadata.fit_cutoff.equals(right.metadata.fit_cutoff):raise ValueError('Unpaired cutoff')

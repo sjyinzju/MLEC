@@ -197,7 +197,7 @@ _runner = None
 
 def _initialize_worker(config, data_root, identity, root, worker_factory):
     global _runner
-    from ..framework import DataStore
+    from .config import data_store
     from .runtime import MonthlyExecutor
     from threadpoolctl import threadpool_limits
     # Hold the limiter for the process lifetime as well as within each adapter.
@@ -206,7 +206,7 @@ def _initialize_worker(config, data_root, identity, root, worker_factory):
     _runner = TaskRunner()
     _runner.worker = True
     _runner.root, _runner.config = Path(root), config
-    _runner.executor = worker_factory(config, data_root, identity) if worker_factory else MonthlyExecutor(config, DataStore(data_root), identity)
+    _runner.executor = worker_factory(config, data_root, identity) if worker_factory else MonthlyExecutor(config, data_store(config, data_root), identity)
 
 
 def _worker_task(item):
@@ -241,7 +241,7 @@ class TaskScheduler:
 
     def map(self, items, *, allow_fit_failure=False):
         grouped = {}
-        weighted = 'rbf_design' in self.owner.config
+        weighted = 'rbf_design' in self.owner.config or self.owner.config['model'] == 'random_forest'
         for task, keep in items:
             group = grouped.setdefault(task['fit_id'], [task, False])
             group[1] = group[1] or keep

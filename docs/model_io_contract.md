@@ -39,7 +39,8 @@
 | keys | 唯一、有序的三列主键 |
 | X_market | 选定正式信息集内的历史金融输入，含当前/滞后状态及其他市场历史信息 |
 | X_macro | 选定信息集内、截至预测时点实际可得的正式宏观输入；M时为空列DataFrame |
-| X | 按正式顺序组合的 `X_market + X_macro`，保留原始缺失；尚未预处理 |
+| X_interactions | 使用同一周度截点的市场和宏观父列组成的交互；仅在含交互的 Z* 市场视图中存在 |
+| X | 按正式顺序组合市场、宏观及适用的交互列，保留原始缺失；尚未预处理 |
 | y | 分类一列、回归七列或明确标识的辅助软归属；prediction时为None |
 | metadata | 主键、asof_time、折/角色、fit_cutoff、数据/特征/目标/字典/契约版本；评分读取另含窗口和标签成熟信息 |
 | feature_schema / target_schema | 原始列顺序及dtype / 固定类别、连续指标、单位、维度及概率规则 |
@@ -59,6 +60,22 @@
 - `role='validation'` / `'test'`：既有相应月度评分成员，不含未成熟窗口，也不改变开发/测试边界。
 - `role='prediction'`：使用既有月度计划的预测日期，仅从market_features、当时可得宏观、固定字典schema和time_splits构造；不打开supervised_targets或sample_manifest。`prediction_eligible`只依据已存在的历史当前状态，默认返回合格行；不要求未来y存在。末端2026年11月的两周、每市场均可返回X，尽管该月没有成熟评分行。
 - `view='analysis'`：显式描述性查看，可配合eligible_only=False查看缺失；不能用于fit_inputs或fit_targets。无seal时也能分析，但data_version为空，不能静默成为正式训练。
+
+### 增强宏观扩展
+
+`DataStore(feature_extension='z_star')` 启用同一封版样本上的 Z* 特征扩展。显式打开扩展后，M、M+Z 和 M+Z_star 的特征定义共用一个扩展版本，以便配对校验。读取原有 M、M+Z 的默认配置继续使用封版特征版本。调用 `load_dataset(information_set='M+Z_star', ...)` 时，未提供 DataStore 会自动打开扩展。
+
+`Z_star` 提供纯宏观视图。M+Z_star 的 X 按 X_market、X_macro、X_interactions 顺序组成。X_market 与 M 完全相同。X_interactions 在周度市场输入装配时计算，每列有两个父字段。纯宏观字段词典、逐周来源、扩展特征集和独立版本记录见 [Z* release](../data/market_state/release/z_star)。Z* 使用 historical_reconstructed 发布视图，另有五个经济组的加入和删除投影。
+
+从封版快照和已登记的宏观源构建扩展，验收范围覆盖四市场全部时间折的三核心信息集：
+
+```powershell
+python -m scripts.market_state.run build-z-star
+python -m scripts.market_state.run interface-preflight --feature-extension z_star
+python -m pytest -q
+```
+
+正式复现使用封版文件的原始字节。直接运行 ZIP 解出的扩展可保持该身份。在不同平台重建时，JSON 换行格式可能改变产物字节和扩展版本，重建后的扩展需要重新验收。
 
 预测资格与训练/评分资格分开表达。prediction的metadata不携带未来成熟时间或未来有效性；目标/字典版本是固定定义的身份，无须读取未来真值。
 

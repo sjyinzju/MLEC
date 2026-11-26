@@ -1,0 +1,3532 @@
+{
+  "version": "macro-z-star-v1",
+  "anchors": {
+    "count": 607,
+    "first": "2015-01-09",
+    "last": "2026-11-13"
+  },
+  "quality_view": "historical_reconstructed",
+  "initial_train": {
+    "rows": 251,
+    "columns": 114,
+    "all_missing": [
+      "macro__tsf_stock_yoy__latest",
+      "macro__tsf_stock_yoy__release_trend3",
+      "macro__tsf_stock_yoy__release_innovation",
+      "macro__tsf_stock_yoy__minus_m2",
+      "macro__tsf_stock_yoy__scope_202301__latest",
+      "macro__tsf_stock_yoy__scope_202301__release_trend3",
+      "macro__tsf_stock_yoy__scope_202301__release_innovation",
+      "macro__tsf_stock_yoy__scope_202301__minus_m2",
+      "macro__new_rmb_loans__definition_loan_202301__release_yoy_pct",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__latest",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__release_trend3"
+    ],
+    "constant_observed": [],
+    "coverage": {
+      "macro__pmi_mfg__latest": 1.0,
+      "macro__pmi_mfg__release_change": 1.0,
+      "macro__pmi_mfg__release_trend3": 1.0,
+      "macro__pmi_mfg__release_innovation": 1.0,
+      "macro__pmi_mfg__new_innovation": 0.9960159362549801,
+      "macro__pmi_mfg__new_release": 0.9960159362549801,
+      "macro__pmi_mfg__release_age_days": 1.0,
+      "macro__pmi_mfg__scaled_innovation": 1.0,
+      "macro__pmi_new_orders__latest": 1.0,
+      "macro__pmi_new_orders__release_change": 1.0,
+      "macro__pmi_new_orders__release_trend3": 1.0,
+      "macro__pmi_new_orders__release_innovation": 1.0,
+      "macro__pmi_new_orders__new_innovation": 0.9960159362549801,
+      "macro__industrial_va_yoy__latest": 1.0,
+      "macro__industrial_va_yoy__release_change": 0.9203187250996016,
+      "macro__industrial_va_yoy__release_trend3": 0.8366533864541833,
+      "macro__industrial_va_yoy__release_innovation": 0.7410358565737052,
+      "macro__industrial_va_yoy__new_innovation": 0.7370517928286853,
+      "macro__industrial_va_yoy__new_release": 0.9960159362549801,
+      "macro__industrial_va_yoy__release_age_days": 1.0,
+      "macro__retail_sales_yoy__latest": 1.0,
+      "macro__retail_sales_yoy__release_change": 0.9203187250996016,
+      "macro__retail_sales_yoy__release_trend3": 0.8366533864541833,
+      "macro__retail_sales_yoy__release_innovation": 0.7410358565737052,
+      "macro__retail_sales_yoy__new_innovation": 0.7370517928286853,
+      "macro__gdp_real_yoy__latest": 1.0,
+      "macro__gdp_real_yoy__release_change": 1.0,
+      "macro__gdp_real_yoy__release_trend3": 1.0,
+      "macro__gdp_real_yoy__release_innovation": 0.9920318725099602,
+      "macro__gdp_real_yoy__new_innovation": 0.9920318725099602,
+      "macro__gdp_real_yoy__new_release": 0.9960159362549801,
+      "macro__gdp_real_yoy__release_age_days": 1.0,
+      "macro__gdp_real_yoy__scaled_innovation": 0.6852589641434262,
+      "macro__cpi_yoy__latest": 1.0,
+      "macro__cpi_yoy__release_change": 1.0,
+      "macro__cpi_yoy__release_trend3": 1.0,
+      "macro__cpi_yoy__release_innovation": 1.0,
+      "macro__cpi_yoy__new_innovation": 0.9960159362549801,
+      "macro__cpi_yoy__new_release": 0.9960159362549801,
+      "macro__cpi_yoy__release_age_days": 1.0,
+      "macro__cpi_yoy__scaled_innovation": 1.0,
+      "macro__ppi_yoy__latest": 1.0,
+      "macro__ppi_yoy__release_change": 1.0,
+      "macro__ppi_yoy__release_trend3": 1.0,
+      "macro__ppi_yoy__release_innovation": 1.0,
+      "macro__ppi_yoy__new_innovation": 0.9960159362549801,
+      "macro__m2_yoy__latest": 1.0,
+      "macro__m2_yoy__release_change": 1.0,
+      "macro__m2_yoy__release_trend3": 1.0,
+      "macro__m2_yoy__release_innovation": 1.0,
+      "macro__m2_yoy__new_innovation": 0.9960159362549801,
+      "macro__m2_yoy__new_release": 0.9960159362549801,
+      "macro__m2_yoy__release_age_days": 1.0,
+      "macro__m2_yoy__scaled_innovation": 1.0,
+      "macro__pmi_mfg__innovation_sum4w": 0.9840637450199203,
+      "macro__cpi_yoy__innovation_sum4w": 0.9840637450199203,
+      "macro__m2_yoy__innovation_sum4w": 0.9840637450199203,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__latest": 0.6932270916334662,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_trend3": 0.5099601593625498,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_innovation": 0.4900398406374502,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__minus_m2": 0.549800796812749,
+      "macro__tsf_stock_yoy__scope_201809__latest": 0.21912350597609562,
+      "macro__tsf_stock_yoy__scope_201809__release_trend3": 0.18725099601593626,
+      "macro__tsf_stock_yoy__scope_201809__release_innovation": 0.16733067729083664,
+      "macro__tsf_stock_yoy__scope_201809__minus_m2": 0.20318725099601595,
+      "macro__tsf_stock_yoy__latest": 0.0,
+      "macro__tsf_stock_yoy__release_trend3": 0.0,
+      "macro__tsf_stock_yoy__release_innovation": 0.0,
+      "macro__tsf_stock_yoy__minus_m2": 0.0,
+      "macro__tsf_stock_yoy__scope_202301__latest": 0.0,
+      "macro__tsf_stock_yoy__scope_202301__release_trend3": 0.0,
+      "macro__tsf_stock_yoy__scope_202301__release_innovation": 0.0,
+      "macro__tsf_stock_yoy__scope_202301__minus_m2": 0.0,
+      "macro__new_rmb_loans__definition_loan_201501__release_yoy_pct": 0.7729083665338645,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__latest": 0.9760956175298805,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__release_trend3": 0.9442231075697212,
+      "macro__new_rmb_loans__definition_loan_202301__release_yoy_pct": 0.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__latest": 0.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__release_trend3": 0.0,
+      "macro__shibor_on__latest": 1.0,
+      "macro__shibor_1w__latest": 1.0,
+      "macro__shibor_3m__latest": 1.0,
+      "macro__shibor_3m__change_20obs": 1.0,
+      "macro__dr007__latest": 1.0,
+      "macro__dr007__change_5obs": 1.0,
+      "macro__dr007__change_20obs": 0.9960159362549801,
+      "macro__dr007__vol_20obs": 0.9960159362549801,
+      "macro__cgb_1y__latest": 1.0,
+      "macro__cgb_1y__change_20obs": 0.9840637450199203,
+      "macro__cgb_10y__latest": 1.0,
+      "macro__cgb_10y__change_20obs": 0.9840637450199203,
+      "macro__term_spread_10y_1y__latest": 1.0,
+      "macro__term_spread_10y_1y__change_20obs": 0.9840637450199203,
+      "macro__usdcny_fixing__latest": 1.0,
+      "macro__usdcny_fixing__change_20obs": 1.0,
+      "macro__usdcny_fixing__vol_20obs": 1.0,
+      "macro__exports_cny_ytd_yoy__latest": 1.0,
+      "macro__exports_cny_ytd_yoy__release_change": 0.9362549800796812,
+      "macro__exports_cny_ytd_yoy__release_trend3": 0.8326693227091634,
+      "macro__exports_cny_ytd_yoy__new_release": 0.9960159362549801,
+      "macro__exports_cny_ytd_yoy__release_age_days": 1.0,
+      "macro__imports_cny_ytd_yoy__latest": 1.0,
+      "macro__imports_cny_ytd_yoy__release_change": 0.9362549800796812,
+      "macro__imports_cny_ytd_yoy__release_trend3": 0.8326693227091634,
+      "macro__fx_reserves__latest": 1.0,
+      "macro__fx_reserves__release_yoy_pct": 0.9442231075697212,
+      "macro__fx_reserves__release_age_days": 1.0,
+      "macro__dr007__pressure_rank252": 0.8007968127490039,
+      "macro__shibor_3m__minus_on": 1.0,
+      "macro__growth_state__breadth": 0.7410358565737052,
+      "macro__prices_state__release_momentum": 1.0,
+      "macro__credit_state__trend_x_funding_pressure": 0.8007968127490039,
+      "macro__external_state__joint_fx_pressure": 0.9442231075697212,
+      "macro__external_state__export_minus_import": 1.0
+    }
+  },
+  "legacy_initial_train": {
+    "rows": 251,
+    "columns": 224,
+    "all_missing": [
+      "macro__tsf_stock_yoy__latest",
+      "macro__tsf_stock_yoy__change",
+      "macro__tsf_stock_yoy__age_days",
+      "macro__tsf_stock_yoy__scope_202301__latest",
+      "macro__tsf_stock_yoy__scope_202301__change",
+      "macro__tsf_stock_yoy__scope_202301__age_days",
+      "macro__new_rmb_loans__definition_loan_202301__latest",
+      "macro__new_rmb_loans__definition_loan_202301__change",
+      "macro__new_rmb_loans__definition_loan_202301__age_days",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__latest",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__change",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__age_days",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__change"
+    ],
+    "constant_observed": [
+      "macro__pmi_mfg__not_applicable",
+      "macro__pmi_mfg__release_gap",
+      "macro__pmi_mfg__missing",
+      "macro__pmi_new_orders__not_applicable",
+      "macro__pmi_new_orders__release_gap",
+      "macro__pmi_new_orders__missing",
+      "macro__industrial_va_yoy__not_applicable",
+      "macro__industrial_va_yoy__release_gap",
+      "macro__industrial_va_yoy__missing",
+      "macro__retail_sales_yoy__not_applicable",
+      "macro__retail_sales_yoy__release_gap",
+      "macro__retail_sales_yoy__missing",
+      "macro__gdp_real_yoy__not_applicable",
+      "macro__gdp_real_yoy__release_gap",
+      "macro__gdp_real_yoy__missing",
+      "macro__cpi_yoy__not_applicable",
+      "macro__cpi_yoy__release_gap",
+      "macro__cpi_yoy__missing",
+      "macro__ppi_yoy__not_applicable",
+      "macro__ppi_yoy__release_gap",
+      "macro__ppi_yoy__missing",
+      "macro__m2_yoy__not_applicable",
+      "macro__m2_yoy__release_gap",
+      "macro__m2_yoy__missing",
+      "macro__tsf_stock_yoy__not_applicable",
+      "macro__tsf_stock_yoy__release_gap",
+      "macro__tsf_stock_yoy__missing",
+      "macro__tsf_stock_yoy__scope_201807__change",
+      "macro__tsf_stock_yoy__scope_201807__release_gap",
+      "macro__tsf_stock_yoy__scope_201809__release_gap",
+      "macro__tsf_stock_yoy__scope_201909__change",
+      "macro__tsf_stock_yoy__scope_201909__release_gap",
+      "macro__shibor_on__not_applicable",
+      "macro__shibor_on__release_gap",
+      "macro__shibor_on__missing",
+      "macro__shibor_1w__not_applicable",
+      "macro__shibor_1w__release_gap",
+      "macro__shibor_1w__missing",
+      "macro__shibor_3m__not_applicable",
+      "macro__shibor_3m__release_gap",
+      "macro__shibor_3m__missing",
+      "macro__dr007__not_applicable",
+      "macro__dr007__release_gap",
+      "macro__dr007__missing",
+      "macro__cgb_1y__not_applicable",
+      "macro__cgb_1y__release_gap",
+      "macro__cgb_1y__missing",
+      "macro__cgb_10y__not_applicable",
+      "macro__cgb_10y__release_gap",
+      "macro__cgb_10y__missing",
+      "macro__term_spread_10y_1y__not_applicable",
+      "macro__term_spread_10y_1y__release_gap",
+      "macro__term_spread_10y_1y__missing",
+      "macro__usdcny_fixing__not_applicable",
+      "macro__usdcny_fixing__release_gap",
+      "macro__usdcny_fixing__missing",
+      "macro__fx_reserves__not_applicable",
+      "macro__fx_reserves__release_gap",
+      "macro__fx_reserves__missing",
+      "macro__exports_cny_ytd_yoy__not_applicable",
+      "macro__exports_cny_ytd_yoy__release_gap",
+      "macro__exports_cny_ytd_yoy__missing",
+      "macro__imports_cny_ytd_yoy__not_applicable",
+      "macro__imports_cny_ytd_yoy__release_gap",
+      "macro__imports_cny_ytd_yoy__missing",
+      "macro__tsf_stock_yoy__scope_202301__not_applicable",
+      "macro__tsf_stock_yoy__scope_202301__release_gap",
+      "macro__tsf_stock_yoy__scope_202301__missing",
+      "macro__new_rmb_loans__definition_loan_pre_201501__release_gap",
+      "macro__new_rmb_loans__definition_loan_pre_201501__missing",
+      "macro__new_rmb_loans__definition_loan_201501__not_applicable",
+      "macro__new_rmb_loans__definition_loan_201501__release_gap",
+      "macro__new_rmb_loans__definition_loan_202301__not_applicable",
+      "macro__new_rmb_loans__definition_loan_202301__release_gap",
+      "macro__new_rmb_loans__definition_loan_202301__missing",
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__release_gap",
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__missing",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__not_applicable",
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__release_gap",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__not_applicable",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__release_gap",
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__missing",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__latest",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__release_gap",
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_gap"
+    ],
+    "coverage": {
+      "macro__pmi_mfg__latest": 1.0,
+      "macro__pmi_mfg__change": 1.0,
+      "macro__pmi_mfg__age_days": 1.0,
+      "macro__pmi_mfg__not_applicable": 1.0,
+      "macro__pmi_mfg__release_gap": 1.0,
+      "macro__pmi_mfg__missing": 1.0,
+      "macro__pmi_new_orders__latest": 1.0,
+      "macro__pmi_new_orders__change": 1.0,
+      "macro__pmi_new_orders__age_days": 1.0,
+      "macro__pmi_new_orders__not_applicable": 1.0,
+      "macro__pmi_new_orders__release_gap": 1.0,
+      "macro__pmi_new_orders__missing": 1.0,
+      "macro__industrial_va_yoy__latest": 1.0,
+      "macro__industrial_va_yoy__change": 0.9203187250996016,
+      "macro__industrial_va_yoy__age_days": 1.0,
+      "macro__industrial_va_yoy__not_applicable": 1.0,
+      "macro__industrial_va_yoy__release_gap": 1.0,
+      "macro__industrial_va_yoy__missing": 1.0,
+      "macro__retail_sales_yoy__latest": 1.0,
+      "macro__retail_sales_yoy__change": 0.9203187250996016,
+      "macro__retail_sales_yoy__age_days": 1.0,
+      "macro__retail_sales_yoy__not_applicable": 1.0,
+      "macro__retail_sales_yoy__release_gap": 1.0,
+      "macro__retail_sales_yoy__missing": 1.0,
+      "macro__gdp_real_yoy__latest": 1.0,
+      "macro__gdp_real_yoy__change": 1.0,
+      "macro__gdp_real_yoy__age_days": 1.0,
+      "macro__gdp_real_yoy__not_applicable": 1.0,
+      "macro__gdp_real_yoy__release_gap": 1.0,
+      "macro__gdp_real_yoy__missing": 1.0,
+      "macro__cpi_yoy__latest": 1.0,
+      "macro__cpi_yoy__change": 1.0,
+      "macro__cpi_yoy__age_days": 1.0,
+      "macro__cpi_yoy__not_applicable": 1.0,
+      "macro__cpi_yoy__release_gap": 1.0,
+      "macro__cpi_yoy__missing": 1.0,
+      "macro__ppi_yoy__latest": 1.0,
+      "macro__ppi_yoy__change": 1.0,
+      "macro__ppi_yoy__age_days": 1.0,
+      "macro__ppi_yoy__not_applicable": 1.0,
+      "macro__ppi_yoy__release_gap": 1.0,
+      "macro__ppi_yoy__missing": 1.0,
+      "macro__m2_yoy__latest": 1.0,
+      "macro__m2_yoy__change": 1.0,
+      "macro__m2_yoy__age_days": 1.0,
+      "macro__m2_yoy__not_applicable": 1.0,
+      "macro__m2_yoy__release_gap": 1.0,
+      "macro__m2_yoy__missing": 1.0,
+      "macro__tsf_stock_yoy__latest": 0.0,
+      "macro__tsf_stock_yoy__change": 0.0,
+      "macro__tsf_stock_yoy__age_days": 0.0,
+      "macro__tsf_stock_yoy__not_applicable": 1.0,
+      "macro__tsf_stock_yoy__release_gap": 1.0,
+      "macro__tsf_stock_yoy__missing": 1.0,
+      "macro__tsf_stock_yoy__scope_201807__latest": 0.04780876494023904,
+      "macro__tsf_stock_yoy__scope_201807__change": 0.03187250996015936,
+      "macro__tsf_stock_yoy__scope_201807__age_days": 0.04780876494023904,
+      "macro__tsf_stock_yoy__scope_201807__not_applicable": 1.0,
+      "macro__tsf_stock_yoy__scope_201807__release_gap": 1.0,
+      "macro__tsf_stock_yoy__scope_201807__missing": 1.0,
+      "macro__tsf_stock_yoy__scope_201809__latest": 0.21912350597609562,
+      "macro__tsf_stock_yoy__scope_201809__change": 0.20318725099601595,
+      "macro__tsf_stock_yoy__scope_201809__age_days": 0.21912350597609562,
+      "macro__tsf_stock_yoy__scope_201809__not_applicable": 1.0,
+      "macro__tsf_stock_yoy__scope_201809__release_gap": 1.0,
+      "macro__tsf_stock_yoy__scope_201809__missing": 1.0,
+      "macro__tsf_stock_yoy__scope_201909__latest": 0.027888446215139442,
+      "macro__tsf_stock_yoy__scope_201909__change": 0.01195219123505976,
+      "macro__tsf_stock_yoy__scope_201909__age_days": 0.027888446215139442,
+      "macro__tsf_stock_yoy__scope_201909__not_applicable": 1.0,
+      "macro__tsf_stock_yoy__scope_201909__release_gap": 1.0,
+      "macro__tsf_stock_yoy__scope_201909__missing": 1.0,
+      "macro__shibor_on__latest": 1.0,
+      "macro__shibor_on__change": 0.9920318725099602,
+      "macro__shibor_on__age_days": 1.0,
+      "macro__shibor_on__not_applicable": 1.0,
+      "macro__shibor_on__release_gap": 1.0,
+      "macro__shibor_on__missing": 1.0,
+      "macro__shibor_on__change_5obs": 1.0,
+      "macro__shibor_on__vol_5obs": 1.0,
+      "macro__shibor_on__change_20obs": 1.0,
+      "macro__shibor_on__vol_20obs": 1.0,
+      "macro__shibor_1w__latest": 1.0,
+      "macro__shibor_1w__change": 0.9920318725099602,
+      "macro__shibor_1w__age_days": 1.0,
+      "macro__shibor_1w__not_applicable": 1.0,
+      "macro__shibor_1w__release_gap": 1.0,
+      "macro__shibor_1w__missing": 1.0,
+      "macro__shibor_1w__change_5obs": 1.0,
+      "macro__shibor_1w__vol_5obs": 1.0,
+      "macro__shibor_1w__change_20obs": 1.0,
+      "macro__shibor_1w__vol_20obs": 1.0,
+      "macro__shibor_3m__latest": 1.0,
+      "macro__shibor_3m__change": 0.9920318725099602,
+      "macro__shibor_3m__age_days": 1.0,
+      "macro__shibor_3m__not_applicable": 1.0,
+      "macro__shibor_3m__release_gap": 1.0,
+      "macro__shibor_3m__missing": 1.0,
+      "macro__shibor_3m__change_5obs": 1.0,
+      "macro__shibor_3m__vol_5obs": 1.0,
+      "macro__shibor_3m__change_20obs": 1.0,
+      "macro__shibor_3m__vol_20obs": 1.0,
+      "macro__dr007__latest": 1.0,
+      "macro__dr007__change": 0.9920318725099602,
+      "macro__dr007__age_days": 1.0,
+      "macro__dr007__not_applicable": 1.0,
+      "macro__dr007__release_gap": 1.0,
+      "macro__dr007__missing": 1.0,
+      "macro__dr007__change_5obs": 1.0,
+      "macro__dr007__vol_5obs": 1.0,
+      "macro__dr007__change_20obs": 0.9960159362549801,
+      "macro__dr007__vol_20obs": 0.9960159362549801,
+      "macro__cgb_1y__latest": 1.0,
+      "macro__cgb_1y__change": 0.9920318725099602,
+      "macro__cgb_1y__age_days": 1.0,
+      "macro__cgb_1y__not_applicable": 1.0,
+      "macro__cgb_1y__release_gap": 1.0,
+      "macro__cgb_1y__missing": 1.0,
+      "macro__cgb_1y__change_5obs": 0.9960159362549801,
+      "macro__cgb_1y__vol_5obs": 0.9960159362549801,
+      "macro__cgb_1y__change_20obs": 0.9840637450199203,
+      "macro__cgb_1y__vol_20obs": 0.9840637450199203,
+      "macro__cgb_10y__latest": 1.0,
+      "macro__cgb_10y__change": 0.9920318725099602,
+      "macro__cgb_10y__age_days": 1.0,
+      "macro__cgb_10y__not_applicable": 1.0,
+      "macro__cgb_10y__release_gap": 1.0,
+      "macro__cgb_10y__missing": 1.0,
+      "macro__cgb_10y__change_5obs": 0.9960159362549801,
+      "macro__cgb_10y__vol_5obs": 0.9960159362549801,
+      "macro__cgb_10y__change_20obs": 0.9840637450199203,
+      "macro__cgb_10y__vol_20obs": 0.9840637450199203,
+      "macro__term_spread_10y_1y__latest": 1.0,
+      "macro__term_spread_10y_1y__change": 0.9920318725099602,
+      "macro__term_spread_10y_1y__age_days": 1.0,
+      "macro__term_spread_10y_1y__not_applicable": 1.0,
+      "macro__term_spread_10y_1y__release_gap": 1.0,
+      "macro__term_spread_10y_1y__missing": 1.0,
+      "macro__term_spread_10y_1y__change_5obs": 0.9960159362549801,
+      "macro__term_spread_10y_1y__vol_5obs": 0.9960159362549801,
+      "macro__term_spread_10y_1y__change_20obs": 0.9840637450199203,
+      "macro__term_spread_10y_1y__vol_20obs": 0.9840637450199203,
+      "macro__usdcny_fixing__latest": 1.0,
+      "macro__usdcny_fixing__change": 0.9920318725099602,
+      "macro__usdcny_fixing__age_days": 1.0,
+      "macro__usdcny_fixing__not_applicable": 1.0,
+      "macro__usdcny_fixing__release_gap": 1.0,
+      "macro__usdcny_fixing__missing": 1.0,
+      "macro__usdcny_fixing__change_5obs": 1.0,
+      "macro__usdcny_fixing__vol_5obs": 1.0,
+      "macro__usdcny_fixing__change_20obs": 1.0,
+      "macro__usdcny_fixing__vol_20obs": 1.0,
+      "macro__fx_reserves__latest": 1.0,
+      "macro__fx_reserves__change": 0.6095617529880478,
+      "macro__fx_reserves__age_days": 1.0,
+      "macro__fx_reserves__not_applicable": 1.0,
+      "macro__fx_reserves__release_gap": 1.0,
+      "macro__fx_reserves__missing": 1.0,
+      "macro__exports_cny_ytd_yoy__latest": 1.0,
+      "macro__exports_cny_ytd_yoy__change": 1.0,
+      "macro__exports_cny_ytd_yoy__age_days": 1.0,
+      "macro__exports_cny_ytd_yoy__not_applicable": 1.0,
+      "macro__exports_cny_ytd_yoy__release_gap": 1.0,
+      "macro__exports_cny_ytd_yoy__missing": 1.0,
+      "macro__imports_cny_ytd_yoy__latest": 1.0,
+      "macro__imports_cny_ytd_yoy__change": 1.0,
+      "macro__imports_cny_ytd_yoy__age_days": 1.0,
+      "macro__imports_cny_ytd_yoy__not_applicable": 1.0,
+      "macro__imports_cny_ytd_yoy__release_gap": 1.0,
+      "macro__imports_cny_ytd_yoy__missing": 1.0,
+      "macro__tsf_stock_yoy__scope_202301__latest": 0.0,
+      "macro__tsf_stock_yoy__scope_202301__change": 0.0,
+      "macro__tsf_stock_yoy__scope_202301__age_days": 0.0,
+      "macro__tsf_stock_yoy__scope_202301__not_applicable": 1.0,
+      "macro__tsf_stock_yoy__scope_202301__release_gap": 1.0,
+      "macro__tsf_stock_yoy__scope_202301__missing": 1.0,
+      "macro__new_rmb_loans__definition_loan_pre_201501__latest": 0.0398406374501992,
+      "macro__new_rmb_loans__definition_loan_pre_201501__change": 0.0398406374501992,
+      "macro__new_rmb_loans__definition_loan_pre_201501__age_days": 0.0398406374501992,
+      "macro__new_rmb_loans__definition_loan_pre_201501__not_applicable": 1.0,
+      "macro__new_rmb_loans__definition_loan_pre_201501__release_gap": 1.0,
+      "macro__new_rmb_loans__definition_loan_pre_201501__missing": 1.0,
+      "macro__new_rmb_loans__definition_loan_201501__latest": 0.9760956175298805,
+      "macro__new_rmb_loans__definition_loan_201501__change": 0.9641434262948207,
+      "macro__new_rmb_loans__definition_loan_201501__age_days": 0.9760956175298805,
+      "macro__new_rmb_loans__definition_loan_201501__not_applicable": 1.0,
+      "macro__new_rmb_loans__definition_loan_201501__release_gap": 1.0,
+      "macro__new_rmb_loans__definition_loan_201501__missing": 1.0,
+      "macro__new_rmb_loans__definition_loan_202301__latest": 0.0,
+      "macro__new_rmb_loans__definition_loan_202301__change": 0.0,
+      "macro__new_rmb_loans__definition_loan_202301__age_days": 0.0,
+      "macro__new_rmb_loans__definition_loan_202301__not_applicable": 1.0,
+      "macro__new_rmb_loans__definition_loan_202301__release_gap": 1.0,
+      "macro__new_rmb_loans__definition_loan_202301__missing": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__latest": 0.0398406374501992,
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__change": 0.0398406374501992,
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__age_days": 0.0398406374501992,
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__not_applicable": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__release_gap": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_pre_201501__missing": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__latest": 0.9760956175298805,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__change": 0.9641434262948207,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__age_days": 0.9760956175298805,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__not_applicable": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__release_gap": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__missing": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__latest": 0.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__change": 0.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__age_days": 0.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__not_applicable": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__release_gap": 1.0,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__missing": 1.0,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__latest": 0.0199203187250996,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__change": 0.0,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__age_days": 0.0199203187250996,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__not_applicable": 1.0,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__release_gap": 1.0,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501__missing": 1.0,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__latest": 0.6932270916334662,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__change": 0.5219123505976095,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__age_days": 0.6932270916334662,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__not_applicable": 1.0,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_gap": 1.0,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__missing": 1.0
+    }
+  },
+  "coverage": {
+    "rows": 607,
+    "columns": 114,
+    "all_missing": [],
+    "constant_observed": [],
+    "coverage": {
+      "macro__pmi_mfg__latest": 1.0,
+      "macro__pmi_mfg__release_change": 1.0,
+      "macro__pmi_mfg__release_trend3": 1.0,
+      "macro__pmi_mfg__release_innovation": 1.0,
+      "macro__pmi_mfg__new_innovation": 0.9983525535420099,
+      "macro__pmi_mfg__new_release": 0.9983525535420099,
+      "macro__pmi_mfg__release_age_days": 1.0,
+      "macro__pmi_mfg__scaled_innovation": 1.0,
+      "macro__pmi_new_orders__latest": 1.0,
+      "macro__pmi_new_orders__release_change": 1.0,
+      "macro__pmi_new_orders__release_trend3": 1.0,
+      "macro__pmi_new_orders__release_innovation": 1.0,
+      "macro__pmi_new_orders__new_innovation": 0.9983525535420099,
+      "macro__industrial_va_yoy__latest": 1.0,
+      "macro__industrial_va_yoy__release_change": 0.9159802306425041,
+      "macro__industrial_va_yoy__release_trend3": 0.8352553542009885,
+      "macro__industrial_va_yoy__release_innovation": 0.7462932454695222,
+      "macro__industrial_va_yoy__new_innovation": 0.7446457990115322,
+      "macro__industrial_va_yoy__new_release": 0.9983525535420099,
+      "macro__industrial_va_yoy__release_age_days": 1.0,
+      "macro__retail_sales_yoy__latest": 1.0,
+      "macro__retail_sales_yoy__release_change": 0.9159802306425041,
+      "macro__retail_sales_yoy__release_trend3": 0.8352553542009885,
+      "macro__retail_sales_yoy__release_innovation": 0.7462932454695222,
+      "macro__retail_sales_yoy__new_innovation": 0.7446457990115322,
+      "macro__gdp_real_yoy__latest": 1.0,
+      "macro__gdp_real_yoy__release_change": 1.0,
+      "macro__gdp_real_yoy__release_trend3": 1.0,
+      "macro__gdp_real_yoy__release_innovation": 0.9967051070840197,
+      "macro__gdp_real_yoy__new_innovation": 0.9967051070840197,
+      "macro__gdp_real_yoy__new_release": 0.9983525535420099,
+      "macro__gdp_real_yoy__release_age_days": 1.0,
+      "macro__gdp_real_yoy__scaled_innovation": 0.8698517298187809,
+      "macro__cpi_yoy__latest": 1.0,
+      "macro__cpi_yoy__release_change": 1.0,
+      "macro__cpi_yoy__release_trend3": 1.0,
+      "macro__cpi_yoy__release_innovation": 1.0,
+      "macro__cpi_yoy__new_innovation": 0.9983525535420099,
+      "macro__cpi_yoy__new_release": 0.9983525535420099,
+      "macro__cpi_yoy__release_age_days": 1.0,
+      "macro__cpi_yoy__scaled_innovation": 1.0,
+      "macro__ppi_yoy__latest": 1.0,
+      "macro__ppi_yoy__release_change": 1.0,
+      "macro__ppi_yoy__release_trend3": 1.0,
+      "macro__ppi_yoy__release_innovation": 1.0,
+      "macro__ppi_yoy__new_innovation": 0.9983525535420099,
+      "macro__m2_yoy__latest": 1.0,
+      "macro__m2_yoy__release_change": 1.0,
+      "macro__m2_yoy__release_trend3": 1.0,
+      "macro__m2_yoy__release_innovation": 1.0,
+      "macro__m2_yoy__new_innovation": 0.9983525535420099,
+      "macro__m2_yoy__new_release": 0.9983525535420099,
+      "macro__m2_yoy__release_age_days": 1.0,
+      "macro__m2_yoy__scaled_innovation": 1.0,
+      "macro__pmi_mfg__innovation_sum4w": 0.9934102141680395,
+      "macro__cpi_yoy__innovation_sum4w": 0.9934102141680395,
+      "macro__m2_yoy__innovation_sum4w": 0.9934102141680395,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__latest": 0.28665568369028005,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_trend3": 0.21087314662273476,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_innovation": 0.2026359143327842,
+      "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__minus_m2": 0.2273476112026359,
+      "macro__tsf_stock_yoy__scope_201809__latest": 0.09060955518945635,
+      "macro__tsf_stock_yoy__scope_201809__release_trend3": 0.07742998352553541,
+      "macro__tsf_stock_yoy__scope_201809__release_innovation": 0.06919275123558484,
+      "macro__tsf_stock_yoy__scope_201809__minus_m2": 0.08401976935749589,
+      "macro__tsf_stock_yoy__latest": 0.2652388797364086,
+      "macro__tsf_stock_yoy__release_trend3": 0.25370675453047775,
+      "macro__tsf_stock_yoy__release_innovation": 0.24546952224052718,
+      "macro__tsf_stock_yoy__minus_m2": 0.2586490939044481,
+      "macro__tsf_stock_yoy__scope_202301__latest": 0.31795716639209226,
+      "macro__tsf_stock_yoy__scope_202301__release_trend3": 0.30477759472817134,
+      "macro__tsf_stock_yoy__scope_202301__release_innovation": 0.2981878088962109,
+      "macro__tsf_stock_yoy__scope_202301__minus_m2": 0.31795716639209226,
+      "macro__new_rmb_loans__definition_loan_201501__release_yoy_pct": 0.5947281713344317,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__latest": 0.6787479406919276,
+      "macro__rmb_loan_balance_yoy__definition_loan_201501__release_trend3": 0.6655683690280065,
+      "macro__new_rmb_loans__definition_loan_202301__release_yoy_pct": 0.2273476112026359,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__latest": 0.31795716639209226,
+      "macro__rmb_loan_balance_yoy__definition_loan_202301__release_trend3": 0.30477759472817134,
+      "macro__shibor_on__latest": 1.0,
+      "macro__shibor_1w__latest": 1.0,
+      "macro__shibor_3m__latest": 1.0,
+      "macro__shibor_3m__change_20obs": 1.0,
+      "macro__dr007__latest": 1.0,
+      "macro__dr007__change_5obs": 1.0,
+      "macro__dr007__change_20obs": 0.9983525535420099,
+      "macro__dr007__vol_20obs": 0.9983525535420099,
+      "macro__cgb_1y__latest": 1.0,
+      "macro__cgb_1y__change_20obs": 0.9934102141680395,
+      "macro__cgb_10y__latest": 1.0,
+      "macro__cgb_10y__change_20obs": 0.9934102141680395,
+      "macro__term_spread_10y_1y__latest": 1.0,
+      "macro__term_spread_10y_1y__change_20obs": 0.9934102141680395,
+      "macro__usdcny_fixing__latest": 1.0,
+      "macro__usdcny_fixing__change_20obs": 1.0,
+      "macro__usdcny_fixing__vol_20obs": 1.0,
+      "macro__exports_cny_ytd_yoy__latest": 1.0,
+      "macro__exports_cny_ytd_yoy__release_change": 0.9209225700164745,
+      "macro__exports_cny_ytd_yoy__release_trend3": 0.8583196046128501,
+      "macro__exports_cny_ytd_yoy__new_release": 0.9983525535420099,
+      "macro__exports_cny_ytd_yoy__release_age_days": 1.0,
+      "macro__imports_cny_ytd_yoy__latest": 1.0,
+      "macro__imports_cny_ytd_yoy__release_change": 0.9209225700164745,
+      "macro__imports_cny_ytd_yoy__release_trend3": 0.8583196046128501,
+      "macro__fx_reserves__latest": 1.0,
+      "macro__fx_reserves__release_yoy_pct": 0.9769357495881383,
+      "macro__fx_reserves__release_age_days": 1.0,
+      "macro__dr007__pressure_rank252": 0.9176276771004942,
+      "macro__shibor_3m__minus_on": 1.0,
+      "macro__growth_state__breadth": 0.7462932454695222,
+      "macro__prices_state__release_momentum": 1.0,
+      "macro__credit_state__trend_x_funding_pressure": 0.9176276771004942,
+      "macro__external_state__joint_fx_pressure": 0.9769357495881383,
+      "macro__external_state__export_minus_import": 1.0
+    }
+  },
+  "by_fold_market_train": {
+    "2020-01/000300.SH": {
+      "rows": 251,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "2020-01/000852.SH": {
+      "rows": 251,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "2020-01/000905.SH": {
+      "rows": 251,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "2020-01/000985.SH": {
+      "rows": 251,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "2020-02/000300.SH": {
+      "rows": 254,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "2020-02/000852.SH": {
+      "rows": 254,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "2020-02/000905.SH": {
+      "rows": 254,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "2020-02/000985.SH": {
+      "rows": 254,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "2020-03/000300.SH": {
+      "rows": 259,
+      "variable": 103,
+      "all_missing": 9,
+      "constant": 2
+    },
+    "2020-03/000852.SH": {
+      "rows": 259,
+      "variable": 103,
+      "all_missing": 9,
+      "constant": 2
+    },
+    "2020-03/000905.SH": {
+      "rows": 259,
+      "variable": 103,
+      "all_missing": 9,
+      "constant": 2
+    },
+    "2020-03/000985.SH": {
+      "rows": 259,
+      "variable": 103,
+      "all_missing": 9,
+      "constant": 2
+    },
+    "2020-04/000300.SH": {
+      "rows": 263,
+      "variable": 104,
+      "all_missing": 9,
+      "constant": 1
+    },
+    "2020-04/000852.SH": {
+      "rows": 263,
+      "variable": 104,
+      "all_missing": 9,
+      "constant": 1
+    },
+    "2020-04/000905.SH": {
+      "rows": 263,
+      "variable": 104,
+      "all_missing": 9,
+      "constant": 1
+    },
+    "2020-04/000985.SH": {
+      "rows": 263,
+      "variable": 104,
+      "all_missing": 9,
+      "constant": 1
+    },
+    "2020-05/000300.SH": {
+      "rows": 267,
+      "variable": 104,
+      "all_missing": 8,
+      "constant": 2
+    },
+    "2020-05/000852.SH": {
+      "rows": 267,
+      "variable": 104,
+      "all_missing": 8,
+      "constant": 2
+    },
+    "2020-05/000905.SH": {
+      "rows": 267,
+      "variable": 104,
+      "all_missing": 8,
+      "constant": 2
+    },
+    "2020-05/000985.SH": {
+      "rows": 267,
+      "variable": 104,
+      "all_missing": 8,
+      "constant": 2
+    },
+    "2020-06/000300.SH": {
+      "rows": 271,
+      "variable": 106,
+      "all_missing": 7,
+      "constant": 1
+    },
+    "2020-06/000852.SH": {
+      "rows": 271,
+      "variable": 106,
+      "all_missing": 7,
+      "constant": 1
+    },
+    "2020-06/000905.SH": {
+      "rows": 271,
+      "variable": 106,
+      "all_missing": 7,
+      "constant": 1
+    },
+    "2020-06/000985.SH": {
+      "rows": 271,
+      "variable": 106,
+      "all_missing": 7,
+      "constant": 1
+    },
+    "2020-07/000300.SH": {
+      "rows": 276,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-07/000852.SH": {
+      "rows": 276,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-07/000905.SH": {
+      "rows": 276,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-07/000985.SH": {
+      "rows": 276,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-08/000300.SH": {
+      "rows": 281,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-08/000852.SH": {
+      "rows": 281,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-08/000905.SH": {
+      "rows": 281,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-08/000985.SH": {
+      "rows": 281,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-09/000300.SH": {
+      "rows": 285,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-09/000852.SH": {
+      "rows": 285,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-09/000905.SH": {
+      "rows": 285,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-09/000985.SH": {
+      "rows": 285,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-10/000300.SH": {
+      "rows": 289,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-10/000852.SH": {
+      "rows": 289,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-10/000905.SH": {
+      "rows": 289,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-10/000985.SH": {
+      "rows": 289,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-11/000300.SH": {
+      "rows": 292,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-11/000852.SH": {
+      "rows": 292,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-11/000905.SH": {
+      "rows": 292,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-11/000985.SH": {
+      "rows": 292,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-12/000300.SH": {
+      "rows": 298,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-12/000852.SH": {
+      "rows": 298,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-12/000905.SH": {
+      "rows": 298,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2020-12/000985.SH": {
+      "rows": 298,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-01/000300.SH": {
+      "rows": 302,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-01/000852.SH": {
+      "rows": 302,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-01/000905.SH": {
+      "rows": 302,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-01/000985.SH": {
+      "rows": 302,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-02/000300.SH": {
+      "rows": 307,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-02/000852.SH": {
+      "rows": 307,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-02/000905.SH": {
+      "rows": 307,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-02/000985.SH": {
+      "rows": 307,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-03/000300.SH": {
+      "rows": 310,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-03/000852.SH": {
+      "rows": 310,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-03/000905.SH": {
+      "rows": 310,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-03/000985.SH": {
+      "rows": 310,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-04/000300.SH": {
+      "rows": 315,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-04/000852.SH": {
+      "rows": 315,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-04/000905.SH": {
+      "rows": 315,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-04/000985.SH": {
+      "rows": 315,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-05/000300.SH": {
+      "rows": 319,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-05/000852.SH": {
+      "rows": 319,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-05/000905.SH": {
+      "rows": 319,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-05/000985.SH": {
+      "rows": 319,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-06/000300.SH": {
+      "rows": 323,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-06/000852.SH": {
+      "rows": 323,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-06/000905.SH": {
+      "rows": 323,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-06/000985.SH": {
+      "rows": 323,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-07/000300.SH": {
+      "rows": 328,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-07/000852.SH": {
+      "rows": 328,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-07/000905.SH": {
+      "rows": 328,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-07/000985.SH": {
+      "rows": 328,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-08/000300.SH": {
+      "rows": 333,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-08/000852.SH": {
+      "rows": 333,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-08/000905.SH": {
+      "rows": 333,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-08/000985.SH": {
+      "rows": 333,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-09/000300.SH": {
+      "rows": 337,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-09/000852.SH": {
+      "rows": 337,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-09/000905.SH": {
+      "rows": 337,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-09/000985.SH": {
+      "rows": 337,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-10/000300.SH": {
+      "rows": 341,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-10/000852.SH": {
+      "rows": 341,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-10/000905.SH": {
+      "rows": 341,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-10/000985.SH": {
+      "rows": 341,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-11/000300.SH": {
+      "rows": 345,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-11/000852.SH": {
+      "rows": 345,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-11/000905.SH": {
+      "rows": 345,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-11/000985.SH": {
+      "rows": 345,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-12/000300.SH": {
+      "rows": 350,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-12/000852.SH": {
+      "rows": 350,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-12/000905.SH": {
+      "rows": 350,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2021-12/000985.SH": {
+      "rows": 350,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-01/000300.SH": {
+      "rows": 355,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-01/000852.SH": {
+      "rows": 355,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-01/000905.SH": {
+      "rows": 355,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-01/000985.SH": {
+      "rows": 355,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-02/000300.SH": {
+      "rows": 358,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-02/000852.SH": {
+      "rows": 358,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-02/000905.SH": {
+      "rows": 358,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-02/000985.SH": {
+      "rows": 358,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-03/000300.SH": {
+      "rows": 362,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-03/000852.SH": {
+      "rows": 362,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-03/000905.SH": {
+      "rows": 362,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-03/000985.SH": {
+      "rows": 362,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-04/000300.SH": {
+      "rows": 366,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-04/000852.SH": {
+      "rows": 366,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-04/000905.SH": {
+      "rows": 366,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-04/000985.SH": {
+      "rows": 366,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-05/000300.SH": {
+      "rows": 370,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-05/000852.SH": {
+      "rows": 370,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-05/000905.SH": {
+      "rows": 370,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-05/000985.SH": {
+      "rows": 370,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-06/000300.SH": {
+      "rows": 374,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-06/000852.SH": {
+      "rows": 374,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-06/000905.SH": {
+      "rows": 374,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-06/000985.SH": {
+      "rows": 374,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-07/000300.SH": {
+      "rows": 379,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-07/000852.SH": {
+      "rows": 379,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-07/000905.SH": {
+      "rows": 379,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-07/000985.SH": {
+      "rows": 379,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-08/000300.SH": {
+      "rows": 384,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-08/000852.SH": {
+      "rows": 384,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-08/000905.SH": {
+      "rows": 384,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-08/000985.SH": {
+      "rows": 384,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-09/000300.SH": {
+      "rows": 388,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-09/000852.SH": {
+      "rows": 388,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-09/000905.SH": {
+      "rows": 388,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-09/000985.SH": {
+      "rows": 388,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-10/000300.SH": {
+      "rows": 392,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-10/000852.SH": {
+      "rows": 392,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-10/000905.SH": {
+      "rows": 392,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-10/000985.SH": {
+      "rows": 392,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-11/000300.SH": {
+      "rows": 396,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-11/000852.SH": {
+      "rows": 396,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-11/000905.SH": {
+      "rows": 396,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-11/000985.SH": {
+      "rows": 396,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-12/000300.SH": {
+      "rows": 400,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-12/000852.SH": {
+      "rows": 400,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-12/000905.SH": {
+      "rows": 400,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2022-12/000985.SH": {
+      "rows": 400,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-01/000300.SH": {
+      "rows": 405,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-01/000852.SH": {
+      "rows": 405,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-01/000905.SH": {
+      "rows": 405,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-01/000985.SH": {
+      "rows": 405,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-02/000300.SH": {
+      "rows": 408,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-02/000852.SH": {
+      "rows": 408,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-02/000905.SH": {
+      "rows": 408,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-02/000985.SH": {
+      "rows": 408,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-03/000300.SH": {
+      "rows": 412,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-03/000852.SH": {
+      "rows": 412,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-03/000905.SH": {
+      "rows": 412,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-03/000985.SH": {
+      "rows": 412,
+      "variable": 107,
+      "all_missing": 7,
+      "constant": 0
+    },
+    "2023-04/000300.SH": {
+      "rows": 417,
+      "variable": 107,
+      "all_missing": 4,
+      "constant": 3
+    },
+    "2023-04/000852.SH": {
+      "rows": 417,
+      "variable": 107,
+      "all_missing": 4,
+      "constant": 3
+    },
+    "2023-04/000905.SH": {
+      "rows": 417,
+      "variable": 107,
+      "all_missing": 4,
+      "constant": 3
+    },
+    "2023-04/000985.SH": {
+      "rows": 417,
+      "variable": 107,
+      "all_missing": 4,
+      "constant": 3
+    },
+    "2023-05/000300.SH": {
+      "rows": 420,
+      "variable": 110,
+      "all_missing": 4,
+      "constant": 0
+    },
+    "2023-05/000852.SH": {
+      "rows": 420,
+      "variable": 110,
+      "all_missing": 4,
+      "constant": 0
+    },
+    "2023-05/000905.SH": {
+      "rows": 420,
+      "variable": 110,
+      "all_missing": 4,
+      "constant": 0
+    },
+    "2023-05/000985.SH": {
+      "rows": 420,
+      "variable": 110,
+      "all_missing": 4,
+      "constant": 0
+    },
+    "2023-06/000300.SH": {
+      "rows": 425,
+      "variable": 110,
+      "all_missing": 2,
+      "constant": 2
+    },
+    "2023-06/000852.SH": {
+      "rows": 425,
+      "variable": 110,
+      "all_missing": 2,
+      "constant": 2
+    },
+    "2023-06/000905.SH": {
+      "rows": 425,
+      "variable": 110,
+      "all_missing": 2,
+      "constant": 2
+    },
+    "2023-06/000985.SH": {
+      "rows": 425,
+      "variable": 110,
+      "all_missing": 2,
+      "constant": 2
+    },
+    "2023-07/000300.SH": {
+      "rows": 429,
+      "variable": 112,
+      "all_missing": 1,
+      "constant": 1
+    },
+    "2023-07/000852.SH": {
+      "rows": 429,
+      "variable": 112,
+      "all_missing": 1,
+      "constant": 1
+    },
+    "2023-07/000905.SH": {
+      "rows": 429,
+      "variable": 112,
+      "all_missing": 1,
+      "constant": 1
+    },
+    "2023-07/000985.SH": {
+      "rows": 429,
+      "variable": 112,
+      "all_missing": 1,
+      "constant": 1
+    },
+    "2023-08/000300.SH": {
+      "rows": 434,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-08/000852.SH": {
+      "rows": 434,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-08/000905.SH": {
+      "rows": 434,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-08/000985.SH": {
+      "rows": 434,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-09/000300.SH": {
+      "rows": 438,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-09/000852.SH": {
+      "rows": 438,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-09/000905.SH": {
+      "rows": 438,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-09/000985.SH": {
+      "rows": 438,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-10/000300.SH": {
+      "rows": 442,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-10/000852.SH": {
+      "rows": 442,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-10/000905.SH": {
+      "rows": 442,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-10/000985.SH": {
+      "rows": 442,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-11/000300.SH": {
+      "rows": 446,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-11/000852.SH": {
+      "rows": 446,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-11/000905.SH": {
+      "rows": 446,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-11/000985.SH": {
+      "rows": 446,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-12/000300.SH": {
+      "rows": 450,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-12/000852.SH": {
+      "rows": 450,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-12/000905.SH": {
+      "rows": 450,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2023-12/000985.SH": {
+      "rows": 450,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-01/000300.SH": {
+      "rows": 455,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-01/000852.SH": {
+      "rows": 455,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-01/000905.SH": {
+      "rows": 455,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-01/000985.SH": {
+      "rows": 455,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-02/000300.SH": {
+      "rows": 459,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-02/000852.SH": {
+      "rows": 459,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-02/000905.SH": {
+      "rows": 459,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-02/000985.SH": {
+      "rows": 459,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-03/000300.SH": {
+      "rows": 462,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-03/000852.SH": {
+      "rows": 462,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-03/000905.SH": {
+      "rows": 462,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-03/000985.SH": {
+      "rows": 462,
+      "variable": 113,
+      "all_missing": 1,
+      "constant": 0
+    },
+    "2024-04/000300.SH": {
+      "rows": 467,
+      "variable": 113,
+      "all_missing": 0,
+      "constant": 1
+    },
+    "2024-04/000852.SH": {
+      "rows": 467,
+      "variable": 113,
+      "all_missing": 0,
+      "constant": 1
+    },
+    "2024-04/000905.SH": {
+      "rows": 467,
+      "variable": 113,
+      "all_missing": 0,
+      "constant": 1
+    },
+    "2024-04/000985.SH": {
+      "rows": 467,
+      "variable": 113,
+      "all_missing": 0,
+      "constant": 1
+    },
+    "2024-05/000300.SH": {
+      "rows": 471,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-05/000852.SH": {
+      "rows": 471,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-05/000905.SH": {
+      "rows": 471,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-05/000985.SH": {
+      "rows": 471,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-06/000300.SH": {
+      "rows": 476,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-06/000852.SH": {
+      "rows": 476,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-06/000905.SH": {
+      "rows": 476,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-06/000985.SH": {
+      "rows": 476,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-07/000300.SH": {
+      "rows": 479,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-07/000852.SH": {
+      "rows": 479,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-07/000905.SH": {
+      "rows": 479,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-07/000985.SH": {
+      "rows": 479,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-08/000300.SH": {
+      "rows": 484,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-08/000852.SH": {
+      "rows": 484,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-08/000905.SH": {
+      "rows": 484,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-08/000985.SH": {
+      "rows": 484,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-09/000300.SH": {
+      "rows": 489,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-09/000852.SH": {
+      "rows": 489,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-09/000905.SH": {
+      "rows": 489,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-09/000985.SH": {
+      "rows": 489,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-10/000300.SH": {
+      "rows": 492,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-10/000852.SH": {
+      "rows": 492,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-10/000905.SH": {
+      "rows": 492,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-10/000985.SH": {
+      "rows": 492,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-11/000300.SH": {
+      "rows": 496,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-11/000852.SH": {
+      "rows": 496,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-11/000905.SH": {
+      "rows": 496,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-11/000985.SH": {
+      "rows": 496,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-12/000300.SH": {
+      "rows": 502,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-12/000852.SH": {
+      "rows": 502,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-12/000905.SH": {
+      "rows": 502,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2024-12/000985.SH": {
+      "rows": 502,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-01/000300.SH": {
+      "rows": 506,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-01/000852.SH": {
+      "rows": 506,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-01/000905.SH": {
+      "rows": 506,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-01/000985.SH": {
+      "rows": 506,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-02/000300.SH": {
+      "rows": 510,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-02/000852.SH": {
+      "rows": 510,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-02/000905.SH": {
+      "rows": 510,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-02/000985.SH": {
+      "rows": 510,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-03/000300.SH": {
+      "rows": 513,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-03/000852.SH": {
+      "rows": 513,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-03/000905.SH": {
+      "rows": 513,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-03/000985.SH": {
+      "rows": 513,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-04/000300.SH": {
+      "rows": 519,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-04/000852.SH": {
+      "rows": 519,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-04/000905.SH": {
+      "rows": 519,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-04/000985.SH": {
+      "rows": 519,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-05/000300.SH": {
+      "rows": 523,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-05/000852.SH": {
+      "rows": 523,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-05/000905.SH": {
+      "rows": 523,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-05/000985.SH": {
+      "rows": 523,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-06/000300.SH": {
+      "rows": 527,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-06/000852.SH": {
+      "rows": 527,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-06/000905.SH": {
+      "rows": 527,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-06/000985.SH": {
+      "rows": 527,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-07/000300.SH": {
+      "rows": 532,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-07/000852.SH": {
+      "rows": 532,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-07/000905.SH": {
+      "rows": 532,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-07/000985.SH": {
+      "rows": 532,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-08/000300.SH": {
+      "rows": 536,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-08/000852.SH": {
+      "rows": 536,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-08/000905.SH": {
+      "rows": 536,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-08/000985.SH": {
+      "rows": 536,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-09/000300.SH": {
+      "rows": 541,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-09/000852.SH": {
+      "rows": 541,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-09/000905.SH": {
+      "rows": 541,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-09/000985.SH": {
+      "rows": 541,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-10/000300.SH": {
+      "rows": 545,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-10/000852.SH": {
+      "rows": 545,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-10/000905.SH": {
+      "rows": 545,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-10/000985.SH": {
+      "rows": 545,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-11/000300.SH": {
+      "rows": 548,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-11/000852.SH": {
+      "rows": 548,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-11/000905.SH": {
+      "rows": 548,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-11/000985.SH": {
+      "rows": 548,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-12/000300.SH": {
+      "rows": 554,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-12/000852.SH": {
+      "rows": 554,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-12/000905.SH": {
+      "rows": 554,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2025-12/000985.SH": {
+      "rows": 554,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-01/000300.SH": {
+      "rows": 558,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-01/000852.SH": {
+      "rows": 558,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-01/000905.SH": {
+      "rows": 558,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-01/000985.SH": {
+      "rows": 558,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-02/000300.SH": {
+      "rows": 563,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-02/000852.SH": {
+      "rows": 563,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-02/000905.SH": {
+      "rows": 563,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-02/000985.SH": {
+      "rows": 563,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-03/000300.SH": {
+      "rows": 565,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-03/000852.SH": {
+      "rows": 565,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-03/000905.SH": {
+      "rows": 565,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-03/000985.SH": {
+      "rows": 565,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-04/000300.SH": {
+      "rows": 570,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-04/000852.SH": {
+      "rows": 570,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-04/000905.SH": {
+      "rows": 570,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-04/000985.SH": {
+      "rows": 570,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-05/000300.SH": {
+      "rows": 574,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-05/000852.SH": {
+      "rows": 574,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-05/000905.SH": {
+      "rows": 574,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-05/000985.SH": {
+      "rows": 574,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-06/000300.SH": {
+      "rows": 578,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-06/000852.SH": {
+      "rows": 578,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-06/000905.SH": {
+      "rows": 578,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-06/000985.SH": {
+      "rows": 578,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-07/000300.SH": {
+      "rows": 583,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-07/000852.SH": {
+      "rows": 583,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-07/000905.SH": {
+      "rows": 583,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-07/000985.SH": {
+      "rows": 583,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-08/000300.SH": {
+      "rows": 588,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-08/000852.SH": {
+      "rows": 588,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-08/000905.SH": {
+      "rows": 588,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-08/000985.SH": {
+      "rows": 588,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-09/000300.SH": {
+      "rows": 592,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-09/000852.SH": {
+      "rows": 592,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-09/000905.SH": {
+      "rows": 592,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-09/000985.SH": {
+      "rows": 592,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-10/000300.SH": {
+      "rows": 596,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-10/000852.SH": {
+      "rows": 596,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-10/000905.SH": {
+      "rows": 596,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-10/000985.SH": {
+      "rows": 596,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-11/000300.SH": {
+      "rows": 600,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-11/000852.SH": {
+      "rows": 600,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-11/000905.SH": {
+      "rows": 600,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "2026-11/000985.SH": {
+      "rows": 600,
+      "variable": 114,
+      "all_missing": 0,
+      "constant": 0
+    },
+    "initial/000300.SH": {
+      "rows": 251,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "initial/000852.SH": {
+      "rows": 251,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "initial/000905.SH": {
+      "rows": 251,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    },
+    "initial/000985.SH": {
+      "rows": 251,
+      "variable": 103,
+      "all_missing": 11,
+      "constant": 0
+    }
+  },
+  "by_group": {
+    "growth": 35,
+    "prices": 15,
+    "credit": 32,
+    "rates": 16,
+    "external": 16
+  },
+  "initial_train_population_variance": {
+    "macro__pmi_mfg__latest": 0.7631812193457247,
+    "macro__pmi_mfg__release_change": 0.21384962143458036,
+    "macro__pmi_mfg__release_trend3": 0.08437485119283836,
+    "macro__pmi_mfg__release_innovation": 0.2538618610992071,
+    "macro__pmi_mfg__new_innovation": 0.05674739555555575,
+    "macro__pmi_mfg__new_release": 0.17817600000000006,
+    "macro__pmi_mfg__release_age_days": 77.98288916048949,
+    "macro__pmi_mfg__scaled_innovation": 1.5994509122855995,
+    "macro__pmi_new_orders__latest": 2.0980190790622353,
+    "macro__pmi_new_orders__release_change": 0.7256773702004725,
+    "macro__pmi_new_orders__release_trend3": 0.2861806955445152,
+    "macro__pmi_new_orders__release_innovation": 0.8220031075344465,
+    "macro__pmi_new_orders__new_innovation": 0.18804709333333286,
+    "macro__industrial_va_yoy__latest": 0.5534493103284075,
+    "macro__industrial_va_yoy__release_change": 0.528048949607391,
+    "macro__industrial_va_yoy__release_trend3": 0.1423426303854875,
+    "macro__industrial_va_yoy__release_innovation": 0.13969106897393407,
+    "macro__industrial_va_yoy__new_innovation": 0.03396360685009333,
+    "macro__industrial_va_yoy__new_release": 0.157584,
+    "macro__industrial_va_yoy__release_age_days": 366.0793320740941,
+    "macro__retail_sales_yoy__latest": 1.4499630164600565,
+    "macro__retail_sales_yoy__release_change": 0.35689473585577486,
+    "macro__retail_sales_yoy__release_trend3": 0.13136938775510207,
+    "macro__retail_sales_yoy__release_innovation": 0.2669363189064888,
+    "macro__retail_sales_yoy__new_innovation": 0.05183787030273514,
+    "macro__gdp_real_yoy__latest": 0.07334835954984838,
+    "macro__gdp_real_yoy__release_change": 0.010210314121998068,
+    "macro__gdp_real_yoy__release_trend3": 0.005387930350311901,
+    "macro__gdp_real_yoy__release_innovation": 0.018520274762593443,
+    "macro__gdp_real_yoy__new_innovation": 0.002697053273334302,
+    "macro__gdp_real_yoy__new_release": 0.0736,
+    "macro__gdp_real_yoy__release_age_days": 699.7142902493613,
+    "macro__gdp_real_yoy__scaled_innovation": 1.2897775257029784,
+    "macro__cpi_yoy__latest": 0.30900334915318795,
+    "macro__cpi_yoy__release_change": 0.1831694735004206,
+    "macro__cpi_yoy__release_trend3": 0.06816399739686672,
+    "macro__cpi_yoy__release_innovation": 0.20540157210908466,
+    "macro__cpi_yoy__new_innovation": 0.04892366222222221,
+    "macro__cpi_yoy__new_release": 0.180304,
+    "macro__cpi_yoy__release_age_days": 80.88531928064631,
+    "macro__cpi_yoy__scaled_innovation": 1.3458635040749998,
+    "macro__ppi_yoy__latest": 19.105616418787005,
+    "macro__ppi_yoy__release_change": 0.5826497992095363,
+    "macro__ppi_yoy__release_trend3": 0.49859041919969516,
+    "macro__ppi_yoy__release_innovation": 1.8087829646443,
+    "macro__ppi_yoy__new_innovation": 0.43135610666666674,
+    "macro__m2_yoy__latest": 3.8038389866827518,
+    "macro__m2_yoy__release_change": 0.38561927588450984,
+    "macro__m2_yoy__release_trend3": 0.15267773527404335,
+    "macro__m2_yoy__release_innovation": 0.4702147232230884,
+    "macro__m2_yoy__new_innovation": 0.11056881777777781,
+    "macro__m2_yoy__new_release": 0.180304,
+    "macro__m2_yoy__release_age_days": 83.1699179378105,
+    "macro__m2_yoy__scaled_innovation": 1.0214596618243292,
+    "macro__pmi_mfg__innovation_sum4w": 0.23585653118574584,
+    "macro__cpi_yoy__innovation_sum4w": 0.1925802568291381,
+    "macro__m2_yoy__innovation_sum4w": 0.4239588330319207,
+    "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__latest": 0.8424947152860349,
+    "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_trend3": 0.06206481933593749,
+    "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__release_innovation": 0.21989835562312254,
+    "macro__tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807__minus_m2": 1.9850750892669609,
+    "macro__tsf_stock_yoy__scope_201809__latest": 0.11026115702479322,
+    "macro__tsf_stock_yoy__scope_201809__release_trend3": 0.03434359438660022,
+    "macro__tsf_stock_yoy__scope_201809__release_innovation": 0.06447467876039312,
+    "macro__tsf_stock_yoy__scope_201809__minus_m2": 0.06485198000768921,
+    "macro__tsf_stock_yoy__latest": null,
+    "macro__tsf_stock_yoy__release_trend3": null,
+    "macro__tsf_stock_yoy__release_innovation": null,
+    "macro__tsf_stock_yoy__minus_m2": null,
+    "macro__tsf_stock_yoy__scope_202301__latest": null,
+    "macro__tsf_stock_yoy__scope_202301__release_trend3": null,
+    "macro__tsf_stock_yoy__scope_202301__release_innovation": null,
+    "macro__tsf_stock_yoy__scope_202301__minus_m2": null,
+    "macro__new_rmb_loans__definition_loan_201501__release_yoy_pct": 1236.3983393308733,
+    "macro__rmb_loan_balance_yoy__definition_loan_201501__latest": 0.7340098292378179,
+    "macro__rmb_loan_balance_yoy__definition_loan_201501__release_trend3": 0.07401760757713328,
+    "macro__new_rmb_loans__definition_loan_202301__release_yoy_pct": null,
+    "macro__rmb_loan_balance_yoy__definition_loan_202301__latest": null,
+    "macro__rmb_loan_balance_yoy__definition_loan_202301__release_trend3": null,
+    "macro__shibor_on__latest": 0.2275975065589435,
+    "macro__shibor_1w__latest": 0.1911066355946731,
+    "macro__shibor_3m__latest": 0.6000812788955731,
+    "macro__shibor_3m__change_20obs": 0.08455054942810432,
+    "macro__dr007__latest": 0.20468481882827258,
+    "macro__dr007__change_5obs": 0.03764428153934065,
+    "macro__dr007__change_20obs": 0.10239002571663999,
+    "macro__dr007__vol_20obs": 0.0019025427615999417,
+    "macro__cgb_1y__latest": 0.22660749958381612,
+    "macro__cgb_1y__change_20obs": 0.04450162030421742,
+    "macro__cgb_10y__latest": 0.1094485498128601,
+    "macro__cgb_10y__change_20obs": 0.01780908241275877,
+    "macro__term_spread_10y_1y__latest": 0.08546558632434408,
+    "macro__term_spread_10y_1y__change_20obs": 0.04265058571686145,
+    "macro__usdcny_fixing__latest": 0.07583111624037714,
+    "macro__usdcny_fixing__change_20obs": 0.0067992850408723675,
+    "macro__usdcny_fixing__vol_20obs": 3.876499617379896e-05,
+    "macro__exports_cny_ytd_yoy__latest": 45.749599530166186,
+    "macro__exports_cny_ytd_yoy__release_change": 22.138401810774106,
+    "macro__exports_cny_ytd_yoy__release_trend3": 3.401630915043153,
+    "macro__exports_cny_ytd_yoy__new_release": 0.180304,
+    "macro__exports_cny_ytd_yoy__release_age_days": 92.61475214679132,
+    "macro__imports_cny_ytd_yoy__latest": 226.33182711385533,
+    "macro__imports_cny_ytd_yoy__release_change": 8.574536170212768,
+    "macro__imports_cny_ytd_yoy__release_trend3": 3.090328975984982,
+    "macro__fx_reserves__latest": 6311381.468843908,
+    "macro__fx_reserves__release_yoy_pct": 31.68121690047422,
+    "macro__fx_reserves__release_age_days": 535.9713972794083,
+    "macro__dr007__pressure_rank252": 0.10986187169768198,
+    "macro__shibor_3m__minus_on": 0.36756297868033844,
+    "macro__growth_state__breadth": 0.09044398196323274,
+    "macro__prices_state__release_momentum": 0.17993555657846702,
+    "macro__credit_state__trend_x_funding_pressure": 0.008591152050288021,
+    "macro__external_state__joint_fx_pressure": 0.2393135003293632,
+    "macro__external_state__export_minus_import": 126.03116775924192
+  },
+  "initial_train_extended_tukey_outliers": {
+    "macro__shibor_3m__change_20obs": 1,
+    "macro__dr007__change_5obs": 1,
+    "macro__dr007__change_20obs": 6,
+    "macro__dr007__vol_20obs": 1,
+    "macro__exports_cny_ytd_yoy__release_change": 26,
+    "macro__exports_cny_ytd_yoy__release_trend3": 4,
+    "macro__imports_cny_ytd_yoy__release_change": 5
+  },
+  "initial_train_high_correlations": [],
+  "interpretation": {
+    "inputs": "Descriptive checks only; original units and missing values preserved. No labels or performance used.",
+    "later_editions": "Revision evidence is retained under dated PIT rules in legacy levels. New release descriptors freeze the first admissible edition of each period and require strictly earlier parents. Historical reconstruction can include dated contemporary reprints.",
+    "expectation": "No archived pre-release market consensus was present in the registered source data. Innovation is a forecast against prior observed releases.",
+    "daily": "Existing observation-window features are reused. Reconstructed quotes inherit the source vintage and date limitations; correction archives are incomplete.",
+    "credit": "TSF and loan regimes remain separate. TSF–M2 requires identical economic periods; new-loan seasonal change stays in the same definition.",
+    "legacy": "The sealed Z is preserved. Its trade YTD changes can cross calendar years and its source-age resets on same-period table reissues; Z* applies the economic year guard and first-documentation clock. Historical M+Z models using these columns should continue to be labeled legacy Z."
+  },
+  "series": {
+    "cgb_10y": {
+      "frequency": "D",
+      "unit": "%",
+      "admitted_source_rows": 2958,
+      "first_documented_periods": 2958,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 607,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 0,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "conservative_release_reconstructed": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_historical_fixing_date_end_of_day; no correction archive": 2958
+      }
+    },
+    "cgb_1y": {
+      "frequency": "D",
+      "unit": "%",
+      "admitted_source_rows": 2958,
+      "first_documented_periods": 2958,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 607,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 0,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "conservative_release_reconstructed": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_historical_fixing_date_end_of_day; no correction archive": 2958
+      }
+    },
+    "cpi_yoy": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 154,
+      "first_documented_periods": 154,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 144,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 463,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 154
+      }
+    },
+    "dr007": {
+      "frequency": "D",
+      "unit": "%",
+      "admitted_source_rows": 3010,
+      "first_documented_periods": 2980,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 607,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 0,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "latest_vintage_reconstructed": 593,
+        "conservative_release_reconstructed": 14
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "retrieval_only_no_original_quote_archive": 2947,
+        "official_historical_fixing_date_end_of_day; no correction archive": 63
+      }
+    },
+    "exports_cny_ytd_yoy": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 362,
+      "first_documented_periods": 152,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 137,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 470,
+      "same_period_source_updates": 73,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 433,
+        "conservative_release_reconstructed": 174
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 191,
+        "verified_reprint_date_end_of_day": 165,
+        "Dated official reproduction at conservative end of day; no inferred earlier first release": 3,
+        "Dated attributed reproduction at end of day; never inferred original first release": 2,
+        "Actual government republication at end of day, not inferred first release": 1
+      },
+      "legacy_ytd_cross_year_change_anchors": [
+        "2015-02-17",
+        "2015-02-27",
+        "2015-03-06",
+        "2016-02-26",
+        "2016-03-04",
+        "2017-02-24",
+        "2017-03-03",
+        "2017-03-10",
+        "2018-02-14",
+        "2018-02-23",
+        "2018-03-02",
+        "2018-03-09",
+        "2019-02-15",
+        "2019-02-22",
+        "2019-03-01",
+        "2019-03-08",
+        "2020-03-20",
+        "2020-03-27",
+        "2020-04-03",
+        "2020-04-10",
+        "2021-03-12",
+        "2021-03-19",
+        "2022-03-11",
+        "2022-03-18",
+        "2022-03-25",
+        "2022-04-01",
+        "2022-04-08",
+        "2023-03-17",
+        "2024-03-15",
+        "2025-03-14",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-03",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-03"
+      ]
+    },
+    "fx_reserves": {
+      "frequency": "M",
+      "unit": "亿美元",
+      "admitted_source_rows": 217,
+      "first_documented_periods": 154,
+      "changed_values_across_editions": 49,
+      "periods_used_weekly": 129,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 478,
+      "same_period_source_updates": 33,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 603,
+        "conservative_release_reconstructed": 4
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 170,
+        "verified_reprint_date_end_of_day": 47
+      }
+    },
+    "gdp_real_yoy": {
+      "frequency": "Q",
+      "unit": "%",
+      "admitted_source_rows": 217,
+      "first_documented_periods": 51,
+      "changed_values_across_editions": 20,
+      "periods_used_weekly": 49,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 558,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 217
+      }
+    },
+    "imports_cny_ytd_yoy": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 362,
+      "first_documented_periods": 152,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 137,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 470,
+      "same_period_source_updates": 73,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 433,
+        "conservative_release_reconstructed": 174
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 191,
+        "verified_reprint_date_end_of_day": 165,
+        "Dated official reproduction at conservative end of day; no inferred earlier first release": 3,
+        "Dated attributed reproduction at end of day; never inferred original first release": 2,
+        "Actual government republication at end of day, not inferred first release": 1
+      },
+      "legacy_ytd_cross_year_change_anchors": [
+        "2015-02-17",
+        "2015-02-27",
+        "2015-03-06",
+        "2016-02-26",
+        "2016-03-04",
+        "2017-02-24",
+        "2017-03-03",
+        "2017-03-10",
+        "2018-02-14",
+        "2018-02-23",
+        "2018-03-02",
+        "2018-03-09",
+        "2019-02-15",
+        "2019-02-22",
+        "2019-03-01",
+        "2019-03-08",
+        "2020-03-20",
+        "2020-03-27",
+        "2020-04-03",
+        "2020-04-10",
+        "2021-03-12",
+        "2021-03-19",
+        "2022-03-11",
+        "2022-03-18",
+        "2022-03-25",
+        "2022-04-01",
+        "2022-04-08",
+        "2023-03-17",
+        "2024-03-15",
+        "2025-03-14",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-03",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-03"
+      ]
+    },
+    "industrial_va_yoy": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 128,
+      "first_documented_periods": 127,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 119,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 488,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 127,
+        "official_page_date; end_of_day": 1
+      }
+    },
+    "m2_yoy": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 155,
+      "first_documented_periods": 154,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 143,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 464,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 603,
+        "conservative_release_reconstructed": 4
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 153,
+        "verified_reprint_date_end_of_day": 2
+      }
+    },
+    "new_rmb_loans__definition_loan_201501": {
+      "frequency": "M",
+      "unit": "亿元",
+      "admitted_source_rows": 97,
+      "first_documented_periods": 96,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 95,
+      "held_or_current_weekly_rows": 412,
+      "weekly_rows_within_same_period": 317,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 412
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 412,
+        "NOT_APPLICABLE": 189,
+        "NO_RELEASE": 6
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 95,
+        "verified_reprint_date_end_of_day": 2
+      }
+    },
+    "new_rmb_loans__definition_loan_202301": {
+      "frequency": "M",
+      "unit": "亿元",
+      "admitted_source_rows": 46,
+      "first_documented_periods": 45,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 45,
+      "held_or_current_weekly_rows": 193,
+      "weekly_rows_within_same_period": 148,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "conservative_release_reconstructed": 135,
+        "strict_pit_eligible": 58
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 409,
+        "AVAILABLE": 193,
+        "NO_RELEASE": 5
+      },
+      "effective_availability_basis": {
+        "verified_reprint_date_end_of_day": 32,
+        "official_dated_announcement_end_of_day": 14
+      }
+    },
+    "new_rmb_loans__definition_loan_pre_201501": {
+      "frequency": "M",
+      "unit": "亿元",
+      "admitted_source_rows": 12,
+      "first_documented_periods": 12,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 2,
+      "held_or_current_weekly_rows": 10,
+      "weekly_rows_within_same_period": 8,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 10
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 597,
+        "AVAILABLE": 10
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 12
+      }
+    },
+    "pmi_mfg": {
+      "frequency": "M",
+      "unit": "index",
+      "admitted_source_rows": 154,
+      "first_documented_periods": 154,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 143,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 464,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 154
+      }
+    },
+    "pmi_new_orders": {
+      "frequency": "M",
+      "unit": "index",
+      "admitted_source_rows": 154,
+      "first_documented_periods": 154,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 143,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 464,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 154
+      }
+    },
+    "ppi_yoy": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 154,
+      "first_documented_periods": 154,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 144,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 463,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 154
+      }
+    },
+    "retail_sales_yoy": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 128,
+      "first_documented_periods": 127,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 119,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 488,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 127,
+        "official_page_date; end_of_day": 1
+      }
+    },
+    "rmb_loan_balance_yoy__definition_loan_201501": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 96,
+      "first_documented_periods": 96,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 96,
+      "held_or_current_weekly_rows": 412,
+      "weekly_rows_within_same_period": 316,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 412
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 412,
+        "NOT_APPLICABLE": 189,
+        "NO_RELEASE": 6
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 96
+      }
+    },
+    "rmb_loan_balance_yoy__definition_loan_202301": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 46,
+      "first_documented_periods": 46,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 45,
+      "held_or_current_weekly_rows": 193,
+      "weekly_rows_within_same_period": 148,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 189,
+        "conservative_release_reconstructed": 4
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 409,
+        "AVAILABLE": 193,
+        "NO_RELEASE": 5
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 45,
+        "verified_reprint_date_end_of_day": 1
+      }
+    },
+    "rmb_loan_balance_yoy__definition_loan_pre_201501": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 12,
+      "first_documented_periods": 12,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 2,
+      "held_or_current_weekly_rows": 10,
+      "weekly_rows_within_same_period": 8,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 10
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 597,
+        "AVAILABLE": 10
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 12
+      }
+    },
+    "shibor_1w": {
+      "frequency": "D",
+      "unit": "%",
+      "admitted_source_rows": 3208,
+      "first_documented_periods": 3208,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 607,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 0,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "conservative_release_reconstructed": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_historical_fixing_date_end_of_day; no correction archive": 3208
+      }
+    },
+    "shibor_3m": {
+      "frequency": "D",
+      "unit": "%",
+      "admitted_source_rows": 3208,
+      "first_documented_periods": 3208,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 607,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 0,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "conservative_release_reconstructed": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_historical_fixing_date_end_of_day; no correction archive": 3208
+      }
+    },
+    "shibor_on": {
+      "frequency": "D",
+      "unit": "%",
+      "admitted_source_rows": 3208,
+      "first_documented_periods": 3208,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 607,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 0,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "conservative_release_reconstructed": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_historical_fixing_date_end_of_day; no correction archive": 3208
+      }
+    },
+    "term_spread_10y_1y": {
+      "frequency": "D",
+      "unit": "percentage_points",
+      "admitted_source_rows": 2958,
+      "first_documented_periods": 2958,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 607,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 0,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "conservative_release_reconstructed": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_historical_fixing_date_end_of_day; no correction archive": 2958
+      }
+    },
+    "tsf_stock_yoy": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 37,
+      "first_documented_periods": 37,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 37,
+      "held_or_current_weekly_rows": 161,
+      "weekly_rows_within_same_period": 124,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 161
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 440,
+        "AVAILABLE": 161,
+        "NO_RELEASE": 6
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 37
+      }
+    },
+    "tsf_stock_yoy__scope_201807": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 2,
+      "first_documented_periods": 2,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 2,
+      "held_or_current_weekly_rows": 12,
+      "weekly_rows_within_same_period": 10,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 12
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 589,
+        "AVAILABLE": 12,
+        "NO_RELEASE": 6
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 2
+      }
+    },
+    "tsf_stock_yoy__scope_201809": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 12,
+      "first_documented_periods": 12,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 12,
+      "held_or_current_weekly_rows": 55,
+      "weekly_rows_within_same_period": 43,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 55
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 547,
+        "AVAILABLE": 55,
+        "NO_RELEASE": 5
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 12
+      }
+    },
+    "tsf_stock_yoy__scope_201909": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 3,
+      "first_documented_periods": 3,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 3,
+      "held_or_current_weekly_rows": 16,
+      "weekly_rows_within_same_period": 13,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 16
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 585,
+        "AVAILABLE": 16,
+        "NO_RELEASE": 6
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 3
+      }
+    },
+    "tsf_stock_yoy__scope_202301": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 46,
+      "first_documented_periods": 46,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 45,
+      "held_or_current_weekly_rows": 193,
+      "weekly_rows_within_same_period": 148,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 189,
+        "conservative_release_reconstructed": 4
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 409,
+        "AVAILABLE": 193,
+        "NO_RELEASE": 5
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 45,
+        "verified_reprint_date_end_of_day": 1
+      }
+    },
+    "tsf_stock_yoy__scope_pre_201807__definition_tsf_201501_pre_201807": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 34,
+      "first_documented_periods": 34,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 34,
+      "held_or_current_weekly_rows": 174,
+      "weekly_rows_within_same_period": 140,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 169,
+        "conservative_release_reconstructed": 5
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 418,
+        "AVAILABLE": 174,
+        "NO_RELEASE": 15
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 33,
+        "verified_reprint_date_end_of_day": 1
+      }
+    },
+    "tsf_stock_yoy__scope_pre_201807__definition_tsf_pre_201501": {
+      "frequency": "M",
+      "unit": "%",
+      "admitted_source_rows": 1,
+      "first_documented_periods": 1,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 1,
+      "held_or_current_weekly_rows": 5,
+      "weekly_rows_within_same_period": 4,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "strict_pit_eligible": 5
+      },
+      "weekly_lineage_by_status": {
+        "NOT_APPLICABLE": 597,
+        "NO_RELEASE": 5,
+        "AVAILABLE": 5
+      },
+      "effective_availability_basis": {
+        "official_dated_announcement_end_of_day": 1
+      }
+    },
+    "usdcny_fixing": {
+      "frequency": "D",
+      "unit": "CNY/USD",
+      "admitted_source_rows": 3128,
+      "first_documented_periods": 3128,
+      "changed_values_across_editions": 0,
+      "periods_used_weekly": 607,
+      "held_or_current_weekly_rows": 607,
+      "weekly_rows_within_same_period": 0,
+      "same_period_source_updates": 0,
+      "weekly_lineage_by_quality": {
+        "conservative_release_reconstructed": 607
+      },
+      "weekly_lineage_by_status": {
+        "AVAILABLE": 607
+      },
+      "effective_availability_basis": {
+        "official_historical_fixing_date_end_of_day; no correction archive": 3128
+      }
+    }
+  },
+  "original_z": {
+    "retained": 34,
+    "removed": 190,
+    "added": 80
+  }
+}

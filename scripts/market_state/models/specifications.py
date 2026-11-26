@@ -4,6 +4,7 @@ from ..common import CORE
 from .rbf_geometry import GEOMETRY_VERSION
 
 SVM_TIE = 'score_then_lower_C_then_lower_gamma_factor_then_larger_epsilon_then_candidate_id'
+RF_TIE = 'score_then_shallower_then_larger_leaf_then_shallower_sampling_then_candidate_id'
 EN_TIE = 'score_then_stronger_regularization_then_lower_l1_ratio_then_candidate_id'
 
 
@@ -56,6 +57,23 @@ def validate_family(c):
             raise ValueError('Unregistered time calibration rules')
         if c['retention'].get('diagnostics') != 'all_successful_fits':
             raise ValueError('SVM kernel/calibration diagnostic retention required')
+    elif family == 'random_forest':
+        if c.get('feature_extension') != 'z_star' or c['forest_design'] != dict(
+                version='random-forest-zstar-v1', shared_parameter_reference='M',
+                probability='native_zero_for_absent_dictionary_class',
+                regression='native_seven_target_five_dimension_weighted',
+                interpretation='historical_test_followup_with_fixed_feature_definition'):
+            raise ValueError('Use the registered Random Forest feature and prediction contract')
+        if (s['candidate_count'], s['finalists'], s['coarse_months'], s['stability_seeds']) != (
+                18, 0, list(range(1, 13)), [3060, 3061, 3062]):
+            raise ValueError('Random Forest compares all 18 candidates in all 36 development months')
+        if p['convergence_retries'] != 0 or p['iteration_multiplier'] != 1 or p['missing_class'] != 'zero_for_absent' or p['class_weight'] is not None:
+            raise ValueError('Forest class weights are candidate-specific; no iterative solver retry')
+        if s['feature_fractions'] != [.35, .7, 1.] or s['tie_rule'] != RF_TIE or len(s['profiles']) != 6:
+            raise ValueError('Use the registered Random Forest profile and feature-sampling design')
+        for task in c['tasks']:
+            for row in generate_parameters(c, task):
+                validate_parameters(family, task, row)
     else:
         raise ValueError('Family rules are not implemented: ' + family)
     if s['screening_seed'] != 3060 or s['regression_deterministic_seeds'] != [3060] or s['generator_seed'] != 3059:
@@ -92,6 +110,21 @@ def validate_parameters(family, task, p):
         expected = {'C', 'gamma_factor', 'tol', 'max_iter'} | ({'epsilon'} if task == 'regression' else set())
         valid = .001 <= p.get('C', 0) <= 1000 and p.get('gamma_factor') in [.01, .1, 1., 10., 100.]
         valid = valid and (task != 'regression' or .001 <= p.get('epsilon', 0) <= 1)
+    elif family == 'random_forest':
+        expected = {'n_estimators', 'max_depth', 'min_samples_leaf', 'max_features', 'max_samples'}
+        if task == 'classification':
+            expected.add('class_weight')
+        if set(p) != expected:
+            raise ValueError('Unexpected Random Forest candidate parameters')
+        integers = [p['n_estimators'], p['min_samples_leaf']]
+        if p['max_depth'] is not None:
+            integers.append(p['max_depth'])
+        fractions = [p['max_features'], p['max_samples']]
+        if (any(type(value) is not int or value < 1 for value in integers) or
+                any(type(value) not in (int, float) or not 0 < value <= 1 for value in fractions) or
+                p.get('class_weight') not in (None, 'balanced', 'balanced_subsample')):
+            raise ValueError('Illegal Random Forest candidate parameters')
+        return
     else:
         raise ValueError('No candidate rules for ' + family)
     if set(p) != expected or not valid or not np.isfinite(list(p.values())).all() or p['tol'] <= 0 or type(p['max_iter']) is not int or p['max_iter'] < 1:
@@ -101,6 +134,9 @@ def validate_parameters(family, task, p):
 def complexity(family, task, p):
     if family == 'elastic_net':
         return [p['C'] if task == 'classification' else -p['alpha'], p['l1_ratio']]
+    if family == 'random_forest':
+        return [p['max_depth'] or float('inf'), -p['min_samples_leaf'],
+            p['max_samples'], p['max_features'], p['n_estimators'], int(p.get('class_weight') is not None)]
     if 'geometry_version' in p:
         return [p['macro_weight'], p['C'], p['gamma_factor'], int(p['representation'] != 'compact')] + (
             [-p['epsilon']] if task == 'regression' else [int(p['class_weight'] is not None), int(p['calibrator'] == 'platt')])
@@ -116,6 +152,9 @@ def generate_parameters(config, task, information=None):
         rng.shuffle(ratios)
         return [dict(**{('C' if task == 'classification' else 'alpha'): float(v)}, l1_ratio=float(r),
             tol=s['tol'], max_iter=s['max_iter']) for v, r in zip(values, ratios)]
+    if config['model'] == 'random_forest':
+        return [dict({k: v for k, v in profile.items() if task == 'classification' or k != 'class_weight'},
+            max_features=fraction) for profile in s['profiles'] for fraction in s['feature_fractions']]
     if 'rbf_design' in config:
         design = config['rbf_design']
         budget = {'M': 'market', 'M+Z': 'full_macro'}.get(information or 'M+Z', 'group')

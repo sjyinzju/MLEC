@@ -32,3 +32,22 @@ def test_real_macro_specification_modules_and_no_duplicates():
     assert len({s['series_id'] for s in features})==len(features)
     assert digest(base)==reference['base_digest'] and digest(features)==reference['feature_digest']
     assert [s for s in features if s.get('required',True)]==json.loads((ROOT/'data/market_state/macro/specifications.json').read_text(encoding='utf8'))
+
+
+def test_random_forest_overlay_and_rebuild_sources():
+    from scripts.market_state.interface_acceptance import assert_interface_accepted
+    from scripts.market_state.release import file_hash
+    from scripts.market_state.z_star_release import validate_extension
+    manifest = json.loads((ROOT / 'package.manifest.json').read_text(encoding='utf8'))
+    if manifest['model'] != 'random_forest':
+        return
+    store = DataStore(feature_extension='z_star')
+    release = validate_extension(store.root)
+    assert release['feature_version'] == manifest['feature_version']
+    assert all(file_hash(ROOT / relative) == expected for relative, expected in release['source_hashes'].items())
+    assert_interface_accepted(feature_extension='z_star')
+    args = dict(market_id='000985.SH', task='regression', fold_id='2020-01', role='train', store=store)
+    raw, legacy, enhanced = [load_dataset(information_set=i, **args) for i in ['M', 'M+Z', 'M+Z_star']]
+    assert raw.keys.equals(legacy.keys) and raw.keys.equals(enhanced.keys)
+    assert raw.y.equals(legacy.y) and raw.y.equals(enhanced.y)
+    assert raw.X.equals(enhanced.X[raw.X.columns])
