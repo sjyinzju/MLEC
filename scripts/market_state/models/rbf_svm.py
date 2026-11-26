@@ -1,5 +1,6 @@
 """RBF-SVC with time calibration and seven independent RBF-SVRs."""
 from dataclasses import asdict
+from functools import cache
 from pathlib import Path
 import json
 import warnings
@@ -14,7 +15,7 @@ from scipy.special import softmax
 from scipy.spatial.distance import cdist
 from sklearn.svm import SVC, SVR
 from sklearn.exceptions import ConvergenceWarning
-from threadpoolctl import threadpool_limits
+from threadpoolctl import ThreadpoolController
 from ..common import CORE, digest
 from ..model_contract import (fit_context, key_hash, fit_inputs, transform_inputs, validate_model_input,
     classification_output, regression_output, validate_output, package_manifest)
@@ -27,6 +28,13 @@ from .calibration import TimeSigmoid, TimeShrinkage, decision_columns
 from .rbf_geometry import BlockGeometry
 from .specifications import validate_parameters
 from .svm_quality import weight_hash, solution_quality, QUALITY_VERSION, array_state
+
+
+@cache
+def _svm_threadpools():
+    # NumPy, SciPy and scikit-learn are already imported in this process.
+    # Avoid repeatedly enumerating loaded Windows DLLs during monthly fits.
+    return ThreadpoolController()
 
 
 def model_code_hash():
@@ -208,7 +216,7 @@ class RBFSVMAdapter:
             raise ValueError('Model/target training truth identity mismatch')
         self.fit_context_ = asdict(context)
         y = np.asarray(y_train)
-        with threadpool_limits(limits=self.threads):
+        with _svm_threadpools().limit(limits=self.threads):
             X_fit = X_train
             if self.weighted:
                 self.geometry_ = self._geometry(X_train)
@@ -323,12 +331,13 @@ class RBFSVMAdapter:
             raise ValueError('Model component identity mismatch')
         schema = self.target_adapter.schema_
         X_fit = self.geometry_.transform(X_predict) if self.geometry_ else X_predict
-        with threadpool_limits(limits=self.threads):
+        with _svm_threadpools().limit(limits=self.threads):
             if self.task == 'classification':
                 p = np.empty((0, len(schema['class_ids'])))
                 if len(X_fit):
                     scores = self._scores(X_fit)
-                    p = self.calibrator_.predict_proba(scores) if self.uses_time_calibration else softmax(scores, axis=1)
+                    p = (self.calibrator_.predict_proba(scores) if self.uses_time_calibration
+                        else softmax(scores / self.parameters.get('temperature', 1.), axis=1))
                 p = self.target_adapter.align_probabilities(p, list(range(len(schema['class_ids']))), missing_policy='error')
                 output = classification_output(context, np.asarray(schema['class_ids'])[p.argmax(axis=1)], p, schema)
             else:

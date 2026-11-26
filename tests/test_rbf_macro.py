@@ -66,3 +66,34 @@ def test_perturbation_keeps_validation_keys_and_joint_two_week_blocks():
     np.testing.assert_array_equal(shifted['macro__a__latest'], [2, 3, 0, 1, 4])
     np.testing.assert_array_equal(shifted['missing__macro__a__latest'], [102, 103, 100, 101, 104])
     np.testing.assert_array_equal(source.source_asof_date, dates[[2, 3, 0, 1, 4]])
+
+
+def test_60d_search_grid_has_independent_macro_and_svm_profiles():
+    from scripts.market_state.experiments.artifacts import read_json
+    from scripts.market_state.experiments.rbf_60d import DESIGN, candidates
+
+    design = read_json(DESIGN)
+    for task in ['classification', 'regression']:
+        market = candidates(design, task, 'M')
+        combined = candidates(design, task, 'M+Z')
+        assert len(market) == 8 and len(combined) == 24
+        assert [x for x in combined if x['parameters']['macro_weight'] == 0] == market
+        assert {x['parameters']['gamma_factor'] for x in market} == {0.2, 0.7}
+    assert len({x['parameters']['temperature'] for x in candidates(design, 'classification', 'M')}) == 3
+    assert len({x['parameters']['epsilon'] for x in candidates(design, 'regression', 'M')}) == 2
+
+
+def test_60d_macro_release_change_checks_scope_and_cumulative_reset():
+    from scripts.market_state.horizons import _macro_change
+
+    dates = pd.to_datetime(['2020-11-20', '2021-02-26', '2021-03-05', '2021-06-11'])
+    values = pd.DataFrame({'asof_date': dates, 'macro__flow__latest': [2., 4., 6., 9.],
+        'macro__value__latest': [1., 2., 3., 4.]})
+    lineage = pd.concat([
+        pd.DataFrame({'asof_date': dates, 'series_id': sid, 'statistical_scope_id': scope,
+            'period_end': pd.to_datetime(['2020-10-31', '2021-01-31', '2021-02-28', '2021-05-31'])})
+        for sid, scope in [('flow', ['same'] * 4), ('value', ['v1', 'v2', 'v2', 'v2'])]], ignore_index=True)
+    out = _macro_change(values, lineage, values.iloc[[1, 3]], dates[[0, 2]],
+        [dict(series_id='flow', measure_type='ytd_flow'), dict(series_id='value', measure_type='stock')])
+    np.testing.assert_allclose(out['macro__flow__change_60d'], [np.nan, 3.], equal_nan=True)
+    np.testing.assert_allclose(out['macro__value__change_60d'], [np.nan, 1.], equal_nan=True)

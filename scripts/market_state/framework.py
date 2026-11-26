@@ -43,6 +43,29 @@ def information_columns(spec,market_id,information_set):
     return definitions[information_set]
 
 
+def historical_market_features(keys, past, dictionary, *, windows, state_window, lags):
+    """Project causal market windows through the same state and cross-market logic."""
+    from .dictionary import apply_dictionary
+    current=apply_dictionary(past[past.window_length.eq(state_window)],dictionary,'current')
+    feature_cols=[c for c in CORE+['downside_semivol','worst_daily_return','worst_cumulative_return','up_day_fraction','path_slope','vol_concentration','return_dispersion','amount_cny','quote_coverage','return_coverage','float_coverage','suspension_fraction','unexplained_unquoted_fraction'] if c in past]
+    features=keys[KEY+['asof_time']].copy()
+    for h in windows:
+        q=past[past.window_length.eq(h)][KEY+feature_cols].rename(columns={c:f'market__{c}_{h}d' for c in feature_cols})
+        features=features.merge(q,on=KEY,validate='one_to_one')
+    statecols=[c for c in current if c.startswith('current_state')]
+    features=features.merge(current[KEY+statecols],on=KEY,validate='one_to_one')
+    features['current_state_id']=features.current_state_id.astype(float)
+    for lag in lags:
+        for col in ['current_state_id']+[c for c in statecols if 'prob_' in c]:
+            features[col+f'_lag{lag}w']=features.groupby('market_id')[col].shift(lag)
+    # Other markets' SAME-ASOF past information, never their future outcomes.
+    cross=features[['market_id','asof_date']+[f'market__{c}_{state_window}d' for c in CORE]].pivot(index='asof_date',columns='market_id')
+    cross.columns=['cross__'+m.replace('.','_')+'__'+c for c,m in cross.columns]
+    features=features.merge(cross.reset_index(),on='asof_date',validate='many_to_one')
+    features['feature_version']=VERSION;features['label_version']=dictionary['label_version']
+    return features,current
+
+
 def build_framework(dictionary):
     from .dictionary import apply_dictionary
     future=read('future_window_outcomes');targets=apply_dictionary(future,dictionary,'future')
@@ -50,24 +73,9 @@ def build_framework(dictionary):
         outcomes=future.sort_values(KEY).to_dict('records'),worst_cumulative_definition='min over h=1..H, exclude anchor'))[:20]
     targets['target_version']=target_version
     frame('supervised_targets',targets)
-    past=read('past_window_outcomes');current=apply_dictionary(past[past.window_length.eq(20)],dictionary,'current')
+    features,current=historical_market_features(future,read('past_window_outcomes'),dictionary,
+        windows=(5,20,60),state_window=20,lags=(1,2,4))
     frame('current_states',current)
-    feature_cols=[c for c in CORE+['downside_semivol','worst_daily_return','worst_cumulative_return','up_day_fraction','path_slope','vol_concentration','return_dispersion','amount_cny','quote_coverage','return_coverage','float_coverage','suspension_fraction','unexplained_unquoted_fraction'] if c in past]
-    features=future[KEY+['asof_time']].copy()
-    for h in [5,20,60]:
-        q=past[past.window_length.eq(h)][KEY+feature_cols].rename(columns={c:f'market__{c}_{h}d' for c in feature_cols})
-        features=features.merge(q,on=KEY,validate='one_to_one')
-    statecols=[c for c in current if c.startswith('current_state')]
-    features=features.merge(current[KEY+statecols],on=KEY,validate='one_to_one')
-    features['current_state_id']=features.current_state_id.astype(float)
-    for lag in [1,2,4]:
-        for col in ['current_state_id']+[c for c in statecols if 'prob_' in c]:
-            features[col+f'_lag{lag}w']=features.groupby('market_id')[col].shift(lag)
-    # Other markets' SAME-ASOF past information, never their future outcomes.
-    cross=features[['market_id','asof_date']+[f'market__{c}_20d' for c in CORE]].pivot(index='asof_date',columns='market_id')
-    cross.columns=['cross__'+m.replace('.','_')+'__'+c for c,m in cross.columns]
-    features=features.merge(cross.reset_index(),on='asof_date',validate='many_to_one')
-    features['feature_version']=VERSION;features['label_version']=dictionary['label_version'];frame('market_features',features)
     pastvalid=current.set_index(KEY).measurement_valid
     history_valid=[bool(pastvalid.loc[tuple(k)]) for k in targets[KEY].itertuples(index=False,name=None)]
     manifest=sample_manifest(targets,history_valid)

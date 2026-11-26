@@ -74,6 +74,9 @@ def validate_parameters(family, task, p):
         if task == 'classification':
             expected |= {'C', 'class_weight', 'calibrator'}
             valid = valid and .001 <= p.get('C', 0) <= 1000 and p.get('class_weight') in [None, 'balanced'] and p.get('calibrator') in ['platt', 'shrinkage', 'score_softmax']
+            if 'temperature' in p:
+                expected.add('temperature')
+                valid = valid and p['calibrator'] == 'score_softmax' and np.isfinite(p['temperature']) and p['temperature'] > 0
         else:
             if 'target_parameters' in p:
                 expected.add('target_parameters')

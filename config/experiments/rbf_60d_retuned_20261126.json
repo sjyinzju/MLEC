@@ -1,0 +1,33 @@
+{
+  "study": "rbf-60td-independent-20261126-v1",
+  "purpose": "EXPLORATORY_REFIT_60D",
+  "historical_input_design": "rebuilt-60td-inputs-v1",
+  "development_period": ["2020-01", "2022-12"],
+  "test_start": "2023-01",
+  "selection": "Score every candidate on all mature 60d development weeks before the test; independently locked per market, task and information set",
+  "seed": 20261126,
+  "gamma_factors": [0.2, 0.7],
+  "macro_layouts": [
+    {"macro_weight": 0.0, "representation": "compact"},
+    {"macro_weight": 0.10, "representation": "compact"},
+    {"macro_weight": 0.40, "representation": "full"}
+  ],
+  "profiles": {
+    "classification": [
+      {"C": 0.35, "class_weight": null, "calibrator": "score_softmax", "temperature": 0.50},
+      {"C": 2.5, "class_weight": null, "calibrator": "score_softmax", "temperature": 0.50},
+      {"C": 2.5, "class_weight": null, "calibrator": "score_softmax", "temperature": 1.00},
+      {"C": 10.0, "class_weight": "balanced", "calibrator": "score_softmax", "temperature": 0.75}
+    ],
+    "regression": [
+      {"C": 0.45, "epsilon": 0.04},
+      {"C": 0.45, "epsilon": 0.14},
+      {"C": 4.5, "epsilon": 0.04},
+      {"C": 4.5, "epsilon": 0.14}
+    ]
+  },
+  "solver": {"tol": 0.001, "max_iter": 100000},
+  "bootstrap": {"block_weeks": [16, 12, 20], "repetitions": 2000, "seed": 20261126, "confidence": 0.95},
+  "analyses": ["retuned_core", "fixed_positive_macro"],
+  "test_scope": "Historical test window reviewed in the exploratory fixed-parameter run. C is excluded from parameter selection."
+}

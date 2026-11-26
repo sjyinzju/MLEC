@@ -3,7 +3,8 @@ import numpy as np
 from scipy.spatial.distance import cdist
 
 GEOMETRY_VERSION = 'rbf-block-total-variance-v1'
-COMPACT_FIELDS = {'latest', 'change', 'vol_20obs', 'not_applicable', 'release_gap', 'missing'}
+COMPACT_FIELDS = {'latest', 'change', 'vol_20obs', 'change_60d', 'vol_60obs',
+    'not_applicable', 'release_gap', 'missing'}
 CLOCK_FIELDS = {'age_days', 'not_applicable', 'release_gap', 'missing'}
 
 

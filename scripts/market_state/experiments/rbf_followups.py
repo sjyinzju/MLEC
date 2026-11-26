@@ -253,7 +253,7 @@ def execute(args):
         raise ValueError('Output must be separate from the input data and reference run')
     lock, reference = _reference(reference_path, stores[20])
     seal60 = read_json(stores[60].root / 'release/seal.json')
-    if (seal60.get('horizon') != 60 or seal60['parent_data_version'] != stores[20].data_version
+    if (seal60.get('horizon') != 60 or seal60.get('historical_input_design') or seal60['parent_data_version'] != stores[20].data_version
             or seal60['parent_seal_sha256'] != lock['versions']['original_seal_hash']):
         raise ValueError('The derived 60d release is from another parent')
     test_receipt = read_json(TEST_RECEIPT)

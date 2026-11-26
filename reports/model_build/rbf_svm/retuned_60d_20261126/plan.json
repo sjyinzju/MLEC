@@ -1,0 +1,270 @@
+{
+  "design": {
+    "study": "rbf-60td-independent-20261126-v1",
+    "purpose": "EXPLORATORY_REFIT_60D",
+    "historical_input_design": "rebuilt-60td-inputs-v1",
+    "development_period": [
+      "2020-01",
+      "2022-12"
+    ],
+    "test_start": "2023-01",
+    "selection": "Score every candidate on all mature 60d development weeks before the test; independently locked per market, task and information set",
+    "seed": 20261126,
+    "gamma_factors": [
+      0.2,
+      0.7
+    ],
+    "macro_layouts": [
+      {
+        "macro_weight": 0.0,
+        "representation": "compact"
+      },
+      {
+        "macro_weight": 0.1,
+        "representation": "compact"
+      },
+      {
+        "macro_weight": 0.4,
+        "representation": "full"
+      }
+    ],
+    "profiles": {
+      "classification": [
+        {
+          "C": 0.35,
+          "class_weight": null,
+          "calibrator": "score_softmax",
+          "temperature": 0.5
+        },
+        {
+          "C": 2.5,
+          "class_weight": null,
+          "calibrator": "score_softmax",
+          "temperature": 0.5
+        },
+        {
+          "C": 2.5,
+          "class_weight": null,
+          "calibrator": "score_softmax",
+          "temperature": 1.0
+        },
+        {
+          "C": 10.0,
+          "class_weight": "balanced",
+          "calibrator": "score_softmax",
+          "temperature": 0.75
+        }
+      ],
+      "regression": [
+        {
+          "C": 0.45,
+          "epsilon": 0.04
+        },
+        {
+          "C": 0.45,
+          "epsilon": 0.14
+        },
+        {
+          "C": 4.5,
+          "epsilon": 0.04
+        },
+        {
+          "C": 4.5,
+          "epsilon": 0.14
+        }
+      ]
+    },
+    "solver": {
+      "tol": 0.001,
+      "max_iter": 100000
+    },
+    "bootstrap": {
+      "block_weeks": [
+        16,
+        12,
+        20
+      ],
+      "repetitions": 2000,
+      "seed": 20261126,
+      "confidence": 0.95
+    },
+    "analyses": [
+      "retuned_core",
+      "fixed_positive_macro"
+    ],
+    "test_scope": "Historical test window reviewed in the exploratory fixed-parameter run. C is excluded from parameter selection."
+  },
+  "design_sha256": "b4d94def6fbd498262a21fef73daddabd83dabe617e7a892ac4770849783b812",
+  "versions": {
+    "runtime_version": "experiment-runtime-v2",
+    "contract_version": "model-io-v1",
+    "data_version": "489d4bc75d6a29611d754d69",
+    "feature_version": "4721ba41c15fa07ab8b0",
+    "target_version": "9078bdaeb98d7dedf493",
+    "dictionary_version": "a4122a5e940879c76ea5",
+    "original_seal_hash": "97cfb9f9950f20e49c025d355173ed80a61223dc43e6a9f4512edbe31d03f242",
+    "interface_code_hash": "2c31cb64f990ae088b5e1ed4bb9d30a1ecd7817866e09c41c4d7ceffe6a6a4a7",
+    "experiment_code_hash": "0f8cb00c56500ebd97a756cc4c7454ed48b094a11bfd0d3e94629a4afccd102b",
+    "protocol_hash": "a7d5fb1771ac0724bce7183c5ec447f41d6c9763c26b784336eda64e6d3da9d7",
+    "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+    "config_hash": "8684e7b00e787a7abdf470acff2019c827c50ae1523e73b08dab0e539655062c",
+    "rbf_geometry_version": "rbf-block-total-variance-v1",
+    "rbf_study": "rbf-60td-independent-20261126-v1",
+    "rbf_design_document_hash": "2ab3f3683eb822977f837e31bfb32c9d3274743db39280dc49ea50d22be53c69"
+  },
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.3",
+      "lxml": "6.0.2",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.2",
+      "olefile": "0.47",
+      "tabulate": "0.9.0",
+      "pytest": "9.0.3",
+      "duckdb": "1.5.5",
+      "matplotlib": "3.10.8",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.6.0"
+    },
+    "backend": "cpu"
+  },
+  "development_folds": [
+    "2020-01",
+    "2020-02",
+    "2020-03",
+    "2020-04",
+    "2020-05",
+    "2020-06",
+    "2020-07",
+    "2020-08",
+    "2020-09",
+    "2020-10",
+    "2020-11",
+    "2020-12",
+    "2021-01",
+    "2021-02",
+    "2021-03",
+    "2021-04",
+    "2021-05",
+    "2021-06",
+    "2021-07",
+    "2021-08",
+    "2021-09",
+    "2021-10",
+    "2021-11",
+    "2021-12",
+    "2022-01",
+    "2022-02",
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09",
+    "2022-10",
+    "2022-11",
+    "2022-12"
+  ],
+  "search_folds": [
+    "2020-01",
+    "2020-02",
+    "2020-03",
+    "2020-04",
+    "2020-05",
+    "2020-06",
+    "2020-07",
+    "2020-08",
+    "2020-09",
+    "2020-10",
+    "2020-11",
+    "2020-12",
+    "2021-01",
+    "2021-02",
+    "2021-03",
+    "2021-04",
+    "2021-05",
+    "2021-06",
+    "2021-07",
+    "2021-08",
+    "2021-09",
+    "2021-10",
+    "2021-11",
+    "2021-12",
+    "2022-01",
+    "2022-02",
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09"
+  ],
+  "test_folds": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11"
+  ],
+  "development_weeks": {
+    "000300.SH": 142,
+    "000852.SH": 142,
+    "000905.SH": 142,
+    "000985.SH": 142
+  },
+  "pytest_passed": 193,
+  "pytest_sha256": "58d1615daac14d846460d0f61e51ef53cc9e1120daae487fa3cc13e0fa1038b8",
+  "interface_sha256": "6d2e7c00cdf527cd55d4c22d97938efda8d8d67e07b66fda8f0e47d6cf1c4b90"
+}

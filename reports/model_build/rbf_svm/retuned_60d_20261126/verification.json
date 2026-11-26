@@ -1,0 +1,33 @@
+{
+  "status": "PASSED",
+  "data_version": "489d4bc75d6a29611d754d69",
+  "rebuilt_input_design": "rebuilt-60td-inputs-v1",
+  "reproduced_data_sha256": "97cfb9f9950f20e49c025d355173ed80a61223dc43e6a9f4512edbe31d03f242",
+  "parent_seal_sha256": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+  "test_cases": 193,
+  "interface_tasks": 4008,
+  "interface_prediction_reads": 664,
+  "independent_development_candidates": 256,
+  "candidate_monthly_fits": 8448,
+  "development_months": 33,
+  "development_scored_weeks_per_market": 142,
+  "test_folds": 47,
+  "test_scored_weeks_per_market": 184,
+  "lock_sha256": "0d54908aa534279f61edcf51004e9aa31c4b6720e360fc953f4b9d5c74d0f2d7",
+  "test_tasks_match_lock": 1504,
+  "first_test_commit_after_frozen_lock": true,
+  "test_exact_reloaded_packages": 31,
+  "successful_physical_fits": 10658,
+  "resumed_tasks": 1,
+  "retuned_macro_weights": {
+    "000985.SH|classification|M+Z": 0.4,
+    "000985.SH|regression|M+Z": 0.0,
+    "000300.SH|classification|M+Z": 0.0,
+    "000300.SH|regression|M+Z": 0.0,
+    "000905.SH|classification|M+Z": 0.0,
+    "000905.SH|regression|M+Z": 0.0,
+    "000852.SH|classification|M+Z": 0.0,
+    "000852.SH|regression|M+Z": 0.0
+  },
+  "final_execution_sha256": "06dae162a11d2f20891cb47dc79306053d8ca67a6e2d567d39f2506f0ecc1244"
+}

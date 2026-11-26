@@ -1,0 +1,131 @@
+{
+  "status": "PASSED",
+  "scope": "registered full 60d input, label and state dictionary rebuild",
+  "parent_data_version": "5d57508f09249cf50b1a2e52",
+  "parent_seal_sha256": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+  "replay_20d": {
+    "rows": 2428,
+    "numerical_fields": [
+      "return",
+      "volatility",
+      "drawdown",
+      "amihud",
+      "turnover",
+      "breadth",
+      "correlation",
+      "correlation_stocks",
+      "correlation_union_stocks"
+    ],
+    "rtol": 1e-12,
+    "atol": 1e-24,
+    "stock_partition_sha256": {
+      "2014.parquet": "cbe90aa316a43523e40c42605bc3594b33d80e71e85c35a53d02688e1dcf0e92",
+      "2015.parquet": "10469736d748584594adfb4b820e5e5d92d317e7765e7d21bbce0e276c9b7d7d",
+      "2016.parquet": "a88ecb421f6ea9c68585a2c2a19fc937d3993dc7dd51a33fd03a8f16f19682db",
+      "2017.parquet": "3c4925e6128aedeab6d79211c4fccd26a370211202c5afd324187cf81e110d1c",
+      "2018.parquet": "e5a8b3660e6b8a920f6298f626973c769cb9493cc380a273d6f9594a57314d0b",
+      "2019.parquet": "0c539cf9d728ad4b75f61505730d6c95016a77da82f76d0045680b6497c9d4cb",
+      "2020.parquet": "b184c2609660402c641db3480be604596d57ddc5d8b33fef0ac19b2be418860c",
+      "2021.parquet": "62ac2b135d973553ed13502daa679a899392253e68a6b9dfc434ecc136d3ad3b",
+      "2022.parquet": "6f4df74ed8924b7edc0317932ead24d5e25e54e3e113a40f4ca66ff63bb5a34a",
+      "2023.parquet": "dfaebc3e678ee77c05602002f6fa81ecafea95ee9b5f91f41d6cc7cf5d334d35",
+      "2024.parquet": "362a556ef8b8e07fcd320742d001924627951196173cce94bdff6df69ef01f35",
+      "2025.parquet": "d1a7fec49163edb270a938330c9211a6261a51b3d7ae235bd4a36ac1284a6578",
+      "2026.parquet": "b5024d8d34045d39939e98f7cf2d5c30fb16c2acf8fd9cf78acdb6c6923bd08d"
+    }
+  },
+  "exact_trading_calendar_offsets": true,
+  "same_historical_feature_values": false,
+  "unchanged_asof_keys_and_months": true,
+  "mature_train_rows_only": true,
+  "development_labels_end_before_test": true,
+  "evaluation": [
+    {
+      "market_id": "000300.SH",
+      "role": "test",
+      "n": 184,
+      "latest_asof": "2026-08-07 00:00:00",
+      "latest_label_end": "2026-11-09 00:00:00"
+    },
+    {
+      "market_id": "000300.SH",
+      "role": "validation",
+      "n": 142,
+      "latest_asof": "2022-09-30 00:00:00",
+      "latest_label_end": "2022-12-30 00:00:00"
+    },
+    {
+      "market_id": "000852.SH",
+      "role": "test",
+      "n": 184,
+      "latest_asof": "2026-08-07 00:00:00",
+      "latest_label_end": "2026-11-09 00:00:00"
+    },
+    {
+      "market_id": "000852.SH",
+      "role": "validation",
+      "n": 142,
+      "latest_asof": "2022-09-30 00:00:00",
+      "latest_label_end": "2022-12-30 00:00:00"
+    },
+    {
+      "market_id": "000905.SH",
+      "role": "test",
+      "n": 184,
+      "latest_asof": "2026-08-07 00:00:00",
+      "latest_label_end": "2026-11-09 00:00:00"
+    },
+    {
+      "market_id": "000905.SH",
+      "role": "validation",
+      "n": 142,
+      "latest_asof": "2022-09-30 00:00:00",
+      "latest_label_end": "2022-12-30 00:00:00"
+    },
+    {
+      "market_id": "000985.SH",
+      "role": "test",
+      "n": 184,
+      "latest_asof": "2026-08-07 00:00:00",
+      "latest_label_end": "2026-11-09 00:00:00"
+    },
+    {
+      "market_id": "000985.SH",
+      "role": "validation",
+      "n": 142,
+      "latest_asof": "2022-09-30 00:00:00",
+      "latest_label_end": "2022-12-30 00:00:00"
+    }
+  ],
+  "historical_inputs": {
+    "design": "rebuilt-60td-inputs-v1",
+    "market_windows": [
+      15,
+      60,
+      180
+    ],
+    "current_state_window": 60,
+    "cross_market_window": 60,
+    "state_lag_weeks": [
+      3,
+      6,
+      12
+    ],
+    "macro": {
+      "source_sha256": {
+        "data/standardized/macro/v4/macro_facts.parquet": "a1900b5441d56c0ae78029f011def0b883fb2df5d82ef21fdb25670fbe51c19e",
+        "data/market_state/sources/macro_repairs.parquet": "bbf9720d7c9221f35d9edeba848bf29b68c981c196f8fee66df8658bcccb2fa3"
+      },
+      "parent_period_audit_sha256": "6392a0b45e941131a36d78cffa4b89f833872709003f5c84f9a576e0246654fe",
+      "daily_observation_windows": [
+        15,
+        60
+      ],
+      "released_value_change_trading_days": 60,
+      "latest_release_and_scope_replayed": true,
+      "availability_checked_at_both_anchors": true
+    },
+    "all_market_windows_end_at_asof": true,
+    "raw_snapshot_reused": true
+  }
+}

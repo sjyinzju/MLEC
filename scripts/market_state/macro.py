@@ -45,9 +45,11 @@ def prepare(f,level='historical_reconstructed'):
     f['quality_rank']=f.quality_status.map({'strict_pit_eligible':3,'conservative_release_reconstructed':2,'historical_reconstructed':1,'latest_vintage_reconstructed':0})
     return f.sort_values(['effective_available_at','publication_edition_order','quality_rank','source_record_id'])
 
-def align(f,points,level='historical_reconstructed'):
-    allowed=prepare(f,level);rows=[];lineage=[];specs=[s for s in feature_specifications() if s.get('required',True)]
-    audit_path=OUT/'release/macro_period_audit.parquet';period_gaps={}
+def align(f,points,level='historical_reconstructed',*,daily_windows=(5,20),specifications=None,audit_path=None):
+    allowed=prepare(f,level);rows=[];lineage=[]
+    specs=[s for s in (feature_specifications() if specifications is None else specifications) if s.get('required',True)]
+    audit_path=OUT/'release/macro_period_audit.parquet' if audit_path is None else Path(audit_path)
+    period_gaps={};history_length=max(daily_windows)+1
     if audit_path.exists():
         audit=pd.read_parquet(audit_path)
         period_gaps={sid:list(g[['period_end','due_at']].itertuples(index=False,name=None)) for sid,g in audit[audit.status.eq('SOURCE_GAP')].groupby('series_id')}
@@ -76,7 +78,7 @@ def align(f,points,level='historical_reconstructed'):
                 prefix+'age_days':(t-last['effective_available_at']).total_seconds()/86400 if valid else np.nan,
                 prefix+'not_applicable':int(structural),prefix+'release_gap':int(gap and valid),prefix+'missing':int(not valid and not structural)}
             if spec['frequency']=='D':
-                for h in [5,20]:
+                for h in daily_windows:
                     group=parents[-h-1:];comparable=len(group)==h+1 and len({p['statistical_scope_id'] for p in group})==1
                     row[prefix+f'change_{h}obs']=group[-1]['value']-group[0]['value'] if valid and comparable else np.nan
                     row[prefix+f'vol_{h}obs']=np.std(np.diff([p['value'] for p in group]),ddof=0) if valid and comparable else np.nan
@@ -89,7 +91,7 @@ def align(f,points,level='historical_reconstructed'):
                 source_url=last['source_url'] if valid else None,quality=last['quality_status'] if valid else None,
                 period_end=last['period_end'] if valid else pd.NaT,change_scope_break=scope_break,change_ytd_reset=reset,
                 change_period_gap=period_gap,held_legal_release=valid,quality_view=level,
-                daily_history_parent_ids=json.dumps([p['source_record_id'] for p in parents[-21:]]) if spec['frequency']=='D' and valid else None))
+                daily_history_parent_ids=json.dumps([p['source_record_id'] for p in parents[-history_length:]]) if spec['frequency']=='D' and valid else None))
         rows.append(pd.DataFrame(sr).set_index('asof_date'))
     result=pd.concat(rows,axis=1).copy().reset_index()
     return result,pd.DataFrame(lineage),specs

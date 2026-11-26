@@ -14,7 +14,9 @@ def main():
     p.add_argument('--information-set',action='append')
     p.add_argument('--stock-cache',type=Path)
     p.add_argument('--output',type=Path)
+    p.add_argument('--rebuild-inputs',action='store_true',help='rebuild all historical inputs for the 60d study')
     args=p.parse_args()
+    if args.rebuild_inputs and args.command!='build-60d':p.error('--rebuild-inputs requires build-60d')
     if args.command=='interface-preflight':
         from .tasks import interface_preflight
         interface_preflight(data_root=args.data_root,receipt_dir=args.receipt_dir,
@@ -23,7 +25,7 @@ def main():
         if args.stock_cache is None or args.output is None:p.error('build-60d needs --stock-cache and --output')
         from .framework import DataStore
         from .horizons import build_60d
-        print(build_60d(DataStore(args.data_root),args.stock_cache,args.output));return
+        print(build_60d(DataStore(args.data_root),args.stock_cache,args.output,rebuild_inputs=args.rebuild_inputs));return
     if any(v is not None for v in [args.data_root,args.receipt_dir,args.information_set,args.stock_cache,args.output]):
         p.error('Scoped paths and information sets apply to build-60d and interface-preflight')
     from .release import begin

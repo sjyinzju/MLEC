@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE",
+  "stages": {
+    "development": {
+      "logical_tasks": 1152,
+      "physical_fits": 1116,
+      "maturity_rows": 4544,
+      "elapsed_seconds": 134.77152269997168,
+      "last_scored_fold": {
+        "000300.SH": "2022-09",
+        "000852.SH": "2022-09",
+        "000905.SH": "2022-09",
+        "000985.SH": "2022-09"
+      }
+    },
+    "test": {
+      "logical_tasks": 1504,
+      "physical_fits": 1457,
+      "maturity_rows": 5888,
+      "elapsed_seconds": 2818.576712799957,
+      "last_scored_fold": {
+        "000300.SH": "2026-08",
+        "000852.SH": "2026-08",
+        "000905.SH": "2026-08",
+        "000985.SH": "2026-08"
+      }
+    }
+  },
+  "successful_physical_fits": 10658,
+  "successful_estimator_calls": 43972,
+  "outputs": {
+    "report.md": "7c2139a0cfad8bbdfcfd1c7da9b993efcd3c61a8e2203290c496b8e5d5c3ed48",
+    "metrics.csv": "5cfabe3d869b8baec2a8349e813c657c74337b155fab4760ce4c614838314ac7",
+    "paired_intervals.csv": "fef36d224ab9be6632a13151f5eb6924cfec0cafa3325c2e754d8a4424ff8608"
+  },
+  "selection_lock_sha256": "0d54908aa534279f61edcf51004e9aa31c4b6720e360fc953f4b9d5c74d0f2d7"
+}

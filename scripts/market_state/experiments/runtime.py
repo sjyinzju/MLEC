@@ -62,9 +62,10 @@ def versions(config, store):
         experiment_plan_hash=file_hash(ROOT / 'docs/MLEC_experiment_plan.md'),
         config_hash=digest(portable_config(config)))
     if 'rbf_design' in config:
+        document = config['rbf_design'].get('document', 'docs/rbf_macro_learning_20261125.md')
         result.update(rbf_geometry_version=config['rbf_design']['version'],
             rbf_study=config['rbf_design']['study'],
-            rbf_design_document_hash=file_hash(ROOT / 'docs/rbf_macro_learning_20261125.md'))
+            rbf_design_document_hash=file_hash(ROOT / document))
     return result
 
 

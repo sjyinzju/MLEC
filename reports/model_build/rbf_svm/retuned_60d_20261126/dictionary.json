@@ -1,0 +1,81 @@
+{
+  "horizon": 60,
+  "label_version": "a4122a5e940879c76ea5",
+  "protocol": "market-state-research-v3.0",
+  "transform": {
+    "unit": [
+      1.0,
+      0.21441233429011802,
+      0.09801639794223116,
+      1.272090193177631e-10,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "center": [
+      -0.0032501918345337333,
+      0.693147180549169,
+      0.6931471805599453,
+      0.6931471642100393,
+      0.011993652159938976,
+      0.48034576909653826,
+      0.39637542461427183
+    ],
+    "scale": [
+      0.13655202026077312,
+      0.32261464533986794,
+      0.4659193953754808,
+      0.525975008094528,
+      0.010270142167269701,
+      0.034097134474649016,
+      0.18706761902298213
+    ],
+    "dimension_divisor": [
+      1,
+      1,
+      1,
+      1.4142135623730951,
+      1.4142135623730951,
+      1.4142135623730951,
+      1.4142135623730951
+    ],
+    "columns": [
+      "return",
+      "volatility",
+      "drawdown",
+      "amihud",
+      "turnover",
+      "breadth",
+      "correlation"
+    ]
+  },
+  "component_order": [
+    2,
+    0,
+    1
+  ],
+  "selected": {
+    "k": 3,
+    "covariance": "tied",
+    "bic": 7016.353734754996,
+    "cv_likelihood": -6.0194378968104765,
+    "cv_year_likelihoods": "[-7.837442737406544, -6.8093517417569265, -3.4115192112679584]",
+    "stability_ari": 0.6499305759592984,
+    "stability_ari_min": 0.22716041001452753,
+    "bootstrap_ari": "[0.22716041001452753, 0.3311304138971774, 0.7701730635587014, 0.8633833919419521, 0.7790173557480141, 0.7490345680188265, 0.8655590607714179, 0.7640633196885513, 0.38897686125728076, 0.2753083807777479, 0.8756080861159904, 0.9097519997213931]",
+    "all_converged": true,
+    "all_classes_each_market": true,
+    "rank_sum": 4.0,
+    "rule": "sum of ascending BIC rank, descending forward-time validation likelihood rank, descending bootstrap ARI rank; ties prefer smaller K then BIC",
+    "training_block_weeks": 16
+  },
+  "training_rows": 972,
+  "market_counts": {
+    "000300.SH": 243,
+    "000852.SH": 243,
+    "000905.SH": 243,
+    "000985.SH": 243
+  },
+  "max_label_available_at": "2019-12-30 18:00:00+08:00",
+  "training_fingerprint": "7255fa476378ee813f3ff44e8b48d48b3cec7266a28ab73a7b5b4140568b01f2"
+}

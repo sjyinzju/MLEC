@@ -34,42 +34,55 @@ def transform(f,params):
 def model(k,cov,seed=3060):
     return GaussianMixture(n_components=k,covariance_type=cov,n_init=CONFIG['n_init'],random_state=seed,reg_covar=1e-5,max_iter=500)
 
-def fit_dictionary(outcomes):
-    old_path=OUT/'state_dictionary/dictionary.json'
-    prior=json.loads(old_path.read_text(encoding='utf8')) if old_path.exists() else {}
-    train=training_rows(outcomes)
-    if train.empty:raise ValueError('No complete equal-market training windows')
-    params=fit_transform(train);x=transform(train,params);dates=sorted(train.asof_date.unique());rng=np.random.default_rng(CONFIG['seed'])
+def dictionary_candidates(train,params,*,config=CONFIG,require_each_market=False):
+    """Same training-only likelihood and stability selection across horizons."""
+    x=transform(train,params);dates=sorted(train.asof_date.unique());rng=np.random.default_rng(config['seed'])
     boot_indices=[]
-    for rep in range(CONFIG['bootstrap_repetitions']):
-        starts=rng.integers(0,len(dates)-CONFIG['block_weeks']+1,size=int(np.ceil(len(dates)/CONFIG['block_weeks'])))
-        sampled=[d for s in starts for d in dates[s:s+CONFIG['block_weeks']]][:len(dates)]
-        groups={d:train.index[train.asof_date.eq(d)].tolist() for d in dates}
+    width=config['block_weeks']
+    groups={d:train.index[train.asof_date.eq(d)].tolist() for d in dates}
+    for rep in range(config['bootstrap_repetitions']):
+        starts=rng.integers(0,len(dates)-width+1,size=int(np.ceil(len(dates)/width)))
+        sampled=[d for s in starts for d in dates[s:s+width]][:len(dates)]
         boot_indices.append([i for d in sampled for i in groups[d]])
     cv=[]
-    for year in CONFIG['cv_years']:
+    for year in config['cv_years']:
         a=train[train.label_available_at.lt(clock(f'{year}-01-01'))]
         b=train[train.asof_date.dt.year.eq(year)]
         p=fit_transform(a);cv.append((transform(a,p),transform(b,p)))
     rows=[];models={}
     with threadpool_limits(limits=1):
-        for cov in CONFIG['covariance']:
-            for k in CONFIG['k']:
-                g=model(k,cov).fit(x);base=g.predict(x);scores=[];ari=[];converged=[g.converged_]
+        for cov in config['covariance']:
+            for k in config['k']:
+                g=model(k,cov,config['seed']).fit(x);base=g.predict(x);scores=[];ari=[];converged=[g.converged_]
                 for a,b in cv:
-                    m=model(k,cov).fit(a);scores.append(m.score(b));converged.append(m.converged_)
+                    m=model(k,cov,config['seed']).fit(a);scores.append(m.score(b));converged.append(m.converged_)
                 for rep,idx in enumerate(boot_indices):
                     boot=train.iloc[idx];bp=fit_transform(boot)
-                    m=model(k,cov,CONFIG['seed']+rep+1).fit(transform(boot,bp))
+                    m=model(k,cov,config['seed']+rep+1).fit(transform(boot,bp))
                     ari.append(adjusted_rand_score(base,m.predict(transform(train,bp))));converged.append(m.converged_)
-                rows.append(dict(k=k,covariance=cov,bic=g.bic(x),cv_likelihood=np.mean(scores),cv_year_likelihoods=json.dumps(scores),
-                    stability_ari=np.mean(ari),stability_ari_min=min(ari),bootstrap_ari=json.dumps(ari),all_converged=all(converged)))
+                entry=dict(k=k,covariance=cov,bic=g.bic(x),cv_likelihood=np.mean(scores),cv_year_likelihoods=json.dumps(scores),
+                    stability_ari=np.mean(ari),stability_ari_min=min(ari),bootstrap_ari=json.dumps(ari),all_converged=all(converged))
+                if require_each_market:
+                    entry['all_classes_each_market']=bool(train.assign(component=base).groupby('market_id').component.nunique().eq(k).all())
+                rows.append(entry)
                 models[(k,cov)]=g
             print('dictionary candidates',cov,flush=True)
     scores=pd.DataFrame(rows)
     scores['rank_sum']=scores.bic.rank()+scores.cv_likelihood.rank(ascending=False)+scores.stability_ari.rank(ascending=False)
-    selected=scores[scores.all_converged].sort_values(['rank_sum','k','bic']).iloc[0]
-    g=models[(int(selected.k),selected.covariance)]
+    eligible=scores.all_converged
+    if require_each_market:eligible=eligible & scores.all_classes_each_market
+    if not eligible.any():raise ValueError('No eligible converged state dictionary')
+    selected=scores[eligible].sort_values(['rank_sum','k','bic']).iloc[0]
+    return scores,selected,models[(int(selected.k),selected.covariance)]
+
+
+def fit_dictionary(outcomes):
+    old_path=OUT/'state_dictionary/dictionary.json'
+    prior=json.loads(old_path.read_text(encoding='utf8')) if old_path.exists() else {}
+    train=training_rows(outcomes)
+    if train.empty:raise ValueError('No complete equal-market training windows')
+    params=fit_transform(train);x=transform(train,params)
+    scores,selected,g=dictionary_candidates(train,params)
     raw=train.assign(raw=g.predict(x)).groupby('raw')[CORE].mean()
     order=raw.sort_values(['return','volatility']).index.tolist()
     version=digest(dict(config=CONFIG,params=params,training=train[KEY+CORE].to_dict('records'),means=g.means_.tolist(),order=order))[:20]

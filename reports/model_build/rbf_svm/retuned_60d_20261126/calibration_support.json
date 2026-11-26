@@ -1,0 +1,170 @@
+[
+  {
+    "market_id": "000985.SH",
+    "fold_id": "2020-01",
+    "outer_training_rows": 243,
+    "outer_class_counts": {
+      "0": 33,
+      "1": 189,
+      "2": 21
+    },
+    "original_time_oof": {
+      "class_counts": {
+        "0": 0,
+        "1": 173,
+        "2": 6
+      },
+      "rows": 179,
+      "status": "LEGAL_BUT_SPARSE_UNSTABLE",
+      "oof_keys_hash": "5612cfff50be45594761d585eb4da89a2961442d02d325e34758a6333b97d165"
+    },
+    "accepted_blocks": 8
+  },
+  {
+    "market_id": "000985.SH",
+    "fold_id": "2022-12",
+    "outer_training_rows": 392,
+    "outer_class_counts": {
+      "0": 33,
+      "1": 328,
+      "2": 31
+    },
+    "original_time_oof": {
+      "class_counts": {
+        "0": 0,
+        "1": 312,
+        "2": 16
+      },
+      "rows": 328,
+      "status": "LEGAL_BUT_SPARSE_UNSTABLE",
+      "oof_keys_hash": "89537630d4c9fe5022ff14f1e8472316217839ad903f8ae15adc140ccf22136b"
+    },
+    "accepted_blocks": 13
+  },
+  {
+    "market_id": "000300.SH",
+    "fold_id": "2020-01",
+    "outer_training_rows": 243,
+    "outer_class_counts": {
+      "0": 28,
+      "1": 199,
+      "2": 16
+    },
+    "original_time_oof": {
+      "class_counts": {
+        "0": 0,
+        "1": 175,
+        "2": 4
+      },
+      "rows": 179,
+      "status": "LEGAL_BUT_SPARSE_UNSTABLE",
+      "oof_keys_hash": "bee25c71c71f580e1cfde05de448e3cc6fd00c8fc965deffc583f520616f35d1"
+    },
+    "accepted_blocks": 8
+  },
+  {
+    "market_id": "000300.SH",
+    "fold_id": "2022-12",
+    "outer_training_rows": 392,
+    "outer_class_counts": {
+      "0": 28,
+      "1": 342,
+      "2": 22
+    },
+    "original_time_oof": {
+      "class_counts": {
+        "0": 0,
+        "1": 318,
+        "2": 10
+      },
+      "rows": 328,
+      "status": "LEGAL_BUT_SPARSE_UNSTABLE",
+      "oof_keys_hash": "94c4ec2c6bb3cf7c97ed48e44abccf7aad8f1e919742b3ff3da1cd6fd6273d5c"
+    },
+    "accepted_blocks": 13
+  },
+  {
+    "market_id": "000905.SH",
+    "fold_id": "2020-01",
+    "outer_training_rows": 243,
+    "outer_class_counts": {
+      "0": 35,
+      "1": 184,
+      "2": 24
+    },
+    "original_time_oof": {
+      "class_counts": {
+        "0": 0,
+        "1": 171,
+        "2": 8
+      },
+      "rows": 179,
+      "status": "LEGAL_BUT_SPARSE_UNSTABLE",
+      "oof_keys_hash": "ea0d63975ea82b5ad581dc203c6e8442a95ca9502b46539fd5fe93dcbf6e0563"
+    },
+    "accepted_blocks": 8
+  },
+  {
+    "market_id": "000905.SH",
+    "fold_id": "2022-12",
+    "outer_training_rows": 392,
+    "outer_class_counts": {
+      "0": 35,
+      "1": 324,
+      "2": 33
+    },
+    "original_time_oof": {
+      "class_counts": {
+        "0": 0,
+        "1": 311,
+        "2": 17
+      },
+      "rows": 328,
+      "status": "LEGAL_BUT_SPARSE_UNSTABLE",
+      "oof_keys_hash": "e470a47944e4e0de9f8099e2487ffb52e0d6d26895e4a5c67ca603c4e86de530"
+    },
+    "accepted_blocks": 13
+  },
+  {
+    "market_id": "000852.SH",
+    "fold_id": "2020-01",
+    "outer_training_rows": 240,
+    "outer_class_counts": {
+      "0": 35,
+      "1": 181,
+      "2": 24
+    },
+    "original_time_oof": {
+      "class_counts": {
+        "0": 0,
+        "1": 166,
+        "2": 10
+      },
+      "rows": 176,
+      "status": "LEGAL_BUT_SPARSE_UNSTABLE",
+      "oof_keys_hash": "e1f6b90e5a1e022deba673fae5a959026784fbc92cd7b582ae8439f7a0ca6ebf"
+    },
+    "accepted_blocks": 7
+  },
+  {
+    "market_id": "000852.SH",
+    "fold_id": "2022-12",
+    "outer_training_rows": 389,
+    "outer_class_counts": {
+      "0": 35,
+      "1": 306,
+      "2": 48
+    },
+    "original_time_oof": {
+      "class_counts": {
+        "0": 0,
+        "1": 291,
+        "2": 34
+      },
+      "rows": 325,
+      "status": "LEGAL_BUT_SPARSE_UNSTABLE",
+      "oof_keys_hash": "65b5061e2dbdff25f7a09e9cfdd635c5c5559b31555af88fbe4e8d8b688b57b2"
+    },
+    "accepted_blocks": 13
+  }
+]
