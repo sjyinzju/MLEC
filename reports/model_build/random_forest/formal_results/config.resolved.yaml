@@ -1,0 +1,193 @@
+{
+  "schema_version": "experiments-v1",
+  "purpose": "RESEARCH",
+  "model": "random_forest",
+  "backend": "cpu",
+  "data_root": "D:\\大学\\学习\\大二秋冬\\经济学中的机器学习\\rf\\data\\market_state",
+  "output_root": "D:\\大学\\学习\\大二秋冬\\经济学中的机器学习\\小组作业\\results_rf_20261126",
+  "markets": [
+    "000985.SH",
+    "000300.SH",
+    "000905.SH",
+    "000852.SH"
+  ],
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "quality": "historical_reconstructed",
+  "resources": {
+    "cpu_workers": 6,
+    "threads_per_task": 1,
+    "minimum_free_gb": 2,
+    "max_run_gb": 35,
+    "transform_cache_entries": 2
+  },
+  "search": {
+    "generator_seed": 3059,
+    "development_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "screening_seed": 3060,
+    "regression_deterministic_seeds": [
+      3060
+    ],
+    "seed_aggregation": "mean_loss_per_sample_not_probability_ensemble",
+    "failed_candidate": "exclude_entire_candidate_if_any_required_month_fails",
+    "candidate_count": 18,
+    "finalists": 0,
+    "coarse_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "stability_seeds": [
+      3060,
+      3061,
+      3062
+    ],
+    "feature_fractions": [
+      0.35,
+      0.7,
+      1.0
+    ],
+    "tie_rule": "score_then_shallower_then_larger_leaf_then_shallower_sampling_then_candidate_id",
+    "profiles": [
+      {
+        "max_depth": 3,
+        "min_samples_leaf": 12,
+        "n_estimators": 128,
+        "max_samples": 0.75,
+        "class_weight": null
+      },
+      {
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "n_estimators": 192,
+        "max_samples": 1.0,
+        "class_weight": "balanced"
+      },
+      {
+        "max_depth": 6,
+        "min_samples_leaf": 6,
+        "n_estimators": 192,
+        "max_samples": 0.85,
+        "class_weight": null
+      },
+      {
+        "max_depth": 8,
+        "min_samples_leaf": 4,
+        "n_estimators": 256,
+        "max_samples": 0.75,
+        "class_weight": "balanced_subsample"
+      },
+      {
+        "max_depth": 10,
+        "min_samples_leaf": 3,
+        "n_estimators": 256,
+        "max_samples": 1.0,
+        "class_weight": null
+      },
+      {
+        "max_depth": 12,
+        "min_samples_leaf": 2,
+        "n_estimators": 256,
+        "max_samples": 0.85,
+        "class_weight": "balanced"
+      }
+    ]
+  },
+  "policy": {
+    "class_weight": null,
+    "missing_class": "zero_for_absent",
+    "single_class": "error",
+    "convergence_retries": 0,
+    "iteration_multiplier": 1,
+    "task_attempts": 2,
+    "numerical_warning": "error"
+  },
+  "baselines": {
+    "history_dirichlet_alpha": 1.0,
+    "current_state_probability": "existing_current_memberships",
+    "regression": "past_20d_persistence"
+  },
+  "statistics": {
+    "block_weeks": [
+      8,
+      4,
+      12
+    ],
+    "repetitions": 2000,
+    "seed": 3059,
+    "confidence": 0.95,
+    "primary_market": "000985.SH",
+    "primary_task": "classification",
+    "primary_metric": "log_loss",
+    "holm_families": [
+      "rbf_svm",
+      "random_forest",
+      "catboost"
+    ]
+  },
+  "warning": {
+    "risk_flags": [
+      "risk_downside",
+      "risk_liquidity",
+      "risk_broad_decline"
+    ],
+    "burdens": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "threshold_rule": "largest_attainable_development_burden_not_exceeding_target",
+    "calendar_gap_breaks_segment": true
+  },
+  "retention": {
+    "candidate_weights": "full_review_final_month_only",
+    "selected_weights": "test_core_monthly_and_other_final_month",
+    "diagnostics": "all_successful_fits"
+  },
+  "extensions": {
+    "information_clock": {
+      "implemented": false,
+      "requires": "registered derived feature schema with release-clock-only projection"
+    },
+    "publication_lag": {
+      "implemented": false,
+      "requires": "previous comparable release identity; not a weekly shift"
+    },
+    "market_modules": {
+      "implemented": false,
+      "requires": "registered market-module projection and paired cohorts"
+    },
+    "data_views": {
+      "implemented": false,
+      "requires": "common-cohort view comparison acceptance"
+    },
+    "alternative_dictionary": {
+      "implemented": false,
+      "requires": "separate authorized protocol and label version"
+    }
+  },
+  "feature_extension": "z_star",
+  "forest_design": {
+    "version": "random-forest-zstar-v1",
+    "shared_parameter_reference": "M",
+    "probability": "native_zero_for_absent_dictionary_class",
+    "regression": "native_seven_target_five_dimension_weighted",
+    "interpretation": "historical_test_followup_with_fixed_feature_definition"
+  }
+}
