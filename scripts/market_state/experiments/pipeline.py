@@ -4,7 +4,7 @@ import re
 import tempfile
 import time
 import pandas as pd
-from ..common import CORE, digest
+from ..common import CORE, KEY, digest
 from ..model_contract import DIMENSIONS
 from ..models.errors import FitFailure
 from .scheduling import TaskRunner, TaskScheduler
@@ -133,6 +133,22 @@ class Pipeline(TaskRunner):
             complexity_order=candidate['complexity_order'],
             score=float(scores.loss.mean()), n=len(scores), expected_months=expected_months,
             tasks=[r['task_id'] for r in records], fit_ids=[r['fit_id'] for r in records])
+        if self.forest:
+            from ..model_contract import key_hash, truth_hash
+            labels = ['future_state_id'] if task == 'classification' else CORE
+            result['cohort_hash'] = digest([key_hash(scores[KEY]), truth_hash(scores[labels])])
+            if task == 'classification':
+                from .forest_selection import probability_grid
+                evidence = pd.concat([pd.read_parquet(self.root / r['artifact'] / 'probability_evidence.parquet')
+                                      for r in records], ignore_index=True)
+                cohort = scores[KEY + labels].merge(evidence, on=KEY, how='left', validate='one_to_one')
+                if not cohort.future_state_id.eq(cohort.observed_state_id).all():
+                    raise RuntimeError('Forest probability evidence differs from the mature scoring cohort')
+                schema = read_json(self.root / records[0]['artifact'] / 'context.json')['schema']
+                result['probability_grid'] = [
+                    dict(alpha=alpha, log_loss=float(loss.log_loss.mean()), brier=float(loss.brier.mean()))
+                    for alpha, loss in probability_grid(cohort, schema['class_ids'],
+                                                       self.config['search']['probability_alphas'])]
         if self.full_span and task == 'classification':
             schema = read_json(self.root / records[0]['artifact'] / 'context.json')['schema']
             ordered = scores.sort_values('asof_date')
@@ -176,6 +192,8 @@ class Pipeline(TaskRunner):
         return self.rank(combined, task)[0]
 
     def search_group(self, market, target, information):
+        if self.forest:
+            return self.forest_search_group(market, target, information)
         coarse = [f for f in self.development if int(f[-2:]) in self.config['search']['coarse_months']]
         all_candidates = candidates(self.config, target, information)
         def run_many(values, months):
@@ -197,12 +215,6 @@ class Pipeline(TaskRunner):
                 selection_metric='log_loss' if target == 'classification' else 'fixed_initial_five_dimension_squared',
                 aggregation='actual_scoring_weeks', seed=self.config['search']['screening_seed'])
         ranked = self.rank(scores, target)
-        if self.forest:
-            if not ranked:
-                raise RuntimeError('No complete legal forest candidate: ' + group_id(market, target, information))
-            return dict(market_id=market, task=target, information_set=information, full_review=scores,
-                winner=ranked[0], selection_metric='log_loss' if target == 'classification' else 'fixed_initial_five_dimension_squared',
-                aggregation='actual_scoring_weeks', seed=self.config['search']['screening_seed'])
         if len(ranked) < self.config['search']['finalists']:
             raise RuntimeError('Too few complete legal coarse candidates: ' + group_id(market, target, information))
         finalists = ranked[:self.config['search']['finalists']]
@@ -215,6 +227,55 @@ class Pipeline(TaskRunner):
             coarse=scores, full_review=full_scores, winner=ranked_full[0],
             selection_metric='log_loss' if target == 'classification' else 'fixed_initial_five_dimension_squared',
             aggregation='actual_scoring_weeks', seed=self.config['search']['screening_seed'])
+
+    def forest_search_group(self, market, target, information, *, verify=False):
+        from .forest_selection import summarize_seeds
+        search = self.config['search']
+        screening_seed = search['screening_seed']
+        design = candidates(self.config, target, information)
+
+        def run_many(layouts, seed_ids):
+            items = [(self.task(stage='development', mode='search', market=market, task=target,
+                                information=information, fold=fold, parameters=c['parameters'], seed=seed),
+                      fold == self.development[-1])
+                     for fold in self.development for c in layouts for seed in seed_ids]
+            if verify:
+                records = []
+                for task, _ in items:
+                    record = self.journal.records.get(task['task_id'])
+                    if record is None or record['identity'] != task['identity'] or record['status'] not in ['SUCCEEDED', 'FAILED']:
+                        raise RuntimeError('Forest search month or seed missing from development evidence')
+                    records.append(record if record['status'] == 'SUCCEEDED' else None)
+            else:
+                records = self.scheduler.map(items, allow_fit_failure=True)
+            grouped = {}
+            for (task, _), record in zip(items, records):
+                i = task['identity']
+                key = digest(i['parameters'])[:16], i['seed']
+                grouped.setdefault(key, []).append(record)
+            return {c['candidate_id']: [self.candidate_score(grouped[c['candidate_id'], s], target, c, self.development)
+                                         for s in seed_ids] for c in layouts}
+
+        initial = run_many(design, [screening_seed])
+        scores = [summarize_seeds(c, initial[c['candidate_id']], target, [screening_seed]) for c in design]
+        ranked = self.rank(scores, target)
+        if len(ranked) < search['finalists']:
+            raise RuntimeError('Too few complete forest candidates: ' + group_id(market, target, information))
+        if len({row['cohort_hash'] for row in ranked}) != 1:
+            raise RuntimeError('Forest candidates do not cover the same development cohort')
+        layouts = {c['candidate_id']: c for c in design}
+        finalists = [layouts[row['candidate_id']] for row in ranked[:search['finalists']]]
+        extra_seeds = [seed for seed in seeds(self.config, target) if seed != screening_seed]
+        extra = run_many(finalists, extra_seeds) if extra_seeds else {c['candidate_id']: [] for c in finalists}
+        review = [summarize_seeds(c, initial[c['candidate_id']] + extra[c['candidate_id']], target,
+                                  [screening_seed, *extra_seeds]) for c in finalists]
+        complete = self.rank(review, target)
+        if not complete:
+            raise RuntimeError('No legal multi-seed forest finalist')
+        return dict(market_id=market, task=target, information_set=information, screening=scores,
+                    full_review=review, winner=complete[0], seed=screening_seed,
+                    selection_metric='log_loss' if target == 'classification' else 'fixed_initial_five_dimension_squared',
+                    aggregation='paired_weeks_mean_loss_across_seeds')
 
     def selected_tasks(self, selection, stage):
         folds = self.development if stage == 'development' else self.test
@@ -294,6 +355,11 @@ class Pipeline(TaskRunner):
             raise RuntimeError('Incomplete development selection groups')
         for group, evidence in selection.items():
             task = evidence['task']
+            if self.forest:
+                market, target, information = group.split('|')
+                if evidence != self.forest_search_group(market, target, information, verify=True):
+                    raise RuntimeError('Forest multi-seed selection evidence changed')
+                continue
             generated = {c['candidate_id']: (c['parameters'], c['complexity_order'])
                 for c in candidates(self.config, task, evidence['information_set'])}
             if self.full_span:
@@ -347,6 +413,12 @@ class Pipeline(TaskRunner):
             ranked = self.rank(evidence['full_review'], task)
             if not ranked or evidence['winner'] != ranked[0]:
                 raise RuntimeError('Winner differs from full-review selection')
+        if self.forest:
+            for market in self.config['markets']:
+                for task in self.config['tasks']:
+                    groups = [selection[group_id(market, task, info)] for info in search_information(self.config, self.store, self.suite)]
+                    if len({group['winner']['cohort_hash'] for group in groups}) != 1:
+                        raise RuntimeError('Forest information sets selected on different development cohorts')
         expected_tasks = self.selected_tasks(selection, 'development')
         assignments_path = self.root / 'development/selection/assignments.json'
         assignments = read_json(assignments_path)

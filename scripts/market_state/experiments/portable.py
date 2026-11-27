@@ -71,6 +71,8 @@ def package(destination, store, *, model='elastic_net', wheelhouse=None):
             paths += [ROOT / 'docs' / name for name in ['random_forest_zstar.md', 'z_star.md']]
             paths += list((ROOT / 'reports/model_build/random_forest').glob('*.json'))
             paths += list((ROOT / 'reports/model_build/random_forest').glob('*.csv'))
+            paths += sorted(p for p in (ROOT / 'reports/model_build/random_forest/final_optimization').glob('*')
+                            if p.is_file() and p.suffix in {'.json', '.csv', '.md', '.txt', '.parquet'})
             paths += [p for p in (ROOT / 'reports/market_state/model_io/z_star').iterdir() if p.is_file()]
         paths += list((ROOT / 'reports/market_state/model_io').glob('*.json'))
         paths += [ROOT / 'reports/market_state/completion_report.md', ROOT / 'reports/market_state/model_io/implementation_report.md']

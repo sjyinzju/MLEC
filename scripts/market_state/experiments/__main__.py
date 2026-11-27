@@ -11,7 +11,7 @@ from .runtime import preview, preflight
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description='MLEC explicit B -> lock -> C experiment runner')
-    parser.add_argument('command', choices=['plan', 'preflight', 'pipeline', 'run', 'lock', 'summarize', 'package', 'smoke'])
+    parser.add_argument('command', choices=['plan', 'preflight', 'pipeline', 'run', 'lock', 'summarize', 'package', 'smoke', 'export'])
     parser.add_argument('--model', choices=list(REGISTRY))
     parser.add_argument('--config', type=Path)
     parser.add_argument('--suite', default='full')
@@ -34,6 +34,12 @@ def main(argv=None):
     if args.model:
         require_model(args.model)
     if args.command == 'smoke':
+        if args.model == 'random_forest':
+            from .forest_technical import smoke
+            forest_config = load_config(args.config)
+            if forest_config['model'] != 'random_forest':
+                parser.error('--model and config model disagree')
+            return smoke(execute=args.execute, config=forest_config, data_root=args.data_root)
         from .smoke import smoke
         return smoke(args)
     config = load_config(args.config)
@@ -49,6 +55,12 @@ def main(argv=None):
         config['resources']['cpu_workers'] = args.cpu_workers
     from .config import validate_config
     validate_config(config)
+    if args.command == 'export':
+        if config['model'] != 'random_forest' or not args.runs or len(args.runs) != 1:
+            parser.error('export requires --model random_forest and one completed --run directory')
+        from .forest_export import export_forest_run
+        print(export_forest_run(args.runs[0], args.destination))
+        return
     if args.command == 'summarize':
         if not args.runs:
             parser.error('summarize requires explicit --run directories; never selects latest')
@@ -71,6 +83,9 @@ def main(argv=None):
         return result
     if args.command == 'preflight':
         result = preflight(config, store, args.suite)
+        if config['model'] == 'random_forest':
+            from .forest_technical import verify_forest_receipt
+            result['forest_acceptance_sha256'] = verify_forest_receipt(config, store)
         destination=(ROOT/'runtime_acceptance/preflight.json' if (ROOT/'package.manifest.json').exists()
             else ROOT/'reports/model_build'/config['model']/'preflight.json')
         atomic_json(destination, result)
@@ -85,7 +100,11 @@ def main(argv=None):
     from .pipeline import Pipeline
     pipeline = Pipeline(config, store, suite=args.suite, run_id=args.run_id, resume=args.resume)
     if args.command == 'pipeline':
-        print(pipeline.run(execute=args.execute))
+        root = pipeline.run(execute=args.execute)
+        print(root)
+        if config['model'] == 'random_forest':
+            from .forest_export import export_forest_run
+            print(export_forest_run(root, args.destination))
         return
     with exclusive_run(pipeline.root):
         pipeline.initialize()

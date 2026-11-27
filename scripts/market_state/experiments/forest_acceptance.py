@@ -13,7 +13,7 @@ from .scoring import add_losses
 
 MACRO = 'macro__simulation__known_signal'
 FOLDS = ['2020-01', '2020-02', '2020-03', '2020-04', '2020-05', '2020-06']
-PARAMETERS = dict(n_estimators=32, max_depth=8, min_samples_leaf=3, max_features=1.0, max_samples=1.0)
+PARAMETERS = dict(n_estimators=48, max_depth=8, min_samples_leaf=4, max_features=1.0, max_samples=1.0)
 POLICY = dict(single_class='error', missing_class='zero_for_absent')
 SEED = 3060
 
@@ -39,6 +39,8 @@ def synthetic_data(task, fold, role, variant, signal_type='direct'):
         macro[MACRO] = donor.permutation(selected) if variant == 'shuffled' else selected
     # The sign reverses across a financial regime that has no standalone relation to y.
     latent = signal if signal_type == 'direct' else np.where(regime == 1, signal, -signal)
+    if signal_type == 'weak':
+        latent = .55 * signal + np.random.default_rng(5081).normal(0., .65, len(dates))
     if task == 'classification':
         outcomes = pd.DataFrame({'future_state_id': np.digitize(latent, [-.65, .65])})
     else:
@@ -67,10 +69,11 @@ def synthetic_data(task, fold, role, variant, signal_type='direct'):
 def synthetic_check(directory):
     rows = []
     variants = ('M', 'informed', 'shuffled')
-    for signal in ('direct', 'conditional'):
-        for task in ('classification', 'regression'):
+    for signal, tasks in [('direct', ('classification', 'regression')),
+                          ('conditional', ('classification', 'regression')), ('weak', ('classification',))]:
+        for task in tasks:
             losses = {variant: [] for variant in variants}
-            parameters = dict(PARAMETERS, class_weight=None) if task == 'classification' else PARAMETERS
+            parameters = dict(PARAMETERS, class_weight=None, probability_alpha=.05) if task == 'classification' else PARAMETERS
             for variant in variants:
                 for fold in FOLDS:
                     train, pred, truth = (synthetic_data(task, fold, role, variant, signal)
@@ -94,12 +97,12 @@ def synthetic_check(directory):
                         pd.testing.assert_frame_equal(output, reloaded.predict(xp, context), check_exact=True)
                         assert model.diagnostic_artifact()['macro_split_count'] > 0
             means = {name: float(np.mean(values)) for name, values in losses.items()}
-            ceiling = .45 if signal == 'direct' else .65
+            ceiling = {'direct': .45, 'conditional': .65, 'weak': .98}[signal]
             passed = (means['informed'] < ceiling * min(means['M'], means['shuffled'])
                       and means['shuffled'] > .65 * means['M'])
             rows.append(dict(signal=signal, task=task, held_out_rows=len(losses['M']), losses=means,
                              informed_max_ratio=ceiling, shuffled_min_market_ratio=.65,
-                             exact_native_prediction_after_reload=True, passed=passed))
+                             exact_prediction_after_reload=True, passed=passed))
     return dict(status='PASSED' if all(row['passed'] for row in rows) else 'FAILED',
                 purpose='SMOKE_ONLY', real_market_data=False, seed=SEED, folds=FOLDS, summaries=rows,
                 estimator_fit_calls=len(rows) * len(variants) * len(FOLDS))

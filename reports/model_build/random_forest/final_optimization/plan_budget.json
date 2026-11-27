@@ -1,0 +1,1123 @@
+{
+  "status": "PLANNED",
+  "model": "random_forest",
+  "suite": "full",
+  "versions": {
+    "runtime_version": "experiment-runtime-v2",
+    "contract_version": "model-io-v1",
+    "data_version": "5d57508f09249cf50b1a2e52",
+    "feature_version": "781685e59a0cfcdb5bb3",
+    "target_version": "f49e499c375fa557fcb0",
+    "dictionary_version": "76bf6837dc5e32262c99",
+    "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+    "interface_code_hash": "06e924db04c9bd2d4f1257911564488f5c2f528ae9441925c3b8c8274f9cf2cc",
+    "experiment_code_hash": "85711c0fa95f331e5de667fb41e1feede39f47939024adfb022e30922fbf52bd",
+    "protocol_hash": "a7d5fb1771ac0724bce7183c5ec447f41d6c9763c26b784336eda64e6d3da9d7",
+    "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+    "config_hash": "8d97cedbc995602485a6c269246695118426667db7559310bb7988c5af7ccf0b",
+    "z_star_manifest_sha256": "8101608577f7a14274ab31d96e895bad25136a905eafd6fe31ff10d81e83f95b",
+    "forest_design_document_hash": "4c8bce2d3da37c3fae99b7e5c77a326013cbd509e340f8511166526ef7e8e7e2"
+  },
+  "core_configurations": 24,
+  "selected_configurations": 48,
+  "information_sets": [
+    "M",
+    "M+Z",
+    "M+Z_star"
+  ],
+  "budgets": [
+    {
+      "task": "classification",
+      "coarse_months": 36,
+      "development_months": 36,
+      "test_months": 47,
+      "candidate_monthly_fits_upper": 12960,
+      "selected_development_new_fits_upper": 864,
+      "test_monthly_fits_upper": 2820,
+      "estimator_fit_calls_upper": 16644,
+      "internal_svc_fit_calls_upper": 0,
+      "final_svc_fit_calls_upper": 0,
+      "svr_fit_calls_upper": 0,
+      "estimator_calls_including_convergence_retries_upper": 16644,
+      "estimator_calls_including_all_retries_upper": 33288,
+      "calibration_fits": 0,
+      "calibration_calls_including_all_retries_upper": 0,
+      "total_fit_calls_including_all_retries_upper": 33288,
+      "note": "Upper bound; selected M may also share full parameters. Seeds are not independent samples."
+    },
+    {
+      "task": "regression",
+      "coarse_months": 36,
+      "development_months": 36,
+      "test_months": 47,
+      "candidate_monthly_fits_upper": 12960,
+      "selected_development_new_fits_upper": 864,
+      "test_monthly_fits_upper": 2820,
+      "estimator_fit_calls_upper": 116508,
+      "internal_svc_fit_calls_upper": 0,
+      "final_svc_fit_calls_upper": 0,
+      "svr_fit_calls_upper": 0,
+      "estimator_calls_including_convergence_retries_upper": 116508,
+      "estimator_calls_including_all_retries_upper": 233016,
+      "calibration_fits": 0,
+      "calibration_calls_including_all_retries_upper": 0,
+      "total_fit_calls_including_all_retries_upper": 233016,
+      "note": "Upper bound; selected M may also share full parameters. Seeds are not independent samples."
+    }
+  ],
+  "calibration_plans": [],
+  "calibration_fit_expansion": [],
+  "candidates": {
+    "classification": [
+      {
+        "candidate_id": "cc1a4aba5132dc27",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 12,
+          "min_samples_leaf": 16,
+          "max_features": 0.7,
+          "max_samples": 1.0,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          12,
+          -16,
+          1.0,
+          0.7,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "3b2a6581e80d3bf0",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 3,
+          "min_samples_leaf": 16,
+          "max_features": 0.35,
+          "max_samples": 0.75,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          3,
+          -16,
+          0.75,
+          0.35,
+          256,
+          1
+        ]
+      },
+      {
+        "candidate_id": "a6204154ef3dfa93",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 8,
+          "min_samples_leaf": 4,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          8,
+          -4,
+          1.0,
+          1.0,
+          256,
+          1
+        ]
+      },
+      {
+        "candidate_id": "221d7c52b36de03a",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 5,
+          "min_samples_leaf": 8,
+          "max_features": 1.0,
+          "max_samples": 0.75,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          5,
+          -8,
+          0.75,
+          1.0,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "6d9235495f21dad4",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 5,
+          "min_samples_leaf": 12,
+          "max_features": 0.35,
+          "max_samples": 1.0,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          5,
+          -12,
+          1.0,
+          0.35,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "822403e129629fc9",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 8,
+          "min_samples_leaf": 12,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          8,
+          -12,
+          0.75,
+          0.7,
+          512,
+          1
+        ]
+      },
+      {
+        "candidate_id": "2edba07a7bb0a39b",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 12,
+          "min_samples_leaf": 4,
+          "max_features": 0.35,
+          "max_samples": 0.75,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          12,
+          -4,
+          0.75,
+          0.35,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "c62211a5a3367649",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 12,
+          "min_samples_leaf": 8,
+          "max_features": 0.7,
+          "max_samples": 1.0,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          12,
+          -8,
+          1.0,
+          0.7,
+          256,
+          1
+        ]
+      },
+      {
+        "candidate_id": "f77ed5cb820bcf32",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 3,
+          "min_samples_leaf": 12,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          3,
+          -12,
+          1.0,
+          1.0,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "f4b72bedb22b6e61",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 5,
+          "min_samples_leaf": 4,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          5,
+          -4,
+          0.75,
+          0.7,
+          256,
+          1
+        ]
+      },
+      {
+        "candidate_id": "d6485cff7c8ee632",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 8,
+          "min_samples_leaf": 8,
+          "max_features": 0.35,
+          "max_samples": 1.0,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          8,
+          -8,
+          1.0,
+          0.35,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "07baa784c5ee36f0",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 5,
+          "min_samples_leaf": 16,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          5,
+          -16,
+          1.0,
+          1.0,
+          512,
+          1
+        ]
+      },
+      {
+        "candidate_id": "dcbfe58894930a3f",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 12,
+          "min_samples_leaf": 12,
+          "max_features": 1.0,
+          "max_samples": 0.75,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          12,
+          -12,
+          0.75,
+          1.0,
+          256,
+          1
+        ]
+      },
+      {
+        "candidate_id": "4ec5dc6e3d018eac",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 3,
+          "min_samples_leaf": 4,
+          "max_features": 0.7,
+          "max_samples": 1.0,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          3,
+          -4,
+          1.0,
+          0.7,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "7f8c448c3642fe14",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 3,
+          "min_samples_leaf": 8,
+          "max_features": 0.35,
+          "max_samples": 0.75,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          3,
+          -8,
+          0.75,
+          0.35,
+          512,
+          1
+        ]
+      },
+      {
+        "candidate_id": "9c1b9410eaf43baf",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 8,
+          "min_samples_leaf": 16,
+          "max_features": 1.0,
+          "max_samples": 0.75,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          8,
+          -16,
+          0.75,
+          1.0,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "687d90afe3b1976e",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 8,
+          "min_samples_leaf": 16,
+          "max_features": 0.35,
+          "max_samples": 1.0,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          8,
+          -16,
+          1.0,
+          0.35,
+          512,
+          1
+        ]
+      },
+      {
+        "candidate_id": "d9f5e24e8874b292",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 3,
+          "min_samples_leaf": 16,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          3,
+          -16,
+          0.75,
+          0.7,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "6c9e0845649fcf28",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 5,
+          "min_samples_leaf": 12,
+          "max_features": 0.7,
+          "max_samples": 1.0,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          5,
+          -12,
+          1.0,
+          0.7,
+          256,
+          1
+        ]
+      },
+      {
+        "candidate_id": "2ad225dae443c3a4",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 12,
+          "min_samples_leaf": 4,
+          "max_features": 1.0,
+          "max_samples": 0.75,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          12,
+          -4,
+          0.75,
+          1.0,
+          512,
+          1
+        ]
+      },
+      {
+        "candidate_id": "9e7dc66cea2d3e2b",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 8,
+          "min_samples_leaf": 8,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          8,
+          -8,
+          0.75,
+          0.7,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "fba480a147178f19",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 3,
+          "min_samples_leaf": 8,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "class_weight": "balanced",
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          3,
+          -8,
+          1.0,
+          1.0,
+          256,
+          1
+        ]
+      },
+      {
+        "candidate_id": "deb638d63b700666",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 12,
+          "min_samples_leaf": 12,
+          "max_features": 0.35,
+          "max_samples": 0.75,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          12,
+          -12,
+          0.75,
+          0.35,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "a71c9a779ce3aa66",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 5,
+          "min_samples_leaf": 4,
+          "max_features": 0.35,
+          "max_samples": 1.0,
+          "class_weight": null,
+          "history_pseudocount": 1.0
+        },
+        "complexity_order": [
+          5,
+          -4,
+          1.0,
+          0.35,
+          512,
+          0
+        ]
+      }
+    ],
+    "regression": [
+      {
+        "candidate_id": "fb0a5b07d7427883",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 12,
+          "min_samples_leaf": 12,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          12,
+          -12,
+          1.0,
+          1.0,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "cfd4db14e91f19de",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 3,
+          "min_samples_leaf": 12,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          3,
+          -12,
+          0.75,
+          0.7,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "5bb1c32e8318b092",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 5,
+          "min_samples_leaf": 8,
+          "max_features": 0.35,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          5,
+          -8,
+          1.0,
+          0.35,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "060d5cf120b8db20",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 8,
+          "min_samples_leaf": 16,
+          "max_features": 0.35,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          8,
+          -16,
+          0.75,
+          0.35,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "26ddca16d46e6470",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 8,
+          "min_samples_leaf": 4,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          8,
+          -4,
+          1.0,
+          1.0,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "7a2c57b1bef6828d",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 5,
+          "min_samples_leaf": 4,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          5,
+          -4,
+          0.75,
+          0.7,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "09a8785b28cb1c95",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 12,
+          "min_samples_leaf": 16,
+          "max_features": 0.7,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          12,
+          -16,
+          1.0,
+          0.7,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "63bfeb1ea6b7e8a7",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 3,
+          "min_samples_leaf": 8,
+          "max_features": 1.0,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          3,
+          -8,
+          0.75,
+          1.0,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "2651ade3c521f3c0",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 3,
+          "min_samples_leaf": 4,
+          "max_features": 0.35,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          3,
+          -4,
+          1.0,
+          0.35,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "00c89c2fd075c773",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 12,
+          "min_samples_leaf": 8,
+          "max_features": 0.35,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          12,
+          -8,
+          0.75,
+          0.35,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "46d8fec50d47e35b",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 8,
+          "min_samples_leaf": 8,
+          "max_features": 0.7,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          8,
+          -8,
+          1.0,
+          0.7,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "7585468c346d4739",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 5,
+          "min_samples_leaf": 16,
+          "max_features": 1.0,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          5,
+          -16,
+          0.75,
+          1.0,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "e98a326459a69594",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 8,
+          "min_samples_leaf": 12,
+          "max_features": 0.35,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          8,
+          -12,
+          0.75,
+          0.35,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "339cd17b7c336bf5",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 5,
+          "min_samples_leaf": 12,
+          "max_features": 0.7,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          5,
+          -12,
+          1.0,
+          0.7,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "8649fd78304060b3",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 12,
+          "min_samples_leaf": 4,
+          "max_features": 1.0,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          12,
+          -4,
+          0.75,
+          1.0,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "486ddea7bcd86014",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 3,
+          "min_samples_leaf": 16,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          3,
+          -16,
+          1.0,
+          1.0,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "89ade0ce2a382124",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 12,
+          "min_samples_leaf": 4,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          12,
+          -4,
+          0.75,
+          0.7,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "045b4b53471f2a64",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 3,
+          "min_samples_leaf": 16,
+          "max_features": 0.35,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          3,
+          -16,
+          1.0,
+          0.35,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "69133b8782e6fba3",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 5,
+          "min_samples_leaf": 8,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          5,
+          -8,
+          1.0,
+          1.0,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "9eb9b9e0b34ab319",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 8,
+          "min_samples_leaf": 16,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          8,
+          -16,
+          0.75,
+          0.7,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "33c48bd27836380c",
+        "parameters": {
+          "n_estimators": 512,
+          "max_depth": 5,
+          "min_samples_leaf": 12,
+          "max_features": 0.35,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          5,
+          -12,
+          0.75,
+          0.35,
+          512,
+          0
+        ]
+      },
+      {
+        "candidate_id": "5173d9573a609dae",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 8,
+          "min_samples_leaf": 12,
+          "max_features": 1.0,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          8,
+          -12,
+          1.0,
+          1.0,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "b9dc7cd0afe2fb99",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 3,
+          "min_samples_leaf": 8,
+          "max_features": 0.7,
+          "max_samples": 0.75,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          3,
+          -8,
+          0.75,
+          0.7,
+          256,
+          0
+        ]
+      },
+      {
+        "candidate_id": "7666457d91a3059b",
+        "parameters": {
+          "n_estimators": 256,
+          "max_depth": 12,
+          "min_samples_leaf": 4,
+          "max_features": 0.35,
+          "max_samples": 1.0,
+          "regression_architecture": "independent"
+        },
+        "complexity_order": [
+          12,
+          -4,
+          1.0,
+          0.35,
+          256,
+          0
+        ]
+      }
+    ]
+  },
+  "extensions": {
+    "information_clock": {
+      "implemented": false,
+      "requires": "registered derived feature schema with release-clock-only projection"
+    },
+    "publication_lag": {
+      "implemented": false,
+      "requires": "previous comparable release identity; not a weekly shift"
+    },
+    "market_modules": {
+      "implemented": false,
+      "requires": "registered market-module projection and paired cohorts"
+    },
+    "data_views": {
+      "implemented": false,
+      "requires": "common-cohort view comparison acceptance"
+    },
+    "alternative_dictionary": {
+      "implemented": false,
+      "requires": "separate authorized protocol and label version"
+    }
+  },
+  "supervised_fit_calls": 0,
+  "calibration_fit_calls": 0,
+  "development_folds": [
+    "2020-01",
+    "2020-02",
+    "2020-03",
+    "2020-04",
+    "2020-05",
+    "2020-06",
+    "2020-07",
+    "2020-08",
+    "2020-09",
+    "2020-10",
+    "2020-11",
+    "2020-12",
+    "2021-01",
+    "2021-02",
+    "2021-03",
+    "2021-04",
+    "2021-05",
+    "2021-06",
+    "2021-07",
+    "2021-08",
+    "2021-09",
+    "2021-10",
+    "2021-11",
+    "2021-12",
+    "2022-01",
+    "2022-02",
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09",
+    "2022-10",
+    "2022-11",
+    "2022-12"
+  ],
+  "test_folds": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11"
+  ]
+}

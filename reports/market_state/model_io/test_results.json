@@ -1,6 +1,6 @@
 {
   "receipt_kind": "SOURCE_FULL_PYTEST",
-  "collected": 202,
+  "collected": 204,
   "node_ids": [
     "tests/test_experiments.py::test_formal_plan_scope_budget_and_candidate_symmetry",
     "tests/test_experiments.py::test_locked_sklearn_api_construction_only",
@@ -161,9 +161,11 @@
     "tests/test_paired_losses.py::test_pairing_rejects_nonfinite_loss_or_missing_identity_truth[dictionary_version-None]",
     "tests/test_paired_losses.py::test_pairing_rejects_nonfinite_loss_or_missing_identity_truth[future_state_id-None]",
     "tests/test_random_forest.py::test_probability_order_and_missing_training_class",
-    "tests/test_random_forest.py::test_single_native_fit_and_seven_target_units",
+    "tests/test_random_forest.py::test_forest_regression_fit_and_seven_target_units[native]",
+    "tests/test_random_forest.py::test_forest_regression_fit_and_seven_target_units[independent]",
     "tests/test_random_forest.py::test_rotation_preserves_mixed_macro_types",
     "tests/test_random_forest_pipeline.py::test_forest_three_way_search_lock_and_paired_test",
+    "tests/test_random_forest_pipeline.py::test_forest_export_recovers_missing_receipt_without_rewriting_archive",
     "tests/test_rbf_macro.py::test_weighted_preserves_financial_geometry_and_missing_flags",
     "tests/test_rbf_macro.py::test_weighted_matrix_coverage_candidate_budgets_and_target_choice",
     "tests/test_rbf_macro.py::test_perturbation_keeps_validation_keys_and_joint_two_week_blocks",
@@ -230,16 +232,12 @@
     "backend": "cpu"
   },
   "exit_code": 0,
-  "passed": 202,
+  "passed": 204,
   "summary": [
-    "202 passed"
+    "204 passed in 818.12s (0:13:38)"
   ],
   "interface_code_hash": "06e924db04c9bd2d4f1257911564488f5c2f528ae9441925c3b8c8274f9cf2cc",
-  "experiment_code_hash": "0c1d5bec7254c24bd071c52430af978b9a1319f8983bb57d745b10682d357441",
-  "real_supervised_fit_calls": 0,
-  "real_calibration_fit_calls": 0,
-  "smoke_runs": 0,
-  "verification": "ordinary pytest blocks real supervised estimators; integration uses non-learning stubs",
+  "experiment_code_hash": "85711c0fa95f331e5de667fb41e1feede39f47939024adfb022e30922fbf52bd",
   "test_files": {
     "tests/conftest.py": "dc1e91593bbe2f71e44eabd80b582ebb766a1311ed0c7273b1a743a28dae935f",
     "tests/test_experiments.py": "f23b6d5bd8b71dcb8b817782f122db4541980c172b7e4c1b83667dd9144e4254",
@@ -247,8 +245,8 @@
     "tests/test_model_io.py": "27bbabe4cf2d0e98bd591b343b41fa04170b1c55c1e2b74c4a0a0cf63d7d51d9",
     "tests/test_numerical_optimization.py": "5925dbb8d3a819c878b130c04fd484252a823f11e06c1ffecbf9a9876243ab57",
     "tests/test_paired_losses.py": "805f7a896865acee01e3c1b28dbf99bd6aabaa4af7079c8c0fc64e31c99e8b2f",
-    "tests/test_random_forest.py": "040fb1e84ef35ff02ad519b33710f146cfa82506a311bd8a356db7f6a330f170",
-    "tests/test_random_forest_pipeline.py": "a3dfc6fc7ccc2295c941cb0f78c4bc69b9c3da8c2c6567a1b2fd84c027a9d80b",
+    "tests/test_random_forest.py": "1e655c88a4861f5e3815bf1b92c1365d095e01a33e3dc0f8e43c88b682de6aef",
+    "tests/test_random_forest_pipeline.py": "945f1fd6cf397753a2474259266257242f3e8fc916f12567303b550b744158db",
     "tests/test_rbf_macro.py": "c1b5a3effbf84bf56ed1f785d228dd860cdbc3d484d0eb75bec6bc5a9364b821",
     "tests/test_rbf_repair.py": "fee374ef967ab4f59e9d6ae156a71d671c70362e0fae03c76231e394e23a5fa8",
     "tests/test_rbf_svm.py": "bad5f7f36e27b2c8d647164d1cefe53329b8d43e94e87af18c7f389a48a7d28b",
@@ -256,5 +254,10 @@
     "tests/test_svm_quality.py": "0c397a6a3670543e87007acfe0c055f319d90111e8d5d2f950b77968a31e5d6a",
     "tests/test_z_star_interface.py": "a51d23bbe07cac27402f9df6b3296db6bacb23988f87c43648b5ecf92ef9318c",
     "tests/test_z_star_macro.py": "fbf8143984498be22bca635f32692c24ca53372ee9889a214b94dd50b79fa3c7"
-  }
+  },
+  "real_supervised_fit_calls": 0,
+  "real_calibration_fit_calls": 0,
+  "smoke_runs": 0,
+  "verification": "ordinary pytest uses blocked real estimators and nonlearning stubs",
+  "stdout_sha256": "1e527446b77dd3c6db00be6a40507d6e77161d06d3ded222e5a6dbf6ccb66d29"
 }

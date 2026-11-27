@@ -117,7 +117,7 @@ package按选定model映射根启动文件，Elastic Net旧入口保持可用。
 
 交接包根目录另有`README_START_HERE.md`、`START_WINDOWS.cmd`和`START_LINUX.sh`。准备64位Python 3.11后，Windows双击cmd（Linux执行`bash START_LINUX.sh`）会自动创建独立venv、联网安装锁定依赖，再执行完整BC；不需要手工配置数据路径。启动这两个文件即授权真实训练，本轮仅检查脚本和解压后的非训练preflight。
 
-Random Forest、CatBoost在registry中明确未实现，调用直接报错。以后补充 `ModelAdapter.fit(X, y, FitContext)`、`predict(X, PredictionContext)`、能力声明、参数候选及保存加载/解释产物即可复用公共运行、评分、锁和报告；SVM训练内时间校准已接入；CatBoost训练内早停以后仍须按契约接入，不能复用外层评分Y。正式环境/真实求解器收敛、实际耗时与磁盘需求需同伴显式运行后确认；测试桩通过不证明真实模型效果或求解器已经跑通。
+Random Forest 已接入同一运行器并支持经封版验收的 M、M+Z、M+Z*。运行、锁参、概率稳定化、三种子复核与自动导出见 [Random Forest 设计](random_forest_zstar.md)。CatBoost 仍待实现。后续模型继续通过 `ModelAdapter.fit(X, y, FitContext)`、`predict(X, PredictionContext)` 和已有数据、锁定及评分契约接入。
 
 ## 2026-11-19 数值与运行优化
 

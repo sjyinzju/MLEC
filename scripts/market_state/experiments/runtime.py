@@ -12,13 +12,14 @@ import numpy as np
 import pandas as pd
 from ..common import ROOT, OUT, CORE, KEY, digest
 from ..framework import DataStore, load_dataset, information_view, target_view
-from ..model_contract import (CONTRACT_VERSION, fit_inputs, restrict_inputs, transform_inputs, fit_context,
+from ..model_contract import (CONTRACT_VERSION, DIMENSIONS, fit_inputs, restrict_inputs, transform_inputs, fit_context,
     prediction_context, classification_output, regression_output, key_hash, truth_hash, validate_output)
 from ..target_adapters import fit_targets, evaluation_scale
 from ..interface_acceptance import assert_interface_accepted
 from ..release import file_hash, code_hash
 from ..models import require_model, create_model, REGISTRY
 from ..models.errors import fit_counts
+from ..models.random_forest import RandomForestAdapter, forest_probability_version, shrink_probabilities
 from ..models.training import TrainingPartitions
 from .artifacts import atomic_json, atomic_parquet, read_json, staging, file_manifest, check_files
 from .config import RF_INFORMATION, portable_config, candidates, seeds, scope, search_information, parameter_reference
@@ -119,7 +120,9 @@ def preview(config, store, suite):
         parameter_source=parameter_reference(mode) if weighted or forest else
             ('independent_M_or_MZ_development_winner' if mode == 'retuned_core' else 'MZ_development_winner'),
         seeds=seeds(config, t), development_months=len(development), test_months=len(test),
-        estimators_per_month=7 if t == 'regression' and REGISTRY[config['model']]['regression'] == 'per_target' else 1)
+        estimators_per_month=7 if t == 'regression' and (
+            REGISTRY[config['model']]['regression'] == 'per_target' or
+            config.get('forest_design', {}).get('regression') == 'independent') else 1)
         for m in config['markets'] for t in config['tasks'] for mode, info in comparisons]
     budget = []
     time_plans = calibration_plans(config, store)
@@ -132,14 +135,19 @@ def preview(config, store, suite):
         # Core seed 3060 winners and complete MZ fixed-mode references reuse actual fits.
         selected_b = selected_logical * len(development) - groups * len(development)
         selected_c = selected_logical * len(test)
-        if weighted:
+        if forest:
+            candidate_months += groups * search['finalists'] * (len(seeds(config, t)) - 1) * len(development)
+            only_new_fixed = len(config['markets']) * (len(RF_INFORMATION) - 1) * len(seeds(config, t))
+            selected_b = only_new_fixed * len(development)
+            selected_c -= len(config['markets']) * len(seeds(config, t)) * len(test)
+        elif weighted:
             selected_b = selected_logical * len(development)  # Includes composite per-target models.
         elif suite == 'full' or forest:
             shared = len(config['markets']) * len(seeds(config, t))
             selected_b -= shared * len(development)
             selected_c -= shared * len(test)
         outer = candidate_months + selected_b + selected_c
-        factor = 7 if t == 'regression' and REGISTRY[config['model']]['regression'] == 'per_target' else 1
+        factor = next(row['estimators_per_month'] for row in configurations if row['task'] == t)
         inner, calibration_calls = 0, 0
         if t == 'classification' and time_plans:
             for row in time_plans:
@@ -290,6 +298,24 @@ class MonthlyExecutor:
             self.cache_stats['matrix_hits'] += 1
         return train, pre, target, pred, *entry['matrices'][info]
 
+    @staticmethod
+    def _forest_screening_artifact(identity, destination):
+        if (identity['family'], identity['task'], identity['stage']) != ('random_forest', 'classification', 'development'):
+            return None
+        if not identity['parameters'].get('probability_alpha') or identity['mode'] not in (
+                'retuned_core', 'fixed_m_params', 'replay_smoke'):
+            return None
+        physical = {key: value for key, value in identity.items() if key != 'mode'}
+        physical['parameters'] = {k: v for k, v in identity['parameters'].items() if k != 'probability_alpha'}
+        source = destination.parent / digest(physical)
+        if not source.exists():
+            return None
+        record = read_json(source / 'artifact.json')
+        if record['identity'] != physical:
+            raise RuntimeError('Forest estimator replay source has a different fit identity')
+        check_files(source, record['files'])
+        return source
+
     def __call__(self, task, destination, *, save_package):
         i = task['identity']
         start = time.perf_counter()
@@ -299,9 +325,11 @@ class MonthlyExecutor:
         model_id = i['family']
         weighted = model_id == 'rbf_svm' and 'geometry_version' in i['parameters']
         forest = model_id == 'random_forest'
-        forest_sensitivity = forest and (i['stage'] == 'test' or i['purpose'] == 'SMOKE_ONLY')
+        forest_sensitivity = forest and (i['stage'] == 'test' or i['mode'] == 'SMOKE_ONLY')
         probability = None
         perturbed = None
+        forest_weights = None
+        replay = self._forest_screening_artifact(i, destination)
         if model_id.startswith('naive_'):
             model = None
             model_version = digest(dict(family=model_id, context=asdict(context), parameters=i['parameters']))
@@ -323,6 +351,33 @@ class MonthlyExecutor:
                     values.columns = CORE
                 output = regression_output(ctx, values.reset_index(drop=True), target.schema_)
             diagnostics = []
+        elif replay is not None:
+            source = read_json(replay / 'context.json')
+            if source['fit'] != asdict(context) or source['prediction_keys'] != key_hash(pred.keys):
+                raise RuntimeError('Forest estimator replay source does not match current training and prediction rows')
+            forest_weights = source['forest_weights_version']
+            alpha = float(i['parameters']['probability_alpha'])
+            model_version = forest_probability_version(forest_weights, alpha)
+            ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model_version, input_matrix=Xp)
+            ids = target.schema_['class_ids']
+            probability = pd.read_parquet(replay / 'probability_evidence.parquet').drop(
+                columns=['observed_state_id', 'observed_label_available_at'])
+            if not probability[KEY].equals(pred.keys):
+                raise RuntimeError('Forest replay probability rows differ from current prediction keys')
+            native = probability[['native_state_prob_' + str(c) for c in ids]].to_numpy()
+            prior = probability[['train_history_prob_' + str(c) for c in ids]].to_numpy()
+            p = shrink_probabilities(native, prior, alpha)
+            output = classification_output(ctx, np.asarray(ids)[p.argmax(axis=1)], p, target.schema_)
+            probability[['predicted_state_prob_' + str(c) for c in ids]] = p
+            probability['probability_alpha'] = alpha
+            diagnostics = []
+            model = None
+            atomic_json(destination / 'forest_diagnostics.json', read_json(replay / 'forest_diagnostics.json'))
+            if save_package:
+                model_source = RandomForestAdapter.load(replay / 'model_package')
+                model_source.set_probability_alpha(alpha)
+                pd.testing.assert_frame_equal(model_source.predict(Xp, ctx), output, check_exact=True)
+                model_source.save(destination / 'model_package')
         else:
             service = None
             if model_id == 'rbf_svm' and i['task'] == 'classification':
@@ -347,6 +402,8 @@ class MonthlyExecutor:
                 threads=self.config['resources']['threads_per_task'], **extra)
             model.fit(X, target.transform(train.y), context)
             self.last_diagnostics = model.diagnostics_
+            if forest:
+                forest_weights = model.forest_weights_version_
             ctx = prediction_context(pred, pre, target, model_id=model_id, model_version=model.model_version_, input_matrix=Xp)
             output = model.predict(Xp, ctx)
             if weighted:
@@ -358,7 +415,7 @@ class MonthlyExecutor:
                     if shifted is not None:
                         xp_shifted, date_reference = shifted
                         perturbed = (model.predict(xp_shifted, ctx), date_reference)
-            elif forest_sensitivity and i['task'] == 'classification':
+            elif forest and i['task'] == 'classification':
                 probability = model.probability_evidence(Xp, output, key_columns=KEY)
             diagnostics = model.diagnostics_
         validate_output(output, ctx, task=i['task'], schema=target.schema_)
@@ -383,9 +440,17 @@ class MonthlyExecutor:
             paired = scores[KEY + ['loss']].merge(shifted_scores[KEY + ['loss']], on=KEY, validate='one_to_one', suffixes=('_real', '_perturbed'))
             atomic_parquet(destination / 'perturbed_losses.parquet', paired.merge(date_reference, on=KEY, validate='one_to_one'))
         if forest_sensitivity:
-            from .forest_diagnostics import forest_perturbation_losses
+            from .forest_diagnostics import earlier_macro_rows, forest_perturbation_losses
+            prior = None
+            if len(pred.X_macro.columns):
+                entry = next(reversed(self.cache.values()))
+                donors = entry.setdefault('forest_perturbation_donors', {})
+                if i['information_set'] not in donors:
+                    donors[i['information_set']] = earlier_macro_rows(pred, self.store, i['task'])
+                prior = donors[i['information_set']]
             sensitivity = forest_perturbation_losses(model, pred, ctx, truth, scores,
-                fixed_scale=self.scales[i['market_id']], interactions=self.store.spec.get('z_star_interactions', []))
+                fixed_scale=self.scales[i['market_id']], interactions=self.store.spec.get('z_star_interactions', []),
+                prior=prior)
             if sensitivity is not None:
                 atomic_parquet(destination / 'perturbed_losses.parquet', sensitivity)
         warning = warning_data(scores, pred, self.store, self.risk, i['task'])
@@ -393,6 +458,14 @@ class MonthlyExecutor:
         if model is not None:
             if hasattr(model, 'diagnostic_artifact'):
                 detail = model.diagnostic_artifact(X, Xp, full_kernel=save_package) if weighted else model.diagnostic_artifact()
+                if forest and i['task'] == 'regression' and i['mode'] == 'development_probe':
+                    residuals = model.regression_values(X).to_numpy() - train.y[CORE].to_numpy()
+                    rmse = np.sqrt(np.mean(residuals ** 2, axis=0))
+                    fixed = np.asarray(self.scales[i['market_id']]['scale'])
+                    scaled = dict(zip(CORE, (rmse / fixed) ** 2))
+                    detail['train_rmse'] = dict(zip(CORE, rmse))
+                    detail['train_five_dimension_squared'] = float(np.mean([
+                        np.mean([scaled[c] for c in columns]) for columns in DIMENSIONS.values()]))
                 atomic_json(destination / ('forest_diagnostics.json' if forest else 'kernel_diagnostics.json'), detail)
             if hasattr(model, 'coefficients'):
                 model.coefficients().to_csv(destination / 'coefficients.csv', index=False)
@@ -411,6 +484,8 @@ class MonthlyExecutor:
             elapsed_seconds=time.perf_counter() - start, diagnostics=diagnostics,
             input_diagnostics=dict(train=input_diagnostics(X), prediction=input_diagnostics(Xp)),
             cache_statistics=dict(self.cache_stats),
+            **(dict(forest_weights_version=forest_weights,
+                    replayed_forest_fit_id=replay.name if replay else None) if forest else {}),
             **fit_counts(diagnostics), purpose=i['purpose']))
         return dict(predictions=len(output), mature_rows=len(scores), elapsed_seconds=time.perf_counter() - start,
             process_usage=process_usage(), cache_statistics=dict(self.cache_stats),

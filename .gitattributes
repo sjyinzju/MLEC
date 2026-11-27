@@ -11,6 +11,10 @@
 /scripts/market_state/models/random_forest.py text eol=lf
 /scripts/market_state/experiments/forest_acceptance.py text eol=lf
 /scripts/market_state/experiments/forest_diagnostics.py text eol=lf
+/scripts/market_state/experiments/forest_development.py text eol=lf
+/scripts/market_state/experiments/forest_export.py text eol=lf
+/scripts/market_state/experiments/forest_mechanism.py text eol=lf
+/scripts/market_state/experiments/forest_selection.py text eol=lf
 /tests/*.py text eol=crlf
 /tests/test_random_forest*.py text eol=lf
 /tests/test_z_star_*.py text eol=lf
@@ -20,7 +24,7 @@
 /docs/MLEC_research_protocol.md text eol=crlf
 /docs/MLEC_experiment_plan.md text eol=crlf
 /docs/rbf_macro_learning_20261125.md text eol=crlf
-/docs/random_forest_zstar.md text eol=crlf
+/docs/random_forest_zstar.md text eol=lf
 /config/experiments/random_forest.yaml text eol=crlf
 /launchers/random_forest/*.cmd text eol=crlf
 /launchers/bootstrap_random_forest.ps1 text eol=crlf

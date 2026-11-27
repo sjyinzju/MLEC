@@ -13,7 +13,7 @@ from threadpoolctl import threadpool_limits
 
 from ..common import CORE, digest
 from ..model_contract import (classification_output, key_hash, package_manifest,
-                              regression_output, validate_model_input, validate_output)
+                              regression_output, validate_model_input, validate_output, validate_probabilities)
 from ..preprocessing import FoldPreprocessor
 from ..release import code_hash, file_hash
 from ..target_adapters import TargetAdapter
@@ -25,7 +25,16 @@ from .svm_quality import array_state
 
 
 FAMILY = 'random_forest'
-WEIGHT_VERSION = 'forest-native-v1'
+WEIGHT_VERSION = 'forest-weights-v2'
+
+
+def shrink_probabilities(native, prior, alpha):
+    return (1 - alpha) * native + alpha * prior
+
+
+def forest_probability_version(weights_version, alpha):
+    return digest(dict(weights_version=weights_version, probability_alpha=alpha,
+                       policy='natural_train_prior_shrinkage_v1'))
 
 
 def _support_quantiles(values):
@@ -44,6 +53,9 @@ class RandomForestAdapter:
         self.training_keys, self.parameters = training_keys.copy(), dict(parameters)
         self.seed, self.policy, self.threads = int(seed), dict(policy), threads
         self.macro_lineage = dict(macro_lineage or {})
+        self.probability_alpha = float(self.parameters.get('probability_alpha', 0.))
+        self.history_pseudocount = float(self.parameters.get('history_pseudocount', 1.))
+        self.independent = self.parameters.get('regression_architecture') == 'independent'
         self.capabilities = capabilities(FAMILY, task)
         self.target_adapter.check_context(self.preprocessor.fit_context_)
         self.diagnostics_ = []
@@ -74,25 +86,57 @@ class RandomForestAdapter:
 
     def fit(self, X_train, y_train, context):
         self.__dict__.pop('model_version_', None)
+        self.__dict__.pop('forest_weights_version_', None)
         self.diagnostics_ = []
         validate_model_input(X_train, self.preprocessor.schema_, keys=self.training_keys)
         self._check_fit_boundary(context)
         y = self._target_values(y_train, len(X_train))
         if not len(X_train.columns):
             raise FitFailure('Random Forest requires at least one transformed input column', [])
-        estimator = RandomForestClassifier if self.task == 'classification' else RandomForestRegressor
-        options = dict(self.parameters, max_features=float(self.parameters['max_features']),
-                       max_samples=float(self.parameters['max_samples']))
-        self.estimator_ = estimator(bootstrap=True, random_state=self.seed, n_jobs=self.threads, **options)
+        options = {k: v for k, v in self.parameters.items()
+                   if k not in {'probability_alpha', 'history_pseudocount', 'regression_architecture'}}
+        options.update(bootstrap=True, random_state=self.seed, n_jobs=self.threads,
+                       max_features=float(options['max_features']), max_samples=float(options['max_samples']))
+        if self.task == 'classification':
+            self._set_class_counts(np.bincount(y, minlength=len(self.target_adapter.schema_['class_ids'])))
+            self.estimator_ = self._fit_forest(RandomForestClassifier(**options), X_train, y)
+        elif self.independent:
+            self.estimator_ = tuple(self._fit_forest(RandomForestRegressor(**options), X_train, y[:, j], target)
+                                    for j, target in enumerate(CORE))
+        else:
+            self.estimator_ = self._fit_forest(RandomForestRegressor(**options), X_train, y)
+        self.fit_context_ = asdict(context)
+        self.forest_weights_version_ = self._weight_identity()
+        self.model_version_ = self._prediction_identity()
+        return self
+
+    def _set_class_counts(self, counts):
+        counts = np.asarray(counts)
+        ids = self.target_adapter.schema_['class_ids']
+        observed = self.target_adapter.parameters_['observed_classes']
+        if (counts.shape != (len(ids),) or not np.issubdtype(counts.dtype, np.integer)
+                or counts.min() < 0 or counts.sum() != len(self.training_keys)
+                or [c for c, n in zip(ids, counts) if n] != observed):
+            raise ValueError('Natural prior counts differ from the fitted class or training membership')
+        self.training_class_counts_ = counts.tolist()
+        weights = counts + self.history_pseudocount
+        self.training_prior_ = weights / weights.sum()
+        validate_probabilities(self.training_prior_[None, :], ids)
+        if not (self.training_prior_ > 0).all():
+            raise ValueError('Training prior must have full positive support')
+
+    def _fit_forest(self, estimator, X, y, target=None):
         started = perf_counter()
         diagnostic = dict(component='estimator', phase='final', solver=FAMILY,
                           n_estimators=self.parameters['n_estimators'], threads=self.threads, warnings=[])
+        if target is not None:
+            diagnostic['target'] = target
         with warnings.catch_warnings(record=True) as caught:
             warnings.simplefilter('always')
             try:
                 # Forest joblib uses threads, while native libraries remain single-threaded.
                 with threadpool_limits(limits=1):
-                    self.estimator_.fit(X_train, y)
+                    estimator.fit(X, y)
             except Exception as error:
                 diagnostic.update(status='FAILED', elapsed_seconds=perf_counter() - started, error=str(error))
                 self.diagnostics_.append(diagnostic)
@@ -100,22 +144,40 @@ class RandomForestAdapter:
             finally:
                 diagnostic['warnings'] = [dict(category=w.category.__name__, message=str(w.message)) for w in caught]
         # A fixed accumulation order makes native predictions reproducible even after a parallel fit.
-        self.estimator_.set_params(n_jobs=1)
+        estimator.set_params(n_jobs=1)
         self.diagnostics_.append(dict(diagnostic, status='SUCCEEDED', elapsed_seconds=perf_counter() - started))
-        self.fit_context_ = asdict(context)
-        self.model_version_ = self._weight_identity()
-        return self
+        return estimator
+
+    def _forests(self):
+        return self.estimator_ if self.independent else (self.estimator_,)
 
     def _weight_identity(self):
         fields = ('children_left', 'children_right', 'feature', 'threshold', 'missing_go_to_left',
                   'value', 'n_node_samples', 'weighted_n_node_samples')
-        trees = [dict((name, array_state(getattr(tree.tree_, name))) for name in fields)
-                 for tree in self.estimator_.estimators_]
+        trees = [[{name: array_state(getattr(tree.tree_, name)) for name in fields}
+                  for tree in forest.estimators_] for forest in self._forests()]
         return digest(dict(family=FAMILY, version=WEIGHT_VERSION, fit=self.fit_context_, task=self.task,
                            input_schema=self.preprocessor.schema_['schema_version'],
                            target_adapter=self.target_adapter.adapter_version_,
-                           parameters=self.parameters, seed=self.seed, policy=self.policy,
+                           parameters={k: v for k, v in self.parameters.items() if k != 'probability_alpha'},
+                           seed=self.seed, policy=self.policy,
+                           training_class_counts=getattr(self, 'training_class_counts_', None),
                            classes=getattr(self.estimator_, 'classes_', np.array([])).tolist(), trees=trees))
+
+    def _prediction_identity(self):
+        if self.task == 'classification':
+            return forest_probability_version(self.forest_weights_version_, self.probability_alpha)
+        return self.forest_weights_version_
+
+    def set_probability_alpha(self, alpha):
+        """Bind a selected postprocessor to an already fitted classification forest."""
+        if self.task != 'classification' or not hasattr(self, 'forest_weights_version_'):
+            raise ValueError('A fitted classification forest is required')
+        parameters = dict(self.parameters, probability_alpha=alpha)
+        validate_parameters(FAMILY, self.task, parameters)
+        self.parameters = parameters
+        self.probability_alpha = float(alpha)
+        self.model_version_ = self._prediction_identity()
 
     def _check_prediction_boundary(self, X, context):
         if not hasattr(self, 'model_version_'):
@@ -137,19 +199,36 @@ class RandomForestAdapter:
         self._check_prediction_boundary(X_predict, context)
         schema = self.target_adapter.schema_
         if self.task == 'classification':
-            classes = self.estimator_.classes_
-            p = self.estimator_.predict_proba(X_predict) if len(X_predict) else np.empty((0, len(classes)))
-            p = self.target_adapter.align_probabilities(p, classes, missing_policy=self.policy['missing_class'])
+            p = shrink_probabilities(self._native_probabilities(X_predict), self.training_prior_, self.probability_alpha)
             output = classification_output(context, np.asarray(schema['class_ids'])[p.argmax(axis=1)], p, schema)
         else:
-            values = self.estimator_.predict(X_predict) if len(X_predict) else np.empty((0, len(CORE)))
-            output = regression_output(context, self.target_adapter.inverse_transform(values), schema)
+            output = regression_output(context, self.regression_values(X_predict), schema)
         return validate_output(output, context, task=self.task, schema=schema)
+
+    def regression_values(self, X):
+        """Original-unit values from a matrix already checked against this estimator's context."""
+        if not len(X):
+            values = np.empty((0, len(CORE)))
+        elif self.independent:
+            values = np.column_stack([forest.predict(X) for forest in self._forests()])
+        else:
+            values = self.estimator_.predict(X)
+        return self.target_adapter.inverse_transform(values)
+
+    def _native_probabilities(self, X):
+        classes = self.estimator_.classes_
+        native = self.estimator_.predict_proba(X) if len(X) else np.empty((0, len(classes)))
+        return self.target_adapter.align_probabilities(native, classes, missing_policy=self.policy['missing_class'])
 
     def probability_evidence(self, X, output, *, key_columns):
         evidence = output[key_columns].copy()
-        columns = ['predicted_state_prob_' + str(c) for c in self.target_adapter.schema_['class_ids']]
+        ids = self.target_adapter.schema_['class_ids']
+        columns = ['predicted_state_prob_' + str(c) for c in ids]
         evidence[columns] = output[columns]
+        native = self._native_probabilities(X) if self.probability_alpha else output[columns].to_numpy()
+        evidence[['native_state_prob_' + str(c) for c in ids]] = native
+        evidence[['train_history_prob_' + str(c) for c in ids]] = np.broadcast_to(self.training_prior_, native.shape)
+        evidence['probability_alpha'] = self.probability_alpha
         if len(X):
             leaf_ids = self.estimator_.apply(X)
             support = np.column_stack([tree.tree_.n_node_samples[leaves]
@@ -167,18 +246,20 @@ class RandomForestAdapter:
         counts = np.zeros(len(columns), dtype=np.int64)
         support, depth = [], []
         reduction = np.zeros(len(CORE))
-        for estimator in self.estimator_.estimators_:
-            tree = estimator.tree_
-            internal = tree.children_left >= 0
-            counts += np.bincount(tree.feature[internal], minlength=len(columns))
-            support.extend(tree.n_node_samples[~internal])
-            depth.append(tree.max_depth)
-            if self.task == 'regression':
-                left, right = tree.children_left[internal], tree.children_right[internal]
-                weights = tree.weighted_n_node_samples
-                difference = tree.value[left, :, 0] - tree.value[right, :, 0]
-                child_weight = weights[left] * weights[right] / weights[internal]
-                reduction += (child_weight[:, None] * difference**2).sum(axis=0)
+        for j, forest in enumerate(self._forests()):
+            for estimator in forest.estimators_:
+                tree = estimator.tree_
+                internal = tree.children_left >= 0
+                counts += np.bincount(tree.feature[internal], minlength=len(columns))
+                support.extend(tree.n_node_samples[~internal])
+                depth.append(tree.max_depth)
+                if self.task == 'regression':
+                    left, right = tree.children_left[internal], tree.children_right[internal]
+                    weights = tree.weighted_n_node_samples
+                    difference = tree.value[left, :, 0] - tree.value[right, :, 0]
+                    child_weight = weights[left] * weights[right] / weights[internal]
+                    targets = slice(j, j + 1) if self.independent else slice(None)
+                    reduction[targets] += (child_weight[:, None] * difference**2).sum(axis=0)
         group_counts = {}
         feature_counts = {}
         for column, count in zip(columns, counts):
@@ -187,8 +268,13 @@ class RandomForestAdapter:
                 group = self.macro_lineage.get(raw, 'market')
                 group_counts[group] = group_counts.get(group, 0) + int(count)
                 feature_counts[column] = int(count)
-        max_features = int(self.estimator_.estimators_[0].max_features_)
-        report = dict(total_input_features=len(columns), actual_features_per_split=max_features,
+        max_features = int(self._forests()[0].estimators_[0].max_features_)
+        group_features = {}
+        for column in columns:
+            group = self.macro_lineage.get(column.removeprefix('missing__'), 'market')
+            group_features[group] = group_features.get(group, 0) + 1
+        report = dict(total_input_features=len(columns), input_feature_counts_by_group=group_features,
+                      actual_features_per_split=max_features,
                       features_per_split_fraction=max_features / len(columns),
                       n_trees=len(depth), tree_depth_quantiles_0_25_50_75_100=_support_quantiles(depth),
                       leaf_distinct_rows_quantiles_0_25_50_75_100=_support_quantiles(support),
@@ -216,6 +302,8 @@ class RandomForestAdapter:
                         parameters=self.parameters, seed=self.seed, policy=self.policy, threads=self.threads, backend='cpu',
                         diagnostics=self.diagnostics_, macro_lineage=self.macro_lineage, full_fit_context=self.fit_context_,
                         library_versions=libraries(), model_code_hash=model_code_hash(), interface_code_hash=code_hash())
+        if self.task == 'classification':
+            manifest['training_class_counts'] = self.training_class_counts_
         manifest['files'] = {p.relative_to(directory).as_posix(): file_hash(p)
                              for p in sorted(directory.rglob('*')) if p.is_file()}
         manifest['content_hash'] = digest(manifest)
@@ -246,11 +334,16 @@ class RandomForestAdapter:
             raise ValueError('Model package schema mismatch')
         model.estimator_ = joblib.load(directory / 'estimator.joblib')
         expected_type = RandomForestClassifier if model.task == 'classification' else RandomForestRegressor
-        if type(model.estimator_) is not expected_type or model.estimator_.n_jobs != 1:
+        forests = model._forests()
+        if ((model.independent and (type(forests) is not tuple or len(forests) != len(CORE)))
+                or any(type(forest) is not expected_type or forest.n_jobs != 1 for forest in forests)):
             raise ValueError('Model package estimator configuration mismatch')
+        if model.task == 'classification':
+            model._set_class_counts(manifest['training_class_counts'])
         model.fit_context_ = manifest['full_fit_context']
         model.diagnostics_ = manifest['diagnostics']
-        model.model_version_ = model._weight_identity()
+        model.forest_weights_version_ = model._weight_identity()
+        model.model_version_ = model._prediction_identity()
         if model.model_version_ != manifest['model_version'] or (
                 key_hash(model.training_keys) != model.fit_context_['training_keys_hash']):
             raise ValueError('Model package weights/training membership mismatch')

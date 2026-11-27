@@ -1,0 +1,278 @@
+{
+  "run_id": "c490657848ee56884d384d04",
+  "archive_name": "rf_results_20261126(1).zip",
+  "archive_sha256": "2bbd7382b22a34c8bd6b2b5e1216dd67538fb2c585020ef8197aff27f3694211",
+  "archive_bytes": 33432022,
+  "archived_result_hashes_verified": 80,
+  "archived_result_hashes_expected": 80,
+  "versions": {
+    "runtime_version": "experiment-runtime-v2",
+    "contract_version": "model-io-v1",
+    "data_version": "5d57508f09249cf50b1a2e52",
+    "feature_version": "781685e59a0cfcdb5bb3",
+    "target_version": "f49e499c375fa557fcb0",
+    "dictionary_version": "76bf6837dc5e32262c99",
+    "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+    "interface_code_hash": "06e924db04c9bd2d4f1257911564488f5c2f528ae9441925c3b8c8274f9cf2cc",
+    "experiment_code_hash": "0c1d5bec7254c24bd071c52430af978b9a1319f8983bb57d745b10682d357441",
+    "protocol_hash": "a7d5fb1771ac0724bce7183c5ec447f41d6c9763c26b784336eda64e6d3da9d7",
+    "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+    "config_hash": "a2e0493074abc0ff860f5478dfc8d32f8f044042e37dc95e1c0eb3d686e1f1c7",
+    "z_star_manifest_sha256": "8101608577f7a14274ab31d96e895bad25136a905eafd6fe31ff10d81e83f95b",
+    "forest_design_document_hash": "c65ff37676f91d7999dc651cd8573da6d2dbccf3bb4570b56022d668dd884cdb"
+  },
+  "lock_sha256": "58560647f4c62a56619d96ab963159babf022b177f159617137931e3c7aa3972",
+  "official_C_retuned_classifiers_beating_history": {
+    "count": 0,
+    "total": 12
+  },
+  "old_problem_group": {
+    "max_depth": 12,
+    "min_samples_leaf": 2,
+    "n_estimators": 256,
+    "max_samples": 0.85,
+    "class_weight": "balanced",
+    "max_features": 0.35
+  },
+  "old_group_locked_screening_loss": 0.18881602058508415,
+  "old_group_development_three_seed_mean": 0.39304475159376734,
+  "other_deep_winner": {
+    "max_depth": 12,
+    "min_samples_leaf": 2,
+    "n_estimators": 256,
+    "max_samples": 0.85,
+    "class_weight": "balanced",
+    "max_features": 0.35
+  },
+  "monthly_diagnostics": [
+    {
+      "task": "classification",
+      "information_set": "M",
+      "sampled_features": 141.75,
+      "total_features": 207.0,
+      "median_leaf_support": 15.86436170212766,
+      "median_depth": 3.0,
+      "total_splits": 479.70212765957444,
+      "macro_splits": 0.0,
+      "macro_share": 0.0
+    },
+    {
+      "task": "classification",
+      "information_set": "M+Z",
+      "sampled_features": 483.75,
+      "total_features": 577.8085106382979,
+      "median_leaf_support": 15.106382978723405,
+      "median_depth": 3.0,
+      "total_splits": 474.59397163120565,
+      "macro_splits": 243.51063829787233,
+      "macro_share": 0.513092565126592
+    },
+    {
+      "task": "classification",
+      "information_set": "M+Z_star",
+      "sampled_features": 154.7872340425532,
+      "total_features": 444.0,
+      "median_leaf_support": 9.441489361702128,
+      "median_depth": 4.608156028368795,
+      "total_splits": 2090.8563829787236,
+      "macro_splits": 1030.900709219858,
+      "macro_share": 0.49305189854847553
+    },
+    {
+      "task": "regression",
+      "information_set": "M",
+      "sampled_features": 72.0,
+      "total_features": 207.0,
+      "median_leaf_support": 20.04609929078014,
+      "median_depth": 3.25,
+      "total_splits": 738.072695035461,
+      "macro_splits": 0.0,
+      "macro_share": 0.0
+    },
+    {
+      "task": "regression",
+      "information_set": "M+Z",
+      "sampled_features": 252.21808510638297,
+      "total_features": 577.8085106382979,
+      "median_leaf_support": 17.8395390070922,
+      "median_depth": 3.75,
+      "total_splits": 1175.072695035461,
+      "macro_splits": 476.3421985815603,
+      "macro_share": 0.40537253617929175
+    },
+    {
+      "task": "regression",
+      "information_set": "M+Z_star",
+      "sampled_features": 154.7872340425532,
+      "total_features": 444.0,
+      "median_leaf_support": 19.18173758865248,
+      "median_depth": 3.25,
+      "total_splits": 738.7765957446809,
+      "macro_splits": 281.2836879432624,
+      "macro_share": 0.3807425540595675
+    }
+  ],
+  "historical_monthly_perturbation": [
+    {
+      "market_id": "000300.SH",
+      "task": "classification",
+      "information_set": "M+Z",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": 0.0406984338717957,
+      "size": 194
+    },
+    {
+      "market_id": "000300.SH",
+      "task": "classification",
+      "information_set": "M+Z_star",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -0.0494024107148429,
+      "size": 194
+    },
+    {
+      "market_id": "000300.SH",
+      "task": "regression",
+      "information_set": "M+Z",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": 0.001189718010785,
+      "size": 194
+    },
+    {
+      "market_id": "000300.SH",
+      "task": "regression",
+      "information_set": "M+Z_star",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": 0.0002323271755292,
+      "size": 194
+    },
+    {
+      "market_id": "000852.SH",
+      "task": "classification",
+      "information_set": "M+Z",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -0.004175576448109,
+      "size": 194
+    },
+    {
+      "market_id": "000852.SH",
+      "task": "classification",
+      "information_set": "M+Z_star",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -0.0054265464562649,
+      "size": 194
+    },
+    {
+      "market_id": "000852.SH",
+      "task": "regression",
+      "information_set": "M+Z",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -0.0003919302252205,
+      "size": 194
+    },
+    {
+      "market_id": "000852.SH",
+      "task": "regression",
+      "information_set": "M+Z_star",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -4.383300395245019e-05,
+      "size": 194
+    },
+    {
+      "market_id": "000905.SH",
+      "task": "classification",
+      "information_set": "M+Z",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -0.0027872193374578,
+      "size": 194
+    },
+    {
+      "market_id": "000905.SH",
+      "task": "classification",
+      "information_set": "M+Z_star",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -0.0071044966185708,
+      "size": 194
+    },
+    {
+      "market_id": "000905.SH",
+      "task": "regression",
+      "information_set": "M+Z",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": 0.0008172099839516,
+      "size": 194
+    },
+    {
+      "market_id": "000905.SH",
+      "task": "regression",
+      "information_set": "M+Z_star",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": 0.0007971091281952,
+      "size": 194
+    },
+    {
+      "market_id": "000985.SH",
+      "task": "classification",
+      "information_set": "M+Z",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -0.0048453407917653,
+      "size": 194
+    },
+    {
+      "market_id": "000985.SH",
+      "task": "classification",
+      "information_set": "M+Z_star",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": -0.0015560920593751,
+      "size": 194
+    },
+    {
+      "market_id": "000985.SH",
+      "task": "regression",
+      "information_set": "M+Z",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": 0.0003838382010886,
+      "size": 194
+    },
+    {
+      "market_id": "000985.SH",
+      "task": "regression",
+      "information_set": "M+Z_star",
+      "mode": "retuned_core",
+      "group": "all_macro",
+      "metric": "loss",
+      "mean": 4.7743553790994455e-06,
+      "size": 194
+    }
+  ],
+  "C_used_for_new_parameter_selection": false
+}
