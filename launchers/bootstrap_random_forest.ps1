@@ -18,15 +18,22 @@ try {
     if (-not $Python) {
         $Python = Join-Path $taskRepo '.venv-random-forest\Scripts\python.exe'
         if (-not (Test-Path -LiteralPath $Python)) {
-            $taskPy = Get-Command py.exe -ErrorAction SilentlyContinue
-            if ($taskPy) { $taskBase = $taskPy.Source; $taskPrefix = @('-3.11') }
-            else {
-                $taskPy = Get-Command python.exe -ErrorAction SilentlyContinue
-                if (-not $taskPy) { throw 'Install 64-bit Python 3.11 with PATH enabled, or pass -Python C:\env\Scripts\python.exe.' }
-                $taskBase = $taskPy.Source; $taskPrefix = @()
+            $taskBase = $null
+            foreach ($taskPy in (Get-Command py.exe, python.exe -CommandType Application -All -ErrorAction SilentlyContinue)) {
+                $taskCandidate = $taskPy.Source
+                $taskPrefix = @()
+                if ($taskPy.Name -eq 'py.exe') { $taskPrefix = @('-3.11') }
+                try {
+                    & $taskCandidate @taskPrefix -c $taskCheck *> $null
+                } catch {
+                    continue  # An App Execution Alias can resolve even when it cannot run.
+                }
+                if ($LASTEXITCODE -eq 0) {
+                    $taskBase = $taskCandidate
+                    break
+                }
             }
-            & $taskBase @taskPrefix -c $taskCheck
-            if ($LASTEXITCODE -ne 0) { throw 'Python 3.11 (64-bit) was not found. Install it and reopen this launcher.' }
+            if (-not $taskBase) { throw 'Install 64-bit Python 3.11 with PATH enabled, or pass -Python C:\env\Scripts\python.exe.' }
             & $taskBase @taskPrefix -m venv (Join-Path $taskRepo '.venv-random-forest')
             if ($LASTEXITCODE -ne 0) { throw 'Cannot create venv. Extract the package to a writable directory and install Python venv support.' }
         }
