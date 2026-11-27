@@ -1,0 +1,39 @@
+{
+  "receipt_kind": "PORTABLE_SUBSET",
+  "exit_code": 0,
+  "collected": 4,
+  "passed": 4,
+  "node_ids": [
+    "portable_tests/test_runtime.py::test_fixed_package_and_source_proof",
+    "portable_tests/test_runtime.py::test_sealed_input_target_prediction_contracts",
+    "portable_tests/test_runtime.py::test_real_macro_specification_modules_and_no_duplicates",
+    "portable_tests/test_runtime.py::test_random_forest_overlay_and_rebuild_sources"
+  ],
+  "experiment_code_hash": "85711c0fa95f331e5de667fb41e1feede39f47939024adfb022e30922fbf52bd",
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.3",
+      "lxml": "6.0.2",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.2",
+      "olefile": "0.47",
+      "tabulate": "0.9.0",
+      "pytest": "9.0.3",
+      "duckdb": "1.5.5",
+      "matplotlib": "3.10.8",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.6.0"
+    },
+    "backend": "cpu"
+  },
+  "source_receipt_sha256": "5072b960fb72c9d4fd121ffaaeae44eff42b841dfb4d06198288978aa56a5af6",
+  "scope": "Runtime/seal/contracts/imports only; excludes raw collection/build tests; no training"
+}

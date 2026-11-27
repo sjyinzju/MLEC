@@ -1,0 +1,25 @@
+{
+  "status": "DELIVERED",
+  "archive_name": "MLEC_RandomForest_Zstar_Optimized_Ready.zip",
+  "desktop_path": "D:\\Desktop\\MLEC_RandomForest_Zstar_Optimized_Ready.zip",
+  "size_bytes": 145368555,
+  "sha256": "561610c2510a66881dce3e06957028fca7e6b0b5bac6dc2462234ff6580bae4b",
+  "zip_source_commit": "51ba078d8b8d9b2c9ec01f9994fae97782c5f972",
+  "verified_zip_entries": 262,
+  "zip_manifest_sha256": "ee39ce8607ba92e0077925acc5f1a2760c0c9a32018acf85f8a24f11ae62eca1",
+  "unpack_check": {
+    "command": "CHECK_WINDOWS.cmd",
+    "python_selection": "default discovery with no explicit Python path",
+    "offline_install": true,
+    "preflight": "PREFLIGHT_PASSED",
+    "portable_pytest": "4 passed",
+    "preflight_sha256": "bb2c381e1ccacd4882d3df06a72c44f8e8678bc6fc7a79dffdf02ce7e63079b0",
+    "portable_pytest_sha256": "b2a9d217eed6f87927da1e1ac868cfe7b503bad1744ffb30f58958cbbf87b589",
+    "package_data_root": "data/market_state",
+    "raw_lake_required": false,
+    "supervised_fit_calls": 0
+  },
+  "source_acceptance_sha256": "0666406638024e894d5b1829095a897e8ce430a3696099254638a3232bc5d8c0",
+  "planned_formal_run": "peer only",
+  "completed_at_local_date": "2026-11-27"
+}
