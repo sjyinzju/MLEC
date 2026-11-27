@@ -1,0 +1,3936 @@
+{
+  "status": "PREFLIGHT_PASSED",
+  "environment": {
+    "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "requests": "2.32.5",
+      "beautifulsoup4": "4.14.3",
+      "lxml": "6.0.2",
+      "openpyxl": "3.1.5",
+      "xlrd": "2.0.2",
+      "olefile": "0.47",
+      "tabulate": "0.9.0",
+      "pytest": "9.0.3",
+      "duckdb": "1.5.5",
+      "matplotlib": "3.10.8",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.6.0"
+    },
+    "backend": "cpu"
+  },
+  "versions": {
+    "runtime_version": "experiment-runtime-v2",
+    "contract_version": "model-io-v1",
+    "data_version": "5d57508f09249cf50b1a2e52",
+    "feature_version": "781685e59a0cfcdb5bb3",
+    "target_version": "f49e499c375fa557fcb0",
+    "dictionary_version": "76bf6837dc5e32262c99",
+    "original_seal_hash": "728d7adb6305f4951281c800c16508aa3fa1565e52dfbfd7e96f655100acce8f",
+    "interface_code_hash": "06e924db04c9bd2d4f1257911564488f5c2f528ae9441925c3b8c8274f9cf2cc",
+    "experiment_code_hash": "0c1d5bec7254c24bd071c52430af978b9a1319f8983bb57d745b10682d357441",
+    "protocol_hash": "a7d5fb1771ac0724bce7183c5ec447f41d6c9763c26b784336eda64e6d3da9d7",
+    "experiment_plan_hash": "e26b6c73b5002537aba279f149db99df63a8e4cbee85a967bddc9495a97ca47a",
+    "config_hash": "a2e0493074abc0ff860f5478dfc8d32f8f044042e37dc95e1c0eb3d686e1f1c7",
+    "z_star_manifest_sha256": "8101608577f7a14274ab31d96e895bad25136a905eafd6fe31ff10d81e83f95b",
+    "forest_design_document_hash": "c65ff37676f91d7999dc651cd8573da6d2dbccf3bb4570b56022d668dd884cdb"
+  },
+  "calibration_plans": [],
+  "train_class_support": [
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-01",
+      "rows": 251,
+      "training_keys_hash": "5837646c016a545ac16089e2fc18631ac73b94a507c836477128ab8718886063",
+      "counts": {
+        "1": 215,
+        "2": 20,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-02",
+      "rows": 254,
+      "training_keys_hash": "dd44784e3729a3a232b63f2d8877ec7736a1fa6cfb035658746c1508bf9a85d6",
+      "counts": {
+        "1": 218,
+        "2": 20,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-03",
+      "rows": 259,
+      "training_keys_hash": "9e496b4fdcc417701ff186fdb0fac738230d6140e03d2d0481935f64ec2acbe8",
+      "counts": {
+        "1": 223,
+        "2": 20,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-04",
+      "rows": 263,
+      "training_keys_hash": "ca4ba4ef75349edc6e1ee7fd910d6861348ef12258cbd6611ccc945a2b55117d",
+      "counts": {
+        "1": 227,
+        "2": 20,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-05",
+      "rows": 267,
+      "training_keys_hash": "f7fc50ecf04f9c506e27a7134e2aec51cbfb9d255f2480f874200a15d0171e64",
+      "counts": {
+        "1": 231,
+        "2": 20,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-06",
+      "rows": 271,
+      "training_keys_hash": "bf045d1ade13dacfc6af553dc1c5e70b9cd66ab2ea050f4338b7ce4283eead0b",
+      "counts": {
+        "1": 235,
+        "2": 20,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-07",
+      "rows": 276,
+      "training_keys_hash": "13af569df06fa25e364e4169f1c27cb90e06ace665c398d12b04407baf48105c",
+      "counts": {
+        "1": 240,
+        "2": 20,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-08",
+      "rows": 281,
+      "training_keys_hash": "27884ed6057302ee61fd826c38b2955c4c69e493862c30bfecc9ed370a97215b",
+      "counts": {
+        "1": 241,
+        "2": 24,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-09",
+      "rows": 285,
+      "training_keys_hash": "4847c7a68fd586b1b9f9da66807cc316a43fdf44a41881c507b1a02890e05875",
+      "counts": {
+        "1": 245,
+        "2": 24,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-10",
+      "rows": 289,
+      "training_keys_hash": "2e2787621802e674b58bbe42c35770e6c45edc3cf5b96cc00c6fd9555a10a391",
+      "counts": {
+        "1": 249,
+        "2": 24,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-11",
+      "rows": 292,
+      "training_keys_hash": "7b010cb40398f67b7e2f30d44c0a43971cfa43e359b6bf95f406bb74e2d5bd9c",
+      "counts": {
+        "1": 252,
+        "2": 24,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2020-12",
+      "rows": 298,
+      "training_keys_hash": "67da4746abde473fae4fd8fa058bbd378228f7b6300396991dc8ece0b69adf22",
+      "counts": {
+        "1": 258,
+        "2": 24,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-01",
+      "rows": 302,
+      "training_keys_hash": "72b454fa1b08841f499bba04b900fa854914bc0e120013adb78a6a1daeb20933",
+      "counts": {
+        "1": 262,
+        "2": 24,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-02",
+      "rows": 307,
+      "training_keys_hash": "88b6acd46b10d0eef569dc8016e3d445273b157fee9c093dd98b1fab3608fe85",
+      "counts": {
+        "1": 267,
+        "2": 24,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-03",
+      "rows": 310,
+      "training_keys_hash": "5ff72f2ffc6f8e551a187a4dd6b8302bb421edf0f8aafe5bd60d718c091d91f7",
+      "counts": {
+        "1": 270,
+        "2": 24,
+        "0": 16
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-04",
+      "rows": 315,
+      "training_keys_hash": "b587bdf0d82507f27d6f6111a8f003fe7f47f1dd479cccced18625b5f1804bd5",
+      "counts": {
+        "1": 274,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-05",
+      "rows": 319,
+      "training_keys_hash": "b2a52fc1c6939db3d4daf510f60eb9ebbf526abe7443f813d4e9addc6fe433be",
+      "counts": {
+        "1": 278,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-06",
+      "rows": 323,
+      "training_keys_hash": "e7d656c6241f7a8b0fc44aa2163cc0ff20d5d80ccd5ccd4cc4f08a5bad21ea7a",
+      "counts": {
+        "1": 282,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-07",
+      "rows": 328,
+      "training_keys_hash": "19d4b06d7df5a5fe86ed315ad592f081c974e8b48273902969bcbc39c785f4dd",
+      "counts": {
+        "1": 287,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-08",
+      "rows": 333,
+      "training_keys_hash": "218c66e3407e58f393beb2233faa8bd41c13f756a353ebab2fa79e8157e47427",
+      "counts": {
+        "1": 292,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-09",
+      "rows": 337,
+      "training_keys_hash": "f19c49779f136b113c6f7107b359dd7687bd013d2f5b71bc23587d254c4288f6",
+      "counts": {
+        "1": 296,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-10",
+      "rows": 341,
+      "training_keys_hash": "0d64dacede5b97a7fc097d8ebd26fa126b908cc3cd6116c383dafdc5fa7dc205",
+      "counts": {
+        "1": 300,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-11",
+      "rows": 345,
+      "training_keys_hash": "b394c21521f2d98f721d736b21aae2c142d8d456812e28708857d63f29f837cc",
+      "counts": {
+        "1": 304,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2021-12",
+      "rows": 350,
+      "training_keys_hash": "f0df879fdefc6787b024d00b6c1176d9be5718b7d02b91a08c200412a7aff92b",
+      "counts": {
+        "1": 309,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-01",
+      "rows": 355,
+      "training_keys_hash": "5d394104867d34c67daab314457fdca652c12e33fc0db47e001a900f5f0dab4c",
+      "counts": {
+        "1": 314,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-02",
+      "rows": 358,
+      "training_keys_hash": "f0e1e8cc5471aa7b32879fc7022fa033e253d248e7f09266fdb043fa4dc1265e",
+      "counts": {
+        "1": 317,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-03",
+      "rows": 362,
+      "training_keys_hash": "472fa3787390c242d7f66daf6839a954dc4d74d5ea1c3677a23a6db3c4ab271d",
+      "counts": {
+        "1": 321,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-04",
+      "rows": 366,
+      "training_keys_hash": "8cf115168cf6fda72202ede8323dac71f5da4a4d3731e473f3bf993c9316059b",
+      "counts": {
+        "1": 325,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-05",
+      "rows": 370,
+      "training_keys_hash": "0b5121ead2403f8f0a58dd0918acf6cb29b94b95cde3b33baa52ed6e3564adaf",
+      "counts": {
+        "1": 329,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-06",
+      "rows": 374,
+      "training_keys_hash": "e45a4eb7fa5bf9c5735116c9d6a1ba4225ada7188943b5e82844a3822348417e",
+      "counts": {
+        "1": 333,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-07",
+      "rows": 379,
+      "training_keys_hash": "7f06cc2566d066b0ad5c67528362290304d379194d2b37f397bb5822561b3761",
+      "counts": {
+        "1": 338,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-08",
+      "rows": 384,
+      "training_keys_hash": "141641f1bd6e85c2a6d85e991217f6f3cebd251da09fd18eb77878431006bc49",
+      "counts": {
+        "1": 343,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-09",
+      "rows": 388,
+      "training_keys_hash": "ef172b02ab2dfe4037a9f179fc3acbfd3c2d47de25c4c77694f0741475a4c727",
+      "counts": {
+        "1": 347,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-10",
+      "rows": 392,
+      "training_keys_hash": "dadae37e99768c4dbfa8176a45d394c16f5676696e76801343a5970a23faf824",
+      "counts": {
+        "1": 351,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-11",
+      "rows": 396,
+      "training_keys_hash": "0d0fd70bbbab0ed10e46a0af3bbdf808bcefedeaf173f25ce803746b12774afe",
+      "counts": {
+        "1": 355,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2022-12",
+      "rows": 400,
+      "training_keys_hash": "4711569324c19639a046947b02ae5c815b0bb985b40b59edd32e4b05faed769c",
+      "counts": {
+        "1": 359,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-01",
+      "rows": 405,
+      "training_keys_hash": "6ba92fb551e3f2d5a4dcb447c2771b8b632a85db2584f8d2bf3a629d7cf8e0ec",
+      "counts": {
+        "1": 364,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-02",
+      "rows": 408,
+      "training_keys_hash": "f08898693fa7634c7232a40e95ee06bcbb1544afa1d3e19c839131e1c3ea31be",
+      "counts": {
+        "1": 367,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-03",
+      "rows": 412,
+      "training_keys_hash": "b97444247ff7cad9349d34203b21d5c9b4ffcdc00d1e6b0b94969d937fc4e108",
+      "counts": {
+        "1": 371,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-04",
+      "rows": 417,
+      "training_keys_hash": "f88afd90d517b432eff0f5d5a8d497cac0b42abdbe21e7857f11fe3a48cf90c8",
+      "counts": {
+        "1": 376,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-05",
+      "rows": 420,
+      "training_keys_hash": "00aa147a09e5759db511af25b3334578b9f374a5e183c5b140ab5cea5f26611a",
+      "counts": {
+        "1": 379,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-06",
+      "rows": 425,
+      "training_keys_hash": "06abc88de37ff16d642e55958880a3f8403c62e5d6260799a94e01e8c9dabdf2",
+      "counts": {
+        "1": 384,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-07",
+      "rows": 429,
+      "training_keys_hash": "f9ce0dd256ce0f10261a5ce91d56dcb40a25ba9343a6c80b0d908dcc9f31446c",
+      "counts": {
+        "1": 388,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-08",
+      "rows": 434,
+      "training_keys_hash": "2267de65184e4055bafd1a3dd52784005ff625aa88d8f8c27ccbeb2b0af40313",
+      "counts": {
+        "1": 393,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-09",
+      "rows": 438,
+      "training_keys_hash": "7c176b587a368e4e4b6a41f02b9b615c19d2624656c288702cf4a4e96793a234",
+      "counts": {
+        "1": 397,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-10",
+      "rows": 442,
+      "training_keys_hash": "999bf82e78fe7e6a5c71e012d3152188eadc010fc06699e96ccb7965aa6d8b9d",
+      "counts": {
+        "1": 401,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-11",
+      "rows": 446,
+      "training_keys_hash": "b3189939a3c262da2142bb8d04d6d676e931db74d4efdf3f947d6eb7626ee780",
+      "counts": {
+        "1": 405,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2023-12",
+      "rows": 450,
+      "training_keys_hash": "48cd59833fb4706b84372e30c579d805a5a15315995019c3a7e2d9e896a2055b",
+      "counts": {
+        "1": 409,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-01",
+      "rows": 455,
+      "training_keys_hash": "fd0cebaf2680c86b36b05f386b37cce8c11aec9dc84ef334295a184c7334cb04",
+      "counts": {
+        "1": 414,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-02",
+      "rows": 459,
+      "training_keys_hash": "f4d3d08f532f757c98e4bcfdc4422ff34a2d31aacf407683894d1f61960b755d",
+      "counts": {
+        "1": 418,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-03",
+      "rows": 462,
+      "training_keys_hash": "1d7449e0e3f7778ea91775e21cf40c73168b0a5c6b9fa1ed6a423374f5f2663d",
+      "counts": {
+        "1": 421,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-04",
+      "rows": 467,
+      "training_keys_hash": "d54a2f34ef383c229e155aef1f474148c2bec64ba573916f01ba54926f52e68d",
+      "counts": {
+        "1": 426,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-05",
+      "rows": 471,
+      "training_keys_hash": "540eeac6058de75227d622f9dcd01884d9eb0f54bd4c9c9e411bf0daafc1d544",
+      "counts": {
+        "1": 430,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-06",
+      "rows": 476,
+      "training_keys_hash": "f78834fa90e15eae2cc1818ab407dfbd691125b7aa5fa713b70ec9864b6539ca",
+      "counts": {
+        "1": 435,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-07",
+      "rows": 479,
+      "training_keys_hash": "d28233795edb3d84b8acf083da3462bd7e41e26fb6b27244a81662603279c6c5",
+      "counts": {
+        "1": 438,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-08",
+      "rows": 484,
+      "training_keys_hash": "4f0fd92ec7f3635418f485fa435e4d53dc2737efbb79a986de633113dbd669f7",
+      "counts": {
+        "1": 443,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-09",
+      "rows": 489,
+      "training_keys_hash": "384e05e892b7194d19266e36ec9a5de2ba080d46bddd8bc2b3e2753a35bee7fd",
+      "counts": {
+        "1": 448,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-10",
+      "rows": 492,
+      "training_keys_hash": "5e308cb06a69b38e11781bfbcccc4d91b79ff9e1c23890733b41f934fd0c1905",
+      "counts": {
+        "1": 451,
+        "2": 24,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-11",
+      "rows": 496,
+      "training_keys_hash": "3ff83fd568cdedc6e9ad78b06540d2a66c90b0499b5023d4b353b437cfd9bdb7",
+      "counts": {
+        "1": 451,
+        "2": 28,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2024-12",
+      "rows": 502,
+      "training_keys_hash": "e065f84d35be0e73959bd4b747f3456b328f00b79ac2264061c63a93d8792890",
+      "counts": {
+        "1": 455,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-01",
+      "rows": 506,
+      "training_keys_hash": "99453dbbd38ab1aefccba65ffbda44024dc8cd6cb0391127285b58c01c35d401",
+      "counts": {
+        "1": 459,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-02",
+      "rows": 510,
+      "training_keys_hash": "04ed4e8378d5a99aaa180c62cfb5985e99a933040a5796e3b1e7cb5f0ae3938c",
+      "counts": {
+        "1": 463,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-03",
+      "rows": 513,
+      "training_keys_hash": "3bade7c7a6d629804d5860714cdb4e91f883b8e770f0f9490aed4d6572c61835",
+      "counts": {
+        "1": 466,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-04",
+      "rows": 519,
+      "training_keys_hash": "ea7e158fafd78147978f77b76b1b2fa282045efb859ad39c246a2b120c045a10",
+      "counts": {
+        "1": 472,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-05",
+      "rows": 523,
+      "training_keys_hash": "f748cae51cb5fcf809c0b3d6bc06bdf482e9de61e2988bb78d1107373e562f3b",
+      "counts": {
+        "1": 476,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-06",
+      "rows": 527,
+      "training_keys_hash": "c681e69ebb3bb52451142ac272d6f352ad0332bcece32d099675b1a7e02ad221",
+      "counts": {
+        "1": 480,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-07",
+      "rows": 532,
+      "training_keys_hash": "4751b59032d67d54a9926a71d063a93cc6107035e32a3d67f4821cd7146573ad",
+      "counts": {
+        "1": 485,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-08",
+      "rows": 536,
+      "training_keys_hash": "d7e507577b776f0c6e09dcd20ef553dc39ebfce751f75dfbe69f1fb186ef3f13",
+      "counts": {
+        "1": 489,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-09",
+      "rows": 541,
+      "training_keys_hash": "644df78cdf326a5c7ab7699d99bf562b0b2bfc88a360165bb7e9700c3c042939",
+      "counts": {
+        "1": 494,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-10",
+      "rows": 545,
+      "training_keys_hash": "43ef02e059765d3a201220cd57f569d5aa462934d9460e1ea9cba937eee2602f",
+      "counts": {
+        "1": 498,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-11",
+      "rows": 548,
+      "training_keys_hash": "93a0e43f8d3e3f8280d80e77034f73b993bd4f2c0c5a560a6489d6a6a23cbcf0",
+      "counts": {
+        "1": 501,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2025-12",
+      "rows": 554,
+      "training_keys_hash": "f77aaceb8ce564041ff92b4a785c915ba7b9f7e167c014cd66aef24d257c5ec9",
+      "counts": {
+        "1": 507,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-01",
+      "rows": 558,
+      "training_keys_hash": "1df15080923c8fc0253507979e2e8305512abd69218ac78dc1ec310286efaa29",
+      "counts": {
+        "1": 511,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-02",
+      "rows": 563,
+      "training_keys_hash": "f8176f0ea77ff7fa9445c0491fd71a4f0f1b82780fc80ac2f60a41c54ddca4e7",
+      "counts": {
+        "1": 516,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-03",
+      "rows": 565,
+      "training_keys_hash": "deddb5e208a35645ab7600b55c2cbc6ae4e25743d4018cee1c6cfd0909b767b4",
+      "counts": {
+        "1": 518,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-04",
+      "rows": 570,
+      "training_keys_hash": "d335523885f6237a1064d82ec703d9cfe77186797b259253c17009d5555468b6",
+      "counts": {
+        "1": 523,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-05",
+      "rows": 574,
+      "training_keys_hash": "f32bafd8a218dfa8848af753ea5255a3ffb3f3fd997e43a45796c5d07ff34de9",
+      "counts": {
+        "1": 527,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-06",
+      "rows": 578,
+      "training_keys_hash": "e109deea1ec88c0ee7a72fcc98248365b2e9957a31c9b673c1ec204c4812659b",
+      "counts": {
+        "1": 531,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-07",
+      "rows": 583,
+      "training_keys_hash": "4592fc4bd66c40345a1f3b79b3d31b0b25c3c3b80fe0600b68e4a0a4971018ee",
+      "counts": {
+        "1": 536,
+        "2": 30,
+        "0": 17
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-08",
+      "rows": 588,
+      "training_keys_hash": "0fad794658fbf8e5ab5504fca1c3b4547f7ed462fb94a364c08a2c65452f20bc",
+      "counts": {
+        "1": 538,
+        "2": 30,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-09",
+      "rows": 592,
+      "training_keys_hash": "a45b000cb946b3b7180761ee967d7dde8d80d655868abbf779de413b10b05033",
+      "counts": {
+        "1": 541,
+        "2": 30,
+        "0": 21
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-10",
+      "rows": 596,
+      "training_keys_hash": "8f7947aa1d76f25757a1a3a705bfe592f4adfc789a2427ece7349ace7a45c009",
+      "counts": {
+        "1": 545,
+        "2": 30,
+        "0": 21
+      }
+    },
+    {
+      "market_id": "000985.SH",
+      "fold_id": "2026-11",
+      "rows": 600,
+      "training_keys_hash": "5459e3d2cd4db4a71fa21b0ebe48667772bc4b0d013ea81ffe77d053b4641248",
+      "counts": {
+        "1": 549,
+        "2": 30,
+        "0": 21
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-01",
+      "rows": 251,
+      "training_keys_hash": "2cd42b12b5c3431fc07432103a1d636f8368f8e06dff9c3c709032b383f7f9de",
+      "counts": {
+        "1": 222,
+        "0": 19,
+        "2": 10
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-02",
+      "rows": 254,
+      "training_keys_hash": "9c3f8f76939a582162c3cde83c6e78e7c37e68bc77a842a5089f6529ae1f444b",
+      "counts": {
+        "1": 225,
+        "0": 19,
+        "2": 10
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-03",
+      "rows": 259,
+      "training_keys_hash": "73fb80ee0b6e4d8c0faf23eaebcb392196e4a1700f08e447ef47c28c11ed859c",
+      "counts": {
+        "1": 230,
+        "0": 19,
+        "2": 10
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-04",
+      "rows": 263,
+      "training_keys_hash": "65d877a6325f6fea0ccc702f65c505a07b13a2c9bc5c986b5b9bb4f79cf872d3",
+      "counts": {
+        "1": 234,
+        "0": 19,
+        "2": 10
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-05",
+      "rows": 267,
+      "training_keys_hash": "3abbf9665e00e2afb2bc0ce40913649ead32c9ce57cfb923fc346ee671ce1d57",
+      "counts": {
+        "1": 238,
+        "0": 19,
+        "2": 10
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-06",
+      "rows": 271,
+      "training_keys_hash": "b1a55eaf31898c5e4829ca29c79edd0996b090cac3a6a7897f253d6957327876",
+      "counts": {
+        "1": 242,
+        "0": 19,
+        "2": 10
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-07",
+      "rows": 276,
+      "training_keys_hash": "ab944f2b2fcf2783e1ac4035f3e2f553c7baa9cddfccce30afe4dc7efd5968dd",
+      "counts": {
+        "1": 247,
+        "0": 19,
+        "2": 10
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-08",
+      "rows": 281,
+      "training_keys_hash": "e5bc30ae1568bb4a453e5ce2a275df45007b6181023c03edc29d9b4936b00a2b",
+      "counts": {
+        "1": 250,
+        "0": 19,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-09",
+      "rows": 285,
+      "training_keys_hash": "b766bae9dbe4d687043627f3c3a495ab56d026e69a17534abe6d8adf168e1c7c",
+      "counts": {
+        "1": 254,
+        "0": 19,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-10",
+      "rows": 289,
+      "training_keys_hash": "ca001bec5519433cec3792b5179ef1b2f6acf3e143f815167a11bff4e74e02fe",
+      "counts": {
+        "1": 258,
+        "0": 19,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-11",
+      "rows": 292,
+      "training_keys_hash": "87aa478b7eeb05d431f871599c978354be07b76571324572f414cfffe5fea38b",
+      "counts": {
+        "1": 261,
+        "0": 19,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2020-12",
+      "rows": 298,
+      "training_keys_hash": "0875b7e37f220f72a16a5ca171b84d22c87cbdde4e8e3a883b8696f7221a295f",
+      "counts": {
+        "1": 267,
+        "0": 19,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-01",
+      "rows": 302,
+      "training_keys_hash": "87d928500d2cf031e943bd5ba8afdf0b46582a8becf15c34fc4614a95a1f38ac",
+      "counts": {
+        "1": 271,
+        "0": 19,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-02",
+      "rows": 307,
+      "training_keys_hash": "d1099893e90df4c2febd6029d5722be5b1109908ea495c4bf41dcf6f6b425b01",
+      "counts": {
+        "1": 276,
+        "0": 19,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-03",
+      "rows": 310,
+      "training_keys_hash": "5a1d1be49469b320b0c2b8903e4c2c80d08ac3525c7b7ec1fa4bc4523d59c689",
+      "counts": {
+        "1": 279,
+        "0": 19,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-04",
+      "rows": 315,
+      "training_keys_hash": "35666021b238b221b0f3c8a01f6c6d321dd51efe165e8bb51d30d383093d4913",
+      "counts": {
+        "1": 281,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-05",
+      "rows": 319,
+      "training_keys_hash": "e57db9b622af4e9ed6a8e4886e88fb3efd22db24a51cdf2b1030d7d5d58951e4",
+      "counts": {
+        "1": 285,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-06",
+      "rows": 323,
+      "training_keys_hash": "f29c02682c50c5290e9af35e8979cb1accf19c59e4a687413d503b2a166af898",
+      "counts": {
+        "1": 289,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-07",
+      "rows": 328,
+      "training_keys_hash": "9c607447d559cb29374882beaba39df836b1638cadb09dbafefa17afff49d8b6",
+      "counts": {
+        "1": 294,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-08",
+      "rows": 333,
+      "training_keys_hash": "2523fbf7fbad392a04689324bd68591f952371689a809253130fc6ee91f8e99e",
+      "counts": {
+        "1": 299,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-09",
+      "rows": 337,
+      "training_keys_hash": "acd12e6b477ae38556bb38a78195395d8afb5d314f3b33d5e861691f1f6eb04c",
+      "counts": {
+        "1": 303,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-10",
+      "rows": 341,
+      "training_keys_hash": "0ebba287340a6f4c4c369ea29fc8e57101d4b3a047c9746138158e66c6f51faa",
+      "counts": {
+        "1": 307,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-11",
+      "rows": 345,
+      "training_keys_hash": "8ca390fe908824f8a906e2fc1ac6f9ad409cec6df7e65dca7504061a88b6db41",
+      "counts": {
+        "1": 311,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2021-12",
+      "rows": 350,
+      "training_keys_hash": "2ee9a472d0f815fe695086161e6bd0551e9934ed271b6cbb78cbf153f07719bc",
+      "counts": {
+        "1": 316,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-01",
+      "rows": 355,
+      "training_keys_hash": "84d6c2427f9751dba9a4acc534d57f64abdbfd59227a04ac7829db8da76d1bd6",
+      "counts": {
+        "1": 321,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-02",
+      "rows": 358,
+      "training_keys_hash": "333e72e352baa9a6c65b87cd7c7f944d16a3eb03577bcecc6ea12cfd7b894942",
+      "counts": {
+        "1": 324,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-03",
+      "rows": 362,
+      "training_keys_hash": "1ff38ac953932be9124ee5219a8235f65fa8199c67c1a43e0129dfd3b98607ad",
+      "counts": {
+        "1": 328,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-04",
+      "rows": 366,
+      "training_keys_hash": "78d9dfbd2e26bd7d565a13b929f93307a1b0210ba3e59e32e1b9b341b742ce99",
+      "counts": {
+        "1": 332,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-05",
+      "rows": 370,
+      "training_keys_hash": "bb67ade9dde8a11590fe73a984d0604e514c1a09221287dc44b69b140f9132b8",
+      "counts": {
+        "1": 336,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-06",
+      "rows": 374,
+      "training_keys_hash": "cf8f87d93a01e78608b9d5f2d388391f8aede6cc6eb106a8d07cebbcec0f213f",
+      "counts": {
+        "1": 340,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-07",
+      "rows": 379,
+      "training_keys_hash": "49e9e1c5627730f8d96dad65a68e0696f9e74a9a1b5b3478c686fc81c56c3d80",
+      "counts": {
+        "1": 345,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-08",
+      "rows": 384,
+      "training_keys_hash": "600bfd2ba79a66566ea2ca3347b821162d7c77ca141bbb870ffb49d069152bbb",
+      "counts": {
+        "1": 350,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-09",
+      "rows": 388,
+      "training_keys_hash": "42bbf3a86f6c794b4bef9091762df0ee1c3e709e8d9f720fc70f678e44c7872c",
+      "counts": {
+        "1": 354,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-10",
+      "rows": 392,
+      "training_keys_hash": "8ad6d8376cf334e6d1456964f2efd50615584d390ad7347cef0706361e370863",
+      "counts": {
+        "1": 358,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-11",
+      "rows": 396,
+      "training_keys_hash": "391966b2e69bb3a90f4b3fec5eb2f7d4de2c91aa88189949b342d357d84dd331",
+      "counts": {
+        "1": 362,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2022-12",
+      "rows": 400,
+      "training_keys_hash": "d4c41335f9361d88061871ed8dcf37e8ebd9b8c73b8ad9ece10cde1a27914f61",
+      "counts": {
+        "1": 366,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-01",
+      "rows": 405,
+      "training_keys_hash": "c1e84c9464ad4375d9726cd94814d9ae62cd80756cd6fcbc74324c5d012144b4",
+      "counts": {
+        "1": 371,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-02",
+      "rows": 408,
+      "training_keys_hash": "a561de77f83c280179a082627164e54a3d5cfb8adb1fcb0d525387b70ec915c8",
+      "counts": {
+        "1": 374,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-03",
+      "rows": 412,
+      "training_keys_hash": "dbed549500c1dcd0a0f6595f21df3f198dc2e8bd4015525aea3eee01aee83bec",
+      "counts": {
+        "1": 378,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-04",
+      "rows": 417,
+      "training_keys_hash": "9b6af149d3ef6a9069ab229521629c8a5f7fd1d7453a944ab47dd0e38d16759b",
+      "counts": {
+        "1": 383,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-05",
+      "rows": 420,
+      "training_keys_hash": "cfa78e07fabd9151ed143e15b41822648302b57a99b601ba37bbd63bde429d7b",
+      "counts": {
+        "1": 386,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-06",
+      "rows": 425,
+      "training_keys_hash": "4d57c7cf62ac47439cf54ca46b5230b822b96582943edc5097c3bc122b1eb5ae",
+      "counts": {
+        "1": 391,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-07",
+      "rows": 429,
+      "training_keys_hash": "ab87d09522361e242d5d03b3b410ccbc141a3e0c37f7d5b4e5d95a4634d4e7f3",
+      "counts": {
+        "1": 395,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-08",
+      "rows": 434,
+      "training_keys_hash": "d1726d74b35bb5655e91c2950aaa7b1af31a0257216b90caf54e5305132f15d3",
+      "counts": {
+        "1": 400,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-09",
+      "rows": 438,
+      "training_keys_hash": "852e54c3bac89d90ea92818af360014fa218f3402a2906f07f9227a1543684a3",
+      "counts": {
+        "1": 404,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-10",
+      "rows": 442,
+      "training_keys_hash": "843a6d1681904a0cfe50415748302b9263032b5ed0f583ab681257e3b1b66ab8",
+      "counts": {
+        "1": 408,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-11",
+      "rows": 446,
+      "training_keys_hash": "7484029cf65ba34849645c860a6084e0d39b264367c2e53944f58f454fb93ff4",
+      "counts": {
+        "1": 412,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2023-12",
+      "rows": 450,
+      "training_keys_hash": "ec1877f101ed817dc7e16debf3df7ec3cdd0b506fa3fdd22a891650990ac6403",
+      "counts": {
+        "1": 416,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-01",
+      "rows": 455,
+      "training_keys_hash": "08c107267e1115d2e4aebdc2c11865aaaef57add5667c3a036e6131ee81222bc",
+      "counts": {
+        "1": 421,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-02",
+      "rows": 459,
+      "training_keys_hash": "9fa3b9c55f5bc79db6595bc1718c03681ec7cc7f08f9f45e85bad6fadb39ea6c",
+      "counts": {
+        "1": 425,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-03",
+      "rows": 462,
+      "training_keys_hash": "ec412d5b5091e81744fb307aa13a049d22f87626134c8d76ce328e6e043d789e",
+      "counts": {
+        "1": 428,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-04",
+      "rows": 467,
+      "training_keys_hash": "caba21993c339c1d953e59915012356d1db21717fa367d8350944fa5cc50ea96",
+      "counts": {
+        "1": 433,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-05",
+      "rows": 471,
+      "training_keys_hash": "763d89dcbd0028d1aa5b44c9bddb45cab34dbf03174b8fabb40aef71f6f6b1bd",
+      "counts": {
+        "1": 437,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-06",
+      "rows": 476,
+      "training_keys_hash": "1007701726e2534cfddae847b1467725782008843ae275c167ca8ebddb6db269",
+      "counts": {
+        "1": 442,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-07",
+      "rows": 479,
+      "training_keys_hash": "27fd7ca58e4442ae0a7cc21f0bdf246712cce09a6e3c65cb4fce008830c4831b",
+      "counts": {
+        "1": 445,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-08",
+      "rows": 484,
+      "training_keys_hash": "96e3c87134532016daeeceb9fcd483dcdd500762ed1dee7cdad3306b1db50cbb",
+      "counts": {
+        "1": 450,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-09",
+      "rows": 489,
+      "training_keys_hash": "4d9e69f2280766b81251ca6210d56246e9d152fcd92e0442336da881b5409d5c",
+      "counts": {
+        "1": 455,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-10",
+      "rows": 492,
+      "training_keys_hash": "10cef1b05ca8995f3992e5fbe8dcd7d1d159a4a8c26dac1626d0db9a5d0da7b3",
+      "counts": {
+        "1": 458,
+        "0": 22,
+        "2": 12
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-11",
+      "rows": 496,
+      "training_keys_hash": "2733e711d39990fb272902ddf123624a0e5fc38ba63518d426751ec78f7dfac6",
+      "counts": {
+        "1": 458,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2024-12",
+      "rows": 502,
+      "training_keys_hash": "051e5e3fd0bdd8e5075964b2907f13fdbf80678b6469bf0543864132134f318c",
+      "counts": {
+        "1": 464,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-01",
+      "rows": 506,
+      "training_keys_hash": "81519f23d5ea92fcbe13a221c5ec130aebfa99e63f12f42e0ea1a89273a14ef6",
+      "counts": {
+        "1": 468,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-02",
+      "rows": 510,
+      "training_keys_hash": "caff4662642e5fe5fd5765d95977f77489263f4d954862fa29af7d8d94b8412e",
+      "counts": {
+        "1": 472,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-03",
+      "rows": 513,
+      "training_keys_hash": "7ae9686b60f7542870509f5b56e32382105ef4dae05b2fae2fcd0353d54fe82f",
+      "counts": {
+        "1": 475,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-04",
+      "rows": 519,
+      "training_keys_hash": "5305aef8da714a1cb8a6c794ba3aa270d2c8a570574692abeaa7b174d88407d2",
+      "counts": {
+        "1": 481,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-05",
+      "rows": 523,
+      "training_keys_hash": "78c88e44768396d7ab82175272c0f2f5437e5dc82c27385af276be4eade01088",
+      "counts": {
+        "1": 485,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-06",
+      "rows": 527,
+      "training_keys_hash": "0c16f5c59b37de6d81bee81daa55c97dee2657827fe42c59dd9dab9f0fa9a660",
+      "counts": {
+        "1": 489,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-07",
+      "rows": 532,
+      "training_keys_hash": "273310783adc93fe340b37e5bc33c2cf054140ec64cea7481c94935422f15ff8",
+      "counts": {
+        "1": 494,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-08",
+      "rows": 536,
+      "training_keys_hash": "6bc496ee68c7f04138522240763735f52936840bad8ab15345e730ff976bbaba",
+      "counts": {
+        "1": 498,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-09",
+      "rows": 541,
+      "training_keys_hash": "dfebb9c4ec9ecddd7fa04c2029c48c9cce7b3e6a69a7f00554b2fb71fb48131c",
+      "counts": {
+        "1": 503,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-10",
+      "rows": 545,
+      "training_keys_hash": "a8b58f388b79bdbac3ca66539d51d9100f7b2422d359c626c477f35d151d6b49",
+      "counts": {
+        "1": 507,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-11",
+      "rows": 548,
+      "training_keys_hash": "10ec926ccdad6ef4dba5c76f9b0197518dc601c86f77c87befb17f0d6528e7f9",
+      "counts": {
+        "1": 510,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2025-12",
+      "rows": 554,
+      "training_keys_hash": "620c8582a1ab0a2b958b07ed9bd0089263775840d779c3278c69e978c2441fb6",
+      "counts": {
+        "1": 516,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-01",
+      "rows": 558,
+      "training_keys_hash": "cd3b1524fb680375ae84266a0a65784d5490a464d37653ea1a76e8fc3b372753",
+      "counts": {
+        "1": 520,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-02",
+      "rows": 563,
+      "training_keys_hash": "55128d395a28fb53cac450f34258ae3608de54b3aa85d2dcc2224d3ae85c5721",
+      "counts": {
+        "1": 525,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-03",
+      "rows": 565,
+      "training_keys_hash": "e37f34f5c3b04f6afa17d806da89cd5f415d92010fcd64d530fdeb775765d694",
+      "counts": {
+        "1": 527,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-04",
+      "rows": 570,
+      "training_keys_hash": "c8dd7adfbd4202a99589859b00b010842a903a6fc9385488385ed48d571c08e1",
+      "counts": {
+        "1": 532,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-05",
+      "rows": 574,
+      "training_keys_hash": "e7f8b62fdd14f4fa29480df2345fa782f159e053df57af3b79ca69eeef072c78",
+      "counts": {
+        "1": 536,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-06",
+      "rows": 578,
+      "training_keys_hash": "efea81ee30e26587c8556f925775362bb91ec3a187f18005a60af4f1f6f6bdae",
+      "counts": {
+        "1": 540,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-07",
+      "rows": 583,
+      "training_keys_hash": "66d94e525db994ebbe432cb7411438cede6b674cf0b9b3846daf66331cc88001",
+      "counts": {
+        "1": 545,
+        "0": 22,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-08",
+      "rows": 588,
+      "training_keys_hash": "c84614053059789c4920c78d2e6bf020dc9eb44255f075e9a4cb5cbb6489e817",
+      "counts": {
+        "1": 547,
+        "0": 25,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-09",
+      "rows": 592,
+      "training_keys_hash": "4bb8b12563e740dd5d73c1751d7e79367ef8e2c1a19bc94a21a82b7a45329a9a",
+      "counts": {
+        "1": 550,
+        "0": 26,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-10",
+      "rows": 596,
+      "training_keys_hash": "1660d496e5a34f8f143a03f41774c959384a4d05fc366a382b6486e75cf5d6a0",
+      "counts": {
+        "1": 554,
+        "0": 26,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000300.SH",
+      "fold_id": "2026-11",
+      "rows": 600,
+      "training_keys_hash": "255d570022bc63067e23072bd42c71016183973ed6c793e00aca25d7f96c5f3d",
+      "counts": {
+        "1": 558,
+        "0": 26,
+        "2": 16
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-01",
+      "rows": 251,
+      "training_keys_hash": "0083ef692a78a74d904af24fc57885e1a7c7a50a6e62e69cbd31ce23a0e1f30e",
+      "counts": {
+        "1": 200,
+        "2": 33,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-02",
+      "rows": 254,
+      "training_keys_hash": "d4bd1d67902c00354424ae87249f6427496c94b498104091640a54a11868fd5d",
+      "counts": {
+        "1": 203,
+        "2": 33,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-03",
+      "rows": 259,
+      "training_keys_hash": "8a6b4798e88d87df24b8c8ce6900a61d36ec10bcffd2f03f3fdb5ed710652dbc",
+      "counts": {
+        "1": 207,
+        "2": 34,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-04",
+      "rows": 263,
+      "training_keys_hash": "eb0556eb3d4d88020c801f9c1b202a419f2a9444c34e105ceda17fedfd5ac5d4",
+      "counts": {
+        "1": 210,
+        "2": 35,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-05",
+      "rows": 267,
+      "training_keys_hash": "9e6303602bd3452b435dda7ef961c8ab17fe800ad0879e177092bf02998c1a7c",
+      "counts": {
+        "1": 214,
+        "2": 35,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-06",
+      "rows": 271,
+      "training_keys_hash": "2e786a6bf37c5c4c771559d09ee6a294f2c5b7bc3da5b0a621980662138bca6d",
+      "counts": {
+        "1": 218,
+        "2": 35,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-07",
+      "rows": 276,
+      "training_keys_hash": "48a3c0baabb9c314cbf3794f9f64d5c2265e7418f7d53803bdc235d8c4f94855",
+      "counts": {
+        "1": 223,
+        "2": 35,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-08",
+      "rows": 281,
+      "training_keys_hash": "027d6e3e7ebc1eaa696bfb9eabc07b77011e6bb733d7d0abe19b6d06bac7848c",
+      "counts": {
+        "1": 224,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-09",
+      "rows": 285,
+      "training_keys_hash": "19e22f822e6bc6215d9a9c561da7db21d1e7b3746ce131a1b2a3853e7223a8a7",
+      "counts": {
+        "1": 228,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-10",
+      "rows": 289,
+      "training_keys_hash": "beb07777583cc2b4d9c15ccdef581f2b303c4919e45c4aa6ade45f36232b9918",
+      "counts": {
+        "1": 232,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-11",
+      "rows": 292,
+      "training_keys_hash": "6a021bede3c5acb3de170d52c45d102253922fb28ebe601d3295d222bca00545",
+      "counts": {
+        "1": 235,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2020-12",
+      "rows": 298,
+      "training_keys_hash": "5d436731e9d5137debcc174070a2f85f9ba7e4bb7b73b019d97a16d49f68c359",
+      "counts": {
+        "1": 241,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-01",
+      "rows": 302,
+      "training_keys_hash": "d772de73dc878e4454780795542de1e3b3177111ac13314fa4bcafb98016d1db",
+      "counts": {
+        "1": 245,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-02",
+      "rows": 307,
+      "training_keys_hash": "52c0bba180679d8b6ebc4499136ca261e13525e9546d6ccb3088925833df4647",
+      "counts": {
+        "1": 250,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-03",
+      "rows": 310,
+      "training_keys_hash": "6edd5912a9ac0936c1d87f4521df4b8fa1f420418993fc6a86a40ec81378d5ca",
+      "counts": {
+        "1": 253,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-04",
+      "rows": 315,
+      "training_keys_hash": "8e5fe30430561f28f3496e7b199d7bee549124973f68b4b3051bf06f95a1b136",
+      "counts": {
+        "1": 258,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-05",
+      "rows": 319,
+      "training_keys_hash": "2d9449986163933d5ec3a3763c61afb06b6cd66fc038b6410de22d39f439327f",
+      "counts": {
+        "1": 262,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-06",
+      "rows": 323,
+      "training_keys_hash": "339d316f88be722302639203b710a20ae05423c22b6fbac55efa54a6fa91aeef",
+      "counts": {
+        "1": 266,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-07",
+      "rows": 328,
+      "training_keys_hash": "21f8193c99696194d2ee980e03b99c80571fc00049d429cdc29a5440ee68948e",
+      "counts": {
+        "1": 271,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-08",
+      "rows": 333,
+      "training_keys_hash": "fb28c08e5c4ccbb20edf1a2a8484a6c30604f934ed1e65f98fc34d29444aabd4",
+      "counts": {
+        "1": 276,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-09",
+      "rows": 337,
+      "training_keys_hash": "e312a35965aac038ad1d2636356d8dda5a85c2a6da304c9f619665bfd59d5bac",
+      "counts": {
+        "1": 280,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-10",
+      "rows": 341,
+      "training_keys_hash": "42a5ef1b2f62c75304c4bac66dcdbc1b17298d964e7da60def0b9fed51140cdb",
+      "counts": {
+        "1": 284,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-11",
+      "rows": 345,
+      "training_keys_hash": "e346dbc186df30b387601b01d0108182b9461bc10931599c027f17215f49eb3b",
+      "counts": {
+        "1": 288,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2021-12",
+      "rows": 350,
+      "training_keys_hash": "05b044fbb5c3e5999610e218f2b86abdceb8fad6a4306e1a3294f5cc7666b63e",
+      "counts": {
+        "1": 293,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-01",
+      "rows": 355,
+      "training_keys_hash": "ed70e5a0973dfe18429e337a523d606b4a2d98357b9c815b2a26ba3f0aaae6cd",
+      "counts": {
+        "1": 298,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-02",
+      "rows": 358,
+      "training_keys_hash": "466d60c3c213933a14769667fab9f6cfac67edc2346af9ff0c38983ee9d8e1e1",
+      "counts": {
+        "1": 301,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-03",
+      "rows": 362,
+      "training_keys_hash": "dc08c289d17bbb4f872fd0092cab777007ffd77b40a895729588e3e9db5012aa",
+      "counts": {
+        "1": 305,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-04",
+      "rows": 366,
+      "training_keys_hash": "a07a7d7bb2db55f81846f9ca93a3ae8c4f2b3c3c949c0564a043a2e43a2063bd",
+      "counts": {
+        "1": 309,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-05",
+      "rows": 370,
+      "training_keys_hash": "1917c0f127f5ede4c72ebd3a9755d3525cd32e00f842a7a34c884fa1e64a3ca3",
+      "counts": {
+        "1": 313,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-06",
+      "rows": 374,
+      "training_keys_hash": "738a524c2e3db98fc2c07b3d014e0313ecfb482745eefed13f338e6521cf8f3e",
+      "counts": {
+        "1": 317,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-07",
+      "rows": 379,
+      "training_keys_hash": "804950b97a14947ba3174bdedee7f91aaad5f315d944de933a08ad997b4f03f9",
+      "counts": {
+        "1": 322,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-08",
+      "rows": 384,
+      "training_keys_hash": "2cbbc7531f7950538134d10425933c35fb7cab9d237dc0c74174b539f7a274c7",
+      "counts": {
+        "1": 327,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-09",
+      "rows": 388,
+      "training_keys_hash": "215aae5ec68af8feb25e123c1942a69ae88ab43a952ecb29ecc7be14fd4a7cd1",
+      "counts": {
+        "1": 331,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-10",
+      "rows": 392,
+      "training_keys_hash": "094e4376ce6224101c425a32e4e460afc2f98c30c26b1021b4a26bfb35e51479",
+      "counts": {
+        "1": 335,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-11",
+      "rows": 396,
+      "training_keys_hash": "0fd5c29f12b463af1136a47c426a33b7836b07c98c0f6f0ddf804f559e8c6499",
+      "counts": {
+        "1": 339,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2022-12",
+      "rows": 400,
+      "training_keys_hash": "bfc5f72158143b42480e2655467650cce2a8a2bd6587b33e678510b949bc95e1",
+      "counts": {
+        "1": 343,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-01",
+      "rows": 405,
+      "training_keys_hash": "ecdb45941fc1f0c89d863e41d77f007940d67d85a8a9cdd3fe7e3a0d0a46c925",
+      "counts": {
+        "1": 348,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-02",
+      "rows": 408,
+      "training_keys_hash": "f10e0b5796de232632c7536a3f536cfbfbe12172a84df257d94c804cd59c22c3",
+      "counts": {
+        "1": 351,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-03",
+      "rows": 412,
+      "training_keys_hash": "08d6a7569812db47f722991a00ccc450d6c55fdbff824ceb7795f611324a53df",
+      "counts": {
+        "1": 355,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-04",
+      "rows": 417,
+      "training_keys_hash": "d32e6e3f879dc543b97e1f53fa210a8aace1ff00aea2c64afc05aefbe38d373d",
+      "counts": {
+        "1": 360,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-05",
+      "rows": 420,
+      "training_keys_hash": "e41e91184815ced0d51ba8a17abe6b7a89c29d636080581cbcfda01d8979c85a",
+      "counts": {
+        "1": 363,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-06",
+      "rows": 425,
+      "training_keys_hash": "651c24b24d03e85ed67fb07c247f357c2d95e5c6ad622890c226c11894412883",
+      "counts": {
+        "1": 368,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-07",
+      "rows": 429,
+      "training_keys_hash": "5aa3ae74fcb8ccf5bf314de3b3e297ca1e29a76748947bde27107f34c66eaa20",
+      "counts": {
+        "1": 372,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-08",
+      "rows": 434,
+      "training_keys_hash": "136aa130058648aa1ba4b1e16a260da07a297475500df28255e82d2af3a0a700",
+      "counts": {
+        "1": 377,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-09",
+      "rows": 438,
+      "training_keys_hash": "9c5d3e2f4b5ec9385d2d8fa403e650998b2a0a1e67edd222e26053b0c08370ab",
+      "counts": {
+        "1": 381,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-10",
+      "rows": 442,
+      "training_keys_hash": "18b8d0e9b124a8bf36333e1b5b018f9e4000377cadbdade0562fa996d523d862",
+      "counts": {
+        "1": 385,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-11",
+      "rows": 446,
+      "training_keys_hash": "c85d0becd31c2d9b555e16d93607eee6c55111e4465a62d78867a88f93b9b337",
+      "counts": {
+        "1": 389,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2023-12",
+      "rows": 450,
+      "training_keys_hash": "c9f0b1cf7dea4f4581eed33782013a6b4a226b87cfee248623262e400114ea38",
+      "counts": {
+        "1": 393,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-01",
+      "rows": 455,
+      "training_keys_hash": "6688df8a62df7b0b7a2366f590c3e6a78e5c913287af11909b0bae4c0c8f9bae",
+      "counts": {
+        "1": 398,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-02",
+      "rows": 459,
+      "training_keys_hash": "2c5a7c73f69a24045c5c2e9dad52dc1f3e2477d3f37ac740ed78c45c2a464b52",
+      "counts": {
+        "1": 402,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-03",
+      "rows": 462,
+      "training_keys_hash": "55701adde9c5af0f7ed933ec911d027f7317c9f01f7f61a76518189847f0c32f",
+      "counts": {
+        "1": 405,
+        "2": 39,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-04",
+      "rows": 467,
+      "training_keys_hash": "4c2d2a9699fb7a363a3ec1519657cde6bf46f992cf440b7dd16546c570f71b31",
+      "counts": {
+        "1": 409,
+        "2": 40,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-05",
+      "rows": 471,
+      "training_keys_hash": "a05e3f6d061471bb5f8d646805991e78f363c48fd9a2b093c5f8db83076c5c4f",
+      "counts": {
+        "1": 413,
+        "2": 40,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-06",
+      "rows": 476,
+      "training_keys_hash": "c26b0b8037cd92e503d8804da1fe78ef484662037a61273de22be7e21fa7a3c2",
+      "counts": {
+        "1": 418,
+        "2": 40,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-07",
+      "rows": 479,
+      "training_keys_hash": "2f0ef326b403346b785b72091c08b0967857a708d2478ec46157b848d21305ac",
+      "counts": {
+        "1": 421,
+        "2": 40,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-08",
+      "rows": 484,
+      "training_keys_hash": "a7fd50e64973b3b54edf1b2f3e4ab4c5177d9b9bd7bf07d4c3fb0bc945c95a9c",
+      "counts": {
+        "1": 426,
+        "2": 40,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-09",
+      "rows": 489,
+      "training_keys_hash": "807211c63da519176b67301beafee078c04677cc38850465f07a39572e82d368",
+      "counts": {
+        "1": 431,
+        "2": 40,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-10",
+      "rows": 492,
+      "training_keys_hash": "20bcbccb3d13afe9cb92b0a0b0cc99c9205c44c6ce7e2b3d5dca43ff5a9fbef8",
+      "counts": {
+        "1": 434,
+        "2": 40,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-11",
+      "rows": 496,
+      "training_keys_hash": "1a376978541ac7d54d99afbce0cff4dd105abec7a1536bd4b641de9407d7da75",
+      "counts": {
+        "1": 434,
+        "2": 44,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2024-12",
+      "rows": 502,
+      "training_keys_hash": "1ac774395edffb4c0f1e778634374b1447a3243ce5e37340287db7240bcffc5f",
+      "counts": {
+        "1": 436,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-01",
+      "rows": 506,
+      "training_keys_hash": "95b66a038292b7d7d1d4274364779c66a7eeb031da38049a59fb3b942e4fa7b1",
+      "counts": {
+        "1": 440,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-02",
+      "rows": 510,
+      "training_keys_hash": "6225ac31e5b63e9f882d1c052cffd82e66f622c41ef88b2010394015ae88bfaa",
+      "counts": {
+        "1": 444,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-03",
+      "rows": 513,
+      "training_keys_hash": "e460997d7b5a387ec00a283f8a4fcd066bfaec23fa49e0caca1a5385daefc849",
+      "counts": {
+        "1": 447,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-04",
+      "rows": 519,
+      "training_keys_hash": "10a22f5be84c0e3dc29ecf5184efd32dd8ea616bd05cb5e069647bb6429681eb",
+      "counts": {
+        "1": 453,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-05",
+      "rows": 523,
+      "training_keys_hash": "bd756181b785ae71593b6d8f5da1ed8e1ce0bdef4bfa7a9b41d6b191cdd29658",
+      "counts": {
+        "1": 457,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-06",
+      "rows": 527,
+      "training_keys_hash": "dd4fce25b1673de7a528825de54afa196bc9b6bf6b240d7db0df9a12f8b5a36c",
+      "counts": {
+        "1": 461,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-07",
+      "rows": 532,
+      "training_keys_hash": "768911bdaea4830b50bc4231aa22c0f9ab7e9036f0850099f9c311132a31d40c",
+      "counts": {
+        "1": 466,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-08",
+      "rows": 536,
+      "training_keys_hash": "8d963a5ceb73ac4bd5f504b7a20c28fe0418176f26d9867aacd6bf864c56a0db",
+      "counts": {
+        "1": 470,
+        "2": 48,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-09",
+      "rows": 541,
+      "training_keys_hash": "ecf3132101412d7fc93c493864f3bb446a584a6a17f96f5975a60305a3846184",
+      "counts": {
+        "1": 474,
+        "2": 49,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-10",
+      "rows": 545,
+      "training_keys_hash": "4b30bd50a01988211b4a3672ca139b200489d0e7ff4631c1cc895c473ceb0ab4",
+      "counts": {
+        "1": 475,
+        "2": 52,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-11",
+      "rows": 548,
+      "training_keys_hash": "309f33047c540ac14d8f8b258dee679cb256e0af19c886379a3e47465dcd79fa",
+      "counts": {
+        "1": 478,
+        "2": 52,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2025-12",
+      "rows": 554,
+      "training_keys_hash": "f0338541b17864e7f409af1ad810f79d0618d24d42496ebdd7e33b6a359c7c37",
+      "counts": {
+        "1": 484,
+        "2": 52,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-01",
+      "rows": 558,
+      "training_keys_hash": "5bb520944f3a5137fb3ff3f897f597fe1901d5b1405575eb6f1830a0f305d533",
+      "counts": {
+        "1": 488,
+        "2": 52,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-02",
+      "rows": 563,
+      "training_keys_hash": "9dde5492b4bad35926fb4f3c36ef30c4d3746147118d273dd84757e245329411",
+      "counts": {
+        "1": 489,
+        "2": 56,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-03",
+      "rows": 565,
+      "training_keys_hash": "105e2d4ec0a883bc2540067af843d9154f7be79581ce9a7475ef3f15d3487da1",
+      "counts": {
+        "1": 490,
+        "2": 57,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-04",
+      "rows": 570,
+      "training_keys_hash": "2a85ae3d851202fa45094a463320d666b1cf1de30b168f7ba0182b8e5eee1ec8",
+      "counts": {
+        "1": 495,
+        "2": 57,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-05",
+      "rows": 574,
+      "training_keys_hash": "8f8dd42493b91234c4bcb691dc7d07d82b4aab80f2574061f5493a22b3ae59c0",
+      "counts": {
+        "1": 499,
+        "2": 57,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-06",
+      "rows": 578,
+      "training_keys_hash": "e62f240db7e37f360536e5236278eb6d16617a88a9188fa4e120c4b48e406b2b",
+      "counts": {
+        "1": 499,
+        "2": 61,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-07",
+      "rows": 583,
+      "training_keys_hash": "7655b716fe2c0c3a6e14fa4cbfa8ba0f67c1af08ac82b972b98b41890cc3dcab",
+      "counts": {
+        "1": 502,
+        "2": 63,
+        "0": 18
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-08",
+      "rows": 588,
+      "training_keys_hash": "369e0f71db1e305d8f7d7ccc9f896b630b2c353f2c0dfa6c5aee34b20fb628f8",
+      "counts": {
+        "1": 502,
+        "2": 65,
+        "0": 21
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-09",
+      "rows": 592,
+      "training_keys_hash": "59bf14ece837859a16a1ec0e68c68f694a6afac2661d30ac22f1ccc2871dde20",
+      "counts": {
+        "1": 502,
+        "2": 68,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-10",
+      "rows": 596,
+      "training_keys_hash": "14f8fb14caa95dc2b40a9523b421fb127def6d3f184365b01e5f6bfc3fe954a6",
+      "counts": {
+        "1": 506,
+        "2": 68,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000905.SH",
+      "fold_id": "2026-11",
+      "rows": 600,
+      "training_keys_hash": "474aa0b91938f932878b81e34729f6614276a0a19013519131aaf65bd171331e",
+      "counts": {
+        "1": 509,
+        "2": 68,
+        "0": 23
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-01",
+      "rows": 251,
+      "training_keys_hash": "9e78c80d033c9d12f90b886476b9d690a6b9e2be6b746e5ad2c4c1dbcc3ba2a7",
+      "counts": {
+        "1": 190,
+        "2": 42,
+        "0": 19
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-02",
+      "rows": 254,
+      "training_keys_hash": "37b1c956ecf9ea2234f57dcbc447185f07ae178c1f55ad650872b2c3265e854d",
+      "counts": {
+        "1": 193,
+        "2": 42,
+        "0": 19
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-03",
+      "rows": 259,
+      "training_keys_hash": "6295625bc7f65ac256660ca40c3c94912a79d5b82220c556c7e8cabd490f2ead",
+      "counts": {
+        "1": 196,
+        "2": 44,
+        "0": 19
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-04",
+      "rows": 263,
+      "training_keys_hash": "aea0554b886f402fbae1fd93027940f3d6f91091cc8d717c930e94b9f38f2584",
+      "counts": {
+        "1": 197,
+        "2": 46,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-05",
+      "rows": 267,
+      "training_keys_hash": "baaf7dca0265f5103fa4b72211e553830416d69e29ca83b38955bce92e6997e9",
+      "counts": {
+        "1": 201,
+        "2": 46,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-06",
+      "rows": 271,
+      "training_keys_hash": "5985d9f7521a47cf77d8e1394164c66f4bf33572c3056a7181f032bd5868672c",
+      "counts": {
+        "1": 205,
+        "2": 46,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-07",
+      "rows": 276,
+      "training_keys_hash": "41533eaa3ec7243461eaf8e86ef17ca794f3590c246efc7d92f3bf996f475e91",
+      "counts": {
+        "1": 210,
+        "2": 46,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-08",
+      "rows": 281,
+      "training_keys_hash": "76ed3a535953ff4870f0e446f43908e8db1a2867381b998f7d3324ec0a248987",
+      "counts": {
+        "1": 211,
+        "2": 50,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-09",
+      "rows": 285,
+      "training_keys_hash": "971abea84a900259a99fb6296e71236e12a54b6a55f3199f293c3630f900580c",
+      "counts": {
+        "1": 212,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-10",
+      "rows": 289,
+      "training_keys_hash": "834d0c9e0bc18a16a60ff9efd54531bcea455e1910803bc02088e670110ccee8",
+      "counts": {
+        "1": 216,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-11",
+      "rows": 292,
+      "training_keys_hash": "f35539e084418fc53757740d1d8a2c3259217b83285526d0f20d6e108176f266",
+      "counts": {
+        "1": 219,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2020-12",
+      "rows": 298,
+      "training_keys_hash": "7c045a33e39d10c3c285403ccaac3936a5921caaf93886935c31f0d333fd01ff",
+      "counts": {
+        "1": 225,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-01",
+      "rows": 302,
+      "training_keys_hash": "da3b24effc44c37c1371ac38f0e3b9acb541b5224d3d5c4575fc61303379723a",
+      "counts": {
+        "1": 229,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-02",
+      "rows": 307,
+      "training_keys_hash": "a03b1950b9fc31df772812e63b9a036795068b974f3e847af56c3ecf1d4a544a",
+      "counts": {
+        "1": 234,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-03",
+      "rows": 310,
+      "training_keys_hash": "f603318b693a2fb4d4ab1b8afaee0362b01222c0ba9ed1dc184d1c576c3ce105",
+      "counts": {
+        "1": 237,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-04",
+      "rows": 315,
+      "training_keys_hash": "3f77c07b6730ab0a22687a6b7b02cfa2a2b3c328dd0894f7d8ba23af27a2bad6",
+      "counts": {
+        "1": 242,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-05",
+      "rows": 319,
+      "training_keys_hash": "412e47fb5b843410e89c8d21e2784ba2592caebcde5aa02199fb5d7e4de79e9a",
+      "counts": {
+        "1": 246,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-06",
+      "rows": 323,
+      "training_keys_hash": "3df56a22fde97bfacaf44bf4d858b5d266f3d5b4753440e0d3f4292cee6ef38f",
+      "counts": {
+        "1": 250,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-07",
+      "rows": 328,
+      "training_keys_hash": "af375f6302fea48c0f5cf6d63690fb7a53c13fdc3be6da5b4aba36bdd4bb4c7c",
+      "counts": {
+        "1": 255,
+        "2": 53,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-08",
+      "rows": 333,
+      "training_keys_hash": "857399fc44045ace70553a237cf3db1e315181532b1d2410c8dcfec79e71c8eb",
+      "counts": {
+        "1": 259,
+        "2": 54,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-09",
+      "rows": 337,
+      "training_keys_hash": "b64d25e61b43a67a99151f69552f51b49c30839c07169eb6625bfd6ac3683c76",
+      "counts": {
+        "1": 261,
+        "2": 56,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-10",
+      "rows": 341,
+      "training_keys_hash": "5e3ad5083d9ce373b8a660dff170d66147f4b9c681ce6d155938e4546a68455e",
+      "counts": {
+        "1": 265,
+        "2": 56,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-11",
+      "rows": 345,
+      "training_keys_hash": "96342d4ca2e4ee4ba69664754fa6dbceaecc988f4b39fb779217f635b08efe40",
+      "counts": {
+        "1": 269,
+        "2": 56,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2021-12",
+      "rows": 350,
+      "training_keys_hash": "b873f7a8f78d8cc9c40f1c8e6f1c287ab35a947d7e47e424d710a17be8d52b30",
+      "counts": {
+        "1": 274,
+        "2": 56,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-01",
+      "rows": 355,
+      "training_keys_hash": "db8e724a7ba9304eb03350a149cd048076d05c10e43fcd67a349aa1865cf99b2",
+      "counts": {
+        "1": 279,
+        "2": 56,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-02",
+      "rows": 358,
+      "training_keys_hash": "2b480b71abf7fc62600a45dae76f17ef3aa8312b7bbf5294c5f7eea36ba00838",
+      "counts": {
+        "1": 282,
+        "2": 56,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-03",
+      "rows": 362,
+      "training_keys_hash": "8fc0f8096774c4c59d34848f635d99be39dc66cac30115447b61b29008887252",
+      "counts": {
+        "1": 286,
+        "2": 56,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-04",
+      "rows": 366,
+      "training_keys_hash": "44a410e97190547e189a5f90afd634f71e3e8586836bc79ef9d15f36f1f9fe44",
+      "counts": {
+        "1": 290,
+        "2": 56,
+        "0": 20
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-05",
+      "rows": 370,
+      "training_keys_hash": "a6eb05e98d4c05986c504ee5c7bec3d13a9f032a9c8c82e9a71c26ed7246992e",
+      "counts": {
+        "1": 293,
+        "2": 56,
+        "0": 21
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-06",
+      "rows": 374,
+      "training_keys_hash": "174fb35fd21b0cfddf35e5fef1cc7fc1c7d541aca77a3d978a9e25703c28f0d2",
+      "counts": {
+        "1": 296,
+        "2": 56,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-07",
+      "rows": 379,
+      "training_keys_hash": "25cdfec302dc61d093343529e43a18d7b7ce1a1dd49542aca73472ac9130d004",
+      "counts": {
+        "1": 299,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-08",
+      "rows": 384,
+      "training_keys_hash": "4bb2d4015a95e45585146d445cae4c9843d6a86ba9bd15e462d73fabe5f0e565",
+      "counts": {
+        "1": 304,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-09",
+      "rows": 388,
+      "training_keys_hash": "ac18557df8b73b7dd1b2fa81ed6d02f3d35302c038963e94a8469a63d50c48d9",
+      "counts": {
+        "1": 308,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-10",
+      "rows": 392,
+      "training_keys_hash": "2bf08acce95101f47174538ebfbb2aebc9027372a69fa4bd61f7b847dcb756b4",
+      "counts": {
+        "1": 312,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-11",
+      "rows": 396,
+      "training_keys_hash": "b8317e90e624178e408f91025be174a19d53a5fe870ff95ed66f6c5fde8a8d7c",
+      "counts": {
+        "1": 316,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2022-12",
+      "rows": 400,
+      "training_keys_hash": "38434c5c3c86d402012262d29a074776fb2a32ccc1ebf50fb739875a96e5b932",
+      "counts": {
+        "1": 320,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-01",
+      "rows": 405,
+      "training_keys_hash": "a3a1d6bdf5f18a73a653b042363bff3f7a401f7c6ed9ed3bc85645f731bb2e07",
+      "counts": {
+        "1": 325,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-02",
+      "rows": 408,
+      "training_keys_hash": "ceea26cef3f9858349e315cd1239d2726c39b3ccee400f0ee90e340502e38e34",
+      "counts": {
+        "1": 328,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-03",
+      "rows": 412,
+      "training_keys_hash": "d68d0ca3bd2ba65d0fdad84330a6b0b30ae5cea864d8ed842c1f82b54022545b",
+      "counts": {
+        "1": 332,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-04",
+      "rows": 417,
+      "training_keys_hash": "f6d80128f4afb26a427e951d149ce7c34de04982342b5da4ea71b266d6adb403",
+      "counts": {
+        "1": 337,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-05",
+      "rows": 420,
+      "training_keys_hash": "7b3b6a8991db1616b4b77225f36b197fcb51d367233d4ed770d94b344f66a1dd",
+      "counts": {
+        "1": 340,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-06",
+      "rows": 425,
+      "training_keys_hash": "67a47ab511832b7c4fe6083a3fc962b719f68ae3d88a3fea748e31e9fe0744e4",
+      "counts": {
+        "1": 345,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-07",
+      "rows": 429,
+      "training_keys_hash": "aae6140360cc70b19b82eede30084632398abcacf9761d78ff27191a5c9be0a2",
+      "counts": {
+        "1": 349,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-08",
+      "rows": 434,
+      "training_keys_hash": "e989aebb074a6da15ca2f4ec3b4c5228d240ac52d33875050978d955c06f2679",
+      "counts": {
+        "1": 354,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-09",
+      "rows": 438,
+      "training_keys_hash": "0fd58b18184e6cb11376a1b5b31eb153d11f3f349dce1432f482a3e0164408ae",
+      "counts": {
+        "1": 358,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-10",
+      "rows": 442,
+      "training_keys_hash": "5ddefbe15cd2074de455df8b9d59fa377f9adeaff152addeec16e84b8828987e",
+      "counts": {
+        "1": 362,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-11",
+      "rows": 446,
+      "training_keys_hash": "da6e59a004bd8d8fe5b467eb7bd7c48cf9b5ad6c23626cee5c3f31eaa94781aa",
+      "counts": {
+        "1": 366,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2023-12",
+      "rows": 450,
+      "training_keys_hash": "b35bf86b7f5cc7e458dcb175ff3ab63e9703647df37903231be90f5855d84de4",
+      "counts": {
+        "1": 370,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-01",
+      "rows": 455,
+      "training_keys_hash": "4a51c28fd9cb963b325c9f57974a069fe947ea789ec8ca79b49a2cdc3b1d4b80",
+      "counts": {
+        "1": 375,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-02",
+      "rows": 459,
+      "training_keys_hash": "ccb377294ed021b6060e6fc991094388d45d15fa77df5f343119bfe1167ce75d",
+      "counts": {
+        "1": 379,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-03",
+      "rows": 462,
+      "training_keys_hash": "6b824b24e75a26044cb0ef3ec0f8b80b33ad554ce9219656e3a98279e9222e25",
+      "counts": {
+        "1": 382,
+        "2": 58,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-04",
+      "rows": 467,
+      "training_keys_hash": "3fba47773060908c2f6ab23cb45556f4fb1b45e106fa7a4d0c36d29d7d3a2ff0",
+      "counts": {
+        "1": 386,
+        "2": 59,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-05",
+      "rows": 471,
+      "training_keys_hash": "2ec350e30025cf044019efd8243944f62bc7176d8ba55e8c93298f175ae3caca",
+      "counts": {
+        "1": 390,
+        "2": 59,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-06",
+      "rows": 476,
+      "training_keys_hash": "7a36aca4f6dc48f18471b04b31418faf1ddd9429735e1e1552bd2ce7394919fb",
+      "counts": {
+        "1": 395,
+        "2": 59,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-07",
+      "rows": 479,
+      "training_keys_hash": "633033055cb75853a107b94ef1deede973bb0639963b34c7b67622b1e29acb70",
+      "counts": {
+        "1": 398,
+        "2": 59,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-08",
+      "rows": 484,
+      "training_keys_hash": "26829e443dcdd9732594de4d74ce0df1f91a6b122e9c88c3e8ed8a5039ed3180",
+      "counts": {
+        "1": 403,
+        "2": 59,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-09",
+      "rows": 489,
+      "training_keys_hash": "6fdffa7d35a287025e47f03920e48e6f380f5deb641254005a64869531046cfd",
+      "counts": {
+        "1": 408,
+        "2": 59,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-10",
+      "rows": 492,
+      "training_keys_hash": "014ecd3b9230b4d1fb95b4ed046aa4d0e7eff32c98f4f7f8942145054f7fe9b5",
+      "counts": {
+        "1": 411,
+        "2": 59,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-11",
+      "rows": 496,
+      "training_keys_hash": "e9b7850966e163aa3922b9c9d89b036a2d3959587e153ef3ff3bc7029c6b3406",
+      "counts": {
+        "1": 411,
+        "2": 63,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2024-12",
+      "rows": 502,
+      "training_keys_hash": "a17f9ed6dfe8a5d714a9533291706a5e5a52bc868e7205f21012aee5e90ba337",
+      "counts": {
+        "1": 411,
+        "2": 69,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-01",
+      "rows": 506,
+      "training_keys_hash": "dd4497b89488d54f5b4e62d544654cea3907b5beabc42b19637a93976ae6e245",
+      "counts": {
+        "1": 415,
+        "2": 69,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-02",
+      "rows": 510,
+      "training_keys_hash": "07f96c6af0dac6aba20b73b93acadb7f9132ab1ae6bd93706f7edf40c5c01d12",
+      "counts": {
+        "1": 419,
+        "2": 69,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-03",
+      "rows": 513,
+      "training_keys_hash": "51fd5405f339c0473a7857917801c0b821b1961ce20824e35d9ebef1c4fa6095",
+      "counts": {
+        "1": 420,
+        "2": 71,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-04",
+      "rows": 519,
+      "training_keys_hash": "68f183d5ed865c34c5761ff9f97e91143bea443f50fdff823732099d17a013c0",
+      "counts": {
+        "1": 422,
+        "2": 75,
+        "0": 22
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-05",
+      "rows": 523,
+      "training_keys_hash": "03d6cd466c7992091897586828cd5febe7aa2582602d16dd605c71ea58d03884",
+      "counts": {
+        "1": 422,
+        "2": 75,
+        "0": 26
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-06",
+      "rows": 527,
+      "training_keys_hash": "8b2d72c528f61c92ed3495dc85043dcd2803331e610405c648307e74a83fd39d",
+      "counts": {
+        "1": 425,
+        "2": 75,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-07",
+      "rows": 532,
+      "training_keys_hash": "8eca0ccf6391048e77513d1eaa977f14bc7a75350189c9d85e0706765ba5eac8",
+      "counts": {
+        "1": 430,
+        "2": 75,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-08",
+      "rows": 536,
+      "training_keys_hash": "e6ce399db7898f4e216bdc8831b6bba0b1909f5bf11a453b5e2617fdeb10d5b0",
+      "counts": {
+        "1": 434,
+        "2": 75,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-09",
+      "rows": 541,
+      "training_keys_hash": "fa4ff93d95f53697e06d36f89e82edab5f96e0e8d642a58604a4f24fd98b5b13",
+      "counts": {
+        "1": 438,
+        "2": 76,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-10",
+      "rows": 545,
+      "training_keys_hash": "b36e907f758aebc0155d5f2b6806f7d1d7d3923500d9050fd98f71da98b44587",
+      "counts": {
+        "1": 439,
+        "2": 79,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-11",
+      "rows": 548,
+      "training_keys_hash": "8d21f3912462bbb43fe6af5b055222cda8433eb914ccb2e0aac4afac412fdf36",
+      "counts": {
+        "1": 442,
+        "2": 79,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2025-12",
+      "rows": 554,
+      "training_keys_hash": "b29e007a59abbd3d6b9682565e0fb17ab2d4058d74b693467aaa476a55feac13",
+      "counts": {
+        "1": 448,
+        "2": 79,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-01",
+      "rows": 558,
+      "training_keys_hash": "af64001742a49a114135db9e49fba06cf78aabb1bcc956db3eddd4b1924d7d4f",
+      "counts": {
+        "1": 452,
+        "2": 79,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-02",
+      "rows": 563,
+      "training_keys_hash": "5021c6a22b027b1de11decd51fc802d0e4a9efddfc88d5e8898552503fcaca22",
+      "counts": {
+        "1": 453,
+        "2": 83,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-03",
+      "rows": 565,
+      "training_keys_hash": "15e061a51fea5bd34a2141c925699b925f8f8d4a11f8d5c5d94d0f9b9f26004d",
+      "counts": {
+        "1": 454,
+        "2": 84,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-04",
+      "rows": 570,
+      "training_keys_hash": "ac77fda75f2af1e503bffa5035fa3e6f85e3fda49b85f230255df4d3cc27ab47",
+      "counts": {
+        "1": 459,
+        "2": 84,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-05",
+      "rows": 574,
+      "training_keys_hash": "d2eb2602e349ac140ac6ff557d541ffd74d0dd6eb01be078cb9bbaf3c8f3d3a4",
+      "counts": {
+        "1": 461,
+        "2": 86,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-06",
+      "rows": 578,
+      "training_keys_hash": "5ff6d732756588633bb89528e97daf2cccd42a9bbc9d5963e4cc0e777815c12e",
+      "counts": {
+        "1": 461,
+        "2": 90,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-07",
+      "rows": 583,
+      "training_keys_hash": "f1409b1f7f6d71cf7086d2357a2b7cd70659314c2b140055e7bd813dd2f5daa4",
+      "counts": {
+        "1": 463,
+        "2": 93,
+        "0": 27
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-08",
+      "rows": 588,
+      "training_keys_hash": "425fea110b30e3b05cd24df54ec1e455393b881ab6d2f41d2fc5d4f5efb2eb16",
+      "counts": {
+        "1": 463,
+        "2": 95,
+        "0": 30
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-09",
+      "rows": 592,
+      "training_keys_hash": "d1b5390aea3a2ef941253c212135a88b4dc04f46e394e1d70b86868f73d07c05",
+      "counts": {
+        "1": 463,
+        "2": 98,
+        "0": 31
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-10",
+      "rows": 596,
+      "training_keys_hash": "3b072a7eb143389d68818bf589a4a6336489a769a1466ed8cb4a0143d07818df",
+      "counts": {
+        "1": 467,
+        "2": 98,
+        "0": 31
+      }
+    },
+    {
+      "market_id": "000852.SH",
+      "fold_id": "2026-11",
+      "rows": 600,
+      "training_keys_hash": "42fbb4e57bb0a3011d2e6d0c7173666dd301df0f12df6fb9e2cf5c4d4633a336",
+      "counts": {
+        "1": 470,
+        "2": 98,
+        "0": 32
+      }
+    }
+  ],
+  "risk_definition": {
+    "dictionary_version": "76bf6837dc5e32262c99",
+    "risks": {
+      "risk_downside": [
+        0
+      ],
+      "risk_liquidity": [
+        1
+      ],
+      "risk_broad_decline": [
+        0
+      ]
+    },
+    "class_drawdown": {
+      "0": 0.23977607185290653,
+      "1": 0.05291989072597196,
+      "2": 0.054553950334106725
+    },
+    "source": "fixed_initial_training_state_profiles"
+  },
+  "resources": {
+    "cpu_workers": 6,
+    "threads_per_task": 1,
+    "minimum_free_gb": 2,
+    "max_run_gb": 35,
+    "transform_cache_entries": 2,
+    "resolved_cpu_workers": 6
+  },
+  "fixed_scales": {
+    "000985.SH": {
+      "version": "0cb7b75bd8e0777e58aefa78a427e5fb5fc55bfcd2237ad6d8a34ac38af397a9",
+      "market_id": "000985.SH",
+      "source_fold": "initial",
+      "fit_cutoff": "2019-12-31 18:00:00+08:00",
+      "versions": {
+        "data_version": "5d57508f09249cf50b1a2e52",
+        "feature_version": "781685e59a0cfcdb5bb3",
+        "target_version": "f49e499c375fa557fcb0",
+        "dictionary_version": "76bf6837dc5e32262c99",
+        "contract_version": "model-io-v1"
+      },
+      "columns": [
+        "return",
+        "volatility",
+        "drawdown",
+        "amihud",
+        "turnover",
+        "breadth",
+        "correlation"
+      ],
+      "scale": [
+        0.06743762173346818,
+        0.14986124524510744,
+        0.03931844858808331,
+        1.544036361544349e-10,
+        0.00487288960111712,
+        0.07037122466540191,
+        0.20771279882009203
+      ],
+      "dimensions": {
+        "trend": [
+          "return"
+        ],
+        "volatility": [
+          "volatility"
+        ],
+        "downside": [
+          "drawdown"
+        ],
+        "liquidity": [
+          "amihud",
+          "turnover"
+        ],
+        "structure": [
+          "breadth",
+          "correlation"
+        ]
+      },
+      "aggregation": "original-unit errors / fixed initial scale; mean within dimension then mean of five dimensions"
+    },
+    "000300.SH": {
+      "version": "603aeb1ef6b63bcfdffc946b61d54d047ccc6579cc86fa624994234658597e44",
+      "market_id": "000300.SH",
+      "source_fold": "initial",
+      "fit_cutoff": "2019-12-31 18:00:00+08:00",
+      "versions": {
+        "data_version": "5d57508f09249cf50b1a2e52",
+        "feature_version": "781685e59a0cfcdb5bb3",
+        "target_version": "f49e499c375fa557fcb0",
+        "dictionary_version": "76bf6837dc5e32262c99",
+        "contract_version": "model-io-v1"
+      },
+      "columns": [
+        "return",
+        "volatility",
+        "drawdown",
+        "amihud",
+        "turnover",
+        "breadth",
+        "correlation"
+      ],
+      "scale": [
+        0.07195535426438332,
+        0.14598574523085367,
+        0.04897596330041876,
+        1.8724782588969885e-11,
+        0.002682782345052652,
+        0.06365902926148359,
+        0.256481653947189
+      ],
+      "dimensions": {
+        "trend": [
+          "return"
+        ],
+        "volatility": [
+          "volatility"
+        ],
+        "downside": [
+          "drawdown"
+        ],
+        "liquidity": [
+          "amihud",
+          "turnover"
+        ],
+        "structure": [
+          "breadth",
+          "correlation"
+        ]
+      },
+      "aggregation": "original-unit errors / fixed initial scale; mean within dimension then mean of five dimensions"
+    },
+    "000905.SH": {
+      "version": "d44a7986d0448b4a83d5d3c892658c75f69a094b003910e3adeb9c1b5661a622",
+      "market_id": "000905.SH",
+      "source_fold": "initial",
+      "fit_cutoff": "2019-12-31 18:00:00+08:00",
+      "versions": {
+        "data_version": "5d57508f09249cf50b1a2e52",
+        "feature_version": "781685e59a0cfcdb5bb3",
+        "target_version": "f49e499c375fa557fcb0",
+        "dictionary_version": "76bf6837dc5e32262c99",
+        "contract_version": "model-io-v1"
+      },
+      "columns": [
+        "return",
+        "volatility",
+        "drawdown",
+        "amihud",
+        "turnover",
+        "breadth",
+        "correlation"
+      ],
+      "scale": [
+        0.08248369243089099,
+        0.14984259218477214,
+        0.04512146575008302,
+        7.090766823168064e-11,
+        0.009004434538152167,
+        0.06624639324783016,
+        0.22847945475627074
+      ],
+      "dimensions": {
+        "trend": [
+          "return"
+        ],
+        "volatility": [
+          "volatility"
+        ],
+        "downside": [
+          "drawdown"
+        ],
+        "liquidity": [
+          "amihud",
+          "turnover"
+        ],
+        "structure": [
+          "breadth",
+          "correlation"
+        ]
+      },
+      "aggregation": "original-unit errors / fixed initial scale; mean within dimension then mean of five dimensions"
+    },
+    "000852.SH": {
+      "version": "38a61d5368f78e467813c04f7ba5016ca09af5b60fb21f997356b200c2c2e7b9",
+      "market_id": "000852.SH",
+      "source_fold": "initial",
+      "fit_cutoff": "2019-12-31 18:00:00+08:00",
+      "versions": {
+        "data_version": "5d57508f09249cf50b1a2e52",
+        "feature_version": "781685e59a0cfcdb5bb3",
+        "target_version": "f49e499c375fa557fcb0",
+        "dictionary_version": "76bf6837dc5e32262c99",
+        "contract_version": "model-io-v1"
+      },
+      "columns": [
+        "return",
+        "volatility",
+        "drawdown",
+        "amihud",
+        "turnover",
+        "breadth",
+        "correlation"
+      ],
+      "scale": [
+        0.09571194995254945,
+        0.15555616211802237,
+        0.04803987743944799,
+        1.370307440456595e-10,
+        0.014592522065436351,
+        0.07441424871154079,
+        0.20837736900957837
+      ],
+      "dimensions": {
+        "trend": [
+          "return"
+        ],
+        "volatility": [
+          "volatility"
+        ],
+        "downside": [
+          "drawdown"
+        ],
+        "liquidity": [
+          "amihud",
+          "turnover"
+        ],
+        "structure": [
+          "breadth",
+          "correlation"
+        ]
+      },
+      "aggregation": "original-unit errors / fixed initial scale; mean within dimension then mean of five dimensions"
+    }
+  },
+  "supervised_fit_calls": 0,
+  "calibration_fit_calls": 0,
+  "smoke_runs": 0,
+  "forest_acceptance_sha256": "617879c4ab8ebf6bc070a230828bed1d84a45de88f45847be7d5f2533d0611c8"
+}
