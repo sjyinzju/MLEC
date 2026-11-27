@@ -1,0 +1,177 @@
+{
+  "schema_version": "experiments-v1",
+  "purpose": "RESEARCH",
+  "model": "rbf_svm",
+  "backend": "cpu",
+  "data_root": "D:\\大学\\学习\\大二秋冬\\经济学中的机器学习\\m\\MLEC_RBF_SVM_Optimized_20261121_e6e581a7\\data\\market_state",
+  "output_root": "D:\\大学\\学习\\大二秋冬\\经济学中的机器学习\\小组作业\\results_rbf_patched",
+  "markets": [
+    "000985.SH",
+    "000300.SH",
+    "000905.SH",
+    "000852.SH"
+  ],
+  "tasks": [
+    "classification",
+    "regression"
+  ],
+  "quality": "historical_reconstructed",
+  "resources": {
+    "cpu_workers": 6,
+    "threads_per_task": 1,
+    "minimum_free_gb": 2,
+    "max_run_gb": 80,
+    "transform_cache_entries": 2
+  },
+  "search": {
+    "candidate_count": 48,
+    "finalists": 4,
+    "generator_seed": 3059,
+    "coarse_months": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "development_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "classification_C": [
+      0.001,
+      1000.0
+    ],
+    "screening_seed": 3060,
+    "stability_seeds": [
+      3060
+    ],
+    "regression_deterministic_seeds": [
+      3060
+    ],
+    "tol": 0.001,
+    "max_iter": 100000,
+    "tie_rule": "score_then_lower_C_then_lower_gamma_factor_then_larger_epsilon_then_candidate_id",
+    "seed_aggregation": "mean_loss_per_sample_not_probability_ensemble",
+    "failed_candidate": "exclude_entire_candidate_if_any_required_month_fails",
+    "regression_C": [
+      0.001,
+      1000.0
+    ],
+    "epsilon": [
+      0.001,
+      1.0
+    ],
+    "gamma_factors": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "gamma_rule": "factor_over_n_features_times_population_variance_zero_variance_base_one"
+  },
+  "policy": {
+    "class_weight": null,
+    "missing_class": "error",
+    "single_class": "error",
+    "convergence_retries": 1,
+    "iteration_multiplier": 4,
+    "task_attempts": 2,
+    "numerical_warning": "error"
+  },
+  "baselines": {
+    "history_dirichlet_alpha": 1.0,
+    "current_state_probability": "existing_current_memberships",
+    "regression": "past_20d_persistence"
+  },
+  "statistics": {
+    "block_weeks": [
+      8,
+      4,
+      12
+    ],
+    "repetitions": 2000,
+    "seed": 3059,
+    "confidence": 0.95,
+    "primary_market": "000985.SH",
+    "primary_task": "classification",
+    "primary_metric": "log_loss",
+    "holm_families": [
+      "rbf_svm",
+      "random_forest",
+      "catboost"
+    ]
+  },
+  "warning": {
+    "risk_flags": [
+      "risk_downside",
+      "risk_liquidity",
+      "risk_broad_decline"
+    ],
+    "burdens": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "threshold_rule": "largest_attainable_development_burden_not_exceeding_target",
+    "calendar_gap_breaks_segment": true
+  },
+  "retention": {
+    "candidate_weights": "full_review_final_month_only",
+    "selected_weights": "test_core_monthly_and_other_final_month",
+    "diagnostics": "all_successful_fits"
+  },
+  "extensions": {
+    "information_clock": {
+      "implemented": false,
+      "requires": "registered derived feature schema with release-clock-only projection"
+    },
+    "publication_lag": {
+      "implemented": false,
+      "requires": "previous comparable release identity; not a weekly shift"
+    },
+    "market_modules": {
+      "implemented": false,
+      "requires": "registered market-module projection and paired cohorts"
+    },
+    "data_views": {
+      "implemented": false,
+      "requires": "common-cohort view comparison acceptance"
+    },
+    "alternative_dictionary": {
+      "implemented": false,
+      "requires": "separate authorized protocol and label version"
+    }
+  },
+  "solver": {
+    "kernel": "rbf",
+    "probability": false,
+    "decision_function_shape": "ovr",
+    "shrinking": true,
+    "cache_size_mb": 256
+  },
+  "calibration": {
+    "version": "svm-time-sigmoid-v3",
+    "initial_train_weeks": 13,
+    "block_weeks": 26,
+    "min_train_rows": 8,
+    "min_train_per_class": 1,
+    "min_oof_per_class": 2,
+    "min_oof_rows": 26,
+    "min_accepted_blocks": 2,
+    "missing_inner": "skip_block_unless_all_dictionary_classes_in_train",
+    "invalid_calibration": "fail_entire_outer_task",
+    "sigmoid": "platt_smoothed_binary_cross_entropy",
+    "normalization": "clip_expit_1e-15_then_divide_row_sum",
+    "probability_floor": 1e-15,
+    "max_iter": 1000,
+    "ftol": 1e-12,
+    "gtol": 1e-08,
+    "maxls": 50,
+    "optimization_retries": 0,
+    "optimality_gradient": 1e-08,
+    "newton_steps": 20
+  }
+}

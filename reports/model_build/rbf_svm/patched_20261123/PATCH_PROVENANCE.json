@@ -1,0 +1,16 @@
+{
+  "patch": "rbf-block-normalisation-v1",
+  "sealed_archive": "MLEC_RBF_SVM_Optimized_20261121_e6e581a7.zip",
+  "sealed_archive_sha256": "a6afad287b7376ce7a8ef17e8e73a0ad0dd1fc8717c46d5ee61b13aa75d985ed",
+  "working_copy": "D:\\大学\\学习\\大二秋冬\\经济学中的机器学习\\m\\MLEC_RBF_SVM_Optimized_20261121_e6e581a7",
+  "changed_files": {
+    "scripts/market_state/models/rbf_svm.py": {
+      "sha256": "88fe620275ca65454783598514d394dbab0ecf42484fd8b1f919eb03843e3a06",
+      "purpose": "fold-fitted financial/macro block normalisation"
+    }
+  },
+  "patch_script": "scripts/patch_rbf_blockscale.py",
+  "validation_evidence": "D:\\大学\\学习\\大二秋冬\\经济学中的机器学习\\小组作业\\rbf_fix_validation_v2\\validation.json",
+  "receipt_policy": "reports/market_state/model_io/test_results.json is left untouched; it certifies the sealed code hash, not this working copy. Formal execution from this copy is gated by portable tests plus the recorded development-fold validation evidence.",
+  "original_run_preserved": "results_rbf_1121/rbf_svm/4e8ea59438da20173c8ae078"
+}

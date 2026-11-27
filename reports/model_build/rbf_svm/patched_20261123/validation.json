@@ -1,0 +1,98 @@
+[
+  {
+    "market": "000300.SH",
+    "information_set": "M",
+    "gamma": 0.00484818,
+    "features": 207,
+    "macro_features": 0,
+    "macro_distance_share": 0.0,
+    "kernel_mean": 0.2739,
+    "kernel_p05": 0.0004,
+    "kernel_p50": 0.1465,
+    "kernel_p95": 0.7666,
+    "effective_rank": 5.53,
+    "block_scale_ratio": null,
+    "prediction_rows": 5,
+    "predicted_classes": {
+      "1": 5
+    },
+    "max_prob_std": 0.0003,
+    "oof_class_counts": [
+      20,
+      361,
+      6
+    ]
+  },
+  {
+    "market": "000300.SH",
+    "information_set": "M+Z",
+    "gamma": 0.00180715,
+    "features": 562,
+    "macro_features": 355,
+    "macro_distance_share": 0.4854,
+    "kernel_mean": 0.2697,
+    "kernel_p05": 0.0111,
+    "kernel_p50": 0.202,
+    "kernel_p95": 0.6528,
+    "effective_rank": 13.17,
+    "block_scale_ratio": 1.006,
+    "prediction_rows": 5,
+    "predicted_classes": {
+      "1": 5
+    },
+    "max_prob_std": 0.0002,
+    "oof_class_counts": [
+      20,
+      361,
+      6
+    ]
+  },
+  {
+    "market": "000985.SH",
+    "information_set": "M",
+    "gamma": 0.00484818,
+    "features": 207,
+    "macro_features": 0,
+    "macro_distance_share": 0.0,
+    "kernel_mean": 0.2917,
+    "kernel_p05": 0.0004,
+    "kernel_p50": 0.1929,
+    "kernel_p95": 0.7911,
+    "effective_rank": 4.69,
+    "block_scale_ratio": null,
+    "prediction_rows": 5,
+    "predicted_classes": {
+      "1": 5
+    },
+    "max_prob_std": 0.0,
+    "oof_class_counts": [
+      6,
+      347,
+      8
+    ]
+  },
+  {
+    "market": "000985.SH",
+    "information_set": "M+Z",
+    "gamma": 0.00180715,
+    "features": 562,
+    "macro_features": 355,
+    "macro_distance_share": 0.4908,
+    "kernel_mean": 0.2724,
+    "kernel_p05": 0.0109,
+    "kernel_p50": 0.2157,
+    "kernel_p95": 0.6588,
+    "effective_rank": 12.51,
+    "block_scale_ratio": 1.006,
+    "prediction_rows": 5,
+    "predicted_classes": {
+      "1": 5
+    },
+    "max_prob_std": 0.0001,
+    "oof_class_counts": [
+      6,
+      347,
+      8
+    ]
+  }
+]
